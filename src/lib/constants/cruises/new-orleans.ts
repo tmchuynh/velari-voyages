@@ -277,4 +277,153 @@ export const newOrleansCruises: Cruise[] = [
     isFamilyFriendly: false,
     basePrice: 2499,
   },
+  {
+    departureLocation: {
+      city: "New Orleans",
+      country: "USA",
+      state: "LA",
+      region: "South",
+      coordinates: { latitude: 29.9511, longitude: -90.0715 },
+      address:
+        "Port of New Orleans, 1350 Port of New Orleans Pl, New Orleans, LA 70130",
+      postalCode: "70130",
+      timezone: "America/Chicago",
+    },
+    arrivalLocation: {
+      city: "Barbados",
+      country: "Barbados",
+      coordinates: { latitude: 13.1939, longitude: -59.5432 },
+      timezone: "America/Barbados",
+    },
+    category: "premium",
+    itinerary: {
+      route: [
+        { city: "New Orleans", country: "USA" },
+        { city: "Cozumel", country: "Mexico" },
+        { city: "Kingston", country: "Jamaica" },
+        { city: "Bridgetown", country: "Barbados" },
+        { city: "New Orleans", country: "USA" },
+      ],
+      description:
+        "14-night premium Caribbean cruise exploring major ports with deluxe onboard experiences.",
+      distance: "3,200 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [],
+      timeOnLand: [],
+    },
+    requiredDocuments: ["Valid Passport", "US Visa (if applicable)"],
+    cancellationPolicy: "Full refund if canceled 60 days before departure",
+    tourCategoryId: "premium-caribbean",
+    contactPersonnel: [
+      {
+        name: "Samantha Lee",
+        role: "Luxury Cruise Manager",
+        bio: "Expert in premium Caribbean cruises with 12 years of experience.",
+        languages: ["English"],
+        experienceYears: 12,
+        profileImage:
+          "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91",
+        contact: {
+          contactEmail: "samantha.lee@neworleanscruises.com",
+          contactNumber: "+1 504-555-5678",
+        },
+      },
+    ],
+    title: "Extended Premium Caribbean Voyage",
+    description:
+      "Experience an extended 14-night premium Caribbean cruise with deluxe amenities and diverse ports of call.",
+    tags: ["premium", "caribbean", "extended", "luxury"],
+    rating: 4.9,
+    isLuxuryCruise: true,
+    isFamilyFriendly: false,
+    basePrice: 2899,
+  },
+  {
+    departureLocation: {
+      city: "New Orleans",
+      country: "USA",
+      state: "LA",
+      region: "South",
+      coordinates: { latitude: 29.9511, longitude: -90.0715 },
+      address:
+        "Port of New Orleans, 1350 Port of New Orleans Pl, New Orleans, LA 70130",
+      postalCode: "70130",
+      timezone: "America/Chicago",
+    },
+    arrivalLocation: {
+      city: "Lisbon",
+      country: "Portugal",
+      coordinates: { latitude: 38.7223, longitude: -9.1393 },
+      timezone: "Europe/Lisbon",
+    },
+    category: "luxury",
+    itinerary: {
+      route: [
+        { city: "New Orleans", country: "USA" },
+        { city: "San Juan", country: "Puerto Rico" },
+        { city: "Madeira", country: "Portugal" },
+        { city: "Lisbon", country: "Portugal" },
+      ],
+      description:
+        "25-night luxury transatlantic cruise from New Orleans to Lisbon with exclusive amenities and extensive port visits.",
+      distance: "6,500 nautical miles",
+      totalDuration: "25 days",
+      timeAtSea: [
+        {
+          start: "2025-09-01T17:00:00-06:00",
+          end: "2025-09-05T08:00:00-04:00",
+          description: "Sailing from New Orleans to San Juan",
+        },
+        {
+          start: "2025-09-06T20:00:00-04:00",
+          end: "2025-09-15T07:00:00Z",
+          description: "Transatlantic crossing to Madeira",
+        },
+        {
+          start: "2025-09-18T19:00:00Z",
+          end: "2025-09-20T08:00:00+01:00",
+          description: "Final leg from Madeira to Lisbon",
+        },
+      ],
+      timeOnLand: [
+        {
+          start: "2025-09-05T08:30:00-04:00",
+          end: "2025-09-06T19:00:00-04:00",
+          description: "Exploration of Old San Juan and El Morro fortress",
+        },
+        {
+          start: "2025-09-15T08:00:00Z",
+          end: "2025-09-18T18:00:00Z",
+          description:
+            "Madeira island tour including wine tasting and botanical gardens",
+        },
+      ],
+    },
+    requiredDocuments: ["Valid Passport", "Schengen Visa (if applicable)"],
+    cancellationPolicy: "Full refund if canceled 90 days prior",
+    tourCategoryId: "luxury-transatlantic",
+    contactPersonnel: [
+      {
+        name: "Richard Johnson",
+        role: "Luxury Cruise Director",
+        bio: "Over 15 years managing luxury cruises with attention to detail.",
+        languages: ["English"],
+        experienceYears: 15,
+        profileImage:
+          "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f93",
+        contact: {
+          contactEmail: "richard.johnson@neworleanscruises.com",
+          contactNumber: "+1 504-555-2468",
+        },
+      },
+    ],
+    title: "Luxury Transatlantic Voyage to Lisbon",
+    description:
+      "Sail across the Atlantic in luxury on this 25-night cruise from New Orleans to Lisbon with top-tier amenities and port experiences.",
+    tags: ["luxury", "transatlantic", "long cruise", "exclusive"],
+    rating: 5.0,
+    isLuxuryCruise: true,
+    isFamilyFriendly: false,
+    basePrice: 7499,
+  },
 ];
