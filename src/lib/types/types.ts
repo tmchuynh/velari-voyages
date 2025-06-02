@@ -92,3 +92,10 @@ export type ContactInfo = {
   contactNumber?: string; // optional, for direct contact
   contactEmail?: string; // optional, for direct contact
 };
+
+export type TimePeriod = {
+  start: string; // ISO 8601 date string
+  end: string; // ISO 8601 date string
+  duration?: string; // optional, for duration in weeks and days
+  description?: string; // optional, for additional details about the time period
+};
