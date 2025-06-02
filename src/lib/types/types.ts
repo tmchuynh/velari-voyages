@@ -44,6 +44,8 @@ export type Flags = {
   isFamilyFriendly?: boolean; // optional, for family-friendly cruises
   isPetFriendly?: boolean; // optional, for pet-friendly cruises
   isCulturalExperience?: boolean; // optional, for cultural experience cruises
+  isAdultOnly?: boolean; // optional, for adult-only cruises
+  isSinglesCruise?: boolean; // optional, for singles cruises
 };
 
 export type CruiseCategoryFlags = {
