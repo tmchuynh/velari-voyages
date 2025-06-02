@@ -1,5 +1,10 @@
+import {
+  cruiseCategoryMap,
+  cruiseCategoryPackages,
+} from "../constants/info/cruisePackages";
 import { CrewMember } from "../interfaces/people/staff";
 import { Cruise } from "../interfaces/services/cruises";
+import { Package } from "../types/types";
 import {
   formatKebebToTitleCase,
   formatTitleToCamelCase,
@@ -46,6 +51,11 @@ export function getRandomDatesFromNextWeek(
   }
 
   return Array.from(dates);
+}
+
+export function getPackagesForCruiseCategory(category: string): Package[] {
+  const packageIds = cruiseCategoryPackages[category] || [];
+  return packageIds.map((id) => cruiseCategoryMap[id]).filter(Boolean);
 }
 
 export async function getCrewMemberData(city: string): Promise<CrewMember[]> {

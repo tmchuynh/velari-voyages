@@ -335,3 +335,42 @@ export const cruisePackages: Package[] = [
 export const cruiseCategoryMap: Record<string, Package> = Object.fromEntries(
   cruisePackages.map((pkg) => [pkg.id, pkg])
 );
+
+// Map cruise categories to arrays of package IDs that are suitable for each category
+export const cruiseCategoryPackages: Record<string, string[]> = {
+  mainstream: [
+    "all-inclusive",
+    "premium",
+    "family-fun",
+    "adventure",
+    "vip-entertainment",
+    "remote-work-at-sea",
+  ],
+  premium: [
+    "premium",
+    "romantic-getaway",
+    "spa-wellness",
+    "gourmet-dining",
+    "foodie",
+    "fitness-package",
+  ],
+  "entry-luxury": [
+    "luxury",
+    "spa-wellness",
+    "gourmet-dining",
+    "vip-entertainment",
+    "remote-work-at-sea",
+  ],
+  luxury: [
+    "luxury-experience",
+    "concierge-butler-service",
+    "spa-wellness",
+    "gourmet-dining",
+  ],
+  expedition: [
+    "adventure",
+    "luxury",
+    "luxury-experience",
+    "mobility-accessibility",
+  ],
+};
