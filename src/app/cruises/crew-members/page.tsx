@@ -12,17 +12,15 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { TeamMember } from "@/lib/interfaces/people/staff";
+import { CrewMember } from "@/lib/interfaces/people/staff";
 import { getAllTeamMembers } from "@/lib/utils/get";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import { FaFilter } from "react-icons/fa";
 
 export default function CrewMembers() {
-  const router = useRouter();
   const [showFilters, setShowFilters] = useState(false);
-  const [crewMembers, setAllCrewMembers] = useState<TeamMember[]>([]);
+  const [crewMembers, setAllCrewMembers] = useState<CrewMember[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -48,6 +46,11 @@ export default function CrewMembers() {
   const [selectedLanguage, setSelectedLanguage] = useState<string>("all");
   const [selectedRole, setSelectedRole] = useState<string>("all");
   const [selectedExperience, setSelectedExperience] = useState<string>("all");
+  const [selectedCity, setSelectedCity] = useState<string>("all");
+  const [selectedCountry, setSelectedCountry] = useState<string>("all");
+  const [selectedRegion, setSelectedRegion] = useState<string>("all");
+  const [selectedState, setSelectedState] = useState<string>("all");
+  const [selectedDepartment, setSelectedDepartment] = useState<string>("all");
 
   const allLanguages = [
     ...new Set(crewMembers.flatMap((guide) => guide.languages || [])),
@@ -55,6 +58,23 @@ export default function CrewMembers() {
   const allRoles = [...new Set(crewMembers.map((guide) => guide.role))].sort();
   const allExperiences = [
     ...new Set(crewMembers.map((guide) => guide.experienceYears)),
+  ].sort();
+
+  // Extract unique values for location filters and department
+  const allCities = [
+    ...new Set(crewMembers.map((member) => member.city)),
+  ].sort();
+  const allCountries = [
+    ...new Set(crewMembers.map((member) => member.country)),
+  ].sort();
+  const allRegions = [
+    ...new Set(crewMembers.map((member) => member.region).filter(Boolean)),
+  ].sort();
+  const allStates = [
+    ...new Set(crewMembers.map((member) => member.state).filter(Boolean)),
+  ].sort();
+  const allDepartments = [
+    ...new Set(crewMembers.map((member) => member.department)),
   ].sort();
 
   // Filter tour guides based on selected filters
@@ -89,6 +109,34 @@ export default function CrewMembers() {
         return false;
       }
 
+      // Filter by city
+      if (selectedCity !== "all" && guide.city !== selectedCity) {
+        return false;
+      }
+
+      // Filter by country
+      if (selectedCountry !== "all" && guide.country !== selectedCountry) {
+        return false;
+      }
+
+      // Filter by region
+      if (selectedRegion !== "all" && guide.region !== selectedRegion) {
+        return false;
+      }
+
+      // Filter by state
+      if (selectedState !== "all" && guide.state !== selectedState) {
+        return false;
+      }
+
+      // Filter by department
+      if (
+        selectedDepartment !== "all" &&
+        guide.department !== selectedDepartment
+      ) {
+        return false;
+      }
+
       return true;
     });
   }, [
@@ -96,6 +144,11 @@ export default function CrewMembers() {
     selectedLanguage,
     selectedRole,
     selectedExperience,
+    selectedCity,
+    selectedCountry,
+    selectedRegion,
+    selectedState,
+    selectedDepartment,
     crewMembers,
   ]);
 
@@ -108,7 +161,7 @@ export default function CrewMembers() {
       }
       groups[role].push(member);
       return groups;
-    }, {} as Record<string, TeamMember[]>);
+    }, {} as Record<string, CrewMember[]>);
   }, [filteredCrewMembers]);
 
   // Get sorted role names for display
@@ -134,6 +187,11 @@ export default function CrewMembers() {
     setSelectedLanguage("all");
     setSelectedRole("all");
     setSelectedExperience("all");
+    setSelectedCity("all");
+    setSelectedCountry("all");
+    setSelectedRegion("all");
+    setSelectedState("all");
+    setSelectedDepartment("all");
     scrollToSection("filter-section");
   };
 
@@ -161,9 +219,9 @@ export default function CrewMembers() {
         </p>
       </header>
 
-      <section>
+      <section id="filter-section">
         <div className="flex justify-between items-center mb-4">
-          <h2>Filter Vehicles</h2>
+          <h2>Filter Crew Members</h2>
           <Button
             onClick={() => setShowFilters(!showFilters)}
             variant="icon"
@@ -176,15 +234,15 @@ export default function CrewMembers() {
         {showFilters && (
           <Card>
             <CardContent>
-              <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5">
-                <h2 className="mb-4">Find Your Perfect Guide</h2>
+              <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                <h2 className="col-span-full mb-4">Find Your Perfect Crew</h2>
 
                 {/* Search by name */}
                 <div>
                   <Label htmlFor="search-name">Search by Name</Label>
                   <Input
                     id="search-name"
-                    placeholder="Guide name..."
+                    placeholder="Crew member name..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                   />
@@ -243,32 +301,132 @@ export default function CrewMembers() {
                       <SelectItem value="all">All Experience</SelectItem>
                       {allExperiences.map((experience) => (
                         <SelectItem key={experience} value={`${experience}`}>
-                          {experience}
+                          {experience} Years
                         </SelectItem>
                       ))}
                     </SelectContent>
                   </Select>
                 </div>
 
-                <Button variant="outline" onClick={clearFilters}>
+                {/* Filter by department */}
+                <div>
+                  <Label htmlFor="filter-department">
+                    Filter by Department
+                  </Label>
+                  <Select
+                    value={selectedDepartment}
+                    onValueChange={setSelectedDepartment}
+                  >
+                    <SelectTrigger id="filter-department">
+                      <SelectValue placeholder="Select department" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="all">All Departments</SelectItem>
+                      {allDepartments.map((dept) => (
+                        <SelectItem key={dept} value={dept}>
+                          {dept}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                {/* Filter by city */}
+                <div>
+                  <Label htmlFor="filter-city">Filter by City</Label>
+                  <Select value={selectedCity} onValueChange={setSelectedCity}>
+                    <SelectTrigger id="filter-city">
+                      <SelectValue placeholder="Select city" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="all">All Cities</SelectItem>
+                      {allCities.map((city) => (
+                        <SelectItem key={city} value={city}>
+                          {city}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                {/* Filter by country */}
+                <div>
+                  <Label htmlFor="filter-country">Filter by Country</Label>
+                  <Select
+                    value={selectedCountry}
+                    onValueChange={setSelectedCountry}
+                  >
+                    <SelectTrigger id="filter-country">
+                      <SelectValue placeholder="Select country" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="all">All Countries</SelectItem>
+                      {allCountries.map((country) => (
+                        <SelectItem key={country} value={country}>
+                          {country}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                {/* Filter by region (if available) */}
+                {allRegions.length > 0 && (
+                  <div>
+                    <Label htmlFor="filter-region">Filter by Region</Label>
+                    <Select
+                      value={selectedRegion}
+                      onValueChange={setSelectedRegion}
+                    >
+                      <SelectTrigger id="filter-region">
+                        <SelectValue placeholder="Select region" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="all">All Regions</SelectItem>
+                        {allRegions.map((region) => (
+                          <SelectItem key={region} value={`${region}`}>
+                            {region}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+                )}
+
+                {/* Filter by state (if available) */}
+                {allStates.length > 0 && (
+                  <div>
+                    <Label htmlFor="filter-state">Filter by State</Label>
+                    <Select
+                      value={selectedState}
+                      onValueChange={setSelectedState}
+                    >
+                      <SelectTrigger id="filter-state">
+                        <SelectValue placeholder="Select state" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="all">All States</SelectItem>
+                        {allStates.map((state) => (
+                          <SelectItem key={state} value={`${state}`}>
+                            {state}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+                )}
+
+                <Button
+                  variant="outline"
+                  onClick={clearFilters}
+                  className="col-span-1 md:col-span-2 lg:col-span-1"
+                >
                   Clear Filters
                 </Button>
-
-                {/* <div className="flex justify-between items-end mt-6">
-                <div className="flex items-center text-muted-foreground text-sm">
-                  Showing{" "}
-                  {filteredCrewMembers.reduce((category) => category, 0)} of{" "}
-                  {allCrewMembers.reduce((category) => category, 0)}{" "}
-                  vehicles
-                </div>
-                <Button
-                  variant="destructive"
-                  onClick={clearFilters}
-                  className="mr-2"
-                >
-                  Reset Filters
-                </Button>
-              </div> */}
+              </div>
+              <div className="mt-4 text-muted-foreground text-sm">
+                Showing {filteredCrewMembers.length} of {crewMembers.length}{" "}
+                crew members
               </div>
             </CardContent>
           </Card>
