@@ -1229,6 +1229,244 @@ export const worldCruises: Cruise[] = [
     basePrice: 22354,
     rating: 4.8,
   },
+  {
+    departureLocation: {
+      city: "Singapore",
+      country: "Singapore",
+      region: "Central Singapore",
+      coordinates: { latitude: 1.3521, longitude: 103.8198 },
+      timezone: "Asia/Singapore",
+      address: "Marina Bay Cruise Centre Singapore",
+    },
+    arrivalLocation: {
+      city: "Singapore",
+      country: "Singapore",
+      region: "Central Singapore",
+      coordinates: { latitude: 1.3521, longitude: 103.8198 },
+      timezone: "Asia/Singapore",
+      address: "Marina Bay Cruise Centre Singapore",
+    },
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+        { city: "Singapore", country: "Singapore" },
+        { city: "Bangkok", country: "Thailand" },
+        { city: "Ho Chi Minh City", country: "Vietnam" },
+        { city: "Hong Kong", country: "China" },
+        { city: "Shanghai", country: "China" },
+        { city: "Tokyo", country: "Japan" },
+        { city: "Vancouver", country: "Canada" },
+        { city: "Seattle", country: "USA" },
+        { city: "San Francisco", country: "USA" },
+        { city: "Los Angeles", country: "USA" },
+        { city: "Honolulu", country: "USA" },
+        { city: "Fiji", country: "Fiji" },
+        { city: "Sydney", country: "Australia" },
+        { city: "Singapore", country: "Singapore" },
+      ],
+      description:
+        "90-night premium world cruise exploring the vibrant cities and cultures of Asia, North America, and Oceania.",
+      distance: "25,000 nautical miles",
+      totalDuration: "90 days",
+      timeAtSea: [
+        {
+          start: "2026-05-10T16:00:00+08:00",
+          end: "2026-05-12T08:00:00+07:00",
+          description:
+            "Sailing from Singapore to Bangkok across the South China Sea.",
+        },
+        {
+          start: "2026-05-14T17:00:00+07:00",
+          end: "2026-05-16T09:00:00+07:00",
+          description:
+            "Crossing from Bangkok to Ho Chi Minh City through the Gulf of Thailand.",
+        },
+        {
+          start: "2026-05-18T16:00:00+07:00",
+          end: "2026-05-21T08:00:00+08:00",
+          description:
+            "Journey from Ho Chi Minh City to Hong Kong across the South China Sea.",
+        },
+        {
+          start: "2026-05-23T17:00:00+08:00",
+          end: "2026-05-25T09:00:00+08:00",
+          description:
+            "Sailing from Hong Kong to Shanghai through the East China Sea.",
+        },
+        {
+          start: "2026-05-27T16:00:00+08:00",
+          end: "2026-05-30T08:00:00+09:00",
+          description:
+            "Crossing from Shanghai to Tokyo across the Sea of Japan.",
+        },
+        {
+          start: "2026-06-08T17:00:00+09:00",
+          end: "2026-06-11T09:00:00-07:00",
+          description:
+            "Transpacific crossing from Tokyo to Vancouver across the Pacific Ocean.",
+        },
+        {
+          start: "2026-06-13T16:00:00-07:00",
+          end: "2026-06-15T08:00:00-07:00",
+          description:
+            "Sailing from Vancouver to Seattle along the Pacific Coast.",
+        },
+        {
+          start: "2026-06-17T17:00:00-07:00",
+          end: "2026-06-18T09:00:00-07:00",
+          description:
+            "Journey from Seattle to San Francisco through the Strait of Juan de Fuca.",
+        },
+        {
+          start: "2026-06-20T16:00:00-07:00",
+          end: "2026-06-25T08:00:00-07:00",
+          description:
+            "Sailing from San Francisco to Los Angeles along the California coast.",
+        },
+        {
+          start: "2026-06-27T17:00:00-10:00",
+          end: "2026-06-30T09:00:00-10:00",
+          description:
+            "Crossing from Los Angeles to Honolulu across the Pacific Ocean.",
+        },
+        {
+          start: "2026-07-02T16:00:00-10:00",
+          end: "2026-07-07T08:00:00+12:00",
+          description:
+            "Sailing from Honolulu to Fiji through the South Pacific waters.",
+        },
+        {
+          start: "2026-07-09T17:00:00+12:00",
+          end: "2026-07-11T09:00:00+10:00",
+          description: "Journey from Fiji to Sydney across the Coral Sea.",
+        },
+        {
+          start: "2026-07-18T16:00:00+08:00",
+          end: "2026-07-20T08:00:00+08:00",
+          description:
+            "Final sailing from Sydney back to Singapore across the Indian Ocean.",
+        },
+      ],
+      timeOnLand: [
+        {
+          start: "2026-05-10T08:00:00+08:00",
+          end: "2026-05-10T15:00:00+08:00",
+          description:
+            "Embarkation in Singapore with welcome reception and city tour.",
+        },
+        {
+          start: "2026-05-12T09:00:00+07:00",
+          end: "2026-05-14T16:00:00+07:00",
+          description:
+            "Bangkok cultural immersion with temple visits, river cruises, and street food tours.",
+        },
+        {
+          start: "2026-05-16T08:00:00+07:00",
+          end: "2026-05-18T15:00:00+07:00",
+          description:
+            "Ho Chi Minh City exploration including Cu Chi Tunnels, Mekong Delta, and local markets.",
+        },
+        {
+          start: "2026-05-21T09:00:00+08:00",
+          end: "2026-05-23T15:00:00+08:00",
+          description:
+            "Hong Kong city tour with Victoria Peak, Star Ferry ride, and local dim sum experience.",
+        },
+        {
+          start: "2026-05-25T10:00:00+08:00",
+          end: "2026-05-27T15:00:00+08:00",
+          description:
+            "Shanghai cultural experience with The Bund, Yu Garden, and Shanghai Tower visit.",
+        },
+        {
+          start: "2026-05-30T09:00:00+09:00",
+          end: "2026-06-01T16:00:00+09:00",
+          description:
+            "Tokyo exploration with Shibuya, Shinjuku, and traditional tea ceremony experiences.",
+        },
+        {
+          start: "2026-06-11T10:00:00-07:00",
+          end: "2026-06-13T15:00:00-07:00",
+          description:
+            "Vancouver city highlights including Stanley Park, Granville Island, and Capilano Suspension Bridge.",
+        },
+        {
+          start: "2026-06-15T09:00:00-07:00",
+          end: "2026-06-17T16:00:00-07:00",
+          description:
+            "Seattle cultural immersion with Pike Place Market, Space Needle, and Chihuly Garden and Glass.",
+        },
+        {
+          start: "2026-06-18T10:00:00-07:00",
+          end: "2026-06-20T15:00:00-07:00",
+          description:
+            "San Francisco exploration with Golden Gate Bridge, Alcatraz Island, and Fisherman's Wharf.",
+        },
+        {
+          start: "2026-06-25T09:00:00-07:00",
+          end: "2026-06-27T16:00:00-10:00",
+          description:
+            "Los Angeles city tour with Hollywood, Beverly Hills, and Santa Monica Pier.",
+        },
+        {
+          start: "2026-06-30T10:00:00-10:00",
+          end: "2026-07-02T15:00:00-10:00",
+          description:
+            "Honolulu cultural experience with Pearl Harbor, Diamond Head, and traditional Hawaiian luau.",
+        },
+        {
+          start: "2026-07-07T09:00:00+12:00",
+          end: "2026-07-09T16:00:00+12:00",
+          description:
+            "Fiji island exploration with coral reefs, local villages, and beach relaxation.",
+        },
+        {
+          start: "2026-07-11T10:00:00+10:00",
+          end: "2026-07-13T15:00:00+10:00",
+          description:
+            "Sydney city tour with Sydney Opera House, Harbour Bridge, and Bondi Beach.",
+        },
+        {
+          start: "2026-07-20T09:00:00+08:00",
+          end: "2026-07-20T16:00:00+08:00",
+          description:
+            "Disembarkation in Singapore with farewell brunch and optional city tour.",
+        },
+      ],
+    },
+    requiredDocuments: [
+      "Valid Passport",
+      "Multiple Entry Visas",
+      "COVID-19 Vaccination Record",
+      "Health Declaration Form",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 90 days before departure; 75% refund up to 60 days; 50% refund up to 30 days; no refund within 30 days",
+    tourCategoryId: "world-cruise",
+    contactPersonnel: [
+      {
+        name: "Sophia Tan",
+        role: "Asia-Pacific Cruise Director",
+        description:
+          "Experienced cruise director specializing in Asia-Pacific voyages",
+        languages: ["English", "Mandarin", "Malay"],
+        experienceYears: 15,
+        profileImage:
+          "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+        contact: {
+          contactNumber: "+65 800 555 1234",
+        },
+      },
+    ],
+    title: "Asia-Pacific World Cruise",
+    description:
+      "Embark on a 90-night premium world cruise exploring the vibrant cities and cultures of Asia, North America, and Oceania with luxurious amenities and unforgettable experiences.",
+    tags: ["world-cruise", "premium", "asia-pacific"],
+    rating: 4.7,
+    isFamilyFriendly: true,
+    isLuxuryCruise: true,
+    basePrice: 15999,
+  },
 ];
 
 export default worldCruises;
