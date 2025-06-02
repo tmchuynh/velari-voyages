@@ -1,11 +1,8 @@
+import { TeamMember } from "../interfaces/people/staff";
+
 export type NotFoundContextType = {
   isNotFound: boolean;
   setNotFound: (value: boolean) => void;
-};
-
-export type Testimonial = {
-  testimonial: string;
-  author: string;
 };
 
 export type Menu = {
@@ -31,16 +28,67 @@ export type Metrics = {
   description: string;
 };
 
-export type Staff = {
-  name: string;
-  title: string;
-  bio: string;
-  image: string;
-};
-
 export type StaffTeams = {
   category: string;
   subtitle?: string;
   description?: string;
-  members: Staff[];
+  members: TeamMember[];
+};
+
+export type MeetingPoint = {
+  location: Location; // additional instructions for the meeting point
+  contactInfo: ContactInfo; // optional contact email for the meeting point
+};
+
+export type Flags = {
+  isWeekendCruise?: boolean; // optional, for weekend cruises
+  isFjordsTour?: boolean; // optional, for fjords tours
+  isRepositioningCruise?: boolean; // optional, for repositioning cruises
+  isAnniversaryCruise?: boolean; // optional, for anniversary cruises
+  isGlacierCruise?: boolean; // optional, for glacier cruises
+  isTropicalCruise?: boolean; // optional, for tropical cruises
+  isLuxuryCruise?: boolean; // optional, for luxury cruises
+  isVIPCruise?: boolean; // optional, for VIP cruises
+  isThemeCruise?: boolean; // optional, for theme cruises
+  isFamilyFriendly?: boolean; // optional, for family-friendly cruises
+  isPetFriendly?: boolean; // optional, for pet-friendly cruises
+  isAdventureCruise?: boolean; // optional, for adventure cruises
+  isCulturalExperience?: boolean; // optional, for cultural experience cruises
+};
+
+export type Package = {
+  id: string;
+  title: string;
+  description: string;
+  price: number;
+  includes: string[];
+  excludes?: string[];
+};
+
+export type Details = {
+  title: string;
+  description: string;
+  tags?: string[];
+  rating: number;
+  faqs?: FAQs[];
+};
+
+export type Location = {
+  city: string;
+  country: string;
+  state?: string;
+  region?: string;
+  coordinates?: {
+    latitude: number;
+    longitude: number;
+  };
+  address?: string;
+  postalCode?: string;
+  timezone?: string; // optional, for time-sensitive activities
+  additionalInfo?: string; // optional, for any extra details
+};
+
+export type ContactInfo = {
+  contactNumber?: string; // optional, for direct contact
+  contactEmail?: string; // optional, for direct contact
 };
