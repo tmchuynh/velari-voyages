@@ -1,4 +1,5 @@
-import { CrewMember, TeamMember } from "../interfaces/people/staff";
+import { CrewMember } from "../interfaces/people/staff";
+import { Cruise } from "../interfaces/services/cruises";
 import {
   formatKebebToTitleCase,
   formatTitleToCamelCase,
@@ -79,7 +80,7 @@ export async function getCrewMemberData(city: string): Promise<CrewMember[]> {
   }
 }
 
-export async function getTourData(city: string): Promise<any> {
+export async function getCruises(city: string): Promise<any> {
   // First remove accents from the entire city name, then format it
   const cityWithoutAccents = removeAccents(city);
   const cityFormatted =
@@ -88,32 +89,52 @@ export async function getTourData(city: string): Promise<any> {
       .replace("'", "")
       .replace("-", "");
 
-  const tourID = `${cityFormatted}Cruises`;
+  const cruiseID = `${cityFormatted}Cruises`;
 
   try {
-    const tourModule = await import(
+    const cruiseModule = await import(
       `@/lib/constants/cruises/${formatToSlug(
         cityWithoutAccents.replace("'", "-")
       )}`
     );
-    // Return the specific named export that matches tourID
-    if (tourModule[tourID]) {
-      return tourModule[tourID];
+    // Return the specific named export that matches cruiseID
+    if (cruiseModule[cruiseID]) {
+      return cruiseModule[cruiseID];
     } else {
       console.error(
-        `Export named export const ${tourID}: Tour[] =[]; not found in module`
+        `Export named export const ${cruiseID}: Cruise[] =[]; not found in module`
       );
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading resource from @/lib/constants/tours: ${error} export const ${tourID}: Tour[] = [];`
+      `Error loading resource from @/lib/constants/tours: ${error} export const ${cruiseID}: Tour[] = [];`
     );
     return [];
   }
 }
 
-export async function getAllCruises(): Promise<TeamMember[]> {
+export function getCruisesByCategory(
+  cruises: Cruise[],
+  category: string
+): Cruise[] {
+  if (!cruises || !Array.isArray(cruises)) {
+    console.error("Invalid tours data provided");
+    return [];
+  }
+
+  // Filter tours by the specified category ID
+  const filteredCruises = cruises.filter(
+    (tour) => tour.tourCategoryId === category
+  );
+
+  if (filteredCruises.length === 0) {
+    console.warn(`No tours found for category ID: ${category}`);
+  }
+  return filteredCruises;
+}
+
+export async function getAllCruises(): Promise<Cruise[]> {
   // List of all city file names (without the .ts extension)
   const cityFiles = [
     "auckland",
@@ -139,7 +160,7 @@ export async function getAllCruises(): Promise<TeamMember[]> {
   ];
 
   // Combined array for all cruises
-  const allCruises: TeamMember[] = [];
+  const allCruises: Cruise[] = [];
 
   // Loop through each city file and import its cruises
   for (const city of cityFiles) {
