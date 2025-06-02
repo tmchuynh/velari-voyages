@@ -528,26 +528,162 @@ export const worldCruises: Cruise[] = [
       timeAtSea: [
         {
           start: "2026-05-10T16:00:00+08:00",
-          end: "2026-08-08T09:00:00+08:00",
+          end: "2026-05-12T08:00:00+07:00",
           description:
-            "Premium cruise featuring city tours, culinary experiences, and wellness programs.",
+            "Sailing from Singapore to Bangkok through the Gulf of Thailand.",
+        },
+        {
+          start: "2026-05-14T18:00:00+07:00",
+          end: "2026-05-16T07:00:00+07:00",
+          description:
+            "Cruising from Bangkok to Ho Chi Minh City along the coast of the Gulf of Thailand.",
+        },
+        {
+          start: "2026-05-18T16:00:00+07:00",
+          end: "2026-05-21T08:00:00+08:00",
+          description:
+            "Journey from Ho Chi Minh City to Hong Kong across the South China Sea.",
+        },
+        {
+          start: "2026-05-23T17:00:00+08:00",
+          end: "2026-05-25T09:00:00+08:00",
+          description:
+            "Sailing north from Hong Kong to Shanghai along the East China Sea.",
+        },
+        {
+          start: "2026-05-27T18:00:00+08:00",
+          end: "2026-05-30T07:00:00+09:00",
+          description:
+            "Crossing from Shanghai to Tokyo through the East China Sea and Pacific Ocean.",
+        },
+        {
+          start: "2026-06-01T16:00:00+09:00",
+          end: "2026-06-08T08:00:00-07:00",
+          description:
+            "Transpacific voyage from Tokyo to Vancouver across the North Pacific.",
+        },
+        {
+          start: "2026-06-10T17:00:00-07:00",
+          end: "2026-06-11T08:00:00-07:00",
+          description: "Short coastal cruise from Vancouver to Seattle.",
+        },
+        {
+          start: "2026-06-13T16:00:00-07:00",
+          end: "2026-06-15T08:00:00-07:00",
+          description:
+            "Sailing down the West Coast from Seattle to San Francisco.",
+        },
+        {
+          start: "2026-06-17T17:00:00-07:00",
+          end: "2026-06-18T09:00:00-07:00",
+          description: "Coastal journey from San Francisco to Los Angeles.",
+        },
+        {
+          start: "2026-06-20T16:00:00-07:00",
+          end: "2026-06-25T08:00:00-10:00",
+          description:
+            "Crossing from Los Angeles to Honolulu across the Pacific Ocean.",
+        },
+        {
+          start: "2026-06-27T17:00:00-10:00",
+          end: "2026-07-02T08:00:00+12:00",
+          description: "Southern Pacific crossing from Honolulu to Fiji.",
+        },
+        {
+          start: "2026-07-04T16:00:00+12:00",
+          end: "2026-07-07T08:00:00+10:00",
+          description: "Journey from Fiji to Sydney across the Coral Sea.",
+        },
+        {
+          start: "2026-07-09T17:00:00+10:00",
+          end: "2026-07-17T09:00:00+08:00",
+          description:
+            "Final leg returning from Sydney to Singapore through Indonesian waters.",
         },
       ],
       timeOnLand: [
         {
-          start: "2026-06-01T08:00:00+07:00",
-          end: "2026-06-02T20:00:00+07:00",
-          description: "Bangkok river cruise and temple visits.",
+          start: "2026-05-10T08:00:00+08:00",
+          end: "2026-05-10T15:00:00+08:00",
+          description: "Embarkation in Singapore with city highlights tour.",
         },
         {
-          start: "2026-07-05T07:00:00-08:00",
-          end: "2026-07-06T19:00:00-08:00",
-          description: "San Francisco city highlights including Alcatraz tour.",
+          start: "2026-05-12T09:00:00+07:00",
+          end: "2026-05-14T17:00:00+07:00",
+          description:
+            "Bangkok river cruise, temple visits, and authentic Thai cultural experiences.",
         },
         {
-          start: "2026-07-20T08:00:00+10:00",
-          end: "2026-07-21T18:00:00+10:00",
-          description: "Sydney cultural walking tour and theatre night.",
+          start: "2026-05-16T08:00:00+07:00",
+          end: "2026-05-18T15:00:00+07:00",
+          description:
+            "Ho Chi Minh City tour including Cu Chi tunnels and local cuisine exploration.",
+        },
+        {
+          start: "2026-05-21T09:00:00+08:00",
+          end: "2026-05-23T16:00:00+08:00",
+          description:
+            "Hong Kong harbor tour, Victoria Peak, and dim sum experience.",
+        },
+        {
+          start: "2026-05-25T10:00:00+08:00",
+          end: "2026-05-27T17:00:00+08:00",
+          description:
+            "Shanghai exploration featuring the Bund, Yu Garden, and Pudong district.",
+        },
+        {
+          start: "2026-05-30T08:00:00+09:00",
+          end: "2026-06-01T15:00:00+09:00",
+          description:
+            "Tokyo city tour, Mt. Fuji excursion, and traditional Japanese tea ceremony.",
+        },
+        {
+          start: "2026-06-08T09:00:00-07:00",
+          end: "2026-06-10T16:00:00-07:00",
+          description:
+            "Vancouver exploration including Stanley Park, Granville Island, and Capilano Bridge.",
+        },
+        {
+          start: "2026-06-11T09:00:00-07:00",
+          end: "2026-06-13T15:00:00-07:00",
+          description:
+            "Seattle visit featuring Pike Place Market, Space Needle, and Boeing factory tour.",
+        },
+        {
+          start: "2026-06-15T09:00:00-07:00",
+          end: "2026-06-17T16:00:00-07:00",
+          description:
+            "San Francisco city highlights including Alcatraz tour, Golden Gate Bridge, and Napa Valley excursion.",
+        },
+        {
+          start: "2026-06-18T10:00:00-07:00",
+          end: "2026-06-20T15:00:00-07:00",
+          description:
+            "Los Angeles visit with Hollywood, Beverly Hills, and Santa Monica tours.",
+        },
+        {
+          start: "2026-06-25T09:00:00-10:00",
+          end: "2026-06-27T16:00:00-10:00",
+          description:
+            "Honolulu stay featuring Pearl Harbor, Waikiki Beach, and traditional luau experience.",
+        },
+        {
+          start: "2026-07-02T09:00:00+12:00",
+          end: "2026-07-04T15:00:00+12:00",
+          description:
+            "Fiji exploration with island hopping, snorkeling, and traditional village visit.",
+        },
+        {
+          start: "2026-07-07T09:00:00+10:00",
+          end: "2026-07-09T16:00:00+10:00",
+          description:
+            "Sydney cultural walking tour, opera house visit, and theatre night.",
+        },
+        {
+          start: "2026-07-17T10:00:00+08:00",
+          end: "2026-07-18T18:00:00+08:00",
+          description:
+            "Final day in Singapore with farewell dinner and Gardens by the Bay light show.",
         },
       ],
     },
@@ -628,27 +764,182 @@ export const worldCruises: Cruise[] = [
       timeAtSea: [
         {
           start: "2025-12-10T16:00:00-05:00",
-          end: "2026-09-10T08:00:00-04:00",
+          end: "2025-12-12T08:00:00-04:00",
           description:
-            "The longest and most comprehensive world cruise offering extensive sea days with resort-style amenities",
+            "Smooth sailing from Miami to Punta Cana across the Caribbean Sea",
+        },
+        {
+          start: "2025-12-14T17:00:00-04:00",
+          end: "2025-12-15T08:00:00-04:00",
+          description: "Short Caribbean cruise from Punta Cana to San Juan",
+        },
+        {
+          start: "2025-12-18T16:00:00-04:00",
+          end: "2025-12-25T09:00:00-03:00",
+          description: "Transatlantic crossing from San Juan to Rio de Janeiro",
+        },
+        {
+          start: "2025-12-30T17:00:00-03:00",
+          end: "2026-01-10T08:00:00+02:00",
+          description:
+            "South Atlantic passage from Rio de Janeiro to Cape Town",
+        },
+        {
+          start: "2026-01-15T16:00:00+02:00",
+          end: "2026-01-18T07:00:00+03:00",
+          description: "Coastal African cruise from Cape Town to Zanzibar",
+        },
+        {
+          start: "2026-01-21T16:00:00+03:00",
+          end: "2026-01-24T08:00:00+04:00",
+          description: "Indian Ocean voyage from Zanzibar to Seychelles",
+        },
+        {
+          start: "2026-01-28T17:00:00+04:00",
+          end: "2026-02-05T09:00:00+05:30",
+          description: "Crossing the Arabian Sea from Seychelles to Mumbai",
+        },
+        {
+          start: "2026-02-10T16:00:00+05:30",
+          end: "2026-02-16T08:00:00+07:00",
+          description:
+            "Journey through the Bay of Bengal from Mumbai to Bangkok",
+        },
+        {
+          start: "2026-02-20T17:00:00+07:00",
+          end: "2026-02-22T08:00:00+07:00",
+          description:
+            "Gulf of Thailand passage from Bangkok to Ho Chi Minh City",
+        },
+        {
+          start: "2026-02-25T16:00:00+07:00",
+          end: "2026-02-28T08:00:00+08:00",
+          description:
+            "South China Sea crossing from Ho Chi Minh City to Hong Kong",
+        },
+        {
+          start: "2026-03-03T16:00:00+08:00",
+          end: "2026-03-08T07:00:00+09:00",
+          description: "East China Sea voyage from Hong Kong to Tokyo",
+        },
+        {
+          start: "2026-03-15T17:00:00+09:00",
+          end: "2026-03-22T08:00:00-10:00",
+          description: "Transpacific crossing from Tokyo to Honolulu",
+        },
+        {
+          start: "2026-03-26T16:00:00-10:00",
+          end: "2026-03-31T09:00:00-07:00",
+          description: "Pacific Ocean voyage from Honolulu to Los Angeles",
+        },
+        {
+          start: "2026-04-05T17:00:00-07:00",
+          end: "2026-04-12T08:00:00-05:00",
+          description:
+            "Journey through Panama Canal from Los Angeles to Cartagena",
+        },
+        {
+          start: "2026-04-15T16:00:00-05:00",
+          end: "2026-04-17T08:00:00-04:00",
+          description: "Final Caribbean leg from Cartagena to Miami",
         },
       ],
       timeOnLand: [
         {
-          start: "2026-01-30T07:00:00+02:00",
-          end: "2026-02-01T17:00:00+02:00",
-          description: "Three-day safari adventure in South Africa",
-        },
-        {
-          start: "2026-04-10T08:00:00+09:00",
-          end: "2026-04-12T19:00:00+09:00",
+          start: "2025-12-10T08:00:00-05:00",
+          end: "2025-12-10T15:00:00-05:00",
           description:
-            "Japanese cultural immersion with traditional ryokan stay",
+            "Embarkation in Miami with welcome reception and city tour",
         },
         {
-          start: "2026-06-15T06:00:00-10:00",
-          end: "2026-06-16T17:00:00-10:00",
-          description: "Hawaiian luau celebration and volcano helicopter tour",
+          start: "2025-12-12T09:00:00-04:00",
+          end: "2025-12-14T16:00:00-04:00",
+          description:
+            "Punta Cana beach resort experience with exclusive water activities",
+        },
+        {
+          start: "2025-12-15T09:00:00-04:00",
+          end: "2025-12-18T15:00:00-04:00",
+          description:
+            "San Juan historical tour and Puerto Rican cultural immersion",
+        },
+        {
+          start: "2025-12-25T10:00:00-03:00",
+          end: "2025-12-30T16:00:00-03:00",
+          description:
+            "Rio de Janeiro exploration including Sugarloaf Mountain, Christ the Redeemer, and Carnival experience",
+        },
+        {
+          start: "2026-01-10T09:00:00+02:00",
+          end: "2026-01-15T15:00:00+02:00",
+          description:
+            "Cape Town safari adventure, Table Mountain tour, and wine country excursion",
+        },
+        {
+          start: "2026-01-18T08:00:00+03:00",
+          end: "2026-01-21T15:00:00+03:00",
+          description:
+            "Zanzibar spice tour, historical Stone Town visit, and beach relaxation",
+        },
+        {
+          start: "2026-01-24T09:00:00+04:00",
+          end: "2026-01-28T16:00:00+04:00",
+          description:
+            "Seychelles island exploration, nature reserves, and luxury beach experiences",
+        },
+        {
+          start: "2026-02-05T10:00:00+05:30",
+          end: "2026-02-10T15:00:00+05:30",
+          description:
+            "Mumbai cultural tour, Bollywood experience, and Gateway of India exploration",
+        },
+        {
+          start: "2026-02-16T09:00:00+07:00",
+          end: "2026-02-20T16:00:00+07:00",
+          description:
+            "Bangkok temple tours, river cruises, and authentic Thai cuisine experiences",
+        },
+        {
+          start: "2026-02-22T09:00:00+07:00",
+          end: "2026-02-25T15:00:00+07:00",
+          description:
+            "Ho Chi Minh City cultural immersion with Cu Chi Tunnels and Mekong Delta excursions",
+        },
+        {
+          start: "2026-02-28T09:00:00+08:00",
+          end: "2026-03-03T15:00:00+08:00",
+          description:
+            "Hong Kong harbor tours, Peak Tram experience, and dim sum culinary journey",
+        },
+        {
+          start: "2026-03-08T08:00:00+09:00",
+          end: "2026-03-15T16:00:00+09:00",
+          description:
+            "Tokyo exploration with Mt. Fuji excursion, traditional ryokan stay, and cultural ceremonies",
+        },
+        {
+          start: "2026-03-22T09:00:00-10:00",
+          end: "2026-03-26T15:00:00-10:00",
+          description:
+            "Hawaiian cultural immersion with luau celebrations, volcano tours, and beach activities",
+        },
+        {
+          start: "2026-04-05T10:00:00-07:00",
+          end: "2026-04-12T16:00:00-07:00",
+          description:
+            "Los Angeles Hollywood experience, Beverly Hills tour, and Santa Monica beach day",
+        },
+        {
+          start: "2026-04-12T09:00:00-05:00",
+          end: "2026-04-15T15:00:00-05:00",
+          description:
+            "Cartagena historical walled city tour and Colombian coffee experience",
+        },
+        {
+          start: "2026-04-17T09:00:00-04:00",
+          end: "2026-04-18T16:00:00-04:00",
+          description:
+            "Miami disembarkation with farewell celebration and South Beach farewell dinner",
         },
       ],
     },
@@ -729,26 +1020,179 @@ export const worldCruises: Cruise[] = [
       timeAtSea: [
         {
           start: "2026-01-05T17:00:00-05:00",
-          end: "2026-05-09T09:00:00-04:00",
+          end: "2026-01-08T08:00:00-05:00",
           description:
-            "Premium world cruise featuring Holland America's renowned service and enrichment programs",
+            "Caribbean passage from Fort Lauderdale to Cartagena with luxury onboard enrichment programs",
+        },
+        {
+          start: "2026-01-10T16:00:00-05:00",
+          end: "2026-01-12T07:00:00-05:00",
+          description:
+            "Journey to and transit through the historic Panama Canal with expert commentary",
+        },
+        {
+          start: "2026-01-14T17:00:00-05:00",
+          end: "2026-01-23T09:00:00-10:00",
+          description:
+            "Transpacific crossing from Panama to Tahiti across the South Pacific waters",
+        },
+        {
+          start: "2026-01-26T16:00:00-10:00",
+          end: "2026-01-30T08:00:00+13:00",
+          description:
+            "South Pacific sailing from Tahiti to Auckland through Polynesian islands",
+        },
+        {
+          start: "2026-02-02T17:00:00+13:00",
+          end: "2026-02-04T09:00:00+11:00",
+          description:
+            "Tasman Sea crossing from Auckland to Sydney with scenic coastal views",
+        },
+        {
+          start: "2026-02-07T16:00:00+11:00",
+          end: "2026-02-12T08:00:00+08:00",
+          description:
+            "Voyage through Indonesian archipelago from Sydney to Bali",
+        },
+        {
+          start: "2026-02-15T17:00:00+08:00",
+          end: "2026-02-16T09:00:00+08:00",
+          description:
+            "Short sailing from Bali to Singapore through the Java Sea",
+        },
+        {
+          start: "2026-02-19T16:00:00+08:00",
+          end: "2026-02-25T08:00:00+05:30",
+          description:
+            "Crossing from Singapore to Mumbai through the Strait of Malacca and Indian Ocean",
+        },
+        {
+          start: "2026-02-28T17:00:00+05:30",
+          end: "2026-03-04T09:00:00+04:00",
+          description:
+            "Arabian Sea journey from Mumbai to Dubai with cultural lectures and regional cuisine",
+        },
+        {
+          start: "2026-03-07T16:00:00+04:00",
+          end: "2026-03-14T08:00:00+03:00",
+          description:
+            "Voyage through the Gulf of Oman and Suez Canal to Istanbul with historical presentations",
+        },
+        {
+          start: "2026-03-17T17:00:00+03:00",
+          end: "2026-03-22T09:00:00+01:00",
+          description:
+            "Mediterranean sailing from Istanbul to Barcelona through historic waters",
+        },
+        {
+          start: "2026-03-25T16:00:00+01:00",
+          end: "2026-03-27T08:00:00+00:00",
+          description:
+            "Coastal Mediterranean cruise from Barcelona to Lisbon along the Iberian Peninsula",
+        },
+        {
+          start: "2026-03-30T17:00:00+00:00",
+          end: "2026-04-06T09:00:00-04:00",
+          description:
+            "Transatlantic crossing from Lisbon to New York with gala events and enrichment programs",
+        },
+        {
+          start: "2026-04-09T16:00:00-04:00",
+          end: "2026-04-10T09:00:00-04:00",
+          description:
+            "Final coastal sailing from New York to Fort Lauderdale along the Eastern Seaboard",
         },
       ],
       timeOnLand: [
         {
-          start: "2026-02-01T08:00:00+11:00",
-          end: "2026-02-03T17:00:00+11:00",
-          description: "Sydney and Blue Mountains extended tour",
+          start: "2026-01-05T08:00:00-05:00",
+          end: "2026-01-05T16:00:00-05:00",
+          description:
+            "Embarkation in Fort Lauderdale with welcome reception and port tour",
         },
         {
-          start: "2026-03-10T07:00:00+04:00",
-          end: "2026-03-11T19:00:00+04:00",
-          description: "Desert safari and traditional Arabic dinner experience",
+          start: "2026-01-08T09:00:00-05:00",
+          end: "2026-01-10T15:00:00-05:00",
+          description:
+            "Cartagena exploration featuring the historic walled city, San Felipe fortress, and local cuisine",
         },
         {
-          start: "2026-04-05T08:00:00+02:00",
-          end: "2026-04-06T17:00:00+02:00",
-          description: "Exclusive tour of Barcelona's Gaudi masterpieces",
+          start: "2026-01-12T08:00:00-05:00",
+          end: "2026-01-14T16:00:00-05:00",
+          description:
+            "Panama Canal experience with guided commentary and rainforest excursion",
+        },
+        {
+          start: "2026-01-23T10:00:00-10:00",
+          end: "2026-01-26T15:00:00-10:00",
+          description:
+            "Tahiti paradise experience with black sand beaches, waterfall hikes, and Polynesian cultural shows",
+        },
+        {
+          start: "2026-01-30T09:00:00+13:00",
+          end: "2026-02-02T16:00:00+13:00",
+          description:
+            "Auckland city tour, vineyard visits, and Maori cultural experiences",
+        },
+        {
+          start: "2026-02-04T10:00:00+11:00",
+          end: "2026-02-07T15:00:00+11:00",
+          description:
+            "Sydney and Blue Mountains extended tour with Opera House performance and harbor cruise",
+        },
+        {
+          start: "2026-02-12T09:00:00+08:00",
+          end: "2026-02-15T16:00:00+08:00",
+          description:
+            "Bali immersion with temple visits, rice terrace tours, and traditional dance performances",
+        },
+        {
+          start: "2026-02-16T10:00:00+08:00",
+          end: "2026-02-19T15:00:00+08:00",
+          description:
+            "Singapore city exploration with Gardens by the Bay, colonial district tour, and culinary experiences",
+        },
+        {
+          start: "2026-02-25T09:00:00+05:30",
+          end: "2026-02-28T16:00:00+05:30",
+          description:
+            "Mumbai cultural journey with Gateway of India, Elephanta Caves, and Bollywood experiences",
+        },
+        {
+          start: "2026-03-04T10:00:00+04:00",
+          end: "2026-03-07T15:00:00+04:00",
+          description:
+            "Dubai modern marvels tour with desert safari, Burj Khalifa visit, and traditional dinner experience",
+        },
+        {
+          start: "2026-03-14T09:00:00+03:00",
+          end: "2026-03-17T16:00:00+03:00",
+          description:
+            "Istanbul historical exploration with Hagia Sophia, Blue Mosque, and Bosphorus cruise",
+        },
+        {
+          start: "2026-03-22T10:00:00+01:00",
+          end: "2026-03-25T15:00:00+01:00",
+          description:
+            "Barcelona city immersion featuring Gaudi masterpieces, Gothic Quarter, and Catalan cuisine",
+        },
+        {
+          start: "2026-03-27T09:00:00+00:00",
+          end: "2026-03-30T16:00:00+00:00",
+          description:
+            "Lisbon exploration with historical Belém district, fado music experience, and port wine tasting",
+        },
+        {
+          start: "2026-04-06T10:00:00-04:00",
+          end: "2026-04-09T15:00:00-04:00",
+          description:
+            "New York City highlights tour with Broadway show, museum visits, and harbor cruise",
+        },
+        {
+          start: "2026-04-10T10:00:00-04:00",
+          end: "2026-04-11T16:00:00-04:00",
+          description:
+            "Fort Lauderdale disembarkation with farewell brunch and optional Everglades excursion",
         },
       ],
     },
