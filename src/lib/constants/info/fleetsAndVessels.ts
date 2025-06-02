@@ -3,7 +3,7 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const cruiseVessels: Vessels[] = [
   // Mainstream Cruise Ships
   {
-    name: "Velari Horizon",
+    name: "Velari Dawnbreaker",
     description:
       "A family-friendly mainstream cruise ship offering excellent value with a variety of onboard activities and entertainment options for all ages.",
     type: "Mainstream Cruise Ship",
@@ -44,7 +44,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Velari Odyssey",
+    name: "Velari Star Wanderer",
     description:
       "A state-of-the-art mainstream cruise ship offering exceptional amenities and travel experiences.",
     type: "Mainstream Cruise Ship",
@@ -93,7 +93,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Velari Voyager",
+    name: "Velari Pathseer",
     description:
       "A state-of-the-art mainstream cruise ship offering exceptional amenities and travel experiences.",
     type: "Mainstream Cruise Ship",
@@ -145,7 +145,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "The Velari Dream",
+    name: "Velari Reverie",
     description:
       "A state-of-the-art mainstream cruise ship offering exceptional amenities and travel experiences.",
     type: "Mainstream Cruise Ship",
@@ -197,7 +197,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Velari Majesty",
+    name: "Velari Regal Crest",
     description:
       "A state-of-the-art mainstream cruise ship offering exceptional amenities and travel experiences.",
     type: "Mainstream Cruise Ship",
@@ -249,7 +249,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Velari Horizon",
+    name: "Velari Twilight",
     description:
       "A state-of-the-art mainstream cruise ship offering exceptional amenities and travel experiences.",
     type: "Mainstream Cruise Ship",
@@ -301,7 +301,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Velari Splendor",
+    name: "Velari Luminance",
     description:
       "A state-of-the-art mainstream cruise ship offering exceptional amenities and travel experiences.",
     type: "Mainstream Cruise Ship",
@@ -616,7 +616,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Mega 1",
+    name: "Velari Colossus",
     description:
       "A state-of-the-art mega cruise ship offering exceptional amenities and travel experiences.",
     type: "Mega Cruise Ship",
@@ -668,7 +668,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Mega 2",
+    name: "Velari Leviathan",
     description:
       "A state-of-the-art mega cruise ship offering exceptional amenities and travel experiences.",
     type: "Mega Cruise Ship",
@@ -720,7 +720,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Mega 3",
+    name: "Velari Atlas",
     description:
       "A state-of-the-art mega cruise ship offering exceptional amenities and travel experiences.",
     type: "Mega Cruise Ship",
@@ -772,7 +772,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Mega 4",
+    name: "Velari Juggernaut",
     description:
       "A state-of-the-art mega cruise ship offering exceptional amenities and travel experiences.",
     type: "Mega Cruise Ship",
@@ -824,7 +824,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Mega 5",
+    name: "Velari Mammoth",
     description:
       "A state-of-the-art mega cruise ship offering exceptional amenities and travel experiences.",
     type: "Mega Cruise Ship",
@@ -876,7 +876,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Mega 6",
+    name: "Velari Prometheus",
     description:
       "A state-of-the-art mega cruise ship offering exceptional amenities and travel experiences.",
     type: "Mega Cruise Ship",
@@ -928,7 +928,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Mega 7",
+    name: "Velari Goliath",
     description:
       "A state-of-the-art mega cruise ship offering exceptional amenities and travel experiences.",
     type: "Mega Cruise Ship",
@@ -980,7 +980,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Mega 8",
+    name: "Velari Cyclopean",
     description:
       "A state-of-the-art mega cruise ship offering exceptional amenities and travel experiences.",
     type: "Mega Cruise Ship",
@@ -1032,7 +1032,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Mega 9",
+    name: "Velari Behemoth",
     description:
       "A state-of-the-art mega cruise ship offering exceptional amenities and travel experiences.",
     type: "Mega Cruise Ship",
@@ -1084,7 +1084,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Mega 10",
+    name: "Velari Olympus",
     description:
       "A state-of-the-art mega cruise ship offering exceptional amenities and travel experiences.",
     type: "Mega Cruise Ship",
@@ -1135,10 +1135,8 @@ export const cruiseVessels: Vessels[] = [
     isLuxuryVessel: false,
     isPetFriendly: true,
   },
-
-  // Ocean Cruise Ship
   {
-    name: "Velari Azure",
+    name: "Velari Sapphire",
     description:
       "A mid-size ocean cruise ship designed for longer voyages with spacious public areas and a focus on destination immersion.",
     type: "Ocean Cruise Ship",
@@ -1175,7 +1173,7 @@ export const cruiseVessels: Vessels[] = [
     },
   },
   {
-    name: "Ocean 1",
+    name: "Velari Neptune",
     description:
       "A state-of-the-art ocean cruise ship offering exceptional amenities and travel experiences.",
     type: "Ocean Cruise Ship",
@@ -1227,7 +1225,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Ocean 2",
+    name: "Velari Poseidon",
     description:
       "A state-of-the-art ocean cruise ship offering exceptional amenities and travel experiences.",
     type: "Ocean Cruise Ship",
@@ -1279,7 +1277,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Ocean 3",
+    name: "Velari Triton",
     description:
       "A state-of-the-art ocean cruise ship offering exceptional amenities and travel experiences.",
     type: "Ocean Cruise Ship",
@@ -1331,7 +1329,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Ocean 4",
+    name: "Velari Maris",
     description:
       "A state-of-the-art ocean cruise ship offering exceptional amenities and travel experiences.",
     type: "Ocean Cruise Ship",
@@ -1383,7 +1381,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Ocean 5",
+    name: "Velari Coraline",
     description:
       "A state-of-the-art ocean cruise ship offering exceptional amenities and travel experiences.",
     type: "Ocean Cruise Ship",
@@ -1435,7 +1433,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Ocean 6",
+    name: "Velari Oceania",
     description:
       "A state-of-the-art ocean cruise ship offering exceptional amenities and travel experiences.",
     type: "Ocean Cruise Ship",
@@ -1487,7 +1485,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Ocean 7",
+    name: "Velari Abyss",
     description:
       "A state-of-the-art ocean cruise ship offering exceptional amenities and travel experiences.",
     type: "Ocean Cruise Ship",
@@ -1539,7 +1537,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Ocean 8",
+    name: "Velari Seaborn",
     description:
       "A state-of-the-art ocean cruise ship offering exceptional amenities and travel experiences.",
     type: "Ocean Cruise Ship",
@@ -1591,7 +1589,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Ocean 9",
+    name: "Velari Tempest",
     description:
       "A state-of-the-art ocean cruise ship offering exceptional amenities and travel experiences.",
     type: "Ocean Cruise Ship",
@@ -1643,7 +1641,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Ocean 10",
+    name: "Velari Deep Blue",
     description:
       "A state-of-the-art ocean cruise ship offering exceptional amenities and travel experiences.",
     type: "Ocean Cruise Ship",
@@ -1692,12 +1690,10 @@ export const cruiseVessels: Vessels[] = [
       ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false,
+    isPetFriendly: true,
   },
-
-  // Luxury Cruise Ship
   {
-    name: "Velari Serenity",
+    name: "Velari Elysium",
     description:
       "An intimate luxury cruise ship offering personalized service with spacious all-suite accommodations and gourmet dining experiences.",
     type: "Luxury Cruise Ship",
@@ -1735,9 +1731,8 @@ export const cruiseVessels: Vessels[] = [
     },
     isLuxuryVessel: true,
   },
-
   {
-    name: "Luxury 1",
+    name: "Velari Opal",
     description:
       "A state-of-the-art luxury cruise ship offering exceptional amenities and travel experiences.",
     type: "Luxury Cruise Ship",
@@ -1789,7 +1784,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Luxury 2",
+    name: "Velari Royalty",
     description:
       "A state-of-the-art luxury cruise ship offering exceptional amenities and travel experiences.",
     type: "Luxury Cruise Ship",
@@ -1841,7 +1836,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Luxury 3",
+    name: "Velari Eminence",
     description:
       "A state-of-the-art luxury cruise ship offering exceptional amenities and travel experiences.",
     type: "Luxury Cruise Ship",
@@ -1893,7 +1888,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Luxury 4",
+    name: "Velari Majestic",
     description:
       "A state-of-the-art luxury cruise ship offering exceptional amenities and travel experiences.",
     type: "Luxury Cruise Ship",
@@ -1945,7 +1940,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Luxury 5",
+    name: "Velari Extravagance",
     description:
       "A state-of-the-art luxury cruise ship offering exceptional amenities and travel experiences.",
     type: "Luxury Cruise Ship",
@@ -1997,7 +1992,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Luxury 6",
+    name: "Velari Paradiso",
     description:
       "A state-of-the-art luxury cruise ship offering exceptional amenities and travel experiences.",
     type: "Luxury Cruise Ship",
@@ -2049,7 +2044,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Luxury 7",
+    name: "Velari Imperial",
     description:
       "A state-of-the-art luxury cruise ship offering exceptional amenities and travel experiences.",
     type: "Luxury Cruise Ship",
@@ -2101,7 +2096,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Luxury 8",
+    name: "Velari Seraphic",
     description:
       "A state-of-the-art luxury cruise ship offering exceptional amenities and travel experiences.",
     type: "Luxury Cruise Ship",
@@ -2153,7 +2148,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Luxury 9",
+    name: "Velari Aurum",
     description:
       "A state-of-the-art luxury cruise ship offering exceptional amenities and travel experiences.",
     type: "Luxury Cruise Ship",
@@ -2205,7 +2200,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Luxury 10",
+    name: "Velari Lustrum",
     description:
       "A state-of-the-art luxury cruise ship offering exceptional amenities and travel experiences.",
     type: "Luxury Cruise Ship",
@@ -2256,10 +2251,8 @@ export const cruiseVessels: Vessels[] = [
     isLuxuryVessel: true,
     isPetFriendly: false,
   },
-
-  // Small Cruise Ship
   {
-    name: "Velari Intimate",
+    name: "Velari Petite Charm",
     description:
       "A boutique cruise ship that can access smaller ports and provides a more personalized cruising experience with high crew-to-guest ratios.",
     type: "Small Cruise Ship",
@@ -2292,7 +2285,7 @@ export const cruiseVessels: Vessels[] = [
     isLuxuryVessel: true,
   },
   {
-    name: "Small 1",
+    name: "Velari Whisper",
     description:
       "A state-of-the-art small cruise ship offering exceptional amenities and travel experiences.",
     type: "Small Cruise Ship",
@@ -2344,7 +2337,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Small 2",
+    name: "Velari Sprite",
     description:
       "A state-of-the-art small cruise ship offering exceptional amenities and travel experiences.",
     type: "Small Cruise Ship",
@@ -2396,7 +2389,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Small 3",
+    name: "Velari Dainty",
     description:
       "A state-of-the-art small cruise ship offering exceptional amenities and travel experiences.",
     type: "Small Cruise Ship",
@@ -2448,7 +2441,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Small 4",
+    name: "Velari Nimble",
     description:
       "A state-of-the-art small cruise ship offering exceptional amenities and travel experiences.",
     type: "Small Cruise Ship",
@@ -2500,7 +2493,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Small 5",
+    name: "Velari Cozy",
     description:
       "A state-of-the-art small cruise ship offering exceptional amenities and travel experiences.",
     type: "Small Cruise Ship",
@@ -2552,7 +2545,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Small 6",
+    name: "Velari Swift",
     description:
       "A state-of-the-art small cruise ship offering exceptional amenities and travel experiences.",
     type: "Small Cruise Ship",
@@ -2604,7 +2597,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Small 7",
+    name: "Velari Bijou",
     description:
       "A state-of-the-art small cruise ship offering exceptional amenities and travel experiences.",
     type: "Small Cruise Ship",
@@ -2656,7 +2649,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Small 8",
+    name: "Velari Pippin",
     description:
       "A state-of-the-art small cruise ship offering exceptional amenities and travel experiences.",
     type: "Small Cruise Ship",
@@ -2708,7 +2701,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Small 9",
+    name: "Velari Lively",
     description:
       "A state-of-the-art small cruise ship offering exceptional amenities and travel experiences.",
     type: "Small Cruise Ship",
@@ -2760,7 +2753,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Small 10",
+    name: "Velari Morsel",
     description:
       "A state-of-the-art small cruise ship offering exceptional amenities and travel experiences.",
     type: "Small Cruise Ship",
@@ -2811,10 +2804,8 @@ export const cruiseVessels: Vessels[] = [
     isLuxuryVessel: false,
     isPetFriendly: false,
   },
-
-  // Adventure Cruise Ship
   {
-    name: "Velari Quest",
+    name: "Velari Venture",
     description:
       "An adventure-oriented cruise ship designed for active travelers with facilities for kayaking, snorkeling, and other water sports directly from the ship.",
     type: "Adventure Cruise Ship",
@@ -2850,7 +2841,7 @@ export const cruiseVessels: Vessels[] = [
     },
   },
   {
-    name: "Adventure 1",
+    name: "Velari Excursion",
     description:
       "A state-of-the-art adventure cruise ship offering exceptional amenities and travel experiences.",
     type: "Adventure Cruise Ship",
@@ -2902,7 +2893,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Adventure 2",
+    name: "Velari Wildheart",
     description:
       "A state-of-the-art adventure cruise ship offering exceptional amenities and travel experiences.",
     type: "Adventure Cruise Ship",
@@ -2954,7 +2945,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Adventure 3",
+    name: "Velari Pathfinder",
     description:
       "A state-of-the-art adventure cruise ship offering exceptional amenities and travel experiences.",
     type: "Adventure Cruise Ship",
@@ -3006,7 +2997,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Adventure 4",
+    name: "Velari Roamer",
     description:
       "A state-of-the-art adventure cruise ship offering exceptional amenities and travel experiences.",
     type: "Adventure Cruise Ship",
@@ -3058,7 +3049,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Adventure 5",
+    name: "Velari Expedition",
     description:
       "A state-of-the-art adventure cruise ship offering exceptional amenities and travel experiences.",
     type: "Adventure Cruise Ship",
@@ -3110,7 +3101,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Adventure 6",
+    name: "Velari Trailblazer",
     description:
       "A state-of-the-art adventure cruise ship offering exceptional amenities and travel experiences.",
     type: "Adventure Cruise Ship",
@@ -3162,7 +3153,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Adventure 7",
+    name: "Velari Nomad",
     description:
       "A state-of-the-art adventure cruise ship offering exceptional amenities and travel experiences.",
     type: "Adventure Cruise Ship",
@@ -3214,7 +3205,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Adventure 8",
+    name: "Velari Frontier",
     description:
       "A state-of-the-art adventure cruise ship offering exceptional amenities and travel experiences.",
     type: "Adventure Cruise Ship",
@@ -3266,7 +3257,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Adventure 9",
+    name: "Velari Outrider",
     description:
       "A state-of-the-art adventure cruise ship offering exceptional amenities and travel experiences.",
     type: "Adventure Cruise Ship",
@@ -3318,7 +3309,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Adventure 10",
+    name: "Velari Sojourn",
     description:
       "A state-of-the-art adventure cruise ship offering exceptional amenities and travel experiences.",
     type: "Adventure Cruise Ship",
@@ -3369,10 +3360,8 @@ export const cruiseVessels: Vessels[] = [
     isLuxuryVessel: false,
     isPetFriendly: false,
   },
-
-  // Expedition Cruise Ship
   {
-    name: "Velari Explorer",
+    name: "Velari Polaris",
     description:
       "A polar expedition vessel capable of navigating ice-filled waters with educational programs led by naturalists and scientists.",
     type: "Expedition Cruise Ship",
@@ -3409,7 +3398,7 @@ export const cruiseVessels: Vessels[] = [
     },
   },
   {
-    name: "Expedition 1",
+    name: "Velari Discovery",
     description:
       "A state-of-the-art expedition cruise ship offering exceptional amenities and travel experiences.",
     type: "Expedition Cruise Ship",
@@ -3461,7 +3450,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Expedition 2",
+    name: "Velari Meridian",
     description:
       "A state-of-the-art expedition cruise ship offering exceptional amenities and travel experiences.",
     type: "Expedition Cruise Ship",
@@ -3513,7 +3502,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Expedition 3",
+    name: "Velari Seeker",
     description:
       "A state-of-the-art expedition cruise ship offering exceptional amenities and travel experiences.",
     type: "Expedition Cruise Ship",
@@ -3565,7 +3554,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Expedition 4",
+    name: "Velari Pioneer",
     description:
       "A state-of-the-art expedition cruise ship offering exceptional amenities and travel experiences.",
     type: "Expedition Cruise Ship",
@@ -3617,7 +3606,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Expedition 5",
+    name: "Velari Trail",
     description:
       "A state-of-the-art expedition cruise ship offering exceptional amenities and travel experiences.",
     type: "Expedition Cruise Ship",
@@ -3669,7 +3658,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Expedition 6",
+    name: "Velari Inquest",
     description:
       "A state-of-the-art expedition cruise ship offering exceptional amenities and travel experiences.",
     type: "Expedition Cruise Ship",
@@ -3721,7 +3710,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "Expedition 7",
+    name: "Velari Trekker",
     description:
       "A state-of-the-art expedition cruise ship offering exceptional amenities and travel experiences.",
     type: "Expedition Cruise Ship",
@@ -3773,7 +3762,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Expedition 8",
+    name: "Velari Icewind",
     description:
       "A state-of-the-art expedition cruise ship offering exceptional amenities and travel experiences.",
     type: "Expedition Cruise Ship",
@@ -3825,7 +3814,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Expedition 9",
+    name: "Velari Nordic",
     description:
       "A state-of-the-art expedition cruise ship offering exceptional amenities and travel experiences.",
     type: "Expedition Cruise Ship",
@@ -3877,7 +3866,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "Expedition 10",
+    name: "Velari Glacial",
     description:
       "A state-of-the-art expedition cruise ship offering exceptional amenities and travel experiences.",
     type: "Expedition Cruise Ship",
@@ -3928,10 +3917,8 @@ export const cruiseVessels: Vessels[] = [
     isLuxuryVessel: true,
     isPetFriendly: false,
   },
-
-  // River Cruise Ship
   {
-    name: "Velari Riverine",
+    name: "Velari Cascadia",
     description:
       "A sleek river cruise vessel designed to navigate Europe's inland waterways with panoramic views from all public spaces.",
     type: "River Cruise Ship",
@@ -3959,7 +3946,7 @@ export const cruiseVessels: Vessels[] = [
     },
   },
   {
-    name: "River 1",
+    name: "Velari Streamline",
     description:
       "A state-of-the-art river cruise ship offering exceptional amenities and travel experiences.",
     type: "River Cruise Ship",
@@ -4011,7 +3998,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "River 2",
+    name: "Velari Tributary",
     description:
       "A state-of-the-art river cruise ship offering exceptional amenities and travel experiences.",
     type: "River Cruise Ship",
@@ -4063,7 +4050,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "River 3",
+    name: "Velari Delta",
     description:
       "A state-of-the-art river cruise ship offering exceptional amenities and travel experiences.",
     type: "River Cruise Ship",
@@ -4115,7 +4102,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "River 4",
+    name: "Velari Ripple",
     description:
       "A state-of-the-art river cruise ship offering exceptional amenities and travel experiences.",
     type: "River Cruise Ship",
@@ -4167,7 +4154,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "River 5",
+    name: "Velari Flow",
     description:
       "A state-of-the-art river cruise ship offering exceptional amenities and travel experiences.",
     type: "River Cruise Ship",
@@ -4219,7 +4206,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "River 6",
+    name: "Velari Current",
     description:
       "A state-of-the-art river cruise ship offering exceptional amenities and travel experiences.",
     type: "River Cruise Ship",
@@ -4271,7 +4258,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "River 7",
+    name: "Velari Brook",
     description:
       "A state-of-the-art river cruise ship offering exceptional amenities and travel experiences.",
     type: "River Cruise Ship",
@@ -4323,7 +4310,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "River 8",
+    name: "Velari Meander",
     description:
       "A state-of-the-art river cruise ship offering exceptional amenities and travel experiences.",
     type: "River Cruise Ship",
@@ -4375,7 +4362,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: true,
   },
   {
-    name: "River 9",
+    name: "Velari Estuary",
     description:
       "A state-of-the-art river cruise ship offering exceptional amenities and travel experiences.",
     type: "River Cruise Ship",
@@ -4427,7 +4414,7 @@ export const cruiseVessels: Vessels[] = [
     isPetFriendly: false,
   },
   {
-    name: "River 10",
+    name: "Velari Confluence",
     description:
       "A state-of-the-art river cruise ship offering exceptional amenities and travel experiences.",
     type: "River Cruise Ship",
@@ -4478,9 +4465,8 @@ export const cruiseVessels: Vessels[] = [
     isLuxuryVessel: false,
     isPetFriendly: true,
   },
-
   {
-    name: "Velari Opulence",
+    name: "Velari Opulentia",
     description:
       "A premium luxury vessel offering world-class dining, spacious verandas, and curated shore experiences with overnight stays in iconic destinations.",
     type: "Luxury Cruise Ship",
@@ -4520,10 +4506,8 @@ export const cruiseVessels: Vessels[] = [
     },
     isLuxuryVessel: true,
   },
-
-  // Additional Small Cruise Ship
   {
-    name: "Velari Essence",
+    name: "Velari Sublime",
     description:
       "An intimate yacht-like vessel that offers exceptional cuisine, personalized service, and access to unique ports inaccessible to larger vessels.",
     type: "Small Cruise Ship",
