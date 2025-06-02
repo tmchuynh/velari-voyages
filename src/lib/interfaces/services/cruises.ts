@@ -30,7 +30,14 @@ export interface BaseCruise {
   arrivalLocation: Location;
   isPopular?: boolean;
   hasPopularDestination?: boolean;
-  category: "mainstream" | "premium" | "entry-luxury" | "luxury" | "expedition";
+  category:
+    | "mainstream"
+    | "premium"
+    | "entry-luxury"
+    | "luxury"
+    | "premium-luxury"
+    | "ultra-luxury"
+    | "expedition";
   itinerary: YachtRoute;
   requiredDocuments?: string[];
   requirements?: string[];
