@@ -2,7 +2,7 @@
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Cruise } from "@/lib/interfaces/services/tours";
+import { Cruise } from "@/lib/interfaces/services/cruises";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 import { formatToSlug } from "@/lib/utils/format";
 import { useRouter } from "next/navigation";
