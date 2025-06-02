@@ -80,7 +80,7 @@ export const cruiseCategories: CruisCategory[] = [
 ];
 
 // Map for quick lookup
-export const tourCategoryMap = cruiseCategories.reduce((map, category) => {
+export const cruiseCategoryMap = cruiseCategories.reduce((map, category) => {
   map[category.id] = category;
   return map;
 }, {} as Record<string, CruisCategory>);
