@@ -1,3 +1,10 @@
+import {
+  formatKebebToTitleCase,
+  formatTitleToCamelCase,
+  formatToSlug,
+  removeAccents,
+} from "./format";
+
 /**
  * Generates an array of random dates starting from next week's Monday.
  *
@@ -37,4 +44,38 @@ export function getRandomDatesFromNextWeek(
   }
 
   return Array.from(dates);
+}
+
+export async function getTourData(city: string): Promise<any> {
+  // First remove accents from the entire city name, then format it
+  const cityWithoutAccents = removeAccents(city);
+  const cityFormatted =
+    cityWithoutAccents.replaceAll(" ", "-").charAt(0).toLowerCase() +
+    formatTitleToCamelCase(formatKebebToTitleCase(cityWithoutAccents.slice(1)))
+      .replace("'", "")
+      .replace("-", "");
+
+  const tourID = `${cityFormatted}Cruises`;
+
+  try {
+    const tourModule = await import(
+      `@/lib/constants/cruises/${formatToSlug(
+        cityWithoutAccents.replace("'", "-")
+      )}`
+    );
+    // Return the specific named export that matches tourID
+    if (tourModule[tourID]) {
+      return tourModule[tourID];
+    } else {
+      console.error(
+        `Export named export const ${tourID}: Tour[] =[]; not found in module`
+      );
+      return [];
+    }
+  } catch (error) {
+    console.error(
+      `Error loading resource from @/lib/constants/tours: ${error} export const ${tourID}: Tour[] = [];`
+    );
+    return [];
+  }
 }
