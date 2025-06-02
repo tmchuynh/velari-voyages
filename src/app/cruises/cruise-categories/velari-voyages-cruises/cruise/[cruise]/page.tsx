@@ -268,23 +268,6 @@ export default function CruiseInformationPage() {
           {/* Cruise Features Section */}
           <section>
             <h3>Cruise Features</h3>
-
-            <div className="flex flex-wrap gap-2 mt-2">
-              {cruiseData.isPopular && <Badge variant="outline">Popular</Badge>}
-              {cruiseData.hasPopularDestination && (
-                <Badge variant="outline">Popular Destination</Badge>
-              )}
-              {cruiseData.isFamilyFriendly && (
-                <Badge variant="outline">Family Friendly</Badge>
-              )}
-              {cruiseData.isPetFriendly && (
-                <Badge variant="outline">Pet Friendly</Badge>
-              )}
-              {cruiseData.isCulturalExperience && (
-                <Badge variant="outline">Cultural Experience</Badge>
-              )}
-            </div>
-
             {/* Add Package Selection Dialog */}
             <div className="mt-4">
               <Dialog>
@@ -403,6 +386,23 @@ export default function CruiseInformationPage() {
               )}
               {cruiseData.isFallFoliageCruise && (
                 <Badge variant="outline">Fall Foliage Cruise</Badge>
+              )}
+            </div>
+
+            <h3>Cruise Key Features</h3>
+            <div className="flex flex-wrap gap-2 mt-2">
+              {cruiseData.isPopular && <Badge variant="outline">Popular</Badge>}
+              {cruiseData.hasPopularDestination && (
+                <Badge variant="outline">Popular Destination</Badge>
+              )}
+              {cruiseData.isFamilyFriendly && (
+                <Badge variant="outline">Family Friendly</Badge>
+              )}
+              {cruiseData.isPetFriendly && (
+                <Badge variant="outline">Pet Friendly</Badge>
+              )}
+              {cruiseData.isCulturalExperience && (
+                <Badge variant="outline">Cultural Experience</Badge>
               )}
             </div>
           </section>
