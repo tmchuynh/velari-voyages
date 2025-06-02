@@ -1,5 +1,10 @@
-import { Details, Flags, Location, TimePeriod } from "@/lib/types/types";
-import { IconType } from "react-icons/lib";
+import {
+  CruiseCategoryFlags,
+  Details,
+  Flags,
+  Location,
+  TimePeriod,
+} from "@/lib/types/types";
 import { ContactPersonnel } from "../people/staff";
 
 export interface YachtRoute {
@@ -10,7 +15,8 @@ export interface YachtRoute {
   timeAtSea: TimePeriod[];
   timeOnLand: TimePeriod[];
 }
-export interface TourCategory {
+
+export interface CruisCategory {
   id: string;
   title: string;
   description: string;
@@ -18,17 +24,17 @@ export interface TourCategory {
   icon: React.ComponentType;
 }
 
-export interface BaseTour {
+export interface BaseCruise {
+  basePrice: number;
   departureLocation: Location;
   arrivalLocation: Location;
-  icon?: IconType;
-  images: string[];
-  price: string;
-  availableDates?: string[];
+  category: "mainstream" | "premium" | "entry-luxury" | "luxury" | "expedition";
   itinerary: YachtRoute;
+  requiredDocuments?: string[];
+  requirements?: string[];
   cancellationPolicy?: string;
-  tourCategoryId: TourCategory["id"];
+  tourCategoryId: CruisCategory["id"];
   contactPersonnel: ContactPersonnel[];
 }
 
-export type Tour = BaseTour & Flags & Details;
+export type Cruise = BaseCruise & Flags & Details & CruiseCategoryFlags;
