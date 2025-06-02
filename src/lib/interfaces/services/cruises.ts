@@ -28,6 +28,8 @@ export interface BaseCruise {
   basePrice: number;
   departureLocation: Location;
   arrivalLocation: Location;
+  isPopular?: boolean; // Indicates if the cruise is popular
+  hasPopularDestination?: boolean; // Indicates if either departure or arrival is a popular destination
   category: "mainstream" | "premium" | "entry-luxury" | "luxury" | "expedition";
   itinerary: YachtRoute;
   requiredDocuments?: string[];
