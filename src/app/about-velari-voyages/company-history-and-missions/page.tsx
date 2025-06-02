@@ -1,4 +1,11 @@
+"use client";
+
+import { Button } from "@/components/ui/button";
+import { useRouter } from "next/navigation";
+
 export default function CompanyHistoryAndMissionsPage() {
+  const router = useRouter();
+
   return (
     <div className="mx-auto px-4 py-8 container">
       <h1 className="mb-6 font-bold text-3xl">Company History and Missions</h1>
@@ -18,6 +25,9 @@ export default function CompanyHistoryAndMissionsPage() {
           This is our story — how we began, what drives us, and where we're
           going next.
         </p>
+        <Button onClick={() => router.push("/about-velari-voyages")}>
+          Learn More About Us
+        </Button>
       </section>
 
       <section className="mb-12">
@@ -36,6 +46,11 @@ export default function CompanyHistoryAndMissionsPage() {
           excellence spread quickly, driven solely by referrals and
           word-of-mouth.
         </p>
+        <Button
+          onClick={() => router.push("/about-velari-voyages/our-founders")}
+        >
+          Meet Our Founders
+        </Button>
       </section>
 
       <section className="mb-12">
@@ -55,6 +70,17 @@ export default function CompanyHistoryAndMissionsPage() {
                 experiences that put the traveler — not the destination — at the
                 center of every journey.
               </p>
+              <Button
+                variant="outline"
+                className="mt-2"
+                onClick={() =>
+                  router.push(
+                    "/about-velari-voyages/company-history-and-missions/founding-story"
+                  )
+                }
+              >
+                Read Founding Story
+              </Button>
             </div>
           </div>
 
@@ -68,6 +94,17 @@ export default function CompanyHistoryAndMissionsPage() {
                 Client demand leads to curated itineraries in Argentina, Peru,
                 Morocco, and southern Europe.
               </p>
+              <Button
+                variant="outline"
+                className="mt-2"
+                onClick={() =>
+                  router.push(
+                    "/cruises/cruise-categories/mediterranean-cruises"
+                  )
+                }
+              >
+                View Mediterranean Cruises
+              </Button>
             </div>
           </div>
 
@@ -82,6 +119,15 @@ export default function CompanyHistoryAndMissionsPage() {
                 access to historic sites, private tastings, artisan studios, and
                 cultural performances.
               </p>
+              <Button
+                variant="outline"
+                className="mt-2"
+                onClick={() =>
+                  router.push("/cruises/cruise-categories/cultural-experiences")
+                }
+              >
+                Explore Cultural Experiences
+              </Button>
             </div>
           </div>
 
@@ -96,6 +142,15 @@ export default function CompanyHistoryAndMissionsPage() {
                 Travel Weekly and is featured in Condé Nast Traveler's
                 "Specialist List."
               </p>
+              <Button
+                variant="outline"
+                className="mt-2"
+                onClick={() =>
+                  router.push("/about-velari-voyages/awards-and-recognition")
+                }
+              >
+                View All Awards
+              </Button>
             </div>
           </div>
 
@@ -123,6 +178,15 @@ export default function CompanyHistoryAndMissionsPage() {
                 eco-sensitive vendors, carbon-conscious planning, and
                 community-driven tourism initiatives.
               </p>
+              <Button
+                variant="outline"
+                className="mt-2"
+                onClick={() =>
+                  router.push("/about-velari-voyages/sustainability-commitment")
+                }
+              >
+                Our Sustainability Practices
+              </Button>
             </div>
           </div>
 
@@ -176,6 +240,14 @@ export default function CompanyHistoryAndMissionsPage() {
           </li>
           <li>Gold Standard Client Service Award – Virtuoso Alliance, 2022</li>
         </ul>
+        <Button
+          className="mt-4"
+          onClick={() =>
+            router.push("/about-velari-voyages/awards-and-recognition")
+          }
+        >
+          See Full Awards Gallery
+        </Button>
       </section>
 
       <section className="mb-12">
@@ -243,10 +315,21 @@ export default function CompanyHistoryAndMissionsPage() {
           focused on one thing: delivering world-class journeys that feel
           entirely your own.
         </p>
-        <p className="text-lg italic">
+        <p className="mb-6 text-lg italic">
           Because great travel doesn't just take you somewhere new — it brings
           you back changed.
         </p>
+        <div className="flex flex-wrap gap-4">
+          <Button onClick={() => router.push("/cruises")}>
+            Explore Our Cruises
+          </Button>
+          <Button
+            variant="outline"
+            onClick={() => router.push("/contact-information")}
+          >
+            Contact Us
+          </Button>
+        </div>
       </section>
     </div>
   );
