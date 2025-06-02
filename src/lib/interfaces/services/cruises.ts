@@ -28,8 +28,8 @@ export interface BaseCruise {
   basePrice: number;
   departureLocation: Location;
   arrivalLocation: Location;
-  isPopular?: boolean; // Indicates if the cruise is popular
-  hasPopularDestination?: boolean; // Indicates if either departure or arrival is a popular destination
+  isPopular?: boolean;
+  hasPopularDestination?: boolean;
   category: "mainstream" | "premium" | "entry-luxury" | "luxury" | "expedition";
   itinerary: YachtRoute;
   requiredDocuments?: string[];
@@ -40,3 +40,39 @@ export interface BaseCruise {
 }
 
 export type Cruise = BaseCruise & Flags & Details & CruiseCategoryFlags;
+
+export interface Vessels {
+  name: string;
+  description: string;
+  type:
+    | "Mainstream Cruise Ship"
+    | "Mega Cruise Ship"
+    | "Ocean Cruise Ship"
+    | "Luxury Cruise Ship"
+    | "Small Cruise Ship"
+    | "Adventure Cruise Ship"
+    | "Expedition Cruise Ship"
+    | "River Cruise Ship";
+  capacity: number;
+  length: number;
+  width: number;
+  speed: number;
+  yearBuilt?: number;
+  homePort: Location;
+  specifications?: {
+    engineType?: string;
+    fuelCapacity?: number;
+    waterCapacity?: number;
+    propulsionType?: string;
+    hullMaterial?: string;
+    classification?: string;
+    safetyEquipment?: string[];
+    navigationEquipment?: string[];
+    communicationEquipment?: string[];
+    entertainmentEquipment?: string[];
+    accessibilityFeatures?: string[];
+    environmentalFeatures?: string[];
+  };
+  isLuxuryVessel?: boolean;
+  isPetFriendly?: boolean;
+}
