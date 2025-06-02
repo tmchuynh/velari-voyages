@@ -1,11 +1,14 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { cruiseDepartureLocations } from "@/lib/constants/info/city";
 import { testimonials } from "@/lib/constants/info/testimonials";
 import { groupAndSortByProperties } from "@/lib/utils/sort";
+import { useRouter } from "next/navigation";
 
 export default function HomePage() {
+  const router = useRouter();
   const sortedDestinations = groupAndSortByProperties(
     cruiseDepartureLocations,
     "isPopular",
@@ -56,24 +59,25 @@ export default function HomePage() {
       <div>
         <div className="flex md:flex-row flex-col items-center">
           <div className="space-y-6 md:w-1/2">
-            <h1>Discover Nature's Finest Trails</h1>
+            <h1>Experience Luxury at Sea</h1>
             <p>
-              Experience breathtaking adventures with Paragon Trails, your
-              premier guide to the world's most beautiful hiking destinations.
+              Embark on unforgettable voyages with Velari Voyages, your premier
+              cruise line offering extraordinary journeys to the world's most
+              captivating destinations.
             </p>
             <div className="flex sm:flex-row flex-col gap-4">
-              <button>Plan Your Adventure</button>
-              <button>View Trails</button>
+              <Button>Book Your Cruise</Button>
+              <Button>View Destinations</Button>
             </div>
           </div>
           <div className="mt-12 md:mt-0 md:w-1/2">
             <div className="relative shadow-2xl rounded-lg w-full h-64 md:h-96 overflow-hidden">
-              {/* Replace with actual trail image */}
-              <div className="absolute inset-0 bg-gradient-to-br from-transparent to-green-900/30" />
+              {/* Replace with actual cruise ship image */}
+              <div className="absolute inset-0 bg-gradient-to-br from-transparent to-blue-900/30" />
               <div className="w-full h-full">
-                {/* Placeholder for image */}
+                {/* Placeholder for cruise image */}
                 <div className="flex justify-center items-center h-full">
-                  Trail Image
+                  Cruise Ship Image
                 </div>
               </div>
             </div>
@@ -85,10 +89,10 @@ export default function HomePage() {
       <section>
         <div>
           <div className="mb-16 text-center">
-            <h2>Why Choose Paragon Trails</h2>
+            <h2>Why Choose Velari Voyages</h2>
             <p>
-              We combine expert knowledge with passion for nature to create
-              unforgettable experiences.
+              We combine luxury amenities with extraordinary destinations to
+              create unforgettable cruise experiences.
             </p>
           </div>
 
@@ -107,12 +111,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Popular Trails Section */}
+      {/* Popular Destinations Section */}
       <section>
         <div>
           <div className="mb-16 text-center">
-            <h2>Popular Trails</h2>
-            <p>Discover our most beloved destinations.</p>
+            <h2>Popular Destinations</h2>
+            <p>Discover our most beloved ports of call.</p>
 
             <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
               {sortedDestinations.map((trail, index) => (
@@ -138,7 +142,7 @@ export default function HomePage() {
           </div>
 
           <div className="flex justify-center mt-12">
-            <button>Explore All Trails</button>
+            <Button>Explore All Destinations</Button>
           </div>
         </div>
       </section>
@@ -147,8 +151,8 @@ export default function HomePage() {
       <section>
         <div>
           <div className="mb-16 text-center">
-            <h2>What Adventurers Say</h2>
-            <p>Stories from fellow trail enthusiasts.</p>
+            <h2>What Our Passengers Say</h2>
+            <p>Experiences from fellow cruise enthusiasts.</p>
           </div>
 
           <div className="gap-8 grid md:grid-cols-2 lg:grid-cols-3">
@@ -170,14 +174,14 @@ export default function HomePage() {
 
       {/* Call to Action */}
       <div>
-        <h2>Ready to Start Your Adventure?</h2>
+        <h2>Ready to Set Sail?</h2>
         <p>
-          Join thousands of nature lovers who have discovered the world's most
-          beautiful trails with us.
+          Join thousands of travelers who have experienced the luxury and wonder
+          of cruising with Velari Voyages.
         </p>
         <div className="flex sm:flex-row flex-col justify-center gap-4">
-          <button>Book a Trail Guide</button>
-          <button>Contact Us</button>
+          <Button>Book Your Voyage</Button>
+          <Button>Contact Us</Button>
         </div>
       </div>
     </main>
