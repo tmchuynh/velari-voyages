@@ -1,4 +1,4 @@
-import { CruisCategory } from "@/lib/interfaces/services/tours";
+import { CruisCategory } from "@/lib/interfaces/services/cruises";
 import {
   FaGem,
   FaHeart,
