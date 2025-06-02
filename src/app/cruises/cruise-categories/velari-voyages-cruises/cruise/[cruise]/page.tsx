@@ -8,6 +8,15 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 import {
   Table,
   TableBody,
@@ -17,7 +26,12 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import {
+  cruiseCategoryPackages,
+  cruisePackages,
+} from "@/lib/constants/info/cruisePackages";
 import { Cruise } from "@/lib/interfaces/services/cruises";
+import { Package } from "@/lib/types/types";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 import {
   getAllCruises,
@@ -41,6 +55,10 @@ export default function CruiseInformationPage() {
   const [filteredCruises, setFilteredCruises] = useState<Cruise[]>([]);
 
   const [cruiseData, setCruiseData] = useState<Cruise>();
+
+  // Add state for managing selected package
+  const [selectedPackage, setSelectedPackage] = useState<Package | null>(null);
+  const [availablePackages, setAvailablePackages] = useState<Package[]>([]);
 
   useEffect(() => {
     const fetchCruiseData = async () => {
@@ -99,6 +117,17 @@ export default function CruiseInformationPage() {
 
     fetchTours();
   }, [category]);
+
+  // Effect to load available packages based on cruise category
+  useEffect(() => {
+    if (cruiseData?.category) {
+      const packageIds = cruiseCategoryPackages[cruiseData.category] || [];
+      const packages = packageIds
+        .map((id) => cruisePackages.find((pkg) => pkg.id === id))
+        .filter(Boolean) as Package[];
+      setAvailablePackages(packages);
+    }
+  }, [cruiseData]);
 
   if (loading) {
     return <Loading />;
@@ -210,6 +239,174 @@ export default function CruiseInformationPage() {
             <h3>Base Price</h3>
             <p>${cruiseData.basePrice}</p>
           </section>
+
+          {/* Required Documents Section */}
+          {cruiseData.requiredDocuments &&
+            cruiseData.requiredDocuments.length > 0 && (
+              <section>
+                <h3>Required Documents</h3>
+                <ul className="pl-5 list-disc">
+                  {cruiseData.requiredDocuments.map((doc, index) => (
+                    <li key={index}>{doc}</li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+          {/* Requirements Section */}
+          {cruiseData.requirements && cruiseData.requirements.length > 0 && (
+            <section>
+              <h3>Requirements</h3>
+              <ul className="pl-5 list-disc">
+                {cruiseData.requirements.map((req, index) => (
+                  <li key={index}>{req}</li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          {/* Cruise Features Section */}
+          <section>
+            <h3>Cruise Features</h3>
+
+            <div className="flex flex-wrap gap-2 mt-2">
+              {cruiseData.isPopular && <Badge variant="outline">Popular</Badge>}
+              {cruiseData.hasPopularDestination && (
+                <Badge variant="outline">Popular Destination</Badge>
+              )}
+              {cruiseData.isFamilyFriendly && (
+                <Badge variant="outline">Family Friendly</Badge>
+              )}
+              {cruiseData.isPetFriendly && (
+                <Badge variant="outline">Pet Friendly</Badge>
+              )}
+              {cruiseData.isCulturalExperience && (
+                <Badge variant="outline">Cultural Experience</Badge>
+              )}
+            </div>
+
+            {/* Add Package Selection Dialog */}
+            <div className="mt-4">
+              <Dialog>
+                <DialogTrigger asChild>
+                  <Button variant="outline">View Available Packages</Button>
+                </DialogTrigger>
+                <DialogContent className="max-w-4xl max-h-[80vh] overflow-y-auto">
+                  <DialogHeader>
+                    <DialogTitle>
+                      Available Packages for {cruiseData.title}
+                    </DialogTitle>
+                    <DialogDescription>
+                      Select a package to enhance your cruise experience
+                    </DialogDescription>
+                  </DialogHeader>
+
+                  <div className="gap-6 grid grid-cols-1 mt-4">
+                    {availablePackages.length > 0 ? (
+                      availablePackages.map((pkg) => (
+                        <div
+                          key={pkg.id}
+                          className="hover:shadow-md p-4 border rounded-lg transition-shadow"
+                        >
+                          <div className="flex justify-between items-start">
+                            <div>
+                              <h3>{pkg.title}</h3>
+                              <p>{pkg.description}</p>
+                            </div>
+                            <div className="font-bold text-xl">
+                              ${pkg.price}
+                            </div>
+                          </div>
+
+                          <div className="gap-4 grid grid-cols-1 md:grid-cols-2 mt-4">
+                            <div>
+                              <h4>Includes:</h4>
+                              <ul className="pl-5 list-disc">
+                                {pkg.includes.map((item, i) => (
+                                  <li key={i} className="text-sm">
+                                    {item}
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                            {pkg.excludes && (
+                              <div>
+                                <h4>Excludes:</h4>
+                                <ul className="pl-5 list-disc">
+                                  {pkg.excludes.map((item, i) => (
+                                    <li key={i} className="text-sm">
+                                      {item}
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                            )}
+                          </div>
+
+                          <div className="flex justify-end mt-4">
+                            <Button onClick={() => setSelectedPackage(pkg)}>
+                              Select Package
+                            </Button>
+                          </div>
+                        </div>
+                      ))
+                    ) : (
+                      <p>No packages available for this cruise category.</p>
+                    )}
+                  </div>
+                </DialogContent>
+              </Dialog>
+
+              {selectedPackage && (
+                <div className="mt-2">
+                  <Badge variant="secondary">
+                    Selected: {selectedPackage.title} - ${selectedPackage.price}
+                  </Badge>
+                </div>
+              )}
+            </div>
+          </section>
+
+          {/* Cruise Category Features */}
+          <section>
+            <h3>Cruise Type</h3>
+            <div className="flex flex-wrap gap-2 mt-2">
+              {cruiseData.isWeekendCruise && (
+                <Badge variant="outline">Weekend Cruise</Badge>
+              )}
+              {cruiseData.isFjordsTour && (
+                <Badge variant="outline">Fjords Tour</Badge>
+              )}
+              {cruiseData.isRepositioningCruise && (
+                <Badge variant="outline">Repositioning Cruise</Badge>
+              )}
+              {cruiseData.isAnniversaryCruise && (
+                <Badge variant="outline">Anniversary Cruise</Badge>
+              )}
+              {cruiseData.isGlacierCruise && (
+                <Badge variant="outline">Glacier Cruise</Badge>
+              )}
+              {cruiseData.isTropicalCruise && (
+                <Badge variant="outline">Tropical Cruise</Badge>
+              )}
+              {cruiseData.isLuxuryCruise && (
+                <Badge variant="outline">Luxury Cruise</Badge>
+              )}
+              {cruiseData.isVIPCruise && (
+                <Badge variant="outline">VIP Cruise</Badge>
+              )}
+              {cruiseData.isThemeCruise && (
+                <Badge variant="outline">Theme Cruise</Badge>
+              )}
+              {cruiseData.isHolidayCruise && (
+                <Badge variant="outline">Holiday Cruise</Badge>
+              )}
+              {cruiseData.isFallFoliageCruise && (
+                <Badge variant="outline">Fall Foliage Cruise</Badge>
+              )}
+            </div>
+          </section>
+
           <section>
             <h3>Contact Information</h3>
             <p>
@@ -243,10 +440,12 @@ export default function CruiseInformationPage() {
                 ))}
             </p>
           </section>
+
           <section>
             <h3>Category</h3>
             <p>{cruiseData.category}</p>
           </section>
+
           <section className="flex flex-wrap gap-2 mt-2">
             {cruiseData.tags?.map((tag, index) => (
               <Badge key={index} variant="secondary">
@@ -254,6 +453,14 @@ export default function CruiseInformationPage() {
               </Badge>
             ))}
           </section>
+
+          {/* Cancellation Policy Section */}
+          {cruiseData.cancellationPolicy && (
+            <section>
+              <h3>Cancellation Policy</h3>
+              <p>{cruiseData.cancellationPolicy}</p>
+            </section>
+          )}
         </div>
       </section>
 
