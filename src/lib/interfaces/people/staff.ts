@@ -13,3 +13,11 @@ export interface TeamMember {
 export interface ContactPersonnel extends TeamMember {
   contact: ContactInfo;
 }
+
+export interface CrewMember extends TeamMember {
+  city: string;
+  department: string;
+  country: string;
+  state?: string;
+  region?: string;
+}
