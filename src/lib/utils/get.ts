@@ -1,3 +1,4 @@
+import { TeamMember } from "../interfaces/people/staff";
 import {
   formatKebebToTitleCase,
   formatTitleToCamelCase,
@@ -78,4 +79,59 @@ export async function getTourData(city: string): Promise<any> {
     );
     return [];
   }
+}
+
+export async function getAllTeamMembers(): Promise<TeamMember[]> {
+  // List of all city file names (without the .ts extension)
+  const cityFiles = [
+    "auckland",
+    "barcelona",
+    "buenos-aires",
+    "cape-town",
+    "dubai",
+    "fort-lauderdale",
+    "galveston",
+    "hong-kong",
+    "lisbon",
+    "los-angeles",
+    "miami",
+    "new-orleans",
+    "new-york-city",
+    "rome",
+    "seattle",
+    "singapore",
+    "southampton",
+    "sydney",
+    "tokyo",
+    "vancouver",
+  ];
+
+  // Combined array for all tour guides
+  const allCrewMembers: TeamMember[] = [];
+
+  // Loop through each city file and import its tour guides
+  for (const city of cityFiles) {
+    try {
+      // Dynamic import of the tour guides file
+      const crewMembersModule = await import(
+        `@/lib/constants/staff/crewMembers/${removeAccents(city)}`
+      );
+
+      // Get the tour guides array using the city name + TourGuides naming convention
+      const cityTourGuides = crewMembersModule[`${city}TourGuides`];
+
+      if (cityTourGuides && Array.isArray(cityTourGuides)) {
+        // Add all tour guides from this city to the combined array
+        allCrewMembers.push(...cityTourGuides);
+      } else {
+        console.warn(
+          `No valid tour guides found for ${city} within @/lib/constants/staff/crewMembers/${city}.ts`
+        );
+      }
+    } catch (error) {
+      console.error(`Error importing tour guides for ${city}:`, error);
+    }
+  }
+
+  return allCrewMembers;
 }
