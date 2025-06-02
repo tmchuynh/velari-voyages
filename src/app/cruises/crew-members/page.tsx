@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/select";
 import { TeamMember } from "@/lib/interfaces/people/staff";
 import { getAllTeamMembers } from "@/lib/utils/get";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import { FaFilter } from "react-icons/fa";
@@ -90,7 +91,30 @@ export default function CrewMembers() {
 
       return true;
     });
-  }, [searchQuery, selectedLanguage, crewMembers]);
+  }, [
+    searchQuery,
+    selectedLanguage,
+    selectedRole,
+    selectedExperience,
+    crewMembers,
+  ]);
+
+  // Group crew members by role
+  const crewMembersByRole = useMemo(() => {
+    return filteredCrewMembers.reduce((groups, member) => {
+      const role = member.role;
+      if (!groups[role]) {
+        groups[role] = [];
+      }
+      groups[role].push(member);
+      return groups;
+    }, {} as Record<string, TeamMember[]>);
+  }, [filteredCrewMembers]);
+
+  // Get sorted role names for display
+  const sortedRoles = useMemo(() => {
+    return Object.keys(crewMembersByRole).sort();
+  }, [crewMembersByRole]);
 
   // Scroll to section function
   const scrollToSection = (id: string) => {
@@ -116,16 +140,25 @@ export default function CrewMembers() {
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <header>
-        <h1>The Ones Who Lead The Way</h1>
+        <h1>Command & Concierge at Sea</h1>
         <h5>
-          Passionate Locals. Expert Storytellers. Your Gateway to Authentic
-          Experiences.
+          Meet the experienced professionals who ensure your voyage is seamless,
+          safe, and exceptional.
         </h5>
         <blockquote>
-          "Our guides don't just show you places; they open doors to experiences
-          that would otherwise remain hidden."
-          <cite>— Alexandra Chen, Head of Guide Relations</cite>
+          "Our crew is dedicated to delivering impeccable service and expert
+          navigation, making every journey aboard your private yacht
+          unforgettable." — Samantha R., Yacht Charter Specialist
         </blockquote>
+        <p>
+          Whether you're looking for a skilled captain to navigate your yacht or
+          a professional crew to enhance your sailing experience, we have a
+          variety of options to suit your needs. Our crew members are carefully
+          selected for their expertise, professionalism, and passion for the
+          sea. Browse through our crew profiles to find the perfect match for
+          your yacht charter, and let us help you create an unforgettable
+          sailing adventure.
+        </p>
       </header>
 
       <section>
@@ -243,23 +276,42 @@ export default function CrewMembers() {
       </section>
 
       {filteredCrewMembers.length > 0 ? (
-        filteredCrewMembers.map((member, index) => (
-          <div key={index}>
-            <Card className="mb-6">
-              <CardContent>
-                <h3 className="font-semibold text-lg">{member.name}</h3>
-                <p className="mb-2 text-muted-foreground text-sm">
-                  {member.role} | {member.experienceYears} years of experience
-                </p>
-                <p className="mb-2">
-                  Languages:{" "}
-                  {(member.languages || []).join(", ") || "Not specified"}
-                </p>
-                <p>{member.bio || "No bio available."}</p>
-              </CardContent>
-            </Card>
-          </div>
-        ))
+        <div className="space-y-12">
+          {sortedRoles.map((role) => (
+            <div key={role} className="mb-8">
+              <h2 className="mb-6 pb-2 border-b border-border">{role}s</h2>
+              <div className="gap-8 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+                {crewMembersByRole[role].map((member, index) => (
+                  <div
+                    key={index}
+                    className="flex flex-col justify-between shadow-md hover:shadow-lg border border-border rounded-lg h-full transition-shadow duration-300"
+                  >
+                    <div className="p-5 border-tertiary border-b-2">
+                      <h3 className="mb-1 font-bold text-xl">{member.name}</h3>
+                    </div>
+                    {member.bio && <p>{member.bio}</p>}
+                    {member.experienceYears && (
+                      <strong className="mb-3 text-fancy text-sm">
+                        {member.experienceYears} Years Experience
+                      </strong>
+                    )}
+                    <div className="mb-4">
+                      <strong>Languages:</strong>
+                      <p className="text-sm">{member.languages.join(", ")}</p>
+                    </div>
+                    <Image
+                      src={member.profileImage || "/images/default-avatar.png"}
+                      alt={member.name}
+                      width={150}
+                      height={150}
+                      className="w-full h-48 object-cover"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
       ) : (
         <div className="py-12 text-center">
           <h3 className="mb-4 font-semibold text-xl">
