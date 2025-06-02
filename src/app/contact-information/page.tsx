@@ -12,18 +12,18 @@ export default function ContactInformation() {
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <header>
-        <h1>We’re Here to Guide You, Wherever You Go</h1>
+        <h1>Your Voyage Support Team</h1>
         <h5>
-          Reach out to the right team for seamless travel support and
-          personalized service.
+          Connect with our expert crew for seamless sailing support and
+          personalized service at every port.
         </h5>
         <blockquote>
-          "Travel isn't just about the destination—it's about having the right
-          people behind you every step of the way."
+          "The journey across the sea becomes extraordinary when you have the
+          right crew supporting your voyage every nautical mile of the way."
         </blockquote>
       </header>
 
-      <h2>Department Contacts</h2>
+      <h2>Shipboard & Shoreside Contacts</h2>
       <div className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {sortedDepartments.map((dept, index) => (
           <div key={index}>
