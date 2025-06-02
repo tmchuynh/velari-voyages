@@ -41,7 +41,7 @@ export const navbarItems = [
       },
       {
         label: "Popular Destinations",
-        href: "/cruises/cruise-categories/popular-destinations",
+        href: "/cruises/cruise-categories/popular-cruises",
       },
       {
         label: "Types of Cruises",
