@@ -50,6 +50,7 @@ export const newOrleansCruises: Cruise[] = [
     contactPersonnel: [
       {
         name: "James Carter",
+        role: "Cruise Coordinator",
         description: "Cruise Coordinator",
         bio: "Specializes in Caribbean cruises with 8 years of experience.",
         languages: ["English", "Spanish"],
@@ -116,6 +117,7 @@ export const newOrleansCruises: Cruise[] = [
     contactPersonnel: [
       {
         name: "Samantha Lee",
+        role: "Luxury Cruise Manager",
         description: "Luxury Cruise Manager",
         bio: "Expert in premium Caribbean cruises with 12 years of experience.",
         languages: ["English"],
@@ -184,6 +186,7 @@ export const newOrleansCruises: Cruise[] = [
     contactPersonnel: [
       {
         name: "Laura Mitchell",
+        role: "Cruise Specialist",
         description: "Cruise Specialist",
         bio: "Experienced in Central American cruises with a focus on eco-tourism.",
         languages: ["English", "Spanish"],
@@ -252,6 +255,7 @@ export const newOrleansCruises: Cruise[] = [
     contactPersonnel: [
       {
         name: "Richard Johnson",
+        role: "Luxury Cruise Director",
         description: "Luxury Cruise Director",
         bio: "Over 15 years managing luxury cruises with attention to detail.",
         languages: ["English"],
