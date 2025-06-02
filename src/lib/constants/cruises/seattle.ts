@@ -176,4 +176,154 @@ export const seattleCruises: Cruise[] = [
     isFamilyFriendly: true,
     basePrice: 599,
   },
+  {
+    departureLocation: {
+      city: "Seattle",
+      country: "USA",
+      state: "Washington",
+      region: "Pacific Northwest",
+      coordinates: { latitude: 47.6062, longitude: -122.3321 },
+      timezone: "America/Los_Angeles",
+      address: "Bell Street Cruise Terminal at Pier 66, Seattle",
+    },
+    arrivalLocation: {
+      city: "Nanaimo",
+      country: "Canada",
+      state: "British Columbia",
+      coordinates: { latitude: 49.1659, longitude: -123.9401 },
+      timezone: "America/Vancouver",
+    },
+    category: "mainstream",
+    itinerary: {
+      route: [
+        { city: "Seattle", country: "USA", state: "Washington" },
+        { city: "Nanaimo", country: "Canada", state: "British Columbia" },
+        { city: "Seattle", country: "USA", state: "Washington" },
+      ],
+      description:
+        "5-night adventure cruise exploring the Pacific Northwest coastline.",
+      distance: "500 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+        {
+          start: "2025-07-10T18:00:00-07:00",
+          end: "2025-07-11T08:00:00-07:00",
+          description:
+            "Cruising the scenic Puget Sound and Strait of Juan de Fuca.",
+        },
+        {
+          start: "2025-07-14T17:00:00-07:00",
+          end: "2025-07-15T08:00:00-07:00",
+          description: "Return sailing from Nanaimo to Seattle.",
+        },
+      ],
+      timeOnLand: [
+        {
+          start: "2025-07-11T08:00:00-07:00",
+          end: "2025-07-14T17:00:00-07:00",
+          description:
+            "Explore Nanaimo's parks, waterfront, and local culture.",
+        },
+      ],
+    },
+    requiredDocuments: ["Valid Passport", "Canadian eTA (if applicable)"],
+    cancellationPolicy: "Full refund if canceled 45 days prior to departure",
+    tourCategoryId: "adventure-cruise",
+    contactPersonnel: [
+      {
+        name: "Sarah Thompson",
+        role: "Adventure Cruise Guide",
+        bio: "Passionate about the Pacific Northwest, local culture, and outdoor activities.",
+        languages: ["English"],
+        experienceYears: 7,
+        profileImage:
+          "https://images.unsplash.com/photo-1524504388940-b1c1722653e1",
+        contact: {
+          contactEmail: "sthompson@seattlecruises.com",
+          contactNumber: "+1 206-555-2468",
+        },
+      },
+    ],
+    title: "Pacific Northwest Adventure Cruise",
+    description:
+      "Discover the breathtaking coastal scenery and vibrant cultures of the Pacific Northwest on this 5-night adventure cruise.",
+    tags: ["adventure", "Pacific Northwest", "nature", "culture"],
+    rating: 4.6,
+    isFamilyFriendly: true,
+    basePrice: 899,
+  },
+  {
+    departureLocation: {
+      city: "Seattle",
+      country: "USA",
+      state: "Washington",
+      region: "Pacific Northwest",
+      coordinates: { latitude: 47.6062, longitude: -122.3321 },
+      timezone: "America/Los_Angeles",
+      address: "Bell Street Cruise Terminal at Pier 66, Seattle",
+    },
+    arrivalLocation: {
+      city: "Vancouver",
+      country: "Canada",
+      state: "British Columbia",
+      coordinates: { latitude: 49.2827, longitude: -123.1207 },
+      timezone: "America/Vancouver",
+    },
+    category: "luxury",
+    itinerary: {
+      route: [
+        { city: "Seattle", country: "USA", state: "Washington" },
+        { city: "Vancouver", country: "Canada", state: "British Columbia" },
+      ],
+      description:
+        "2-night luxury cruise to Vancouver with gourmet dining and spa amenities.",
+      distance: "140 nautical miles",
+      totalDuration: "2 days",
+      timeAtSea: [
+        {
+          start: "2025-08-05T19:00:00-07:00",
+          end: "2025-08-06T07:00:00-07:00",
+          description: "Evening sailing from Seattle to Vancouver.",
+        },
+        {
+          start: "2025-08-07T18:00:00-07:00",
+          end: "2025-08-08T08:00:00-07:00",
+          description: "Return trip from Vancouver to Seattle.",
+        },
+      ],
+      timeOnLand: [
+        {
+          start: "2025-08-06T07:00:00-07:00",
+          end: "2025-08-07T18:00:00-07:00",
+          description:
+            "Enjoy Vancouver's luxury shopping, fine dining, and scenic Stanley Park.",
+        },
+      ],
+    },
+    requiredDocuments: ["Valid Passport"],
+    cancellationPolicy: "Full refund if canceled 30 days prior to departure",
+    tourCategoryId: "luxury-cruise",
+    contactPersonnel: [
+      {
+        name: "Emily Carter",
+        role: "Luxury Cruise Manager",
+        bio: "Dedicated to delivering upscale cruise experiences with exceptional service.",
+        languages: ["English", "French"],
+        experienceYears: 12,
+        profileImage:
+          "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+        contact: {
+          contactEmail: "ecarter@seattlecruises.com",
+          contactNumber: "+1 206-555-3344",
+        },
+      },
+    ],
+    title: "Seattle to Vancouver Luxury Escape",
+    description:
+      "Indulge in a short luxury cruise from Seattle to Vancouver featuring gourmet meals, spa treatments, and first-class amenities.",
+    tags: ["luxury", "short cruise", "gourmet", "spa"],
+    rating: 4.9,
+    isFamilyFriendly: false,
+    basePrice: 1299,
+  },
 ];
