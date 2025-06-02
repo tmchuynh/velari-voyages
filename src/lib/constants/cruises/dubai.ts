@@ -783,7 +783,6 @@ export const dubaiCruises: Cruise[] = [
     ],
     isLuxuryCruise: true,
     isFamilyFriendly: false,
-    isIslandHopping: true,
     title: "Dubai to Seychelles Luxury Ocean Voyage",
     description:
       "Journey from the architectural marvels of Dubai to the pristine paradise islands of Seychelles on this 12-day luxury experience.",
@@ -910,7 +909,6 @@ export const dubaiCruises: Cruise[] = [
     ],
     isLuxuryCruise: false,
     isCulturalExperience: true,
-    isHistoricalCruise: true,
     title: "Dubai to Athens Historical Passage",
     description:
       "Travel through millennia of human history on this 14-day journey from the modern marvels of Dubai to the classical wonders of Athens.",
@@ -1268,7 +1266,6 @@ export const dubaiCruises: Cruise[] = [
     ],
     isLuxuryCruise: true,
     isCulturalExperience: true,
-    isHistoricalJourney: true,
     title: "Grand Voyage: Dubai to Rome Legacy",
     description:
       "A curated 21-day ultra-luxury journey through the cradles of civilization, connecting the Arabian Gulf to the Eternal City with exclusive experiences throughout.",
@@ -1485,7 +1482,6 @@ export const dubaiCruises: Cruise[] = [
     ],
     isLuxuryCruise: true,
     isCulturalExperience: true,
-    isGrandVoyage: true,
     title: "Imperial Grand Voyage: Dubai to London",
     description:
       "An extraordinary 25-day journey through the ancient and modern wonders of three continents, from the Arabian luxury of Dubai to the royal splendor of London.",
