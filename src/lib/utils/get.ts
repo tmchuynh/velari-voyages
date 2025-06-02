@@ -1,4 +1,4 @@
-import { TeamMember } from "../interfaces/people/staff";
+import { CrewMember, TeamMember } from "../interfaces/people/staff";
 import {
   formatKebebToTitleCase,
   formatTitleToCamelCase,
@@ -47,6 +47,38 @@ export function getRandomDatesFromNextWeek(
   return Array.from(dates);
 }
 
+export async function getCrewMemberData(city: string): Promise<CrewMember[]> {
+  // First remove accents from the entire city name, then format it
+  const cityWithoutAccents = removeAccents(city);
+  const cityFormatted =
+    cityWithoutAccents.replaceAll(" ", "-").charAt(0).toLowerCase() +
+    formatTitleToCamelCase(formatKebebToTitleCase(cityWithoutAccents.slice(1)))
+      .replace("'", "")
+      .replace("-", "");
+  const crewID = `${cityFormatted}TeamMembers`;
+  try {
+    const crewModule = await import(
+      `@/lib/constants/crewMembers/${formatToSlug(
+        cityWithoutAccents.replace("'", "-")
+      )}`
+    );
+    // Return the specific named export that matches crewID
+    if (crewModule[crewID]) {
+      return crewModule[crewID] as CrewMember[];
+    } else {
+      console.error(
+        `Export named export const ${crewID}: CrewMember[] =[]; not found in module`
+      );
+      return [];
+    }
+  } catch (error) {
+    console.error(
+      `Error loading resource from @/lib/constants/crewMembers: ${error} export const ${crewID}: CrewMember[] = [];`
+    );
+    return [];
+  }
+}
+
 export async function getTourData(city: string): Promise<any> {
   // First remove accents from the entire city name, then format it
   const cityWithoutAccents = removeAccents(city);
@@ -81,7 +113,7 @@ export async function getTourData(city: string): Promise<any> {
   }
 }
 
-export async function getAllTeamMembers(): Promise<TeamMember[]> {
+export async function getAllCruises(): Promise<TeamMember[]> {
   // List of all city file names (without the .ts extension)
   const cityFiles = [
     "auckland",
@@ -106,30 +138,85 @@ export async function getAllTeamMembers(): Promise<TeamMember[]> {
     "vancouver",
   ];
 
-  // Combined array for all tour guides
-  const allCrewMembers: TeamMember[] = [];
+  // Combined array for all cruises
+  const allCruises: TeamMember[] = [];
 
-  // Loop through each city file and import its tour guides
+  // Loop through each city file and import its cruises
   for (const city of cityFiles) {
     try {
-      // Dynamic import of the tour guides file
-      const crewMembersModule = await import(
-        `@/lib/constants/staff/crewMembers/${removeAccents(city)}`
+      // Dynamic import of the cruises file
+      const cruisesModule = await import(
+        `@/lib/constants/cruises/${removeAccents(city)}`
       );
 
-      // Get the tour guides array using the city name + TourGuides naming convention
-      const cityTourGuides = crewMembersModule[`${city}TourGuides`];
+      // Get the cruises array using the city name + TourGuides naming convention
+      const cityTourGuides = cruisesModule[`${city}TourGuides`];
 
       if (cityTourGuides && Array.isArray(cityTourGuides)) {
-        // Add all tour guides from this city to the combined array
-        allCrewMembers.push(...cityTourGuides);
+        // Add all cruises from this city to the combined array
+        allCruises.push(...cityTourGuides);
       } else {
         console.warn(
-          `No valid tour guides found for ${city} within @/lib/constants/staff/crewMembers/${city}.ts`
+          `No valid cruises found for ${city} within @/lib/constants/cruises/${city}.ts`
         );
       }
     } catch (error) {
-      console.error(`Error importing tour guides for ${city}:`, error);
+      console.error(`Error importing cruises for ${city}:`, error);
+    }
+  }
+
+  return allCruises;
+}
+
+export async function getAllTeamMembers(): Promise<CrewMember[]> {
+  // List of all city file names (without the .ts extension)
+  const cityFiles = [
+    "auckland",
+    "barcelona",
+    "buenos-aires",
+    "cape-town",
+    "dubai",
+    "fort-lauderdale",
+    "galveston",
+    "hong-kong",
+    "lisbon",
+    "los-angeles",
+    "miami",
+    "new-orleans",
+    "new-york-city",
+    "rome",
+    "seattle",
+    "singapore",
+    "southampton",
+    "sydney",
+    "tokyo",
+    "vancouver",
+  ];
+
+  // Combined array for all team members
+  const allCrewMembers: CrewMember[] = [];
+
+  // Loop through each city file and import its team members
+  for (const city of cityFiles) {
+    try {
+      // Dynamic import of the team members file
+      const crewMembersModule = await import(
+        `@/lib/constants/crewMembers/${removeAccents(city)}`
+      );
+
+      // Get the team members array using the city name + TourGuides naming convention
+      const cruiseTeamMembers = crewMembersModule[`${city}TourGuides`];
+
+      if (cruiseTeamMembers && Array.isArray(cruiseTeamMembers)) {
+        // Add all team members from this city to the combined array
+        allCrewMembers.push(...cruiseTeamMembers);
+      } else {
+        console.warn(
+          `No valid team members found for ${city} within @/lib/constants/staff/crewMembers/${city}.ts`
+        );
+      }
+    } catch (error) {
+      console.error(`Error importing team members for ${city}:`, error);
     }
   }
 
