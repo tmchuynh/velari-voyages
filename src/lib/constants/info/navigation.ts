@@ -8,19 +8,27 @@ export const navbarItems = [
     dropdown: [
       {
         label: "Our Company",
-        href: "/about-paragon-trails",
+        href: "/about-velari-voyages",
       },
       {
         label: "Our History & Mission",
-        href: "/about-paragon-trails/company-history-and-mission",
+        href: "/about-velari-voyages/company-history-and-mission",
+      },
+      {
+        label: "Our Values & Commitment",
+        href: "/about-velari-voyages/values-and-commitment",
+      },
+      {
+        label: "Our Fleet & Vessels",
+        href: "/about-velari-voyages/fleet-and-vessels",
+      },
+      {
+        label: "Our Amazing Team",
+        href: "/cruises/crew-members",
       },
       {
         label: "Our Team & Partnerships",
-        href: "/about-paragon-trails/core-team-and-partnerships",
-      },
-      {
-        label: "Core Pillars",
-        href: "/about-paragon-trails/sustainability-and-community-involvement",
+        href: "/about-velari-voyages/core-team-and-partnerships",
       },
     ],
   },
@@ -29,53 +37,15 @@ export const navbarItems = [
     dropdown: [
       {
         label: "All Destinations",
-        href: "/luxurious-destinations",
+        href: "/cruises/cruise-categories/velari-voyages-cruises",
       },
       {
         label: "Popular Destinations",
-        href: "/luxurious-destinations/popular-destinations",
-      },
-    ],
-  },
-  {
-    label: "Tours",
-    dropdown: [
-      {
-        label: "All Tours",
-        href: "/tours",
+        href: "/cruises/cruise-categories/popular-destinations",
       },
       {
-        label: "Popular Tours",
-        href: "/tours/popular-tours",
-      },
-      {
-        label: "Types of Tours",
-        href: "/tours/tour-categories",
-      },
-      {
-        label: "Tour Guides",
-        href: "/tours/tour-guides",
-      },
-    ],
-  },
-  {
-    label: "Services",
-    dropdown: [
-      {
-        label: "Rent a Vehicle for Your Trip",
-        href: "/services/ground-transportations",
-      },
-      {
-        label: "Fly Private with Us",
-        href: "/services/private-aviation",
-      },
-      {
-        label: "Rent a Yacht Charter",
-        href: "/services/yacht-charters",
-      },
-      {
-        label: "Homestays & Heritage Stays",
-        href: "/services/homestays-and-heritage-stays",
+        label: "Types of Cruises",
+        href: "/cruises/cruise-categories",
       },
     ],
   },
@@ -84,23 +54,23 @@ export const navbarItems = [
     dropdown: [
       {
         label: "FAQs",
-        href: "/services/information/frequently-asked-questions",
+        href: "/cruises/information/frequently-asked-questions",
       },
       {
         label: "Accommodations Policy",
-        href: "/services/information/accommodations-policy",
+        href: "/cruises/information/accommodations-policy",
       },
       {
         label: "Travel Insurance Policy",
-        href: "/services/information/travel-insurance-policy",
+        href: "/cruises/information/travel-insurance-policy",
       },
       {
         label: "Cancellation & Refund Policy",
-        href: "/services/information/cancellation-and-refund-policy",
+        href: "/cruises/information/cancellation-and-refund-policy",
       },
       {
         label: "Travel Safety Information",
-        href: "/services/information/travel-safety-information",
+        href: "/cruises/information/travel-safety-information",
       },
     ],
   },
