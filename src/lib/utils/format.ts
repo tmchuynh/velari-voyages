@@ -60,6 +60,23 @@ export const formatDuration = (duration: string): string => {
   return `${weeks} weeks ${days} days`;
 };
 
+/**
+ * Converts a camelCase string to a title case string.
+ *
+ * This function takes a camelCase formatted string and converts it to a title case string,
+ * where each word is capitalized and separated by spaces.
+ *
+ * @param camelCase - The camelCase string to convert
+ * @returns The converted title case string
+ *
+ * @example
+ * // Returns "Hello World"
+ * formatCamelCaseToTitle("helloWorld")
+ *
+ * @example
+ * // Returns "Test Case Example"
+ * formatCamelCaseToTitle("testCaseExample")
+ */
 export function formatCamelCaseToTitle(camelCase: string): string {
   // Add space before capital letters and convert to lowercase
   const withSpaces = camelCase.replace(/([A-Z])/g, " $1").toLowerCase();
@@ -73,6 +90,25 @@ export function formatCamelCaseToTitle(camelCase: string): string {
     .join(" ");
 }
 
+/**
+ * Formats a number to a currency string.
+ *
+ * This function takes a number and formats it as a currency string in USD,
+ * with optional minimum and maximum fraction digits.
+ *
+ * @param value - The number to format
+ * @param min - Optional minimum number of fraction digits (default is 0)
+ * @param max - Optional maximum number of fraction digits (default is 0)
+ * @returns The formatted currency string
+ *
+ * @example
+ * // Returns "$1,234.56"
+ * formatNumberToCurrency(1234.56)
+ *
+ * @example
+ * // Returns "$1,234.00"
+ * formatNumberToCurrency(1234, 2, 2)
+ */
 export function formatNumberToCurrency(
   value: number,
   min?: number,
@@ -108,6 +144,49 @@ export function formatKebabToCamelCase(str: string): string {
     .join("");
 }
 
+/**
+ * Converts a kebab-case string to title case.
+ *
+ * This function takes a kebab-case formatted string (words separated by hyphens)
+ * and converts it to title case (each word capitalized, separated by spaces).
+ *
+ * @param str - The kebab-case string to convert
+ * @returns The converted title case string
+ *
+ * @example
+ * // Returns "Hello World"
+ * formatKebebToTitleCase("hello-world")
+ *
+ * @example
+ * // Returns "Test Case Example"
+ * formatKebebToTitleCase("test-case-example")
+ */
+export function formatKebebToTitleCase(str: string): string {
+  return str
+    .split("-")
+    .map((word) => {
+      return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+    })
+    .join(" ");
+}
+
+/**
+ * Converts a string to a URL-friendly slug format.
+ *
+ * This function takes a string and converts it to a slug format suitable for URLs.
+ * It removes special characters, replaces spaces with hyphens, and converts the string to lowercase.
+ *
+ * @param str - The string to convert to a slug
+ * @returns The slugified version of the string
+ *
+ * @example
+ * // Returns "hello-world"
+ * formatToSlug("Hello World!")
+ *
+ * @example
+ * // Returns "this-is-a-test"
+ * formatToSlug("This is a test.")
+ */
 export function formatToSlug(str: string): string {
   return str
     .toLowerCase()
@@ -116,23 +195,107 @@ export function formatToSlug(str: string): string {
 }
 
 /**
- * Formats a grade range slug into a human-readable string.
+ * Formats an array of language strings into a grammatically correct string.
  *
- * @param slug - The slug to format, e.g., "grades-k-2" or "grades-3-5"
- * @returns A formatted string, e.g., "Grades K to 2" or "Grades 3 to 5"
+ * @param languages - An array of language strings to be formatted
+ * @returns A formatted string where languages are comma-separated and the last language is preceded by "and"
+ * @example
+ * // Returns "English"
+ * formatLanguages(["English"])
+ *
+ * // Returns "English, and Spanish"
+ * formatLanguages(["English", "Spanish"])
+ *
+ * // Returns "English, Spanish, and French"
+ * formatLanguages(["English", "Spanish", "French"])
+ *
+ * // Returns empty string for empty array
+ * formatLanguages([])
+ */
+export const formatLanguages = (languages: string[]) => {
+  if (languages.length === 0) return "";
+  if (languages.length === 1) return languages[0];
+
+  const lastLanguage = languages[languages.length - 1];
+  const otherLanguages = languages.slice(0, -1).join(", ");
+  return `${otherLanguages}, and ${lastLanguage}`;
+};
+
+/**
+ * Converts a title string to camelCase format.
+ * 
+ * @param title - The string to convert to camelCase
+ * @returns The camelCase formatted string
+ * 
+ * @example
+ * // returns "helloWorld"
+ * formatTitleToCamelCase("Hello World");
+ * 
+ * @example
+ * // returns "thisIsATest"
+ * formatTitleToCamelCase("This Is A Test");
+ */
+export function formatTitleToCamelCase(title: string): string {
+  return title
+    .split(" ")
+    .map((word, index) => {
+      if (index === 0) {
+        return word.toLowerCase();
+      }
+      return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+    })
+    .join("");
+}
+
+/**
+ * Formats an array of language strings into a grammatically correct string.
+ *
+ * @param languages - An array of language strings to be formatted
+ * @returns A formatted string where languages are comma-separated and the last language is preceded by "and"
+ * @example
+ * // Returns "English"
+ * formatLanguages(["English"])
+ *
+ * // Returns "English, and Spanish"
+ * formatLanguages(["English", "Spanish"])
+ *
+ * // Returns "English, Spanish, and French"
+ * formatLanguages(["English", "Spanish", "French"])
+ *
+ * // Returns empty string for empty array
+ * formatLanguages([])
+ */
+export const formatLanguages = (languages: string[]) => {
+  if (languages.length === 0) return "";
+  if (languages.length === 1) return languages[0];
+
+  const lastLanguage = languages[languages.length - 1];
+  const otherLanguages = languages.slice(0, -1).join(", ");
+  return `${otherLanguages}, and ${lastLanguage}`;
+};
+
+/**
+ * Removes diacritical marks (accents) from a string.
+ *
+ * This function converts accented characters to their base form.
+ * For example, "é" becomes "e", "ç" becomes "c", "ü" becomes "u", etc.
+ *
+ * @param str - The string with accented characters
+ * @returns The string with accents removed
  *
  * @example
- * formatGradeRangeSlug("grades-k-2") // returns "Grades K to 2"
- * formatGradeRangeSlug("grades-3-5") // returns "Grades 3 to 5"
- * formatGradeRangeSlug("invalid-slug") // returns "invalid-slug"
+ * // Returns "Draa-Tafilalet"
+ * removeAccents("Drâa-Tafilalet")
+ *
+ * @example
+ * // Returns "Hoi An"
+ * removeAccents("Hội An")
  */
-export function formatGradeRangeSlug(slug: string): string {
-  // Match "grades-k-2" or "grades-3-5" etc.
-  const match = slug.match(/^grades-([a-zA-Z0-9]+)-([a-zA-Z0-9]+)$/);
-  if (!match) return slug;
-  const [_, start, end] = match;
-  // Capitalize K if present, otherwise just use as is
-  const formatPart = (part: string) =>
-    part.length === 1 ? part.toUpperCase() : part;
-  return `Grades ${formatPart(start)}–${formatPart(end)}`;
+export function removeAccents(str: string): string {
+  // Normalize to decomposed form, which separates base characters from diacritical marks
+  return str
+    .replaceAll("đ", "d")
+    .replaceAll("Đ", "D") // Remove all combining diacritical marks
+    .normalize("NFD")
+    .replace(/[\u0300-\u036F]/g, "");
 }
