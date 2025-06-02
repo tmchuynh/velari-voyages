@@ -338,7 +338,6 @@ export const tokyoCruises: Cruise[] = [
       "Experience the highlights of Japan and China on this budget-friendly 4-night cruise from Tokyo to Shanghai.",
     tags: ["budget", "Japan", "China", "Shanghai", "Yokohama"],
     rating: 4.2,
-    isBudgetFriendly: true,
     basePrice: 899,
   },
 ];
