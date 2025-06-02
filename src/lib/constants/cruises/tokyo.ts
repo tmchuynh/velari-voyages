@@ -157,4 +157,188 @@ export const tokyoCruises: Cruise[] = [
     isLuxuryCruise: true,
     basePrice: 2499,
   },
+  {
+    departureLocation: {
+      city: "Tokyo",
+      country: "Japan",
+      region: "Kanto",
+      coordinates: { latitude: 35.6762, longitude: 139.6503 },
+      timezone: "Asia/Tokyo",
+    },
+    arrivalLocation: {
+      city: "Okinawa",
+      country: "Japan",
+      region: "Okinawa Prefecture",
+      coordinates: { latitude: 26.2124, longitude: 127.6792 },
+      timezone: "Asia/Tokyo",
+    },
+    category: "mainstream",
+    itinerary: {
+      route: [
+        { city: "Tokyo", country: "Japan" },
+        { city: "Naha", country: "Japan" },
+        { city: "Ishigaki", country: "Japan" },
+      ],
+      description:
+        "7-night family-friendly cruise exploring Japan's tropical islands.",
+      distance: "1200 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+        {
+          start: "2025-07-01T15:00:00+09:00",
+          end: "2025-07-02T10:00:00+09:00",
+          description:
+            "Cruising from Tokyo to Okinawa with onboard family activities.",
+        },
+        {
+          start: "2025-07-05T18:00:00+09:00",
+          end: "2025-07-06T09:00:00+09:00",
+          description:
+            "Sailing from Naha to Ishigaki with evening entertainment.",
+        },
+      ],
+      timeOnLand: [
+        {
+          start: "2025-07-02T10:00:00+09:00",
+          end: "2025-07-05T18:00:00+09:00",
+          description:
+            "Family fun in Naha with beaches, water sports, and cultural tours.",
+        },
+        {
+          start: "2025-07-06T09:00:00+09:00",
+          end: "2025-07-08T16:00:00+09:00",
+          description:
+            "Exploring Ishigaki's beaches, snorkeling, and local cuisine.",
+        },
+      ],
+    },
+    requiredDocuments: [
+      "Valid Passport",
+      "Parental Consent for Minors (if applicable)",
+    ],
+    cancellationPolicy: "Full refund if canceled 30 days prior to departure",
+    tourCategoryId: "family-cruise",
+    contactPersonnel: [
+      {
+        name: "Aiko Suzuki",
+        role: "Family Cruise Coordinator",
+        bio: "Specializes in family-friendly cruise experiences with a focus on children's activities and safety.",
+        languages: ["Japanese", "English"],
+        experienceYears: 8,
+        profileImage:
+          "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+        contact: {
+          contactNumber: "+81 3-5555-4567",
+        },
+      },
+      {
+        name: "Kenji Yamamoto",
+        role: "Onboard Family Activities Director",
+        bio: "Expert in organizing engaging activities for families and children onboard.",
+        languages: ["Japanese", "English"],
+        experienceYears: 10,
+        profileImage:
+          "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+        contact: {
+          contactNumber: "+81 3-5555-7890",
+        },
+      },
+    ],
+    title: "Tropical Family Adventure Cruise",
+    description:
+      "Enjoy a week of family fun and adventure in Japan's tropical islands on this 7-night cruise from Tokyo to Okinawa.",
+    tags: ["family", "Japan", "Okinawa", "tropical", "adventure"],
+    rating: 4.5,
+    isFamilyFriendly: true,
+    basePrice: 1399,
+  },
+  {
+    departureLocation: {
+      city: "Tokyo",
+      country: "Japan",
+      region: "Kanto",
+      coordinates: { latitude: 35.6762, longitude: 139.6503 },
+      timezone: "Asia/Tokyo",
+    },
+    arrivalLocation: {
+      city: "Shanghai",
+      country: "China",
+      coordinates: { latitude: 31.2304, longitude: 121.4737 },
+      timezone: "Asia/Shanghai",
+    },
+    category: "mainstream",
+    itinerary: {
+      route: [
+        { city: "Tokyo", country: "Japan" },
+        { city: "Yokohama", country: "Japan" },
+        { city: "Shanghai", country: "China" },
+      ],
+      description:
+        "4-night budget cruise from Tokyo to Shanghai with stops in Yokohama.",
+      distance: "800 nautical miles",
+      totalDuration: "4 days",
+      timeAtSea: [
+        {
+          start: "2025-08-05T16:00:00+09:00",
+          end: "2025-08-06T10:00:00+09:00",
+          description:
+            "Cruising from Tokyo Bay to Yokohama with onboard entertainment.",
+        },
+        {
+          start: "2025-08-07T18:00:00+09:00",
+          end: "2025-08-08T09:00:00+09:00",
+          description: "Sailing from Yokohama to Shanghai with evening shows.",
+        },
+      ],
+      timeOnLand: [
+        {
+          start: "2025-08-06T10:00:00+09:00",
+          end: "2025-08-07T18:00:00+09:00",
+          description: "Exploring Yokohama's Chinatown, parks, and waterfront.",
+        },
+        {
+          start: "2025-08-08T09:00:00+09:00",
+          end: "2025-08-09T16:00:00+08:00",
+          description:
+            "Discovering Shanghai's skyline, markets, and cultural sites.",
+        },
+      ],
+    },
+    requiredDocuments: ["Valid Passport", "Chinese Visa (if applicable)"],
+    cancellationPolicy: "Full refund if canceled 20 days prior to departure",
+    tourCategoryId: "budget-cruise",
+    contactPersonnel: [
+      {
+        name: "Li Wei",
+        role: "Budget Cruise Specialist",
+        bio: "Expert in affordable cruise options with a focus on value and cultural experiences.",
+        languages: ["Chinese", "Japanese", "English"],
+        experienceYears: 6,
+        profileImage:
+          "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+        contact: {
+          contactNumber: "+86 21-5555-1234",
+        },
+      },
+      {
+        name: "Satoshi Ito",
+        role: "Onboard Entertainment Manager",
+        bio: "Specializes in organizing budget-friendly entertainment and activities onboard.",
+        languages: ["Japanese", "English"],
+        experienceYears: 7,
+        profileImage:
+          "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+        contact: {
+          contactNumber: "+81 3-5555-2345",
+        },
+      },
+    ],
+    title: "Tokyo to Shanghai Budget Cruise",
+    description:
+      "Experience the highlights of Japan and China on this budget-friendly 4-night cruise from Tokyo to Shanghai.",
+    tags: ["budget", "Japan", "China", "Shanghai", "Yokohama"],
+    rating: 4.2,
+    isBudgetFriendly: true,
+    basePrice: 899,
+  },
 ];

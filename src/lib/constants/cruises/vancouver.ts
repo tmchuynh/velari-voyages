@@ -154,4 +154,176 @@ export const vancouverCruises: Cruise[] = [
     isFamilyFriendly: true,
     basePrice: 499,
   },
+  {
+    departureLocation: {
+      city: "Vancouver",
+      country: "Canada",
+      state: "British Columbia",
+      coordinates: { latitude: 49.2827, longitude: -123.1207 },
+      timezone: "America/Vancouver",
+    },
+    arrivalLocation: {
+      city: "Alaska Inside Passage",
+      country: "USA",
+      state: "Alaska",
+      coordinates: { latitude: 58.3019, longitude: -134.4197 },
+      timezone: "America/Juneau",
+    },
+    category: "luxury",
+    itinerary: {
+      route: [
+        { city: "Vancouver", country: "Canada", state: "British Columbia" },
+        { city: "Skagway", country: "USA", state: "Alaska" },
+        { city: "Glacier Bay", country: "USA", state: "Alaska" },
+        { city: "Ketchikan", country: "USA", state: "Alaska" },
+      ],
+      description:
+        "10-night luxury cruise from Vancouver to Alaska's Inside Passage with scenic glacier views.",
+      distance: "1200 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+        {
+          start: "2025-07-01T15:00:00-07:00",
+          end: "2025-07-02T08:00:00-07:00",
+          description:
+            "Sailing from Vancouver through the scenic Inside Passage.",
+        },
+        {
+          start: "2025-07-05T18:00:00-08:00",
+          end: "2025-07-06T07:00:00-08:00",
+          description:
+            "Overnight sailing from Skagway to Glacier Bay with onboard luxury amenities.",
+        },
+      ],
+      timeOnLand: [
+        {
+          start: "2025-07-02T08:00:00-07:00",
+          end: "2025-07-05T18:00:00-08:00",
+          description:
+            "Explore Skagway's gold rush history and Ketchikan's totem poles.",
+        },
+        {
+          start: "2025-07-06T07:00:00-08:00",
+          end: "2025-07-10T10:00:00-08:00",
+          description:
+            "Experience Glacier Bay's stunning glaciers and wildlife with guided tours.",
+        },
+      ],
+    },
+    requiredDocuments: [
+      "Valid Passport",
+      "eTA for Canada (if applicable)",
+      "Alaska Fishing License (if fishing excursions are planned)",
+    ],
+    cancellationPolicy: "Full refund if canceled 90 days prior to departure",
+    tourCategoryId: "luxury-cruise",
+    contactPersonnel: [
+      {
+        name: "Emily Johnson",
+        role: "Luxury Cruise Specialist",
+        bio: "Expert in luxury cruise experiences with a focus on personalized service and unique itineraries.",
+        languages: ["English", "French"],
+        experienceYears: 12,
+        profileImage:
+          "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+        contact: {
+          contactNumber: "+1 604-555-4321",
+        },
+      },
+      {
+        name: "David Smith",
+        role: "Alaska Cruise Guide",
+        bio: "Specializes in Alaska's natural beauty and wildlife with 15 years of experience in luxury cruises.",
+        languages: ["English", "Spanish"],
+        experienceYears: 15,
+        profileImage:
+          "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91",
+        contact: {
+          contactNumber: "+1 604-555-9876",
+        },
+      },
+    ],
+    title: "Luxury Alaska Inside Passage Cruise",
+    description:
+      "Indulge in a luxurious 10-night cruise from Vancouver to Alaska's Inside Passage, featuring stunning glacier views and personalized service.",
+    tags: [
+      "luxury",
+      "Alaska",
+      "glaciers",
+      "wildlife",
+      "Inside Passage",
+      "scenic-cruise",
+    ],
+    rating: 4.9,
+    isFamilyFriendly: true,
+    basePrice: 2999,
+  },
+  {
+    departureLocation: {
+      city: "Vancouver",
+      country: "Canada",
+      state: "British Columbia",
+      coordinates: { latitude: 49.2827, longitude: -123.1207 },
+      timezone: "America/Vancouver",
+    },
+    arrivalLocation: {
+      city: "Victoria",
+      country: "Canada",
+      state: "British Columbia",
+      coordinates: { latitude: 48.4284, longitude: -123.3656 },
+      timezone: "America/Vancouver",
+    },
+    category: "mainstream",
+    itinerary: {
+      route: [
+        { city: "Vancouver", country: "Canada", state: "British Columbia" },
+        { city: "Victoria", country: "Canada", state: "British Columbia" },
+      ],
+      description:
+        "2-night short cruise from Vancouver to Victoria with onboard entertainment.",
+      distance: "60 nautical miles",
+      totalDuration: "2 days",
+      timeAtSea: [
+        {
+          start: "2025-08-01T17:00:00-07:00",
+          end: "2025-08-01T20:00:00-07:00",
+          description:
+            "Evening sailing from Vancouver to Victoria with onboard activities.",
+        },
+      ],
+      timeOnLand: [
+        {
+          start: "2025-08-01T20:00:00-07:00",
+          end: "2025-08-02T16:00:00-07:00",
+          description:
+            "Explore Victoria's gardens, museums, and local cuisine.",
+        },
+      ],
+    },
+    requiredDocuments: ["Valid Passport"],
+    cancellationPolicy:
+      "50% refund if canceled 14 days prior to departure, no refund after that",
+    tourCategoryId: "weekend-cruise",
+    contactPersonnel: [
+      {
+        name: "Laura White",
+        role: "Short Cruise Coordinator",
+        bio: "Specializes in short cruises and cultural experiences in the Pacific Northwest.",
+        languages: ["English"],
+        experienceYears: 4,
+        profileImage:
+          "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91",
+        contact: {
+          contactNumber: "+1 604-555-2468",
+        },
+      },
+    ],
+    title: "Vancouver to Victoria Weekend Cruise",
+    description:
+      "Enjoy a quick 2-night cruise from Vancouver to Victoria with onboard entertainment and cultural experiences.",
+    tags: ["mainstream", "weekend", "Pacific Northwest", "short cruise"],
+    rating: 4.4,
+    isFamilyFriendly: true,
+    basePrice: 299,
+  },
 ];
