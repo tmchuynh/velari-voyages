@@ -16,7 +16,18 @@ export interface ContactPersonnel extends TeamMember {
 
 export interface CrewMember extends TeamMember {
   city: string;
-  department: string;
+  department:
+    | "Deck Department"
+    | "Engineering Department"
+    | "Security Department"
+    | "Youth & Family Programs"
+    | "Activities & Recreation"
+    | "Photography & Videography"
+    | "Health & Safety"
+    | "Hospitality Department"
+    | "Culinary Department"
+    | "Entertainment Department"
+    | "Operations Department";
   country: string;
   state?: string;
   region?: string;
