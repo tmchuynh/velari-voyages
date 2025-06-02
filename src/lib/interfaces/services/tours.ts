@@ -1,6 +1,15 @@
-import { Details, Flags, Location } from "@/lib/types/types";
+import { Details, Flags, Location, TimePeriod } from "@/lib/types/types";
 import { IconType } from "react-icons/lib";
+import { ContactPersonnel } from "../people/staff";
 
+export interface YachtRoute {
+  route: Location[];
+  description: string;
+  distance: string;
+  totalDuration: string;
+  timeAtSea: TimePeriod[];
+  timeOnLand: TimePeriod[];
+}
 export interface TourCategory {
   id: string;
   title: string;
@@ -14,15 +23,12 @@ export interface BaseTour {
   arrivalLocation: Location;
   icon?: IconType;
   images: string[];
-  duration: string;
   price: string;
   availableDates?: string[];
-  highlights?: string[];
-  inclusions?: string[];
-  exclusions?: string[];
-  itinerary?: string[];
+  itinerary: YachtRoute;
   cancellationPolicy?: string;
   tourCategoryId: TourCategory["id"];
+  contactPersonnel: ContactPersonnel[];
 }
 
 export type Tour = BaseTour & Flags & Details;
