@@ -87,6 +87,8 @@ export type Location = {
     latitude: number;
     longitude: number;
   };
+  subtitle?: string; // optional, for additional location details
+  quote?: string; // optional, for a quote about the location
   address?: string;
   postalCode?: string;
   timezone?: string; // optional, for time-sensitive activities
