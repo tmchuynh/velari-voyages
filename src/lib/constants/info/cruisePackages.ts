@@ -1,0 +1,337 @@
+import { Package } from "@/lib/types/types";
+
+export const cruisePackages: Package[] = [
+  {
+    id: "all-inclusive",
+    title: "All-Inclusive Package",
+    description:
+      "Enjoy a worry-free cruise with meals, drinks, gratuities, and basic excursions included.",
+    price: 2999,
+    includes: [
+      "All meals in main dining rooms",
+      "Select alcoholic and non-alcoholic beverages",
+      "Gratuities for room stewards and waitstaff",
+      "Basic shore excursions at each port",
+      "Onboard entertainment and shows",
+      "Fitness classes (select offerings)",
+      "Access to pools and lounges",
+      "24/7 room service",
+      "Daily activities and events",
+      "Kids' club access",
+      "Evening shows and performances",
+      "Live music and entertainment",
+      "Access to onboard libraries and game rooms",
+      "Use of fitness center and sports courts",
+      "Access to spa facilities (sauna, steam room)",
+    ],
+    excludes: [
+      "Premium alcoholic beverages",
+      "Specialty dining restaurants",
+      "Spa treatments and massage services",
+      "Premium shore excursions",
+      "Internet/Wi-Fi packages",
+      "Casino gaming",
+      "Professional photography services",
+      "Retail shopping purchases",
+    ],
+  },
+  {
+    id: "premium",
+    title: "Premium Package",
+    description:
+      "Offers upgraded accommodations, additional dining options, and exclusive perks onboard.",
+    price: 1299,
+    includes: [
+      "Balcony stateroom",
+      "Specialty dining credit ($100 per person)",
+      "Priority boarding and disembarkation",
+      "Complimentary room service",
+      "Discounted spa services (20% off treatments)",
+    ],
+    excludes: [
+      "Shore excursions",
+      "Alcoholic beverages",
+      "Specialty dining beyond credit amount",
+      "Internet/Wi-Fi packages",
+      "Spa treatments (beyond discount)",
+      "Gratuities",
+    ],
+  },
+  {
+    id: "luxury",
+    title: "Luxury Cruise Package",
+    description:
+      "Top-tier service with suite accommodations, gourmet dining, butler service, and inclusive excursions.",
+    price: 4999,
+    includes: [
+      "Suite cabin with private balcony",
+      "Unlimited specialty dining",
+      "Private butler and concierge service",
+      "Premium shore excursions included",
+      "Premium open bar and fine wines",
+    ],
+    excludes: [
+      "Ultra-premium shore excursions",
+      "Helicopter tours or private guides",
+      "Medical services",
+      "Personal shopping services",
+      "Casino gaming",
+    ],
+  },
+  {
+    id: "family-fun",
+    title: "Family Fun Package",
+    description:
+      "Tailored for families with kids and teens, featuring activities, kids' clubs, and child-friendly menus.",
+    price: 1899,
+    includes: [
+      "Family-sized staterooms",
+      "Kids club access with extended hours",
+      "Family-friendly shore excursions",
+      "Priority family dining times",
+      "Onboard kids entertainment and activities",
+    ],
+    excludes: [
+      "Adult-only venue access",
+      "Specialty dining",
+      "Alcoholic beverages",
+      "Spa services",
+      "Premium shore excursions",
+      "Internet/Wi-Fi packages",
+    ],
+  },
+  {
+    id: "romantic-getaway",
+    title: "Romantic Getaway Package",
+    description:
+      "Designed for couples and honeymooners with private dinners, spa treatments, and romantic excursions.",
+    price: 2499,
+    includes: [
+      "Private balcony stateroom",
+      "Couples' spa session (60 minutes)",
+      "Private candlelit dinner for two",
+      "Premium champagne welcome package",
+      "Romantic shore excursion for two",
+    ],
+    excludes: [
+      "Additional spa treatments",
+      "Premium alcoholic beverages beyond welcome package",
+      "Specialty dining beyond included dinner",
+      "Premium shore excursions",
+      "Professional photography packages",
+    ],
+  },
+  {
+    id: "adventure",
+    title: "Adventure Package",
+    description:
+      "Designed for thrill-seekers with action-packed excursions and onboard activities.",
+    price: 999,
+    includes: [
+      "Zipline or rock climbing access (unlimited)",
+      "One snorkeling or introductory scuba shore excursion per port",
+      "Adventure gear rental during excursions",
+      "Daily activity schedule with priority booking",
+      "Sports court access and organized tournaments",
+    ],
+    excludes: [
+      "Advanced scuba diving certification",
+      "Premium adventure excursions",
+      "Specialized equipment purchase",
+      "Private guides",
+      "Helicopter or private boat tours",
+    ],
+  },
+  {
+    id: "luxury-experience",
+    title: "Luxury Experience Package",
+    description:
+      "High-end cruising with butler service, gourmet dining, and exclusive shore tours.",
+    price: 5999,
+    includes: [
+      "24/7 butler service",
+      "Access to exclusive ship lounges and areas",
+      "Gourmet dining in all ship restaurants",
+      "Premium shore excursions with private guides",
+      "Complimentary premium beverage package",
+    ],
+    excludes: [
+      "Ultra-luxury experiences (helicopter tours, private jets)",
+      "Medical services",
+      "Rare vintage wines and spirits",
+      "Casino gaming",
+      "Personal shopping services",
+    ],
+  },
+  {
+    id: "spa-wellness",
+    title: "Spa & Wellness Package",
+    description:
+      "Relax and recharge with spa treatments, yoga sessions, and wellness cuisine.",
+    price: 1499,
+    includes: [
+      "Daily spa treatment (50 minutes)",
+      "Wellness-focused meals option at all restaurants",
+      "Daily meditation and yoga classes",
+      "Thermal suite unlimited access",
+      "Personal wellness consultation",
+    ],
+    excludes: [
+      "Premium spa treatments over 50 minutes",
+      "Specialized wellness products",
+      "Private yoga/meditation sessions",
+      "Medical spa treatments",
+      "Specialized nutritionist consultations",
+    ],
+  },
+  {
+    id: "gourmet-dining",
+    title: "Gourmet Dining Package",
+    description:
+      "Access to specialty restaurants and wine pairings curated by top chefs.",
+    price: 799,
+    includes: [
+      "Access to all specialty dining restaurants",
+      "Three sommelier-led wine tastings",
+      "Cooking demonstrations with guest chefs",
+      "Priority reservations at all restaurants",
+      "One chef's table experience",
+    ],
+    excludes: [
+      "Ultra-premium wines and spirits",
+      "Private dining experiences",
+      "Cooking classes (beyond demonstrations)",
+      "Food and wine purchased in ports",
+      "Take-home recipe books and ingredients",
+    ],
+  },
+  {
+    id: "foodie",
+    title: "Foodie Package",
+    description:
+      "A culinary-focused cruise with tasting menus, cooking classes, and food-based excursions.",
+    price: 999,
+    includes: [
+      "Daily gourmet tastings and demonstrations",
+      "Two hands-on cooking classes with ship chefs",
+      "One food-focused shore excursion per port",
+      "One winemaker dinner experience",
+      "Souvenir recipe book from the cruise",
+    ],
+    excludes: [
+      "Specialty dining outside of foodie events",
+      "Premium wine pairings",
+      "Additional cooking classes",
+      "Market shopping expenses during excursions",
+      "Premium food excursions",
+    ],
+  },
+  {
+    id: "fitness-package",
+    title: "Fitness Package",
+    description:
+      "For fitness enthusiasts, offering structured workout programs and gym access.",
+    price: 599,
+    includes: [
+      "Daily fitness classes (up to 2 per day)",
+      "24/7 gym access with personal trainer session",
+      "Health and nutrition seminars",
+      "Body composition analysis",
+      "Fitness tracking device rental",
+    ],
+    excludes: [
+      "Personal training sessions beyond included session",
+      "Specialized fitness classes",
+      "Nutritional supplements",
+      "Fitness equipment purchase",
+      "Diet consultation services",
+    ],
+  },
+  {
+    id: "vip-entertainment",
+    title: "VIP Entertainment Package",
+    description:
+      "Enhanced entertainment with priority seating, backstage passes, and meet & greets.",
+    price: 899,
+    includes: [
+      "Front-row reserved seating for all shows",
+      "Backstage tours of theater and production areas",
+      "VIP receptions with performers",
+      "Priority access to all entertainment venues",
+      "Exclusive entertainment events",
+    ],
+    excludes: [
+      "Professional photography during events",
+      "Merchandise purchases",
+      "Private performances",
+      "Off-ship entertainment excursions",
+      "Celebrity meet-and-greets beyond scheduled events",
+    ],
+  },
+  {
+    id: "mobility-accessibility",
+    title: "Mobility & Accessibility Package",
+    description:
+      "Assistance and accommodations for guests with mobility limitations.",
+    price: 399,
+    includes: [
+      "Wheelchair or scooter rental for duration",
+      "Accessible shore excursions at each port",
+      "Priority boarding, disembarkation and elevators",
+      "Accessible stateroom arrangements",
+      "Personal assistant for embarkation/disembarkation",
+    ],
+    excludes: [
+      "Medical services",
+      "Personal care attendant",
+      "Specialized medical equipment beyond mobility devices",
+      "Private transportation at ports",
+      "Special dietary arrangements",
+    ],
+  },
+  {
+    id: "remote-work-at-sea",
+    title: "Remote Work at Sea Package",
+    description:
+      "Ideal for digital nomads, includes high-speed internet and co-working areas.",
+    price: 999,
+    includes: [
+      "Premium high-speed Wi-Fi package (unlimited)",
+      "Access to dedicated quiet co-working spaces",
+      "Flexible room booking with work-friendly setup",
+      "Printing and basic business services",
+      "Daily networking events with fellow digital nomads",
+    ],
+    excludes: [
+      "Advanced technical support",
+      "Private conference rooms",
+      "Specialized equipment rental",
+      "Administrative/secretary services",
+      "International calling packages",
+    ],
+  },
+  {
+    id: "concierge-butler-service",
+    title: "Concierge & Butler Service Package",
+    description:
+      "Top-tier package offering 24/7 butler service and concierge assistance throughout the cruise.",
+    price: 1999,
+    includes: [
+      "Dedicated personal concierge",
+      "24/7 butler service for all needs",
+      "Private lounge access with complimentary refreshments",
+      "Customized and personalized shore excursions",
+      "Unpacking, packing & garment pressing service",
+    ],
+    excludes: [
+      "Third-party services arranged by concierge",
+      "Specialty restaurant reservation fees",
+      "Personal shopping expenses",
+      "Premium shore excursions beyond basic customization",
+      "Medical service arrangement",
+    ],
+  },
+];
+export const cruiseCategoryMap: Record<string, Package> = Object.fromEntries(
+  cruisePackages.map((pkg) => [pkg.id, pkg])
+);
