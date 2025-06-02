@@ -204,8 +204,8 @@ export async function getAllTeamMembers(): Promise<CrewMember[]> {
         `@/lib/constants/crewMembers/${removeAccents(city)}`
       );
 
-      // Get the team members array using the city name + TourGuides naming convention
-      const cruiseTeamMembers = crewMembersModule[`${city}TourGuides`];
+      // Get the team members array using the city name + TeamMembers naming convention
+      const cruiseTeamMembers = crewMembersModule[`${city}TeamMembers`];
 
       if (cruiseTeamMembers && Array.isArray(cruiseTeamMembers)) {
         // Add all team members from this city to the combined array
