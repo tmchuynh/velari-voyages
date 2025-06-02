@@ -80,6 +80,7 @@ export type Details = {
 export type Location = {
   city: string;
   country: string;
+  isPopular?: boolean; // optional, for popular destinations
   state?: string;
   region?: string;
   coordinates?: {
