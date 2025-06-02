@@ -41,6 +41,12 @@ export type MeetingPoint = {
 };
 
 export type Flags = {
+  isFamilyFriendly?: boolean; // optional, for family-friendly cruises
+  isPetFriendly?: boolean; // optional, for pet-friendly cruises
+  isCulturalExperience?: boolean; // optional, for cultural experience cruises
+};
+
+export type CruiseCategoryFlags = {
   isWeekendCruise?: boolean; // optional, for weekend cruises
   isFjordsTour?: boolean; // optional, for fjords tours
   isRepositioningCruise?: boolean; // optional, for repositioning cruises
@@ -50,10 +56,8 @@ export type Flags = {
   isLuxuryCruise?: boolean; // optional, for luxury cruises
   isVIPCruise?: boolean; // optional, for VIP cruises
   isThemeCruise?: boolean; // optional, for theme cruises
-  isFamilyFriendly?: boolean; // optional, for family-friendly cruises
-  isPetFriendly?: boolean; // optional, for pet-friendly cruises
-  isAdventureCruise?: boolean; // optional, for adventure cruises
-  isCulturalExperience?: boolean; // optional, for cultural experience cruises
+  isHolidayCruise?: boolean; // optional, for holiday cruises
+  isFallFoliageCruise?: boolean; // optional, for fall foliage cruises
 };
 
 export type Package = {
@@ -98,4 +102,33 @@ export type TimePeriod = {
   end: string; // ISO 8601 date string
   duration?: string; // optional, for duration in weeks and days
   description?: string; // optional, for additional details about the time period
+};
+
+export type Resturant = {
+  name: string;
+  description: string;
+  cuisine: string;
+  priceRange: "$" | "$$" | "$$$" | "$$$$";
+  rating: number;
+  openingHours?: string; // optional, for restaurant hours
+  contactInfo?: ContactInfo; // optional, for restaurant contact details
+  menu?: {
+    items: {
+      name: string;
+      description: string;
+      price: number;
+    }[];
+  }; // optional, for restaurant menu
+  images?: string[]; // optional, for restaurant images
+  tags?: string[]; // optional, for restaurant tags
+  isVegetarianFriendly?: boolean; // optional, for vegetarian-friendly restaurants
+  isVeganFriendly?: boolean; // optional, for vegan-friendly restaurants
+  isGlutenFreeFriendly?: boolean; // optional, for gluten-free friendly restaurants
+  isHalalFriendly?: boolean; // optional, for halal-friendly restaurants
+  isKosherFriendly?: boolean; // optional, for kosher-friendly restaurants
+  isFineDining?: boolean; // optional, for fine dining restaurants
+  isIndoorSeating?: boolean; // optional, for indoor seating restaurants
+  isReservationsAccepted?: boolean; // optional, for restaurants that accept reservations
+  isRomantic?: boolean; // optional, for romantic restaurants
+  isPopular?: boolean; // optional, for popular restaurants
 };
