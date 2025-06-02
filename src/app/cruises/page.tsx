@@ -1,6 +1,7 @@
 "use client";
 
 import ContactDepartmentCard from "@/components/cards/ContactDepartmentCard";
+import Loading from "@/components/Loading";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -12,41 +13,82 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { cruiseDepartureLocations } from "@/lib/constants/info/city";
+import { Cruise } from "@/lib/interfaces/services/cruises";
+import { getAllCruises } from "@/lib/utils/get";
 import { groupAndSortByProperties } from "@/lib/utils/sort";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-export default function CruisesPage() {
+export default function Cruises() {
   const router = useRouter();
+  const [allCruises, setAllCruises] = useState<Cruise[]>([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [sortBy, setSortBy] = useState("city");
   const [popularSort, setPopularSort] = useState("first"); // "first", "last", "none"
+  const [loading, setLoading] = useState(true);
 
-  const filteredDestinations = cruiseDepartureLocations.filter((item) => {
+  useEffect(() => {
+    const fetchCruises = async () => {
+      try {
+        const data = await getAllCruises();
+        // Process cruises to set hasPopularDestination flag
+        const processedData = data.map((cruise) => ({
+          ...cruise,
+          hasPopularDestination:
+            cruise.departureLocation?.isPopular ||
+            cruise.arrivalLocation?.isPopular ||
+            false,
+        }));
+        setAllCruises(processedData);
+      } catch (error) {
+        console.error("Failed to load affirmation cards:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchCruises();
+  }, []);
+
+  // Filter destinations based on search
+  const filteredDestinations = allCruises.filter((item) => {
     if (!searchQuery.trim()) return true;
 
     const query = searchQuery.toLowerCase();
     return (
-      item.city.toLowerCase().includes(query) ||
-      item.country.toLowerCase().includes(query) ||
-      (item.region && item.region.toLowerCase().includes(query)) ||
-      (item.state && item.state.toLowerCase().includes(query))
+      item.departureLocation.city.toLowerCase().includes(query) ||
+      item.departureLocation.country.toLowerCase().includes(query) ||
+      (item.departureLocation.region &&
+        item.departureLocation.region.toLowerCase().includes(query)) ||
+      (item.departureLocation.state &&
+        item.departureLocation.state.toLowerCase().includes(query)) ||
+      item.arrivalLocation.city.toLowerCase().includes(query) ||
+      item.arrivalLocation.country.toLowerCase().includes(query) ||
+      (item.arrivalLocation.region &&
+        item.arrivalLocation.region.toLowerCase().includes(query)) ||
+      (item.arrivalLocation.state &&
+        item.arrivalLocation.state.toLowerCase().includes(query)) ||
+      item.category.toLowerCase().includes(query) ||
+      item.title.toLowerCase().includes(query) ||
+      item.tags?.some((tag) => tag.toLowerCase().includes(query))
     );
   });
 
+  // Determine secondary sort field
   const secondarySortField = sortBy === "country" ? "region" : "country";
 
+  // First sort by the selected criterion (city or country)
   const sortedDestinations = groupAndSortByProperties(
     filteredDestinations,
-    sortBy as keyof (typeof cruiseDepartureLocations)[0],
-    secondarySortField as keyof (typeof cruiseDepartureLocations)[0],
+    sortBy as keyof (typeof allCruises)[0],
+    secondarySortField as keyof (typeof allCruises)[0],
     true,
     false,
     false,
     true
   );
 
+  // Then apply popularity sorting if selected
   if (popularSort !== "none") {
     sortedDestinations.sort((a, b) => {
       // If one is popular and the other is not, sort accordingly
@@ -63,22 +105,45 @@ export default function CruisesPage() {
     });
   }
 
+  if (loading) {
+    return <Loading />;
+  }
+
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <header>
-        <h1>Explore Our Exclusive Cruises</h1>
+        <h1>Luxurious Destinations</h1>
         <h5>
-          Discover the world’s most breathtaking destinations with our curated
-          cruise experiences.
+          Exclusive retreats crafted for unparalleled comfort and elegance
         </h5>
         <blockquote>
-          "The sea, once it casts its spell, holds one in its net of wonder
-          forever."
+          "Every destination felt like a private paradise—luxury redefined in
+          every detail. Paragon Trails transformed our travel dreams into
+          unforgettable realities." — Emily Carter, Santorini & Amalfi Coast
         </blockquote>
+        <p>
+          Discover the epitome of luxury travel with Paragon Trails, where every
+          destination is a masterpiece of elegance and comfort. From the
+          sun-kissed shores of Santorini to the breathtaking Amalfi Coast, our
+          exclusive retreats are designed to redefine your travel experience.
+          Immerse yourself in the beauty of these iconic locations, where every
+          detail is meticulously crafted to ensure your journey is nothing short
+          of extraordinary. Whether you're exploring the ancient ruins of Rome
+          or savoring the culinary delights of Tuscany, Paragon Trails offers a
+          seamless blend of luxury and adventure. Join us as we take you on a
+          journey through the world's most luxurious destinations, where every
+          moment is an unforgettable experience. Let Paragon Trails transform
+          your travel dreams into reality, creating memories that will last a
+          lifetime. Experience the world like never before with our curated
+          selection of luxurious retreats, where comfort meets elegance in every
+          detail. Discover the art of luxury travel with Paragon Trails, where
+          every destination is a gateway to unparalleled comfort and
+          sophistication.
+        </p>
       </header>
 
       <section>
-        <ContactDepartmentCard department="Ports & Itinerary Planning" />
+        <ContactDepartmentCard department="Reservations & Booking" />
       </section>
 
       <div className="space-y-4 mb-8">
@@ -146,26 +211,22 @@ export default function CruisesPage() {
               onClick={() => {
                 // Use query parameters instead of path parameters
                 const queryParams = new URLSearchParams({
-                  city: item.city,
-                  country: item.country,
+                  departureLocationCity: item.departureLocation.city,
+                  departureLocationCountry: item.departureLocation.country,
+                  arrivalLocationCity: item.arrivalLocation.city,
+                  arrivalLocationCountry: item.arrivalLocation.country,
+                  cruise: item.title,
+                  category: item.category,
                 });
 
-                if (item.region) {
-                  queryParams.append("region", item.region as string);
-                }
-
-                if (item.state && item.state !== item.region) {
-                  queryParams.append("state", item.state);
-                }
-
                 router.push(
-                  `/luxurious-destinations/${
-                    item.city
-                  }/details?${queryParams.toString()}`
+                  `/cruises/cruise-categories/velari-voyages-cruises/cruise/${
+                    item.title
+                  }?${queryParams.toString()}`
                 );
               }}
             >
-              {item.city}
+              {item.title}
             </h2>
 
             {item.isPopular && (
@@ -178,30 +239,12 @@ export default function CruisesPage() {
               </Badge>
             )}
 
-            <p>
-              {(() => {
-                const locationParts = [];
-
-                // Add state only if it exists
-                if (item.state) locationParts.push(item.state);
-
-                // Add region only if it exists AND is different from state
-                if (item.region && item.region !== item.state)
-                  locationParts.push(item.region);
-
-                // Always add country if it exists
-                if (item.country) locationParts.push(item.country);
-
-                return locationParts.join(", ");
-              })()}
-            </p>
-
             <Button
               size={"sm"}
               className="mt-7"
               onClick={() =>
                 router.push(
-                  `/luxurious-destinations/${item.country}/${item.city}/tours?city=${item.city}&country=${item.country}`
+                  `/cruises/cruise-categories/velari-voyages-cruises/${item.departureLocation.country}/${item.departureLocation.city}?city=${item.departureLocation.city}&country=${item.departureLocation.country}`
                 )
               }
             >
@@ -210,10 +253,6 @@ export default function CruisesPage() {
           </div>
         ))}
       </div>
-
-      <h2>Featured Cruises</h2>
-      {/* Placeholder for cruise listings */}
-      <p>Coming soon! Stay tuned for our exclusive cruise offerings.</p>
     </div>
   );
 }
