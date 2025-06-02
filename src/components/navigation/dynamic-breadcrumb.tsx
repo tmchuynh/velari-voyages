@@ -6,7 +6,7 @@ import { capitalize } from "@/lib/utils/format";
 import { generateRandomString } from "@/lib/utils/sort";
 import { usePathname } from "next/navigation";
 import { JSX, useMemo } from "react";
-import { SiSlashdot } from "react-icons/si";
+import { PiPaperPlaneRightLight } from "react-icons/pi";
 import {
   BreadcrumbItem,
   BreadcrumbLink,
@@ -35,6 +35,8 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
       pathSegments.map((segment, index) =>
         index === pathSegments.length - 1 && isNotFoundPage
           ? "Not Found"
+          : segment.length === 2
+          ? segment.toUpperCase()
           : capitalize(segment)
       ),
     [pathSegments, isNotFoundPage]
@@ -58,12 +60,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
           key={`${href}-${segment}-${index}-${isLast}=${r}`}
           className="mx-1"
         >
-          <BreadcrumbLink
-            href={href}
-            className="py-1 rounded-md dark:text-foreground underline-offset-4 hover:underline hover:decoration-secondary"
-          >
-            {segment}
-          </BreadcrumbLink>
+          {segment}
         </BreadcrumbItem>
       );
     };
@@ -83,7 +80,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
           key={`sep-${currentHref}`}
           className="ml-1 text-primary"
         >
-          <SiSlashdot />
+          <PiPaperPlaneRightLight />
         </BreadcrumbSeparator>
       );
 
@@ -108,7 +105,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
 
         items.push(
           <BreadcrumbSeparator key="sep-2" className="ml-1 text-primary">
-            <SiSlashdot />
+            <PiPaperPlaneRightLight />
           </BreadcrumbSeparator>
         );
 
@@ -119,7 +116,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
 
         items.push(
           <BreadcrumbSeparator key="sep-last" className="ml-1 text-primary">
-            <SiSlashdot />
+            <PiPaperPlaneRightLight />
           </BreadcrumbSeparator>
         );
 
@@ -133,7 +130,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
         const lastSegment = capitalizedSegments[capitalizedSegments.length - 1];
         items.push(
           <BreadcrumbSeparator key="sep-1" className="ml-1 text-primary">
-            <SiSlashdot />
+            <PiPaperPlaneRightLight />
           </BreadcrumbSeparator>
         );
 
@@ -162,7 +159,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
             key={`sep-${href}`}
             className="mx-4 text-primary"
           >
-            <SiSlashdot />
+            <PiPaperPlaneRightLight />
           </BreadcrumbSeparator>
         );
 
@@ -190,7 +187,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
         aria-label="Breadcrumb"
         className="flex flex-row items-center gap-2 w-full text-xs lg:text-sm"
       >
-        <ul className="flex flex-row items-center gap-2 font-[YsabeauSC]">
+        <ul className="flex flex-row items-center gap-2 font-[EncodeSans]">
           {breadcrumbItems}
         </ul>
       </nav>

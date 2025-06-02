@@ -6,7 +6,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { navbarItems } from "@/lib/constants/navigation";
+import { navbarItems } from "@/lib/constants/info/navigation";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import {
   Bars3Icon,
@@ -21,7 +21,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="top-0 z-50 absolute inset-x-0 bg-background">
+    <header className="top-0 z-50 absolute inset-x-0 bg-background w-full">
       <nav
         aria-label="Global"
         className="flex justify-between items-center shadow lg:px-8 p-6 border-b"
@@ -120,7 +120,7 @@ export default function Header() {
                   item.dropdown ? (
                     <div key={item.label}>
                       <details>
-                        <summary className="flex justify-between items-center hover:bg-gray-50 -mx-3 px-3 py-2 rounded-lg font-semibold text-base/7 cursor-pointer">
+                        <summary className="flex justify-between items-center hover:bg-card -mx-3 px-3 py-2 border border-border rounded-lg font-semibold text-base/7 cursor-pointer">
                           {item.label}
                           <ChevronDownIcon className="inline ml-2 w-4 h-4" />
                         </summary>
@@ -129,7 +129,7 @@ export default function Header() {
                             <a
                               key={sub.label}
                               href={sub.href}
-                              className="block hover:bg-gray-50 -mx-3 px-3 py-2 rounded-lg text-sm"
+                              className="block hover:bg-card -mx-3 px-3 py-2 border border-border rounded-lg text-sm"
                             >
                               {sub.label}
                             </a>
@@ -141,7 +141,7 @@ export default function Header() {
                     <a
                       key={item.label}
                       href={item.href}
-                      className="block hover:bg-gray-50 -mx-3 px-3 py-2 rounded-lg font-semibold text-base/7"
+                      className="block hover:bg-card -mx-3 px-3 py-2 border border-border rounded-lg font-semibold text-base/7"
                     >
                       {item.label}
                     </a>
