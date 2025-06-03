@@ -689,19 +689,19 @@ export async function getAllRestaurantsFromCity(
  * the specific export is not found, it returns an empty array and logs an error.
  *
  * @param city - The name of the city to retrieve restaurant menus for. Must be a non-empty string.
- * @returns A promise that resolves to an array of `ResturantMenu` objects. Returns an empty array if the city name is invalid or the data cannot be loaded.
+ * @returns A promise that resolves to an array of `RestaurantMenu` objects. Returns an empty array if the city name is invalid or the data cannot be loaded.
  *
  * @throws Will log an error if the module cannot be imported or the expected export is not found.
  *
  * @example
  * ```typescript
- * const menus = await getAllResturantMenusFromCity("New York");
+ * const menus = await getAllRestaurantMenusFromCity("New York");
  * console.log(menus);
  * ```
  */
-export async function getAllResturantMenusFromCity(
+export async function getAllRestaurantMenusFromCity(
   city: string
-): Promise<ResturantMenu[]> {
+): Promise<RestaurantMenu[]> {
   if (!city || typeof city !== "string") {
     console.error("Invalid city name provided:", city);
     return [];
@@ -715,12 +715,12 @@ export async function getAllResturantMenusFromCity(
       .replace("'", "")
       .replace("-", "");
 
-  const menuID = `${cityFormatted}ResturantMenus`;
+  const menuID = `${cityFormatted}RestaurantMenus`;
   const sluggedCity = formatToSlug(cityWithoutAccents.replace("'", "-"));
 
   try {
     const menuModule = await import(
-      `@/lib/constants/cruises/resturants/${sluggedCity}/resturants`
+      `@/lib/constants/cruises/restaurants/${sluggedCity}/restaurants`
     );
     // Return the specific named export that matches menuID
     if (menuModule[menuID]) {
@@ -731,7 +731,7 @@ export async function getAllResturantMenusFromCity(
     }
   } catch (error) {
     console.error(
-      `Error loading restaurant menu data: ${error}. Tried: @/lib/constants/cruises/resturants/${sluggedCity}/resturants with export ${menuID}`
+      `Error loading restaurant menu data: ${error}. Tried: @/lib/constants/cruises/restaurants/${sluggedCity}/restaurants with export ${menuID}`
     );
     return [];
   }
