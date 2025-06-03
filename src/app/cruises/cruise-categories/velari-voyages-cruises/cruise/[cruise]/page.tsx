@@ -293,19 +293,18 @@ export default function CruiseInformationPage() {
           {/* Cruise Features Section */}
           <section>
             <h3>Cruise Features</h3>
-            {/* Add Package Selection Dialog */}
-            <div className="mt-4">
+            <div>
               <Dialog>
                 <DialogTrigger asChild>
                   <Button variant="outline">View Available Packages</Button>
                 </DialogTrigger>
-                <DialogContent className="max-w-4xl max-h-[80vh] overflow-y-auto">
+                <DialogContent className="min-w-11/12 max-h-[80vh] overflow-y-auto">
                   <DialogHeader>
                     <DialogTitle>
-                      Available Packages for {cruiseData.title}
+                      <h1>Available Packages for {cruiseData.title}</h1>
                     </DialogTitle>
                     <DialogDescription>
-                      Select a package to enhance your cruise experience
+                      Select a package to enhance your cruise experienceSel
                     </DialogDescription>
                   </DialogHeader>
 
@@ -322,14 +321,14 @@ export default function CruiseInformationPage() {
                               <p>{pkg.description}</p>
                             </div>
                             <div className="font-bold text-xl">
-                              ${pkg.price}
+                              {formatNumberToCurrency(pkg.price)} USD
                             </div>
                           </div>
 
                           <div className="gap-4 grid grid-cols-1 md:grid-cols-2 mt-4">
                             <div>
                               <h4>Includes:</h4>
-                              <ul className="pl-5 list-disc">
+                              <ul className="gap-3 grid xl:grid-cols-2 mt-2 pl-5 list-disc">
                                 {pkg.includes.map((item, i) => (
                                   <li key={i} className="text-sm">
                                     {item}
@@ -340,7 +339,7 @@ export default function CruiseInformationPage() {
                             {pkg.excludes && (
                               <div>
                                 <h4>Excludes:</h4>
-                                <ul className="pl-5 list-disc">
+                                <ul className="gap-3 grid xl:grid-cols-2 mt-2 pl-5 list-disc">
                                   {pkg.excludes.map((item, i) => (
                                     <li key={i} className="text-sm">
                                       {item}
@@ -367,7 +366,7 @@ export default function CruiseInformationPage() {
 
               {selectedPackage && (
                 <div className="mt-2">
-                  <Badge variant="secondary">
+                  <Badge variant="secondary" size={"2xl"}>
                     Selected: {selectedPackage.title} - ${selectedPackage.price}
                   </Badge>
                 </div>
@@ -378,57 +377,48 @@ export default function CruiseInformationPage() {
           {/* Cruise Category Features */}
           <section>
             <h3>Cruise Type</h3>
-            <div className="flex flex-wrap gap-2 mt-2">
-              {cruiseData.isWeekendCruise && (
-                <Badge variant="outline">Weekend Cruise</Badge>
-              )}
-              {cruiseData.isFjordsTour && (
-                <Badge variant="outline">Fjords Tour</Badge>
-              )}
-              {cruiseData.isRepositioningCruise && (
-                <Badge variant="outline">Repositioning Cruise</Badge>
-              )}
-              {cruiseData.isAnniversaryCruise && (
-                <Badge variant="outline">Anniversary Cruise</Badge>
-              )}
-              {cruiseData.isGlacierCruise && (
-                <Badge variant="outline">Glacier Cruise</Badge>
-              )}
-              {cruiseData.isTropicalCruise && (
-                <Badge variant="outline">Tropical Cruise</Badge>
-              )}
-              {cruiseData.isLuxuryCruise && (
-                <Badge variant="outline">Luxury Cruise</Badge>
-              )}
-              {cruiseData.isVIPCruise && (
-                <Badge variant="outline">VIP Cruise</Badge>
-              )}
-              {cruiseData.isThemeCruise && (
-                <Badge variant="outline">Theme Cruise</Badge>
-              )}
-              {cruiseData.isHolidayCruise && (
-                <Badge variant="outline">Holiday Cruise</Badge>
-              )}
-              {cruiseData.isFallFoliageCruise && (
-                <Badge variant="outline">Fall Foliage Cruise</Badge>
-              )}
+            <div className="flex flex-wrap gap-2 my-2">
+              {[
+                { key: "isWeekendCruise", label: "Weekend Cruise" },
+                { key: "isFjordsTour", label: "Fjords Tour" },
+                { key: "isRepositioningCruise", label: "Repositioning Cruise" },
+                { key: "isAnniversaryCruise", label: "Anniversary Cruise" },
+                { key: "isGlacierCruise", label: "Glacier Cruise" },
+                { key: "isTropicalCruise", label: "Tropical Cruise" },
+                { key: "isLuxuryCruise", label: "Luxury Cruise" },
+                { key: "isVIPCruise", label: "VIP Cruise" },
+                { key: "isThemeCruise", label: "Theme Cruise" },
+                { key: "isHolidayCruise", label: "Holiday Cruise" },
+                { key: "isFallFoliageCruise", label: "Fall Foliage Cruise" },
+              ]
+                .filter(
+                  (type) => cruiseData[type.key as keyof typeof cruiseData]
+                )
+                .map((type, index) => (
+                  <Badge key={index} variant="outline">
+                    {type.label}
+                  </Badge>
+                ))}
             </div>
 
             <h3>Cruise Key Features</h3>
             <div className="flex flex-wrap gap-2 mt-2">
-              {cruiseData.isPopular && <Badge variant="outline">Popular</Badge>}
-              {cruiseData.hasPopularDestination && (
-                <Badge variant="outline">Popular Destination</Badge>
-              )}
-              {cruiseData.isFamilyFriendly && (
-                <Badge variant="outline">Family Friendly</Badge>
-              )}
-              {cruiseData.isPetFriendly && (
-                <Badge variant="outline">Pet Friendly</Badge>
-              )}
-              {cruiseData.isCulturalExperience && (
-                <Badge variant="outline">Cultural Experience</Badge>
-              )}
+              {[
+                { key: "isPopular", label: "Popular" },
+                { key: "hasPopularDestination", label: "Popular Destination" },
+                { key: "isFamilyFriendly", label: "Family Friendly" },
+                { key: "isPetFriendly", label: "Pet Friendly" },
+                { key: "isCulturalExperience", label: "Cultural Experience" },
+              ]
+                .filter(
+                  (feature) =>
+                    cruiseData[feature.key as keyof typeof cruiseData]
+                )
+                .map((feature, index) => (
+                  <Badge key={index} variant="outline">
+                    {feature.label}
+                  </Badge>
+                ))}
             </div>
           </section>
 
