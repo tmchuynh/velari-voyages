@@ -248,33 +248,6 @@ export function formatTitleToCamelCase(title: string): string {
 }
 
 /**
- * Formats an array of language strings into a grammatically correct string.
- *
- * @param languages - An array of language strings to be formatted
- * @returns A formatted string where languages are comma-separated and the last language is preceded by "and"
- * @example
- * // Returns "English"
- * formatLanguages(["English"])
- *
- * // Returns "English, and Spanish"
- * formatLanguages(["English", "Spanish"])
- *
- * // Returns "English, Spanish, and French"
- * formatLanguages(["English", "Spanish", "French"])
- *
- * // Returns empty string for empty array
- * formatLanguages([])
- */
-export const formatLanguages = (languages: string[]) => {
-  if (languages.length === 0) return "";
-  if (languages.length === 1) return languages[0];
-
-  const lastLanguage = languages[languages.length - 1];
-  const otherLanguages = languages.slice(0, -1).join(", ");
-  return `${otherLanguages}, and ${lastLanguage}`;
-};
-
-/**
  * Removes diacritical marks (accents) from a string.
  *
  * This function converts accented characters to their base form.
