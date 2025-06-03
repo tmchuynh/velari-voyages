@@ -33,6 +33,7 @@ import {
 import { Cruise } from "@/lib/interfaces/services/cruises";
 import { Package } from "@/lib/types/types";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
+import { capitalize, formatNumberToCurrency } from "@/lib/utils/format";
 import {
   getAllCruises,
   getCruises,
@@ -56,6 +57,8 @@ export default function CruiseInformationPage() {
 
   const [cruiseData, setCruiseData] = useState<Cruise>();
 
+  console.log("category:", category);
+
   // Add state for managing selected package
   const [selectedPackage, setSelectedPackage] = useState<Package | null>(null);
   const [availablePackages, setAvailablePackages] = useState<Package[]>([]);
@@ -65,18 +68,7 @@ export default function CruiseInformationPage() {
       try {
         const data = await getCruises(departureLocationCity || "");
         const cruiseInfo = data.find(
-          (c: {
-            title: string | null;
-            departureLocation: { city: string | null; country: string | null };
-            arrivalLocation: { city: string | null; country: string | null };
-            category: string | null;
-          }) =>
-            c.title === cruise &&
-            c.departureLocation.city === departureLocationCity &&
-            c.departureLocation.country === departureLocationCountry &&
-            c.arrivalLocation.city === arrivalLocationCity &&
-            c.arrivalLocation.country === arrivalLocationCountry &&
-            c.category === category
+          (c: { title: string }) => c.title === cruise
         );
         if (cruiseInfo) {
           setCruiseData(cruiseInfo);
@@ -103,6 +95,7 @@ export default function CruiseInformationPage() {
     const fetchTours = async () => {
       try {
         const data = await getAllCruises();
+        console.log("Fetched Cruises:", data);
         setAllCruises(data);
         if (data.length > 0) {
           const filteredTours = getCruisesByCategory(data, `${category}`);
@@ -128,6 +121,15 @@ export default function CruiseInformationPage() {
       setAvailablePackages(packages);
     }
   }, [cruiseData]);
+
+  console.log("Cruise:", cruise);
+  console.log("Category:", category);
+  console.log("All Cruises:", allCruises);
+  console.log("Filtered Cruises:", filteredCruises);
+  console.log("Cruise Data:", cruiseData);
+  console.log("Available Packages:", availablePackages);
+
+  console.log("Filtered Cruises:", filteredCruises);
 
   if (loading) {
     return <Loading />;
@@ -237,7 +239,7 @@ export default function CruiseInformationPage() {
         <div className="lg:col-span-1">
           <section>
             <h3>Base Price</h3>
-            <p>${cruiseData.basePrice}</p>
+            <p>{formatNumberToCurrency(cruiseData.basePrice)} USD</p>
           </section>
 
           {/* Required Documents Section */}
@@ -409,7 +411,7 @@ export default function CruiseInformationPage() {
 
           <section>
             <h3>Contact Information</h3>
-            <p>
+            <div>
               {cruiseData.contactPersonnel &&
                 (cruiseData.contactPersonnel.length > 0 ? (
                   <ul className="pl-5 list-disc">
@@ -438,18 +440,18 @@ export default function CruiseInformationPage() {
                 ) : (
                   <p>No contact personnel available for this cruise.</p>
                 ))}
-            </p>
+            </div>
           </section>
 
           <section>
             <h3>Category</h3>
-            <p>{cruiseData.category}</p>
+            <p>{capitalize(cruiseData.category)}</p>
           </section>
 
           <section className="flex flex-wrap gap-2 mt-2">
             {cruiseData.tags?.map((tag, index) => (
               <Badge key={index} variant="secondary">
-                {tag}
+                {capitalize(tag)}
               </Badge>
             ))}
           </section>
@@ -465,7 +467,6 @@ export default function CruiseInformationPage() {
       </section>
 
       <section>
-        <h3>Frequently Asked Questions</h3>
         {/* FAQs */}
         {cruiseData.faqs && cruiseData.faqs.length > 0 && (
           <div className="mb-8 max-h-[50rem]">
@@ -486,9 +487,9 @@ export default function CruiseInformationPage() {
         )}
       </section>
 
-      <section>
-        <h2>Similar Cruises</h2>
-        {cruiseData && (
+      {cruiseData && filteredCruises.length > 0 && (
+        <section>
+          <h2>Similar Cruises</h2>
           <div className="gap-6 grid grid-cols-1 md:grid-cols-2 mx-auto w-full">
             {groupAndSortByProperties(filteredCruises, "basePrice")
               .slice(0, 2)
@@ -505,8 +506,8 @@ export default function CruiseInformationPage() {
                 );
               })}
           </div>
-        )}
-      </section>
+        </section>
+      )}
     </div>
   );
 }
