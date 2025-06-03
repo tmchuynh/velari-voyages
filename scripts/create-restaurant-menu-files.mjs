@@ -332,6 +332,66 @@ function generateMenuItems(category, cuisine, count = 5) {
   });
 }
 
+// Function to generate menu items specific to a menu type
+function generateMenuItemsForType(category, cuisine, count = 5) {
+  // Get the appropriate item source based on menu type
+  let itemSource;
+  let priceRange = { min: 8, max: 16 };
+
+  switch (category.toLowerCase()) {
+    case "main courses":
+    case "entrees":
+      itemSource = menuItems.mainCourses;
+      priceRange = { min: 18, max: 32 };
+      break;
+    case "signature dishes":
+      itemSource = menuItems.signatureDishes;
+      priceRange = { min: 24, max: 38 };
+      break;
+    case "seafood specialties":
+      itemSource = menuItems.seafoodSpecialties;
+      priceRange = { min: 22, max: 36 };
+      break;
+    case "desserts":
+    case "sweets":
+      itemSource = menuItems.desserts;
+      priceRange = { min: 7, max: 12 };
+      break;
+    case "alcoholic beverages":
+    case "drinks":
+    case "cocktails":
+      itemSource = menuItems.alcoholicBeverages;
+      priceRange = { min: 9, max: 15 };
+      break;
+    default:
+      // Default to main courses if category doesn't match
+      itemSource = menuItems.mainCourses;
+      priceRange = { min: 18, max: 30 };
+  }
+
+  // Get random items from the source
+  const selectedItems = getRandomItems(itemSource, count);
+
+  // Create menu items with descriptions, prices, and dietary information
+  return selectedItems.map((item) => {
+    const prefix = getRandomItems(menuItems.prefixes, 1)[0];
+    const descriptor = getRandomItems(menuItems.descriptors, 1)[0];
+
+    // Decide if we'll use a fancy name with prefix and descriptor (50% chance)
+    const useFancyName = Math.random() > 0.5;
+    const itemName = useFancyName ? `${prefix} ${descriptor} ${item}` : item;
+
+    const dietaryFlags = getDietaryFlags(cuisine, itemName);
+
+    return {
+      name: itemName,
+      description: generateItemDescription(),
+      price: parseFloat(generateRandomPrice(priceRange.min, priceRange.max)),
+      ...dietaryFlags,
+    };
+  });
+}
+
 // Function to generate menu file content with populated items
 function generateMenuFileContent(cityName, restaurantName, restaurantCuisine) {
   const cityVar = toCamelCase(cityName);
@@ -442,6 +502,106 @@ let totalCreated = 0;
 let totalExisting = 0;
 let totalFailed = 0;
 
+// Function to generate combined menu file content with all three menu types
+function generateCombinedMenuContent(cityName, restaurantName, restaurantCuisine) {
+  const cityVar = toCamelCase(cityName);
+  const restaurantVar = toCamelCase(restaurantName);
+  
+  // Generate menu items for each category
+  const signatureDishes = generateMenuItemsForType('signature dishes', restaurantCuisine, 3);
+  const mainCourses = generateMenuItemsForType('main courses', restaurantCuisine, 8);
+  const seafoodSpecialties = generateMenuItemsForType('seafood specialties', restaurantCuisine, 4);
+  
+  // Generate dessert items
+  const sweetTreats = generateMenuItemsForType('desserts', restaurantCuisine, 6);
+  
+  // Generate alcohol categories
+  const cocktails = generateMenuItemsForType('cocktails', restaurantCuisine, 5);
+  const wines = generateMenuItemsForType('drinks', restaurantCuisine, 6);
+  const spirits = generateMenuItemsForType('alcoholic beverages', restaurantCuisine, 4);
+  
+  return `import { RestaurantMenu } from "@/lib/types/types";
+
+/**
+ * Menu data for ${restaurantName} in ${cityName}
+ */
+export const ${cityVar}${restaurantVar}Menu: RestaurantMenu[] = [
+  {
+    title: "Main Course Menu",
+    description: "Our carefully crafted selection of hearty dishes",
+    category: [
+      {
+        name: "Signature Dishes",
+        items: ${JSON.stringify(signatureDishes, null, 2)}
+      },
+      {
+        name: "Main Courses",
+        items: ${JSON.stringify(mainCourses, null, 2)}
+      },
+      {
+        name: "Seafood Specialties",
+        items: ${JSON.stringify(seafoodSpecialties, null, 2)}
+      }
+    ]
+  },
+  {
+    title: "Dessert Menu",
+    description: "Indulge in our delicious sweet creations",
+    category: [
+      {
+        name: "Sweet Treats",
+        items: ${JSON.stringify(sweetTreats, null, 2)}
+      }
+    ]
+  },
+  {
+    title: "Drinks Menu",
+    description: "A selection of fine alcoholic beverages to complement your meal",
+    category: [
+      {
+        name: "Signature Cocktails",
+        items: ${JSON.stringify(cocktails, null, 2)}
+      },
+      {
+        name: "Wine Selection",
+        items: ${JSON.stringify(wines, null, 2)}
+      },
+      {
+        name: "Spirits and Liqueurs",
+        items: ${JSON.stringify(spirits, null, 2)}
+      }
+    ]
+  }
+];
+`;
+}
+
+// Process each restaurant to create a single menu file with all three menu types
+function createMenuFileForRestaurant(cityDir, restaurant) {
+  const cityPath = path.join(baseDir, cityDir);
+  const kebabName = toKebabCase(restaurant.name);
+  
+  if (!kebabName) {
+    console.error(`Failed to generate valid filename for "${restaurant.name}"`);
+    return false;
+  }
+  
+  // Create a single menu file path
+  const menuFilePath = path.join(cityPath, `${kebabName}-menu.ts`);
+  
+  try {
+    fs.writeFileSync(
+      menuFilePath,
+      generateCombinedMenuContent(cityDir, restaurant.name, restaurant.cuisine)
+    );
+    console.log(`Created combined menu file: ${menuFilePath}`);
+    return true;
+  } catch (err) {
+    console.error(`Error creating menu file for ${restaurant.name}:`, err);
+    return false;
+  }
+}
+
 // Process each city directory
 cityDirs.forEach((cityDir) => {
   const cityPath = path.join(baseDir, cityDir);
@@ -454,40 +614,14 @@ cityDirs.forEach((cityDir) => {
     // Extract restaurant info from the file
     const restaurants = extractRestaurantInfo(restaurantsFilePath);
 
-    // Create a file for each restaurant
+    // Create menu file for each restaurant
     restaurants.forEach((restaurant) => {
-      const kebabName = toKebabCase(restaurant.name);
+      const result = createMenuFileForRestaurant(cityDir, restaurant);
 
-      if (!kebabName) {
-        console.error(
-          `Failed to generate valid filename for "${restaurant.name}"`
-        );
-        totalFailed++;
-        return;
-      }
-
-      const menuFilePath = path.join(cityPath, `${kebabName}-menu.ts`);
-
-      // Create the menu file if it doesn't exist
-      try {
-        if (!fs.existsSync(menuFilePath)) {
-          fs.writeFileSync(
-            menuFilePath,
-            generateMenuFileContent(
-              cityDir,
-              restaurant.name,
-              restaurant.cuisine
-            )
-          );
-          console.log(`Created menu file: ${menuFilePath}`);
-          totalCreated++;
-        } else {
-          console.log(`File already exists: ${menuFilePath}`);
-          totalExisting++;
-        }
-      } catch (err) {
-        console.error(`Error creating file for ${restaurant.name}:`, err);
-        totalFailed++;
+      if (result) {
+        totalCreated += 1;
+      } else {
+        totalFailed += 1;
       }
     });
   } else {
