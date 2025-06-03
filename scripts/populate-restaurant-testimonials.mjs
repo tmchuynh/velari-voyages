@@ -14,7 +14,7 @@ const baseDir = path.join(
   "lib",
   "constants",
   "cruises",
-  "restaurants"
+  "testimonials"
 );
 
 // Function to convert a string to kebab-case for file naming
