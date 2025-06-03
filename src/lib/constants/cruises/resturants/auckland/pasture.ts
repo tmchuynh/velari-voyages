@@ -27,7 +27,7 @@ export const aucklandpastureMenu: ResturantMenu[] = [
             name: "Fermented Vegetables",
             description:
               "Seasonal vegetables preserved using traditional techniques",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
@@ -58,13 +58,13 @@ export const aucklandpastureMenu: ResturantMenu[] = [
             name: "Bone Broth",
             description:
               "72-hour simmered beef bone broth with ember-roasted mushrooms",
-            price: 16,
+            price: 15,
             isGlutenFree: true,
           },
           {
             name: "Potato and Leek Soup",
             description: "Smoked potato soup with leek ash and cultured cream",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -72,7 +72,7 @@ export const aucklandpastureMenu: ResturantMenu[] = [
             name: "Smoked Tomato Soup",
             description:
               "Slow-smoked tomatoes blended into a rich soup with basil oil",
-            price: 17,
+            price: 16,
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
@@ -81,7 +81,7 @@ export const aucklandpastureMenu: ResturantMenu[] = [
             name: "Roasted Cauliflower Soup",
             description:
               "Creamy soup of fire-roasted cauliflower with truffle oil",
-            price: 19,
+            price: 18,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -89,7 +89,7 @@ export const aucklandpastureMenu: ResturantMenu[] = [
             name: "Wild Nettle & Sorrel Soup",
             description:
               "Foraged greens blended into a vibrant, earthy soup with crème fraîche",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -109,7 +109,7 @@ export const aucklandpastureMenu: ResturantMenu[] = [
             name: "Charred Brassicas",
             description:
               "Fire-roasted seasonal brassicas with hazelnut and aged vinegar",
-            price: 19,
+            price: 18,
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
@@ -225,7 +225,7 @@ export const aucklandpastureMenu: ResturantMenu[] = [
             description:
               "Farm vegetables cooked over open flame with rendered fat",
             price: 12,
-            isVegetarian: true, // Note: rendered fat might not be vegetarian unless specified as plant-based
+            isVegetarian: true, // Note: rendered fat might not be vegetarian unless specified as plant-based,
             isGlutenFree: true,
           },
           {
@@ -246,7 +246,7 @@ export const aucklandpastureMenu: ResturantMenu[] = [
             name: "Grilled Asparagus with Parmesan",
             description:
               "Tender asparagus spears grilled and topped with shaved parmesan",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -268,7 +268,7 @@ export const aucklandpastureMenu: ResturantMenu[] = [
             name: "Burnt Basque Cheesecake",
             description:
               "House-cultured cheese cake with seasonal fruit preserve",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -296,7 +296,7 @@ export const aucklandpastureMenu: ResturantMenu[] = [
             name: "Fermented Plum Frangipane Tart",
             description:
               "Almond frangipane tart with sweet, tangy fermented plums",
-            price: 16,
+            price: 15,
             isVegetarian: true,
           },
         ],
@@ -361,14 +361,14 @@ export const aucklandpastureMenu: ResturantMenu[] = [
             name: "Rhubarb & Ginger Pudding",
             description:
               "Steamed pudding with preserved rhubarb and ginger cream",
-            price: 16,
+            price: 15,
             isVegetarian: true,
           },
           {
             name: "Fermented Plum Clafoutis",
             description:
               "Classic French clafoutis with fermented plums and almond",
-            price: 17,
+            price: 16,
             isVegetarian: true,
           },
           {
@@ -383,7 +383,7 @@ export const aucklandpastureMenu: ResturantMenu[] = [
             name: "Chocolate & Stout Pudding",
             description:
               "Rich, dark chocolate pudding made with local stout, served with cultured cream",
-            price: 16,
+            price: 15,
             isVegetarian: true,
           },
         ],
@@ -403,7 +403,7 @@ export const aucklandpastureMenu: ResturantMenu[] = [
             name: "Chocolate & Ember",
             description:
               "Dark chocolate ganache with ember-infused cream and ash",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -411,7 +411,7 @@ export const aucklandpastureMenu: ResturantMenu[] = [
             name: "Grilled Pineapple with Spiced Rum Sabayon",
             description:
               "Pineapple grilled over embers, served with a warm spiced rum sabayon",
-            price: 19,
+            price: 18,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -419,7 +419,7 @@ export const aucklandpastureMenu: ResturantMenu[] = [
             name: "Honey & Lavender Panna Cotta",
             description:
               "Delicate panna cotta infused with local honey and lavender, served with honeycomb",
-            price: 17,
+            price: 16,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -448,7 +448,7 @@ export const aucklandpastureMenu: ResturantMenu[] = [
             name: "Natural Chardonnay",
             description:
               "Unfiltered, minimal intervention Chardonnay from Gisborne",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -456,7 +456,7 @@ export const aucklandpastureMenu: ResturantMenu[] = [
             name: "Skin-Contact Pinot Gris",
             description:
               "Orange wine with extended skin maceration from Nelson",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -471,7 +471,7 @@ export const aucklandpastureMenu: ResturantMenu[] = [
             name: "Pet Nat Rosé",
             description:
               "Naturally sparkling rosé, vibrant and unfiltered from Martinborough",
-            price: 17,
+            price: 16,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -487,7 +487,7 @@ export const aucklandpastureMenu: ResturantMenu[] = [
             name: "Carbonic Maceration Pinot Noir",
             description:
               "Light, fruity Pinot Noir made with whole bunch fermentation, from Central Otago",
-            price: 19,
+            price: 18,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -544,7 +544,7 @@ export const aucklandpastureMenu: ResturantMenu[] = [
           {
             name: "The Source Gin",
             description: "Small-batch gin with foraged botanicals",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -558,7 +558,7 @@ export const aucklandpastureMenu: ResturantMenu[] = [
           {
             name: "Fermented Honey Spirit",
             description: "Distilled mead made from wild New Zealand honey",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -566,7 +566,7 @@ export const aucklandpastureMenu: ResturantMenu[] = [
             name: "Kawakawa Infused Vodka",
             description:
               "Vodka infused with native Kawakawa leaves, earthy and peppery",
-            price: 17,
+            price: 16,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -601,7 +601,7 @@ export const aucklandpastureMenu: ResturantMenu[] = [
           {
             name: "Fermented Berry Fizz",
             description: "Gin, lacto-fermented berries, and soda",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -624,7 +624,7 @@ export const aucklandpastureMenu: ResturantMenu[] = [
             name: "Kawakawa Sour",
             description:
               "Kawakawa infused vodka, lemon juice, egg white (or aquafaba), and sugar syrup",
-            price: 19,
+            price: 18,
             isGlutenFree: true, // Vegan option with aquafaba
           },
           {
@@ -643,15 +643,15 @@ export const aucklandpastureMenu: ResturantMenu[] = [
           {
             name: "Whey Highball",
             description: "Vodka, fermented whey, and preserved citrus",
-            price: 17,
-            isVegan: true, // Assuming whey source or processing allows for vegan classification if plant-based, otherwise this would be vegetarian.
+            price: 16,
+            isVegan: true, // Assuming whey source or processing allows for vegan classification if plant-based, otherwise this would be vegetarian.,
             isGlutenFree: true,
           },
           {
             name: "House Vermouth Spritz",
             description:
               "House-made vermouth with botanical infusions and soda",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },

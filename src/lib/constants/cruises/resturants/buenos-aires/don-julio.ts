@@ -14,7 +14,7 @@ export const buenosAiresdonJulioMenu: ResturantMenu[] = [
             name: "Provoleta Don Julio",
             description:
               "Signature grilled provolone cheese with dried oregano and chili flakes",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -26,7 +26,7 @@ export const buenosAiresdonJulioMenu: ResturantMenu[] = [
           {
             name: "Morcilla y Chorizo Criollo",
             description: "Blood sausage and traditional Argentine chorizo",
-            price: 16,
+            price: 15,
             isGlutenFree: true,
           },
           {
@@ -44,13 +44,13 @@ export const buenosAiresdonJulioMenu: ResturantMenu[] = [
           {
             name: "Cazuela de Lentejas",
             description: "Hearty lentil soup with vegetables and smoked bacon",
-            price: 16,
+            price: 15,
             isGlutenFree: true,
           },
           {
             name: "Sopa de Cebolla Gratinada",
             description: "French onion soup with melted provolone cheese",
-            price: 18,
+            price: 17,
             isVegetarian: true,
           },
         ],
@@ -62,14 +62,14 @@ export const buenosAiresdonJulioMenu: ResturantMenu[] = [
             name: "Ensalada Don Julio",
             description:
               "House salad with arugula, cherry tomatoes, and aged Parmesan",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },
           {
             name: "Ensalada de Rúcula y Peras",
             description: "Arugula with pears, walnuts, and Roquefort cheese",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -168,7 +168,7 @@ export const buenosAiresdonJulioMenu: ResturantMenu[] = [
           {
             name: "Panqueques con Dulce de Leche",
             description: "Thin crepes filled with dulce de leche",
-            price: 16,
+            price: 15,
             isVegetarian: true,
           },
           {
@@ -193,7 +193,7 @@ export const buenosAiresdonJulioMenu: ResturantMenu[] = [
           {
             name: "Degustación de Helados",
             description: "Selection of three house-made ice creams",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -225,7 +225,7 @@ export const buenosAiresdonJulioMenu: ResturantMenu[] = [
             name: "Queso y Dulce",
             description:
               "Aged cheese with quince paste and sweet potato preserve",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -233,7 +233,7 @@ export const buenosAiresdonJulioMenu: ResturantMenu[] = [
             name: "Marquise de Chocolate",
             description:
               "Dense chocolate cake with dulce de leche and Italian meringue",
-            price: 18,
+            price: 17,
             isVegetarian: true,
           },
         ],
@@ -267,7 +267,7 @@ export const buenosAiresdonJulioMenu: ResturantMenu[] = [
           {
             name: "Zuccardi Serie A Torrontés",
             description: "Aromatic white with floral notes and tropical fruit",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -316,14 +316,14 @@ export const buenosAiresdonJulioMenu: ResturantMenu[] = [
           {
             name: "Rutini Trumpeter Grappa",
             description: "Premium Argentine grape brandy",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
           {
             name: "Antigal Extra Añejo Cognac",
             description: "Argentine cognac-style spirit, aged in oak",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -335,7 +335,7 @@ export const buenosAiresdonJulioMenu: ResturantMenu[] = [
           {
             name: "Classic Negroni",
             description: "Equal parts gin, Campari, and sweet vermouth",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -362,14 +362,14 @@ export const buenosAiresdonJulioMenu: ResturantMenu[] = [
             name: "Malbec Sangria",
             description:
               "House sangria made with Malbec wine and seasonal fruit",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
           {
             name: "Argentine Old Fashioned",
             description: "Bourbon infused with mate, orange bitters, and sugar",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },

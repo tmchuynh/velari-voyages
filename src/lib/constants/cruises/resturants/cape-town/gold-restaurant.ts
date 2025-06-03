@@ -19,7 +19,7 @@ export const capeTowngoldRestaurantMenu: ResturantMenu[] = [
           {
             name: "Mozambican Peri-Peri Prawns",
             description: "Flame-grilled prawns with spicy peri-peri sauce",
-            price: 18,
+            price: 17,
             isGlutenFree: true,
           },
           {
@@ -275,7 +275,7 @@ export const capeTowngoldRestaurantMenu: ResturantMenu[] = [
             name: "Ethiopian Coffee Ceremony",
             description:
               "Traditional coffee ceremony with freshly roasted beans and sweet treats",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -406,7 +406,7 @@ export const capeTowngoldRestaurantMenu: ResturantMenu[] = [
             name: "Cape Town Sunset",
             description:
               "Inverroche gin, rooibos syrup, lemon juice, and sparkling water",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -421,7 +421,7 @@ export const capeTowngoldRestaurantMenu: ResturantMenu[] = [
             name: "African Queen",
             description:
               "Amarula cream liqueur, coffee liqueur, and fresh cream",
-            price: 18,
+            price: 17,
             isGlutenFree: true,
           },
           {
@@ -448,14 +448,14 @@ export const capeTowngoldRestaurantMenu: ResturantMenu[] = [
             name: "Rooibos Sun-Downer",
             description:
               "South African rooibos tea infused with brandy and orange liqueur",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
           {
             name: "Spiced Palm Wine Cocktail",
             description: "Traditional palm wine with rum and African spices",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },

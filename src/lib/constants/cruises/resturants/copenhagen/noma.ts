@@ -112,7 +112,7 @@ export const copenhagennomaMenu: ResturantMenu[] = [
           {
             name: "Fermented Wild Greens",
             description: "Assortment of lacto-fermented wild plants",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
@@ -120,7 +120,7 @@ export const copenhagennomaMenu: ResturantMenu[] = [
           {
             name: "Caramelized Koji Rice",
             description: "With pine needles and roasted yeast",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
@@ -170,7 +170,7 @@ export const copenhagennomaMenu: ResturantMenu[] = [
             name: "Frozen Reindeer Brain",
             description:
               "Creamy brain-shaped sorbet with lingonberry and herbs",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -189,14 +189,14 @@ export const copenhagennomaMenu: ResturantMenu[] = [
             name: "Whey Pudding",
             description:
               "Creamy whey custard with caramelized milk skin and oxalis",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isGlutenFree: true,
           },
           {
             name: "Fermented Rice Pudding",
             description: "Tangy rice pudding with forest berry compote",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -271,19 +271,19 @@ export const copenhagennomaMenu: ResturantMenu[] = [
           {
             name: "Noma Wild Ferment Ale",
             description: "House-brewed ale using foraged ingredients",
-            price: 18,
+            price: 17,
             isVegan: true,
           },
           {
             name: "Spruce Tip Lager",
             description: "Light beer brewed with young spruce shoots",
-            price: 16,
+            price: 15,
             isVegan: true,
           },
           {
             name: "Mushroom Stout",
             description: "Dark beer with forest mushrooms and malt",
-            price: 17,
+            price: 16,
             isVegan: true,
           },
         ],
@@ -294,7 +294,7 @@ export const copenhagennomaMenu: ResturantMenu[] = [
           {
             name: "Woodruff Snaps",
             description: "House-infused woodruff schnapps",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -355,7 +355,7 @@ export const copenhagennomaMenu: ResturantMenu[] = [
             name: "Roasted Barley Tea",
             description:
               "Warm fermented tea with rosehip and dried berries (non-alcoholic)",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -363,7 +363,7 @@ export const copenhagennomaMenu: ResturantMenu[] = [
             name: "Green Juniper & Bee Larvae",
             description:
               "Cold infusion with green juniper and fermented honey (non-alcoholic)",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },

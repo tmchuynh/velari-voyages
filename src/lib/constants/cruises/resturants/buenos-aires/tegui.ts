@@ -14,7 +14,7 @@ export const buenosAiresteguiMenu: ResturantMenu[] = [
             name: "Provoleta Moderna",
             description:
               "Grilled provolone cheese with herbs, cherry tomatoes, and olive oil",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -27,7 +27,7 @@ export const buenosAiresteguiMenu: ResturantMenu[] = [
           {
             name: "Empanadas de Cordero",
             description: "Lamb empanadas with mint and chimichurri",
-            price: 16,
+            price: 15,
           },
           {
             name: "Carpaccio de Ciervo",
@@ -52,7 +52,7 @@ export const buenosAiresteguiMenu: ResturantMenu[] = [
             name: "Sopa de Calabaza",
             description:
               "Roasted pumpkin soup with toasted pepitas and crème fraîche",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -65,7 +65,7 @@ export const buenosAiresteguiMenu: ResturantMenu[] = [
             name: "Ensalada de Remolacha",
             description:
               "Roasted beet salad with goat cheese, walnuts, and orange vinaigrette",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -73,7 +73,7 @@ export const buenosAiresteguiMenu: ResturantMenu[] = [
             name: "Ensalada de Quinoa",
             description:
               "Andean quinoa with grilled vegetables, herbs, and citrus dressing",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
@@ -156,14 +156,14 @@ export const buenosAiresteguiMenu: ResturantMenu[] = [
             name: "Alfajor Deconstruido",
             description:
               "Deconstructed alfajor with dulce de leche mousse and chocolate textures",
-            price: 16,
+            price: 15,
             isVegetarian: true,
           },
           {
             name: "Torta Rogel Moderna",
             description:
               "Modern interpretation of layered meringue cake with dulce de leche",
-            price: 18,
+            price: 17,
             isVegetarian: true,
           },
         ],
@@ -216,7 +216,7 @@ export const buenosAiresteguiMenu: ResturantMenu[] = [
             name: "Vigilante Artesanal",
             description:
               "Aged cheese paired with housemade quince paste and membrillo",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -245,7 +245,7 @@ export const buenosAiresteguiMenu: ResturantMenu[] = [
             name: "Catena Zapata Malbec",
             description:
               "Intense, full-bodied Mendoza Malbec with dark fruit notes and vanilla",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -253,7 +253,7 @@ export const buenosAiresteguiMenu: ResturantMenu[] = [
             name: "Luigi Bosca Cabernet Sauvignon",
             description:
               "Elegant red with blackcurrant notes and smooth tannins",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -338,7 +338,7 @@ export const buenosAiresteguiMenu: ResturantMenu[] = [
           {
             name: "Gancia Batido",
             description: "Gancia aperitif shaken with fresh lemon and sugar",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -346,7 +346,7 @@ export const buenosAiresteguiMenu: ResturantMenu[] = [
             name: "Clericot Moderno",
             description:
               "Modern take on clericot with white wine, fruit, and herbs",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },

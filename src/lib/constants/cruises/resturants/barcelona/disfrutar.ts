@@ -43,7 +43,7 @@ export const barcelonadisfrutarMenu: ResturantMenu[] = [
           {
             name: "Caviar of Olives",
             description: "Olive oil caviar with citrus foam and herbs",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
@@ -158,14 +158,14 @@ export const barcelonadisfrutarMenu: ResturantMenu[] = [
             name: "Crispy Egg Yolk",
             description:
               "Slow-cooked egg yolk with crispy exterior and truffle",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isGlutenFree: true,
           },
           {
             name: "Edible Landscape",
             description: "Vegetable textures resembling a miniature garden",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
@@ -231,7 +231,7 @@ export const barcelonadisfrutarMenu: ResturantMenu[] = [
             name: "Olive Oil Ice Cream",
             description:
               "Premium olive oil frozen tableside with liquid nitrogen",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -239,7 +239,7 @@ export const barcelonadisfrutarMenu: ResturantMenu[] = [
             name: "Black Sesame and Yuzu Sorbet",
             description:
               "Asian-inspired sorbet with unexpected texture contrasts",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
@@ -337,7 +337,7 @@ export const barcelonadisfrutarMenu: ResturantMenu[] = [
           {
             name: "Xarel·lo Amphora",
             description: "Biodynamic Catalan white aged in clay amphora",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -351,7 +351,7 @@ export const barcelonadisfrutarMenu: ResturantMenu[] = [
           {
             name: "Vintage Cava Reserva",
             description: "Aged sparkling wine from Penedès with fine bubbles",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -414,14 +414,14 @@ export const barcelonadisfrutarMenu: ResturantMenu[] = [
           {
             name: "House-Infused Brandy",
             description: "Spanish brandy infused with Mediterranean herbs",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
           {
             name: "Herbal Liqueur",
             description: "House-made herbal liqueur with local botanicals",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -457,7 +457,7 @@ export const barcelonadisfrutarMenu: ResturantMenu[] = [
             name: "Frozen Mojito Sphere",
             description:
               "Mojito served as a frozen sphere that melts in your mouth",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },

@@ -87,24 +87,24 @@ export const charlestonberthaMenu: ResturantMenu[] = [
             name: "Fried Chicken",
             description:
               "Bertha's famous crispy fried chicken with a secret spice blend",
-            price: 16,
+            price: 15,
           },
           {
             name: "Smothered Pork Chops",
             description: "Slow-cooked pork chops with onion gravy",
-            price: 18,
+            price: 17,
           },
           {
             name: "Shrimp & Grits",
             description:
               "Charleston classic with local shrimp and creamy stone-ground grits",
-            price: 19,
+            price: 18,
             isGlutenFree: true,
           },
           {
             name: "Fried Whiting",
             description: "Cornmeal-crusted whiting fish with tartar sauce",
-            price: 16,
+            price: 15,
           },
           {
             name: "Oxtails",
@@ -145,7 +145,7 @@ export const charlestonberthaMenu: ResturantMenu[] = [
           {
             name: "Cornbread",
             description: "Sweet and savory cornbread with honey butter",
-            price: 4,
+            price: 3,
             isVegetarian: true,
           },
         ],
@@ -284,7 +284,7 @@ export const charlestonberthaMenu: ResturantMenu[] = [
           {
             name: "Domestic Bottled Beer",
             description: "Selection of classic American beers",
-            price: 4,
+            price: 3,
             isVegan: true,
           },
         ],
@@ -360,7 +360,7 @@ export const charlestonberthaMenu: ResturantMenu[] = [
           {
             name: "Arnold Palmer",
             description: "Half sweet tea, half lemonade (non-alcoholic)",
-            price: 4,
+            price: 3,
             isVegan: true,
             isGlutenFree: true,
           },

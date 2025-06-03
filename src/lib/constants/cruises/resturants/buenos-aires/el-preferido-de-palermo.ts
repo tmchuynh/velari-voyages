@@ -27,7 +27,7 @@ export const buenosAireselPreferidoDePalermoMenu: ResturantMenu[] = [
             name: "Matambre Arrollado",
             description:
               "Cold rolled flank steak stuffed with vegetables and herbs",
-            price: 18,
+            price: 17,
             isGlutenFree: true,
           },
           {
@@ -268,7 +268,7 @@ export const buenosAireselPreferidoDePalermoMenu: ResturantMenu[] = [
             name: "Vino Patero",
             description:
               "Traditional homestyle wine served in penguin-shaped pitchers",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },

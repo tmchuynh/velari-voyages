@@ -19,7 +19,7 @@ export const barcelona7PortesMenu: ResturantMenu[] = [
           {
             name: "Anchoas del Cantábrico",
             description: "Premium Cantabrian anchovies with pa amb tomàquet",
-            price: 18,
+            price: 17,
           },
           {
             name: "Escalivada",
@@ -34,7 +34,7 @@ export const barcelona7PortesMenu: ResturantMenu[] = [
             name: "Esqueixada de Bacalao",
             description:
               "Traditional Catalan salad with shredded salt cod and tomatoes",
-            price: 16,
+            price: 15,
             isGlutenFree: true,
           },
           {
@@ -56,13 +56,13 @@ export const barcelona7PortesMenu: ResturantMenu[] = [
           {
             name: "Sopa de Pescado y Marisco",
             description: "Traditional seafood soup with saffron",
-            price: 18,
+            price: 17,
             isGlutenFree: true,
           },
           {
             name: "Escudella i Carn d'Olla",
             description: "Hearty Catalan soup with meat, vegetables, and pasta",
-            price: 16,
+            price: 15,
           },
           {
             name: "Gazpacho Andaluz",
@@ -90,13 +90,13 @@ export const barcelona7PortesMenu: ResturantMenu[] = [
             name: "Xató",
             description:
               "Endive salad with cod, anchovies, olives, and romesco sauce",
-            price: 16,
+            price: 15,
             isGlutenFree: true,
           },
           {
             name: "Ensalada de Queso de Cabra",
             description: "Goat cheese salad with mixed greens and walnuts",
-            price: 17,
+            price: 16,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -324,7 +324,7 @@ export const barcelona7PortesMenu: ResturantMenu[] = [
           {
             name: "Priorat Crianza",
             description: "Bold red wine from nearby Catalan region",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },

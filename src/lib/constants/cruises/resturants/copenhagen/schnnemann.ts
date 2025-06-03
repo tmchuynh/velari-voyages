@@ -14,7 +14,7 @@ export const copenhagenschNnemannMenu: ResturantMenu[] = [
             name: "Marinated Herring Plate",
             description:
               "Selection of herring prepared in various traditional styles",
-            price: 18,
+            price: 17,
           },
           {
             name: "House-Cured Salmon",
@@ -24,7 +24,7 @@ export const copenhagenschNnemannMenu: ResturantMenu[] = [
           {
             name: "Chicken Liver Pâté",
             description: "Creamy pâté with bacon, mushrooms, and port jelly",
-            price: 16,
+            price: 15,
           },
           {
             name: "Smoked Eel",
@@ -46,7 +46,7 @@ export const copenhagenschNnemannMenu: ResturantMenu[] = [
             name: "Fish Soup",
             description:
               "Rich soup with local fish, shellfish, and fresh herbs",
-            price: 16,
+            price: 15,
             isGlutenFree: true,
           },
         ],
@@ -77,7 +77,7 @@ export const copenhagenschNnemannMenu: ResturantMenu[] = [
           {
             name: "Roast Beef Smørrebrød",
             description: "With remoulade, crispy onions, and horseradish",
-            price: 18,
+            price: 17,
           },
           {
             name: "Stjerneskud (Shooting Star)",
@@ -95,7 +95,7 @@ export const copenhagenschNnemannMenu: ResturantMenu[] = [
             name: "Kartoffelmad",
             description:
               "Buttered rye bread with potatoes, onions, and mayonnaise",
-            price: 16,
+            price: 15,
             isVegetarian: true,
           },
           {
@@ -202,7 +202,7 @@ export const copenhagenschNnemannMenu: ResturantMenu[] = [
           {
             name: "Ost & Kiks",
             description: "Danish cheese selection with crackers and fruit",
-            price: 18,
+            price: 17,
             isVegetarian: true,
           },
           {
@@ -311,7 +311,7 @@ export const copenhagenschNnemannMenu: ResturantMenu[] = [
           {
             name: "Bloody Mary with Aquavit",
             description: "Classic Bloody Mary with aquavit instead of vodka",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -324,7 +324,7 @@ export const copenhagenschNnemannMenu: ResturantMenu[] = [
           {
             name: "Schønnemanns Negroni",
             description: "Gin, Campari, vermouth, and a splash of aquavit",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },

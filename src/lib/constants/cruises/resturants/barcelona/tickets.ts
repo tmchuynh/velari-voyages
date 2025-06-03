@@ -34,7 +34,7 @@ export const barcelonaticketsMenu: ResturantMenu[] = [
             name: "Nordic Landscape",
             description:
               "Smoked salmon, dill, yogurt snow, and pickled vegetables",
-            price: 18,
+            price: 17,
             isGlutenFree: true,
           },
           {
@@ -51,7 +51,7 @@ export const barcelonaticketsMenu: ResturantMenu[] = [
           {
             name: "Gazpacho Air",
             description: "Traditional gazpacho transformed into a light foam",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
@@ -60,7 +60,7 @@ export const barcelonaticketsMenu: ResturantMenu[] = [
             name: "Consommé Tapioca",
             description:
               "Clear chicken consommé with tapioca pearls and micro herbs",
-            price: 18,
+            price: 17,
             isGlutenFree: true,
           },
           {
@@ -94,7 +94,7 @@ export const barcelonaticketsMenu: ResturantMenu[] = [
             name: "Beetroot Salad",
             description:
               "Roasted beetroot with goat cheese foam, walnuts, and balsamic pearls",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -161,7 +161,7 @@ export const barcelonaticketsMenu: ResturantMenu[] = [
             name: "Truffled Parmesan Gnocchi",
             description:
               "Light potato gnocchi with parmesan foam and fresh truffle",
-            price: 16,
+            price: 15,
             isVegetarian: true,
           },
           {
@@ -190,7 +190,7 @@ export const barcelonaticketsMenu: ResturantMenu[] = [
             name: "The Golden Egg",
             description:
               "Caramelized egg custard inside a gold-dusted sugar shell",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -198,7 +198,7 @@ export const barcelonaticketsMenu: ResturantMenu[] = [
             name: "Chocolate Forest",
             description:
               "Multiple textures of chocolate with pine nut soil and mint air",
-            price: 18,
+            price: 17,
             isVegetarian: true,
           },
           {
@@ -226,7 +226,7 @@ export const barcelonaticketsMenu: ResturantMenu[] = [
             name: "Liquid Nitrogen Sorbet",
             description:
               "Instant-frozen seasonal fruit sorbet prepared tableside",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
@@ -262,7 +262,7 @@ export const barcelonaticketsMenu: ResturantMenu[] = [
             name: "Chocolate Pudding",
             description:
               "Rich chocolate pudding with raspberry gel and mint air",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -291,7 +291,7 @@ export const barcelonaticketsMenu: ResturantMenu[] = [
             name: "Fruit Sphere",
             description:
               "Seasonal fruit encapsulated in a thin gel shell with fruit air",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
@@ -320,7 +320,7 @@ export const barcelonaticketsMenu: ResturantMenu[] = [
           {
             name: "Tempranillo, Ribera del Duero",
             description: "Bold red with black fruit and vanilla notes",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -335,7 +335,7 @@ export const barcelonaticketsMenu: ResturantMenu[] = [
           {
             name: "Priorat Red Blend",
             description: "Intense red with dark fruit and mineral undertones",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -384,7 +384,7 @@ export const barcelonaticketsMenu: ResturantMenu[] = [
           {
             name: "Torres 20 Brandy",
             description: "Premium aged Spanish brandy",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -411,21 +411,21 @@ export const barcelonaticketsMenu: ResturantMenu[] = [
           {
             name: "Spherical Gin & Tonic",
             description: "Classic G&T with bursting tonic spheres",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
           {
             name: "Nitrogen Caipirinha",
             description: "Flash-frozen caipirinha with lime air",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
           {
             name: "Smoking Whisky Sour",
             description: "Hickory-smoked whisky sour with citrus foam",
-            price: 17,
+            price: 16,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -469,7 +469,7 @@ export const barcelonaticketsMenu: ResturantMenu[] = [
             name: "Cucumber & Basil Cooler",
             description:
               "Refreshing cocktail with cucumber, basil, and lime air",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },

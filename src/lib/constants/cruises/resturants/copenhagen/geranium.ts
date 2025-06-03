@@ -121,7 +121,7 @@ export const copenhagengeraniumMenu: ResturantMenu[] = [
           {
             name: "Crispy Potato Leaves",
             description: "With smoked bone marrow and herbs",
-            price: 18,
+            price: 17,
             isGlutenFree: true,
           },
           {
@@ -135,7 +135,7 @@ export const copenhagengeraniumMenu: ResturantMenu[] = [
           {
             name: "Glazed Beets",
             description: "With aged vinegar and wild berries",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
@@ -178,7 +178,7 @@ export const copenhagengeraniumMenu: ResturantMenu[] = [
             name: "Milk Ice Cream",
             description:
               "With caramelized milk skin, aromatic seeds, and chervil",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -290,7 +290,7 @@ export const copenhagengeraniumMenu: ResturantMenu[] = [
           {
             name: "Mikkeller Wild Ale",
             description: "Spontaneously fermented ale with wild yeast",
-            price: 16,
+            price: 15,
             isVegan: true,
           },
           {
@@ -314,7 +314,7 @@ export const copenhagengeraniumMenu: ResturantMenu[] = [
           {
             name: "Aged Danish Aquavit",
             description: "Caraway-flavored spirit aged in oak barrels",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -360,7 +360,7 @@ export const copenhagengeraniumMenu: ResturantMenu[] = [
             name: "Birch Sap & Apple",
             description:
               "Fresh birch sap with apple and woodruff (non-alcoholic)",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -376,7 +376,7 @@ export const copenhagengeraniumMenu: ResturantMenu[] = [
             name: "Fermented Berry Juice",
             description:
               "Lightly fermented Nordic berries with herbs (non-alcoholic)",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },

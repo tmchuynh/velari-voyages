@@ -13,14 +13,14 @@ export const charlestonhuskMenu: ResturantMenu[] = [
             name: "Wood-Fired Oysters",
             description:
               "Roasted garlic butter, preserved lemon, Espelette pepper",
-            price: 18,
+            price: 17,
             isGlutenFree: true,
           },
           {
             name: "Cornmeal Fried Catfish",
             description:
               "Carolina Gold rice grits, smoked tomato broth, pickled shrimp",
-            price: 16,
+            price: 15,
             isGlutenFree: false,
           },
           {

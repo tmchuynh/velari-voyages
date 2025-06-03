@@ -48,7 +48,7 @@ export const capeTowntheTestKitchenMenu: ResturantMenu[] = [
             name: "Tomato Water Consommé",
             description:
               "Clear tomato essence with basil oil and confit heirloom tomatoes",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
@@ -56,7 +56,7 @@ export const capeTowntheTestKitchenMenu: ResturantMenu[] = [
           {
             name: "Charred Corn Soup",
             description: "Smoky corn soup with lime cream and popcorn dust",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -76,7 +76,7 @@ export const capeTowntheTestKitchenMenu: ResturantMenu[] = [
             name: "Roasted Beet Composition",
             description:
               "Multicolored beets with whipped goat cheese, walnut, and aged balsamic",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -84,7 +84,7 @@ export const capeTowntheTestKitchenMenu: ResturantMenu[] = [
             name: "Garden Salad",
             description:
               "Seasonal vegetables and herbs from our garden with fermented garlic dressing",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
@@ -163,7 +163,7 @@ export const capeTowntheTestKitchenMenu: ResturantMenu[] = [
           {
             name: "Truffle Mac & Cheese",
             description: "Aged cheddar, Parmesan, and black truffle",
-            price: 16,
+            price: 15,
             isVegetarian: true,
           },
           {
@@ -190,14 +190,14 @@ export const capeTowntheTestKitchenMenu: ResturantMenu[] = [
             name: "Dark Chocolate Sphere",
             description:
               "Chocolate sphere with molten center, salted caramel, and cocoa nib tuile",
-            price: 18,
+            price: 17,
             isVegetarian: true,
           },
           {
             name: "Vanilla Bean Mille-feuille",
             description:
               "Crisp pastry layered with Madagascar vanilla cream and seasonal berries",
-            price: 16,
+            price: 15,
             isVegetarian: true,
           },
           {
@@ -278,7 +278,7 @@ export const capeTowntheTestKitchenMenu: ResturantMenu[] = [
             name: "Nitro Chocolate Popcorn",
             description:
               "Liquid nitrogen frozen chocolate mousse with caramel popcorn",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -313,14 +313,14 @@ export const capeTowntheTestKitchenMenu: ResturantMenu[] = [
           {
             name: "Swartland Chenin Blanc",
             description: "Complex white with stone fruit notes and minerality",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
           {
             name: "Elgin Pinot Noir",
             description: "Elegant red with cherry and earthy undertones",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -377,14 +377,14 @@ export const capeTowntheTestKitchenMenu: ResturantMenu[] = [
           {
             name: "Bain's Single Grain Whisky",
             description: "Award-winning South African whisky",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
           {
             name: "KWV 15 Year Brandy",
             description: "Premium South African potstill brandy",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -404,7 +404,7 @@ export const capeTowntheTestKitchenMenu: ResturantMenu[] = [
             name: "Test Kitchen G&T",
             description:
               "House gin with custom botanical tonic and seasonal garnish",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -412,7 +412,7 @@ export const capeTowntheTestKitchenMenu: ResturantMenu[] = [
             name: "Woodstock Old Fashioned",
             description:
               "Bourbon with house-made bitters and sugar smoked with fynbos",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -420,7 +420,7 @@ export const capeTowntheTestKitchenMenu: ResturantMenu[] = [
             name: "Cape Negroni",
             description:
               "Local gin, vermouth, and bitters aged in small oak barrels",
-            price: 17,
+            price: 16,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -428,7 +428,7 @@ export const capeTowntheTestKitchenMenu: ResturantMenu[] = [
             name: "Cucumber & Dill Martini",
             description:
               "Vodka infused with cucumber and dill, served with a salt air foam",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },

@@ -13,12 +13,12 @@ export const charlestonfIGMenu: ResturantMenu[] = [
           {
             name: "Ricotta Gnocchi",
             description: "Pillowy gnocchi with lamb bolognese and pecorino",
-            price: 18,
+            price: 17,
           },
           {
             name: "Chicken Liver Pâté",
             description: "Smooth pâté with port wine gelee and grilled bread",
-            price: 16,
+            price: 15,
           },
           {
             name: "Beet Salad",
@@ -31,7 +31,7 @@ export const charlestonfIGMenu: ResturantMenu[] = [
           {
             name: "Fish Stew Provençal",
             description: "Local seafood in a saffron-tomato broth with rouille",
-            price: 19,
+            price: 18,
             isGlutenFree: true,
           },
         ],
@@ -78,7 +78,7 @@ export const charlestonfIGMenu: ResturantMenu[] = [
           {
             name: "Heirloom Tomato Salad",
             description: "Seasonal tomatoes with burrata, basil, and balsamic",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -251,7 +251,7 @@ export const charlestonfIGMenu: ResturantMenu[] = [
           {
             name: "Cheese Plate",
             description: "Selection of artisanal cheeses with accompaniments",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -287,7 +287,7 @@ export const charlestonfIGMenu: ResturantMenu[] = [
           {
             name: "French Champagne",
             description: "Crisp and elegant with fine bubbles",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -301,14 +301,14 @@ export const charlestonfIGMenu: ResturantMenu[] = [
           {
             name: "Willamette Valley Pinot Noir",
             description: "Medium-bodied red with cherry and earth notes",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
           {
             name: "Napa Valley Cabernet Sauvignon",
             description: "Full-bodied with blackcurrant and cedar notes",
-            price: 17,
+            price: 16,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -363,7 +363,7 @@ export const charlestonfIGMenu: ResturantMenu[] = [
           {
             name: "Single Malt Scotch",
             description: "Aged Highlands or Islay expressions",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -424,14 +424,14 @@ export const charlestonfIGMenu: ResturantMenu[] = [
             name: "Fig Old Fashioned",
             description:
               "Bourbon infused with figs, orange bitters, and maple syrup",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
           {
             name: "Barrel-Aged Negroni",
             description: "House-aged gin, Campari, and vermouth blend",
-            price: 17,
+            price: 16,
             isVegan: true,
             isGlutenFree: true,
           },

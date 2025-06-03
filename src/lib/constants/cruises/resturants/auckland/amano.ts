@@ -28,7 +28,7 @@ export const aucklandamanoMenu: ResturantMenu[] = [
             name: "Arancini",
             description:
               "Crispy risotto balls filled with mozzarella and served with marinara sauce.",
-            price: 18,
+            price: 17,
             imageUrl: "/images/resturants/auckland/amano-arancini.jpg",
             isVegetarian: true,
           },
@@ -43,7 +43,7 @@ export const aucklandamanoMenu: ResturantMenu[] = [
             name: "Caprese Skewers",
             description:
               "Cherry tomatoes, fresh mozzarella, and basil drizzled with balsamic reduction.",
-            price: 16,
+            price: 15,
             imageUrl: "/images/resturants/auckland/amano-caprese-skewers.jpg",
             isVegetarian: true,
           },
@@ -51,7 +51,7 @@ export const aucklandamanoMenu: ResturantMenu[] = [
             name: "Stuffed Mushrooms",
             description:
               "Mushrooms stuffed with a blend of cheeses, herbs, and breadcrumbs.",
-            price: 18,
+            price: 17,
             imageUrl: "/images/resturants/auckland/amano-stuffed-mushrooms.jpg",
             isVegetarian: true,
           },
@@ -173,7 +173,7 @@ export const aucklandamanoMenu: ResturantMenu[] = [
             name: "Caesar Salad",
             description:
               "Crisp romaine lettuce, house-made croutons, and Caesar dressing.",
-            price: 18,
+            price: 17,
             imageUrl: "/images/resturants/auckland/amano-caesar-salad.jpg",
           },
           {
@@ -196,7 +196,7 @@ export const aucklandamanoMenu: ResturantMenu[] = [
             name: "Greek Salad",
             description:
               "Mixed greens with feta cheese, olives, cucumbers, and tomatoes.",
-            price: 18,
+            price: 17,
             imageUrl: "/images/resturants/auckland/amano-greek-salad.jpg",
             isVegetarian: true,
           },
@@ -212,7 +212,7 @@ export const aucklandamanoMenu: ResturantMenu[] = [
             name: "Spinach Salad",
             description:
               "Fresh spinach with strawberries, almonds, and a honey vinaigrette.",
-            price: 18,
+            price: 17,
             imageUrl: "/images/resturants/auckland/amano-spinach-salad.jpg",
             isVegetarian: true,
           },
@@ -249,13 +249,13 @@ export const aucklandamanoMenu: ResturantMenu[] = [
           {
             name: "Chianti Classico",
             description: "A classic Italian red wine with rich flavors.",
-            price: 18,
+            price: 17,
             imageUrl: "/images/resturants/auckland/amano-chianti.jpg",
           },
           {
             name: "Pinot Grigio",
             description: "Light and crisp white wine with citrus notes.",
-            price: 16,
+            price: 15,
             imageUrl: "/images/resturants/auckland/amano-pinot-grigio.jpg",
           },
           {
@@ -272,14 +272,14 @@ export const aucklandamanoMenu: ResturantMenu[] = [
           {
             name: "Amano Spritz",
             description: "A refreshing spritz with Aperol, prosecco, and soda.",
-            price: 16,
+            price: 15,
             imageUrl: "/images/resturants/auckland/amano-spritz.jpg",
           },
           {
             name: "Negroni",
             description:
               "Classic Italian cocktail with gin, vermouth, and Campari.",
-            price: 18,
+            price: 17,
             imageUrl: "/images/resturants/auckland/amano-negroni.jpg",
           },
           {
@@ -299,7 +299,7 @@ export const aucklandamanoMenu: ResturantMenu[] = [
           {
             name: "Bellini",
             description: "A classic cocktail with peach puree and prosecco.",
-            price: 16,
+            price: 15,
             imageUrl: "/images/resturants/auckland/amano-bellini.jpg",
           },
           {
@@ -325,13 +325,13 @@ export const aucklandamanoMenu: ResturantMenu[] = [
             name: "Whiskey Sour",
             description:
               "A classic cocktail with whiskey, lemon juice, and sugar.",
-            price: 16,
+            price: 15,
             imageUrl: "/images/resturants/auckland/amano-whiskey-sour.jpg",
           },
           {
             name: "Vodka Martini",
             description: "A classic vodka martini with a twist of lemon.",
-            price: 18,
+            price: 17,
             imageUrl: "/images/resturants/auckland/amano-vodka-martini.jpg",
           },
           {
@@ -345,7 +345,7 @@ export const aucklandamanoMenu: ResturantMenu[] = [
             name: "Tequila Sunrise",
             description:
               "A vibrant cocktail with tequila, orange juice, and grenadine.",
-            price: 16,
+            price: 15,
             imageUrl: "/images/resturants/auckland/amano-tequila-sunrise.jpg",
           },
           {
@@ -405,35 +405,35 @@ export const aucklandamanoMenu: ResturantMenu[] = [
             name: "Limoncello Spritz",
             description:
               "A zesty and refreshing spritz with Limoncello, prosecco, and soda.",
-            price: 17,
+            price: 16,
             imageUrl: "/images/resturants/auckland/amano-limoncello-spritz.jpg",
           },
           {
             name: "Amano Bellini",
             description:
               "A classic Bellini with white peach puree and prosecco.",
-            price: 16,
+            price: 15,
             imageUrl: "/images/resturants/auckland/amano-bellini.jpg",
           },
           {
             name: "Italian Mule",
             description:
               "An Italian twist on the Moscow Mule, with Amaro, lime juice, and ginger beer.",
-            price: 18,
+            price: 17,
             imageUrl: "/images/resturants/auckland/amano-italian-mule.jpg",
           },
           {
             name: "Sgroppino",
             description:
               "A delightful Italian cocktail made with lemon sorbet, vodka, and prosecco.",
-            price: 19,
+            price: 18,
             imageUrl: "/images/resturants/auckland/amano-sgroppino.jpg",
           },
           {
             name: "Negroni Sbagliato",
             description:
               "A lighter version of the classic Negroni, made with prosecco instead of gin.",
-            price: 18,
+            price: 17,
             imageUrl: "/images/resturants/auckland/amano-negroni-sbagliato.jpg",
           },
         ],

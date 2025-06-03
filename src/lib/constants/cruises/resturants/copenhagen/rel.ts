@@ -34,7 +34,7 @@ export const copenhagenrelMenu: ResturantMenu[] = [
           {
             name: "Smoked Potato",
             description: "Hay-smoked potato with egg yolk and ramson capers",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -53,7 +53,7 @@ export const copenhagenrelMenu: ResturantMenu[] = [
             name: "Root Vegetable Broth",
             description:
               "Clear broth with seasonal root vegetables and wild herbs",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
@@ -67,7 +67,7 @@ export const copenhagenrelMenu: ResturantMenu[] = [
             name: "Nordic Leaves",
             description:
               "Seasonal greens with pickled green strawberries and rye bread crumble",
-            price: 18,
+            price: 17,
             isVegetarian: true,
           },
           {
@@ -157,14 +157,14 @@ export const copenhagenrelMenu: ResturantMenu[] = [
             name: "Rye Bread Parfait",
             description:
               "Caramelized rye bread ice cream parfait with sea buckthorn",
-            price: 16,
+            price: 15,
             isVegetarian: true,
           },
           {
             name: "Apple Tarte Tatin",
             description:
               "Caramelized Danish apples with rosemary and buttermilk",
-            price: 18,
+            price: 17,
             isVegetarian: true,
           },
         ],
@@ -195,7 +195,7 @@ export const copenhagenrelMenu: ResturantMenu[] = [
             name: "Skyr & Rhubarb",
             description:
               "Icelandic yogurt mousse with poached rhubarb and oat crumble",
-            price: 16,
+            price: 15,
             isVegetarian: true,
           },
           {
@@ -221,7 +221,7 @@ export const copenhagenrelMenu: ResturantMenu[] = [
             name: "Chocolate & Cardamom",
             description:
               "Dark chocolate tart with cardamom ice cream and preserved cherries",
-            price: 18,
+            price: 17,
             isVegetarian: true,
           },
         ],
@@ -242,21 +242,21 @@ export const copenhagenrelMenu: ResturantMenu[] = [
             name: "Organic Chardonnay",
             description:
               "Danish organic white with fresh apple and mineral notes",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
           {
             name: "Biodynamic Pinot Noir",
             description: "Light-bodied red with earthy complexity from Zealand",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
           {
             name: "Natural Rosé Pet Nat",
             description: "Cloudy, naturally sparkling rosé with wild yeast",
-            price: 17,
+            price: 16,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -299,7 +299,7 @@ export const copenhagenrelMenu: ResturantMenu[] = [
           {
             name: "Danish Apple Brandy",
             description: "Distilled from heritage apple varieties",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -325,21 +325,21 @@ export const copenhagenrelMenu: ResturantMenu[] = [
           {
             name: "Nordic G&T",
             description: "Danish gin with spruce shoots and cucumber tonic",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
           {
             name: "Elderflower Fizz",
             description: "Aquavit, elderflower, lemon, and sparkling water",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
           {
             name: "Blackcurrant Bramble",
             description: "Gin, blackcurrant cordial, and lemon",
-            price: 17,
+            price: 16,
             isVegan: true,
             isGlutenFree: true,
           },

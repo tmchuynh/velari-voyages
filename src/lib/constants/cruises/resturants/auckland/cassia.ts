@@ -13,7 +13,7 @@ export const aucklandcassiaMenu: ResturantMenu[] = [
           {
             name: "Tandoori Prawns",
             description: "Tiger prawns marinated in yogurt and tandoori spices",
-            price: 18,
+            price: 17,
             isGlutenFree: true,
           },
           {
@@ -26,14 +26,14 @@ export const aucklandcassiaMenu: ResturantMenu[] = [
             name: "Chicken Tikka",
             description:
               "Tender chicken pieces marinated in spices and chargrilled",
-            price: 16,
+            price: 15,
             isGlutenFree: true,
           },
           {
             name: "Lamb Seekh Kebab",
             description:
               "Minced lamb skewers with fresh herbs and spices, tandoor-cooked",
-            price: 17,
+            price: 16,
             isGlutenFree: true,
           },
           {
@@ -67,7 +67,7 @@ export const aucklandcassiaMenu: ResturantMenu[] = [
           {
             name: "Coconut Seafood Bisque",
             description: "Creamy coconut soup with local seafood",
-            price: 16,
+            price: 15,
           },
           {
             name: "Tomato Shorba",
@@ -102,7 +102,7 @@ export const aucklandcassiaMenu: ResturantMenu[] = [
           {
             name: "Tandoori Chicken Salad",
             description: "Spiced chicken with mixed greens and yogurt dressing",
-            price: 18,
+            price: 17,
             isGlutenFree: true,
           },
           {
@@ -118,7 +118,7 @@ export const aucklandcassiaMenu: ResturantMenu[] = [
             name: "Roasted Beetroot Salad",
             description:
               "Beetroot, feta cheese, walnuts, and mixed greens with a cumin dressing",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -247,7 +247,7 @@ export const aucklandcassiaMenu: ResturantMenu[] = [
           {
             name: "Mixed Vegetable Pickle",
             description: "Assorted vegetables pickled in traditional spices",
-            price: 4,
+            price: 3,
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
@@ -355,7 +355,7 @@ export const aucklandcassiaMenu: ResturantMenu[] = [
             name: "Rose and Pistachio Rasmalai",
             description:
               "Soft cheese dumplings in sweetened, cardamom-spiced milk",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -404,7 +404,7 @@ export const aucklandcassiaMenu: ResturantMenu[] = [
           {
             name: "Central Otago Pinot Noir",
             description: "Elegant with cherry and spice notes",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -474,7 +474,7 @@ export const aucklandcassiaMenu: ResturantMenu[] = [
           {
             name: "Amrut Single Malt",
             description: "Award-winning Indian single malt whisky",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -507,36 +507,36 @@ export const aucklandcassiaMenu: ResturantMenu[] = [
           {
             name: "Mumbai Mule",
             description: "Vodka, ginger beer, lime, and cardamom",
-            price: 16,
+            price: 15,
           },
           {
             name: "Tamarind Margarita",
             description: "Tequila with tamarind and lime",
-            price: 17,
+            price: 16,
           },
           {
             name: "Spiced Old Fashioned",
             description: "Bourbon with cinnamon and star anise",
-            price: 18,
+            price: 17,
           },
           {
             name: "Coconut Mojito",
             description: "Rum, coconut water, mint, and lime",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
           {
             name: "Chai Martini",
             description: "Vodka infused with masala chai spices",
-            price: 17,
+            price: 16,
             isVegan: true,
             isGlutenFree: true,
           },
           {
             name: "Mango Lassi Cocktail",
             description: "Vodka, mango puree, yogurt, and a hint of cardamom",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -549,7 +549,7 @@ export const aucklandcassiaMenu: ResturantMenu[] = [
             name: "Masala Chai Martini",
             description:
               "Vodka infused with masala chai, shaken for a spirited twist.",
-            price: 17,
+            price: 16,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -557,7 +557,7 @@ export const aucklandcassiaMenu: ResturantMenu[] = [
             name: "Mango Saffron Bellini",
             description:
               "A luxurious blend of mango puree, prosecco, and delicate saffron.",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -565,7 +565,7 @@ export const aucklandcassiaMenu: ResturantMenu[] = [
             name: "Spiced Pineapple Mojito",
             description:
               "White rum muddled with fresh pineapple, mint, lime, and a hint of chaat masala.",
-            price: 17,
+            price: 16,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -573,7 +573,7 @@ export const aucklandcassiaMenu: ResturantMenu[] = [
             name: "Cardamom & Saffron Gin Fizz",
             description:
               "Aromatic gin, fresh lemon, house-made cardamom syrup, and saffron, topped with soda.",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -581,7 +581,7 @@ export const aucklandcassiaMenu: ResturantMenu[] = [
             name: "Jaipur Gin Garden",
             description:
               "Indian gin, cucumber, mint, lime, and a splash of elderflower tonic.",
-            price: 17,
+            price: 16,
             isVegan: true,
             isGlutenFree: true,
           },

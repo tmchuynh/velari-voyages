@@ -13,7 +13,7 @@ export const barcelonalaBoqueriaMarketBarMenu: ResturantMenu[] = [
           {
             name: "Fresh Oysters",
             description: "Local oysters with mignonette sauce and lemon",
-            price: 18,
+            price: 17,
             isGlutenFree: true,
           },
           {
@@ -60,7 +60,7 @@ export const barcelonalaBoqueriaMarketBarMenu: ResturantMenu[] = [
             name: "Sopa de Pescado",
             description:
               "Traditional Catalan fish soup with today's catch and saffron",
-            price: 16,
+            price: 15,
             isGlutenFree: true,
           },
           {
@@ -84,7 +84,7 @@ export const barcelonalaBoqueriaMarketBarMenu: ResturantMenu[] = [
             name: "Escudella i Carn d'Olla",
             description:
               "Hearty Catalan stew with seasonal vegetables and meats",
-            price: 18,
+            price: 17,
             isGlutenFree: true,
           },
         ],
@@ -105,7 +105,7 @@ export const barcelonalaBoqueriaMarketBarMenu: ResturantMenu[] = [
             name: "Burrata with Tomatoes",
             description:
               "Fresh burrata cheese with heirloom tomatoes and basil oil",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },

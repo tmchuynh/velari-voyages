@@ -21,21 +21,21 @@ export const aucklanddepotEateryOysterBarMenu: ResturantMenu[] = [
             name: "Tuna Crudo",
             description:
               "Raw yellowfin tuna, avocado, radish, citrus, and chili oil",
-            price: 19,
+            price: 18,
             isGlutenFree: true,
           },
           {
             name: "Beef Carpaccio",
             description:
               "Thinly sliced beef, truffle aioli, capers, parmesan, and rocket",
-            price: 18,
+            price: 17,
             isGlutenFree: true,
           },
           {
             name: "Pork Hock Croquettes",
             description:
               "Crispy croquettes with smoked pork hock and apple sauce",
-            price: 16,
+            price: 15,
           },
           {
             name: "Vegetable Tempura",
@@ -61,12 +61,12 @@ export const aucklanddepotEateryOysterBarMenu: ResturantMenu[] = [
           {
             name: "Seafood Chowder",
             description: "Creamy chowder with local fish, mussels, and prawns",
-            price: 17,
+            price: 16,
           },
           {
             name: "Smoked Fish Soup",
             description: "Rich broth with smoked kahawai, potato, and leeks",
-            price: 16,
+            price: 15,
             isGlutenFree: true,
           },
           {
@@ -114,7 +114,7 @@ export const aucklanddepotEateryOysterBarMenu: ResturantMenu[] = [
             name: "Roasted Beet Salad",
             description:
               "Heirloom beets, goat cheese, walnuts, and balsamic reduction",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -128,7 +128,7 @@ export const aucklanddepotEateryOysterBarMenu: ResturantMenu[] = [
             name: "Quinoa Salad",
             description:
               "Quinoa, roasted vegetables, feta cheese, and lemon vinaigrette",
-            price: 17,
+            price: 16,
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
@@ -242,7 +242,7 @@ export const aucklanddepotEateryOysterBarMenu: ResturantMenu[] = [
             name: "Chocolate Fondant",
             description:
               "Warm chocolate cake with molten center and vanilla ice cream",
-            price: 16,
+            price: 15,
             isVegetarian: true,
           },
           {
@@ -328,7 +328,7 @@ export const aucklanddepotEateryOysterBarMenu: ResturantMenu[] = [
             name: "Pavlova",
             description:
               "Classic New Zealand meringue with whipped cream and fresh fruit",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -377,7 +377,7 @@ export const aucklanddepotEateryOysterBarMenu: ResturantMenu[] = [
           {
             name: "Central Otago Pinot Noir",
             description: "Silky texture with cherry and spice notes",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -391,7 +391,7 @@ export const aucklanddepotEateryOysterBarMenu: ResturantMenu[] = [
           {
             name: "Waiheke Island Syrah",
             description: "Full-bodied with dark berry and pepper notes",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -452,7 +452,7 @@ export const aucklanddepotEateryOysterBarMenu: ResturantMenu[] = [
           {
             name: "Thomson Whisky",
             description: "Small batch New Zealand whisky",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -486,14 +486,14 @@ export const aucklanddepotEateryOysterBarMenu: ResturantMenu[] = [
             name: "Coastal Martini",
             description:
               "Reid+Reid gin with a splash of seaweed-infused vermouth",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
           {
             name: "Feijoa Mule",
             description: "42Below vodka, feijoa puree, lime, and ginger beer",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -501,7 +501,7 @@ export const aucklanddepotEateryOysterBarMenu: ResturantMenu[] = [
             name: "Manuka Old Fashioned",
             description:
               "Thomson whisky, manuka honey syrup, and orange bitters",
-            price: 19,
+            price: 18,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -509,7 +509,7 @@ export const aucklanddepotEateryOysterBarMenu: ResturantMenu[] = [
             name: "Kiwi Mojito",
             description:
               "Fresh mint, lime, kiwi puree, and Stolen rum topped with soda",
-            price: 17,
+            price: 16,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -530,7 +530,7 @@ export const aucklanddepotEateryOysterBarMenu: ResturantMenu[] = [
             name: "Pohutukawa Spritz",
             description:
               "New Zealand aperitif with sparkling wine and pohutukawa bitters",
-            price: 17,
+            price: 16,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -538,7 +538,7 @@ export const aucklanddepotEateryOysterBarMenu: ResturantMenu[] = [
             name: "Horopito Margarita",
             description:
               "Tequila with lime, horopito syrup, and black salt rim",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -546,7 +546,7 @@ export const aucklanddepotEateryOysterBarMenu: ResturantMenu[] = [
             name: "Kiwi & Elderflower Mojito",
             description:
               "White rum with kiwifruit, elderflower liqueur, mint, and lime",
-            price: 17,
+            price: 16,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -554,7 +554,7 @@ export const aucklanddepotEateryOysterBarMenu: ResturantMenu[] = [
             name: "Lemon & Thyme Collins",
             description:
               "Reid+Reid gin with lemon juice, thyme syrup, and soda water",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },

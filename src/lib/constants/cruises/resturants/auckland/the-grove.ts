@@ -160,13 +160,13 @@ export const aucklandtheGroveMenu: ResturantMenu[] = [
           {
             name: "Black Truffle Mac & Cheese",
             description: "Gruyère, comté, and black truffle",
-            price: 18,
+            price: 17,
             isVegetarian: true,
           },
           {
             name: "Roasted Brussels Sprouts",
             description: "With pancetta, chestnuts, and balsamic glaze",
-            price: 16,
+            price: 15,
             isVegetarian: true,
           },
         ],
@@ -201,7 +201,7 @@ export const aucklandtheGroveMenu: ResturantMenu[] = [
             name: "Lemon Tart",
             description:
               "Zesty lemon curd tart with meringue and raspberry coulis",
-            price: 18,
+            price: 17,
             isVegetarian: true,
           },
           {
@@ -220,7 +220,7 @@ export const aucklandtheGroveMenu: ResturantMenu[] = [
             name: "Artisanal Ice Cream Selection",
             description:
               "Three scoops of house-made ice cream with tuile biscuit",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -235,7 +235,7 @@ export const aucklandtheGroveMenu: ResturantMenu[] = [
           {
             name: "Chocolate and Sea Salt Ice Cream",
             description: "Rich chocolate ice cream with sea salt flakes",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -248,7 +248,7 @@ export const aucklandtheGroveMenu: ResturantMenu[] = [
             name: "Vanilla Bean Crème Brûlée",
             description:
               "Classic custard with caramelized sugar crust and seasonal berries",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -256,7 +256,7 @@ export const aucklandtheGroveMenu: ResturantMenu[] = [
             name: "Lemon Posset",
             description:
               "Silky lemon cream with blueberry compote and shortbread",
-            price: 16,
+            price: 15,
             isVegetarian: true,
           },
           {
@@ -311,7 +311,7 @@ export const aucklandtheGroveMenu: ResturantMenu[] = [
             name: "Kumeu River Chardonnay",
             description:
               "Elegant Auckland Chardonnay with notes of citrus and oak",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -327,7 +327,7 @@ export const aucklandtheGroveMenu: ResturantMenu[] = [
             name: "Cloudy Bay Sauvignon Blanc",
             description:
               "Classic Marlborough Sauvignon with vibrant acidity and tropical notes",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -391,7 +391,7 @@ export const aucklandtheGroveMenu: ResturantMenu[] = [
           {
             name: "Scapegrace Gold Gin",
             description: "Premium New Zealand gin with botanical complexity",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -420,7 +420,7 @@ export const aucklandtheGroveMenu: ResturantMenu[] = [
           {
             name: "Stolen Rum",
             description: "Aged rum with tropical fruit and caramel notes",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -471,7 +471,7 @@ export const aucklandtheGroveMenu: ResturantMenu[] = [
           {
             name: "Auckland Mule",
             description: "Broken Shed vodka, ginger beer, lime, and fresh mint",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -507,7 +507,7 @@ export const aucklandtheGroveMenu: ResturantMenu[] = [
             name: "Spiced Apple Cider",
             description:
               "Warm spiced apple cider with cinnamon, cloves, and a splash of rum",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },

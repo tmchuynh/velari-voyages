@@ -131,7 +131,7 @@ export const capeTownmzansiRestaurantMenu: ResturantMenu[] = [
             name: "Vegetable Potjiekos",
             description:
               "Slow-cooked vegetable stew in a traditional three-legged pot",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,

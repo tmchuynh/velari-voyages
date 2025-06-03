@@ -14,7 +14,7 @@ export const buenosAireslaCabreraMenu: ResturantMenu[] = [
             name: "Provoleta Clásica",
             description:
               "Traditional grilled provolone cheese with oregano and peppers",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -32,7 +32,7 @@ export const buenosAireslaCabreraMenu: ResturantMenu[] = [
           {
             name: "Mollejas a la Parrilla",
             description: "Grilled sweetbreads with lemon and salt",
-            price: 18,
+            price: 17,
             isGlutenFree: true,
           },
         ],
@@ -50,7 +50,7 @@ export const buenosAireslaCabreraMenu: ResturantMenu[] = [
             name: "Carbonada Criolla",
             description:
               "Traditional beef and vegetable soup with dried fruits",
-            price: 16,
+            price: 15,
             isGlutenFree: true,
           },
         ],
@@ -172,7 +172,7 @@ export const buenosAireslaCabreraMenu: ResturantMenu[] = [
             name: "Rogel",
             description:
               "Layered crisp pastry with dulce de leche and Italian meringue",
-            price: 16,
+            price: 15,
             isVegetarian: true,
           },
         ],
@@ -222,7 +222,7 @@ export const buenosAireslaCabreraMenu: ResturantMenu[] = [
           {
             name: "Volcán de Chocolate",
             description: "Warm chocolate lava cake with vanilla ice cream",
-            price: 16,
+            price: 15,
             isVegetarian: true,
           },
           {
@@ -250,7 +250,7 @@ export const buenosAireslaCabreraMenu: ResturantMenu[] = [
             name: "Malbec Reserva, Mendoza",
             description:
               "Full-bodied with plum and blackberry notes, hints of vanilla",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -359,13 +359,13 @@ export const buenosAireslaCabreraMenu: ResturantMenu[] = [
           {
             name: "Maracuyá Fizz",
             description: "Pisco, passion fruit, lime, and egg white with soda",
-            price: 16,
+            price: 15,
             isGlutenFree: true,
           },
           {
             name: "Yerba Mate Julep",
             description: "Bourbon infused with yerba mate, mint, and sugar",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },

@@ -44,7 +44,7 @@ export const capeTownlaColombeMenu: ResturantMenu[] = [
             name: "Roasted Butternut Velouté",
             description:
               "Silky butternut soup with coconut, lemongrass, and toasted pumpkin seeds",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -78,7 +78,7 @@ export const capeTownlaColombeMenu: ResturantMenu[] = [
             name: "Cape Greens",
             description:
               "Local baby leaves with candied walnuts, goat cheese, and citrus dressing",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -86,7 +86,7 @@ export const capeTownlaColombeMenu: ResturantMenu[] = [
             name: "Roasted Beet Salad",
             description:
               "Red and golden beets with whipped feta, honey, and dukkah spice",
-            price: 19,
+            price: 18,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -152,7 +152,7 @@ export const capeTownlaColombeMenu: ResturantMenu[] = [
           {
             name: "Wild Mushrooms",
             description: "Sautéed seasonal mushrooms with garlic and thyme",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
@@ -183,7 +183,7 @@ export const capeTownlaColombeMenu: ResturantMenu[] = [
             name: "Chocolate Délice",
             description:
               "Valrhona chocolate mousse with hazelnut praline and salted caramel",
-            price: 18,
+            price: 17,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -191,14 +191,14 @@ export const capeTownlaColombeMenu: ResturantMenu[] = [
             name: "Lemon Meringue Tart",
             description:
               "Reimagined classic with Cape lemon curd and Italian meringue",
-            price: 16,
+            price: 15,
             isVegetarian: true,
           },
           {
             name: "Opera Cake",
             description:
               "Coffee and chocolate layered cake with gold leaf and espresso ice cream",
-            price: 18,
+            price: 17,
             isVegetarian: true,
           },
         ],
@@ -238,7 +238,7 @@ export const capeTownlaColombeMenu: ResturantMenu[] = [
             name: "Crème Brûlée",
             description:
               "Classic vanilla custard with caramelized sugar and fresh berries",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },
@@ -246,14 +246,14 @@ export const capeTownlaColombeMenu: ResturantMenu[] = [
             name: "Milk Tart Soufflé",
             description:
               "South African milk tart reimagined as a light soufflé",
-            price: 18,
+            price: 17,
             isVegetarian: true,
           },
           {
             name: "Malva Pudding",
             description:
               "Traditional South African dessert with crème anglaise and vanilla ice cream",
-            price: 16,
+            price: 15,
             isVegetarian: true,
           },
         ],
@@ -307,7 +307,7 @@ export const capeTownlaColombeMenu: ResturantMenu[] = [
           {
             name: "Stellenbosch Cabernet Sauvignon",
             description: "Full-bodied red with blackcurrant and cedar notes",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -315,7 +315,7 @@ export const capeTownlaColombeMenu: ResturantMenu[] = [
             name: "Franschhoek Méthode Cap Classique",
             description:
               "Traditional method sparkling wine with brioche and citrus notes",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -365,7 +365,7 @@ export const capeTownlaColombeMenu: ResturantMenu[] = [
             name: "KWV 15 Year Brandy",
             description:
               "Premium South African brandy with notes of dried fruit and spice",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -379,7 +379,7 @@ export const capeTownlaColombeMenu: ResturantMenu[] = [
           {
             name: "Bain's Cape Mountain Whisky",
             description: "Award-winning single grain whisky from South Africa",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -398,21 +398,21 @@ export const capeTownlaColombeMenu: ResturantMenu[] = [
           {
             name: "Table Mountain Sunset",
             description: "Inverroche gin, rooibos syrup, lemon, and egg white",
-            price: 18,
+            price: 17,
             isGlutenFree: true,
           },
           {
             name: "Cape Botanist",
             description:
               "South African gin with fynbos tonic, rosemary, and cucumber",
-            price: 16,
+            price: 15,
             isVegan: true,
             isGlutenFree: true,
           },
           {
             name: "African Negroni",
             description: "Classic negroni with local gin and Cape herbs",
-            price: 17,
+            price: 16,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -420,7 +420,7 @@ export const capeTownlaColombeMenu: ResturantMenu[] = [
             name: "Franschhoek French 75",
             description:
               "South African gin, fresh lemon, sugar, and Cap Classique",
-            price: 19,
+            price: 18,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -433,7 +433,7 @@ export const capeTownlaColombeMenu: ResturantMenu[] = [
             name: "La Colombe Espresso Martini",
             description:
               "House blend espresso with premium vodka and coffee liqueur",
-            price: 18,
+            price: 17,
             isVegan: true,
             isGlutenFree: true,
           },
@@ -457,7 +457,7 @@ export const capeTownlaColombeMenu: ResturantMenu[] = [
             name: "Amarula Affogato",
             description:
               "Vanilla ice cream with espresso and Amarula cream liqueur",
-            price: 16,
+            price: 15,
             isVegetarian: true,
             isGlutenFree: true,
           },
