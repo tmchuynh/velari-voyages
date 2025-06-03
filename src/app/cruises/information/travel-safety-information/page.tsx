@@ -102,8 +102,6 @@ export default function TravelSafetyInformation() {
             </p>
           </div>
         </div>
-        <ContactDepartmentCard department="General Inquiries" />{" "}
-        <ContactDepartmentCard department="Reservations & Booking" />
       </section>
 
       {/* In Transit Section */}
@@ -174,6 +172,8 @@ export default function TravelSafetyInformation() {
             </ul>
           </div>
 
+          <ContactDepartmentCard department="Lost & Delayed Baggage" />
+
           <div>
             <h3>Port Awareness</h3>
             <p className="mb-2">When visiting ports of call:</p>
@@ -199,7 +199,10 @@ export default function TravelSafetyInformation() {
           </div>
         </div>
 
-        <ContactDepartmentCard department="Concierge Services" />
+        <ContactDepartmentCard department="Onboard Guest Services" />
+        <ContactDepartmentCard department="Dining & Culinary Services" />
+        <ContactDepartmentCard department="Wellness & Spa Services" />
+        <ContactDepartmentCard department="Entertainment & Activities" />
       </section>
 
       {/* Technology & Digital Security Section */}
