@@ -160,7 +160,7 @@ export default function CancellationAndRefundPolicy() {
           </li>
         </ul>
 
-        <ContactDepartmentCard department="Reservations & Booking" />
+        <ContactDepartmentCard department="Ports & Itinerary Planning" />
       </section>
 
       {/* Force Majeure Section */}
@@ -223,7 +223,7 @@ export default function CancellationAndRefundPolicy() {
           contact your dedicated cruise consultant or reach out via:
         </p>
 
-        <ContactDepartmentCard department="Insurance, Claims & Post-Voyage Support" />
+        <ContactDepartmentCard department="General Inquiries" />
       </section>
 
       {/* Commitment Section */}
