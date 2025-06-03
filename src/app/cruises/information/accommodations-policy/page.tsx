@@ -67,7 +67,7 @@ export default function Accommodations() {
           </p>
         </div>
 
-        <ContactDepartmentCard department="Reservations & Booking" />
+        <ContactDepartmentCard department="Ports & Itinerary Planning" />
       </section>
 
       {/* 2. Check-In & Check-Out Policy */}
@@ -141,7 +141,7 @@ export default function Accommodations() {
           </ul>
         </div>
 
-        <ContactDepartmentCard department="Accessibility & Special Accommodations" />
+        <ContactDepartmentCard department="Accessibility & Special Needs Travel" />
 
         <div className="mb-6">
           <h3>Barrier-Free Travel</h3>
@@ -358,7 +358,7 @@ export default function Accommodations() {
           </p>
         </div>
 
-        <ContactDepartmentCard department="Onboard Medical Services" />
+        <ContactDepartmentCard department="Emergency Cruise Support" />
       </section>
     </div>
   );
