@@ -5,36 +5,68 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const bostonharborRestaurantTestimonials: Testimonial[] = [
   {
-    "quote": "Harbor Restaurant has the most fantastic specialties I've ever tasted. The warm atmosphere made our evening special, and the service was knowledgeable.",
-    "author": "Olivia Davis",
-    "title": "Cooking Aficionado"
+    "quote": "Our visit to Harbor Restaurant was outstanding. The entrees were amazing, the staff excellent, and the atmosphere elegant. A must-visit!",
+    "author": "Sophia Moore",
+    "title": "Food Critic"
   },
   {
-    "quote": "What a outstanding dining experience at Harbor Restaurant! The entrees exceeded our expectations, and the staff was prompt. Will definitely return!",
-    "author": "Emma Brown",
-    "title": "Food & Wine Connoisseur",
-    "image": "/images/testimonials/person-9.jpg"
-  },
-  {
-    "quote": "Our visit to Harbor Restaurant was outstanding. The specialties were delicious, the staff professional, and the atmosphere delightful. A must-visit!",
-    "author": "Sarah Hernandez",
-    "title": "Travel Writer",
-    "image": "/images/testimonials/person-3.jpg"
-  },
-  {
-    "quote": "Our visit to Harbor Restaurant was outstanding. The dishes were fantastic, the staff excellent, and the atmosphere stylish. A must-visit!",
-    "author": "Emily Wilson",
+    "quote": "Harbor Restaurant has the most great desserts I've ever tasted. The relaxing atmosphere made our evening special, and the service was attentive.",
+    "author": "Emma Martinez",
     "title": "Restaurant Enthusiast"
   },
   {
-    "quote": "Harbor Restaurant has the most wonderful meal I've ever tasted. The elegant atmosphere made our evening special, and the service was helpful.",
-    "author": "Jennifer Rodriguez",
-    "title": "Culinary Adventurer",
-    "image": "/images/testimonials/person-5.jpg"
+    "quote": "The flavors at Harbor Restaurant were absolutely delectable! The service was friendly and the atmosphere was delightful. Highly recommend!",
+    "author": "David Martin",
+    "title": "Restaurant Enthusiast"
   },
   {
-    "quote": "Harbor Restaurant has the most delightful desserts I've ever tasted. The cozy atmosphere made our evening special, and the service was helpful.",
-    "author": "Robert Thompson",
-    "title": "Gourmet Explorer"
+    "quote": "I can't say enough about the great menu items at Harbor Restaurant. The attentive service and inviting ambiance made for a perfect night out.",
+    "author": "John Davis",
+    "title": "Travel Writer"
+  },
+  {
+    "quote": "What a incredible dining experience at Harbor Restaurant! The food exceeded our expectations, and the staff was fantastic. Will definitely return!",
+    "author": "Maria Jones",
+    "title": "Culinary Expert",
+    "image": "/images/testimonials/person-12.jpg"
+  },
+  {
+    "quote": "What a superb dining experience at Harbor Restaurant! The cuisine exceeded our expectations, and the staff was fantastic. Will definitely return!",
+    "author": "Jennifer Martin",
+    "title": "Lifestyle Influencer"
+  },
+  {
+    "quote": "I can't say enough about the delightful cuisine at Harbor Restaurant. The courteous service and inviting ambiance made for a perfect night out.",
+    "author": "David Anderson",
+    "title": "Lifestyle Influencer",
+    "image": "/images/testimonials/person-6.jpg"
+  },
+  {
+    "quote": "Our visit to Harbor Restaurant was outstanding. The specialties were wonderful, the staff superb, and the atmosphere relaxing. A must-visit!",
+    "author": "Robert Davis",
+    "title": "Travel Blogger",
+    "image": "/images/testimonials/person-7.jpg"
+  },
+  {
+    "quote": "I can't say enough about the delectable meal at Harbor Restaurant. The helpful service and charming ambiance made for a perfect night out.",
+    "author": "Lisa Perez",
+    "title": "Lifestyle Influencer",
+    "image": "/images/testimonials/person-6.jpg"
+  },
+  {
+    "quote": "I can't say enough about the delectable food at Harbor Restaurant. The helpful service and warm ambiance made for a perfect night out.",
+    "author": "Maria Moore",
+    "title": "Food Critic"
+  },
+  {
+    "quote": "I can't say enough about the incredible entrees at Harbor Restaurant. The outstanding service and sophisticated ambiance made for a perfect night out.",
+    "author": "Elizabeth Thompson",
+    "title": "Restaurant Enthusiast",
+    "image": "/images/testimonials/person-8.jpg"
+  },
+  {
+    "quote": "What a exceptional dining experience at Harbor Restaurant! The cuisine exceeded our expectations, and the staff was courteous. Will definitely return!",
+    "author": "Christopher Miller",
+    "title": "Food Critic"
   }
 ];
