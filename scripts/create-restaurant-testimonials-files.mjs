@@ -41,13 +41,24 @@ function extractRestaurantNames(filePath) {
   try {
     const content = fs.readFileSync(filePath, "utf8");
 
-    // Looking for objects with name property in the array
-    const matches = content.match(/name:\s*["']([^"']+)["']/g) || [];
+    // Simpler pattern to match name properties in JSON
+    const namePattern = /name["']?\s*:\s*["']([^"']+)["']/g;
+    const matches = [];
+    let match;
 
-    return matches.map((match) => {
-      // Extract just the name between quotes
-      return match.match(/["']([^"']+)["']/)[1];
-    });
+    while ((match = namePattern.exec(content)) !== null) {
+      matches.push(match[1]);
+    }
+
+    if (matches.length === 0) {
+      console.warn(`No restaurant names found in ${filePath}`);
+      // Add debug output to see file content
+      console.log(`File content sample: ${content.substring(0, 200)}...`);
+    } else {
+      console.log(`Found ${matches.length} restaurants in ${filePath}`);
+    }
+
+    return matches;
   } catch (error) {
     console.error(`Error reading file ${filePath}:`, error);
     return [];
