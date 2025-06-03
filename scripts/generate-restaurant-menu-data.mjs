@@ -815,6 +815,101 @@ const generateItemDescription = (name, category, itemBase) => {
 
 // Generate a full menu with multiple categories
 const generateMenu = () => {
+  const menus = ["Main Menu", "Dessert Menu", "Alcohol Menu"];
+
+  let description;
+
+  switch (menus) {
+    case "Main Menu":
+      description = `${getRandomElement([
+        `Our chef’s special ${itemBase.toLowerCase()} is a masterclass in ${getRandomElement(
+          cookingTerms
+        )}, crafted with premium ${getRandomElement(
+          ingredients
+        )} and presented with ${getRandomElement(servingStyles)} elegance.`,
+        `This standout entrée embodies the essence of culinary artistry, blending ${getRandomElement(
+          ingredients
+        )} with ${getRandomElement(flavorProfiles)} elements.`,
+        `A hallmark of our kitchen, this chef-curated ${itemBase.toLowerCase()} delivers balanced ${getRandomElement(
+          flavorProfiles
+        )} flavors and refined technique.`,
+        `Expertly ${getRandomElement(
+          cookingTerms
+        )}, this main course highlights seasonal ${getRandomElement(
+          ingredients
+        )} and ${getRandomElement(servingStyles)} sophistication.`,
+        `Savor this signature dish — a perfect marriage of ${getRandomElement(
+          ingredients
+        )} and ${getRandomElement(flavorProfiles)} refinement.`,
+        `Elevate your meal with this main course, where innovative preparation meets bold ${getRandomElement(
+          flavorProfiles
+        )} character.`,
+        `Crafted with precision, this chef’s selection unites ${getRandomElement(
+          ingredients
+        )} and exceptional ${getRandomElement(cookingTerms)} technique.`,
+      ])}`;
+      break;
+
+    case "Dessert Menu":
+      description = `${getRandomElement([
+        `A decadent finale — this ${itemBase.toLowerCase()} combines ${getRandomElement(
+          ingredients
+        )} and ${getRandomElement(flavorProfiles)} sweetness.`,
+        `This dessert is ${getRandomElement(
+          cookingTerms
+        )} to perfection, offering a luxurious blend of ${getRandomElement(
+          ingredients
+        )} and artistic ${getRandomElement(servingStyles)}.`,
+        `Satisfy your sweet cravings with this chef's special — ${getRandomElement(
+          ingredients
+        )} paired with irresistible ${getRandomElement(flavorProfiles)} tones.`,
+        `An indulgent creation, this ${itemBase.toLowerCase()} delivers a sophisticated take on classic flavors.`,
+        `Finished with ${getRandomElement(
+          servingStyles
+        )}, this dessert highlights the interplay between ${getRandomElement(
+          flavorProfiles
+        )} notes and fine textures.`,
+        `A chef-conceived treat where premium ${getRandomElement(
+          ingredients
+        )} meet elegant ${getRandomElement(cookingTerms)} technique.`,
+        `This signature sweet balances richness and finesse — an ideal ending to your meal.`,
+      ])}`;
+      break;
+
+    case "Alcohol Menu":
+      description = `${getRandomElement([
+        `A refined pour, this ${itemBase.toLowerCase()} showcases ${getRandomElement(
+          ingredients
+        )} with a ${getRandomElement(flavorProfiles)} profile.`,
+        `Crafted with precision and balance, this cocktail highlights ${getRandomElement(
+          ingredients
+        )} and ${getRandomElement(servingStyles)} flair.`,
+        `This signature beverage blends artisanal spirits and ${getRandomElement(
+          cookingTerms
+        )} garnishes for a layered flavor experience.`,
+        `Sip sophistication — this drink combines ${getRandomElement(
+          ingredients
+        )} and ${getRandomElement(
+          flavorProfiles
+        )} accents for a memorable experience.`,
+        `Our bartender’s special — a creative expression of mixology featuring ${getRandomElement(
+          ingredients
+        )} and expertly curated notes.`,
+        `Presented with ${getRandomElement(
+          servingStyles
+        )}, this drink balances strength and nuance in every sip.`,
+        `A house favorite that exemplifies the harmony of bold ${getRandomElement(
+          flavorProfiles
+        )} elements and timeless ingredients.`,
+      ])}`;
+      break;
+
+    default:
+      description = "Menu not found";
+      break;
+  }
+  
+
   const categories = [
     "Appetizers",
     "Soups",
@@ -824,13 +919,19 @@ const generateMenu = () => {
     "Non-Alcoholic Beverages",
   ];
 
-  return categories.map((categoryName) => {
-    return {
-      title: categoryName,
-      items: Array.from({ length: getRandomNumber(4, 8) }, () =>
-        generateFoodItem(categoryName)
-      ),
-    };
+  return menus.map((menuTitle) => {
+    return categories.map((categoryName) => {
+      return {
+        title: menuTitle,
+        description: description,
+        category: {
+          name: categoryName,
+          items: Array.from({ length: getRandomNumber(4, 8) }, () =>
+            generateFoodItem(categoryName)
+          ),
+        },
+      };
+    });
   });
 };
 
