@@ -186,26 +186,26 @@ export async function getRestaurantsForCruise(
       .replace("'", "")
       .replace("-", "");
 
-  const resturantID = `${cityFormatted}Resturants`;
+  const restaurantID = `${cityFormatted}Restaurants`;
   try {
-    const resturantModule = await import(
-      `@/lib/constants/cruises/resturants/${formatToSlug(
+    const restaurantModule = await import(
+      `@/lib/constants/cruises/restaurants/${formatToSlug(
         cityWithoutAccents.replace("'", "-")
-      )}/resturants}
+      )}/restaurants}
       )}`
     );
-    // Return the specific named export that matches resturantID
-    if (resturantModule[resturantID]) {
-      return resturantModule[resturantID] as Resturant[];
+    // Return the specific named export that matches restaurantID
+    if (restaurantModule[restaurantID]) {
+      return restaurantModule[restaurantID] as Restaurant[];
     } else {
       console.error(
-        `Export named export const ${resturantID}: Resturant[] =[]; not found in module`
+        `Export named export const ${restaurantID}: Restaurant[] =[]; not found in module`
       );
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading resource from @/lib/constants/resturants: ${error} export const ${resturantID}: Resturant[] = [];`
+      `Error loading resource from @/lib/constants/restaurants: ${error} export const ${restaurantID}: Restaurant[] = [];`
     );
     return [];
   }
