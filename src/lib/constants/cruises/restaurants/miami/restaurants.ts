@@ -2,61 +2,61 @@ import { Restaurant } from "@/lib/types/types";
 
 export const miamiRestaurants: Restaurant[] = [
   {
-    "name": "Golden Dining Room",
-    "description": "A charming Peruvian restaurant near Wynwood Walls, offering Cuban sandwiches and other local favorites in a setting with neon lighting.",
-    "cuisine": "Peruvian",
+    "name": "Golden Brasserie",
+    "description": "Located close to South Beach, this Cuban restaurant delights with its stone crabs and neon lighting.",
+    "cuisine": "Cuban",
     "priceRange": "$$",
-    "rating": 4.2,
+    "rating": 4.1,
     "openingHours": {
-      "monday": "10:00-22:00",
-      "tuesday": "Closed",
+      "monday": "9:00-22:00",
+      "tuesday": "10:00-20:00",
       "wednesday": "9:00-20:00",
-      "thursday": "9:00-21:00",
-      "friday": "11:00-19:00",
+      "thursday": "10:00-21:00",
+      "friday": "9:00-22:00",
       "saturday": "9:00-21:00",
-      "sunday": "10:00-19:00"
+      "sunday": "Closed"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-561-7546",
-      "contactEmail": "info@peruvianmiami.com"
+      "contactNumber": "+1-555-511-2690",
+      "contactEmail": "info@cubanmiami.com"
     },
     "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
-    "isKosherFriendly": false,
+    "isKosherFriendly": true,
     "isFineDining": true,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
+    "isRomantic": true,
+    "isPopular": true
   },
   {
-    "name": "The Tavern",
-    "description": "This popular Cuban establishment combines traditional recipes and ceviche, all served in a unique setting with tropical outdoor spaces.",
-    "cuisine": "Cuban",
-    "priceRange": "$$$",
+    "name": "Blue Table",
+    "description": "Experience authentic American cuisine with a local twist, featuring mojitos served in an atmosphere of oceanfront dining overlooking Wynwood Walls.",
+    "cuisine": "American",
+    "priceRange": "$$$$",
     "rating": 4.6,
     "openingHours": {
-      "monday": "9:00-20:00",
-      "tuesday": "9:00-21:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "10:00-19:00",
-      "friday": "9:00-19:00",
-      "saturday": "Closed",
-      "sunday": "11:00-19:00"
+      "monday": "9:00-21:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "10:00-20:00",
+      "friday": "11:00-22:00",
+      "saturday": "9:00-20:00",
+      "sunday": "11:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-841-5731",
-      "contactEmail": "info@cubanmiami.com"
+      "contactNumber": "+1-555-890-6860",
+      "contactEmail": "info@americanmiami.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
     "isKosherFriendly": true,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": false,
@@ -64,88 +64,26 @@ export const miamiRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Grand Garden",
-    "description": "A charming Peruvian restaurant near Wynwood Walls, offering key lime pie and other local favorites in a setting with Latin influence.",
-    "cuisine": "Peruvian",
+    "name": "Royal Kitchen",
+    "description": "This popular Caribbean establishment combines traditional recipes and ceviche, all served in a unique setting with neon lighting.",
+    "cuisine": "Caribbean",
     "priceRange": "$",
-    "rating": 4.4,
+    "rating": 4,
     "openingHours": {
-      "monday": "10:00-20:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "9:00-19:00",
-      "thursday": "10:00-21:00",
-      "friday": "10:00-19:00",
-      "saturday": "11:00-20:00",
-      "sunday": "10:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-614-8223",
-      "contactEmail": "info@peruvianmiami.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Royal Dining Room",
-    "description": "A culinary gem serving American specialties including stone crabs, where guests enjoy neon lighting in the heart of the city.",
-    "cuisine": "American",
-    "priceRange": "$$$$",
-    "rating": 4.3,
-    "openingHours": {
-      "monday": "10:00-19:00",
-      "tuesday": "11:00-21:00",
-      "wednesday": "Closed",
+      "monday": "Closed",
+      "tuesday": "11:00-22:00",
+      "wednesday": "10:00-20:00",
       "thursday": "11:00-22:00",
-      "friday": "10:00-19:00",
-      "saturday": "11:00-19:00",
-      "sunday": "10:00-20:00"
+      "friday": "11:00-19:00",
+      "saturday": "11:00-20:00",
+      "sunday": "Closed"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-106-5965",
-      "contactEmail": "info@americanmiami.com"
+      "contactNumber": "+1-555-967-7248",
+      "contactEmail": "info@caribbeanmiami.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Blue Table",
-    "description": "A culinary gem serving American specialties including stone crabs, where guests enjoy oceanfront dining in the heart of the city.",
-    "cuisine": "American",
-    "priceRange": "$",
-    "rating": 4.7,
-    "openingHours": {
-      "monday": "10:00-20:00",
-      "tuesday": "11:00-19:00",
-      "wednesday": "10:00-22:00",
-      "thursday": "11:00-20:00",
-      "friday": "11:00-22:00",
-      "saturday": "9:00-20:00",
-      "sunday": "11:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-752-4337",
-      "contactEmail": "info@americanmiami.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
@@ -154,57 +92,57 @@ export const miamiRestaurants: Restaurant[] = [
     "isIndoorSeating": false,
     "isReservationsAccepted": true,
     "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Grand House",
-    "description": "This popular Italian establishment combines traditional recipes and stone crabs, all served in a unique setting with oceanfront dining.",
-    "cuisine": "Italian",
-    "priceRange": "$$",
-    "rating": 4,
-    "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "9:00-22:00",
-      "wednesday": "9:00-22:00",
-      "thursday": "Closed",
-      "friday": "9:00-20:00",
-      "saturday": "11:00-19:00",
-      "sunday": "11:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-860-3691",
-      "contactEmail": "info@italianmiami.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
     "isPopular": false
   },
   {
-    "name": "Blue Eatery",
-    "description": "Experience authentic Cuban cuisine with a local twist, featuring stone crabs served in an atmosphere of oceanfront dining overlooking Biscayne Bay.",
-    "cuisine": "Cuban",
+    "name": "The House",
+    "description": "A culinary gem serving Peruvian specialties including stone crabs, where guests enjoy Latin influence in the heart of the city.",
+    "cuisine": "Peruvian",
     "priceRange": "$$",
-    "rating": 4.4,
+    "rating": 4,
     "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "11:00-22:00",
-      "wednesday": "9:00-19:00",
-      "thursday": "11:00-21:00",
-      "friday": "11:00-20:00",
-      "saturday": "9:00-21:00",
-      "sunday": "10:00-21:00"
+      "monday": "10:00-20:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "10:00-19:00",
+      "friday": "10:00-19:00",
+      "saturday": "11:00-20:00",
+      "sunday": "10:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-146-1168",
-      "contactEmail": "info@cubanmiami.com"
+      "contactNumber": "+1-555-488-3411",
+      "contactEmail": "info@peruvianmiami.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Royal Garden",
+    "description": "A culinary gem serving Italian specialties including mojitos, where guests enjoy neon lighting in the heart of the city.",
+    "cuisine": "Italian",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "11:00-20:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "10:00-22:00",
+      "friday": "10:00-19:00",
+      "saturday": "11:00-22:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-993-3894",
+      "contactEmail": "info@italianmiami.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": false,
@@ -214,39 +152,70 @@ export const miamiRestaurants: Restaurant[] = [
     "isFineDining": true,
     "isAdultOnly": false,
     "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Golden Restaurant",
+    "description": "A culinary gem serving Cuban specialties including key lime pie, where guests enjoy tropical outdoor spaces in the heart of the city.",
+    "cuisine": "Cuban",
+    "priceRange": "$$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-19:00",
+      "friday": "9:00-22:00",
+      "saturday": "11:00-21:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-559-1635",
+      "contactEmail": "info@cubanmiami.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": true,
+    "isRomantic": false,
     "isPopular": true
   },
   {
-    "name": "Grand Dining Room",
-    "description": "A charming Peruvian restaurant near Biscayne Bay, offering stone crabs and other local favorites in a setting with neon lighting.",
-    "cuisine": "Peruvian",
-    "priceRange": "$$$$",
-    "rating": 4,
+    "name": "Golden Brasserie",
+    "description": "A culinary gem serving Cuban specialties including key lime pie, where guests enjoy Latin influence in the heart of the city.",
+    "cuisine": "Cuban",
+    "priceRange": "$$",
+    "rating": 4.6,
     "openingHours": {
-      "monday": "10:00-21:00",
-      "tuesday": "10:00-22:00",
-      "wednesday": "9:00-22:00",
-      "thursday": "10:00-22:00",
-      "friday": "11:00-20:00",
-      "saturday": "11:00-22:00",
-      "sunday": "11:00-19:00"
+      "monday": "9:00-22:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "Closed",
+      "friday": "9:00-22:00",
+      "saturday": "9:00-21:00",
+      "sunday": "Closed"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-570-5443",
-      "contactEmail": "info@peruvianmiami.com"
+      "contactNumber": "+1-555-657-8272",
+      "contactEmail": "info@cubanmiami.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
-    "isKosherFriendly": false,
+    "isKosherFriendly": true,
     "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
-    "isReservationsAccepted": false,
+    "isReservationsAccepted": true,
     "isRomantic": false,
-    "isPopular": false
+    "isPopular": true
   }
 ];

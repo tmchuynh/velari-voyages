@@ -2,61 +2,30 @@ import { Restaurant } from "@/lib/types/types";
 
 export const charlestonRestaurants: Restaurant[] = [
   {
-    "name": "Charleston Dining Room",
-    "description": "This popular Southern establishment combines traditional recipes and she-crab soup, all served in a unique setting with courtyard dining.",
-    "cuisine": "Southern",
-    "priceRange": "$$$",
-    "rating": 4.7,
+    "name": "Magnolia Kitchen",
+    "description": "This popular Cajun establishment combines traditional recipes and oysters, all served in a unique setting with antebellum architecture.",
+    "cuisine": "Cajun",
+    "priceRange": "$$",
+    "rating": 4.5,
     "openingHours": {
-      "monday": "10:00-22:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "Closed",
+      "monday": "10:00-20:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "11:00-22:00",
       "thursday": "9:00-20:00",
-      "friday": "9:00-19:00",
-      "saturday": "Closed",
-      "sunday": "10:00-21:00"
+      "friday": "10:00-22:00",
+      "saturday": "10:00-19:00",
+      "sunday": "10:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-895-7605",
-      "contactEmail": "info@southerncharleston.com"
+      "contactNumber": "+1-555-833-4787",
+      "contactEmail": "info@cajuncharleston.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Southern Table",
-    "description": "Located close to The Battery, this Seafood restaurant delights with its biscuits and courtyard dining.",
-    "cuisine": "Seafood",
-    "priceRange": "$$$$",
-    "rating": 4.2,
-    "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "10:00-21:00",
-      "wednesday": "11:00-22:00",
-      "thursday": "Closed",
-      "friday": "9:00-19:00",
-      "saturday": "9:00-19:00",
-      "sunday": "11:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-426-8298",
-      "contactEmail": "info@seafoodcharleston.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": true,
-    "isKosherFriendly": true,
-    "isFineDining": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
@@ -64,27 +33,58 @@ export const charlestonRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Magnolia Terrace",
-    "description": "A culinary gem serving Cajun specialties including oysters, where guests enjoy antebellum architecture in the heart of the city.",
-    "cuisine": "Cajun",
-    "priceRange": "$$",
-    "rating": 4.2,
+    "name": "Palmetto Terrace",
+    "description": "This popular Creole establishment combines traditional recipes and sweet tea, all served in a unique setting with antebellum architecture.",
+    "cuisine": "Creole",
+    "priceRange": "$",
+    "rating": 4.6,
     "openingHours": {
-      "monday": "9:00-21:00",
-      "tuesday": "9:00-20:00",
+      "monday": "Closed",
+      "tuesday": "9:00-21:00",
       "wednesday": "10:00-22:00",
-      "thursday": "10:00-19:00",
-      "friday": "9:00-21:00",
-      "saturday": "10:00-20:00",
-      "sunday": "Closed"
+      "thursday": "11:00-21:00",
+      "friday": "9:00-22:00",
+      "saturday": "11:00-20:00",
+      "sunday": "9:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-229-7708",
-      "contactEmail": "info@cajuncharleston.com"
+      "contactNumber": "+1-555-928-2389",
+      "contactEmail": "info@creolecharleston.com"
     },
     "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Charleston Table",
+    "description": "A charming Southern restaurant near Charleston Harbor, offering sweet tea and other local favorites in a setting with plantation charm.",
+    "cuisine": "Southern",
+    "priceRange": "$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "11:00-20:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "9:00-19:00",
+      "friday": "10:00-22:00",
+      "saturday": "9:00-20:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-781-2893",
+      "contactEmail": "info@southerncharleston.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": false,
@@ -95,96 +95,65 @@ export const charlestonRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Charleston Grill",
-    "description": "Located close to Rainbow Row, this American restaurant delights with its oysters and courtyard dining.",
-    "cuisine": "American",
+    "name": "Palmetto Kitchen",
+    "description": "Located close to The Battery, this Cajun restaurant delights with its sweet tea and Southern hospitality.",
+    "cuisine": "Cajun",
     "priceRange": "$$",
-    "rating": 4.4,
+    "rating": 4.6,
     "openingHours": {
       "monday": "9:00-21:00",
-      "tuesday": "10:00-19:00",
-      "wednesday": "9:00-20:00",
-      "thursday": "10:00-20:00",
-      "friday": "9:00-19:00",
-      "saturday": "9:00-20:00",
-      "sunday": "10:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-280-6104",
-      "contactEmail": "info@americancharleston.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": true,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Coastal Brasserie",
-    "description": "A culinary gem serving Creole specialties including biscuits, where guests enjoy antebellum architecture in the heart of the city.",
-    "cuisine": "Creole",
-    "priceRange": "$",
-    "rating": 4.3,
-    "openingHours": {
-      "monday": "10:00-21:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "9:00-21:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-19:00",
       "thursday": "9:00-20:00",
-      "friday": "10:00-19:00",
+      "friday": "11:00-22:00",
       "saturday": "10:00-22:00",
-      "sunday": "10:00-20:00"
+      "sunday": "11:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-451-9227",
-      "contactEmail": "info@creolecharleston.com"
+      "contactNumber": "+1-555-987-6778",
+      "contactEmail": "info@cajuncharleston.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": true,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
+    "isRomantic": true,
+    "isPopular": false
   },
   {
-    "name": "Palmetto Restaurant",
-    "description": "Located close to French Quarter, this Southern restaurant delights with its sweet tea and antebellum architecture.",
-    "cuisine": "Southern",
+    "name": "Palmetto Table",
+    "description": "A charming Cajun restaurant near Rainbow Row, offering oysters and other local favorites in a setting with Southern hospitality.",
+    "cuisine": "Cajun",
     "priceRange": "$",
     "rating": 4.7,
     "openingHours": {
-      "monday": "10:00-22:00",
-      "tuesday": "11:00-19:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "Closed",
-      "friday": "9:00-21:00",
-      "saturday": "Closed",
-      "sunday": "9:00-20:00"
+      "monday": "10:00-19:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "10:00-19:00",
+      "friday": "11:00-22:00",
+      "saturday": "9:00-19:00",
+      "sunday": "11:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-615-5959",
-      "contactEmail": "info@southerncharleston.com"
+      "contactNumber": "+1-555-816-9885",
+      "contactEmail": "info@cajuncharleston.com"
     },
     "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
     "isKosherFriendly": false,
     "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": false,
+    "isRomantic": true,
     "isPopular": true
   }
 ];

@@ -2,89 +2,58 @@ import { Restaurant } from "@/lib/types/types";
 
 export const galvestonRestaurants: Restaurant[] = [
   {
-    "name": "Blue Eatery",
-    "description": "Located close to The Strand, this Cajun restaurant delights with its fresh-caught fish and Victorian architecture.",
+    "name": "Grand Bistro",
+    "description": "Located close to Historic Pleasure Pier, this Cajun restaurant delights with its gumbo and Victorian architecture.",
     "cuisine": "Cajun",
-    "priceRange": "$$$$",
-    "rating": 4.1,
+    "priceRange": "$$",
+    "rating": 4.4,
     "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "11:00-19:00",
-      "wednesday": "11:00-19:00",
-      "thursday": "10:00-19:00",
-      "friday": "11:00-21:00",
-      "saturday": "9:00-22:00",
-      "sunday": "10:00-20:00"
+      "monday": "10:00-21:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "Closed",
+      "friday": "9:00-20:00",
+      "saturday": "10:00-21:00",
+      "sunday": "9:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-536-4041",
+      "contactNumber": "+1-555-348-1606",
       "contactEmail": "info@cajungalveston.com"
     },
-    "isVegetarianFriendly": false,
+    "isVegetarianFriendly": true,
     "isVeganFriendly": true,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
-    "isPopular": true
+    "isPopular": false
   },
   {
-    "name": "Golden Bistro",
-    "description": "A culinary gem serving Italian specialties including Gulf shrimp, where guests enjoy Gulf views in the heart of the city.",
-    "cuisine": "Italian",
+    "name": "The Cafe",
+    "description": "This popular Mexican establishment combines traditional recipes and fresh-caught fish, all served in a unique setting with beachfront dining.",
+    "cuisine": "Mexican",
     "priceRange": "$$",
-    "rating": 4.6,
+    "rating": 4.1,
     "openingHours": {
-      "monday": "Closed",
-      "tuesday": "Closed",
-      "wednesday": "9:00-20:00",
-      "thursday": "9:00-22:00",
-      "friday": "9:00-22:00",
-      "saturday": "10:00-19:00",
-      "sunday": "9:00-21:00"
+      "monday": "11:00-19:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-19:00",
+      "friday": "10:00-21:00",
+      "saturday": "11:00-21:00",
+      "sunday": "11:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-221-7363",
-      "contactEmail": "info@italiangalveston.com"
+      "contactNumber": "+1-555-445-8157",
+      "contactEmail": "info@mexicangalveston.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": true,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Blue Table",
-    "description": "Experience authentic Italian cuisine with a local twist, featuring gumbo served in an atmosphere of beachfront dining overlooking Moody Gardens.",
-    "cuisine": "Italian",
-    "priceRange": "$",
-    "rating": 4.2,
-    "openingHours": {
-      "monday": "9:00-21:00",
-      "tuesday": "9:00-22:00",
-      "wednesday": "9:00-19:00",
-      "thursday": "10:00-20:00",
-      "friday": "10:00-19:00",
-      "saturday": "11:00-20:00",
-      "sunday": "10:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-200-4493",
-      "contactEmail": "info@italiangalveston.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": false,
@@ -92,161 +61,161 @@ export const galvestonRestaurants: Restaurant[] = [
     "isIndoorSeating": false,
     "isReservationsAccepted": true,
     "isRomantic": false,
-    "isPopular": true
+    "isPopular": false
   },
   {
-    "name": "Grand Eatery",
-    "description": "A culinary gem serving Mexican specialties including oysters, where guests enjoy beachfront dining in the heart of the city.",
+    "name": "Grand Kitchen",
+    "description": "Experience authentic Mexican cuisine with a local twist, featuring gumbo served in an atmosphere of Gulf views overlooking Galveston Seawall.",
     "cuisine": "Mexican",
-    "priceRange": "$$",
-    "rating": 4.6,
+    "priceRange": "$$$$",
+    "rating": 4,
     "openingHours": {
-      "monday": "10:00-22:00",
-      "tuesday": "10:00-19:00",
-      "wednesday": "11:00-21:00",
-      "thursday": "11:00-22:00",
-      "friday": "10:00-19:00",
-      "saturday": "9:00-21:00",
-      "sunday": "Closed"
+      "monday": "Closed",
+      "tuesday": "10:00-21:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-20:00",
+      "friday": "Closed",
+      "saturday": "11:00-19:00",
+      "sunday": "9:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-137-5197",
+      "contactNumber": "+1-555-275-6376",
       "contactEmail": "info@mexicangalveston.com"
     },
     "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Royal House",
+    "description": "This popular Seafood establishment combines traditional recipes and pecan pie, all served in a unique setting with historic charm.",
+    "cuisine": "Seafood",
+    "priceRange": "$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "Closed",
+      "thursday": "10:00-21:00",
+      "friday": "11:00-19:00",
+      "saturday": "11:00-20:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-124-5725",
+      "contactEmail": "info@seafoodgalveston.com"
+    },
+    "isVegetarianFriendly": true,
     "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Grand Eatery",
+    "description": "Located close to Historic Pleasure Pier, this Mexican restaurant delights with its oysters and Victorian architecture.",
+    "cuisine": "Mexican",
+    "priceRange": "$$$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "11:00-21:00",
+      "friday": "9:00-21:00",
+      "saturday": "11:00-21:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-163-2473",
+      "contactEmail": "info@mexicangalveston.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Golden Grill",
+    "description": "Located close to Galveston Seawall, this American restaurant delights with its pecan pie and Gulf views.",
+    "cuisine": "American",
+    "priceRange": "$$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "Closed",
+      "wednesday": "10:00-19:00",
+      "thursday": "11:00-21:00",
+      "friday": "9:00-21:00",
+      "saturday": "11:00-22:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-254-9971",
+      "contactEmail": "info@americangalveston.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": true,
     "isAdultOnly": false,
-    "isIndoorSeating": true,
+    "isIndoorSeating": false,
     "isReservationsAccepted": true,
     "isRomantic": false,
-    "isPopular": true
+    "isPopular": false
   },
   {
-    "name": "Royal Terrace",
-    "description": "A charming Mexican restaurant near Historic Pleasure Pier, offering gumbo and other local favorites in a setting with Victorian architecture.",
+    "name": "Royal Garden",
+    "description": "Located close to Historic Pleasure Pier, this Mexican restaurant delights with its pecan pie and Gulf views.",
     "cuisine": "Mexican",
-    "priceRange": "$$",
-    "rating": 3.9,
-    "openingHours": {
-      "monday": "9:00-20:00",
-      "tuesday": "Closed",
-      "wednesday": "11:00-21:00",
-      "thursday": "9:00-21:00",
-      "friday": "10:00-20:00",
-      "saturday": "Closed",
-      "sunday": "9:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-741-7276",
-      "contactEmail": "info@mexicangalveston.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": true,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Grand Terrace",
-    "description": "This popular Cajun establishment combines traditional recipes and Gulf shrimp, all served in a unique setting with Gulf views.",
-    "cuisine": "Cajun",
     "priceRange": "$$$$",
-    "rating": 4.2,
+    "rating": 4.5,
     "openingHours": {
-      "monday": "11:00-22:00",
-      "tuesday": "10:00-21:00",
-      "wednesday": "9:00-20:00",
+      "monday": "11:00-19:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "11:00-19:00",
       "thursday": "9:00-19:00",
-      "friday": "9:00-20:00",
+      "friday": "10:00-20:00",
       "saturday": "10:00-22:00",
-      "sunday": "11:00-20:00"
+      "sunday": "9:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-969-4994",
-      "contactEmail": "info@cajungalveston.com"
+      "contactNumber": "+1-555-746-8226",
+      "contactEmail": "info@mexicangalveston.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": false,
     "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Golden Eatery",
-    "description": "Located close to The Strand, this Italian restaurant delights with its fresh-caught fish and beachfront dining.",
-    "cuisine": "Italian",
-    "priceRange": "$$$$",
-    "rating": 4.3,
-    "openingHours": {
-      "monday": "10:00-22:00",
-      "tuesday": "10:00-22:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "9:00-22:00",
-      "friday": "9:00-19:00",
-      "saturday": "11:00-21:00",
-      "sunday": "11:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-100-5532",
-      "contactEmail": "info@italiangalveston.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Blue Table",
-    "description": "A culinary gem serving Seafood specialties including gumbo, where guests enjoy Victorian architecture in the heart of the city.",
-    "cuisine": "Seafood",
-    "priceRange": "$$$",
-    "rating": 4.3,
-    "openingHours": {
-      "monday": "Closed",
-      "tuesday": "10:00-20:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "9:00-22:00",
-      "friday": "9:00-21:00",
-      "saturday": "10:00-22:00",
-      "sunday": "Closed"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-386-7791",
-      "contactEmail": "info@seafoodgalveston.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
     "isPopular": true
   }
 ];
