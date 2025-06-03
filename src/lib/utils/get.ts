@@ -122,11 +122,75 @@ export async function getCrewMemberData(city: string): Promise<CrewMember[]> {
   }
 }
 
+export async function getAllCities(): Promise<Location[]> {
+  // List of all city file names (without the .ts extension)
+  const cityFiles = [
+    "auckland",
+    "barcelona",
+    "buenos-aires",
+    "cape-town",
+    "dubai",
+    "fort-lauderdale",
+    "galveston",
+    "hong-kong",
+    "lisbon",
+    "los-angeles",
+    "miami",
+    "new-orleans",
+    "new-york-city",
+    "rome",
+    "seattle",
+    "singapore",
+    "southampton",
+    "sydney",
+    "tokyo",
+    "vancouver",
+  ];
+
+  // Combined array for all cities
+  const allCities: Location[] = [];
+
+  // Loop through each city file and import its location data
+  for (const city of cityFiles) {
+    try {
+      // Dynamic import of the location file
+      const locationModule = await import(
+        `@/lib/constants/locations/${removeAccents(city)}`
+      );
+
+      // Get the location object using the city name + Location naming convention
+      const cityLocation = locationModule[`${city}Location`];
+
+      if (cityLocation && typeof cityLocation === "object") {
+        // Add the city location to the combined array
+        allCities.push(cityLocation);
+      } else {
+        console.warn(
+          `No valid location found for ${city} within @/lib/constants/locations/${city}.ts`
+        );
+      }
+    } catch (error) {
+      console.error(`Error importing location for ${city}:`, error);
+    }
+  }
+
+  return allCities;
+}
+
 /**
- * Gets cruises for a city using the city object from cruiseDepartureLocations
+ * Retrieves a list of cruises based on the provided city information.
  *
- * @param cityInfo - The city object from cruiseDepartureLocations
- * @returns An array of cruises for the city
+ * This function expects a `Location` object that must contain a `city` property.
+ * If the `cityInfo` object or its `city` property is not provided or is invalid,
+ * an error message is logged to the console, and an empty array is returned.
+ * Otherwise, it delegates to the `getCruises` function, passing the city name
+ * to fetch the corresponding cruise data.
+ *
+ * @param cityInfo - An object of type `Location` containing the city for which to find cruises.
+ *                   The `city` property within this object is essential.
+ * @returns A promise that resolves to an array of `Cruise` objects.
+ *          Returns an empty array if `cityInfo` or `cityInfo.city` is invalid,
+ *          or if no cruises are found for the given city.
  */
 export async function getCruisesByLocation(
   cityInfo: Location
@@ -138,8 +202,6 @@ export async function getCruisesByLocation(
 
   return getCruises(cityInfo.city);
 }
-
-
 
 /**
  * Retrieves a list of restaurants for a given cruise based on its departure location.
