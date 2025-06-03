@@ -267,13 +267,423 @@ const generateRandomRestaurants = (cityName) => {
     return Math.random() < probability;
   };
 
+  // City-specific description elements
+  const cityDescriptions = {
+    auckland: {
+      landmarks: [
+        "Auckland Harbour Bridge",
+        "Sky Tower",
+        "Waitemata Harbour",
+        "Rangitoto Island",
+      ],
+      features: [
+        "harbor views",
+        "Pacific-inspired decor",
+        "Kiwi hospitality",
+        "locally-sourced seafood",
+        "Maori cultural influences",
+      ],
+      specialties: [
+        "green-lipped mussels",
+        "lamb dishes",
+        "pavlova",
+        "hangi",
+        "manuka honey",
+      ],
+    },
+    amsterdam: {
+      landmarks: ["the canals", "Vondelpark", "Jordaan district", "Dam Square"],
+      features: [
+        "canal-side dining",
+        "17th century building",
+        "cozy brown café atmosphere",
+        "Dutch design elements",
+      ],
+      specialties: [
+        "stroopwafels",
+        "bitterballen",
+        "Dutch pancakes",
+        "herring",
+        "Gouda cheese",
+      ],
+    },
+    barcelona: {
+      landmarks: [
+        "La Rambla",
+        "Sagrada Familia",
+        "Gothic Quarter",
+        "Barceloneta Beach",
+      ],
+      features: [
+        "Gaudi-inspired decor",
+        "Catalonian charm",
+        "mosaic details",
+        "Mediterranean terrace",
+      ],
+      specialties: [
+        "paella",
+        "tapas",
+        "jamón ibérico",
+        "pan con tomate",
+        "crema catalana",
+      ],
+    },
+    berlin: {
+      landmarks: [
+        "Brandenburg Gate",
+        "Museum Island",
+        "Tiergarten",
+        "East Side Gallery",
+      ],
+      features: [
+        "industrial chic decor",
+        "beer garden",
+        "historic building",
+        "avant-garde atmosphere",
+      ],
+      specialties: [
+        "currywurst",
+        "döner kebab",
+        "schnitzel",
+        "pretzels",
+        "German beer",
+      ],
+    },
+    boston: {
+      landmarks: [
+        "Faneuil Hall",
+        "Boston Harbor",
+        "Beacon Hill",
+        "Fenway Park",
+      ],
+      features: [
+        "historic setting",
+        "New England charm",
+        "waterfront views",
+        "colonial architecture",
+      ],
+      specialties: [
+        "clam chowder",
+        "lobster rolls",
+        "Boston cream pie",
+        "oysters",
+        "baked beans",
+      ],
+    },
+    "buenos-aires": {
+      landmarks: ["La Boca", "Recoleta", "Plaza de Mayo", "Puerto Madero"],
+      features: [
+        "tango shows",
+        "parilla-style grill",
+        "European elegance",
+        "vibrant atmosphere",
+      ],
+      specialties: [
+        "asado",
+        "empanadas",
+        "dulce de leche",
+        "Malbec wine",
+        "mate",
+      ],
+    },
+    "cape-town": {
+      landmarks: [
+        "Table Mountain",
+        "V&A Waterfront",
+        "Robben Island",
+        "Cape Peninsula",
+      ],
+      features: [
+        "panoramic mountain views",
+        "African-inspired decor",
+        "vineyard setting",
+        "ocean views",
+      ],
+      specialties: [
+        "bobotie",
+        "biltong",
+        "Cape Malay curry",
+        "Pinotage wine",
+        "fresh seafood",
+      ],
+    },
+    charleston: {
+      landmarks: [
+        "Rainbow Row",
+        "Charleston Harbor",
+        "The Battery",
+        "French Quarter",
+      ],
+      features: [
+        "Southern hospitality",
+        "antebellum architecture",
+        "courtyard dining",
+        "plantation charm",
+      ],
+      specialties: [
+        "shrimp and grits",
+        "she-crab soup",
+        "oysters",
+        "biscuits",
+        "sweet tea",
+      ],
+    },
+    copenhagen: {
+      landmarks: [
+        "Nyhavn",
+        "Tivoli Gardens",
+        "The Little Mermaid",
+        "Christiansborg Palace",
+      ],
+      features: [
+        "hygge atmosphere",
+        "Nordic design",
+        "waterfront dining",
+        "minimalist elegance",
+      ],
+      specialties: [
+        "smørrebrød",
+        "Danish pastries",
+        "herring",
+        "frikadeller",
+        "new Nordic cuisine",
+      ],
+    },
+    dubai: {
+      landmarks: [
+        "Burj Khalifa",
+        "Palm Jumeirah",
+        "Dubai Marina",
+        "Dubai Mall",
+      ],
+      features: [
+        "luxurious setting",
+        "skyline views",
+        "opulent decor",
+        "air-conditioned terraces",
+      ],
+      specialties: [
+        "mezze",
+        "shawarma",
+        "lamb ouzi",
+        "date desserts",
+        "camel milk specialties",
+      ],
+    },
+    dublin: {
+      landmarks: [
+        "Temple Bar",
+        "Trinity College",
+        "Dublin Castle",
+        "St. Stephen's Green",
+      ],
+      features: [
+        "traditional Irish pub atmosphere",
+        "live music",
+        "historic stone walls",
+        "cozy fireplaces",
+      ],
+      specialties: [
+        "Irish stew",
+        "boxty",
+        "colcannon",
+        "soda bread",
+        "Guinness",
+      ],
+    },
+    "hong-kong": {
+      landmarks: ["Victoria Harbour", "The Peak", "Lan Kwai Fong", "Kowloon"],
+      features: [
+        "harbor views",
+        "rooftop dining",
+        "dim sum carts",
+        "fusion of East and West",
+      ],
+      specialties: [
+        "dim sum",
+        "roast goose",
+        "wonton noodles",
+        "pineapple buns",
+        "milk tea",
+      ],
+    },
+    london: {
+      landmarks: [
+        "Big Ben",
+        "The Thames",
+        "Buckingham Palace",
+        "Covent Garden",
+      ],
+      features: [
+        "traditional pub setting",
+        "afternoon tea service",
+        "British elegance",
+        "historic atmosphere",
+      ],
+      specialties: [
+        "fish and chips",
+        "Sunday roast",
+        "bangers and mash",
+        "sticky toffee pudding",
+        "meat pies",
+      ],
+    },
+    "new-york-city": {
+      landmarks: [
+        "Central Park",
+        "Times Square",
+        "Brooklyn Bridge",
+        "Empire State Building",
+      ],
+      features: [
+        "Art Deco design",
+        "skyline views",
+        "fast-paced atmosphere",
+        "melting pot of cultures",
+      ],
+      specialties: [
+        "New York pizza",
+        "bagels",
+        "cheesecake",
+        "pastrami sandwiches",
+        "hot dogs",
+      ],
+    },
+    paris: {
+      landmarks: [
+        "Eiffel Tower",
+        "Seine River",
+        "Montmartre",
+        "Champs-Élysées",
+      ],
+      features: [
+        "romantic lighting",
+        "classic bistro setting",
+        "Parisian terrace",
+        "elegant decor",
+      ],
+      specialties: [
+        "coq au vin",
+        "escargot",
+        "croissants",
+        "macarons",
+        "crème brûlée",
+      ],
+    },
+    rome: {
+      landmarks: ["Colosseum", "Roman Forum", "Vatican", "Trevi Fountain"],
+      features: [
+        "al fresco dining",
+        "historic ambiance",
+        "cobblestone streets",
+        "traditional trattoria setting",
+      ],
+      specialties: [
+        "pasta carbonara",
+        "cacio e pepe",
+        "supplì",
+        "Roman-style pizza",
+        "artichokes",
+      ],
+    },
+    tokyo: {
+      landmarks: [
+        "Tokyo Tower",
+        "Shibuya Crossing",
+        "Senso-ji Temple",
+        "Imperial Palace",
+      ],
+      features: [
+        "minimalist design",
+        "precision service",
+        "tatami rooms",
+        "high-tech elements",
+      ],
+      specialties: [
+        "sushi",
+        "ramen",
+        "tempura",
+        "wagyu beef",
+        "matcha desserts",
+      ],
+    },
+    venice: {
+      landmarks: [
+        "Grand Canal",
+        "St. Mark's Square",
+        "Rialto Bridge",
+        "Venetian lagoon",
+      ],
+      features: [
+        "canal-side tables",
+        "gondola views",
+        "historic palazzo setting",
+        "Venetian glass accents",
+      ],
+      specialties: [
+        "seafood risotto",
+        "cicchetti",
+        "squid ink pasta",
+        "tiramisu",
+        "Bellini cocktails",
+      ],
+    },
+  };
+
+  // Default description elements for cities not specifically defined
+  const defaultCityDesc = {
+    landmarks: [
+      "downtown",
+      "the waterfront",
+      "the historic district",
+      "the main square",
+    ],
+    features: [
+      "elegant atmosphere",
+      "beautiful decor",
+      "friendly service",
+      "local ambiance",
+    ],
+    specialties: [
+      "signature dishes",
+      "local ingredients",
+      "fresh produce",
+      "artisanal creations",
+    ],
+  };
+
+  // Get city-specific description or use default
+  const cityDesc = cityDescriptions[cityName] || defaultCityDesc;
+
+  // Function to generate varied descriptions based on city and cuisine
+  const generateDescription = (cuisine, city) => {
+    const landmark =
+      cityDesc.landmarks[Math.floor(Math.random() * cityDesc.landmarks.length)];
+    const feature =
+      cityDesc.features[Math.floor(Math.random() * cityDesc.features.length)];
+    const specialty =
+      cityDesc.specialties[
+        Math.floor(Math.random() * cityDesc.specialties.length)
+      ];
+
+    const templates = [
+      `A charming ${cuisine} restaurant near ${landmark}, offering ${specialty} and other local favorites in a setting with ${feature}.`,
+      `Experience authentic ${cuisine} cuisine with a local twist, featuring ${specialty} served in an atmosphere of ${feature} overlooking ${landmark}.`,
+      `This popular ${cuisine} establishment combines traditional recipes and ${specialty}, all served in a unique setting with ${feature}.`,
+      `Located close to ${landmark}, this ${cuisine} restaurant delights with its ${specialty} and ${feature}.`,
+      `A culinary gem serving ${cuisine} specialties including ${specialty}, where guests enjoy ${feature} in the heart of the city.`,
+    ];
+
+    return templates[Math.floor(Math.random() * templates.length)];
+  };
+
   // Generate restaurants for this city
   for (let i = 0; i < numRestaurants; i++) {
     const cuisine = getRandomCuisine();
 
     restaurants.push({
       name: getRandomName(),
-      description: `A wonderful ${cuisine} restaurant offering local specialties and international favorites in a welcoming atmosphere.`,
+      description: generateDescription(cuisine, cityName),
       cuisine,
       priceRange: getRandomPrice(),
       rating: parseFloat(getRandomRating()),
