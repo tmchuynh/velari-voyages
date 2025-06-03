@@ -55,9 +55,9 @@ function generateMenuFileContent(cityName, restaurantName) {
   const cityVar = toCamelCase(cityName);
   const restaurantVar = toCamelCase(restaurantName);
 
-  return `import { ResturantMenu } from "@/lib/types/types";
+  return `import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
-export const ${cityVar}${restaurantVar}Testimonials: ResturantMenu[] = [];
+export const ${cityVar}${restaurantVar}Testimonials: Testimonial[] = [];
 `;
 }
 
@@ -96,7 +96,7 @@ cityDirs.forEach((cityDir) => {
           menuFilePath,
           generateMenuFileContent(cityDir, restaurantName)
         );
-        console.log(`Created menu file: ${menuFilePath}`);
+        console.log(`Created testimonial file: ${menuFilePath}`);
       } else {
         console.log(`File already exists: ${menuFilePath}`);
       }
@@ -106,4 +106,4 @@ cityDirs.forEach((cityDir) => {
   }
 });
 
-console.log("All restaurant menu files created successfully!");
+console.log("All testimonial files created successfully!");
