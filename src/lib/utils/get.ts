@@ -217,7 +217,7 @@ export async function getRestaurantsForCruise(
  * This function constructs a dynamic import path based on the cruise's departure city
  * and the restaurant's name. It then attempts to load a module from this path
  * and extract a specific named export (menuID) which is expected to be an array
- * of `ResturantMenu` items.
+ * of `RestaurantMenu` items.
  *
  * The city name is processed by removing accents, replacing spaces with hyphens,
  * and converting to a specific camelCase format. The restaurant name is also
@@ -229,8 +229,8 @@ export async function getRestaurantsForCruise(
  * array is returned.
  *
  * @param cruise - The cruise object, which must contain `departureLocation.city`.
- * @param resturant - The restaurant object, which must contain a `name`.
- * @returns A promise that resolves to an array of `ResturantMenu` items if found,
+ * @param restaurant - The restaurant object, which must contain a `name`.
+ * @returns A promise that resolves to an array of `RestaurantMenu` items if found,
  *          otherwise resolves to an empty array.
  *
  * @example
@@ -239,12 +239,12 @@ export async function getRestaurantsForCruise(
  *   // ... other cruise properties
  *   departureLocation: { city: "New York" }
  * };
- * const restaurantData: Resturant = {
+ * const restaurantData: Restaurant = {
  *   // ... other restaurant properties
  *   name: "The Grand Dining"
  * };
  *
- * getResturantMenu(cruiseData, restaurantData)
+ * getRestaurantMenu(cruiseData, restaurantData)
  *   .then(menu => {
  *     if (menu.length > 0) {
  *       console.log("Menu items:", menu);
@@ -256,23 +256,23 @@ export async function getRestaurantsForCruise(
  *
  * @remarks
  * The function relies on a specific file structure and naming convention for menu modules:
- * `@/lib/constants/cruises/resturants/{formatted-city-slug}/{formatted-restaurant-slug}.ts`
+ * `@/lib/constants/cruises/restaurants/{formatted-city-slug}/{formatted-restaurant-slug}.ts`
  * And a specific named export within those modules:
- * `export const {cityFormatted}{RestaurantNameFormatted}Menu: ResturantMenu[] = [];`
+ * `export const {cityFormatted}{RestaurantNameFormatted}Menu: RestaurantMenu[] = [];`
  *
  * Helper functions like `removeAccents`, `formatTitleToCamelCase`, `formatKebebToTitleCase`,
  * and `formatToSlug` are assumed to be available in the scope.
  */
-export async function getResturantMenu(
+export async function getRestaurantMenu(
   cruise: Cruise,
-  resturant: Resturant
-): Promise<ResturantMenu[]> {
+  restaurant: Restaurant
+): Promise<RestaurantMenu[]> {
   if (!cruise || !cruise.departureLocation || !cruise.departureLocation.city) {
     console.error("Invalid cruise data provided");
     return [];
   }
 
-  if (!resturant || !resturant.name) {
+  if (!restaurant || !restaurant.name) {
     console.error("Invalid restaurant data provided");
     return [];
   }
@@ -282,12 +282,12 @@ export async function getResturantMenu(
   const citySlug = formatToSlug(cityWithoutAccents.replace("'", "-"));
 
   // Format restaurant name for the file path
-  const restaurantSlug = formatToSlug(resturant.name.replace("'", "-"));
+  const restaurantslug = formatToSlug(restaurant.name.replace("'", "-"));
 
   // Format for variable name: cityInCamelCase + restaurantInCamelCase + Menu
   // This needs to match the export variable naming convention in the files
   const cityPrefix = citySlug.replace(/-/g, ""); // Remove hyphens for camelCase
-  const restaurantName = resturant.name.replace(/'/g, "").replace(/-/g, " ");
+  const restaurantName = restaurant.name.replace(/'/g, "").replace(/-/g, " ");
   const restaurantCamel = formatTitleToCamelCase(restaurantName);
 
   const menuID = `${cityPrefix}${restaurantCamel}Menu`;
@@ -295,21 +295,21 @@ export async function getResturantMenu(
   try {
     // Import the module using kebab-case for the file path
     const menuModule = await import(
-      `@/lib/constants/cruises/resturants/${citySlug}/${restaurantSlug}`
+      `@/lib/constants/cruises/restaurants/${citySlug}/${restaurantslug}`
     );
 
     // Return the specific named export that matches menuID
     if (menuModule[menuID]) {
-      return menuModule[menuID] as ResturantMenu[];
+      return menuModule[menuID] as RestaurantMenu[];
     } else {
       console.error(
-        `Export named '${menuID}' not found in module. Expected: export const ${menuID}: ResturantMenu[] = [];`
+        `Export named '${menuID}' not found in module. Expected: export const ${menuID}: RestaurantMenu[] = [];`
       );
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading restaurant menu from @/lib/constants/cruises/resturants/${citySlug}/${restaurantSlug}: ${error}`
+      `Error loading restaurant menu from @/lib/constants/cruises/restaurants/${citySlug}/${restaurantslug}: ${error}`
     );
     return [];
   }
