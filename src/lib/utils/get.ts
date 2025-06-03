@@ -577,8 +577,8 @@ export async function getAllRestaurants(): Promise<Restaurant[]> {
  * Asynchronously retrieves and aggregates restaurant menus from various city-specific modules.
  *
  * This function iterates over a predefined list of city names. For each city, it attempts
- * to dynamically import a module located at `@/lib/constants/cruises/resturants/${city}/resturants`.
- * It expects each module to export an array of `ResturantMenu` objects named `${city}ResturantMenus`.
+ * to dynamically import a module located at `@/lib/constants/cruises/restaurants/${city}/restaurants`.
+ * It expects each module to export an array of `RestaurantMenu` objects named `${city}RestaurantMenus`.
  *
  * If a module is successfully imported and the expected array is found, its contents are
  * added to a combined list of all restaurant menus.
@@ -587,31 +587,31 @@ export async function getAllRestaurants(): Promise<Restaurant[]> {
  * restaurant menus array. Errors during the import process for any city are caught and
  * logged to the console, but the function will continue to process other cities.
  *
- * @returns A promise that resolves to an array of `ResturantMenu` objects,
+ * @returns A promise that resolves to an array of `RestaurantMenu` objects,
  *          containing all menus found across all specified cities. If no menus are found
  *          or errors occur for all cities, it will resolve to an empty array.
  */
-export async function getAllResturantMenus(): Promise<ResturantMenu[]> {
+export async function getAllRestaurantMenus(): Promise<RestaurantMenu[]> {
   // Combined array for all restaurant menus
-  const allResturantMenus: ResturantMenu[] = [];
+  const allRestaurantMenus: RestaurantMenu[] = [];
 
   // Loop through each city file and import its restaurant menus
   for (const city of cityFiles) {
     try {
       // Dynamic import of the restaurant menus file
-      const resturantsModule = await import(
-        `@/lib/constants/cruises/resturants/${removeAccents(city)}/resturants`
+      const restaurantsModule = await import(
+        `@/lib/constants/cruises/restaurants/${removeAccents(city)}/restaurants`
       );
 
-      // Get the restaurant menus array using the city name + Resturants naming convention
-      const cityResturantMenus = resturantsModule[`${city}ResturantMenus`];
+      // Get the restaurant menus array using the city name + Restaurants naming convention
+      const cityRestaurantMenus = restaurantsModule[`${city}RestaurantMenus`];
 
-      if (cityResturantMenus && Array.isArray(cityResturantMenus)) {
+      if (cityRestaurantMenus && Array.isArray(cityRestaurantMenus)) {
         // Add all restaurant menus from this city to the combined array
-        allResturantMenus.push(...cityResturantMenus);
+        allRestaurantMenus.push(...cityRestaurantMenus);
       } else {
         console.warn(
-          `No valid restaurant menus found for ${city} within @/lib/constants/cruises/resturants/${city}/resturants.ts`
+          `No valid restaurant menus found for ${city} within @/lib/constants/cruises/restaurants/${city}/restaurants.ts`
         );
       }
     } catch (error) {
@@ -619,7 +619,7 @@ export async function getAllResturantMenus(): Promise<ResturantMenu[]> {
     }
   }
 
-  return allResturantMenus;
+  return allRestaurantMenus;
 }
 
 /**
