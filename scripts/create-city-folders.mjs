@@ -18,7 +18,7 @@ function toKebabCase(str) {
 }
 
 // Update path to create folders in the restaurants directory
-const outputDir = join(projectRoot, "src/lib/constants/cruises/resturants");
+const outputDir = join(projectRoot, "src/lib/constants/cruises/restaurants");
 
 // Make sure the base directory exists
 if (!fs.existsSync(outputDir)) {
@@ -54,10 +54,10 @@ cityNames.forEach((city) => {
       .replace(/-([a-z])/g, (g) => g[1].toUpperCase())
       .replace(/^([A-Z])/, (g) => g.toLowerCase());
 
-    const restaurantFilePath = join(folderPath, "resturants.ts");
-    const fileContent = `import { Resturant } from "@/lib/types/types";
+    const restaurantFilePath = join(folderPath, "restaurants.ts");
+    const fileContent = `import { Restaurant } from "@/lib/types/types";
 
-export const ${camelCaseCityName}Resturants: Resturant[] = [];
+export const ${camelCaseCityName}Restaurants: Restaurant[] = [];
 `;
     fs.writeFileSync(restaurantFilePath, fileContent);
     console.log(`Created file: ${restaurantFilePath}`);
