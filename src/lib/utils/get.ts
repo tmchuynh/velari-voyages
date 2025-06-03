@@ -740,23 +740,23 @@ export async function getAllRestaurantMenusFromCity(
 /**
  * Asynchronously retrieves all menu items for a given restaurant.
  *
- * This function takes a `Resturant` object, formats its name to derive a module path
+ * This function takes a `Restaurant` object, formats its name to derive a module path
  * and a specific export name (e.g., "theWakeMenu" for a restaurant named "The Wake").
  * It then dynamically imports the corresponding menu module from a predefined path
- * (`@/lib/constants/cruises/resturants/`) and attempts to return the exported menu data.
+ * (`@/lib/constants/cruises/restaurants/`) and attempts to return the exported menu data.
  *
  * If the provided restaurant data is invalid (e.g., missing name), or if the module
  * cannot be loaded, or if the specific menu export is not found within the module,
  * an error is logged to the console, and an empty array is returned.
  *
- * @param resturant - The restaurant object, which must have a `name` property.
- * @returns A promise that resolves to an array of `ResturantMenu` items.
+ * @param restaurant - The restaurant object, which must have a `name` property.
+ * @returns A promise that resolves to an array of `RestaurantMenu` items.
  *          Returns an empty array if an error occurs during the process or if data is not found.
  *
  * @example
  * ```typescript
- * const aResturant = { name: "The Wake", ...otherResturantProps };
- * const menuItems = await getAllMenuItemsFromResturant(aResturant);
+ * const aRestaurant = { name: "The Wake", ...otherRestaurantProps };
+ * const menuItems = await getAllMenuItemsFromRestaurant(aRestaurant);
  * if (menuItems.length > 0) {
  *   console.log("Menu items:", menuItems);
  * } else {
