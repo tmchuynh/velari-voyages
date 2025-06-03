@@ -5,7 +5,7 @@ import {
 } from "../constants/info/cruisePackages";
 import { CrewMember } from "../interfaces/people/staff";
 import { Cruise } from "../interfaces/services/cruises";
-import { Location, Package, Resturant, ResturantMenu } from "../types/types";
+import { Location, Package, Restaurant, RestaurantMenu } from "../types/types";
 import {
   formatKebabToCamelCase,
   formatKebebToTitleCase,
@@ -120,37 +120,6 @@ export async function getCrewMemberData(city: string): Promise<CrewMember[]> {
     );
     return [];
   }
-}
-
-export async function getAllCities(): Promise<Location[]> {
-  // Combined array for all cities
-  const allCities: Location[] = [];
-
-  // Loop through each city file and import its location data
-  for (const city of cityFiles) {
-    try {
-      // Dynamic import of the location file
-      const locationModule = await import(
-        `@/lib/constants/locations/${removeAccents(city)}`
-      );
-
-      // Get the location object using the city name + Location naming convention
-      const cityLocation = locationModule[`${city}Location`];
-
-      if (cityLocation && typeof cityLocation === "object") {
-        // Add the city location to the combined array
-        allCities.push(cityLocation);
-      } else {
-        console.warn(
-          `No valid location found for ${city} within @/lib/constants/locations/${city}.ts`
-        );
-      }
-    } catch (error) {
-      console.error(`Error importing location for ${city}:`, error);
-    }
-  }
-
-  return allCities;
 }
 
 /**
