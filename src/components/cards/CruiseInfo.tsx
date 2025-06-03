@@ -4,7 +4,11 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Cruise } from "@/lib/interfaces/services/cruises";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
-import { formatToSlug } from "@/lib/utils/format";
+import {
+  capitalize,
+  formatNumberToCurrency,
+  formatToSlug,
+} from "@/lib/utils/format";
 import { useRouter } from "next/navigation";
 import { IoMdInformationCircle } from "react-icons/io";
 
@@ -12,7 +16,6 @@ import {
   Sheet,
   SheetContent,
   SheetDescription,
-  SheetFooter,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
@@ -56,41 +59,31 @@ export default function CruiseInfo({
                   <IoMdInformationCircle />
                 </Button>
               </SheetTrigger>
-              <SheetContent className="mx-auto w-11/12">
+              <SheetContent className="min-w-5/12">
                 <SheetHeader className="mt-8">
                   <SheetTitle>{cruise.title}</SheetTitle>
                   <SheetDescription>{cruise.description}</SheetDescription>
-                  {cruise.tags?.length && (
-                    <div className="flex flex-wrap gap-2 mt-2">
-                      {cruise.tags.map((tag, i) => (
-                        <Badge variant={"secondary"} key={i}>
-                          {tag}
-                        </Badge>
-                      ))}
-                    </div>
-                  )}
                 </SheetHeader>
-                <div className="flex flex-col gap-4 mx-auto w-12/14">
+                <div className="mx-auto w-13/14">
                   <section>
                     <h3>Tour Details</h3>
-                    <h5>Itinerary:</h5>
                     {cruise.itinerary && (
-                      <div className="space-y-2 mt-2">
-                        <p className="text-sm">
-                          {cruise.itinerary.description}
-                        </p>
-                        <div className="gap-2 grid grid-cols-2 text-sm">
-                          <div>
-                            <span className="font-semibold">Distance:</span>{" "}
-                            {cruise.itinerary.distance}
+                      <div>
+                        <section className="space-y-2">
+                          <p>{cruise.itinerary.description}</p>
+                          <div className="gap-2 grid grid-cols-2">
+                            <p>
+                              <strong>Distance:</strong>{" "}
+                              {cruise.itinerary.distance}
+                            </p>
+                            <p>
+                              <strong>Duration:</strong>{" "}
+                              {cruise.itinerary.totalDuration}
+                            </p>
                           </div>
-                          <div>
-                            <span className="font-semibold">Duration:</span>{" "}
-                            {cruise.itinerary.totalDuration}
-                          </div>
-                        </div>
-                        <div>
-                          <span className="block font-semibold">Route:</span>
+                        </section>
+                        <section>
+                          <h5>Route:</h5>
                           <ul className="pl-5 text-sm list-disc">
                             {cruise.itinerary.route.map((location, i) => (
                               <li key={i}>
@@ -98,12 +91,10 @@ export default function CruiseInfo({
                               </li>
                             ))}
                           </ul>
-                        </div>
+                        </section>
                         {cruise.itinerary.timeAtSea?.length > 0 && (
-                          <div>
-                            <span className="block font-semibold">
-                              Time at Sea:
-                            </span>
+                          <section>
+                            <h5>Time at Sea:</h5>
                             <ul className="pl-5 text-sm list-disc">
                               {cruise.itinerary.timeAtSea.map((period, i) => (
                                 <li key={i}>
@@ -111,13 +102,11 @@ export default function CruiseInfo({
                                 </li>
                               ))}
                             </ul>
-                          </div>
+                          </section>
                         )}
                         {cruise.itinerary.timeOnLand?.length > 0 && (
-                          <div>
-                            <span className="block font-semibold">
-                              Time on Land:
-                            </span>
+                          <section>
+                            <h5>Time on Land:</h5>
                             <ul className="pl-5 text-sm list-disc">
                               {cruise.itinerary.timeOnLand.map((period, i) => (
                                 <li key={i}>
@@ -125,7 +114,7 @@ export default function CruiseInfo({
                                 </li>
                               ))}
                             </ul>
-                          </div>
+                          </section>
                         )}
                       </div>
                     )}
@@ -154,13 +143,49 @@ export default function CruiseInfo({
                     )}
                   </section>
 
+                  {cruise.tags?.length && (
+                    <section className="flex flex-wrap gap-2 mt-2">
+                      {cruise.tags.map((tag, i) => (
+                        <Badge variant={"secondary"} size={"lg"} key={i}>
+                          {capitalize(tag)}
+                        </Badge>
+                      ))}
+                    </section>
+                  )}
+
                   {cruise.cancellationPolicy && (
                     <section>
                       <h5>Cancellation Policy:</h5>
                       <p>{cruise.cancellationPolicy}</p>
                     </section>
                   )}
+
+                  <section>
+                    <h3>Contact Personnel</h3>
+                    <div className="flex flex-col gap-2 mt-2">
+                      {cruise.contactPersonnel.map((person, i) => (
+                        <div key={i} className="flex flex-col">
+                          <h4>{person.name}</h4>
+                          {person.bio && <p>{person.bio}</p>}
+                          <div className="mt-3">
+                            <p>
+                              <strong>Languages: </strong>{" "}
+                              {person.languages.map((language, index) => (
+                                <span key={index} className="mr-1">
+                                  {language}{" "}
+                                  {index < person.languages.length - 1
+                                    ? ","
+                                    : ""}
+                                </span>
+                              ))}
+                            </p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </section>
                 </div>
+
                 <Button
                   onClick={() =>
                     router.push(
@@ -168,32 +193,10 @@ export default function CruiseInfo({
                         formatToSlug(cruise.title)
                     )
                   }
-                  className="mx-auto mt-4 w-12/14"
+                  className="mx-auto mt-4 w-13/14"
                 >
                   Add to Cart
                 </Button>
-                <SheetFooter>
-                  <h3>Contact Personnel</h3>
-                  <div className="flex flex-col gap-2 mt-2">
-                    {cruise.contactPersonnel.map((person, i) => (
-                      <div key={i} className="flex flex-col">
-                        <h5 className="font-semibold">{person.name}</h5>
-                        {person.bio && <p className="text-sm">{person.bio}</p>}
-                        <div>
-                          <p>
-                            <strong>Languages: </strong>{" "}
-                            {person.languages.map((language, index) => (
-                              <span key={index} className="mr-1">
-                                {language}{" "}
-                                {index < person.languages.length - 1 ? "," : ""}
-                              </span>
-                            ))}
-                          </p>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </SheetFooter>
               </SheetContent>
             </Sheet>
           </div>
@@ -208,19 +211,21 @@ export default function CruiseInfo({
             ))}
           </div>
           <div className="flex justify-between items-center my-4">
-            <h2>{cruise.basePrice}</h2>
+            <h2>{formatNumberToCurrency(cruise.basePrice)}</h2>
           </div>
           <Button
             onClick={() => {
               const queryParams = new URLSearchParams({
-                city: city,
-                country: country,
+                departureLocationCity: cruise.departureLocation.city,
+                departureLocationCountry: cruise.departureLocation.country,
+                arrivalLocationCity: cruise.arrivalLocation.city,
+                arrivalLocationCountry: cruise.arrivalLocation.country,
                 cruise: cruise.title,
-                tourCategoryId: cruise.tourCategoryId,
+                category: cruise.tourCategoryId,
               });
 
               router.push(
-                `/luxurious-destinations/${country}/${city}/tours/${formatToSlug(
+                `/cruises/cruise-categories/velari-voyages-cruises/cruise/${formatToSlug(
                   cruise.title
                 )}?${queryParams.toString()}`
               );
