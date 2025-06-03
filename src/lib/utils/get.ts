@@ -157,7 +157,7 @@ export async function getCruisesByLocation(
  * an error and returns an empty array.
  *
  * @param {Cruise} cruise - The cruise object containing departure location details.
- * @returns {Promise<Resturant[]>} A promise that resolves to an array of restaurants for the cruise's departure city.
+ * @returns {Promise<Restaurant[]>} A promise that resolves to an array of restaurants for the cruise's departure city.
  *
  * @throws Will log an error if the cruise data is invalid, the module cannot be imported, or the expected export is missing.
  *
@@ -167,12 +167,12 @@ export async function getCruisesByLocation(
  *     city: "Barcelona"
  *   }
  * };
- * const restaurants = await getResturantsForCruise(cruise);
+ * const restaurants = await getRestaurantsForCruise(cruise);
  * console.log(restaurants);
  */
-export async function getResturantsForCruise(
+export async function getRestaurantsForCruise(
   cruise: Cruise
-): Promise<Resturant[]> {
+): Promise<Restaurant[]> {
   if (!cruise || !cruise.departureLocation || !cruise.departureLocation.city) {
     console.error("Invalid cruise data provided");
     return [];
