@@ -53,11 +53,43 @@ export function getRandomDatesFromNextWeek(
   return Array.from(dates);
 }
 
+
+/**
+ * Retrieves a list of packages associated with a specific cruise category.
+ *
+ * @param category - The name of the cruise category for which packages are to be retrieved.
+ * @returns An array of `Package` objects corresponding to the given cruise category.
+ *
+ * The function uses a mapping of cruise categories to package IDs (`cruiseCategoryPackages`)
+ * and another mapping of package IDs to `Package` objects (`cruiseCategoryMap`) to derive
+ * the result. If the category does not exist in `cruiseCategoryPackages`, an empty array
+ * is returned. Invalid or undefined package IDs are filtered out.
+ */
 export function getPackagesForCruiseCategory(category: string): Package[] {
   const packageIds = cruiseCategoryPackages[category] || [];
   return packageIds.map((id) => cruiseCategoryMap[id]).filter(Boolean);
 }
 
+
+
+/**
+ * Retrieves crew member data for a specified city.
+ *
+ * This function dynamically imports a module containing crew member data
+ * based on the formatted city name. It attempts to locate a specific named
+ * export within the module that matches the generated crew ID. If the export
+ * is found, it returns the crew member data; otherwise, it logs an error and
+ * returns an empty array.
+ *
+ * @param city - The name of the city for which to retrieve crew member data.
+ *               Accents and special characters are removed, and the name is
+ *               formatted to generate a crew ID.
+ * @returns A promise that resolves to an array of `CrewMember` objects.
+ *          Returns an empty array if the module or named export is not found.
+ *
+ * @throws An error is logged if the module fails to load or the named export
+ *         does not exist.
+ */
 export async function getCrewMemberData(city: string): Promise<CrewMember[]> {
   // First remove accents from the entire city name, then format it
   const cityWithoutAccents = removeAccents(city);
@@ -107,6 +139,30 @@ export async function getCruisesByLocation(
   return getCruises(cityInfo.city);
 }
 
+
+
+/**
+ * Retrieves a list of restaurants for a given cruise based on its departure location.
+ *
+ * This function dynamically imports a module containing restaurant data specific to the city
+ * of the cruise's departure location. It formats the city name to match the expected module
+ * and export naming conventions. If the module or the specific export is not found, it logs
+ * an error and returns an empty array.
+ *
+ * @param {Cruise} cruise - The cruise object containing departure location details.
+ * @returns {Promise<Resturant[]>} A promise that resolves to an array of restaurants for the cruise's departure city.
+ *
+ * @throws Will log an error if the cruise data is invalid, the module cannot be imported, or the expected export is missing.
+ *
+ * @example
+ * const cruise = {
+ *   departureLocation: {
+ *     city: "Barcelona"
+ *   }
+ * };
+ * const restaurants = await getResturantsForCruise(cruise);
+ * console.log(restaurants);
+ */
 export async function getResturantsForCruise(
   cruise: Cruise
 ): Promise<Resturant[]> {
@@ -148,6 +204,60 @@ export async function getResturantsForCruise(
   }
 }
 
+
+
+/**
+ * Asynchronously retrieves the menu for a specific restaurant on a given cruise.
+ *
+ * This function constructs a dynamic import path based on the cruise's departure city
+ * and the restaurant's name. It then attempts to load a module from this path
+ * and extract a specific named export (menuID) which is expected to be an array
+ * of `ResturantMenu` items.
+ *
+ * The city name is processed by removing accents, replacing spaces with hyphens,
+ * and converting to a specific camelCase format. The restaurant name is also
+ * converted to camelCase. These formatted names are used to construct both the
+ * import path and the `menuID`.
+ *
+ * If the cruise or restaurant data is invalid, or if the module or the specific
+ * menu export cannot be found, an error is logged to the console, and an empty
+ * array is returned.
+ *
+ * @param cruise - The cruise object, which must contain `departureLocation.city`.
+ * @param resturant - The restaurant object, which must contain a `name`.
+ * @returns A promise that resolves to an array of `ResturantMenu` items if found,
+ *          otherwise resolves to an empty array.
+ *
+ * @example
+ * ```typescript
+ * const cruiseData: Cruise = {
+ *   // ... other cruise properties
+ *   departureLocation: { city: "New York" }
+ * };
+ * const restaurantData: Resturant = {
+ *   // ... other restaurant properties
+ *   name: "The Grand Dining"
+ * };
+ *
+ * getResturantMenu(cruiseData, restaurantData)
+ *   .then(menu => {
+ *     if (menu.length > 0) {
+ *       console.log("Menu items:", menu);
+ *     } else {
+ *       console.log("Menu not found or an error occurred.");
+ *     }
+ *   });
+ * ```
+ *
+ * @remarks
+ * The function relies on a specific file structure and naming convention for menu modules:
+ * `@/lib/constants/cruises/resturants/{formatted-city-slug}/{formatted-restaurant-slug}.ts`
+ * And a specific named export within those modules:
+ * `export const {cityFormatted}{RestaurantNameFormatted}Menu: ResturantMenu[] = [];`
+ *
+ * Helper functions like `removeAccents`, `formatTitleToCamelCase`, `formatKebebToTitleCase`,
+ * and `formatToSlug` are assumed to be available in the scope.
+ */
 export async function getResturantMenu(
   cruise: Cruise,
   resturant: Resturant
@@ -200,6 +310,40 @@ export async function getResturantMenu(
   }
 }
 
+
+/**
+ * Asynchronously retrieves a list of cruises for a given city.
+ *
+ * This function first formats the city name by removing accents, converting it to a specific
+ * camelCase format (e.g., "New York" becomes "newYork"), and then uses this formatted name
+ * to construct an expected module export name (e.g., "newYorkCruises").
+ * It also generates a slug version of the city name (e.g., "new-york") to dynamically
+ * import a module from `@/lib/constants/cruises/`.
+ *
+ * If the module is found, it attempts to return the array of `Cruise` objects exported
+ * under the constructed `cruiseID`. If that specific export is not found, it tries an
+ * alternate `cruiseID` based on the slugged city name.
+ *
+ * Logs errors to the console if the city name is invalid, the module cannot be loaded,
+ * or the expected export is not found within the loaded module.
+ *
+ * @param city - The name of the city for which to retrieve cruises.
+ *               It should be a non-empty string.
+ * @returns A promise that resolves to an array of `Cruise` objects if found,
+ *          or an empty array if the city is invalid, the data module cannot be loaded,
+ *          or the specific cruise data export is not found.
+ *
+ * @example
+ * ```typescript
+ * async function displayCruises() {
+ *   const parisCruises = await getCruises("Paris");
+ *   console.log(parisCruises);
+ *
+ *   const newYorkCruises = await getCruises("New York");
+ *   console.log(newYorkCruises);
+ * }
+ * ```
+ */
 export async function getCruises(city: string): Promise<Cruise[]> {
   if (!city || typeof city !== "string") {
     console.error("Invalid city name provided:", city);
@@ -245,6 +389,19 @@ export async function getCruises(city: string): Promise<Cruise[]> {
   }
 }
 
+
+/**
+ * Filters a list of cruises by a specified category ID.
+ *
+ * @param cruises - An array of `Cruise` objects to filter. Must be a valid array.
+ * @param category - The category ID to filter the cruises by.
+ * @returns An array of `Cruise` objects that belong to the specified category.
+ *          Returns an empty array if the input is invalid or no cruises match the category.
+ *
+ * @remarks
+ * - Logs an error to the console if the `cruises` parameter is not a valid array.
+ * - Logs a warning to the console if no cruises are found for the specified category.
+ */
 export function getCruisesByCategory(
   cruises: Cruise[],
   category: string
@@ -265,6 +422,25 @@ export function getCruisesByCategory(
   return filteredCruises;
 }
 
+
+/**
+ * Asynchronously retrieves all cruise data by dynamically importing cruise information
+ * from predefined city-specific files.
+ *
+ * This function iterates over a list of city names, constructs file paths to
+ * corresponding cruise data modules (e.g., `@/lib/constants/cruises/auckland.ts`),
+ * and imports them. It expects each module to export an array of `Cruise` objects
+ * named using the convention `${cityName}TourGuides` (e.g., `aucklandTourGuides`).
+ *
+ * The function aggregates all cruises from these modules into a single array.
+ * It includes error handling for failed imports and logs a warning if a module
+ * does not contain a valid cruise array or if the expected export is missing.
+ *
+ * @returns A promise that resolves to an array of `Cruise` objects,
+ *          combining all cruises from all successfully imported city files.
+ *          If no cruises are found or errors occur during the import of all files,
+ *          it may return an empty array.
+ */
 export async function getAllCruises(): Promise<Cruise[]> {
   // List of all city file names (without the .ts extension)
   const cityFiles = [
@@ -320,6 +496,23 @@ export async function getAllCruises(): Promise<Cruise[]> {
   return allCruises;
 }
 
+
+/**
+ * Retrieves all team members from various city-specific modules and combines them into a single array.
+ * 
+ * This function dynamically imports modules containing crew member data for different cities,
+ * aggregates the data, and returns a combined list of all crew members.
+ * 
+ * @async
+ * @function
+ * @returns {Promise<CrewMember[]>} A promise that resolves to an array of all crew members.
+ * 
+ * @throws {Error} If there is an issue importing a city-specific module, an error is logged to the console.
+ * 
+ * @example
+ * const allTeamMembers = await getAllTeamMembers();
+ * console.log(allTeamMembers);
+ */
 export async function getAllTeamMembers(): Promise<CrewMember[]> {
   // List of all city file names (without the .ts extension)
   const cityFiles = [
