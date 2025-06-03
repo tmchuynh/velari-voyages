@@ -24,7 +24,7 @@ import {
   removeAccents,
 } from "@/lib/utils/format";
 // import { Cruise } from "@/lib/interfaces/services/cruises"; // Cruise type becomes unused if filters/cruises logic is commented
-import { getCruises } from "@/lib/utils/get";
+import { getCruises, getCruisesByLocation } from "@/lib/utils/get";
 import { /*useRouter,*/ useSearchParams } from "next/navigation"; // useRouter becomes unused
 import { useEffect, useMemo, /*useMemo,*/ useState } from "react"; // useMemo becomes unused if filterOptions/filteredCruises are commented
 import { FaFilter } from "react-icons/fa";
@@ -51,7 +51,7 @@ export default function CityCruisesPage() {
     tourCategoryId: "all",
   });
 
-  const cityWithoutAccents = removeAccents(city);
+  const cityWithoutAccents = removeAccents(city || "");
   const cityFormatted =
     cityWithoutAccents.replaceAll(" ", "-").charAt(0).toLowerCase() +
     formatTitleToCamelCase(formatKebebToTitleCase(cityWithoutAccents.slice(1)))
@@ -89,10 +89,34 @@ export default function CityCruisesPage() {
         const cityName = Array.isArray(city) ? city[0] : city;
         setLoading(true);
         try {
-          const tourData = await getCruises(decodeURIComponent(cityName));
-          setCruises(tourData);
+          // Get the city information object first
+          const cityInfo = cruiseDepartureLocations.find(
+            (location) =>
+              location.city.toLowerCase() ===
+              formatKebebToTitleCase(
+                decodeURIComponent(cityName)
+              )?.toLowerCase()
+          );
+
+          // Use the city information to get cruises if possible
+          if (cityInfo) {
+            const tourData = await getCruisesByLocation(cityInfo);
+            if (tourData && tourData.length > 0) {
+              setCruises(tourData);
+            } else {
+              // Fall back to direct city name lookup
+              const fallbackData = await getCruises(
+                decodeURIComponent(cityName)
+              );
+              setCruises(fallbackData);
+            }
+          } else {
+            // Direct lookup without city info
+            const tourData = await getCruises(decodeURIComponent(cityName));
+            setCruises(tourData);
+          }
         } catch (error) {
-          console.error("Failed to load tour data:", error);
+          console.error("Failed to load cruise data:", error);
         } finally {
           setLoading(false);
         }
@@ -215,6 +239,7 @@ export default function CityCruisesPage() {
 
       <section>
         <ContactDepartmentCard department="Ports & Itinerary Planning" />
+        <ContactDepartmentCard department="Shore Excursions & Transfers" />
       </section>
 
       <section className="space-y-4">
