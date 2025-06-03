@@ -1,3 +1,4 @@
+import { cityFiles } from "../constants/info/city";
 import {
   cruiseCategoryMap,
   cruiseCategoryPackages,
@@ -6,9 +7,11 @@ import { CrewMember } from "../interfaces/people/staff";
 import { Cruise } from "../interfaces/services/cruises";
 import { Location, Package, Resturant, ResturantMenu } from "../types/types";
 import {
+  formatKebabToCamelCase,
   formatKebebToTitleCase,
   formatTitleToCamelCase,
   formatToSlug,
+  normalizeString,
   removeAccents,
 } from "./format";
 
@@ -53,7 +56,6 @@ export function getRandomDatesFromNextWeek(
   return Array.from(dates);
 }
 
-
 /**
  * Retrieves a list of packages associated with a specific cruise category.
  *
@@ -69,8 +71,6 @@ export function getPackagesForCruiseCategory(category: string): Package[] {
   const packageIds = cruiseCategoryPackages[category] || [];
   return packageIds.map((id) => cruiseCategoryMap[id]).filter(Boolean);
 }
-
-
 
 /**
  * Retrieves crew member data for a specified city.
@@ -123,30 +123,6 @@ export async function getCrewMemberData(city: string): Promise<CrewMember[]> {
 }
 
 export async function getAllCities(): Promise<Location[]> {
-  // List of all city file names (without the .ts extension)
-  const cityFiles = [
-    "auckland",
-    "barcelona",
-    "buenos-aires",
-    "cape-town",
-    "dubai",
-    "fort-lauderdale",
-    "galveston",
-    "hong-kong",
-    "lisbon",
-    "los-angeles",
-    "miami",
-    "new-orleans",
-    "new-york-city",
-    "rome",
-    "seattle",
-    "singapore",
-    "southampton",
-    "sydney",
-    "tokyo",
-    "vancouver",
-  ];
-
   // Combined array for all cities
   const allCities: Location[] = [];
 
@@ -266,8 +242,6 @@ export async function getResturantsForCruise(
   }
 }
 
-
-
 /**
  * Asynchronously retrieves the menu for a specific restaurant on a given cruise.
  *
@@ -334,44 +308,43 @@ export async function getResturantMenu(
     return [];
   }
 
-  // First remove accents from the entire city name, then format it
+  // Format city name for the file path and variable name
   const cityWithoutAccents = removeAccents(cruise.departureLocation.city);
-  const cityFormatted =
-    cityWithoutAccents.replaceAll(" ", "-").charAt(0).toLowerCase() +
-    formatTitleToCamelCase(formatKebebToTitleCase(cityWithoutAccents.slice(1)))
-      .replace("'", "")
-      .replace("-", "");
+  const citySlug = formatToSlug(cityWithoutAccents.replace("'", "-"));
 
-  const menuID = `${cityFormatted}${formatTitleToCamelCase(
-    resturant.name
-  )}Menu`;
+  // Format restaurant name for the file path
+  const restaurantSlug = formatToSlug(resturant.name.replace("'", "-"));
+
+  // Format for variable name: cityInCamelCase + restaurantInCamelCase + Menu
+  // This needs to match the export variable naming convention in the files
+  const cityPrefix = citySlug.replace(/-/g, ""); // Remove hyphens for camelCase
+  const restaurantName = resturant.name.replace(/'/g, "").replace(/-/g, " ");
+  const restaurantCamel = formatTitleToCamelCase(restaurantName);
+
+  const menuID = `${cityPrefix}${restaurantCamel}Menu`;
+
   try {
+    // Import the module using kebab-case for the file path
     const menuModule = await import(
-      `@/lib/constants/cruises/resturants/${formatToSlug(
-        cityWithoutAccents.replace("'", "-")
-      )}/${formatToSlug(resturant.name.replace("'", "-"))}`
+      `@/lib/constants/cruises/resturants/${citySlug}/${restaurantSlug}`
     );
+
     // Return the specific named export that matches menuID
     if (menuModule[menuID]) {
       return menuModule[menuID] as ResturantMenu[];
     } else {
       console.error(
-        `Export named export const ${menuID}: ResturantMenu[] = []; not found in module`
+        `Export named '${menuID}' not found in module. Expected: export const ${menuID}: ResturantMenu[] = [];`
       );
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading resource from @/lib/constants/cruises/resturants/${formatToSlug(
-        cityWithoutAccents.replace("'", "-")
-      )}/${formatToSlug(
-        resturant.name.replace("'", "-")
-      )}: ${error} export const ${menuID}: ResturantMenu[] = [];`
+      `Error loading restaurant menu from @/lib/constants/cruises/resturants/${citySlug}/${restaurantSlug}: ${error}`
     );
     return [];
   }
 }
-
 
 /**
  * Asynchronously retrieves a list of cruises for a given city.
@@ -451,7 +424,6 @@ export async function getCruises(city: string): Promise<Cruise[]> {
   }
 }
 
-
 /**
  * Filters a list of cruises by a specified category ID.
  *
@@ -484,7 +456,6 @@ export function getCruisesByCategory(
   return filteredCruises;
 }
 
-
 /**
  * Asynchronously retrieves all cruise data by dynamically importing cruise information
  * from predefined city-specific files.
@@ -504,30 +475,6 @@ export function getCruisesByCategory(
  *          it may return an empty array.
  */
 export async function getAllCruises(): Promise<Cruise[]> {
-  // List of all city file names (without the .ts extension)
-  const cityFiles = [
-    "auckland",
-    "barcelona",
-    "buenos-aires",
-    "cape-town",
-    "dubai",
-    "fort-lauderdale",
-    "galveston",
-    "hong-kong",
-    "lisbon",
-    "los-angeles",
-    "miami",
-    "new-orleans",
-    "new-york-city",
-    "rome",
-    "seattle",
-    "singapore",
-    "southampton",
-    "sydney",
-    "tokyo",
-    "vancouver",
-  ];
-
   // Combined array for all cruises
   const allCruises: Cruise[] = [];
 
@@ -558,48 +505,23 @@ export async function getAllCruises(): Promise<Cruise[]> {
   return allCruises;
 }
 
-
 /**
  * Retrieves all team members from various city-specific modules and combines them into a single array.
- * 
+ *
  * This function dynamically imports modules containing crew member data for different cities,
  * aggregates the data, and returns a combined list of all crew members.
- * 
+ *
  * @async
  * @function
  * @returns {Promise<CrewMember[]>} A promise that resolves to an array of all crew members.
- * 
+ *
  * @throws {Error} If there is an issue importing a city-specific module, an error is logged to the console.
- * 
+ *
  * @example
  * const allTeamMembers = await getAllTeamMembers();
  * console.log(allTeamMembers);
  */
 export async function getAllTeamMembers(): Promise<CrewMember[]> {
-  // List of all city file names (without the .ts extension)
-  const cityFiles = [
-    "auckland",
-    "barcelona",
-    "buenos-aires",
-    "cape-town",
-    "dubai",
-    "fort-lauderdale",
-    "galveston",
-    "hong-kong",
-    "lisbon",
-    "los-angeles",
-    "miami",
-    "new-orleans",
-    "new-york-city",
-    "rome",
-    "seattle",
-    "singapore",
-    "southampton",
-    "sydney",
-    "tokyo",
-    "vancouver",
-  ];
-
   // Combined array for all team members
   const allCrewMembers: CrewMember[] = [];
 
@@ -628,4 +550,404 @@ export async function getAllTeamMembers(): Promise<CrewMember[]> {
   }
 
   return allCrewMembers;
+}
+
+/**
+ * Retrieves a combined list of restaurants from multiple city-specific modules.
+ *
+ * This function dynamically imports restaurant data from various city files located
+ * in the `@/lib/constants/cruises/resturants/` directory. Each city file is expected
+ * to export an array of restaurants named using the convention `<city>Resturants`.
+ *
+ * If a city's restaurant data is missing or invalid, a warning is logged. If an error
+ * occurs during the import process, it is caught and logged to the console.
+ *
+ * @async
+ * @function getAllResturants
+ * @returns {Promise<Resturant[]>} A promise that resolves to a combined array of all restaurants.
+ *
+ * @throws {Error} Logs an error if a city file cannot be imported or if the expected
+ * restaurant data is not found.
+ *
+ * @example
+ * const allRestaurants = await getAllResturants();
+ * console.log(allRestaurants);
+ */
+export async function getAllResturants(): Promise<Resturant[]> {
+  // Combined array for all restaurants
+  const allResturants: Resturant[] = [];
+
+  // Loop through each city file and import its restaurants
+  for (const city of cityFiles) {
+    try {
+      // Dynamic import of the restaurants file
+      const resturantsModule = await import(
+        `@/lib/constants/cruises/resturants/${removeAccents(city)}/resturants`
+      );
+
+      // Get the restaurants array using the city name + Resturants naming convention
+      const cityResturants = resturantsModule[`${city}Resturants`];
+
+      if (cityResturants && Array.isArray(cityResturants)) {
+        // Add all restaurants from this city to the combined array
+        allResturants.push(...cityResturants);
+      } else {
+        console.warn(
+          `No valid restaurants found for ${city} within @/lib/constants/cruises/resturants/${city}/resturants.ts`
+        );
+      }
+    } catch (error) {
+      console.error(`Error importing restaurants for ${city}:`, error);
+    }
+  }
+
+  return allResturants;
+}
+
+/**
+ * Asynchronously retrieves and aggregates restaurant menus from various city-specific modules.
+ *
+ * This function iterates over a predefined list of city names. For each city, it attempts
+ * to dynamically import a module located at `@/lib/constants/cruises/resturants/${city}/resturants`.
+ * It expects each module to export an array of `ResturantMenu` objects named `${city}ResturantMenus`.
+ *
+ * If a module is successfully imported and the expected array is found, its contents are
+ * added to a combined list of all restaurant menus.
+ *
+ * Warnings are logged to the console if a module is found but does not contain a valid
+ * restaurant menus array. Errors during the import process for any city are caught and
+ * logged to the console, but the function will continue to process other cities.
+ *
+ * @returns A promise that resolves to an array of `ResturantMenu` objects,
+ *          containing all menus found across all specified cities. If no menus are found
+ *          or errors occur for all cities, it will resolve to an empty array.
+ */
+export async function getAllResturantMenus(): Promise<ResturantMenu[]> {
+  // Combined array for all restaurant menus
+  const allResturantMenus: ResturantMenu[] = [];
+
+  // Loop through each city file and import its restaurant menus
+  for (const city of cityFiles) {
+    try {
+      // Dynamic import of the restaurant menus file
+      const resturantsModule = await import(
+        `@/lib/constants/cruises/resturants/${removeAccents(city)}/resturants`
+      );
+
+      // Get the restaurant menus array using the city name + Resturants naming convention
+      const cityResturantMenus = resturantsModule[`${city}ResturantMenus`];
+
+      if (cityResturantMenus && Array.isArray(cityResturantMenus)) {
+        // Add all restaurant menus from this city to the combined array
+        allResturantMenus.push(...cityResturantMenus);
+      } else {
+        console.warn(
+          `No valid restaurant menus found for ${city} within @/lib/constants/cruises/resturants/${city}/resturants.ts`
+        );
+      }
+    } catch (error) {
+      console.error(`Error importing restaurant menus for ${city}:`, error);
+    }
+  }
+
+  return allResturantMenus;
+}
+
+/**
+ * Retrieves all restaurants from a specified city.
+ *
+ * This function dynamically imports a module containing restaurant data based on the provided city name.
+ * It performs formatting and sanitization on the city name to ensure compatibility with the module path and export naming conventions.
+ *
+ * @param city - The name of the city to retrieve restaurants from. Must be a non-empty string.
+ * @returns A promise that resolves to an array of `Resturant` objects. Returns an empty array if the city name is invalid,
+ *          the module cannot be loaded, or the expected export is not found.
+ *
+ * @throws Will log an error if the city name is invalid, the module cannot be imported, or the expected export is not found.
+ *
+ * @example
+ * ```typescript
+ * const restaurants = await getAllResturantsFromCity("New York");
+ * console.log(restaurants);
+ * ```
+ */
+export async function getAllResturantsFromCity(
+  city: string
+): Promise<Resturant[]> {
+  if (!city || typeof city !== "string") {
+    console.error("Invalid city name provided:", city);
+    return [];
+  }
+
+  // First remove accents from the entire city name, then format it
+  const cityWithoutAccents = removeAccents(city);
+  const cityFormatted =
+    cityWithoutAccents.replaceAll(" ", "-").charAt(0).toLowerCase() +
+    formatTitleToCamelCase(formatKebebToTitleCase(cityWithoutAccents.slice(1)))
+      .replace("'", "")
+      .replace("-", "");
+
+  const resturantID = `${cityFormatted}Resturants`;
+  const sluggedCity = formatToSlug(cityWithoutAccents.replace("'", "-"));
+
+  try {
+    // Remove the extra "/resturants" at the end of the path
+    const resturantModule = await import(
+      `@/lib/constants/cruises/resturants/${sluggedCity}`
+    );
+
+    // Return the specific named export that matches resturantID
+    if (resturantModule[resturantID]) {
+      return resturantModule[resturantID];
+    } else {
+      console.error(`Export not found in module. Looking for: ${resturantID}`);
+      return [];
+    }
+  } catch (error) {
+    console.error(
+      `Error loading restaurant data: ${error}. Tried: @/lib/constants/cruises/resturants/${sluggedCity} with export ${resturantID}`
+    );
+    return [];
+  }
+}
+
+/**
+ * Retrieves all restaurant menus from a specified city.
+ *
+ * This function dynamically imports a module containing restaurant menu data
+ * based on the provided city name. It performs several transformations on the
+ * city name to ensure proper formatting and slug generation. If the module or
+ * the specific export is not found, it returns an empty array and logs an error.
+ *
+ * @param city - The name of the city to retrieve restaurant menus for. Must be a non-empty string.
+ * @returns A promise that resolves to an array of `ResturantMenu` objects. Returns an empty array if the city name is invalid or the data cannot be loaded.
+ *
+ * @throws Will log an error if the module cannot be imported or the expected export is not found.
+ *
+ * @example
+ * ```typescript
+ * const menus = await getAllResturantMenusFromCity("New York");
+ * console.log(menus);
+ * ```
+ */
+export async function getAllResturantMenusFromCity(
+  city: string
+): Promise<ResturantMenu[]> {
+  if (!city || typeof city !== "string") {
+    console.error("Invalid city name provided:", city);
+    return [];
+  }
+
+  // First remove accents from the entire city name, then format it
+  const cityWithoutAccents = removeAccents(city);
+  const cityFormatted =
+    cityWithoutAccents.replaceAll(" ", "-").charAt(0).toLowerCase() +
+    formatTitleToCamelCase(formatKebebToTitleCase(cityWithoutAccents.slice(1)))
+      .replace("'", "")
+      .replace("-", "");
+
+  const menuID = `${cityFormatted}ResturantMenus`;
+  const sluggedCity = formatToSlug(cityWithoutAccents.replace("'", "-"));
+
+  try {
+    const menuModule = await import(
+      `@/lib/constants/cruises/resturants/${sluggedCity}/resturants`
+    );
+    // Return the specific named export that matches menuID
+    if (menuModule[menuID]) {
+      return menuModule[menuID];
+    } else {
+      console.error(`Export not found in module. Looking for: ${menuID}`);
+      return [];
+    }
+  } catch (error) {
+    console.error(
+      `Error loading restaurant menu data: ${error}. Tried: @/lib/constants/cruises/resturants/${sluggedCity}/resturants with export ${menuID}`
+    );
+    return [];
+  }
+}
+
+/**
+ * Asynchronously retrieves all menu items for a given restaurant.
+ *
+ * This function takes a `Resturant` object, formats its name to derive a module path
+ * and a specific export name (e.g., "theWakeMenu" for a restaurant named "The Wake").
+ * It then dynamically imports the corresponding menu module from a predefined path
+ * (`@/lib/constants/cruises/resturants/`) and attempts to return the exported menu data.
+ *
+ * If the provided restaurant data is invalid (e.g., missing name), or if the module
+ * cannot be loaded, or if the specific menu export is not found within the module,
+ * an error is logged to the console, and an empty array is returned.
+ *
+ * @param resturant - The restaurant object, which must have a `name` property.
+ * @returns A promise that resolves to an array of `ResturantMenu` items.
+ *          Returns an empty array if an error occurs during the process or if data is not found.
+ *
+ * @example
+ * ```typescript
+ * const aResturant = { name: "The Wake", ...otherResturantProps };
+ * const menuItems = await getAllMenuItemsFromResturant(aResturant);
+ * if (menuItems.length > 0) {
+ *   console.log("Menu items:", menuItems);
+ * } else {
+ *   console.log("Could not retrieve menu items for The Wake.");
+ * }
+ * ```
+ */
+export async function getAllMenuItemsFromResturant(
+  resturant: Resturant
+): Promise<ResturantMenu[]> {
+  if (!resturant || !resturant.name) {
+    console.error("Invalid restaurant data provided");
+    return [];
+  }
+
+  // First remove accents from the entire restaurant name, then format it
+  const resturantWithoutAccents = removeAccents(resturant.name);
+  const resturantFormatted =
+    resturantWithoutAccents.replaceAll(" ", "-").charAt(0).toLowerCase() +
+    formatTitleToCamelCase(
+      formatKebebToTitleCase(resturantWithoutAccents.slice(1))
+    )
+      .replace("'", "")
+      .replace("-", "");
+
+  const menuID = `${resturantFormatted}Menu`;
+  const sluggedResturant = formatToSlug(
+    resturantWithoutAccents.replace("'", "-")
+  );
+
+  try {
+    const menuModule = await import(
+      `@/lib/constants/cruises/resturants/${sluggedResturant}`
+    );
+    // Return the specific named export that matches menuID
+    if (menuModule[menuID]) {
+      return menuModule[menuID];
+    } else {
+      console.error(`Export not found in module. Looking for: ${menuID}`);
+      return [];
+    }
+  } catch (error) {
+    console.error(
+      `Error loading restaurant menu data: ${error}. Tried: @/lib/constants/cruises/resturants/${sluggedResturant} with export ${menuID}`
+    );
+    return [];
+  }
+}
+
+/**
+ * Asynchronously retrieves the menu for a specific restaurant in a given city.
+ *
+ * This simplified function takes a city name and restaurant name directly as strings,
+ * rather than requiring full Cruise and Restaurant objects. It formats these names to
+ * derive the module path and export name, then dynamically imports the corresponding
+ * menu module.
+ *
+ * @param cityName - The name of the city where the restaurant is located.
+ * @param restaurantName - The name of the restaurant for which to retrieve the menu.
+ * @returns A promise that resolves to an array of `ResturantMenu` items if found,
+ *          otherwise resolves to an empty array.
+ *
+ * @example
+ * ```typescript
+ * const menuItems = await getResturantMenuByName("New York", "The Grand Dining");
+ * if (menuItems.length > 0) {
+ *   console.log("Menu items:", menuItems);
+ * } else {
+ *   console.log("Menu not found or an error occurred.");
+ * }
+ * ```
+ */
+export async function getResturantMenuByName(
+  cityName: string,
+  restaurantName: string
+): Promise<ResturantMenu[]> {
+  if (!cityName || typeof cityName !== "string") {
+    console.error("Invalid city name provided");
+    return [];
+  }
+
+  const cityWithoutAccents = formatToSlug(
+    removeAccents(cityName.replace("'", "-"))
+  );
+
+  if (!restaurantName || typeof restaurantName !== "string") {
+    console.error("Invalid restaurant name provided");
+    return [];
+  }
+
+  // Format city name for the file path and variable name
+  const citySlug = formatToSlug(cityWithoutAccents.replace("'", "-"));
+
+  // Format restaurant name for the file path
+  const restaurantSlug = formatToSlug(
+    normalizeString(removeAccents(restaurantName))
+      .replace(/'/g, "")
+      .replace(/-/g, " ")
+  );
+  // Format for variable name: cityInCamelCase + restaurantInCamelCase + Menu
+  const cityPrefix = formatKebabToCamelCase(citySlug).replace(/-/g, ""); // Remove hyphens for camelCase
+  const restaurantNameFormatted = restaurantName
+    .replace(/'/g, "")
+    .replace(/-/g, " ");
+  const restaurantCamel = formatTitleToCamelCase(restaurantNameFormatted);
+
+  const menuID = `${cityPrefix}${restaurantCamel}Menu`;
+
+  try {
+    // Import the module using kebab-case for the file path
+    const menuModule = await import(
+      `@/lib/constants/cruises/resturants/${citySlug}/${restaurantSlug}`
+    );
+
+    // Return the specific named export that matches menuID
+    if (menuModule[menuID]) {
+      return menuModule[menuID] as ResturantMenu[];
+    } else {
+      console.error(
+        `Export named '${menuID}' not found in module. Expected: export const ${menuID}: ResturantMenu[] = [];`
+      );
+      return [];
+    }
+  } catch (error) {
+    console.error(
+      `Error loading restaurant menu from @/lib/constants/cruises/resturants/${citySlug}/${restaurantSlug}: ${error}`
+    );
+    return [];
+  }
+}
+
+export async function getResturantArrayByName(
+  cityName: string,
+  cityAndResturant: string,
+  resturantName: string
+): Promise<Resturant[]> {
+  if (!cityAndResturant || typeof cityAndResturant !== "string") {
+    console.error("Invalid restaurant name provided");
+    return [];
+  }
+
+  const resturantFormatted = cityAndResturant.toLowerCase();
+
+  const resturantID = `${resturantFormatted}Menu`;
+
+  try {
+    const resturantModule = await import(
+      `@/lib/constants/cruises/resturants/${cityName}/${resturantName}`
+    );
+    // Return the specific named export that matches resturantID
+    if (resturantModule[resturantID]) {
+      return resturantModule[resturantID];
+    } else {
+      console.error(`Export not found in module. Looking for: ${resturantID}`);
+      return [];
+    }
+  } catch (error) {
+    console.error(
+      `Error loading restaurant data: ${error}. Tried: @/lib/constants/cruises/resturants/${resturantFormatted}/resturants with export ${resturantID}`
+    );
+    return [];
+  }
 }

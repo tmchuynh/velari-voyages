@@ -194,6 +194,13 @@ export function formatToSlug(str: string): string {
     .replace(/^-|-$/g, "");
 }
 
+export function formatCamelCaseToKebab(str: string): string {
+  return str
+    .replace(/([a-z])([A-Z])/g, "$1-$2") // Insert hyphen before uppercase letters
+    .replace(/([A-Z])([A-Z][a-z])/g, "$1-$2") // Handle cases like "HTMLParser"
+    .toLowerCase(); // Convert to lowercase
+}
+
 /**
  * Formats an array of language strings into a grammatically correct string.
  *
@@ -223,14 +230,14 @@ export const formatLanguages = (languages: string[]) => {
 
 /**
  * Converts a title string to camelCase format.
- * 
+ *
  * @param title - The string to convert to camelCase
  * @returns The camelCase formatted string
- * 
+ *
  * @example
  * // returns "helloWorld"
  * formatTitleToCamelCase("Hello World");
- * 
+ *
  * @example
  * // returns "thisIsATest"
  * formatTitleToCamelCase("This Is A Test");
@@ -267,8 +274,95 @@ export function formatTitleToCamelCase(title: string): string {
 export function removeAccents(str: string): string {
   // Normalize to decomposed form, which separates base characters from diacritical marks
   return str
+    .replaceAll(".", "")
+    .replaceAll("â", "a")
+    .replaceAll("Â", "A")
+    .replaceAll("ê", "e")
+    .replaceAll("Ê", "E")
+    .replaceAll("î", "i")
+    .replaceAll("Î", "I")
+    .replaceAll("ô", "o")
+    .replaceAll("Ô", "O")
+    .replaceAll("û", "u")
+    .replaceAll("Û", "U")
+    .replaceAll("ç", "c")
+    .replaceAll("Ç", "C")
+    .replaceAll("ñ", "n")
+    .replaceAll("Ñ", "N")
+    .replaceAll("ü", "u")
+    .replaceAll("Ü", "U")
+    .replaceAll("ß", "ss")
+    .replaceAll("á", "a")
+    .replaceAll("Á", "A")
+    .replaceAll("é", "e")
+    .replaceAll("É", "E")
+    .replaceAll("í", "i")
+    .replaceAll("Í", "I")
+    .replaceAll("ó", "o")
+    .replaceAll("Ó", "O")
+    .replaceAll("ú", "u")
+    .replaceAll("Ú", "U")
+    .replaceAll("ý", "y")
+    .replaceAll("Ý", "Y")
+    .replaceAll("à", "a")
+    .replaceAll("À", "A")
+    .replaceAll("è", "e")
+    .replaceAll("È", "E")
+    .replaceAll("ì", "i")
+    .replaceAll("Ì", "I")
+    .replaceAll("ò", "o")
+    .replaceAll("Ò", "O")
+    .replaceAll("ù", "u")
+    .replaceAll("Ù", "U")
+    .replaceAll("ä", "a")
+    .replaceAll("Ä", "A")
+    .replaceAll("ë", "e")
+    .replaceAll("Ë", "E")
+    .replaceAll("ï", "i")
+    .replaceAll("æ", "ae")
+    .replaceAll("Æ", "AE")
+    .replaceAll("ö", "o")
+    .replaceAll("Ö", "O")
+    .replaceAll("ü", "u")
+    .replaceAll("Ü", "U")
+    .replaceAll("ø", "o")
+    .replaceAll("Ø", "O")
+    .replaceAll("œ", "oe")
+    .replaceAll("Œ", "OE")
+    .replaceAll("š", "s")
+    .replaceAll("Š", "S")
+    .replaceAll("ž", "z")
+    .replaceAll("Ž", "Z")
+    .replaceAll("ç", "c")
+    .replaceAll("Ç", "C")
+    .replaceAll("ğ", "g")
+    .replaceAll("Ğ", "G")
+    .replaceAll("ş", "s")
+    .replaceAll("Ş", "S")
+    .replaceAll("ý", "y")
+    .replaceAll("Ý", "Y")
+    .replaceAll("ÿ", "y")
+    .replaceAll("Ÿ", "Y")
+    .replaceAll("ł", "l")
+    .replaceAll("Ł", "L")
+    .replaceAll("ń", "n")
+    .replaceAll("Ń", "N")
+    .replaceAll("ś", "s")
+    .replaceAll("Ś", "S")
+    .replaceAll("ź", "z")
+    .replaceAll("Ź", "Z")
+    .replaceAll("ż", "z")
+    .replaceAll("Ż", "Z")
     .replaceAll("đ", "d")
     .replaceAll("Đ", "D") // Remove all combining diacritical marks
     .normalize("NFD")
     .replace(/[\u0300-\u036F]/g, "");
+}
+
+export function normalizeString(str: string): string {
+  return removeAccents(str)
+    .replace(/[^a-zA-Z0-9\s]/g, "") // Remove special characters
+    .replace(/\s+/g, " ") // Replace multiple spaces with a single space
+    .trim() // Trim leading and trailing spaces
+    .toLowerCase(); // Convert to lowercase
 }
