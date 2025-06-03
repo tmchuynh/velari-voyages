@@ -48,7 +48,6 @@ export default function CruiseInformationPage() {
   const departureLocationCity = searchParams.get("departureLocationCity");
   const departureLocationCountry = searchParams.get("departureLocationCountry");
   const arrivalLocationCity = searchParams.get("arrivalLocationCity");
-  const arrivalLocationCountry = searchParams.get("arrivalLocationCountry");
   const cruise = searchParams.get("cruise");
   const category = searchParams.get("category");
   const [loading, setLoading] = useState(true);
@@ -111,7 +110,6 @@ export default function CruiseInformationPage() {
     departureLocationCity,
     departureLocationCountry,
     arrivalLocationCity,
-    arrivalLocationCountry,
     cruise,
     category,
   ]);
