@@ -888,34 +888,34 @@ export async function getRestaurantMenuByName(
   }
 }
 
-export async function getResturantArrayByName(
+export async function getRestaurantArrayByName(
   cityName: string,
-  cityAndResturant: string,
-  resturantName: string
-): Promise<Resturant[]> {
-  if (!cityAndResturant || typeof cityAndResturant !== "string") {
+  cityAndRestaurant: string,
+  restaurantName: string
+): Promise<Restaurant[]> {
+  if (!cityAndRestaurant || typeof cityAndRestaurant !== "string") {
     console.error("Invalid restaurant name provided");
     return [];
   }
 
-  const resturantFormatted = cityAndResturant.toLowerCase();
+  const restaurantFormatted = cityAndRestaurant.toLowerCase();
 
-  const resturantID = `${resturantFormatted}Menu`;
+  const restaurantID = `${restaurantFormatted}Menu`;
 
   try {
-    const resturantModule = await import(
-      `@/lib/constants/cruises/resturants/${cityName}/${resturantName}`
+    const restaurantModule = await import(
+      `@/lib/constants/cruises/restaurants/${cityName}/${restaurantName}`
     );
-    // Return the specific named export that matches resturantID
-    if (resturantModule[resturantID]) {
-      return resturantModule[resturantID];
+    // Return the specific named export that matches restaurantID
+    if (restaurantModule[restaurantID]) {
+      return restaurantModule[restaurantID];
     } else {
-      console.error(`Export not found in module. Looking for: ${resturantID}`);
+      console.error(`Export not found in module. Looking for: ${restaurantID}`);
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading restaurant data: ${error}. Tried: @/lib/constants/cruises/resturants/${resturantFormatted}/resturants with export ${resturantID}`
+      `Error loading restaurant data: ${error}. Tried: @/lib/constants/cruises/restaurants/${restaurantFormatted}/restaurants with export ${restaurantID}`
     );
     return [];
   }
