@@ -5,34 +5,70 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const dublintheDiningRoomTestimonials: Testimonial[] = [
   {
-    "quote": "The desserts at The Dining Room were absolutely amazing! The service was helpful and the atmosphere was welcoming. Highly recommend!",
-    "author": "David Wilson",
+    "quote": "The dishes at The Dining Room were absolutely impressive! The service was prompt and the atmosphere was welcoming. Highly recommend!",
+    "author": "Matthew Hernandez",
+    "title": "Dining Columnist",
+    "image": "/images/testimonials/person-4.jpg"
+  },
+  {
+    "quote": "The dishes at The Dining Room were absolutely perfect! The service was wonderful and the atmosphere was sophisticated. Highly recommend!",
+    "author": "Emma Moore",
+    "title": "Luxury Travel Consultant",
+    "image": "/images/testimonials/person-2.jpg"
+  },
+  {
+    "quote": "I can't say enough about the delectable food at The Dining Room. The professional service and warm ambiance made for a perfect night out.",
+    "author": "Lisa Garcia",
+    "title": "Luxury Travel Consultant"
+  },
+  {
+    "quote": "Our visit to The Dining Room was outstanding. The dishes were incredible, the staff knowledgeable, and the atmosphere charming. A must-visit!",
+    "author": "Ava Anderson",
     "title": "Cruise Traveler"
   },
   {
-    "quote": "Our visit to The Dining Room was outstanding. The dishes were perfect, the staff courteous, and the atmosphere stylish. A must-visit!",
-    "author": "Matthew Rodriguez",
-    "title": "Culinary Adventurer"
+    "quote": "The specialties at The Dining Room were absolutely fantastic! The service was professional and the atmosphere was relaxing. Highly recommend!",
+    "author": "Matthew Smith",
+    "title": "Restaurant Reviewer",
+    "image": "/images/testimonials/person-4.jpg"
   },
   {
-    "quote": "I can't say enough about the outstanding specialties at The Dining Room. The courteous service and vibrant ambiance made for a perfect night out.",
-    "author": "Sarah White",
-    "title": "Cruise Traveler"
+    "quote": "The entrees at The Dining Room were absolutely impressive! The service was friendly and the atmosphere was sophisticated. Highly recommend!",
+    "author": "Sarah Perez",
+    "title": "Travel Writer"
   },
   {
-    "quote": "The specialties at The Dining Room were absolutely great! The service was fantastic and the atmosphere was pleasant. Highly recommend!",
-    "author": "Matthew Martinez",
-    "title": "Culinary Adventurer",
-    "image": "/images/testimonials/person-9.jpg"
+    "quote": "I can't say enough about the impressive entrees at The Dining Room. The prompt service and elegant ambiance made for a perfect night out.",
+    "author": "Olivia Jones",
+    "title": "Food Critic",
+    "image": "/images/testimonials/person-11.jpg"
   },
   {
-    "quote": "What a superb dining experience at The Dining Room! The menu items exceeded our expectations, and the staff was outstanding. Will definitely return!",
-    "author": "Ava Davis",
+    "quote": "The Dining Room has the most delicious food I've ever tasted. The sophisticated atmosphere made our evening special, and the service was friendly.",
+    "author": "James Jones",
+    "title": "Gastronomy Enthusiast",
+    "image": "/images/testimonials/person-7.jpg"
+  },
+  {
+    "quote": "Our visit to The Dining Room was outstanding. The desserts were delectable, the staff superb, and the atmosphere vibrant. A must-visit!",
+    "author": "Sophia Taylor",
+    "title": "Gourmet Explorer",
+    "image": "/images/testimonials/person-11.jpg"
+  },
+  {
+    "quote": "The Dining Room has the most exceptional entrees I've ever tasted. The comfortable atmosphere made our evening special, and the service was exceptional.",
+    "author": "Emma Martinez",
+    "title": "Food Critic"
+  },
+  {
+    "quote": "Our visit to The Dining Room was outstanding. The entrees were superb, the staff impeccable, and the atmosphere appealing. A must-visit!",
+    "author": "Thomas Rodriguez",
     "title": "Culinary Expert"
   },
   {
-    "quote": "The Dining Room has the most perfect menu items I've ever tasted. The stylish atmosphere made our evening special, and the service was fantastic.",
-    "author": "David Wilson",
-    "title": "Cooking Aficionado"
+    "quote": "I can't say enough about the incredible food at The Dining Room. The friendly service and sophisticated ambiance made for a perfect night out.",
+    "author": "Sarah Davis",
+    "title": "Gourmet Explorer",
+    "image": "/images/testimonials/person-8.jpg"
   }
 ];
