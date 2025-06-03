@@ -4,7 +4,7 @@ import {
 } from "../constants/info/cruisePackages";
 import { CrewMember } from "../interfaces/people/staff";
 import { Cruise } from "../interfaces/services/cruises";
-import { Location, Package } from "../types/types";
+import { Location, Package, Resturant } from "../types/types";
 import {
   formatKebebToTitleCase,
   formatTitleToCamelCase,
@@ -105,6 +105,46 @@ export async function getCruisesByLocation(
   }
 
   return getCruises(cityInfo.city);
+}
+
+export async function getResturantsForCruise(
+  cruise: Cruise
+): Promise<Resturant[]> {
+  if (!cruise || !cruise.departureLocation || !cruise.departureLocation.city) {
+    console.error("Invalid cruise data provided");
+    return [];
+  }
+
+  // First remove accents from the entire city name, then format it
+  const cityWithoutAccents = removeAccents(cruise.departureLocation.city);
+  const cityFormatted =
+    cityWithoutAccents.replaceAll(" ", "-").charAt(0).toLowerCase() +
+    formatTitleToCamelCase(formatKebebToTitleCase(cityWithoutAccents.slice(1)))
+      .replace("'", "")
+      .replace("-", "");
+
+  const resturantID = `${cityFormatted}Resturants`;
+  try {
+    const resturantModule = await import(
+      `@/lib/constants/cruises/resturants/${formatToSlug(
+        cityWithoutAccents.replace("'", "-")
+      )}`
+    );
+    // Return the specific named export that matches resturantID
+    if (resturantModule[resturantID]) {
+      return resturantModule[resturantID] as Resturant[];
+    } else {
+      console.error(
+        `Export named export const ${resturantID}: Resturant[] =[]; not found in module`
+      );
+      return [];
+    }
+  } catch (error) {
+    console.error(
+      `Error loading resource from @/lib/constants/resturants: ${error} export const ${resturantID}: Resturant[] = [];`
+    );
+    return [];
+  }
 }
 
 export async function getCruises(city: string): Promise<Cruise[]> {
