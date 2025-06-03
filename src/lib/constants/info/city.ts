@@ -36,6 +36,7 @@ export const cruiseDepartureLocations: Location[] = [
     state: "California",
     country: "United States",
     region: "West Coast",
+    isPopular: true,
     coordinates: {
       latitude: 33.7381,
       longitude: -118.2775,
