@@ -33,7 +33,7 @@ export const navbarItems = [
     ],
   },
   {
-    label: "Destinations",
+    label: "Cruises",
     dropdown: [
       {
         label: "All Destinations",
@@ -46,6 +46,10 @@ export const navbarItems = [
       {
         label: "Types of Cruises",
         href: "/cruises/cruise-categories",
+      },
+      {
+        label: "Restaurants",
+        href: "/cruises/restaurants",
       },
     ],
   },
