@@ -447,15 +447,17 @@ export default function CrewMembers() {
                     <div className="p-5 border-tertiary border-b-2">
                       <h3 className="mb-1 font-bold text-xl">{member.name}</h3>
                     </div>
-                    {member.bio && <p>{member.bio}</p>}
-                    {member.experienceYears && (
-                      <strong className="mb-3 text-fancy text-sm">
-                        {member.experienceYears} Years Experience
-                      </strong>
-                    )}
-                    <div className="mb-4">
-                      <strong>Languages:</strong>
-                      <p className="text-sm">{member.languages.join(", ")}</p>
+                    <div className="flex flex-col gap-3 mt-3 px-6">
+                      {member.bio && <p>{member.bio}</p>}
+                      {member.experienceYears && (
+                        <strong className="mb-3 text-fancy text-sm">
+                          {member.experienceYears} Years Experience
+                        </strong>
+                      )}
+                      <div className="mb-4">
+                        <strong>Languages:</strong>
+                        <p className="text-sm">{member.languages.join(", ")}</p>
+                      </div>
                     </div>
                     <Image
                       src={member.profileImage || "/images/default-avatar.png"}
