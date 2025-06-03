@@ -1,6 +1,5 @@
 const fs = require("fs");
 const path = require("path");
-const { execSync } = require("child_process");
 
 // Function to convert kebab case to camelCase for variable naming
 function toCamelCase(str) {
@@ -26,14 +25,50 @@ if (!fs.existsSync(baseDir)) {
   console.log(`Created base directory: ${baseDir}`);
 }
 
-// Get a list of all city folders
-let cityFolders = [];
-try {
-  cityFolders = fs.readdirSync(baseDir);
-} catch (error) {
-  console.error(`Error reading directory ${baseDir}:`, error);
-  process.exit(1);
-}
+// List of cities from cityFiles array
+const cityFiles = [
+  "auckland",
+  "amsterdam",
+  "barcelona",
+  "berlin",
+  "boston",
+  "buenos-aires",
+  "cape-town",
+  "charleston",
+  "copenhagen",
+  "dubai",
+  "dublin",
+  "florence",
+  "fort-lauderdale",
+  "galveston",
+  "hong-kong",
+  "kyoto",
+  "lisbon",
+  "london",
+  "los-angeles",
+  "melbourne",
+  "miami",
+  "milan",
+  "montreal",
+  "new-orleans",
+  "new-york-city",
+  "paris",
+  "quebec-city",
+  "rio-de-janeiro",
+  "rome",
+  "san-francisco",
+  "san-juan",
+  "seattle",
+  "singapore",
+  "southampton",
+  "sydney",
+  "tampa",
+  "tokyo",
+  "toronto",
+  "vancouver",
+  "venice",
+  "yokohama",
+];
 
 // Template for the restaurant file content
 function getRestaurantFileContent(cityName) {
@@ -44,25 +79,19 @@ export const ${camelCaseCityName}Resturants: Resturant[] = [];
 `;
 }
 
-// Create resturants.ts file in each city folder
-cityFolders.forEach((folderName) => {
-  const folderPath = path.join(baseDir, folderName);
-
-  // Check if it's a directory
-  if (fs.existsSync(folderPath) && fs.statSync(folderPath).isDirectory()) {
-    const restaurantFilePath = path.join(folderPath, "resturants.ts");
-
-    // Create the restaurant file if it doesn't exist
-    if (!fs.existsSync(restaurantFilePath)) {
-      fs.writeFileSync(
-        restaurantFilePath,
-        getRestaurantFileContent(folderName)
-      );
-      console.log(`Created file: ${restaurantFilePath}`);
-    } else {
-      console.log(`File already exists: ${restaurantFilePath}`);
-    }
+// Create folders and restaurant files for each city
+cityFiles.forEach((cityName) => {
+  // Create the city folder if it doesn't exist
+  const cityFolderPath = path.join(baseDir, cityName);
+  if (!fs.existsSync(cityFolderPath)) {
+    fs.mkdirSync(cityFolderPath, { recursive: true });
+    console.log(`Created folder: ${cityFolderPath}`);
   }
+
+  // Create the restaurant file in the city folder
+  const restaurantFilePath = path.join(cityFolderPath, "resturants.ts");
+  fs.writeFileSync(restaurantFilePath, getRestaurantFileContent(cityName));
+  console.log(`Created/Updated file: ${restaurantFilePath}`);
 });
 
 console.log("All restaurant files created successfully!");
