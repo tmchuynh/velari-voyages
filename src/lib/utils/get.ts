@@ -629,20 +629,20 @@ export async function getAllRestaurantMenus(): Promise<RestaurantMenu[]> {
  * It performs formatting and sanitization on the city name to ensure compatibility with the module path and export naming conventions.
  *
  * @param city - The name of the city to retrieve restaurants from. Must be a non-empty string.
- * @returns A promise that resolves to an array of `Resturant` objects. Returns an empty array if the city name is invalid,
+ * @returns A promise that resolves to an array of `Restaurant` objects. Returns an empty array if the city name is invalid,
  *          the module cannot be loaded, or the expected export is not found.
  *
  * @throws Will log an error if the city name is invalid, the module cannot be imported, or the expected export is not found.
  *
  * @example
  * ```typescript
- * const restaurants = await getAllResturantsFromCity("New York");
+ * const restaurants = await getAllRestaurantsFromCity("New York");
  * console.log(restaurants);
  * ```
  */
-export async function getAllResturantsFromCity(
+export async function getAllRestaurantsFromCity(
   city: string
-): Promise<Resturant[]> {
+): Promise<Restaurant[]> {
   if (!city || typeof city !== "string") {
     console.error("Invalid city name provided:", city);
     return [];
@@ -656,25 +656,25 @@ export async function getAllResturantsFromCity(
       .replace("'", "")
       .replace("-", "");
 
-  const resturantID = `${cityFormatted}Resturants`;
+  const restaurantID = `${cityFormatted}Restaurants`;
   const sluggedCity = formatToSlug(cityWithoutAccents.replace("'", "-"));
 
   try {
-    // Remove the extra "/resturants" at the end of the path
-    const resturantModule = await import(
-      `@/lib/constants/cruises/resturants/${sluggedCity}`
+    // Remove the extra "/restaurants" at the end of the path
+    const restaurantModule = await import(
+      `@/lib/constants/cruises/restaurants/${sluggedCity}/restaurants`
     );
 
-    // Return the specific named export that matches resturantID
-    if (resturantModule[resturantID]) {
-      return resturantModule[resturantID];
+    // Return the specific named export that matches restaurantID
+    if (restaurantModule[restaurantID]) {
+      return restaurantModule[restaurantID];
     } else {
-      console.error(`Export not found in module. Looking for: ${resturantID}`);
+      console.error(`Export not found in module. Looking for: ${restaurantID}`);
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading restaurant data: ${error}. Tried: @/lib/constants/cruises/resturants/${sluggedCity} with export ${resturantID}`
+      `Error loading restaurant data: ${error}. Tried: @/lib/constants/cruises/restaurants/${sluggedCity}/restaurants with export ${restaurantID}`
     );
     return [];
   }
