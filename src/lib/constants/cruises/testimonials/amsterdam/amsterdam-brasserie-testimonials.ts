@@ -5,36 +5,68 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const amsterdamamsterdamBrasserieTestimonials: Testimonial[] = [
   {
-    "quote": "Our visit to Amsterdam Brasserie was outstanding. The desserts were fantastic, the staff knowledgeable, and the atmosphere vibrant. A must-visit!",
-    "author": "Elizabeth Garcia",
-    "title": "Travel Writer",
-    "image": "/images/testimonials/person-6.jpg"
+    "quote": "The menu items at Amsterdam Brasserie were absolutely outstanding! The service was attentive and the atmosphere was relaxing. Highly recommend!",
+    "author": "William Hernandez",
+    "title": "Culinary Expert"
   },
   {
-    "quote": "Our visit to Amsterdam Brasserie was outstanding. The desserts were amazing, the staff attentive, and the atmosphere welcoming. A must-visit!",
-    "author": "William Martin",
+    "quote": "Our visit to Amsterdam Brasserie was outstanding. The flavors were delightful, the staff friendly, and the atmosphere warm. A must-visit!",
+    "author": "Sarah Taylor",
+    "title": "Food Critic"
+  },
+  {
+    "quote": "Our visit to Amsterdam Brasserie was outstanding. The menu items were marvelous, the staff knowledgeable, and the atmosphere charming. A must-visit!",
+    "author": "David Perez",
     "title": "Dining Columnist",
+    "image": "/images/testimonials/person-3.jpg"
+  },
+  {
+    "quote": "Our visit to Amsterdam Brasserie was outstanding. The menu items were superb, the staff superb, and the atmosphere relaxing. A must-visit!",
+    "author": "Maria Moore",
+    "title": "Food Journalist",
+    "image": "/images/testimonials/person-10.jpg"
+  },
+  {
+    "quote": "What a exceptional dining experience at Amsterdam Brasserie! The entrees exceeded our expectations, and the staff was impeccable. Will definitely return!",
+    "author": "Matthew Garcia",
+    "title": "Travel Writer"
+  },
+  {
+    "quote": "I can't say enough about the great entrees at Amsterdam Brasserie. The superb service and sophisticated ambiance made for a perfect night out.",
+    "author": "Daniel Thompson",
+    "title": "Food & Wine Connoisseur",
     "image": "/images/testimonials/person-2.jpg"
   },
   {
-    "quote": "What a delicious dining experience at Amsterdam Brasserie! The specialties exceeded our expectations, and the staff was wonderful. Will definitely return!",
-    "author": "Daniel Anderson",
-    "title": "Restaurant Enthusiast"
+    "quote": "I can't say enough about the delightful food at Amsterdam Brasserie. The outstanding service and inviting ambiance made for a perfect night out.",
+    "author": "Maria White",
+    "title": "Dining Columnist",
+    "image": "/images/testimonials/person-9.jpg"
   },
   {
-    "quote": "What a fantastic dining experience at Amsterdam Brasserie! The appetizers exceeded our expectations, and the staff was attentive. Will definitely return!",
-    "author": "Emma White",
-    "title": "Culinary Adventurer"
+    "quote": "Our visit to Amsterdam Brasserie was outstanding. The flavors were marvelous, the staff courteous, and the atmosphere sophisticated. A must-visit!",
+    "author": "Michael Martinez",
+    "title": "Restaurant Reviewer"
   },
   {
-    "quote": "The food at Amsterdam Brasserie were absolutely wonderful! The service was courteous and the atmosphere was pleasant. Highly recommend!",
-    "author": "David Johnson",
-    "title": "Restaurant Enthusiast",
-    "image": "/images/testimonials/person-1.jpg"
+    "quote": "Amsterdam Brasserie has the most delicious flavors I've ever tasted. The intimate atmosphere made our evening special, and the service was excellent.",
+    "author": "Elizabeth Hernandez",
+    "title": "Dining Columnist"
   },
   {
-    "quote": "Our visit to Amsterdam Brasserie was outstanding. The flavors were fantastic, the staff superb, and the atmosphere warm. A must-visit!",
-    "author": "Thomas Garcia",
-    "title": "Restaurant Enthusiast"
+    "quote": "Amsterdam Brasserie has the most perfect flavors I've ever tasted. The charming atmosphere made our evening special, and the service was courteous.",
+    "author": "Sophia Moore",
+    "title": "Travel Blogger"
+  },
+  {
+    "quote": "What a delectable dining experience at Amsterdam Brasserie! The cuisine exceeded our expectations, and the staff was courteous. Will definitely return!",
+    "author": "Maria Martin",
+    "title": "Gastronomy Enthusiast",
+    "image": "/images/testimonials/person-2.jpg"
+  },
+  {
+    "quote": "What a delicious dining experience at Amsterdam Brasserie! The flavors exceeded our expectations, and the staff was wonderful. Will definitely return!",
+    "author": "Jennifer White",
+    "title": "Luxury Travel Consultant"
   }
 ];
