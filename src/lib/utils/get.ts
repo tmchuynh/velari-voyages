@@ -764,32 +764,32 @@ export async function getAllRestaurantMenusFromCity(
  * }
  * ```
  */
-export async function getAllMenuItemsFromResturant(
-  resturant: Resturant
-): Promise<ResturantMenu[]> {
-  if (!resturant || !resturant.name) {
+export async function getAllMenuItemsFromRestaurant(
+  restaurant: Restaurant
+): Promise<RestaurantMenu[]> {
+  if (!restaurant || !restaurant.name) {
     console.error("Invalid restaurant data provided");
     return [];
   }
 
   // First remove accents from the entire restaurant name, then format it
-  const resturantWithoutAccents = removeAccents(resturant.name);
-  const resturantFormatted =
-    resturantWithoutAccents.replaceAll(" ", "-").charAt(0).toLowerCase() +
+  const restaurantWithoutAccents = removeAccents(restaurant.name);
+  const restaurantFormatted =
+    restaurantWithoutAccents.replaceAll(" ", "-").charAt(0).toLowerCase() +
     formatTitleToCamelCase(
-      formatKebebToTitleCase(resturantWithoutAccents.slice(1))
+      formatKebebToTitleCase(restaurantWithoutAccents.slice(1))
     )
       .replace("'", "")
       .replace("-", "");
 
-  const menuID = `${resturantFormatted}Menu`;
-  const sluggedResturant = formatToSlug(
-    resturantWithoutAccents.replace("'", "-")
+  const menuID = `${restaurantFormatted}Menu`;
+  const sluggedRestaurant = formatToSlug(
+    restaurantWithoutAccents.replace("'", "-")
   );
 
   try {
     const menuModule = await import(
-      `@/lib/constants/cruises/resturants/${sluggedResturant}`
+      `@/lib/constants/cruises/restaurants/${sluggedRestaurant}`
     );
     // Return the specific named export that matches menuID
     if (menuModule[menuID]) {
@@ -800,7 +800,7 @@ export async function getAllMenuItemsFromResturant(
     }
   } catch (error) {
     console.error(
-      `Error loading restaurant menu data: ${error}. Tried: @/lib/constants/cruises/resturants/${sluggedResturant} with export ${menuID}`
+      `Error loading restaurant menu data: ${error}. Tried: @/lib/constants/cruises/restaurants/${sluggedRestaurant} with export ${menuID}`
     );
     return [];
   }
