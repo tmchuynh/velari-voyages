@@ -118,13 +118,7 @@ export type Resturant = {
   rating: number;
   openingHours?: string;
   contactInfo?: ContactInfo;
-  menu?: {
-    items: {
-      name: string;
-      description: string;
-      price: number;
-    }[];
-  };
+  menu?: ResturantMenu;
   images?: string[];
   tags?: string[];
   isVegetarianFriendly?: boolean;
@@ -133,8 +127,28 @@ export type Resturant = {
   isHalalFriendly?: boolean;
   isKosherFriendly?: boolean;
   isFineDining?: boolean;
+  isAdultOnly?: boolean;
   isIndoorSeating?: boolean;
   isReservationsAccepted?: boolean;
   isRomantic?: boolean;
   isPopular?: boolean;
+};
+
+export type ResturantMenu = {
+  title: string;
+  description: string;
+  category: {
+    name: string;
+    items: {
+      name: string;
+      description: string;
+      price: number;
+      imageUrl?: string;
+      isVegetarian?: boolean;
+      isVegan?: boolean;
+      isGlutenFree?: boolean;
+      isHalal?: boolean;
+      isKosher?: boolean;
+    }[];
+  };
 };
