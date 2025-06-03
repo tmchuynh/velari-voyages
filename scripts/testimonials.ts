@@ -1,9 +1,10 @@
+import { cityFiles } from "@/lib/constants/info/city";
 import fs from "fs";
 import path from "path";
 import { Testimonial } from "../src/lib/interfaces/services/testimonials";
-import { Resturant, ResturantMenu } from "../src/lib/types/types";
+import { Restaurant, RestaurantMenu } from "../src/lib/types/types";
 import { formatKebabToCamelCase, removeAccents } from "../src/lib/utils/format";
-import { getAllResturantMenus } from "../src/lib/utils/get";
+import { getAllRestaurantMenus } from "../src/lib/utils/get";
 // Import restaurant menus from constants
 async function importMenus() {
   const menuPath = path.join(
@@ -12,53 +13,30 @@ async function importMenus() {
     "lib",
     "constants",
     "cruises",
-    "resturants"
+    "restaurants"
   );
-  const restaurants: Resturant = {
+  const restaurants: Restaurant = {
     name: "",
     description: "",
     cuisine: "Afghan",
     priceRange: "$$",
     rating: 0,
   };
-  // Example of how we'll dynamically import all restaurants
-  const cityFiles = [
-    "auckland",
-    "barcelona",
-    "buenos-aires",
-    "cape-town",
-    "dubai",
-    "fort-lauderdale",
-    "galveston",
-    "hong-kong",
-    "lisbon",
-    "los-angeles",
-    "miami",
-    "new-orleans",
-    "new-york-city",
-    "rome",
-    "seattle",
-    "singapore",
-    "southampton",
-    "sydney",
-    "tokyo",
-    "vancouver",
-  ];
 
-  const allResturantMenus: ResturantMenu[] = [];
+  const allRestaurantMenus: RestaurantMenu[] = [];
   for (const location of cityFiles) {
     try {
       const menuModule = await import(
-        "../src//constants/cruises/resturants/" + location
+        "../src//constants/cruises/restaurants/" + location
       );
 
       const menuConstant =
         menuModule[
-          `${formatKebabToCamelCase(removeAccents(location))}Resturants`
+          `${formatKebabToCamelCase(removeAccents(location))}Restaurants`
         ];
 
       if (Array.isArray(menuConstant)) {
-        allResturantMenus.push(...menuConstant);
+        allRestaurantMenus.push(...menuConstant);
       } else {
         console.warn(`No valid restaurant data found for ${location}`);
       }
@@ -66,7 +44,7 @@ async function importMenus() {
       console.error(`Error importing restaurant data for ${location}:`, error);
     }
   }
-  return allResturantMenus;
+  return allRestaurantMenus;
 }
 
 // Generate a random first name, middle initial, and last name
@@ -198,7 +176,7 @@ function formatRestaurantName(constName: string): string {
 }
 // Extract all menu items from a restaurant menu
 function extractMenuItems(
-  menu: ResturantMenu[]
+  menu: RestaurantMenu[]
 ): { name: string; category: string }[] {
   const items: { name: string; category: string }[] = [];
   menu.forEach((section) => {
@@ -228,7 +206,7 @@ async function generateTestimonials(
   count: number = 5
 ): Promise<Record<string, Testimonial[]>> {
   try {
-    const restaurants = await getAllResturantMenus();
+    const restaurants = await getAllRestaurantMenus();
 
     const mockData = {
       aucklandCassia: [
@@ -318,7 +296,7 @@ async function generateTestimonials(
     return {}; // Return an empty object in case of error
   }
 }
-// Function to extract restaurant names from a resturants.ts file
+// Function to extract restaurant names from a restaurants.ts file
 // function extractRestaurantNames(filePath: fs.PathOrFileDescriptor) {
 //   try {
 //     const content = fs.readFileSync(filePath, "utf8");
