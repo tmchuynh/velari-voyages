@@ -112,13 +112,13 @@ export async function getCruises(city: string): Promise<any> {
       return cruiseModule[cruiseID];
     } else {
       console.error(
-        `Export named export const ${cruiseID}: Cruise[] =[]; not found in module`
+        `Export named export const ${cruiseID}: Cruise[] = []; not found in module`
       );
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading resource from @/lib/constants/tours: ${error} export const ${cruiseID}: Tour[] = [];`
+      `Error loading resource from @/lib/constants/cruises: ${error} export const ${cruiseID}: Cruise[] = [];`
     );
     return [];
   }

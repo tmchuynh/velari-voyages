@@ -16,7 +16,13 @@ import {
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
 import { cruiseDepartureLocations } from "@/lib/constants/info/city";
-import { formatNumberToCurrency } from "@/lib/utils/format";
+import {
+  capitalize,
+  formatKebebToTitleCase,
+  formatNumberToCurrency,
+  formatTitleToCamelCase,
+  removeAccents,
+} from "@/lib/utils/format";
 // import { Cruise } from "@/lib/interfaces/services/cruises"; // Cruise type becomes unused if filters/cruises logic is commented
 import { getCruises } from "@/lib/utils/get";
 import { /*useRouter,*/ useSearchParams } from "next/navigation"; // useRouter becomes unused
@@ -45,11 +51,37 @@ export default function CityCruisesPage() {
     tourCategoryId: "all",
   });
 
+  const cityWithoutAccents = removeAccents(city);
+  const cityFormatted =
+    cityWithoutAccents.replaceAll(" ", "-").charAt(0).toLowerCase() +
+    formatTitleToCamelCase(formatKebebToTitleCase(cityWithoutAccents.slice(1)))
+      .replace("'", "")
+      .replace("-", "");
+
+  const cruiseID = `${cityFormatted}Cruises`;
+
+  console.log("City:", city);
+  console.log("Country:", country);
+  console.log("Search Params:", searchParams.toString());
+
+  console.log(
+    `Loading cruises for city: export const ${cruiseID}: Cruise[] = []`
+  );
+  console.log(
+    `Importing from: @/lib/constants/cruises/${formatKebebToTitleCase(
+      city || ""
+    )}`
+  );
+  console.log("Constant name:", `export const ${city}Cruises: Cruise[] = [];`);
+
   const cityInfo = cruiseDepartureLocations.find(
     (attraction) =>
       attraction.city.toLowerCase() ===
-      (Array.isArray(city) ? city[0] : city).toLowerCase()
+      formatKebebToTitleCase(city || "")?.toLowerCase()
   );
+
+  console.log("City Info:", cityInfo);
+  console.log("Cruises:", cruises);
 
   useEffect(() => {
     async function loadTours() {
@@ -84,6 +116,15 @@ export default function CityCruisesPage() {
   // leading to "unused variable" errors.
 
   const filterOptions = useMemo(() => {
+    if (!cruises.length)
+      return {
+        rating: 0,
+        categories: [],
+        tags: [],
+        tourCategoryId: "all",
+        prices: { min: 0, max: 0 },
+      };
+
     const categories = [...new Set(cruises.map((tour) => tour.tourCategoryId))];
     const allTags = new Set<string>();
     cruises.forEach((tour) =>
@@ -98,15 +139,22 @@ export default function CityCruisesPage() {
       categories,
       tags: Array.from(allTags),
       prices: {
-        min:
-          currentCruisePrices.length > 0 ? Math.min(...currentCruisePrices) : 0,
-        max:
-          currentCruisePrices.length > 0
-            ? Math.max(...currentCruisePrices)
-            : 1500,
+        min: Math.min(...currentCruisePrices),
+        max: Math.max(...currentCruisePrices),
       },
     };
   }, [cruises]);
+
+  // Add useEffect to update filters when cruise data is loaded
+  useEffect(() => {
+    if (filterOptions.prices.max > 0) {
+      setFilters((prev) => ({
+        ...prev,
+        minPrice: filterOptions.prices.min,
+        maxPrice: filterOptions.prices.max,
+      }));
+    }
+  }, [filterOptions.prices.min, filterOptions.prices.max]);
 
   const handleFilterChange = (filterType: string, value: any) => {
     setFilters((prev) => ({ ...prev, [filterType]: value }));
@@ -329,7 +377,7 @@ export default function CityCruisesPage() {
                           htmlFor={`tag-${tag}`}
                           className="cursor-pointer"
                         >
-                          {tag}
+                          {capitalize(tag)}
                         </Label>
                       </div>
                     ))}
