@@ -1,5 +1,6 @@
 "use client";
 
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { cruiseDepartureLocations } from "@/lib/constants/info/city";
@@ -122,19 +123,35 @@ export default function HomePage() {
               {sortedDestinations.map((trail, index) => (
                 <Card
                   key={index}
-                  className="shadow-lg hover:shadow-xl p-6 rounded-lg transition-shadow"
+                  className="shadow-lg hover:shadow-xl p-6 rounded-lg min-h-[12rem] transition-shadow"
                 >
-                  <CardContent>
-                    <h3 className="font-semibold text-xl">{trail.city}</h3>
-                    <p className="text-muted-foreground text-sm">
-                      {trail.state}, {trail.country}
-                    </p>
-                    <p className="mt-2">{trail.subtitle}</p>
+                  <CardContent className="relative flex flex-col justify-center items-center h-full">
+                    {trail.isPopular && (
+                      <Badge className="top-1 right-1 absolute uppercase">
+                        popular
+                      </Badge>
+                    )}
+                    <h3>
+                      {trail.city}, {trail.country}
+                    </h3>
+                    {trail.quote && <p>{trail.quote}</p>}
+                    {trail.subtitle && <p className="mt-2">{trail.subtitle}</p>}
                     {trail.quote && (
                       <blockquote className="mt-4 italic">
                         "{trail.quote}"
                       </blockquote>
                     )}
+
+                    <Button
+                      className="mt-4"
+                      onClick={() =>
+                        router.push(
+                          `/cruises/cruise-categories/velari-voyages-cruises/${trail.country}/${trail.city}?city=${trail.city}&country=${trail.country}`
+                        )
+                      }
+                    >
+                      Explore {trail.city}
+                    </Button>
                   </CardContent>
                 </Card>
               ))}
