@@ -13,6 +13,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { cruiseDepartureLocations } from "@/lib/constants/info/city";
 import { Cruise } from "@/lib/interfaces/services/cruises";
 import { getAllCruises } from "@/lib/utils/get";
 import { groupAndSortByProperties } from "@/lib/utils/sort";
@@ -32,14 +33,7 @@ export default function Cruises() {
       try {
         const data = await getAllCruises();
         // Process cruises to set hasPopularDestination flag
-        const processedData = data.map((cruise) => ({
-          ...cruise,
-          hasPopularDestination:
-            cruise.departureLocation?.isPopular ||
-            cruise.arrivalLocation?.isPopular ||
-            false,
-        }));
-        setAllCruises(processedData);
+        setAllCruises(data);
       } catch (error) {
         console.error("Failed to load affirmation cards:", error);
       } finally {
@@ -50,27 +44,16 @@ export default function Cruises() {
     fetchCruises();
   }, []);
 
-  // Filter destinations based on search
-  const filteredDestinations = allCruises.filter((item) => {
+  // Filter destinations based on search  const filteredDestinations = cityattractions.filter((item) => {
+  const filteredDestinations = cruiseDepartureLocations.filter((item) => {
     if (!searchQuery.trim()) return true;
 
     const query = searchQuery.toLowerCase();
     return (
-      item.departureLocation.city.toLowerCase().includes(query) ||
-      item.departureLocation.country.toLowerCase().includes(query) ||
-      (item.departureLocation.region &&
-        item.departureLocation.region.toLowerCase().includes(query)) ||
-      (item.departureLocation.state &&
-        item.departureLocation.state.toLowerCase().includes(query)) ||
-      item.arrivalLocation.city.toLowerCase().includes(query) ||
-      item.arrivalLocation.country.toLowerCase().includes(query) ||
-      (item.arrivalLocation.region &&
-        item.arrivalLocation.region.toLowerCase().includes(query)) ||
-      (item.arrivalLocation.state &&
-        item.arrivalLocation.state.toLowerCase().includes(query)) ||
-      item.category.toLowerCase().includes(query) ||
-      item.title.toLowerCase().includes(query) ||
-      item.tags?.some((tag) => tag.toLowerCase().includes(query))
+      item.city.toLowerCase().includes(query) ||
+      item.country.toLowerCase().includes(query) ||
+      (item.region && item.region.toLowerCase().includes(query)) ||
+      (item.state && item.state.toLowerCase().includes(query))
     );
   });
 
@@ -80,8 +63,8 @@ export default function Cruises() {
   // First sort by the selected criterion (city or country)
   const sortedDestinations = groupAndSortByProperties(
     filteredDestinations,
-    sortBy as keyof (typeof allCruises)[0],
-    secondarySortField as keyof (typeof allCruises)[0],
+    sortBy as keyof (typeof cruiseDepartureLocations)[0],
+    secondarySortField as keyof (typeof cruiseDepartureLocations)[0],
     true,
     false,
     false,
@@ -143,7 +126,8 @@ export default function Cruises() {
       </header>
 
       <section>
-        <ContactDepartmentCard department="Reservations & Booking" />
+        <ContactDepartmentCard department="Ports & Itinerary Planning" />
+        <ContactDepartmentCard department="Shore Excursions & Transfers" />
       </section>
 
       <div className="space-y-4 mb-8">
@@ -207,26 +191,22 @@ export default function Cruises() {
             className="group relative shadow-md hover:shadow-lg p-6 border border-border rounded-lg transition-shadow duration-300 overflow-hidden"
           >
             <h2
-              className="w-2/3 font-semibold text-2xl underline-offset-2 hover:underline"
+              className="w-2/3 font-semibold text-2xl underline-offset-2 hover:underline cursor-pointer"
               onClick={() => {
                 // Use query parameters instead of path parameters
                 const queryParams = new URLSearchParams({
-                  departureLocationCity: item.departureLocation.city,
-                  departureLocationCountry: item.departureLocation.country,
-                  arrivalLocationCity: item.arrivalLocation.city,
-                  arrivalLocationCountry: item.arrivalLocation.country,
-                  cruise: item.title,
-                  category: item.category,
+                  departureLocationCity: item.city,
+                  departureLocationCountry: item.country,
                 });
 
                 router.push(
                   `/cruises/cruise-categories/velari-voyages-cruises/cruise/${
-                    item.title
+                    item.city
                   }?${queryParams.toString()}`
                 );
               }}
             >
-              {item.title}
+              {item.city}
             </h2>
 
             {item.isPopular && (
@@ -244,11 +224,11 @@ export default function Cruises() {
               className="mt-7"
               onClick={() =>
                 router.push(
-                  `/cruises/cruise-categories/velari-voyages-cruises/${item.departureLocation.country}/${item.departureLocation.city}?city=${item.departureLocation.city}&country=${item.departureLocation.country}`
+                  `/cruises/cruise-categories/velari-voyages-cruises/${item.country}/${item.city}?city=${item.city}&country=${item.country}`
                 )
               }
             >
-              View Tours
+              View All Cruises
             </Button>
           </div>
         ))}
