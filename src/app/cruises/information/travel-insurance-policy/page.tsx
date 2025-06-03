@@ -243,7 +243,7 @@ export default function TravelInsurance() {
             <li>List of inclusions and exclusions</li>
           </ul>
 
-          <ContactDepartmentCard department="Emergency Travel Support" />
+          <ContactDepartmentCard department="Insurance, Claims & Post-Voyage Support" />
           <p>
             Send to:{" "}
             <a
@@ -296,7 +296,7 @@ export default function TravelInsurance() {
             </li>
           </ul>
 
-          <ContactDepartmentCard department="Onboard Medical Services" />
+          <ContactDepartmentCard department="Emergency Cruise Support" />
         </section>
 
         {/* FAQ Section */}
@@ -338,7 +338,8 @@ export default function TravelInsurance() {
         </section>
 
         <ContactDepartmentCard department="General Inquiries" />
-        <ContactDepartmentCard department="Reservations & Booking" />
+        <ContactDepartmentCard department="Emergency Cruise Support" />
+        <ContactDepartmentCard department="Insurance, Claims & Post-Voyage Support" />
       </div>
     </div>
   );
