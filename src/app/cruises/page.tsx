@@ -143,7 +143,7 @@ export default function Cruises() {
       </header>
 
       <section>
-        <ContactDepartmentCard department="Reservations & Booking" />
+        <ContactDepartmentCard department="Ports & Itinerary Planning" />
       </section>
 
       <div className="space-y-4 mb-8">
