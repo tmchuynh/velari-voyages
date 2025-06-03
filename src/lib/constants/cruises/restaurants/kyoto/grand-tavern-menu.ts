@@ -5,415 +5,435 @@ import { RestaurantMenu } from "@/lib/types/types";
  */
 export const kyotograndTavernMenu: RestaurantMenu[] = [
   {
-    title: "Main Course Menu",
-    description: "Our carefully crafted selection of hearty dishes",
-    category: [
+    "title": "Main Course Menu",
+    "description": "Our carefully crafted selection of hearty dishes",
+    "category": [
       {
-        name: "Signature Dishes",
-        items: [
-  {
-    "name": "Signature Braised House Famous Duck Confit",
-    "description": "Our zesty specialty, assembled with cold-pressed oils and served with flair.",
-    "price": 30.36,
-    "isVegetarian": false,
-    "isVegan": false,
-    "isGlutenFree": true,
-    "isHalal": false,
-    "isKosher": false
-  },
-  {
-    "name": "Classic Pan-seared Signature Truffle Pasta with Aged Pecorino",
-    "description": "Our complex specialty, made with seasonal ingredients and accompanied by a tasteful garnish.",
-    "price": 35.15,
-    "isVegetarian": false,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Classic Delicious Tableside Carved Chateaubriand",
-    "description": "Neatly composed and charred to perfection using house-made sauces.",
-    "price": 35.92,
-    "isVegetarian": false,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  }
-]
+        "name": "Signature Dishes",
+        "items": [
+          {
+            "name": "Fresh Sizzling Flambéed Tableside Specialty",
+            "description": "Our fruity specialty, composed with free-range meats and neatly composed.",
+            "price": 24.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Age-Old Recipe Osso Buco with Gremolata",
+            "description": "This subtle favorite is assembled using natural sweeteners, then beautifully presented.",
+            "price": 35.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Award-Winning Seafood Boil",
+            "description": "Our nutty specialty, seasoned with natural sweeteners and artfully plated.",
+            "price": 33.76,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Japanese A5 Wagyu with Ponzu Butter",
+            "description": "This floral favorite is braised using microgreens, then presented on a wooden board.",
+            "price": 32.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Secret Recipe Bouillabaisse",
+            "description": "Our rich specialty, slow-cooked with grass-fed beef and stacked artistically.",
+            "price": 34.87,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
       },
       {
-        name: "Main Courses",
-        items: [
-  {
-    "name": "House Special Tangy Shish Kebabs",
-    "description": "This buttery favorite is prepared using seasonal ingredients, then served on rustic ware.",
-    "price": 18.92,
-    "isVegetarian": false,
-    "isVegan": true,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Burrito",
-    "description": "This sweet favorite is prepared using locally foraged herbs, then beautifully presented.",
-    "price": 29.81,
-    "isVegetarian": false,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Fresh Fried Coq au Vin",
-    "description": "Presented on a wooden board and braised to perfection using hand-picked vegetables.",
-    "price": 30.85,
-    "isVegetarian": false,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Chef's Smoked Pulled Pork Sandwich",
-    "description": "Elegantly served and braised to perfection using farm-fresh eggs.",
-    "price": 24.45,
-    "isVegetarian": false,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": false,
-    "isKosher": true
-  },
-  {
-    "name": "Classic Fried Grilled Tofu",
-    "description": "This spicy favorite is prepared using sustainable seafood, then beautifully presented.",
-    "price": 30.13,
-    "isVegetarian": true,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Local Grilled Lasagna",
-    "description": "This briny favorite is roasted using premium components, then neatly composed.",
-    "price": 27.84,
-    "isVegetarian": true,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "House Special Delectable Pizza",
-    "description": "A delicate dish braised with house-made sauces and drizzled with finesse.",
-    "price": 21.72,
-    "isVegetarian": true,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Currywurst",
-    "description": "Our subtle specialty, prepared with wild-caught fish and attractively arranged.",
-    "price": 23.67,
-    "isVegetarian": true,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  }
-]
+        "name": "Main Courses",
+        "items": [
+          {
+            "name": "Roast Duck",
+            "description": "Offered as a tasting portion and made to perfection using seasonal ingredients.",
+            "price": 21.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Spaghetti Bolognese",
+            "description": "This smoky favorite is stir-fried using finest quality ingredients, then beautifully presented.",
+            "price": 19.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Signature Baked Pulled Pork Sandwich",
+            "description": "A earthy dish prepared with artisanal elements and neatly composed.",
+            "price": 23.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Signature Delectable Lamb Chops",
+            "description": "Attractively arranged and prepared to perfection using finest quality ingredients.",
+            "price": 25.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Chef's Juicy Bibimbap",
+            "description": "This refreshing favorite is made using cold-pressed oils, then plated with precision.",
+            "price": 28.64,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Enchiladas",
+            "description": "Accompanied by a tasteful garnish and assembled to perfection using heirloom tomatoes.",
+            "price": 20.41,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Stuffed Zucchini Boats",
+            "description": "Our savory specialty, marinated with non-GMO produce and accompanied by a tasteful garnish.",
+            "price": 20.75,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Marinated Thai Curry",
+            "description": "This rich favorite is glazed using wild-caught fish, then stacked artistically.",
+            "price": 22.49,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
       },
       {
-        name: "Seafood Specialties",
-        items: [
-  {
-    "name": "Shrimp Scampi over Linguine",
-    "description": "Styled for visual appeal and sautéed to perfection using artisanal elements.",
-    "price": 28.06,
-    "isVegetarian": false,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": false
-  },
-  {
-    "name": "Grilled Lobster with Lemon Butter",
-    "description": "A sweet dish prepared with seasonal ingredients and served on rustic ware.",
-    "price": 33.02,
-    "isVegetarian": false,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": false
-  },
-  {
-    "name": "House Special Flaky Miso-Marinated Chilean Sea Bass",
-    "description": "Our floral specialty, slow-cooked with finest quality ingredients and garnished to perfection.",
-    "price": 27.78,
-    "isVegetarian": true,
-    "isVegan": false,
-    "isGlutenFree": true,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Blackened Mahi-Mahi with Pineapple Salsa",
-    "description": "This savory favorite is assembled using finest quality ingredients, then served family-style.",
-    "price": 26.04,
-    "isVegetarian": true,
-    "isVegan": false,
-    "isGlutenFree": true,
-    "isHalal": true,
-    "isKosher": true
-  }
-]
+        "name": "Seafood Specialties",
+        "items": [
+          {
+            "name": "Classic British Fish and Chips",
+            "description": "Our savory specialty, oven-baked with grass-fed beef and layered with care.",
+            "price": 33.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Creamy Grilled Lobster with Lemon Butter",
+            "description": "Our buttery specialty, created with premium components and beautifully presented.",
+            "price": 32.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Local Flaky Cedar Plank Roasted Salmon",
+            "description": "This briny favorite is oven-baked using finest quality ingredients, then beautifully presented.",
+            "price": 29.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Signature Herbed Steamed Littleneck Clams in Garlic Broth",
+            "description": "Our smoky specialty, roasted with finest quality ingredients and elegantly served.",
+            "price": 24.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Sizzling Valencian Seafood Paella",
+            "description": "Our savory specialty, braised with natural sweeteners and served with flair.",
+            "price": 26.3,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
       }
     ]
   },
   {
-    title: "Dessert Menu",
-    description: "Indulge in our delicious sweet creations",
-    category: [
+    "title": "Dessert Menu",
+    "description": "Indulge in our delicious sweet creations",
+    "category": [
       {
-        name: "Sweet Treats",
-        items: [
-  {
-    "name": "Crêpes Suzette",
-    "description": "A delicate dish braised with seasonal ingredients and drizzled with finesse.",
-    "price": 8.44,
-    "isVegetarian": false,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Signature Savory Pineapple Tart",
-    "description": "Our herbaceous specialty, charred with organic ingredients and drizzled with finesse.",
-    "price": 7.2,
-    "isVegetarian": false,
-    "isVegan": false,
-    "isGlutenFree": true,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Fruit Tart",
-    "description": "Our subtle specialty, created with artisanal elements and garnished to perfection.",
-    "price": 11.97,
-    "isVegetarian": false,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Classic Pan-seared Chocolate Chip Cookies",
-    "description": "Drizzled with finesse and sautéed to perfection using cultured dairy.",
-    "price": 7.16,
-    "isVegetarian": false,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Tiramisu",
-    "description": "Elegantly served and prepared to perfection using grass-fed beef.",
-    "price": 11.82,
-    "isVegetarian": true,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Cheesecake",
-    "description": "Our savory specialty, stir-fried with grass-fed beef and beautifully presented.",
-    "price": 9.4,
-    "isVegetarian": false,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  }
-]
+        "name": "Sweet Treats",
+        "items": [
+          {
+            "name": "Apple Crisp",
+            "description": "This balanced favorite is smoked using finest quality ingredients, then beautifully presented.",
+            "price": 9.21,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Panna Cotta",
+            "description": "This savory favorite is stir-fried using wild-caught fish, then layered with care.",
+            "price": 9.92,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cheesecake",
+            "description": "Drizzled with finesse and hand-folded to perfection using wild-caught fish.",
+            "price": 8.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chocolate Cake",
+            "description": "A subtle dish fire-roasted with sustainable seafood and presented on a wooden board.",
+            "price": 7.82,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chocolate Eclairs",
+            "description": "Our spicy specialty, crafted with heirloom tomatoes and beautifully presented.",
+            "price": 7.37,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
       }
     ]
   },
   {
-    title: "Drinks Menu",
-    description: "A selection of fine alcoholic beverages to complement your meal",
-    category: [
+    "title": "Drinks Menu",
+    "description": "A selection of fine alcoholic beverages to complement your meal",
+    "category": [
       {
-        name: "Signature Cocktails",
-        items: [
-  {
-    "name": "Classic Golden Whiskey",
-    "description": "This complex favorite is slow-cooked using free-range meats, then served with flair.",
-    "price": 11.79,
-    "isVegetarian": false,
-    "isVegan": true,
-    "isGlutenFree": true,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Organic Spiced London Dry Gin",
-    "description": "Served with flair and caramelized to perfection using grass-fed beef.",
-    "price": 13.81,
-    "isVegetarian": true,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Classic Grilled Beer",
-    "description": "This citrusy favorite is sautéed using heritage grains, then served with flair.",
-    "price": 10.45,
-    "isVegetarian": false,
-    "isVegan": true,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Organic Grilled Whiskey Sour",
-    "description": "Our creamy specialty, hand-rolled with chef-selected spices and plated with precision.",
-    "price": 14.58,
-    "isVegetarian": true,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Signature Grilled Mead",
-    "description": "Our herbaceous specialty, smoked with house-made sauces and artfully plated.",
-    "price": 11.97,
-    "isVegetarian": false,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  }
-]
+        "name": "Signature Cocktails",
+        "items": [
+          {
+            "name": "House Special Golden Soju",
+            "description": "Artfully plated and pan-seared to perfection using farm-fresh eggs.",
+            "price": 11.02,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Aromatic Bloody Mary",
+            "description": "Neatly composed and stir-fried to perfection using non-GMO produce.",
+            "price": 14.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Signature Braised Cosmopolitan",
+            "description": "A tangy dish pan-seared with finest quality ingredients and served family-style.",
+            "price": 10.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Local Flavorful Long Island Iced Tea",
+            "description": "A subtle dish stir-fried with finest quality ingredients and attractively arranged.",
+            "price": 10.69,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Smoked Margarita",
+            "description": "Layered with care and infused to perfection using finest quality ingredients.",
+            "price": 12.66,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
       },
       {
-        name: "Wine Selection",
-        items: [
-  {
-    "name": "Tequila",
-    "description": "Our briny specialty, marinated with artisanal elements and served with flair.",
-    "price": 9.94,
-    "isVegetarian": true,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Aquavit",
-    "description": "This umami-packed favorite is prepared using seasonal ingredients, then beautifully presented.",
-    "price": 11.43,
-    "isVegetarian": true,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Pisco",
-    "description": "A creamy dish marinated with natural sweeteners and beautifully presented.",
-    "price": 12.17,
-    "isVegetarian": false,
-    "isVegan": false,
-    "isGlutenFree": true,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Whiskey",
-    "description": "This balanced favorite is oven-baked using seasonal ingredients, then garnished to perfection.",
-    "price": 11.27,
-    "isVegetarian": false,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Fresh Roasted Cocktail",
-    "description": "Garnished to perfection and prepared to perfection using cold-pressed oils.",
-    "price": 13.41,
-    "isVegetarian": false,
-    "isVegan": true,
-    "isGlutenFree": true,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Soju",
-    "description": "Our sweet specialty, composed with aged cheeses and served family-style.",
-    "price": 12.08,
-    "isVegetarian": true,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  }
-]
+        "name": "Wine Selection",
+        "items": [
+          {
+            "name": "Cava",
+            "description": "Our herbaceous specialty, stir-fried with sustainable seafood and elegantly served.",
+            "price": 10.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Zesty Beer",
+            "description": "A complex dish marinated with seasonal ingredients and drizzled with finesse.",
+            "price": 10.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Mouthwatering Cosmopolitan",
+            "description": "This briny favorite is created using locally sourced produce, then served family-style.",
+            "price": 11.54,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Local Zingy Añejo Tequila",
+            "description": "Our rich specialty, slow-cooked with finest quality ingredients and served on rustic ware.",
+            "price": 10.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Roasted Wine",
+            "description": "Accompanied by a tasteful garnish and roasted to perfection using hand-picked vegetables.",
+            "price": 9.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
       },
       {
-        name: "Spirits and Liqueurs",
-        items: [
-  {
-    "name": "Organic Crispy Tequila",
-    "description": "Served family-style and stir-fried to perfection using seasonal ingredients.",
-    "price": 10.43,
-    "isVegetarian": false,
-    "isVegan": true,
-    "isGlutenFree": true,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Classic Herbed Beer",
-    "description": "Beautifully presented and slow-cooked to perfection using handmade pasta.",
-    "price": 14.99,
-    "isVegetarian": true,
-    "isVegan": true,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Wine",
-    "description": "Layered with care and stir-fried to perfection using grass-fed beef.",
-    "price": 14.31,
-    "isVegetarian": true,
-    "isVegan": false,
-    "isGlutenFree": true,
-    "isHalal": true,
-    "isKosher": true
-  },
-  {
-    "name": "Añejo Tequila",
-    "description": "Beautifully presented and glazed to perfection using locally sourced produce.",
-    "price": 12.99,
-    "isVegetarian": true,
-    "isVegan": false,
-    "isGlutenFree": false,
-    "isHalal": true,
-    "isKosher": true
-  }
-]
+        "name": "Spirits and Liqueurs",
+        "items": [
+          {
+            "name": "Cosmopolitan",
+            "description": "A zesty dish made with organic ingredients and elegantly served.",
+            "price": 12.77,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sake",
+            "description": "Beautifully presented and made to perfection using grass-fed beef.",
+            "price": 10.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gin",
+            "description": "A subtle dish marinated with handmade pasta and styled for visual appeal.",
+            "price": 14.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Prosecco",
+            "description": "A citrusy dish made with artisanal elements and artfully plated.",
+            "price": 12.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Sweet Sherry",
+            "description": "A rich dish grilled with natural sweeteners and beautifully presented.",
+            "price": 9.54,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
       }
     ]
   }
