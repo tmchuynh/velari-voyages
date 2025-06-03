@@ -4,7 +4,7 @@ import {
 } from "../constants/info/cruisePackages";
 import { CrewMember } from "../interfaces/people/staff";
 import { Cruise } from "../interfaces/services/cruises";
-import { Package } from "../types/types";
+import { Location, Package } from "../types/types";
 import {
   formatKebebToTitleCase,
   formatTitleToCamelCase,
@@ -90,7 +90,29 @@ export async function getCrewMemberData(city: string): Promise<CrewMember[]> {
   }
 }
 
-export async function getCruises(city: string): Promise<any> {
+/**
+ * Gets cruises for a city using the city object from cruiseDepartureLocations
+ *
+ * @param cityInfo - The city object from cruiseDepartureLocations
+ * @returns An array of cruises for the city
+ */
+export async function getCruisesByLocation(
+  cityInfo: Location
+): Promise<Cruise[]> {
+  if (!cityInfo || !cityInfo.city) {
+    console.error("Invalid city information provided");
+    return [];
+  }
+
+  return getCruises(cityInfo.city);
+}
+
+export async function getCruises(city: string): Promise<Cruise[]> {
+  if (!city || typeof city !== "string") {
+    console.error("Invalid city name provided:", city);
+    return [];
+  }
+
   // First remove accents from the entire city name, then format it
   const cityWithoutAccents = removeAccents(city);
   const cityFormatted =
@@ -100,25 +122,31 @@ export async function getCruises(city: string): Promise<any> {
       .replace("-", "");
 
   const cruiseID = `${cityFormatted}Cruises`;
+  const sluggedCity = formatToSlug(cityWithoutAccents.replace("'", "-"));
+
+  console.log(`Looking for cruises in: @/lib/constants/cruises/${sluggedCity}`);
+  console.log(`Export expected: export const ${cruiseID}: Cruise[] = [];`);
 
   try {
-    const cruiseModule = await import(
-      `@/lib/constants/cruises/${formatToSlug(
-        cityWithoutAccents.replace("'", "-")
-      )}`
-    );
+    const cruiseModule = await import(`@/lib/constants/cruises/${sluggedCity}`);
     // Return the specific named export that matches cruiseID
     if (cruiseModule[cruiseID]) {
       return cruiseModule[cruiseID];
     } else {
+      // Try alternate naming conventions
+      const alternateCruiseID = `${sluggedCity}Cruises`;
+      if (cruiseModule[alternateCruiseID]) {
+        return cruiseModule[alternateCruiseID];
+      }
+
       console.error(
-        `Export named export const ${cruiseID}: Cruise[] = []; not found in module`
+        `Export not found in module. Looking for: ${cruiseID} or ${alternateCruiseID}`
       );
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading resource from @/lib/constants/cruises: ${error} export const ${cruiseID}: Cruise[] = [];`
+      `Error loading cruise data: ${error}. Tried: @/lib/constants/cruises/${sluggedCity} with export ${cruiseID}`
     );
     return [];
   }
