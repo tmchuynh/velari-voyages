@@ -5,35 +5,69 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const barcelonacataloniaBarKitchenTestimonials: Testimonial[] = [
   {
-    "quote": "What a delectable dining experience at Catalonia Bar & Kitchen! The flavors exceeded our expectations, and the staff was wonderful. Will definitely return!",
-    "author": "Thomas Moore",
-    "title": "Food Critic"
+    "quote": "Our visit to Catalonia Bar & Kitchen was outstanding. The meal were delicious, the staff exceptional, and the atmosphere elegant. A must-visit!",
+    "author": "Matthew Johnson",
+    "title": "Luxury Travel Consultant"
   },
   {
-    "quote": "Our visit to Catalonia Bar & Kitchen was outstanding. The meal were delightful, the staff fantastic, and the atmosphere cozy. A must-visit!",
-    "author": "Lisa Miller",
-    "title": "Culinary Expert"
+    "quote": "Catalonia Bar & Kitchen has the most excellent flavors I've ever tasted. The appealing atmosphere made our evening special, and the service was professional.",
+    "author": "John Anderson",
+    "title": "Restaurant Enthusiast"
   },
   {
-    "quote": "Catalonia Bar & Kitchen has the most outstanding desserts I've ever tasted. The inviting atmosphere made our evening special, and the service was prompt.",
-    "author": "Elizabeth Martinez",
-    "title": "Luxury Travel Consultant",
+    "quote": "The cuisine at Catalonia Bar & Kitchen were absolutely excellent! The service was impeccable and the atmosphere was inviting. Highly recommend!",
+    "author": "Jennifer Lee",
+    "title": "Gastronomy Enthusiast",
+    "image": "/images/testimonials/person-12.jpg"
+  },
+  {
+    "quote": "Catalonia Bar & Kitchen has the most perfect appetizers I've ever tasted. The delightful atmosphere made our evening special, and the service was superb.",
+    "author": "Jennifer Perez",
+    "title": "Travel Blogger"
+  },
+  {
+    "quote": "Catalonia Bar & Kitchen has the most outstanding cuisine I've ever tasted. The delightful atmosphere made our evening special, and the service was professional.",
+    "author": "Lisa Hernandez",
+    "title": "Cooking Aficionado",
+    "image": "/images/testimonials/person-12.jpg"
+  },
+  {
+    "quote": "What a delightful dining experience at Catalonia Bar & Kitchen! The dishes exceeded our expectations, and the staff was outstanding. Will definitely return!",
+    "author": "Daniel Smith",
+    "title": "Travel Writer"
+  },
+  {
+    "quote": "Catalonia Bar & Kitchen has the most wonderful desserts I've ever tasted. The inviting atmosphere made our evening special, and the service was superb.",
+    "author": "James Taylor",
+    "title": "Gourmet Explorer",
+    "image": "/images/testimonials/person-6.jpg"
+  },
+  {
+    "quote": "The flavors at Catalonia Bar & Kitchen were absolutely incredible! The service was professional and the atmosphere was comfortable. Highly recommend!",
+    "author": "Michael White",
+    "title": "Gourmet Explorer",
     "image": "/images/testimonials/person-7.jpg"
   },
   {
-    "quote": "The entrees at Catalonia Bar & Kitchen were absolutely superb! The service was excellent and the atmosphere was welcoming. Highly recommend!",
-    "author": "Emma Anderson",
+    "quote": "I can't say enough about the superb cuisine at Catalonia Bar & Kitchen. The courteous service and pleasant ambiance made for a perfect night out.",
+    "author": "Thomas White",
+    "title": "Food Critic",
+    "image": "/images/testimonials/person-5.jpg"
+  },
+  {
+    "quote": "I can't say enough about the great flavors at Catalonia Bar & Kitchen. The professional service and delightful ambiance made for a perfect night out.",
+    "author": "Elizabeth Thompson",
+    "title": "Luxury Travel Consultant",
+    "image": "/images/testimonials/person-4.jpg"
+  },
+  {
+    "quote": "I can't say enough about the incredible dishes at Catalonia Bar & Kitchen. The helpful service and inviting ambiance made for a perfect night out.",
+    "author": "Sarah Martin",
     "title": "Gastronomy Enthusiast"
   },
   {
-    "quote": "The cuisine at Catalonia Bar & Kitchen were absolutely impressive! The service was superb and the atmosphere was intimate. Highly recommend!",
-    "author": "Daniel Hernandez",
-    "title": "Food Journalist"
-  },
-  {
-    "quote": "Catalonia Bar & Kitchen has the most delectable food I've ever tasted. The welcoming atmosphere made our evening special, and the service was superb.",
-    "author": "Sophia Davis",
-    "title": "Gastronomy Enthusiast",
-    "image": "/images/testimonials/person-3.jpg"
+    "quote": "Catalonia Bar & Kitchen has the most exceptional cuisine I've ever tasted. The inviting atmosphere made our evening special, and the service was helpful.",
+    "author": "Matthew Perez",
+    "title": "Dining Columnist"
   }
 ];
