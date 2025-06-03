@@ -66,14 +66,39 @@ export default function CruiseInformationPage() {
   useEffect(() => {
     const fetchCruiseData = async () => {
       try {
-        const data = await getCruises(departureLocationCity || "");
+        if (!departureLocationCity) {
+          console.error("No departure city provided");
+          setLoading(false);
+          return;
+        }
+
+        // Get cruise data using the city name
+        const data = await getCruises(departureLocationCity);
+        console.log("Fetched cruises for city:", departureLocationCity, data);
+
+        // Find the specific cruise by title
         const cruiseInfo = data.find(
           (c: { title: string }) => c.title === cruise
         );
+
         if (cruiseInfo) {
           setCruiseData(cruiseInfo);
         } else {
-          console.error("Cruise not found with the provided parameters.");
+          // If not found by title, try to find by additional criteria
+          console.log("Cruise not found by title, trying additional criteria");
+
+          // Try to find by departure and arrival locations
+          const alternativeCruiseInfo = data.find(
+            (c: any) =>
+              c.departureLocation?.city === departureLocationCity &&
+              c.arrivalLocation?.city === arrivalLocationCity
+          );
+
+          if (alternativeCruiseInfo) {
+            setCruiseData(alternativeCruiseInfo);
+          } else {
+            console.error("Cruise not found with the provided parameters.");
+          }
         }
       } catch (error) {
         console.error("Error fetching cruise data:", error);
