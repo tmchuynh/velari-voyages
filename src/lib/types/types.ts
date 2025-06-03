@@ -113,10 +113,91 @@ export type TimePeriod = {
 export type Resturant = {
   name: string;
   description: string;
-  cuisine: string;
+  cuisine:
+    | "Afghan"
+    | "African"
+    | "Algerian"
+    | "American"
+    | "Argentinian"
+    | "Australian"
+    | "Bangladeshi"
+    | "Belgian"
+    | "Bosnian"
+    | "Brazilian"
+    | "British"
+    | "Canadian"
+    | "Caribbean"
+    | "Cajun"
+    | "Chilean"
+    | "Chinese"
+    | "Colombian"
+    | "Creole"
+    | "Croatian"
+    | "Cuban"
+    | "Czech"
+    | "Dutch"
+    | "Ethiopian"
+    | "Filipino"
+    | "French"
+    | "Fusion"
+    | "Georgian"
+    | "German"
+    | "Ghanaian"
+    | "Greek"
+    | "Hawaiian"
+    | "Indian"
+    | "Indonesian"
+    | "Iranian"
+    | "Irish"
+    | "Israeli"
+    | "Italian"
+    | "Japanese"
+    | "Korean"
+    | "Lebanese"
+    | "Malaysian"
+    | "Mayan"
+    | "Mediterranean"
+    | "Mexican"
+    | "Middle Eastern"
+    | "Moroccan"
+    | "Nepalese"
+    | "New Zealand"
+    | "Nigerian"
+    | "Pakistani"
+    | "Palestinian"
+    | "Peruvian"
+    | "Polish"
+    | "Portuguese"
+    | "Romanian"
+    | "Russian"
+    | "Scandinavian"
+    | "Scottish"
+    | "Serbian"
+    | "Singaporean"
+    | "Slovak"
+    | "Somali"
+    | "Spanish"
+    | "Sri Lankan"
+    | "Swiss"
+    | "Syrian"
+    | "Thai"
+    | "Tibetan"
+    | "Turkish"
+    | "Tunisian"
+    | "Ukrainian"
+    | "Uzbek"
+    | "Vietnamese";
   priceRange: "$" | "$$" | "$$$" | "$$$$";
   rating: number;
-  openingHours?: string;
+  openingHours?: {
+    monday?: string;
+    tuesday?: string;
+    wednesday?: string;
+    thursday?: string;
+    friday?: string;
+    saturday?: string;
+    sunday?: string;
+  };
   contactInfo?: ContactInfo;
   menu?: ResturantMenu;
   images?: string[];
