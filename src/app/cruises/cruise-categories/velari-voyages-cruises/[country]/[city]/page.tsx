@@ -230,7 +230,7 @@ export default function CityCruisesPage() {
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <header>
         <h1>
-          Tours in{" "}
+          Cruises Departing from{" "}
           {city ? decodeURIComponent(Array.isArray(city) ? city[0] : city) : ""}
           : {cityInfo?.subtitle}
         </h1>
