@@ -1,6 +1,6 @@
 import { ResturantMenu } from "@/lib/types/types";
 
-export const charlestonfIGMenu: ResturantMenu[] = [
+export const charlestonfigMenu: ResturantMenu[] = [
   // Food Menu
   {
     title: "Food Menu",

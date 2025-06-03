@@ -1,6 +1,6 @@
 import { ResturantMenu } from "@/lib/types/types";
 
-export const copenhagenrelMenu: ResturantMenu[] = [
+export const copenhagenrelaeMenu: ResturantMenu[] = [
   // Food Menu
   {
     title: "Food Menu",
