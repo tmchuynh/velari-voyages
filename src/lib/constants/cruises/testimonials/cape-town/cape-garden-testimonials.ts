@@ -5,35 +5,67 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const capeTowncapeGardenTestimonials: Testimonial[] = [
   {
-    "quote": "Our visit to Cape Garden was outstanding. The desserts were fantastic, the staff exceptional, and the atmosphere stylish. A must-visit!",
-    "author": "Emma Wilson",
-    "title": "Lifestyle Influencer"
+    "quote": "Our visit to Cape Garden was outstanding. The cuisine were great, the staff professional, and the atmosphere cozy. A must-visit!",
+    "author": "Olivia Moore",
+    "title": "Food & Wine Connoisseur"
   },
   {
-    "quote": "Our visit to Cape Garden was outstanding. The meal were exceptional, the staff knowledgeable, and the atmosphere inviting. A must-visit!",
-    "author": "David Jackson",
-    "title": "Travel Writer"
+    "quote": "What a great dining experience at Cape Garden! The cuisine exceeded our expectations, and the staff was outstanding. Will definitely return!",
+    "author": "Maria Martinez",
+    "title": "Restaurant Reviewer"
   },
   {
-    "quote": "I can't say enough about the fantastic dishes at Cape Garden. The courteous service and comfortable ambiance made for a perfect night out.",
-    "author": "Maria Garcia",
+    "quote": "Our visit to Cape Garden was outstanding. The cuisine were fantastic, the staff excellent, and the atmosphere stylish. A must-visit!",
+    "author": "William Garcia",
+    "title": "Restaurant Reviewer"
+  },
+  {
+    "quote": "I can't say enough about the perfect menu items at Cape Garden. The courteous service and charming ambiance made for a perfect night out.",
+    "author": "Emily Davis",
+    "title": "Cooking Aficionado"
+  },
+  {
+    "quote": "I can't say enough about the marvelous menu items at Cape Garden. The helpful service and sophisticated ambiance made for a perfect night out.",
+    "author": "Lisa Rodriguez",
+    "title": "Travel Blogger"
+  },
+  {
+    "quote": "I can't say enough about the delightful appetizers at Cape Garden. The outstanding service and elegant ambiance made for a perfect night out.",
+    "author": "Robert Taylor",
+    "title": "Culinary Adventurer"
+  },
+  {
+    "quote": "Our visit to Cape Garden was outstanding. The food were great, the staff prompt, and the atmosphere welcoming. A must-visit!",
+    "author": "Lisa Hernandez",
+    "title": "Travel Writer",
+    "image": "/images/testimonials/person-4.jpg"
+  },
+  {
+    "quote": "Our visit to Cape Garden was outstanding. The desserts were wonderful, the staff outstanding, and the atmosphere comfortable. A must-visit!",
+    "author": "Ava Anderson",
+    "title": "Food Journalist"
+  },
+  {
+    "quote": "Our visit to Cape Garden was outstanding. The meal were outstanding, the staff professional, and the atmosphere delightful. A must-visit!",
+    "author": "Christopher Davis",
+    "title": "Culinary Adventurer"
+  },
+  {
+    "quote": "The desserts at Cape Garden were absolutely marvelous! The service was helpful and the atmosphere was sophisticated. Highly recommend!",
+    "author": "William Johnson",
     "title": "Dining Columnist",
-    "image": "/images/testimonials/person-7.jpg"
+    "image": "/images/testimonials/person-9.jpg"
   },
   {
-    "quote": "The menu items at Cape Garden were absolutely superb! The service was fantastic and the atmosphere was appealing. Highly recommend!",
-    "author": "Olivia Jackson",
-    "title": "Luxury Travel Consultant",
-    "image": "/images/testimonials/person-6.jpg"
+    "quote": "What a delicious dining experience at Cape Garden! The desserts exceeded our expectations, and the staff was friendly. Will definitely return!",
+    "author": "Elizabeth Martinez",
+    "title": "Restaurant Enthusiast",
+    "image": "/images/testimonials/person-1.jpg"
   },
   {
-    "quote": "I can't say enough about the great specialties at Cape Garden. The helpful service and delightful ambiance made for a perfect night out.",
-    "author": "Emma Martinez",
-    "title": "Gastronomy Enthusiast"
-  },
-  {
-    "quote": "I can't say enough about the marvelous entrees at Cape Garden. The knowledgeable service and delightful ambiance made for a perfect night out.",
-    "author": "Emily Smith",
-    "title": "Gastronomy Enthusiast"
+    "quote": "Our visit to Cape Garden was outstanding. The dishes were impressive, the staff helpful, and the atmosphere inviting. A must-visit!",
+    "author": "John Johnson",
+    "title": "Restaurant Reviewer",
+    "image": "/images/testimonials/person-10.jpg"
   }
 ];
