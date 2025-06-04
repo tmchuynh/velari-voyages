@@ -254,6 +254,14 @@ export function formatTitleToCamelCase(title: string): string {
     .join("");
 }
 
+export function formatTitleToKebabCase(title: string): string {
+  return title
+    .split(" ")
+    .map((word) => word.toLowerCase())
+    .join("-")
+    .replace(/[^a-z0-9-]/g, ""); // Remove any non-alphanumeric characters except hyphens
+}
+
 /**
  * Removes diacritical marks (accents) from a string.
  *
