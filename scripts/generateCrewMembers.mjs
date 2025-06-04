@@ -242,18 +242,109 @@ const languagesByRegion = {
   // Add more region-specific languages as needed
 };
 
-// Bio templates by role
+// Import cruiseDepartureLocations from the city.ts file directly
+import { cruiseDepartureLocations } from "../src/lib/constants/info/city.js";
+
+// Expanded bio templates by role
 const bioTemplates = {
   Captain: [
     "{name} brings over {experience} years of experience navigating {region}'s waters, specializing in coastal and offshore operations.",
-    "With expertise in {specialty}, Captain {lastName} brings {experience} years of leadership to every voyage.",
-    "Captain {lastName} has navigated the waters of {region} for over {experience} years with a focus on safety and passenger comfort.",
+    "With {experience} years at sea, Captain {lastName} is renowned for expertise in {region} navigation and passenger safety.",
+    "Captain {lastName} has navigated the waters of {region} for over {experience} years with a focus on sustainable maritime practices.",
   ],
-  // Add more role-specific bio templates
+  "First Officer": [
+    "{name} specializes in {region} navigation with {experience} years of expertise in challenging waterways and harbor approaches.",
+    "Former {background} officer {name} brings exceptional navigational precision with {experience} years sailing throughout {region}.",
+    "With {experience} years of maritime experience, {name}'s knowledge of {region}'s tides and currents ensures safe passage for all voyages.",
+  ],
+  "Chief Engineer": [
+    "{name} oversees all vessel systems with {experience} years of expertise in maritime engineering, specializing in {specialty}.",
+    "With {experience} years in marine engineering, {name} ensures optimal performance of all propulsion and mechanical systems.",
+    "{name} brings {experience} years of engineering excellence, leading innovations in sustainable maritime technology.",
+  ],
+  "Security Director": [
+    "Former {background} {name} leads our security team with {experience} years of expertise in maritime safety protocols.",
+    "With {experience} years in maritime security, {name} ensures comprehensive protection for passengers and crew.",
+    "{name} oversees all security operations with {experience} years of specialized training in international maritime safety.",
+  ],
+  "Executive Chef": [
+    "Chef {lastName} creates exceptional {cuisine} cuisine with {experience} years of culinary expertise from around the world.",
+    "With {experience} years in fine dining, Chef {lastName} specializes in {cuisine} flavors using locally sourced ingredients.",
+    "{name} brings {experience} years of culinary artistry, blending {cuisine} traditions with contemporary techniques.",
+  ],
+  "Ship's Doctor": [
+    "Dr. {lastName} provides comprehensive medical care with {experience} years of expertise in maritime and travel medicine.",
+    "With {experience} years of medical practice, Dr. {lastName} specializes in emergency response and preventative care at sea.",
+    "Dr. {lastName} brings {experience} years of medical expertise, ensuring passenger wellbeing in remote maritime environments.",
+  ],
 };
+
+// Default bio template for roles not specifically defined
+const defaultBioTemplates = [
+  "{name} has dedicated {experience} years to perfecting the art of {role} with exceptional attention to detail.",
+  "With {experience} years in the maritime industry, {name} brings expertise and passion to the role of {role}.",
+  "{name} provides outstanding service as {role}, drawing on {experience} years of experience in luxury cruise operations.",
+];
+
+// Background options for security and naval roles
+const backgroundOptions = [
+  "military",
+  "naval",
+  "coast guard",
+  "law enforcement",
+  "special forces",
+  "security services",
+  "maritime safety",
+  "police",
+  "intelligence",
+];
+
+// Specialty options for engineers
+const engineeringSpecialties = [
+  "propulsion systems",
+  "marine electronics",
+  "sustainable technologies",
+  "vessel automation",
+  "power management",
+  "hydraulic systems",
+];
+
+// Cuisine types for culinary roles
+const cuisineTypes = [
+  "Mediterranean",
+  "Pacific Rim",
+  "Continental",
+  "Asian fusion",
+  "Caribbean",
+  "Nordic",
+  "French",
+  "Italian",
+  "Japanese",
+  "Pan-Asian",
+  "Latin American",
+];
 
 // Function to generate a crew member
 function generateCrewMember(city, department, role, index) {
+  // Get city data from cruiseDepartureLocations
+  const cityData = cruiseDepartureLocations.find(
+    (location) =>
+      location.city.toLowerCase() === city.replace(/-/g, " ").toLowerCase()
+  );
+
+  // If city not found in cruiseDepartureLocations, use a default
+  const defaultLocation = {
+    city: city
+      .split("-")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" "),
+    country: "United States",
+    region: "General",
+    state: null,
+  };
+
+  const locationData = cityData || defaultLocation;
+
   const firstName =
     namesByRegion.global.first[
       Math.floor(Math.random() * namesByRegion.global.first.length)
@@ -284,12 +375,48 @@ function generateCrewMember(city, department, role, index) {
     languages.push("English");
   }
 
-  // Generate bio using templates or default
-  let bio = `${name} is an experienced ${role} with ${experienceYears} years of service in the maritime industry.`;
+  // Generate bio using templates based on role
+  let bio;
+  let templates = bioTemplates[role] || defaultBioTemplates;
+  let template = templates[Math.floor(Math.random() * templates.length)];
 
-  // The image would follow a naming convention
-  const roleLower = role.toLowerCase().replace(/\s+/g, "-");
-  const profileImage = `/images/crew/${roleLower}-${lastName.toLowerCase()}.jpg`;
+  // Fill in bio template variables
+  bio = template
+    .replace("{name}", name)
+    .replace("{lastName}", lastName)
+    .replace("{experience}", experienceYears)
+    .replace("{role}", role)
+    .replace("{region}", locationData.region);
+
+  // Add specialty details for certain roles
+  if (bio.includes("{background}")) {
+    bio = bio.replace(
+      "{background}",
+      backgroundOptions[Math.floor(Math.random() * backgroundOptions.length)]
+    );
+  }
+
+  if (bio.includes("{specialty}")) {
+    bio = bio.replace(
+      "{specialty}",
+      engineeringSpecialties[
+        Math.floor(Math.random() * engineeringSpecialties.length)
+      ]
+    );
+  }
+
+  if (bio.includes("{cuisine}")) {
+    bio = bio.replace(
+      "{cuisine}",
+      cuisineTypes[Math.floor(Math.random() * cuisineTypes.length)]
+    );
+  }
+
+  // Generate profile image using randomuser.me
+  // Parameters: gender can be male/female, we'll randomize it
+  const gender = Math.random() > 0.5 ? "men" : "women";
+  const randomId = Math.floor(Math.random() * 100); // Random number for the image
+  const profileImage = `https://randomuser.me/api/portraits/${gender}/${randomId}.jpg`;
 
   return {
     name,
@@ -299,13 +426,10 @@ function generateCrewMember(city, department, role, index) {
     languages,
     experienceYears,
     profileImage,
-    city: city
-      .split("-")
-      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(" "),
-    country: "United States", // Default, would be customized based on city
-    state: "California", // Default, would be customized based on city
-    region: "West Coast", // Default, would be customized based on city
+    city: locationData.city,
+    country: locationData.country,
+    state: locationData.state,
+    region: locationData.region,
   };
 }
 
@@ -327,9 +451,9 @@ function generateCityCrewMembers(city) {
 function writeCrewMembersToFile(city, crewMembers) {
   const cityVarName = city.replace(/-/g, "") + "TeamMembers";
 
-  const fileContent = `import { CrewMember } from "@/lib/interfaces/people/staff.ts";
+  const fileContent = `import { CrewMember } from "@/lib/interfaces/people/staff";
 
-export const ${cityVarName}:CrewMember[] = ${JSON.stringify(
+export const ${cityVarName}: CrewMember[] = ${JSON.stringify(
     crewMembers,
     null,
     2
