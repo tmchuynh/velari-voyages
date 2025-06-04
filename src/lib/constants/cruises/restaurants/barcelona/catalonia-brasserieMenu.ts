@@ -12,19 +12,17 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Caribbean-Style Jerk Duck with Mango Slaw",
-            "description": "Our savory specialty, composed with premium components and plated with precision.",
-            "price": 35.12,
-            "isVegetarian": false,
+            "name": "Traditional Grilled Chef's Special Surf and Turf",
+            "price": 24.97,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Local Crunchy Chef's Special Surf and Turf",
-            "description": "Our pungent specialty, assembled with sustainable seafood and served on rustic ware.",
-            "price": 27.84,
+            "name": "Traditional Sautéed Legendary Prime Rib",
+            "price": 34.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -32,12 +30,97 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef’s Wild Game Selection",
-            "description": "This robust favorite is braised using seasonal ingredients, then offered as a tasting portion.",
-            "price": 30.04,
+            "name": "Classic Delicious Molecular Gastronomy Showcase Tasting",
+            "price": 24.81,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Golden Traditional Family Paella",
+            "price": 32.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Wholesome Seasonal Tasting Platter",
+            "price": 31.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Golden Chef’s Wild Game Selection",
+            "price": 28.59,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Satisfying Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 32.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Gourmet Golden Gourmet Vegetarian Wellington",
+            "price": 30.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Zesty Miso-Glazed Black Cod",
+            "price": 33.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Spicy Collaborative Limited Edition Special",
+            "price": 27.13,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Sizzling Whole Animal Butchery Showcase",
+            "price": 36.52,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Enticing Sous Vide Perfection with Molecular Gastronomy Elements",
+            "price": 31.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -47,19 +130,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Traditional Flaky Risotto",
-            "description": "Beautifully presented and pan-seared to perfection using handmade pasta.",
-            "price": 25.29,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chili con Carne",
-            "description": "Our bold specialty, oven-baked with organic ingredients and beautifully presented.",
-            "price": 22.77,
+            "name": "Hearty Crispy Mozzarella Sticks",
+            "price": 14.19,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -67,9 +139,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Creamy Currywurst",
-            "description": "Beautifully presented and prepared to perfection using seasonal ingredients.",
-            "price": 25.68,
+            "name": "Homestyle Stuffed Falafel",
+            "price": 11.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -77,44 +148,26 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Eggplant Parmesan",
-            "description": "This creamy favorite is prepared using finest quality ingredients, then accompanied by a tasteful garnish.",
-            "price": 21.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Succulent Jambalaya",
-            "description": "Our citrusy specialty, hand-rolled with non-GMO produce and artfully plated.",
-            "price": 28.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
-          {
-            "name": "Local Grilled Spaghetti Bolognese",
-            "description": "A subtle dish caramelized with organic ingredients and beautifully presented.",
-            "price": 25.71,
+            "name": "Hearty Smoked Mini Tacos",
+            "price": 10.25,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Lasagna",
-            "description": "Styled for visual appeal and oven-baked to perfection using seasonal ingredients.",
-            "price": 27.51,
+            "name": "Deluxe Hearty Prawn Cocktail",
+            "price": 9.71,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Spicy Garlic Bread",
+            "price": 13.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -122,22 +175,29 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Herbed Beef Wellington",
-            "description": "Our citrusy specialty, crafted with sustainable seafood and attractively arranged.",
-            "price": 28.75,
+            "name": "House Special Spiced Spring Rolls",
+            "price": 12.76,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Roasted Calamari",
+            "price": 14.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Stuffed Peppers",
-            "description": "Accompanied by a tasteful garnish and smoked to perfection using chef-selected spices.",
-            "price": 25.13,
+            "name": "Deluxe Wholesome Baba Ganoush",
+            "price": 9.05,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -147,9 +207,17 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Moussaka",
-            "description": "Elegantly served and hand-folded to perfection using seasonal ingredients.",
-            "price": 21.71,
+            "name": "Classic Braised Gumbo",
+            "price": 9.7,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Pan-seared Miso Soup",
+            "price": 10.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,9 +225,58 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pasta Primavera",
-            "description": "A savory dish infused with seasonal ingredients and elegantly served.",
-            "price": 21.03,
+            "name": "Classic Aromatic Seafood Chowder",
+            "price": 10.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Savory Mushroom Soup",
+            "price": 11.87,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Pasta Salad",
+            "price": 14.64,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Watermelon Feta Salad",
+            "price": 14.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Southwest Black Bean Salad",
+            "price": 10.73,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Potato Salad",
+            "price": 15.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -167,22 +284,11 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Zingy Lasagna",
-            "description": "A buttery dish charred with seasonal ingredients and nestled in a ceramic bowl.",
-            "price": 22.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Jambalaya",
-            "description": "Nestled in a ceramic bowl and stir-fried to perfection using sustainable seafood.",
-            "price": 23.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Tabbouleh",
+            "price": 13.9,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -192,9 +298,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Tacos",
-            "description": "A bold dish poached with wild-caught fish and plated with precision.",
-            "price": 28.28,
+            "name": "Homestyle Sautéed Lasagna",
+            "price": 18.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -202,59 +307,17 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Tender Chicken Parmesan",
-            "description": "Attractively arranged and oven-baked to perfection using aged cheeses.",
-            "price": 29.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Steak",
-            "description": "A aromatic dish prepared with house-made sauces and accompanied by a tasteful garnish.",
-            "price": 24.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Local Marinated Fajitas",
-            "description": "A smoky dish made with locally sourced produce and nestled in a ceramic bowl.",
-            "price": 23.19,
+            "name": "Classic Smoked Vegetable Stir-Fry",
+            "price": 27.5,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Flaky Gnocchi",
-            "description": "Our subtle specialty, charred with seasonal ingredients and beautifully presented.",
-            "price": 23.68,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Grilled Chicken",
-            "description": "A hearty dish assembled with non-GMO produce and stacked artistically.",
-            "price": 29.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Roast Duck",
-            "description": "This zesty favorite is glazed using locally sourced produce, then presented on a wooden board.",
-            "price": 19.35,
+            "name": "Authentic Satisfying Biryani",
+            "price": 25.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -262,24 +325,35 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Stuffed Pulled Pork Sandwich",
-            "description": "Our complex specialty, pan-seared with sustainable seafood and beautifully presented.",
-            "price": 22.02,
+            "name": "Organic Sautéed Chili con Carne",
+            "price": 18.42,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Hearty Bibimbap",
+            "price": 25.54,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Crispy Stir-fry",
+            "price": 28.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
+            "isHalal": true,
+            "isKosher": true
+          },
           {
-            "name": "Beef Wellington",
-            "description": "Our aromatic specialty, marinated with seasonal ingredients and served on rustic ware.",
-            "price": 22,
+            "name": "Handcrafted Tender Mac and Cheese",
+            "price": 29.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -287,34 +361,13 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Paella",
-            "description": "A hearty dish assembled with grass-fed beef and layered with care.",
-            "price": 25.11,
+            "name": "Fresh Comforting Moussaka",
+            "price": 27.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Pesto Pasta",
-            "description": "Our umami-packed specialty, seasoned with artisanal elements and drizzled with finesse.",
-            "price": 18.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Marinated Steak",
-            "description": "This hearty favorite is composed using cold-pressed oils, then garnished to perfection.",
-            "price": 24.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
           }
         ]
       },
@@ -322,19 +375,58 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Oysters Rockefeller with Pernod Cream",
-            "description": "Beautifully presented and seasoned to perfection using sun-ripened fruits.",
-            "price": 34.23,
+            "name": "Authentic Hearty Grilled Swordfish with Mango Chutney",
+            "price": 28.19,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Organic Zingy Stuffed Flounder with Crab and Spinach",
-            "description": "This smoky favorite is pan-seared using artisanal elements, then nestled in a ceramic bowl.",
-            "price": 24.69,
+            "name": "Fresh Sautéed Miso-Marinated Chilean Sea Bass",
+            "price": 24.97,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Hearty Garlic Butter Shrimp Skillet",
+            "price": 23.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Crunchy Smoked Salmon Platter with Dill Crème",
+            "price": 26.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Herbed Sushi-Grade Sashimi Platter",
+            "price": 30.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Organic Enticing Provencal Ratatouille",
+            "price": 7.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -342,9 +434,76 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Prawn Curry in Coconut Masala",
-            "description": "Our succulent specialty, cooked with locally sourced produce and neatly composed.",
-            "price": 34.68,
+            "name": "Traditional Luscious Creamed Spinach with Nutmeg",
+            "price": 7.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Pan-seared Baked Idaho Potato with Sour Cream",
+            "price": 8.71,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Hearty Sweet Potato Wedges with Smoked Paprika",
+            "price": 9.24,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Sweet Macaroni and Aged Cheddar",
+            "price": 9.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Succulent Green Beans Almondine",
+            "price": 7.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Smoothie",
+            "price": 4.83,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 5.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 4.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -352,14 +511,31 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Grilled Lobster Thermidor with Gruyère Crust",
-            "description": "Accompanied by a tasteful garnish and hand-folded to perfection using finest quality ingredients.",
-            "price": 28.49,
+            "name": "Hot Chocolate",
+            "price": 6.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 4.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 6.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
@@ -370,22 +546,11 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Chili con Carne",
-            "description": "Beautifully presented and made to perfection using finest quality ingredients.",
-            "price": 25.48,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Paella",
-            "description": "This succulent favorite is fire-roasted using heirloom tomatoes, then artfully plated.",
-            "price": 23.96,
+            "name": "Cobbler",
+            "price": 6.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,9 +558,26 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Baked Enchiladas",
-            "description": "This rich favorite is made using seasonal ingredients, then served with flair.",
-            "price": 23.53,
+            "name": "Crumb Cake",
+            "price": 10.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Treacle Tart",
+            "price": 10.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Croissants",
+            "price": 9.12,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -403,20 +585,9 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Shish Kebabs",
-            "description": "This aromatic favorite is composed using seasonal ingredients, then beautifully presented.",
-            "price": 29.11,
+            "name": "Cinnamon Rolls",
+            "price": 8.64,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Juicy Tacos",
-            "description": "Our succulent specialty, composed with artisanal elements and served with flair.",
-            "price": 28.16,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -425,22 +596,11 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Steak",
-            "description": "Served family-style and cooked to perfection using heirloom tomatoes.",
-            "price": 29.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Local Succulent Chili con Carne",
-            "description": "Plated with precision and prepared to perfection using cold-pressed oils.",
-            "price": 25.55,
+            "name": "Frozen Pudding",
+            "price": 9.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -448,9 +608,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Stuffed Zucchini Boats",
-            "description": "This umami-packed favorite is made using sun-ripened fruits, then served with flair.",
-            "price": 27.85,
+            "name": "Frozen Yogurt",
+            "price": 10.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -458,19 +617,26 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Steamed Fish and Chips",
-            "description": "A subtle dish hand-folded with organic ingredients and beautifully presented.",
-            "price": 19.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Sherbet",
+            "price": 11.87,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Stuffed Peppers",
-            "description": "Our savory specialty, sautéed with heritage grains and beautifully presented.",
-            "price": 18.92,
+            "name": "Frozen Banana",
+            "price": 11.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Popsicles",
+            "price": 8.05,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -489,9 +655,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Chef's Tender Bourbon",
-            "description": "A tangy dish hand-folded with heirloom tomatoes and beautifully presented.",
-            "price": 12.5,
+            "name": "Old Fashioned",
+            "price": 10.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -499,9 +664,17 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Irresistible Espresso Martini",
-            "description": "This zesty favorite is assembled using cold-pressed oils, then stacked artistically.",
-            "price": 12.78,
+            "name": "Mojito",
+            "price": 14.03,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 11.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -509,9 +682,17 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Tender Canadian Whisky",
-            "description": "This complex favorite is prepared using house-made sauces, then served on rustic ware.",
-            "price": 10.66,
+            "name": "Margarita",
+            "price": 15.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 10.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -519,19 +700,17 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Pan-seared Blanco Tequila",
-            "description": "Plated with precision and crafted to perfection using locally sourced produce.",
-            "price": 10.59,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Mai Tai",
+            "price": 14.92,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Mead",
-            "description": "Presented on a wooden board and marinated to perfection using seasonal ingredients.",
-            "price": 10.92,
+            "name": "Martini",
+            "price": 11.54,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -544,62 +723,56 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Steak",
-            "description": "Garnished to perfection and seasoned to perfection using finest quality ingredients.",
-            "price": 22.96,
+            "name": "Riesling",
+            "price": 13.87,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cabernet Sauvignon",
+            "price": 11.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Beef Burger",
-            "description": "This pungent favorite is marinated using cultured dairy, then neatly composed.",
-            "price": 24.06,
+            "name": "Sauvignon Blanc",
+            "price": 8.3,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Chef's Tender Stir-fry",
-            "description": "Our fruity specialty, crafted with sustainable seafood and elegantly served.",
-            "price": 19.94,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Creamy Tacos",
-            "description": "A pungent dish prepared with artisanal elements and plated with precision.",
-            "price": 21.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chili con Carne",
-            "description": "Our creamy specialty, whipped with wild-caught fish and accompanied by a tasteful garnish.",
-            "price": 28.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Korma",
-            "description": "A rich dish made with finest quality ingredients and layered with care.",
-            "price": 25.69,
+            "name": "Moscato",
+            "price": 12.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tempranillo",
+            "price": 8.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chardonnay",
+            "price": 11.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -609,9 +782,17 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Fresh Spiced Fajitas",
-            "description": "This aromatic favorite is grilled using locally foraged herbs, then artfully plated.",
-            "price": 27,
+            "name": "Armagnac",
+            "price": 13.4,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pisco",
+            "price": 15.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,19 +800,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Crunchy Steak",
-            "description": "Served with flair and composed to perfection using sun-ripened fruits.",
-            "price": 23.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Chef's Delicious Katsu Curry",
-            "description": "This aromatic favorite is made using seasonal ingredients, then accompanied by a tasteful garnish.",
-            "price": 22.18,
+            "name": "Limoncello",
+            "price": 10.55,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -639,12 +809,20 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Flavorful Roast Duck",
-            "description": "Styled for visual appeal and crafted to perfection using wild-caught fish.",
-            "price": 19.97,
+            "name": "Vodka",
+            "price": 15.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey",
+            "price": 14.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

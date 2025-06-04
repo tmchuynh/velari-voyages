@@ -12,33 +12,116 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "House Famous Duck Confit",
-            "description": "Our creamy specialty, prepared with non-GMO produce and beautifully presented.",
-            "price": 29.09,
+            "name": "Gourmet Golden Legendary Prime Rib",
+            "price": 28.09,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Tangy Signature Truffle Pasta with Aged Pecorino",
-            "description": "This hearty favorite is oven-baked using non-GMO produce, then styled for visual appeal.",
-            "price": 27.29,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Black Garlic Glazed Beef Tenderloin",
-            "description": "This bold favorite is slow-cooked using artisanal elements, then drizzled with finesse.",
-            "price": 25.24,
+            "name": "Homestyle Herbed 24-Hour Braised Short Ribs",
+            "price": 28.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Enticing Seasonal Tasting Menu Experience",
+            "price": 24.93,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Tangy Restaurant's Namesake Signature Entrée",
+            "price": 32.63,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Savory Molecular Gastronomy Showcase Tasting",
+            "price": 28.93,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Sweet Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 32.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Roasted Captain's Favorite Seafood Tower",
+            "price": 26.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Handcrafted Pan-seared Tableside Prepared Tartare",
+            "price": 37.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Grilled Cast Iron Seafood Presentation",
+            "price": 35.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Herbed Tomahawk Ribeye for Two",
+            "price": 39.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Tender Heirloom Recipe from Chef's Family",
+            "price": 25.71,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Crispy Hand-Selected Wine Pairing Experience",
+            "price": 39.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -47,19 +130,94 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Organic Juicy Korma",
-            "description": "This succulent favorite is caramelized using hand-picked vegetables, then drizzled with finesse.",
-            "price": 27.29,
+            "name": "Handcrafted Flaky Bruschetta",
+            "price": 9.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Fried Garlic Bread",
+            "price": 9.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Cheese Platter",
+            "price": 8.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Marinated Hummus Platter",
+            "price": 12.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spiced Baba Ganoush",
+            "price": 9.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Creamy Spinach Puffs",
+            "price": 14.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Pan-seared Mini Sliders",
+            "price": 15.01,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Local Spiced Coq au Vin",
-            "description": "A nutty dish fire-roasted with premium components and plated with precision.",
-            "price": 27.3,
+            "name": "Homestyle Appetizing Mini Crab Cakes",
+            "price": 15.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Soups",
+        "items": [
+          {
+            "name": "Fresh Herbed Corn Chowder",
+            "price": 12.34,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Spiced Tortilla Soup",
+            "price": 9.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -67,9 +225,8 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lasagna",
-            "description": "This balanced favorite is assembled using locally sourced produce, then beautifully presented.",
-            "price": 20.89,
+            "name": "Fresh Appetizing Lobster Bisque",
+            "price": 9.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -77,21 +234,10 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fajitas",
-            "description": "This succulent favorite is crafted using heritage grains, then neatly composed.",
-            "price": 18.33,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tacos",
-            "description": "Our hearty specialty, charred with finest quality ingredients and garnished to perfection.",
-            "price": 26.32,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Homestyle Exquisite Mushroom Soup",
+            "price": 10.61,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -102,9 +248,8 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Signature Delectable Thai Curry",
-            "description": "This pungent favorite is assembled using natural sweeteners, then presented on a wooden board.",
-            "price": 25.11,
+            "name": "Thai Green Papaya Salad",
+            "price": 15.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -112,44 +257,8 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Smoked Lamb Chops",
-            "description": "A subtle dish roasted with locally foraged herbs and artfully plated.",
-            "price": 24.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Spaghetti Bolognese",
-            "description": "Our hearty specialty, grilled with heirloom tomatoes and accompanied by a tasteful garnish.",
-            "price": 22.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Golden Stir-fry",
-            "description": "Served family-style and oven-baked to perfection using hand-picked vegetables.",
-            "price": 20.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Soups",
-        "items": [
-          {
-            "name": "Classic Juicy Korma",
-            "description": "This aromatic favorite is glazed using organic ingredients, then attractively arranged.",
-            "price": 29.88,
+            "name": "Chef Salad",
+            "price": 10.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,9 +266,17 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Thai Curry",
-            "description": "Our delicate specialty, caramelized with sun-ripened fruits and presented on a wooden board.",
-            "price": 20.92,
+            "name": "Garden Salad",
+            "price": 10.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cobb Salad",
+            "price": 10.4,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -167,24 +284,13 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Aromatic Enchiladas",
-            "description": "Our spicy specialty, crafted with free-range meats and served on rustic ware.",
-            "price": 25.93,
+            "name": "Potato Salad",
+            "price": 15.31,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Steak",
-            "description": "Our creamy specialty, marinated with locally foraged herbs and accompanied by a tasteful garnish.",
-            "price": 29.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
           }
         ]
       },
@@ -192,39 +298,8 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Organic Delicious Grilled Chicken",
-            "description": "Our zesty specialty, stir-fried with sustainable seafood and served on rustic ware.",
-            "price": 20.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Signature Spicy Pizza",
-            "description": "Accompanied by a tasteful garnish and crafted to perfection using heirloom tomatoes.",
-            "price": 22.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Tofu",
-            "description": "Drizzled with finesse and prepared to perfection using free-range meats.",
-            "price": 27.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ramen",
-            "description": "Elegantly served and prepared to perfection using locally sourced produce.",
-            "price": 23.13,
+            "name": "Fresh Crunchy Pizza",
+            "price": 25.47,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -232,9 +307,17 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chicken Parmesan",
-            "description": "Our succulent specialty, stir-fried with wild-caught fish and neatly composed.",
-            "price": 23.42,
+            "name": "Authentic Delicious Lentil Stew",
+            "price": 20.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Savory Steak",
+            "price": 23.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -242,19 +325,8 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Signature Pan-seared Mac and Cheese",
-            "description": "Our zesty specialty, composed with premium components and presented on a wooden board.",
-            "price": 30.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fish and Chips",
-            "description": "This creamy favorite is cooked using heirloom tomatoes, then attractively arranged.",
-            "price": 27.64,
+            "name": "Handcrafted Crispy Shakshuka",
+            "price": 31.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -262,11 +334,87 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Delicious Fajitas",
-            "description": "A rich dish made with microgreens and elegantly served.",
-            "price": 31.92,
+            "name": "Homestyle Roasted Cottage Pie",
+            "price": 18.11,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Mouthwatering Moussaka",
+            "price": 30.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Satisfying Fajitas",
+            "price": 18.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Creamy Beef Wellington",
+            "price": 27.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "items": [
+          {
+            "name": "House Special Wholesome Seafood Gumbo with Okra",
+            "price": 29.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Comforting Shrimp Scampi over Linguine",
+            "price": 26.52,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Braised Grilled Lobster with Lemon Butter",
+            "price": 27.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Tangy Seared Tuna Steak with Sesame Crust",
+            "price": 28.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Delicious Hearty Italian Cioppino",
+            "price": 32.54,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -277,9 +425,35 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Classic Herbed Pesto Pasta",
-            "description": "A herbaceous dish pan-seared with sustainable seafood and artfully plated.",
-            "price": 21.83,
+            "name": "Gourmet Zesty Mashed Potatoes",
+            "price": 6.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Grilled Soft Polenta with Parmesan",
+            "price": 8.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Delectable Sautéed Garlic Mushrooms",
+            "price": 5.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Golden Creamy Colcannon (Irish Potato Mash)",
+            "price": 8.51,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -287,29 +461,17 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Eggplant Parmesan",
-            "description": "Presented on a wooden board and assembled to perfection using hand-picked vegetables.",
-            "price": 29.75,
+            "name": "Organic Grilled Crispy Zucchini Fritters",
+            "price": 8.57,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Crunchy Enchiladas",
-            "description": "A earthy dish composed with free-range meats and served family-style.",
-            "price": 21.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Savory Korma",
-            "description": "This bold favorite is oven-baked using wild-caught fish, then artfully plated.",
-            "price": 21.32,
+            "name": "Seasonal Spicy Buttered Egg Noodles",
+            "price": 6.72,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -319,12 +481,11 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Seafood Specialties",
+        "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Grilled Spanish Octopus with Smoked Paprika",
-            "description": "Our fruity specialty, slow-cooked with seasonal ingredients and nestled in a ceramic bowl.",
-            "price": 27.88,
+            "name": "Juice",
+            "price": 7.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -332,30 +493,45 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lemon-Herb Calamari Steak",
-            "description": "Our floral specialty, created with aged cheeses and offered as a tasting portion.",
-            "price": 34.49,
+            "name": "Iced Tea",
+            "price": 7.44,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 5.97,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 4.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 6.83,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Mouthwatering Lobster Thermidor with Gruyère Crust",
-            "description": "Drizzled with finesse and stir-fried to perfection using microgreens.",
-            "price": 25.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Delectable Seafood Alfredo with Spinach Fettuccine",
-            "description": "A pungent dish made with cultured dairy and offered as a tasting portion.",
-            "price": 29.81,
-            "isVegetarian": true,
+            "name": "Water",
+            "price": 6.5,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -370,32 +546,29 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Signature Creamy Steak",
-            "description": "Presented on a wooden board and assembled to perfection using sustainable seafood.",
-            "price": 26.62,
-            "isVegetarian": false,
+            "name": "Cheesecake",
+            "price": 9.69,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Grilled Chicken",
-            "description": "Stacked artistically and pan-seared to perfection using sustainable seafood.",
-            "price": 26.58,
-            "isVegetarian": false,
+            "name": "Crumb Cake",
+            "price": 10.87,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Risotto",
-            "description": "A hearty dish made with seasonal ingredients and accompanied by a tasteful garnish.",
-            "price": 22.36,
+            "name": "Lemon Bars",
+            "price": 8.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -403,20 +576,18 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chicken Parmesan",
-            "description": "A citrusy dish prepared with organic ingredients and attractively arranged.",
-            "price": 27.19,
+            "name": "Berry Tart",
+            "price": 6.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Stuffed Peppers",
-            "description": "A succulent dish grilled with finest quality ingredients and beautifully presented.",
-            "price": 27.52,
-            "isVegetarian": true,
+            "name": "Macarons",
+            "price": 9.08,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -425,57 +596,52 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Spaghetti Bolognese",
-            "description": "Our briny specialty, composed with locally sourced produce and offered as a tasting portion.",
-            "price": 29.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Roasted Stuffed Zucchini Boats",
-            "description": "A herbaceous dish sautéed with finest quality ingredients and artfully plated.",
-            "price": 24.15,
+            "name": "Frozen Custard",
+            "price": 11.74,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Sautéed Moussaka",
-            "description": "This zesty favorite is prepared using premium components, then nestled in a ceramic bowl.",
-            "price": 27.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Spicy Steak",
-            "description": "Presented on a wooden board and prepared to perfection using handmade pasta.",
-            "price": 27.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Exquisite Beef Wellington",
-            "description": "This pungent favorite is cooked using grass-fed beef, then layered with care.",
-            "price": 26.38,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Pudding",
+            "price": 10.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sherbet",
+            "price": 7.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Paletas",
+            "price": 10.81,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Popsicles",
+            "price": 10.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
@@ -489,29 +655,8 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Signature Smoked Champagne",
-            "description": "Garnished to perfection and stir-fried to perfection using sustainable seafood.",
-            "price": 12.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Zesty Armagnac",
-            "description": "This refreshing favorite is hand-folded using seasonal ingredients, then garnished to perfection.",
-            "price": 12.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soju",
-            "description": "Our hearty specialty, glazed with heritage grains and nestled in a ceramic bowl.",
-            "price": 12.05,
+            "name": "Negroni",
+            "price": 12.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -519,9 +664,8 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Herbed Sherry",
-            "description": "Neatly composed and marinated to perfection using sustainable seafood.",
-            "price": 9.96,
+            "name": "Old Fashioned",
+            "price": 12.15,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,12 +673,47 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Hearty Beer",
-            "description": "Our zesty specialty, roasted with cultured dairy and layered with care.",
-            "price": 9.79,
+            "name": "Margarita",
+            "price": 10.05,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 12.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 13.68,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 14.28,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 11.21,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -544,9 +723,8 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Classic Steamed Bibimbap",
-            "description": "Our robust specialty, prepared with aged cheeses and plated with precision.",
-            "price": 28.15,
+            "name": "Marsanne",
+            "price": 12.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -554,29 +732,8 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Appetizing Pho",
-            "description": "This earthy favorite is hand-folded using cold-pressed oils, then served on rustic ware.",
-            "price": 28.23,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Steak",
-            "description": "This creamy favorite is created using aged cheeses, then stacked artistically.",
-            "price": 27.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Local Creamy Cottage Pie",
-            "description": "This spicy favorite is charred using cold-pressed oils, then styled for visual appeal.",
-            "price": 19.34,
+            "name": "Petit Verdot",
+            "price": 11.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -584,23 +741,39 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Pan-seared Quiche",
-            "description": "A bold dish sautéed with sustainable seafood and accompanied by a tasteful garnish.",
-            "price": 25.98,
+            "name": "Sangiovese",
+            "price": 13.27,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Luscious Chicken Parmesan",
-            "description": "A smoky dish crafted with locally foraged herbs and styled for visual appeal.",
-            "price": 23.56,
+            "name": "Merlot",
+            "price": 9.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cabernet Franc",
+            "price": 8.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Viognier",
+            "price": 10.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -609,29 +782,8 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Signature Satisfying Currywurst",
-            "description": "Our earthy specialty, seasoned with chef-selected spices and accompanied by a tasteful garnish.",
-            "price": 28.98,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tagine",
-            "description": "This earthy favorite is hand-folded using non-GMO produce, then garnished to perfection.",
-            "price": 28.35,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coq au Vin",
-            "description": "A rich dish oven-baked with artisanal elements and attractively arranged.",
-            "price": 26.81,
+            "name": "Maraschino",
+            "price": 15.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -639,12 +791,38 @@ export const barcelonapicassoBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tacos",
-            "description": "This balanced favorite is made using natural sweeteners, then beautifully presented.",
-            "price": 21.45,
-            "isVegetarian": false,
+            "name": "Calvados",
+            "price": 13.64,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sambuca",
+            "price": 12.03,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chartreuse",
+            "price": 13.07,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vodka",
+            "price": 12.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
