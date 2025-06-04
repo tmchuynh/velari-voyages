@@ -12,9 +12,94 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Classic Baked Flambéed Tableside Specialty",
-            "description": "This refreshing favorite is marinated using locally foraged herbs, then beautifully presented.",
-            "price": 27.72,
+            "name": "Handcrafted Grilled Award-Winning Seafood Boil",
+            "price": 28.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Delicious Seasonal Tasting Menu Experience",
+            "price": 37.1,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Satisfying Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 37.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Sautéed 24-Hour Braised Short Ribs",
+            "price": 24.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Flaky Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 31.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Steamed Japanese A5 Wagyu with Ponzu Butter",
+            "price": 34.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Marinated Legendary Prime Rib",
+            "price": 28.22,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Traditional Mouthwatering House Specialty Pasta Creation",
+            "price": 30.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Delectable Cold-Smoked Delicacy",
+            "price": 31.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Tender Dry-Aged Prime Beef Selection",
+            "price": 26.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -22,24 +107,22 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Organic Exquisite Legendary Prime Rib",
-            "description": "Drizzled with finesse and made to perfection using grass-fed beef.",
-            "price": 33,
+            "name": "House Special Zingy Lobster Thermidor",
+            "price": 29.37,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Delicious Restaurant's Namesake Signature Entrée",
-            "description": "Our rich specialty, hand-folded with organic ingredients and garnished to perfection.",
-            "price": 24.26,
+            "name": "Hearty Smoked Duck Confit with Roasted Root Vegetables",
+            "price": 37.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -47,74 +130,17 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Chef's Smoked Lamb Chops",
-            "description": "A hearty dish cooked with organic ingredients and served with flair.",
-            "price": 19.62,
+            "name": "Authentic Tangy Bruschetta",
+            "price": 10.23,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Pho",
-            "description": "Our hearty specialty, pan-seared with locally sourced produce and styled for visual appeal.",
-            "price": 21.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Enticing Coq au Vin",
-            "description": "This earthy favorite is pan-seared using cold-pressed oils, then stacked artistically.",
-            "price": 28.06,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Juicy Risotto",
-            "description": "Layered with care and hand-rolled to perfection using cultured dairy.",
-            "price": 23.91,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fish and Chips",
-            "description": "A rich dish made with chef-selected spices and beautifully presented.",
-            "price": 20.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
-          {
-            "name": "Pulled Pork Sandwich",
-            "description": "This sweet favorite is grilled using cold-pressed oils, then plated with precision.",
-            "price": 19.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fajitas",
-            "description": "Beautifully presented and prepared to perfection using microgreens.",
-            "price": 25.83,
+            "name": "Hearty Luscious Shrimp Cocktail",
+            "price": 12.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -122,22 +148,56 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Beef Wellington",
-            "description": "Artfully plated and braised to perfection using farm-fresh eggs.",
-            "price": 21.18,
+            "name": "Traditional Pan-seared Calamari",
+            "price": 13.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Herbed Potstickers",
+            "price": 13.15,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Herbed Tuna Tartare",
+            "price": 9.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Delectable Chicken Wings",
+            "price": 12.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Eggplant Parmesan",
-            "description": "Styled for visual appeal and oven-baked to perfection using premium components.",
-            "price": 21.6,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "name": "Authentic Marinated Crostini",
+            "price": 9.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Golden Potato Skins",
+            "price": 13.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -147,19 +207,8 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Pulled Pork Sandwich",
-            "description": "Our rich specialty, charred with seasonal ingredients and elegantly served.",
-            "price": 21.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Mac and Cheese",
-            "description": "A delicate dish marinated with microgreens and served family-style.",
-            "price": 18.72,
+            "name": "Handcrafted Spicy Butternut Squash Soup",
+            "price": 11.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -167,9 +216,40 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Delectable Thai Curry",
-            "description": "A fruity dish created with seasonal ingredients and beautifully presented.",
-            "price": 28.79,
+            "name": "Fresh Herbed Minestrone",
+            "price": 13.18,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Crunchy Hot and Sour Soup",
+            "price": 13.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Mouthwatering Corn Chowder",
+            "price": 11.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Fruit Salad",
+            "price": 13.66,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -177,11 +257,37 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Flaky Pasta Primavera",
-            "description": "This briny favorite is assembled using microgreens, then served with flair.",
-            "price": 22.36,
-            "isVegetarian": false,
+            "name": "Broccoli Crunch Salad",
+            "price": 13.23,
+            "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spinach Salad",
+            "price": 11.57,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cucumber Salad",
+            "price": 15.22,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kale Salad",
+            "price": 12.75,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -192,39 +298,8 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Tagine",
-            "description": "This subtle favorite is crafted using organic ingredients, then accompanied by a tasteful garnish.",
-            "price": 24.36,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Fried Jambalaya",
-            "description": "Styled for visual appeal and poached to perfection using hand-picked vegetables.",
-            "price": 29.94,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Sizzling Spaghetti Bolognese",
-            "description": "A savory dish infused with cold-pressed oils and beautifully presented.",
-            "price": 18.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beef Wellington",
-            "description": "Attractively arranged and cooked to perfection using sustainable seafood.",
-            "price": 19.05,
+            "name": "Authentic Sweet Shakshuka",
+            "price": 31.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -232,64 +307,17 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Burrito",
-            "description": "Our delicate specialty, assembled with locally sourced produce and served with flair.",
-            "price": 23.72,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Pan-seared Vegetable Stir-Fry",
-            "description": "Our spicy specialty, composed with seasonal ingredients and served on rustic ware.",
-            "price": 31.28,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Comforting Pasta Primavera",
-            "description": "Garnished to perfection and prepared to perfection using locally foraged herbs.",
-            "price": 28.71,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Moussaka",
-            "description": "Attractively arranged and caramelized to perfection using seasonal ingredients.",
-            "price": 18.74,
+            "name": "Authentic Creamy Paella",
+            "price": 24.77,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Signature Crunchy Gnocchi",
-            "description": "This bold favorite is poached using locally sourced produce, then garnished to perfection.",
-            "price": 19.9,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Stuffed Pulled Pork Sandwich",
-            "description": "Served on rustic ware and seasoned to perfection using sustainable seafood.",
-            "price": 29.69,
+            "name": "Fresh Marinated Steak",
+            "price": 23.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -297,21 +325,46 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Lamb Chops",
-            "description": "Our rich specialty, charred with premium components and served with flair.",
-            "price": 27.09,
+            "name": "Authentic Grilled Tagine",
+            "price": 22.2,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Jambalaya",
-            "description": "Stacked artistically and crafted to perfection using finest quality ingredients.",
-            "price": 27.17,
+            "name": "Classic Exquisite Ramen",
+            "price": 26.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spicy Korma",
+            "price": 21.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Herbed Burrito",
+            "price": 25.94,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Grilled Eggplant Parmesan",
+            "price": 19.18,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -322,19 +375,17 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Signature Zesty Grilled Lobster with Lemon Butter",
-            "description": "Our complex specialty, cooked with handmade pasta and offered as a tasting portion.",
-            "price": 31.49,
+            "name": "Homestyle Exquisite Maryland Style Crab Cakes",
+            "price": 32.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Chef's Mouthwatering New England Lobster Roll",
-            "description": "This earthy favorite is hand-folded using artisanal elements, then presented on a wooden board.",
-            "price": 28.42,
+            "name": "Gourmet Zesty Oysters Rockefeller with Pernod Cream",
+            "price": 25.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -342,9 +393,8 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Mussels Mariniere in White Wine",
-            "description": "A robust dish charred with sustainable seafood and elegantly served.",
-            "price": 32.06,
+            "name": "Hearty Steamed Grilled Spanish Octopus with Smoked Paprika",
+            "price": 28.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -352,11 +402,137 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Miso-Marinated Chilean Sea Bass",
-            "description": "Plated with precision and fire-roasted to perfection using free-range meats.",
-            "price": 34.72,
-            "isVegetarian": true,
+            "name": "Deluxe Exquisite Grilled Lobster with Lemon Butter",
+            "price": 27.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Smoked Pan-Seared Scallops with Pea Purée",
+            "price": 29.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Hearty Sweet Creamed Spinach with Nutmeg",
+            "price": 5.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Grilled Yukon Gold Potato Gratin",
+            "price": 7.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Zingy Scalloped Potatoes with Thyme",
+            "price": 5.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Smoked Mashed Potatoes",
+            "price": 7.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Aromatic Israeli Couscous with Roasted Tomatoes",
+            "price": 9.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Grilled French Fries",
+            "price": 8.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Hot Chocolate",
+            "price": 5.23,
+            "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 4.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 6.17,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 4.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 5.42,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 5.29,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -370,12 +546,11 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Signature Pan-seared Vegetable Stir-Fry",
-            "description": "This rich favorite is composed using finest quality ingredients, then garnished to perfection.",
-            "price": 19.61,
+            "name": "Cobbler",
+            "price": 6.24,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -383,29 +558,26 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Delicious Stuffed Peppers",
-            "description": "This hearty favorite is made using locally foraged herbs, then served family-style.",
-            "price": 18.42,
-            "isVegetarian": false,
+            "name": "Soufflé",
+            "price": 10.98,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Risotto",
-            "description": "This hearty favorite is fire-roasted using locally foraged herbs, then nestled in a ceramic bowl.",
-            "price": 29.66,
+            "name": "Biscotti",
+            "price": 9.09,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef's Flavorful Burrito",
-            "description": "This delicate favorite is grilled using farm-fresh eggs, then beautifully presented.",
-            "price": 22.27,
+            "name": "Berry Tart",
+            "price": 9.48,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -413,11 +585,10 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Zesty Enchiladas",
-            "description": "A pungent dish slow-cooked with organic ingredients and accompanied by a tasteful garnish.",
-            "price": 28.96,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Apple Pie",
+            "price": 6.52,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -425,42 +596,11 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Pulled Pork Sandwich",
-            "description": "This robust favorite is created using locally sourced produce, then accompanied by a tasteful garnish.",
-            "price": 28.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Signature Flavorful Chili con Carne",
-            "description": "Our bold specialty, braised with non-GMO produce and beautifully presented.",
-            "price": 23.4,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Risotto",
-            "description": "A rich dish charred with finest quality ingredients and served with flair.",
-            "price": 25.16,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mac and Cheese",
-            "description": "Accompanied by a tasteful garnish and fire-roasted to perfection using finest quality ingredients.",
-            "price": 25.44,
+            "name": "Sherbet",
+            "price": 10.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -468,12 +608,38 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Tangy Tagine",
-            "description": "Our spicy specialty, composed with seasonal ingredients and beautifully presented.",
-            "price": 25.57,
+            "name": "Popsicles",
+            "price": 9.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frosty",
+            "price": 7.88,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Cheesecake",
+            "price": 11.6,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream",
+            "price": 10.28,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -489,19 +655,8 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Organic Juicy Whiskey",
-            "description": "Served on rustic ware and composed to perfection using finest quality ingredients.",
-            "price": 10.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Wholesome Bourbon",
-            "description": "Our rich specialty, prepared with locally foraged herbs and presented on a wooden board.",
-            "price": 10.21,
+            "name": "Manhattan",
+            "price": 14.83,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -509,19 +664,17 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Mouthwatering Reposado Tequila",
-            "description": "Neatly composed and hand-rolled to perfection using seasonal ingredients.",
-            "price": 9.93,
+            "name": "Margarita",
+            "price": 11.77,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Herbed Cognac",
-            "description": "Our balanced specialty, seasoned with seasonal ingredients and artfully plated.",
-            "price": 14.97,
+            "name": "Mojito",
+            "price": 14.45,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -529,12 +682,38 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Añejo Tequila",
-            "description": "Our complex specialty, fire-roasted with microgreens and garnished to perfection.",
-            "price": 9.17,
+            "name": "Martini",
+            "price": 10.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 14.78,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 14.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 11.02,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -544,9 +723,8 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Organic Spiced Fajitas",
-            "description": "Nestled in a ceramic bowl and composed to perfection using sustainable seafood.",
-            "price": 19.13,
+            "name": "Marsanne",
+            "price": 10.17,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -554,52 +732,47 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Beef Wellington",
-            "description": "This rich favorite is poached using seasonal ingredients, then artfully plated.",
-            "price": 19.89,
+            "name": "Cabernet Sauvignon",
+            "price": 9.02,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Eggplant Parmesan",
-            "description": "A umami-packed dish hand-folded with hand-picked vegetables and served on rustic ware.",
-            "price": 18.57,
-            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Pan-seared Vegetable Stir-Fry",
-            "description": "Our umami-packed specialty, fire-roasted with grass-fed beef and plated with precision.",
-            "price": 21.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Risotto",
-            "description": "This succulent favorite is marinated using locally foraged herbs, then accompanied by a tasteful garnish.",
-            "price": 23.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pesto Pasta",
-            "description": "This hearty favorite is grilled using heritage grains, then accompanied by a tasteful garnish.",
-            "price": 19.66,
+            "name": "Albariño",
+            "price": 11.07,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sangiovese",
+            "price": 13.35,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fiano",
+            "price": 9.44,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tempranillo",
+            "price": 12.16,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -609,9 +782,26 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Chef's Spiced Quiche",
-            "description": "This refreshing favorite is pan-seared using grass-fed beef, then served with flair.",
-            "price": 19.11,
+            "name": "Vodka",
+            "price": 12.67,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Galliano",
+            "price": 12.81,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gin",
+            "price": 11.71,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -619,32 +809,20 @@ export const melbourneblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grilled Chicken",
-            "description": "Our floral specialty, oven-baked with organic ingredients and elegantly served.",
-            "price": 18.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Signature Hearty Mac and Cheese",
-            "description": "This refreshing favorite is caramelized using farm-fresh eggs, then served with flair.",
-            "price": 23.52,
-            "isVegetarian": false,
+            "name": "Frangelico",
+            "price": 12.02,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Eggplant Parmesan",
-            "description": "A spicy dish assembled with heritage grains and served on rustic ware.",
-            "price": 19.23,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Bénédictine",
+            "price": 10.77,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

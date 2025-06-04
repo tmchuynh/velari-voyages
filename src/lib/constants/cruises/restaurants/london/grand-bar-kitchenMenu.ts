@@ -12,9 +12,17 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "House Special Hearty Charcoal Grilled Iberico Pork",
-            "description": "This savory favorite is seasoned using seasonal ingredients, then stacked artistically.",
-            "price": 30.45,
+            "name": "Seasonal Flaky Award-Winning Seafood Boil",
+            "price": 35.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Sizzling Flambéed Tableside Specialty",
+            "price": 25.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,9 +30,76 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Local Succulent House Famous Duck Confit",
-            "description": "Served on rustic ware and sautéed to perfection using heirloom tomatoes.",
-            "price": 37.87,
+            "name": "Seasonal Spiced Age-Old Recipe Osso Buco with Gremolata",
+            "price": 24.49,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Smoked Seasonal Tasting Platter",
+            "price": 26.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Roasted Secret Recipe Bouillabaisse",
+            "price": 33.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Grilled Restaurant's Namesake Signature Entrée",
+            "price": 37.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Mouthwatering Chef's Special Surf and Turf",
+            "price": 37.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Fresh Stuffed Slow-Roasted Prime Rib",
+            "price": 34.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Fried Locally Foraged Mushroom Selection",
+            "price": 26.45,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Pan-seared Sustainable Seafood Tower",
+            "price": 30.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -32,14 +107,22 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Hearty Wood-Fired Peking Duck with Plum Sauce",
-            "description": "A savory dish poached with sun-ripened fruits and served with flair.",
-            "price": 32.54,
+            "name": "Fresh Herbed Whole Animal Butchery Showcase",
+            "price": 25.69,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Juicy Heirloom Recipe from Chef's Family",
+            "price": 29.6,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
@@ -47,9 +130,35 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Mac and Cheese",
-            "description": "Our refreshing specialty, glazed with premium components and plated with precision.",
-            "price": 19.8,
+            "name": "Homestyle Satisfying Garlic Bread",
+            "price": 13.88,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Creamy Tzatziki with Pita",
+            "price": 14.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Zesty Baked Brie",
+            "price": 11.75,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Enticing Nachos",
+            "price": 15.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -57,19 +166,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Roasted Coq au Vin",
-            "description": "This tangy favorite is braised using sun-ripened fruits, then accompanied by a tasteful garnish.",
-            "price": 22.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Mouthwatering Lasagna",
-            "description": "This aromatic favorite is charred using seasonal ingredients, then served with flair.",
-            "price": 27.03,
+            "name": "Classic Crunchy Falafel",
+            "price": 11.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -77,44 +175,17 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Sweet Roast Duck",
-            "description": "Our succulent specialty, infused with seasonal ingredients and presented on a wooden board.",
-            "price": 21.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Katsu Curry",
-            "description": "Our umami-packed specialty, smoked with handmade pasta and nestled in a ceramic bowl.",
-            "price": 25.89,
-            "isVegetarian": false,
+            "name": "Seasonal Delicious Stuffed Mushrooms",
+            "price": 8.61,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
-          {
-            "name": "Steak",
-            "description": "A aromatic dish slow-cooked with wild-caught fish and neatly composed.",
-            "price": 26.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
           },
           {
-            "name": "Korma",
-            "description": "Our umami-packed specialty, hand-folded with locally sourced produce and layered with care.",
-            "price": 28.28,
+            "name": "Deluxe Juicy Potstickers",
+            "price": 12.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -122,19 +193,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Herbed Mac and Cheese",
-            "description": "This fruity favorite is pan-seared using cultured dairy, then served with flair.",
-            "price": 23.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Currywurst",
-            "description": "This herbaceous favorite is created using seasonal ingredients, then artfully plated.",
-            "price": 22.44,
+            "name": "Hearty Creamy Zucchini Fries",
+            "price": 11.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -147,9 +207,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Moussaka",
-            "description": "A pungent dish slow-cooked with wild-caught fish and neatly composed.",
-            "price": 20.01,
+            "name": "Seasonal Spicy Broccoli Cheddar Soup",
+            "price": 11.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,19 +216,17 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Risotto",
-            "description": "This bold favorite is slow-cooked using handmade pasta, then styled for visual appeal.",
-            "price": 25.26,
-            "isVegetarian": true,
+            "name": "Traditional Smoked Egg Drop Soup",
+            "price": 11.83,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef's Exquisite Ramen",
-            "description": "This savory favorite is cooked using locally foraged herbs, then attractively arranged.",
-            "price": 28.88,
+            "name": "Traditional Hearty Thai Coconut Soup",
+            "price": 13.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -177,9 +234,58 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Braised Pesto Pasta",
-            "description": "Accompanied by a tasteful garnish and glazed to perfection using hand-picked vegetables.",
-            "price": 18.95,
+            "name": "Handcrafted Herbed Gazpacho",
+            "price": 13.69,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Caesar Salad",
+            "price": 12.18,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Greek Salad",
+            "price": 9.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lentil and Feta Salad",
+            "price": 14.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caprese Salad",
+            "price": 12.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Garden Salad",
+            "price": 15.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -192,126 +298,73 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Organic Hearty Shish Kebabs",
-            "description": "Garnished to perfection and made to perfection using wild-caught fish.",
-            "price": 27.15,
+            "name": "Authentic Exquisite Seafood Platter",
+            "price": 22.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "House Special Satisfying Spaghetti Bolognese",
-            "description": "A complex dish sautéed with hand-picked vegetables and served family-style.",
-            "price": 21.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cottage Pie",
-            "description": "Our spicy specialty, prepared with handmade pasta and layered with care.",
-            "price": 19.56,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ramen",
-            "description": "A nutty dish prepared with heirloom tomatoes and presented on a wooden board.",
-            "price": 19.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Delicious Biryani",
-            "description": "Our savory specialty, prepared with seasonal ingredients and served family-style.",
-            "price": 21.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Luscious Jambalaya",
-            "description": "Nestled in a ceramic bowl and prepared to perfection using finest quality ingredients.",
-            "price": 28.53,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Teriyaki Chicken",
-            "description": "This umami-packed favorite is cooked using grass-fed beef, then served with flair.",
-            "price": 27.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pesto Pasta",
-            "description": "Stacked artistically and marinated to perfection using cultured dairy.",
-            "price": 19.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Steak",
-            "description": "Served on rustic ware and crafted to perfection using hand-picked vegetables.",
-            "price": 23.23,
+            "name": "Fresh Smoked Pulled Pork Sandwich",
+            "price": 30.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "House Special Smoked Teriyaki Chicken",
-            "description": "Served family-style and braised to perfection using sustainable seafood.",
-            "price": 18.41,
+            "name": "Traditional Succulent Ramen",
+            "price": 18.98,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Delicious Vegetable Stir-Fry",
+            "price": 27.53,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Signature Crispy Pulled Pork Sandwich",
-            "description": "This delicate favorite is hand-rolled using organic ingredients, then served on rustic ware.",
-            "price": 23.33,
+            "name": "Organic Golden Spaghetti Bolognese",
+            "price": 23.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Local Grilled Salmon",
-            "description": "Nestled in a ceramic bowl and slow-cooked to perfection using seasonal ingredients.",
-            "price": 27.61,
+            "name": "Deluxe Wholesome Paella",
+            "price": 21.1,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Spicy Lentil Stew",
+            "price": 18.02,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Crispy Cottage Pie",
+            "price": 27.41,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -322,9 +375,35 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Signature Roasted Shrimp Scampi over Linguine",
-            "description": "Garnished to perfection and fire-roasted to perfection using natural sweeteners.",
-            "price": 28.72,
+            "name": "Classic Juicy Baked Cod with Lemon Caper Sauce",
+            "price": 23.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Sweet Seafood Alfredo with Spinach Fettuccine",
+            "price": 29.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Steamed Crab-Stuffed Mushrooms",
+            "price": 31.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Steamed Basa Fillet with Dill Cream Sauce",
+            "price": 25.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -332,9 +411,31 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Marinated Seafood Alfredo with Spinach Fettuccine",
-            "description": "Stacked artistically and composed to perfection using finest quality ingredients.",
-            "price": 26.63,
+            "name": "Handcrafted Golden Oysters Rockefeller with Pernod Cream",
+            "price": 35.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Authentic Sweet Wild Rice Pilaf",
+            "price": 6.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Marinated Steamed Jasmine Rice",
+            "price": 6.93,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -342,9 +443,49 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Marinated New England Lobster Roll",
-            "description": "This rich favorite is braised using heritage grains, then beautifully presented.",
-            "price": 24.61,
+            "name": "Homestyle Hearty Grilled Asparagus with Lemon Zest",
+            "price": 5.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Satisfying Green Beans Almondine",
+            "price": 8.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Flaky Roasted Root Vegetables",
+            "price": 9.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Zingy Sweet Corn and Cheddar Fritters",
+            "price": 7.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Coffee",
+            "price": 5.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -352,14 +493,49 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cajun Shrimp and Grits",
-            "description": "Plated with precision and prepared to perfection using grass-fed beef.",
-            "price": 22.15,
+            "name": "Tea",
+            "price": 6.89,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 6.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 7.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 6.65,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 6.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       }
@@ -370,12 +546,11 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Fajitas",
-            "description": "A hearty dish charred with cold-pressed oils and beautifully presented.",
-            "price": 22.13,
+            "name": "Berry Tart",
+            "price": 7.49,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -383,9 +558,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Golden Currywurst",
-            "description": "This rich favorite is made using sun-ripened fruits, then accompanied by a tasteful garnish.",
-            "price": 23.37,
+            "name": "Apple Pie",
+            "price": 7.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,29 +567,26 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Smoked Roast Duck",
-            "description": "A savory dish cooked with heritage grains and styled for visual appeal.",
-            "price": 27.22,
+            "name": "Danish Pastries",
+            "price": 10.35,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Chicken Parmesan",
-            "description": "Our rich specialty, seasoned with cold-pressed oils and nestled in a ceramic bowl.",
-            "price": 21.29,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Grilled Tofu",
-            "description": "This balanced favorite is charred using artisanal elements, then served family-style.",
-            "price": 23.15,
+            "name": "Biscotti",
+            "price": 8.16,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cannoli",
+            "price": 9.66,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -425,12 +596,11 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Ramen",
-            "description": "This floral favorite is infused using artisanal elements, then attractively arranged.",
-            "price": 27.7,
+            "name": "Frozen Pie",
+            "price": 9.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -438,42 +608,38 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Roasted Pizza",
-            "description": "Our nutty specialty, cooked with organic ingredients and styled for visual appeal.",
-            "price": 26.55,
+            "name": "Semifreddo",
+            "price": 11.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baked Alaska",
+            "price": 10.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream",
+            "price": 8.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gelato",
+            "price": 10.46,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Satisfying Teriyaki Chicken",
-            "description": "A aromatic dish glazed with cultured dairy and beautifully presented.",
-            "price": 24.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Local Hearty Lasagna",
-            "description": "Elegantly served and whipped to perfection using seasonal ingredients.",
-            "price": 25.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Baked Moussaka",
-            "description": "A balanced dish assembled with premium components and garnished to perfection.",
-            "price": 23.38,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -489,39 +655,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Chef's Zingy Long Island Iced Tea",
-            "description": "A subtle dish poached with finest quality ingredients and artfully plated.",
-            "price": 12.83,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Tangy Canadian Whisky",
-            "description": "This zesty favorite is sautéed using cultured dairy, then beautifully presented.",
-            "price": 10.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Irish Whiskey",
-            "description": "Artfully plated and hand-folded to perfection using premium components.",
-            "price": 10.64,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Tom Gin",
-            "description": "A robust dish cooked with hand-picked vegetables and attractively arranged.",
-            "price": 10.54,
+            "name": "Manhattan",
+            "price": 15.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -529,10 +664,54 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Appetizing Reposado Tequila",
-            "description": "Elegantly served and fire-roasted to perfection using finest quality ingredients.",
-            "price": 13,
+            "name": "Negroni",
+            "price": 12.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 15.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 10.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 14.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 13.74,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 14.78,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -544,9 +723,44 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Grilled Tofu",
-            "description": "A citrusy dish fire-roasted with locally foraged herbs and beautifully presented.",
-            "price": 19.09,
+            "name": "Tempranillo",
+            "price": 8.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Grigio",
+            "price": 9.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sangiovese",
+            "price": 9.81,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Prosecco",
+            "price": 13.05,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nebbiolo",
+            "price": 9.69,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -554,49 +768,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lasagna",
-            "description": "A succulent dish created with sustainable seafood and stacked artistically.",
-            "price": 19.78,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Steak",
-            "description": "This pungent favorite is marinated using premium components, then layered with care.",
-            "price": 28.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Grilled Chicken",
-            "description": "This herbaceous favorite is caramelized using organic ingredients, then served family-style.",
-            "price": 18.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Mac and Cheese",
-            "description": "This bold favorite is prepared using locally foraged herbs, then accompanied by a tasteful garnish.",
-            "price": 20.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Burrito",
-            "description": "Our balanced specialty, created with heritage grains and served with flair.",
-            "price": 23.68,
+            "name": "Viognier",
+            "price": 13.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -609,9 +782,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Steak",
-            "description": "A hearty dish marinated with wild-caught fish and served on rustic ware.",
-            "price": 28.54,
+            "name": "Anisette",
+            "price": 10.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,9 +791,26 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Irresistible Cottage Pie",
-            "description": "Our subtle specialty, composed with locally foraged herbs and served on rustic ware.",
-            "price": 19.8,
+            "name": "Triple Sec",
+            "price": 10.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Drambuie",
+            "price": 13.36,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey",
+            "price": 10.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -629,19 +818,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Grilled Grilled Chicken",
-            "description": "A earthy dish oven-baked with sun-ripened fruits and plated with precision.",
-            "price": 29.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Beef Burger",
-            "description": "This robust favorite is pan-seared using sustainable seafood, then elegantly served.",
-            "price": 19.87,
+            "name": "Galliano",
+            "price": 14.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,

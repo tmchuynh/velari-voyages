@@ -12,9 +12,8 @@ export const londontheTerraceMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Signature Sizzling Japanese A5 Wagyu with Ponzu Butter",
-            "description": "Our pungent specialty, composed with organic ingredients and stacked artistically.",
-            "price": 33.66,
+            "name": "Homestyle Pan-seared Captain's Favorite Seafood Tower",
+            "price": 30.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,23 +21,107 @@ export const londontheTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Appetizing Heritage Recipe Lamb Shank",
-            "description": "A robust dish fire-roasted with grass-fed beef and drizzled with finesse.",
-            "price": 25.67,
+            "name": "Gourmet Herbed Executive Chef's Daily Inspiration Entrée",
+            "price": 28.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Luscious 24-Hour Braised Short Ribs",
+            "price": 31.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Flambéed Tableside Specialty",
-            "description": "A earthy dish braised with locally foraged herbs and served with flair.",
-            "price": 31.93,
+            "name": "Seasonal Wholesome Dry-Aged Tomahawk Steak",
+            "price": 37.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Spiced Wood-Fired Peking Duck with Plum Sauce",
+            "price": 24.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Wholesome Secret Recipe Bouillabaisse",
+            "price": 36.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Savory Seasonal Tasting Menu Experience",
+            "price": 35.95,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Homestyle Zesty Heritage Breed Porchetta",
+            "price": 26.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Smoked Tableside Flambé Preparation",
+            "price": 36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Zesty Herb-Crusted Rack of Lamb",
+            "price": 31.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Zesty Whole Animal Butchery Showcase",
+            "price": 32.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Grilled Special Occasion Celebratory Dish",
+            "price": 27.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -47,9 +130,8 @@ export const londontheTerraceMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Local Grilled Paella",
-            "description": "A rich dish made with heritage grains and beautifully presented.",
-            "price": 25.72,
+            "name": "Deluxe Luscious Bruschetta",
+            "price": 12.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -57,84 +139,62 @@ export const londontheTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Shakshuka",
-            "description": "This pungent favorite is pan-seared using sustainable seafood, then served with flair.",
-            "price": 29.2,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pizza",
-            "description": "Our rich specialty, grilled with hand-picked vegetables and presented on a wooden board.",
-            "price": 22.38,
+            "name": "Seasonal Delectable Chicken Wings",
+            "price": 15.75,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Eggplant Parmesan",
-            "description": "This tangy favorite is stir-fried using cold-pressed oils, then beautifully presented.",
-            "price": 20.68,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Creamy Biryani",
-            "description": "Our balanced specialty, smoked with natural sweeteners and served family-style.",
-            "price": 20.77,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
-          {
-            "name": "Tacos",
-            "description": "Beautifully presented and marinated to perfection using locally sourced produce.",
-            "price": 24.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Thai Curry",
-            "description": "Our citrusy specialty, prepared with free-range meats and garnished to perfection.",
-            "price": 28.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Marinated Steak",
-            "description": "Styled for visual appeal and charred to perfection using house-made sauces.",
-            "price": 24.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Herbed Cheese Platter",
+            "price": 15.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef's Sautéed Cottage Pie",
-            "description": "Our robust specialty, smoked with seasonal ingredients and elegantly served.",
-            "price": 25.36,
+            "name": "Premium Luscious Prawn Cocktail",
+            "price": 11.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Aromatic Garlic Bread",
+            "price": 11.77,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Grilled Calamari",
+            "price": 14.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Braised Spinach Artichoke Dip",
+            "price": 11.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Juicy Deviled Eggs",
+            "price": 13.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -147,44 +207,90 @@ export const londontheTerraceMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Steak",
-            "description": "A rich dish cooked with house-made sauces and presented on a wooden board.",
-            "price": 18.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Juicy Salmon",
-            "description": "Our floral specialty, prepared with non-GMO produce and beautifully presented.",
-            "price": 28.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Zingy Stuffed Zucchini Boats",
-            "description": "Our hearty specialty, prepared with chef-selected spices and stacked artistically.",
-            "price": 29.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Appetizing Grilled Chicken",
-            "description": "A delicate dish made with wild-caught fish and beautifully presented.",
-            "price": 26.75,
+            "name": "Classic Grilled Turkey and Wild Rice Soup",
+            "price": 11.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Gourmet Hearty Clam Chowder",
+            "price": 12.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Spiced Thai Coconut Soup",
+            "price": 7.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Sautéed Lobster Bisque",
+            "price": 7.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Quinoa Salad",
+            "price": 14.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pecan Salad",
+            "price": 9.29,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cobb Salad",
+            "price": 13.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Arugula Salad",
+            "price": 10.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kale Salad",
+            "price": 15.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -192,39 +298,17 @@ export const londontheTerraceMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "House Special Zesty Stir-fry",
-            "description": "A aromatic dish grilled with locally sourced produce and accompanied by a tasteful garnish.",
-            "price": 18.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Zucchini Boats",
-            "description": "This rich favorite is infused using wild-caught fish, then garnished to perfection.",
-            "price": 25.67,
+            "name": "Premium Grilled Teriyaki Chicken",
+            "price": 23.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Delicious Chicken Parmesan",
-            "description": "A buttery dish stir-fried with sun-ripened fruits and nestled in a ceramic bowl.",
-            "price": 18.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Katsu Curry",
-            "description": "This rich favorite is prepared using finest quality ingredients, then beautifully presented.",
-            "price": 19.58,
+            "name": "Gourmet Zingy Pizza",
+            "price": 23.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -232,84 +316,53 @@ export const londontheTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Hearty Burrito",
-            "description": "This spicy favorite is seasoned using house-made sauces, then served with flair.",
-            "price": 19.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Grilled Enchiladas",
-            "description": "Served on rustic ware and stir-fried to perfection using farm-fresh eggs.",
-            "price": 22.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Steak",
-            "description": "Our pungent specialty, assembled with seasonal ingredients and attractively arranged.",
-            "price": 31.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Local Spiced Tacos",
-            "description": "Our succulent specialty, stir-fried with cold-pressed oils and accompanied by a tasteful garnish.",
-            "price": 19.67,
+            "name": "Seasonal Herbed Paella",
+            "price": 30.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
+          },
           {
-            "name": "Shakshuka",
-            "description": "Our briny specialty, created with premium components and plated with precision.",
-            "price": 24.21,
+            "name": "House Special Aromatic Steak",
+            "price": 21.81,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Grilled Grilled Chicken",
+            "price": 20.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Comforting Beef Burger",
+            "price": 19.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Tender Eggplant Parmesan",
+            "price": 29.37,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Spaghetti Bolognese",
-            "description": "Beautifully presented and infused to perfection using sustainable seafood.",
-            "price": 22.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Fried Quiche",
-            "description": "A rich dish hand-rolled with handmade pasta and attractively arranged.",
-            "price": 27.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seafood Platter",
-            "description": "A succulent dish composed with free-range meats and beautifully presented.",
-            "price": 27.95,
+            "name": "Fresh Exquisite Chicken Parmesan",
+            "price": 19.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -322,29 +375,17 @@ export const londontheTerraceMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Fresh Irresistible Grilled Lobster with Lemon Butter",
-            "description": "This succulent favorite is infused using cultured dairy, then served on rustic ware.",
-            "price": 31.97,
+            "name": "Authentic Hearty Alaskan King Crab Legs with Drawn Butter",
+            "price": 29.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Steamed Littleneck Clams in Garlic Broth",
-            "description": "A creamy dish made with chef-selected spices and beautifully presented.",
-            "price": 22.09,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Exquisite Classic British Fish and Chips",
-            "description": "A rich dish oven-baked with hand-picked vegetables and attractively arranged.",
-            "price": 33.04,
+            "name": "Fresh Aromatic Steamed Littleneck Clams in Garlic Broth",
+            "price": 22.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -352,14 +393,149 @@ export const londontheTerraceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Signature Aromatic Cajun Shrimp and Grits",
-            "description": "Styled for visual appeal and glazed to perfection using artisanal elements.",
-            "price": 29.28,
+            "name": "Fresh Fried Grilled Lobster with Lemon Butter",
+            "price": 22.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Deluxe Steamed New England Lobster Roll",
+            "price": 25.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Sautéed Seafood Gumbo with Okra",
+            "price": 22.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Seasonal Crunchy Grilled Asparagus with Lemon Zest",
+            "price": 5.8,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Grilled Sweet Potato Wedges with Smoked Paprika",
+            "price": 8.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Tangy Herbed Bulgur Wheat with Lemon",
+            "price": 9.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spiced Macaroni and Aged Cheddar",
+            "price": 6.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Sautéed Braised Red Cabbage with Apple",
+            "price": 7.26,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Exquisite French Fries",
+            "price": 9.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Water",
+            "price": 4.07,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 6.52,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 6.07,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 4.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 6.93,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 5.17,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
@@ -370,12 +546,11 @@ export const londontheTerraceMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Tagine",
-            "description": "A subtle dish whipped with aged cheeses and offered as a tasting portion.",
-            "price": 26.25,
+            "name": "Carrot Cake",
+            "price": 6.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -383,19 +558,17 @@ export const londontheTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Shish Kebabs",
-            "description": "Accompanied by a tasteful garnish and slow-cooked to perfection using aged cheeses.",
-            "price": 18.43,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Apple Pie",
+            "price": 10.94,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Local Sweet Lasagna",
-            "description": "This delicate favorite is seasoned using artisanal elements, then styled for visual appeal.",
-            "price": 25.21,
+            "name": "Portuguese Custard Tarts",
+            "price": 9.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -403,34 +576,31 @@ export const londontheTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Luscious Tacos",
-            "description": "Our zesty specialty, pan-seared with cold-pressed oils and layered with care.",
-            "price": 26.81,
-            "isVegetarian": true,
+            "name": "Macarons",
+            "price": 7.18,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Salmon",
-            "description": "Our hearty specialty, hand-rolled with sun-ripened fruits and served with flair.",
-            "price": 22.4,
+            "name": "Baklava",
+            "price": 6.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Local Irresistible Cottage Pie",
-            "description": "Our creamy specialty, composed with finest quality ingredients and presented on a wooden board.",
-            "price": 22.29,
+            "name": "Ice Cream Cake",
+            "price": 9.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -438,29 +608,8 @@ export const londontheTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Thai Curry",
-            "description": "A savory dish composed with microgreens and served with flair.",
-            "price": 21.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Jambalaya",
-            "description": "Layered with care and prepared to perfection using non-GMO produce.",
-            "price": 20.46,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Baked Ramen",
-            "description": "This briny favorite is charred using handmade pasta, then nestled in a ceramic bowl.",
-            "price": 18.26,
+            "name": "Frozen Fruit Bars",
+            "price": 8.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -468,10 +617,27 @@ export const londontheTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Crunchy Paella",
-            "description": "This refreshing favorite is made using microgreens, then garnished to perfection.",
-            "price": 29.71,
-            "isVegetarian": true,
+            "name": "Paletas",
+            "price": 7.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Mousse",
+            "price": 8.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Yogurt",
+            "price": 11.78,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -489,40 +655,36 @@ export const londontheTerraceMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "House Special Grilled Martini",
-            "description": "This hearty favorite is grilled using house-made sauces, then served with flair.",
-            "price": 10.02,
+            "name": "Cosmopolitan",
+            "price": 13.43,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fortified Wine",
-            "description": "Accompanied by a tasteful garnish and grilled to perfection using seasonal ingredients.",
-            "price": 12.23,
+            "name": "Bloody Mary",
+            "price": 10.93,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Succulent Tom Collins",
-            "description": "This spicy favorite is assembled using finest quality ingredients, then elegantly served.",
-            "price": 9.93,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef's Creamy London Dry Gin",
-            "description": "Our zesty specialty, assembled with hand-picked vegetables and beautifully presented.",
-            "price": 13.62,
-            "isVegetarian": false,
+            "name": "Mojito",
+            "price": 10.11,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 11.19,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -530,9 +692,26 @@ export const londontheTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Old Fashioned",
-            "description": "Our rich specialty, grilled with organic ingredients and served on rustic ware.",
-            "price": 12.92,
+            "price": 11.29,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 12,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 10.36,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -544,29 +723,8 @@ export const londontheTerraceMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Signature Steamed Salmon",
-            "description": "Our buttery specialty, glazed with artisanal elements and garnished to perfection.",
-            "price": 22.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Steamed Cottage Pie",
-            "description": "Served with flair and stir-fried to perfection using heritage grains.",
-            "price": 23.37,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Flavorful Shakshuka",
-            "description": "Served on rustic ware and hand-folded to perfection using handmade pasta.",
-            "price": 27.65,
+            "name": "Cabernet Franc",
+            "price": 13.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -574,31 +732,46 @@ export const londontheTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grilled Chicken",
-            "description": "A sweet dish whipped with premium components and drizzled with finesse.",
-            "price": 24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Roasted Pizza",
-            "description": "Our briny specialty, pan-seared with non-GMO produce and drizzled with finesse.",
-            "price": 28.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Enchiladas",
-            "description": "Beautifully presented and made to perfection using sustainable seafood.",
-            "price": 26.23,
+            "name": "Prosecco",
+            "price": 13.46,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vermentino",
+            "price": 11.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Marsanne",
+            "price": 8.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Champagne/Sparkling Wine",
+            "price": 13.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Sémillon",
+            "price": 11.03,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -609,40 +782,45 @@ export const londontheTerraceMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Stuffed Peppers",
-            "description": "Our nutty specialty, made with cold-pressed oils and beautifully presented.",
-            "price": 21.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tacos",
-            "description": "Our succulent specialty, grilled with aged cheeses and nestled in a ceramic bowl.",
-            "price": 25.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Zingy Pasta Primavera",
-            "description": "A nutty dish grilled with finest quality ingredients and drizzled with finesse.",
-            "price": 18.63,
+            "name": "Grand Marnier",
+            "price": 15.13,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Rum",
+            "price": 16.09,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Savory Coq au Vin",
-            "description": "A zesty dish sautéed with natural sweeteners and styled for visual appeal.",
-            "price": 22.61,
+            "name": "Scotch",
+            "price": 16.26,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tequila",
+            "price": 14.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Maraschino",
+            "price": 16.42,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
