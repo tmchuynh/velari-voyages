@@ -2,9 +2,50 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
+
+// node create-city-cruise-files.mjs - Default behavior, adds 10 cruises per city
+// node create-city-cruise-files.mjs --append 5 - Adds 5 cruises to each city file
+// node create-city-cruise-files.mjs --rewrite - Rewrites all files with 10 cruises each
+// node create-city-cruise-files.mjs --rewrite --append 15 - Rewrites all files with 15 cruises each
+// node create-city-cruise-files.mjs --help - Shows help information
+
 // Get the equivalent of __dirname in ESM
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+// Parse command-line arguments
+const args = process.argv.slice(2);
+const CRUISES_PER_CITY = 10; // Default value
+let cruisesToAppend = CRUISES_PER_CITY;
+let forceRewrite = false;
+
+// Process command-line arguments
+for (let i = 0; i < args.length; i++) {
+  if (args[i] === "--append" || args[i] === "-a") {
+    const value = parseInt(args[i + 1]);
+    if (!isNaN(value) && value > 0) {
+      cruisesToAppend = value;
+      i++; // Skip the next argument (the number)
+    }
+  } else if (args[i] === "--rewrite" || args[i] === "-r") {
+    forceRewrite = true;
+  } else if (args[i] === "--help" || args[i] === "-h") {
+    console.log(`
+Usage: node create-city-cruise-files.mjs [options]
+
+Options:
+  --append, -a NUMBER  Append NUMBER of cruises to existing files
+  --rewrite, -r        Rewrite all files, discarding existing cruises
+  --help, -h           Display this help message
+    `);
+    process.exit(0);
+  }
+}
+
+console.log(`Running with options:
+- ${forceRewrite ? "Rewriting all files" : "Preserving existing files"}
+- ${forceRewrite ? "Creating" : "Appending"} ${cruisesToAppend} cruises ${forceRewrite ? "per city" : "to each file"}
+`);
 
 // Function to convert kebab case to camelCase
 function kebabToCamelCase(str) {
@@ -291,8 +332,6 @@ try {
   process.exit(1);
 }
 
-const CRUISES_PER_CITY = 10;
-
 // Generate regional destinations for a cruise from a given city
 function getDestinationsForCity(cityName) {
   // Determine the cruising region for this city
@@ -343,13 +382,15 @@ function generateCruiseData(cityName) {
 
   // Add destinations to route
   destinations.forEach((dest, i) => {
+    const destCountry = cityCountryMap[dest.toLowerCase()] || "";
+    const destCoordinates = cityCoordinates[dest.toLowerCase()] || {
+      latitude: 0,
+      longitude: 0,
+    };
     route.push({
       city: dest,
-      country: "Destination Country", // This could be improved with a mapping
-      coordinates: {
-        latitude: Math.random() * 170 - 85,
-        longitude: Math.random() * 360 - 180,
-      },
+      country: destCountry,
+      coordinates: destCoordinates,
     });
   });
 
@@ -411,6 +452,21 @@ function generateCruiseData(cityName) {
     "Extraordinary",
     "Luxurious",
     "Epic",
+    "Hidden",
+    "Legendary",
+    "Mythic",
+    "Golden",
+    "Celestial",
+    "Whispering",
+    "Secret",
+    "Forbidden",
+    "Timeless",
+    "Infinite",
+    "Midnight",
+    "Starlit",
+    "Crystalline",
+    "Eternal",
+    "Velvet",
   ];
   const cruiseExperiences = [
     "Adventure",
@@ -425,14 +481,164 @@ function generateCruiseData(cityName) {
     "Quest",
     "Sojourn",
     "Excursion",
+    "Passage",
+    "Escape",
+    "Sojourn",
+    "Odyssey",
+    "Renaissance",
+    "Reverie",
+    "Requiem",
+    "Sanctuary",
+    "Mirage",
+    "Saga",
+    "Labyrinth",
+    "Tide",
+    "Mystique",
+    "Realm",
+    "Horizon",
   ];
+
+  const regionDescriptors = {
+    Caribbean: [
+      "Tropical Isles",
+      "Sapphire Waters",
+      "Sun-Kissed Archipelago",
+      "Azure Horizons",
+    ],
+    Mediterranean: [
+      "Ancient Shores",
+      "Sun-Drenched Riviera",
+      "Timeless Coastlines",
+      "Marble Cities",
+    ],
+    Alaska: [
+      "Frozen Frontiers",
+      "Glacial Kingdom",
+      "Northern Lights",
+      "Icy Passageways",
+    ],
+    "Asia Pacific": [
+      "Oriental Realms",
+      "Mystic East",
+      "Oceanic Wonders",
+      "Pacific Dreams",
+    ],
+    "South America": [
+      "Emerald Coasts",
+      "Southern Horizons",
+      "Amazonian Edge",
+      "Rhythmic Tropics",
+    ],
+    "Northern Europe": [
+      "Nordic Waters",
+      "Baltic Echoes",
+      "Twilight Fjords",
+      "Runestone Realms",
+    ],
+    "East Coast USA": [
+      "Colonial Shores",
+      "Historic Harbors",
+      "Atlantic Breeze",
+      "Sunrise Coast",
+    ],
+    "West Coast USA": [
+      "Golden Shores",
+      "Pacific Edge",
+      "Coastal Giants",
+      "Sunset Horizon",
+    ],
+    "East Coast Canada": [
+      "Seaway Frontiers",
+      "Maple Coast",
+      "Harbor Havens",
+      "Autumn Bay",
+    ],
+    "Middle East": [
+      "Desert Jewels",
+      "Arabian Nights",
+      "Golden Sands",
+      "Ancient Crossroads",
+    ],
+    Africa: [
+      "Savannah Shorelines",
+      "Sunset Dunes",
+      "Cradle of Life",
+      "Wild Horizon",
+    ],
+  };
+
+  const cityDescriptors = {
+    auckland: ["City of Sails", "Harbor Haven"],
+    amsterdam: ["Canal Crown", "Dutch Jewel"],
+    barcelona: ["Catalan Gem", "Gaudí’s Playground"],
+    berlin: ["Cultural Capital", "Wall of Stories"],
+    boston: ["Revolutionary Port", "Colonial Gateway"],
+    "buenos-aires": ["Paris of South America", "Tango Capital"],
+    "cape-town": ["Tabletop Treasure", "Cape of Wonders"],
+    charleston: ["Southern Charm", "Historic Waterfront"],
+    copenhagen: ["Scandinavian Pearl", "Harbor of Hygge"],
+    dubai: ["Golden Metropolis", "Oasis of Luxury"],
+    dublin: ["Emerald Gateway", "Literary Capital"],
+    florence: ["Cradle of the Renaissance", "Tuscan Treasure"],
+    "fort-lauderdale": ["Venice of America", "Sunlit Seaway"],
+    galveston: ["Lone Star Port", "Gulf Gateway"],
+    "hong-kong": ["Pearl of the Orient", "Vertical City"],
+    kiel: ["Gateway to the Baltic", "German Maritime Hub"],
+    kyoto: ["Cultural Heart of Japan", "Temple Haven"],
+    lisbon: ["Hillside Haven", "Portuguese Pearl"],
+    london: ["Royal Metropolis", "Thames Capital"],
+    "los-angeles": ["Golden Coastline", "City of Dreams"],
+    melbourne: ["Cultural Capital of Australia", "Laneway Wonderland"],
+    miami: ["Magic City", "Coastal Pulse"],
+    milan: ["Fashion Capital", "Lombard Jewel"],
+    montreal: ["French-Canadian Heart", "Island Metropolis"],
+    "new-orleans": ["Jazz Capital", "Crescent City"],
+    "new-york-city": ["Empire Gateway", "Big Apple"],
+    paris: ["City of Light", "Romantic Capital"],
+    "quebec-city": ["Walled Wonder", "French-Canadian Crown"],
+    "rio-de-janeiro": ["Carnival Capital", "Marvelous City"],
+    rome: ["Eternal City", "Ancient Empire's Core"],
+    "san-francisco": ["Bay City", "Golden Gateway"],
+    "san-juan": ["Spanish Caribbean Jewel", "Colorful Coastline"],
+    seattle: ["Emerald City", "Rain-Crowned Harbor"],
+    singapore: ["Lion City", "Futuristic Haven"],
+    southampton: ["Maritime Crossroads", "Titanic Port"],
+    sydney: ["Harbor Icon", "Sun-Kissed Capital"],
+    tampa: ["Bayfront Beauty", "Sunshine Gateway"],
+    tokyo: ["Neon Capital", "Skyline of the Rising Sun"],
+    toronto: ["Urban Mosaic", "Great Lakes Metropolis"],
+    vancouver: ["Pacific Jewel", "Mountain-Edge Metropolis"],
+    venice: ["Floating City", "Canal Kingdom"],
+    yokohama: ["Gateway to Japan", "Bayside Metropolis"],
+    athens: ["Cradle of Civilization", "Mythic Metropolis"],
+    stockholm: ["Venice of the North", "Scandinavian Capital"],
+  };
+
+  function generateEnticingCruiseTitle(cityName) {
+    const region = cityToRegionMap[cityName] || "Exotic Realms";
+
+    const regionDesc = regionDescriptors[region] || [region];
+    const cityDesc = cityDescriptors[cityName];
+
+    const descriptors =
+      cityDesc && Math.random() > 0.35 ? cityDesc : regionDesc;
+
+    const adjective =
+      cruiseAdjectives[Math.floor(Math.random() * cruiseAdjectives.length)];
+    const experience =
+      cruiseExperiences[Math.floor(Math.random() * cruiseExperiences.length)];
+    const setting = descriptors[Math.floor(Math.random() * descriptors.length)];
+
+    return `${adjective} ${experience} of the ${setting}`;
+  }
+
   const adjective =
     cruiseAdjectives[Math.floor(Math.random() * cruiseAdjectives.length)];
   const experience =
     cruiseExperiences[Math.floor(Math.random() * cruiseExperiences.length)];
   const regionType = cityToRegionMap[cityName] || capitalizeWords(cityName);
 
-  const cruiseTitle = `${adjective} ${regionType} ${experience} from ${cityDisplayName}`;
+  const cruiseTitle = generateEnticingCruiseTitle(cityName);
 
   // Generate more descriptive descriptions
   const descriptions = [
@@ -484,6 +690,7 @@ function createEmailFromTitle(title) {
 // Create files for each city
 let createdFiles = 0;
 let updatedFiles = 0;
+let rewrittenFiles = 0;
 let totalCruisesCreated = 0;
 
 function getTourCategoryId(totalDuration, tags) {
@@ -542,12 +749,12 @@ for (const city of cityFiles) {
   const camelCaseCity = kebabToCamelCase(city);
   const cruiseFilePath = path.join(cruisesDir, `${city}-cruises.ts`);
   let existingCruises = [];
-  let cruisesToAdd = CRUISES_PER_CITY;
+  let cruisesToAdd = cruisesToAppend; // Use the command-line argument value
   let fileAction = "Created";
 
   try {
-    // Check if file already exists
-    if (fs.existsSync(cruiseFilePath)) {
+    // Check if file already exists and we're not forcing a rewrite
+    if (fs.existsSync(cruiseFilePath) && !forceRewrite) {
       // Read existing file content
       const existingContent = fs.readFileSync(cruiseFilePath, "utf8");
 
@@ -577,11 +784,15 @@ for (const city of cityFiles) {
           );
         }
       }
+    } else if (fs.existsSync(cruiseFilePath) && forceRewrite) {
+      // When forcing rewrite, we're technically rewriting the file
+      fileAction = "Rewritten";
+      rewrittenFiles++;
     } else {
       createdFiles++;
     }
 
-    // Generate multiple cruise objects based on CRUISES_PER_CITY
+    // Generate multiple cruise objects
     const cruiseObjects = [];
 
     for (let i = 0; i < cruisesToAdd; i++) {
@@ -690,11 +901,11 @@ for (const city of cityFiles) {
 
     // Create file content, combining existing and new cruises if applicable
     let combinedCruises;
-    if (existingCruises.length > 0) {
+    if (existingCruises.length > 0 && !forceRewrite) {
       // Append new cruises to existing ones
       combinedCruises = existingCruises + ",\n" + cruiseObjects.join(",\n");
     } else {
-      // Just use the new cruises
+      // Just use the new cruises (either new file or forced rewrite)
       combinedCruises = cruiseObjects.join(",\n");
     }
 
@@ -719,5 +930,6 @@ ${combinedCruises}
 console.log(`\nSummary:`);
 console.log(`Created ${createdFiles} new cruise files`);
 console.log(`Updated ${updatedFiles} existing cruise files`);
+console.log(`Rewritten ${rewrittenFiles} existing cruise files`);
 console.log(`Total cities processed: ${cityFiles.length}`);
 console.log(`Total new cruises created: ${totalCruisesCreated}`);
