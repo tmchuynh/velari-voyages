@@ -1,10 +1,10 @@
 "use client";
 import Loading from "@/components/Loading";
 import { Card } from "@/components/ui/card";
-import { cityFiles } from "@/lib/constants/info/city";
+import { cityFiles } from "@/lib/constants/info/city.ts";
 import { Restaurant } from "@/lib/types/types";
-import { formatTitleToKebabCase } from "@/lib/utils/format";
-import { getAllRestaurantsFromCity } from "@/lib/utils/get";
+import { formatTitleToKebabCase } from "@/lib/utils/format.ts";
+import { getAllRestaurantsFromCity } from "@/lib/utils/get.ts";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
