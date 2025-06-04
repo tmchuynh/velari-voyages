@@ -8,7 +8,7 @@ import {
   capitalize,
   formatNumberToCurrency,
   formatToSlug,
-} from "@/lib/utils/format";
+} from "@/lib/utils/format.ts";
 import { useRouter } from "next/navigation";
 import { IoMdInformationCircle } from "react-icons/io";
 
