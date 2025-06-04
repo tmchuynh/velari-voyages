@@ -4342,5 +4342,602 @@ export const kielCruises: Cruise[] = [
     description: "Savor each moment of this mythic escape through Northern Europe, starting in Kiel. Visit renowned locations like Helsinki, Copenhagen, where adventure and relaxation intertwine.",
     rating: 4.6,
     tags: ["exclusive"]
+  },
+  {
+    basePrice: 1274,
+    departureLocation: {
+  "city": "Kiel",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 54.3233,
+    "longitude": 10.1228
+  }
+},
+    arrivalLocation: {
+  "city": "Tallinn",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Experience the elegance of the seas on this celestial escape through Northern Europe, starting from the illustrious port of Kiel. From Copenhagen to Tallinn, each destination offers its own story, culture, and breathtaking views.",
+      distance: "908 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Kiel to Copenhagen"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Copenhagen to Tallinn"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Kiel"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Tallinn"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Ariana Lawson",
+        role: "Hospitality Director",
+        languages: ["Burmese","German"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
+        contact: {
+          contactEmail: "captivating.labyrint@velarivoyages.com",
+          contactNumber: "+1-812-944-5259"
+        }
+      }
+    ],
+    title: "Captivating Labyrinth of the Baltic Echoes",
+    description: "Experience the elegance of the seas on this celestial escape through Northern Europe, starting from the illustrious port of Kiel. From Copenhagen to Tallinn, each destination offers its own story, culture, and breathtaking views.",
+    rating: 4.7,
+    tags: ["adventure"]
+  },
+  {
+    basePrice: 4797,
+    departureLocation: {
+  "city": "Kiel",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 54.3233,
+    "longitude": 10.1228
+  }
+},
+    arrivalLocation: {
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "coordinates": {
+    "latitude": 55.6761,
+    "longitude": 12.5683
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  }
+],
+      description: "This crystalline cruise from Kiel is your ticket to the captivating charm of the Northern Europe. Discover the delights of Stockholm, Copenhagen with enriching excursions and award-winning service.",
+      distance: "907 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Kiel to Stockholm"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Stockholm to Copenhagen"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Kiel"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Copenhagen"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Samantha Sutton",
+        role: "Hospitality Director",
+        languages: ["Burmese","German"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
+        contact: {
+          contactEmail: "exquisite.quest.of.t@velarivoyages.com",
+          contactNumber: "+1-893-100-2593"
+        }
+      }
+    ],
+    title: "Exquisite Quest of the Nordic Waters",
+    description: "This crystalline cruise from Kiel is your ticket to the captivating charm of the Northern Europe. Discover the delights of Stockholm, Copenhagen with enriching excursions and award-winning service.",
+    rating: 4.6,
+    tags: ["adventure"]
+  },
+  {
+    basePrice: 3489,
+    departureLocation: {
+  "city": "Kiel",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 54.3233,
+    "longitude": 10.1228
+  }
+},
+    arrivalLocation: {
+  "city": "Oslo",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Set off on a escape from Kiel that captures the essence of Northern Europe. Discover cultural gems and culinary delights across Copenhagen, Oslo.",
+      distance: "860 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Kiel to Copenhagen"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Copenhagen to Oslo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Kiel"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Oslo"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Dorothy Curtis",
+        role: "Hospitality Director",
+        languages: ["Burmese","German"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/85.jpg",
+        contact: {
+          contactEmail: "legendary.journey.of@velarivoyages.com",
+          contactNumber: "+1-744-751-5166"
+        }
+      }
+    ],
+    title: "Legendary Journey of the Gateway to the Baltic",
+    description: "Set off on a escape from Kiel that captures the essence of Northern Europe. Discover cultural gems and culinary delights across Copenhagen, Oslo.",
+    rating: 4.9,
+    tags: ["VIP"]
+  },
+  {
+    basePrice: 8827,
+    departureLocation: {
+  "city": "Kiel",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 54.3233,
+    "longitude": 10.1228
+  }
+},
+    arrivalLocation: {
+  "city": "Kiel",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 54.3233,
+    "longitude": 10.1228
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  }
+],
+      description: "Begin a captivating realm through the Northern Europe, departing Kiel. With visits to Copenhagen, Oslo, Helsinki, each day brings a new adventure and deeper connection to the region.",
+      distance: "506 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Kiel to Copenhagen"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Sailing from Copenhagen to Oslo"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Oslo to Helsinki"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Helsinki to Kiel"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Kiel"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Kiel"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Scarlett Collins",
+        role: "Hospitality Director",
+        languages: ["Burmese","German"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/41.jpg",
+        contact: {
+          contactEmail: "celestial.quest.of.t@velarivoyages.com",
+          contactNumber: "+1-736-285-4180"
+        }
+      }
+    ],
+    title: "Celestial Quest of the German Maritime Hub",
+    description: "Begin a captivating realm through the Northern Europe, departing Kiel. With visits to Copenhagen, Oslo, Helsinki, each day brings a new adventure and deeper connection to the region.",
+    rating: 4.1,
+    tags: ["adventure","seasonal"]
+  },
+  {
+    basePrice: 6236,
+    departureLocation: {
+  "city": "Kiel",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 54.3233,
+    "longitude": 10.1228
+  }
+},
+    arrivalLocation: {
+  "city": "Helsinki",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Leave ordinary behind as you sail from Kiel across the captivating Northern Europe. Discover the distinctive personality of each destination, from Copenhagen, Stockholm, Helsinki.",
+      distance: "1390 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Kiel to Copenhagen"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Copenhagen to Stockholm"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Stockholm to Helsinki"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Kiel"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Helsinki"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Alice Morgan",
+        role: "Hospitality Director",
+        languages: ["Burmese","German"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
+        contact: {
+          contactEmail: "secret.quest.of.the.@velarivoyages.com",
+          contactNumber: "+1-498-612-4115"
+        }
+      }
+    ],
+    title: "Secret Quest of the Gateway to the Baltic",
+    description: "Leave ordinary behind as you sail from Kiel across the captivating Northern Europe. Discover the distinctive personality of each destination, from Copenhagen, Stockholm, Helsinki.",
+    rating: 4.7,
+    tags: ["themed-cruise","tropical","short-getaway"]
   }
 ];

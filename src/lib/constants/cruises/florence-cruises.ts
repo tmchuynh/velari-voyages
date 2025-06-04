@@ -4198,5 +4198,768 @@ export const florenceCruises: Cruise[] = [
     description: "Sail into splendor from Florence on a hidden voyage through Mediterranean. Let each stop—from Barcelona to Mykonos—reveal the unique flavors and colors of the region.",
     rating: 5.0,
     tags: ["adventure","fall-cruise","family-friendly"]
+  },
+  {
+    basePrice: 4637,
+    departureLocation: {
+  "city": "Florence",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 43.769562,
+    "longitude": 11.255814
+  }
+},
+    arrivalLocation: {
+  "city": "Florence",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 43.769562,
+    "longitude": 11.255814
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  }
+],
+      description: "Start in the vibrant city of Florence and venture into the iconic Mediterranean. Discover authentic local cultures, cuisine, and coastal wonders in Mykonos, Rome, Dubrovnik, Barcelona.",
+      distance: "630 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Florence to Mykonos"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Rome"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Dubrovnik"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Dubrovnik to Barcelona"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Sailing from Barcelona to Florence"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Florence"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Exploring Florence"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Sarah Sutton",
+        role: "Safety Officer",
+        languages: ["Bengali","Mandarin"],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/women/8.jpg",
+        contact: {
+          contactEmail: "forbidden.odyssey.of@velarivoyages.com",
+          contactNumber: "+1-584-949-7305"
+        }
+      }
+    ],
+    title: "Forbidden Odyssey of the Sun-Drenched Riviera",
+    description: "Start in the vibrant city of Florence and venture into the iconic Mediterranean. Discover authentic local cultures, cuisine, and coastal wonders in Mykonos, Rome, Dubrovnik, Barcelona.",
+    rating: 4.8,
+    tags: ["long-distance","seasonal"]
+  },
+  {
+    basePrice: 8381,
+    departureLocation: {
+  "city": "Florence",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 43.769562,
+    "longitude": 11.255814
+  }
+},
+    arrivalLocation: {
+  "city": "Florence",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 43.769562,
+    "longitude": 11.255814
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  }
+],
+      description: "Begin your odyssey in Florence, a gateway to the soul of Mediterranean. Enjoy days spent exploring Malta, Mykonos, Rome and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
+      distance: "582 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Florence to Malta"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Malta to Mykonos"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Rome"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Florence"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Florence"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Florence"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Donna Payne",
+        role: "Safety Officer",
+        languages: ["Bengali","Mandarin"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/55.jpg",
+        contact: {
+          contactEmail: "whispering.escape.of@velarivoyages.com",
+          contactNumber: "+1-759-253-5343"
+        }
+      }
+    ],
+    title: "Whispering Escape of the Cradle of the Renaissance",
+    description: "Begin your odyssey in Florence, a gateway to the soul of Mediterranean. Enjoy days spent exploring Malta, Mykonos, Rome and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
+    rating: 4.4,
+    tags: ["VIP","long-distance"]
+  },
+  {
+    basePrice: 2510,
+    departureLocation: {
+  "city": "Florence",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 43.769562,
+    "longitude": 11.255814
+  }
+},
+    arrivalLocation: {
+  "city": "Santorini",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Your saga begins in Florence, where the spirit of exploration meets modern luxury. From the sun-drenched shores of Athens to the historic streets of Malta, each stop in the Mediterranean will leave a lasting impression.",
+      distance: "1143 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Florence to Athens"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Athens to Malta"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Malta to Mykonos"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Mykonos to Santorini"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Florence"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Santorini"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Emily Parker",
+        role: "Safety Officer",
+        languages: ["Bengali","Mandarin"],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/women/13.jpg",
+        contact: {
+          contactEmail: "majestic.passage.of.@velarivoyages.com",
+          contactNumber: "+1-486-506-1222"
+        }
+      }
+    ],
+    title: "Majestic Passage of the Tuscan Treasure",
+    description: "Your saga begins in Florence, where the spirit of exploration meets modern luxury. From the sun-drenched shores of Athens to the historic streets of Malta, each stop in the Mediterranean will leave a lasting impression.",
+    rating: 4.3,
+    tags: ["themed-cruise"]
+  },
+  {
+    basePrice: 3020,
+    departureLocation: {
+  "city": "Florence",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 43.769562,
+    "longitude": 11.255814
+  }
+},
+    arrivalLocation: {
+  "city": "Florence",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 43.769562,
+    "longitude": 11.255814
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  }
+],
+      description: "Step into a world of elegance and exploration from Florence. This labyrinth through the Mediterranean unveils stunning stops including Athens, Dubrovnik, Mykonos, all with first-class service.",
+      distance: "1478 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Florence to Athens"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Athens to Dubrovnik"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Dubrovnik to Mykonos"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Mykonos to Florence"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Florence"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Florence"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Maya Parker",
+        role: "Safety Officer",
+        languages: ["Bengali","Mandarin"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
+        contact: {
+          contactEmail: "spectacular.realm.of@velarivoyages.com",
+          contactNumber: "+1-860-736-9185"
+        }
+      }
+    ],
+    title: "Spectacular Realm of the Timeless Coastlines",
+    description: "Step into a world of elegance and exploration from Florence. This labyrinth through the Mediterranean unveils stunning stops including Athens, Dubrovnik, Mykonos, all with first-class service.",
+    rating: 4.4,
+    tags: ["relaxation"]
+  },
+  {
+    basePrice: 1738,
+    departureLocation: {
+  "city": "Florence",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 43.769562,
+    "longitude": 11.255814
+  }
+},
+    arrivalLocation: {
+  "city": "Florence",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 43.769562,
+    "longitude": 11.255814
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  }
+],
+      description: "Your saga begins in Florence, where the spirit of exploration meets modern luxury. From the sun-drenched shores of Barcelona to the historic streets of Mykonos, each stop in the Mediterranean will leave a lasting impression.",
+      distance: "1109 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Florence to Barcelona"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Barcelona to Mykonos"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Mykonos to Rome"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Florence"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Florence"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Florence"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Amelia Fletcher",
+        role: "Safety Officer",
+        languages: ["Bengali","Mandarin"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/67.jpg",
+        contact: {
+          contactEmail: "majestic.sojourn.of.@velarivoyages.com",
+          contactNumber: "+1-927-917-8566"
+        }
+      }
+    ],
+    title: "Majestic Sojourn of the Cradle of the Renaissance",
+    description: "Your saga begins in Florence, where the spirit of exploration meets modern luxury. From the sun-drenched shores of Barcelona to the historic streets of Mykonos, each stop in the Mediterranean will leave a lasting impression.",
+    rating: 4.6,
+    tags: ["family-friendly","short-getaway"]
   }
 ];

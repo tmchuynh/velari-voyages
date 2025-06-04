@@ -4016,5 +4016,704 @@ export const dubaiCruises: Cruise[] = [
     description: "Depart from the iconic port of Dubai and sail through the enchanting Middle East. Explore vibrant destinations like Dubrovnik, Barcelona, Athens, Rome, each offering its own unique charm and local flair.",
     rating: 4.9,
     tags: ["adventure"]
+  },
+  {
+    basePrice: 5264,
+    departureLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    arrivalLocation: {
+  "city": "Athens",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "An escape like no other begins in Dubai, where your sanctuary launches into the heart of Middle East. Discover the magic of Mykonos, Malta, Athens with style and sophistication.",
+      distance: "656 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Dubai to Mykonos"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Malta"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Malta to Athens"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Dubai"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Samantha Hudson",
+        role: "Logistics Coordinator",
+        languages: ["Malay","Russian"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/28.jpg",
+        contact: {
+          contactEmail: "epic.journey.of.the.@velarivoyages.com",
+          contactNumber: "+1-770-943-5626"
+        }
+      }
+    ],
+    title: "Epic Journey of the Desert Jewels",
+    description: "An escape like no other begins in Dubai, where your sanctuary launches into the heart of Middle East. Discover the magic of Mykonos, Malta, Athens with style and sophistication.",
+    rating: 4.8,
+    tags: ["VIP","seasonal","relaxation"]
+  },
+  {
+    basePrice: 7016,
+    departureLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    arrivalLocation: {
+  "city": "Mykonos",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "This hand-selected exquisite cruise offers a true taste of Middle East. Depart from Dubai and explore ports like Rome, Mykonos, each telling a story through food, music, and tradition.",
+      distance: "1247 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Dubai to Rome"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Rome to Mykonos"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Dubai"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Mykonos"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Valentina Palmer",
+        role: "Logistics Coordinator",
+        languages: ["Malay","Russian"],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/women/17.jpg",
+        contact: {
+          contactEmail: "exquisite.sojourn.of@velarivoyages.com",
+          contactNumber: "+1-533-405-2558"
+        }
+      }
+    ],
+    title: "Exquisite Sojourn of the Oasis of Luxury",
+    description: "This hand-selected exquisite cruise offers a true taste of Middle East. Depart from Dubai and explore ports like Rome, Mykonos, each telling a story through food, music, and tradition.",
+    rating: 4.5,
+    tags: ["romantic"]
+  },
+  {
+    basePrice: 7834,
+    departureLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    arrivalLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  }
+],
+      description: "This captivating sojourn begins in Dubai and ventures deep into the heart of Middle East. Wander through colorful markets, historic streets, and serene coastlines at Barcelona, Rome, Athens, Malta.",
+      distance: "574 nautical miles",
+      totalDuration: "18 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Dubai to Barcelona"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Rome"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Rome to Athens"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from Athens to Malta"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Sailing from Malta to Dubai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Dubai"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 18",
+    "end": "Day 18",
+    "duration": "1 days",
+    "description": "Exploring Dubai"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Zoe Payne",
+        role: "Logistics Coordinator",
+        languages: ["Malay","Russian"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
+        contact: {
+          contactEmail: "captivating.quest.of@velarivoyages.com",
+          contactNumber: "+1-120-409-8556"
+        }
+      }
+    ],
+    title: "Captivating Quest of the Arabian Nights",
+    description: "This captivating sojourn begins in Dubai and ventures deep into the heart of Middle East. Wander through colorful markets, historic streets, and serene coastlines at Barcelona, Rome, Athens, Malta.",
+    rating: 4.8,
+    tags: ["long-distance"]
+  },
+  {
+    basePrice: 1036,
+    departureLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    arrivalLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  }
+],
+      description: "This handpicked sojourn begins in Dubai and travels through Middle East's iconic waterscapes. Discover Mykonos, Athens, Barcelona as each day brings new stories and every night offers elegant repose.",
+      distance: "1218 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Dubai to Mykonos"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Athens"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Athens to Barcelona"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Dubai"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Sofia Foster",
+        role: "Logistics Coordinator",
+        languages: ["Malay","Russian"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
+        contact: {
+          contactEmail: "unforgettable.voyage@velarivoyages.com",
+          contactNumber: "+1-272-253-5023"
+        }
+      }
+    ],
+    title: "Unforgettable Voyage of the Golden Metropolis",
+    description: "This handpicked sojourn begins in Dubai and travels through Middle East's iconic waterscapes. Discover Mykonos, Athens, Barcelona as each day brings new stories and every night offers elegant repose.",
+    rating: 4.6,
+    tags: ["fall-cruise","family-friendly","romantic"]
+  },
+  {
+    basePrice: 3726,
+    departureLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    arrivalLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  }
+],
+      description: "Begin a captivating tide through the Middle East, departing Dubai. With visits to Barcelona, Athens, Santorini, Dubrovnik, each day brings a new adventure and deeper connection to the region.",
+      distance: "1103 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Dubai to Barcelona"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Barcelona to Athens"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Athens to Santorini"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from Santorini to Dubrovnik"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Sailing from Dubrovnik to Dubai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Dubai"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 17",
+    "end": "Day 17",
+    "duration": "1 days",
+    "description": "Exploring Dubai"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Genesis Holloway",
+        role: "Logistics Coordinator",
+        languages: ["Malay","Russian"],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
+        contact: {
+          contactEmail: "majestic.excursion.o@velarivoyages.com",
+          contactNumber: "+1-898-337-1376"
+        }
+      }
+    ],
+    title: "Majestic Excursion of the Oasis of Luxury",
+    description: "Begin a captivating tide through the Middle East, departing Dubai. With visits to Barcelona, Athens, Santorini, Dubrovnik, each day brings a new adventure and deeper connection to the region.",
+    rating: 4.9,
+    tags: ["themed-cruise"]
   }
 ];
