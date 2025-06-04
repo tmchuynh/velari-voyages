@@ -5,7 +5,6 @@ import Loading from "@/components/Loading";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
-import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import {
   Select,
@@ -24,6 +23,21 @@ import {
   removeAccents,
 } from "@/lib/utils/format.ts";
 // import { Cruise } from "@/lib/interfaces/services/cruises"; // Cruise type becomes unused if filters/cruises logic is commented
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import {
+  Pagination,
+  PaginationContent,
+  PaginationEllipsis,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "@/components/ui/pagination";
 import { getCruises, getCruisesByLocation } from "@/lib/utils/get.ts";
 import { /*useRouter,*/ useSearchParams } from "next/navigation"; // useRouter becomes unused
 import { useEffect, useMemo, /*useMemo,*/ useState } from "react"; // useMemo becomes unused if filterOptions/filteredCruises are commented
@@ -222,6 +236,26 @@ export default function CityCruisesPage() {
     });
   };
 
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(6);
+
+  // Calculate pagination
+  const totalItems = filteredCruises.length;
+  const totalPages = Math.ceil(totalItems / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = Math.min(startIndex + itemsPerPage, totalItems);
+  const currentCruises = filteredCruises.slice(startIndex, endIndex);
+
+  // Navigate to specific page
+  const goToPage = (page: number) => {
+    setCurrentPage(Math.max(1, Math.min(page, totalPages)));
+  };
+
+  // Reset to page 1 when filters change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [filters]);
+
   if (loading) {
     return <Loading />;
   }
@@ -242,59 +276,9 @@ export default function CityCruisesPage() {
         <ContactDepartmentCard department="Shore Excursions & Transfers" />
       </section>
 
-      <section className="space-y-4">
-        <div className="flex md:flex-row flex-col justify-between items-start gap-4">
-          <div className="w-full">
-            <Label>
-              <strong>Search</strong>
-            </Label>
-            <Input
-              type="text"
-              className="mt-2"
-              placeholder="Search by city, country, or region..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-            />
-          </div>
-
-          <div className="flex md:flex-row flex-col gap-4">
-            <div className="space-y-2">
-              <Label>
-                <strong>Sort by:</strong>
-              </Label>
-              <Select value={sortBy} onValueChange={setSortBy}>
-                <SelectTrigger>
-                  <SelectValue placeholder="Select sort option" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="city">City</SelectItem>
-                  <SelectItem value="country">Country</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
-
-            <div className="space-y-2">
-              <Label>
-                <strong>Popular:</strong>
-              </Label>
-              <Select value={popularSort} onValueChange={setPopularSort}>
-                <SelectTrigger>
-                  <SelectValue placeholder="Select popularity filter" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="none">No priority</SelectItem>
-                  <SelectItem value="first">Show first</SelectItem>
-                  <SelectItem value="last">Show last</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section>
         <div className="flex justify-between items-center mb-4">
-          <h2>Available Cruises</h2>
+          <h2>Available Cruises for {city}</h2>
           <Button
             onClick={() => setShowFilters(!showFilters)}
             variant="icon"
@@ -427,8 +411,35 @@ export default function CityCruisesPage() {
         )}
       </section>
 
+      <div className="flex justify-between items-center mb-4">
+        <div className="text-muted-foreground text-sm">
+          Showing {totalItems > 0 ? startIndex + 1 : 0} - {endIndex} out of{" "}
+          {totalItems} cruises
+        </div>
+        <DropdownMenu>
+          <DropdownMenuTrigger asChild>
+            <Button variant="outline" size="sm">
+              {itemsPerPage} per page
+            </Button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent align="end">
+            {[3, 6, 9, 12, 24].map((value) => (
+              <DropdownMenuItem
+                key={value}
+                onClick={() => {
+                  setItemsPerPage(value);
+                  setCurrentPage(1); // Reset to first page when changing items per page
+                }}
+              >
+                {value} per page
+              </DropdownMenuItem>
+            ))}
+          </DropdownMenuContent>
+        </DropdownMenu>
+      </div>
+
       <div className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        {filteredCruises.map((tour, index) => (
+        {currentCruises.map((tour, index) => (
           <CruiseInfo
             key={index}
             cruise={tour}
@@ -437,6 +448,63 @@ export default function CityCruisesPage() {
           />
         ))}
       </div>
+
+      {totalPages > 1 && (
+        <Pagination className="mt-8">
+          <PaginationContent>
+            <PaginationItem>
+              <PaginationPrevious
+                onClick={() => goToPage(currentPage - 1)}
+                className={
+                  currentPage === 1 ? "pointer-events-none opacity-50" : ""
+                }
+              />
+            </PaginationItem>
+
+            {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => {
+              // Show first page, last page, current page, and pages adjacent to current
+              if (
+                page === 1 ||
+                page === totalPages ||
+                (page >= currentPage - 1 && page <= currentPage + 1)
+              ) {
+                return (
+                  <PaginationItem key={page}>
+                    <PaginationLink
+                      isActive={page === currentPage}
+                      onClick={() => goToPage(page)}
+                    >
+                      {page}
+                    </PaginationLink>
+                  </PaginationItem>
+                );
+              }
+
+              // Show ellipses for gaps in pagination
+              if (page === currentPage - 2 || page === currentPage + 2) {
+                return (
+                  <PaginationItem key={page}>
+                    <PaginationEllipsis />
+                  </PaginationItem>
+                );
+              }
+
+              return null;
+            })}
+
+            <PaginationItem>
+              <PaginationNext
+                onClick={() => goToPage(currentPage + 1)}
+                className={
+                  currentPage === totalPages
+                    ? "pointer-events-none opacity-50"
+                    : ""
+                }
+              />
+            </PaginationItem>
+          </PaginationContent>
+        </Pagination>
+      )}
     </div>
   );
 }
