@@ -38,6 +38,7 @@ import {
   getCruisesByCategory,
 } from "@/lib/utils/get.ts";
 import { groupAndSortByProperties, sortByProperty } from "@/lib/utils/sort";
+import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
@@ -205,6 +206,13 @@ export default function CruiseInformationPage() {
             <p>
               <strong>Total Distance:</strong> {cruiseData.itinerary.distance}
             </p>
+            <section className="flex flex-wrap gap-2 mt-2">
+              {cruiseData.tags?.map((tag, index) => (
+                <Badge key={index} variant="secondary" className="uppercase">
+                  {tag}
+                </Badge>
+              ))}
+            </section>
           </section>
           <section>
             <h2>Itinerary</h2>
@@ -402,30 +410,41 @@ export default function CruiseInformationPage() {
           </section>
 
           <section>
-            <h3>Contact Information</h3>
+            <h2>Contact Information</h2>
             <div>
               {cruiseData.contactPersonnel &&
                 (cruiseData.contactPersonnel.length > 0 ? (
-                  <ul className="pl-5 list-disc">
+                  <ul className="mt-7 pl-5 list-disc">
                     {cruiseData.contactPersonnel.map((person, index) => (
-                      <li key={index}>
-                        {person.name} -{" "}
-                        {person.contact.contactEmail && (
-                          <a
-                            href={`mailto:${person.contact.contactEmail}`}
-                            className="text-blue-500 hover:underline"
-                          >
-                            {person.contact.contactEmail}
-                          </a>
-                        )}
-                        {person.contact.contactNumber && (
-                          <a
-                            href={`tel:${person.contact.contactNumber}`}
-                            className="text-blue-500 hover:underline"
-                          >
-                            {person.contact.contactNumber}
-                          </a>
-                        )}
+                      <li key={person.name}>
+                        <div className="flex gap-x-6">
+                          <Image
+                            alt=""
+                            src={person.profileImage}
+                            className="rounded-full size-16"
+                            width={64}
+                            height={64}
+                          />
+                          <div>
+                            <h3>{person.name}</h3>
+                            <p>{person.role}</p>
+                            <div className="space-x-2 mt-3">
+                              {" "}
+                              <div className="inline-flex items-center gap-3">
+                                <h5>Phone:</h5>
+                                <p className="mb-1">
+                                  {person.contact.contactNumber}
+                                </p>
+                              </div>
+                              <div className="inline-flex items-center gap-3">
+                                <h5>Email:</h5>
+                                <p className="mb-1">
+                                  {person.contact.contactEmail}
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </li>
                     ))}
                   </ul>
@@ -433,14 +452,6 @@ export default function CruiseInformationPage() {
                   <p>No contact personnel available for this cruise.</p>
                 ))}
             </div>
-          </section>
-
-          <section className="flex flex-wrap gap-2 mt-2">
-            {cruiseData.tags?.map((tag, index) => (
-              <Badge key={index} variant="secondary" className="uppercase">
-                {tag}
-              </Badge>
-            ))}
           </section>
 
           {/* Cancellation Policy Section */}
