@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const berlinCruises: Cruise[] = [
-  {
+{
     basePrice: 2061,
     departureLocation: {
   "city": "Berlin",
@@ -2075,5 +2075,686 @@ export const berlinCruises: Cruise[] = [
     description: "Sail into splendor from Berlin on a mythic voyage through Northern Europe. Let each stop—from Tallinn to Stockholm—reveal the unique flavors and colors of the region.",
     rating: 4.7,
     tags: ["general","cruise-vacation","short-getaway"]
+  },
+  {
+    basePrice: 3931,
+    departureLocation: {
+  "city": "Berlin",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.520008,
+    "longitude": 13.404954
+  }
+},
+    arrivalLocation: {
+  "city": "Berlin",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.520008,
+    "longitude": 13.404954
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "St. Petersburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  }
+],
+      description: "Enjoy seamless luxury on this charming retreat beginning in Berlin. Visit breathtaking Northern Europe locales such as Copenhagen, St. Petersburg, Helsinki, Oslo on this unforgettable itinerary.",
+      distance: "1445 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Berlin to Copenhagen"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Copenhagen to St. Petersburg"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from St. Petersburg to Helsinki"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Helsinki to Oslo"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Sailing from Oslo to Berlin"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Berlin"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring St. Petersburg"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Exploring Berlin"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Maya Parker",
+        role: "Marketing Coordinator",
+        languages: ["Punjabi","Finnish"],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/women/72.jpg",
+        contact: {
+          contactEmail: "infinite.quest.of.th@velarivoyages.com",
+          contactNumber: "+1-230-762-8423"
+        }
+      }
+    ],
+    title: "Infinite Quest of the Modern Mosaic",
+    description: "Enjoy seamless luxury on this charming retreat beginning in Berlin. Visit breathtaking Northern Europe locales such as Copenhagen, St. Petersburg, Helsinki, Oslo on this unforgettable itinerary.",
+    rating: 4.6,
+    tags: ["nature","expedition","anniversary-cruise"]
+  },
+  {
+    basePrice: 6417,
+    departureLocation: {
+  "city": "Berlin",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.520008,
+    "longitude": 13.404954
+  }
+},
+    arrivalLocation: {
+  "city": "St. Petersburg",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Petersburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Depart from Berlin on this thoughtfully designed discovery across the Northern Europe. Savor coastal charm, cultural treasures, and ocean views with stops at Tallinn, St. Petersburg.",
+      distance: "1358 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Berlin to Tallinn"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Tallinn to St. Petersburg"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Berlin"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Tallinn"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring St. Petersburg"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Helen Coleman",
+        role: "Marketing Coordinator",
+        languages: ["Punjabi","Finnish"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/45.jpg",
+        contact: {
+          contactEmail: "panoramic.sanctum.of@velarivoyages.com",
+          contactNumber: "+1-845-673-3596"
+        }
+      }
+    ],
+    title: "Panoramic Sanctum of the Modern Mosaic",
+    description: "Depart from Berlin on this thoughtfully designed discovery across the Northern Europe. Savor coastal charm, cultural treasures, and ocean views with stops at Tallinn, St. Petersburg.",
+    rating: 4.3,
+    tags: ["cruise-vacation"]
+  },
+  {
+    basePrice: 8936,
+    departureLocation: {
+  "city": "Berlin",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.520008,
+    "longitude": 13.404954
+  }
+},
+    arrivalLocation: {
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "coordinates": {
+    "latitude": 55.6761,
+    "longitude": 12.5683
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  }
+],
+      description: "Unwind and explore on this solstice through Northern Europe, departing from Berlin. With every stop—from Stockholm to Copenhagen—you’ll collect memories that last a lifetime.",
+      distance: "538 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Berlin to Stockholm"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Stockholm to Copenhagen"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Berlin"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Copenhagen"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Brenda Grant",
+        role: "Marketing Coordinator",
+        languages: ["Punjabi","Finnish"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
+        contact: {
+          contactEmail: "sundrenched.mythos.o@velarivoyages.com",
+          contactNumber: "+1-299-752-7367"
+        }
+      }
+    ],
+    title: "Sun-Drenched Mythos of the Stone and Shadow",
+    description: "Unwind and explore on this solstice through Northern Europe, departing from Berlin. With every stop—from Stockholm to Copenhagen—you’ll collect memories that last a lifetime.",
+    rating: 4.7,
+    tags: ["wellness","expedition","cruise-experience"]
+  },
+  {
+    basePrice: 8044,
+    departureLocation: {
+  "city": "Berlin",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.520008,
+    "longitude": 13.404954
+  }
+},
+    arrivalLocation: {
+  "city": "Berlin",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.520008,
+    "longitude": 13.404954
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  }
+],
+      description: "Depart Berlin on a relaxing labyrinth through the Northern Europe region. Highlights include the stunning coastlines of Copenhagen, Helsinki, Oslo, Tallinn, all while enjoying first-class amenities on board.",
+      distance: "1043 nautical miles",
+      totalDuration: "18 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Berlin to Copenhagen"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Copenhagen to Helsinki"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Helsinki to Oslo"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Oslo to Tallinn"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Sailing from Tallinn to Berlin"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Berlin"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Tallinn"
+  },
+  {
+    "start": "Day 18",
+    "end": "Day 18",
+    "duration": "1 days",
+    "description": "Exploring Berlin"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Sophia Graham",
+        role: "Marketing Coordinator",
+        languages: ["Punjabi","Finnish"],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/women/31.jpg",
+        contact: {
+          contactEmail: "refined.eclipse.of.t@velarivoyages.com",
+          contactNumber: "+1-690-121-6998"
+        }
+      }
+    ],
+    title: "Refined Eclipse of the City of Echoes",
+    description: "Depart Berlin on a relaxing labyrinth through the Northern Europe region. Highlights include the stunning coastlines of Copenhagen, Helsinki, Oslo, Tallinn, all while enjoying first-class amenities on board.",
+    rating: 4.7,
+    tags: ["cruise-adventure","romantic","sightseeing"]
+  },
+  {
+    basePrice: 7892,
+    departureLocation: {
+  "city": "Berlin",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.520008,
+    "longitude": 13.404954
+  }
+},
+    arrivalLocation: {
+  "city": "Berlin",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.520008,
+    "longitude": 13.404954
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  }
+],
+      description: "From the lively departure port of Berlin, this curated serenade showcases the finest of Northern Europe. With visits to Stockholm, Oslo, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+      distance: "537 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Berlin to Stockholm"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Stockholm to Oslo"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Oslo to Berlin"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Berlin"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Berlin"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Amanda Chambers",
+        role: "Marketing Coordinator",
+        languages: ["Punjabi","Finnish"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/15.jpg",
+        contact: {
+          contactEmail: "mythic.quest.of.the.@velarivoyages.com",
+          contactNumber: "+1-666-767-7596"
+        }
+      }
+    ],
+    title: "Mythic Quest of the Time-Threaded Metropolis",
+    description: "From the lively departure port of Berlin, this curated serenade showcases the finest of Northern Europe. With visits to Stockholm, Oslo, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+    rating: 4.2,
+    tags: ["historical","cruise-ship"]
   }
 ];

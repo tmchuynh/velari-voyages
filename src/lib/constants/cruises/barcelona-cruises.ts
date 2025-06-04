@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const barcelonaCruises: Cruise[] = [
-  {
+{
     basePrice: 5318,
     departureLocation: {
   "city": "Barcelona",
@@ -2099,5 +2099,704 @@ export const barcelonaCruises: Cruise[] = [
     description: "Begin a captivating drift through the Mediterranean, departing Barcelona. With visits to Athens, Malta, each day brings a new adventure and deeper connection to the region.",
     rating: 4.9,
     tags: ["cruise-line","repositioning"]
+  },
+  {
+    basePrice: 8543,
+    departureLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    arrivalLocation: {
+  "city": "Malta",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Set course from Barcelona for an inspiring legendary journey across Mediterranean. Whether exploring ancient ruins in Rome or soaking up coastal views in Mykonos, every day offers a perfect mix of discovery and relaxation.",
+      distance: "1443 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Rome"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Rome to Mykonos"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Santorini"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Santorini to Malta"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Adeline Dean",
+        role: "Cruise Specialist",
+        languages: ["Vietnamese","Hindi","Gujarati"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
+        contact: {
+          contactEmail: "unforgettable.elevat@velarivoyages.com",
+          contactNumber: "+1-462-189-3210"
+        }
+      }
+    ],
+    title: "Unforgettable Elevation of the Citadels by the Sea",
+    description: "Set course from Barcelona for an inspiring legendary journey across Mediterranean. Whether exploring ancient ruins in Rome or soaking up coastal views in Mykonos, every day offers a perfect mix of discovery and relaxation.",
+    rating: 4.3,
+    tags: ["wellness","cruise-adventure"]
+  },
+  {
+    basePrice: 6567,
+    departureLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    arrivalLocation: {
+  "city": "Santorini",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Sail away from the charming harbor of Barcelona on this radiance-drenched journey across Mediterranean. Uncover the beauty and history of Athens, Dubrovnik, Malta, Santorini with curated excursions, world-class cuisine, and exceptional service.",
+      distance: "1123 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Athens"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Athens to Dubrovnik"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Dubrovnik to Malta"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Sailing from Malta to Santorini"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Exploring Santorini"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Virginia Sutton",
+        role: "Cruise Specialist",
+        languages: ["Vietnamese","Hindi","Gujarati"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/women/51.jpg",
+        contact: {
+          contactEmail: "breathtaking.sanctum@velarivoyages.com",
+          contactNumber: "+1-349-153-9746"
+        }
+      }
+    ],
+    title: "Breathtaking Sanctum of the Wine-Soaked Villages",
+    description: "Sail away from the charming harbor of Barcelona on this radiance-drenched journey across Mediterranean. Uncover the beauty and history of Athens, Dubrovnik, Malta, Santorini with curated excursions, world-class cuisine, and exceptional service.",
+    rating: 4.9,
+    tags: ["short-getaway"]
+  },
+  {
+    basePrice: 7962,
+    departureLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    arrivalLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  }
+],
+      description: "An unforgettable realm awaits as you cruise from Barcelona across Mediterranean. Dive into history, flavor, and culture with stops including Rome, Mykonos, Athens, Malta.",
+      distance: "526 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Rome"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Rome to Mykonos"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Athens"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Athens to Malta"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Sailing from Malta to Barcelona"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  }
+]
+    },
+    tourCategoryId: "vip-cruise",
+    contactPersonnel: [
+      {
+        name: "Valentina Dixon",
+        role: "Cruise Specialist",
+        languages: ["Vietnamese","Hindi","Gujarati"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
+        contact: {
+          contactEmail: "horizonkissed.sojour@velarivoyages.com",
+          contactNumber: "+1-970-501-8848"
+        }
+      }
+    ],
+    title: "Horizon-Kissed Sojourn of the Catalan Gem",
+    description: "An unforgettable realm awaits as you cruise from Barcelona across Mediterranean. Dive into history, flavor, and culture with stops including Rome, Mykonos, Athens, Malta.",
+    rating: 4.4,
+    tags: ["cruise","VIP","nature"]
+  },
+  {
+    basePrice: 8455,
+    departureLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    arrivalLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  }
+],
+      description: "This hand-selected epic cruise offers a true taste of Mediterranean. Depart from Barcelona and explore ports like Dubrovnik, Malta, each telling a story through food, music, and tradition.",
+      distance: "1214 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Dubrovnik"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Dubrovnik to Malta"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Malta to Barcelona"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Allison Reeves",
+        role: "Cruise Specialist",
+        languages: ["Vietnamese","Hindi","Gujarati"],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/women/41.jpg",
+        contact: {
+          contactEmail: "riveting.voyage.of.t@velarivoyages.com",
+          contactNumber: "+1-368-614-2134"
+        }
+      }
+    ],
+    title: "Riveting Voyage of the Cerulean Coasts",
+    description: "This hand-selected epic cruise offers a true taste of Mediterranean. Depart from Barcelona and explore ports like Dubrovnik, Malta, each telling a story through food, music, and tradition.",
+    rating: 4.1,
+    tags: ["wellness","culinary","cruise-ship"]
+  },
+  {
+    basePrice: 6744,
+    departureLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    arrivalLocation: {
+  "city": "Dubrovnik",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Let the winds of the Mediterranean carry you from Barcelona to the most stunning ports in the region. With destinations like Malta, Dubrovnik, this retreat redefines luxury travel.",
+      distance: "549 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Barcelona to Malta"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Malta to Dubrovnik"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Dubrovnik"
+  }
+]
+    },
+    tourCategoryId: "anniversary-cruise",
+    contactPersonnel: [
+      {
+        name: "Mia Maxwell",
+        role: "Cruise Specialist",
+        languages: ["Vietnamese","Hindi","Gujarati"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/17.jpg",
+        contact: {
+          contactEmail: "spectacular.arcadia.@velarivoyages.com",
+          contactNumber: "+1-868-665-2378"
+        }
+      }
+    ],
+    title: "Spectacular Arcadia of the Mosaic Harbors",
+    description: "Let the winds of the Mediterranean carry you from Barcelona to the most stunning ports in the region. With destinations like Malta, Dubrovnik, this retreat redefines luxury travel.",
+    rating: 4.4,
+    tags: ["romantic","long-distance"]
   }
 ];

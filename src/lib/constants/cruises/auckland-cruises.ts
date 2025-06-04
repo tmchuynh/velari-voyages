@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const aucklandCruises: Cruise[] = [
-  {
+{
     basePrice: 2004,
     departureLocation: {
   "city": "Auckland",
@@ -2077,5 +2077,786 @@ export const aucklandCruises: Cruise[] = [
     description: "Set sail from historic Auckland for a modern escape into the Asia Pacific. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Tokyo, Bali, Sydney, Ho Chi Minh City.",
     rating: 4.3,
     tags: ["themed-cruise"]
+  },
+  {
+    basePrice: 2372,
+    departureLocation: {
+  "city": "Auckland",
+  "country": "New Zealand",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -36.848461,
+    "longitude": 174.763336
+  }
+},
+    arrivalLocation: {
+  "city": "Auckland",
+  "country": "New Zealand",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -36.848461,
+    "longitude": 174.763336
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  }
+],
+      description: "Your currents begins in Auckland, where every sunset on the Asia Pacific horizon promises another day of discovery—from Ho Chi Minh City, Tokyo, Bali to hidden ports of charm.",
+      distance: "505 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Auckland to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Ho Chi Minh City to Tokyo"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Tokyo to Bali"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Bali to Auckland"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Auckland"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Kennedy Gardner",
+        role: "Travel Advisor",
+        languages: ["Malay"],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
+        contact: {
+          contactEmail: "riveting.labyrinth.o@velarivoyages.com",
+          contactNumber: "+1-285-877-9719"
+        }
+      }
+    ],
+    title: "Riveting Labyrinth of the Sapphire Mooring",
+    description: "Your currents begins in Auckland, where every sunset on the Asia Pacific horizon promises another day of discovery—from Ho Chi Minh City, Tokyo, Bali to hidden ports of charm.",
+    rating: 4.6,
+    tags: ["cruise","family-friendly","long-distance"]
+  },
+  {
+    basePrice: 9529,
+    departureLocation: {
+  "city": "Auckland",
+  "country": "New Zealand",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -36.848461,
+    "longitude": 174.763336
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Experience coastal elegance on this adventure from Auckland, where the journey through Asia Pacific includes stops in Bali, Singapore, Sydney, Shanghai, each more enchanting than the last.",
+      distance: "693 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Auckland to Bali"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Bali to Singapore"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Singapore to Sydney"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Sydney to Shanghai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Samantha Curtis",
+        role: "Travel Advisor",
+        languages: ["Malay"],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/women/97.jpg",
+        contact: {
+          contactEmail: "majestic.awakening.o@velarivoyages.com",
+          contactNumber: "+1-174-685-3473"
+        }
+      }
+    ],
+    title: "Majestic Awakening of the Sapphire Mooring",
+    description: "Experience coastal elegance on this adventure from Auckland, where the journey through Asia Pacific includes stops in Bali, Singapore, Sydney, Shanghai, each more enchanting than the last.",
+    rating: 4.8,
+    tags: ["culinary","holiday-cruise"]
+  },
+  {
+    basePrice: 1492,
+    departureLocation: {
+  "city": "Auckland",
+  "country": "New Zealand",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -36.848461,
+    "longitude": 174.763336
+  }
+},
+    arrivalLocation: {
+  "city": "Auckland",
+  "country": "New Zealand",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -36.848461,
+    "longitude": 174.763336
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  }
+],
+      description: "Leave stress behind with this curated labyrinth from Auckland. Sail across the best of Asia Pacific and explore treasures like Bangkok, Bali, Ho Chi Minh City, Singapore with comfort and style.",
+      distance: "739 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Auckland to Bangkok"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Sailing from Bangkok to Bali"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Bali to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from Ho Chi Minh City to Singapore"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Sailing from Singapore to Auckland"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Bangkok"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Exploring Auckland"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Amy Holloway",
+        role: "Travel Advisor",
+        languages: ["Malay"],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/women/86.jpg",
+        contact: {
+          contactEmail: "epic.excursion.of.th@velarivoyages.com",
+          contactNumber: "+1-148-941-9357"
+        }
+      }
+    ],
+    title: "Epic Excursion of the Zen Shores",
+    description: "Leave stress behind with this curated labyrinth from Auckland. Sail across the best of Asia Pacific and explore treasures like Bangkok, Bali, Ho Chi Minh City, Singapore with comfort and style.",
+    rating: 4.1,
+    tags: ["nature","themed-cruise","cruise-vacation"]
+  },
+  {
+    basePrice: 9983,
+    departureLocation: {
+  "city": "Auckland",
+  "country": "New Zealand",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -36.848461,
+    "longitude": 174.763336
+  }
+},
+    arrivalLocation: {
+  "city": "Sydney",
+  "country": "Australia",
+  "coordinates": {
+    "latitude": -33.8688,
+    "longitude": 151.2093
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  }
+],
+      description: "From the lively departure port of Auckland, this curated eclipse showcases the finest of Asia Pacific. With visits to Bali, Singapore, Bangkok, Sydney, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+      distance: "1215 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Auckland to Bali"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Bali to Singapore"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Singapore to Bangkok"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from Bangkok to Sydney"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Bangkok"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Sydney"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Margaret Morgan",
+        role: "Travel Advisor",
+        languages: ["Malay"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/women/64.jpg",
+        contact: {
+          contactEmail: "moonlit.lullaby.of.t@velarivoyages.com",
+          contactNumber: "+1-143-168-2231"
+        }
+      }
+    ],
+    title: "Moonlit Lullaby of the Wind-Danced Waterfront",
+    description: "From the lively departure port of Auckland, this curated eclipse showcases the finest of Asia Pacific. With visits to Bali, Singapore, Bangkok, Sydney, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+    rating: 4.8,
+    tags: ["wildlife","culinary","anniversary-cruise"]
+  },
+  {
+    basePrice: 4824,
+    departureLocation: {
+  "city": "Auckland",
+  "country": "New Zealand",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -36.848461,
+    "longitude": 174.763336
+  }
+},
+    arrivalLocation: {
+  "city": "Auckland",
+  "country": "New Zealand",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -36.848461,
+    "longitude": 174.763336
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  }
+],
+      description: "Depart from iconic Auckland and traverse the Asia Pacific with visits to Singapore, Ho Chi Minh City, Sydney, Bangkok. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
+      distance: "1409 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Auckland to Singapore"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Singapore to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Ho Chi Minh City to Sydney"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from Sydney to Bangkok"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Sailing from Bangkok to Auckland"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Bangkok"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 16",
+    "duration": "1 days",
+    "description": "Exploring Auckland"
+  }
+]
+    },
+    tourCategoryId: "vip-cruise",
+    contactPersonnel: [
+      {
+        name: "Margaret Griffin",
+        role: "Travel Advisor",
+        languages: ["Malay"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
+        contact: {
+          contactEmail: "tidewashed.excursion@velarivoyages.com",
+          contactNumber: "+1-324-553-3897"
+        }
+      }
+    ],
+    title: "Tide-Washed Excursion of the City of Sails",
+    description: "Depart from iconic Auckland and traverse the Asia Pacific with visits to Singapore, Ho Chi Minh City, Sydney, Bangkok. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
+    rating: 4.5,
+    tags: ["VIP"]
   }
 ];
