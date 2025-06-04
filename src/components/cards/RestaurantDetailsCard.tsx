@@ -1,5 +1,8 @@
+"use client";
+
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
+import RestaurantHours from "@/components/ui/RestaurantHours";
 import {
   Tooltip,
   TooltipContent,
@@ -8,6 +11,7 @@ import {
 import { Restaurant } from "@/lib/types/types";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 import { formatTitleToKebabCase } from "@/lib/utils/format";
+import { useTheme } from "next-themes";
 import Link from "next/link";
 import {
   FaCalendarCheck,
@@ -29,10 +33,15 @@ export default function RestaurantDetailsCard({
   city: string;
 }) {
   const fileName = formatTitleToKebabCase(restaurant.name) + "Menu";
+  const { theme } = useTheme();
+  const isDarkMode =
+    theme === "dark" ||
+    (theme === "system" &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches);
 
   return (
     <Card className="relative flex flex-col justify-between p-5 h-full overflow-hidden">
-      <div className="flex flex-col justify-between h-full">
+      <div className="flex flex-col justify-between pt-3 h-full">
         <h2 className="w-9/12">{restaurant.name}</h2>
         <Badge className="top-14 right-6 absolute" variant={"outline"}>
           {restaurant.cuisine}
@@ -45,41 +54,11 @@ export default function RestaurantDetailsCard({
       </div>
 
       <div className="flex justify-between">
-        <div className="flex flex-col justify-between mt-4 text-sm">
-          <h5>Hours:</h5>
-          <p>
-            <strong>Monday: </strong>
-            {restaurant.openingHours?.monday}
-          </p>
-          <p>
-            <strong>Tuesday: </strong>
-            {restaurant.openingHours?.tuesday}
-          </p>
-          <p>
-            <strong>Wednesday: </strong>
-            {restaurant.openingHours?.wednesday}
-          </p>
-          <p>
-            <strong>Thursday: </strong>
-            {restaurant.openingHours?.thursday}
-          </p>
-          <p>
-            <strong>Friday: </strong>
-            {restaurant.openingHours?.friday}
-          </p>
-          <p>
-            <strong>Saturday: </strong>
-            {restaurant.openingHours?.saturday}
-          </p>
-          <p>
-            <strong>Sunday: </strong>
-            {restaurant.openingHours?.sunday}
-          </p>
-        </div>
+        <RestaurantHours openingHours={restaurant.openingHours} />
         <div className="gap-5 grid grid-cols-4 md:grid-cols-3 lg:grid-cols-2 mt-8 h-fit">
           {restaurant.isReservationsAccepted && (
             <Tooltip>
-              <TooltipTrigger className="p-0.5 w-fit h-fit">
+              <TooltipTrigger className="p-0.5 w-fit h-fit text-muted-foreground">
                 <FaCalendarCheck />
               </TooltipTrigger>
               <TooltipContent>
@@ -89,7 +68,7 @@ export default function RestaurantDetailsCard({
           )}
           {restaurant.isAdultOnly && (
             <Tooltip>
-              <TooltipTrigger className="p-0.5 w-fit h-fit">
+              <TooltipTrigger className="p-0.5 w-fit h-fit text-muted-foreground">
                 <FaGlassCheers />
               </TooltipTrigger>
               <TooltipContent>
@@ -99,7 +78,7 @@ export default function RestaurantDetailsCard({
           )}
           {restaurant.isIndoorSeating && (
             <Tooltip>
-              <TooltipTrigger className="p-0.5 w-fit h-fit">
+              <TooltipTrigger className="p-0.5 w-fit h-fit text-muted-foreground">
                 <FaChair />
               </TooltipTrigger>
               <TooltipContent>
@@ -109,7 +88,7 @@ export default function RestaurantDetailsCard({
           )}
           {restaurant.isRomantic && (
             <Tooltip>
-              <TooltipTrigger className="p-0.5 w-fit h-fit">
+              <TooltipTrigger className="p-0.5 w-fit h-fit text-muted-foreground">
                 <FaHeart />
               </TooltipTrigger>
               <TooltipContent>
@@ -119,7 +98,7 @@ export default function RestaurantDetailsCard({
           )}
           {restaurant.isFineDining && (
             <Tooltip>
-              <TooltipTrigger className="p-0.5 w-fit h-fit">
+              <TooltipTrigger className="p-0.5 w-fit h-fit text-muted-foreground">
                 <FaConciergeBell />
               </TooltipTrigger>
               <TooltipContent>
@@ -129,7 +108,7 @@ export default function RestaurantDetailsCard({
           )}
           {restaurant.isVegetarianFriendly && (
             <Tooltip>
-              <TooltipTrigger className="p-0.5 w-fit h-fit">
+              <TooltipTrigger className="p-0.5 w-fit h-fit text-muted-foreground">
                 <RiPlantFill />
               </TooltipTrigger>
               <TooltipContent>
@@ -139,7 +118,7 @@ export default function RestaurantDetailsCard({
           )}
           {restaurant.isVeganFriendly && (
             <Tooltip>
-              <TooltipTrigger className="p-0.5 w-fit h-fit">
+              <TooltipTrigger className="p-0.5 w-fit h-fit text-muted-foreground">
                 <RiSeedlingFill />
               </TooltipTrigger>
               <TooltipContent>
@@ -149,7 +128,7 @@ export default function RestaurantDetailsCard({
           )}
           {restaurant.isGlutenFreeFriendly && (
             <Tooltip>
-              <TooltipTrigger className="p-0.5 w-fit h-fit">
+              <TooltipTrigger className="p-0.5 w-fit h-fit text-muted-foreground">
                 <FaWheatAwn />
               </TooltipTrigger>
               <TooltipContent>
@@ -159,7 +138,7 @@ export default function RestaurantDetailsCard({
           )}
           {restaurant.isHalalFriendly && (
             <Tooltip>
-              <TooltipTrigger className="p-0.5 w-fit h-fit">
+              <TooltipTrigger className="p-0.5 w-fit h-fit text-muted-foreground">
                 <GiMeat />
               </TooltipTrigger>
               <TooltipContent>
@@ -169,7 +148,7 @@ export default function RestaurantDetailsCard({
           )}
           {restaurant.isKosherFriendly && (
             <Tooltip>
-              <TooltipTrigger className="p-0.5 w-fit h-fit">
+              <TooltipTrigger className="p-0.5 w-fit h-fit text-muted-foreground">
                 <FaStarOfDavid />
               </TooltipTrigger>
               <TooltipContent>
