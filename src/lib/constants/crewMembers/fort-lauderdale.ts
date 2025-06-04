@@ -2,1305 +2,1500 @@ import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const fortlauderdaleTeamMembers: CrewMember[] = [
   {
-    "name": "Sophia Johnson",
+    "name": "Olivia Brown",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "Captain Johnson is a veteran mariner with 10 years in undefined, known for meticulous voyage planning and a steadfast commitment to maritime law.",
-    "languages": [
-      "German",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Rodriguez",
-    "role": "First Officer",
-    "department": "Deck Department",
-    "bio": "Leveraging 11 years of experience in undefined, Robert Rodriguez is adept at cargo operations, stability calculations, and bridge resource management.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/88.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Williams",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "Sarah Williams ensures compliance with navigation protocols and supports bridge team operations, leveraging 17 years in maritime operations across undefined.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "James Johnson",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "Drawing on 16 years of experience in undefined, James Johnson is responsible for the upkeep of firefighting appliances and lifesaving apparatus.",
-    "languages": [
-      "Mandarin",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Miller",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "Experienced in electronic chart systems (ECDIS) and radar, Robert Miller has 18 years navigating the complex and often congested waters of undefined.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/94.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Garcia",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "Emma Garcia conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in undefined's maritime operations.",
-    "languages": [
-      "Arabic",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Jones",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "As a dedicated Deck Cadet, Olivia Jones is gaining 11 years of hands-on knowledge in deck maintenance, watchkeeping, and safety procedures in undefined.",
-    "languages": [
-      "Mandarin",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "James Rodriguez",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "James Rodriguez's leadership ensures the deck department operates efficiently and safely, drawing from 12 years of hands-on experience in undefined.",
-    "languages": [
-      "Arabic",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Brown",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "Chief Engineer Brown's extensive 13-year background includes overseeing major overhauls and ensuring peak operational readiness of all machinery.",
-    "languages": [
-      "Italian",
-      "German",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/86.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Jones",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "Sarah Jones supervises engineering staff during watch shifts, maintaining operational readiness and compliance with maritime safety standards.",
-    "languages": [
-      "German",
-      "Russian",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/84.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Martinez",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "Sarah Martinez supports engineering operations with 12 years focused on mechanical maintenance, diagnostics, and equipment troubleshooting aboard vessels.",
-    "languages": [
-      "German",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "David Garcia",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "David Garcia manages all electrical systems on board, applying 10 years of expertise in marine electrical engineering and system integration.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "James Garcia",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "James Garcia's problem-solving abilities are crucial for addressing unexpected mechanical challenges, ensuring vessel safety and uptime through 19 years of service.",
+    "bio": "Captain Brown's strategic decision-making and crisis management skills, honed over 14 years, ensure smooth and safe voyages throughout Caribbean.",
     "languages": [
       "Russian",
-      "Portuguese",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "James Smith",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "Drawing on 13 years, James Smith is proficient in troubleshooting and repairing complex refrigeration plants and air handling units.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Garcia",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "With in-depth knowledge of MARPOL regulations, Michael Garcia leads training and awareness programs on environmental best practices among crew members.",
-    "languages": [
-      "German",
-      "English",
-      "Mandarin"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Johnson",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "Systems Engineer Johnson leads technical solutions for navigation, communication, automation, and control systems with 10 years of service.",
-    "languages": [
       "Mandarin",
       "Japanese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/51.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "James Jones",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "Technical Manager Jones has 5 years of experience managing dry-dock specifications, contract negotiations, and supervision of major refit projects.",
-    "languages": [
-      "English",
-      "Russian"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Garcia",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Leveraging 6 years, Sarah Garcia is skilled in using diagnostic tools to predict and prevent equipment failures across a wide range of ship systems.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Jones",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "With 7 years in maritime security, Sarah Jones ensures comprehensive protection for passengers, crew, and assets through proactive strategy and coordination.",
-    "languages": [
-      "Italian",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "James Rodriguez",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Focused on maintaining order, James Rodriguez collaborates with other departments to enhance overall passenger and crew safety.",
-    "languages": [
-      "Russian",
       "Italian",
       "English"
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/93.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Brown",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "With extensive training in security technologies, Maria Brown leads specialized investigations and security audits to strengthen vessel defenses.",
-    "languages": [
-      "Italian",
-      "Russian",
-      "German",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Garcia",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Cybersecurity Officer Garcia conducts regular penetration testing and vulnerability assessments of ship systems, drawing on 12 years of expertise.",
-    "languages": [
-      "English",
-      "Portuguese",
-      "French"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
     "name": "Olivia Davis",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "With 19 years in the role, Olivia Davis is adept at developing and updating the Ship Security Plan (SSP) and ensuring its effective implementation.",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "Olivia Davis, with 9 years navigating Caribbean, plays a vital role in safety drills, crew training, and maintaining navigational equipment.",
+    "languages": [
+      "Italian",
+      "Arabic",
+      "French",
+      "English",
+      "German"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/29.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sophia Johnson",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "Second Officer Johnson is adept at monitoring vessel position and environmental conditions, contributing to safe passage through Caribbean.",
     "languages": [
       "Portuguese",
+      "Arabic",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Jones",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Third Officer Jones assists with cargo operations and ballast management, a key part of their 15 years of development in Caribbean.",
+    "languages": [
+      "Italian",
+      "Spanish",
       "German",
       "English"
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Sarah Martinez",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Access Control Officer Martinez plays a crucial role in gangway security and managing visitor identification processes, a responsibility held for 11 years.",
+    "name": "Sophia Davis",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Experienced in electronic chart systems (ECDIS) and radar, Sophia Davis has 12 years navigating the complex and often congested waters of Caribbean.",
+    "languages": [
+      "French",
+      "German",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/54.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Martinez",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "With a thorough understanding of hazard identification and mitigation, Emma Martinez fosters a culture of safety awareness among crew and passengers.",
+    "languages": [
+      "Russian",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Martinez",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "As a dedicated Deck Cadet, James Martinez is gaining 9 years of hands-on knowledge in deck maintenance, watchkeeping, and safety procedures in Caribbean.",
+    "languages": [
+      "Russian",
+      "French",
+      "Mandarin",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "David Smith",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Leveraging 11 years of seamanship, Bosun Smith is an expert in rigging, anchoring, and all aspects of deck machinery operation in Caribbean.",
+    "languages": [
+      "Arabic",
+      "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Jones",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Maria Jones brings 20 years of engineering excellence, leading innovations in sustainable maritime technology and driving continuous improvement in vessel operations.",
     "languages": [
       "Spanish",
-      "French",
+      "English",
+      "Arabic",
+      "Japanese"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Williams",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "First Engineer Williams is responsible for the main propulsion machinery and auxiliary systems, bringing 18 years of hands-on expertise.",
+    "languages": [
+      "English",
+      "Japanese",
+      "Mandarin",
+      "Spanish"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Miller",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Experienced in engine room management, Emma Miller brings 8 years ensuring mechanical integrity, safety, and regulatory compliance.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Garcia",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Electrical Engineer Garcia specializes in fault-finding within complex circuits and automation logic, a skill honed over 3 years.",
+    "languages": [
+      "Spanish",
+      "Italian",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Garcia",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Olivia Garcia's problem-solving abilities are crucial for addressing unexpected mechanical challenges, ensuring vessel safety and uptime through 14 years of service.",
+    "languages": [
+      "Arabic",
+      "English",
+      "Japanese"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Jones",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "Emma Jones designs, installs, and maintains heating, ventilation, and air conditioning systems with 22 years of maritime specialization.",
+    "languages": [
+      "Portuguese",
+      "Japanese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "With 20 years focused on sustainability, Michael Miller develops and implements environmental protection measures aboard ships, ensuring regulatory compliance.",
+    "languages": [
+      "Portuguese",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/97.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Jones",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Olivia Jones is pivotal in troubleshooting and resolving complex issues across interconnected electronic and control systems, thanks to 11 years of in-depth experience.",
+    "languages": [
+      "Portuguese",
       "Mandarin",
       "English"
     ],
     "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Johnson",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Sarah Johnson drives continuous improvement initiatives and implements emerging maritime technologies to maintain competitive operational capabilities.",
+    "languages": [
+      "Japanese",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Williams",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Maintenance Engineer Williams's 3 years include managing workshop resources and training junior staff in effective repair techniques.",
+    "languages": [
+      "Arabic",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Garcia",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Robert Garcia, with 9 years in the field, is an expert in ISPS Code implementation and maritime counter-terrorism strategies.",
+    "languages": [
+      "French",
+      "Portuguese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Michael Smith",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Michael Smith is trained in conflict resolution and emergency protocols, ensuring rapid and effective response to security incidents.",
+    "languages": [
+      "Portuguese",
+      "Japanese",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/86.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Martinez",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Olivia Martinez's 21 years include proficiency in evidence collection and report writing for maritime security incidents.",
+    "languages": [
+      "Portuguese",
+      "English",
+      "German",
+      "Spanish",
+      "French"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "John Brown",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Cybersecurity Officer Brown protects vessel networks and data with 21 years of specialized cybersecurity expertise in maritime digital infrastructure.",
+    "languages": [
+      "German",
+      "Italian",
+      "Spanish",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sophia Smith",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Sophia Smith manages communication between security teams and external authorities to ensure swift resolution of maritime security incidents.",
+    "languages": [
+      "German",
+      "French",
+      "Portuguese",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Davis",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Access Control Officer Davis plays a crucial role in gangway security and managing visitor identification processes, a responsibility held for 14 years.",
+    "languages": [
+      "English",
+      "Russian",
+      "German"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/98.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
     "name": "John Martinez",
     "role": "Safety Compliance Officer",
     "department": "Security Department",
-    "bio": "Leveraging 17 years, John Martinez ensures the vessel's Safety Management System (SMS) is effectively implemented and continuously improved.",
+    "bio": "Leveraging 13 years, John Martinez ensures the vessel's Safety Management System (SMS) is effectively implemented and continuously improved.",
     "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/91.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Miller",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Youth Program Director Miller ensures all youth activities are not only fun but also adhere to the highest safety and child protection standards, drawing on 19 years.",
-    "languages": [
+      "Japanese",
+      "Italian",
       "Portuguese",
       "English"
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Brown",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Leveraging 15 years in family entertainment, Emma Brown curates a diverse schedule of events appealing to all members of the family.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Drawing on 6 years of delighting young audiences, Robert Smith brings a unique blend of magic, storytelling, and interactive games to the ship.",
-    "languages": [
-      "Japanese",
-      "French",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
     "name": "Olivia Williams",
-    "role": "Teen Activities Coordinator",
+    "role": "Youth Program Director",
     "department": "Youth & Family Programs",
-    "bio": "Teen Activities Coordinator Williams fosters positive social environments with interactive, age-appropriate activities that encourage peer bonding.",
+    "bio": "Known for creative leadership, Olivia Williams continuously evaluates and improves youth programming to meet evolving passenger needs.",
     "languages": [
-      "German",
+      "Japanese",
+      "Arabic",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/94.jpg",
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Robert Davis",
-    "role": "Educational Program Manager",
+    "name": "James Jones",
+    "role": "Family Activities Coordinator",
     "department": "Youth & Family Programs",
-    "bio": "Educational Program Manager Davis forges partnerships with guest speakers and institutions to provide high-quality learning experiences, leveraging 10 years of networking.",
-    "languages": [
-      "Italian",
-      "Mandarin",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Davis",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Known for patience and professionalism, Maria Davis communicates effectively with parents and crew to support child wellbeing.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Brown",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "Known for innovative programming, Olivia Brown continuously evaluates activity trends and passenger feedback to refresh and improve offerings.",
-    "languages": [
-      "Italian",
-      "Mandarin",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "John Smith",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Water Sports Instructor Smith ensures guests enjoy safe, fun, and memorable water-based experiences while strictly adhering to safety protocols.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Smith",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Fitness Instructor Smith provides nutritional advice and wellness coaching, empowering guests to achieve their health goals over 18 years.",
+    "bio": "Family Activities Coordinator Jones designs multi-generational programs that promote bonding and enjoyment throughout the voyage.",
     "languages": [
       "Mandarin",
+      "Portuguese",
       "English"
     ],
     "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/98.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "David Davis",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Known for excellent problem-solving, David Davis adapts plans efficiently to address unexpected challenges or changing conditions.",
+    "name": "Robert Brown",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Robert Brown engages young guests with creative entertainment programs, leveraging 4 years in children’s recreational services and event planning.",
     "languages": [
+      "French",
       "Mandarin",
       "English"
     ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "John Williams",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "Lead Photographer Williams manages photographic equipment, editing workflows, and passenger portrait sessions with precision and professionalism.",
+    "name": "Michael Williams",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Michael Williams develops dynamic programs catering to teenage guests, drawing on 11 years of youth facilitation and event management expertise.",
     "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/93.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Williams",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Robert Williams documents ship activities, excursions, and special events, delivering high-quality video content with 10 years of professional videography experience.",
-    "languages": [
-      "English",
-      "Spanish"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Johnson",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "With 16 years in the digital realm, Maria Johnson crafts compelling online stories and manages the ship's social media channels to connect with guests.",
-    "languages": [
-      "Spanish",
-      "German",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Williams",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "With extensive knowledge in maritime medicine and emergency response, Robert Williams ensures readiness for diverse medical situations at sea.",
-    "languages": [
-      "Japanese",
-      "Mandarin",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Miller",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "With specialization in emergency response, preventative medicine, and maritime health protocols, Dr. Miller ensures passenger and crew safety.",
-    "languages": [
-      "Portuguese",
+      "French",
       "Russian",
       "English"
     ],
     "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/94.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Olivia Rodriguez",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "With 19 years of experience, Olivia Rodriguez is proficient in emergency care, routine medical procedures, and health education for passengers and crew.",
+    "name": "Michael Smith",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Drawing on 13 years in educational programming, Michael Smith designs enriching lectures, workshops, and cultural immersion activities related to the voyage itinerary.",
     "languages": [
-      "Arabic",
-      "Portuguese",
+      "Mandarin",
+      "Japanese",
       "Italian",
       "English"
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/86.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Robert Brown",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "With 7 years overseeing maritime safety, Robert Brown ensures strict adherence to international safety regulations (SOLAS, MARPOL) and promotes a culture of vigilance onboard vessels operating in undefined.",
+    "name": "James Smith",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "James Smith provides attentive care and supervision for young passengers, backed by 11 years in professional child care and early childhood education.",
     "languages": [
+      "Spanish",
+      "German",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/91.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Miller",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Emma Miller plans and coordinates all recreational activities, utilizing 15 years of event management expertise to create engaging, inclusive programs.",
+    "languages": [
+      "Spanish",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/36.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "David Miller",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Known for excellent communication and risk management skills, David Miller maintains vigilance during all aquatic activities to protect participants.",
+    "languages": [
+      "Russian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/95.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Miller",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Fitness Instructor Miller provides nutritional advice and wellness coaching, empowering guests to achieve their health goals over 15 years.",
+    "languages": [
+      "Russian",
+      "German",
+      "English",
+      "Portuguese"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/90.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Jones",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Olivia Jones manages shore excursions with 21 years coordinating logistics, safety, and guest engagement across diverse international destinations.",
+    "languages": [
+      "Portuguese",
+      "English",
+      "Spanish",
+      "Japanese"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Davis",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Lead Photographer Davis captures stunning imagery of ship life, landscapes, and destinations, backed by 5 years of professional photography expertise.",
+    "languages": [
+      "Mandarin",
+      "Spanish",
       "Arabic",
       "German",
       "English"
     ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
     "name": "James Brown",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "Overseeing a diverse team, Hospitality Director Brown implements innovative service strategies and maintains the highest quality standards, reflecting 6 years in the industry.",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Videographer Brown crafts compelling visual stories that highlight onboard experiences and diverse destinations through expert filming and editing.",
     "languages": [
+      "Mandarin",
+      "Portuguese",
+      "Japanese",
+      "Russian",
       "English"
     ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "James Williams",
+    "name": "John Smith",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Known for technical proficiency and creative vision, John Smith collaborates closely with marketing and entertainment teams to maximize reach and impact.",
+    "languages": [
+      "German",
+      "English",
+      "French"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "David Smith",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Chief Medical Officer Smith leads all medical operations onboard, leveraging 17 years of clinical and maritime healthcare expertise to ensure passenger and crew wellbeing.",
+    "languages": [
+      "Spanish",
+      "German",
+      "Japanese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Miller",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Ship's Doctor Miller is skilled in minor surgical procedures and advanced cardiac life support, bringing 4 years of critical care experience.",
+    "languages": [
+      "Arabic",
+      "Spanish",
+      "English",
+      "German"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "David Brown",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Leveraging 13 years in diverse nursing roles, David Brown excels in triage, wound care, and patient advocacy within the unique maritime environment.",
+    "languages": [
+      "Mandarin",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Miller",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Committed to regulatory adherence, Robert Miller stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
+    "languages": [
+      "German",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Martinez",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Director Martinez orchestrates a seamless guest journey, from arrival to departure, leveraging 18 years of expertise in luxury service.",
+    "languages": [
+      "Portuguese",
+      "English",
+      "Spanish",
+      "Italian",
+      "Japanese"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/54.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Michael Williams",
     "role": "Guest Relations Manager",
     "department": "Hospitality Department",
     "bio": "Guest Relations Manager Williams enhances passenger satisfaction through attentive and personalized service.",
     "languages": [
+      "Russian",
+      "Italian",
+      "Japanese",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Brown",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Chief Steward Brown trains and mentors the housekeeping staff, instilling a keen eye for detail and a commitment to impeccable service honed over 20 years.",
+    "languages": [
+      "Mandarin",
+      "Japanese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Michael Rodriguez",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Senior Steward Rodriguez delivers attentive guest services and supports stewardship operations, drawing on 5 years onboard.",
+    "languages": [
+      "Spanish",
+      "Japanese",
+      "Arabic",
+      "Mandarin",
+      "French",
       "Portuguese",
       "English"
     ],
     "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "David Davis",
-    "role": "Chief Steward",
+    "name": "Maria Davis",
+    "role": "Butler",
     "department": "Hospitality Department",
-    "bio": "David Davis excels in inventory management for linens and amenities, maintaining premium standards across all staterooms and suites with 15 years of dedication.",
+    "bio": "Maria Davis crafts unforgettable moments for discerning guests, drawing on 6 years of experience in curating exclusive and seamless luxury service.",
+    "languages": [
+      "Italian",
+      "Spanish",
+      "Arabic",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Jones",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Accommodation Manager Jones plays a key role in inventory control for linens, amenities, and cleaning supplies, optimizing resources over 8 years.",
     "languages": [
       "Japanese",
       "Italian",
-      "German",
+      "Spanish",
+      "Arabic",
+      "Portuguese",
       "English"
     ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Maria Williams",
-    "role": "Senior Steward",
+    "name": "James Johnson",
+    "role": "Housekeeping Supervisor",
     "department": "Hospitality Department",
-    "bio": "Senior Steward Williams also assists in training junior stewards, sharing expertise gained from 10 years in maritime hospitality.",
+    "bio": "Housekeeping Supervisor Johnson leads cleaning teams, maintaining impeccable standards across all guest areas.",
     "languages": [
+      "German",
+      "French",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/98.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Davis",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Sarah Davis assists guests with inquiries and special requests, drawing on 6 years in customer service roles.",
+    "languages": [
+      "French",
+      "German",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Williams",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Olivia Williams leverages 3 years of service to provide exceptional concierge support onboard.",
+    "languages": [
+      "Russian",
+      "Mandarin",
+      "French",
       "Japanese",
       "English"
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "James Martinez",
-    "role": "Butler",
+    "name": "Sarah Rodriguez",
+    "role": "Front Desk Manager",
     "department": "Hospitality Department",
-    "bio": "With discreet professionalism honed over 16 years, Butler Martinez offers bespoke services, including in-suite dining, wardrobe management, and personalized arrangements.",
+    "bio": "With 18 years in front office management, Sarah Rodriguez ensures a welcoming and organized reception area, managing all aspects of guest registration and billing.",
     "languages": [
+      "Portuguese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Jones",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "Sarah Jones's expertise over 16 years lies in creating unparalleled experiences, making every VIP guest feel exceptionally valued and pampered.",
+    "languages": [
+      "German",
+      "Mandarin",
+      "Spanish",
       "Japanese",
       "English"
     ],
     "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Jones",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "With 11 years managing large-scale accommodation facilities, Michael Jones ensures all guest cabins and public areas meet exacting standards of cleanliness and repair.",
-    "languages": [
-      "French",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "John Smith",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "Housekeeping Supervisor Smith is committed to sustainability in cleaning practices, implementing eco-friendly procedures throughout their 9 years of service.",
-    "languages": [
-      "German",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Martinez",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Maria Martinez assists guests with inquiries and special requests, drawing on 14 years in customer service roles.",
-    "languages": [
-      "Portuguese",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Davis",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "Sarah Davis acts as a personal guide to onboard and onshore experiences, providing insider tips and tailored advice to create unique memories for guests.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Johnson",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "With 17 years in front office management, Sarah Johnson ensures a welcoming and organized reception area, managing all aspects of guest registration and billing.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "David Williams",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "With 7 years catering to high-profile clientele, David Williams curates bespoke itineraries and ensures flawless execution of all VIP arrangements.",
-    "languages": [
-      "Spanish",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
     "name": "Maria Garcia",
     "role": "Hospitality Trainer",
     "department": "Hospitality Department",
-    "bio": "Maria Garcia conducts needs assessments and measures training effectiveness to ensure continuous improvement across all hospitality departments, reflecting 12 years in adult learning.",
+    "bio": "Hospitality Trainer Garcia focuses on enhancing guest service quality through targeted education and coaching.",
     "languages": [
-      "German",
-      "English"
+      "English",
+      "Italian",
+      "Spanish"
     ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Olivia Rodriguez",
+    "name": "Maria Jones",
     "role": "Executive Chef",
     "department": "Culinary Department",
-    "bio": "Chef Rodriguez creates exceptional Japanese cuisine with 18 years of culinary expertise from around the world.",
-    "languages": [
-      "Portuguese",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/30.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "James Smith",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "As second-in-command, Sous Chef Smith ensures seamless kitchen workflow and consistent dish quality, drawing on 17 years of hands-on Pacific Rim experience.",
-    "languages": [
-      "Arabic",
-      "German",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Rodriguez",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "Michael Rodriguez manages the pastry section, from artisan breads to elaborate cakes and plated desserts, ensuring exceptional quality over 16 years.",
-    "languages": [
-      "Portuguese",
-      "English",
-      "German"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Brown",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Sophia Brown ensures consistency and quality in dish preparation across assigned kitchen areas.",
-    "languages": [
-      "Spanish",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/5.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "James Williams",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "James Williams specializes in unique culinary styles, offering guests diverse flavors based on 6 years of expertise.",
-    "languages": [
-      "Spanish",
-      "Italian",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Garcia",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Sushi Chef Garcia manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 15 years of Japanese culinary excellence.",
-    "languages": [
-      "Italian",
-      "Japanese",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Davis",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "Sophia Davis maintains high standards in food presentation and safety for all cold kitchen offerings.",
-    "languages": [
-      "Russian",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Davis",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Butcher Davis manages meat inventory and advises chefs on the best cuts for specific culinary applications, drawing on 13 years of specialized knowledge.",
-    "languages": [
-      "French",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "David Davis",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "David Davis combines traditional techniques with innovation to delight guests with baked specialties.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/86.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Garcia",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Certified Sommelier Garcia navigates an extensive cellar to find the perfect wine for every palate and Pacific Rim, drawing on 7 years of oenological expertise.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Rodriguez",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "Michael Rodriguez delivers exceptional beverage experiences tailored to guest preferences onboard.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "John Smith",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Barista Smith prepares specialty coffees with precision, backed by 7 years in coffee service.",
-    "languages": [
-      "German",
-      "French",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Miller",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Robert Miller collaborates with chefs to ensure nutritious and delicious meal options onboard.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "James Brown",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "With 11 years orchestrating spectacular onboard entertainment, James Brown manages everything from Broadway-style shows to intimate musical performances and themed parties.",
-    "languages": [
-      "Japanese",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Johnson",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Performance Coordinator Johnson supports talent and technical teams to deliver seamless shows.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "David Williams",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "Lead Vocalist Williams captivates audiences with dynamic performances, backed by 17 years of professional singing.",
-    "languages": [
-      "Portuguese",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/93.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Garcia",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "With 19 years entertaining audiences worldwide, Emma Garcia creates an engaging atmosphere, taking requests and interacting with guests through the power of live music.",
-    "languages": [
-      "Mandarin",
-      "Arabic",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/37.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "David Rodriguez",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "David Rodriguez is a dedicated member of the ensemble, contributing to high-energy production numbers and themed events, showcasing 13 years of professional dance experience.",
-    "languages": [
-      "English",
-      "German",
-      "Japanese"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "James Jones",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Choreographer Jones creates captivating dance routines, blending creativity with 5 years of dance expertise.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Brown",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "With a sharp wit and 9 years on the comedy circuit, Sarah Brown offers hilarious observational humor and storytelling that resonates with diverse audiences.",
-    "languages": [
-      "German",
-      "Spanish",
-      "French",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "James Martinez",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "James Martinez brings a unique brand of enchantment to the ship's entertainment, drawing on 8 years of professional magic and a flair for theatrical presentation.",
-    "languages": [
-      "Arabic",
-      "Spanish",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Garcia",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "With an extensive music library and 12 years of reading crowds, DJ Garcia seamlessly blends genres to create the perfect soundtrack for any onboard event or nightclub.",
-    "languages": [
-      "Arabic",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Jones",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Michael Jones's keen ear and technical proficiency, developed over 9 years, are essential for delivering immersive and high-quality auditory experiences.",
-    "languages": [
-      "Russian",
-      "French",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Miller",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "With 6 years in theatrical lighting design and operation, Olivia Miller transforms stages and venues with dynamic and atmospheric lighting cues.",
-    "languages": [
-      "German",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/96.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Brown",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "Michael Brown supervises stage operations and talent, drawing on 17 years of event management.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/93.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Garcia",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "Production Manager Garcia collaborates with creative teams and technical departments to bring ambitious show concepts to life, on time and within budget.",
-    "languages": [
-      "Mandarin",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/92.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Garcia",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Costume Designer Garcia manages the entire costume lifecycle, from initial sketches and fabric sourcing to fittings and maintenance, ensuring every garment is show-ready.",
+    "bio": "Beyond crafting exquisite Continental, Chef Jones expertly manages kitchen hygiene, inventory, and food cost control, honed over 22 years in demanding culinary environments.",
     "languages": [
       "Portuguese",
       "English",
       "Arabic"
     ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "James Johnson",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "James Johnson's passion for cultural exchange, cultivated over 13 years, enriches the voyage by fostering understanding and appreciation of diverse traditions.",
+    "name": "Maria Martinez",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Maria Martinez trains and supervises junior chefs, playing a key role in maintaining discipline and motivation within the culinary team with 20 years of mentorship.",
     "languages": [
+      "Spanish",
+      "Mandarin",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/51.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Rodriguez",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Specializing in delicate Japanese pastries and innovative dessert creations, Pastry Chef Rodriguez brings 13 years of refined skill to the culinary team.",
+    "languages": [
+      "Mandarin",
+      "German",
       "Portuguese",
       "Russian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "David Smith",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Chef de Partie Smith manages specific kitchen stations with 19 years of focused culinary skill.",
+    "languages": [
+      "English",
+      "Italian"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "John Martinez",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "With 11 years perfecting {cuisineSpecific} artistry, John Martinez ensures each plate is a true representation of its cultural heritage and bold flavors.",
+    "languages": [
+      "English",
+      "Mandarin",
+      "Portuguese"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sophia Williams",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Sushi Chef Williams manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 13 years of Japanese culinary excellence.",
+    "languages": [
+      "Portuguese",
+      "Spanish",
+      "Mandarin",
       "German",
       "English"
     ],
     "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "John Rodriguez",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "With 8 years pushing artistic boundaries, John Rodriguez offers a distinctive and captivating addition to the ship's diverse entertainment offerings.",
+    "name": "Olivia Davis",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Olivia Davis is responsible for creating visually stunning and delicious cold appetizers, canapés, and buffet displays, backed by 15 years of Latin American expertise.",
     "languages": [
+      "German",
       "Portuguese",
       "English"
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
-    "city": "Fort Lauderdale",
-    "country": "Global"
-  },
-  {
-    "name": "David Smith",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "With 15 years streamlining vessel-wide processes, David Smith ensures optimal efficiency, resource allocation, and inter-departmental synergy.",
-    "languages": [
-      "Italian",
-      "Mandarin",
-      "English"
-    ],
     "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Maria Williams",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "Maria Williams leverages 19 years in logistics to optimize onboard operations.",
+    "name": "Sophia Brown",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Sophia Brown is responsible for precise meat cuts that meet kitchen and guest expectations.",
     "languages": [
+      "Portuguese",
       "Arabic",
+      "Japanese",
       "Spanish",
       "English"
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "David Miller",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "David Miller's analytical skills, honed over 16 years, are key to forecasting demand and optimizing stock levels across various departments.",
+    "name": "Michael Jones",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "With 22 years dedicated to the art of baking, Michael Jones fills the ship with the aroma of freshly baked artisan breads, pastries, and viennoiserie.",
     "languages": [
+      "English",
+      "French",
+      "Portuguese",
+      "German",
+      "Arabic",
+      "Spanish"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sophia Jones",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Sommelier Jones curates wine selections, offering expert pairing advice with 18 years in fine wine service.",
+    "languages": [
+      "Spanish",
       "Italian",
-      "Russian",
+      "French",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Michael Rodriguez",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Rodriguez crafts creative cocktails, combining flavor expertise with 14 years of bartending skill.",
+    "languages": [
+      "Spanish",
+      "Italian",
+      "Japanese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Martinez",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Sarah Martinez provides friendly and efficient service at the coffee bar, sharing knowledge and passion for specialty coffee honed over 16 years.",
+    "languages": [
+      "German",
+      "Arabic",
       "English"
     ],
     "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Michael Brown",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "With 13 years in strategic sourcing, Michael Brown identifies reliable suppliers and negotiates favorable terms for all shipboard necessities, from fuel to food.",
+    "name": "Sarah Jones",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Nutritionist Jones designs balanced menus catering to health-conscious guests, leveraging 18 years of dietary expertise.",
     "languages": [
-      "Arabic",
       "Mandarin",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Davis",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Olivia Davis constantly seeks innovative entertainment concepts and top-tier talent, leveraging 8 years to keep the onboard experience fresh, exciting, and memorable.",
+    "languages": [
+      "English",
+      "Japanese"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Davis",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "With 13 years in arts administration, Sarah Davis expertly coordinates rehearsal schedules, venue allocations, and technical requirements for a multitude of acts.",
+    "languages": [
+      "French",
+      "Italian",
       "English"
     ],
     "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Olivia Jones",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "Sustainability Coordinator Jones implements green initiatives to minimize environmental impact.",
+    "name": "John Davis",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "John Davis brings charisma and vocal expertise to the ship's entertainment lineup.",
     "languages": [
-      "Spanish",
+      "Portuguese",
+      "Japanese",
+      "Italian",
+      "Mandarin",
       "English"
     ],
     "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Davis",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "A master of the {instrument}, James Davis brings 11 years of versatile musicianship, performing solo or as part of an ensemble in various ship venues.",
+    "languages": [
+      "German",
+      "French",
+      "Spanish",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Michael Smith",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Dancer Smith brings dynamism and grace to every performance, captivating audiences with technical skill and expressive movement honed over 11 years.",
+    "languages": [
+      "German",
+      "Spanish",
+      "Mandarin",
+      "Portuguese",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Martinez",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Choreographer Martinez works closely with dancers to teach and refine intricate movements, ensuring performances are polished and impactful, reflecting 16 years of artistic direction.",
+    "languages": [
+      "French",
+      "Japanese",
+      "Italian",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/67.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Rodriguez",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Comedy Performer Rodriguez masterfully crafts clean and engaging sets suitable for a cruise environment, ensuring evenings are filled with laughter and amusement.",
+    "languages": [
+      "Mandarin",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Martinez",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Magic Act specialist Martinez combines masterful sleight of hand with engaging patter, creating an atmosphere of wonder and excitement during every {duration} show.",
+    "languages": [
+      "Spanish",
+      "English",
+      "Russian"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/90.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "David Johnson",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "DJ Johnson creates vibrant atmospheres with expertly mixed music, drawing on 20 years in live DJing.",
+    "languages": [
+      "English",
+      "Spanish",
+      "French"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Michael Johnson",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "With 10 years of experience in mixing live sound for theatre, music, and events, Michael Johnson guarantees crystal-clear audio for all onboard productions.",
+    "languages": [
+      "Russian",
+      "Italian",
+      "English",
+      "Spanish"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Johnson",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "With 7 years in theatrical lighting design and operation, Emma Johnson transforms stages and venues with dynamic and atmospheric lighting cues.",
+    "languages": [
+      "Spanish",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Miller",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Stage Manager Miller is the organizational backbone of the production, liaising between performers, technicians, and the director to maintain artistic integrity and timing.",
+    "languages": [
+      "Mandarin",
+      "Italian",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/91.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Garcia",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "With 8 years managing complex theatrical and event productions, Emma Garcia oversees budgeting, scheduling, staffing, and technical riders for all entertainment.",
+    "languages": [
+      "French",
+      "Mandarin",
+      "Italian",
+      "Portuguese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/37.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Williams",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Emma Williams combines creativity and craftsmanship with 9 years of design expertise.",
+    "languages": [
+      "Russian",
+      "Italian",
+      "Arabic",
+      "English",
+      "Mandarin"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Smith",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Cultural Program Director Smith curates culturally enriching events and experiences for guests.",
+    "languages": [
+      "English",
+      "Mandarin",
+      "Italian",
+      "French",
+      "Portuguese"
+    ],
+    "experienceYears": 8,
     "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
     "city": "Fort Lauderdale",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Jones",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Performance Artist Jones delivers unique and innovative acts, blending multiple disciplines with 5 years of artistic practice.",
+    "languages": [
+      "Arabic",
+      "English",
+      "Spanish",
+      "Russian"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Miller",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Emma Miller plays a crucial role in port operations coordination, safety compliance oversight, and emergency response planning, backed by 13 years of maritime expertise.",
+    "languages": [
+      "Spanish",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/30.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sophia Jones",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Sophia Jones leverages 4 years in logistics to optimize onboard operations.",
+    "languages": [
+      "Spanish",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Inventory Specialist Miller implements efficient stock rotation (FIFO) and conducts regular audits to prevent shortages and minimize waste.",
+    "languages": [
+      "Russian",
+      "Arabic",
+      "English",
+      "French"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Johnson",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Procurement Officer Johnson manages supplier relationships, monitors market trends, and ensures compliance with ethical purchasing policies.",
+    "languages": [
+      "Portuguese",
+      "French",
+      "German",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "John Miller",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Sustainability Coordinator Miller ensures compliance with international environmental regulations (e.g., MARPOL) and promotes a culture of sustainability among crew and guests.",
+    "languages": [
+      "English",
+      "Mandarin",
+      "Italian",
+      "Portuguese",
+      "Arabic"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean"
   }
 ];

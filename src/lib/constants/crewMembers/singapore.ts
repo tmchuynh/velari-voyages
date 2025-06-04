@@ -2,1287 +2,1496 @@ import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const singaporeTeamMembers: CrewMember[] = [
   {
-    "name": "Sarah Miller",
+    "name": "Michael Smith",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "With 9 years at sea, Captain Miller is renowned for expertise in undefined navigation, crew leadership, and passenger safety protocols.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Jones",
-    "role": "First Officer",
-    "department": "Deck Department",
-    "bio": "Sophia Jones applies comprehensive knowledge of undefined's tides, currents, and weather patterns, contributing to efficient and safe ship navigation.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Rodriguez",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "Robert Rodriguez applies 15 years of navigational skills to support safe and efficient voyages across undefined, with strong expertise in chart plotting and communication systems.",
-    "languages": [
-      "Mandarin",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "John Garcia",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "John Garcia's expertise in safety and lifesaving equipment maintenance comes from 7 years at sea within undefined, ensuring crew and passenger preparedness.",
+    "bio": "Drawing on 10 years of command, Michael Smith expertly manages all aspects of vessel operation in Asia Pacific, emphasizing crew development and operational excellence.",
     "languages": [
       "French",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Jones",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "Michael Jones collaborates with the bridge team to optimize voyage efficiency, integrating real-time data and weather information specific to undefined.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Garcia",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "With a thorough understanding of hazard identification and mitigation, Sarah Garcia fosters a culture of safety awareness among crew and passengers.",
-    "languages": [
-      "German",
       "Spanish",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/84.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "James Brown",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "With a strong commitment to professional growth, James Brown actively participates in drills and training to build competence for safe vessel operation.",
-    "languages": [
-      "Japanese",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/86.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Brown",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Sarah Brown's leadership ensures the deck department operates efficiently and safely, drawing from 12 years of hands-on experience in undefined.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Smith",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "Known for strategic problem-solving, Maria Smith directs all technical operations, balancing safety, performance, and cost-effectiveness aboard vessels.",
-    "languages": [
-      "Arabic",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Davis",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "Drawing on 19 years, Robert Davis takes charge of the engine room in the Chief Engineer's absence, ensuring all systems run smoothly and efficiently.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Garcia",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "Michael Garcia supports engineering operations with 17 years focused on mechanical maintenance, diagnostics, and equipment troubleshooting aboard vessels.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/98.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Brown",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Responsible for wiring upgrades and automation system maintenance, Robert Brown supports enhanced operational efficiency and crew safety.",
-    "languages": [
-      "Arabic",
-      "German",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/89.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "James Johnson",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "Mechanical Engineer Johnson specializes in propulsion, HVAC, and auxiliary machinery with 10 years ensuring operational efficiency and reliability.",
-    "languages": [
-      "French",
-      "German",
       "English"
     ],
     "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/88.jpg",
     "city": "Singapore",
-    "country": "Global"
+    "country": "Singapore",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Olivia Miller",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "HVAC Engineer Miller coordinates with other engineering disciplines to integrate HVAC solutions with overall ship systems.",
+    "name": "John Martinez",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "John Martinez applies comprehensive knowledge of Asia Pacific's tides, currents, and weather patterns, contributing to efficient and safe ship navigation.",
     "languages": [
-      "Mandarin",
       "English",
+      "Russian",
+      "Arabic",
+      "Spanish",
       "Italian"
     ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/56.jpg",
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
     "city": "Singapore",
-    "country": "Global"
+    "country": "Singapore",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Sarah Davis",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Environmental Engineer Davis manages the ship's garbage management plan and oversees the operation of pollution prevention equipment, with 8 years of dedication.",
+    "name": "John Jones",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "With a strong focus on electronic navigation and safety equipment, John Jones brings 3 years of experience navigating Asia Pacific's challenging routes.",
     "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Johnson",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "Michael Johnson integrates complex onboard systems, ensuring operational synergy and reliability with 14 years of maritime engineering expertise.",
-    "languages": [
+      "Italian",
+      "Portuguese",
       "French",
       "English"
     ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
     "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Davis",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "With a strategic overview honed over 13 years, Maria Davis directs fleet-wide technical policies and ensures best practices are implemented.",
-    "languages": [
-      "English",
-      "French"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Rodriguez",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Maria Rodriguez meticulously documents all maintenance activities, ensuring a comprehensive history for all critical machinery, built over 18 years of service.",
-    "languages": [
-      "Mandarin",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Robert Smith, with 12 years in the field, is an expert in ISPS Code implementation and maritime counter-terrorism strategies.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Miller",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Security Officer Miller performs access control duties and monitors surveillance systems to maintain a secure onboard environment.",
-    "languages": [
-      "Portuguese",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Martinez",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Michael Martinez provides expert assessment and response coordination to maritime security challenges, leveraging advanced knowledge in risk management and compliance.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "David Brown",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Known for proactive defense strategies, David Brown continuously monitors network activity and coordinates responses to cyber incidents onboard.",
-    "languages": [
-      "Japanese",
-      "Mandarin",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Davis",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "With strong organizational skills, Maria Davis maintains detailed records and reports to support continuous security improvement.",
-    "languages": [
-      "Japanese",
-      "Mandarin",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Jones",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Drawing on 19 years of experience, Sophia Jones is proficient in operating and maintaining advanced access control systems and screening equipment.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/5.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Johnson",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Sophia Johnson meticulously prepares the vessel for internal and external safety audits, ensuring all documentation and practices meet or exceed standards, backed by 15 years.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Martinez",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "With a passion for youth development, Emma Martinez crafts innovative activities fostering learning, social growth, and cultural awareness during voyages.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/88.jpg",
-    "city": "Singapore",
-    "country": "Global"
+    "country": "Singapore",
+    "region": "Asia Pacific"
   },
   {
     "name": "John Brown",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "John Brown, with 5 years of experience, excels in logistics and planning, ensuring every family event runs smoothly and delights guests.",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Third Officer Brown assists with cargo operations and ballast management, a key part of their 11 years of development in Asia Pacific.",
     "languages": [
-      "Russian",
-      "Italian",
+      "Portuguese",
+      "Japanese",
+      "Spanish",
+      "Mandarin",
+      "Arabic",
       "English"
     ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/89.jpg",
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
     "city": "Singapore",
-    "country": "Global"
+    "country": "Singapore",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Robert Smith",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Drawing on 8 years of delighting young audiences, Robert Smith brings a unique blend of magic, storytelling, and interactive games to the ship.",
+    "name": "James Brown",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "James Brown's expertise in navigational risk assessment supports proactive decision-making for safe operations within Asia Pacific's ports and coastal areas.",
     "languages": [
+      "Mandarin",
+      "Portuguese",
+      "Arabic",
       "Italian",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/93.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Martinez",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Teen Activities Coordinator Martinez is skilled at mentoring and connecting with teenagers, ensuring they have a fantastic and safe experience, drawing on 12 years.",
-    "languages": [
       "Spanish",
       "English"
     ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/99.jpg",
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/94.jpg",
     "city": "Singapore",
-    "country": "Global"
+    "country": "Singapore",
+    "region": "Asia Pacific"
   },
   {
-    "name": "John Davis",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Drawing on 19 years in educational programming, John Davis designs enriching lectures, workshops, and cultural immersion activities related to the voyage itinerary.",
+    "name": "Maria Rodriguez",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Safety Officer Rodriguez documents incidents and implements corrective actions to continuously improve onboard safety performance.",
     "languages": [
-      "Portuguese",
-      "English"
+      "Arabic",
+      "Italian",
+      "English",
+      "Japanese"
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/76.jpg",
     "city": "Singapore",
-    "country": "Global"
+    "country": "Singapore",
+    "region": "Asia Pacific"
   },
   {
-    "name": "David Brown",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Child Care Specialist Brown promotes social and emotional development through structured play and educational activities.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Garcia",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "With a focus on guest engagement and satisfaction, Sophia Garcia designs diverse activity schedules that cater to a wide range of interests and age groups onboard.",
+    "name": "Robert Jones",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Robert Jones, a promising Deck Cadet, is quickly mastering the fundamentals of seamanship and safety protocols specific to Asia Pacific maritime operations.",
     "languages": [
       "French",
+      "Portuguese",
+      "Japanese",
+      "Russian",
+      "German",
       "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/96.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
     "city": "Singapore",
-    "country": "Global"
+    "country": "Singapore",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Emma Brown",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Water Sports Instructor Brown ensures guests enjoy safe, fun, and memorable water-based experiences while strictly adhering to safety protocols.",
+    "name": "Robert Davis",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Bosun Davis maintains the vessel's exterior appearance and structural integrity, a testament to 18 years of dedication in Asia Pacific.",
     "languages": [
-      "Spanish",
-      "English",
-      "Arabic"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "David Davis",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "David Davis is passionate about inspiring guests to discover the joy of movement, bringing energy and expertise from 18 years in the fitness industry.",
-    "languages": [
-      "Portuguese",
       "German",
       "English"
     ],
     "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
     "city": "Singapore",
-    "country": "Global"
+    "country": "Singapore",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Sarah Smith",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Known for excellent problem-solving, Sarah Smith adapts plans efficiently to address unexpected challenges or changing conditions.",
+    "name": "Michael Miller",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Michael Miller leads the engineering department with a focus on fuel efficiency and emissions reduction, drawing upon 13 years of innovative practice and marine electronics knowledge.",
+    "languages": [
+      "Italian",
+      "Mandarin",
+      "Russian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Garcia",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "First Engineer Garcia coordinates maintenance and repairs with 20 years of experience in marine mechanical systems, ensuring seamless engine room operations.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Johnson",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "With strong technical acumen, Michael Johnson assists in crew training on engineering systems and emergency response procedures.",
+    "languages": [
+      "Russian",
+      "German",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Rodriguez",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Drawing on 4 years, Maria Rodriguez ensures the integrity of high-voltage systems and sophisticated electronic controls throughout the vessel.",
+    "languages": [
+      "English",
+      "Portuguese",
+      "Japanese"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/88.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Williams",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "James Williams performs root cause analysis for mechanical failures and implements corrective action plans to minimize operational disruptions.",
     "languages": [
       "Arabic",
-      "Portuguese",
+      "Russian",
+      "Spanish",
       "Italian",
       "English"
     ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
     "city": "Singapore",
-    "country": "Global"
+    "country": "Singapore",
+    "region": "Asia Pacific"
   },
   {
-    "name": "James Rodriguez",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "Drawing on 16 years behind the lens, James Rodriguez expertly captures the essence of the cruise experience, from grand events to intimate moments.",
+    "name": "David Brown",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "David Brown monitors system performance and implements upgrades to enhance passenger comfort and crew wellbeing.",
     "languages": [
-      "English",
-      "Arabic"
+      "Japanese",
+      "Spanish",
+      "English"
     ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
     "city": "Singapore",
-    "country": "Global"
+    "country": "Singapore",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Sophia Miller",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Videographer Miller crafts compelling visual stories that highlight onboard experiences and diverse destinations through expert filming and editing.",
+    "name": "David Brown",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "With 11 years focused on sustainability, David Brown develops and implements environmental protection measures aboard ships, ensuring regulatory compliance.",
+    "languages": [
+      "French",
+      "Russian",
+      "German",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Davis",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "With extensive knowledge of software and hardware interfaces, Olivia Davis enhances system interoperability and cybersecurity aboard vessels.",
     "languages": [
       "Russian",
       "Japanese",
       "English"
     ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
     "city": "Singapore",
-    "country": "Global"
+    "country": "Singapore",
+    "region": "Asia Pacific"
   },
   {
-    "name": "John Smith",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "John Smith manages digital content and multimedia production, applying 9 years in digital media, marketing, and audience engagement strategies.",
+    "name": "James Rodriguez",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Known for strong leadership, James Rodriguez fosters a culture of technical excellence and cross-functional collaboration onboard.",
     "languages": [
+      "Italian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sophia Martinez",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Maintenance Engineer Martinez troubleshoots system faults and implements timely repairs, maintaining vessel operational readiness.",
+    "languages": [
+      "Arabic",
+      "Japanese",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Johnson",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Security Director Johnson leads threat analysis initiatives and implements advanced security measures to safeguard vessel integrity.",
+    "languages": [
+      "French",
+      "Arabic",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/87.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Miller",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Leveraging 22 years of maritime security experience, Sarah Miller excels in threat detection and proactive deterrence measures.",
+    "languages": [
+      "German",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Jones",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Security Specialist Jones develops tailored security plans and threat mitigation strategies based on 22 years of maritime threat analysis and intelligence gathering.",
+    "languages": [
+      "Italian",
+      "German",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Davis",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Known for proactive defense strategies, Robert Davis continuously monitors network activity and coordinates responses to cyber incidents onboard.",
+    "languages": [
+      "German",
+      "Portuguese",
+      "English",
+      "Arabic"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Miller",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "With 3 years in the role, Emma Miller is adept at developing and updating the Ship Security Plan (SSP) and ensuring its effective implementation.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/59.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Garcia",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Focused on security integrity, John Garcia conducts regular audits of access logs and assists in security incident investigations.",
+    "languages": [
+      "Italian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Martinez",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Olivia Martinez works closely with regulatory bodies to ensure the vessel meets all international safety conventions and company policies.",
+    "languages": [
+      "German",
+      "Spanish",
+      "English",
+      "French",
+      "Italian"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Johnson",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Committed to positive youth engagement, Michael Johnson integrates educational content with fun, age-appropriate activities tailored to diverse passenger groups.",
+    "languages": [
+      "Russian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sophia Jones",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Leveraging 6 years in family entertainment, Sophia Jones curates a diverse schedule of events appealing to all members of the family.",
+    "languages": [
+      "Italian",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Garcia",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "David Garcia engages young guests with creative entertainment programs, leveraging 16 years in children’s recreational services and event planning.",
+    "languages": [
+      "Japanese",
+      "French",
       "Mandarin",
       "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
     "city": "Singapore",
-    "country": "Global"
+    "country": "Singapore",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Maria Rodriguez",
+    "name": "John Brown",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "With knowledge of adolescent development, John Brown balances fun and educational content to engage teens effectively onboard.",
+    "languages": [
+      "Mandarin",
+      "Spanish",
+      "English",
+      "German",
+      "Portuguese"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Smith",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "David Smith oversees onboard educational initiatives, combining 9 years of academic and program management experience to enrich passenger learning.",
+    "languages": [
+      "Mandarin",
+      "Italian",
+      "German",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Johnson",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "John Johnson provides attentive care and supervision for young passengers, backed by 15 years in professional child care and early childhood education.",
+    "languages": [
+      "French",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Brown",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Known for innovative programming, James Brown continuously evaluates activity trends and passenger feedback to refresh and improve offerings.",
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Miller",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Leveraging 9 years of experience, Olivia Miller is certified to instruct activities such as snorkeling, kayaking, and paddleboarding in diverse marine environments.",
+    "languages": [
+      "Japanese",
+      "Italian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/86.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Rodriguez",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Committed to inclusivity, Michael Rodriguez adapts programming to accommodate varying fitness levels and any physical limitations.",
+    "languages": [
+      "Portuguese",
+      "Russian",
+      "Italian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Brown",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Leveraging 22 years of experience, Maria Brown curates a portfolio of unique and authentic shore excursions that showcase the best of each port.",
+    "languages": [
+      "Mandarin",
+      "Italian",
+      "Arabic",
+      "English",
+      "German"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Rodriguez",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Lead Photographer Rodriguez's portfolio showcases 20 years of diverse work, including breathtaking drone shots and artistic compositions from around the world.",
+    "languages": [
+      "Spanish",
+      "Portuguese",
+      "Japanese",
+      "Mandarin",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sophia Smith",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Videographer Smith crafts compelling visual stories that highlight onboard experiences and diverse destinations through expert filming and editing.",
+    "languages": [
+      "Mandarin",
+      "Japanese",
+      "Arabic",
+      "English",
+      "French"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Miller",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "With 7 years in the digital realm, Emma Miller crafts compelling online stories and manages the ship's social media channels to connect with guests.",
+    "languages": [
+      "Mandarin",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/51.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Rodriguez",
     "role": "Chief Medical Officer",
     "department": "Health & Safety",
     "bio": "Chief Medical Officer Rodriguez maintains medical supplies and liaises with shore-based health facilities to support comprehensive care.",
     "languages": [
+      "Arabic",
+      "French",
+      "Mandarin",
       "Portuguese",
-      "German",
-      "Mandarin",
       "English"
     ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
     "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "Ship's Doctor Smith is skilled in minor surgical procedures and advanced cardiac life support, bringing 7 years of critical care experience.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Johnson",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "With 13 years of experience, Maria Johnson is proficient in emergency care, routine medical procedures, and health education for passengers and crew.",
-    "languages": [
-      "German",
-      "French",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "James Davis",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "With a thorough understanding of hazard identification and mitigation, James Davis fosters a culture of safety awareness among crew and passengers.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "John Miller",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "With 16 years in hospitality management, John Miller drives operational excellence and team performance onboard.",
-    "languages": [
-      "Russian",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Garcia",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "With a passion for service excellence developed over 15 years, Robert Garcia leads the guest relations team to anticipate and exceed passenger expectations.",
-    "languages": [
-      "English",
-      "Mandarin",
-      "Portuguese"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Garcia",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Chief Steward Garcia trains and mentors the housekeeping staff, instilling a keen eye for detail and a commitment to impeccable service honed over 5 years.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Garcia",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "Senior Steward Garcia delivers attentive guest services and supports stewardship operations, drawing on 14 years onboard.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
-    "city": "Singapore",
-    "country": "Global"
+    "country": "Singapore",
+    "region": "Asia Pacific"
   },
   {
     "name": "John Rodriguez",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "With discreet professionalism honed over 18 years, Butler Rodriguez offers bespoke services, including in-suite dining, wardrobe management, and personalized arrangements.",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "With specialization in emergency response, preventative medicine, and maritime health protocols, Dr. Rodriguez ensures passenger and crew safety.",
     "languages": [
-      "Mandarin",
-      "German",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Williams",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "Emma Williams oversees accommodation services, ensuring comfort and efficiency with 11 years in maritime hospitality.",
-    "languages": [
-      "English",
-      "Mandarin",
-      "Portuguese"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Rodriguez",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "Sarah Rodriguez ensures smooth operations and staff training, supported by 19 years in hospitality management.",
-    "languages": [
-      "German",
-      "Spanish",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Martinez",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "With 7 years providing frontline support, Sarah Martinez is adept at information sharing, problem-solving, and ensuring guests feel valued and well-informed.",
-    "languages": [
-      "English",
-      "German",
-      "Japanese"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/94.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Brown",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "Sophia Brown leverages 19 years of service to provide exceptional concierge support onboard.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Rodriguez",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Michael Rodriguez is pivotal in managing high-traffic periods and resolving escalated guest concerns with professionalism and grace, reflecting 12 years in the field.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Rodriguez",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "With 11 years catering to high-profile clientele, Maria Rodriguez curates bespoke itineraries and ensures flawless execution of all VIP arrangements.",
-    "languages": [
-      "Arabic",
       "French",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/88.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "David Smith",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Hospitality Trainer Smith specializes in areas like luxury service standards, complaint resolution, and upselling techniques, drawing on 16 years of industry best practices.",
-    "languages": [
-      "Arabic",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Davis",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Mastering Pan-Asian and international gastronomy, Maria Davis ensures every dish reflects the highest standards of quality, presentation, and flavor, backed by 10 years of award-winning experience.",
-    "languages": [
-      "Arabic",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/56.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "John Brown",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "With 6 years in high-volume kitchens, Sous Chef Brown is adept at managing specific stations and stepping in for the Executive Chef as needed.",
-    "languages": [
       "Arabic",
       "English"
     ],
     "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
     "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Miller",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "Robert Miller manages the pastry section, from artisan breads to elaborate cakes and plated desserts, ensuring exceptional quality over 10 years.",
-    "languages": [
-      "Japanese",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "John Smith",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Specializing in the sustainable technologies station (e.g., Saucier, Grillardin), Chef de Partie Smith brings 16 years of expertise in preparing precise Pan-Asian components.",
-    "languages": [
-      "Italian",
-      "French",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Brown",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Robert Brown specializes in unique culinary styles, offering guests diverse flavors based on 9 years of expertise.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Martinez",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Emma Martinez combines precision and creativity to deliver an authentic sushi experience at sea.",
-    "languages": [
-      "Italian",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/94.jpg",
-    "city": "Singapore",
-    "country": "Global"
+    "country": "Singapore",
+    "region": "Asia Pacific"
   },
   {
     "name": "David Brown",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "With 7 years specializing in charcuterie, salads, and elaborate cold platters, Chef Brown brings artistry and precision to the Garde Manger station.",
-    "languages": [
-      "Russian",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Davis",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "With 14 years of expertise, Butcher Davis expertly handles all meat and poultry, providing custom cuts and ensuring optimal yield for various Caribbean dishes.",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Nurse Brown is experienced in managing chronic health conditions at sea and providing ongoing support to guests with specific medical needs, drawing from 16 years of practice.",
     "languages": [
       "French",
+      "Italian",
       "English"
     ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
     "city": "Singapore",
-    "country": "Global"
+    "country": "Singapore",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Michael Brown",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "Michael Brown manages the bakery's production schedule and ingredient inventory, ensuring consistent quality and freshness, backed by 15 years of professional baking.",
+    "name": "Olivia Garcia",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Safety Officer Garcia documents incidents and implements corrective actions to continuously improve onboard safety performance.",
     "languages": [
-      "Spanish",
-      "German",
-      "English"
+      "Portuguese",
+      "Russian",
+      "English",
+      "French"
     ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
     "city": "Singapore",
-    "country": "Global"
+    "country": "Singapore",
+    "region": "Asia Pacific"
   },
   {
     "name": "Sarah Brown",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Sarah Brown provides engaging wine education and tasting experiences for guests, sharing insights from 5 years exploring global viticulture.",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Sarah Brown is dedicated to fostering a welcoming and memorable atmosphere for all guests, drawing upon 22 years of cultivating outstanding hospitality teams.",
     "languages": [
+      "Italian",
       "Arabic",
       "Japanese",
-      "Mandarin",
+      "Russian",
       "English"
     ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
     "city": "Singapore",
-    "country": "Global"
+    "country": "Singapore",
+    "region": "Asia Pacific"
   },
   {
-    "name": "David Brown",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "Mixologist Brown delights guests with flair, technique, and a deep understanding of flavor profiles, creating personalized drink experiences over 9 years.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/96.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Smith",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Barista Smith prepares specialty coffees with precision, backed by 7 years in coffee service.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Brown",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Olivia Brown conducts onboard wellness seminars and workshops, empowering guests with nutritional knowledge gained over 18 years in the field.",
-    "languages": [
-      "German",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Miller",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "Maria Miller plans and oversees all entertainment activities, applying 14 years of event and talent management.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Garcia",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Robert Garcia's organizational skills, honed over 7 years, are crucial for maintaining a complex entertainment calendar and ensuring all performers are well-supported.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/93.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "Robert Smith consistently delivers show-stopping performances, connecting with audiences through emotive storytelling and exceptional vocal talent honed across 14 years on stage.",
+    "name": "Robert Davis",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Robert Davis coordinates guest services and resolves issues, leveraging 16 years of customer relations expertise.",
     "languages": [
       "Japanese",
+      "Arabic",
+      "Italian",
       "English"
     ],
-    "experienceYears": 14,
+    "experienceYears": 16,
     "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
     "city": "Singapore",
-    "country": "Global"
+    "country": "Singapore",
+    "region": "Asia Pacific"
   },
   {
     "name": "Michael Miller",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "Michael Miller enriches onboard ambiance through skilled instrumental and vocal performances.",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Chief Steward Miller supervises housekeeping and guest services with 15 years of maritime hospitality experience.",
     "languages": [
       "Arabic",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Davis",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Maria Davis is a dedicated member of the ensemble, contributing to high-energy production numbers and themed events, showcasing 17 years of professional dance experience.",
-    "languages": [
-      "French",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/56.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Jones",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Choreographer Jones creates captivating dance routines, blending creativity with 11 years of dance expertise.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/49.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Jones",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Olivia Jones entertains guests with humor and timing, backed by 5 years in comedy performance.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Smith",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "Magic Act specialist Smith mystifies audiences with skilled illusions and interactive performances.",
-    "languages": [
-      "French",
+      "Portuguese",
       "Russian",
       "Italian",
       "English"
     ],
     "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/40.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
     "city": "Singapore",
-    "country": "Global"
+    "country": "Singapore",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Sarah Jones",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "DJ Jones creates vibrant atmospheres with expertly mixed music, drawing on 13 years in live DJing.",
+    "name": "Olivia Miller",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "With 19 years of dedicated service, Senior Steward Miller ensures guest accommodations are impeccably maintained and personalized to preferences.",
     "languages": [
-      "English",
-      "Italian"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/26.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Williams",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Sarah Williams supports entertainment events with technical expertise in live sound engineering.",
-    "languages": [
-      "Arabic",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Williams",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "Robert Williams's artistic vision and technical mastery over 15 years ensure that lighting plays a crucial role in the storytelling and excitement of onboard entertainment.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Smith",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "Sophia Smith's calm under pressure and attention to detail, honed over 10 years, are vital for delivering complex, multi-layered performances without a hitch.",
-    "languages": [
-      "Italian",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Johnson",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "Olivia Johnson's strategic planning and problem-solving skills, developed over 6 years, are crucial for the successful execution of a high-quality entertainment program.",
-    "languages": [
-      "Japanese",
-      "German",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "David Smith",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Costume Designer Smith creates unique and period-appropriate costumes, enhancing visual storytelling in performances.",
-    "languages": [
-      "Spanish",
       "French",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/88.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "David Garcia",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Cultural Program Director Garcia curates culturally enriching events and experiences for guests.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Garcia",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "Performance Artist Garcia combines elements of {artisticDisciplineCombination} to create truly unique and memorable entertainment experiences for discerning audiences.",
-    "languages": [
       "Russian",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Williams",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Sophia Williams oversees daily operations and coordinates departments to maintain smooth vessel functioning.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Davis",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "Logistics Coordinator Davis manages supply chain and transport logistics, ensuring efficient resource allocation.",
-    "languages": [
-      "Russian",
-      "Portuguese",
       "English"
     ],
     "experienceYears": 19,
     "profileImage": "https://randomuser.me/api/portraits/women/54.jpg",
     "city": "Singapore",
-    "country": "Global"
+    "country": "Singapore",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Michael Garcia",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "Michael Garcia ensures accurate inventory control using advanced management systems.",
+    "name": "Sarah Brown",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Butler Brown provides personalized guest services, backed by 16 years of elite hospitality expertise.",
     "languages": [
-      "Mandarin",
+      "Arabic",
+      "Spanish",
+      "English",
+      "Italian"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Garcia",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Robert Garcia expertly handles guest feedback regarding accommodations, implementing swift solutions and driving continuous improvement based on 10 years of experience.",
+    "languages": [
+      "French",
+      "German",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Johnson",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Olivia Johnson ensures smooth operations and staff training, supported by 22 years in hospitality management.",
+    "languages": [
+      "Japanese",
+      "Russian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Jones",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Guest Services Specialist Jones efficiently handles onboard account management, reservations for activities, and general assistance with a friendly and professional demeanor.",
+    "languages": [
+      "Arabic",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Rodriguez",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "With an extensive network and 7 years of experience, Concierge Rodriguez arranges bespoke shore excursions, dining reservations, and special occasion services.",
+    "languages": [
       "Russian",
       "Portuguese",
       "English"
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/96.jpg",
     "city": "Singapore",
-    "country": "Global"
+    "country": "Singapore",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Sophia Garcia",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "Sophia Garcia's sharp negotiation skills and 15 years of experience contribute significantly to controlling operational costs while maintaining quality standards.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/90.jpg",
-    "city": "Singapore",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Johnson",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "Sarah Johnson champions innovative eco-friendly technologies and practices, leveraging 8 years to enhance the vessel's environmental performance and reputation.",
+    "name": "David Jones",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Front Desk Manager Jones oversees reception operations, ensuring efficient guest check-in and issue resolution.",
     "languages": [
       "Spanish",
+      "Portuguese",
+      "Russian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Brown",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "Maria Brown designs and executes VIP programs that exceed the highest standards of luxury and discretion.",
+    "languages": [
+      "Spanish",
+      "French",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/90.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Johnson",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Trainer Johnson focuses on enhancing guest service quality through targeted education and coaching.",
+    "languages": [
+      "Russian",
+      "English",
+      "French"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Brown",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Mastering Pacific Rim and international gastronomy, Robert Brown ensures every dish reflects the highest standards of quality, presentation, and flavor, backed by 6 years of award-winning experience.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Jones",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "John Jones excels in menu execution and team management to maintain high culinary standards.",
+    "languages": [
+      "Japanese",
+      "Mandarin",
       "Russian",
       "English"
     ],
     "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Garcia",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "James Garcia blends creativity and technique to deliver memorable pastry experiences for guests.",
+    "languages": [
+      "Mandarin",
+      "German",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Rodriguez",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "David Rodriguez maintains immaculate standards of organization and hygiene at their station, contributing to the kitchen's overall efficiency with 10 years of discipline.",
+    "languages": [
+      "Arabic",
+      "French",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Williams",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "John Williams specializes in unique culinary styles, offering guests diverse flavors based on 14 years of expertise.",
+    "languages": [
+      "French",
+      "German",
+      "Spanish",
+      "Mandarin",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Williams",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "With 18 years dedicated to the art of sushi and sashimi, Chef Williams meticulously selects the freshest seafood and crafts each piece with mastery.",
+    "languages": [
+      "French",
+      "Russian",
+      "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Sophia Miller is responsible for creating visually stunning and delicious cold appetizers, canapés, and buffet displays, backed by 3 years of Japanese expertise.",
+    "languages": [
+      "Portuguese",
+      "French",
+      "Russian",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Garcia",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Robert Garcia is responsible for precise meat cuts that meet kitchen and guest expectations.",
+    "languages": [
+      "German",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Rodriguez",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Baker Rodriguez meticulously prepares a wide array of Mediterranean-inspired and classic baked goods daily, showcasing skills honed over 13 years.",
+    "languages": [
+      "Arabic",
+      "Russian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "With 19 years in Michelin-starred establishments, Sommelier Miller elevates the dining journey through impeccable wine service and cellar management.",
+    "languages": [
+      "German",
+      "Russian",
+      "English",
+      "French"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Garcia",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "James Garcia manages bar inventory and contributes to menu development, ensuring a sophisticated and exciting beverage program, backed by 16 years in the art of mixology.",
+    "languages": [
+      "Arabic",
+      "Japanese",
+      "Mandarin",
+      "Russian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Miller",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Maria Miller combines artistry and technique to serve quality espresso and coffee beverages.",
+    "languages": [
+      "Italian",
+      "English",
+      "Spanish"
+    ],
+    "experienceYears": 9,
     "profileImage": "https://randomuser.me/api/portraits/women/95.jpg",
     "city": "Singapore",
-    "country": "Global"
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Davis",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Michael Davis conducts onboard wellness seminars and workshops, empowering guests with nutritional knowledge gained over 17 years in the field.",
+    "languages": [
+      "Italian",
+      "French",
+      "Arabic",
+      "English",
+      "Japanese"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Johnson",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Entertainment Director Johnson leads a dynamic team of performers and technicians, ensuring flawless execution and high-energy engagement across all venues, backed by 11 years of industry leadership.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/90.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Martinez",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Sarah Martinez's organizational skills, honed over 10 years, are crucial for maintaining a complex entertainment calendar and ensuring all performers are well-supported.",
+    "languages": [
+      "Italian",
+      "Russian",
+      "Arabic",
+      "English",
+      "German"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Miller",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "James Miller consistently delivers show-stopping performances, connecting with audiences through emotive storytelling and exceptional vocal talent honed across 5 years on stage.",
+    "languages": [
+      "Japanese",
+      "Italian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Jones",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Musician Jones performs live music across genres, engaging guests with 11 years of performance experience.",
+    "languages": [
+      "Mandarin",
+      "Spanish",
+      "Italian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/94.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Miller",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Sarah Miller is a dedicated member of the ensemble, contributing to high-energy production numbers and themed events, showcasing 4 years of professional dance experience.",
+    "languages": [
+      "Japanese",
+      "Russian",
+      "French",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Jones",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "With an innovative vision and 5 years in professional choreography, Maria Jones designs dynamic and original dance pieces for production shows and special events.",
+    "languages": [
+      "German",
+      "English",
+      "Arabic"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/8.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Rodriguez",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Emma Rodriguez entertains guests with humor and timing, backed by 11 years in comedy performance.",
+    "languages": [
+      "Spanish",
+      "French",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Garcia",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "David Garcia brings a unique brand of enchantment to the ship's entertainment, drawing on 11 years of professional magic and a flair for theatrical presentation.",
+    "languages": [
+      "German",
+      "Italian",
+      "French",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Garcia",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "Sarah Garcia keeps dance floors lively with dynamic sets tailored for diverse guest preferences.",
+    "languages": [
+      "Italian",
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/92.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Jones",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Michael Jones supports entertainment events with technical expertise in live sound engineering.",
+    "languages": [
+      "English",
+      "French",
+      "Russian",
+      "Arabic"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Miller",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "With 4 years in theatrical lighting design and operation, Maria Miller transforms stages and venues with dynamic and atmospheric lighting cues.",
+    "languages": [
+      "French",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/92.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Williams",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "James Williams supervises stage operations and talent, drawing on 8 years of event management.",
+    "languages": [
+      "Russian",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Brown",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "With 5 years managing complex theatrical and event productions, Olivia Brown oversees budgeting, scheduling, staffing, and technical riders for all entertainment.",
+    "languages": [
+      "Russian",
+      "Italian",
+      "French",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sophia Brown",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "With 19 years of experience in theatrical costume design, Sophia Brown conceives and produces stunning wardrobes that define characters and elevate productions.",
+    "languages": [
+      "Russian",
+      "English",
+      "French",
+      "Spanish",
+      "Japanese"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Jones",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Emma Jones's passion for cultural exchange, cultivated over 18 years, enriches the voyage by fostering understanding and appreciation of diverse traditions.",
+    "languages": [
+      "Arabic",
+      "Portuguese",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Smith",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Performance Artist Smith combines elements of {artisticDisciplineCombination} to create truly unique and memorable entertainment experiences for discerning audiences.",
+    "languages": [
+      "English",
+      "Japanese",
+      "Italian",
+      "Spanish",
+      "French"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Johnson",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "James Johnson oversees daily operations and coordinates departments to maintain smooth vessel functioning.",
+    "languages": [
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/88.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Davis",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "John Davis's expertise in procurement and vendor management, developed over 6 years, ensures cost-effective and reliable sourcing for all vessel needs.",
+    "languages": [
+      "Italian",
+      "Japanese",
+      "Arabic",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Rodriguez",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Inventory Specialist Rodriguez tracks and manages stock levels, maintaining operational readiness.",
+    "languages": [
+      "Russian",
+      "Arabic",
+      "Italian",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Miller",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Olivia Miller applies expertise in vendor management and cost optimization to benefit ship operations.",
+    "languages": [
+      "Mandarin",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Williams",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Sustainability Coordinator Williams implements green initiatives to minimize environmental impact.",
+    "languages": [
+      "German",
+      "English",
+      "Spanish"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific"
   }
 ];

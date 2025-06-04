@@ -2,1291 +2,1497 @@ import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const riodejaneiroTeamMembers: CrewMember[] = [
   {
-    "name": "Robert Miller",
+    "name": "Sophia Rodriguez",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "Captain Miller is a veteran mariner with 5 years in undefined, known for meticulous voyage planning and a steadfast commitment to maritime law.",
+    "bio": "With a distinguished 15-year career, Sophia Rodriguez ensures the highest standards of safety and seamanship aboard, navigating South America with precision and authority.",
     "languages": [
+      "English",
+      "Portuguese",
+      "French",
+      "Arabic"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Emma Martinez",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "Emma Martinez specializes in South America navigation with 20 years of experience managing bridge operations and ensuring adherence to safety standards.",
+    "languages": [
+      "Japanese",
+      "Arabic",
       "English",
       "Portuguese"
     ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "David Rodriguez",
-    "role": "First Officer",
-    "department": "Deck Department",
-    "bio": "Leveraging 11 years of experience in undefined, David Rodriguez is adept at cargo operations, stability calculations, and bridge resource management.",
-    "languages": [
-      "Arabic",
-      "German",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "John Miller",
+    "name": "David Jones",
     "role": "Second Officer",
     "department": "Deck Department",
-    "bio": "John Miller ensures compliance with navigation protocols and supports bridge team operations, leveraging 5 years in maritime operations across undefined.",
+    "bio": "David Jones applies 20 years of navigational skills to support safe and efficient voyages across South America, with strong expertise in chart plotting and communication systems.",
     "languages": [
-      "Mandarin",
+      "Russian",
+      "German",
+      "Italian",
+      "French",
       "English"
     ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "David Miller",
+    "name": "John Davis",
     "role": "Third Officer",
     "department": "Deck Department",
-    "bio": "David Miller meticulously updates ship's logs and navigational records, ensuring accuracy and compliance during voyages in undefined over 18 years.",
+    "bio": "Third Officer Davis assists with cargo operations and ballast management, a key part of their 14 years of development in South America.",
     "languages": [
       "Russian",
-      "English"
+      "English",
+      "Japanese",
+      "Portuguese",
+      "French"
     ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "Olivia Johnson",
+    "name": "Michael Brown",
     "role": "Navigation Officer",
     "department": "Deck Department",
-    "bio": "With 13 years dedicated to undefined routes, Olivia Johnson excels in dynamic positioning and integrated navigation systems management.",
-    "languages": [
-      "Spanish",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "David Davis",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "With 15 years overseeing maritime safety, David Davis ensures strict adherence to international safety regulations (SOLAS, MARPOL) and promotes a culture of vigilance onboard vessels operating in undefined.",
-    "languages": [
-      "Portuguese",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Rodriguez",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "Robert Rodriguez, a promising Deck Cadet, is quickly mastering the fundamentals of seamanship and safety protocols specific to undefined maritime operations.",
-    "languages": [
-      "Arabic",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Garcia",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Leveraging 7 years of seamanship, Bosun Garcia is an expert in rigging, anchoring, and all aspects of deck machinery operation in undefined.",
-    "languages": [
-      "French",
-      "Japanese",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Brown",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "Chief Engineer Brown manages engineering teams and coordinates preventative maintenance programs to maximize uptime and efficiency throughout voyages.",
-    "languages": [
-      "Portuguese",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Williams",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "With a focus on propulsion and power systems, Robert Williams applies 15 years of expertise to optimize engine performance and troubleshoot complex mechanical issues.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Garcia",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "Second Engineer Garcia conducts routine inspections and coordinates repairs for critical propulsion and auxiliary machinery.",
-    "languages": [
-      "French",
-      "Arabic",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Martinez",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Drawing on 12 years, Michael Martinez ensures the integrity of high-voltage systems and sophisticated electronic controls throughout the vessel.",
+    "bio": "Michael Brown collaborates with the bridge team to optimize voyage efficiency, integrating real-time data and weather information specific to South America.",
     "languages": [
       "Russian",
-      "English"
+      "English",
+      "Italian"
     ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
     "name": "Maria Miller",
-    "role": "Mechanical Engineer",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "With a thorough understanding of hazard identification and mitigation, Maria Miller fosters a culture of safety awareness among crew and passengers.",
+    "languages": [
+      "Portuguese",
+      "Mandarin",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Emma Miller",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Emma Miller is an aspiring maritime professional with foundational training and practical experience in ship operations and navigation within South America.",
+    "languages": [
+      "Mandarin",
+      "Spanish",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/59.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "With 19 years managing deck teams, Michael Miller coordinates tasks such as mooring, cargo handling, and routine repairs, maintaining operational readiness in South America.",
+    "languages": [
+      "Russian",
+      "Italian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/90.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Michael Johnson",
+    "role": "Chief Engineer",
     "department": "Engineering Department",
-    "bio": "Mechanical Engineer Miller provides vital support in dry-docking operations, overseeing repairs and upgrades to mechanical systems based on 5 years of insight.",
+    "bio": "Michael Johnson oversees all vessel systems with 22 years of expertise in maritime engineering, specializing in propulsion systems and ensuring compliance with safety and environmental regulations.",
+    "languages": [
+      "English",
+      "Mandarin",
+      "Portuguese"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "James Smith",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "James Smith plays a key role in implementing engineering upgrades and system modifications, leveraging extensive technical knowledge.",
     "languages": [
       "Arabic",
+      "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "John Smith",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Second Engineer Smith meticulously manages bunkering operations and ensures the quality of fuel and lubricants, drawing on 18 years of practical knowledge.",
+    "languages": [
+      "French",
+      "Spanish",
+      "Italian",
+      "Arabic",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Drawing on 22 years, Michael Miller ensures the integrity of high-voltage systems and sophisticated electronic controls throughout the vessel.",
+    "languages": [
+      "English",
+      "German",
+      "Mandarin"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Maria Brown",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Maria Brown's problem-solving abilities are crucial for addressing unexpected mechanical challenges, ensuring vessel safety and uptime through 10 years of service.",
+    "languages": [
       "Japanese",
+      "Spanish",
+      "Portuguese",
       "French",
       "English"
     ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/94.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
     "name": "Emma Jones",
     "role": "HVAC Engineer",
     "department": "Engineering Department",
-    "bio": "HVAC Engineer Jones coordinates with other engineering disciplines to integrate HVAC solutions with overall ship systems.",
-    "languages": [
-      "Portuguese",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Brown",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "With 16 years focused on sustainability, Emma Brown develops and implements environmental protection measures aboard ships, ensuring regulatory compliance.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "James Brown",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "James Brown is pivotal in troubleshooting and resolving complex issues across interconnected electronic and control systems, thanks to 15 years of in-depth experience.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/98.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Williams",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "With a strategic overview honed over 5 years, Maria Williams directs fleet-wide technical policies and ensures best practices are implemented.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/62.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Miller",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Maintenance Engineer Miller applies 19 years of hands-on expertise maintaining and repairing shipboard mechanical and electrical equipment.",
-    "languages": [
-      "Mandarin",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/98.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Rodriguez",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Security Director Rodriguez leads threat analysis initiatives and implements advanced security measures to safeguard vessel integrity.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "David Miller",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "David Miller is trained in conflict resolution and emergency protocols, ensuring rapid and effective response to security incidents.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "James Garcia",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Security Specialist Garcia develops tailored security plans and threat mitigation strategies based on 15 years of maritime threat analysis and intelligence gathering.",
-    "languages": [
-      "Portuguese",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Rodriguez",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Cybersecurity Officer Rodriguez protects vessel networks and data with 6 years of specialized cybersecurity expertise in maritime digital infrastructure.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Rodriguez",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "Maritime Security Coordinator Rodriguez implements compliance programs, conducts drills, and trains crew on security best practices and regulatory requirements.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/33.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "David Johnson",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Access Control Officer Johnson coordinates with port authorities and crew to facilitate smooth and secure passenger and cargo flow.",
+    "bio": "HVAC Engineer Jones ensures optimal climate control aboard vessels, leveraging 8 years of system optimization and energy efficiency knowledge.",
     "languages": [
       "German",
-      "French",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Davis",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Emma Davis works closely with regulatory bodies to ensure the vessel meets all international safety conventions and company policies.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Smith",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Youth Program Director Smith ensures all youth activities are not only fun but also adhere to the highest safety and child protection standards, drawing on 8 years.",
-    "languages": [
-      "Russian",
-      "Arabic",
+      "Mandarin",
       "English"
     ],
     "experienceYears": 8,
     "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Johnson",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Maria Johnson organizes family-friendly events and activities, ensuring inclusive participation and memorable experiences with 8 years of expertise.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Garcia",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Children's Entertainment Specialist Garcia has a talent for making every child feel special, using 18 years of experience to tailor activities to individual personalities.",
-    "languages": [
-      "Arabic",
-      "Japanese",
-      "German",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/99.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Garcia",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "With knowledge of adolescent development, Robert Garcia balances fun and educational content to engage teens effectively onboard.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "John Rodriguez",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Known for strong organizational skills, John Rodriguez evaluates program effectiveness and implements improvements based on passenger feedback.",
-    "languages": [
-      "Spanish",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Rodriguez",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Child Care Specialist Rodriguez ensures safety, comfort, and developmentally appropriate activities in a nurturing onboard environment.",
-    "languages": [
-      "Mandarin",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Miller",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "With strong organizational skills, Robert Miller manages budgets, resources, and partnerships to deliver high-quality recreational services.",
-    "languages": [
-      "English",
-      "Russian",
-      "Japanese"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "David Miller",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "David Miller's primary focus for 18 years has been ensuring every guest feels confident and secure while exploring the water.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Rodriguez",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Fitness Instructor Rodriguez provides nutritional advice and wellness coaching, empowering guests to achieve their health goals over 15 years.",
-    "languages": [
-      "Mandarin",
-      "French",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Rodriguez",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Maria Rodriguez's meticulous planning and attention to detail, developed over 7 years, ensure every guest's off-ship adventure is seamless and unforgettable.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/85.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Smith",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "With extensive experience in portrait, event, and environmental photography, Olivia Smith ensures high-quality imagery that reflects the voyage’s unique character.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Williams",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Videographer Williams is skilled in aerial videography and underwater filming, adding unique perspectives to cruise documentation over 9 years.",
-    "languages": [
-      "Russian",
-      "German",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Garcia",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "Known for technical proficiency and creative vision, Sophia Garcia collaborates closely with marketing and entertainment teams to maximize reach and impact.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Davis",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "With extensive knowledge in maritime medicine and emergency response, Maria Davis ensures readiness for diverse medical situations at sea.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Johnson",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "Ship's Doctor Johnson conducts routine health assessments and manages medical records in compliance with international maritime standards.",
-    "languages": [
-      "Portuguese",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Brown",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Known for meticulous attention to detail and a caring demeanor, Sarah Brown has been a vital part of shipboard medical teams for 8 years.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Williams",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Leveraging 7 years in maritime safety, Michael Williams excels at developing and implementing targeted safety training programs relevant to undefined's specific operational hazards.",
-    "languages": [
-      "Portuguese",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Garcia",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "Michael Garcia is dedicated to fostering a welcoming and memorable atmosphere for all guests, drawing upon 11 years of cultivating outstanding hospitality teams.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Williams",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "With a passion for service excellence developed over 13 years, Olivia Williams leads the guest relations team to anticipate and exceed passenger expectations.",
-    "languages": [
-      "French",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Rodriguez",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "With 18 years leading stewardship teams, Chief Steward Rodriguez meticulously manages cabin services, laundry operations, and public area upkeep.",
-    "languages": [
-      "English",
-      "Spanish"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Davis",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "Sophia Davis provides exceptional valet services and anticipates guest needs, contributing to a luxurious and comfortable onboard experience over 8 years.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Miller",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "Michael Miller crafts unforgettable moments for discerning guests, drawing on 11 years of experience in curating exclusive and seamless luxury service.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "David Rodriguez",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "David Rodriguez expertly handles guest feedback regarding accommodations, implementing swift solutions and driving continuous improvement based on 13 years of experience.",
-    "languages": [
-      "French",
-      "Mandarin",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "John Brown",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "John Brown manages daily assignments, motivates the housekeeping team, and ensures efficient use of cleaning resources, drawing on 19 years of leadership.",
-    "languages": [
-      "Japanese",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
     "name": "James Davis",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Guest Services Specialist Davis efficiently handles onboard account management, reservations for activities, and general assistance with a friendly and professional demeanor.",
-    "languages": [
-      "Arabic",
-      "English",
-      "German"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "James Smith",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "James Smith leverages 8 years of service to provide exceptional concierge support onboard.",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "James Davis applies expertise in waste management, ballast water treatment, and pollution control, promoting eco-friendly maritime operations.",
     "languages": [
       "English",
-      "Italian",
-      "French"
+      "Italian"
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/95.jpg",
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "David Martinez",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Front Desk Manager Martinez oversees reception operations, ensuring efficient guest check-in and issue resolution.",
+    "name": "Sarah Jones",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Drawing upon 9 years, Sarah Jones specializes in the architecture and maintenance of integrated automation systems (IAS) critical for modern vessel operations.",
     "languages": [
-      "Arabic",
-      "German",
-      "English"
+      "Russian",
+      "English",
+      "Portuguese",
+      "Spanish"
     ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "Sophia Williams",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "VIP Coordinator Williams liaises with all departments to provide seamless, anticipatory service for distinguished guests, maintaining utmost confidentiality.",
+    "name": "Michael Smith",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Michael Smith drives continuous improvement initiatives and implements emerging maritime technologies to maintain competitive operational capabilities.",
     "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/33.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "David Smith",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "David Smith conducts needs assessments and measures training effectiveness to ensure continuous improvement across all hospitality departments, reflecting 14 years in adult learning.",
-    "languages": [
-      "French",
       "Mandarin",
-      "Arabic",
+      "German",
+      "Japanese",
+      "Italian",
+      "Portuguese",
       "English"
     ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/93.jpg",
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "Robert Johnson",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Beyond crafting exquisite Mediterranean, Chef Johnson expertly manages kitchen hygiene, inventory, and food cost control, honed over 13 years in demanding culinary environments.",
+    "name": "Emma Garcia",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Maintenance Engineer Garcia troubleshoots system faults and implements timely repairs, maintaining vessel operational readiness.",
     "languages": [
       "Portuguese",
       "English"
     ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/91.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "David Miller",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "Sous Chef Miller supports kitchen operations with 9 years of culinary expertise and leadership.",
+    "name": "Sophia Miller",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Sophia Miller, with 4 years in the field, is an expert in ISPS Code implementation and maritime counter-terrorism strategies.",
     "languages": [
-      "Japanese",
+      "Portuguese",
+      "Mandarin",
+      "Russian",
+      "Spanish",
+      "Italian",
       "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "Michael Smith",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "Pastry Chef Smith crafts exquisite desserts with 7 years of baking and pastry artistry.",
+    "name": "Sophia Davis",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Security Officer Davis performs access control duties and monitors surveillance systems to maintain a secure onboard environment.",
     "languages": [
-      "English",
-      "Arabic"
+      "Portuguese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Robert Williams",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Known for analytical expertise, Robert Williams conducts vulnerability assessments and designs contingency plans to address evolving threats.",
+    "languages": [
+      "French",
+      "Japanese",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Sophia Rodriguez",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "With a background in IT security, Sophia Rodriguez safeguards shipboard communication and control systems against cyber threats, ensuring data integrity and system availability.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "James Jones",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Maritime Security Coordinator Jones implements compliance programs, conducts drills, and trains crew on security best practices and regulatory requirements.",
+    "languages": [
+      "Mandarin",
+      "Japanese",
+      "Italian",
+      "English"
     ],
     "experienceYears": 7,
     "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "Sophia Davis",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Sophia Davis ensures consistency and quality in dish preparation across assigned kitchen areas.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Smith",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Master of {cuisineSpecific} cuisine, Olivia Smith creates authentic dishes that transport guests to undefined, drawing on 8 years of dedicated culinary exploration.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Davis",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "With 5 years dedicated to the art of sushi and sashimi, Chef Davis meticulously selects the freshest seafood and crafts each piece with mastery.",
+    "name": "Sarah Davis",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Sarah Davis ensures all personnel and visitors comply with security clearance, manifests, and international maritime access regulations.",
     "languages": [
       "Mandarin",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "David Miller",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "David Miller maintains high standards in food presentation and safety for all cold kitchen offerings.",
-    "languages": [
       "Portuguese",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "David Brown",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Butcher Brown manages meat inventory and advises chefs on the best cuts for specific culinary applications, drawing on 7 years of specialized knowledge.",
-    "languages": [
-      "Spanish",
+      "French",
       "English"
     ],
     "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "Sophia Davis",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "Baker Davis produces fresh breads and baked goods, leveraging 15 years of baking expertise.",
+    "name": "Sarah Garcia",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Sarah Garcia works closely with regulatory bodies to ensure the vessel meets all international safety conventions and company policies.",
     "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/97.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Davis",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "With 16 years in Michelin-starred establishments, Sommelier Davis elevates the dining journey through impeccable wine service and cellar management.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Davis",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "Michael Davis delivers exceptional beverage experiences tailored to guest preferences onboard.",
-    "languages": [
-      "English",
+      "Spanish",
       "Japanese",
-      "Russian"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "David Williams",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "David Williams combines artistry and technique to serve quality espresso and coffee beverages.",
-    "languages": [
-      "French",
+      "Portuguese",
       "German",
       "English"
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "Michael Miller",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Nutritionist Miller works closely with the culinary team to create wholesome Pan-Asian options that are both flavorful and aligned with wellness goals, drawing on 7 years of expertise.",
-    "languages": [
-      "Arabic",
-      "Portuguese",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Jones",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "Olivia Jones constantly seeks innovative entertainment concepts and top-tier talent, leveraging 5 years to keep the onboard experience fresh, exciting, and memorable.",
+    "name": "John Brown",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "With a passion for youth development, John Brown crafts innovative activities fostering learning, social growth, and cultural awareness during voyages.",
     "languages": [
       "Russian",
-      "Spanish",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Brown",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Sophia Brown's organizational skills, honed over 10 years, are crucial for maintaining a complex entertainment calendar and ensuring all performers are well-supported.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/8.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Brown",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "Michael Brown brings charisma and vocal expertise to the ship's entertainment lineup.",
-    "languages": [
       "Spanish",
       "German",
-      "French",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Jones",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "Maria Jones enriches onboard ambiance through skilled instrumental and vocal performances.",
-    "languages": [
-      "Spanish",
-      "Arabic",
-      "Italian",
       "English"
     ],
     "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/76.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "John Smith",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "With 17 years of professional training in {danceStyle} and contemporary dance, John Smith executes complex choreography with precision and artistry in mainstage productions.",
+    "name": "Sarah Garcia",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Family Activities Coordinator Garcia designs multi-generational programs that promote bonding and enjoyment throughout the voyage.",
     "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Williams",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Choreographer Williams creates captivating dance routines, blending creativity with 16 years of dance expertise.",
-    "languages": [
-      "Italian",
       "French",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/96.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Miller",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Comedy Performer Miller delivers engaging and memorable stand-up routines onboard.",
-    "languages": [
-      "Russian",
+      "Mandarin",
+      "Portuguese",
       "English"
     ],
     "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/67.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "Emma Martinez",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "Emma Martinez brings a unique brand of enchantment to the ship's entertainment, drawing on 12 years of professional magic and a flair for theatrical presentation.",
+    "name": "Olivia Smith",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Children's Entertainment Specialist Smith has a talent for making every child feel special, using 11 years of experience to tailor activities to individual personalities.",
     "languages": [
+      "Italian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Sarah Rodriguez",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Leveraging 11 years working with adolescents, Sarah Rodriguez creates cool and engaging hangouts and events that resonate with teens.",
+    "languages": [
+      "English",
+      "Spanish",
+      "German"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/98.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Olivia Miller",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "With a commitment to lifelong learning, Olivia Miller curates curriculum and interactive sessions that enhance passenger knowledge and engagement.",
+    "languages": [
+      "German",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/36.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "John Garcia",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "John Garcia provides attentive care and supervision for young passengers, backed by 9 years in professional child care and early childhood education.",
+    "languages": [
+      "German",
+      "Russian",
+      "French",
       "Mandarin",
       "English"
     ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "Maria Johnson",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "Maria Johnson keeps dance floors lively with dynamic sets tailored for diverse guest preferences.",
+    "name": "Sarah Smith",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Drawing on 13 years in recreation management, Sarah Smith curates an exciting and varied daily program of entertainment and activities for all guests.",
     "languages": [
+      "German",
+      "English",
+      "Russian"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/95.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "James Martinez",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Leveraging 20 years of experience, James Martinez is certified to instruct activities such as snorkeling, kayaking, and paddleboarding in diverse marine environments.",
+    "languages": [
+      "Spanish",
+      "Russian",
+      "Portuguese",
+      "German",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "James Brown",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Fitness Instructor Brown promotes wellness and physical health through tailored exercise programs, backed by 3 years of fitness training and client engagement.",
+    "languages": [
+      "Italian",
+      "German",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Maria Smith",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Leveraging 9 years of experience, Maria Smith curates a portfolio of unique and authentic shore excursions that showcase the best of each port.",
+    "languages": [
+      "French",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/95.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "John Brown",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Lead Photographer Brown's portfolio showcases 11 years of diverse work, including breathtaking drone shots and artistic compositions from around the world.",
+    "languages": [
+      "German",
+      "Russian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Sarah Johnson",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Videographer Johnson crafts compelling visual stories that highlight onboard experiences and diverse destinations through expert filming and editing.",
+    "languages": [
+      "Russian",
+      "Arabic",
+      "French",
+      "Japanese",
+      "Spanish",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "John Johnson",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Digital Media Specialist Johnson is proficient in SEO, content management systems, and digital advertising, skills honed over 19 years.",
+    "languages": [
+      "Italian",
+      "English",
+      "German",
+      "Japanese"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "David Smith",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "With extensive knowledge in maritime medicine and emergency response, David Smith ensures readiness for diverse medical situations at sea.",
+    "languages": [
+      "Arabic",
       "Portuguese",
       "Italian",
       "German",
       "English"
     ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/19.jpg",
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "Michael Williams",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Audio Technician Williams manages sound systems and ensures optimal audio quality for performances onboard.",
+    "name": "Michael Johnson",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "With 7 years practicing medicine in diverse environments, Dr. Johnson is adept at diagnosing and treating a wide array of conditions encountered at sea.",
+    "languages": [
+      "Portuguese",
+      "German",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Emma Garcia",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Nurse Garcia is experienced in managing chronic health conditions at sea and providing ongoing support to guests with specific medical needs, drawing from 21 years of practice.",
+    "languages": [
+      "Arabic",
+      "Japanese",
+      "Russian",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Michael Brown",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Safety Officer Brown documents incidents and implements corrective actions to continuously improve onboard safety performance.",
     "languages": [
       "Spanish",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Emma Smith",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Emma Smith manages all hospitality services, ensuring exceptional guest experiences with 19 years of leadership.",
+    "languages": [
+      "Mandarin",
+      "Russian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Sophia Garcia",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Sophia Garcia champions a guest-first culture, utilizing 7 years of experience to train and motivate staff in delivering exceptional, personalized care.",
+    "languages": [
+      "German",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/97.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Sophia Jones",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Sophia Jones excels in inventory management for linens and amenities, maintaining premium standards across all staterooms and suites with 3 years of dedication.",
+    "languages": [
+      "Mandarin",
+      "Italian",
+      "French",
+      "Russian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "James Garcia",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "James Garcia is skilled in managing cabin maintenance and guest requests with professionalism and care.",
+    "languages": [
+      "Portuguese",
+      "Mandarin",
+      "Japanese",
+      "German",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Sarah Garcia",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Sarah Garcia crafts unforgettable moments for discerning guests, drawing on 3 years of experience in curating exclusive and seamless luxury service.",
+    "languages": [
+      "Arabic",
+      "Russian",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "With 13 years managing large-scale accommodation facilities, Robert Johnson ensures all guest cabins and public areas meet exacting standards of cleanliness and repair.",
+    "languages": [
+      "French",
+      "Japanese",
+      "Russian",
+      "Italian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Olivia Brown",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Brown leads cleaning teams, maintaining impeccable standards across all guest areas.",
+    "languages": [
+      "Japanese",
+      "Mandarin",
       "English"
     ],
     "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "David Smith",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "Lighting Specialist Smith programs and operates sophisticated lighting consoles, working closely with directors to achieve the desired visual impact for each performance.",
+    "name": "Sarah Johnson",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Guest Services Specialist Johnson efficiently handles onboard account management, reservations for activities, and general assistance with a friendly and professional demeanor.",
     "languages": [
       "Italian",
+      "German",
       "Japanese",
+      "Arabic",
       "English"
     ],
     "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "Emma Rodriguez",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "Stage Manager Rodriguez is the organizational backbone of the production, liaising between performers, technicians, and the director to maintain artistic integrity and timing.",
+    "name": "Michael Davis",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "With an extensive network and 9 years of experience, Concierge Davis arranges bespoke shore excursions, dining reservations, and special occasion services.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Michael Martinez",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Front Desk Manager Martinez trains staff in handling diverse guest interactions and maintaining accurate records, drawing on 11 years of best practices.",
     "languages": [
       "French",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/89.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Sarah Garcia",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "VIP Coordinator Garcia liaises with all departments to provide seamless, anticipatory service for distinguished guests, maintaining utmost confidentiality.",
+    "languages": [
+      "Portuguese",
       "Spanish",
-      "Japanese",
       "English"
     ],
     "experienceYears": 9,
     "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "Michael Garcia",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "With 18 years managing complex theatrical and event productions, Michael Garcia oversees budgeting, scheduling, staffing, and technical riders for all entertainment.",
+    "name": "Olivia Miller",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Trainer Miller focuses on enhancing guest service quality through targeted education and coaching.",
     "languages": [
-      "English",
-      "German"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/97.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Jones",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Emma Jones's artistic flair and attention to historical detail, honed over 16 years, bring visual richness and authenticity to the stage.",
-    "languages": [
+      "Arabic",
+      "Mandarin",
       "German",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Jones",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Robert Jones's passion for cultural exchange, cultivated over 15 years, enriches the voyage by fostering understanding and appreciation of diverse traditions.",
-    "languages": [
       "Portuguese",
-      "Italian",
       "Japanese",
       "English"
     ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/51.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "John Miller",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "John Miller captivates audiences with original performances tailored to shipboard entertainment.",
+    "name": "Sophia Martinez",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Chef Martinez creates exceptional Italian cuisine with 20 years of culinary expertise from around the world.",
+    "languages": [
+      "Portuguese",
+      "Japanese",
+      "French",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Michael Smith",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Sous Chef Smith supports kitchen operations with 20 years of culinary expertise and leadership.",
     "languages": [
       "Arabic",
+      "German",
       "Spanish",
       "English"
     ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "David Rodriguez",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Operations Manager Rodriguez applies 12 years of leadership in maritime operations.",
+    "name": "Maria Johnson",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Pastry Chef Johnson crafts exquisite desserts with 11 years of baking and pastry artistry.",
     "languages": [
-      "French",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
-    "city": "Rio De Janeiro",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Davis",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "With 10 years coordinating complex supply chains, Sophia Davis ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
-    "languages": [
-      "Portuguese",
-      "Japanese",
       "Arabic",
+      "Japanese",
       "English"
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/33.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "David Johnson",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "David Johnson ensures accurate inventory control using advanced management systems.",
+    "name": "James Williams",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Chef de Partie Williams manages specific kitchen stations with 11 years of focused culinary skill.",
     "languages": [
-      "French",
+      "German",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "Sophia Jones",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "Procurement Officer Jones sources and negotiates contracts for goods and services needed onboard.",
+    "name": "James Smith",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Specialty Chef Smith brings innovation and authenticity to the onboard dining experience.",
+    "languages": [
+      "Italian",
+      "Russian",
+      "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/90.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Maria Davis",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Sushi Chef Davis manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 13 years of Japanese culinary excellence.",
     "languages": [
       "French",
       "English",
       "Russian"
     ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
   },
   {
-    "name": "Michael Rodriguez",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "With 14 years dedicated to environmental stewardship in the maritime sector, Michael Rodriguez develops and manages programs for waste reduction, recycling, and energy conservation.",
+    "name": "David Smith",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "David Smith maintains high standards in food presentation and safety for all cold kitchen offerings.",
+    "languages": [
+      "Portuguese",
+      "German",
+      "English",
+      "Italian"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Olivia Jones",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Olivia Jones is responsible for precise meat cuts that meet kitchen and guest expectations.",
+    "languages": [
+      "German",
+      "Portuguese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Michael Williams",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Michael Williams combines traditional techniques with innovation to delight guests with baked specialties.",
+    "languages": [
+      "English",
+      "Arabic",
+      "French",
+      "Russian"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Sarah Rodriguez",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Sommelier Rodriguez curates wine selections, offering expert pairing advice with 7 years in fine wine service.",
+    "languages": [
+      "Italian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/92.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Olivia Martinez",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Martinez crafts creative cocktails, combining flavor expertise with 20 years of bartending skill.",
+    "languages": [
+      "Mandarin",
+      "French",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "James Davis",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "James Davis provides friendly and efficient service at the coffee bar, sharing knowledge and passion for specialty coffee honed over 13 years.",
+    "languages": [
+      "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/86.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Robert Jones",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Robert Jones collaborates with chefs to ensure nutritious and delicious meal options onboard.",
+    "languages": [
+      "German",
+      "Mandarin",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/95.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "John Davis",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "John Davis constantly seeks innovative entertainment concepts and top-tier talent, leveraging 13 years to keep the onboard experience fresh, exciting, and memorable.",
+    "languages": [
+      "Japanese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Sophia Jones",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Sophia Jones manages scheduling and logistics for performers, ensuring smooth entertainment operations onboard.",
+    "languages": [
+      "Portuguese",
+      "Spanish",
+      "German",
+      "Russian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/56.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Olivia Smith",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "With a versatile range and powerful stage presence developed over 9 years, Lead Vocalist Smith shines in genres from pop and rock to jazz and musical theatre.",
+    "languages": [
+      "Portuguese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/33.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Olivia Smith",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "With 16 years entertaining audiences worldwide, Olivia Smith creates an engaging atmosphere, taking requests and interacting with guests through the power of live music.",
+    "languages": [
+      "German",
+      "Japanese",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/8.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Sarah Martinez",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Sarah Martinez is a dedicated member of the ensemble, contributing to high-energy production numbers and themed events, showcasing 14 years of professional dance experience.",
     "languages": [
       "Russian",
+      "German",
       "English"
     ],
     "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
     "city": "Rio De Janeiro",
-    "country": "Global"
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Maria Williams",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Choreographer Williams creates captivating dance routines, blending creativity with 19 years of dance expertise.",
+    "languages": [
+      "French",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Robert Davis",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Robert Davis entertains guests with humor and timing, backed by 15 years in comedy performance.",
+    "languages": [
+      "German",
+      "Italian",
+      "English",
+      "Portuguese",
+      "Russian"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Sophia Smith",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Magic Act specialist Smith mystifies audiences with skilled illusions and interactive performances.",
+    "languages": [
+      "English",
+      "Spanish",
+      "Mandarin"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Olivia Rodriguez",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "DJ Rodriguez creates vibrant atmospheres with expertly mixed music, drawing on 10 years in live DJing.",
+    "languages": [
+      "Japanese",
+      "Spanish",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/97.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "John Garcia",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "With 21 years of experience in mixing live sound for theatre, music, and events, John Garcia guarantees crystal-clear audio for all onboard productions.",
+    "languages": [
+      "Russian",
+      "Japanese",
+      "German",
+      "Mandarin",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Sarah Johnson",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "With 11 years in theatrical lighting design and operation, Sarah Johnson transforms stages and venues with dynamic and atmospheric lighting cues.",
+    "languages": [
+      "Mandarin",
+      "Japanese",
+      "Portuguese",
+      "Arabic",
+      "German",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Olivia Davis",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Stage Manager Davis is the organizational backbone of the production, liaising between performers, technicians, and the director to maintain artistic integrity and timing.",
+    "languages": [
+      "Russian",
+      "Mandarin",
+      "German",
+      "French",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "John Garcia",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "John Garcia's strategic planning and problem-solving skills, developed over 17 years, are crucial for the successful execution of a high-quality entertainment program.",
+    "languages": [
+      "German",
+      "Spanish",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Robert Martinez",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "With 21 years of experience in theatrical costume design, Robert Martinez conceives and produces stunning wardrobes that define characters and elevate productions.",
+    "languages": [
+      "Russian",
+      "Mandarin",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Robert Rodriguez",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Cultural Program Director Rodriguez collaborates with local artists, historians, and experts to provide authentic and immersive cultural experiences for guests.",
+    "languages": [
+      "Russian",
+      "Italian",
+      "French",
+      "German",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Olivia Jones",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Olivia Jones captivates audiences with original performances tailored to shipboard entertainment.",
+    "languages": [
+      "Arabic",
+      "Mandarin",
+      "English",
+      "Italian"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "James Brown",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Operations Manager Brown is adept at problem-solving complex logistical challenges and implementing solutions that enhance overall ship performance and guest satisfaction.",
+    "languages": [
+      "French",
+      "Arabic",
+      "Portuguese",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "David Johnson",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Logistics Coordinator Johnson manages supply chain and transport logistics, ensuring efficient resource allocation.",
+    "languages": [
+      "Mandarin",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "Emma Garcia",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Inventory Specialist Garcia tracks and manages stock levels, maintaining operational readiness.",
+    "languages": [
+      "Italian",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/37.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "James Williams",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "With 3 years in strategic sourcing, James Williams identifies reliable suppliers and negotiates favorable terms for all shipboard necessities, from fuel to food.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
+  },
+  {
+    "name": "James Martinez",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Sustainability Coordinator Martinez ensures compliance with international environmental regulations (e.g., MARPOL) and promotes a culture of sustainability among crew and guests.",
+    "languages": [
+      "Mandarin",
+      "French",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/86.jpg",
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America"
   }
 ];

@@ -2,329 +2,940 @@ import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const tokyoTeamMembers: CrewMember[] = [
   {
-    "name": "John Williams",
+    "name": "James Martinez",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "With 8 years at sea, Captain Williams is renowned for expertise in undefined navigation, crew leadership, and passenger safety protocols.",
+    "bio": "With a distinguished 4-year career, James Martinez ensures the highest standards of safety and seamanship aboard, navigating Asia Pacific with precision and authority.",
     "languages": [
-      "Mandarin",
-      "Russian",
-      "English"
+      "English",
+      "German",
+      "Spanish",
+      "Portuguese",
+      "Japanese"
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
     "city": "Tokyo",
-    "country": "Global"
+    "country": "Japan",
+    "region": "Asia Pacific"
   },
   {
-    "name": "David Jones",
+    "name": "Robert Johnson",
     "role": "First Officer",
     "department": "Deck Department",
-    "bio": "Leveraging 5 years of experience in undefined, David Jones is adept at cargo operations, stability calculations, and bridge resource management.",
+    "bio": "Robert Johnson specializes in Asia Pacific navigation with 10 years of experience managing bridge operations and ensuring adherence to safety standards.",
     "languages": [
       "Portuguese",
+      "Arabic",
+      "Italian",
+      "Japanese",
       "English"
     ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
     "city": "Tokyo",
-    "country": "Global"
+    "country": "Japan",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Emma Smith",
+    "name": "Sarah Brown",
     "role": "Second Officer",
     "department": "Deck Department",
-    "bio": "Emma Smith plays a critical role in voyage planning and watchkeeping, backed by 12 years ensuring operational integrity in undefined.",
+    "bio": "Utilizing 7 years of expertise, Sarah Brown meticulously maintains navigational charts and publications crucial for safe transit in Asia Pacific.",
     "languages": [
       "German",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "David Smith",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "Drawing on 16 years of experience in undefined, David Smith is responsible for the upkeep of firefighting appliances and lifesaving apparatus.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Brown",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "Michael Brown collaborates with the bridge team to optimize voyage efficiency, integrating real-time data and weather information specific to undefined.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Martinez",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "Safety Officer Martinez works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
-    "languages": [
+      "Japanese",
       "Arabic",
       "English"
     ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/29.jpg",
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/30.jpg",
     "city": "Tokyo",
-    "country": "Global"
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Rodriguez",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Emma Rodriguez supports communication and lookout duties during watches, maintaining high situational awareness in Asia Pacific's maritime environment.",
+    "languages": [
+      "German",
+      "Mandarin",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
   },
   {
     "name": "Olivia Brown",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Navigation Officer Brown maintains detailed voyage records and monitors navigation aids, ensuring compliance with maritime regulations in Asia Pacific.",
+    "languages": [
+      "Arabic",
+      "Russian",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/51.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Garcia",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Safety Officer Garcia works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
+    "languages": [
+      "Spanish",
+      "Italian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/67.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Miller",
     "role": "Deck Cadet",
     "department": "Deck Department",
-    "bio": "Under the guidance of senior officers, Deck Cadet Brown is developing a strong foundation in practical navigation and ship handling in undefined.",
+    "bio": "With a strong commitment to professional growth, Robert Miller actively participates in drills and training to build competence for safe vessel operation.",
     "languages": [
-      "Spanish",
+      "Japanese",
+      "Arabic",
+      "Portuguese",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
     "city": "Tokyo",
-    "country": "Global"
+    "country": "Japan",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Olivia Martinez",
+    "name": "John Jones",
     "role": "Bosun",
     "department": "Deck Department",
-    "bio": "Leveraging 18 years of seamanship, Bosun Martinez is an expert in rigging, anchoring, and all aspects of deck machinery operation in undefined.",
+    "bio": "Bosun Jones maintains the vessel's exterior appearance and structural integrity, a testament to 13 years of dedication in Asia Pacific.",
     "languages": [
       "Italian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Brown",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "With 12 years in marine engineering, Olivia Brown ensures optimal performance and reliability of propulsion, power generation, and auxiliary systems onboard.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "David Martinez",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "David Martinez plays a key role in implementing engineering upgrades and system modifications, leveraging extensive technical knowledge.",
-    "languages": [
-      "French",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "John Davis",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "With 18 years of experience, John Davis is responsible for specific auxiliary engines, boilers, and associated systems, ensuring their reliability.",
-    "languages": [
       "Russian",
-      "French",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Jones",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "With 13 years designing, installing, and maintaining vessel electrical infrastructure, Emma Jones ensures continuous power supply and safety.",
-    "languages": [
-      "Portuguese",
-      "Italian",
+      "Japanese",
       "Mandarin",
       "English"
     ],
     "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/90.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
     "city": "Tokyo",
-    "country": "Global"
+    "country": "Japan",
+    "region": "Asia Pacific"
   },
   {
-    "name": "John Williams",
-    "role": "Mechanical Engineer",
+    "name": "Sarah Davis",
+    "role": "Chief Engineer",
     "department": "Engineering Department",
-    "bio": "John Williams's problem-solving abilities are crucial for addressing unexpected mechanical challenges, ensuring vessel safety and uptime through 14 years of service.",
+    "bio": "Sarah Davis leads the engineering department with a focus on fuel efficiency and emissions reduction, drawing upon 11 years of innovative practice and power management knowledge.",
+    "languages": [
+      "English",
+      "Japanese",
+      "Portuguese",
+      "Russian"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Martinez",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "Maria Martinez plays a key role in implementing engineering upgrades and system modifications, leveraging extensive technical knowledge.",
+    "languages": [
+      "Italian",
+      "English",
+      "Spanish",
+      "French",
+      "Portuguese",
+      "German"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Brown",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Experienced in engine room management, David Brown brings 20 years ensuring mechanical integrity, safety, and regulatory compliance.",
     "languages": [
       "Spanish",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "John Miller",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "HVAC Engineer Miller's focus includes maintaining air quality and compliance with health standards across all vessel compartments, a skill developed over 7 years.",
-    "languages": [
-      "Spanish",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Miller",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Sophia Miller conducts environmental impact assessments to support sustainable voyage planning and operational improvements.",
-    "languages": [
-      "German",
+      "Japanese",
       "Portuguese",
       "English"
     ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/86.jpg",
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
     "city": "Tokyo",
-    "country": "Global"
+    "country": "Japan",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Sarah Garcia",
+    "name": "David Garcia",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "David Garcia manages all electrical systems on board, applying 5 years of expertise in marine electrical engineering and system integration.",
+    "languages": [
+      "Japanese",
+      "Mandarin",
+      "English",
+      "Spanish",
+      "German"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/88.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Garcia",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Emma Garcia is skilled in preventive maintenance scheduling and compliance with technical documentation and safety protocols.",
+    "languages": [
+      "Mandarin",
+      "Japanese",
+      "German",
+      "Spanish",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/26.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Smith",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "Drawing on 12 years, Robert Smith is proficient in troubleshooting and repairing complex refrigeration plants and air handling units.",
+    "languages": [
+      "English",
+      "French",
+      "Russian"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Johnson",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Emma Johnson champions innovative solutions for waste reduction and energy efficiency, reflecting 12 years of commitment to maritime sustainability.",
+    "languages": [
+      "Japanese",
+      "English",
+      "Portuguese"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Martinez",
     "role": "Systems Engineer",
     "department": "Engineering Department",
-    "bio": "Sarah Garcia integrates complex onboard systems, ensuring operational synergy and reliability with 15 years of maritime engineering expertise.",
+    "bio": "Systems Engineer Martinez collaborates across departments to implement new technologies aligned with industry standards.",
+    "languages": [
+      "Japanese",
+      "English",
+      "Mandarin"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Rodriguez",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "David Rodriguez drives continuous improvement initiatives and implements emerging maritime technologies to maintain competitive operational capabilities.",
+    "languages": [
+      "English",
+      "German",
+      "Italian",
+      "Japanese"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Davis",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "With a focus on reliability-centered maintenance, Emma Davis optimizes maintenance practices in accordance with industry best practices.",
+    "languages": [
+      "French",
+      "Spanish",
+      "English",
+      "Japanese",
+      "Arabic"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Miller",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "David Miller, with 6 years in the field, is an expert in ISPS Code implementation and maritime counter-terrorism strategies.",
+    "languages": [
+      "Arabic",
+      "Spanish",
+      "Italian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Jones",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Focused on maintaining order, Sarah Jones collaborates with other departments to enhance overall passenger and crew safety.",
+    "languages": [
+      "Italian",
+      "English",
+      "Russian"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Rodriguez",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Maria Rodriguez's 22 years include proficiency in evidence collection and report writing for maritime security incidents.",
+    "languages": [
+      "Russian",
+      "Portuguese",
+      "Spanish",
+      "German",
+      "French",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Miller",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Cybersecurity Officer Miller implements firewalls, intrusion detection systems, and incident response protocols tailored for maritime environments.",
+    "languages": [
+      "Spanish",
+      "French",
+      "German",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Maritime Security Coordinator Miller implements compliance programs, conducts drills, and trains crew on security best practices and regulatory requirements.",
+    "languages": [
+      "French",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Davis",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Drawing on 17 years of experience, Michael Davis is proficient in operating and maintaining advanced access control systems and screening equipment.",
+    "languages": [
+      "Japanese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Rodriguez",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Emma Rodriguez meticulously prepares the vessel for internal and external safety audits, ensuring all documentation and practices meet or exceed standards, backed by 15 years.",
+    "languages": [
+      "Italian",
+      "Mandarin",
+      "Russian",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/76.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Miller",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Known for creative leadership, James Miller continuously evaluates and improves youth programming to meet evolving passenger needs.",
+    "languages": [
+      "Russian",
+      "Italian",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Brown",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "David Brown, with 21 years of experience, excels in logistics and planning, ensuring every family event runs smoothly and delights guests.",
+    "languages": [
+      "Arabic",
+      "Japanese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Rodriguez",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Maria Rodriguez engages young guests with creative entertainment programs, leveraging 6 years in children’s recreational services and event planning.",
+    "languages": [
+      "Japanese",
+      "Italian",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Teen Activities Coordinator Johnson is skilled at mentoring and connecting with teenagers, ensuring they have a fantastic and safe experience, drawing on 4 years.",
+    "languages": [
+      "Japanese",
+      "Russian",
+      "Spanish",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sophia Garcia",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Sophia Garcia, with 5 years in curriculum development, ensures educational content is engaging, accurate, and inspiring for passengers of all ages.",
     "languages": [
       "English",
       "French"
     ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Johnson",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "Michael Johnson drives continuous improvement initiatives and implements emerging maritime technologies to maintain competitive operational capabilities.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/91.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "James Brown",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Maintenance Engineer Brown applies 5 years of hands-on expertise maintaining and repairing shipboard mechanical and electrical equipment.",
-    "languages": [
-      "Italian",
-      "Russian",
-      "English"
-    ],
     "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/29.jpg",
     "city": "Tokyo",
-    "country": "Global"
+    "country": "Japan",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Olivia Brown",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Drawing on 19 years and a police background, Olivia Brown develops and executes sophisticated security plans tailored to high-risk maritime environments.",
+    "name": "John Johnson",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "With 9 years dedicated to early childhood development, John Johnson creates a stimulating and secure setting for the youngest guests.",
     "languages": [
+      "Mandarin",
+      "Russian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Garcia",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "With a focus on guest engagement and satisfaction, Sarah Garcia designs diverse activity schedules that cater to a wide range of interests and age groups onboard.",
+    "languages": [
+      "Japanese",
+      "Mandarin",
+      "Russian",
       "Portuguese",
       "English"
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/98.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
     "city": "Tokyo",
-    "country": "Global"
+    "country": "Japan",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Emma Jones",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Security Officer Jones performs access control duties and monitors surveillance systems to maintain a secure onboard environment.",
+    "name": "Robert Martinez",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Water Sports Instructor Martinez possesses an in-depth knowledge of local water conditions and marine life, enhancing guest experiences over 8 years.",
     "languages": [
+      "English",
+      "Japanese",
+      "Spanish"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Williams",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Fitness Instructor Williams promotes wellness and physical health through tailored exercise programs, backed by 5 years of fitness training and client engagement.",
+    "languages": [
+      "German",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Williams",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "John Williams manages shore excursions with 6 years coordinating logistics, safety, and guest engagement across diverse international destinations.",
+    "languages": [
+      "Spanish",
+      "French",
+      "Mandarin",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Rodriguez",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Lead Photographer Rodriguez's portfolio showcases 10 years of diverse work, including breathtaking drone shots and artistic compositions from around the world.",
+    "languages": [
+      "French",
+      "Japanese",
+      "Mandarin",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/37.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sophia Smith",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Known for creativity and adaptability, Sophia Smith effectively captures the dynamic atmosphere and human moments aboard.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Garcia",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "With 13 years in the digital realm, John Garcia crafts compelling online stories and manages the ship's social media channels to connect with guests.",
+    "languages": [
+      "Mandarin",
+      "German",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Davis",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Chief Medical Officer Davis leads all medical operations onboard, leveraging 4 years of clinical and maritime healthcare expertise to ensure passenger and crew wellbeing.",
+    "languages": [
+      "Russian",
+      "German",
+      "Mandarin",
+      "Portuguese",
+      "Japanese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Garcia",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "With 22 years practicing medicine in diverse environments, Dr. Garcia is adept at diagnosing and treating a wide array of conditions encountered at sea.",
+    "languages": [
+      "English",
+      "French",
+      "Japanese",
+      "Russian"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Smith",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Known for meticulous attention to detail and a caring demeanor, James Smith has been a vital part of shipboard medical teams for 22 years.",
+    "languages": [
+      "Russian",
+      "Japanese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Johnson",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Maria Johnson conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in Asia Pacific's maritime operations.",
+    "languages": [
+      "French",
+      "Mandarin",
       "German",
       "Spanish",
       "English"
     ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/85.jpg",
     "city": "Tokyo",
-    "country": "Global"
+    "country": "Japan",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Olivia Martinez",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Drawing on 17 years, Olivia Martinez has in-depth knowledge of non-lethal defense tactics and anti-piracy measures.",
+    "name": "Olivia Davis",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "With 11 years in hospitality management, Olivia Davis drives operational excellence and team performance onboard.",
     "languages": [
+      "English",
+      "German",
+      "Mandarin"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Davis",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "David Davis champions a guest-first culture, utilizing 16 years of experience to train and motivate staff in delivering exceptional, personalized care.",
+    "languages": [
+      "Arabic",
+      "Portuguese",
+      "Italian",
+      "Mandarin",
       "German",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/91.jpg",
     "city": "Tokyo",
-    "country": "Global"
+    "country": "Japan",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Emma Martinez",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Known for proactive defense strategies, Emma Martinez continuously monitors network activity and coordinates responses to cyber incidents onboard.",
+    "name": "James Jones",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "James Jones ensures the highest standards of cleanliness and comfort throughout passenger accommodations.",
+    "languages": [
+      "Russian",
+      "Spanish",
+      "Arabic",
+      "English",
+      "German",
+      "Portuguese"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Brown",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Senior Steward Brown also assists in training junior stewards, sharing expertise gained from 20 years in maritime hospitality.",
+    "languages": [
+      "English",
+      "French",
+      "Italian",
+      "Spanish"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/86.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Jones",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "John Jones anticipates guest needs to deliver tailored luxury experiences throughout the voyage.",
+    "languages": [
+      "Mandarin",
+      "French",
+      "Italian",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Davis",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Accommodation Manager Davis coordinates housekeeping and maintenance teams for optimal guest satisfaction.",
+    "languages": [
+      "French",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Johnson",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Johnson is committed to sustainability in cleaning practices, implementing eco-friendly procedures throughout their 18 years of service.",
+    "languages": [
+      "French",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Miller",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Guest Services Specialist Miller efficiently handles onboard account management, reservations for activities, and general assistance with a friendly and professional demeanor.",
+    "languages": [
+      "French",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Davis",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "With an extensive network and 19 years of experience, Concierge Davis arranges bespoke shore excursions, dining reservations, and special occasion services.",
+    "languages": [
+      "English",
+      "Italian",
+      "Japanese",
+      "Portuguese"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Williams",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "James Williams leads front office teams with a focus on excellent customer service and operational efficiency.",
     "languages": [
       "Portuguese",
-      "German",
+      "Japanese",
       "English"
     ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
     "city": "Tokyo",
-    "country": "Global"
+    "country": "Japan",
+    "region": "Asia Pacific"
   },
   {
-    "name": "James Miller",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "With strong organizational skills, James Miller maintains detailed records and reports to support continuous security improvement.",
+    "name": "James Rodriguez",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "With 14 years catering to high-profile clientele, James Rodriguez curates bespoke itineraries and ensures flawless execution of all VIP arrangements.",
     "languages": [
+      "Italian",
+      "English",
+      "Arabic",
+      "Japanese"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Martinez",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "With 10 years of designing and delivering impactful training, David Martinez empowers staff with the knowledge and skills to provide outstanding service.",
+    "languages": [
+      "English",
+      "French",
+      "Russian",
+      "Italian"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Smith",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Beyond crafting exquisite Nordic, Chef Smith expertly manages kitchen hygiene, inventory, and food cost control, honed over 8 years in demanding culinary environments.",
+    "languages": [
+      "Mandarin",
+      "Italian",
       "Russian",
       "French",
       "English"
@@ -332,969 +943,577 @@ export const tokyoTeamMembers: CrewMember[] = [
     "experienceYears": 8,
     "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
     "city": "Tokyo",
-    "country": "Global"
+    "country": "Japan",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Sophia Williams",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Access Control Officer Williams plays a crucial role in gangway security and managing visitor identification processes, a responsibility held for 19 years.",
+    "name": "Emma Jones",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "As second-in-command, Sous Chef Jones ensures seamless kitchen workflow and consistent dish quality, drawing on 15 years of hands-on Mediterranean experience.",
     "languages": [
-      "English",
-      "Portuguese"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/67.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "James Rodriguez",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Safety Compliance Officer Rodriguez promotes a safety-first culture through continuous education and enforcement of best practices.",
-    "languages": [
+      "Japanese",
+      "Spanish",
       "Italian",
-      "Portuguese",
+      "Mandarin",
       "English"
     ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/8.jpg",
     "city": "Tokyo",
-    "country": "Global"
+    "country": "Japan",
+    "region": "Asia Pacific"
   },
   {
-    "name": "David Williams",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "David Williams designs and leads engaging youth programs, applying 14 years in educational, recreational, and developmental management onboard.",
+    "name": "Sarah Jones",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Specializing in delicate Mediterranean pastries and innovative dessert creations, Pastry Chef Jones brings 12 years of refined skill to the culinary team.",
     "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Garcia",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Family Activities Coordinator Garcia gathers feedback to adapt programs that enhance passenger satisfaction and engagement.",
-    "languages": [
+      "German",
+      "Italian",
       "English"
     ],
     "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
     "city": "Tokyo",
-    "country": "Global"
+    "country": "Japan",
+    "region": "Asia Pacific"
   },
   {
-    "name": "David Johnson",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Known for energetic delivery and adaptability, David Johnson adjusts programming to accommodate different group sizes and interests.",
+    "name": "Sophia Davis",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Specializing in the power management station (e.g., Saucier, Grillardin), Chef de Partie Davis brings 22 years of expertise in preparing precise Pacific Rim components.",
     "languages": [
-      "Russian",
-      "Italian",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Jones",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Teen Activities Coordinator Jones is skilled at mentoring and connecting with teenagers, ensuring they have a fantastic and safe experience, drawing on 17 years.",
-    "languages": [
-      "Spanish",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Smith",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Focused on accessibility, Sarah Smith ensures programs accommodate different learning styles and abilities for broad passenger appeal.",
-    "languages": [
-      "French",
-      "Mandarin",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Rodriguez",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Child Care Specialist Rodriguez promotes social and emotional development through structured play and educational activities.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "James Miller",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "With a focus on guest engagement and satisfaction, James Miller designs diverse activity schedules that cater to a wide range of interests and age groups onboard.",
-    "languages": [
+      "Japanese",
+      "Portuguese",
       "German",
-      "English",
-      "Portuguese"
+      "Russian",
+      "Mandarin",
+      "Spanish",
+      "English"
     ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/88.jpg",
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
     "city": "Tokyo",
-    "country": "Global"
+    "country": "Japan",
+    "region": "Asia Pacific"
   },
   {
     "name": "Sophia Martinez",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Water Sports Instructor Martinez ensures guests enjoy safe, fun, and memorable water-based experiences while strictly adhering to safety protocols.",
-    "languages": [
-      "Mandarin",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Williams",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Maria Williams leads group fitness classes, personal training sessions, and wellness workshops designed to meet diverse passenger needs.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Williams",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Maria Williams manages shore excursions with 11 years coordinating logistics, safety, and guest engagement across diverse international destinations.",
-    "languages": [
-      "Italian",
-      "Portuguese",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "David Davis",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "Known for creativity and attention to detail, David Davis collaborates with other departments to produce visual content that enhances onboard marketing and memory-making.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Williams",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Olivia Williams uses 16 years of editing expertise to transform raw footage into engaging narratives that resonate with passengers and promote future voyages.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/5.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Davis",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "With 14 years in the digital realm, Emma Davis crafts compelling online stories and manages the ship's social media channels to connect with guests.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Smith",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Chief Medical Officer Smith has 17 years of experience in managing public health emergencies at sea and implementing robust infection control measures.",
-    "languages": [
-      "Portuguese",
-      "Japanese",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "John Davis",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "With 17 years practicing medicine in diverse environments, Dr. Davis is adept at diagnosing and treating a wide array of conditions encountered at sea.",
-    "languages": [
-      "English",
-      "Mandarin",
-      "Italian"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Rodriguez",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Leveraging 15 years in diverse nursing roles, Olivia Rodriguez excels in triage, wound care, and patient advocacy within the unique maritime environment.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Brown",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Sophia Brown conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in undefined's maritime operations.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Martinez",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "With 6 years in hospitality management, Maria Martinez drives operational excellence and team performance onboard.",
-    "languages": [
-      "German",
-      "French",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Rodriguez",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "Olivia Rodriguez coordinates guest services and resolves issues, leveraging 14 years of customer relations expertise.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "David Johnson",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Chief Steward Johnson trains and mentors the housekeeping staff, instilling a keen eye for detail and a commitment to impeccable service honed over 13 years.",
-    "languages": [
-      "English",
-      "German"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "James Brown",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "Senior Steward Brown also assists in training junior stewards, sharing expertise gained from 19 years in maritime hospitality.",
-    "languages": [
-      "French",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Jones",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "Butler Jones provides personalized guest services, backed by 7 years of elite hospitality expertise.",
-    "languages": [
-      "Spanish",
-      "Mandarin",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Davis",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "Maria Davis oversees accommodation services, ensuring comfort and efficiency with 11 years in maritime hospitality.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "James Garcia",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "James Garcia manages daily assignments, motivates the housekeeping team, and ensures efficient use of cleaning resources, drawing on 9 years of leadership.",
-    "languages": [
-      "Mandarin",
-      "Russian",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Garcia",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Maria Garcia assists guests with inquiries and special requests, drawing on 17 years in customer service roles.",
-    "languages": [
-      "Japanese",
-      "Arabic",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/98.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Williams",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "Concierge Williams offers expert local knowledge and personalized recommendations to enrich guest journeys.",
-    "languages": [
-      "German",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Davis",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Sarah Davis leads front office teams with a focus on excellent customer service and operational efficiency.",
-    "languages": [
-      "Arabic",
-      "Italian",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "David Rodriguez",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "David Rodriguez designs and executes VIP programs that exceed the highest standards of luxury and discretion.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Davis",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Hospitality Trainer Davis focuses on enhancing guest service quality through targeted education and coaching.",
-    "languages": [
-      "Mandarin",
-      "German",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/90.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Garcia",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Chef Garcia creates exceptional Mediterranean cuisine with 6 years of culinary expertise from around the world.",
-    "languages": [
-      "Arabic",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Brown",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "Sous Chef Brown supports kitchen operations with 11 years of culinary expertise and leadership.",
-    "languages": [
-      "English",
-      "German"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Williams",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "Pastry Chef Williams crafts exquisite desserts with 15 years of baking and pastry artistry.",
-    "languages": [
-      "Japanese",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Williams",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Specializing in the vessel automation station (e.g., Saucier, Grillardin), Chef de Partie Williams brings 13 years of expertise in preparing precise Pan-Asian components.",
-    "languages": [
-      "Japanese",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/84.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "John Garcia",
     "role": "Specialty Chef",
     "department": "Culinary Department",
-    "bio": "Specialty Chef Garcia curates exclusive menus for themed dining venues, showcasing 11 years of passion for {cuisineSpecific} traditions and techniques.",
+    "bio": "With 14 years perfecting {cuisineSpecific} artistry, Sophia Martinez ensures each plate is a true representation of its cultural heritage and bold flavors.",
     "languages": [
-      "Japanese",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Jones",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Sushi Chef Jones prepares fresh and artistic sushi dishes, drawing on 12 years of Japanese culinary tradition.",
-    "languages": [
-      "German",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Jones",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "Garde Manger Jones expertly prepares cold dishes and appetizers with 14 years of culinary proficiency.",
-    "languages": [
-      "Mandarin",
-      "German",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Rodriguez",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Butcher Rodriguez manages meat inventory and advises chefs on the best cuts for specific culinary applications, drawing on 15 years of specialized knowledge.",
-    "languages": [
-      "German",
       "Russian",
+      "Mandarin",
       "Portuguese",
       "English"
     ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
     "city": "Tokyo",
-    "country": "Global"
+    "country": "Japan",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Robert Davis",
-    "role": "Baker",
+    "name": "Michael Brown",
+    "role": "Sushi Chef",
     "department": "Culinary Department",
-    "bio": "Robert Davis combines traditional techniques with innovation to delight guests with baked specialties.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Martinez",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Sommelier Martinez curates wine selections, offering expert pairing advice with 18 years in fine wine service.",
+    "bio": "Michael Brown combines precision and creativity to deliver an authentic sushi experience at sea.",
     "languages": [
       "Italian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/36.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Brown",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "Mixologist Brown delights guests with flair, technique, and a deep understanding of flavor profiles, creating personalized drink experiences over 10 years.",
-    "languages": [
-      "Japanese",
-      "Spanish",
       "Arabic",
+      "French",
       "English"
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
     "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Davis",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Robert Davis combines artistry and technique to serve quality espresso and coffee beverages.",
-    "languages": [
-      "English",
-      "French"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/86.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "John Davis",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "John Davis collaborates with chefs to ensure nutritious and delicious meal options onboard.",
-    "languages": [
-      "Italian",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
-    "city": "Tokyo",
-    "country": "Global"
+    "country": "Japan",
+    "region": "Asia Pacific"
   },
   {
     "name": "Olivia Jones",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "Entertainment Director Jones leads a dynamic team of performers and technicians, ensuring flawless execution and high-energy engagement across all venues, backed by 5 years of industry leadership.",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Olivia Jones is responsible for creating visually stunning and delicious cold appetizers, canapés, and buffet displays, backed by 13 years of French expertise.",
     "languages": [
+      "English",
+      "French",
+      "Italian",
+      "German",
+      "Mandarin"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Smith",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Butcher Smith manages meat inventory and advises chefs on the best cuts for specific culinary applications, drawing on 9 years of specialized knowledge.",
+    "languages": [
+      "Portuguese",
       "Japanese",
+      "German",
       "French",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Brown",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Performance Coordinator Brown serves as the key liaison between artists, production staff, and management, ensuring clear communication and efficient problem-solving.",
-    "languages": [
-      "French",
-      "Mandarin",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Williams",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "Lead Vocalist Williams captivates audiences with dynamic performances, backed by 14 years of professional singing.",
-    "languages": [
-      "Spanish",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/5.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Williams",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "Musician Williams performs live music across genres, engaging guests with 16 years of performance experience.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/29.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Rodriguez",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Dancer Rodriguez brings dynamism and grace to every performance, captivating audiences with technical skill and expressive movement honed over 5 years.",
-    "languages": [
-      "Italian",
-      "Arabic",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Jones",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Choreographer Jones creates captivating dance routines, blending creativity with 14 years of dance expertise.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "John Williams",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "John Williams entertains guests with humor and timing, backed by 7 years in comedy performance.",
-    "languages": [
-      "Mandarin",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "James Smith",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "With 9 years honing the art of illusion, James Smith performs mind-bending feats of magic, from close-up tricks to grand stage illusions, delighting guests of all ages.",
-    "languages": [
       "Mandarin",
       "English"
     ],
     "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
     "city": "Tokyo",
-    "country": "Global"
+    "country": "Japan",
+    "region": "Asia Pacific"
   },
   {
-    "name": "James Jones",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "DJ Jones stays current with music trends while also mastering classics, offering 13 years of expertise in curating unforgettable musical journeys.",
+    "name": "John Rodriguez",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "John Rodriguez combines traditional techniques with innovation to delight guests with baked specialties.",
     "languages": [
+      "French",
       "English",
+      "German",
       "Portuguese"
     ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
     "city": "Tokyo",
-    "country": "Global"
+    "country": "Japan",
+    "region": "Asia Pacific"
   },
   {
-    "name": "James Miller",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "With 10 years of experience in mixing live sound for theatre, music, and events, James Miller guarantees crystal-clear audio for all onboard productions.",
+    "name": "Robert Rodriguez",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Certified Sommelier Rodriguez navigates an extensive cellar to find the perfect wine for every palate and Continental, drawing on 19 years of oenological expertise.",
     "languages": [
-      "Arabic",
+      "Mandarin",
+      "Russian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Jones",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "David Jones delivers exceptional beverage experiences tailored to guest preferences onboard.",
+    "languages": [
+      "Mandarin",
+      "Japanese",
+      "Portuguese",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/94.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Smith",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Barista Smith prepares specialty coffees with precision, backed by 5 years in coffee service.",
+    "languages": [
       "Italian",
+      "Mandarin",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Johnson",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Nutritionist Johnson designs balanced menus catering to health-conscious guests, leveraging 8 years of dietary expertise.",
+    "languages": [
+      "Italian",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Garcia",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Entertainment Director Garcia leads a dynamic team of performers and technicians, ensuring flawless execution and high-energy engagement across all venues, backed by 9 years of industry leadership.",
+    "languages": [
+      "Italian",
+      "Japanese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/88.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Johnson",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Performance Coordinator Johnson supports talent and technical teams to deliver seamless shows.",
+    "languages": [
+      "English",
+      "Arabic",
+      "Italian"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Miller",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "With a versatile range and powerful stage presence developed over 10 years, Lead Vocalist Miller shines in genres from pop and rock to jazz and musical theatre.",
+    "languages": [
+      "Japanese",
+      "Russian",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Jones",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Musician Jones adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 18 years of diverse musical experience.",
+    "languages": [
+      "Italian",
+      "Portuguese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Johnson",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Dancer Johnson brings dynamism and grace to every performance, captivating audiences with technical skill and expressive movement honed over 8 years.",
+    "languages": [
+      "Italian",
+      "Arabic",
+      "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Martinez",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Emma Martinez leads rehearsals and performance design to enhance the entertainment experience onboard.",
+    "languages": [
+      "Japanese",
+      "Spanish",
+      "Portuguese",
+      "French",
+      "Arabic",
       "German",
       "English"
     ],
     "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
     "city": "Tokyo",
-    "country": "Global"
+    "country": "Japan",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Emma Johnson",
-    "role": "Lighting Specialist",
+    "name": "Sophia Smith",
+    "role": "Comedy Performer",
     "department": "Entertainment Department",
-    "bio": "Lighting Specialist Johnson designs and operates lighting systems to enhance onboard shows and events.",
+    "bio": "Sophia Smith's ability to connect with the audience and improvise, developed over 14 years, makes each show a unique and highly enjoyable experience.",
     "languages": [
-      "Russian",
-      "Mandarin",
+      "Japanese",
+      "German",
+      "Italian",
+      "Portuguese",
+      "French",
       "English"
     ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/97.jpg",
     "city": "Tokyo",
-    "country": "Global"
+    "country": "Japan",
+    "region": "Asia Pacific"
   },
   {
-    "name": "James Garcia",
-    "role": "Stage Manager",
+    "name": "David Johnson",
+    "role": "Magic Act",
     "department": "Entertainment Department",
-    "bio": "James Garcia supervises stage operations and talent, drawing on 19 years of event management.",
+    "bio": "Magic Act specialist Johnson mystifies audiences with skilled illusions and interactive performances.",
+    "languages": [
+      "English",
+      "Italian",
+      "Russian",
+      "German"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Williams",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "DJ Williams stays current with music trends while also mastering classics, offering 6 years of expertise in curating unforgettable musical journeys.",
+    "languages": [
+      "Russian",
+      "English",
+      "Japanese",
+      "French"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Rodriguez",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Sarah Rodriguez's keen ear and technical proficiency, developed over 4 years, are essential for delivering immersive and high-quality auditory experiences.",
     "languages": [
       "Italian",
       "Mandarin",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/9.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Garcia",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Sarah Garcia's artistic vision and technical mastery over 16 years ensure that lighting plays a crucial role in the storytelling and excitement of onboard entertainment.",
+    "languages": [
+      "French",
+      "Italian",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Martinez",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Stage Manager Martinez coordinates all aspects of live performances, ensuring flawless execution of entertainment programs.",
+    "languages": [
+      "Mandarin",
+      "French",
+      "Arabic",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sophia Johnson",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Sophia Johnson ensures timely and efficient delivery of shows, leveraging 3 years in production management.",
+    "languages": [
+      "Japanese",
+      "Italian",
+      "Portuguese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Michael Miller combines creativity and craftsmanship with 16 years of design expertise.",
+    "languages": [
+      "Japanese",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Garcia",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "James Garcia's passion for cultural exchange, cultivated over 11 years, enriches the voyage by fostering understanding and appreciation of diverse traditions.",
+    "languages": [
+      "Japanese",
+      "French",
+      "Portuguese",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Garcia",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "With 10 years pushing artistic boundaries, Sarah Garcia offers a distinctive and captivating addition to the ship's diverse entertainment offerings.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Williams",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Operations Manager Williams applies 9 years of leadership in maritime operations.",
+    "languages": [
+      "Japanese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Smith",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "With 7 years coordinating complex supply chains, Olivia Smith ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
+    "languages": [
+      "Italian",
+      "Portuguese",
+      "German",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sophia Martinez",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Sophia Martinez ensures accurate inventory control using advanced management systems.",
+    "languages": [
+      "Japanese",
+      "German",
+      "Mandarin",
+      "Italian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Miller",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Procurement Officer Miller sources and negotiates contracts for goods and services needed onboard.",
+    "languages": [
+      "Japanese",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Smith",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "John Smith promotes sustainable practices aligned with maritime environmental standards.",
+    "languages": [
       "Arabic",
       "English"
     ],
     "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
     "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Brown",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "With 12 years managing complex theatrical and event productions, Maria Brown oversees budgeting, scheduling, staffing, and technical riders for all entertainment.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Davis",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Costume Designer Davis manages the entire costume lifecycle, from initial sketches and fabric sourcing to fittings and maintenance, ensuring every garment is show-ready.",
-    "languages": [
-      "German",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Davis",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Emma Davis's passion for cultural exchange, cultivated over 10 years, enriches the voyage by fostering understanding and appreciation of diverse traditions.",
-    "languages": [
-      "Japanese",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Davis",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "Performance Artist Davis combines elements of {artisticDisciplineCombination} to create truly unique and memorable entertainment experiences for discerning audiences.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Miller",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Operations Manager Miller is adept at problem-solving complex logistical challenges and implementing solutions that enhance overall ship performance and guest satisfaction.",
-    "languages": [
-      "Portuguese",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "James Rodriguez",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "With 5 years coordinating complex supply chains, James Rodriguez ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
-    "languages": [
-      "Japanese",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Martinez",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "With 7 years in inventory management, Sarah Martinez meticulously maintains records for all consumables, technical spares, and retail goods onboard.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/21.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Davis",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "Michael Davis's sharp negotiation skills and 15 years of experience contribute significantly to controlling operational costs while maintaining quality standards.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
-    "city": "Tokyo",
-    "country": "Global"
-  },
-  {
-    "name": "James Brown",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "James Brown promotes sustainable practices aligned with maritime environmental standards.",
-    "languages": [
-      "Italian",
-      "German",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
-    "city": "Tokyo",
-    "country": "Global"
+    "country": "Japan",
+    "region": "Asia Pacific"
   }
 ];

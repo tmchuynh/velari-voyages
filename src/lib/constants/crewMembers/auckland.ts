@@ -2,1295 +2,1513 @@ import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const aucklandTeamMembers: CrewMember[] = [
   {
-    "name": "Olivia Jones",
+    "name": "John Smith",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "Captain Jones's strategic decision-making and crisis management skills, honed over 19 years, ensure smooth and safe voyages throughout undefined.",
+    "bio": "Captain Smith is a veteran mariner with 17 years in Asia Pacific, known for meticulous voyage planning and a steadfast commitment to maritime law.",
     "languages": [
       "Spanish",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Jones",
-    "role": "First Officer",
-    "department": "Deck Department",
-    "bio": "First Officer Jones's 14-year background includes robust training in advanced navigation systems and crew supervision within undefined.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Brown",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "With a strong focus on electronic navigation and safety equipment, Emma Brown brings 7 years of experience navigating undefined's challenging routes.",
-    "languages": [
-      "Italian",
       "German",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Williams",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "Drawing on 14 years of experience in undefined, Michael Williams is responsible for the upkeep of firefighting appliances and lifesaving apparatus.",
-    "languages": [
-      "English",
-      "Spanish",
-      "Arabic"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "John Brown",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "Navigation Officer Brown ensures all navigational equipment is calibrated and fully operational, leveraging 10 years of technical expertise in undefined.",
-    "languages": [
-      "Portuguese",
-      "French",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Smith",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "With a thorough understanding of hazard identification and mitigation, Sophia Smith fosters a culture of safety awareness among crew and passengers.",
-    "languages": [
-      "French",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Smith",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "Sophia Smith is an aspiring maritime professional with foundational training and practical experience in ship operations and navigation within undefined.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "James Davis",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Bosun Davis supervises deck crew operations with 15 years of expertise ensuring maintenance, safety, and efficient handling of equipment aboard ships in undefined.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/93.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "James Rodriguez",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "Chief Engineer Rodriguez's extensive 17-year background includes overseeing major overhauls and ensuring peak operational readiness of all machinery.",
-    "languages": [
-      "French",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "James Johnson",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "First Engineer Johnson manages spare parts inventory and oversees condition monitoring programs to prevent system failures.",
-    "languages": [
-      "French",
-      "Arabic",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Jones",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "Second Engineer Jones meticulously manages bunkering operations and ensures the quality of fuel and lubricants, drawing on 17 years of practical knowledge.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Garcia",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "With 14 years designing, installing, and maintaining vessel electrical infrastructure, Emma Garcia ensures continuous power supply and safety.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Davis",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "With 11 years of mechanical expertise, Sophia Davis maintains critical ship machinery, including pumps, compressors, and hydraulic systems.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/37.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "James Brown",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "James Brown plays a key role in energy conservation by optimizing HVAC operations, backed by 7 years of specialized experience.",
-    "languages": [
       "Russian",
       "English"
     ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/98.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Sarah Jones",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Leveraging 9 years in marine environmental science, Sarah Jones ensures strict adherence to all international and local environmental laws.",
-    "languages": [
-      "Spanish",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "John Jones",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "John Jones manages system diagnostics and upgrades to improve vessel performance and crew operational efficiency.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "John Martinez",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "With a strategic overview honed over 13 years, John Martinez directs fleet-wide technical policies and ensures best practices are implemented.",
+    "name": "Emma Rodriguez",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "Emma Rodriguez, with 16 years navigating Asia Pacific, plays a vital role in safety drills, crew training, and maintaining navigational equipment.",
     "languages": [
       "Italian",
-      "English"
+      "English",
+      "Japanese",
+      "Mandarin",
+      "French"
     ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/8.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Sarah Martinez",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Sarah Martinez ensures all vessel machinery operates smoothly and safely, backed by 19 years in preventive and corrective maintenance programs.",
+    "name": "Olivia Martinez",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "Utilizing 19 years of expertise, Olivia Martinez meticulously maintains navigational charts and publications crucial for safe transit in Asia Pacific.",
     "languages": [
-      "Japanese",
+      "Mandarin",
+      "Spanish",
       "English"
     ],
     "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/94.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
     "name": "Sophia Garcia",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "With 8 years in maritime security, Sophia Garcia ensures comprehensive protection for passengers, crew, and assets through proactive strategy and coordination.",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Sophia Garcia supports communication and lookout duties during watches, maintaining high situational awareness in Asia Pacific's maritime environment.",
     "languages": [
       "Mandarin",
-      "Italian",
+      "Arabic",
       "English"
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Michael Williams",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Focused on maintaining order, Michael Williams collaborates with other departments to enhance overall passenger and crew safety.",
+    "name": "John Smith",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Experienced in electronic chart systems (ECDIS) and radar, John Smith has 12 years navigating the complex and often congested waters of Asia Pacific.",
     "languages": [
-      "French",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "James Miller",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Known for analytical expertise, James Miller conducts vulnerability assessments and designs contingency plans to address evolving threats.",
-    "languages": [
-      "Italian",
       "Portuguese",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Martinez",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Emma Martinez ensures all onboard digital systems comply with stringent maritime cybersecurity guidelines like IMO MSC.428(98), backed by 9 years of focused work.",
-    "languages": [
+      "Italian",
+      "German",
+      "Russian",
       "Spanish",
       "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Maria Smith",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "With 12 years in the role, Maria Smith is adept at developing and updating the Ship Security Plan (SSP) and ensuring its effective implementation.",
+    "name": "Sophia Rodriguez",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Committed to regulatory adherence, Sophia Rodriguez stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
     "languages": [
-      "Arabic",
-      "Portuguese",
+      "Italian",
+      "German",
       "English"
     ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/49.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Brown",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "David Brown, a promising Deck Cadet, is quickly mastering the fundamentals of seamanship and safety protocols specific to Asia Pacific maritime operations.",
+    "languages": [
+      "Japanese",
+      "English",
+      "Portuguese",
+      "German",
+      "Spanish"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/95.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Martinez",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "With 18 years managing deck teams, Emma Martinez coordinates tasks such as mooring, cargo handling, and routine repairs, maintaining operational readiness in Asia Pacific.",
+    "languages": [
+      "Japanese",
+      "Portuguese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
     "name": "Olivia Miller",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "With expertise in surveillance and monitoring, Olivia Miller detects and prevents unauthorized access to restricted vessel areas.",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Known for strategic problem-solving, Olivia Miller directs all technical operations, balancing safety, performance, and cost-effectiveness aboard vessels.",
     "languages": [
       "Arabic",
+      "Portuguese",
+      "Italian",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Miller",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "First Engineer Miller coordinates maintenance and repairs with 6 years of experience in marine mechanical systems, ensuring seamless engine room operations.",
+    "languages": [
+      "English",
+      "German"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/40.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Miller",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Second Engineer Miller meticulously manages bunkering operations and ensures the quality of fuel and lubricants, drawing on 22 years of practical knowledge.",
+    "languages": [
+      "English",
+      "Russian",
+      "Japanese"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Smith",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Electrical Engineer Smith specializes in fault-finding within complex circuits and automation logic, a skill honed over 11 years.",
+    "languages": [
+      "Japanese",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Miller",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Mechanical Engineer Miller provides vital support in dry-docking operations, overseeing repairs and upgrades to mechanical systems based on 9 years of insight.",
+    "languages": [
+      "Mandarin",
+      "Russian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Garcia",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "HVAC Engineer Garcia's focus includes maintaining air quality and compliance with health standards across all vessel compartments, a skill developed over 19 years.",
+    "languages": [
+      "English",
+      "Italian",
+      "Arabic"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sophia Smith",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Sophia Smith conducts environmental impact assessments to support sustainable voyage planning and operational improvements.",
+    "languages": [
+      "Mandarin",
+      "Italian",
+      "Russian",
+      "German",
       "English"
     ],
     "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Sarah Johnson",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Sarah Johnson meticulously prepares the vessel for internal and external safety audits, ensuring all documentation and practices meet or exceed standards, backed by 8 years.",
+    "name": "Robert Martinez",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Robert Martinez manages system diagnostics and upgrades to improve vessel performance and crew operational efficiency.",
     "languages": [
+      "Russian",
+      "English",
+      "German",
+      "French",
+      "Arabic"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Johnson",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Technical Manager Johnson oversees budgeting, procurement, and scheduling of maintenance to optimize vessel availability and lifecycle costs.",
+    "languages": [
+      "Arabic",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Williams",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "John Williams develops maintenance schedules and coordinates with crew to minimize downtime and extend equipment service life.",
+    "languages": [
+      "Russian",
+      "French",
+      "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "With 19 years in maritime security, Michael Miller ensures comprehensive protection for passengers, crew, and assets through proactive strategy and coordination.",
+    "languages": [
+      "Portuguese",
+      "French",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Jones",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Focused on maintaining order, James Jones collaborates with other departments to enhance overall passenger and crew safety.",
+    "languages": [
+      "French",
+      "Spanish",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Davis",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Drawing on 7 years, Maria Davis has in-depth knowledge of non-lethal defense tactics and anti-piracy measures.",
+    "languages": [
+      "Japanese",
+      "German",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Garcia",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Known for proactive defense strategies, Olivia Garcia continuously monitors network activity and coordinates responses to cyber incidents onboard.",
+    "languages": [
+      "Japanese",
+      "German",
       "Arabic",
       "Italian",
       "English"
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/94.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Robert Miller",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Known for creative leadership, Robert Miller continuously evaluates and improves youth programming to meet evolving passenger needs.",
+    "name": "David Jones",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "With 7 years in the role, David Jones is adept at developing and updating the Ship Security Plan (SSP) and ensuring its effective implementation.",
     "languages": [
-      "Mandarin",
       "German",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Garcia",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Leveraging 19 years in family entertainment, Olivia Garcia curates a diverse schedule of events appealing to all members of the family.",
-    "languages": [
       "Mandarin",
       "Arabic",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Known for energetic delivery and adaptability, Robert Smith adjusts programming to accommodate different group sizes and interests.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "John Rodriguez",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Leveraging 7 years working with adolescents, John Rodriguez creates cool and engaging hangouts and events that resonate with teens.",
-    "languages": [
-      "French",
-      "German",
+      "Russian",
       "Italian",
       "English"
     ],
     "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Sophia Jones",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Sophia Jones oversees onboard educational initiatives, combining 16 years of academic and program management experience to enrich passenger learning.",
+    "name": "Robert Brown",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Drawing on 7 years of experience, Robert Brown is proficient in operating and maintaining advanced access control systems and screening equipment.",
     "languages": [
-      "Arabic",
       "Portuguese",
+      "Russian",
+      "Mandarin",
       "English"
     ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Williams",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Robert Williams excels at engaging children with age-appropriate crafts, stories, and games, drawing from 19 years of experience in child-focused roles.",
-    "languages": [
-      "Arabic",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Davis",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "With a focus on guest engagement and satisfaction, Michael Davis designs diverse activity schedules that cater to a wide range of interests and age groups onboard.",
-    "languages": [
-      "French",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 5,
+    "experienceYears": 7,
     "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
-    "name": "James Johnson",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "James Johnson's primary focus for 13 years has been ensuring every guest feels confident and secure while exploring the water.",
+    "name": "Michael Williams",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "With a thorough understanding of hazard identification and mitigation, Michael Williams leads incident investigations and corrective action plans.",
     "languages": [
-      "Japanese",
+      "Russian",
+      "German",
+      "Arabic",
       "Italian",
       "English"
     ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
-    "name": "John Jones",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Committed to inclusivity, John Jones adapts programming to accommodate varying fitness levels and any physical limitations.",
+    "name": "Emma Jones",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Emma Jones designs and leads engaging youth programs, applying 4 years in educational, recreational, and developmental management onboard.",
     "languages": [
-      "German",
+      "Portuguese",
+      "Arabic",
+      "English",
+      "Spanish"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Smith",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Leveraging 9 years in family entertainment, Olivia Smith curates a diverse schedule of events appealing to all members of the family.",
+    "languages": [
+      "Spanish",
+      "English",
+      "Italian",
+      "French"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Jones",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Children's Entertainment Specialist Jones collaborates with youth program teams to develop diverse content promoting creativity and social interaction.",
+    "languages": [
+      "Arabic",
+      "Italian",
+      "Mandarin",
       "English"
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Williams",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Focused on safety and inclusivity, Maria Williams maintains open communication with parents and guardians regarding teen program activities.",
+    "languages": [
+      "English",
+      "Japanese",
+      "French",
+      "German"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Garcia",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Drawing on 4 years in educational programming, Olivia Garcia designs enriching lectures, workshops, and cultural immersion activities related to the voyage itinerary.",
+    "languages": [
+      "Mandarin",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/62.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Brown",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Child Care Specialist Brown is certified in pediatric first aid and CPR, bringing 22 years of trusted care to families onboard.",
+    "languages": [
+      "Japanese",
+      "Mandarin",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Miller",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "With strong organizational skills, John Miller manages budgets, resources, and partnerships to deliver high-quality recreational services.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Martinez",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Michael Martinez's primary focus for 13 years has been ensuring every guest feels confident and secure while exploring the water.",
+    "languages": [
+      "Spanish",
+      "Portuguese",
+      "Italian",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/98.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Rodriguez",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "John Rodriguez is passionate about inspiring guests to discover the joy of movement, bringing energy and expertise from 8 years in the fitness industry.",
+    "languages": [
+      "Portuguese",
+      "English",
+      "Italian"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
     "name": "James Davis",
     "role": "Excursion Coordinator",
     "department": "Activities & Recreation",
-    "bio": "Excursion Coordinator Davis prioritizes compliance with local regulations and emergency preparedness during all shore activities.",
+    "bio": "With expertise in vendor relations and itinerary planning, James Davis ensures smooth, safe, and enjoyable excursions tailored to passenger interests.",
     "languages": [
-      "Russian",
-      "English",
-      "Arabic"
+      "Spanish",
+      "Italian",
+      "English"
     ],
-    "experienceYears": 8,
+    "experienceYears": 5,
     "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Maria Davis",
+    "name": "Maria Jones",
     "role": "Lead Photographer",
     "department": "Photography & Videography",
-    "bio": "Known for creativity and attention to detail, Maria Davis collaborates with other departments to produce visual content that enhances onboard marketing and memory-making.",
+    "bio": "With extensive experience in portrait, event, and environmental photography, Maria Jones ensures high-quality imagery that reflects the voyage’s unique character.",
     "languages": [
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "James Johnson",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "With a strong understanding of narrative flow and audience engagement, James Johnson produces videos for promotional and archival purposes.",
-    "languages": [
-      "Arabic",
-      "Russian",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Williams",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "Digital Media Specialist Williams ensures an engaging online presence by creating and curating multimedia content tailored to diverse passenger demographics.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Jones",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "With extensive knowledge in maritime medicine and emergency response, Olivia Jones ensures readiness for diverse medical situations at sea.",
-    "languages": [
-      "French",
       "German",
+      "Arabic",
       "Japanese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "David Jones",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "Dr. Jones collaborates with medical officers and safety teams to uphold the highest health standards aboard.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/92.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "John Smith",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Nurse Smith supports the medical team by administering treatments, monitoring patient conditions, and maintaining comprehensive medical records.",
-    "languages": [
       "Spanish",
       "English"
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/62.jpg",
     "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Jones",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "With a thorough understanding of hazard identification and mitigation, Sophia Jones fosters a culture of safety awareness among crew and passengers.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Johnson",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "Emma Johnson is dedicated to fostering a welcoming and memorable atmosphere for all guests, drawing upon 7 years of cultivating outstanding hospitality teams.",
-    "languages": [
-      "English",
-      "Mandarin"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
-    "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
     "name": "Michael Rodriguez",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "Guest Relations Manager Rodriguez is adept at handling complex guest inquiries and ensuring swift, satisfactory resolutions, fostering loyalty and positive experiences.",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Leveraging 5 years in filmmaking, Michael Rodriguez produces cinematic-quality videos that beautifully encapsulate the journey and its destinations.",
     "languages": [
       "French",
       "German",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Rodriguez",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Robert Rodriguez excels in inventory management for linens and amenities, maintaining premium standards across all staterooms and suites with 7 years of dedication.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Rodriguez",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "With 18 years of dedicated service, Senior Steward Rodriguez ensures guest accommodations are impeccably maintained and personalized to preferences.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Miller",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "Robert Miller crafts unforgettable moments for discerning guests, drawing on 19 years of experience in curating exclusive and seamless luxury service.",
-    "languages": [
-      "Japanese",
-      "German",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "James Smith",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "James Smith oversees accommodation services, ensuring comfort and efficiency with 14 years in maritime hospitality.",
-    "languages": [
-      "Italian",
       "Russian",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Brown",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "Sophia Brown ensures smooth operations and staff training, supported by 6 years in hospitality management.",
-    "languages": [
       "Japanese",
       "English"
     ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/29.jpg",
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Sophia Martinez",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "With 19 years providing frontline support, Sophia Martinez is adept at information sharing, problem-solving, and ensuring guests feel valued and well-informed.",
+    "name": "Michael Martinez",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Michael Martinez manages digital content and multimedia production, applying 16 years in digital media, marketing, and audience engagement strategies.",
     "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/91.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "John Jones",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "With an extensive network and 6 years of experience, Concierge Jones arranges bespoke shore excursions, dining reservations, and special occasion services.",
-    "languages": [
-      "Italian",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/91.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Smith",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Sarah Smith leads front office teams with a focus on excellent customer service and operational efficiency.",
-    "languages": [
-      "Russian",
+      "Arabic",
+      "Spanish",
+      "French",
+      "Mandarin",
       "English"
     ],
     "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
-    "name": "David Johnson",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "David Johnson designs and executes VIP programs that exceed the highest standards of luxury and discretion.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Jones",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Hospitality Trainer Jones focuses on enhancing guest service quality through targeted education and coaching.",
-    "languages": [
-      "Japanese",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "John Martinez",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Mastering Caribbean and international gastronomy, John Martinez ensures every dish reflects the highest standards of quality, presentation, and flavor, backed by 14 years of award-winning experience.",
-    "languages": [
-      "Mandarin",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Garcia",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "With 9 years in high-volume kitchens, Sous Chef Garcia is adept at managing specific stations and stepping in for the Executive Chef as needed.",
+    "name": "Robert Miller",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Robert Miller oversees health protocols, emergency medical services, and public health compliance, coordinating medical teams and resources effectively.",
     "languages": [
       "Russian",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Brown",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "Specializing in delicate Pan-Asian pastries and innovative dessert creations, Pastry Chef Brown brings 13 years of refined skill to the culinary team.",
-    "languages": [
-      "Spanish",
-      "English",
-      "French"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Miller",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "With 9 years as a section chef, Michael Miller is responsible for stock control and guiding commis chefs within their designated area of the Pacific Rim kitchen.",
-    "languages": [
-      "French",
-      "Spanish",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "David Jones",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "With 13 years perfecting {cuisineSpecific} artistry, David Jones ensures each plate is a true representation of its cultural heritage and bold flavors.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Davis",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Michael Davis combines precision and creativity to deliver an authentic sushi experience at sea.",
-    "languages": [
-      "Spanish",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "James Williams",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "With 9 years specializing in charcuterie, salads, and elaborate cold platters, Chef Williams brings artistry and precision to the Garde Manger station.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "James Jones",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Butcher Jones ensures quality meat preparation, supported by 14 years of skilled butchery work.",
-    "languages": [
-      "Japanese",
-      "French",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "James Brown",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "James Brown manages the bakery's production schedule and ingredient inventory, ensuring consistent quality and freshness, backed by 5 years of professional baking.",
-    "languages": [
-      "Russian",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "John Smith",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "John Smith provides engaging wine education and tasting experiences for guests, sharing insights from 10 years exploring global viticulture.",
-    "languages": [
-      "Arabic",
-      "English",
-      "Japanese"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "John Johnson",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "Mixologist Johnson crafts creative cocktails, combining flavor expertise with 18 years of bartending skill.",
-    "languages": [
-      "Mandarin",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/89.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Garcia",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Robert Garcia combines artistry and technique to serve quality espresso and coffee beverages.",
-    "languages": [
-      "Russian",
-      "Spanish",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Rodriguez",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Nutritionist Rodriguez designs balanced menus catering to health-conscious guests, leveraging 9 years of dietary expertise.",
-    "languages": [
-      "Arabic",
-      "German",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/54.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Garcia",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "With 13 years orchestrating spectacular onboard entertainment, Sarah Garcia manages everything from Broadway-style shows to intimate musical performances and themed parties.",
-    "languages": [
-      "Arabic",
-      "Portuguese",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Davis",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Performance Coordinator Davis serves as the key liaison between artists, production staff, and management, ensuring clear communication and efficient problem-solving.",
-    "languages": [
-      "Arabic",
-      "German",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "David Johnson",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "David Johnson consistently delivers show-stopping performances, connecting with audiences through emotive storytelling and exceptional vocal talent honed across 13 years on stage.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Brown",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "Musician Brown adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 15 years of diverse musical experience.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Rodriguez",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "With 19 years of professional training in {danceStyle} and contemporary dance, Maria Rodriguez executes complex choreography with precision and artistry in mainstage productions.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/40.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Rodriguez",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Maria Rodriguez collaborates with costume and lighting designers to create a cohesive and visually stunning spectacle, drawing on 9 years of experience in stage production.",
-    "languages": [
-      "Russian",
-      "Japanese",
-      "German",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "John Rodriguez",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "John Rodriguez entertains guests with humor and timing, backed by 14 years in comedy performance.",
-    "languages": [
-      "French",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "John Rodriguez",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "With 8 years honing the art of illusion, John Rodriguez performs mind-bending feats of magic, from close-up tricks to grand stage illusions, delighting guests of all ages.",
-    "languages": [
       "Japanese",
       "English"
     ],
     "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
-    "name": "David Williams",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "DJ Williams stays current with music trends while also mastering classics, offering 12 years of expertise in curating unforgettable musical journeys.",
+    "name": "James Johnson",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Dr. Johnson provides comprehensive medical care with 5 years of expertise in maritime and travel medicine, addressing acute and chronic conditions onboard.",
     "languages": [
-      "English",
-      "Portuguese"
+      "German",
+      "French",
+      "English"
     ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Nurse Miller is experienced in managing chronic health conditions at sea and providing ongoing support to guests with specific medical needs, drawing from 21 years of practice.",
+    "languages": [
+      "Arabic",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Jones",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Leveraging 20 years in maritime safety, James Jones excels at developing and implementing targeted safety training programs relevant to Asia Pacific's specific operational hazards.",
+    "languages": [
+      "Italian",
+      "Mandarin",
+      "German",
+      "English",
+      "Japanese"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
     "name": "Emma Garcia",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Audio Technician Garcia expertly operates and maintains complex soundboards, microphones, and speaker systems, ensuring every note and word is perfectly heard.",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Emma Garcia is dedicated to fostering a welcoming and memorable atmosphere for all guests, drawing upon 4 years of cultivating outstanding hospitality teams.",
     "languages": [
+      "Italian",
+      "Mandarin",
+      "German",
+      "French",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Garcia",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Olivia Garcia coordinates guest services and resolves issues, leveraging 15 years of customer relations expertise.",
+    "languages": [
+      "Spanish",
+      "Russian",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/94.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Williams",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Emma Williams excels in inventory management for linens and amenities, maintaining premium standards across all staterooms and suites with 4 years of dedication.",
+    "languages": [
+      "English",
+      "Mandarin",
+      "Russian"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Martinez",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Senior Steward Martinez delivers attentive guest services and supports stewardship operations, drawing on 21 years onboard.",
+    "languages": [
+      "English",
+      "Mandarin",
+      "French",
+      "Spanish"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Martinez",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Butler Martinez provides personalized guest services, backed by 16 years of elite hospitality expertise.",
+    "languages": [
+      "Arabic",
+      "English",
+      "French",
+      "Spanish"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Rodriguez",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Accommodation Manager Rodriguez coordinates housekeeping and maintenance teams for optimal guest satisfaction.",
+    "languages": [
+      "Japanese",
+      "Russian",
+      "Portuguese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Garcia",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Garcia leads cleaning teams, maintaining impeccable standards across all guest areas.",
+    "languages": [
+      "Mandarin",
+      "French",
+      "German",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/87.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sophia Davis",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Sophia Davis's communication skills, honed over 3 years, are key to creating positive first impressions and lasting guest satisfaction.",
+    "languages": [
+      "Mandarin",
+      "German",
+      "Arabic",
+      "English",
+      "Japanese",
+      "Portuguese"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Martinez",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Olivia Martinez acts as a personal guide to onboard and onshore experiences, providing insider tips and tailored advice to create unique memories for guests.",
+    "languages": [
+      "Japanese",
+      "Mandarin",
+      "Spanish",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Garcia",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "With 12 years in front office management, Maria Garcia ensures a welcoming and organized reception area, managing all aspects of guest registration and billing.",
+    "languages": [
+      "French",
+      "Arabic",
+      "Portuguese",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Brown",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "John Brown's expertise over 8 years lies in creating unparalleled experiences, making every VIP guest feel exceptionally valued and pampered.",
+    "languages": [
+      "Arabic",
+      "German",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Johnson",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "With 10 years of designing and delivering impactful training, Emma Johnson empowers staff with the knowledge and skills to provide outstanding service.",
+    "languages": [
+      "Spanish",
+      "Russian",
+      "Italian",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Rodriguez",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "With 10 years in fine dining, Chef Rodriguez specializes in Japanese flavors using locally sourced ingredients.",
+    "languages": [
+      "English",
+      "Spanish",
+      "Japanese",
+      "German"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Garcia",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "As second-in-command, Sous Chef Garcia ensures seamless kitchen workflow and consistent dish quality, drawing on 8 years of hands-on Latin American experience.",
+    "languages": [
+      "Portuguese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Jones",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "David Jones blends creativity and technique to deliver memorable pastry experiences for guests.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Brown",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Sarah Brown maintains immaculate standards of organization and hygiene at their station, contributing to the kitchen's overall efficiency with 14 years of discipline.",
+    "languages": [
+      "Russian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Davis",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Master of {cuisineSpecific} cuisine, Olivia Davis creates authentic dishes that transport guests to Asia Pacific, drawing on 21 years of dedicated culinary exploration.",
+    "languages": [
+      "German",
       "Japanese",
       "Portuguese",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Michael Martinez",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "Michael Martinez's artistic vision and technical mastery over 11 years ensure that lighting plays a crucial role in the storytelling and excitement of onboard entertainment.",
-    "languages": [
-      "Portuguese",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/87.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Davis",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "Sophia Davis supervises stage operations and talent, drawing on 9 years of event management.",
+    "name": "James Garcia",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Sushi Chef Garcia manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 9 years of Japanese culinary excellence.",
     "languages": [
       "Russian",
-      "English"
+      "English",
+      "Japanese"
     ],
     "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
-    "name": "James Jones",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "James Jones ensures timely and efficient delivery of shows, leveraging 9 years in production management.",
+    "name": "James Garcia",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Garde Manger Garcia ensures all cold food items are stored and handled with the utmost care, upholding critical food safety protocols over 8 years.",
     "languages": [
-      "German",
-      "Spanish",
+      "Russian",
+      "Italian",
       "Arabic",
       "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
-    "name": "David Garcia",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Costume Designer Garcia creates unique and period-appropriate costumes, enhancing visual storytelling in performances.",
+    "name": "Sophia Johnson",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Butcher Johnson ensures quality meat preparation, supported by 12 years of skilled butchery work.",
     "languages": [
-      "Spanish",
-      "French",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Davis",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Cultural Program Director Davis curates culturally enriching events and experiences for guests.",
-    "languages": [
-      "Russian",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Davis",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "With 10 years pushing artistic boundaries, Sophia Davis offers a distinctive and captivating addition to the ship's diverse entertainment offerings.",
-    "languages": [
-      "German",
       "Mandarin",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Williams",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Operations Manager Williams is adept at problem-solving complex logistical challenges and implementing solutions that enhance overall ship performance and guest satisfaction.",
-    "languages": [
-      "Italian",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Brown",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "With 15 years coordinating complex supply chains, Sophia Brown ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
-    "languages": [
-      "Arabic",
       "French",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
-    "city": "Auckland",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Williams",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "Inventory Specialist Williams implements efficient stock rotation (FIFO) and conducts regular audits to prevent shortages and minimize waste.",
-    "languages": [
+      "Russian",
       "Portuguese",
       "English"
     ],
     "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Michael Martinez",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "Procurement Officer Martinez sources and negotiates contracts for goods and services needed onboard.",
+    "name": "James Martinez",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "James Martinez combines traditional techniques with innovation to delight guests with baked specialties.",
     "languages": [
       "Mandarin",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Brown",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "John Brown enhances dining experiences by sourcing and recommending premium wines.",
+    "languages": [
+      "Japanese",
+      "Spanish",
+      "French",
       "English"
     ],
     "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Robert Miller",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "Robert Miller promotes sustainable practices aligned with maritime environmental standards.",
+    "name": "Michael Miller",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Miller crafts creative cocktails, combining flavor expertise with 12 years of bartending skill.",
     "languages": [
+      "English",
+      "German",
+      "Spanish",
+      "Russian"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/99.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Brown",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "With 21 years of expertise in coffee origins, brewing methods, and latte art, Maria Brown crafts the perfect cup for every guest.",
+    "languages": [
+      "Russian",
+      "English",
+      "German",
+      "Mandarin"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Nutritionist Miller designs balanced menus catering to health-conscious guests, leveraging 6 years of dietary expertise.",
+    "languages": [
+      "Italian",
+      "Japanese",
       "Spanish",
       "English"
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/90.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
     "city": "Auckland",
-    "country": "Global"
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Williams",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "With 18 years orchestrating spectacular onboard entertainment, David Williams manages everything from Broadway-style shows to intimate musical performances and themed parties.",
+    "languages": [
+      "Italian",
+      "Portuguese",
+      "Russian",
+      "German",
+      "Mandarin",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Brown",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "James Brown's organizational skills, honed over 19 years, are crucial for maintaining a complex entertainment calendar and ensuring all performers are well-supported.",
+    "languages": [
+      "German",
+      "Portuguese",
+      "French",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Rodriguez",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "With a versatile range and powerful stage presence developed over 17 years, Lead Vocalist Rodriguez shines in genres from pop and rock to jazz and musical theatre.",
+    "languages": [
+      "Russian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Miller",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "A master of the {instrument}, Emma Miller brings 7 years of versatile musicianship, performing solo or as part of an ensemble in various ship venues.",
+    "languages": [
+      "Spanish",
+      "French",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Brown",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "James Brown is a dedicated member of the ensemble, contributing to high-energy production numbers and themed events, showcasing 13 years of professional dance experience.",
+    "languages": [
+      "Spanish",
+      "Portuguese",
+      "Japanese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Choreographer Miller works closely with dancers to teach and refine intricate movements, ensuring performances are polished and impactful, reflecting 16 years of artistic direction.",
+    "languages": [
+      "Spanish",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Sophia Miller's ability to connect with the audience and improvise, developed over 8 years, makes each show a unique and highly enjoyable experience.",
+    "languages": [
+      "German",
+      "French",
+      "Italian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/5.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Martinez",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Michael Martinez brings a unique brand of enchantment to the ship's entertainment, drawing on 21 years of professional magic and a flair for theatrical presentation.",
+    "languages": [
+      "Italian",
+      "English",
+      "French",
+      "German",
+      "Portuguese",
+      "Mandarin"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Smith",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "DJ Smith creates vibrant atmospheres with expertly mixed music, drawing on 9 years in live DJing.",
+    "languages": [
+      "Italian",
+      "Japanese",
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Davis",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Audio Technician Davis manages sound systems and ensures optimal audio quality for performances onboard.",
+    "languages": [
+      "Italian",
+      "Russian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Miller",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Emma Miller applies 8 years of technical skill to create immersive visual experiences.",
+    "languages": [
+      "English",
+      "Italian",
+      "French",
+      "Mandarin"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Brown",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Stage Manager Brown is the organizational backbone of the production, liaising between performers, technicians, and the director to maintain artistic integrity and timing.",
+    "languages": [
+      "Spanish",
+      "Italian",
+      "Portuguese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Jones",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "John Jones ensures timely and efficient delivery of shows, leveraging 14 years in production management.",
+    "languages": [
+      "Arabic",
+      "French",
+      "Portuguese",
+      "Russian",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Rodriguez",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Costume Designer Rodriguez manages the entire costume lifecycle, from initial sketches and fabric sourcing to fittings and maintenance, ensuring every garment is show-ready.",
+    "languages": [
+      "Spanish",
+      "Italian",
+      "English",
+      "Russian",
+      "Portuguese",
+      "Arabic"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Brown",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Cultural Program Director Brown collaborates with local artists, historians, and experts to provide authentic and immersive cultural experiences for guests.",
+    "languages": [
+      "English",
+      "Japanese",
+      "German",
+      "French",
+      "Arabic"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Davis",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "A specialist in {artisticDiscipline}, Maria Davis presents breathtaking and thought-provoking performances honed over 15 years of dedicated artistic exploration.",
+    "languages": [
+      "Japanese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Davis",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "David Davis oversees daily operations and coordinates departments to maintain smooth vessel functioning.",
+    "languages": [
+      "Mandarin",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/94.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Brown",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Logistics Coordinator Brown manages supply chain and transport logistics, ensuring efficient resource allocation.",
+    "languages": [
+      "English",
+      "Italian",
+      "Portuguese"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sophia Rodriguez",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Sophia Rodriguez ensures accurate inventory control using advanced management systems.",
+    "languages": [
+      "Japanese",
+      "French",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Brown",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Procurement Officer Brown sources and negotiates contracts for goods and services needed onboard.",
+    "languages": [
+      "French",
+      "Japanese",
+      "Portuguese",
+      "Mandarin",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/59.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Martinez",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "With 19 years dedicated to environmental stewardship in the maritime sector, Sarah Martinez develops and manages programs for waste reduction, recycling, and energy conservation.",
+    "languages": [
+      "Italian",
+      "Spanish",
+      "Portuguese",
+      "Japanese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific"
   }
 ];

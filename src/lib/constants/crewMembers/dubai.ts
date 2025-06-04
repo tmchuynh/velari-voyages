@@ -2,457 +2,540 @@ import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const dubaiTeamMembers: CrewMember[] = [
   {
-    "name": "Sophia Brown",
+    "name": "Maria Williams",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "With a distinguished 10-year career, Sophia Brown ensures the highest standards of safety and seamanship aboard, navigating undefined with precision and authority.",
+    "bio": "Captain Williams is a veteran mariner with 16 years in Middle East, known for meticulous voyage planning and a steadfast commitment to maritime law.",
     "languages": [
-      "Spanish",
+      "Arabic",
+      "German",
       "English"
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "Michael Rodriguez",
+    "name": "Emma Miller",
     "role": "First Officer",
     "department": "Deck Department",
-    "bio": "First Officer Rodriguez supports the Captain by managing daily operations and maintaining vessel readiness, backed by extensive experience in undefined.",
+    "bio": "First Officer Miller supports the Captain by managing daily operations and maintaining vessel readiness, backed by extensive experience in Middle East.",
     "languages": [
-      "Mandarin",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Olivia Martinez",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "Olivia Martinez is skilled in passage planning software and integrated bridge systems, contributing 3 years of knowledge to operations in Middle East.",
+    "languages": [
+      "English",
+      "Japanese",
+      "Arabic",
+      "Portuguese"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Maria Miller",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "As a vigilant watchkeeper, Maria Miller has 6 years supporting navigation, safety drills, and emergency procedures aboard vessels in Middle East.",
+    "languages": [
+      "Spanish",
       "Japanese",
       "English"
     ],
     "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
     "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Johnson",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "With a strong focus on electronic navigation and safety equipment, Sarah Johnson brings 6 years of experience navigating undefined's challenging routes.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Brown",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "Maria Brown supports communication and lookout duties during watches, maintaining high situational awareness in undefined's maritime environment.",
-    "languages": [
-      "German",
-      "Portuguese",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Davis",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "Sophia Davis utilizes advanced navigational technology with 8 years ensuring precise route planning and safe passage in undefined.",
-    "languages": [
-      "Portuguese",
-      "English",
-      "German"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Rodriguez",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "Michael Rodriguez conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in undefined's maritime operations.",
-    "languages": [
-      "Italian",
-      "German",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Smith",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "Sarah Smith is an aspiring maritime professional with foundational training and practical experience in ship operations and navigation within undefined.",
-    "languages": [
-      "English",
-      "Mandarin"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
-    "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
     "name": "Sarah Davis",
-    "role": "Bosun",
+    "role": "Navigation Officer",
     "department": "Deck Department",
-    "bio": "Sarah Davis plays a pivotal role in implementing maintenance schedules and overseeing deck inventory to support smooth voyages through undefined.",
+    "bio": "Sarah Davis plays a key role in training junior officers on Middle East-specific navigational challenges and best practices, backed by 10 years of experience.",
     "languages": [
-      "Italian",
-      "English"
+      "Mandarin",
+      "French",
+      "English",
+      "Portuguese"
     ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "James Johnson",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "James Johnson leads the engineering department with a focus on fuel efficiency and emissions reduction, drawing upon 5 years of innovative practice and sustainable technologies knowledge.",
+    "name": "Sophia Garcia",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Leveraging 10 years in maritime safety, Sophia Garcia excels at developing and implementing targeted safety training programs relevant to Middle East's specific operational hazards.",
     "languages": [
-      "Italian",
+      "German",
+      "Portuguese",
+      "Mandarin",
+      "Russian",
       "English"
     ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/29.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
     "name": "Michael Martinez",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "First Engineer Martinez is responsible for the main propulsion machinery and auxiliary systems, bringing 10 years of hands-on expertise.",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "As a dedicated Deck Cadet, Michael Martinez is gaining 12 years of hands-on knowledge in deck maintenance, watchkeeping, and safety procedures in Middle East.",
     "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/95.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Smith",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "Michael Smith's 11 years include supervising junior engineers and engine room ratings, fostering a culture of safety and competence.",
-    "languages": [
-      "Italian",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/87.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Jones",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Drawing on 16 years, Maria Jones ensures the integrity of high-voltage systems and sophisticated electronic controls throughout the vessel.",
-    "languages": [
-      "Spanish",
-      "English",
-      "French"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Rodriguez",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "Mechanical Engineer Rodriguez provides vital support in dry-docking operations, overseeing repairs and upgrades to mechanical systems based on 5 years of insight.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/94.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Brown",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "With expertise in refrigeration cycles and ventilation design, Olivia Brown addresses environmental control challenges in varying maritime conditions.",
-    "languages": [
-      "Mandarin",
+      "German",
+      "Japanese",
+      "French",
       "Portuguese",
       "English"
     ],
     "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "Olivia Rodriguez",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Olivia Rodriguez applies expertise in waste management, ballast water treatment, and pollution control, promoting eco-friendly maritime operations.",
+    "name": "Emma Martinez",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Emma Martinez's leadership ensures the deck department operates efficiently and safely, drawing from 19 years of hands-on experience in Middle East.",
     "languages": [
+      "Japanese",
+      "Portuguese",
+      "French",
+      "Italian",
       "Mandarin",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "James Rodriguez",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "With 14 years in marine engineering, James Rodriguez ensures optimal performance and reliability of propulsion, power generation, and auxiliary systems onboard.",
+    "languages": [
+      "German",
+      "Spanish",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "James Brown",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "First Engineer Brown is responsible for the main propulsion machinery and auxiliary systems, bringing 8 years of hands-on expertise.",
+    "languages": [
+      "Russian",
+      "Arabic",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Olivia Johnson",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Olivia Johnson plays an integral role in maintaining fuel efficiency and reducing emissions through optimized machinery operation.",
+    "languages": [
+      "Portuguese",
+      "Spanish",
+      "German",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "David Garcia",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Electrical Engineer Garcia conducts regular testing and troubleshooting of generators, switchboards, and control systems to prevent downtime.",
+    "languages": [
+      "Arabic",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Maria Martinez",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Maria Martinez's problem-solving abilities are crucial for addressing unexpected mechanical challenges, ensuring vessel safety and uptime through 8 years of service.",
+    "languages": [
+      "Spanish",
+      "German",
+      "French",
+      "Russian",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Maria Brown",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "With expertise in refrigeration cycles and ventilation design, Maria Brown addresses environmental control challenges in varying maritime conditions.",
+    "languages": [
+      "Portuguese",
+      "German",
+      "French",
       "Spanish",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "Maria Johnson",
+    "name": "Maria Rodriguez",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Environmental Engineer Rodriguez monitors emissions and advises on strategies to minimize the vessel’s environmental footprint.",
+    "languages": [
+      "German",
+      "Italian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Emma Brown",
     "role": "Systems Engineer",
     "department": "Engineering Department",
-    "bio": "Systems Engineer Johnson leads technical solutions for navigation, communication, automation, and control systems with 14 years of service.",
+    "bio": "Drawing upon 4 years, Emma Brown specializes in the architecture and maintenance of integrated automation systems (IAS) critical for modern vessel operations.",
     "languages": [
+      "French",
       "English",
-      "Spanish"
+      "Mandarin"
     ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/99.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "David Williams",
+    "name": "Olivia Williams",
     "role": "Technical Manager",
     "department": "Engineering Department",
-    "bio": "David Williams drives continuous improvement initiatives and implements emerging maritime technologies to maintain competitive operational capabilities.",
+    "bio": "Olivia Williams provides expert guidance on complex technical challenges and long-term asset management, drawing from 14 years of senior engineering leadership.",
     "languages": [
+      "French",
       "Portuguese",
+      "Italian",
       "Mandarin",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Michael Jones",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Maintenance Engineer Jones applies 21 years of hands-on expertise maintaining and repairing shipboard mechanical and electrical equipment.",
+    "languages": [
+      "Spanish",
+      "Russian",
+      "German",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "James Williams",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Security Director Williams leads threat analysis initiatives and implements advanced security measures to safeguard vessel integrity.",
+    "languages": [
+      "French",
+      "German",
+      "Japanese",
+      "Russian",
+      "Spanish",
       "Arabic",
       "English"
     ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "John Garcia",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Maintenance Engineer Garcia troubleshoots system faults and implements timely repairs, maintaining vessel operational readiness.",
-    "languages": [
-      "Portuguese",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "John Martinez",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Security Director Martinez has 5 years of experience liaising with international maritime security agencies and port authorities.",
-    "languages": [
-      "Italian",
-      "French",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "David Miller",
+    "name": "Robert Davis",
     "role": "Security Officer",
     "department": "Security Department",
-    "bio": "David Miller is trained in conflict resolution and emergency protocols, ensuring rapid and effective response to security incidents.",
+    "bio": "Security Officer Davis performs access control duties and monitors surveillance systems to maintain a secure onboard environment.",
     "languages": [
-      "Portuguese",
-      "English"
+      "English",
+      "Italian",
+      "Arabic",
+      "Portuguese"
     ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
     "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Garcia",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Security Specialist Garcia develops tailored security plans and threat mitigation strategies based on 10 years of maritime threat analysis and intelligence gathering.",
-    "languages": [
-      "Japanese",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/30.jpg",
-    "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
     "name": "Sarah Garcia",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Security Specialist Garcia develops tailored security plans and threat mitigation strategies based on 14 years of maritime threat analysis and intelligence gathering.",
+    "languages": [
+      "Mandarin",
+      "German",
+      "French",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Sophia Smith",
     "role": "Cybersecurity Officer",
     "department": "Security Department",
-    "bio": "Cybersecurity Officer Garcia conducts regular penetration testing and vulnerability assessments of ship systems, drawing on 7 years of expertise.",
+    "bio": "Cybersecurity Officer Smith conducts regular penetration testing and vulnerability assessments of ship systems, drawing on 15 years of expertise.",
     "languages": [
-      "Japanese",
+      "German",
+      "Spanish",
+      "Russian",
       "English"
     ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "Emma Johnson",
+    "name": "Olivia Davis",
     "role": "Maritime Security Coordinator",
     "department": "Security Department",
-    "bio": "Emma Johnson manages communication between security teams and external authorities to ensure swift resolution of maritime security incidents.",
+    "bio": "With strong organizational skills, Olivia Davis maintains detailed records and reports to support continuous security improvement.",
     "languages": [
+      "German",
+      "Portuguese",
       "English"
     ],
     "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "David Davis",
+    "name": "Emma Davis",
     "role": "Access Control Officer",
     "department": "Security Department",
-    "bio": "David Davis ensures all personnel and visitors comply with security clearance, manifests, and international maritime access regulations.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "David Smith",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "David Smith meticulously prepares the vessel for internal and external safety audits, ensuring all documentation and practices meet or exceed standards, backed by 5 years.",
+    "bio": "Focused on security integrity, Emma Davis conducts regular audits of access logs and assists in security incident investigations.",
     "languages": [
       "Italian",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Miller",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Sophia Miller designs and leads engaging youth programs, applying 14 years in educational, recreational, and developmental management onboard.",
-    "languages": [
       "German",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/92.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Martinez",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Sarah Martinez organizes family-friendly events and activities, ensuring inclusive participation and memorable experiences with 6 years of expertise.",
-    "languages": [
-      "Arabic",
-      "Russian",
       "French",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Williams",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Children's Entertainment Specialist Williams has a talent for making every child feel special, using 7 years of experience to tailor activities to individual personalities.",
-    "languages": [
       "Japanese",
       "English"
     ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/91.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "David Miller",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Leveraging 12 years working with adolescents, David Miller creates cool and engaging hangouts and events that resonate with teens.",
-    "languages": [
-      "Portuguese",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Miller",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "With a commitment to lifelong learning, Sarah Miller curates curriculum and interactive sessions that enhance passenger knowledge and engagement.",
-    "languages": [
-      "German",
-      "Spanish",
-      "Arabic",
-      "English"
-    ],
     "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "James Garcia",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Leveraging 3 years, James Garcia ensures the vessel's Safety Management System (SMS) is effectively implemented and continuously improved.",
+    "languages": [
+      "Russian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/89.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Emma Brown",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "With a passion for youth development, Emma Brown crafts innovative activities fostering learning, social growth, and cultural awareness during voyages.",
+    "languages": [
+      "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/56.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Sophia Smith",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Focused on safety and accessibility, Sophia Smith ensures all family activities comply with onboard regulations and guest expectations.",
+    "languages": [
+      "Arabic",
+      "Spanish",
+      "Japanese",
+      "Italian",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
     "name": "Sophia Jones",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Drawing on 16 years of delighting young audiences, Sophia Jones brings a unique blend of magic, storytelling, and interactive games to the ship.",
+    "languages": [
+      "English",
+      "Japanese",
+      "Italian"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Sophia Garcia",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Sophia Garcia develops dynamic programs catering to teenage guests, drawing on 6 years of youth facilitation and event management expertise.",
+    "languages": [
+      "Portuguese",
+      "English",
+      "French",
+      "Russian",
+      "Japanese"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/37.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Michael Williams",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Focused on accessibility, Michael Williams ensures programs accommodate different learning styles and abilities for broad passenger appeal.",
+    "languages": [
+      "English",
+      "German",
+      "Arabic"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Michael Williams",
     "role": "Child Care Specialist",
     "department": "Youth & Family Programs",
-    "bio": "Sophia Jones provides attentive care and supervision for young passengers, backed by 10 years in professional child care and early childhood education.",
+    "bio": "Michael Williams provides attentive care and supervision for young passengers, backed by 6 years in professional child care and early childhood education.",
     "languages": [
-      "French",
-      "Italian",
+      "Russian",
+      "Japanese",
+      "Spanish",
+      "Portuguese",
+      "Arabic",
       "English"
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
     "name": "Michael Garcia",
@@ -460,834 +543,979 @@ export const dubaiTeamMembers: CrewMember[] = [
     "department": "Activities & Recreation",
     "bio": "Activities Director Garcia leads a team of specialists, ensuring seamless execution of events that enhance the overall passenger experience.",
     "languages": [
-      "Arabic",
+      "Japanese",
+      "Portuguese",
+      "English",
+      "French"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Sophia Miller's primary focus for 18 years has been ensuring every guest feels confident and secure while exploring the water.",
+    "languages": [
+      "Italian",
+      "English",
+      "German",
+      "Spanish",
+      "Portuguese"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Olivia Johnson",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Fitness Instructor Johnson provides nutritional advice and wellness coaching, empowering guests to achieve their health goals over 8 years.",
+    "languages": [
       "Mandarin",
       "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/98.jpg",
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "Sophia Jones",
-    "role": "Water Sports Instructor",
+    "name": "Robert Williams",
+    "role": "Excursion Coordinator",
     "department": "Activities & Recreation",
-    "bio": "Sophia Jones's primary focus for 6 years has been ensuring every guest feels confident and secure while exploring the water.",
+    "bio": "Excursion Coordinator Williams has built strong relationships with local tour operators worldwide over 11 years, guaranteeing quality and value.",
     "languages": [
+      "Arabic",
+      "French",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Robert Williams",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Robert Williams leads the photo team with 14 years of experience, mentoring staff and ensuring consistent, high-quality photographic services for all guests.",
+    "languages": [
+      "Portuguese",
+      "Japanese",
+      "German",
+      "Mandarin",
       "Russian",
       "English"
     ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "David Martinez",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Committed to inclusivity, David Martinez adapts programming to accommodate varying fitness levels and any physical limitations.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Martinez",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Leveraging 12 years of experience, Michael Martinez curates a portfolio of unique and authentic shore excursions that showcase the best of each port.",
-    "languages": [
-      "Japanese",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Davis",
-    "role": "Lead Photographer",
+    "name": "James Garcia",
+    "role": "Videographer",
     "department": "Photography & Videography",
-    "bio": "Sophia Davis leads the photo team with 5 years of experience, mentoring staff and ensuring consistent, high-quality photographic services for all guests.",
+    "bio": "With a strong understanding of narrative flow and audience engagement, James Garcia produces videos for promotional and archival purposes.",
     "languages": [
+      "Japanese",
+      "German",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Michael Smith",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "With 9 years in the digital realm, Michael Smith crafts compelling online stories and manages the ship's social media channels to connect with guests.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Sarah Garcia",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Drawing on 20 years as a medical leader, Sarah Garcia ensures the ship's medical facility operates to the highest international healthcare standards.",
+    "languages": [
+      "Japanese",
+      "French",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/96.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "David Garcia",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Dr. Garcia collaborates with medical officers and safety teams to uphold the highest health standards aboard.",
+    "languages": [
+      "Arabic",
+      "Italian",
+      "Spanish",
+      "Mandarin",
       "French",
       "English"
     ],
     "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "Emma Garcia",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Emma Garcia uses 11 years of editing expertise to transform raw footage into engaging narratives that resonate with passengers and promote future voyages.",
-    "languages": [
-      "French",
-      "Portuguese",
-      "German",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Jones",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "Known for technical proficiency and creative vision, Sarah Jones collaborates closely with marketing and entertainment teams to maximize reach and impact.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Jones",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Committed to preventive care, Olivia Jones promotes health education and wellness initiatives throughout the voyage.",
-    "languages": [
-      "Portuguese",
-      "Mandarin",
-      "French",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Johnson",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "Dr. Johnson provides comprehensive medical care with 18 years of expertise in maritime and travel medicine, addressing acute and chronic conditions onboard.",
-    "languages": [
-      "Russian",
-      "French",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/86.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Jones",
+    "name": "Sarah Davis",
     "role": "Nurse",
     "department": "Health & Safety",
-    "bio": "Olivia Jones delivers compassionate nursing care onboard, backed by 14 years of clinical practice in maritime and travel healthcare settings.",
+    "bio": "Nurse Davis supports the medical team by administering treatments, monitoring patient conditions, and maintaining comprehensive medical records.",
     "languages": [
-      "German",
-      "English"
+      "English",
+      "Spanish",
+      "Mandarin"
     ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "John Rodriguez",
+    "name": "Sarah Miller",
     "role": "Safety Officer",
     "department": "Health & Safety",
-    "bio": "John Rodriguez conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in undefined's maritime operations.",
+    "bio": "Leveraging 19 years in maritime safety, Sarah Miller excels at developing and implementing targeted safety training programs relevant to Middle East's specific operational hazards.",
     "languages": [
-      "Arabic",
-      "English"
+      "English",
+      "Mandarin",
+      "Spanish",
+      "German"
     ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/90.jpg",
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
     "name": "Maria Smith",
     "role": "Hospitality Director",
     "department": "Hospitality Department",
-    "bio": "Hospitality Director Smith orchestrates a seamless guest journey, from arrival to departure, leveraging 9 years of expertise in luxury service.",
+    "bio": "Hospitality Director Smith orchestrates a seamless guest journey, from arrival to departure, leveraging 12 years of expertise in luxury service.",
     "languages": [
-      "Portuguese",
       "German",
+      "Italian",
       "French",
       "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "John Martinez",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "With a passion for service excellence developed over 3 years, John Martinez leads the guest relations team to anticipate and exceed passenger expectations.",
+    "languages": [
+      "Arabic",
+      "Mandarin",
+      "Russian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
     "name": "Emma Martinez",
-    "role": "Guest Relations Manager",
+    "role": "Chief Steward",
     "department": "Hospitality Department",
-    "bio": "Emma Martinez coordinates guest services and resolves issues, leveraging 9 years of customer relations expertise.",
+    "bio": "With 9 years leading stewardship teams, Chief Steward Martinez meticulously manages cabin services, laundry operations, and public area upkeep.",
     "languages": [
+      "Mandarin",
       "Spanish",
-      "French",
+      "Russian",
+      "Italian",
       "English"
     ],
     "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/56.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "Michael Rodriguez",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Michael Rodriguez excels in inventory management for linens and amenities, maintaining premium standards across all staterooms and suites with 15 years of dedication.",
-    "languages": [
-      "French",
-      "Portuguese",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/98.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Williams",
+    "name": "John Jones",
     "role": "Senior Steward",
     "department": "Hospitality Department",
-    "bio": "Senior Steward Williams also assists in training junior stewards, sharing expertise gained from 13 years in maritime hospitality.",
+    "bio": "With 20 years of dedicated service, Senior Steward Jones ensures guest accommodations are impeccably maintained and personalized to preferences.",
     "languages": [
       "Russian",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/5.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "David Williams",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "Butler Williams provides personalized guest services, backed by 7 years of elite hospitality expertise.",
-    "languages": [
-      "Spanish",
-      "French",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Miller",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "Accommodation Manager Miller coordinates housekeeping and maintenance teams for optimal guest satisfaction.",
-    "languages": [
-      "Italian",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Smith",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "Housekeeping Supervisor Smith is committed to sustainability in cleaning practices, implementing eco-friendly procedures throughout their 12 years of service.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/74.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Martinez",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Maria Martinez assists guests with inquiries and special requests, drawing on 5 years in customer service roles.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Williams",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "Sarah Williams acts as a personal guide to onboard and onshore experiences, providing insider tips and tailored advice to create unique memories for guests.",
-    "languages": [
       "Portuguese",
-      "Arabic",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Williams",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Emma Williams is pivotal in managing high-traffic periods and resolving escalated guest concerns with professionalism and grace, reflecting 14 years in the field.",
-    "languages": [
-      "Mandarin",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Smith",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "VIP Coordinator Smith manages exclusive guest services, ensuring privacy and personalized attention throughout the voyage.",
-    "languages": [
-      "Mandarin",
-      "German",
       "French",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Smith",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Sarah Smith develops training programs to elevate hospitality team skills, with 14 years in workforce development.",
-    "languages": [
-      "Arabic",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/96.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "James Jones",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "With 11 years in fine dining, Chef Jones specializes in Caribbean flavors using locally sourced ingredients.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Davis",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "As second-in-command, Sous Chef Davis ensures seamless kitchen workflow and consistent dish quality, drawing on 13 years of hands-on Nordic experience.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Jones",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "Pastry Chef Jones crafts exquisite desserts with 12 years of baking and pastry artistry.",
-    "languages": [
-      "English",
-      "French",
-      "Japanese"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "John Davis",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Chef de Partie Davis manages specific kitchen stations with 16 years of focused culinary skill.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "John Smith",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Master of {cuisineSpecific} cuisine, John Smith creates authentic dishes that transport guests to undefined, drawing on 7 years of dedicated culinary exploration.",
-    "languages": [
       "Italian",
-      "Mandarin",
       "English"
     ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
     "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Jones",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Sushi Chef Jones prepares fresh and artistic sushi dishes, drawing on 8 years of Japanese culinary tradition.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Johnson",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "Sophia Johnson is responsible for creating visually stunning and delicious cold appetizers, canapés, and buffet displays, backed by 11 years of Mediterranean expertise.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/40.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Rodriguez",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Butcher Rodriguez manages meat inventory and advises chefs on the best cuts for specific culinary applications, drawing on 11 years of specialized knowledge.",
-    "languages": [
-      "French",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/21.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Johnson",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "With 14 years dedicated to the art of baking, Maria Johnson fills the ship with the aroma of freshly baked artisan breads, pastries, and viennoiserie.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "David Johnson",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Certified Sommelier Johnson navigates an extensive cellar to find the perfect wine for every palate and Caribbean, drawing on 8 years of oenological expertise.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
-    "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
     "name": "Robert Davis",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "With 5 years behind the bar, Robert Davis designs innovative signature cocktails and perfectly executes classic recipes using premium spirits and fresh ingredients.",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Butler Davis is a master of personal assistance, ensuring every detail of a guest's stay is flawless, reflecting 21 years in top-tier hospitality.",
     "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "James Garcia",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Barista Garcia prepares specialty coffees with precision, backed by 11 years in coffee service.",
-    "languages": [
-      "Spanish",
+      "German",
       "Italian",
-      "Japanese",
+      "Arabic",
       "English"
     ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/98.jpg",
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "Sarah Smith",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Sarah Smith collaborates with chefs to ensure nutritious and delicious meal options onboard.",
+    "name": "James Davis",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Accommodation Manager Davis coordinates housekeeping and maintenance teams for optimal guest satisfaction.",
+    "languages": [
+      "Arabic",
+      "Italian",
+      "English",
+      "German"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Maria Williams",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Williams leads cleaning teams, maintaining impeccable standards across all guest areas.",
     "languages": [
       "German",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Brown",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "With 8 years orchestrating spectacular onboard entertainment, Sophia Brown manages everything from Broadway-style shows to intimate musical performances and themed parties.",
-    "languages": [
-      "Portuguese",
       "French",
+      "Mandarin",
       "English"
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
     "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Williams",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Michael Williams's organizational skills, honed over 10 years, are crucial for maintaining a complex entertainment calendar and ensuring all performers are well-supported.",
-    "languages": [
-      "Spanish",
-      "German",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
-    "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
     "name": "John Davis",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "John Davis brings charisma and vocal expertise to the ship's entertainment lineup.",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "John Davis's communication skills, honed over 17 years, are key to creating positive first impressions and lasting guest satisfaction.",
     "languages": [
-      "English",
-      "Italian"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Jones",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "Musician Jones adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 19 years of diverse musical experience.",
-    "languages": [
+      "Arabic",
+      "Italian",
+      "French",
       "Mandarin",
+      "Japanese",
       "English"
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "Sophia Martinez",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Sophia Martinez engages audiences with versatile dance styles across entertainment programs.",
+    "name": "Michael Martinez",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "With an extensive network and 21 years of experience, Concierge Martinez arranges bespoke shore excursions, dining reservations, and special occasion services.",
     "languages": [
-      "English",
-      "Mandarin"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Jones",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Choreographer Jones creates captivating dance routines, blending creativity with 5 years of dance expertise.",
-    "languages": [
-      "Portuguese",
+      "French",
+      "Arabic",
       "English"
     ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
     "name": "John Smith",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Comedy Performer Smith delivers engaging and memorable stand-up routines onboard.",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Front Desk Manager Smith oversees reception operations, ensuring efficient guest check-in and issue resolution.",
     "languages": [
+      "English",
+      "French",
+      "Arabic"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Emma Martinez",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "VIP Coordinator Martinez manages exclusive guest services, ensuring privacy and personalized attention throughout the voyage.",
+    "languages": [
+      "Italian",
+      "French",
+      "English",
+      "Mandarin",
+      "Portuguese"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/21.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Emma Garcia",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "With 7 years of designing and delivering impactful training, Emma Garcia empowers staff with the knowledge and skills to provide outstanding service.",
+    "languages": [
+      "English",
+      "French",
+      "Mandarin"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/49.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Sarah Martinez",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Beyond crafting exquisite Japanese, Chef Martinez expertly manages kitchen hygiene, inventory, and food cost control, honed over 9 years in demanding culinary environments.",
+    "languages": [
+      "French",
+      "German",
+      "Japanese",
+      "Mandarin",
       "Spanish",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Martinez",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "Olivia Martinez brings a unique brand of enchantment to the ship's entertainment, drawing on 17 years of professional magic and a flair for theatrical presentation.",
-    "languages": [
-      "Russian",
-      "Portuguese",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/59.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Jones",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "With an extensive music library and 9 years of reading crowds, DJ Jones seamlessly blends genres to create the perfect soundtrack for any onboard event or nightclub.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
     "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/97.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "David Miller",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Audio Technician Miller manages sound systems and ensures optimal audio quality for performances onboard.",
+    "name": "Maria Johnson",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Sous Chef Johnson supports kitchen operations with 6 years of culinary expertise and leadership.",
     "languages": [
-      "Arabic",
+      "Portuguese",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Sarah Brown",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Pastry Chef Brown crafts exquisite desserts with 15 years of baking and pastry artistry.",
+    "languages": [
+      "German",
+      "Italian",
+      "Japanese",
       "English"
     ],
     "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/21.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "John Williams",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "John Williams's artistic vision and technical mastery over 8 years ensure that lighting plays a crucial role in the storytelling and excitement of onboard entertainment.",
+    "name": "James Garcia",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "James Garcia maintains immaculate standards of organization and hygiene at their station, contributing to the kitchen's overall efficiency with 21 years of discipline.",
     "languages": [
+      "Spanish",
       "Japanese",
+      "German",
+      "French",
       "Russian",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Sophia Johnson",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "With 11 years perfecting {cuisineSpecific} artistry, Sophia Johnson ensures each plate is a true representation of its cultural heritage and bold flavors.",
+    "languages": [
+      "Spanish",
+      "Italian",
+      "Russian",
+      "English",
+      "Arabic"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "James Jones",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "James Jones delights guests with traditional Edomae-style sushi and contemporary maki rolls, showcasing skills honed over 14 years of rigorous training.",
+    "languages": [
+      "Portuguese",
+      "Mandarin",
+      "German",
+      "Russian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/95.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Olivia Johnson",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Garde Manger Johnson ensures all cold food items are stored and handled with the utmost care, upholding critical food safety protocols over 8 years.",
+    "languages": [
+      "French",
+      "Spanish",
       "English"
     ],
     "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "Maria Miller",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "Maria Miller supervises stage operations and talent, drawing on 9 years of event management.",
-    "languages": [
-      "Spanish",
-      "Arabic",
-      "German",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/90.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "John Johnson",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "With 15 years managing complex theatrical and event productions, John Johnson oversees budgeting, scheduling, staffing, and technical riders for all entertainment.",
+    "name": "David Davis",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "David Davis maintains the highest standards of hygiene and technique in meat processing, a skill perfected over 7 years in professional butchery.",
     "languages": [
       "Russian",
+      "English",
       "German",
-      "English"
+      "Mandarin",
+      "Portuguese"
     ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "John Williams",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Costume Designer Williams creates unique and period-appropriate costumes, enhancing visual storytelling in performances.",
+    "name": "Maria Smith",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Baker Smith produces fresh breads and baked goods, leveraging 18 years of baking expertise.",
     "languages": [
+      "Russian",
+      "French",
+      "German",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Emma Williams",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Emma Williams enhances dining experiences by sourcing and recommending premium wines.",
+    "languages": [
+      "Russian",
+      "Japanese",
+      "French",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Olivia Brown",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Brown crafts creative cocktails, combining flavor expertise with 12 years of bartending skill.",
+    "languages": [
+      "Portuguese",
+      "Italian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Emma Brown",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Barista Brown prepares specialty coffees with precision, backed by 17 years in coffee service.",
+    "languages": [
+      "Mandarin",
+      "German",
       "Arabic",
       "English"
     ],
     "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "Emma Miller",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Emma Miller promotes diversity and cultural awareness through engaging onboard programming.",
+    "name": "John Smith",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "John Smith collaborates with chefs to ensure nutritious and delicious meal options onboard.",
     "languages": [
+      "French",
       "Spanish",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Brown",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "With 15 years pushing artistic boundaries, Maria Brown offers a distinctive and captivating addition to the ship's diverse entertainment offerings.",
-    "languages": [
-      "Portuguese",
-      "Russian",
       "English"
     ],
     "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "David Rodriguez",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Operations Manager Rodriguez is adept at problem-solving complex logistical challenges and implementing solutions that enhance overall ship performance and guest satisfaction.",
+    "name": "Robert Smith",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "With 5 years orchestrating spectacular onboard entertainment, Robert Smith manages everything from Broadway-style shows to intimate musical performances and themed parties.",
+    "languages": [
+      "Mandarin",
+      "French",
+      "Portuguese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Michael Rodriguez",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "With 5 years in arts administration, Michael Rodriguez expertly coordinates rehearsal schedules, venue allocations, and technical requirements for a multitude of acts.",
+    "languages": [
+      "Arabic",
+      "Japanese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "David Brown",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "With a versatile range and powerful stage presence developed over 10 years, Lead Vocalist Brown shines in genres from pop and rock to jazz and musical theatre.",
+    "languages": [
+      "Arabic",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Michael Williams",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "With 15 years entertaining audiences worldwide, Michael Williams creates an engaging atmosphere, taking requests and interacting with guests through the power of live music.",
+    "languages": [
+      "German",
+      "English",
+      "Russian",
+      "Spanish"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "James Rodriguez",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "James Rodriguez engages audiences with versatile dance styles across entertainment programs.",
+    "languages": [
+      "Italian",
+      "Arabic",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "John Garcia",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "John Garcia collaborates with costume and lighting designers to create a cohesive and visually stunning spectacle, drawing on 22 years of experience in stage production.",
+    "languages": [
+      "Portuguese",
+      "Japanese",
+      "Mandarin",
+      "French",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Emma Davis",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Emma Davis entertains guests with humor and timing, backed by 20 years in comedy performance.",
     "languages": [
       "Japanese",
+      "Arabic",
+      "English",
+      "French",
+      "Mandarin"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Robert Rodriguez",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Magic Act specialist Rodriguez combines masterful sleight of hand with engaging patter, creating an atmosphere of wonder and excitement during every {duration} show.",
+    "languages": [
+      "Portuguese",
+      "Russian",
+      "English",
+      "German"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Robert Miller",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "Robert Miller utilizes professional mixing skills and an energetic presence to ensure high-energy parties and memorable nights for guests, backed by 14 years of club experience.",
+    "languages": [
+      "Mandarin",
+      "French",
+      "Portuguese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Sophia Johnson",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Sophia Johnson's keen ear and technical proficiency, developed over 13 years, are essential for delivering immersive and high-quality auditory experiences.",
+    "languages": [
+      "Spanish",
+      "Japanese",
+      "Arabic",
+      "French",
       "Mandarin",
       "English"
     ],
     "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "Michael Garcia",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "Logistics Coordinator Garcia meticulously plans and tracks shipments, manages customs documentation, and optimizes storage solutions onboard.",
+    "name": "Olivia Garcia",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Olivia Garcia's artistic vision and technical mastery over 18 years ensure that lighting plays a crucial role in the storytelling and excitement of onboard entertainment.",
     "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
-    "city": "Dubai",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Garcia",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "Maria Garcia's analytical skills, honed over 18 years, are key to forecasting demand and optimizing stock levels across various departments.",
-    "languages": [
+      "Arabic",
+      "Russian",
       "Portuguese",
       "English"
     ],
     "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "Robert Martinez",
-    "role": "Procurement Officer",
+    "name": "Olivia Jones",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "With 22 years in professional stage management, Olivia Jones meticulously calls cues, manages backstage operations, and ensures the smooth running of every show.",
+    "languages": [
+      "French",
+      "Italian",
+      "Japanese",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Olivia Johnson",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Production Manager Johnson collaborates with creative teams and technical departments to bring ambitious show concepts to life, on time and within budget.",
+    "languages": [
+      "Arabic",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/21.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Olivia Miller",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Costume Designer Miller manages the entire costume lifecycle, from initial sketches and fabric sourcing to fittings and maintenance, ensuring every garment is show-ready.",
+    "languages": [
+      "Arabic",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Sarah Miller",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Sarah Miller promotes diversity and cultural awareness through engaging onboard programming.",
+    "languages": [
+      "Spanish",
+      "German",
+      "Italian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "A specialist in {artisticDiscipline}, Michael Miller presents breathtaking and thought-provoking performances honed over 7 years of dedicated artistic exploration.",
+    "languages": [
+      "Italian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Maria Smith",
+    "role": "Operations Manager",
     "department": "Operations Department",
-    "bio": "Procurement Officer Martinez sources and negotiates contracts for goods and services needed onboard.",
+    "bio": "Maria Smith oversees daily operations and coordinates departments to maintain smooth vessel functioning.",
+    "languages": [
+      "Russian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/88.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Robert Smith",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Logistics Coordinator Smith meticulously plans and tracks shipments, manages customs documentation, and optimizes storage solutions onboard.",
     "languages": [
       "Portuguese",
       "English"
     ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   },
   {
-    "name": "John Davis",
-    "role": "Sustainability Coordinator",
+    "name": "David Martinez",
+    "role": "Inventory Specialist",
     "department": "Operations Department",
-    "bio": "Sustainability Coordinator Davis ensures compliance with international environmental regulations (e.g., MARPOL) and promotes a culture of sustainability among crew and guests.",
+    "bio": "David Martinez's analytical skills, honed over 16 years, are key to forecasting demand and optimizing stock levels across various departments.",
     "languages": [
-      "German",
-      "Arabic",
+      "Spanish",
+      "Japanese",
+      "Mandarin",
       "English"
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
     "city": "Dubai",
-    "country": "Global"
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Emma Garcia",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "With 18 years in strategic sourcing, Emma Garcia identifies reliable suppliers and negotiates favorable terms for all shipboard necessities, from fuel to food.",
+    "languages": [
+      "English",
+      "Spanish",
+      "Japanese",
+      "German"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "name": "Maria Davis",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Maria Davis champions innovative eco-friendly technologies and practices, leveraging 17 years to enhance the vessel's environmental performance and reputation.",
+    "languages": [
+      "Mandarin",
+      "Arabic",
+      "Japanese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East"
   }
 ];

@@ -2,1296 +2,1515 @@ import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const kielTeamMembers: CrewMember[] = [
   {
-    "name": "John Davis",
+    "name": "David Williams",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "Drawing on 10 years of command, John Davis expertly manages all aspects of vessel operation in undefined, emphasizing crew development and operational excellence.",
-    "languages": [
-      "Russian",
-      "French",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Rodriguez",
-    "role": "First Officer",
-    "department": "Deck Department",
-    "bio": "Maria Rodriguez applies comprehensive knowledge of undefined's tides, currents, and weather patterns, contributing to efficient and safe ship navigation.",
-    "languages": [
-      "Portuguese",
-      "German",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "David Martinez",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "With a strong focus on electronic navigation and safety equipment, David Martinez brings 13 years of experience navigating undefined's challenging routes.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Garcia",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "Third Officer Garcia assists with cargo operations and ballast management, a key part of their 17 years of development in undefined.",
-    "languages": [
-      "German",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "David Miller",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "Navigation Officer Miller maintains detailed voyage records and monitors navigation aids, ensuring compliance with maritime regulations in undefined.",
-    "languages": [
-      "English",
-      "German"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Rodriguez",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "Sophia Rodriguez conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in undefined's maritime operations.",
-    "languages": [
-      "Italian",
-      "German",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Davis",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "Sophia Davis is an aspiring maritime professional with foundational training and practical experience in ship operations and navigation within undefined.",
+    "bio": "David Williams brings over 14 years of experience navigating Northern Europe's waters, specializing in coastal and offshore operations with a focus on safety and efficiency.",
     "languages": [
       "French",
-      "Spanish",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "David Brown",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Bosun Brown maintains the vessel's exterior appearance and structural integrity, a testament to 9 years of dedication in undefined.",
-    "languages": [
-      "Mandarin",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "James Brown",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "With 9 years at the helm of engineering departments, James Brown excels in vessel automation systems and guarantees adherence to strict environmental MARPOL regulations.",
-    "languages": [
-      "Mandarin",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Brown",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "First Engineer Brown manages spare parts inventory and oversees condition monitoring programs to prevent system failures.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Miller",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "With strong technical acumen, Michael Miller assists in crew training on engineering systems and emergency response procedures.",
-    "languages": [
-      "German",
-      "French",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Johnson",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Maria Johnson's expertise covers power distribution, electric propulsion components, and emergency backup systems, backed by 11 years in the field.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/19.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Williams",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "Mechanical Engineer Williams provides vital support in dry-docking operations, overseeing repairs and upgrades to mechanical systems based on 17 years of insight.",
-    "languages": [
-      "Spanish",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Brown",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "HVAC Engineer Brown ensures optimal climate control aboard vessels, leveraging 18 years of system optimization and energy efficiency knowledge.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Jones",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "With 12 years focused on sustainability, Sophia Jones develops and implements environmental protection measures aboard ships, ensuring regulatory compliance.",
-    "languages": [
-      "Italian",
-      "Arabic",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Davis",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "Sophia Davis manages system diagnostics and upgrades to improve vessel performance and crew operational efficiency.",
-    "languages": [
       "Japanese",
+      "Russian",
+      "Mandarin",
       "English"
     ],
     "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
     "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Rodriguez",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "Olivia Rodriguez manages technical operations, upgrades, and team leadership, leveraging 14 years in maritime technology and project management.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/97.jpg",
-    "city": "Kiel",
-    "country": "Global"
+    "country": "Germany",
+    "region": "Northern Europe"
   },
   {
     "name": "Olivia Jones",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Maintenance Engineer Jones applies 11 years of hands-on expertise maintaining and repairing shipboard mechanical and electrical equipment.",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "With 9 years of maritime expertise, Olivia Jones coordinates watchkeeping duties and emergency response, expertly navigating Northern Europe's waterways.",
     "languages": [
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/40.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Johnson",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Drawing on 13 years and a military background, Emma Johnson develops and executes sophisticated security plans tailored to high-risk maritime environments.",
-    "languages": [
-      "Spanish",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Garcia",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Robert Garcia conducts routine security patrols and enforces safety regulations, backed by 12 years in maritime security operations and incident response.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Brown",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Security Specialist Brown advises senior management on emerging security trends and implements best practices in security operations.",
-    "languages": [
-      "Portuguese",
+      "Japanese",
       "Mandarin",
       "Spanish",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "James Martinez",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Leveraging 10 years in cyber defense, James Martinez specializes in securing operational technology (OT) unique to maritime assets.",
-    "languages": [
-      "Spanish",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "James Davis",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "With strong organizational skills, James Davis maintains detailed records and reports to support continuous security improvement.",
-    "languages": [
-      "German",
-      "French",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/88.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "James Williams",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Access Control Officer Williams plays a crucial role in gangway security and managing visitor identification processes, a responsibility held for 14 years.",
-    "languages": [
-      "Japanese",
-      "Arabic",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Martinez",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Safety Compliance Officer Martinez is an expert in ISM, ISPS, and MLC compliance, bringing 18 years of dedicated focus to these areas.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/97.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "John Williams",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "With a passion for youth development, John Williams crafts innovative activities fostering learning, social growth, and cultural awareness during voyages.",
-    "languages": [
-      "German",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "James Williams",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "James Williams, with 8 years of experience, excels in logistics and planning, ensuring every family event runs smoothly and delights guests.",
-    "languages": [
       "Russian",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "John Garcia",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Children's Entertainment Specialist Garcia collaborates with youth program teams to develop diverse content promoting creativity and social interaction.",
-    "languages": [
-      "Italian",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "John Smith",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Teen Activities Coordinator Smith fosters positive social environments with interactive, age-appropriate activities that encourage peer bonding.",
-    "languages": [
-      "German",
       "English"
     ],
     "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
     "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Garcia",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Known for strong organizational skills, Michael Garcia evaluates program effectiveness and implements improvements based on passenger feedback.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Martinez",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Child Care Specialist Martinez promotes social and emotional development through structured play and educational activities.",
-    "languages": [
-      "German",
-      "Arabic",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Garcia",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "With a focus on guest engagement and satisfaction, Michael Garcia designs diverse activity schedules that cater to a wide range of interests and age groups onboard.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "John Brown",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "John Brown teaches water sports safely and effectively, leveraging 19 years of professional instruction and certification in aquatic activities.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Williams",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Drawing on 6 years of expertise, Robert Williams offers specialized classes like yoga, Pilates, and high-intensity interval training (HIIT).",
-    "languages": [
-      "Mandarin",
-      "Arabic",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "David Williams",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Known for excellent problem-solving, David Williams adapts plans efficiently to address unexpected challenges or changing conditions.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "With extensive experience in portrait, event, and environmental photography, Robert Smith ensures high-quality imagery that reflects the voyage’s unique character.",
-    "languages": [
-      "German",
-      "Mandarin",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Johnson",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Videographer Johnson is skilled in aerial videography and underwater filming, adding unique perspectives to cruise documentation over 14 years.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "David Smith",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "David Smith manages digital content and multimedia production, applying 15 years in digital media, marketing, and audience engagement strategies.",
-    "languages": [
-      "Portuguese",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Garcia",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Chief Medical Officer Garcia leads all medical operations onboard, leveraging 19 years of clinical and maritime healthcare expertise to ensure passenger and crew wellbeing.",
-    "languages": [
-      "Spanish",
-      "Arabic",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "John Williams",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "Dr. Williams collaborates with medical officers and safety teams to uphold the highest health standards aboard.",
-    "languages": [
-      "Italian",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Davis",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Nurse Davis provides empathetic and skilled assistance, ensuring patient comfort and adherence to strict hygiene and infection control protocols.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Davis",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Safety Officer Davis works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
-    "languages": [
-      "Arabic",
-      "Russian",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Jones",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "Emma Jones is dedicated to fostering a welcoming and memorable atmosphere for all guests, drawing upon 9 years of cultivating outstanding hospitality teams.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Martinez",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "Sarah Martinez coordinates guest services and resolves issues, leveraging 5 years of customer relations expertise.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/30.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Davis",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "With 14 years leading stewardship teams, Chief Steward Davis meticulously manages cabin services, laundry operations, and public area upkeep.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "John Garcia",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "Senior Steward Garcia delivers attentive guest services and supports stewardship operations, drawing on 18 years onboard.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "David Rodriguez",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "Butler Rodriguez provides personalized guest services, backed by 8 years of elite hospitality expertise.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Garcia",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "Accommodation Manager Garcia coordinates housekeeping and maintenance teams for optimal guest satisfaction.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "John Smith",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "Housekeeping Supervisor Smith is committed to sustainability in cleaning practices, implementing eco-friendly procedures throughout their 11 years of service.",
-    "languages": [
-      "Russian",
-      "Arabic",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Brown",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Guest Services Specialist Brown efficiently handles onboard account management, reservations for activities, and general assistance with a friendly and professional demeanor.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Martinez",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "Sarah Martinez acts as a personal guide to onboard and onshore experiences, providing insider tips and tailored advice to create unique memories for guests.",
-    "languages": [
-      "Portuguese",
-      "Japanese",
-      "French",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/29.jpg",
-    "city": "Kiel",
-    "country": "Global"
+    "country": "Germany",
+    "region": "Northern Europe"
   },
   {
     "name": "Sarah Jones",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Sarah Jones leads front office teams with a focus on excellent customer service and operational efficiency.",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "Utilizing 21 years of expertise, Sarah Jones meticulously maintains navigational charts and publications crucial for safe transit in Northern Europe.",
     "languages": [
-      "German",
+      "Spanish",
+      "Japanese",
+      "French",
+      "Portuguese",
       "English"
     ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
     "city": "Kiel",
-    "country": "Global"
+    "country": "Germany",
+    "region": "Northern Europe"
   },
   {
     "name": "Sophia Jones",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "With 14 years catering to high-profile clientele, Sophia Jones curates bespoke itineraries and ensures flawless execution of all VIP arrangements.",
-    "languages": [
-      "Russian",
-      "French",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "James Miller",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Hospitality Trainer Miller specializes in areas like luxury service standards, complaint resolution, and upselling techniques, drawing on 16 years of industry best practices.",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "As a vigilant watchkeeper, Sophia Jones has 6 years supporting navigation, safety drills, and emergency procedures aboard vessels in Northern Europe.",
     "languages": [
       "Arabic",
+      "Russian",
+      "Spanish",
+      "Portuguese",
+      "German",
       "English"
     ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
     "city": "Kiel",
-    "country": "Global"
+    "country": "Germany",
+    "region": "Northern Europe"
   },
   {
-    "name": "Michael Garcia",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "With 17 years in fine dining, Chef Garcia specializes in Asian fusion flavors using locally sourced ingredients.",
+    "name": "Olivia Brown",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Olivia Brown plays a key role in training junior officers on Northern Europe-specific navigational challenges and best practices, backed by 3 years of experience.",
     "languages": [
+      "German",
+      "French",
+      "Mandarin",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/90.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "James Garcia",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Safety Officer Garcia works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
+    "languages": [
+      "Arabic",
+      "Spanish",
+      "French",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "James Johnson",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "James Johnson supports deck crew activities while developing skills in seamanship, navigation, and emergency response tailored to Northern Europe's maritime environment.",
+    "languages": [
+      "English",
+      "German",
+      "Arabic",
+      "Russian",
+      "Japanese",
+      "Spanish"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/92.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Sarah Davis",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Leveraging 10 years of seamanship, Bosun Davis is an expert in rigging, anchoring, and all aspects of deck machinery operation in Northern Europe.",
+    "languages": [
+      "Spanish",
+      "German",
+      "Russian",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "David Smith",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "David Smith oversees all vessel systems with 10 years of expertise in maritime engineering, specializing in propulsion systems and ensuring compliance with safety and environmental regulations.",
+    "languages": [
+      "Russian",
+      "German",
       "Spanish",
       "Japanese",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/95.jpg",
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
     "city": "Kiel",
-    "country": "Global"
+    "country": "Germany",
+    "region": "Northern Europe"
   },
   {
-    "name": "Sarah Miller",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "Sarah Miller excels in menu execution and team management to maintain high culinary standards.",
+    "name": "Sophia Johnson",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "With a focus on propulsion and power systems, Sophia Johnson applies 4 years of expertise to optimize engine performance and troubleshoot complex mechanical issues.",
     "languages": [
       "Arabic",
+      "Portuguese",
+      "Italian",
+      "Mandarin",
       "English"
     ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/95.jpg",
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
     "city": "Kiel",
-    "country": "Global"
+    "country": "Germany",
+    "region": "Northern Europe"
   },
   {
-    "name": "John Brown",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "John Brown manages the pastry section, from artisan breads to elaborate cakes and plated desserts, ensuring exceptional quality over 10 years.",
-    "languages": [
-      "English",
-      "Mandarin"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Smith",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Chef de Partie Smith manages specific kitchen stations with 16 years of focused culinary skill.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Brown",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Specialty Chef Brown curates exclusive menus for themed dining venues, showcasing 8 years of passion for {cuisineSpecific} traditions and techniques.",
+    "name": "Robert Johnson",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "With strong technical acumen, Robert Johnson assists in crew training on engineering systems and emergency response procedures.",
     "languages": [
       "Mandarin",
+      "Japanese",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Emma Williams",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Emma Williams implements energy-saving technologies and complies with international standards for electrical safety aboard ships.",
+    "languages": [
+      "Spanish",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/49.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Mechanical Engineer Johnson specializes in propulsion, HVAC, and auxiliary machinery with 5 years ensuring operational efficiency and reliability.",
+    "languages": [
+      "Italian",
+      "Mandarin",
+      "English",
+      "Arabic"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Olivia Miller",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "Drawing on 19 years, Olivia Miller is proficient in troubleshooting and repairing complex refrigeration plants and air handling units.",
+    "languages": [
+      "German",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/97.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Sophia Davis",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Environmental Engineer Davis manages the ship's garbage management plan and oversees the operation of pollution prevention equipment, with 20 years of dedication.",
+    "languages": [
+      "Italian",
+      "Arabic",
       "French",
+      "German",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Robert Smith",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Systems Engineer Smith leads technical solutions for navigation, communication, automation, and control systems with 8 years of service.",
+    "languages": [
+      "Arabic",
+      "Mandarin",
+      "Russian",
       "English"
     ],
     "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/99.jpg",
     "city": "Kiel",
-    "country": "Global"
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "With a strategic overview honed over 20 years, Michael Miller directs fleet-wide technical policies and ensures best practices are implemented.",
+    "languages": [
+      "Spanish",
+      "Mandarin",
+      "Portuguese",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "John Jones",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Maintenance Engineer Jones applies 18 years of hands-on expertise maintaining and repairing shipboard mechanical and electrical equipment.",
+    "languages": [
+      "Italian",
+      "French",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Robert Brown",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "With 21 years in maritime security, Robert Brown ensures comprehensive protection for passengers, crew, and assets through proactive strategy and coordination.",
+    "languages": [
+      "Mandarin",
+      "Italian",
+      "English",
+      "French"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "With 10 years on watch, Michael Miller is adept at identifying suspicious activities and ensuring adherence to the ship's security plan.",
+    "languages": [
+      "Portuguese",
+      "French",
+      "Spanish",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Michael Rodriguez",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Known for analytical expertise, Michael Rodriguez conducts vulnerability assessments and designs contingency plans to address evolving threats.",
+    "languages": [
+      "French",
+      "Japanese",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/87.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "John Garcia",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Known for proactive defense strategies, John Garcia continuously monitors network activity and coordinates responses to cyber incidents onboard.",
+    "languages": [
+      "Arabic",
+      "Russian",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Emma Johnson",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Maritime Security Coordinator Johnson facilitates seamless security operations between ship and shore, a skill honed over 13 years of dedicated service.",
+    "languages": [
+      "Spanish",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Olivia Martinez",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Access Control Officer Martinez plays a crucial role in gangway security and managing visitor identification processes, a responsibility held for 11 years.",
+    "languages": [
+      "Arabic",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Robert Johnson works closely with regulatory bodies to ensure the vessel meets all international safety conventions and company policies.",
+    "languages": [
+      "Italian",
+      "French",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/98.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Olivia Rodriguez",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "With 21 years shaping children's experiences at sea, Olivia Rodriguez excels at creating memorable and enriching programs for all age groups.",
+    "languages": [
+      "Portuguese",
+      "Japanese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/29.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Michael Martinez",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Michael Martinez, with 13 years of experience, excels in logistics and planning, ensuring every family event runs smoothly and delights guests.",
+    "languages": [
+      "Japanese",
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Olivia Miller",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "With strong interpersonal skills, Olivia Miller ensures a safe and welcoming environment for all child participants.",
+    "languages": [
+      "Mandarin",
+      "Portuguese",
+      "Arabic",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/94.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "James Davis",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "James Davis develops dynamic programs catering to teenage guests, drawing on 13 years of youth facilitation and event management expertise.",
+    "languages": [
+      "Mandarin",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Sarah Garcia",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Focused on accessibility, Sarah Garcia ensures programs accommodate different learning styles and abilities for broad passenger appeal.",
+    "languages": [
+      "Portuguese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/30.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "John Williams",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Known for patience and professionalism, John Williams communicates effectively with parents and crew to support child wellbeing.",
+    "languages": [
+      "Russian",
+      "German",
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Sarah Rodriguez",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Sarah Rodriguez, with 6 years in the cruise industry, expertly blends classic cruise activities with fresh, innovative entertainment options.",
+    "languages": [
+      "Spanish",
+      "Japanese",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "John Rodriguez",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Water Sports Instructor Rodriguez ensures guests enjoy safe, fun, and memorable water-based experiences while strictly adhering to safety protocols.",
+    "languages": [
+      "Portuguese",
+      "English",
+      "Arabic",
+      "French"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Olivia Johnson",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Committed to inclusivity, Olivia Johnson adapts programming to accommodate varying fitness levels and any physical limitations.",
+    "languages": [
+      "Mandarin",
+      "German",
+      "French",
+      "Spanish",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "James Smith",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Leveraging 21 years of experience, James Smith curates a portfolio of unique and authentic shore excursions that showcase the best of each port.",
+    "languages": [
+      "Russian",
+      "Arabic",
+      "Italian",
+      "English",
+      "Spanish"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Sarah Garcia",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Drawing on 5 years behind the lens, Sarah Garcia expertly captures the essence of the cruise experience, from grand events to intimate moments.",
+    "languages": [
+      "Russian",
+      "Portuguese",
+      "English",
+      "Japanese",
+      "Spanish"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Sarah Brown",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Sarah Brown uses 13 years of editing expertise to transform raw footage into engaging narratives that resonate with passengers and promote future voyages.",
+    "languages": [
+      "French",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Sophia Smith",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Sophia Smith uses 22 years of experience to leverage emerging digital trends, enhancing guest communication and brand visibility online.",
+    "languages": [
+      "English",
+      "Arabic",
+      "Italian"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Emma Martinez",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Chief Medical Officer Martinez leads all medical operations onboard, leveraging 9 years of clinical and maritime healthcare expertise to ensure passenger and crew wellbeing.",
+    "languages": [
+      "Mandarin",
+      "English",
+      "Russian"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/76.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Robert Martinez",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Dr. Martinez provides comprehensive medical care with 3 years of expertise in maritime and travel medicine, addressing acute and chronic conditions onboard.",
+    "languages": [
+      "Japanese",
+      "Russian",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "John Jones",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "With 3 years of experience, John Jones is proficient in emergency care, routine medical procedures, and health education for passengers and crew.",
+    "languages": [
+      "French",
+      "German",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Olivia Jones",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Olivia Jones conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in Northern Europe's maritime operations.",
+    "languages": [
+      "Arabic",
+      "Spanish",
+      "Mandarin",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
   },
   {
     "name": "David Miller",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Sushi Chef Miller manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 6 years of Japanese culinary excellence.",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Director Miller orchestrates a seamless guest journey, from arrival to departure, leveraging 19 years of expertise in luxury service.",
+    "languages": [
+      "Italian",
+      "Japanese",
+      "French",
+      "German",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Maria Williams",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Guest Relations Manager Williams enhances passenger satisfaction through attentive and personalized service.",
     "languages": [
       "Portuguese",
       "Japanese",
       "English"
     ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
     "city": "Kiel",
-    "country": "Global"
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Maria Johnson",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Maria Johnson excels in inventory management for linens and amenities, maintaining premium standards across all staterooms and suites with 4 years of dedication.",
+    "languages": [
+      "Mandarin",
+      "Japanese",
+      "Spanish",
+      "French",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/94.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Sarah Davis",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Sarah Davis is skilled in managing cabin maintenance and guest requests with professionalism and care.",
+    "languages": [
+      "French",
+      "German",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/51.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "James Jones",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "James Jones crafts unforgettable moments for discerning guests, drawing on 9 years of experience in curating exclusive and seamless luxury service.",
+    "languages": [
+      "English",
+      "Russian",
+      "German"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Maria Davis",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "With 14 years managing large-scale accommodation facilities, Maria Davis ensures all guest cabins and public areas meet exacting standards of cleanliness and repair.",
+    "languages": [
+      "Japanese",
+      "Italian",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/40.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Emma Garcia",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Emma Garcia ensures smooth operations and staff training, supported by 5 years in hospitality management.",
+    "languages": [
+      "Italian",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/36.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Maria Davis",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Guest Services Specialist Davis efficiently handles onboard account management, reservations for activities, and general assistance with a friendly and professional demeanor.",
+    "languages": [
+      "Portuguese",
+      "Italian",
+      "English",
+      "Russian",
+      "Spanish"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Sophia Garcia",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Concierge Garcia's dedication over 21 years ensures every guest request, no matter how unique, is handled with sophistication and efficiency.",
+    "languages": [
+      "English",
+      "Japanese"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Olivia Rodriguez",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Olivia Rodriguez leads front office teams with a focus on excellent customer service and operational efficiency.",
+    "languages": [
+      "Spanish",
+      "Portuguese",
+      "German",
+      "French",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Sarah Martinez",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "Sarah Martinez designs and executes VIP programs that exceed the highest standards of luxury and discretion.",
+    "languages": [
+      "Portuguese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/36.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Olivia Garcia",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Olivia Garcia conducts needs assessments and measures training effectiveness to ensure continuous improvement across all hospitality departments, reflecting 6 years in adult learning.",
+    "languages": [
+      "Italian",
+      "Portuguese",
+      "Russian",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Sophia Martinez",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Chef Martinez creates exceptional Mediterranean cuisine with 17 years of culinary expertise from around the world.",
+    "languages": [
+      "Italian",
+      "Mandarin",
+      "Japanese",
+      "Arabic",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/94.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Sarah Martinez",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Sous Chef Martinez supports kitchen operations with 19 years of culinary expertise and leadership.",
+    "languages": [
+      "Japanese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Michael Brown",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Specializing in delicate Mediterranean pastries and innovative dessert creations, Pastry Chef Brown brings 12 years of refined skill to the culinary team.",
+    "languages": [
+      "Russian",
+      "Mandarin",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Michael Brown",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "With 14 years as a section chef, Michael Brown is responsible for stock control and guiding commis chefs within their designated area of the Japanese kitchen.",
+    "languages": [
+      "Japanese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "David Brown",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "With 3 years perfecting {cuisineSpecific} artistry, David Brown ensures each plate is a true representation of its cultural heritage and bold flavors.",
+    "languages": [
+      "Italian",
+      "English",
+      "Arabic",
+      "Spanish",
+      "Russian"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "John Williams",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "With 3 years dedicated to the art of sushi and sashimi, Chef Williams meticulously selects the freshest seafood and crafts each piece with mastery.",
+    "languages": [
+      "Portuguese",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
   },
   {
     "name": "Michael Miller",
     "role": "Garde Manger",
     "department": "Culinary Department",
-    "bio": "Garde Manger Miller expertly prepares cold dishes and appetizers with 6 years of culinary proficiency.",
+    "bio": "With 19 years specializing in charcuterie, salads, and elaborate cold platters, Chef Miller brings artistry and precision to the Garde Manger station.",
     "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "David Rodriguez",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "David Rodriguez maintains the highest standards of hygiene and technique in meat processing, a skill perfected over 18 years in professional butchery.",
-    "languages": [
-      "Japanese",
+      "Mandarin",
       "German",
       "English"
     ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Williams",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "Baker Williams meticulously prepares a wide array of French-inspired and classic baked goods daily, showcasing skills honed over 17 years.",
-    "languages": [
-      "German",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 17,
+    "experienceYears": 19,
     "profileImage": "https://randomuser.me/api/portraits/men/90.jpg",
     "city": "Kiel",
-    "country": "Global"
+    "country": "Germany",
+    "region": "Northern Europe"
   },
   {
-    "name": "Emma Brown",
-    "role": "Sommelier",
+    "name": "Sarah Garcia",
+    "role": "Butcher",
     "department": "Culinary Department",
-    "bio": "Certified Sommelier Brown navigates an extensive cellar to find the perfect wine for every palate and Nordic, drawing on 19 years of oenological expertise.",
+    "bio": "Butcher Garcia manages meat inventory and advises chefs on the best cuts for specific culinary applications, drawing on 15 years of specialized knowledge.",
     "languages": [
+      "Portuguese",
       "French",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "James Martinez",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "With 10 years behind the bar, James Martinez designs innovative signature cocktails and perfectly executes classic recipes using premium spirits and fresh ingredients.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Brown",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Barista Brown prepares specialty coffees with precision, backed by 18 years in coffee service.",
-    "languages": [
+      "Japanese",
       "Mandarin",
+      "German",
       "English"
     ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
     "city": "Kiel",
-    "country": "Global"
+    "country": "Germany",
+    "region": "Northern Europe"
   },
   {
-    "name": "Olivia Martinez",
-    "role": "Nutritionist",
+    "name": "Sarah Smith",
+    "role": "Baker",
     "department": "Culinary Department",
-    "bio": "Olivia Martinez collaborates with chefs to ensure nutritious and delicious meal options onboard.",
+    "bio": "Sarah Smith combines traditional techniques with innovation to delight guests with baked specialties.",
     "languages": [
-      "Italian",
-      "Portuguese",
       "Arabic",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/92.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Miller",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "Entertainment Director Miller leads a dynamic team of performers and technicians, ensuring flawless execution and high-energy engagement across all venues, backed by 10 years of industry leadership.",
-    "languages": [
+      "French",
       "Russian",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Williams",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Performance Coordinator Williams serves as the key liaison between artists, production staff, and management, ensuring clear communication and efficient problem-solving.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Brown",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "As a key figure in production shows, Lead Vocalist Brown collaborates with the cast and creative team, bringing 19 years of professional discipline and artistry.",
-    "languages": [
-      "Spanish",
-      "Portuguese",
       "Mandarin",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "David Johnson",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "With 5 years entertaining audiences worldwide, David Johnson creates an engaging atmosphere, taking requests and interacting with guests through the power of live music.",
-    "languages": [
-      "Spanish",
-      "Mandarin",
-      "Portuguese",
       "English"
     ],
     "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
     "city": "Kiel",
-    "country": "Global"
+    "country": "Germany",
+    "region": "Northern Europe"
   },
   {
-    "name": "John Martinez",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "With 13 years of professional training in {danceStyle} and contemporary dance, John Martinez executes complex choreography with precision and artistry in mainstage productions.",
+    "name": "Sarah Jones",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Certified Sommelier Jones navigates an extensive cellar to find the perfect wine for every palate and Italian, drawing on 8 years of oenological expertise.",
     "languages": [
+      "French",
+      "Spanish",
       "Italian",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Sophia Jones",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Sophia Jones manages bar inventory and contributes to menu development, ensuring a sophisticated and exciting beverage program, backed by 13 years in the art of mixology.",
+    "languages": [
+      "French",
       "Japanese",
       "English"
     ],
     "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/97.jpg",
     "city": "Kiel",
-    "country": "Global"
+    "country": "Germany",
+    "region": "Northern Europe"
   },
   {
-    "name": "John Rodriguez",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "John Rodriguez collaborates with costume and lighting designers to create a cohesive and visually stunning spectacle, drawing on 19 years of experience in stage production.",
+    "name": "James Johnson",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "James Johnson provides friendly and efficient service at the coffee bar, sharing knowledge and passion for specialty coffee honed over 17 years.",
     "languages": [
+      "Portuguese",
       "German",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Williams",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Sophia Williams's ability to connect with the audience and improvise, developed over 8 years, makes each show a unique and highly enjoyable experience.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Jones",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "With 5 years honing the art of illusion, Robert Jones performs mind-bending feats of magic, from close-up tricks to grand stage illusions, delighting guests of all ages.",
-    "languages": [
-      "Japanese",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Jones",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "With an extensive music library and 19 years of reading crowds, DJ Jones seamlessly blends genres to create the perfect soundtrack for any onboard event or nightclub.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/33.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Brown",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Audio Technician Brown expertly operates and maintains complex soundboards, microphones, and speaker systems, ensuring every note and word is perfectly heard.",
-    "languages": [
-      "German",
+      "Mandarin",
       "Italian",
-      "Japanese",
       "English"
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
     "city": "Kiel",
-    "country": "Global"
+    "country": "Germany",
+    "region": "Northern Europe"
   },
   {
-    "name": "Maria Johnson",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "Maria Johnson applies 5 years of technical skill to create immersive visual experiences.",
+    "name": "Maria Garcia",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Nutritionist Garcia works closely with the culinary team to create wholesome Latin American options that are both flavorful and aligned with wellness goals, drawing on 20 years of expertise.",
     "languages": [
-      "German",
+      "French",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Sophia Garcia",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Entertainment Director Garcia curates diverse programming to engage and delight guests throughout voyages.",
+    "languages": [
       "Portuguese",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/67.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Smith",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "Maria Smith's calm under pressure and attention to detail, honed over 15 years, are vital for delivering complex, multi-layered performances without a hitch.",
-    "languages": [
-      "Japanese",
+      "Mandarin",
       "German",
+      "Japanese",
       "French",
       "English"
     ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/98.jpg",
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/74.jpg",
     "city": "Kiel",
-    "country": "Global"
+    "country": "Germany",
+    "region": "Northern Europe"
   },
   {
-    "name": "Sophia Miller",
-    "role": "Production Manager",
+    "name": "Sarah Martinez",
+    "role": "Performance Coordinator",
     "department": "Entertainment Department",
-    "bio": "With 8 years managing complex theatrical and event productions, Sophia Miller oversees budgeting, scheduling, staffing, and technical riders for all entertainment.",
+    "bio": "Sarah Martinez manages scheduling and logistics for performers, ensuring smooth entertainment operations onboard.",
     "languages": [
-      "Arabic",
       "Portuguese",
-      "English"
+      "English",
+      "Russian",
+      "German"
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/49.jpg",
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/37.jpg",
     "city": "Kiel",
-    "country": "Global"
+    "country": "Germany",
+    "region": "Northern Europe"
   },
   {
-    "name": "Michael Williams",
-    "role": "Costume Designer",
+    "name": "Robert Garcia",
+    "role": "Lead Vocalist",
     "department": "Entertainment Department",
-    "bio": "With 16 years of experience in theatrical costume design, Michael Williams conceives and produces stunning wardrobes that define characters and elevate productions.",
+    "bio": "Robert Garcia consistently delivers show-stopping performances, connecting with audiences through emotive storytelling and exceptional vocal talent honed across 16 years on stage.",
     "languages": [
-      "Portuguese",
+      "Russian",
+      "Japanese",
+      "Mandarin",
       "Italian",
       "English"
     ],
     "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
     "city": "Kiel",
-    "country": "Global"
+    "country": "Germany",
+    "region": "Northern Europe"
   },
   {
-    "name": "Olivia Williams",
-    "role": "Cultural Program Director",
+    "name": "Michael Brown",
+    "role": "Musician",
     "department": "Entertainment Department",
-    "bio": "Olivia Williams promotes diversity and cultural awareness through engaging onboard programming.",
+    "bio": "A master of the {instrument}, Michael Brown brings 22 years of versatile musicianship, performing solo or as part of an ensemble in various ship venues.",
     "languages": [
-      "Mandarin",
-      "Spanish",
+      "Italian",
+      "Arabic",
+      "French",
+      "Portuguese",
       "English"
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
     "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Davis",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "Sarah Davis captivates audiences with original performances tailored to shipboard entertainment.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/29.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Miller",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Emma Miller plays a crucial role in port operations coordination, safety compliance oversight, and emergency response planning, backed by 9 years of maritime expertise.",
-    "languages": [
-      "English",
-      "Japanese",
-      "Arabic"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/26.jpg",
-    "city": "Kiel",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Brown",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "Robert Brown leverages 12 years in logistics to optimize onboard operations.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/87.jpg",
-    "city": "Kiel",
-    "country": "Global"
+    "country": "Germany",
+    "region": "Northern Europe"
   },
   {
     "name": "Maria Johnson",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "Maria Johnson ensures accurate inventory control using advanced management systems.",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Maria Johnson is a dedicated member of the ensemble, contributing to high-energy production numbers and themed events, showcasing 9 years of professional dance experience.",
     "languages": [
-      "French",
+      "Arabic",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/67.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Sophia Miller collaborates with costume and lighting designers to create a cohesive and visually stunning spectacle, drawing on 13 years of experience in stage production.",
+    "languages": [
+      "Japanese",
+      "Arabic",
+      "Spanish",
+      "German",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "With a sharp wit and 20 years on the comedy circuit, Sophia Miller offers hilarious observational humor and storytelling that resonates with diverse audiences.",
+    "languages": [
+      "German",
+      "Japanese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/91.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Sophia Williams",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Sophia Williams brings a unique brand of enchantment to the ship's entertainment, drawing on 10 years of professional magic and a flair for theatrical presentation.",
+    "languages": [
+      "Spanish",
+      "English",
+      "Italian"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Sarah Smith",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "Sarah Smith utilizes professional mixing skills and an energetic presence to ensure high-energy parties and memorable nights for guests, backed by 18 years of club experience.",
+    "languages": [
+      "Japanese",
+      "Russian",
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Olivia Williams",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "With 19 years of experience in mixing live sound for theatre, music, and events, Olivia Williams guarantees crystal-clear audio for all onboard productions.",
+    "languages": [
+      "Japanese",
+      "Italian",
       "English"
     ],
     "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
     "city": "Kiel",
-    "country": "Global"
+    "country": "Germany",
+    "region": "Northern Europe"
   },
   {
     "name": "Michael Williams",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "With 15 years in strategic sourcing, Michael Williams identifies reliable suppliers and negotiates favorable terms for all shipboard necessities, from fuel to food.",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Lighting Specialist Williams designs and operates lighting systems to enhance onboard shows and events.",
     "languages": [
+      "Russian",
+      "Portuguese",
+      "Mandarin",
+      "French",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Maria Rodriguez",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Stage Manager Rodriguez is the organizational backbone of the production, liaising between performers, technicians, and the director to maintain artistic integrity and timing.",
+    "languages": [
+      "French",
+      "English",
+      "Arabic",
+      "Russian"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/51.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Robert Miller",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Robert Miller's strategic planning and problem-solving skills, developed over 8 years, are crucial for the successful execution of a high-quality entertainment program.",
+    "languages": [
+      "French",
+      "Japanese",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "John Jones",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "John Jones's artistic flair and attention to historical detail, honed over 20 years, bring visual richness and authenticity to the stage.",
+    "languages": [
+      "Japanese",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Emma Martinez",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Emma Martinez promotes diversity and cultural awareness through engaging onboard programming.",
+    "languages": [
+      "Russian",
+      "Japanese",
+      "English",
+      "French",
+      "German"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Olivia Johnson",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "A specialist in {artisticDiscipline}, Olivia Johnson presents breathtaking and thought-provoking performances honed over 19 years of dedicated artistic exploration.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Sophia Garcia",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Sophia Garcia plays a crucial role in port operations coordination, safety compliance oversight, and emergency response planning, backed by 14 years of maritime expertise.",
+    "languages": [
+      "German",
+      "Arabic",
+      "Portuguese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Robert Miller",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Robert Miller leverages 15 years in logistics to optimize onboard operations.",
+    "languages": [
+      "Mandarin",
+      "Japanese",
+      "French",
+      "Russian",
       "Portuguese",
       "English"
     ],
     "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/92.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
     "city": "Kiel",
-    "country": "Global"
+    "country": "Germany",
+    "region": "Northern Europe"
   },
   {
-    "name": "Sophia Rodriguez",
-    "role": "Sustainability Coordinator",
+    "name": "Sarah Brown",
+    "role": "Inventory Specialist",
     "department": "Operations Department",
-    "bio": "With 11 years dedicated to environmental stewardship in the maritime sector, Sophia Rodriguez develops and manages programs for waste reduction, recycling, and energy conservation.",
+    "bio": "Sarah Brown ensures accurate inventory control using advanced management systems.",
     "languages": [
-      "Portuguese",
-      "Japanese",
+      "German",
+      "Arabic",
+      "English",
+      "French",
+      "Japanese"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/33.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "Maria Garcia",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Maria Garcia's sharp negotiation skills and 3 years of experience contribute significantly to controlling operational costs while maintaining quality standards.",
+    "languages": [
+      "Mandarin",
+      "German",
       "English"
     ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
     "city": "Kiel",
-    "country": "Global"
+    "country": "Germany",
+    "region": "Northern Europe"
+  },
+  {
+    "name": "James Rodriguez",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "James Rodriguez champions innovative eco-friendly technologies and practices, leveraging 15 years to enhance the vessel's environmental performance and reputation.",
+    "languages": [
+      "French",
+      "English",
+      "Japanese"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe"
   }
 ];

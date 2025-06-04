@@ -2,1239 +2,1454 @@ import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const melbourneTeamMembers: CrewMember[] = [
   {
-    "name": "Sarah Miller",
+    "name": "Olivia Johnson",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "Sarah Miller brings over 12 years of experience navigating undefined's waters, specializing in coastal and offshore operations with a focus on safety and efficiency.",
-    "languages": [
-      "Russian",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Martinez",
-    "role": "First Officer",
-    "department": "Deck Department",
-    "bio": "First Officer Martinez's 16-year background includes robust training in advanced navigation systems and crew supervision within undefined.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/94.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Garcia",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "With a strong focus on electronic navigation and safety equipment, Michael Garcia brings 19 years of experience navigating undefined's challenging routes.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Davis",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "As a vigilant watchkeeper, Maria Davis has 8 years supporting navigation, safety drills, and emergency procedures aboard vessels in undefined.",
-    "languages": [
-      "Arabic",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/91.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "James Jones",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "With 11 years dedicated to undefined routes, James Jones excels in dynamic positioning and integrated navigation systems management.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "Safety Officer Smith works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Jones",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "Under the guidance of senior officers, Deck Cadet Jones is developing a strong foundation in practical navigation and ship handling in undefined.",
-    "languages": [
-      "Russian",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/86.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Martinez",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "With 14 years managing deck teams, Emma Martinez coordinates tasks such as mooring, cargo handling, and routine repairs, maintaining operational readiness in undefined.",
-    "languages": [
-      "German",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/67.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Johnson",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "With 17 years in marine engineering, Michael Johnson ensures optimal performance and reliability of propulsion, power generation, and auxiliary systems onboard.",
-    "languages": [
-      "German",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Williams",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "Drawing on 11 years, Emma Williams takes charge of the engine room in the Chief Engineer's absence, ensuring all systems run smoothly and efficiently.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Davis",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "Robert Davis supports engineering operations with 18 years focused on mechanical maintenance, diagnostics, and equipment troubleshooting aboard vessels.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Davis",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Olivia Davis's expertise covers power distribution, electric propulsion components, and emergency backup systems, backed by 8 years in the field.",
+    "bio": "Captain Johnson's strategic decision-making and crisis management skills, honed over 16 years, ensure smooth and safe voyages throughout Asia Pacific.",
     "languages": [
       "English",
-      "Japanese"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Smith",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "Sarah Smith's problem-solving abilities are crucial for addressing unexpected mechanical challenges, ensuring vessel safety and uptime through 10 years of service.",
-    "languages": [
+      "Portuguese",
       "French",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "HVAC Engineer Smith's focus includes maintaining air quality and compliance with health standards across all vessel compartments, a skill developed over 11 years.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Miller",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Olivia Miller conducts environmental impact assessments to support sustainable voyage planning and operational improvements.",
-    "languages": [
-      "Portuguese",
-      "Arabic",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Davis",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "Systems Engineer Davis leads technical solutions for navigation, communication, automation, and control systems with 18 years of service.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Rodriguez",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "Technical Manager Rodriguez has 16 years of experience managing dry-dock specifications, contract negotiations, and supervision of major refit projects.",
-    "languages": [
-      "Portuguese",
-      "English"
+      "Russian"
     ],
     "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
     "city": "Melbourne",
-    "country": "Global"
+    "country": "Australia",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Maria Garcia",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Maria Garcia meticulously documents all maintenance activities, ensuring a comprehensive history for all critical machinery, built over 11 years of service.",
+    "name": "Robert Rodriguez",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "First Officer Rodriguez supports the Captain by managing daily operations and maintaining vessel readiness, backed by extensive experience in Asia Pacific.",
     "languages": [
+      "Japanese",
       "Spanish",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/76.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Security Director Smith leads threat analysis initiatives and implements advanced security measures to safeguard vessel integrity.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "David Davis",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Focused on maintaining order, David Davis collaborates with other departments to enhance overall passenger and crew safety.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Garcia",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Drawing on 8 years, Robert Garcia has in-depth knowledge of non-lethal defense tactics and anti-piracy measures.",
-    "languages": [
       "Portuguese",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/99.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Davis",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Cybersecurity Officer Davis conducts regular penetration testing and vulnerability assessments of ship systems, drawing on 13 years of expertise.",
-    "languages": [
-      "Italian",
-      "French",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "John Brown",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "John Brown coordinates security protocols and emergency responses, drawing on 15 years in maritime operations and multi-agency collaboration.",
-    "languages": [
-      "Portuguese",
-      "French",
+      "Arabic",
       "English"
     ],
     "experienceYears": 15,
     "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
     "city": "Melbourne",
-    "country": "Global"
+    "country": "Australia",
+    "region": "Asia Pacific"
   },
   {
-    "name": "James Johnson",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Access Control Officer Johnson coordinates with port authorities and crew to facilitate smooth and secure passenger and cargo flow.",
+    "name": "Sophia Williams",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "Utilizing 3 years of expertise, Sophia Williams meticulously maintains navigational charts and publications crucial for safe transit in Asia Pacific.",
+    "languages": [
+      "Italian",
+      "Russian",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Brown",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "James Brown supports communication and lookout duties during watches, maintaining high situational awareness in Asia Pacific's maritime environment.",
+    "languages": [
+      "German",
+      "Spanish",
+      "Portuguese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Garcia",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Navigation Officer Garcia ensures all navigational equipment is calibrated and fully operational, leveraging 8 years of technical expertise in Asia Pacific.",
     "languages": [
       "English",
-      "Arabic"
+      "Italian",
+      "Mandarin",
+      "Japanese"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Davis",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "With a thorough understanding of hazard identification and mitigation, Sarah Davis fosters a culture of safety awareness among crew and passengers.",
+    "languages": [
+      "Arabic",
+      "Mandarin",
+      "Japanese",
+      "English",
+      "Portuguese",
+      "Italian"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sophia Smith",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Sophia Smith, a promising Deck Cadet, is quickly mastering the fundamentals of seamanship and safety protocols specific to Asia Pacific maritime operations.",
+    "languages": [
+      "English",
+      "Italian",
+      "Portuguese",
+      "Arabic",
+      "Mandarin"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Brown",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Sarah Brown plays a pivotal role in implementing maintenance schedules and overseeing deck inventory to support smooth voyages through Asia Pacific.",
+    "languages": [
+      "Portuguese",
+      "Russian",
+      "Mandarin",
+      "Italian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Smith",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "James Smith leads the engineering department with a focus on fuel efficiency and emissions reduction, drawing upon 19 years of innovative practice and hydraulic systems knowledge.",
+    "languages": [
+      "English",
+      "Japanese",
+      "Italian",
+      "Spanish"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Davis",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "With 3 years in marine engineering, James Davis excels in diagnosing faults and executing prompt, effective repairs to critical shipboard machinery.",
+    "languages": [
+      "Spanish",
+      "Japanese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Miller",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "John Miller plays an integral role in maintaining fuel efficiency and reducing emissions through optimized machinery operation.",
+    "languages": [
+      "Japanese",
+      "English",
+      "Russian",
+      "German"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Rodriguez",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Electrical Engineer Rodriguez conducts regular testing and troubleshooting of generators, switchboards, and control systems to prevent downtime.",
+    "languages": [
+      "Italian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Martinez",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "With 6 years of mechanical expertise, Maria Martinez maintains critical ship machinery, including pumps, compressors, and hydraulic systems.",
+    "languages": [
+      "Arabic",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/36.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Miller",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "HVAC Engineer Miller's focus includes maintaining air quality and compliance with health standards across all vessel compartments, a skill developed over 21 years.",
+    "languages": [
+      "Russian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Martinez",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "With 4 years focused on sustainability, Emma Martinez develops and implements environmental protection measures aboard ships, ensuring regulatory compliance.",
+    "languages": [
+      "Portuguese",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Johnson",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Sarah Johnson integrates complex onboard systems, ensuring operational synergy and reliability with 3 years of maritime engineering expertise.",
+    "languages": [
+      "Portuguese",
+      "English",
+      "Japanese",
+      "Mandarin"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sophia Williams",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Sophia Williams manages technical operations, upgrades, and team leadership, leveraging 16 years in maritime technology and project management.",
+    "languages": [
+      "Spanish",
+      "English",
+      "French"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Williams",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Maintenance Engineer Williams's 13 years include managing workshop resources and training junior staff in effective repair techniques.",
+    "languages": [
+      "Italian",
+      "Russian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Williams",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Drawing on 3 years and a military background, John Williams develops and executes sophisticated security plans tailored to high-risk maritime environments.",
+    "languages": [
+      "Japanese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Smith",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "John Smith conducts routine security patrols and enforces safety regulations, backed by 6 years in maritime security operations and incident response.",
+    "languages": [
+      "Mandarin",
+      "English",
+      "Portuguese"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Johnson",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Known for analytical expertise, Michael Johnson conducts vulnerability assessments and designs contingency plans to address evolving threats.",
+    "languages": [
+      "Russian",
+      "Italian",
+      "Spanish",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Smith",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Cybersecurity Officer Smith protects vessel networks and data with 14 years of specialized cybersecurity expertise in maritime digital infrastructure.",
+    "languages": [
+      "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/89.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Rodriguez",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Emma Rodriguez manages communication between security teams and external authorities to ensure swift resolution of maritime security incidents.",
+    "languages": [
+      "Mandarin",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Williams",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Access Control Officer Williams manages secure boarding and access with 12 years maintaining maritime entry protocols and identification verification.",
+    "languages": [
+      "Arabic",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/51.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Safety Compliance Officer Johnson is an expert in ISM, ISPS, and MLC compliance, bringing 14 years of dedicated focus to these areas.",
+    "languages": [
+      "Portuguese",
+      "Mandarin",
+      "Russian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/98.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Garcia",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Youth Program Director Garcia manages program staff and coordinates resources to deliver safe, inclusive, and dynamic youth experiences.",
+    "languages": [
+      "Mandarin",
+      "German",
+      "English"
     ],
     "experienceYears": 15,
     "profileImage": "https://randomuser.me/api/portraits/men/89.jpg",
     "city": "Melbourne",
-    "country": "Global"
+    "country": "Australia",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Olivia Brown",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Safety Compliance Officer Brown is an expert in ISM, ISPS, and MLC compliance, bringing 12 years of dedicated focus to these areas.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Rodriguez",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Youth Program Director Rodriguez manages program staff and coordinates resources to deliver safe, inclusive, and dynamic youth experiences.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Smith",
+    "name": "Sarah Miller",
     "role": "Family Activities Coordinator",
     "department": "Youth & Family Programs",
-    "bio": "With strong communication skills, Sophia Smith liaises with hospitality and entertainment teams to deliver seamless family-oriented services.",
+    "bio": "Sarah Miller, with 12 years of experience, excels in logistics and planning, ensuring every family event runs smoothly and delights guests.",
     "languages": [
-      "Japanese",
+      "Spanish",
+      "Portuguese",
       "English"
     ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
     "city": "Melbourne",
-    "country": "Global"
+    "country": "Australia",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Maria Garcia",
+    "name": "Sophia Brown",
     "role": "Children's Entertainment Specialist",
     "department": "Youth & Family Programs",
-    "bio": "Known for energetic delivery and adaptability, Maria Garcia adjusts programming to accommodate different group sizes and interests.",
+    "bio": "Children's Entertainment Specialist Brown collaborates with youth program teams to develop diverse content promoting creativity and social interaction.",
     "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/5.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Smith",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Teen Activities Coordinator Smith monitors participation and feedback to continuously refine and innovate teen programming.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "David Williams",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Focused on accessibility, David Williams ensures programs accommodate different learning styles and abilities for broad passenger appeal.",
-    "languages": [
-      "Japanese",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Jones",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Child Care Specialist Jones ensures safety, comfort, and developmentally appropriate activities in a nurturing onboard environment.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/90.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Garcia",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "Drawing on 15 years in recreation management, Robert Garcia curates an exciting and varied daily program of entertainment and activities for all guests.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Miller",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "With expertise in various water sports, Olivia Miller provides personalized coaching that accommodates different skill levels and abilities.",
-    "languages": [
-      "French",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Garcia",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Committed to inclusivity, Sophia Garcia adapts programming to accommodate varying fitness levels and any physical limitations.",
-    "languages": [
-      "German",
-      "Italian",
       "Portuguese",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Martinez",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Sophia Martinez manages shore excursions with 10 years coordinating logistics, safety, and guest engagement across diverse international destinations.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/88.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Brown",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "Maria Brown directs all photographic projects onboard, blending technical skill and artistic vision to create visually compelling narratives.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "John Williams",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Videographer Williams crafts compelling visual stories that highlight onboard experiences and diverse destinations through expert filming and editing.",
-    "languages": [
       "English",
-      "Russian"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Garcia",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "Digital Media Specialist Garcia is proficient in SEO, content management systems, and digital advertising, skills honed over 13 years.",
-    "languages": [
-      "Mandarin",
-      "English",
-      "French"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "James Martinez",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Chief Medical Officer Martinez has 18 years of experience in managing public health emergencies at sea and implementing robust infection control measures.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Garcia",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "With 16 years practicing medicine in diverse environments, Dr. Garcia is adept at diagnosing and treating a wide array of conditions encountered at sea.",
-    "languages": [
-      "German",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/95.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Smith",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Known for meticulous attention to detail and a caring demeanor, Sarah Smith has been a vital part of shipboard medical teams for 6 years.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Davis",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Safety Officer Davis works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
-    "languages": [
-      "German",
-      "Russian",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Martinez",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "Maria Martinez manages all hospitality services, ensuring exceptional guest experiences with 6 years of leadership.",
-    "languages": [
-      "Arabic",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "John Jones",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "With a passion for service excellence developed over 15 years, John Jones leads the guest relations team to anticipate and exceed passenger expectations.",
-    "languages": [
-      "Mandarin",
-      "French",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Johnson",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "With 15 years leading stewardship teams, Chief Steward Johnson meticulously manages cabin services, laundry operations, and public area upkeep.",
-    "languages": [
-      "Japanese",
-      "Arabic",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/97.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Brown",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "Senior Steward Brown delivers attentive guest services and supports stewardship operations, drawing on 12 years onboard.",
-    "languages": [
-      "Russian",
-      "French",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Williams",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "Olivia Williams crafts unforgettable moments for discerning guests, drawing on 13 years of experience in curating exclusive and seamless luxury service.",
-    "languages": [
-      "Mandarin",
-      "German",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Jones",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "Emma Jones oversees accommodation services, ensuring comfort and efficiency with 19 years in maritime hospitality.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Jones",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "With a keen eye for detail developed over 8 years, Housekeeping Supervisor Jones conducts rigorous inspections to uphold pristine conditions.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Robert Smith's communication skills, honed over 14 years, are key to creating positive first impressions and lasting guest satisfaction.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Brown",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "With an extensive network and 10 years of experience, Concierge Brown arranges bespoke shore excursions, dining reservations, and special occasion services.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/98.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Davis",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Front Desk Manager Davis oversees reception operations, ensuring efficient guest check-in and issue resolution.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "James Johnson",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "With 7 years catering to high-profile clientele, James Johnson curates bespoke itineraries and ensures flawless execution of all VIP arrangements.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Jones",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Emma Jones conducts needs assessments and measures training effectiveness to ensure continuous improvement across all hospitality departments, reflecting 12 years in adult learning.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "David Williams",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Chef Williams creates exceptional Japanese cuisine with 11 years of culinary expertise from around the world.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "David Brown",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "As second-in-command, Sous Chef Brown ensures seamless kitchen workflow and consistent dish quality, drawing on 10 years of hands-on Mediterranean experience.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Martinez",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "Pastry Chef Martinez crafts exquisite desserts with 11 years of baking and pastry artistry.",
-    "languages": [
-      "German",
-      "Mandarin",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/49.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "James Davis",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Chef de Partie Davis manages specific kitchen stations with 19 years of focused culinary skill.",
-    "languages": [
-      "Japanese",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "James Martinez",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "James Martinez specializes in unique culinary styles, offering guests diverse flavors based on 10 years of expertise.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Davis",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Robert Davis delights guests with traditional Edomae-style sushi and contemporary maki rolls, showcasing skills honed over 5 years of rigorous training.",
-    "languages": [
-      "Portuguese",
-      "French",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Johnson",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "Sarah Johnson is responsible for creating visually stunning and delicious cold appetizers, canapés, and buffet displays, backed by 7 years of French expertise.",
-    "languages": [
-      "English",
-      "Italian"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/21.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "James Rodriguez",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Butcher Rodriguez ensures quality meat preparation, supported by 17 years of skilled butchery work.",
-    "languages": [
-      "Portuguese",
-      "Japanese",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "James Martinez",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "James Martinez manages the bakery's production schedule and ingredient inventory, ensuring consistent quality and freshness, backed by 18 years of professional baking.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/94.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Johnson",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Certified Sommelier Johnson navigates an extensive cellar to find the perfect wine for every palate and Latin American, drawing on 16 years of oenological expertise.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Martinez",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "Olivia Martinez delivers exceptional beverage experiences tailored to guest preferences onboard.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/98.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Smith",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Barista Smith ensures consistently excellent coffee quality, from bean grinding to final pour, reflecting 7 years of dedication to the craft.",
-    "languages": [
-      "Japanese",
-      "Mandarin",
-      "German",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/90.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "James Martinez",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "James Martinez collaborates with chefs to ensure nutritious and delicious meal options onboard.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "James Davis",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "With 6 years orchestrating spectacular onboard entertainment, James Davis manages everything from Broadway-style shows to intimate musical performances and themed parties.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Rodriguez",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Performance Coordinator Rodriguez serves as the key liaison between artists, production staff, and management, ensuring clear communication and efficient problem-solving.",
-    "languages": [
-      "Portuguese",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "James Davis",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "As a key figure in production shows, Lead Vocalist Davis collaborates with the cast and creative team, bringing 13 years of professional discipline and artistry.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Martinez",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "Olivia Martinez enriches onboard ambiance through skilled instrumental and vocal performances.",
-    "languages": [
-      "English",
-      "Russian"
+      "German"
     ],
     "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
     "city": "Melbourne",
-    "country": "Global"
+    "country": "Australia",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Robert Rodriguez",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Dancer Rodriguez delivers energetic and polished routines, drawing on 5 years of dance training.",
+    "name": "David Rodriguez",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "David Rodriguez develops dynamic programs catering to teenage guests, drawing on 3 years of youth facilitation and event management expertise.",
     "languages": [
-      "Russian",
+      "Portuguese",
+      "Arabic",
       "Italian",
       "English"
     ],
-    "experienceYears": 5,
+    "experienceYears": 3,
     "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
     "city": "Melbourne",
-    "country": "Global"
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Martinez",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Educational Program Manager Martinez forges partnerships with guest speakers and institutions to provide high-quality learning experiences, leveraging 13 years of networking.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Jones",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Michael Jones excels at engaging children with age-appropriate crafts, stories, and games, drawing from 11 years of experience in child-focused roles.",
+    "languages": [
+      "Mandarin",
+      "Arabic",
+      "Italian",
+      "German",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Williams",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Drawing on 9 years in recreation management, Emma Williams curates an exciting and varied daily program of entertainment and activities for all guests.",
+    "languages": [
+      "French",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/91.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
   },
   {
     "name": "Sophia Johnson",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Choreographer Johnson creates captivating dance routines, blending creativity with 14 years of dance expertise.",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Known for excellent communication and risk management skills, Sophia Johnson maintains vigilance during all aquatic activities to protect participants.",
     "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Martinez",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Olivia Martinez's ability to connect with the audience and improvise, developed over 18 years, makes each show a unique and highly enjoyable experience.",
-    "languages": [
-      "Russian",
-      "Portuguese",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "James Brown",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "James Brown brings a unique brand of enchantment to the ship's entertainment, drawing on 19 years of professional magic and a flair for theatrical presentation.",
-    "languages": [
-      "English",
+      "French",
       "Japanese",
-      "Italian"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Davis",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "DJ Davis creates vibrant atmospheres with expertly mixed music, drawing on 17 years in live DJing.",
-    "languages": [
-      "Japanese",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "David Davis",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "With 6 years of experience in mixing live sound for theatre, music, and events, David Davis guarantees crystal-clear audio for all onboard productions.",
-    "languages": [
-      "Japanese",
+      "Spanish",
       "Arabic",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Miller",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "With a focus on motivation and proper technique, John Miller helps passengers adopt and maintain healthy lifestyles during their voyage.",
+    "languages": [
+      "French",
       "German",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Davis",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "Lighting Specialist Davis designs and operates lighting systems to enhance onboard shows and events.",
-    "languages": [
-      "Portuguese",
-      "French",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/96.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Jones",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "Robert Jones's calm under pressure and attention to detail, honed over 18 years, are vital for delivering complex, multi-layered performances without a hitch.",
-    "languages": [
-      "French",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "James Johnson",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "James Johnson ensures timely and efficient delivery of shows, leveraging 10 years in production management.",
-    "languages": [
-      "Spanish",
       "Russian",
       "English"
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/91.jpg",
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
     "city": "Melbourne",
-    "country": "Global"
+    "country": "Australia",
+    "region": "Asia Pacific"
   },
   {
-    "name": "James Smith",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "James Smith's artistic flair and attention to historical detail, honed over 19 years, bring visual richness and authenticity to the stage.",
-    "languages": [
-      "Spanish",
-      "Arabic",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "John Rodriguez",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "John Rodriguez's passion for cultural exchange, cultivated over 17 years, enriches the voyage by fostering understanding and appreciation of diverse traditions.",
+    "name": "John Davis",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Excursion Coordinator Davis plans enriching off-ship experiences that promote cultural immersion and memorable interactions for passengers.",
     "languages": [
       "German",
       "Italian",
+      "Arabic",
+      "French",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
     "city": "Melbourne",
-    "country": "Global"
+    "country": "Australia",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Robert Martinez",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "With 19 years pushing artistic boundaries, Robert Martinez offers a distinctive and captivating addition to the ship's diverse entertainment offerings.",
+    "name": "Michael Brown",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Michael Brown directs all photographic projects onboard, blending technical skill and artistic vision to create visually compelling narratives.",
     "languages": [
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Brown",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "John Brown uses 7 years of editing expertise to transform raw footage into engaging narratives that resonate with passengers and promote future voyages.",
+    "languages": [
+      "Japanese",
       "Arabic",
       "English"
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
     "city": "Melbourne",
-    "country": "Global"
+    "country": "Australia",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Robert Smith",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Robert Smith plays a crucial role in port operations coordination, safety compliance oversight, and emergency response planning, backed by 10 years of maritime expertise.",
+    "name": "Robert Rodriguez",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Robert Rodriguez uses 5 years of experience to leverage emerging digital trends, enhancing guest communication and brand visibility online.",
     "languages": [
+      "Spanish",
+      "Russian",
       "Japanese",
+      "Italian",
       "English"
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/96.jpg",
     "city": "Melbourne",
-    "country": "Global"
+    "country": "Australia",
+    "region": "Asia Pacific"
   },
   {
-    "name": "Sarah Davis",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "Sarah Davis's expertise in procurement and vendor management, developed over 13 years, ensures cost-effective and reliable sourcing for all vessel needs.",
+    "name": "Emma Jones",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Chief Medical Officer Jones leads all medical operations onboard, leveraging 13 years of clinical and maritime healthcare expertise to ensure passenger and crew wellbeing.",
     "languages": [
+      "Spanish",
       "Japanese",
       "English"
     ],
     "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
     "city": "Melbourne",
-    "country": "Global"
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Garcia",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Ship's Doctor Garcia conducts routine health assessments and manages medical records in compliance with international maritime standards.",
+    "languages": [
+      "Russian",
+      "Italian",
+      "French",
+      "German",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Jones",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Nurse Jones supports the medical team by administering treatments, monitoring patient conditions, and maintaining comprehensive medical records.",
+    "languages": [
+      "Italian",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Martinez",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Leveraging 3 years in maritime safety, Michael Martinez excels at developing and implementing targeted safety training programs relevant to Asia Pacific's specific operational hazards.",
+    "languages": [
+      "Arabic",
+      "Spanish",
+      "Portuguese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sophia Williams",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "With 11 years in hospitality management, Sophia Williams drives operational excellence and team performance onboard.",
+    "languages": [
+      "English",
+      "Russian",
+      "Spanish",
+      "Japanese",
+      "Italian"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Martinez",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "David Martinez champions a guest-first culture, utilizing 14 years of experience to train and motivate staff in delivering exceptional, personalized care.",
+    "languages": [
+      "English",
+      "Mandarin"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Smith",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "James Smith excels in inventory management for linens and amenities, maintaining premium standards across all staterooms and suites with 18 years of dedication.",
+    "languages": [
+      "Spanish",
+      "French",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Johnson",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "With 4 years of dedicated service, Senior Steward Johnson ensures guest accommodations are impeccably maintained and personalized to preferences.",
+    "languages": [
+      "English",
+      "Mandarin"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/37.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Smith",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Olivia Smith anticipates guest needs to deliver tailored luxury experiences throughout the voyage.",
+    "languages": [
+      "French",
+      "Japanese",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sophia Rodriguez",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Accommodation Manager Rodriguez plays a key role in inventory control for linens, amenities, and cleaning supplies, optimizing resources over 3 years.",
+    "languages": [
+      "Mandarin",
+      "Italian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/30.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Rodriguez",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "With a keen eye for detail developed over 21 years, Housekeeping Supervisor Rodriguez conducts rigorous inspections to uphold pristine conditions.",
+    "languages": [
+      "Japanese",
+      "Arabic",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Johnson",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Guest Services Specialist Johnson facilitates seamless guest interactions to enhance onboard experiences.",
+    "languages": [
+      "Portuguese",
+      "German",
+      "Japanese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/9.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Brown",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "With an extensive network and 21 years of experience, Concierge Brown arranges bespoke shore excursions, dining reservations, and special occasion services.",
+    "languages": [
+      "French",
+      "Spanish",
+      "Russian",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "With 17 years in front office management, Robert Johnson ensures a welcoming and organized reception area, managing all aspects of guest registration and billing.",
+    "languages": [
+      "Japanese",
+      "German",
+      "Portuguese",
+      "English",
+      "Spanish",
+      "Russian"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Brown",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "James Brown's expertise over 16 years lies in creating unparalleled experiences, making every VIP guest feel exceptionally valued and pampered.",
+    "languages": [
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Smith",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Trainer Smith specializes in areas like luxury service standards, complaint resolution, and upselling techniques, drawing on 21 years of industry best practices.",
+    "languages": [
+      "French",
+      "Japanese",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Johnson",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Mastering Mediterranean and international gastronomy, John Johnson ensures every dish reflects the highest standards of quality, presentation, and flavor, backed by 15 years of award-winning experience.",
+    "languages": [
+      "Italian",
+      "Japanese",
+      "Mandarin",
+      "Russian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "With 8 years in high-volume kitchens, Sous Chef Miller is adept at managing specific stations and stepping in for the Executive Chef as needed.",
+    "languages": [
+      "Arabic",
+      "French",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Garcia",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Sarah Garcia blends creativity and technique to deliver memorable pastry experiences for guests.",
+    "languages": [
+      "English",
+      "Russian",
+      "Spanish"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sophia Garcia",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "With 6 years as a section chef, Sophia Garcia is responsible for stock control and guiding commis chefs within their designated area of the Latin American kitchen.",
+    "languages": [
+      "French",
+      "Mandarin",
+      "Spanish",
+      "Russian",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/51.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Jones",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "With 22 years perfecting {cuisineSpecific} artistry, Sarah Jones ensures each plate is a true representation of its cultural heritage and bold flavors.",
+    "languages": [
+      "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Johnson",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "With 4 years dedicated to the art of sushi and sashimi, Chef Johnson meticulously selects the freshest seafood and crafts each piece with mastery.",
+    "languages": [
+      "Portuguese",
+      "Russian",
+      "Italian",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Williams",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "With 9 years specializing in charcuterie, salads, and elaborate cold platters, Chef Williams brings artistry and precision to the Garde Manger station.",
+    "languages": [
+      "Arabic",
+      "Russian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/19.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Butcher Johnson manages meat inventory and advises chefs on the best cuts for specific culinary applications, drawing on 8 years of specialized knowledge.",
+    "languages": [
+      "Japanese",
+      "Russian",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Davis",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "With 21 years dedicated to the art of baking, Sarah Davis fills the ship with the aroma of freshly baked artisan breads, pastries, and viennoiserie.",
+    "languages": [
+      "French",
+      "Russian",
+      "English",
+      "Spanish",
+      "Italian"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Martinez",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Sommelier Martinez curates wine selections, offering expert pairing advice with 14 years in fine wine service.",
+    "languages": [
+      "Arabic",
+      "English",
+      "German"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/87.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Garcia",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Garcia delights guests with flair, technique, and a deep understanding of flavor profiles, creating personalized drink experiences over 10 years.",
+    "languages": [
+      "French",
+      "Russian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Miller",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Emma Miller provides friendly and efficient service at the coffee bar, sharing knowledge and passion for specialty coffee honed over 4 years.",
+    "languages": [
+      "French",
+      "Japanese",
+      "Russian",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Jones",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Maria Jones conducts onboard wellness seminars and workshops, empowering guests with nutritional knowledge gained over 7 years in the field.",
+    "languages": [
+      "Japanese",
+      "Arabic",
+      "English",
+      "Spanish"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/95.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Jones",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "David Jones plans and oversees all entertainment activities, applying 6 years of event and talent management.",
+    "languages": [
+      "Arabic",
+      "Portuguese",
+      "Russian",
+      "German",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Johnson",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Performance Coordinator Johnson supports talent and technical teams to deliver seamless shows.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Garcia",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "Robert Garcia brings charisma and vocal expertise to the ship's entertainment lineup.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Martinez",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "With 8 years entertaining audiences worldwide, Maria Martinez creates an engaging atmosphere, taking requests and interacting with guests through the power of live music.",
+    "languages": [
+      "Italian",
+      "Portuguese",
+      "Russian",
+      "Arabic",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Miller",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "James Miller is a dedicated member of the ensemble, contributing to high-energy production numbers and themed events, showcasing 16 years of professional dance experience.",
+    "languages": [
+      "Spanish",
+      "Mandarin",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Rodriguez",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "David Rodriguez collaborates with costume and lighting designers to create a cohesive and visually stunning spectacle, drawing on 12 years of experience in stage production.",
+    "languages": [
+      "Arabic",
+      "Portuguese",
+      "Mandarin",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Robert Williams",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Comedy Performer Williams masterfully crafts clean and engaging sets suitable for a cruise environment, ensuring evenings are filled with laughter and amusement.",
+    "languages": [
+      "Italian",
+      "Spanish",
+      "Japanese",
+      "French",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Johnson",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Olivia Johnson brings a unique brand of enchantment to the ship's entertainment, drawing on 14 years of professional magic and a flair for theatrical presentation.",
+    "languages": [
+      "German",
+      "Japanese",
+      "Russian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Maria Rodriguez",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "Maria Rodriguez utilizes professional mixing skills and an energetic presence to ensure high-energy parties and memorable nights for guests, backed by 4 years of club experience.",
+    "languages": [
+      "Spanish",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Miller",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Emma Miller supports entertainment events with technical expertise in live sound engineering.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Williams",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Lighting Specialist Williams designs and operates lighting systems to enhance onboard shows and events.",
+    "languages": [
+      "Russian",
+      "German",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Michael Johnson",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Stage Manager Johnson is the organizational backbone of the production, liaising between performers, technicians, and the director to maintain artistic integrity and timing.",
+    "languages": [
+      "German",
+      "Japanese",
+      "Portuguese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Olivia Brown",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Production Manager Brown collaborates with creative teams and technical departments to bring ambitious show concepts to life, on time and within budget.",
+    "languages": [
+      "Arabic",
+      "Italian",
+      "English",
+      "Japanese",
+      "French"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "John Johnson",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "John Johnson combines creativity and craftsmanship with 10 years of design expertise.",
+    "languages": [
+      "Russian",
+      "German",
+      "French",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Emma Rodriguez",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Emma Rodriguez promotes diversity and cultural awareness through engaging onboard programming.",
+    "languages": [
+      "Russian",
+      "Spanish",
+      "Arabic",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/84.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "James Davis",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Performance Artist Davis combines elements of {artisticDisciplineCombination} to create truly unique and memorable entertainment experiences for discerning audiences.",
+    "languages": [
+      "Spanish",
+      "English",
+      "Italian",
+      "German"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/99.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Davis",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Operations Manager Davis is adept at problem-solving complex logistical challenges and implementing solutions that enhance overall ship performance and guest satisfaction.",
+    "languages": [
+      "Japanese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "David Rodriguez",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "With 3 years coordinating complex supply chains, David Rodriguez ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
+    "languages": [
+      "French",
+      "Russian",
+      "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
   },
   {
     "name": "Maria Miller",
@@ -1242,44 +1457,49 @@ export const melbourneTeamMembers: CrewMember[] = [
     "department": "Operations Department",
     "bio": "Inventory Specialist Miller implements efficient stock rotation (FIFO) and conducts regular audits to prevent shortages and minimize waste.",
     "languages": [
-      "Japanese",
-      "Spanish",
+      "German",
+      "Arabic",
       "English"
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
     "city": "Melbourne",
-    "country": "Global"
+    "country": "Australia",
+    "region": "Asia Pacific"
   },
   {
-    "name": "John Rodriguez",
+    "name": "David Garcia",
     "role": "Procurement Officer",
     "department": "Operations Department",
-    "bio": "John Rodriguez's sharp negotiation skills and 11 years of experience contribute significantly to controlling operational costs while maintaining quality standards.",
+    "bio": "Procurement Officer Garcia manages supplier relationships, monitors market trends, and ensures compliance with ethical purchasing policies.",
     "languages": [
-      "Mandarin",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
-    "city": "Melbourne",
-    "country": "Global"
-  },
-  {
-    "name": "David Miller",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "David Miller promotes sustainable practices aligned with maritime environmental standards.",
-    "languages": [
-      "French",
       "Spanish",
       "German",
+      "Russian",
+      "Arabic",
       "English"
     ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
     "city": "Melbourne",
-    "country": "Global"
+    "country": "Australia",
+    "region": "Asia Pacific"
+  },
+  {
+    "name": "Sarah Smith",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Sustainability Coordinator Smith ensures compliance with international environmental regulations (e.g., MARPOL) and promotes a culture of sustainability among crew and guests.",
+    "languages": [
+      "Portuguese",
+      "English",
+      "Russian",
+      "Italian"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/54.jpg",
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific"
   }
 ];

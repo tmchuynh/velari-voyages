@@ -2,1291 +2,1499 @@ import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const lisbonTeamMembers: CrewMember[] = [
   {
-    "name": "Robert Smith",
+    "name": "Michael Martinez",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "Drawing on 5 years of command, Robert Smith expertly manages all aspects of vessel operation in undefined, emphasizing crew development and operational excellence.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Williams",
-    "role": "First Officer",
-    "department": "Deck Department",
-    "bio": "Sophia Williams specializes in undefined navigation with 19 years of experience managing bridge operations and ensuring adherence to safety standards.",
-    "languages": [
-      "Arabic",
-      "German",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Johnson",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "Emma Johnson applies 15 years of navigational skills to support safe and efficient voyages across undefined, with strong expertise in chart plotting and communication systems.",
+    "bio": "Captain Martinez has navigated the challenging waters of Mediterranean for over 12 years, consistently prioritizing sustainable maritime practices and regulatory compliance.",
     "languages": [
       "Portuguese",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Brown",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "Third Officer Brown conducts regular safety inspections and coordinates emergency drills, enhancing onboard security across undefined.",
-    "languages": [
+      "Italian",
       "Spanish",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
-    "name": "Sophia Jones",
-    "role": "Navigation Officer",
+    "name": "James Garcia",
+    "role": "First Officer",
     "department": "Deck Department",
-    "bio": "Sophia Jones plays a key role in training junior officers on undefined-specific navigational challenges and best practices, backed by 9 years of experience.",
+    "bio": "James Garcia applies comprehensive knowledge of Mediterranean's tides, currents, and weather patterns, contributing to efficient and safe ship navigation.",
     "languages": [
-      "Japanese",
-      "German",
+      "English",
       "Portuguese",
+      "German"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Olivia Brown",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "Olivia Brown ensures compliance with navigation protocols and supports bridge team operations, leveraging 3 years in maritime operations across Mediterranean.",
+    "languages": [
+      "Mandarin",
+      "Russian",
       "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sarah Rodriguez",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Sarah Rodriguez supports communication and lookout duties during watches, maintaining high situational awareness in Mediterranean's maritime environment.",
+    "languages": [
+      "Mandarin",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/26.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
     "name": "James Johnson",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Navigation Officer Johnson maintains detailed voyage records and monitors navigation aids, ensuring compliance with maritime regulations in Mediterranean.",
+    "languages": [
+      "Japanese",
+      "German",
+      "Mandarin",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "David Smith",
     "role": "Safety Officer",
     "department": "Deck Department",
-    "bio": "James Johnson conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in undefined's maritime operations.",
+    "bio": "Committed to regulatory adherence, David Smith stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
     "languages": [
-      "Mandarin",
-      "English"
+      "Arabic",
+      "English",
+      "Japanese"
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
-    "name": "Maria Johnson",
+    "name": "Sophia Williams",
     "role": "Deck Cadet",
     "department": "Deck Department",
-    "bio": "Deck Cadet Johnson learns shipboard operations under experienced officers, preparing for a future leadership role in undefined waters.",
+    "bio": "Eager to learn, Deck Cadet Sophia Williams diligently assists with bridge duties and deck maintenance tasks, absorbing essential skills for navigating Mediterranean.",
     "languages": [
-      "Arabic",
+      "French",
       "Mandarin",
       "English"
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
-    "name": "Maria Johnson",
+    "name": "Michael Davis",
     "role": "Bosun",
     "department": "Deck Department",
-    "bio": "With 13 years managing deck teams, Maria Johnson coordinates tasks such as mooring, cargo handling, and routine repairs, maintaining operational readiness in undefined.",
+    "bio": "Bosun Davis supervises deck crew operations with 18 years of expertise ensuring maintenance, safety, and efficient handling of equipment aboard ships in Mediterranean.",
     "languages": [
-      "Portuguese",
-      "Arabic",
+      "Japanese",
+      "French",
+      "Italian",
       "English"
     ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
     "name": "Sarah Martinez",
     "role": "Chief Engineer",
     "department": "Engineering Department",
-    "bio": "Sarah Martinez leads the engineering department with a focus on fuel efficiency and emissions reduction, drawing upon 17 years of innovative practice and sustainable technologies knowledge.",
+    "bio": "Known for strategic problem-solving, Sarah Martinez directs all technical operations, balancing safety, performance, and cost-effectiveness aboard vessels.",
     "languages": [
-      "Spanish",
-      "Mandarin",
+      "Portuguese",
+      "Italian",
+      "German",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/98.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
-    "name": "Olivia Smith",
+    "name": "Robert Brown",
     "role": "First Engineer",
     "department": "Engineering Department",
-    "bio": "First Engineer Smith coordinates maintenance and repairs with 13 years of experience in marine mechanical systems, ensuring seamless engine room operations.",
+    "bio": "Robert Brown supervises engineering staff during watch shifts, maintaining operational readiness and compliance with maritime safety standards.",
     "languages": [
-      "German",
-      "Japanese",
-      "Spanish",
+      "Russian",
+      "French",
       "English"
     ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
-    "name": "Michael Rodriguez",
+    "name": "Sarah Williams",
     "role": "Second Engineer",
     "department": "Engineering Department",
-    "bio": "Michael Rodriguez's 11 years include supervising junior engineers and engine room ratings, fostering a culture of safety and competence.",
+    "bio": "Sarah Williams plays an integral role in maintaining fuel efficiency and reducing emissions through optimized machinery operation.",
     "languages": [
+      "English",
       "Italian",
-      "Portuguese",
+      "Mandarin",
+      "Arabic",
+      "German"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/95.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sarah Davis",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Responsible for wiring upgrades and automation system maintenance, Sarah Davis supports enhanced operational efficiency and crew safety.",
+    "languages": [
+      "Russian",
+      "German",
       "English"
     ],
     "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/54.jpg",
     "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Johnson",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Sophia Johnson manages all electrical systems on board, applying 13 years of expertise in marine electrical engineering and system integration.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
-    "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
     "name": "Maria Williams",
     "role": "Mechanical Engineer",
     "department": "Engineering Department",
-    "bio": "With 14 years of mechanical expertise, Maria Williams maintains critical ship machinery, including pumps, compressors, and hydraulic systems.",
+    "bio": "Maria Williams's problem-solving abilities are crucial for addressing unexpected mechanical challenges, ensuring vessel safety and uptime through 8 years of service.",
     "languages": [
-      "Spanish",
-      "French",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "John Davis",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "Drawing on 15 years, John Davis is proficient in troubleshooting and repairing complex refrigeration plants and air handling units.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/98.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "David Garcia",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Environmental Engineer Garcia manages the ship's garbage management plan and oversees the operation of pollution prevention equipment, with 13 years of dedication.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/87.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "David Miller",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "Systems Engineer Miller collaborates across departments to implement new technologies aligned with industry standards.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/92.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Jones",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "Emma Jones manages technical operations, upgrades, and team leadership, leveraging 6 years in maritime technology and project management.",
-    "languages": [
-      "French",
       "Arabic",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Smith",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Leveraging 11 years, Michael Smith is skilled in using diagnostic tools to predict and prevent equipment failures across a wide range of ship systems.",
-    "languages": [
+      "Italian",
       "Japanese",
       "English"
     ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
-    "name": "Sarah Davis",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Drawing on 16 years and a coast guard background, Sarah Davis develops and executes sophisticated security plans tailored to high-risk maritime environments.",
+    "name": "Sarah Brown",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "Sarah Brown plays a key role in energy conservation by optimizing HVAC operations, backed by 14 years of specialized experience.",
     "languages": [
-      "Italian",
+      "Arabic",
+      "German",
       "Spanish",
       "English"
     ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Olivia Jones",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "With in-depth knowledge of MARPOL regulations, Olivia Jones leads training and awareness programs on environmental best practices among crew members.",
+    "languages": [
+      "Mandarin",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "David Johnson",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Drawing upon 20 years, David Johnson specializes in the architecture and maintenance of integrated automation systems (IAS) critical for modern vessel operations.",
+    "languages": [
+      "French",
+      "English",
+      "Russian",
+      "Italian",
+      "Mandarin",
+      "Japanese"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Olivia Williams",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Olivia Williams drives continuous improvement initiatives and implements emerging maritime technologies to maintain competitive operational capabilities.",
+    "languages": [
+      "French",
+      "English",
+      "Portuguese",
+      "Russian",
+      "Mandarin"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Michael Garcia",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Maintenance Engineer Garcia's 22 years include managing workshop resources and training junior staff in effective repair techniques.",
+    "languages": [
+      "Mandarin",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Emma Smith",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Security Director Smith has 8 years of experience liaising with international maritime security agencies and port authorities.",
+    "languages": [
+      "French",
+      "Arabic",
+      "Spanish",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/8.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
     "name": "Robert Williams",
     "role": "Security Officer",
     "department": "Security Department",
-    "bio": "Security Officer Williams is proficient in emergency communication procedures and crowd management, vital skills honed over 9 years.",
+    "bio": "Robert Williams is trained in conflict resolution and emergency protocols, ensuring rapid and effective response to security incidents.",
     "languages": [
-      "Mandarin",
+      "German",
+      "Russian",
+      "Arabic",
       "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/99.jpg",
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
-    "name": "Olivia Williams",
+    "name": "James Johnson",
     "role": "Security Specialist",
     "department": "Security Department",
-    "bio": "Security Specialist Williams designs and delivers bespoke security training programs for crew members, reflecting 7 years of practical insight.",
+    "bio": "Known for analytical expertise, James Johnson conducts vulnerability assessments and designs contingency plans to address evolving threats.",
     "languages": [
+      "Mandarin",
+      "Italian",
       "Spanish",
       "English"
     ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
-    "name": "Sophia Martinez",
+    "name": "David Garcia",
     "role": "Cybersecurity Officer",
     "department": "Security Department",
-    "bio": "Experienced in compliance with maritime cybersecurity regulations, Sophia Martinez conducts training to enhance crew awareness of digital risks.",
+    "bio": "Cybersecurity Officer Garcia conducts regular penetration testing and vulnerability assessments of ship systems, drawing on 8 years of expertise.",
     "languages": [
-      "Arabic",
-      "Japanese",
-      "Russian",
-      "English"
+      "Mandarin",
+      "English",
+      "German",
+      "Portuguese"
     ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
-    "name": "James Smith",
+    "name": "Maria Martinez",
     "role": "Maritime Security Coordinator",
     "department": "Security Department",
-    "bio": "With 7 years in the role, James Smith is adept at developing and updating the Ship Security Plan (SSP) and ensuring its effective implementation.",
+    "bio": "Maria Martinez's 13 years include expertise in crisis communication and liaising with flag state and port state control on security matters.",
     "languages": [
-      "English",
-      "Arabic",
-      "German"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "David Smith",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Access Control Officer Smith plays a crucial role in gangway security and managing visitor identification processes, a responsibility held for 17 years.",
-    "languages": [
+      "Spanish",
       "Japanese",
       "Portuguese",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/97.jpg",
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
-    "name": "Emma Jones",
-    "role": "Safety Compliance Officer",
+    "name": "Olivia Davis",
+    "role": "Access Control Officer",
     "department": "Security Department",
-    "bio": "With a thorough understanding of hazard identification and mitigation, Emma Jones leads incident investigations and corrective action plans.",
+    "bio": "Drawing on 5 years of experience, Olivia Davis is proficient in operating and maintaining advanced access control systems and screening equipment.",
     "languages": [
-      "Arabic",
+      "Mandarin",
+      "Japanese",
       "English"
     ],
     "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
     "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Brown",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Committed to positive youth engagement, Emma Brown integrates educational content with fun, age-appropriate activities tailored to diverse passenger groups.",
-    "languages": [
-      "Mandarin",
-      "Spanish",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "David Martinez",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "David Martinez, with 7 years of experience, excels in logistics and planning, ensuring every family event runs smoothly and delights guests.",
-    "languages": [
-      "Arabic",
-      "Russian",
-      "French",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Miller",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "With strong interpersonal skills, Michael Miller ensures a safe and welcoming environment for all child participants.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/89.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Davis",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Focused on safety and inclusivity, Sophia Davis maintains open communication with parents and guardians regarding teen program activities.",
-    "languages": [
-      "Portuguese",
-      "French",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Garcia",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Maria Garcia, with 6 years in curriculum development, ensures educational content is engaging, accurate, and inspiring for passengers of all ages.",
-    "languages": [
-      "Russian",
-      "French",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "David Miller",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "With expertise in child health and safety protocols, David Miller manages routines and responds to individual needs of children under care.",
-    "languages": [
-      "Italian",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "With strong organizational skills, Robert Smith manages budgets, resources, and partnerships to deliver high-quality recreational services.",
-    "languages": [
-      "Italian",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Williams",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Leveraging 8 years of experience, Emma Williams is certified to instruct activities such as snorkeling, kayaking, and paddleboarding in diverse marine environments.",
-    "languages": [
-      "Spanish",
-      "German",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Garcia",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Committed to inclusivity, Robert Garcia adapts programming to accommodate varying fitness levels and any physical limitations.",
-    "languages": [
-      "Japanese",
-      "Italian",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Smith",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "With expertise in vendor relations and itinerary planning, Maria Smith ensures smooth, safe, and enjoyable excursions tailored to passenger interests.",
-    "languages": [
-      "Italian",
-      "English",
-      "Mandarin"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "James Davis",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "With extensive experience in portrait, event, and environmental photography, James Davis ensures high-quality imagery that reflects the voyage’s unique character.",
-    "languages": [
-      "Japanese",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Smith",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Known for creativity and adaptability, Maria Smith effectively captures the dynamic atmosphere and human moments aboard.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/95.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Jones",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "Digital Media Specialist Jones analyzes content performance and audience metrics to optimize digital strategies and engagement.",
-    "languages": [
-      "Russian",
-      "German",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Brown",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Committed to preventive care, Robert Brown promotes health education and wellness initiatives throughout the voyage.",
-    "languages": [
-      "Italian",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "David Jones",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "Ship's Doctor Jones is skilled in minor surgical procedures and advanced cardiac life support, bringing 15 years of critical care experience.",
-    "languages": [
-      "Arabic",
-      "French",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "David Davis",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Known for meticulous attention to detail and a caring demeanor, David Davis has been a vital part of shipboard medical teams for 9 years.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Miller",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Safety Officer Miller works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Johnson",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "Michael Johnson manages all hospitality services, ensuring exceptional guest experiences with 10 years of leadership.",
-    "languages": [
-      "English",
-      "Spanish"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/92.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "John Miller",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "John Miller coordinates guest services and resolves issues, leveraging 10 years of customer relations expertise.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Smith",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Sophia Smith ensures the highest standards of cleanliness and comfort throughout passenger accommodations.",
-    "languages": [
-      "Japanese",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Smith",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "With 7 years of dedicated service, Senior Steward Smith ensures guest accommodations are impeccably maintained and personalized to preferences.",
-    "languages": [
-      "Japanese",
-      "Portuguese",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "David Martinez",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "David Martinez crafts unforgettable moments for discerning guests, drawing on 15 years of experience in curating exclusive and seamless luxury service.",
-    "languages": [
-      "English",
-      "French"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "David Davis",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "David Davis expertly handles guest feedback regarding accommodations, implementing swift solutions and driving continuous improvement based on 8 years of experience.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Garcia",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "Housekeeping Supervisor Garcia is committed to sustainability in cleaning practices, implementing eco-friendly procedures throughout their 15 years of service.",
-    "languages": [
-      "Japanese",
-      "Russian",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Davis",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Emma Davis assists guests with inquiries and special requests, drawing on 18 years in customer service roles.",
-    "languages": [
-      "Mandarin",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/26.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Garcia",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "With an extensive network and 10 years of experience, Concierge Garcia arranges bespoke shore excursions, dining reservations, and special occasion services.",
-    "languages": [
-      "Russian",
-      "German",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/93.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Davis",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Front Desk Manager Davis oversees reception operations, ensuring efficient guest check-in and issue resolution.",
-    "languages": [
-      "Russian",
-      "English",
-      "Japanese"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Smith",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "With 14 years catering to high-profile clientele, Emma Smith curates bespoke itineraries and ensures flawless execution of all VIP arrangements.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Martinez",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Olivia Martinez develops training programs to elevate hospitality team skills, with 9 years in workforce development.",
-    "languages": [
-      "German",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Miller",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Executive Chef Miller leads a brigade of talented chefs, orchestrating all culinary operations and menu development with 10 years of innovative leadership.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/59.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Jones",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "Maria Jones trains and supervises junior chefs, playing a key role in maintaining discipline and motivation within the culinary team with 17 years of mentorship.",
-    "languages": [
-      "French",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/26.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Smith",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "Maria Smith blends creativity and technique to deliver memorable pastry experiences for guests.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Martinez",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "With 15 years as a section chef, Robert Martinez is responsible for stock control and guiding commis chefs within their designated area of the Continental kitchen.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Garcia",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Michael Garcia specializes in unique culinary styles, offering guests diverse flavors based on 18 years of expertise.",
-    "languages": [
-      "Japanese",
-      "French",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "John Jones",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "John Jones delights guests with traditional Edomae-style sushi and contemporary maki rolls, showcasing skills honed over 17 years of rigorous training.",
-    "languages": [
-      "Russian",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
-    "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
     "name": "James Rodriguez",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "Garde Manger Rodriguez ensures all cold food items are stored and handled with the utmost care, upholding critical food safety protocols over 18 years.",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "James Rodriguez works closely with regulatory bodies to ensure the vessel meets all international safety conventions and company policies.",
     "languages": [
-      "Russian",
-      "English",
-      "Portuguese"
+      "Spanish",
+      "German",
+      "Portuguese",
+      "English"
     ],
-    "experienceYears": 18,
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "James Johnson",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "With a passion for youth development, James Johnson crafts innovative activities fostering learning, social growth, and cultural awareness during voyages.",
+    "languages": [
+      "English",
+      "Japanese"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "John Jones",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "John Jones, with 3 years of experience, excels in logistics and planning, ensuring every family event runs smoothly and delights guests.",
+    "languages": [
+      "Japanese",
+      "Russian",
+      "Spanish",
+      "Arabic",
+      "English",
+      "Italian"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sarah Rodriguez",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Experienced in youth engagement, Sarah Rodriguez provides fun, educational, and culturally sensitive activities tailored for children of all ages.",
+    "languages": [
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "James Miller",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Teen Activities Coordinator Miller monitors participation and feedback to continuously refine and innovate teen programming.",
+    "languages": [
+      "English",
+      "Russian",
+      "Arabic"
+    ],
+    "experienceYears": 15,
     "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
-    "name": "John Garcia",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "John Garcia is responsible for precise meat cuts that meet kitchen and guest expectations.",
-    "languages": [
-      "Italian",
-      "English",
-      "Russian"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Martinez",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "Baker Martinez meticulously prepares a wide array of Japanese-inspired and classic baked goods daily, showcasing skills honed over 10 years.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Smith",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "With 11 years in Michelin-starred establishments, Sommelier Smith elevates the dining journey through impeccable wine service and cellar management.",
-    "languages": [
-      "Japanese",
-      "German",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Jones",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "Maria Jones delivers exceptional beverage experiences tailored to guest preferences onboard.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Jones",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Olivia Jones provides friendly and efficient service at the coffee bar, sharing knowledge and passion for specialty coffee honed over 9 years.",
+    "name": "John Brown",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "With a commitment to lifelong learning, John Brown curates curriculum and interactive sessions that enhance passenger knowledge and engagement.",
     "languages": [
       "Arabic",
+      "Japanese",
+      "English",
+      "German",
+      "French"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Michael Rodriguez",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Child Care Specialist Rodriguez promotes social and emotional development through structured play and educational activities.",
+    "languages": [
+      "Arabic",
+      "Portuguese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sophia Rodriguez",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "With a focus on guest engagement and satisfaction, Sophia Rodriguez designs diverse activity schedules that cater to a wide range of interests and age groups onboard.",
+    "languages": [
+      "French",
+      "Portuguese",
       "German",
       "English"
     ],
     "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/96.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
-    "name": "Emma Smith",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Emma Smith collaborates with chefs to ensure nutritious and delicious meal options onboard.",
+    "name": "Michael Brown",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Leveraging 10 years of experience, Michael Brown is certified to instruct activities such as snorkeling, kayaking, and paddleboarding in diverse marine environments.",
     "languages": [
-      "English",
-      "Mandarin"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/91.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Smith",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "Entertainment Director Smith curates diverse programming to engage and delight guests throughout voyages.",
-    "languages": [
-      "Mandarin",
-      "German",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "James Martinez",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Performance Coordinator Martinez supports talent and technical teams to deliver seamless shows.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Davis",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "Emma Davis brings charisma and vocal expertise to the ship's entertainment lineup.",
-    "languages": [
-      "German",
+      "Arabic",
       "Japanese",
+      "German",
       "English"
     ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/62.jpg",
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
-    "name": "Sophia Garcia",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "Sophia Garcia enriches onboard ambiance through skilled instrumental and vocal performances.",
+    "name": "Emma Garcia",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Committed to inclusivity, Emma Garcia adapts programming to accommodate varying fitness levels and any physical limitations.",
     "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Garcia",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "With 13 years of professional training in {danceStyle} and contemporary dance, Olivia Garcia executes complex choreography with precision and artistry in mainstage productions.",
-    "languages": [
-      "English",
-      "Spanish"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/88.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Williams",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Robert Williams collaborates with costume and lighting designers to create a cohesive and visually stunning spectacle, drawing on 15 years of experience in stage production.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/87.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "David Miller",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "David Miller's ability to connect with the audience and improvise, developed over 18 years, makes each show a unique and highly enjoyable experience.",
-    "languages": [
-      "Russian",
-      "French",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Davis",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "Magic Act specialist Davis combines masterful sleight of hand with engaging patter, creating an atmosphere of wonder and excitement during every {duration} show.",
-    "languages": [
-      "Portuguese",
+      "Arabic",
       "Spanish",
       "Mandarin",
+      "German",
+      "Russian",
       "English"
     ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/19.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
-    "name": "Emma Brown",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "DJ Brown stays current with music trends while also mastering classics, offering 11 years of expertise in curating unforgettable musical journeys.",
+    "name": "Sarah Martinez",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Excursion Coordinator Martinez plans enriching off-ship experiences that promote cultural immersion and memorable interactions for passengers.",
     "languages": [
-      "Mandarin",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "John Johnson",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "With 19 years of experience in mixing live sound for theatre, music, and events, John Johnson guarantees crystal-clear audio for all onboard productions.",
-    "languages": [
-      "Arabic",
-      "Mandarin",
+      "French",
+      "Spanish",
       "English"
     ],
     "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
-    "name": "Robert Garcia",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "Robert Garcia applies 12 years of technical skill to create immersive visual experiences.",
+    "name": "Michael Johnson",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Michael Johnson leads the photo team with 16 years of experience, mentoring staff and ensuring consistent, high-quality photographic services for all guests.",
     "languages": [
+      "Arabic",
+      "Russian",
+      "English",
+      "French"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sophia Rodriguez",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "With a strong understanding of narrative flow and audience engagement, Sophia Rodriguez produces videos for promotional and archival purposes.",
+    "languages": [
+      "Russian",
+      "Spanish",
       "English"
     ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/92.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
-    "name": "Maria Garcia",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "Maria Garcia supervises stage operations and talent, drawing on 9 years of event management.",
+    "name": "James Martinez",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "James Martinez manages digital content and multimedia production, applying 6 years in digital media, marketing, and audience engagement strategies.",
     "languages": [
-      "Japanese",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/56.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "David Williams",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "Production Manager Williams oversees logistics and technical coordination for large-scale entertainment productions.",
-    "languages": [
+      "Arabic",
+      "Russian",
       "English"
     ],
     "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
-    "name": "John Martinez",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "With 10 years of experience in theatrical costume design, John Martinez conceives and produces stunning wardrobes that define characters and elevate productions.",
+    "name": "John Smith",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Drawing on 4 years as a medical leader, John Smith ensures the ship's medical facility operates to the highest international healthcare standards.",
+    "languages": [
+      "English",
+      "Italian",
+      "Portuguese",
+      "Russian"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Emma Rodriguez",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Dr. Rodriguez provides comprehensive medical care with 15 years of expertise in maritime and travel medicine, addressing acute and chronic conditions onboard.",
+    "languages": [
+      "Spanish",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/36.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Michael Rodriguez",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Nurse Rodriguez provides empathetic and skilled assistance, ensuring patient comfort and adherence to strict hygiene and infection control protocols.",
+    "languages": [
+      "Russian",
+      "Portuguese",
+      "Italian",
+      "Spanish",
+      "French",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/94.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Robert Smith",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Robert Smith conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in Mediterranean's maritime operations.",
+    "languages": [
+      "French",
+      "German",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Robert Smith",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Robert Smith manages all hospitality services, ensuring exceptional guest experiences with 3 years of leadership.",
+    "languages": [
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Emma Williams",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Guest Relations Manager Williams is adept at handling complex guest inquiries and ensuring swift, satisfactory resolutions, fostering loyalty and positive experiences.",
+    "languages": [
+      "German",
+      "Spanish",
+      "French",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "John Johnson",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Chief Steward Johnson trains and mentors the housekeeping staff, instilling a keen eye for detail and a commitment to impeccable service honed over 11 years.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "David Rodriguez",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "With 7 years of dedicated service, Senior Steward Rodriguez ensures guest accommodations are impeccably maintained and personalized to preferences.",
+    "languages": [
+      "Arabic",
+      "Japanese",
+      "Portuguese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "David Brown",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Butler Brown is a master of personal assistance, ensuring every detail of a guest's stay is flawless, reflecting 12 years in top-tier hospitality.",
+    "languages": [
+      "French",
+      "German",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/93.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Olivia Martinez",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Olivia Martinez oversees accommodation services, ensuring comfort and efficiency with 20 years in maritime hospitality.",
+    "languages": [
+      "Japanese",
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sarah Martinez",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Martinez leads cleaning teams, maintaining impeccable standards across all guest areas.",
+    "languages": [
+      "Italian",
+      "Arabic",
+      "German",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/97.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sarah Martinez",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Guest Services Specialist Martinez facilitates seamless guest interactions to enhance onboard experiences.",
+    "languages": [
+      "German",
+      "Portuguese",
+      "Japanese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/96.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Michael Davis",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "With an extensive network and 16 years of experience, Concierge Davis arranges bespoke shore excursions, dining reservations, and special occasion services.",
+    "languages": [
+      "Mandarin",
+      "Portuguese",
+      "French",
+      "Japanese",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Maria Miller",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Front Desk Manager Miller oversees reception operations, ensuring efficient guest check-in and issue resolution.",
+    "languages": [
+      "English",
+      "Spanish",
+      "Italian"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Emma Miller",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "VIP Coordinator Miller liaises with all departments to provide seamless, anticipatory service for distinguished guests, maintaining utmost confidentiality.",
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Emma Johnson",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Trainer Johnson focuses on enhancing guest service quality through targeted education and coaching.",
+    "languages": [
+      "Spanish",
+      "German",
+      "English",
+      "Arabic"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/96.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Emma Rodriguez",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Beyond crafting exquisite Pan-Asian, Chef Rodriguez expertly manages kitchen hygiene, inventory, and food cost control, honed over 10 years in demanding culinary environments.",
     "languages": [
       "Japanese",
       "Russian",
       "English"
     ],
     "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
-    "name": "Michael Garcia",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Michael Garcia promotes diversity and cultural awareness through engaging onboard programming.",
+    "name": "Sarah Jones",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "As second-in-command, Sous Chef Jones ensures seamless kitchen workflow and consistent dish quality, drawing on 5 years of hands-on Italian experience.",
     "languages": [
+      "Russian",
       "Japanese",
-      "English",
-      "French"
+      "Arabic",
+      "German",
+      "English"
     ],
     "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
-    "name": "Michael Jones",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "With 12 years pushing artistic boundaries, Michael Jones offers a distinctive and captivating addition to the ship's diverse entertainment offerings.",
+    "name": "Sophia Garcia",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Pastry Chef Garcia crafts exquisite desserts with 14 years of baking and pastry artistry.",
+    "languages": [
+      "Russian",
+      "French",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sarah Jones",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Specializing in the power management station (e.g., Saucier, Grillardin), Chef de Partie Jones brings 20 years of expertise in preparing precise Pacific Rim components.",
+    "languages": [
+      "Italian",
+      "Portuguese",
+      "Russian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/90.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Michael Brown",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "With 13 years perfecting {cuisineSpecific} artistry, Michael Brown ensures each plate is a true representation of its cultural heritage and bold flavors.",
     "languages": [
       "Japanese",
+      "Arabic",
+      "Spanish",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sarah Jones",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "With 5 years dedicated to the art of sushi and sashimi, Chef Jones meticulously selects the freshest seafood and crafts each piece with mastery.",
+    "languages": [
+      "Portuguese",
+      "Russian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/94.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Emma Jones",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Garde Manger Jones expertly prepares cold dishes and appetizers with 15 years of culinary proficiency.",
+    "languages": [
+      "Portuguese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/87.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Maria Miller",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Maria Miller is responsible for precise meat cuts that meet kitchen and guest expectations.",
+    "languages": [
+      "Japanese",
+      "Italian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/96.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Maria Brown",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Maria Brown combines traditional techniques with innovation to delight guests with baked specialties.",
+    "languages": [
+      "Japanese",
+      "Russian",
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "John Garcia",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Sommelier Garcia curates wine selections, offering expert pairing advice with 10 years in fine wine service.",
+    "languages": [
+      "English",
+      "Portuguese",
+      "Japanese",
+      "Mandarin"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "John Davis",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "John Davis delivers exceptional beverage experiences tailored to guest preferences onboard.",
+    "languages": [
+      "Spanish",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "James Johnson",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "James Johnson provides friendly and efficient service at the coffee bar, sharing knowledge and passion for specialty coffee honed over 12 years.",
+    "languages": [
+      "Mandarin",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/88.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "James Williams",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Nutritionist Williams works closely with the culinary team to create wholesome Latin American options that are both flavorful and aligned with wellness goals, drawing on 12 years of expertise.",
+    "languages": [
+      "Japanese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "John Miller",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Entertainment Director Miller curates diverse programming to engage and delight guests throughout voyages.",
+    "languages": [
+      "French",
+      "Portuguese",
+      "Arabic",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Michael Smith",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Performance Coordinator Smith serves as the key liaison between artists, production staff, and management, ensuring clear communication and efficient problem-solving.",
+    "languages": [
+      "Portuguese",
+      "Russian",
+      "English",
+      "Spanish"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Olivia Brown",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "Lead Vocalist Brown captivates audiences with dynamic performances, backed by 8 years of professional singing.",
+    "languages": [
+      "Spanish",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "James Rodriguez",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Musician Rodriguez performs live music across genres, engaging guests with 20 years of performance experience.",
+    "languages": [
+      "Japanese",
+      "Mandarin",
+      "Portuguese",
+      "Italian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/92.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Robert Smith",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Robert Smith is a dedicated member of the ensemble, contributing to high-energy production numbers and themed events, showcasing 11 years of professional dance experience.",
+    "languages": [
+      "French",
+      "Italian",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/86.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Robert Garcia",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Robert Garcia collaborates with costume and lighting designers to create a cohesive and visually stunning spectacle, drawing on 12 years of experience in stage production.",
+    "languages": [
+      "Portuguese",
+      "Mandarin",
+      "Italian",
+      "Japanese",
+      "English",
+      "Russian"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Olivia Martinez",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Comedy Performer Martinez delivers engaging and memorable stand-up routines onboard.",
+    "languages": [
+      "German",
+      "French",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Robert Johnson brings a unique brand of enchantment to the ship's entertainment, drawing on 15 years of professional magic and a flair for theatrical presentation.",
+    "languages": [
+      "Spanish",
+      "English",
+      "German"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "James Martinez",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "With an extensive music library and 20 years of reading crowds, DJ Martinez seamlessly blends genres to create the perfect soundtrack for any onboard event or nightclub.",
+    "languages": [
+      "French",
+      "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Michael Miller's keen ear and technical proficiency, developed over 5 years, are essential for delivering immersive and high-quality auditory experiences.",
+    "languages": [
+      "Italian",
+      "Japanese",
+      "Arabic",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Robert Brown",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "With 17 years in theatrical lighting design and operation, Robert Brown transforms stages and venues with dynamic and atmospheric lighting cues.",
+    "languages": [
+      "Mandarin",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Maria Jones",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Stage Manager Jones is the organizational backbone of the production, liaising between performers, technicians, and the director to maintain artistic integrity and timing.",
+    "languages": [
+      "Japanese",
+      "French",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Olivia Johnson",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Olivia Johnson ensures timely and efficient delivery of shows, leveraging 16 years in production management.",
+    "languages": [
+      "Italian",
+      "Portuguese",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Michael Davis",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Michael Davis combines creativity and craftsmanship with 16 years of design expertise.",
+    "languages": [
+      "Spanish",
+      "Mandarin",
+      "German",
+      "Russian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Robert Miller",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Cultural Program Director Miller curates culturally enriching events and experiences for guests.",
+    "languages": [
+      "Mandarin",
+      "French",
+      "Spanish",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "James Williams",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Performance Artist Williams delivers unique and innovative acts, blending multiple disciplines with 11 years of artistic practice.",
+    "languages": [
+      "Arabic",
+      "Japanese",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Robert Miller",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Operations Manager Miller is adept at problem-solving complex logistical challenges and implementing solutions that enhance overall ship performance and guest satisfaction.",
+    "languages": [
+      "Portuguese",
+      "Russian",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Maria Miller",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Logistics Coordinator Miller meticulously plans and tracks shipments, manages customs documentation, and optimizes storage solutions onboard.",
+    "languages": [
+      "Spanish",
+      "English",
+      "Russian",
+      "Italian",
+      "Japanese"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "James Martinez",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "James Martinez ensures accurate inventory control using advanced management systems.",
+    "languages": [
+      "Portuguese",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "James Brown",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "James Brown's sharp negotiation skills and 12 years of experience contribute significantly to controlling operational costs while maintaining quality standards.",
+    "languages": [
+      "French",
+      "German",
+      "Mandarin",
       "English"
     ],
     "experienceYears": 12,
     "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   },
   {
-    "name": "James Rodriguez",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Operations Manager Rodriguez applies 15 years of leadership in maritime operations.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Brown",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "Maria Brown's expertise in procurement and vendor management, developed over 13 years, ensures cost-effective and reliable sourcing for all vessel needs.",
-    "languages": [
-      "Russian",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Brown",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "With 18 years in inventory management, Michael Brown meticulously maintains records for all consumables, technical spares, and retail goods onboard.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Johnson",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "With 13 years in strategic sourcing, Michael Johnson identifies reliable suppliers and negotiates favorable terms for all shipboard necessities, from fuel to food.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
-    "city": "Lisbon",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Miller",
+    "name": "James Williams",
     "role": "Sustainability Coordinator",
     "department": "Operations Department",
-    "bio": "Olivia Miller champions innovative eco-friendly technologies and practices, leveraging 8 years to enhance the vessel's environmental performance and reputation.",
+    "bio": "James Williams champions innovative eco-friendly technologies and practices, leveraging 6 years to enhance the vessel's environmental performance and reputation.",
     "languages": [
-      "French",
+      "Japanese",
+      "Portuguese",
+      "Russian",
       "English"
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
     "city": "Lisbon",
-    "country": "Global"
+    "country": "Portugal",
+    "region": "Mediterranean"
   }
 ];

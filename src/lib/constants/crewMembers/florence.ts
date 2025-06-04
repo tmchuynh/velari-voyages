@@ -2,1294 +2,1499 @@ import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const florenceTeamMembers: CrewMember[] = [
   {
-    "name": "Sophia Davis",
+    "name": "Maria Brown",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "Drawing on 8 years of command, Sophia Davis expertly manages all aspects of vessel operation in undefined, emphasizing crew development and operational excellence.",
+    "bio": "Maria Brown brings over 3 years of experience navigating Mediterranean's waters, specializing in coastal and offshore operations with a focus on safety and efficiency.",
     "languages": [
-      "German",
-      "English"
+      "French",
+      "English",
+      "Italian",
+      "Spanish"
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "Sophia Jones",
+    "name": "Olivia Martinez",
     "role": "First Officer",
     "department": "Deck Department",
-    "bio": "First Officer Jones's 15-year background includes robust training in advanced navigation systems and crew supervision within undefined.",
+    "bio": "Olivia Martinez specializes in Mediterranean navigation with 22 years of experience managing bridge operations and ensuring adherence to safety standards.",
     "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/90.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "John Brown",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "Second Officer Brown is adept at monitoring vessel position and environmental conditions, contributing to safe passage through undefined.",
-    "languages": [
+      "Arabic",
+      "Portuguese",
       "English",
-      "French",
       "Russian"
     ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "David Johnson",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "Third Officer Johnson assists with cargo operations and ballast management, a key part of their 6 years of development in undefined.",
-    "languages": [
-      "Portuguese",
-      "Mandarin",
-      "French",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Rodriguez",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "Navigation Officer Rodriguez ensures all navigational equipment is calibrated and fully operational, leveraging 9 years of technical expertise in undefined.",
-    "languages": [
-      "French",
-      "Russian",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/96.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "James Miller",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "Safety Officer Miller works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
-    "languages": [
-      "Mandarin",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "James Davis",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "With a strong commitment to professional growth, James Davis actively participates in drills and training to build competence for safe vessel operation.",
-    "languages": [
-      "Spanish",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Brown",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Bosun Brown mentors junior deck crew, promoting professional development and adherence to best practices in undefined's maritime industry.",
-    "languages": [
-      "Arabic",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/94.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "James Jones",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "James Jones oversees all vessel systems with 13 years of expertise in maritime engineering, specializing in vessel automation and ensuring compliance with safety and environmental regulations.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Rodriguez",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "Emma Rodriguez plays a key role in implementing engineering upgrades and system modifications, leveraging extensive technical knowledge.",
-    "languages": [
-      "Portuguese",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 14,
+    "experienceYears": 22,
     "profileImage": "https://randomuser.me/api/portraits/women/36.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "David Smith",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "Second Engineer Smith conducts routine inspections and coordinates repairs for critical propulsion and auxiliary machinery.",
+    "name": "Emma Johnson",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "With a strong focus on electronic navigation and safety equipment, Emma Johnson brings 6 years of experience navigating Mediterranean's challenging routes.",
     "languages": [
       "Mandarin",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Smith",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Electrical Engineer Smith conducts regular testing and troubleshooting of generators, switchboards, and control systems to prevent downtime.",
-    "languages": [
-      "Japanese",
-      "Spanish",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Davis",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "With 14 years of mechanical expertise, Olivia Davis maintains critical ship machinery, including pumps, compressors, and hydraulic systems.",
-    "languages": [
-      "German",
-      "French",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Garcia",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "Robert Garcia monitors system performance and implements upgrades to enhance passenger comfort and crew wellbeing.",
-    "languages": [
       "Italian",
       "English"
     ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/67.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "Sophia Williams",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Environmental Engineer Williams monitors emissions and advises on strategies to minimize the vessel’s environmental footprint.",
+    "name": "Maria Johnson",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Third Officer Johnson assists with cargo operations and ballast management, a key part of their 18 years of development in Mediterranean.",
     "languages": [
+      "Portuguese",
       "Arabic",
-      "Japanese",
+      "Italian",
       "English"
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/36.jpg",
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/97.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "Maria Davis",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "With extensive knowledge of software and hardware interfaces, Maria Davis enhances system interoperability and cybersecurity aboard vessels.",
+    "name": "Robert Williams",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Navigation Officer Williams maintains detailed voyage records and monitors navigation aids, ensuring compliance with maritime regulations in Mediterranean.",
     "languages": [
+      "Japanese",
+      "German",
+      "Arabic",
+      "French",
       "Russian",
       "English"
     ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "John Davis",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "John Davis conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in Mediterranean's maritime operations.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Maria Davis",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Eager to learn, Deck Cadet Maria Davis diligently assists with bridge duties and deck maintenance tasks, absorbing essential skills for navigating Mediterranean.",
+    "languages": [
+      "Spanish",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "John Martinez",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "With 18 years managing deck teams, John Martinez coordinates tasks such as mooring, cargo handling, and routine repairs, maintaining operational readiness in Mediterranean.",
+    "languages": [
+      "English",
+      "Russian",
+      "Mandarin"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sarah Brown",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Chief Engineer Brown manages engineering teams and coordinates preventative maintenance programs to maximize uptime and efficiency throughout voyages.",
+    "languages": [
+      "French",
+      "German",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "John Williams",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "John Williams plays a key role in implementing engineering upgrades and system modifications, leveraging extensive technical knowledge.",
+    "languages": [
+      "Mandarin",
+      "Russian",
+      "German",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Second Engineer Miller meticulously manages bunkering operations and ensures the quality of fuel and lubricants, drawing on 14 years of practical knowledge.",
+    "languages": [
+      "English",
+      "Spanish",
+      "Russian",
+      "Japanese"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "John Garcia",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Drawing on 21 years, John Garcia ensures the integrity of high-voltage systems and sophisticated electronic controls throughout the vessel.",
+    "languages": [
+      "English",
+      "Italian",
+      "German"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Emma Jones",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Emma Jones's problem-solving abilities are crucial for addressing unexpected mechanical challenges, ensuring vessel safety and uptime through 17 years of service.",
+    "languages": [
+      "English",
+      "Japanese",
+      "Arabic",
+      "Russian",
+      "Mandarin"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sarah Brown",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "HVAC Engineer Brown ensures optimal climate control aboard vessels, leveraging 12 years of system optimization and energy efficiency knowledge.",
+    "languages": [
+      "German",
+      "French",
+      "Spanish",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/19.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Environmental Engineer Miller manages the ship's garbage management plan and oversees the operation of pollution prevention equipment, with 13 years of dedication.",
+    "languages": [
+      "Mandarin",
+      "Portuguese",
+      "Spanish",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/54.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "John Rodriguez",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "John Rodriguez integrates complex onboard systems, ensuring operational synergy and reliability with 16 years of maritime engineering expertise.",
+    "languages": [
+      "Russian",
+      "Arabic",
+      "Italian",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
     "name": "Michael Miller",
     "role": "Technical Manager",
     "department": "Engineering Department",
-    "bio": "With 7 years leading technical teams, Michael Miller ensures vessel systems meet all regulatory, safety, and performance standards.",
+    "bio": "With 8 years leading technical teams, Michael Miller ensures vessel systems meet all regulatory, safety, and performance standards.",
     "languages": [
       "Spanish",
+      "Russian",
       "German",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Miller",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Maria Miller meticulously documents all maintenance activities, ensuring a comprehensive history for all critical machinery, built over 6 years of service.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "David Garcia",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Former intelligence David Garcia leads our security team with 6 years of expertise in maritime safety protocols, risk assessment, and crisis management.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Brown",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Sarah Brown conducts routine security patrols and enforces safety regulations, backed by 7 years in maritime security operations and incident response.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "James Smith",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Security Specialist Smith designs and delivers bespoke security training programs for crew members, reflecting 10 years of practical insight.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Martinez",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "With a background in IT security, Michael Martinez safeguards shipboard communication and control systems against cyber threats, ensuring data integrity and system availability.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/98.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "James Johnson",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "Maritime Security Coordinator Johnson leads risk assessment initiatives and supports vessel security certification processes.",
-    "languages": [
-      "Japanese",
       "English"
     ],
     "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/95.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "Sophia Johnson",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Access Control Officer Johnson manages secure boarding and access with 10 years maintaining maritime entry protocols and identification verification.",
+    "name": "Sophia Garcia",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Maintenance Engineer Garcia troubleshoots system faults and implements timely repairs, maintaining vessel operational readiness.",
     "languages": [
-      "French",
-      "Japanese",
+      "German",
+      "Mandarin",
+      "Portuguese",
       "English"
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/96.jpg",
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "Sophia Davis",
-    "role": "Safety Compliance Officer",
+    "name": "Olivia Miller",
+    "role": "Security Director",
     "department": "Security Department",
-    "bio": "Safety Compliance Officer Davis promotes a safety-first culture through continuous education and enforcement of best practices.",
+    "bio": "Security Director Miller has 8 years of experience liaising with international maritime security agencies and port authorities.",
     "languages": [
-      "Portuguese",
+      "Japanese",
+      "Spanish",
+      "Russian",
       "Italian",
       "English"
     ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/99.jpg",
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "James Davis",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Youth Program Director Davis manages program staff and coordinates resources to deliver safe, inclusive, and dynamic youth experiences.",
+    "name": "Michael Johnson",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "With 4 years on watch, Michael Johnson is adept at identifying suspicious activities and ensuring adherence to the ship's security plan.",
     "languages": [
+      "Japanese",
+      "Arabic",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Olivia Jones",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Drawing on 13 years, Olivia Jones has in-depth knowledge of non-lethal defense tactics and anti-piracy measures.",
+    "languages": [
+      "Portuguese",
       "Spanish",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "James Garcia",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Known for proactive defense strategies, James Garcia continuously monitors network activity and coordinates responses to cyber incidents onboard.",
+    "languages": [
+      "Portuguese",
+      "Mandarin",
+      "Japanese",
+      "Russian",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Olivia Martinez",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "With strong organizational skills, Olivia Martinez maintains detailed records and reports to support continuous security improvement.",
+    "languages": [
       "French",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Olivia Rodriguez",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Olivia Rodriguez ensures all personnel and visitors comply with security clearance, manifests, and international maritime access regulations.",
+    "languages": [
+      "Mandarin",
+      "German",
       "English"
     ],
     "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "Robert Williams",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Robert Williams, with 8 years of experience, excels in logistics and planning, ensuring every family event runs smoothly and delights guests.",
+    "name": "Robert Martinez",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Leveraging 6 years, Robert Martinez ensures the vessel's Safety Management System (SMS) is effectively implemented and continuously improved.",
     "languages": [
-      "Mandarin",
+      "French",
+      "Russian",
+      "Japanese",
       "English"
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "Robert Jones",
-    "role": "Children's Entertainment Specialist",
+    "name": "Sophia Jones",
+    "role": "Youth Program Director",
     "department": "Youth & Family Programs",
-    "bio": "With strong interpersonal skills, Robert Jones ensures a safe and welcoming environment for all child participants.",
+    "bio": "With a passion for youth development, Sophia Jones crafts innovative activities fostering learning, social growth, and cultural awareness during voyages.",
     "languages": [
+      "Mandarin",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "John Jones",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "John Jones, with 13 years of experience, excels in logistics and planning, ensuring every family event runs smoothly and delights guests.",
+    "languages": [
+      "Italian",
       "Russian",
       "English"
     ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "Sarah Martinez",
-    "role": "Teen Activities Coordinator",
+    "name": "Sarah Jones",
+    "role": "Children's Entertainment Specialist",
     "department": "Youth & Family Programs",
-    "bio": "Teen Activities Coordinator Martinez fosters positive social environments with interactive, age-appropriate activities that encourage peer bonding.",
+    "bio": "Sarah Jones is passionate about sparking imagination, developing new and exciting entertainment formats for kids over 9 years in the field.",
     "languages": [
       "French",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "James Davis",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "With a commitment to lifelong learning, James Davis curates curriculum and interactive sessions that enhance passenger knowledge and engagement.",
-    "languages": [
-      "Portuguese",
-      "French",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Child Care Specialist Smith promotes social and emotional development through structured play and educational activities.",
-    "languages": [
-      "Arabic",
       "Italian",
       "English"
     ],
     "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/76.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "Robert Martinez",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "Robert Martinez plans and coordinates all recreational activities, utilizing 19 years of event management expertise to create engaging, inclusive programs.",
+    "name": "Robert Johnson",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Robert Johnson develops dynamic programs catering to teenage guests, drawing on 21 years of youth facilitation and event management expertise.",
     "languages": [
       "Italian",
-      "Spanish",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "James Garcia",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "James Garcia's primary focus for 10 years has been ensuring every guest feels confident and secure while exploring the water.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Williams",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Fitness Instructor Williams promotes wellness and physical health through tailored exercise programs, backed by 8 years of fitness training and client engagement.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Martinez",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Excursion Coordinator Martinez plans enriching off-ship experiences that promote cultural immersion and memorable interactions for passengers.",
-    "languages": [
-      "Arabic",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Garcia",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "Drawing on 12 years behind the lens, Sophia Garcia expertly captures the essence of the cruise experience, from grand events to intimate moments.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/37.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "John Brown",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "John Brown documents ship activities, excursions, and special events, delivering high-quality video content with 11 years of professional videography experience.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Garcia",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "Known for technical proficiency and creative vision, Sophia Garcia collaborates closely with marketing and entertainment teams to maximize reach and impact.",
-    "languages": [
-      "German",
       "Mandarin",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Olivia Garcia",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Educational Program Manager Garcia forges partnerships with guest speakers and institutions to provide high-quality learning experiences, leveraging 14 years of networking.",
+    "languages": [
       "Italian",
+      "German",
+      "Russian",
+      "Arabic",
+      "Spanish",
+      "Mandarin",
       "English"
     ],
     "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
     "name": "John Martinez",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Drawing on 14 years as a medical leader, John Martinez ensures the ship's medical facility operates to the highest international healthcare standards.",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Child Care Specialist Martinez promotes social and emotional development through structured play and educational activities.",
     "languages": [
-      "German",
-      "Italian",
+      "Spanish",
       "Japanese",
+      "Russian",
+      "Italian",
       "English"
     ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "Sarah Miller",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "Ship's Doctor Miller conducts routine health assessments and manages medical records in compliance with international maritime standards.",
+    "name": "Sarah Williams",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Known for innovative programming, Sarah Williams continuously evaluates activity trends and passenger feedback to refresh and improve offerings.",
     "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sarah Johnson",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Water Sports Instructor Johnson ensures guests enjoy safe, fun, and memorable water-based experiences while strictly adhering to safety protocols.",
+    "languages": [
+      "Portuguese",
+      "French",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sarah Johnson",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Committed to inclusivity, Sarah Johnson adapts programming to accommodate varying fitness levels and any physical limitations.",
+    "languages": [
+      "German",
+      "Arabic",
       "Mandarin",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Rodriguez",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Nurse Rodriguez is experienced in managing chronic health conditions at sea and providing ongoing support to guests with specific medical needs, drawing from 15 years of practice.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Johnson",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Sophia Johnson conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in undefined's maritime operations.",
-    "languages": [
-      "Italian",
-      "German",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "John Brown",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "With 17 years in hospitality management, John Brown drives operational excellence and team performance onboard.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "John Smith",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "With a passion for service excellence developed over 15 years, John Smith leads the guest relations team to anticipate and exceed passenger expectations.",
-    "languages": [
-      "Italian",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/99.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Davis",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Michael Davis ensures the highest standards of cleanliness and comfort throughout passenger accommodations.",
-    "languages": [
-      "English",
-      "Russian"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/96.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Rodriguez",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "Robert Rodriguez provides exceptional valet services and anticipates guest needs, contributing to a luxurious and comfortable onboard experience over 8 years.",
-    "languages": [
-      "Italian",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "John Johnson",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "John Johnson crafts unforgettable moments for discerning guests, drawing on 15 years of experience in curating exclusive and seamless luxury service.",
-    "languages": [
-      "Russian",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/86.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Jones",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "Olivia Jones oversees accommodation services, ensuring comfort and efficiency with 10 years in maritime hospitality.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Martinez",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "Housekeeping Supervisor Martinez is committed to sustainability in cleaning practices, implementing eco-friendly procedures throughout their 13 years of service.",
-    "languages": [
-      "Portuguese",
-      "Arabic",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Miller",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Michael Miller assists guests with inquiries and special requests, drawing on 6 years in customer service roles.",
-    "languages": [
-      "French",
-      "German",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Smith",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "Sophia Smith leverages 6 years of service to provide exceptional concierge support onboard.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Miller",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Sarah Miller is pivotal in managing high-traffic periods and resolving escalated guest concerns with professionalism and grace, reflecting 14 years in the field.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "James Rodriguez",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "James Rodriguez designs and executes VIP programs that exceed the highest standards of luxury and discretion.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Jones",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Hospitality Trainer Jones specializes in areas like luxury service standards, complaint resolution, and upselling techniques, drawing on 8 years of industry best practices.",
-    "languages": [
-      "Arabic",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Martinez",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Chef Martinez creates exceptional Asian fusion cuisine with 6 years of culinary expertise from around the world.",
-    "languages": [
-      "French",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Smith",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "Sarah Smith excels in menu execution and team management to maintain high culinary standards.",
-    "languages": [
-      "English",
-      "Arabic"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Williams",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "With a passion for sweet masterpieces, Pastry Chef Williams continually develops new recipes, delighting guests with 6 years of dedication to the art of patisserie.",
-    "languages": [
-      "German",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "John Brown",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "With 14 years as a section chef, John Brown is responsible for stock control and guiding commis chefs within their designated area of the Pacific Rim kitchen.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Johnson",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Olivia Johnson specializes in unique culinary styles, offering guests diverse flavors based on 10 years of expertise.",
-    "languages": [
-      "Arabic",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/84.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Brown",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Maria Brown combines precision and creativity to deliver an authentic sushi experience at sea.",
-    "languages": [
-      "Spanish",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Jones",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "Garde Manger Jones ensures all cold food items are stored and handled with the utmost care, upholding critical food safety protocols over 10 years.",
-    "languages": [
-      "Portuguese",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/92.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Johnson",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Maria Johnson is responsible for precise meat cuts that meet kitchen and guest expectations.",
-    "languages": [
-      "French",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Rodriguez",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "Emma Rodriguez manages the bakery's production schedule and ingredient inventory, ensuring consistent quality and freshness, backed by 19 years of professional baking.",
-    "languages": [
-      "Italian",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Robert Smith provides engaging wine education and tasting experiences for guests, sharing insights from 16 years exploring global viticulture.",
-    "languages": [
-      "Italian",
       "Portuguese",
       "English"
     ],
     "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "Olivia Rodriguez",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "With 7 years behind the bar, Olivia Rodriguez designs innovative signature cocktails and perfectly executes classic recipes using premium spirits and fresh ingredients.",
+    "name": "David Johnson",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "David Johnson's meticulous planning and attention to detail, developed over 20 years, ensure every guest's off-ship adventure is seamless and unforgettable.",
     "languages": [
+      "Arabic",
+      "Mandarin",
+      "German",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sarah Johnson",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Known for creativity and attention to detail, Sarah Johnson collaborates with other departments to produce visual content that enhances onboard marketing and memory-making.",
+    "languages": [
+      "Italian",
+      "Spanish",
+      "Russian",
+      "German",
+      "Arabic",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sarah Williams",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Videographer Williams maintains technical equipment and coordinates with production teams to ensure seamless content delivery.",
+    "languages": [
+      "Portuguese",
+      "French",
+      "Italian",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/94.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "James Garcia",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Digital Media Specialist Garcia analyzes content performance and audience metrics to optimize digital strategies and engagement.",
+    "languages": [
+      "Italian",
+      "Arabic",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sophia Rodriguez",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Sophia Rodriguez, with a distinguished 9-year career in vessel automation and maritime health, provides expert medical oversight for thousands of passengers and crew.",
+    "languages": [
+      "Spanish",
+      "Mandarin",
+      "English",
+      "French",
+      "Russian"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "John Rodriguez",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Known for calm professionalism, Dr. Rodriguez leads medical emergency interventions and coordinates evacuation when necessary.",
+    "languages": [
+      "Russian",
+      "Mandarin",
+      "Portuguese",
+      "Spanish",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sophia Johnson",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Nurse Johnson is experienced in managing chronic health conditions at sea and providing ongoing support to guests with specific medical needs, drawing from 8 years of practice.",
+    "languages": [
+      "Portuguese",
+      "Russian",
+      "French",
+      "Spanish",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Robert Garcia",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Safety Officer Garcia works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
+    "languages": [
+      "Italian",
+      "German",
+      "French",
+      "Arabic",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Emma Jones",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Emma Jones manages all hospitality services, ensuring exceptional guest experiences with 14 years of leadership.",
+    "languages": [
+      "Portuguese",
+      "Arabic",
+      "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/67.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Maria Martinez",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Guest Relations Manager Martinez enhances passenger satisfaction through attentive and personalized service.",
+    "languages": [
+      "Mandarin",
+      "Russian",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sophia Williams",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Sophia Williams ensures the highest standards of cleanliness and comfort throughout passenger accommodations.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Robert Smith",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Senior Steward Smith delivers attentive guest services and supports stewardship operations, drawing on 4 years onboard.",
+    "languages": [
+      "German",
+      "English",
+      "Arabic",
+      "Spanish"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "David Garcia",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "David Garcia crafts unforgettable moments for discerning guests, drawing on 4 years of experience in curating exclusive and seamless luxury service.",
+    "languages": [
+      "Mandarin",
+      "Japanese",
+      "French",
+      "German",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Robert Miller",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Robert Miller oversees accommodation services, ensuring comfort and efficiency with 15 years in maritime hospitality.",
+    "languages": [
+      "Russian",
+      "Japanese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/98.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Emma Johnson",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Johnson leads cleaning teams, maintaining impeccable standards across all guest areas.",
+    "languages": [
+      "French",
+      "Italian",
+      "Russian",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/76.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Olivia Martinez",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Olivia Martinez's communication skills, honed over 15 years, are key to creating positive first impressions and lasting guest satisfaction.",
+    "languages": [
+      "Russian",
+      "Japanese",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Maria Johnson",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "With an extensive network and 3 years of experience, Concierge Johnson arranges bespoke shore excursions, dining reservations, and special occasion services.",
+    "languages": [
+      "Mandarin",
+      "German",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/36.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Sophia Miller leads front office teams with a focus on excellent customer service and operational efficiency.",
+    "languages": [
+      "Italian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sarah Williams",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "With 8 years catering to high-profile clientele, Sarah Williams curates bespoke itineraries and ensures flawless execution of all VIP arrangements.",
+    "languages": [
+      "Japanese",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/54.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Michael Jones",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Trainer Jones specializes in areas like luxury service standards, complaint resolution, and upselling techniques, drawing on 6 years of industry best practices.",
+    "languages": [
+      "French",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Michael Garcia",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Chef Garcia creates exceptional Caribbean cuisine with 13 years of culinary expertise from around the world.",
+    "languages": [
+      "Japanese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Emma Jones",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Emma Jones trains and supervises junior chefs, playing a key role in maintaining discipline and motivation within the culinary team with 18 years of mentorship.",
+    "languages": [
+      "Italian",
       "Japanese",
       "Russian",
       "English"
     ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "Michael Jones",
-    "role": "Barista",
+    "name": "James Smith",
+    "role": "Pastry Chef",
     "department": "Culinary Department",
-    "bio": "Michael Jones combines artistry and technique to serve quality espresso and coffee beverages.",
+    "bio": "Pastry Chef Smith crafts exquisite desserts with 22 years of baking and pastry artistry.",
     "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Garcia",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Nutritionist Garcia works closely with the culinary team to create wholesome Nordic options that are both flavorful and aligned with wellness goals, drawing on 17 years of expertise.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "John Johnson",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "John Johnson plans and oversees all entertainment activities, applying 7 years of event and talent management.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/96.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Garcia",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Sophia Garcia manages scheduling and logistics for performers, ensuring smooth entertainment operations onboard.",
-    "languages": [
+      "Arabic",
+      "Italian",
       "Japanese",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Jones",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "With a versatile range and powerful stage presence developed over 9 years, Lead Vocalist Jones shines in genres from pop and rock to jazz and musical theatre.",
-    "languages": [
       "German",
       "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "Sarah Miller",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "Musician Miller performs live music across genres, engaging guests with 14 years of performance experience.",
+    "name": "Michael Davis",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Chef de Partie Davis manages specific kitchen stations with 16 years of focused culinary skill.",
     "languages": [
       "Spanish",
-      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Emma Jones",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "With 22 years perfecting {cuisineSpecific} artistry, Emma Jones ensures each plate is a true representation of its cultural heritage and bold flavors.",
+    "languages": [
+      "Spanish",
+      "Arabic",
+      "Russian",
       "Mandarin",
       "English"
     ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/86.jpg",
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/94.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "Olivia Johnson",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Olivia Johnson is a dedicated member of the ensemble, contributing to high-energy production numbers and themed events, showcasing 13 years of professional dance experience.",
+    "name": "Robert Rodriguez",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "With 20 years dedicated to the art of sushi and sashimi, Chef Rodriguez meticulously selects the freshest seafood and crafts each piece with mastery.",
     "languages": [
+      "French",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/92.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "John Jones",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "John Jones is responsible for creating visually stunning and delicious cold appetizers, canapés, and buffet displays, backed by 5 years of Asian fusion expertise.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Michael Davis",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Butcher Davis ensures quality meat preparation, supported by 20 years of skilled butchery work.",
+    "languages": [
+      "Japanese",
+      "Arabic",
       "Italian",
       "English"
     ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/5.jpg",
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "Sarah Brown",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Sarah Brown leads rehearsals and performance design to enhance the entertainment experience onboard.",
+    "name": "James Garcia",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Baker Garcia meticulously prepares a wide array of Asian fusion-inspired and classic baked goods daily, showcasing skills honed over 22 years.",
+    "languages": [
+      "German",
+      "Arabic",
+      "Russian",
+      "Portuguese",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Maria Miller",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Sommelier Miller curates wine selections, offering expert pairing advice with 9 years in fine wine service.",
     "languages": [
       "Portuguese",
+      "Spanish",
+      "German",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/49.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sophia Brown",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Brown crafts creative cocktails, combining flavor expertise with 13 years of bartending skill.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Barista Miller ensures consistently excellent coffee quality, from bean grinding to final pour, reflecting 9 years of dedication to the craft.",
+    "languages": [
+      "Portuguese",
+      "French",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Emma Garcia",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Emma Garcia collaborates with chefs to ensure nutritious and delicious meal options onboard.",
+    "languages": [
+      "Russian",
+      "Portuguese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "James Johnson",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "James Johnson constantly seeks innovative entertainment concepts and top-tier talent, leveraging 10 years to keep the onboard experience fresh, exciting, and memorable.",
+    "languages": [
+      "German",
+      "Portuguese",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Maria Smith",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Performance Coordinator Smith supports talent and technical teams to deliver seamless shows.",
+    "languages": [
+      "German",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/95.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "James Rodriguez",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "James Rodriguez consistently delivers show-stopping performances, connecting with audiences through emotive storytelling and exceptional vocal talent honed across 15 years on stage.",
+    "languages": [
+      "Spanish",
+      "English",
+      "Portuguese"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sophia Rodriguez",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "With 19 years entertaining audiences worldwide, Sophia Rodriguez creates an engaging atmosphere, taking requests and interacting with guests through the power of live music.",
+    "languages": [
+      "Mandarin",
+      "German",
       "English"
     ],
     "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/99.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "David Johnson",
+    "name": "Maria Davis",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Dancer Davis brings dynamism and grace to every performance, captivating audiences with technical skill and expressive movement honed over 18 years.",
+    "languages": [
+      "Spanish",
+      "German",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sarah Jones",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Sarah Jones collaborates with costume and lighting designers to create a cohesive and visually stunning spectacle, drawing on 16 years of experience in stage production.",
+    "languages": [
+      "French",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Sophia Johnson",
     "role": "Comedy Performer",
     "department": "Entertainment Department",
     "bio": "Comedy Performer Johnson delivers engaging and memorable stand-up routines onboard.",
     "languages": [
-      "Spanish",
-      "Mandarin",
+      "English",
+      "German",
       "French",
-      "English"
+      "Russian"
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "James Martinez",
+    "name": "Olivia Rodriguez",
     "role": "Magic Act",
     "department": "Entertainment Department",
-    "bio": "Magic Act specialist Martinez mystifies audiences with skilled illusions and interactive performances.",
+    "bio": "Magic Act specialist Rodriguez mystifies audiences with skilled illusions and interactive performances.",
     "languages": [
-      "Russian",
-      "Mandarin",
+      "French",
+      "Japanese",
       "English"
     ],
     "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "Michael Brown",
+    "name": "James Williams",
     "role": "DJ",
     "department": "Entertainment Department",
-    "bio": "With an extensive music library and 10 years of reading crowds, DJ Brown seamlessly blends genres to create the perfect soundtrack for any onboard event or nightclub.",
+    "bio": "With an extensive music library and 3 years of reading crowds, DJ Williams seamlessly blends genres to create the perfect soundtrack for any onboard event or nightclub.",
     "languages": [
-      "Mandarin",
-      "Spanish",
+      "Italian",
       "English"
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/90.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "Sarah Garcia",
+    "name": "Robert Jones",
     "role": "Audio Technician",
     "department": "Entertainment Department",
-    "bio": "Sarah Garcia's keen ear and technical proficiency, developed over 8 years, are essential for delivering immersive and high-quality auditory experiences.",
+    "bio": "Robert Jones's keen ear and technical proficiency, developed over 18 years, are essential for delivering immersive and high-quality auditory experiences.",
     "languages": [
       "Italian",
-      "Arabic",
+      "French",
       "English"
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/94.jpg",
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "David Miller",
+    "name": "Sarah Rodriguez",
     "role": "Lighting Specialist",
     "department": "Entertainment Department",
-    "bio": "Lighting Specialist Miller programs and operates sophisticated lighting consoles, working closely with directors to achieve the desired visual impact for each performance.",
+    "bio": "Sarah Rodriguez's artistic vision and technical mastery over 3 years ensure that lighting plays a crucial role in the storytelling and excitement of onboard entertainment.",
     "languages": [
-      "French",
-      "Japanese",
-      "English"
+      "English",
+      "Russian"
     ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "John Brown",
+    "name": "Olivia Davis",
     "role": "Stage Manager",
     "department": "Entertainment Department",
-    "bio": "Stage Manager Brown is the organizational backbone of the production, liaising between performers, technicians, and the director to maintain artistic integrity and timing.",
+    "bio": "With 22 years in professional stage management, Olivia Davis meticulously calls cues, manages backstage operations, and ensures the smooth running of every show.",
     "languages": [
       "Russian",
+      "German",
       "English"
     ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "Olivia Johnson",
+    "name": "John Smith",
     "role": "Production Manager",
     "department": "Entertainment Department",
-    "bio": "Production Manager Johnson collaborates with creative teams and technical departments to bring ambitious show concepts to life, on time and within budget.",
+    "bio": "Production Manager Smith collaborates with creative teams and technical departments to bring ambitious show concepts to life, on time and within budget.",
     "languages": [
       "Spanish",
-      "English"
+      "Portuguese",
+      "English",
+      "Russian",
+      "Italian"
     ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "John Miller",
+    "name": "James Garcia",
     "role": "Costume Designer",
     "department": "Entertainment Department",
-    "bio": "John Miller's artistic flair and attention to historical detail, honed over 7 years, bring visual richness and authenticity to the stage.",
+    "bio": "Costume Designer Garcia creates unique and period-appropriate costumes, enhancing visual storytelling in performances.",
     "languages": [
-      "French",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "James Davis",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Cultural Program Director Davis collaborates with local artists, historians, and experts to provide authentic and immersive cultural experiences for guests.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/92.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "James Davis",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "James Davis captivates audiences with original performances tailored to shipboard entertainment.",
-    "languages": [
-      "German",
-      "Japanese",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/97.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "David Davis",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "David Davis plays a crucial role in port operations coordination, safety compliance oversight, and emergency response planning, backed by 16 years of maritime expertise.",
-    "languages": [
+      "Portuguese",
       "Italian",
-      "Mandarin",
+      "German",
       "Russian",
       "English"
     ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
     "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "James Smith",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "James Smith leverages 5 years in logistics to optimize onboard operations.",
-    "languages": [
-      "Spanish",
-      "French",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
-    "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
     "name": "Sophia Jones",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "With 5 years in inventory management, Sophia Jones meticulously maintains records for all consumables, technical spares, and retail goods onboard.",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Cultural Program Director Jones curates culturally enriching events and experiences for guests.",
     "languages": [
+      "Spanish",
+      "Mandarin",
       "Portuguese",
       "English"
     ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
   },
   {
-    "name": "Sarah Davis",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "Sarah Davis's sharp negotiation skills and 16 years of experience contribute significantly to controlling operational costs while maintaining quality standards.",
+    "name": "John Garcia",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "John Garcia captivates audiences with original performances tailored to shipboard entertainment.",
     "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/33.jpg",
-    "city": "Florence",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Martinez",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "Maria Martinez promotes sustainable practices aligned with maritime environmental standards.",
-    "languages": [
+      "Japanese",
+      "English",
+      "Spanish",
       "Russian",
-      "Arabic",
+      "Mandarin"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Michael Smith",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "With 20 years streamlining vessel-wide processes, Michael Smith ensures optimal efficiency, resource allocation, and inter-departmental synergy.",
+    "languages": [
+      "French",
+      "Portuguese",
       "Mandarin",
       "English"
     ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/8.jpg",
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
     "city": "Florence",
-    "country": "Global"
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Maria Smith",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "With 14 years coordinating complex supply chains, Maria Smith ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
+    "languages": [
+      "Mandarin",
+      "English",
+      "Spanish"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Emma Brown",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Emma Brown ensures accurate inventory control using advanced management systems.",
+    "languages": [
+      "English",
+      "French",
+      "Russian"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "James Rodriguez",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Procurement Officer Rodriguez sources and negotiates contracts for goods and services needed onboard.",
+    "languages": [
+      "Italian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/97.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
+  },
+  {
+    "name": "Maria Smith",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Maria Smith champions innovative eco-friendly technologies and practices, leveraging 3 years to enhance the vessel's environmental performance and reputation.",
+    "languages": [
+      "German",
+      "Japanese",
+      "Portuguese",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean"
   }
 ];

@@ -2,1297 +2,1507 @@ import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const neworleansTeamMembers: CrewMember[] = [
   {
-    "name": "David Jones",
+    "name": "Michael Smith",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "With 6 years at sea, Captain Jones is renowned for expertise in undefined navigation, crew leadership, and passenger safety protocols.",
+    "bio": "Drawing on 12 years of command, Michael Smith expertly manages all aspects of vessel operation in Caribbean, emphasizing crew development and operational excellence.",
     "languages": [
-      "German",
-      "Russian",
+      "Arabic",
       "English"
     ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Olivia Davis",
+    "name": "Robert Martinez",
     "role": "First Officer",
     "department": "Deck Department",
-    "bio": "Leveraging 11 years of experience in undefined, Olivia Davis is adept at cargo operations, stability calculations, and bridge resource management.",
+    "bio": "Robert Martinez, with 21 years navigating Caribbean, plays a vital role in safety drills, crew training, and maintaining navigational equipment.",
     "languages": [
-      "German",
+      "French",
+      "Japanese",
+      "Mandarin",
+      "Spanish",
+      "Arabic",
       "English"
     ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "David Smith",
+    "name": "Maria Smith",
     "role": "Second Officer",
     "department": "Deck Department",
-    "bio": "Utilizing 12 years of expertise, David Smith meticulously maintains navigational charts and publications crucial for safe transit in undefined.",
+    "bio": "Maria Smith ensures compliance with navigation protocols and supports bridge team operations, leveraging 7 years in maritime operations across Caribbean.",
     "languages": [
-      "Spanish",
-      "French",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/95.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Williams",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "Sophia Williams supports communication and lookout duties during watches, maintaining high situational awareness in undefined's maritime environment.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/59.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Brown",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "Navigation Officer Brown maintains detailed voyage records and monitors navigation aids, ensuring compliance with maritime regulations in undefined.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Jones",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "Maria Jones enforces safety standards and conducts training programs, drawing on 18 years of maritime safety expertise to minimize risks onboard.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "James Johnson",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "James Johnson, a promising Deck Cadet, is quickly mastering the fundamentals of seamanship and safety protocols specific to undefined maritime operations.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "John Martinez",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "John Martinez plays a pivotal role in implementing maintenance schedules and overseeing deck inventory to support smooth voyages through undefined.",
-    "languages": [
-      "Arabic",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/99.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Brown",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "With 9 years at the helm of engineering departments, Maria Brown excels in marine electronics systems and guarantees adherence to strict environmental MARPOL regulations.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "James Smith",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "Drawing on 14 years, James Smith takes charge of the engine room in the Chief Engineer's absence, ensuring all systems run smoothly and efficiently.",
-    "languages": [
-      "Japanese",
       "Russian",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Rodriguez",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "Second Engineer Rodriguez conducts routine inspections and coordinates repairs for critical propulsion and auxiliary machinery.",
-    "languages": [
+      "English",
       "Spanish",
-      "Portuguese",
-      "English"
+      "French"
     ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
     "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Brown",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Responsible for wiring upgrades and automation system maintenance, Robert Brown supports enhanced operational efficiency and crew safety.",
-    "languages": [
-      "Italian",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
-    "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
     "name": "Emma Johnson",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "With 9 years dedicated to marine mechanics, Emma Johnson excels in the overhaul and alignment of engines and rotating machinery.",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "With 20 years dedicated to bridge operations, Emma Johnson contributes to seamless voyages through Caribbean's waterways by monitoring safety and compliance.",
     "languages": [
-      "Spanish",
-      "Mandarin",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/9.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "John Miller",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "HVAC Engineer Miller ensures optimal climate control aboard vessels, leveraging 6 years of system optimization and energy efficiency knowledge.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Smith",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Emma Smith champions innovative solutions for waste reduction and energy efficiency, reflecting 19 years of commitment to maritime sustainability.",
-    "languages": [
+      "Italian",
+      "German",
+      "Russian",
       "Mandarin",
       "English"
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
     "name": "Sophia Jones",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "Systems Engineer Jones leads technical solutions for navigation, communication, automation, and control systems with 13 years of service.",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Sophia Jones collaborates with the bridge team to optimize voyage efficiency, integrating real-time data and weather information specific to Caribbean.",
     "languages": [
-      "Italian",
-      "English"
+      "English",
+      "German",
+      "Mandarin"
     ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/99.jpg",
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Sarah Johnson",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "With a strategic overview honed over 9 years, Sarah Johnson directs fleet-wide technical policies and ensures best practices are implemented.",
+    "name": "James Rodriguez",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Leveraging 6 years in maritime safety, James Rodriguez excels at developing and implementing targeted safety training programs relevant to Caribbean's specific operational hazards.",
     "languages": [
       "German",
-      "English",
-      "Portuguese"
+      "Mandarin",
+      "Arabic",
+      "Spanish",
+      "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
     "name": "David Miller",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "With a focus on reliability-centered maintenance, David Miller optimizes maintenance practices in accordance with industry best practices.",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Deck Cadet Miller learns shipboard operations under experienced officers, preparing for a future leadership role in Caribbean waters.",
     "languages": [
-      "Mandarin",
+      "Japanese",
+      "Spanish",
+      "German",
       "Italian",
       "English"
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/98.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
     "name": "Emma Davis",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Emma Davis oversees all security operations with 5 years of specialized training in international maritime safety, regulatory compliance, and emergency preparedness.",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Emma Davis plays a pivotal role in implementing maintenance schedules and overseeing deck inventory to support smooth voyages through Caribbean.",
+    "languages": [
+      "French",
+      "Japanese",
+      "Arabic",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Davis",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "With 3 years at the helm of engineering departments, James Davis excels in vessel automation systems and guarantees adherence to strict environmental MARPOL regulations.",
+    "languages": [
+      "German",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Johnson",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "Emma Johnson supervises engineering staff during watch shifts, maintaining operational readiness and compliance with maritime safety standards.",
+    "languages": [
+      "Arabic",
+      "French",
+      "German",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Smith",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Olivia Smith plays an integral role in maintaining fuel efficiency and reducing emissions through optimized machinery operation.",
     "languages": [
       "Portuguese",
-      "German",
-      "French",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "James Smith",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Leveraging 10 years of maritime security experience, James Smith excels in threat detection and proactive deterrence measures.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/93.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Garcia",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Maria Garcia provides expert assessment and response coordination to maritime security challenges, leveraging advanced knowledge in risk management and compliance.",
-    "languages": [
-      "German",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Brown",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "With a background in IT security, Robert Brown safeguards shipboard communication and control systems against cyber threats, ensuring data integrity and system availability.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "John Garcia",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "Maritime Security Coordinator Garcia leads risk assessment initiatives and supports vessel security certification processes.",
-    "languages": [
-      "Mandarin",
-      "Russian",
       "Spanish",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "John Miller",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "John Miller ensures all personnel and visitors comply with security clearance, manifests, and international maritime access regulations.",
-    "languages": [
-      "Japanese",
-      "Russian",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "James Miller",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "James Miller works closely with regulatory bodies to ensure the vessel meets all international safety conventions and company policies.",
-    "languages": [
-      "Arabic",
-      "German",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Jones",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Known for creative leadership, Maria Jones continuously evaluates and improves youth programming to meet evolving passenger needs.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Garcia",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "With strong communication skills, Olivia Garcia liaises with hospitality and entertainment teams to deliver seamless family-oriented services.",
-    "languages": [
-      "Italian",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Garcia",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Known for energetic delivery and adaptability, Michael Garcia adjusts programming to accommodate different group sizes and interests.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/88.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Williams",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Teen Activities Coordinator Williams is skilled at mentoring and connecting with teenagers, ensuring they have a fantastic and safe experience, drawing on 5 years.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/92.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "David Jones",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Drawing on 9 years in educational programming, David Jones designs enriching lectures, workshops, and cultural immersion activities related to the voyage itinerary.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "James Smith",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "James Smith provides attentive care and supervision for young passengers, backed by 8 years in professional child care and early childhood education.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Rodriguez",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "Drawing on 5 years in recreation management, Olivia Rodriguez curates an exciting and varied daily program of entertainment and activities for all guests.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Martinez",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Water Sports Instructor Martinez possesses an in-depth knowledge of local water conditions and marine life, enhancing guest experiences over 14 years.",
-    "languages": [
-      "Arabic",
       "English"
     ],
     "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Sophia Davis",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Sophia Davis is passionate about inspiring guests to discover the joy of movement, bringing energy and expertise from 11 years in the fitness industry.",
+    "name": "David Davis",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Drawing on 16 years, David Davis ensures the integrity of high-voltage systems and sophisticated electronic controls throughout the vessel.",
     "languages": [
+      "German",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/88.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Jones",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Mechanical Engineer Jones collaborates closely with the engineering team to enhance machinery performance and lifecycle management.",
+    "languages": [
+      "German",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sophia Jones",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "Sophia Jones designs, installs, and maintains heating, ventilation, and air conditioning systems with 11 years of maritime specialization.",
+    "languages": [
+      "Japanese",
+      "Arabic",
       "Mandarin",
       "English"
     ],
     "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/51.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Sophia Johnson",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "With expertise in vendor relations and itinerary planning, Sophia Johnson ensures smooth, safe, and enjoyable excursions tailored to passenger interests.",
-    "languages": [
-      "Portuguese",
-      "Mandarin",
-      "French",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Brown",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "Emma Brown leads the photo team with 12 years of experience, mentoring staff and ensuring consistent, high-quality photographic services for all guests.",
+    "name": "Sophia Jones",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Environmental Engineer Jones monitors emissions and advises on strategies to minimize the vessel’s environmental footprint.",
     "languages": [
       "Arabic",
-      "Japanese",
+      "Spanish",
+      "French",
       "English"
     ],
     "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Sarah Jones",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Leveraging 19 years in filmmaking, Sarah Jones produces cinematic-quality videos that beautifully encapsulate the journey and its destinations.",
+    "name": "Sophia Smith",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "With extensive knowledge of software and hardware interfaces, Sophia Smith enhances system interoperability and cybersecurity aboard vessels.",
     "languages": [
-      "Mandarin",
+      "Italian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Smith",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "With 6 years leading technical teams, Sarah Smith ensures vessel systems meet all regulatory, safety, and performance standards.",
+    "languages": [
+      "Japanese",
       "Arabic",
       "English"
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Maria Rodriguez",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "Known for technical proficiency and creative vision, Maria Rodriguez collaborates closely with marketing and entertainment teams to maximize reach and impact.",
-    "languages": [
-      "Portuguese",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Davis",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Chief Medical Officer Davis has 13 years of experience in managing public health emergencies at sea and implementing robust infection control measures.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Johnson",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "Ship's Doctor Johnson is skilled in minor surgical procedures and advanced cardiac life support, bringing 16 years of critical care experience.",
-    "languages": [
-      "French",
-      "German",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Williams",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Nurse Williams supports the medical team by administering treatments, monitoring patient conditions, and maintaining comprehensive medical records.",
+    "name": "Olivia Williams",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Maintenance Engineer Williams's 10 years include managing workshop resources and training junior staff in effective repair techniques.",
     "languages": [
       "Spanish",
+      "Arabic",
+      "French",
+      "Portuguese",
       "English"
     ],
     "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Sophia Miller",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Committed to regulatory adherence, Sophia Miller stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
+    "name": "John Brown",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "With 3 years in maritime security, John Brown ensures comprehensive protection for passengers, crew, and assets through proactive strategy and coordination.",
     "languages": [
       "Mandarin",
-      "French",
-      "English"
+      "English",
+      "French"
     ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/59.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Sophia Brown",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "With 5 years in hospitality management, Sophia Brown drives operational excellence and team performance onboard.",
+    "name": "Emma Miller",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Security Officer Miller performs access control duties and monitors surveillance systems to maintain a secure onboard environment.",
     "languages": [
-      "Arabic",
+      "Russian",
+      "Italian",
+      "French",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/62.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sophia Johnson",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Security Specialist Johnson develops tailored security plans and threat mitigation strategies based on 14 years of maritime threat analysis and intelligence gathering.",
+    "languages": [
+      "Italian",
+      "Russian",
       "Spanish",
       "English"
     ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/84.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Emma Garcia",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "With a passion for service excellence developed over 19 years, Emma Garcia leads the guest relations team to anticipate and exceed passenger expectations.",
+    "name": "Emma Brown",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Known for proactive defense strategies, Emma Brown continuously monitors network activity and coordinates responses to cyber incidents onboard.",
+    "languages": [
+      "Mandarin",
+      "Italian",
+      "Spanish",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Martinez",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Maria Martinez's 4 years include expertise in crisis communication and liaising with flag state and port state control on security matters.",
+    "languages": [
+      "German",
+      "Spanish",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/56.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "David Johnson",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Focused on security integrity, David Johnson conducts regular audits of access logs and assists in security incident investigations.",
+    "languages": [
+      "English",
+      "Russian",
+      "French",
+      "Arabic"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Brown",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "With a thorough understanding of hazard identification and mitigation, Maria Brown leads incident investigations and corrective action plans.",
+    "languages": [
+      "Arabic",
+      "Spanish",
+      "Italian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Garcia",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Youth Program Director Garcia ensures all youth activities are not only fun but also adhere to the highest safety and child protection standards, drawing on 3 years.",
+    "languages": [
+      "Russian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Brown",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Leveraging 18 years in family entertainment, James Brown curates a diverse schedule of events appealing to all members of the family.",
+    "languages": [
+      "Spanish",
+      "Japanese",
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Miller",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Drawing on 13 years of delighting young audiences, Robert Miller brings a unique blend of magic, storytelling, and interactive games to the ship.",
+    "languages": [
+      "Italian",
+      "English",
+      "German",
+      "Japanese"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Jones",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Teen Activities Coordinator Jones monitors participation and feedback to continuously refine and innovate teen programming.",
+    "languages": [
+      "English",
+      "Arabic"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Educational Program Manager Miller coordinates with external educators and experts to deliver diverse and culturally relevant content.",
     "languages": [
       "Spanish",
       "Italian",
       "English"
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "James Miller",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "James Miller excels in inventory management for linens and amenities, maintaining premium standards across all staterooms and suites with 8 years of dedication.",
+    "name": "Sophia Martinez",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "With expertise in child health and safety protocols, Sophia Martinez manages routines and responds to individual needs of children under care.",
     "languages": [
+      "Mandarin",
+      "Spanish",
+      "Arabic",
+      "Portuguese",
       "German",
-      "Russian",
-      "French",
       "English"
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Sarah Rodriguez",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "Senior Steward Rodriguez delivers attentive guest services and supports stewardship operations, drawing on 18 years onboard.",
+    "name": "John Brown",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Activities Director Brown is passionate about creating vibrant social atmospheres, a skill perfected over 14 years of orchestrating memorable onboard events.",
     "languages": [
-      "German",
+      "Mandarin",
+      "Russian",
+      "English",
+      "Italian",
+      "Japanese",
+      "Arabic"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sophia Martinez",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Water Sports Instructor Martinez possesses an in-depth knowledge of local water conditions and marine life, enhancing guest experiences over 3 years.",
+    "languages": [
+      "Italian",
+      "Portuguese",
+      "English",
+      "French",
+      "Spanish"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Jones",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Drawing on 18 years of expertise, Olivia Jones offers specialized classes like yoga, Pilates, and high-intensity interval training (HIIT).",
+    "languages": [
+      "Portuguese",
+      "English",
+      "Arabic",
+      "French"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/94.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Smith",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Leveraging 21 years of experience, Olivia Smith curates a portfolio of unique and authentic shore excursions that showcase the best of each port.",
+    "languages": [
+      "Japanese",
+      "Russian",
       "Portuguese",
       "English"
     ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "James Martinez",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "Butler Martinez is a master of personal assistance, ensuring every detail of a guest's stay is flawless, reflecting 8 years in top-tier hospitality.",
+    "name": "Robert Davis",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Lead Photographer Davis manages photographic equipment, editing workflows, and passenger portrait sessions with precision and professionalism.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "John Brown",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "John Brown uses 6 years of editing expertise to transform raw footage into engaging narratives that resonate with passengers and promote future voyages.",
+    "languages": [
+      "Japanese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Garcia",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Digital Media Specialist Garcia ensures an engaging online presence by creating and curating multimedia content tailored to diverse passenger demographics.",
+    "languages": [
+      "English",
+      "Japanese",
+      "French",
+      "Italian",
+      "Portuguese"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Brown",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Committed to preventive care, Olivia Brown promotes health education and wellness initiatives throughout the voyage.",
+    "languages": [
+      "Russian",
+      "Arabic",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Davis",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Dr. Davis, drawing from 17 years in travel and maritime health, offers expert advice on pre-existing conditions and destination-specific health risks.",
+    "languages": [
+      "Japanese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Brown",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Nurse Brown provides empathetic and skilled assistance, ensuring patient comfort and adherence to strict hygiene and infection control protocols.",
+    "languages": [
+      "French",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Martinez",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Committed to regulatory adherence, Maria Martinez stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
     "languages": [
       "Mandarin",
       "German",
       "Japanese",
+      "French",
+      "Arabic",
       "English"
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "David Garcia",
-    "role": "Accommodation Manager",
+    "name": "James Johnson",
+    "role": "Hospitality Director",
     "department": "Hospitality Department",
-    "bio": "Accommodation Manager Garcia plays a key role in inventory control for linens, amenities, and cleaning supplies, optimizing resources over 7 years.",
+    "bio": "Hospitality Director Johnson orchestrates a seamless guest journey, from arrival to departure, leveraging 7 years of expertise in luxury service.",
     "languages": [
-      "Spanish",
-      "French",
+      "Mandarin",
+      "Arabic",
+      "Russian",
+      "Japanese",
+      "German",
       "English"
     ],
     "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Michael Williams",
-    "role": "Housekeeping Supervisor",
+    "name": "Sarah Brown",
+    "role": "Guest Relations Manager",
     "department": "Hospitality Department",
-    "bio": "Michael Williams ensures smooth operations and staff training, supported by 9 years in hospitality management.",
+    "bio": "With a passion for service excellence developed over 12 years, Sarah Brown leads the guest relations team to anticipate and exceed passenger expectations.",
     "languages": [
-      "Russian",
+      "French",
+      "Italian",
+      "Japanese",
+      "Portuguese",
       "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/96.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Maria Rodriguez",
-    "role": "Guest Services Specialist",
+    "name": "Sophia Jones",
+    "role": "Chief Steward",
     "department": "Hospitality Department",
-    "bio": "Guest Services Specialist Rodriguez facilitates seamless guest interactions to enhance onboard experiences.",
+    "bio": "Sophia Jones ensures the highest standards of cleanliness and comfort throughout passenger accommodations.",
     "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "John Williams",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "John Williams is skilled in managing cabin maintenance and guest requests with professionalism and care.",
+    "languages": [
+      "English",
+      "Spanish",
+      "Italian"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "David Smith",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "David Smith crafts unforgettable moments for discerning guests, drawing on 17 years of experience in curating exclusive and seamless luxury service.",
+    "languages": [
+      "Italian",
+      "Japanese",
       "French",
       "English"
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "John Jones",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Accommodation Manager Jones coordinates housekeeping and maintenance teams for optimal guest satisfaction.",
+    "languages": [
+      "Portuguese",
+      "English",
+      "Spanish",
+      "Mandarin"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/97.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
     "name": "David Williams",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "David Williams manages daily assignments, motivates the housekeeping team, and ensures efficient use of cleaning resources, drawing on 8 years of leadership.",
+    "languages": [
+      "Italian",
+      "German",
+      "Japanese",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sophia Davis",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Guest Services Specialist Davis efficiently handles onboard account management, reservations for activities, and general assistance with a friendly and professional demeanor.",
+    "languages": [
+      "English",
+      "Italian",
+      "French",
+      "Japanese"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Williams",
     "role": "Concierge",
     "department": "Hospitality Department",
     "bio": "Concierge Williams offers expert local knowledge and personalized recommendations to enrich guest journeys.",
     "languages": [
-      "Italian",
+      "German",
+      "Russian",
+      "Spanish",
+      "Portuguese",
       "Japanese",
       "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Sarah Smith",
+    "name": "Robert Miller",
     "role": "Front Desk Manager",
     "department": "Hospitality Department",
-    "bio": "With 14 years in front office management, Sarah Smith ensures a welcoming and organized reception area, managing all aspects of guest registration and billing.",
+    "bio": "Front Desk Manager Miller oversees reception operations, ensuring efficient guest check-in and issue resolution.",
     "languages": [
-      "Arabic",
+      "Japanese",
+      "Russian",
+      "German",
+      "French",
       "English"
     ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Miller",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "With 18 years catering to high-profile clientele, Emma Miller curates bespoke itineraries and ensures flawless execution of all VIP arrangements.",
+    "languages": [
+      "French",
+      "English",
+      "Mandarin",
+      "Spanish",
+      "Portuguese"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
     "name": "Michael Brown",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "VIP Coordinator Brown manages exclusive guest services, ensuring privacy and personalized attention throughout the voyage.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Rodriguez",
     "role": "Hospitality Trainer",
     "department": "Hospitality Department",
-    "bio": "Hospitality Trainer Rodriguez focuses on enhancing guest service quality through targeted education and coaching.",
+    "bio": "Hospitality Trainer Brown specializes in areas like luxury service standards, complaint resolution, and upselling techniques, drawing on 14 years of industry best practices.",
     "languages": [
-      "German",
-      "Spanish",
+      "Portuguese",
+      "French",
       "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Sarah Davis",
+    "name": "Olivia Rodriguez",
     "role": "Executive Chef",
     "department": "Culinary Department",
-    "bio": "Mastering Asian fusion and international gastronomy, Sarah Davis ensures every dish reflects the highest standards of quality, presentation, and flavor, backed by 5 years of award-winning experience.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Smith",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "Michael Smith trains and supervises junior chefs, playing a key role in maintaining discipline and motivation within the culinary team with 16 years of mentorship.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "James Miller",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "James Miller manages the pastry section, from artisan breads to elaborate cakes and plated desserts, ensuring exceptional quality over 9 years.",
+    "bio": "Executive Chef Rodriguez leads a brigade of talented chefs, orchestrating all culinary operations and menu development with 22 years of innovative leadership.",
     "languages": [
       "Spanish",
       "Portuguese",
       "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
     "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Williams",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Chef de Partie Williams manages specific kitchen stations with 7 years of focused culinary skill.",
-    "languages": [
-      "Mandarin",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/99.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Specialty Chef Smith curates exclusive menus for themed dining venues, showcasing 17 years of passion for {cuisineSpecific} traditions and techniques.",
-    "languages": [
-      "Mandarin",
-      "Russian",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Rodriguez",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "With 15 years dedicated to the art of sushi and sashimi, Chef Rodriguez meticulously selects the freshest seafood and crafts each piece with mastery.",
-    "languages": [
-      "Mandarin",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
-    "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
     "name": "Sophia Davis",
-    "role": "Garde Manger",
+    "role": "Sous Chef",
     "department": "Culinary Department",
-    "bio": "Garde Manger Davis expertly prepares cold dishes and appetizers with 16 years of culinary proficiency.",
-    "languages": [
-      "French",
-      "Mandarin",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Williams",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Olivia Williams is responsible for precise meat cuts that meet kitchen and guest expectations.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "John Davis",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "With 7 years dedicated to the art of baking, John Davis fills the ship with the aroma of freshly baked artisan breads, pastries, and viennoiserie.",
-    "languages": [
-      "German",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/95.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Smith",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Sommelier Smith curates wine selections, offering expert pairing advice with 18 years in fine wine service.",
-    "languages": [
-      "Mandarin",
-      "Russian",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Rodriguez",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "Mixologist Rodriguez delights guests with flair, technique, and a deep understanding of flavor profiles, creating personalized drink experiences over 13 years.",
-    "languages": [
-      "Arabic",
-      "German",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "James Davis",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "James Davis combines artistry and technique to serve quality espresso and coffee beverages.",
-    "languages": [
-      "Spanish",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "James Davis",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Nutritionist Davis works closely with the culinary team to create wholesome Pan-Asian options that are both flavorful and aligned with wellness goals, drawing on 6 years of expertise.",
-    "languages": [
-      "Italian",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "James Brown",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "James Brown plans and oversees all entertainment activities, applying 11 years of event and talent management.",
-    "languages": [
-      "Mandarin",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Jones",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Performance Coordinator Jones supports talent and technical teams to deliver seamless shows.",
-    "languages": [
-      "English",
-      "Mandarin"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/90.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "David Miller",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "With a versatile range and powerful stage presence developed over 9 years, Lead Vocalist Miller shines in genres from pop and rock to jazz and musical theatre.",
-    "languages": [
-      "Mandarin",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "David Miller",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "With 5 years entertaining audiences worldwide, David Miller creates an engaging atmosphere, taking requests and interacting with guests through the power of live music.",
+    "bio": "As second-in-command, Sous Chef Davis ensures seamless kitchen workflow and consistent dish quality, drawing on 12 years of hands-on Asian fusion experience.",
     "languages": [
       "Portuguese",
-      "French",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Jones",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Dancer Jones delivers energetic and polished routines, drawing on 11 years of dance training.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Garcia",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "With an innovative vision and 18 years in professional choreography, Michael Garcia designs dynamic and original dance pieces for production shows and special events.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Brown",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Sarah Brown's ability to connect with the audience and improvise, developed over 17 years, makes each show a unique and highly enjoyable experience.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "David Smith",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "David Smith brings a unique brand of enchantment to the ship's entertainment, drawing on 14 years of professional magic and a flair for theatrical presentation.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Jones",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "With an extensive music library and 14 years of reading crowds, DJ Jones seamlessly blends genres to create the perfect soundtrack for any onboard event or nightclub.",
-    "languages": [
-      "Italian",
-      "English",
-      "Mandarin"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/21.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Garcia",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Maria Garcia supports entertainment events with technical expertise in live sound engineering.",
-    "languages": [
-      "Russian",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "John Williams",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "John Williams's artistic vision and technical mastery over 7 years ensure that lighting plays a crucial role in the storytelling and excitement of onboard entertainment.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Miller",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "Stage Manager Miller is the organizational backbone of the production, liaising between performers, technicians, and the director to maintain artistic integrity and timing.",
-    "languages": [
-      "Spanish",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Garcia",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "Sophia Garcia's strategic planning and problem-solving skills, developed over 12 years, are crucial for the successful execution of a high-quality entertainment program.",
-    "languages": [
-      "Spanish",
       "Arabic",
       "English"
     ],
     "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "James Johnson",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "With 18 years of experience in theatrical costume design, James Johnson conceives and produces stunning wardrobes that define characters and elevate productions.",
+    "name": "Michael Garcia",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Michael Garcia manages the pastry section, from artisan breads to elaborate cakes and plated desserts, ensuring exceptional quality over 7 years.",
     "languages": [
       "Spanish",
+      "Italian",
+      "German",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Johnson",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Olivia Johnson ensures consistency and quality in dish preparation across assigned kitchen areas.",
+    "languages": [
+      "Russian",
+      "French",
+      "Italian",
       "English"
     ],
     "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Olivia Smith",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Cultural Program Director Smith collaborates with local artists, historians, and experts to provide authentic and immersive cultural experiences for guests.",
-    "languages": [
-      "Russian",
-      "English",
-      "Arabic"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "James Garcia",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "With 5 years pushing artistic boundaries, James Garcia offers a distinctive and captivating addition to the ship's diverse entertainment offerings.",
-    "languages": [
-      "Spanish",
-      "English",
-      "Arabic"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
-    "city": "New Orleans",
-    "country": "Global"
-  },
-  {
-    "name": "John Smith",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Operations Manager Smith is adept at problem-solving complex logistical challenges and implementing solutions that enhance overall ship performance and guest satisfaction.",
+    "name": "Emma Smith",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Specialty Chef Smith curates exclusive menus for themed dining venues, showcasing 21 years of passion for {cuisineSpecific} traditions and techniques.",
     "languages": [
       "Italian",
+      "Mandarin",
+      "French",
       "Japanese",
       "English"
     ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Olivia Brown",
-    "role": "Logistics Coordinator",
+    "name": "Robert Jones",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Robert Jones delights guests with traditional Edomae-style sushi and contemporary maki rolls, showcasing skills honed over 19 years of rigorous training.",
+    "languages": [
+      "English",
+      "Arabic",
+      "Spanish"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/95.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sophia Williams",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "With 19 years specializing in charcuterie, salads, and elaborate cold platters, Chef Williams brings artistry and precision to the Garde Manger station.",
+    "languages": [
+      "Japanese",
+      "Russian",
+      "Mandarin",
+      "Portuguese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Martinez",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Butcher Martinez manages meat inventory and advises chefs on the best cuts for specific culinary applications, drawing on 22 years of specialized knowledge.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Williams",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Baker Williams produces fresh breads and baked goods, leveraging 21 years of baking expertise.",
+    "languages": [
+      "Spanish",
+      "German",
+      "Russian",
+      "English",
+      "Japanese"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/96.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Michael Garcia",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Sommelier Garcia curates wine selections, offering expert pairing advice with 7 years in fine wine service.",
+    "languages": [
+      "English",
+      "Portuguese"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Smith",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Smith delights guests with flair, technique, and a deep understanding of flavor profiles, creating personalized drink experiences over 11 years.",
+    "languages": [
+      "Spanish",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Johnson",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "With 20 years of expertise in coffee origins, brewing methods, and latte art, Olivia Johnson crafts the perfect cup for every guest.",
+    "languages": [
+      "German",
+      "Portuguese",
+      "Japanese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Williams",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "With 21 years in clinical and culinary nutrition, Robert Williams provides personalized dietary consultations and develops specialized meal plans for guests with specific needs.",
+    "languages": [
+      "Italian",
+      "Spanish",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/91.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Smith",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "James Smith constantly seeks innovative entertainment concepts and top-tier talent, leveraging 11 years to keep the onboard experience fresh, exciting, and memorable.",
+    "languages": [
+      "Portuguese",
+      "French",
+      "English",
+      "Mandarin"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Smith",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Performance Coordinator Smith serves as the key liaison between artists, production staff, and management, ensuring clear communication and efficient problem-solving.",
+    "languages": [
+      "German",
+      "Spanish",
+      "Italian",
+      "English",
+      "Portuguese"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Jones",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "With a versatile range and powerful stage presence developed over 17 years, Lead Vocalist Jones shines in genres from pop and rock to jazz and musical theatre.",
+    "languages": [
+      "French",
+      "Russian",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/97.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Brown",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Emma Brown enriches onboard ambiance through skilled instrumental and vocal performances.",
+    "languages": [
+      "Portuguese",
+      "German",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/90.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Smith",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Sarah Smith is a dedicated member of the ensemble, contributing to high-energy production numbers and themed events, showcasing 8 years of professional dance experience.",
+    "languages": [
+      "French",
+      "Portuguese",
+      "English",
+      "Japanese",
+      "Arabic"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Rodriguez",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "With an innovative vision and 10 years in professional choreography, Emma Rodriguez designs dynamic and original dance pieces for production shows and special events.",
+    "languages": [
+      "English",
+      "French"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/94.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Williams",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Emma Williams entertains guests with humor and timing, backed by 16 years in comedy performance.",
+    "languages": [
+      "German",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/86.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Johnson",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Sarah Johnson brings a unique brand of enchantment to the ship's entertainment, drawing on 17 years of professional magic and a flair for theatrical presentation.",
+    "languages": [
+      "Italian",
+      "Portuguese",
+      "German",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Michael Rodriguez",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "With an extensive music library and 8 years of reading crowds, DJ Rodriguez seamlessly blends genres to create the perfect soundtrack for any onboard event or nightclub.",
+    "languages": [
+      "Portuguese",
+      "French",
+      "Spanish",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Davis",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "With 6 years of experience in mixing live sound for theatre, music, and events, Olivia Davis guarantees crystal-clear audio for all onboard productions.",
+    "languages": [
+      "Russian",
+      "Arabic",
+      "French",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Garcia",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Lighting Specialist Garcia designs and operates lighting systems to enhance onboard shows and events.",
+    "languages": [
+      "German",
+      "Russian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/36.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Davis",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "With 21 years in professional stage management, Maria Davis meticulously calls cues, manages backstage operations, and ensures the smooth running of every show.",
+    "languages": [
+      "Russian",
+      "English",
+      "German",
+      "Arabic"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Michael Garcia",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Michael Garcia ensures timely and efficient delivery of shows, leveraging 7 years in production management.",
+    "languages": [
+      "Portuguese",
+      "Spanish",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/92.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Garcia",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "James Garcia combines creativity and craftsmanship with 9 years of design expertise.",
+    "languages": [
+      "English",
+      "Italian",
+      "German"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Rodriguez",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Sarah Rodriguez promotes diversity and cultural awareness through engaging onboard programming.",
+    "languages": [
+      "Mandarin",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/36.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Martinez",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "A specialist in {artisticDiscipline}, Emma Martinez presents breathtaking and thought-provoking performances honed over 9 years of dedicated artistic exploration.",
+    "languages": [
+      "German",
+      "Mandarin",
+      "Japanese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Jones",
+    "role": "Operations Manager",
     "department": "Operations Department",
-    "bio": "With 13 years coordinating complex supply chains, Olivia Brown ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
+    "bio": "Operations Manager Jones is adept at problem-solving complex logistical challenges and implementing solutions that enhance overall ship performance and guest satisfaction.",
     "languages": [
       "Arabic",
+      "Japanese",
+      "Russian",
+      "Spanish",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Jones",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Logistics Coordinator Jones meticulously plans and tracks shipments, manages customs documentation, and optimizes storage solutions onboard.",
+    "languages": [
+      "Russian",
+      "Japanese",
+      "Spanish",
       "French",
       "Portuguese",
       "English"
     ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Maria Brown",
+    "name": "Olivia Brown",
     "role": "Inventory Specialist",
     "department": "Operations Department",
-    "bio": "Inventory Specialist Brown implements efficient stock rotation (FIFO) and conducts regular audits to prevent shortages and minimize waste.",
+    "bio": "Olivia Brown ensures accurate inventory control using advanced management systems.",
     "languages": [
-      "Arabic",
       "Japanese",
       "Russian",
+      "Italian",
+      "Mandarin",
       "English"
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/76.jpg",
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Maria Johnson",
+    "name": "Maria Williams",
     "role": "Procurement Officer",
     "department": "Operations Department",
-    "bio": "Maria Johnson's sharp negotiation skills and 14 years of experience contribute significantly to controlling operational costs while maintaining quality standards.",
+    "bio": "Maria Williams applies expertise in vendor management and cost optimization to benefit ship operations.",
     "languages": [
-      "French",
-      "Russian",
+      "Japanese",
+      "German",
       "English"
     ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Sarah Brown",
+    "name": "James Garcia",
     "role": "Sustainability Coordinator",
     "department": "Operations Department",
-    "bio": "Sarah Brown promotes sustainable practices aligned with maritime environmental standards.",
+    "bio": "With 19 years dedicated to environmental stewardship in the maritime sector, James Garcia develops and manages programs for waste reduction, recycling, and energy conservation.",
     "languages": [
-      "Mandarin",
       "Arabic",
+      "Mandarin",
       "Russian",
       "English"
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
     "city": "New Orleans",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   }
 ];

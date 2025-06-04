@@ -2,1299 +2,1503 @@ import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const capetownTeamMembers: CrewMember[] = [
   {
-    "name": "Sophia Williams",
+    "name": "Michael Davis",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "With a distinguished 14-year career, Sophia Williams ensures the highest standards of safety and seamanship aboard, navigating undefined with precision and authority.",
+    "bio": "With a distinguished 4-year career, Michael Davis ensures the highest standards of safety and seamanship aboard, navigating Africa with precision and authority.",
     "languages": [
-      "German",
-      "English"
+      "English",
+      "Mandarin"
     ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
     "city": "Cape Town",
-    "country": "Global"
+    "country": "South Africa",
+    "region": "Africa"
   },
   {
-    "name": "Robert Williams",
+    "name": "Olivia Garcia",
     "role": "First Officer",
     "department": "Deck Department",
-    "bio": "Former special forces officer Robert Williams brings exceptional navigational precision and leadership with 7 years sailing throughout undefined.",
+    "bio": "First Officer Garcia supports the Captain by managing daily operations and maintaining vessel readiness, backed by extensive experience in Africa.",
     "languages": [
-      "English"
+      "Arabic",
+      "English",
+      "French"
     ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
     "city": "Cape Town",
-    "country": "Global"
+    "country": "South Africa",
+    "region": "Africa"
   },
   {
-    "name": "Emma Williams",
+    "name": "Sophia Brown",
     "role": "Second Officer",
     "department": "Deck Department",
-    "bio": "Utilizing 13 years of expertise, Emma Williams meticulously maintains navigational charts and publications crucial for safe transit in undefined.",
+    "bio": "With a strong focus on electronic navigation and safety equipment, Sophia Brown brings 6 years of experience navigating Africa's challenging routes.",
     "languages": [
+      "English",
+      "French",
+      "Spanish",
+      "Russian",
+      "Italian"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Maria Johnson",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Third Officer Johnson assists with cargo operations and ballast management, a key part of their 11 years of development in Africa.",
+    "languages": [
+      "Russian",
       "German",
-      "Arabic",
+      "Portuguese",
+      "Japanese",
       "English"
     ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
     "city": "Cape Town",
-    "country": "Global"
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Emma Rodriguez",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Emma Rodriguez plays a key role in training junior officers on Africa-specific navigational challenges and best practices, backed by 22 years of experience.",
+    "languages": [
+      "Mandarin",
+      "Portuguese",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Sarah Rodriguez",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Committed to regulatory adherence, Sarah Rodriguez stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
+    "languages": [
+      "Spanish",
+      "Italian",
+      "Japanese",
+      "English",
+      "French"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Michael Johnson",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Michael Johnson is an aspiring maritime professional with foundational training and practical experience in ship operations and navigation within Africa.",
+    "languages": [
+      "English",
+      "Mandarin",
+      "Russian"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/88.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Robert Davis",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Leveraging 16 years of seamanship, Bosun Davis is an expert in rigging, anchoring, and all aspects of deck machinery operation in Africa.",
+    "languages": [
+      "German",
+      "Japanese",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
   },
   {
     "name": "Robert Rodriguez",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "As a vigilant watchkeeper, Robert Rodriguez has 9 years supporting navigation, safety drills, and emergency procedures aboard vessels in undefined.",
-    "languages": [
-      "Portuguese",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Williams",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "Sophia Williams utilizes advanced navigational technology with 16 years ensuring precise route planning and safe passage in undefined.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Brown",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "Committed to regulatory adherence, Olivia Brown stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
-    "languages": [
-      "Spanish",
-      "French",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Garcia",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "With a strong commitment to professional growth, Sarah Garcia actively participates in drills and training to build competence for safe vessel operation.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/40.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Martinez",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Leveraging 11 years of seamanship, Bosun Martinez is an expert in rigging, anchoring, and all aspects of deck machinery operation in undefined.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "James Johnson",
     "role": "Chief Engineer",
     "department": "Engineering Department",
-    "bio": "Known for strategic problem-solving, James Johnson directs all technical operations, balancing safety, performance, and cost-effectiveness aboard vessels.",
+    "bio": "Robert Rodriguez brings 13 years of engineering excellence, leading innovations in sustainable maritime technology and driving continuous improvement in vessel operations.",
     "languages": [
       "Portuguese",
+      "Spanish",
+      "English",
+      "German",
+      "Japanese",
+      "Italian"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "First Engineer Johnson manages spare parts inventory and oversees condition monitoring programs to prevent system failures.",
+    "languages": [
+      "Spanish",
+      "Portuguese",
+      "Russian",
+      "Mandarin",
       "English"
     ],
     "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/99.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Martinez",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "Sophia Martinez supervises engineering staff during watch shifts, maintaining operational readiness and compliance with maritime safety standards.",
-    "languages": [
-      "Italian",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Rodriguez",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "Second Engineer Rodriguez meticulously manages bunkering operations and ensures the quality of fuel and lubricants, drawing on 5 years of practical knowledge.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Davis",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Electrical Engineer Davis conducts regular testing and troubleshooting of generators, switchboards, and control systems to prevent downtime.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "James Brown",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "Mechanical Engineer Brown collaborates closely with the engineering team to enhance machinery performance and lifecycle management.",
-    "languages": [
-      "German",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Johnson",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "Olivia Johnson plays a key role in energy conservation by optimizing HVAC operations, backed by 10 years of specialized experience.",
-    "languages": [
-      "French",
-      "Spanish",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "John Smith",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Environmental Engineer Smith monitors emissions and advises on strategies to minimize the vessel’s environmental footprint.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "James Smith",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "James Smith is pivotal in troubleshooting and resolving complex issues across interconnected electronic and control systems, thanks to 9 years of in-depth experience.",
-    "languages": [
-      "English",
-      "Italian",
-      "Russian"
-    ],
-    "experienceYears": 9,
     "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
     "city": "Cape Town",
-    "country": "Global"
+    "country": "South Africa",
+    "region": "Africa"
   },
   {
-    "name": "Sarah Smith",
-    "role": "Technical Manager",
+    "name": "Maria Smith",
+    "role": "Second Engineer",
     "department": "Engineering Department",
-    "bio": "Technical Manager Smith oversees budgeting, procurement, and scheduling of maintenance to optimize vessel availability and lifecycle costs.",
+    "bio": "Experienced in engine room management, Maria Smith brings 8 years ensuring mechanical integrity, safety, and regulatory compliance.",
     "languages": [
-      "German",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Williams",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Maintenance Engineer Williams troubleshoots system faults and implements timely repairs, maintaining vessel operational readiness.",
-    "languages": [
-      "French",
-      "Italian",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/29.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Davis",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Former maritime safety Emma Davis leads our security team with 8 years of expertise in maritime safety protocols, risk assessment, and crisis management.",
-    "languages": [
-      "Russian",
-      "French",
+      "Portuguese",
+      "Arabic",
       "English"
     ],
     "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/36.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
     "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Brown",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Security Officer Brown performs access control duties and monitors surveillance systems to maintain a secure onboard environment.",
-    "languages": [
-      "English",
-      "German"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/93.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "David Davis",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Security Specialist Davis advises senior management on emerging security trends and implements best practices in security operations.",
-    "languages": [
-      "Russian",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Martinez",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Cybersecurity Officer Martinez implements firewalls, intrusion detection systems, and incident response protocols tailored for maritime environments.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Miller",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "Olivia Miller manages communication between security teams and external authorities to ensure swift resolution of maritime security incidents.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Miller",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Robert Miller ensures all personnel and visitors comply with security clearance, manifests, and international maritime access regulations.",
-    "languages": [
-      "Russian",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
-    "city": "Cape Town",
-    "country": "Global"
+    "country": "South Africa",
+    "region": "Africa"
   },
   {
     "name": "John Rodriguez",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "With a thorough understanding of hazard identification and mitigation, John Rodriguez leads incident investigations and corrective action plans.",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Drawing on 9 years, John Rodriguez ensures the integrity of high-voltage systems and sophisticated electronic controls throughout the vessel.",
+    "languages": [
+      "English",
+      "Russian"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Emma Garcia",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Mechanical Engineer Garcia specializes in propulsion, HVAC, and auxiliary machinery with 10 years ensuring operational efficiency and reliability.",
     "languages": [
       "German",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Garcia",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "With a passion for youth development, Michael Garcia crafts innovative activities fostering learning, social growth, and cultural awareness during voyages.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Miller",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Family Activities Coordinator Miller designs multi-generational programs that promote bonding and enjoyment throughout the voyage.",
-    "languages": [
-      "Italian",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "John Miller",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Children's Entertainment Specialist Miller collaborates with youth program teams to develop diverse content promoting creativity and social interaction.",
-    "languages": [
+      "Spanish",
       "Mandarin",
       "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
     "city": "Cape Town",
-    "country": "Global"
+    "country": "South Africa",
+    "region": "Africa"
   },
   {
-    "name": "Emma Miller",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Teen Activities Coordinator Miller monitors participation and feedback to continuously refine and innovate teen programming.",
+    "name": "Maria Williams",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "HVAC Engineer Williams ensures optimal climate control aboard vessels, leveraging 4 years of system optimization and energy efficiency knowledge.",
     "languages": [
+      "Italian",
       "German",
       "French",
       "English"
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/91.jpg",
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
     "city": "Cape Town",
-    "country": "Global"
+    "country": "South Africa",
+    "region": "Africa"
   },
   {
-    "name": "James Brown",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Known for strong organizational skills, James Brown evaluates program effectiveness and implements improvements based on passenger feedback.",
+    "name": "Olivia Jones",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Olivia Jones champions innovative solutions for waste reduction and energy efficiency, reflecting 19 years of commitment to maritime sustainability.",
+    "languages": [
+      "Russian",
+      "French",
+      "Mandarin",
+      "German",
+      "Japanese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/95.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Sophia Rodriguez",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "With extensive knowledge of software and hardware interfaces, Sophia Rodriguez enhances system interoperability and cybersecurity aboard vessels.",
+    "languages": [
+      "Japanese",
+      "Russian",
+      "Portuguese",
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/5.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "David Garcia",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "With a strategic overview honed over 7 years, David Garcia directs fleet-wide technical policies and ensures best practices are implemented.",
+    "languages": [
+      "Italian",
+      "German",
+      "Japanese",
+      "Spanish",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "James Garcia",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Maintenance Engineer Garcia applies 6 years of hands-on expertise maintaining and repairing shipboard mechanical and electrical equipment.",
+    "languages": [
+      "Spanish",
+      "English",
+      "Arabic",
+      "Portuguese"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Robert Williams",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "With 21 years in maritime security, Robert Williams ensures comprehensive protection for passengers, crew, and assets through proactive strategy and coordination.",
     "languages": [
       "French",
       "Japanese",
       "English"
     ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
     "city": "Cape Town",
-    "country": "Global"
+    "country": "South Africa",
+    "region": "Africa"
   },
   {
-    "name": "Maria Miller",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "With expertise in child health and safety protocols, Maria Miller manages routines and responds to individual needs of children under care.",
+    "name": "James Smith",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "With keen attention to risk, James Smith has 7 years experience protecting vessel personnel, property, and critical infrastructure against diverse threats.",
     "languages": [
       "Arabic",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Robert Davis",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Robert Davis provides expert assessment and response coordination to maritime security challenges, leveraging advanced knowledge in risk management and compliance.",
+    "languages": [
+      "Arabic",
+      "Japanese",
+      "German",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Robert Miller",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Cybersecurity Officer Miller implements firewalls, intrusion detection systems, and incident response protocols tailored for maritime environments.",
+    "languages": [
+      "Mandarin",
+      "Spanish",
       "Italian",
       "Russian",
       "English"
     ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/74.jpg",
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
     "city": "Cape Town",
-    "country": "Global"
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Sarah Garcia",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "With 12 years in the role, Sarah Garcia is adept at developing and updating the Ship Security Plan (SSP) and ensuring its effective implementation.",
+    "languages": [
+      "Mandarin",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Sarah Williams",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Sarah Williams is trained in search procedures and contraband detection, contributing 16 years of vigilance to vessel security.",
+    "languages": [
+      "Spanish",
+      "Arabic",
+      "Mandarin",
+      "French",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Sarah Miller",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Sarah Miller meticulously prepares the vessel for internal and external safety audits, ensuring all documentation and practices meet or exceed standards, backed by 15 years.",
+    "languages": [
+      "Mandarin",
+      "Portuguese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Sophia Jones",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "With a passion for youth development, Sophia Jones crafts innovative activities fostering learning, social growth, and cultural awareness during voyages.",
+    "languages": [
+      "English",
+      "Spanish",
+      "Japanese",
+      "Mandarin"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
   },
   {
     "name": "Sophia Williams",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "Activities Director Williams is passionate about creating vibrant social atmospheres, a skill perfected over 9 years of orchestrating memorable onboard events.",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "With strong communication skills, Sophia Williams liaises with hospitality and entertainment teams to deliver seamless family-oriented services.",
+    "languages": [
+      "Portuguese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/92.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Maria Miller",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Children's Entertainment Specialist Miller has a talent for making every child feel special, using 19 years of experience to tailor activities to individual personalities.",
+    "languages": [
+      "Japanese",
+      "Spanish",
+      "French",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/99.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Sarah Martinez",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Sarah Martinez develops dynamic programs catering to teenage guests, drawing on 22 years of youth facilitation and event management expertise.",
+    "languages": [
+      "Spanish",
+      "Italian",
+      "Portuguese",
+      "Arabic",
+      "English",
+      "French"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Olivia Johnson",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Focused on accessibility, Olivia Johnson ensures programs accommodate different learning styles and abilities for broad passenger appeal.",
     "languages": [
       "Mandarin",
       "German",
       "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/5.jpg",
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
     "city": "Cape Town",
-    "country": "Global"
+    "country": "South Africa",
+    "region": "Africa"
   },
   {
-    "name": "Sarah Davis",
+    "name": "Olivia Davis",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Olivia Davis provides attentive care and supervision for young passengers, backed by 19 years in professional child care and early childhood education.",
+    "languages": [
+      "French",
+      "Italian",
+      "German",
+      "English",
+      "Mandarin"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "John Rodriguez",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "John Rodriguez plans and coordinates all recreational activities, utilizing 16 years of event management expertise to create engaging, inclusive programs.",
+    "languages": [
+      "Mandarin",
+      "English",
+      "Russian",
+      "Portuguese"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Sophia Martinez",
     "role": "Water Sports Instructor",
     "department": "Activities & Recreation",
-    "bio": "Sarah Davis teaches water sports safely and effectively, leveraging 11 years of professional instruction and certification in aquatic activities.",
+    "bio": "Known for excellent communication and risk management skills, Sophia Martinez maintains vigilance during all aquatic activities to protect participants.",
     "languages": [
+      "Spanish",
+      "Italian",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Sophia Smith",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Committed to inclusivity, Sophia Smith adapts programming to accommodate varying fitness levels and any physical limitations.",
+    "languages": [
+      "Arabic",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Maria Martinez",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Maria Martinez's meticulous planning and attention to detail, developed over 17 years, ensure every guest's off-ship adventure is seamless and unforgettable.",
+    "languages": [
+      "Russian",
+      "French",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Michael Garcia",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Michael Garcia leads the photo team with 21 years of experience, mentoring staff and ensuring consistent, high-quality photographic services for all guests.",
+    "languages": [
+      "Mandarin",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Sarah Brown",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Videographer Brown maintains technical equipment and coordinates with production teams to ensure seamless content delivery.",
+    "languages": [
+      "German",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Emma Rodriguez",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Digital Media Specialist Rodriguez is proficient in SEO, content management systems, and digital advertising, skills honed over 7 years.",
+    "languages": [
+      "Italian",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/21.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Sarah Williams",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "With extensive knowledge in maritime medicine and emergency response, Sarah Williams ensures readiness for diverse medical situations at sea.",
+    "languages": [
+      "Portuguese",
+      "Arabic",
+      "Japanese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/9.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Olivia Brown",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Dr. Brown provides comprehensive medical care with 11 years of expertise in maritime and travel medicine, addressing acute and chronic conditions onboard.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/9.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Robert Williams",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Nurse Williams is experienced in managing chronic health conditions at sea and providing ongoing support to guests with specific medical needs, drawing from 5 years of practice.",
+    "languages": [
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Michael Johnson",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "With a thorough understanding of hazard identification and mitigation, Michael Johnson fosters a culture of safety awareness among crew and passengers.",
+    "languages": [
+      "Arabic",
+      "English",
+      "Spanish",
+      "German",
+      "Portuguese"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "David Jones",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Director Jones orchestrates a seamless guest journey, from arrival to departure, leveraging 6 years of expertise in luxury service.",
+    "languages": [
+      "French",
+      "German",
+      "English",
+      "Russian"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "John Brown",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Guest Relations Manager Brown is adept at handling complex guest inquiries and ensuring swift, satisfactory resolutions, fostering loyalty and positive experiences.",
+    "languages": [
+      "Mandarin",
+      "German",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Robert Garcia",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Chief Steward Garcia trains and mentors the housekeeping staff, instilling a keen eye for detail and a commitment to impeccable service honed over 11 years.",
+    "languages": [
+      "Japanese",
       "German",
       "English"
     ],
     "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/56.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/96.jpg",
     "city": "Cape Town",
-    "country": "Global"
+    "country": "South Africa",
+    "region": "Africa"
   },
   {
-    "name": "Sarah Davis",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Sarah Davis leads group fitness classes, personal training sessions, and wellness workshops designed to meet diverse passenger needs.",
+    "name": "Olivia Brown",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "With 11 years of dedicated service, Senior Steward Brown ensures guest accommodations are impeccably maintained and personalized to preferences.",
     "languages": [
-      "Russian",
+      "Italian",
+      "French",
+      "English",
+      "Japanese"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/91.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "John Brown",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "With discreet professionalism honed over 10 years, Butler Brown offers bespoke services, including in-suite dining, wardrobe management, and personalized arrangements.",
+    "languages": [
+      "Spanish",
+      "German",
+      "Arabic",
       "English"
     ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/9.jpg",
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
     "city": "Cape Town",
-    "country": "Global"
+    "country": "South Africa",
+    "region": "Africa"
   },
   {
-    "name": "John Rodriguez",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Excursion Coordinator Rodriguez prioritizes compliance with local regulations and emergency preparedness during all shore activities.",
+    "name": "James Williams",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Accommodation Manager Williams coordinates housekeeping and maintenance teams for optimal guest satisfaction.",
+    "languages": [
+      "Japanese",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "David Brown",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Brown is committed to sustainability in cleaning practices, implementing eco-friendly procedures throughout their 22 years of service.",
+    "languages": [
+      "French",
+      "Japanese",
+      "Italian",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "John Martinez",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "With 19 years providing frontline support, John Martinez is adept at information sharing, problem-solving, and ensuring guests feel valued and well-informed.",
+    "languages": [
+      "French",
+      "Russian",
+      "Spanish",
+      "Arabic",
+      "German",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Emma Jones",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Concierge Jones offers expert local knowledge and personalized recommendations to enrich guest journeys.",
+    "languages": [
+      "German",
+      "Portuguese",
+      "Russian",
+      "Mandarin",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Sophia Johnson",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Sophia Johnson is pivotal in managing high-traffic periods and resolving escalated guest concerns with professionalism and grace, reflecting 17 years in the field.",
+    "languages": [
+      "Arabic",
+      "German",
+      "Russian",
+      "French",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Emma Brown",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "VIP Coordinator Brown manages exclusive guest services, ensuring privacy and personalized attention throughout the voyage.",
+    "languages": [
+      "Mandarin",
+      "Portuguese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "David Rodriguez",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Trainer Rodriguez specializes in areas like luxury service standards, complaint resolution, and upselling techniques, drawing on 14 years of industry best practices.",
+    "languages": [
+      "Japanese",
+      "Italian",
+      "German",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Sophia Davis",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Beyond crafting exquisite Asian fusion, Chef Davis expertly manages kitchen hygiene, inventory, and food cost control, honed over 19 years in demanding culinary environments.",
     "languages": [
       "Portuguese",
       "Italian",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
     "city": "Cape Town",
-    "country": "Global"
+    "country": "South Africa",
+    "region": "Africa"
   },
   {
-    "name": "Robert Jones",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "With extensive experience in portrait, event, and environmental photography, Robert Jones ensures high-quality imagery that reflects the voyage’s unique character.",
+    "name": "Emma Davis",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "As second-in-command, Sous Chef Davis ensures seamless kitchen workflow and consistent dish quality, drawing on 12 years of hands-on Asian fusion experience.",
+    "languages": [
+      "Portuguese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/9.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Sophia Martinez",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Pastry Chef Martinez crafts exquisite desserts with 20 years of baking and pastry artistry.",
+    "languages": [
+      "Arabic",
+      "Portuguese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/91.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Olivia Rodriguez",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Specializing in the marine electronics station (e.g., Saucier, Grillardin), Chef de Partie Rodriguez brings 15 years of expertise in preparing precise Mediterranean components.",
+    "languages": [
+      "Spanish",
+      "Russian",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/56.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Sophia Miller specializes in unique culinary styles, offering guests diverse flavors based on 18 years of expertise.",
+    "languages": [
+      "English",
+      "German",
+      "Japanese",
+      "Spanish"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Olivia Davis",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "With 8 years dedicated to the art of sushi and sashimi, Chef Davis meticulously selects the freshest seafood and crafts each piece with mastery.",
+    "languages": [
+      "English",
+      "Japanese",
+      "Spanish"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Emma Miller",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Garde Manger Miller ensures all cold food items are stored and handled with the utmost care, upholding critical food safety protocols over 22 years.",
+    "languages": [
+      "Spanish",
+      "Arabic",
+      "German",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/21.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Michael Williams",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Butcher Williams manages meat inventory and advises chefs on the best cuts for specific culinary applications, drawing on 12 years of specialized knowledge.",
+    "languages": [
+      "Japanese",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "David Miller",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "David Miller combines traditional techniques with innovation to delight guests with baked specialties.",
+    "languages": [
+      "Mandarin",
+      "French",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/97.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "James Jones",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "James Jones provides engaging wine education and tasting experiences for guests, sharing insights from 7 years exploring global viticulture.",
+    "languages": [
+      "German",
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "James Smith",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "With 6 years behind the bar, James Smith designs innovative signature cocktails and perfectly executes classic recipes using premium spirits and fresh ingredients.",
+    "languages": [
+      "Russian",
+      "Arabic",
+      "Italian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "James Jones",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Barista Jones ensures consistently excellent coffee quality, from bean grinding to final pour, reflecting 14 years of dedication to the craft.",
+    "languages": [
+      "Italian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Sarah Martinez",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "With 11 years in clinical and culinary nutrition, Sarah Martinez provides personalized dietary consultations and develops specialized meal plans for guests with specific needs.",
+    "languages": [
+      "German",
+      "Russian",
+      "Mandarin",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Sarah Smith",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "With 4 years orchestrating spectacular onboard entertainment, Sarah Smith manages everything from Broadway-style shows to intimate musical performances and themed parties.",
+    "languages": [
+      "English",
+      "French",
+      "Japanese",
+      "Portuguese"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "James Martinez",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Performance Coordinator Martinez supports talent and technical teams to deliver seamless shows.",
+    "languages": [
+      "Spanish",
+      "French",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Robert Garcia",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "As a key figure in production shows, Lead Vocalist Garcia collaborates with the cast and creative team, bringing 4 years of professional discipline and artistry.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Maria Davis",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Maria Davis enriches onboard ambiance through skilled instrumental and vocal performances.",
+    "languages": [
+      "Spanish",
+      "French",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "James Johnson",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Dancer Johnson delivers energetic and polished routines, drawing on 22 years of dance training.",
     "languages": [
       "English",
       "Arabic",
       "French"
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
     "city": "Cape Town",
-    "country": "Global"
+    "country": "South Africa",
+    "region": "Africa"
   },
   {
-    "name": "Robert Smith",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Robert Smith uses 14 years of editing expertise to transform raw footage into engaging narratives that resonate with passengers and promote future voyages.",
+    "name": "Robert Johnson",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Robert Johnson collaborates with costume and lighting designers to create a cohesive and visually stunning spectacle, drawing on 16 years of experience in stage production.",
     "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "David Johnson",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "David Johnson uses 8 years of experience to leverage emerging digital trends, enhancing guest communication and brand visibility online.",
-    "languages": [
-      "Japanese",
+      "French",
       "Italian",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Williams",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Sophia Williams, with a distinguished 14-year career in sustainable technologies and maritime health, provides expert medical oversight for thousands of passengers and crew.",
-    "languages": [
-      "Japanese",
       "German",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "James Jones",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "With 12 years practicing medicine in diverse environments, Dr. Jones is adept at diagnosing and treating a wide array of conditions encountered at sea.",
-    "languages": [
       "Portuguese",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Johnson",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Nurse Johnson provides empathetic and skilled assistance, ensuring patient comfort and adherence to strict hygiene and infection control protocols.",
-    "languages": [
-      "English",
-      "Russian"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "James Smith",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Safety Officer Smith documents incidents and implements corrective actions to continuously improve onboard safety performance.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Johnson",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "Overseeing a diverse team, Hospitality Director Johnson implements innovative service strategies and maintains the highest quality standards, reflecting 19 years in the industry.",
-    "languages": [
-      "Spanish",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Garcia",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "Guest Relations Manager Garcia is adept at handling complex guest inquiries and ensuring swift, satisfactory resolutions, fostering loyalty and positive experiences.",
-    "languages": [
-      "Portuguese",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Jones",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Robert Jones excels in inventory management for linens and amenities, maintaining premium standards across all staterooms and suites with 17 years of dedication.",
-    "languages": [
-      "Spanish",
-      "German",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Davis",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "Senior Steward Davis delivers attentive guest services and supports stewardship operations, drawing on 16 years onboard.",
-    "languages": [
-      "Japanese",
       "English"
     ],
     "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "With discreet professionalism honed over 5 years, Butler Smith offers bespoke services, including in-suite dining, wardrobe management, and personalized arrangements.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 5,
     "profileImage": "https://randomuser.me/api/portraits/men/98.jpg",
     "city": "Cape Town",
-    "country": "Global"
+    "country": "South Africa",
+    "region": "Africa"
   },
   {
-    "name": "Maria Davis",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "Maria Davis expertly handles guest feedback regarding accommodations, implementing swift solutions and driving continuous improvement based on 7 years of experience.",
+    "name": "David Williams",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "With a sharp wit and 15 years on the comedy circuit, David Williams offers hilarious observational humor and storytelling that resonates with diverse audiences.",
     "languages": [
-      "Mandarin",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "James Smith",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "With a keen eye for detail developed over 12 years, Housekeeping Supervisor Smith conducts rigorous inspections to uphold pristine conditions.",
-    "languages": [
-      "Italian",
-      "Portuguese",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Williams",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "With 18 years providing frontline support, Robert Williams is adept at information sharing, problem-solving, and ensuring guests feel valued and well-informed.",
-    "languages": [
-      "Portuguese",
-      "Japanese",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Martinez",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "Emma Martinez leverages 5 years of service to provide exceptional concierge support onboard.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "James Jones",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Front Desk Manager Jones trains staff in handling diverse guest interactions and maintaining accurate records, drawing on 10 years of best practices.",
-    "languages": [
-      "Japanese",
-      "French",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Davis",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "Olivia Davis's expertise over 10 years lies in creating unparalleled experiences, making every VIP guest feel exceptionally valued and pampered.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Miller",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Hospitality Trainer Miller focuses on enhancing guest service quality through targeted education and coaching.",
-    "languages": [
-      "Japanese",
-      "Russian",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "John Garcia",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Executive Chef Garcia leads a brigade of talented chefs, orchestrating all culinary operations and menu development with 7 years of innovative leadership.",
-    "languages": [
-      "French",
-      "German",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "John Smith",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "John Smith trains and supervises junior chefs, playing a key role in maintaining discipline and motivation within the culinary team with 10 years of mentorship.",
-    "languages": [
-      "Mandarin",
-      "Japanese",
-      "French",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "John Jones",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "John Jones blends creativity and technique to deliver memorable pastry experiences for guests.",
-    "languages": [
-      "French",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "James Davis",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "James Davis maintains immaculate standards of organization and hygiene at their station, contributing to the kitchen's overall efficiency with 12 years of discipline.",
-    "languages": [
-      "Mandarin",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Martinez",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Specialty Chef Martinez curates exclusive menus for themed dining venues, showcasing 13 years of passion for {cuisineSpecific} traditions and techniques.",
-    "languages": [
-      "German",
-      "Portuguese",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "James Williams",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "With 13 years dedicated to the art of sushi and sashimi, Chef Williams meticulously selects the freshest seafood and crafts each piece with mastery.",
-    "languages": [
-      "Mandarin",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "David Rodriguez",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "With 7 years specializing in charcuterie, salads, and elaborate cold platters, Chef Rodriguez brings artistry and precision to the Garde Manger station.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Jones",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Butcher Jones manages meat inventory and advises chefs on the best cuts for specific culinary applications, drawing on 7 years of specialized knowledge.",
-    "languages": [
-      "Japanese",
       "English",
-      "Arabic"
+      "Japanese",
+      "German"
     ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/96.jpg",
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
     "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Smith",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "Emma Smith combines traditional techniques with innovation to delight guests with baked specialties.",
-    "languages": [
-      "Russian",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/5.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Davis",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Sommelier Davis curates wine selections, offering expert pairing advice with 19 years in fine wine service.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Brown",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "Michael Brown delivers exceptional beverage experiences tailored to guest preferences onboard.",
-    "languages": [
-      "Mandarin",
-      "Italian",
-      "French",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
-    "city": "Cape Town",
-    "country": "Global"
+    "country": "South Africa",
+    "region": "Africa"
   },
   {
     "name": "Olivia Johnson",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Barista Johnson ensures consistently excellent coffee quality, from bean grinding to final pour, reflecting 14 years of dedication to the craft.",
-    "languages": [
-      "Spanish",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/94.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Davis",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Nutritionist Davis works closely with the culinary team to create wholesome Latin American options that are both flavorful and aligned with wellness goals, drawing on 16 years of expertise.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Garcia",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "Entertainment Director Garcia leads a dynamic team of performers and technicians, ensuring flawless execution and high-energy engagement across all venues, backed by 16 years of industry leadership.",
-    "languages": [
-      "French",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "David Smith",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Performance Coordinator Smith supports talent and technical teams to deliver seamless shows.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Smith",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "As a key figure in production shows, Lead Vocalist Smith collaborates with the cast and creative team, bringing 19 years of professional discipline and artistry.",
-    "languages": [
-      "Russian",
-      "Arabic",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "David Johnson",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "A master of the {instrument}, David Johnson brings 11 years of versatile musicianship, performing solo or as part of an ensemble in various ship venues.",
-    "languages": [
-      "Russian",
-      "Japanese",
-      "French",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "David Brown",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "With 18 years of professional training in {danceStyle} and contemporary dance, David Brown executes complex choreography with precision and artistry in mainstage productions.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Rodriguez",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Robert Rodriguez leads rehearsals and performance design to enhance the entertainment experience onboard.",
-    "languages": [
-      "Italian",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Smith",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Sophia Smith's ability to connect with the audience and improvise, developed over 16 years, makes each show a unique and highly enjoyable experience.",
-    "languages": [
-      "English",
-      "Arabic"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Williams",
     "role": "Magic Act",
     "department": "Entertainment Department",
-    "bio": "Olivia Williams brings a unique brand of enchantment to the ship's entertainment, drawing on 8 years of professional magic and a flair for theatrical presentation.",
+    "bio": "Magic Act specialist Johnson mystifies audiences with skilled illusions and interactive performances.",
     "languages": [
-      "Japanese",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Martinez",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "DJ Martinez stays current with music trends while also mastering classics, offering 17 years of expertise in curating unforgettable musical journeys.",
-    "languages": [
-      "Arabic",
+      "Mandarin",
+      "German",
       "English"
     ],
     "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
     "city": "Cape Town",
-    "country": "Global"
+    "country": "South Africa",
+    "region": "Africa"
   },
   {
-    "name": "John Martinez",
+    "name": "Robert Martinez",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "DJ Martinez creates vibrant atmospheres with expertly mixed music, drawing on 11 years in live DJing.",
+    "languages": [
+      "French",
+      "Italian",
+      "Arabic",
+      "German",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "John Jones",
     "role": "Audio Technician",
     "department": "Entertainment Department",
-    "bio": "Audio Technician Martinez expertly operates and maintains complex soundboards, microphones, and speaker systems, ensuring every note and word is perfectly heard.",
+    "bio": "Audio Technician Jones expertly operates and maintains complex soundboards, microphones, and speaker systems, ensuring every note and word is perfectly heard.",
     "languages": [
-      "Japanese",
-      "German",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Brown",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "Lighting Specialist Brown programs and operates sophisticated lighting consoles, working closely with directors to achieve the desired visual impact for each performance.",
-    "languages": [
-      "Mandarin",
-      "Portuguese",
       "Italian",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/9.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Brown",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "Sophia Brown's calm under pressure and attention to detail, honed over 9 years, are vital for delivering complex, multi-layered performances without a hitch.",
-    "languages": [
-      "German",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "John Garcia",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "Production Manager Garcia oversees logistics and technical coordination for large-scale entertainment productions.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/92.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Jones",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Olivia Jones combines creativity and craftsmanship with 12 years of design expertise.",
-    "languages": [
       "Portuguese",
-      "Japanese",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Garcia",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Cultural Program Director Garcia curates culturally enriching events and experiences for guests.",
-    "languages": [
-      "Arabic",
       "English",
-      "Spanish"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Johnson",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "Performance Artist Johnson combines elements of {artisticDisciplineCombination} to create truly unique and memorable entertainment experiences for discerning audiences.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Martinez",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Operations Manager Martinez is adept at problem-solving complex logistical challenges and implementing solutions that enhance overall ship performance and guest satisfaction.",
-    "languages": [
-      "Arabic",
       "Russian",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
-    "city": "Cape Town",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Rodriguez",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "With 16 years coordinating complex supply chains, Sophia Rodriguez ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
-    "languages": [
-      "Spanish",
-      "English"
+      "Japanese"
     ],
     "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
     "city": "Cape Town",
-    "country": "Global"
+    "country": "South Africa",
+    "region": "Africa"
   },
   {
-    "name": "Maria Garcia",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "With 6 years in inventory management, Maria Garcia meticulously maintains records for all consumables, technical spares, and retail goods onboard.",
+    "name": "John Johnson",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "John Johnson applies 9 years of technical skill to create immersive visual experiences.",
     "languages": [
-      "Mandarin",
-      "English"
+      "English",
+      "French",
+      "German",
+      "Portuguese"
     ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
     "city": "Cape Town",
-    "country": "Global"
+    "country": "South Africa",
+    "region": "Africa"
   },
   {
-    "name": "Sarah Williams",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "Procurement Officer Williams sources and negotiates contracts for goods and services needed onboard.",
+    "name": "Robert Brown",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Robert Brown's calm under pressure and attention to detail, honed over 8 years, are vital for delivering complex, multi-layered performances without a hitch.",
     "languages": [
+      "German",
       "Spanish",
+      "French",
       "English"
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
     "city": "Cape Town",
-    "country": "Global"
+    "country": "South Africa",
+    "region": "Africa"
   },
   {
-    "name": "Sophia Davis",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "Sophia Davis promotes sustainable practices aligned with maritime environmental standards.",
+    "name": "Michael Miller",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Production Manager Miller collaborates with creative teams and technical departments to bring ambitious show concepts to life, on time and within budget.",
     "languages": [
-      "Mandarin",
-      "Arabic",
+      "Japanese",
       "Spanish",
       "English"
     ],
     "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/97.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
     "city": "Cape Town",
-    "country": "Global"
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Olivia Miller",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Olivia Miller's artistic flair and attention to historical detail, honed over 16 years, bring visual richness and authenticity to the stage.",
+    "languages": [
+      "Portuguese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "David Brown",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Cultural Program Director Brown curates culturally enriching events and experiences for guests.",
+    "languages": [
+      "Portuguese",
+      "German",
+      "Arabic",
+      "Russian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "David Miller",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Performance Artist Miller combines elements of {artisticDisciplineCombination} to create truly unique and memorable entertainment experiences for discerning audiences.",
+    "languages": [
+      "English",
+      "Mandarin",
+      "French"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Olivia Smith",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Olivia Smith oversees daily operations and coordinates departments to maintain smooth vessel functioning.",
+    "languages": [
+      "Mandarin",
+      "French",
+      "English",
+      "Portuguese"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Sarah Jones",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Sarah Jones leverages 7 years in logistics to optimize onboard operations.",
+    "languages": [
+      "Japanese",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Sophia Martinez",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Sophia Martinez ensures accurate inventory control using advanced management systems.",
+    "languages": [
+      "Mandarin",
+      "Arabic",
+      "Russian",
+      "English",
+      "Italian"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Sarah Brown",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "With 4 years in strategic sourcing, Sarah Brown identifies reliable suppliers and negotiates favorable terms for all shipboard necessities, from fuel to food.",
+    "languages": [
+      "Russian",
+      "German",
+      "Portuguese",
+      "French",
+      "English",
+      "Japanese"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/40.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Sustainability Coordinator Miller implements green initiatives to minimize environmental impact.",
+    "languages": [
+      "Portuguese",
+      "Mandarin",
+      "Japanese",
+      "French",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa"
   }
 ];

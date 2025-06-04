@@ -2,1295 +2,1502 @@ import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const tampaTeamMembers: CrewMember[] = [
   {
-    "name": "David Rodriguez",
+    "name": "John Garcia",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "With 8 years at sea, Captain Rodriguez is renowned for expertise in undefined navigation, crew leadership, and passenger safety protocols.",
+    "bio": "With a distinguished 10-year career, John Garcia ensures the highest standards of safety and seamanship aboard, navigating Caribbean with precision and authority.",
     "languages": [
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Garcia",
-    "role": "First Officer",
-    "department": "Deck Department",
-    "bio": "First Officer Garcia's 6-year background includes robust training in advanced navigation systems and crew supervision within undefined.",
-    "languages": [
-      "Spanish",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Brown",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "Second Officer Brown is adept at monitoring vessel position and environmental conditions, contributing to safe passage through undefined.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Martinez",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "Third Officer Martinez assists with cargo operations and ballast management, a key part of their 5 years of development in undefined.",
-    "languages": [
-      "Mandarin",
-      "French",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Miller",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "With 17 years dedicated to undefined routes, Maria Miller excels in dynamic positioning and integrated navigation systems management.",
-    "languages": [
-      "Italian",
-      "German",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Smith",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "Leveraging 9 years in maritime safety, Sophia Smith excels at developing and implementing targeted safety training programs relevant to undefined's specific operational hazards.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Rodriguez",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "Deck Cadet Rodriguez learns shipboard operations under experienced officers, preparing for a future leadership role in undefined waters.",
-    "languages": [
-      "Arabic",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/92.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Rodriguez",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Bosun Rodriguez mentors junior deck crew, promoting professional development and adherence to best practices in undefined's maritime industry.",
-    "languages": [
-      "Italian",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "Robert Smith leads the engineering department with a focus on fuel efficiency and emissions reduction, drawing upon 17 years of innovative practice and sustainable technologies knowledge.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Davis",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "With 7 years in marine engineering, Emma Davis excels in diagnosing faults and executing prompt, effective repairs to critical shipboard machinery.",
-    "languages": [
-      "Japanese",
-      "Portuguese",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "James Garcia",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "With strong technical acumen, James Garcia assists in crew training on engineering systems and emergency response procedures.",
-    "languages": [
-      "Japanese",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Smith",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Electrical Engineer Smith conducts regular testing and troubleshooting of generators, switchboards, and control systems to prevent downtime.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "James Miller",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "Mechanical Engineer Miller collaborates closely with the engineering team to enhance machinery performance and lifecycle management.",
-    "languages": [
-      "Italian",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "David Smith",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "HVAC Engineer Smith's focus includes maintaining air quality and compliance with health standards across all vessel compartments, a skill developed over 8 years.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Rodriguez",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "With in-depth knowledge of MARPOL regulations, Michael Rodriguez leads training and awareness programs on environmental best practices among crew members.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/87.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "Robert Smith manages system diagnostics and upgrades to improve vessel performance and crew operational efficiency.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "John Jones",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "With a strategic overview honed over 5 years, John Jones directs fleet-wide technical policies and ensures best practices are implemented.",
-    "languages": [
-      "Russian",
-      "German",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Jones",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Maintenance Engineer Jones troubleshoots system faults and implements timely repairs, maintaining vessel operational readiness.",
-    "languages": [
-      "Portuguese",
-      "Italian",
-      "German",
-      "English"
+      "English",
+      "Portuguese"
     ],
     "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/74.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
     "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "David Garcia",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Known for decisive leadership, David Garcia fosters a culture of vigilance and continuous improvement in maritime security standards.",
-    "languages": [
-      "German",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
-    "city": "Tampa",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
     "name": "Emma Johnson",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "With 5 years on watch, Emma Johnson is adept at identifying suspicious activities and ensuring adherence to the ship's security plan.",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "Emma Johnson specializes in Caribbean navigation with 18 years of experience managing bridge operations and ensuring adherence to safety standards.",
     "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Jones",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Robert Jones provides expert assessment and response coordination to maritime security challenges, leveraging advanced knowledge in risk management and compliance.",
-    "languages": [
-      "Russian",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "David Johnson",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "David Johnson ensures all onboard digital systems comply with stringent maritime cybersecurity guidelines like IMO MSC.428(98), backed by 7 years of focused work.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/98.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Miller",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "Maritime Security Coordinator Miller implements compliance programs, conducts drills, and trains crew on security best practices and regulatory requirements.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/96.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "David Johnson",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "David Johnson is trained in search procedures and contraband detection, contributing 11 years of vigilance to vessel security.",
-    "languages": [
-      "Italian",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/90.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "David Davis",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Leveraging 18 years, David Davis ensures the vessel's Safety Management System (SMS) is effectively implemented and continuously improved.",
-    "languages": [
-      "German",
-      "Mandarin",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Rodriguez",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Youth Program Director Rodriguez manages program staff and coordinates resources to deliver safe, inclusive, and dynamic youth experiences.",
-    "languages": [
-      "Japanese",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "David Martinez",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Leveraging 11 years in family entertainment, David Martinez curates a diverse schedule of events appealing to all members of the family.",
-    "languages": [
-      "Portuguese",
       "Spanish",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Johnson",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Experienced in youth engagement, Olivia Johnson provides fun, educational, and culturally sensitive activities tailored for children of all ages.",
-    "languages": [
-      "Mandarin",
-      "French",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Davis",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Teen Activities Coordinator Davis is skilled at mentoring and connecting with teenagers, ensuring they have a fantastic and safe experience, drawing on 18 years.",
-    "languages": [
-      "Russian",
-      "Mandarin",
+      "Italian",
       "English"
     ],
     "experienceYears": 18,
     "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
     "city": "Tampa",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Robert Rodriguez",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Robert Rodriguez oversees onboard educational initiatives, combining 8 years of academic and program management experience to enrich passenger learning.",
+    "name": "John Garcia",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "John Garcia ensures compliance with navigation protocols and supports bridge team operations, leveraging 8 years in maritime operations across Caribbean.",
     "languages": [
+      "Mandarin",
+      "Spanish",
+      "Russian",
       "Japanese",
-      "Arabic",
+      "German",
       "English"
     ],
     "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
     "city": "Tampa",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Sophia Martinez",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "With 14 years dedicated to early childhood development, Sophia Martinez creates a stimulating and secure setting for the youngest guests.",
-    "languages": [
-      "French",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "Activities Director Smith is passionate about creating vibrant social atmospheres, a skill perfected over 18 years of orchestrating memorable onboard events.",
-    "languages": [
-      "Arabic",
-      "Mandarin",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Miller",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Robert Miller's primary focus for 5 years has been ensuring every guest feels confident and secure while exploring the water.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Jones",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Committed to inclusivity, Michael Jones adapts programming to accommodate varying fitness levels and any physical limitations.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Martinez",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Sophia Martinez's meticulous planning and attention to detail, developed over 17 years, ensure every guest's off-ship adventure is seamless and unforgettable.",
-    "languages": [
-      "English",
-      "French"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "James Miller",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "Lead Photographer Miller captures stunning imagery of ship life, landscapes, and destinations, backed by 6 years of professional photography expertise.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Williams",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Maria Williams uses 15 years of editing expertise to transform raw footage into engaging narratives that resonate with passengers and promote future voyages.",
-    "languages": [
-      "Portuguese",
-      "English",
-      "French"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Garcia",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "Known for technical proficiency and creative vision, Sophia Garcia collaborates closely with marketing and entertainment teams to maximize reach and impact.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Miller",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Chief Medical Officer Miller leads all medical operations onboard, leveraging 13 years of clinical and maritime healthcare expertise to ensure passenger and crew wellbeing.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "James Martinez",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "Known for calm professionalism, Dr. Martinez leads medical emergency interventions and coordinates evacuation when necessary.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Miller",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Known for meticulous attention to detail and a caring demeanor, Michael Miller has been a vital part of shipboard medical teams for 12 years.",
-    "languages": [
-      "Japanese",
-      "French",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Robert Smith conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in undefined's maritime operations.",
-    "languages": [
-      "English",
-      "Russian",
-      "Spanish"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Johnson",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "Michael Johnson manages all hospitality services, ensuring exceptional guest experiences with 5 years of leadership.",
-    "languages": [
-      "Russian",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "John Jones",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "With a passion for service excellence developed over 11 years, John Jones leads the guest relations team to anticipate and exceed passenger expectations.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/92.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Garcia",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Sophia Garcia excels in inventory management for linens and amenities, maintaining premium standards across all staterooms and suites with 5 years of dedication.",
-    "languages": [
-      "Mandarin",
-      "German",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Miller",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "Maria Miller is skilled in managing cabin maintenance and guest requests with professionalism and care.",
-    "languages": [
-      "English",
-      "Mandarin",
-      "Arabic"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Garcia",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "Sophia Garcia anticipates guest needs to deliver tailored luxury experiences throughout the voyage.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "John Johnson",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "John Johnson expertly handles guest feedback regarding accommodations, implementing swift solutions and driving continuous improvement based on 9 years of experience.",
-    "languages": [
-      "English",
-      "Arabic",
-      "French"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/92.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "David Johnson",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "Housekeeping Supervisor Johnson is committed to sustainability in cleaning practices, implementing eco-friendly procedures throughout their 11 years of service.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "John Brown",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "With 10 years providing frontline support, John Brown is adept at information sharing, problem-solving, and ensuring guests feel valued and well-informed.",
+    "name": "John Williams",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "With 19 years dedicated to bridge operations, John Williams contributes to seamless voyages through Caribbean's waterways by monitoring safety and compliance.",
     "languages": [
       "Spanish",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "John Jones",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "With an extensive network and 19 years of experience, Concierge Jones arranges bespoke shore excursions, dining reservations, and special occasion services.",
-    "languages": [
-      "Russian",
-      "Italian",
-      "Arabic",
+      "Mandarin",
       "English"
     ],
     "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
     "city": "Tampa",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Sarah Martinez",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Sarah Martinez leads front office teams with a focus on excellent customer service and operational efficiency.",
+    "name": "Maria Miller",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Maria Miller plays a key role in training junior officers on Caribbean-specific navigational challenges and best practices, backed by 20 years of experience.",
+    "languages": [
+      "German",
+      "Portuguese",
+      "Spanish",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Jones",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Safety Officer Jones works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
+    "languages": [
+      "Italian",
+      "Japanese",
+      "Portuguese",
+      "English",
+      "Mandarin"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Deck Cadet Miller learns shipboard operations under experienced officers, preparing for a future leadership role in Caribbean waters.",
+    "languages": [
+      "French",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Smith",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "With 8 years managing deck teams, Robert Smith coordinates tasks such as mooring, cargo handling, and routine repairs, maintaining operational readiness in Caribbean.",
+    "languages": [
+      "English",
+      "Mandarin",
+      "Spanish",
+      "Arabic"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "With 20 years at the helm of engineering departments, Sophia Miller excels in hydraulic systems systems and guarantees adherence to strict environmental MARPOL regulations.",
+    "languages": [
+      "Japanese",
+      "Spanish",
+      "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/8.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "John Johnson",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "First Engineer Johnson coordinates maintenance and repairs with 11 years of experience in marine mechanical systems, ensuring seamless engine room operations.",
+    "languages": [
+      "French",
+      "Arabic",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Davis",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Emma Davis plays an integral role in maintaining fuel efficiency and reducing emissions through optimized machinery operation.",
+    "languages": [
+      "Italian",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/62.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Smith",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Electrical Engineer Smith conducts regular testing and troubleshooting of generators, switchboards, and control systems to prevent downtime.",
+    "languages": [
+      "Portuguese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "John Jones",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Mechanical Engineer Jones specializes in propulsion, HVAC, and auxiliary machinery with 13 years ensuring operational efficiency and reliability.",
+    "languages": [
+      "Arabic",
+      "French",
+      "English",
+      "Mandarin",
+      "Japanese"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Michael Garcia",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "Michael Garcia monitors system performance and implements upgrades to enhance passenger comfort and crew wellbeing.",
+    "languages": [
+      "German",
+      "Arabic",
+      "French",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "John Jones",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Environmental Engineer Jones monitors emissions and advises on strategies to minimize the vessel’s environmental footprint.",
+    "languages": [
+      "Arabic",
+      "Japanese",
+      "English",
+      "French",
+      "Mandarin"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/97.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Michael Smith",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Michael Smith manages system diagnostics and upgrades to improve vessel performance and crew operational efficiency.",
+    "languages": [
+      "Russian",
+      "Japanese",
+      "Mandarin",
+      "French",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Garcia",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Olivia Garcia provides expert guidance on complex technical challenges and long-term asset management, drawing from 8 years of senior engineering leadership.",
+    "languages": [
+      "Mandarin",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sophia Brown",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Sophia Brown ensures all vessel machinery operates smoothly and safely, backed by 8 years in preventive and corrective maintenance programs.",
+    "languages": [
+      "Portuguese",
+      "Spanish",
+      "Italian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Rodriguez",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Drawing on 17 years and a naval background, James Rodriguez develops and executes sophisticated security plans tailored to high-risk maritime environments.",
+    "languages": [
+      "Spanish",
+      "Portuguese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/89.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Miller",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "James Miller conducts routine security patrols and enforces safety regulations, backed by 14 years in maritime security operations and incident response.",
+    "languages": [
+      "Japanese",
+      "German",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Security Specialist Johnson advises senior management on emerging security trends and implements best practices in security operations.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Williams",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "With a background in IT security, James Williams safeguards shipboard communication and control systems against cyber threats, ensuring data integrity and system availability.",
+    "languages": [
+      "English",
+      "Portuguese",
+      "Japanese",
+      "Russian",
+      "Italian"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Miller",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "With strong organizational skills, Olivia Miller maintains detailed records and reports to support continuous security improvement.",
+    "languages": [
+      "Russian",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Garcia",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Access Control Officer Garcia manages secure boarding and access with 18 years maintaining maritime entry protocols and identification verification.",
+    "languages": [
+      "English",
+      "Spanish",
+      "Portuguese"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sophia Johnson",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Safety Compliance Officer Johnson promotes a safety-first culture through continuous education and enforcement of best practices.",
+    "languages": [
+      "English",
+      "Portuguese",
+      "Russian",
+      "Spanish"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Rodriguez",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Emma Rodriguez designs and leads engaging youth programs, applying 12 years in educational, recreational, and developmental management onboard.",
+    "languages": [
+      "Portuguese",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Rodriguez",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Family Activities Coordinator Rodriguez gathers feedback to adapt programs that enhance passenger satisfaction and engagement.",
+    "languages": [
+      "Mandarin",
+      "Japanese",
+      "German",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Brown",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Olivia Brown engages young guests with creative entertainment programs, leveraging 8 years in children’s recreational services and event planning.",
+    "languages": [
+      "Portuguese",
+      "Spanish",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Jones",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Focused on safety and inclusivity, James Jones maintains open communication with parents and guardians regarding teen program activities.",
+    "languages": [
+      "Italian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Brown",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Drawing on 15 years in educational programming, Olivia Brown designs enriching lectures, workshops, and cultural immersion activities related to the voyage itinerary.",
+    "languages": [
+      "Japanese",
+      "French",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Davis",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "With expertise in child health and safety protocols, Robert Davis manages routines and responds to individual needs of children under care.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Michael Davis",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Known for innovative programming, Michael Davis continuously evaluates activity trends and passenger feedback to refresh and improve offerings.",
+    "languages": [
+      "Italian",
+      "Arabic",
+      "Spanish",
+      "German",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Rodriguez",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Leveraging 21 years of experience, Robert Rodriguez is certified to instruct activities such as snorkeling, kayaking, and paddleboarding in diverse marine environments.",
+    "languages": [
+      "Russian",
+      "English",
+      "Italian"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Williams",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Olivia Williams leads group fitness classes, personal training sessions, and wellness workshops designed to meet diverse passenger needs.",
+    "languages": [
+      "Arabic",
+      "Italian",
+      "Russian",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/62.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Jones",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "With expertise in vendor relations and itinerary planning, Olivia Jones ensures smooth, safe, and enjoyable excursions tailored to passenger interests.",
+    "languages": [
+      "Italian",
+      "Japanese",
+      "French",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/54.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Williams",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "James Williams directs all photographic projects onboard, blending technical skill and artistic vision to create visually compelling narratives.",
+    "languages": [
+      "Portuguese",
+      "Japanese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Garcia",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Videographer Garcia crafts compelling visual stories that highlight onboard experiences and diverse destinations through expert filming and editing.",
     "languages": [
       "Spanish",
       "Japanese",
       "Russian",
+      "German",
       "English"
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/8.jpg",
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
     "city": "Tampa",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Maria Johnson",
+    "name": "Robert Johnson",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Digital Media Specialist Johnson is proficient in SEO, content management systems, and digital advertising, skills honed over 22 years.",
+    "languages": [
+      "English",
+      "French",
+      "Japanese"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Jones",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Committed to preventive care, Maria Jones promotes health education and wellness initiatives throughout the voyage.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Michael Jones",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "With 7 years practicing medicine in diverse environments, Dr. Jones is adept at diagnosing and treating a wide array of conditions encountered at sea.",
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Jones",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Known for meticulous attention to detail and a caring demeanor, Robert Jones has been a vital part of shipboard medical teams for 20 years.",
+    "languages": [
+      "Italian",
+      "German",
+      "Russian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/88.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "David Smith",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "With a thorough understanding of hazard identification and mitigation, David Smith fosters a culture of safety awareness among crew and passengers.",
+    "languages": [
+      "Japanese",
+      "Italian",
+      "English",
+      "Russian",
+      "Arabic",
+      "Mandarin"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Jones",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Director Jones orchestrates a seamless guest journey, from arrival to departure, leveraging 16 years of expertise in luxury service.",
+    "languages": [
+      "French",
+      "English",
+      "Portuguese"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Johnson",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Olivia Johnson champions a guest-first culture, utilizing 22 years of experience to train and motivate staff in delivering exceptional, personalized care.",
+    "languages": [
+      "Portuguese",
+      "Arabic",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "John Williams",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "John Williams ensures the highest standards of cleanliness and comfort throughout passenger accommodations.",
+    "languages": [
+      "Arabic",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Brown",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Senior Steward Brown also assists in training junior stewards, sharing expertise gained from 22 years in maritime hospitality.",
+    "languages": [
+      "French",
+      "German",
+      "Mandarin",
+      "English",
+      "Spanish"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Williams",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Butler Williams provides personalized guest services, backed by 9 years of elite hospitality expertise.",
+    "languages": [
+      "French",
+      "Spanish",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/99.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Miller",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Accommodation Manager Miller coordinates housekeeping and maintenance teams for optimal guest satisfaction.",
+    "languages": [
+      "French",
+      "Spanish",
+      "German",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Rodriguez",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "James Rodriguez ensures smooth operations and staff training, supported by 18 years in hospitality management.",
+    "languages": [
+      "Arabic",
+      "Russian",
+      "Portuguese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Michael Smith",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Guest Services Specialist Smith efficiently handles onboard account management, reservations for activities, and general assistance with a friendly and professional demeanor.",
+    "languages": [
+      "Spanish",
+      "Japanese",
+      "Italian",
+      "Mandarin",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Davis",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Concierge Davis's dedication over 15 years ensures every guest request, no matter how unique, is handled with sophistication and efficiency.",
+    "languages": [
+      "Italian",
+      "Japanese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Johnson",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "James Johnson leads front office teams with a focus on excellent customer service and operational efficiency.",
+    "languages": [
+      "Arabic",
+      "German",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Jones",
     "role": "VIP Coordinator",
     "department": "Hospitality Department",
-    "bio": "Maria Johnson designs and executes VIP programs that exceed the highest standards of luxury and discretion.",
+    "bio": "VIP Coordinator Jones manages exclusive guest services, ensuring privacy and personalized attention throughout the voyage.",
     "languages": [
+      "Portuguese",
+      "French",
+      "English",
+      "Mandarin"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Rodriguez",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Trainer Rodriguez specializes in areas like luxury service standards, complaint resolution, and upselling techniques, drawing on 11 years of industry best practices.",
+    "languages": [
+      "Russian",
+      "Japanese",
+      "French",
+      "German",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/62.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Jones",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Chef Jones creates exceptional Mediterranean cuisine with 4 years of culinary expertise from around the world.",
+    "languages": [
+      "Arabic",
+      "Portuguese",
+      "French",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/59.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "With 22 years in high-volume kitchens, Sous Chef Miller is adept at managing specific stations and stepping in for the Executive Chef as needed.",
+    "languages": [
+      "German",
+      "Portuguese",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Martinez",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Maria Martinez manages the pastry section, from artisan breads to elaborate cakes and plated desserts, ensuring exceptional quality over 9 years.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/40.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Michael Brown",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Michael Brown maintains immaculate standards of organization and hygiene at their station, contributing to the kitchen's overall efficiency with 12 years of discipline.",
+    "languages": [
+      "German",
+      "Mandarin",
+      "French",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "John Jones",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Master of {cuisineSpecific} cuisine, John Jones creates authentic dishes that transport guests to Caribbean, drawing on 3 years of dedicated culinary exploration.",
+    "languages": [
+      "Arabic",
+      "Italian",
+      "English",
+      "Russian"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Rodriguez",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "With 11 years dedicated to the art of sushi and sashimi, Chef Rodriguez meticulously selects the freshest seafood and crafts each piece with mastery.",
+    "languages": [
+      "German",
+      "French",
+      "Portuguese",
+      "Russian",
+      "Italian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Johnson",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Emma Johnson maintains high standards in food presentation and safety for all cold kitchen offerings.",
+    "languages": [
+      "Japanese",
+      "Spanish",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Jones",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Emma Jones is responsible for precise meat cuts that meet kitchen and guest expectations.",
+    "languages": [
+      "Italian",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/67.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Williams",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Maria Williams combines traditional techniques with innovation to delight guests with baked specialties.",
+    "languages": [
+      "English",
+      "Arabic",
+      "Russian",
+      "French"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "David Brown",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "David Brown provides engaging wine education and tasting experiences for guests, sharing insights from 16 years exploring global viticulture.",
+    "languages": [
+      "English",
+      "Italian"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Williams",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Williams delights guests with flair, technique, and a deep understanding of flavor profiles, creating personalized drink experiences over 5 years.",
+    "languages": [
+      "English",
+      "Japanese",
+      "Spanish",
+      "Arabic",
+      "French"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/92.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "David Brown",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "David Brown provides friendly and efficient service at the coffee bar, sharing knowledge and passion for specialty coffee honed over 15 years.",
+    "languages": [
+      "English",
+      "Italian"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Nutritionist Miller works closely with the culinary team to create wholesome Italian options that are both flavorful and aligned with wellness goals, drawing on 17 years of expertise.",
+    "languages": [
+      "Arabic",
+      "German",
+      "French",
+      "Spanish",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/5.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "David Rodriguez",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "David Rodriguez constantly seeks innovative entertainment concepts and top-tier talent, leveraging 16 years to keep the onboard experience fresh, exciting, and memorable.",
+    "languages": [
+      "Russian",
+      "Arabic",
+      "German",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/99.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "John Jones",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "John Jones manages scheduling and logistics for performers, ensuring smooth entertainment operations onboard.",
+    "languages": [
+      "Mandarin",
+      "French",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/96.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Garcia",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "James Garcia consistently delivers show-stopping performances, connecting with audiences through emotive storytelling and exceptional vocal talent honed across 17 years on stage.",
+    "languages": [
+      "Japanese",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Davis",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Musician Davis performs live music across genres, engaging guests with 14 years of performance experience.",
+    "languages": [
+      "Japanese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Martinez",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Dancer Martinez brings dynamism and grace to every performance, captivating audiences with technical skill and expressive movement honed over 16 years.",
+    "languages": [
+      "English",
+      "Portuguese",
+      "French",
+      "Russian"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/90.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Michael Miller leads rehearsals and performance design to enhance the entertainment experience onboard.",
+    "languages": [
+      "Spanish",
+      "Russian",
+      "Mandarin",
+      "English",
+      "Japanese"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Smith",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "James Smith's ability to connect with the audience and improvise, developed over 17 years, makes each show a unique and highly enjoyable experience.",
+    "languages": [
+      "Arabic",
+      "Russian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Rodriguez",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Magic Act specialist Rodriguez mystifies audiences with skilled illusions and interactive performances.",
+    "languages": [
+      "Mandarin",
+      "Arabic",
+      "German",
+      "French",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sophia Brown",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "Sophia Brown keeps dance floors lively with dynamic sets tailored for diverse guest preferences.",
+    "languages": [
+      "Portuguese",
       "Italian",
       "English"
     ],
     "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/54.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
     "city": "Tampa",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "David Jones",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Hospitality Trainer Jones specializes in areas like luxury service standards, complaint resolution, and upselling techniques, drawing on 17 years of industry best practices.",
+    "name": "Sophia Garcia",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Audio Technician Garcia expertly operates and maintains complex soundboards, microphones, and speaker systems, ensuring every note and word is perfectly heard.",
     "languages": [
-      "Russian",
       "German",
+      "Japanese",
+      "Arabic",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
     "city": "Tampa",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
     "name": "Olivia Miller",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Executive Chef Miller leads a brigade of talented chefs, orchestrating all culinary operations and menu development with 6 years of innovative leadership.",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "With 9 years in theatrical lighting design and operation, Olivia Miller transforms stages and venues with dynamic and atmospheric lighting cues.",
     "languages": [
       "Spanish",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Davis",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "Olivia Davis excels in menu execution and team management to maintain high culinary standards.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "David Martinez",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "With a passion for sweet masterpieces, Pastry Chef Martinez continually develops new recipes, delighting guests with 9 years of dedication to the art of patisserie.",
-    "languages": [
-      "German",
+      "Italian",
+      "Japanese",
+      "French",
+      "Mandarin",
       "English"
     ],
     "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/76.jpg",
     "city": "Tampa",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Michael Johnson",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Michael Johnson maintains immaculate standards of organization and hygiene at their station, contributing to the kitchen's overall efficiency with 8 years of discipline.",
+    "name": "Robert Smith",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "With 3 years in professional stage management, Robert Smith meticulously calls cues, manages backstage operations, and ensures the smooth running of every show.",
     "languages": [
+      "Arabic",
       "Spanish",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Rodriguez",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Michael Rodriguez specializes in unique culinary styles, offering guests diverse flavors based on 17 years of expertise.",
-    "languages": [
-      "Portuguese",
-      "German",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/93.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Williams",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Olivia Williams delights guests with traditional Edomae-style sushi and contemporary maki rolls, showcasing skills honed over 15 years of rigorous training.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Garcia",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "Garde Manger Garcia expertly prepares cold dishes and appetizers with 13 years of culinary proficiency.",
-    "languages": [
       "French",
+      "English",
+      "Portuguese"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Smith",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Sarah Smith's strategic planning and problem-solving skills, developed over 11 years, are crucial for the successful execution of a high-quality entertainment program.",
+    "languages": [
+      "English",
+      "Portuguese",
+      "Russian",
+      "Mandarin",
+      "German"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Johnson",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Costume Designer Johnson manages the entire costume lifecycle, from initial sketches and fabric sourcing to fittings and maintenance, ensuring every garment is show-ready.",
+    "languages": [
+      "Spanish",
+      "Russian",
       "Japanese",
       "English"
     ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/88.jpg",
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/95.jpg",
     "city": "Tampa",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Olivia Martinez",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Olivia Martinez is responsible for precise meat cuts that meet kitchen and guest expectations.",
+    "name": "Sarah Miller",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "With 10 years in arts and cultural programming, Sarah Miller develops insightful lectures, workshops, and performances that reflect the destinations visited.",
     "languages": [
-      "English",
-      "Japanese"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "David Garcia",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "With 13 years dedicated to the art of baking, David Garcia fills the ship with the aroma of freshly baked artisan breads, pastries, and viennoiserie.",
-    "languages": [
-      "German",
       "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/98.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean"
+  },
+  {
+    "name": "David Johnson",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Performance Artist Johnson delivers unique and innovative acts, blending multiple disciplines with 13 years of artistic practice.",
+    "languages": [
+      "French",
+      "German",
       "English"
     ],
     "experienceYears": 13,
     "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
     "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "James Garcia",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "James Garcia enhances dining experiences by sourcing and recommending premium wines.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "James Garcia",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "Mixologist Garcia delights guests with flair, technique, and a deep understanding of flavor profiles, creating personalized drink experiences over 15 years.",
-    "languages": [
-      "German",
-      "Arabic",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Rodriguez",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Barista Rodriguez prepares specialty coffees with precision, backed by 19 years in coffee service.",
-    "languages": [
-      "English",
-      "Russian",
-      "Mandarin"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/19.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Jones",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Nutritionist Jones designs balanced menus catering to health-conscious guests, leveraging 5 years of dietary expertise.",
-    "languages": [
-      "Arabic",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Jones",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "Entertainment Director Jones curates diverse programming to engage and delight guests throughout voyages.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/37.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "John Martinez",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Performance Coordinator Martinez serves as the key liaison between artists, production staff, and management, ensuring clear communication and efficient problem-solving.",
-    "languages": [
-      "Portuguese",
-      "Arabic",
-      "German",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/91.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Jones",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "With a versatile range and powerful stage presence developed over 13 years, Lead Vocalist Jones shines in genres from pop and rock to jazz and musical theatre.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/87.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "David Garcia",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "David Garcia enriches onboard ambiance through skilled instrumental and vocal performances.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/89.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "David Rodriguez",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "David Rodriguez is a dedicated member of the ensemble, contributing to high-energy production numbers and themed events, showcasing 8 years of professional dance experience.",
-    "languages": [
-      "German",
-      "Arabic",
-      "French",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Brown",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Choreographer Brown works closely with dancers to teach and refine intricate movements, ensuring performances are polished and impactful, reflecting 17 years of artistic direction.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Jones",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Comedy Performer Jones delivers engaging and memorable stand-up routines onboard.",
-    "languages": [
-      "English",
-      "Japanese"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
-    "city": "Tampa",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
     "name": "Maria Miller",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "Maria Miller blends showmanship and technique to deliver captivating magic shows at sea.",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Maria Miller plays a crucial role in port operations coordination, safety compliance oversight, and emergency response planning, backed by 20 years of maritime expertise.",
     "languages": [
-      "Portuguese",
       "Russian",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Jones",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "With an extensive music library and 13 years of reading crowds, DJ Jones seamlessly blends genres to create the perfect soundtrack for any onboard event or nightclub.",
-    "languages": [
+      "Arabic",
       "Portuguese",
-      "Spanish",
+      "Japanese",
       "English"
     ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/59.jpg",
     "city": "Tampa",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "David Jones",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Audio Technician Jones manages sound systems and ensures optimal audio quality for performances onboard.",
+    "name": "Maria Davis",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Logistics Coordinator Davis manages supply chain and transport logistics, ensuring efficient resource allocation.",
     "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Williams",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "Lighting Specialist Williams programs and operates sophisticated lighting consoles, working closely with directors to achieve the desired visual impact for each performance.",
-    "languages": [
-      "Mandarin",
-      "Portuguese",
       "French",
+      "Mandarin",
+      "Portuguese",
       "English"
     ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/84.jpg",
     "city": "Tampa",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Olivia Johnson",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "Olivia Johnson supervises stage operations and talent, drawing on 16 years of event management.",
+    "name": "James Johnson",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "James Johnson's analytical skills, honed over 18 years, are key to forecasting demand and optimizing stock levels across various departments.",
     "languages": [
-      "Italian",
-      "Arabic",
+      "Mandarin",
       "English"
     ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
     "city": "Tampa",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "Maria Garcia",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "Maria Garcia's strategic planning and problem-solving skills, developed over 12 years, are crucial for the successful execution of a high-quality entertainment program.",
+    "name": "Maria Jones",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Procurement Officer Jones sources and negotiates contracts for goods and services needed onboard.",
     "languages": [
       "Arabic",
+      "Mandarin",
       "Russian",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/29.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "James Williams",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "With 18 years of experience in theatrical costume design, James Williams conceives and produces stunning wardrobes that define characters and elevate productions.",
-    "languages": [
+      "Spanish",
       "Portuguese",
       "English"
     ],
     "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/67.jpg",
     "city": "Tampa",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   },
   {
-    "name": "John Davis",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "John Davis promotes diversity and cultural awareness through engaging onboard programming.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Williams",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "A specialist in {artisticDiscipline}, Michael Williams presents breathtaking and thought-provoking performances honed over 6 years of dedicated artistic exploration.",
-    "languages": [
-      "Japanese",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/88.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Garcia",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Operations Manager Garcia is adept at problem-solving complex logistical challenges and implementing solutions that enhance overall ship performance and guest satisfaction.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "James Miller",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "James Miller's expertise in procurement and vendor management, developed over 11 years, ensures cost-effective and reliable sourcing for all vessel needs.",
-    "languages": [
-      "Spanish",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Davis",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "Emma Davis's analytical skills, honed over 9 years, are key to forecasting demand and optimizing stock levels across various departments.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "John Johnson",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "John Johnson's sharp negotiation skills and 9 years of experience contribute significantly to controlling operational costs while maintaining quality standards.",
-    "languages": [
-      "French",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
-    "city": "Tampa",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Williams",
+    "name": "Emma Brown",
     "role": "Sustainability Coordinator",
     "department": "Operations Department",
-    "bio": "With 6 years dedicated to environmental stewardship in the maritime sector, Michael Williams develops and manages programs for waste reduction, recycling, and energy conservation.",
+    "bio": "Sustainability Coordinator Brown implements green initiatives to minimize environmental impact.",
     "languages": [
-      "English",
-      "German",
-      "Japanese"
+      "Arabic",
+      "Japanese",
+      "English"
     ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
     "city": "Tampa",
-    "country": "Global"
+    "country": "United States",
+    "region": "Caribbean"
   }
 ];

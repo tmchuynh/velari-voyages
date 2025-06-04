@@ -2,1299 +2,1515 @@ import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const sanjuanTeamMembers: CrewMember[] = [
   {
-    "name": "Sarah Williams",
+    "name": "Emma Smith",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "Captain Williams's strategic decision-making and crisis management skills, honed over 8 years, ensure smooth and safe voyages throughout undefined.",
+    "bio": "With 22 years at sea, Captain Smith is renowned for expertise in Caribbean navigation, crew leadership, and passenger safety protocols.",
     "languages": [
       "Russian",
-      "English"
+      "English",
+      "Italian",
+      "Portuguese",
+      "Spanish"
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
-    "name": "John Johnson",
+    "name": "Maria Garcia",
     "role": "First Officer",
     "department": "Deck Department",
-    "bio": "John Johnson applies comprehensive knowledge of undefined's tides, currents, and weather patterns, contributing to efficient and safe ship navigation.",
+    "bio": "Maria Garcia specializes in Caribbean navigation with 5 years of experience managing bridge operations and ensuring adherence to safety standards.",
     "languages": [
-      "Spanish",
+      "Japanese",
+      "Italian",
       "English"
     ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/98.jpg",
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/86.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
-    "name": "Robert Johnson",
+    "name": "Sarah Jones",
     "role": "Second Officer",
     "department": "Deck Department",
-    "bio": "With a strong focus on electronic navigation and safety equipment, Robert Johnson brings 7 years of experience navigating undefined's challenging routes.",
+    "bio": "Sarah Jones applies 22 years of navigational skills to support safe and efficient voyages across Caribbean, with strong expertise in chart plotting and communication systems.",
     "languages": [
-      "German",
       "Japanese",
+      "Mandarin",
+      "French",
       "English"
     ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/91.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
-    "name": "David Smith",
+    "name": "Sarah Johnson",
     "role": "Third Officer",
     "department": "Deck Department",
-    "bio": "Third Officer Smith conducts regular safety inspections and coordinates emergency drills, enhancing onboard security across undefined.",
+    "bio": "Drawing on 16 years of experience in Caribbean, Sarah Johnson is responsible for the upkeep of firefighting appliances and lifesaving apparatus.",
     "languages": [
-      "Mandarin",
-      "Japanese",
-      "English"
+      "English",
+      "Spanish"
     ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/99.jpg",
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
-    "name": "James Miller",
+    "name": "Robert Davis",
     "role": "Navigation Officer",
     "department": "Deck Department",
-    "bio": "Experienced in electronic chart systems (ECDIS) and radar, James Miller has 6 years navigating the complex and often congested waters of undefined.",
+    "bio": "Robert Davis's expertise in navigational risk assessment supports proactive decision-making for safe operations within Caribbean's ports and coastal areas.",
     "languages": [
-      "Japanese",
-      "Portuguese",
+      "Italian",
+      "French",
+      "Mandarin",
       "English"
     ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
     "name": "James Rodriguez",
     "role": "Safety Officer",
     "department": "Deck Department",
-    "bio": "Safety Officer Rodriguez works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
+    "bio": "James Rodriguez enforces safety standards and conducts training programs, drawing on 4 years of maritime safety expertise to minimize risks onboard.",
     "languages": [
       "Italian",
-      "Spanish",
+      "Russian",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
-    "name": "Maria Brown",
+    "name": "Sarah Williams",
     "role": "Deck Cadet",
     "department": "Deck Department",
-    "bio": "Maria Brown supports deck crew activities while developing skills in seamanship, navigation, and emergency response tailored to undefined's maritime environment.",
+    "bio": "Sarah Williams, a promising Deck Cadet, is quickly mastering the fundamentals of seamanship and safety protocols specific to Caribbean maritime operations.",
     "languages": [
-      "French",
-      "Mandarin",
-      "Japanese",
+      "Portuguese",
+      "Russian",
       "English"
     ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
-    "name": "James Miller",
+    "name": "David Davis",
     "role": "Bosun",
     "department": "Deck Department",
-    "bio": "James Miller ensures compliance with safety standards during deck operations, fostering teamwork and discipline among crew members across undefined's vessels.",
+    "bio": "Leveraging 5 years of seamanship, Bosun Davis is an expert in rigging, anchoring, and all aspects of deck machinery operation in Caribbean.",
     "languages": [
-      "Portuguese",
-      "Japanese",
       "Russian",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "David Garcia",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "David Garcia leads the engineering department with a focus on fuel efficiency and emissions reduction, drawing upon 6 years of innovative practice and sustainable technologies knowledge.",
-    "languages": [
       "Japanese",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Johnson",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "Drawing on 6 years, Sophia Johnson takes charge of the engine room in the Chief Engineer's absence, ensuring all systems run smoothly and efficiently.",
-    "languages": [
+      "Mandarin",
+      "Italian",
       "German",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/59.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Smith",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "With 11 years of experience, Sarah Smith is responsible for specific auxiliary engines, boilers, and associated systems, ensuring their reliability.",
-    "languages": [
-      "Mandarin",
-      "English",
-      "Spanish"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Smith",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "With 15 years designing, installing, and maintaining vessel electrical infrastructure, Michael Smith ensures continuous power supply and safety.",
-    "languages": [
-      "Mandarin",
-      "Portuguese",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Martinez",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "Sarah Martinez performs root cause analysis for mechanical failures and implements corrective action plans to minimize operational disruptions.",
-    "languages": [
-      "Arabic",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Miller",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "Robert Miller monitors system performance and implements upgrades to enhance passenger comfort and crew wellbeing.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Miller",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Leveraging 12 years in marine environmental science, Robert Miller ensures strict adherence to all international and local environmental laws.",
-    "languages": [
-      "Japanese",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Davis",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "Olivia Davis is pivotal in troubleshooting and resolving complex issues across interconnected electronic and control systems, thanks to 9 years of in-depth experience.",
-    "languages": [
-      "German",
-      "Arabic",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Rodriguez",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "Sophia Rodriguez provides expert guidance on complex technical challenges and long-term asset management, drawing from 18 years of senior engineering leadership.",
-    "languages": [
-      "Russian",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/87.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Rodriguez",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Michael Rodriguez meticulously documents all maintenance activities, ensuring a comprehensive history for all critical machinery, built over 10 years of service.",
-    "languages": [
-      "Mandarin",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "David Garcia",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Known for decisive leadership, David Garcia fosters a culture of vigilance and continuous improvement in maritime security standards.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Johnson",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Olivia Johnson conducts routine security patrols and enforces safety regulations, backed by 10 years in maritime security operations and incident response.",
-    "languages": [
-      "Russian",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Miller",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Drawing on 16 years, Sarah Miller has in-depth knowledge of non-lethal defense tactics and anti-piracy measures.",
-    "languages": [
-      "Arabic",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Garcia",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Cybersecurity Officer Garcia conducts regular penetration testing and vulnerability assessments of ship systems, drawing on 13 years of expertise.",
-    "languages": [
-      "French",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Jones",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "Sarah Jones manages communication between security teams and external authorities to ensure swift resolution of maritime security incidents.",
-    "languages": [
-      "Mandarin",
-      "German",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Brown",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Access Control Officer Brown coordinates with port authorities and crew to facilitate smooth and secure passenger and cargo flow.",
-    "languages": [
-      "Russian",
-      "Japanese",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "James Davis",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Safety Compliance Officer Davis is an expert in ISM, ISPS, and MLC compliance, bringing 8 years of dedicated focus to these areas.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Martinez",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "With 10 years shaping children's experiences at sea, Robert Martinez excels at creating memorable and enriching programs for all age groups.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Johnson",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Emma Johnson organizes family-friendly events and activities, ensuring inclusive participation and memorable experiences with 17 years of expertise.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "James Martinez",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Children's Entertainment Specialist Martinez has a talent for making every child feel special, using 18 years of experience to tailor activities to individual personalities.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Brown",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Teen Activities Coordinator Brown fosters positive social environments with interactive, age-appropriate activities that encourage peer bonding.",
-    "languages": [
-      "Mandarin",
-      "Japanese",
       "English"
     ],
     "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
-    "name": "Emma Johnson",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Known for strong organizational skills, Emma Johnson evaluates program effectiveness and implements improvements based on passenger feedback.",
+    "name": "Maria Williams",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Maria Williams leads the engineering department with a focus on fuel efficiency and emissions reduction, drawing upon 15 years of innovative practice and power management knowledge.",
     "languages": [
-      "Portuguese",
-      "Russian",
+      "Italian",
+      "German",
+      "Japanese",
       "English"
     ],
     "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/37.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
-    "name": "Sarah Miller",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Sarah Miller excels at engaging children with age-appropriate crafts, stories, and games, drawing from 9 years of experience in child-focused roles.",
+    "name": "Michael Jones",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "First Engineer Jones is responsible for the main propulsion machinery and auxiliary systems, bringing 13 years of hands-on expertise.",
+    "languages": [
+      "German",
+      "Arabic",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "David Garcia",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Second Engineer Garcia meticulously manages bunkering operations and ensures the quality of fuel and lubricants, drawing on 10 years of practical knowledge.",
+    "languages": [
+      "Russian",
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "John Williams",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Responsible for wiring upgrades and automation system maintenance, John Williams supports enhanced operational efficiency and crew safety.",
+    "languages": [
+      "French",
+      "English",
+      "Mandarin"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Martinez",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Mechanical Engineer Martinez provides vital support in dry-docking operations, overseeing repairs and upgrades to mechanical systems based on 17 years of insight.",
     "languages": [
       "Spanish",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/90.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Michael Rodriguez",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "With expertise in refrigeration cycles and ventilation design, Michael Rodriguez addresses environmental control challenges in varying maritime conditions.",
+    "languages": [
+      "Italian",
+      "Russian",
+      "Spanish",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sophia Johnson",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Sophia Johnson applies expertise in waste management, ballast water treatment, and pollution control, promoting eco-friendly maritime operations.",
+    "languages": [
+      "Italian",
+      "Russian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Johnson",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Systems Engineer Johnson's proficiency in network engineering and data management ensures seamless information flow across shipboard platforms, built over 11 years.",
+    "languages": [
+      "Russian",
+      "Arabic",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/30.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Technical Manager Miller oversees budgeting, procurement, and scheduling of maintenance to optimize vessel availability and lifecycle costs.",
+    "languages": [
+      "Spanish",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "John Martinez",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "With a focus on reliability-centered maintenance, John Martinez optimizes maintenance practices in accordance with industry best practices.",
+    "languages": [
+      "Japanese",
+      "Mandarin",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "David Martinez",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Security Director Martinez leads threat analysis initiatives and implements advanced security measures to safeguard vessel integrity.",
+    "languages": [
+      "Mandarin",
+      "English",
+      "German",
+      "Russian"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sophia Johnson",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "With 3 years on watch, Sophia Johnson is adept at identifying suspicious activities and ensuring adherence to the ship's security plan.",
+    "languages": [
+      "Portuguese",
+      "Spanish",
+      "German",
+      "Italian",
+      "Russian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "David Davis",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Known for analytical expertise, David Davis conducts vulnerability assessments and designs contingency plans to address evolving threats.",
+    "languages": [
+      "Russian",
+      "Arabic",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Brown",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Robert Brown ensures all onboard digital systems comply with stringent maritime cybersecurity guidelines like IMO MSC.428(98), backed by 7 years of focused work.",
+    "languages": [
+      "English",
+      "Arabic",
+      "Japanese"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/94.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "John Martinez",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "With 13 years in the role, John Martinez is adept at developing and updating the Ship Security Plan (SSP) and ensuring its effective implementation.",
+    "languages": [
+      "Portuguese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Jones",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Maria Jones ensures all personnel and visitors comply with security clearance, manifests, and international maritime access regulations.",
+    "languages": [
+      "Russian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Smith",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Safety Compliance Officer Smith is an expert in ISM, ISPS, and MLC compliance, bringing 16 years of dedicated focus to these areas.",
+    "languages": [
+      "Portuguese",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/98.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Smith",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "With 9 years shaping children's experiences at sea, James Smith excels at creating memorable and enriching programs for all age groups.",
+    "languages": [
+      "Arabic",
+      "Japanese",
+      "Portuguese",
+      "Spanish",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Martinez",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Emma Martinez organizes family-friendly events and activities, ensuring inclusive participation and memorable experiences with 21 years of expertise.",
+    "languages": [
+      "German",
+      "Spanish",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Smith",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "James Smith engages young guests with creative entertainment programs, leveraging 8 years in children’s recreational services and event planning.",
+    "languages": [
+      "Italian",
+      "Russian",
+      "German",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Rodriguez",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "With knowledge of adolescent development, Emma Rodriguez balances fun and educational content to engage teens effectively onboard.",
+    "languages": [
+      "Japanese",
+      "Russian",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Williams",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Olivia Williams, with 11 years in curriculum development, ensures educational content is engaging, accurate, and inspiring for passengers of all ages.",
+    "languages": [
+      "Japanese",
+      "English",
+      "French"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Brown",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "With expertise in child health and safety protocols, James Brown manages routines and responds to individual needs of children under care.",
+    "languages": [
+      "Italian",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sophia Jones",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Activities Director Jones leads a team of specialists, ensuring seamless execution of events that enhance the overall passenger experience.",
+    "languages": [
+      "Mandarin",
+      "Japanese",
+      "Italian",
+      "English",
+      "Arabic"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Davis",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Robert Davis's primary focus for 7 years has been ensuring every guest feels confident and secure while exploring the water.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Miller",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Drawing on 20 years of expertise, Olivia Miller offers specialized classes like yoga, Pilates, and high-intensity interval training (HIIT).",
+    "languages": [
+      "English",
+      "Japanese",
+      "German",
+      "Mandarin"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/91.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Smith",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Excursion Coordinator Smith has built strong relationships with local tour operators worldwide over 6 years, guaranteeing quality and value.",
+    "languages": [
+      "Italian",
+      "Portuguese",
+      "French",
+      "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Jones",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Known for creativity and attention to detail, Maria Jones collaborates with other departments to produce visual content that enhances onboard marketing and memory-making.",
+    "languages": [
+      "Portuguese",
+      "Arabic",
+      "German",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Williams",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Known for creativity and adaptability, Robert Williams effectively captures the dynamic atmosphere and human moments aboard.",
+    "languages": [
+      "Japanese",
+      "Spanish",
+      "Portuguese",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Brown",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Digital Media Specialist Brown analyzes content performance and audience metrics to optimize digital strategies and engagement.",
+    "languages": [
+      "Italian",
+      "German",
+      "Japanese",
+      "Russian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Smith",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Sarah Smith, with a distinguished 14-year career in sustainable technologies and maritime health, provides expert medical oversight for thousands of passengers and crew.",
+    "languages": [
+      "Russian",
+      "English",
+      "Spanish"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Miller",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Dr. Miller collaborates with medical officers and safety teams to uphold the highest health standards aboard.",
+    "languages": [
+      "English",
+      "German",
+      "Mandarin",
+      "Russian"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/40.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Jones",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Nurse Jones is experienced in managing chronic health conditions at sea and providing ongoing support to guests with specific medical needs, drawing from 21 years of practice.",
+    "languages": [
+      "Portuguese",
+      "French",
+      "Russian",
+      "Spanish",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/85.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Rodriguez",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Leveraging 9 years in maritime safety, Robert Rodriguez excels at developing and implementing targeted safety training programs relevant to Caribbean's specific operational hazards.",
+    "languages": [
+      "German",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Davis",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Director Davis orchestrates a seamless guest journey, from arrival to departure, leveraging 18 years of expertise in luxury service.",
+    "languages": [
+      "Italian",
       "Russian",
       "Portuguese",
       "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
-    "name": "Maria Johnson",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "Drawing on 7 years in recreation management, Maria Johnson curates an exciting and varied daily program of entertainment and activities for all guests.",
+    "name": "James Brown",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "With a passion for service excellence developed over 13 years, James Brown leads the guest relations team to anticipate and exceed passenger expectations.",
     "languages": [
+      "Spanish",
+      "Japanese",
+      "Russian",
+      "Portuguese",
       "English"
     ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
-    "name": "Olivia Brown",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Water Sports Instructor Brown stays current with industry certifications and safety standards to uphold best practices onboard.",
+    "name": "Robert Martinez",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Robert Martinez ensures the highest standards of cleanliness and comfort throughout passenger accommodations.",
     "languages": [
+      "German",
+      "Mandarin",
       "Japanese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "David Jones",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Senior Steward Jones also assists in training junior stewards, sharing expertise gained from 14 years in maritime hospitality.",
+    "languages": [
       "Italian",
+      "Russian",
+      "Japanese",
       "English"
     ],
     "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
-    "name": "Emma Rodriguez",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Fitness Instructor Rodriguez integrates modern fitness trends and equipment to provide dynamic and effective workout options.",
+    "name": "Sarah Martinez",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Sarah Martinez anticipates guest needs to deliver tailored luxury experiences throughout the voyage.",
     "languages": [
-      "Portuguese",
+      "English",
       "Italian",
+      "Spanish",
+      "Japanese"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Martinez",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "With 4 years managing large-scale accommodation facilities, Sarah Martinez ensures all guest cabins and public areas meet exacting standards of cleanliness and repair.",
+    "languages": [
       "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Smith",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Smith is committed to sustainability in cleaning practices, implementing eco-friendly procedures throughout their 7 years of service.",
+    "languages": [
+      "Russian",
+      "Japanese",
+      "English",
+      "French",
+      "Spanish"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
     "name": "Sophia Davis",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Excursion Coordinator Davis has built strong relationships with local tour operators worldwide over 17 years, guaranteeing quality and value.",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Sophia Davis assists guests with inquiries and special requests, drawing on 19 years in customer service roles.",
     "languages": [
-      "Japanese",
+      "Arabic",
+      "Spanish",
+      "Russian",
+      "German",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/98.jpg",
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/26.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
-    "name": "Olivia Rodriguez",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "With extensive experience in portrait, event, and environmental photography, Olivia Rodriguez ensures high-quality imagery that reflects the voyage’s unique character.",
+    "name": "Robert Rodriguez",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Robert Rodriguez acts as a personal guide to onboard and onshore experiences, providing insider tips and tailored advice to create unique memories for guests.",
     "languages": [
       "English",
       "Portuguese"
     ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/85.jpg",
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/94.jpg",
     "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "David Smith",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Known for creativity and adaptability, David Smith effectively captures the dynamic atmosphere and human moments aboard.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Williams",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "Digital Media Specialist Williams is proficient in SEO, content management systems, and digital advertising, skills honed over 17 years.",
-    "languages": [
-      "Arabic",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "David Johnson",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Committed to preventive care, David Johnson promotes health education and wellness initiatives throughout the voyage.",
-    "languages": [
-      "Arabic",
-      "French",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Rodriguez",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "Ship's Doctor Rodriguez conducts routine health assessments and manages medical records in compliance with international maritime standards.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/9.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Smith",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Sophia Smith delivers compassionate nursing care onboard, backed by 12 years of clinical practice in maritime and travel healthcare settings.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Miller",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Sarah Miller conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in undefined's maritime operations.",
-    "languages": [
-      "English",
-      "Japanese"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "David Brown",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "With 17 years in hospitality management, David Brown drives operational excellence and team performance onboard.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Garcia",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "Guest Relations Manager Garcia enhances passenger satisfaction through attentive and personalized service.",
-    "languages": [
-      "Spanish",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Garcia",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Sarah Garcia excels in inventory management for linens and amenities, maintaining premium standards across all staterooms and suites with 13 years of dedication.",
-    "languages": [
-      "Japanese",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/90.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "John Brown",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "With 15 years of dedicated service, Senior Steward Brown ensures guest accommodations are impeccably maintained and personalized to preferences.",
-    "languages": [
-      "English",
-      "Italian"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "John Jones",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "Butler Jones is a master of personal assistance, ensuring every detail of a guest's stay is flawless, reflecting 12 years in top-tier hospitality.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Davis",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "With 18 years managing large-scale accommodation facilities, Emma Davis ensures all guest cabins and public areas meet exacting standards of cleanliness and repair.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "John Johnson",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "John Johnson manages daily assignments, motivates the housekeeping team, and ensures efficient use of cleaning resources, drawing on 6 years of leadership.",
-    "languages": [
-      "Mandarin",
-      "Italian",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "James Davis",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "James Davis assists guests with inquiries and special requests, drawing on 16 years in customer service roles.",
-    "languages": [
-      "French",
-      "German",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/86.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "John Smith",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "Concierge Smith's dedication over 15 years ensures every guest request, no matter how unique, is handled with sophistication and efficiency.",
-    "languages": [
-      "English",
-      "Italian"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Davis",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Olivia Davis leads front office teams with a focus on excellent customer service and operational efficiency.",
-    "languages": [
-      "Portuguese",
-      "French",
-      "German",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "David Brown",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "David Brown's expertise over 17 years lies in creating unparalleled experiences, making every VIP guest feel exceptionally valued and pampered.",
-    "languages": [
-      "Mandarin",
-      "English",
-      "Russian"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "David Martinez",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Hospitality Trainer Martinez specializes in areas like luxury service standards, complaint resolution, and upselling techniques, drawing on 16 years of industry best practices.",
-    "languages": [
-      "Japanese",
-      "Russian",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Robert Johnson",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Chef Johnson creates exceptional Japanese cuisine with 14 years of culinary expertise from around the world.",
-    "languages": [
-      "English",
-      "Mandarin"
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/87.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Williams",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "Olivia Williams trains and supervises junior chefs, playing a key role in maintaining discipline and motivation within the culinary team with 13 years of mentorship.",
-    "languages": [
-      "German",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Davis",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "Sarah Davis manages the pastry section, from artisan breads to elaborate cakes and plated desserts, ensuring exceptional quality over 9 years.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/85.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "James Smith",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "With 16 years as a section chef, James Smith is responsible for stock control and guiding commis chefs within their designated area of the Mediterranean kitchen.",
-    "languages": [
-      "Spanish",
-      "Portuguese",
-      "French",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/97.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "John Smith",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "With 12 years perfecting {cuisineSpecific} artistry, John Smith ensures each plate is a true representation of its cultural heritage and bold flavors.",
-    "languages": [
-      "Italian",
-      "French",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Miller",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Olivia Miller combines precision and creativity to deliver an authentic sushi experience at sea.",
-    "languages": [
-      "Portuguese",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "David Martinez",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "David Martinez is responsible for creating visually stunning and delicious cold appetizers, canapés, and buffet displays, backed by 9 years of Italian expertise.",
-    "languages": [
-      "Arabic",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Michael Rodriguez",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Michael Rodriguez is responsible for precise meat cuts that meet kitchen and guest expectations.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Garcia",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "With 10 years dedicated to the art of baking, Sophia Garcia fills the ship with the aroma of freshly baked artisan breads, pastries, and viennoiserie.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/67.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "David Johnson",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Certified Sommelier Johnson navigates an extensive cellar to find the perfect wine for every palate and Italian, drawing on 19 years of oenological expertise.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Rodriguez",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "With 9 years behind the bar, Sarah Rodriguez designs innovative signature cocktails and perfectly executes classic recipes using premium spirits and fresh ingredients.",
-    "languages": [
-      "French",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Smith",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Barista Smith ensures consistently excellent coffee quality, from bean grinding to final pour, reflecting 17 years of dedication to the craft.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
-    "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
     "name": "Maria Rodriguez",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Maria Rodriguez collaborates with chefs to ensure nutritious and delicious meal options onboard.",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Front Desk Manager Rodriguez trains staff in handling diverse guest interactions and maintaining accurate records, drawing on 10 years of best practices.",
     "languages": [
-      "English",
+      "Japanese",
+      "Russian",
       "Italian",
-      "Mandarin"
+      "Spanish",
+      "English"
     ],
     "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "John Williams",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "John Williams designs and executes VIP programs that exceed the highest standards of luxury and discretion.",
+    "languages": [
+      "Spanish",
+      "Arabic",
+      "English",
+      "Italian",
+      "Japanese"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/95.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Michael Garcia",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Trainer Garcia focuses on enhancing guest service quality through targeted education and coaching.",
+    "languages": [
+      "Italian",
+      "French",
+      "Japanese",
+      "English",
+      "German"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Garcia",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Mastering Pan-Asian and international gastronomy, Maria Garcia ensures every dish reflects the highest standards of quality, presentation, and flavor, backed by 11 years of award-winning experience.",
+    "languages": [
+      "English",
+      "Arabic",
+      "French",
+      "Spanish",
+      "Portuguese",
+      "Japanese"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/30.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "John Miller",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Sous Chef Miller supports kitchen operations with 20 years of culinary expertise and leadership.",
+    "languages": [
+      "Russian",
+      "Spanish",
+      "German",
+      "English"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Williams",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Pastry Chef Williams crafts exquisite desserts with 13 years of baking and pastry artistry.",
+    "languages": [
+      "German",
+      "Russian",
+      "Japanese",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
     "name": "Sophia Jones",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "Entertainment Director Jones curates diverse programming to engage and delight guests throughout voyages.",
-    "languages": [
-      "Portuguese",
-      "Japanese",
-      "German",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/96.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Brown",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Sarah Brown's organizational skills, honed over 7 years, are crucial for maintaining a complex entertainment calendar and ensuring all performers are well-supported.",
-    "languages": [
-      "German",
-      "Spanish",
-      "French",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Emma Jones",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "With a versatile range and powerful stage presence developed over 9 years, Lead Vocalist Jones shines in genres from pop and rock to jazz and musical theatre.",
-    "languages": [
-      "Mandarin",
-      "Japanese",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Williams",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "With 8 years entertaining audiences worldwide, Olivia Williams creates an engaging atmosphere, taking requests and interacting with guests through the power of live music.",
-    "languages": [
-      "Japanese",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Miller",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Maria Miller is a dedicated member of the ensemble, contributing to high-energy production numbers and themed events, showcasing 15 years of professional dance experience.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "James Jones",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Choreographer Jones works closely with dancers to teach and refine intricate movements, ensuring performances are polished and impactful, reflecting 11 years of artistic direction.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Rodriguez",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Sarah Rodriguez entertains guests with humor and timing, backed by 19 years in comedy performance.",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Sophia Jones ensures consistency and quality in dish preparation across assigned kitchen areas.",
     "languages": [
       "English",
-      "Spanish"
+      "French",
+      "German",
+      "Portuguese",
+      "Mandarin"
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
-    "name": "James Rodriguez",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "Magic Act specialist Rodriguez combines masterful sleight of hand with engaging patter, creating an atmosphere of wonder and excitement during every {duration} show.",
+    "name": "Olivia Garcia",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Specialty Chef Garcia brings innovation and authenticity to the onboard dining experience.",
     "languages": [
+      "German",
+      "English",
+      "Italian",
+      "Arabic"
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/51.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Davis",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "With 21 years dedicated to the art of sushi and sashimi, Chef Davis meticulously selects the freshest seafood and crafts each piece with mastery.",
+    "languages": [
+      "English",
+      "French",
+      "Mandarin",
+      "Russian"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/98.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "John Miller",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "John Miller maintains high standards in food presentation and safety for all cold kitchen offerings.",
+    "languages": [
+      "French",
+      "Portuguese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "David Davis",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "David Davis maintains the highest standards of hygiene and technique in meat processing, a skill perfected over 19 years in professional butchery.",
+    "languages": [
+      "German",
       "Russian",
       "English"
     ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
     "name": "John Garcia",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "DJ Garcia creates vibrant atmospheres with expertly mixed music, drawing on 8 years in live DJing.",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Baker Garcia produces fresh breads and baked goods, leveraging 18 years of baking expertise.",
     "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Jones",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Audio Technician Jones expertly operates and maintains complex soundboards, microphones, and speaker systems, ensuring every note and word is perfectly heard.",
-    "languages": [
-      "Russian",
-      "German",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/9.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Olivia Martinez",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "Lighting Specialist Martinez designs and operates lighting systems to enhance onboard shows and events.",
-    "languages": [
+      "Spanish",
       "French",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Sophia Jones",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "Sophia Jones's calm under pressure and attention to detail, honed over 14 years, are vital for delivering complex, multi-layered performances without a hitch.",
-    "languages": [
       "Italian",
       "English"
     ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
-    "name": "Olivia Davis",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "Olivia Davis ensures timely and efficient delivery of shows, leveraging 15 years in production management.",
+    "name": "Maria Jones",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Maria Jones enhances dining experiences by sourcing and recommending premium wines.",
     "languages": [
-      "French",
-      "English"
+      "German",
+      "English",
+      "Spanish",
+      "French"
     ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
-    "name": "James Johnson",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "James Johnson combines creativity and craftsmanship with 11 years of design expertise.",
+    "name": "Sarah Brown",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Sarah Brown manages bar inventory and contributes to menu development, ensuring a sophisticated and exciting beverage program, backed by 17 years in the art of mixology.",
     "languages": [
-      "Japanese",
+      "Spanish",
       "Russian",
+      "Japanese",
+      "German",
+      "Portuguese",
       "English"
     ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/86.jpg",
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/86.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
     "name": "James Rodriguez",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "James Rodriguez's passion for cultural exchange, cultivated over 6 years, enriches the voyage by fostering understanding and appreciation of diverse traditions.",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Barista Rodriguez prepares specialty coffees with precision, backed by 20 years in coffee service.",
     "languages": [
-      "Mandarin",
-      "German",
-      "English"
+      "Russian",
+      "English",
+      "Italian"
     ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
-    "name": "Robert Garcia",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "Robert Garcia captivates audiences with original performances tailored to shipboard entertainment.",
+    "name": "David Martinez",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "David Martinez conducts onboard wellness seminars and workshops, empowering guests with nutritional knowledge gained over 16 years in the field.",
     "languages": [
+      "Arabic",
+      "Russian",
+      "Portuguese",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Maria Miller",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Maria Miller plans and oversees all entertainment activities, applying 4 years of event and talent management.",
+    "languages": [
+      "Spanish",
+      "Mandarin",
+      "German",
+      "French",
+      "English"
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "John Brown",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "John Brown manages scheduling and logistics for performers, ensuring smooth entertainment operations onboard.",
+    "languages": [
+      "German",
+      "Mandarin",
+      "Japanese",
       "Spanish",
       "Portuguese",
       "English"
     ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "John Jones",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "With a versatile range and powerful stage presence developed over 14 years, Lead Vocalist Jones shines in genres from pop and rock to jazz and musical theatre.",
+    "languages": [
+      "Arabic",
+      "German",
+      "French",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Martinez",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Musician Martinez adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 15 years of diverse musical experience.",
+    "languages": [
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Smith",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Dancer Smith delivers energetic and polished routines, drawing on 5 years of dance training.",
+    "languages": [
+      "English",
+      "German",
+      "Russian",
+      "Japanese",
+      "Italian"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/59.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Jones",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Olivia Jones collaborates with costume and lighting designers to create a cohesive and visually stunning spectacle, drawing on 11 years of experience in stage production.",
+    "languages": [
+      "German",
+      "Italian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Robert Miller",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Robert Miller entertains guests with humor and timing, backed by 3 years in comedy performance.",
+    "languages": [
+      "Japanese",
+      "Russian",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sophia Jones",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Sophia Jones blends showmanship and technique to deliver captivating magic shows at sea.",
+    "languages": [
+      "French",
+      "Spanish",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Davis",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "James Davis keeps dance floors lively with dynamic sets tailored for diverse guest preferences.",
+    "languages": [
+      "Russian",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Jones",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Audio Technician Jones manages sound systems and ensures optimal audio quality for performances onboard.",
+    "languages": [
+      "Russian",
+      "Mandarin",
+      "English",
+      "German",
+      "Portuguese"
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/96.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Smith",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Olivia Smith's artistic vision and technical mastery over 6 years ensure that lighting plays a crucial role in the storytelling and excitement of onboard entertainment.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Emma Jones",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "With 3 years in professional stage management, Emma Jones meticulously calls cues, manages backstage operations, and ensures the smooth running of every show.",
+    "languages": [
+      "Russian",
+      "English",
+      "Mandarin",
+      "Portuguese",
+      "French",
+      "Japanese"
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sophia Garcia",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Sophia Garcia ensures timely and efficient delivery of shows, leveraging 15 years in production management.",
+    "languages": [
+      "Russian",
+      "Spanish",
+      "German",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Sarah Johnson",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Costume Designer Johnson manages the entire costume lifecycle, from initial sketches and fabric sourcing to fittings and maintenance, ensuring every garment is show-ready.",
+    "languages": [
+      "Spanish",
+      "Italian",
+      "Japanese",
+      "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "John Williams",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Cultural Program Director Williams curates culturally enriching events and experiences for guests.",
+    "languages": [
+      "German",
+      "French",
+      "Mandarin",
+      "Spanish",
+      "Italian",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "David Williams",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "With 8 years pushing artistic boundaries, David Williams offers a distinctive and captivating addition to the ship's diverse entertainment offerings.",
+    "languages": [
+      "Spanish",
+      "Mandarin",
+      "German",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
     "name": "John Garcia",
     "role": "Operations Manager",
     "department": "Operations Department",
-    "bio": "Operations Manager Garcia applies 13 years of leadership in maritime operations.",
+    "bio": "Operations Manager Garcia is adept at problem-solving complex logistical challenges and implementing solutions that enhance overall ship performance and guest satisfaction.",
     "languages": [
-      "German",
+      "French",
+      "Portuguese",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "James Martinez",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Logistics Coordinator Martinez meticulously plans and tracks shipments, manages customs documentation, and optimizes storage solutions onboard.",
+    "languages": [
       "Japanese",
+      "French",
       "English"
     ],
     "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/88.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
-    "name": "John Garcia",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "Logistics Coordinator Garcia meticulously plans and tracks shipments, manages customs documentation, and optimizes storage solutions onboard.",
-    "languages": [
-      "Mandarin",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Sarah Garcia",
+    "name": "John Rodriguez",
     "role": "Inventory Specialist",
     "department": "Operations Department",
-    "bio": "Inventory Specialist Garcia tracks and manages stock levels, maintaining operational readiness.",
+    "bio": "With 16 years in inventory management, John Rodriguez meticulously maintains records for all consumables, technical spares, and retail goods onboard.",
     "languages": [
-      "Italian",
-      "Japanese",
+      "Arabic",
+      "Spanish",
       "English"
     ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   },
   {
-    "name": "David Williams",
+    "name": "David Miller",
     "role": "Procurement Officer",
     "department": "Operations Department",
-    "bio": "Procurement Officer Williams manages supplier relationships, monitors market trends, and ensures compliance with ethical purchasing policies.",
+    "bio": "David Miller's sharp negotiation skills and 15 years of experience contribute significantly to controlling operational costs while maintaining quality standards.",
     "languages": [
       "Japanese",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
-    "city": "San Juan",
-    "country": "Global"
-  },
-  {
-    "name": "Maria Johnson",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "With 15 years dedicated to environmental stewardship in the maritime sector, Maria Johnson develops and manages programs for waste reduction, recycling, and energy conservation.",
-    "languages": [
-      "French",
+      "Arabic",
       "German",
+      "Italian",
+      "Spanish",
       "English"
     ],
     "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
     "city": "San Juan",
-    "country": "Global"
+    "country": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "name": "Olivia Rodriguez",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Sustainability Coordinator Rodriguez ensures compliance with international environmental regulations (e.g., MARPOL) and promotes a culture of sustainability among crew and guests.",
+    "languages": [
+      "Spanish",
+      "Japanese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/54.jpg",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean"
   }
 ];
