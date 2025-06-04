@@ -178,10 +178,6 @@ export default function Cruises() {
             </div>
           </div>
         </div>
-
-        <div className="text-muted-foreground text-sm">
-          {filteredDestinations.length} destinations found
-        </div>
       </div>
 
       <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
