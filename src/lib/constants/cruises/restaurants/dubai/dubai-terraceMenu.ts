@@ -12,19 +12,76 @@ export const dubaidubaiTerraceMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "House Special Savory Chef’s Wild Game Selection",
-            "description": "Neatly composed and cooked to perfection using sun-ripened fruits.",
-            "price": 26.93,
-            "isVegetarian": false,
+            "name": "Homestyle Zesty Local Bounty Harvest Plate (Vegetarian)",
+            "price": 33.53,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Local Mouthwatering Restaurant's Namesake Signature Entrée",
-            "description": "Offered as a tasting portion and poached to perfection using seasonal ingredients.",
-            "price": 31.38,
+            "name": "Authentic Pan-seared Heritage Recipe Lamb Shank",
+            "price": 29.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Spiced Executive Chef's Daily Inspiration Entrée",
+            "price": 24.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Crispy House Famous Duck Confit",
+            "price": 30.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Hearty Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 37.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Herbed Chef's Special Surf and Turf",
+            "price": 37.37,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Grilled Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 35.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Seasonal Spicy Miso-Glazed Black Cod",
+            "price": 30.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -32,9 +89,35 @@ export const dubaidubaiTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Sweet Heritage Recipe Lamb Shank",
-            "description": "Served on rustic ware and stir-fried to perfection using locally sourced produce.",
-            "price": 30.13,
+            "name": "House Special Golden Tableside Prepared Tartare",
+            "price": 38.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Tangy Seasonal Truffle Risotto",
+            "price": 37.46,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Stuffed Herb-Crusted Rack of Lamb",
+            "price": 34.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Sautéed Sustainable Seafood Tower",
+            "price": 31.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -47,29 +130,44 @@ export const dubaidubaiTerraceMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Traditional Steamed Fajitas",
-            "description": "Nestled in a ceramic bowl and crafted to perfection using microgreens.",
-            "price": 18.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Marinated Vegetable Stir-Fry",
-            "description": "Nestled in a ceramic bowl and grilled to perfection using locally foraged herbs.",
-            "price": 20.58,
-            "isVegetarian": false,
+            "name": "Premium Zingy Nachos",
+            "price": 14.54,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pasta Primavera",
-            "description": "A complex dish composed with grass-fed beef and drizzled with finesse.",
-            "price": 21.12,
+            "name": "Handcrafted Savory Shrimp Cocktail",
+            "price": 14.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Zesty Spinach Puffs",
+            "price": 15.86,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sizzling Edamame",
+            "price": 8.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Golden Stuffed Jalapeños",
+            "price": 13.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -77,22 +175,70 @@ export const dubaidubaiTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Teriyaki Chicken",
-            "description": "This hearty favorite is slow-cooked using grass-fed beef, then stacked artistically.",
-            "price": 19.17,
+            "name": "Authentic Crispy Mini Tacos",
+            "price": 9.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Steamed Mini Sliders",
+            "price": 12.46,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sizzling Prawn Cocktail",
+            "price": 14.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Soups",
+        "items": [
+          {
+            "name": "Deluxe Creamy Lentil Soup",
+            "price": 12.42,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Signature Mouthwatering Cottage Pie",
-            "description": "Neatly composed and made to perfection using premium components.",
-            "price": 23.79,
+            "name": "Authentic Zingy Gumbo",
+            "price": 9.36,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Savory Cabbage Soup",
+            "price": 11.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Juicy Broccoli Cheddar Soup",
+            "price": 12.49,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -102,54 +248,26 @@ export const dubaidubaiTerraceMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Chef's Aromatic Jambalaya",
-            "description": "Our savory specialty, prepared with hand-picked vegetables and beautifully presented.",
-            "price": 26.35,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Quinoa Salad",
+            "price": 13.97,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Paella",
-            "description": "A balanced dish stir-fried with sun-ripened fruits and plated with precision.",
-            "price": 23.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Succulent Pasta Primavera",
-            "description": "Our floral specialty, marinated with artisanal elements and nestled in a ceramic bowl.",
-            "price": 25.35,
+            "name": "Avocado Corn Salad",
+            "price": 15.91,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Risotto",
-            "description": "Our robust specialty, whipped with locally sourced produce and elegantly served.",
-            "price": 24.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Soups",
-        "items": [
-          {
-            "name": "Local Creamy Lentil Stew",
-            "description": "This sweet favorite is whipped using organic ingredients, then layered with care.",
-            "price": 20.84,
+            "name": "Nicoise Salad",
+            "price": 11.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -157,34 +275,22 @@ export const dubaidubaiTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Beef Wellington",
-            "description": "This robust favorite is sautéed using aged cheeses, then plated with precision.",
-            "price": 22.15,
-            "isVegetarian": false,
+            "name": "Southwest Black Bean Salad",
+            "price": 12.91,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chicken Parmesan",
-            "description": "A rich dish smoked with sustainable seafood and beautifully presented.",
-            "price": 23.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Beef Burger",
-            "description": "This citrusy favorite is assembled using handmade pasta, then presented on a wooden board.",
-            "price": 20.9,
+            "name": "Thai Green Papaya Salad",
+            "price": 14.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -192,9 +298,62 @@ export const dubaidubaiTerraceMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Chef's Grilled Pizza",
-            "description": "Our hearty specialty, poached with wild-caught fish and served with flair.",
-            "price": 20.7,
+            "name": "Gourmet Creamy Korma",
+            "price": 30.74,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Roasted Pasta Primavera",
+            "price": 26.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Grilled Teriyaki Chicken",
+            "price": 21.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Mouthwatering Pizza",
+            "price": 28.92,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Creamy Currywurst",
+            "price": 29.96,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Crunchy Shakshuka",
+            "price": 30.74,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Aromatic Cottage Pie",
+            "price": 24.72,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -202,115 +361,9 @@ export const dubaidubaiTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Crunchy Grilled Chicken",
-            "description": "This buttery favorite is poached using premium components, then stacked artistically.",
-            "price": 18.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Chef's Flavorful Coq au Vin",
-            "description": "This citrusy favorite is braised using natural sweeteners, then served family-style.",
-            "price": 27.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Roasted Teriyaki Chicken",
-            "description": "Our earthy specialty, prepared with finest quality ingredients and artfully plated.",
-            "price": 24.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Bibimbap",
-            "description": "This peppery favorite is prepared using house-made sauces, then accompanied by a tasteful garnish.",
-            "price": 29.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fajitas",
-            "description": "Layered with care and marinated to perfection using aged cheeses.",
-            "price": 28.72,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Roasted Biryani",
-            "description": "Our spicy specialty, composed with cold-pressed oils and presented on a wooden board.",
-            "price": 27.67,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tagine",
-            "description": "This hearty favorite is cooked using artisanal elements, then plated with precision.",
-            "price": 30.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Shish Kebabs",
-            "description": "A citrusy dish slow-cooked with artisanal elements and served family-style.",
-            "price": 21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Luscious Pasta Primavera",
-            "description": "Our savory specialty, assembled with cold-pressed oils and drizzled with finesse.",
-            "price": 27.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Teriyaki Chicken",
-            "description": "This delicate favorite is created using finest quality ingredients, then elegantly served.",
-            "price": 21.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Lasagna",
-            "description": "A zesty dish grilled with seasonal ingredients and served with flair.",
-            "price": 25.19,
-            "isVegetarian": false,
+            "name": "Organic Creamy Ramen",
+            "price": 26.64,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -322,9 +375,117 @@ export const dubaidubaiTerraceMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Valencian Seafood Paella",
-            "description": "This citrusy favorite is made using heirloom tomatoes, then elegantly served.",
-            "price": 24.96,
+            "name": "Seasonal Aromatic Basa Fillet with Dill Cream Sauce",
+            "price": 22.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Smoked Pan-Seared Scallops with Pea Purée",
+            "price": 33.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Roasted Hearty Italian Cioppino",
+            "price": 26.46,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Aromatic New England Lobster Roll",
+            "price": 34.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spiced Prawn Curry in Coconut Masala",
+            "price": 35.26,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Gourmet Sizzling Fragrant Basmati Rice Pilaf",
+            "price": 7.12,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Spicy Soft Polenta with Parmesan",
+            "price": 5.2,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Golden Charred Broccolini with Garlic Oil",
+            "price": 7.75,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Herbed Green Beans Almondine",
+            "price": 5.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Pan-seared Herbed Bulgur Wheat with Lemon",
+            "price": 9.36,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Pan-seared Crispy Zucchini Fritters",
+            "price": 5.34,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Hot Chocolate",
+            "price": 6.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -332,32 +493,47 @@ export const dubaidubaiTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic British Fish and Chips",
-            "description": "Accompanied by a tasteful garnish and braised to perfection using heirloom tomatoes.",
-            "price": 27.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Chef's Appetizing Pan-Seared Scallops with Pea Purée",
-            "description": "A savory dish roasted with premium components and neatly composed.",
-            "price": 31.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seafood Alfredo with Spinach Fettuccine",
-            "description": "Our smoky specialty, pan-seared with sustainable seafood and artfully plated.",
-            "price": 24.71,
+            "name": "Juice",
+            "price": 6.6,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 4.87,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 6.82,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 7.77,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 7.87,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -370,42 +546,29 @@ export const dubaidubaiTerraceMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Classic Delicious Gnocchi",
-            "description": "Our umami-packed specialty, hand-folded with sun-ripened fruits and neatly composed.",
-            "price": 20.27,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Hearty Biryani",
-            "description": "This subtle favorite is prepared using sun-ripened fruits, then offered as a tasting portion.",
-            "price": 29.41,
+            "name": "Cinnamon Rolls",
+            "price": 9.9,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Jambalaya",
-            "description": "Beautifully presented and composed to perfection using farm-fresh eggs.",
-            "price": 24.72,
-            "isVegetarian": true,
+            "name": "Pecan Pie",
+            "price": 8.26,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Baked Lasagna",
-            "description": "A rich dish glazed with cold-pressed oils and plated with precision.",
-            "price": 24.94,
+            "name": "Croissants",
+            "price": 7.85,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -413,69 +576,72 @@ export const dubaidubaiTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Roast Duck",
-            "description": "Our floral specialty, glazed with seasonal ingredients and neatly composed.",
-            "price": 25.27,
+            "name": "Treacle Tart",
+            "price": 9,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemon Bars",
+            "price": 10.96,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "House Special Juicy Gnocchi",
-            "description": "A rich dish made with sun-ripened fruits and beautifully presented.",
-            "price": 18.03,
+            "name": "Kulfi",
+            "price": 11.64,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Steak",
-            "description": "Our zesty specialty, oven-baked with free-range meats and artfully plated.",
-            "price": 26.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Lamb Chops",
-            "description": "This bold favorite is charred using locally foraged herbs, then drizzled with finesse.",
-            "price": 22.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Paella",
-            "description": "Our robust specialty, grilled with handmade pasta and garnished to perfection.",
-            "price": 25.93,
+            "name": "Frozen Custard",
+            "price": 8.03,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Satisfying Pulled Pork Sandwich",
-            "description": "Garnished to perfection and pan-seared to perfection using hand-picked vegetables.",
-            "price": 24.28,
+            "name": "Snow Cone",
+            "price": 9.34,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Mousse",
+            "price": 9.45,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Popsicles",
+            "price": 8.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       }
@@ -489,29 +655,35 @@ export const dubaidubaiTerraceMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Local Marinated Daiquiri",
-            "description": "Accompanied by a tasteful garnish and marinated to perfection using wild-caught fish.",
-            "price": 14.32,
-            "isVegetarian": false,
+            "name": "Martini",
+            "price": 15.39,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 15.74,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 12.41,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Enticing Gin",
-            "description": "Garnished to perfection and assembled to perfection using heritage grains.",
-            "price": 11.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soju",
-            "description": "This sweet favorite is charred using seasonal ingredients, then layered with care.",
-            "price": 12.29,
+            "name": "Bloody Mary",
+            "price": 12.66,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -519,9 +691,17 @@ export const dubaidubaiTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Herbed Bourbon",
-            "description": "This savory favorite is composed using artisanal elements, then accompanied by a tasteful garnish.",
-            "price": 9.31,
+            "name": "Old Fashioned",
+            "price": 12.36,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 14.23,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -529,11 +709,10 @@ export const dubaidubaiTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Old Tom Gin",
-            "description": "Served on rustic ware and seasoned to perfection using seasonal ingredients.",
-            "price": 12.13,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Whiskey Sour",
+            "price": 15.2,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -544,49 +723,8 @@ export const dubaidubaiTerraceMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Teriyaki Chicken",
-            "description": "This subtle favorite is caramelized using seasonal ingredients, then served family-style.",
-            "price": 21.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Smoked Paella",
-            "description": "Nestled in a ceramic bowl and charred to perfection using seasonal ingredients.",
-            "price": 27.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Chicken",
-            "description": "A hearty dish roasted with natural sweeteners and drizzled with finesse.",
-            "price": 18.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Steak",
-            "description": "Our pungent specialty, seasoned with finest quality ingredients and garnished to perfection.",
-            "price": 25.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Fried Risotto",
-            "description": "A floral dish created with artisanal elements and garnished to perfection.",
-            "price": 26.43,
+            "name": "Pinot Blanc",
+            "price": 12.32,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -594,12 +732,47 @@ export const dubaidubaiTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Spicy Gnocchi",
-            "description": "Our balanced specialty, sautéed with heritage grains and plated with precision.",
-            "price": 29.03,
+            "name": "Torrontés",
+            "price": 11.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Noir",
+            "price": 9.06,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tempranillo",
+            "price": 9.79,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Viognier",
+            "price": 11.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vermentino",
+            "price": 10.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -609,9 +782,8 @@ export const dubaidubaiTerraceMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Enchiladas",
-            "description": "This peppery favorite is prepared using finest quality ingredients, then elegantly served.",
-            "price": 28.1,
+            "name": "Vodka",
+            "price": 14.47,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -619,9 +791,17 @@ export const dubaidubaiTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Baked Bibimbap",
-            "description": "This rich favorite is seasoned using house-made sauces, then accompanied by a tasteful garnish.",
-            "price": 19.49,
+            "name": "Galliano",
+            "price": 12.3,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee Liqueur",
+            "price": 13.23,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -629,9 +809,8 @@ export const dubaidubaiTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Stuffed Biryani",
-            "description": "Drizzled with finesse and prepared to perfection using seasonal ingredients.",
-            "price": 19.73,
+            "name": "Absinthe",
+            "price": 13.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -639,9 +818,8 @@ export const dubaidubaiTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Smoked Ramen",
-            "description": "This earthy favorite is oven-baked using free-range meats, then beautifully presented.",
-            "price": 18.67,
+            "name": "Frangelico",
+            "price": 12.58,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
