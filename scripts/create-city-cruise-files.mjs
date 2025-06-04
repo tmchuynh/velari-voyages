@@ -463,7 +463,6 @@ for (const city of cityFiles) {
 
     // Create file content
     const fileContent = `import { Cruise } from "@/lib/interfaces/services/cruises";
-import { Location } from "@/lib/types/types";
 
 export const ${camelCaseCity}Cruises: Cruise[] = [
   {
