@@ -16,16 +16,14 @@ import { Slider } from "@/components/ui/slider";
 import { cruiseDepartureLocations } from "@/lib/constants/info/city.ts";
 import { Cruise } from "@/lib/interfaces/services/cruises";
 import { capitalize, formatNumberToCurrency } from "@/lib/utils/format.ts";
-import { getAllCruises } from "@/lib/utils/get.ts";
-import { featuredArray, groupAndSortByProperties } from "@/lib/utils/sort";
-import { useRouter } from "next/navigation";
+import { getAllCruises } from "@/lib/utils/get/cruises";
+import { groupAndSortByProperties, popularArray } from "@/lib/utils/sort";
 import { useEffect, useMemo, useState } from "react";
 import { FaFilter } from "react-icons/fa";
 
 export default function PopularTours() {
-  const [allCruises, setAllCruises] = useState<Cruise[]>([]);
+  const [popularCruises, setPopularCruises] = useState<Cruise[]>([]);
   const [loading, setLoading] = useState(true);
-  const router = useRouter();
 
   // Filter states
   const [showFilters, setShowFilters] = useState(false);
@@ -44,15 +42,17 @@ export default function PopularTours() {
     const fetchCruises = async () => {
       try {
         const data = await getAllCruises();
-        // Process cruises to set hasPopularDestination flag
-        const processedData = data.map((cruise) => ({
-          ...cruise,
-          hasPopularDestination:
-            cruise.departureLocation?.isPopular ||
-            cruise.arrivalLocation?.isPopular ||
-            false,
-        }));
-        setAllCruises(featuredArray(processedData));
+        setPopularCruises(popularArray(data));
+        // Initialize filters with fetched data
+        if (data.length > 0) {
+          const prices = data.map((cruise) => cruise.basePrice);
+          setFilters((prev) => ({
+            ...prev,
+            minPrice: Math.min(...prices),
+            maxPrice: Math.max(...prices),
+          }));
+        }
+        setInitialized(true);
       } catch (error) {
         console.error("Failed to load affirmation cards:", error);
       } finally {
@@ -63,9 +63,8 @@ export default function PopularTours() {
     fetchCruises();
   }, []);
 
-  // Extract unique filter options
   const filterOptions = useMemo(() => {
-    if (!allCruises.length)
+    if (!popularCruises.length)
       return {
         durations: [],
         categories: [],
@@ -74,21 +73,18 @@ export default function PopularTours() {
 
     const categories = [
       ...new Set(
-        groupAndSortByProperties(allCruises, "tourCategoryId").map(
+        groupAndSortByProperties(popularCruises, "tourCategoryId").map(
           (cruise) => cruise.tourCategoryId
         )
       ),
     ];
-    console.log("Categories:", categories);
-    // Ensure categories are sorted alphabetically
     categories.sort((a, b) => a.localeCompare(b));
-    console.log("Sorted Categories:", categories);
     const allTags = new Set<string>();
-    allCruises.forEach((cruise) =>
+    popularCruises.forEach((cruise) =>
       cruise.tags?.forEach((tag: string) => allTags.add(tag))
     );
 
-    const prices = allCruises.map((cruise) => {
+    const prices = popularCruises.map((cruise) => {
       const priceValue = cruise.basePrice;
       return isNaN(priceValue) ? 0 : priceValue;
     });
@@ -96,7 +92,7 @@ export default function PopularTours() {
     // Add departure and arrival locations
     const departureLocations = [
       ...new Set(
-        allCruises
+        popularCruises
           .map((cruise) => cruise.departureLocation?.city)
           .filter(Boolean)
       ),
@@ -104,7 +100,9 @@ export default function PopularTours() {
 
     const arrivalLocations = [
       ...new Set(
-        allCruises.map((cruise) => cruise.arrivalLocation?.city).filter(Boolean)
+        popularCruises
+          .map((cruise) => cruise.arrivalLocation?.city)
+          .filter(Boolean)
       ),
     ];
 
@@ -117,7 +115,7 @@ export default function PopularTours() {
         max: Math.max(...prices),
       },
     };
-  }, [allCruises]);
+  }, [popularCruises]);
 
   // Handle filter changes
   const handleFilterChange = (filterType: string, value: any) => {
@@ -155,7 +153,7 @@ export default function PopularTours() {
   const filteredTours = useMemo(() => {
     if (!filters) return [];
 
-    return allCruises.filter((cruise) => {
+    return popularCruises.filter((cruise) => {
       // Price filter
       const tourPrice = cruise.basePrice;
       if (tourPrice < filters.minPrice || tourPrice > filters.maxPrice)
@@ -187,22 +185,16 @@ export default function PopularTours() {
 
       return true;
     });
-  }, [allCruises, filters]);
+  }, [popularCruises, filters]);
 
   if (loading || !filters) {
     return <Loading />;
   }
 
-  const popularTours = featuredArray(allCruises);
-
-  console.log("Popular Tours Data:", allCruises);
-  console.log("Filtered Tours Data:", filteredTours);
-  console.log("Popular Tours", popularTours);
-
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <header>
-        <h1>Popular Tours</h1>
+        <h1>Popular Cruises</h1>
         <p>
           Explore our most popular tours that have captivated travelers from
           around the world. Each cruise offers a unique experience, showcasing
@@ -213,7 +205,7 @@ export default function PopularTours() {
       {/* Filter Panel */}
       <div className="mb-6">
         <div className="flex justify-between items-center mb-4">
-          <h2>Filter Tours</h2>
+          <h2>Filter Cruises</h2>
           <Button
             onClick={() => setShowFilters(!showFilters)}
             variant="icon"
@@ -357,7 +349,8 @@ export default function PopularTours() {
 
               <div className="flex justify-between items-end mt-6">
                 <div className="flex items-center text-muted-foreground text-sm">
-                  Showing {filteredTours.length} of {allCruises.length} tours
+                  Showing {filteredTours.length} of {popularCruises.length}{" "}
+                  popular cruises
                 </div>
                 <Button
                   variant="destructive"
@@ -373,8 +366,8 @@ export default function PopularTours() {
       </div>
 
       <section className="mt-6">
-        <h2>Featured Tours</h2>
-        {allCruises && (
+        <h2>Featured Cruises</h2>
+        {popularCruises && (
           <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full">
             {filteredTours.map((cruise, index) => {
               if (!cruise) {
