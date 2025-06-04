@@ -12,8 +12,35 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Authentic Spiced Sous Vide Perfected Wagyu",
-            "price": 36.76,
+            "name": "Gourmet Spiced Sous Vide Perfected Wagyu",
+            "price": 28.06,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Zesty Dry-Aged Tomahawk Steak",
+            "price": 25.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Stuffed Wood-Fired Peking Duck with Plum Sauce",
+            "price": 28.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Fried Molecular Gastronomy Showcase Tasting",
+            "price": 31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -21,35 +48,17 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Exquisite 24-Hour Braised Short Ribs",
-            "price": 32.32,
-            "isVegetarian": false,
+            "name": "Traditional Delicious Signature Truffle Pasta with Aged Pecorino",
+            "price": 25.97,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Classic Grilled Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 33.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Baked Heritage Recipe Lamb Shank",
-            "price": 31.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Grilled Seasonal Tasting Platter",
-            "price": 34.33,
+            "name": "Homestyle Exquisite Restaurant's Namesake Signature Entrée",
+            "price": 32.37,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -57,22 +66,13 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Marinated Charcoal Grilled Iberico Pork",
-            "price": 33.17,
+            "name": "Authentic Sizzling House Famous Duck Confit",
+            "price": 24.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
-          },
-          {
-            "name": "Traditional Hearty Chef’s Wild Game Selection",
-            "price": 25.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
@@ -80,44 +80,44 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Deluxe Golden Locally Foraged Mushroom Selection",
-            "price": 35.54,
-            "isVegetarian": true,
+            "name": "Fresh Smoked Signature Spice-Rubbed Protein",
+            "price": 28.08,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Smoked Lobster Thermidor",
-            "price": 38.35,
+            "name": "Authentic Crispy Smoked and Slow-Roasted Heritage Meat",
+            "price": 28.9,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Irresistible Truffle-Infused Filet Mignon",
+            "price": 31.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Crunchy Duck Confit with Roasted Root Vegetables",
+            "price": 32.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Traditional Crunchy Chef's Tasting Menu Experience",
-            "price": 24.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Steamed Tomahawk Ribeye for Two",
-            "price": 38.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Stuffed Whole Animal Butchery Showcase",
-            "price": 25.46,
+            "name": "Homestyle Comforting Chef's Childhood Favorite Reimagined",
+            "price": 31.34,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -130,76 +130,76 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Classic Grilled Prawn Toast",
-            "price": 10.71,
+            "name": "Premium Spiced Edamame",
+            "price": 12.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Hearty Dumplings",
+            "price": 12.84,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Irresistible Lettuce Wraps",
+            "price": 11.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Zesty Mozzarella Sticks",
+            "price": 14.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Golden Garlic Bread",
+            "price": 12.46,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Appetizing Stuffed Mushrooms",
+            "price": 14.29,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Grilled Mini Quesadillas",
+            "price": 15.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Hearty Deviled Eggs",
+            "price": 13.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Delicious Garlic Bread",
-            "price": 11.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Spiced Mini Quesadillas",
-            "price": 12.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Juicy Tuna Tartare",
-            "price": 14.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
-          },
-          {
-            "name": "Hearty Grilled Garlic Knots",
-            "price": 13.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Aromatic Baked Brie",
-            "price": 14.11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Mouthwatering Lettuce Wraps",
-            "price": 14.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Crunchy Chicken Wings",
-            "price": 12.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
@@ -207,40 +207,40 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Seasonal Crunchy Broccoli Cheddar Soup",
-            "price": 13.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Crunchy Miso Soup",
-            "price": 10.01,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Juicy Lentil Soup",
-            "price": 13.42,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Irresistible Carrot Ginger Soup",
-            "price": 11.86,
+            "name": "Organic Baked Clam Chowder",
+            "price": 12.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Homestyle Irresistible Miso Soup",
+            "price": 7.17,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Succulent Pho",
+            "price": 10.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Crunchy Pumpkin Soup",
+            "price": 7.29,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -248,8 +248,8 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Quinoa Salad",
-            "price": 9.12,
+            "name": "Arugula Salad",
+            "price": 13.28,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -257,36 +257,36 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mediterranean Chopped Salad",
-            "price": 12.36,
+            "name": "Spinach Salad",
+            "price": 13.74,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Salad",
+            "price": 14.98,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Beet Salad",
+            "price": 15.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Caesar Salad",
-            "price": 11.6,
+            "price": 15.95,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roasted Beet and Goat Cheese Salad",
-            "price": 12.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Mango Avocado Salad",
-            "price": 10.68,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -298,76 +298,76 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "House Special Sweet Chicken Parmesan",
-            "price": 25.21,
+            "name": "Handcrafted Delicious Chicken Parmesan",
+            "price": 22.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Sautéed Pulled Pork Sandwich",
+            "price": 24.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Grilled Roast Duck",
+            "price": 23.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Mouthwatering Coq au Vin",
+            "price": 25.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Spiced Steak",
-            "price": 25.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Homestyle Aromatic Stuffed Peppers",
-            "price": 20.21,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "name": "Traditional Delectable Steak",
+            "price": 28.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Hearty Stuffed Grilled Chicken",
-            "price": 21.7,
+            "name": "Authentic Pan-seared Biryani",
+            "price": 23.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Tender Stuffed Zucchini Boats",
+            "price": 23.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Herbed Teriyaki Chicken",
+            "price": 25.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
-          },
-          {
-            "name": "Organic Zingy Pasta Primavera",
-            "price": 27.88,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Flaky Paella",
-            "price": 18.36,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Sweet Pesto Pasta",
-            "price": 28.91,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Pan-seared Cottage Pie",
-            "price": 23.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
@@ -375,8 +375,17 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Fresh Spiced Seared Tuna Steak with Sesame Crust",
-            "price": 22.14,
+            "name": "Authentic Flaky Oysters Rockefeller with Pernod Cream",
+            "price": 29.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Crunchy Seafood Risotto with Saffron",
+            "price": 23.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,8 +393,17 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Exquisite New England Lobster Roll",
-            "price": 25.66,
+            "name": "Authentic Baked Cedar Plank Roasted Salmon",
+            "price": 34.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Herbed Steamed Littleneck Clams in Garlic Broth",
+            "price": 33.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,29 +411,11 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Sautéed Crab-Stuffed Mushrooms",
-            "price": 27.47,
+            "name": "Seasonal Crunchy Baked Cod with Lemon Caper Sauce",
+            "price": 26.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Golden Basa Fillet with Dill Cream Sauce",
-            "price": 23.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Golden Seafood Gumbo with Okra",
-            "price": 35.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           }
@@ -425,8 +425,8 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Fresh Tender French Fries",
-            "price": 6.42,
+            "name": "Gourmet Smoked Soft Polenta with Parmesan",
+            "price": 9.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,26 +434,8 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Stuffed Creamed Spinach with Nutmeg",
-            "price": 6.16,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Spiced Stuffed Bell Peppers with Brown Rice",
-            "price": 7.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Roasted Crispy Beer-Battered Onion Rings",
-            "price": 5.88,
+            "name": "Organic Aromatic Flaky Cheddar and Chive Biscuits",
+            "price": 5.41,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -461,17 +443,35 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Savory Wild Rice Pilaf",
-            "price": 7.57,
+            "name": "Authentic Irresistible Fragrant Basmati Rice Pilaf",
+            "price": 5.73,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Delectable Truffle Parmesan Fries",
+            "price": 9.7,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Spicy Grilled Asparagus with Lemon Zest",
-            "price": 9.05,
+            "name": "Classic Mouthwatering Wild Rice Pilaf",
+            "price": 7.62,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Exquisite Crispy Beer-Battered Onion Rings",
+            "price": 9.71,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -484,35 +484,44 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Hot Chocolate",
-            "price": 6.42,
-            "isVegetarian": true,
+            "name": "Coffee",
+            "price": 4.11,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 5.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 6.8,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 4.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Tea",
-            "price": 6.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coffee",
-            "price": 6.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 6.19,
+            "price": 6.18,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -521,17 +530,8 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
           },
           {
             "name": "Smoothie",
-            "price": 5.19,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 6.34,
-            "isVegetarian": true,
+            "price": 4.64,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -549,8 +549,8 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Crumb Cake",
-            "price": 10.95,
+            "name": "Soufflé",
+            "price": 6.86,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,26 +558,26 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Berry Tart",
-            "price": 8.49,
+            "name": "Cobbler",
+            "price": 7.2,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pie",
+            "price": 10.66,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Scones",
-            "price": 9.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Macarons",
-            "price": 10.51,
+            "name": "Chocolate Chip Cookies",
+            "price": 10.2,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -585,8 +585,8 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Red Velvet Cake",
-            "price": 9.01,
+            "name": "Baklava",
+            "price": 7.68,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,26 +599,8 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Granita",
-            "price": 10.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Popsicles",
-            "price": 11.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Ice Cream",
-            "price": 9.33,
+            "price": 9.74,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -626,19 +608,37 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Fruit Bars",
-            "price": 7.7,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Pie",
-            "price": 10.44,
+            "name": "Gelato",
+            "price": 11.38,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Pudding",
+            "price": 9.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Sandwich",
+            "price": 8.46,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Cake",
+            "price": 7.43,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -656,35 +656,35 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Bloody Mary",
-            "price": 12.21,
-            "isVegetarian": false,
+            "price": 12.69,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 14.38,
+            "name": "Cosmopolitan",
+            "price": 12.07,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Margarita",
-            "price": 15.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "price": 13.5,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 10.22,
-            "isVegetarian": true,
+            "name": "Martini",
+            "price": 13.35,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -692,28 +692,28 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
           },
           {
             "name": "Whiskey Sour",
-            "price": 11.86,
+            "price": 15.77,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 13.1,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 10.6,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 10.28,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 10.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,8 +723,44 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Gewürztraminer",
-            "price": 12.12,
+            "name": "Vouvray",
+            "price": 12.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chenin Blanc",
+            "price": 10.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Viognier",
+            "price": 11.16,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Marsanne",
+            "price": 10.1,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grenache",
+            "price": 12.32,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -732,44 +768,8 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grenache",
-            "price": 8.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Verdicchio",
-            "price": 12.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cabernet Franc",
+            "name": "Merlot",
             "price": 9.64,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gamay",
-            "price": 10.9,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Blanc",
-            "price": 8.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -782,35 +782,35 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Grappa",
-            "price": 13.22,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Maraschino",
-            "price": 13.53,
-            "isVegetarian": true,
+            "name": "Rum",
+            "price": 15.46,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bourbon",
-            "price": 14.97,
-            "isVegetarian": false,
+            "name": "Grappa",
+            "price": 12.06,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Campari",
-            "price": 12.19,
+            "name": "Amaretto",
+            "price": 17.48,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baileys Irish Cream",
+            "price": 16.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -818,9 +818,9 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coffee Liqueur",
-            "price": 11.79,
-            "isVegetarian": true,
+            "name": "Brandy",
+            "price": 13.93,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

@@ -12,8 +12,26 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Traditional Irresistible Tableside Carved Chateaubriand",
-            "price": 24.13,
+            "name": "Fresh Delicious Flambéed Tableside Specialty",
+            "price": 31.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Creamy Dry-Aged Tomahawk Steak",
+            "price": 26.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Baked Executive Chef's Daily Inspiration Entrée",
+            "price": 25.3,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -21,44 +39,8 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Steamed Chef’s Wild Game Selection",
-            "price": 29.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Crunchy Japanese A5 Wagyu with Ponzu Butter",
-            "price": 27.09,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Hearty 24-Hour Braised Short Ribs",
-            "price": 28.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Satisfying Seasonal Tasting Menu Experience",
-            "price": 36.02,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Juicy Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 37.05,
+            "name": "Hearty Exquisite Heritage Recipe Lamb Shank",
+            "price": 36.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -66,11 +48,29 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Marinated Charcoal Grilled Iberico Pork",
-            "price": 34.24,
+            "name": "Authentic Fried Secret Recipe Bouillabaisse",
+            "price": 29.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Spiced Founder's Family Recipe Pasta",
+            "price": 24.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Exquisite Award-Winning Seafood Boil",
+            "price": 26.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -80,8 +80,8 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Seasonal Zesty Heritage Breed Porchetta",
-            "price": 39,
+            "name": "Authentic Grilled Grilled Venison with Juniper Berry Sauce",
+            "price": 32.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -89,17 +89,8 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Sweet Cast Iron Seafood Presentation",
-            "price": 33.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Sizzling Lobster Thermidor",
-            "price": 34.07,
+            "name": "Authentic Flavorful Signature Spice-Rubbed Protein",
+            "price": 28.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -107,22 +98,31 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Aromatic Wild Mushroom Risotto",
-            "price": 34.6,
+            "name": "Homestyle Zesty Dry-Aged Prime Beef Selection",
+            "price": 35.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Braised Heritage Breed Porchetta",
+            "price": 28.25,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Irresistible Live-Fire Grilled Feature",
+            "price": 38.87,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Authentic Hearty Charcoal-Grilled Wagyu Beef",
-            "price": 36.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
           }
         ]
       },
@@ -130,62 +130,44 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Gourmet Wholesome Garlic Knots",
-            "price": 13.96,
+            "name": "Authentic Creamy Calamari",
+            "price": 8.51,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Pan-seared Hummus Platter",
+            "price": 15.45,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Smoked Arancini",
-            "price": 14.21,
+            "name": "Handcrafted Sweet Mezze Platter",
+            "price": 14.57,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Zesty Garlic Bread",
-            "price": 15.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Zingy Mozzarella Sticks",
-            "price": 13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Grilled Charcuterie Board",
-            "price": 10.42,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Gourmet Tender Dumplings",
-            "price": 11.28,
-            "isVegetarian": true,
+            "name": "Traditional Pan-seared Prawn Cocktail",
+            "price": 14.49,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Satisfying Zucchini Fries",
-            "price": 8.78,
+            "name": "Authentic Braised Potato Skins",
+            "price": 13.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -193,13 +175,31 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Creamy Tuna Tartare",
-            "price": 10.87,
+            "name": "Traditional Roasted Caprese Salad",
+            "price": 12,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Golden Dumplings",
+            "price": 12.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Gourmet Steamed Falafel",
+            "price": 9.38,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -207,17 +207,26 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Homestyle Delicious French Onion Soup",
-            "price": 10.57,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Deluxe Creamy Pho",
+            "price": 7.87,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Satisfying Chicken Noodle Soup",
-            "price": 7.58,
+            "name": "Hearty Pan-seared Avgolemono (Greek Lemon Soup)",
+            "price": 13.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Spiced Chicken Corn Soup",
+            "price": 7.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -225,21 +234,12 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Creamy Mushroom Soup",
-            "price": 12.22,
+            "name": "Fresh Grilled Butternut Squash Soup",
+            "price": 7.7,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Pan-seared Black Bean Soup",
-            "price": 13.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -248,49 +248,49 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Southwest Black Bean Salad",
-            "price": 14.26,
+            "name": "Waldorf Salad",
+            "price": 9.29,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Thai Green Papaya Salad",
-            "price": 13.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Farro Salad",
+            "price": 9.21,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Broccoli Crunch Salad",
-            "price": 10.08,
+            "price": 12.68,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tabbouleh",
-            "price": 15.48,
-            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Spinach Salad",
-            "price": 9.1,
+            "name": "Cucumber Salad",
+            "price": 12.5,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 11.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -298,26 +298,8 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Authentic Roasted Shakshuka",
-            "price": 23.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Crunchy Steak",
-            "price": 19.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Savory Jambalaya",
-            "price": 23.55,
+            "name": "Hearty Tender Biryani",
+            "price": 18.35,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -325,8 +307,26 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Comforting Pesto Pasta",
-            "price": 30.48,
+            "name": "Traditional Satisfying Lasagna",
+            "price": 24.21,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Fried Korma",
+            "price": 31.1,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Herbed Pizza",
+            "price": 24.78,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -334,38 +334,38 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Grilled Pho",
-            "price": 25.74,
+            "name": "Authentic Crunchy Pulled Pork Sandwich",
+            "price": 25.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Crunchy Chicken Parmesan",
-            "price": 29.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Authentic Exquisite Cottage Pie",
-            "price": 24.57,
-            "isVegetarian": false,
+            "name": "Deluxe Steamed Fajitas",
+            "price": 31.05,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Classic Braised Grilled Chicken",
-            "price": 23.7,
+            "name": "Seasonal Crispy Tacos",
+            "price": 31.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Savory Roast Duck",
+            "price": 27.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           }
@@ -375,8 +375,17 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Fresh Crunchy Cedar Plank Roasted Salmon",
-            "price": 35.62,
+            "name": "Classic Exquisite Stuffed Flounder with Crab and Spinach",
+            "price": 31.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Succulent Basa Fillet with Dill Cream Sauce",
+            "price": 31.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -384,26 +393,17 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Herbed Smoked Salmon Platter with Dill Crème",
-            "price": 31.24,
+            "name": "Authentic Irresistible Valencian Seafood Paella",
+            "price": 31.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Classic Grilled Oysters Rockefeller with Pernod Cream",
-            "price": 31.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Baked Pan-Seared Scallops with Pea Purée",
-            "price": 34.17,
+            "name": "Fresh Luscious Seafood Risotto with Saffron",
+            "price": 25.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -411,12 +411,12 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Irresistible Seared Tuna Steak with Sesame Crust",
-            "price": 22.95,
+            "name": "Authentic Fried Cedar Plank Roasted Salmon",
+            "price": 28.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -425,57 +425,57 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Organic Herbed Truffle Parmesan Fries",
-            "price": 5.11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Sweet Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 8.14,
+            "name": "Fresh Aromatic Israeli Couscous with Roasted Tomatoes",
+            "price": 8.34,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Spiced Fragrant Basmati Rice Pilaf",
-            "price": 9.62,
-            "isVegetarian": true,
+            "name": "Authentic Luscious Crispy Beer-Battered Onion Rings",
+            "price": 9.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Baked Fragrant Basmati Rice Pilaf",
+            "price": 9.14,
+            "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Sautéed Sweet Potato Wedges with Smoked Paprika",
+            "price": 8.15,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Zingy Creamy Colcannon (Irish Potato Mash)",
-            "price": 6.51,
+            "name": "Organic Savory Roasted Root Vegetables",
+            "price": 9.81,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Stuffed Maple-Glazed Baby Carrots",
+            "price": 5.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Creamy Cauliflower Gratin with Gruyère",
-            "price": 7.15,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Zingy Green Beans Almondine",
-            "price": 5.88,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -484,44 +484,26 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Iced Tea",
-            "price": 5.15,
+            "name": "Soda",
+            "price": 7.96,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 7.74,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 5.27,
-            "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hot Chocolate",
-            "price": 5.78,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "name": "Smoothie",
+            "price": 7.8,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coffee",
-            "price": 7.66,
+            "name": "Tea",
+            "price": 5.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,10 +511,28 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 6.13,
+            "name": "Lemonade",
+            "price": 7.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 7.5,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 7.65,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -549,46 +549,46 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Croissants",
-            "price": 8.6,
+            "name": "Cupcakes",
+            "price": 10.46,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Soufflé",
-            "price": 6.68,
+            "name": "Croissants",
+            "price": 6.28,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fruit Galette",
-            "price": 6.08,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Madeleines",
+            "price": 7.52,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Vanilla Cake",
-            "price": 9.06,
-            "isVegetarian": true,
-            "isVegan": false,
+            "price": 8.05,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Biscotti",
-            "price": 7.12,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Chocolate Chip Cookies",
+            "price": 7.71,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -600,25 +600,25 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Frosty",
-            "price": 9.46,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Banana",
-            "price": 8.13,
-            "isVegetarian": false,
+            "price": 8.15,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Ice Cream Cake",
-            "price": 11.78,
+            "name": "Frozen Fruit Bars",
+            "price": 10.37,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Custard",
+            "price": 10.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -626,19 +626,19 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sorbet",
-            "price": 7.44,
-            "isVegetarian": false,
+            "name": "Sherbet",
+            "price": 8.43,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Pudding",
-            "price": 8.6,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Popsicles",
+            "price": 11.3,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -655,8 +655,35 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
+            "name": "Old Fashioned",
+            "price": 12.54,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 15.18,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Margarita",
-            "price": 11.63,
+            "price": 14.76,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 15.28,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -665,54 +692,27 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
           },
           {
             "name": "Cosmopolitan",
-            "price": 10.94,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 10.01,
+            "price": 15.56,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 15.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 15.28,
-            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Negroni",
-            "price": 14.44,
+            "price": 15.29,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Whiskey Sour",
-            "price": 14.59,
+            "name": "Mai Tai",
+            "price": 12.57,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -723,55 +723,55 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Gamay",
-            "price": 12.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Marsanne",
-            "price": 11.44,
+            "name": "Malbec",
+            "price": 10.35,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sangiovese",
-            "price": 9.68,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nebbiolo",
-            "price": 11.1,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Zinfandel",
+            "price": 11.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chenin Blanc",
+            "price": 8.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           },
           {
             "name": "Grenache",
             "price": 9.5,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sangiovese",
+            "price": 10.8,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chardonnay",
-            "price": 11.9,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Barbera",
+            "price": 8.62,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -782,17 +782,8 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Drambuie",
-            "price": 11.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Rum",
-            "price": 13.06,
+            "name": "Bourbon",
+            "price": 14.48,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -800,17 +791,8 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tequila",
-            "price": 16.84,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frangelico",
-            "price": 16.62,
+            "name": "Aquavit",
+            "price": 13.73,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -818,11 +800,29 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "St-Germain",
-            "price": 11.81,
-            "isVegetarian": false,
+            "name": "Sambuca",
+            "price": 10.24,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Anisette",
+            "price": 10.2,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Absinthe",
+            "price": 15.02,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

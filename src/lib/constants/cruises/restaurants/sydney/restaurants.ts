@@ -248,5 +248,160 @@ export const sydneyRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": false
+  },
+  {
+    "name": "New South Wales Snack Bar",
+    "description": "This popular Mediterranean establishment combines traditional recipes and flat white coffee, all served in a unique setting with harbor views.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "11:00-21:00",
+      "friday": "10:00-22:00",
+      "saturday": "Closed",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-437-7200",
+      "contactEmail": "info@mediterraneansydney.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Down Under Dining Hall",
+    "description": "This popular Italian establishment combines traditional recipes and flat white coffee, all served in a unique setting with cosmopolitan atmosphere.",
+    "cuisine": "Italian",
+    "priceRange": "$$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-22:00",
+      "friday": "11:00-19:00",
+      "saturday": "11:00-19:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-683-3508",
+      "contactEmail": "info@italiansydney.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Bondi Coffee House",
+    "description": "Experience authentic Australian cuisine with a local twist, featuring barramundi served in an atmosphere of beachside terraces overlooking Darling Harbour.",
+    "cuisine": "Australian",
+    "priceRange": "$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "11:00-19:00",
+      "friday": "9:00-21:00",
+      "saturday": "11:00-21:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-534-2757",
+      "contactEmail": "info@australiansydney.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Harbour Dining Room",
+    "description": "Located close to Harbour Bridge, this Italian restaurant delights with its flat white coffee and harbor views.",
+    "cuisine": "Italian",
+    "priceRange": "$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "11:00-20:00",
+      "friday": "10:00-22:00",
+      "saturday": "11:00-19:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-558-9308",
+      "contactEmail": "info@italiansydney.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Blue Mountains Room",
+    "description": "This popular Italian establishment combines traditional recipes and barramundi, all served in a unique setting with harbor views.",
+    "cuisine": "Italian",
+    "priceRange": "$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-19:00",
+      "friday": "11:00-22:00",
+      "saturday": "11:00-19:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-500-3116",
+      "contactEmail": "info@italiansydney.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];

@@ -12,26 +12,8 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Seasonal Mouthwatering Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 27.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Tangy Tableside Carved Chateaubriand",
-            "price": 26.08,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Sizzling Japanese A5 Wagyu with Ponzu Butter",
-            "price": 25.59,
+            "name": "Authentic Crispy Signature Truffle Pasta with Aged Pecorino",
+            "price": 27.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -39,40 +21,58 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Succulent Local Bounty Harvest Plate (Vegetarian)",
-            "price": 32.43,
+            "name": "Seasonal Pan-seared Chef's Special Surf and Turf",
+            "price": 33.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Grilled Captain's Favorite Seafood Tower",
-            "price": 34.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Savory Sous Vide Perfected Wagyu",
-            "price": 29.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Grilled Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 29.74,
+            "name": "Authentic Creamy Local Bounty Harvest Plate (Vegetarian)",
+            "price": 25.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Premium Hearty Seasonal Tasting Menu Experience",
+            "price": 35.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Grilled Dry-Aged Tomahawk Steak",
+            "price": 33.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Pan-seared Black Garlic Glazed Beef Tenderloin",
+            "price": 34.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Delectable 24-Hour Braised Short Ribs",
+            "price": 31.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
           }
         ]
       },
@@ -80,49 +80,49 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Organic Crispy Whole Animal Butchery Showcase",
-            "price": 35.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Satisfying Gourmet Vegetarian Wellington",
-            "price": 33.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Zesty Roasted Quail with Truffle Jus",
-            "price": 35.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Succulent Live-Fire Grilled Feature",
-            "price": 27.65,
+            "name": "Homestyle Grilled Slow-Roasted Prime Rib",
+            "price": 26.24,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Sizzling Fire-Roasted Seasonal Centerpiece",
-            "price": 39.53,
+            "name": "Seasonal Spiced Deconstructed Classic with Modern Technique",
+            "price": 38.2,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Sous Vide Perfection with Molecular Gastronomy Elements",
+            "price": 29.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Zingy Seasonal Farm-to-Table Vegetable Plate",
+            "price": 31.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Pan-seared Off-Menu Secret Preparation",
+            "price": 32.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -130,26 +130,8 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Premium Golden Shrimp Cocktail",
-            "price": 15.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Delicious Antipasto Platter",
-            "price": 10.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Luscious Garlic Knots",
-            "price": 14.1,
+            "name": "Seasonal Crunchy Bruschetta",
+            "price": 8.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,8 +139,17 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Creamy Potato Skins",
-            "price": 12.64,
+            "name": "Traditional Fried Mini Crab Cakes",
+            "price": 15.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Sweet Falafel",
+            "price": 11.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -166,17 +157,8 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Mouthwatering Charcuterie Board",
-            "price": 8.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Spicy Mini Crab Cakes",
-            "price": 14.27,
+            "name": "Authentic Baked Calamari",
+            "price": 15.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -184,8 +166,17 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seasonal Hearty Crostini",
-            "price": 12.74,
+            "name": "Deluxe Pan-seared Mozzarella Sticks",
+            "price": 13.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Fried Prawn Toast",
+            "price": 8.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -193,10 +184,19 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Baked Tzatziki with Pita",
-            "price": 14.94,
-            "isVegetarian": true,
+            "name": "Authentic Spiced Tempura",
+            "price": 14.28,
+            "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Satisfying Baba Ganoush",
+            "price": 8.73,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -207,8 +207,8 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Organic Baked Vegetable Barley Soup",
-            "price": 8.44,
+            "name": "Fresh Crunchy Gazpacho",
+            "price": 12.59,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -216,29 +216,29 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Marinated Clam Chowder",
-            "price": 13.94,
+            "name": "Traditional Sweet Minestrone",
+            "price": 12.19,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Exquisite Mushroom Soup",
+            "price": 12.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Seasonal Braised Lobster Bisque",
-            "price": 8.53,
+            "name": "Gourmet Irresistible Carrot Ginger Soup",
+            "price": 13.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Golden Mushroom Soup",
-            "price": 8.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -248,17 +248,8 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Arugula Salad",
-            "price": 11.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caesar Salad",
-            "price": 11.58,
+            "name": "Mango Avocado Salad",
+            "price": 15.63,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -266,9 +257,18 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garden Salad",
-            "price": 11.04,
+            "name": "Cobb Salad",
+            "price": 13.45,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cucumber Salad",
+            "price": 11.05,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -276,19 +276,19 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Greek Salad",
-            "price": 9.88,
+            "price": 10.45,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Roasted Vegetable Salad",
-            "price": 13.47,
-            "isVegetarian": false,
+            "name": "Thai Green Papaya Salad",
+            "price": 11.5,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -298,8 +298,26 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Authentic Wholesome Chili con Carne",
-            "price": 27.75,
+            "name": "Authentic Mouthwatering Eggplant Parmesan",
+            "price": 27.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Golden Spaghetti Bolognese",
+            "price": 27.39,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Luscious Seafood Platter",
+            "price": 24.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -307,67 +325,49 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Satisfying Seafood Platter",
-            "price": 19.04,
+            "name": "Authentic Appetizing Coq au Vin",
+            "price": 24.45,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Golden Eggplant Parmesan",
-            "price": 23.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Stuffed Enchiladas",
-            "price": 21.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Exquisite Chicken Parmesan",
-            "price": 27.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Gourmet Crunchy Steak",
-            "price": 24.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Herbed Grilled Chicken",
-            "price": 18.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Spiced Mac and Cheese",
-            "price": 24.33,
+            "name": "Traditional Crispy Thai Curry",
+            "price": 31.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Handcrafted Pan-seared Lentil Stew",
+            "price": 24.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Baked Fish and Chips",
+            "price": 24.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Zesty Lasagna",
+            "price": 28.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -375,8 +375,8 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Hearty Crispy Lemon-Herb Calamari Steak",
-            "price": 27.94,
+            "name": "Authentic Braised Oysters Rockefeller with Pernod Cream",
+            "price": 29.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,17 +384,17 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Zesty Stuffed Flounder with Crab and Spinach",
-            "price": 34.08,
+            "name": "Deluxe Satisfying Classic British Fish and Chips",
+            "price": 22.09,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Gourmet Roasted Traditional Provençal Bouillabaisse",
-            "price": 33.59,
+            "name": "Organic Fried Cedar Plank Roasted Salmon",
+            "price": 30.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -402,8 +402,8 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Stuffed Mussels Mariniere in White Wine",
-            "price": 33.61,
+            "name": "Classic Aromatic Seafood Gumbo with Okra",
+            "price": 32.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -411,8 +411,8 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "House Special Flavorful Seafood Risotto with Saffron",
-            "price": 33.52,
+            "name": "Deluxe Fried Miso-Marinated Chilean Sea Bass",
+            "price": 30.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,35 +425,35 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Seasonal Mouthwatering Sweet Potato Wedges with Smoked Paprika",
-            "price": 6.11,
+            "name": "Hearty Stuffed Creamy Colcannon (Irish Potato Mash)",
+            "price": 8.03,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Tangy Soft Polenta with Parmesan",
+            "price": 8.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Aromatic Sautéed Garlic Mushrooms",
+            "price": 8.28,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Delicious Roasted Root Vegetables",
-            "price": 9.98,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Satisfying Homestyle Baked Beans",
-            "price": 8.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Grilled Baked Idaho Potato with Sour Cream",
-            "price": 5.73,
+            "name": "Traditional Herbed Steamed Jasmine Rice",
+            "price": 9.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -461,17 +461,17 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Crunchy Flaky Cheddar and Chive Biscuits",
-            "price": 9.36,
+            "name": "Authentic Aromatic Israeli Couscous with Roasted Tomatoes",
+            "price": 8.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Authentic Crispy Truffle Parmesan Fries",
-            "price": 8.98,
+            "name": "Premium Flavorful French Fries",
+            "price": 5.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -485,18 +485,36 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Juice",
-            "price": 4.79,
-            "isVegetarian": true,
+            "price": 7.2,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 6.09,
+            "name": "Water",
+            "price": 4.22,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 7.4,
+            "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 7.85,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -504,36 +522,18 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
           {
             "name": "Lemonade",
             "price": 6.58,
-            "isVegetarian": false,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 5.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 5.29,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Soda",
-            "price": 6.72,
+            "price": 7.49,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,8 +549,26 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Baklava",
-            "price": 8.39,
+            "name": "Macarons",
+            "price": 8.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Custard Tart",
+            "price": 10.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Strawberry Shortcake",
+            "price": 6.19,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,36 +576,18 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tiramisu",
-            "price": 6.21,
+            "name": "Cupcakes",
+            "price": 7.54,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Crumb Cake",
-            "price": 8.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pumpkin Pie",
-            "price": 7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Apple Pie",
-            "price": 8.75,
-            "isVegetarian": false,
+            "name": "Donuts",
+            "price": 7.61,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -599,17 +599,35 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Snow Cone",
-            "price": 7.76,
-            "isVegetarian": true,
+            "name": "Baked Alaska",
+            "price": 7.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Pudding",
+            "price": 11.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sherbet",
+            "price": 9.02,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Custard",
-            "price": 7.64,
+            "name": "Frozen Yogurt",
+            "price": 7.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -617,29 +635,11 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Fruit Bars",
-            "price": 11.19,
+            "name": "Kulfi",
+            "price": 7.34,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Granita",
-            "price": 8.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Cheesecake",
-            "price": 7.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -655,8 +655,17 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Manhattan",
-            "price": 12.5,
+            "name": "Bloody Mary",
+            "price": 10.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 13.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -665,55 +674,46 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Whiskey Sour",
-            "price": 10.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 15.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 15.27,
+            "price": 12.34,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 13.45,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 15.77,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 15.7,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Mojito",
-            "price": 15.64,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 10.84,
+            "price": 13.26,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 10.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,26 +723,8 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Mourvèdre",
-            "price": 8.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sauvignon Blanc",
-            "price": 9.35,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sémillon",
-            "price": 12.91,
+            "name": "Merlot",
+            "price": 10.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -750,17 +732,8 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Barbera",
-            "price": 13.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gewürztraminer",
-            "price": 8.78,
+            "name": "Petit Verdot",
+            "price": 12.2,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -768,10 +741,37 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Albariño",
-            "price": 11.05,
+            "name": "Pinot Noir",
+            "price": 11.3,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Blanc",
+            "price": 11.69,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mourvèdre",
+            "price": 12.41,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Moscato",
+            "price": 11.05,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -782,35 +782,8 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Limoncello",
-            "price": 10.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Anisette",
-            "price": 17.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "St-Germain",
-            "price": 15.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bénédictine",
-            "price": 12.54,
+            "name": "Calvados",
+            "price": 11.05,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -818,8 +791,35 @@ export const capeTownvineyardKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Midori",
-            "price": 12.33,
+            "name": "Rum",
+            "price": 14.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cointreau",
+            "price": 17.95,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bénédictine",
+            "price": 14.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Aquavit",
+            "price": 15.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,

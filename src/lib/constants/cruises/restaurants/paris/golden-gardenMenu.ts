@@ -12,26 +12,8 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Homestyle Irresistible Dry-Aged Tomahawk Steak",
-            "price": 25.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Smoked Black Garlic Glazed Beef Tenderloin",
-            "price": 25.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Zesty Whole Roasted Heritage Chicken",
-            "price": 26.74,
+            "name": "Deluxe Comforting Secret Recipe Bouillabaisse",
+            "price": 28.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -39,40 +21,58 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Irresistible Japanese A5 Wagyu with Ponzu Butter",
-            "price": 31.81,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Appetizing Sous Vide Perfected Wagyu",
-            "price": 25.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Succulent Molecular Gastronomy Showcase Tasting",
-            "price": 33.9,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Grilled Secret Recipe Bouillabaisse",
+            "name": "Hearty Marinated Seasonal Tasting Menu Experience",
             "price": 33.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Herbed Chef's Special Surf and Turf",
+            "price": 33.18,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Traditional Sweet Seasonal Tasting Platter",
+            "price": 33.99,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Luscious Whole Roasted Heritage Chicken",
+            "price": 30.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Stuffed Celebrity Favorite Lobster Dish",
+            "price": 28.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Steamed Traditional Family Paella",
+            "price": 27.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -80,67 +80,17 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Premium Marinated Locally Foraged Mushroom Selection",
-            "price": 33.92,
+            "name": "Traditional Stuffed Smoked and Slow-Roasted Heritage Meat",
+            "price": 31.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Gourmet Delectable Tableside Prepared Tartare",
-            "price": 24.16,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Pan-seared Tomahawk Ribeye for Two",
-            "price": 24.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Delicious Fire-Roasted Seasonal Centerpiece",
-            "price": 28.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Luscious Sous Vide Perfection with Molecular Gastronomy Elements",
-            "price": 32.96,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Appetizers",
-        "items": [
-          {
-            "name": "Authentic Sautéed Mezze Platter",
-            "price": 13.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Aromatic Calamari",
-            "price": 15.81,
+            "name": "Homestyle Juicy Lobster and Crab Stuffed Ravioli",
+            "price": 25.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -148,26 +98,8 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Pan-seared Dumplings",
-            "price": 15.52,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Fried Prawn Cocktail",
-            "price": 10.35,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Grilled Deviled Eggs",
-            "price": 15.33,
+            "name": "Handcrafted Sizzling Collaborative Limited Edition Special",
+            "price": 27.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -175,8 +107,76 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Marinated Bruschetta",
-            "price": 8.22,
+            "name": "Premium Roasted Wild Mushroom Risotto",
+            "price": 37.61,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spicy Seasonal Farm-to-Table Vegetable Plate",
+            "price": 32.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Appetizers",
+        "items": [
+          {
+            "name": "Premium Tender Prawn Cocktail",
+            "price": 11.65,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Juicy Deviled Eggs",
+            "price": 10.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Herbed Spinach Puffs",
+            "price": 9.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Enticing Tempura",
+            "price": 11.06,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Spiced Zucchini Fries",
+            "price": 9.75,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Crispy Mozzarella Sticks",
+            "price": 14.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -184,20 +184,20 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Appetizing Zucchini Fries",
-            "price": 14.87,
+            "name": "Gourmet Spicy Caprese Salad",
+            "price": 13.58,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Grilled Potstickers",
-            "price": 13.76,
+            "name": "Premium Satisfying Samosas",
+            "price": 12.64,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -207,8 +207,8 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Homestyle Zingy Clam Chowder",
-            "price": 10.63,
+            "name": "House Special Herbed Broccoli Cheddar Soup",
+            "price": 10.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -216,29 +216,29 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Sautéed Lentil Soup",
-            "price": 8.54,
+            "name": "Authentic Steamed Pho",
+            "price": 11,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Deluxe Crunchy Peanut Soup (West African)",
-            "price": 12.59,
-            "isVegetarian": false,
+            "name": "Classic Spiced French Onion Soup",
+            "price": 7.17,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Smoked Tortilla Soup",
-            "price": 11.3,
+            "name": "Fresh Herbed Miso Soup",
+            "price": 10.44,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -248,8 +248,26 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Broccoli Crunch Salad",
-            "price": 12.92,
+            "name": "Mango Avocado Salad",
+            "price": 11.19,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pear and Gorgonzola Salad",
+            "price": 13.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Avocado Corn Salad",
+            "price": 12.98,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -257,36 +275,18 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Potato Salad",
-            "price": 9.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mediterranean Chopped Salad",
-            "price": 13.7,
+            "name": "Fruit Salad",
+            "price": 14.74,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pasta Salad",
-            "price": 9.99,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Farro Salad",
-            "price": 10.43,
-            "isVegetarian": true,
+            "name": "Quinoa Salad",
+            "price": 9.01,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -298,35 +298,26 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Gourmet Sizzling Fajitas",
-            "price": 27.47,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Juicy Lamb Chops",
-            "price": 23.25,
+            "name": "Fresh Tangy Vegetable Stir-Fry",
+            "price": 30.73,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Tender Bibimbap",
-            "price": 30.81,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Exquisite Moussaka",
-            "price": 24.17,
+            "name": "Deluxe Roasted Beef Burger",
+            "price": 31.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked Chili con Carne",
+            "price": 31.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -334,8 +325,8 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Crunchy Korma",
-            "price": 20.38,
+            "name": "Premium Savory Lamb Chops",
+            "price": 20.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -343,31 +334,40 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Herbed Beef Wellington",
-            "price": 22.3,
+            "name": "Homestyle Baked Grilled Chicken",
+            "price": 20.4,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Herbed Bibimbap",
+            "price": 22.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Herbed Thai Curry",
+            "price": 31.74,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Classic Sautéed Pulled Pork Sandwich",
-            "price": 30.16,
-            "isVegetarian": false,
+            "name": "Gourmet Creamy Mac and Cheese",
+            "price": 23,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Crispy Steak",
-            "price": 19.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
@@ -375,8 +375,8 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Classic Marinated Crab-Stuffed Mushrooms",
-            "price": 35.67,
+            "name": "Hearty Tender Lobster Thermidor with Gruyère Crust",
+            "price": 35.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,8 +384,17 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Braised Tempura Soft Shell Crab",
-            "price": 22.39,
+            "name": "Organic Stuffed Traditional Provençal Bouillabaisse",
+            "price": 30.88,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Smoked Linguine with Clam Sauce",
+            "price": 25.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,8 +402,8 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Flaky Grilled Lobster with Lemon Butter",
-            "price": 25.42,
+            "name": "Gourmet Succulent Grilled Spanish Octopus with Smoked Paprika",
+            "price": 26.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -402,22 +411,13 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Grilled Shrimp Scampi over Linguine",
-            "price": 31.05,
+            "name": "Fresh Crunchy Hearty Italian Cioppino",
+            "price": 25.68,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Sautéed Seafood Gumbo with Okra",
-            "price": 33.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
@@ -425,58 +425,58 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Traditional Pan-seared Israeli Couscous with Roasted Tomatoes",
-            "price": 6.8,
-            "isVegetarian": true,
+            "name": "Traditional Savory Creamed Spinach with Nutmeg",
+            "price": 7.77,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Grilled Wild Rice Pilaf",
-            "price": 6.76,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Pan-seared Macaroni and Aged Cheddar",
-            "price": 6.86,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Satisfying Wild Mushroom Risotto",
-            "price": 6.6,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Mouthwatering Garlic Bread with Herb Butter",
-            "price": 6.97,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Stuffed Steamed Jasmine Rice",
-            "price": 9.9,
+            "name": "Homestyle Grilled Sautéed Garlic Mushrooms",
+            "price": 8.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Fresh Steamed Charred Broccolini with Garlic Oil",
+            "price": 6.49,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Smoked Grilled Asparagus with Lemon Zest",
+            "price": 8.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Luscious Yukon Gold Potato Gratin",
+            "price": 9.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Enticing Quinoa Pilaf with Herbs",
+            "price": 6.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -484,26 +484,8 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Milkshake",
-            "price": 7.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Juice",
-            "price": 4.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 5.08,
+            "price": 4.77,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -512,7 +494,16 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Water",
-            "price": 6.69,
+            "price": 4.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 5.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -520,17 +511,26 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 5.09,
+            "name": "Iced Tea",
+            "price": 5.11,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 5.9,
+            "name": "Hot Chocolate",
+            "price": 5.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 7.6,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -549,17 +549,17 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Eclairs",
-            "price": 9.14,
-            "isVegetarian": true,
+            "name": "Danish Pastries",
+            "price": 9.12,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cheesecake",
-            "price": 7.88,
+            "name": "Apple Pie",
+            "price": 6.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -567,29 +567,29 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Brownies",
-            "price": 10.55,
-            "isVegetarian": true,
+            "name": "Cobbler",
+            "price": 6.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Red Velvet Cake",
+            "price": 9.23,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Crumb Cake",
-            "price": 6.61,
+            "name": "Tiramisu",
+            "price": 9.94,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pecan Pie",
-            "price": 7.92,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -599,8 +599,8 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Fruit Bars",
-            "price": 9.84,
+            "name": "Frozen Yogurt",
+            "price": 8.69,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -608,17 +608,8 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ice Cream",
-            "price": 11.79,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Pudding",
-            "price": 7.41,
+            "name": "Baked Alaska",
+            "price": 8.11,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -626,17 +617,26 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gelato",
-            "price": 11.21,
-            "isVegetarian": true,
+            "name": "Kulfi",
+            "price": 7.72,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Ice Cream Sandwich",
-            "price": 7.17,
+            "name": "Frozen Mousse",
+            "price": 8.35,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Cake",
+            "price": 8.96,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -655,18 +655,9 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Martini",
-            "price": 10.81,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 15.31,
-            "isVegetarian": true,
+            "name": "Negroni",
+            "price": 10.24,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -674,46 +665,55 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Mojito",
-            "price": 12.84,
+            "price": 11.61,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 10.85,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 10.91,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 14.34,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Mai Tai",
-            "price": 12.87,
-            "isVegetarian": false,
-            "isVegan": true,
+            "price": 11.03,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 14.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 15.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 11.63,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 14.99,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,35 +723,8 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Merlot",
-            "price": 8.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Noir",
-            "price": 10.1,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sangiovese",
-            "price": 8.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cabernet Sauvignon",
-            "price": 12.2,
+            "name": "Viognier",
+            "price": 13.91,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -759,19 +732,46 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mourvèdre",
-            "price": 10.82,
-            "isVegetarian": false,
+            "name": "Zinfandel",
+            "price": 11.44,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Grenache",
-            "price": 11.6,
-            "isVegetarian": true,
+            "name": "Dolcetto",
+            "price": 8.81,
+            "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Syrah/Shiraz",
+            "price": 8.62,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sauvignon Blanc",
+            "price": 9.41,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roussanne",
+            "price": 13.95,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -782,17 +782,17 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Gin",
-            "price": 17.76,
+            "name": "Triple Sec",
+            "price": 14.45,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Brandy",
-            "price": 14.21,
+            "name": "Baileys Irish Cream",
+            "price": 11.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -800,8 +800,8 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Galliano",
-            "price": 17.29,
+            "name": "St-Germain",
+            "price": 17.14,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -809,17 +809,17 @@ export const parisgoldenGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Vodka",
-            "price": 15.25,
+            "name": "Campari",
+            "price": 12.01,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Triple Sec",
-            "price": 17.63,
+            "name": "Midori",
+            "price": 14.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,

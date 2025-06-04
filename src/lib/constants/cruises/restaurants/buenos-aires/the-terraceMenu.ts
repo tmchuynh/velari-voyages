@@ -12,8 +12,26 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Deluxe Baked Chef's Special Surf and Turf",
-            "price": 31.63,
+            "name": "Organic Zingy Secret Recipe Bouillabaisse",
+            "price": 33.93,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Mouthwatering Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 31.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Pan-seared Age-Old Recipe Osso Buco with Gremolata",
+            "price": 33.92,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -21,8 +39,8 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Tangy Chef’s Wild Game Selection",
-            "price": 24.89,
+            "name": "Hearty Grilled Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 30.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -30,49 +48,31 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Tender House Famous Duck Confit",
-            "price": 28.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Hearty Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 27.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Enticing Sous Vide Perfected Wagyu",
+            "name": "Handcrafted Grilled Charcoal Grilled Iberico Pork",
             "price": 33.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Premium Smoked Seasonal Tasting Menu Experience",
-            "price": 33.44,
-            "isVegetarian": false,
+            "name": "Homestyle Grilled Molecular Gastronomy Showcase Tasting",
+            "price": 34.42,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Spiced Award-Winning Seafood Boil",
-            "price": 34.07,
+            "name": "Hearty Enticing Chef's Childhood Inspired Creation",
+            "price": 26.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
@@ -80,26 +80,26 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "House Special Stuffed Tableside Flambé Preparation",
-            "price": 24.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Sizzling Seasonal Farm-to-Table Vegetable Plate",
-            "price": 26.47,
-            "isVegetarian": false,
+            "name": "Organic Tender Wild Mushroom Risotto",
+            "price": 24.44,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Creamy Sous Vide Perfection with Molecular Gastronomy Elements",
-            "price": 30.01,
+            "name": "Gourmet Delectable Truffle-Infused Filet Mignon",
+            "price": 38.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Tender Fire-Roasted Seasonal Centerpiece",
+            "price": 32.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -107,22 +107,22 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Steamed Seasonal Truffle Risotto",
-            "price": 28.74,
-            "isVegetarian": true,
+            "name": "Traditional Roasted Chef's Tasting Menu Experience",
+            "price": 39.48,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Crispy Modern Interpretation of Regional Classic",
-            "price": 32.1,
+            "name": "Authentic Fried Locally Foraged Mushroom Selection",
+            "price": 36.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -130,53 +130,17 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Classic Pan-seared Mini Empanadas",
-            "price": 9.59,
+            "name": "Traditional Grilled Hummus Platter",
+            "price": 8.4,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Steamed Potato Skins",
-            "price": 12.86,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Roasted Samosas",
-            "price": 15.77,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Golden Falafel",
-            "price": 11.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Mouthwatering Cheese Platter",
-            "price": 10.58,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Grilled Spring Rolls",
-            "price": 10.04,
+            "name": "Homestyle Tangy Stuffed Mushrooms",
+            "price": 13.74,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -184,8 +148,17 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Grilled Zucchini Fries",
-            "price": 15.03,
+            "name": "Premium Exquisite Potstickers",
+            "price": 12.66,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Wholesome Spinach Artichoke Dip",
+            "price": 13.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -193,11 +166,38 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Irresistible Stuffed Mushrooms",
-            "price": 15.32,
+            "name": "Seasonal Sweet Cheese Platter",
+            "price": 15.19,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Delicious Nachos",
+            "price": 8.56,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Luscious Garlic Knots",
+            "price": 15.55,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Juicy Falafel",
+            "price": 15.05,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -207,8 +207,17 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Handcrafted Savory Lentil Soup",
-            "price": 13.12,
+            "name": "Deluxe Mouthwatering Gazpacho",
+            "price": 7.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Comforting Mushroom Soup",
+            "price": 7.98,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -216,28 +225,19 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Comforting Vegetable Barley Soup",
-            "price": 8.56,
+            "name": "Authentic Flaky Black Bean Soup",
+            "price": 12.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Fresh Stuffed French Onion Soup",
-            "price": 11.35,
+            "name": "Organic Grilled Hot and Sour Soup",
+            "price": 12.65,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Sizzling Borscht",
-            "price": 10.48,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -248,8 +248,8 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Pasta Salad",
-            "price": 14.09,
+            "name": "Pear and Gorgonzola Salad",
+            "price": 13.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -257,17 +257,8 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Caesar Salad",
-            "price": 13.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Southwest Black Bean Salad",
-            "price": 13.97,
+            "name": "Watermelon Feta Salad",
+            "price": 9.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -276,16 +267,25 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Spinach Salad",
-            "price": 13.88,
+            "price": 15.67,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Potato Salad",
-            "price": 12.67,
+            "name": "Quinoa Salad",
+            "price": 13.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nicoise Salad",
+            "price": 10.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -298,44 +298,8 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Organic Luscious Thai Curry",
-            "price": 24.81,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Creamy Pasta Primavera",
-            "price": 20.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Herbed Enchiladas",
-            "price": 31.6,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Satisfying Pizza",
-            "price": 31.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Irresistible Shakshuka",
-            "price": 23.7,
+            "name": "Homestyle Marinated Beef Burger",
+            "price": 23.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -343,17 +307,8 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Baked Roast Duck",
-            "price": 19.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Grilled Spaghetti Bolognese",
-            "price": 31.81,
+            "name": "Seasonal Delicious Chili con Carne",
+            "price": 22.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -361,140 +316,8 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Golden Lamb Chops",
-            "price": 31.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Seafood Specialties",
-        "items": [
-          {
-            "name": "Seasonal Steamed Seafood Gumbo with Okra",
-            "price": 27.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Zesty Classic British Fish and Chips",
-            "price": 31.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Sautéed Sushi-Grade Sashimi Platter",
-            "price": 33.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Grilled Seafood Alfredo with Spinach Fettuccine",
-            "price": 33.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Spiced Seared Tuna Steak with Sesame Crust",
-            "price": 35.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Homestyle Zesty Creamed Spinach with Nutmeg",
-            "price": 6.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Grilled Homestyle Baked Beans",
-            "price": 9.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Stuffed Green Beans Almondine",
-            "price": 6.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Marinated Mashed Potatoes",
-            "price": 7.96,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Stuffed Braised Red Cabbage with Apple",
-            "price": 8.1,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Herbed Baked Idaho Potato with Sour Cream",
-            "price": 7.83,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Non-Alcoholic Beverages",
-        "items": [
-          {
-            "name": "Iced Tea",
-            "price": 5.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soda",
-            "price": 7.37,
+            "name": "Fresh Delectable Enchiladas",
+            "price": 19.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -502,8 +325,203 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coffee",
-            "price": 5.64,
+            "name": "Authentic Baked Steak",
+            "price": 18.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Herbed Stir-fry",
+            "price": 23.9,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Golden Fajitas",
+            "price": 19.03,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Spiced Lasagna",
+            "price": 19.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Spiced Bibimbap",
+            "price": 25.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "items": [
+          {
+            "name": "Authentic Marinated Blackened Mahi-Mahi with Pineapple Salsa",
+            "price": 25.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Appetizing Grilled Lobster with Lemon Butter",
+            "price": 29.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Baked Baked Cod with Lemon Caper Sauce",
+            "price": 32.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Herbed Shrimp Scampi over Linguine",
+            "price": 26.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Tangy New England Lobster Roll",
+            "price": 29.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Classic Marinated Herbed Bulgur Wheat with Lemon",
+            "price": 7.84,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Juicy Steamed Jasmine Rice",
+            "price": 5.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Stuffed Chili Lime Roasted Chickpeas",
+            "price": 7.52,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Pan-seared Flaky Cheddar and Chive Biscuits",
+            "price": 9.96,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Flaky Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 5.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Juicy Maple-Glazed Baby Carrots",
+            "price": 8.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Water",
+            "price": 4.17,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 5.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 6.52,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 4.97,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 5.86,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -512,28 +530,10 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Tea",
-            "price": 7.95,
+            "price": 7.27,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 7.96,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 5.8,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,45 +549,45 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
+            "name": "Lemon Bars",
+            "price": 7.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sticky Toffee Pudding",
+            "price": 10.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Treacle Tart",
+            "price": 6.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pumpkin Pie",
+            "price": 9.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Cheesecake",
-            "price": 6.36,
+            "price": 9.86,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Custard Tart",
-            "price": 7.64,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Donuts",
-            "price": 8.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shortbread",
-            "price": 10.36,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Scones",
-            "price": 7.65,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -599,26 +599,17 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Banana",
-            "price": 9.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Snow Cone",
-            "price": 7.25,
-            "isVegetarian": false,
+            "name": "Ice Cream Sandwich",
+            "price": 10.8,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Fruit Bars",
-            "price": 9.62,
+            "name": "Ice Cream",
+            "price": 10.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -626,8 +617,17 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Kulfi",
-            "price": 8.64,
+            "name": "Frozen Banana",
+            "price": 10.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Pudding",
+            "price": 8.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -636,10 +636,10 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Frozen Yogurt",
-            "price": 11.72,
+            "price": 10.34,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -655,27 +655,18 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Bloody Mary",
-            "price": 13.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 11.83,
+            "name": "Martini",
+            "price": 15.23,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Mojito",
-            "price": 15.12,
-            "isVegetarian": true,
+            "price": 15.25,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -683,7 +674,7 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Old Fashioned",
-            "price": 10.16,
+            "price": 13.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -691,17 +682,17 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 11.1,
+            "name": "Bloody Mary",
+            "price": 15.99,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 11.55,
+            "name": "Mai Tai",
+            "price": 14.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -710,8 +701,17 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Margarita",
-            "price": 13.19,
+            "price": 11.67,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 14.45,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -723,9 +723,18 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Roussanne",
-            "price": 10.99,
+            "name": "Merlot",
+            "price": 10.88,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Torrontés",
+            "price": 9.46,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -733,7 +742,7 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Grenache",
-            "price": 8.58,
+            "price": 12.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -741,8 +750,8 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chardonnay",
-            "price": 13.3,
+            "name": "Pinot Noir",
+            "price": 11.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -750,28 +759,19 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sauvignon Blanc",
-            "price": 11.56,
+            "name": "Tempranillo",
+            "price": 11.15,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Riesling",
-            "price": 10.5,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sangiovese",
-            "price": 11.19,
+            "name": "Verdicchio",
+            "price": 10.77,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -782,26 +782,8 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Rum",
-            "price": 16.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Anisette",
-            "price": 12.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frangelico",
-            "price": 13.78,
+            "name": "Sambuca",
+            "price": 14.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -809,18 +791,36 @@ export const buenosAirestheTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chambord",
-            "price": 16.51,
+            "name": "Scotch",
+            "price": 11.06,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Cointreau",
-            "price": 17.87,
+            "name": "Bourbon",
+            "price": 11.52,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chartreuse",
+            "price": 11.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Maraschino",
+            "price": 17.96,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

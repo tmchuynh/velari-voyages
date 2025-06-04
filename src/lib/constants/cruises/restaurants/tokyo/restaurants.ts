@@ -155,5 +155,160 @@ export const tokyoRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": false
+  },
+  {
+    "name": "Sakura Barbecue",
+    "description": "A charming French restaurant near the main square, offering fresh produce and other local favorites in a setting with beautiful decor.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "11:00-20:00",
+      "friday": "11:00-22:00",
+      "saturday": "11:00-19:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-468-2090",
+      "contactEmail": "info@frenchtokyo.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Sky Tree Garden",
+    "description": "Located close to the main square, this Chinese restaurant delights with its artisanal creations and local ambiance.",
+    "cuisine": "Chinese",
+    "priceRange": "$$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-19:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "11:00-22:00",
+      "friday": "9:00-19:00",
+      "saturday": "9:00-21:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-526-6118",
+      "contactEmail": "info@chinesetokyo.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Anime Snack Bar",
+    "description": "This popular French establishment combines traditional recipes and local ingredients, all served in a unique setting with elegant atmosphere.",
+    "cuisine": "French",
+    "priceRange": "$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "11:00-20:00",
+      "friday": "10:00-21:00",
+      "saturday": "Closed",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-475-6819",
+      "contactEmail": "info@frenchtokyo.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Neon Chophouse",
+    "description": "This popular French establishment combines traditional recipes and local ingredients, all served in a unique setting with elegant atmosphere.",
+    "cuisine": "French",
+    "priceRange": "$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "11:00-19:00",
+      "friday": "Closed",
+      "saturday": "Closed",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-131-3270",
+      "contactEmail": "info@frenchtokyo.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Neon Chophouse",
+    "description": "Experience authentic Japanese cuisine with a local twist, featuring fresh produce served in an atmosphere of friendly service overlooking the historic district.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "11:00-22:00",
+      "friday": "9:00-21:00",
+      "saturday": "11:00-19:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-461-9246",
+      "contactEmail": "info@japanesetokyo.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];

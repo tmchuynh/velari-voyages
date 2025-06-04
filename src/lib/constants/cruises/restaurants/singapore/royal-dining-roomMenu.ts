@@ -12,17 +12,26 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Gourmet Irresistible Executive Chef's Daily Inspiration Entrée",
-            "price": 24.43,
+            "name": "Premium Luscious Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 27.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Creamy Traditional Family Paella",
+            "price": 34.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Fresh Grilled Secret Recipe Bouillabaisse",
-            "price": 24.4,
+            "name": "Traditional Flaky Chef's Special Surf and Turf",
+            "price": 30.13,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -30,49 +39,40 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Roasted Chef's Special Surf and Turf",
-            "price": 24.91,
+            "name": "Hearty Smoked Seasonal Tasting Platter",
+            "price": 31.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Grilled Age-Old Recipe Osso Buco with Gremolata",
+            "price": 33.79,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Tender Local Bounty Harvest Plate (Vegetarian)",
-            "price": 34.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Grilled Flambéed Tableside Specialty",
-            "price": 32.28,
+            "name": "Premium Hearty Whole Roasted Heritage Chicken",
+            "price": 34.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Homestyle Crispy Seasonal Tasting Platter",
-            "price": 24.61,
+            "name": "Handcrafted Crispy Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 35.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Authentic Luscious Charcoal Grilled Iberico Pork",
-            "price": 32.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
           }
         ]
       },
@@ -80,17 +80,8 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Handcrafted Herbed Duck Confit with Roasted Root Vegetables",
-            "price": 24.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Herbed Chef's Tasting Menu Experience",
-            "price": 33.39,
+            "name": "Fresh Grilled Fire-Roasted Seasonal Centerpiece",
+            "price": 25.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -98,31 +89,40 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Crispy Crispy Skin Sea Bass",
-            "price": 38.89,
+            "name": "Handcrafted Wholesome Locally Foraged Mushroom Selection",
+            "price": 25.62,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Creamy Hand-Selected Wine Pairing Experience",
-            "price": 24.41,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Luscious Heritage Breed Porchetta",
-            "price": 33.47,
-            "isVegetarian": true,
+            "name": "Premium Zingy Live-Fire Grilled Feature",
+            "price": 30.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Tangy Seared Duck Breast with Cherry Reduction",
+            "price": 24.76,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Grilled Tomahawk Ribeye for Two",
+            "price": 30.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -130,17 +130,17 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Authentic Smoked Stuffed Avocado",
-            "price": 13.29,
-            "isVegetarian": false,
+            "name": "Seasonal Pan-seared Stuffed Peppers",
+            "price": 13.93,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Traditional Enticing Edamame",
-            "price": 11.71,
+            "name": "House Special Succulent Spinach Artichoke Dip",
+            "price": 8.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -148,8 +148,8 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Smoked Spinach Puffs",
-            "price": 11.47,
+            "name": "Classic Sweet Baba Ganoush",
+            "price": 9.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -157,26 +157,17 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Comforting Samosas",
-            "price": 10.7,
-            "isVegetarian": false,
+            "name": "Traditional Zesty Cheese Platter",
+            "price": 14.1,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Luscious Mini Crab Cakes",
-            "price": 11.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Fried Nachos",
-            "price": 12.13,
+            "name": "Deluxe Satisfying Deviled Eggs",
+            "price": 14.56,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -184,22 +175,31 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Zingy Calamari",
-            "price": 12.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Grilled Meatballs",
-            "price": 9.19,
+            "name": "Gourmet Steamed Bruschetta",
+            "price": 9.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Seasonal Marinated Prawn Cocktail",
+            "price": 13.81,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Stuffed Jalapeños",
+            "price": 9.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -207,8 +207,8 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Authentic Grilled Avgolemono (Greek Lemon Soup)",
-            "price": 12.01,
+            "name": "Authentic Spicy Tomato Soup",
+            "price": 11.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -216,8 +216,17 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Marinated Butternut Squash Soup",
-            "price": 12,
+            "name": "Seasonal Hearty Beef Stew",
+            "price": 9.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Zingy Split Pea Soup",
+            "price": 10.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -225,22 +234,13 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Flaky Chicken Noodle Soup",
-            "price": 12.93,
+            "name": "Gourmet Satisfying Chicken Noodle Soup",
+            "price": 13.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Herbed Gumbo",
-            "price": 7.17,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -248,26 +248,17 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
+            "name": "Farro Salad",
+            "price": 12.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Broccoli Crunch Salad",
-            "price": 9.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Greek Salad",
-            "price": 9.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caesar Salad",
-            "price": 11.53,
+            "price": 12.48,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -275,20 +266,29 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Spinach Salad",
-            "price": 13.25,
+            "name": "Cobb Salad",
+            "price": 9.43,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Southwest Black Bean Salad",
-            "price": 11.81,
-            "isVegetarian": false,
+            "name": "Watermelon Feta Salad",
+            "price": 15.86,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pear and Gorgonzola Salad",
+            "price": 14.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -298,26 +298,8 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Hearty Tangy Spaghetti Bolognese",
-            "price": 31.71,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Sweet Seafood Platter",
-            "price": 23.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Tangy Pesto Pasta",
-            "price": 30.95,
+            "name": "Hearty Enticing Enchiladas",
+            "price": 18.25,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -325,8 +307,8 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Spicy Gnocchi",
-            "price": 18.06,
+            "name": "Organic Roasted Cottage Pie",
+            "price": 29.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -334,17 +316,8 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Spiced Pho",
-            "price": 28.59,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Aromatic Tagine",
-            "price": 23.79,
+            "name": "Homestyle Creamy Chicken Parmesan",
+            "price": 22.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -352,8 +325,8 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Deluxe Spicy Katsu Curry",
-            "price": 21.31,
+            "name": "Seasonal Grilled Stir-fry",
+            "price": 25.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -361,13 +334,40 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Sautéed Lentil Stew",
-            "price": 27.76,
+            "name": "Fresh Sizzling Grilled Chicken",
+            "price": 23.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Grilled Currywurst",
+            "price": 24.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Authentic Irresistible Steak",
+            "price": 20.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Herbed Beef Wellington",
+            "price": 29.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -375,17 +375,8 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Handcrafted Comforting Classic British Fish and Chips",
-            "price": 33.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Grilled Blackened Mahi-Mahi with Pineapple Salsa",
-            "price": 29.41,
+            "name": "Classic Steamed Traditional Provençal Bouillabaisse",
+            "price": 33.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,8 +384,8 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Spicy Grilled Lobster with Lemon Butter",
-            "price": 27.82,
+            "name": "Homestyle Fried Seafood Gumbo with Okra",
+            "price": 34.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -402,8 +393,8 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Grilled Stuffed Flounder with Crab and Spinach",
-            "price": 30.07,
+            "name": "Authentic Marinated Shrimp Scampi over Linguine",
+            "price": 34.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -411,13 +402,22 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Satisfying Grilled Swordfish with Mango Chutney",
-            "price": 31.37,
+            "name": "Authentic Marinated Lemon-Herb Calamari Steak",
+            "price": 28.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Pan-seared Pan-Seared Scallops with Pea Purée",
+            "price": 24.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -425,17 +425,8 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Seasonal Sweet Buttered Egg Noodles",
-            "price": 7,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Tangy Creamy Colcannon (Irish Potato Mash)",
-            "price": 7.88,
+            "name": "Hearty Baked Corn on the Cob with Chili Lime Butter",
+            "price": 8.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -443,17 +434,8 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Wholesome Truffle Parmesan Fries",
-            "price": 9.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Exquisite Chili Lime Roasted Chickpeas",
-            "price": 9.35,
+            "name": "Classic Zesty Herbed Bulgur Wheat with Lemon",
+            "price": 9.5,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -461,22 +443,40 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Exquisite Grilled Zucchini and Peppers",
-            "price": 6.32,
-            "isVegetarian": true,
+            "name": "Premium Zingy Crispy Zucchini Fritters",
+            "price": 6.3,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Luscious French Fries",
-            "price": 9.21,
+            "name": "Authentic Irresistible Stuffed Bell Peppers with Brown Rice",
+            "price": 7.13,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Aromatic Garlic Bread with Herb Butter",
+            "price": 7.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Sizzling Roasted Root Vegetables",
+            "price": 8.17,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -484,17 +484,8 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Smoothie",
-            "price": 4.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 5.1,
+            "name": "Soda",
+            "price": 6.49,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -502,26 +493,26 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hot Chocolate",
-            "price": 5.4,
+            "name": "Smoothie",
+            "price": 4.94,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 4.26,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 7.28,
+            "name": "Milkshake",
+            "price": 6.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 7.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -530,8 +521,17 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
           },
           {
             "name": "Juice",
-            "price": 5.16,
+            "price": 5.43,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 6.54,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -549,44 +549,44 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Cannoli",
-            "price": 6.96,
+            "name": "Banana Bread",
+            "price": 7.01,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baklava",
+            "price": 7.13,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Strawberry Shortcake",
+            "price": 8.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Croissants",
+            "price": 9.84,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Custard Tart",
-            "price": 7.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cobbler",
-            "price": 10.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tiramisu",
-            "price": 9.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Danish Pastries",
-            "price": 6.99,
+            "price": 7.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,17 +599,17 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Cheesecake",
-            "price": 8.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Granita",
-            "price": 11.05,
+            "price": 11.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frosty",
+            "price": 8.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -617,17 +617,17 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gelato",
-            "price": 8.89,
+            "name": "Frozen Mousse",
+            "price": 9.39,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Yogurt",
-            "price": 7.37,
+            "name": "Frozen Custard",
+            "price": 8.4,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -635,10 +635,10 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Semifreddo",
-            "price": 10.31,
+            "name": "Baked Alaska",
+            "price": 7.53,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -655,35 +655,26 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Martini",
-            "price": 13.81,
-            "isVegetarian": false,
+            "name": "Cosmopolitan",
+            "price": 13.69,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 10.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 10.48,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 15.85,
+            "name": "Negroni",
+            "price": 10.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 13.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -692,26 +683,35 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
           },
           {
             "name": "Whiskey Sour",
-            "price": 15.96,
+            "price": 12.54,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Old Fashioned",
-            "price": 15.18,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Mai Tai",
+            "price": 14.32,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Mojito",
-            "price": 12.32,
-            "isVegetarian": true,
+            "price": 13.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 13.47,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -723,35 +723,17 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Riesling",
-            "price": 11.96,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sangiovese",
-            "price": 11.75,
+            "name": "Barbera",
+            "price": 10.63,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Pinot Noir",
-            "price": 12.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Grigio",
-            "price": 11.55,
+            "price": 8.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -759,21 +741,39 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sauvignon Blanc",
-            "price": 13.93,
-            "isVegetarian": true,
+            "name": "Vouvray",
+            "price": 13.19,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Malbec",
-            "price": 8.42,
+            "name": "Viognier",
+            "price": 12.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Syrah/Shiraz",
+            "price": 8.89,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Champagne/Sparkling Wine",
+            "price": 9.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -782,26 +782,8 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Sambuca",
-            "price": 13.85,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Scotch",
-            "price": 15.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grand Marnier",
-            "price": 12.45,
+            "name": "Anisette",
+            "price": 11.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -809,19 +791,37 @@ export const singaporeroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Absinthe",
-            "price": 11.5,
+            "name": "Cointreau",
+            "price": 17.95,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mezcal",
+            "price": 15.59,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Armagnac",
+            "price": 15.4,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Midori",
-            "price": 14.1,
+            "name": "Rum",
+            "price": 17.13,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true

@@ -12,8 +12,53 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Homestyle Creamy Restaurant's Namesake Signature Entrée",
-            "price": 27.14,
+            "name": "Seasonal Zesty Celebrity Favorite Lobster Dish",
+            "price": 31.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Sweet Seasonal Tasting Platter",
+            "price": 24.68,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Delectable Molecular Gastronomy Showcase Tasting",
+            "price": 36.3,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Crispy Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 34.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Savory Secret Recipe Bouillabaisse",
+            "price": 33.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Sweet Captain's Favorite Seafood Tower",
+            "price": 27.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -21,57 +66,12 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Smoked Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 33.32,
+            "name": "Authentic Herbed Black Garlic Glazed Beef Tenderloin",
+            "price": 37.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Flavorful Whole Roasted Heritage Chicken",
-            "price": 35.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Grilled Chef’s Wild Game Selection",
-            "price": 30.88,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Irresistible Sous Vide Perfected Wagyu",
-            "price": 34.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Flavorful Award-Winning Seafood Boil",
-            "price": 29.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Marinated Captain's Favorite Seafood Tower",
-            "price": 26.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
             "isKosher": false
           }
         ]
@@ -80,8 +80,8 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Handcrafted Sautéed Hand-Selected Wine Pairing Experience",
-            "price": 37.09,
+            "name": "Authentic Crunchy Aged and House-Cured Charcuterie Selection",
+            "price": 29.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -89,8 +89,17 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Sautéed Miso-Glazed Black Cod",
-            "price": 28.71,
+            "name": "Fresh Pan-seared Daily Fresh Catch with Seasonal Accompaniments",
+            "price": 36.53,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Sweet Black Garlic Marinated Octopus",
+            "price": 26.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -98,31 +107,22 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Marinated Chef's Tasting Menu Experience",
-            "price": 30.7,
+            "name": "Premium Irresistible Heritage Breed Porchetta",
+            "price": 25.57,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Herbed Truffle-Infused Filet Mignon",
+            "price": 24.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
-          },
-          {
-            "name": "Homestyle Sweet Lobster and Crab Stuffed Ravioli",
-            "price": 30.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Marinated Daily Fresh Catch with Seasonal Accompaniments",
-            "price": 32.89,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
@@ -130,26 +130,8 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Gourmet Grilled Prawn Cocktail",
-            "price": 15.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Grilled Dumplings",
-            "price": 13.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Herbed Baked Brie",
-            "price": 8.38,
+            "name": "Fresh Sizzling Deviled Eggs",
+            "price": 15.45,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,8 +139,26 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Braised Tempura",
-            "price": 10.49,
+            "name": "Organic Delicious Stuffed Mushrooms",
+            "price": 14.67,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Pan-seared Shrimp Cocktail",
+            "price": 10.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Smoked Mini Empanadas",
+            "price": 10.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -166,39 +166,39 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Juicy Bruschetta",
-            "price": 10.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Creamy Spinach Artichoke Dip",
-            "price": 8.22,
+            "name": "Premium Spiced Potstickers",
+            "price": 11.34,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Luscious Calamari",
-            "price": 13.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Sautéed Samosas",
-            "price": 10.62,
+            "name": "Premium Marinated Edamame",
+            "price": 11.32,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Zesty Potato Skins",
+            "price": 15.54,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Marinated Chicken Wings",
+            "price": 8.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -207,8 +207,17 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Authentic Savory Split Pea Soup",
-            "price": 9.52,
+            "name": "House Special Fried Tomato Soup",
+            "price": 11.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Succulent Lobster Bisque",
+            "price": 9.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -216,8 +225,8 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Smoked Gazpacho",
-            "price": 12.4,
+            "name": "Handcrafted Tender Mushroom Soup",
+            "price": 12.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -225,18 +234,9 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Flaky Egg Drop Soup",
-            "price": 7.31,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Juicy Thai Coconut Soup",
-            "price": 11.09,
-            "isVegetarian": true,
+            "name": "Fresh Pan-seared Chicken Corn Soup",
+            "price": 11.92,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -248,46 +248,46 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Kale Salad",
-            "price": 9.77,
+            "name": "Spinach Salad",
+            "price": 10.32,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Roasted Vegetable Salad",
-            "price": 10.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coleslaw",
-            "price": 12.29,
+            "name": "Quinoa Salad",
+            "price": 10.58,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Orzo Salad",
-            "price": 11.81,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mango Avocado Salad",
-            "price": 14.48,
+            "name": "Waldorf Salad",
+            "price": 12.79,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Arugula Salad",
+            "price": 9.52,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tabbouleh",
+            "price": 13.17,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -298,72 +298,72 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Organic Delectable Mac and Cheese",
-            "price": 21.78,
-            "isVegetarian": true,
+            "name": "Premium Enticing Quiche",
+            "price": 29.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Crispy Chili con Carne",
+            "price": 19.44,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Spiced Jambalaya",
-            "price": 27.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Tangy Tacos",
-            "price": 27.84,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Hearty Cottage Pie",
-            "price": 20.3,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Hearty Lamb Chops",
-            "price": 19.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Appetizing Seafood Platter",
-            "price": 29.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Delicious Korma",
+            "name": "Fresh Golden Fajitas",
             "price": 25.58,
-            "isVegetarian": true,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Golden Pizza",
+            "price": 24.48,
+            "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Crispy Coq au Vin",
+            "price": 27.26,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Flavorful Paella",
+            "price": 19.81,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Tender Vegetable Stir-Fry",
+            "price": 31.63,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Stuffed Quiche",
-            "price": 26.74,
-            "isVegetarian": false,
+            "name": "Handcrafted Herbed Katsu Curry",
+            "price": 23.84,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -375,35 +375,8 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Premium Luscious Grilled Swordfish with Mango Chutney",
-            "price": 32.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Spiced Classic British Fish and Chips",
-            "price": 33.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Luscious Lobster Thermidor with Gruyère Crust",
-            "price": 24.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Flavorful Oysters Rockefeller with Pernod Cream",
-            "price": 27.16,
+            "name": "Homestyle Herbed Valencian Seafood Paella",
+            "price": 33.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -411,13 +384,40 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Mouthwatering Blackened Mahi-Mahi with Pineapple Salsa",
-            "price": 24.95,
-            "isVegetarian": true,
+            "name": "Handcrafted Tangy Smoked Salmon Platter with Dill Crème",
+            "price": 22.35,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Organic Golden Grilled Swordfish with Mango Chutney",
+            "price": 34.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Tender Grilled Spanish Octopus with Smoked Paprika",
+            "price": 22.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked Prawn Curry in Coconut Masala",
+            "price": 34.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -425,43 +425,43 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Classic Enticing Fragrant Basmati Rice Pilaf",
-            "price": 9.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Sizzling Soft Polenta with Parmesan",
-            "price": 6.98,
+            "name": "Classic Stuffed Wild Rice Pilaf",
+            "price": 9.63,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Marinated Roasted Root Vegetables",
-            "price": 9.01,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Enticing Charred Broccolini with Garlic Oil",
-            "price": 6.55,
-            "isVegetarian": true,
+            "name": "Handcrafted Pan-seared Crispy Beer-Battered Onion Rings",
+            "price": 5.25,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Baked Stuffed Bell Peppers with Brown Rice",
+            "name": "Traditional Golden Green Beans Almondine",
+            "price": 5.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Spicy Truffle Parmesan Fries",
+            "price": 5.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Stuffed Garlic Bread with Herb Butter",
             "price": 7.76,
             "isVegetarian": true,
             "isVegan": false,
@@ -470,11 +470,11 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Crunchy Quinoa Pilaf with Herbs",
-            "price": 6.53,
-            "isVegetarian": true,
+            "name": "Organic Zesty Crispy Zucchini Fritters",
+            "price": 9.43,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -484,44 +484,8 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Iced Tea",
-            "price": 4.77,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 7.46,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coffee",
-            "price": 4.95,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hot Chocolate",
-            "price": 5.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 5.91,
+            "name": "Juice",
+            "price": 7.26,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -530,9 +494,45 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Smoothie",
-            "price": 4.43,
+            "price": 6.56,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 6.67,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 4.62,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 6.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 4.1,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -549,8 +549,8 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Banana Bread",
-            "price": 10.7,
+            "name": "Madeleines",
+            "price": 7.84,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,8 +558,8 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Red Velvet Cake",
-            "price": 7.09,
+            "name": "Tiramisu",
+            "price": 8.38,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -567,8 +567,8 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Baklava",
-            "price": 7.71,
+            "name": "Vanilla Cake",
+            "price": 6.86,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -576,8 +576,8 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pecan Pie",
-            "price": 9.68,
+            "name": "Berry Tart",
+            "price": 7.29,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -585,8 +585,8 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Shortbread",
-            "price": 7.79,
+            "name": "Custard Tart",
+            "price": 8.54,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,44 +599,44 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Mousse",
-            "price": 8.34,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ice Cream Sandwich",
-            "price": 10.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baked Alaska",
-            "price": 11.35,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Semifreddo",
-            "price": 8.28,
+            "name": "Kulfi",
+            "price": 10.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Popsicles",
+            "price": 7.72,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Frozen Custard",
-            "price": 9.99,
+            "price": 9.64,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Cake",
+            "price": 10.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sherbet",
+            "price": 11.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -655,8 +655,17 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Martini",
-            "price": 13.78,
+            "name": "Cosmopolitan",
+            "price": 15.29,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 14.2,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -664,8 +673,35 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 15.31,
+            "name": "Margarita",
+            "price": 12.23,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 10.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 10.42,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 10.05,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -673,47 +709,11 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 12.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 14.32,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 13.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 14.95,
+            "name": "Negroni",
+            "price": 13.89,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 11.05,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,8 +723,8 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Roussanne",
-            "price": 12.84,
+            "name": "Barbera",
+            "price": 12.8,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -732,8 +732,17 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tempranillo",
-            "price": 11.12,
+            "name": "Torrontés",
+            "price": 10.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vermentino",
+            "price": 13.4,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -741,40 +750,31 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Riesling",
-            "price": 8.17,
+            "name": "Tempranillo",
+            "price": 11.64,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fiano",
+            "price": 9.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Chenin Blanc",
-            "price": 13.13,
+            "price": 9.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Albariño",
-            "price": 8.32,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gewürztraminer",
-            "price": 10.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -782,26 +782,8 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Aquavit",
-            "price": 17.06,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Grappa",
-            "price": 10.51,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frangelico",
-            "price": 10.11,
+            "price": 15.87,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -809,8 +791,8 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grand Marnier",
-            "price": 11.66,
+            "name": "Vodka",
+            "price": 17.72,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -818,9 +800,27 @@ export const quebecCitygoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Limoncello",
-            "price": 16.51,
+            "name": "Chartreuse",
+            "price": 12.49,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bénédictine",
+            "price": 15.78,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Calvados",
+            "price": 11.16,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

@@ -12,17 +12,8 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Fresh Creamy Chef’s Wild Game Selection",
-            "price": 33.62,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Steamed Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 24.62,
+            "name": "Fresh Flavorful Age-Old Recipe Osso Buco with Gremolata",
+            "price": 34.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -30,8 +21,8 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Baked Local Bounty Harvest Plate (Vegetarian)",
-            "price": 32.74,
+            "name": "Organic Smoked Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 35.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -39,26 +30,17 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Golden Signature Truffle Pasta with Aged Pecorino",
-            "price": 30.68,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Tangy Captain's Favorite Seafood Tower",
-            "price": 25.74,
+            "name": "Authentic Smoked Japanese A5 Wagyu with Ponzu Butter",
+            "price": 37.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Homestyle Smoked Heritage Recipe Lamb Shank",
-            "price": 31.14,
+            "name": "House Special Baked Award-Winning Seafood Boil",
+            "price": 36.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -66,10 +48,28 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "House Special Tangy Sous Vide Perfected Wagyu",
-            "price": 24.13,
+            "name": "Premium Flaky Heritage Recipe Lamb Shank",
+            "price": 29.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Sweet Charcoal Grilled Iberico Pork",
+            "price": 31.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Smoked Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 31.27,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -80,8 +80,17 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "House Special Smoked Chef's Tasting Menu Experience",
-            "price": 35.77,
+            "name": "Gourmet Luscious Herb-Crusted Rack of Lamb",
+            "price": 29.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Herbed Locally Foraged Mushroom Selection",
+            "price": 27.08,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -89,17 +98,8 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Irresistible Locally Foraged Mushroom Selection",
-            "price": 25.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Sautéed House Specialty Pasta Creation",
-            "price": 28.19,
+            "name": "Deluxe Creamy Freshly Harvested Seasonal Creation",
+            "price": 31.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -107,17 +107,17 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Stuffed Miso-Glazed Black Cod",
-            "price": 33.28,
+            "name": "Homestyle Delicious Crispy Skin Sea Bass",
+            "price": 26.77,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Organic Fried Whole Animal Butchery Showcase",
-            "price": 26.65,
+            "name": "Homestyle Baked Sustainable Seafood Tower",
+            "price": 32.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -130,17 +130,35 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Handcrafted Spiced Antipasto Platter",
-            "price": 11.52,
+            "name": "Fresh Spiced Garlic Knots",
+            "price": 15.64,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Fried Stuffed Mushrooms",
+            "price": 8.44,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Juicy Bruschetta",
-            "price": 11.98,
+            "name": "Traditional Sautéed Potato Skins",
+            "price": 8.25,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Herbed Spring Rolls",
+            "price": 8.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -148,26 +166,26 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Delicious Mezze Platter",
-            "price": 11.64,
-            "isVegetarian": false,
+            "name": "Fresh Herbed Sweet Potato Fries",
+            "price": 11.87,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Sweet Calamari",
-            "price": 15.29,
-            "isVegetarian": false,
+            "name": "Classic Zingy Prawn Cocktail",
+            "price": 15.94,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Premium Succulent Hummus Platter",
-            "price": 8.73,
+            "name": "Hearty Herbed Edamame",
+            "price": 11.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -175,30 +193,12 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Hearty Lettuce Wraps",
-            "price": 9.13,
+            "name": "Handcrafted Grilled Crostini",
+            "price": 10.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Pan-seared Prawn Toast",
-            "price": 11.98,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Sautéed Chicken Satay",
-            "price": 8.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -207,8 +207,8 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Classic Fried Lobster Bisque",
-            "price": 7.18,
+            "name": "Handcrafted Pan-seared Lobster Bisque",
+            "price": 10.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -216,27 +216,27 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Deluxe Savory Butternut Squash Soup",
-            "price": 11.16,
-            "isVegetarian": true,
+            "name": "Classic Sweet Miso Soup",
+            "price": 10.31,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Sweet Broccoli Cheddar Soup",
-            "price": 12.42,
+            "name": "Fresh Crispy Zuppa Toscana",
+            "price": 9.92,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Organic Stuffed Tomato Soup",
-            "price": 11.04,
-            "isVegetarian": false,
+            "name": "Traditional Sweet Peanut Soup (West African)",
+            "price": 12.28,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -248,17 +248,8 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Tabbouleh",
-            "price": 10.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Coleslaw",
-            "price": 15.05,
+            "price": 10.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -266,8 +257,17 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Farro Salad",
-            "price": 12.77,
+            "name": "Mediterranean Chopped Salad",
+            "price": 9.29,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caprese Salad",
+            "price": 13.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -275,22 +275,22 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Arugula Salad",
-            "price": 12.27,
-            "isVegetarian": false,
+            "name": "Pear and Gorgonzola Salad",
+            "price": 12.93,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Roasted Beet and Goat Cheese Salad",
-            "price": 9.89,
+            "name": "Cobb Salad",
+            "price": 9.07,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
@@ -298,17 +298,8 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Classic Irresistible Vegetable Stir-Fry",
-            "price": 29.58,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Baked Tacos",
-            "price": 26.11,
+            "name": "Gourmet Spicy Salmon",
+            "price": 30.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -316,26 +307,26 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Tangy Currywurst",
-            "price": 26.54,
+            "name": "Homestyle Irresistible Biryani",
+            "price": 25.22,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Aromatic Currywurst",
+            "price": 24.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Smoked Eggplant Parmesan",
-            "price": 22.37,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Zesty Stuffed Zucchini Boats",
-            "price": 26.32,
+            "name": "Gourmet Crunchy Korma",
+            "price": 28.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -343,31 +334,40 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Marinated Grilled Tofu",
-            "price": 29.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Spiced Coq au Vin",
-            "price": 18.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Delicious Steak",
-            "price": 28.07,
+            "name": "Organic Mouthwatering Grilled Chicken",
+            "price": 19.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Authentic Comforting Pho",
+            "price": 22.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Sweet Vegetable Stir-Fry",
+            "price": 23.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Aromatic Beef Burger",
+            "price": 20.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -375,8 +375,17 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "House Special Smoked Seafood Gumbo with Okra",
-            "price": 31.33,
+            "name": "Gourmet Roasted Lemon-Herb Calamari Steak",
+            "price": 27.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Grilled Stuffed Flounder with Crab and Spinach",
+            "price": 34.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,26 +393,8 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seasonal Enticing Alaskan King Crab Legs with Drawn Butter",
-            "price": 23.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Grilled Grilled Lobster with Lemon Butter",
-            "price": 34.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Golden Maryland Style Crab Cakes",
-            "price": 32.19,
+            "name": "Traditional Comforting Smoked Salmon Platter with Dill Crème",
+            "price": 26.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -411,11 +402,20 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Creamy Blackened Mahi-Mahi with Pineapple Salsa",
-            "price": 28.98,
-            "isVegetarian": true,
+            "name": "Fresh Delicious Cajun Shrimp and Grits",
+            "price": 29.83,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Aromatic Hearty Italian Cioppino",
+            "price": 23.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -425,8 +425,17 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Gourmet Aromatic Charred Broccolini with Garlic Oil",
-            "price": 9.06,
+            "name": "Authentic Crunchy Mashed Potatoes",
+            "price": 7.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Flaky Provencal Ratatouille",
+            "price": 8.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,17 +443,8 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Exquisite Creamed Spinach with Nutmeg",
-            "price": 8.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Roasted Baked Idaho Potato with Sour Cream",
-            "price": 7.66,
+            "name": "Homestyle Sweet Yukon Gold Potato Gratin",
+            "price": 5.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -452,29 +452,29 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Herbed Crispy Beer-Battered Onion Rings",
-            "price": 5.36,
+            "name": "Deluxe Smoked Scalloped Potatoes with Thyme",
+            "price": 7.49,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Grilled Soft Polenta with Parmesan",
+            "price": 6.24,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Smoked Yukon Gold Potato Gratin",
-            "price": 9.67,
+            "name": "Organic Delicious Maple-Glazed Baby Carrots",
+            "price": 6.94,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Luscious Green Beans Almondine",
-            "price": 6.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -484,8 +484,8 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Smoothie",
-            "price": 7.26,
+            "name": "Coffee",
+            "price": 4.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -493,26 +493,26 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hot Chocolate",
-            "price": 6.32,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Water",
+            "price": 4.44,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 6.11,
+            "name": "Lemonade",
+            "price": 5.77,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Soda",
-            "price": 7.95,
+            "price": 4.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -521,17 +521,17 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
           },
           {
             "name": "Iced Tea",
-            "price": 7.98,
+            "price": 4.27,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coffee",
-            "price": 5.79,
-            "isVegetarian": true,
+            "name": "Juice",
+            "price": 4.42,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -549,8 +549,8 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Berry Tart",
-            "price": 8.79,
+            "name": "Danish Pastries",
+            "price": 10.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,38 +558,38 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Shortbread",
-            "price": 6.61,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Treacle Tart",
-            "price": 8.03,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baklava",
-            "price": 9.41,
+            "name": "Cobbler",
+            "price": 9.75,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Strawberry Shortcake",
+            "price": 9.76,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Pain au Chocolat",
-            "price": 10.33,
+            "price": 8.47,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Berry Tart",
+            "price": 8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -599,35 +599,17 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Ice Cream",
-            "price": 9.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ice Cream Sandwich",
-            "price": 7.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sherbet",
-            "price": 7.43,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Frozen Fruit Bars",
-            "price": 9.9,
+            "price": 11.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Cake",
+            "price": 11.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -636,7 +618,25 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
           },
           {
             "name": "Frozen Mousse",
-            "price": 10.94,
+            "price": 7.73,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Custard",
+            "price": 7.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Sandwich",
+            "price": 11.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -655,45 +655,18 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Martini",
-            "price": 10.64,
+            "name": "Bloody Mary",
+            "price": 15.14,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 11.77,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Old Fashioned",
-            "price": 10.77,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 13.3,
+            "price": 10.41,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 11.1,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -701,7 +674,25 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
           },
           {
             "name": "Cosmopolitan",
-            "price": 10.24,
+            "price": 10.35,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 14.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 12.67,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -709,8 +700,17 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 14.45,
+            "name": "Martini",
+            "price": 14.89,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 10.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -723,17 +723,17 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Malbec",
-            "price": 10.11,
-            "isVegetarian": false,
+            "name": "Petit Verdot",
+            "price": 9.81,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Petit Verdot",
-            "price": 10.88,
+            "name": "Sangiovese",
+            "price": 10.26,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -741,38 +741,38 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gamay",
-            "price": 13.51,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fiano",
-            "price": 13.55,
-            "isVegetarian": false,
+            "name": "Viognier",
+            "price": 12.75,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Champagne/Sparkling Wine",
-            "price": 8.64,
+            "name": "Cabernet Sauvignon",
+            "price": 10.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gewürztraminer",
-            "price": 9.13,
+            "name": "Grenache",
+            "price": 8.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Syrah/Shiraz",
+            "price": 12.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -782,17 +782,35 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Scotch",
-            "price": 11.48,
+            "name": "Whiskey",
+            "price": 14.22,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Whiskey",
-            "price": 17.67,
+            "name": "Tequila",
+            "price": 14.39,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frangelico",
+            "price": 12.29,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chartreuse",
+            "price": 14.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -801,28 +819,10 @@ export const singaporegoldenGrillMenu: RestaurantMenu[] = [
           },
           {
             "name": "Campari",
-            "price": 10.22,
+            "price": 13.54,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frangelico",
-            "price": 12.15,
-            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sambuca",
-            "price": 10.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

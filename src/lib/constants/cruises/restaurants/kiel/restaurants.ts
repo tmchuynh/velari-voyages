@@ -248,5 +248,160 @@ export const kielRestaurants: Restaurant[] = [
     "isReservationsAccepted": false,
     "isRomantic": true,
     "isPopular": true
+  },
+  {
+    "name": "Navy Barbecue",
+    "description": "Located close to Kiel Canal, this French restaurant delights with its Schleswig-Holstein beer and nautical decor.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "Closed",
+      "friday": "11:00-22:00",
+      "saturday": "11:00-20:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-547-2110",
+      "contactEmail": "info@frenchkiel.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Ostseekai Bistro",
+    "description": "A charming French restaurant near Kiel Fjord, offering Schleswig-Holstein beer and other local favorites in a setting with maritime atmosphere.",
+    "cuisine": "French",
+    "priceRange": "$$$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "9:00-20:00",
+      "friday": "9:00-20:00",
+      "saturday": "10:00-20:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-118-2221",
+      "contactEmail": "info@frenchkiel.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Germany Bistro",
+    "description": "A charming Mediterranean restaurant near Kiel Fjord, offering Schleswig-Holstein beer and other local favorites in a setting with traditional German beer hall.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-22:00",
+      "friday": "11:00-19:00",
+      "saturday": "Closed",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-353-2334",
+      "contactEmail": "info@mediterraneankiel.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Ostseekai Brasserie",
+    "description": "A culinary gem serving Scandinavian specialties including Labskaus, where guests enjoy traditional German beer hall in the heart of the city.",
+    "cuisine": "Scandinavian",
+    "priceRange": "$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "Closed",
+      "friday": "11:00-22:00",
+      "saturday": "11:00-19:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-467-6362",
+      "contactEmail": "info@scandinaviankiel.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Fjord Ristorante",
+    "description": "This popular French establishment combines traditional recipes and Kieler Sprotte (smoked fish), all served in a unique setting with harbor views.",
+    "cuisine": "French",
+    "priceRange": "$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-21:00",
+      "friday": "10:00-22:00",
+      "saturday": "11:00-22:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-439-3713",
+      "contactEmail": "info@frenchkiel.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
   }
 ];

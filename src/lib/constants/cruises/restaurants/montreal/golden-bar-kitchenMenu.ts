@@ -12,35 +12,8 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Homestyle Roasted Japanese A5 Wagyu with Ponzu Butter",
-            "price": 29.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Grilled Captain's Favorite Seafood Tower",
-            "price": 28.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Satisfying Seasonal Tasting Menu Experience",
-            "price": 36.29,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Spiced Dry-Aged Tomahawk Steak",
-            "price": 36.8,
+            "name": "Deluxe Aromatic Flambéed Tableside Specialty",
+            "price": 32.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -48,17 +21,26 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Steamed Signature Truffle Pasta with Aged Pecorino",
-            "price": 25.79,
-            "isVegetarian": true,
+            "name": "Classic Herbed Tableside Carved Chateaubriand",
+            "price": 29.26,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Crispy Tableside Carved Chateaubriand",
-            "price": 32.8,
+            "name": "Premium Creamy Award-Winning Seafood Boil",
+            "price": 37.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Crispy Japanese A5 Wagyu with Ponzu Butter",
+            "price": 32.3,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -66,10 +48,28 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Hearty Age-Old Recipe Osso Buco with Gremolata",
-            "price": 24.5,
+            "name": "Authentic Zesty Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 29.57,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Flavorful Seasonal Tasting Platter",
+            "price": 31.7,
+            "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Tangy Signature Truffle Pasta with Aged Pecorino",
+            "price": 33.82,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -80,47 +80,47 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Fresh Spiced Cast Iron Seafood Presentation",
-            "price": 31.33,
+            "name": "House Special Herbed Modern Interpretation of Regional Classic",
+            "price": 33.13,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Aromatic Sustainable Seafood Tower",
-            "price": 31.24,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Herbed Grilled Venison with Juniper Berry Sauce",
-            "price": 28.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Marinated Chef's Market Inspiration of the Day",
-            "price": 26.88,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Luscious Seasonal Farm-to-Table Vegetable Plate",
-            "price": 32.28,
+            "name": "Traditional Delectable Chef's Market Inspiration of the Day",
+            "price": 39.27,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Mouthwatering Volcanic Stone-Cooked Specialty",
+            "price": 35.18,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Baked Fire-Roasted Seasonal Centerpiece",
+            "price": 37.83,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Smoked Sous Vide Perfection with Molecular Gastronomy Elements",
+            "price": 24.21,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,62 +130,62 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Authentic Wholesome Stuffed Jalapeños",
-            "price": 10.56,
+            "name": "Seasonal Satisfying Spinach Artichoke Dip",
+            "price": 11.99,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Premium Smoked Shrimp Cocktail",
-            "price": 14.55,
+            "name": "Deluxe Herbed Samosas",
+            "price": 13.33,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Crunchy Mini Sliders",
+            "price": 10.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Herbed Chicken Wings",
+            "price": 11.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Handcrafted Sweet Sweet Potato Fries",
-            "price": 12.68,
+            "name": "Gourmet Comforting Mozzarella Sticks",
+            "price": 10.14,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Savory Bruschetta",
-            "price": 13.72,
+            "name": "Organic Herbed Dumplings",
+            "price": 11.66,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Crispy Edamame",
-            "price": 13.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Hearty Stuffed Peppers",
-            "price": 8.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Mouthwatering Lettuce Wraps",
-            "price": 10.57,
+            "name": "Classic Mouthwatering Baba Ganoush",
+            "price": 13.02,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -193,13 +193,13 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Delectable Samosas",
-            "price": 8.13,
-            "isVegetarian": true,
+            "name": "Fresh Delectable Tuna Tartare",
+            "price": 8.54,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -207,35 +207,35 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Seasonal Roasted Vegetable Barley Soup",
-            "price": 9.76,
+            "name": "Seasonal Zingy Split Pea Soup",
+            "price": 7.9,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Pan-seared Pho",
-            "price": 10.67,
+            "name": "Classic Satisfying Seafood Chowder",
+            "price": 9.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Herbed Gazpacho",
+            "price": 8.89,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Stuffed French Onion Soup",
-            "price": 9.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Smoked Broccoli Cheddar Soup",
-            "price": 11.85,
+            "name": "Authentic Braised Clam Chowder",
+            "price": 10.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -248,8 +248,35 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Cucumber Salad",
-            "price": 15.14,
+            "name": "Southwest Black Bean Salad",
+            "price": 12.9,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Arugula Salad",
+            "price": 9.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Salad",
+            "price": 15.05,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Asian Slaw",
+            "price": 14.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -257,37 +284,10 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Watermelon Feta Salad",
-            "price": 12.36,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mediterranean Chopped Salad",
-            "price": 13.06,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Caesar Salad",
-            "price": 14.94,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beet Salad",
-            "price": 9.49,
-            "isVegetarian": true,
-            "isVegan": false,
+            "price": 12.37,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -298,8 +298,8 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "House Special Spiced Ramen",
-            "price": 24.65,
+            "name": "Deluxe Appetizing Pasta Primavera",
+            "price": 26.78,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,53 +307,53 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Flaky Quiche",
-            "price": 27.98,
+            "name": "Gourmet Succulent Grilled Chicken",
+            "price": 24.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Tangy Pizza",
-            "price": 29.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Traditional Fried Bibimbap",
-            "price": 19.09,
-            "isVegetarian": true,
+            "name": "Authentic Sweet Salmon",
+            "price": 30.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Exquisite Quiche",
+            "price": 21.84,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Tender Fish and Chips",
-            "price": 26.52,
+            "name": "Gourmet Delectable Teriyaki Chicken",
+            "price": 26.23,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Irresistible Cottage Pie",
-            "price": 23.88,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Appetizing Korma",
-            "price": 19.23,
+            "name": "Traditional Hearty Fish and Chips",
+            "price": 19.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Spiced Steak",
+            "price": 19.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -361,13 +361,13 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Sizzling Lamb Chops",
-            "price": 18.18,
+            "name": "Premium Sizzling Tacos",
+            "price": 31.57,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
@@ -375,35 +375,26 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Classic Herbed Grilled Lobster with Lemon Butter",
-            "price": 29.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Hearty Lemon-Herb Calamari Steak",
-            "price": 25.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Juicy Traditional Provençal Bouillabaisse",
-            "price": 31.64,
+            "name": "Hearty Irresistible Traditional Provençal Bouillabaisse",
+            "price": 33.29,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Steamed Mussels Mariniere in White Wine",
-            "price": 26.77,
+            "name": "Homestyle Savory Steamed Littleneck Clams in Garlic Broth",
+            "price": 25.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Appetizing Lobster Thermidor with Gruyère Crust",
+            "price": 23.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -411,13 +402,22 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Zingy Lobster Thermidor with Gruyère Crust",
-            "price": 26.34,
+            "name": "Classic Golden Sushi-Grade Sashimi Platter",
+            "price": 29.87,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Smoked Grilled Lobster with Lemon Butter",
+            "price": 29.07,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -425,54 +425,54 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Authentic Grilled Wild Rice Pilaf",
-            "price": 9.2,
+            "name": "Hearty Sweet Mashed Potatoes",
+            "price": 8.19,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Herbed Braised Red Cabbage with Apple",
-            "price": 9.79,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Spiced Flaky Cheddar and Chive Biscuits",
-            "price": 6.82,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Satisfying Steamed Jasmine Rice",
-            "price": 8.48,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Tender Grilled Asparagus with Lemon Zest",
-            "price": 7.97,
-            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Delectable Macaroni and Aged Cheddar",
-            "price": 8.44,
+            "name": "Deluxe Tangy Sautéed Garlic Mushrooms",
+            "price": 5.74,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Flavorful Green Beans Almondine",
+            "price": 6.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Stuffed Sweet Potato Wedges with Smoked Paprika",
+            "price": 5.68,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Herbed French Fries",
+            "price": 9.93,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Creamy Flaky Cheddar and Chive Biscuits",
+            "price": 5.9,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -485,26 +485,26 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Iced Tea",
-            "price": 6.34,
-            "isVegetarian": true,
+            "price": 7.87,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Juice",
-            "price": 7.87,
-            "isVegetarian": true,
+            "price": 4.59,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Smoothie",
-            "price": 7.38,
-            "isVegetarian": true,
+            "name": "Lemonade",
+            "price": 4.67,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -512,28 +512,28 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Soda",
-            "price": 4.15,
+            "price": 7.31,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 5.57,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Milkshake",
-            "price": 4.04,
+            "name": "Tea",
+            "price": 5.61,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 5.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,8 +549,26 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Pumpkin Pie",
-            "price": 6.14,
+            "name": "Cannoli",
+            "price": 7.16,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chocolate Chip Cookies",
+            "price": 9.76,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baklava",
+            "price": 7.85,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -558,36 +576,18 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cannoli",
-            "price": 10.55,
-            "isVegetarian": false,
+            "name": "Tiramisu",
+            "price": 7.47,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Berry Tart",
-            "price": 7.89,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sticky Toffee Pudding",
-            "price": 9.86,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Carrot Cake",
-            "price": 6.77,
-            "isVegetarian": true,
+            "name": "Cheesecake",
+            "price": 6.96,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -599,35 +599,17 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
+            "name": "Frozen Pie",
+            "price": 9.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Frozen Yogurt",
-            "price": 11.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Banana",
-            "price": 9.85,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Mousse",
-            "price": 9.65,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Pudding",
-            "price": 11,
+            "price": 7.89,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -635,11 +617,29 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Paletas",
-            "price": 10.92,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Ice Cream Cake",
+            "price": 11.64,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gelato",
+            "price": 7.02,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kulfi",
+            "price": 11.5,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -655,53 +655,8 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Mojito",
-            "price": 11.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 11.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 11.38,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 10.64,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 13.84,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Negroni",
-            "price": 15.13,
+            "price": 15.1,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -710,9 +665,54 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Martini",
-            "price": 13.24,
+            "price": 13.87,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 12.37,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 10.81,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 13.26,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 13.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 12.67,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -723,35 +723,8 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Grenache",
-            "price": 8.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Cabernet Franc",
-            "price": 10.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nebbiolo",
-            "price": 9.19,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Blanc",
-            "price": 11.85,
+            "price": 12.2,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -759,8 +732,8 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Merlot",
-            "price": 9.64,
+            "name": "Pinot Grigio",
+            "price": 13.93,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -768,11 +741,38 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Champagne/Sparkling Wine",
-            "price": 11.34,
+            "name": "Vermentino",
+            "price": 11.9,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sémillon",
+            "price": 10.84,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Noir",
+            "price": 9.32,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Malbec",
+            "price": 11.52,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -782,8 +782,8 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Campari",
-            "price": 15.15,
+            "name": "Gin",
+            "price": 12.42,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -791,38 +791,38 @@ export const montrealgoldenBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Brandy",
-            "price": 12.97,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vodka",
-            "price": 12.85,
+            "name": "Grand Marnier",
+            "price": 10.9,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Kahlúa",
-            "price": 12.89,
-            "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cognac",
+            "price": 15.37,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Galliano",
+            "price": 10.98,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Calvados",
-            "price": 13.92,
-            "isVegetarian": false,
+            "name": "Coffee Liqueur",
+            "price": 13.24,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

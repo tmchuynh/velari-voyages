@@ -12,8 +12,8 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Authentic Herbed Sous Vide Perfected Wagyu",
-            "price": 24.08,
+            "name": "Classic Fried Black Garlic Glazed Beef Tenderloin",
+            "price": 24.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -21,58 +21,58 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Sizzling Heritage Recipe Lamb Shank",
-            "price": 37.93,
+            "name": "Seasonal Fried Executive Chef's Daily Inspiration Entrée",
+            "price": 29.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Golden 24-Hour Braised Short Ribs",
+            "price": 33.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Crunchy Executive Chef's Daily Inspiration Entrée",
-            "price": 24.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Crunchy Seasonal Tasting Menu Experience",
-            "price": 37.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Wholesome Charcoal Grilled Iberico Pork",
-            "price": 29.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Grilled Captain's Favorite Seafood Tower",
-            "price": 31.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Exquisite Whole Roasted Heritage Chicken",
-            "price": 26.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Deluxe Pan-seared Charcoal Grilled Iberico Pork",
+            "price": 33.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Smoked Seasonal Tasting Menu Experience",
+            "price": 24.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Satisfying Tableside Carved Chateaubriand",
+            "price": 26.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Crispy Chef’s Wild Game Selection",
+            "price": 28.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -80,35 +80,8 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Authentic Smoked Seasonal Truffle Risotto",
-            "price": 39.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Grilled Lobster Thermidor",
-            "price": 30.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Savory Grilled Venison with Juniper Berry Sauce",
-            "price": 39.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Satisfying Slow-Roasted Prime Rib",
-            "price": 26.92,
+            "name": "Traditional Smoked Fusion of Traditional and Modern Techniques",
+            "price": 32.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -116,9 +89,36 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Smoked Chef's Tasting Menu Experience",
-            "price": 34.81,
-            "isVegetarian": true,
+            "name": "Classic Smoked Tableside Flambé Preparation",
+            "price": 27.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Golden Braised Short Ribs with Red Wine Sauce",
+            "price": 28.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Tangy Custom Tasting Menu Based on Guest Preferences",
+            "price": 32.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Hearty Fire-Roasted Seasonal Centerpiece",
+            "price": 32.7,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -130,75 +130,75 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Homestyle Zesty Baked Brie",
-            "price": 11.29,
+            "name": "Authentic Fried Potstickers",
+            "price": 10.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Fresh Satisfying Garlic Bread",
-            "price": 15.34,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Delectable Deviled Eggs",
-            "price": 13.23,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Delicious Baba Ganoush",
-            "price": 12.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Grilled Potstickers",
-            "price": 13.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Smoked Calamari",
-            "price": 8.73,
+            "name": "Traditional Hearty Caprese Salad",
+            "price": 9.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Spicy Meatballs",
+            "price": 11.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Zingy Calamari",
+            "price": 9.52,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Authentic Savory Hummus Platter",
-            "price": 10.95,
+            "name": "Premium Spicy Mini Tacos",
+            "price": 10.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Comforting Onion Rings",
-            "price": 15.38,
+            "name": "Hearty Herbed Stuffed Peppers",
+            "price": 10.26,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Appetizing Prawn Toast",
+            "price": 15.65,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Steamed Zucchini Fries",
+            "price": 9.77,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -207,17 +207,17 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Fresh Smoked Chicken Noodle Soup",
-            "price": 12.23,
+            "name": "Deluxe Fried Lobster Bisque",
+            "price": 12.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Hearty Golden Zuppa Toscana",
-            "price": 7,
+            "name": "Handcrafted Aromatic Cabbage Soup",
+            "price": 12.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -225,20 +225,20 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Herbed Turkey and Wild Rice Soup",
-            "price": 10.65,
+            "name": "Deluxe Tangy Pumpkin Soup",
+            "price": 8.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Braised Split Pea Soup",
-            "price": 13.58,
-            "isVegetarian": false,
+            "name": "Homestyle Tangy Pho",
+            "price": 10.85,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -248,26 +248,26 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Mango Avocado Salad",
-            "price": 14.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nicoise Salad",
-            "price": 10.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Cobb Salad",
-            "price": 10.57,
+            "price": 13.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Watermelon Feta Salad",
+            "price": 11.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pasta Salad",
+            "price": 14.05,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -275,20 +275,20 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 9.58,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Chickpea Salad",
+            "price": 11.34,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Quinoa Salad",
-            "price": 13.73,
+            "name": "Thai Green Papaya Salad",
+            "price": 12.95,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -298,8 +298,8 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Organic Grilled Moussaka",
-            "price": 21.16,
+            "name": "Fresh Marinated Stir-fry",
+            "price": 20.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,17 +307,8 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Pan-seared Tacos",
-            "price": 23.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Succulent Spaghetti Bolognese",
-            "price": 21.91,
+            "name": "Traditional Tangy Pizza",
+            "price": 21.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -325,8 +316,17 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Stuffed Seafood Platter",
-            "price": 18.66,
+            "name": "Hearty Fried Roast Duck",
+            "price": 29.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Grilled Biryani",
+            "price": 29.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -334,8 +334,17 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Herbed Pizza",
-            "price": 19.52,
+            "name": "Hearty Aromatic Salmon",
+            "price": 24.52,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Smoked Coq au Vin",
+            "price": 21.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -343,29 +352,20 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Succulent Lentil Stew",
-            "price": 29.99,
-            "isVegetarian": false,
+            "name": "Deluxe Steamed Lentil Stew",
+            "price": 21.43,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Roasted Katsu Curry",
-            "price": 20.66,
+            "name": "Hearty Crunchy Pesto Pasta",
+            "price": 22.19,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Hearty Burrito",
-            "price": 28.19,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -375,48 +375,48 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Authentic Comforting Grilled Spanish Octopus with Smoked Paprika",
-            "price": 31.54,
+            "name": "Authentic Irresistible Grilled Lobster with Lemon Butter",
+            "price": 31.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Marinated Seared Tuna Steak with Sesame Crust",
-            "price": 31.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Sizzling Classic British Fish and Chips",
-            "price": 29.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Herbed Oysters Rockefeller with Pernod Cream",
-            "price": 22.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Authentic Grilled Smoked Salmon Platter with Dill Crème",
-            "price": 35.73,
+            "name": "Authentic Crispy Tempura Soft Shell Crab",
+            "price": 29.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Flavorful Shrimp Scampi over Linguine",
+            "price": 32.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Grilled Seared Tuna Steak with Sesame Crust",
+            "price": 33.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Hearty Crab-Stuffed Mushrooms",
+            "price": 32.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
           }
         ]
@@ -425,58 +425,58 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Gourmet Delicious Warm Buttermilk Dinner Rolls",
-            "price": 5.74,
-            "isVegetarian": false,
+            "name": "Homestyle Crispy Stuffed Bell Peppers with Brown Rice",
+            "price": 8.69,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Sweet Mashed Potatoes",
-            "price": 9.45,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Satisfying Wild Mushroom Risotto",
-            "price": 9.46,
+            "name": "Traditional Marinated Sweet Potato Wedges with Smoked Paprika",
+            "price": 6.62,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Grilled French Fries",
-            "price": 6.5,
+            "name": "Premium Grilled Braised Red Cabbage with Apple",
+            "price": 9.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Marinated Chili Lime Roasted Chickpeas",
+            "price": 9.38,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Juicy Buttered Egg Noodles",
+            "price": 9.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Soft Polenta with Parmesan",
+            "price": 9.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
-          },
-          {
-            "name": "Fresh Aromatic Israeli Couscous with Roasted Tomatoes",
-            "price": 7.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Flaky Flaky Cheddar and Chive Biscuits",
-            "price": 8.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
@@ -484,26 +484,35 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Iced Tea",
-            "price": 7.3,
+            "name": "Coffee",
+            "price": 5.98,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Juice",
-            "price": 5.38,
-            "isVegetarian": false,
+            "name": "Soda",
+            "price": 5.34,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 5.59,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hot Chocolate",
-            "price": 6.87,
+            "name": "Juice",
+            "price": 5.87,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -511,8 +520,8 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coffee",
-            "price": 7.54,
+            "name": "Hot Chocolate",
+            "price": 5.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -521,19 +530,10 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Tea",
-            "price": 5.33,
-            "isVegetarian": true,
+            "price": 4.57,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 4.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,17 +549,8 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Apple Pie",
-            "price": 9.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Berry Tart",
-            "price": 9.63,
+            "name": "Cannoli",
+            "price": 6.33,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -567,8 +558,26 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chocolate Chip Cookies",
-            "price": 6.64,
+            "name": "Muffins",
+            "price": 7.84,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cupcakes",
+            "price": 7.43,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Galette",
+            "price": 9.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -576,17 +585,8 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Treacle Tart",
-            "price": 7.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soufflé",
-            "price": 7.67,
+            "name": "Red Velvet Cake",
+            "price": 9.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,45 +599,45 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Ice Cream Cake",
-            "price": 7.19,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Fruit Bars",
-            "price": 7.89,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sorbet",
-            "price": 7.19,
+            "name": "Frozen Pie",
+            "price": 11.23,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Granita",
-            "price": 11.94,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Ice Cream",
+            "price": 11.06,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Pudding",
-            "price": 7.99,
-            "isVegetarian": true,
+            "name": "Baked Alaska",
+            "price": 9.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Custard",
+            "price": 11.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kulfi",
+            "price": 7.22,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -655,26 +655,8 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Old Fashioned",
-            "price": 14.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Whiskey Sour",
-            "price": 15.6,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 15.53,
+            "price": 11.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -682,17 +664,26 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 14.99,
+            "name": "Martini",
+            "price": 10.94,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Negroni",
-            "price": 11.55,
+            "price": 10.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 10.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -701,7 +692,16 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Margarita",
-            "price": 13.8,
+            "price": 11.9,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 15.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -709,9 +709,9 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 13.26,
-            "isVegetarian": true,
+            "name": "Old Fashioned",
+            "price": 13.53,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -723,53 +723,53 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
+            "name": "Chardonnay",
+            "price": 10.76,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vouvray",
+            "price": 13.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Blanc",
+            "price": 10.66,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Malbec",
+            "price": 10.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gamay",
+            "price": 13.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Syrah/Shiraz",
-            "price": 11.92,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sauvignon Blanc",
-            "price": 12.89,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Zinfandel",
-            "price": 10.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roussanne",
-            "price": 11.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gewürztraminer",
-            "price": 10.99,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Marsanne",
-            "price": 9.8,
+            "price": 8.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -782,8 +782,8 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Grappa",
-            "price": 16.27,
+            "name": "Maraschino",
+            "price": 11.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -791,9 +791,27 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Kahlúa",
-            "price": 11.19,
-            "isVegetarian": true,
+            "name": "Limoncello",
+            "price": 16.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Rum",
+            "price": 11.44,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "St-Germain",
+            "price": 10.18,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -801,25 +819,7 @@ export const charlestonpalmettoTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Tequila",
-            "price": 10.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vodka",
-            "price": 14.42,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Absinthe",
-            "price": 13.74,
+            "price": 16.1,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,

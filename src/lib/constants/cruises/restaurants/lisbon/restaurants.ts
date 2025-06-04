@@ -217,5 +217,160 @@ export const lisbonRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": false
+  },
+  {
+    "name": "Tagus Kitchen",
+    "description": "Located close to Jerónimos Monastery, this Mediterranean restaurant delights with its amêijoas à Bulhão Pato (clams) and azulejo-tiled walls.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "11:00-22:00",
+      "friday": "10:00-22:00",
+      "saturday": "Closed",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-834-9479",
+      "contactEmail": "info@mediterraneanlisbon.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Baixa Brasserie",
+    "description": "Located close to São Jorge Castle, this Portuguese restaurant delights with its pastéis de nata and Fado music.",
+    "cuisine": "Portuguese",
+    "priceRange": "$$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "Closed",
+      "thursday": "Closed",
+      "friday": "11:00-21:00",
+      "saturday": "9:00-19:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-249-6530",
+      "contactEmail": "info@portugueselisbon.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Atlantic Dining Room",
+    "description": "A culinary gem serving Portuguese specialties including bacalhau (salt cod), where guests enjoy traditional taverna atmosphere in the heart of the city.",
+    "cuisine": "Portuguese",
+    "priceRange": "$$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "Closed",
+      "friday": "9:00-19:00",
+      "saturday": "Closed",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-616-5620",
+      "contactEmail": "info@portugueselisbon.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Saudade Trattoria",
+    "description": "A culinary gem serving Seafood specialties including bacalhau (salt cod), where guests enjoy Fado music in the heart of the city.",
+    "cuisine": "Seafood",
+    "priceRange": "$$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "11:00-19:00",
+      "friday": "10:00-19:00",
+      "saturday": "9:00-22:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-899-5181",
+      "contactEmail": "info@seafoodlisbon.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Alfama Brasserie",
+    "description": "Located close to Alfama District, this Seafood restaurant delights with its Port wine and traditional taverna atmosphere.",
+    "cuisine": "Seafood",
+    "priceRange": "$$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "11:00-19:00",
+      "friday": "9:00-22:00",
+      "saturday": "11:00-21:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-365-9272",
+      "contactEmail": "info@seafoodlisbon.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
   }
 ];

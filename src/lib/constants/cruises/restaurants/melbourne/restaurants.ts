@@ -155,5 +155,160 @@ export const melbourneRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": true
+  },
+  {
+    "name": "Federation Room",
+    "description": "A culinary gem serving Greek specialties including lamb dishes, where guests enjoy laneway dining in the heart of the city.",
+    "cuisine": "Greek",
+    "priceRange": "$$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "9:00-20:00",
+      "friday": "10:00-20:00",
+      "saturday": "9:00-22:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-420-4248",
+      "contactEmail": "info@greekmelbourne.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Federation House",
+    "description": "Experience authentic Vietnamese cuisine with a local twist, featuring lamb dishes served in an atmosphere of multicultural influences overlooking Federation Square.",
+    "cuisine": "Vietnamese",
+    "priceRange": "$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "Closed",
+      "wednesday": "9:00-21:00",
+      "thursday": "11:00-22:00",
+      "friday": "9:00-22:00",
+      "saturday": "11:00-22:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-739-2573",
+      "contactEmail": "info@vietnamesemelbourne.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Eureka Canteen",
+    "description": "A culinary gem serving Greek specialties including Melbourne brunch, where guests enjoy hidden speakeasy atmosphere in the heart of the city.",
+    "cuisine": "Greek",
+    "priceRange": "$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "11:00-21:00",
+      "friday": "9:00-22:00",
+      "saturday": "9:00-21:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-835-2683",
+      "contactEmail": "info@greekmelbourne.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Laneway Restaurant",
+    "description": "A culinary gem serving Vietnamese specialties including Victoria wine, where guests enjoy hidden speakeasy atmosphere in the heart of the city.",
+    "cuisine": "Vietnamese",
+    "priceRange": "$$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "Closed",
+      "friday": "10:00-22:00",
+      "saturday": "10:00-20:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-269-1762",
+      "contactEmail": "info@vietnamesemelbourne.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Melbourne Bistro",
+    "description": "Experience authentic Greek cuisine with a local twist, featuring coffee culture served in an atmosphere of street art backdrops overlooking Federation Square.",
+    "cuisine": "Greek",
+    "priceRange": "$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "11:00-19:00",
+      "friday": "10:00-20:00",
+      "saturday": "11:00-19:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-573-4432",
+      "contactEmail": "info@greekmelbourne.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
   }
 ];

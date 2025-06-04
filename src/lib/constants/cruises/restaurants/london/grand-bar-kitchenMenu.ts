@@ -12,17 +12,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Seasonal Flaky Award-Winning Seafood Boil",
-            "price": 35.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Sizzling Flambéed Tableside Specialty",
-            "price": 25.26,
+            "name": "Authentic Pan-seared Dry-Aged Tomahawk Steak",
+            "price": 34.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -30,8 +21,35 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seasonal Spiced Age-Old Recipe Osso Buco with Gremolata",
-            "price": 24.49,
+            "name": "Hearty Delicious Chef's Childhood Inspired Creation",
+            "price": 27.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Creamy Whole Roasted Heritage Chicken",
+            "price": 36.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Zingy Heritage Recipe Lamb Shank",
+            "price": 35.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Spicy Seasonal Tasting Platter",
+            "price": 36.15,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -39,8 +57,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Smoked Seasonal Tasting Platter",
-            "price": 26.65,
+            "name": "Gourmet Grilled Traditional Family Paella",
+            "price": 31.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -48,29 +66,11 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Roasted Secret Recipe Bouillabaisse",
-            "price": 33.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Grilled Restaurant's Namesake Signature Entrée",
-            "price": 37.04,
-            "isVegetarian": false,
+            "name": "Handcrafted Delectable Sous Vide Perfected Wagyu",
+            "price": 35.97,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Mouthwatering Chef's Special Surf and Turf",
-            "price": 37.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -80,8 +80,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Fresh Stuffed Slow-Roasted Prime Rib",
-            "price": 34.71,
+            "name": "Fresh Hearty Locally Foraged Mushroom Selection",
+            "price": 35.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -89,40 +89,40 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Fried Locally Foraged Mushroom Selection",
-            "price": 26.45,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Pan-seared Sustainable Seafood Tower",
-            "price": 30.86,
+            "name": "House Special Fried Live-Fire Grilled Feature",
+            "price": 30.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Herbed Whole Animal Butchery Showcase",
-            "price": 25.69,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Juicy Heirloom Recipe from Chef's Family",
-            "price": 29.6,
+            "name": "Authentic Spicy Slow-Roasted Prime Rib",
+            "price": 35.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Steamed Gourmet Vegetarian Wellington",
+            "price": 35.76,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Organic Crunchy Roasted Quail with Truffle Jus",
+            "price": 36.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -130,17 +130,17 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Homestyle Satisfying Garlic Bread",
-            "price": 13.88,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Premium Braised Spinach Puffs",
+            "price": 15.4,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Creamy Tzatziki with Pita",
-            "price": 14.72,
+            "name": "Classic Satisfying Hummus Platter",
+            "price": 15.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -148,17 +148,35 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Zesty Baked Brie",
-            "price": 11.75,
-            "isVegetarian": true,
+            "name": "Hearty Sizzling Dumplings",
+            "price": 9.08,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Wholesome Caprese Salad",
+            "price": 12.03,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Enticing Nachos",
-            "price": 15.76,
+            "name": "Classic Delectable Prawn Toast",
+            "price": 15.48,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Stuffed Mini Tacos",
+            "price": 8.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -166,8 +184,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Crunchy Falafel",
-            "price": 11.3,
+            "name": "Hearty Irresistible Cheese Nachos",
+            "price": 11.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -175,27 +193,9 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Delicious Stuffed Mushrooms",
-            "price": 8.61,
+            "name": "Hearty Steamed Tempura",
+            "price": 13.43,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Juicy Potstickers",
-            "price": 12.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Creamy Zucchini Fries",
-            "price": 11.92,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -207,17 +207,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Seasonal Spicy Broccoli Cheddar Soup",
-            "price": 11.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Smoked Egg Drop Soup",
-            "price": 11.83,
+            "name": "Hearty Luscious French Onion Soup",
+            "price": 9.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -225,8 +216,17 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Hearty Thai Coconut Soup",
-            "price": 13.19,
+            "name": "Traditional Marinated Chicken Noodle Soup",
+            "price": 7.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Succulent Gumbo",
+            "price": 7.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -234,12 +234,12 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Herbed Gazpacho",
-            "price": 13.69,
-            "isVegetarian": true,
+            "name": "Authentic Grilled Lobster Bisque",
+            "price": 8.17,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -248,17 +248,26 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Caesar Salad",
-            "price": 12.18,
+            "name": "Cucumber Salad",
+            "price": 15.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spinach Salad",
+            "price": 12.97,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Greek Salad",
-            "price": 9.85,
+            "name": "Mango Avocado Salad",
+            "price": 12.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -266,8 +275,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lentil and Feta Salad",
-            "price": 14.8,
+            "name": "Chef Salad",
+            "price": 15.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -275,20 +284,11 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Caprese Salad",
-            "price": 12.23,
+            "name": "Nicoise Salad",
+            "price": 15.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Garden Salad",
-            "price": 15.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -298,73 +298,73 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Authentic Exquisite Seafood Platter",
-            "price": 22.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Smoked Pulled Pork Sandwich",
-            "price": 30.8,
+            "name": "Authentic Spiced Gnocchi",
+            "price": 23.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Traditional Succulent Ramen",
-            "price": 18.98,
+            "name": "Hearty Smoked Thai Curry",
+            "price": 19.95,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Delicious Vegetable Stir-Fry",
-            "price": 27.53,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Golden Spaghetti Bolognese",
-            "price": 23.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Wholesome Paella",
-            "price": 21.1,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Spicy Lentil Stew",
-            "price": 18.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Crispy Cottage Pie",
-            "price": 27.41,
-            "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Grilled Currywurst",
+            "price": 18.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Satisfying Tagine",
+            "price": 27.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Spicy Mac and Cheese",
+            "price": 21.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spicy Beef Wellington",
+            "price": 29.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Sweet Pulled Pork Sandwich",
+            "price": 26.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Grilled Jambalaya",
+            "price": 22.8,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -375,17 +375,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Classic Juicy Baked Cod with Lemon Caper Sauce",
-            "price": 23.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Sweet Seafood Alfredo with Spinach Fettuccine",
-            "price": 29.54,
+            "name": "Homestyle Crunchy Crab-Stuffed Mushrooms",
+            "price": 23.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,8 +384,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Steamed Crab-Stuffed Mushrooms",
-            "price": 31.78,
+            "name": "Hearty Exquisite Stuffed Flounder with Crab and Spinach",
+            "price": 25.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -402,22 +393,31 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Gourmet Steamed Basa Fillet with Dill Cream Sauce",
-            "price": 25.2,
+            "name": "Gourmet Spiced Pan-Seared Scallops with Pea Purée",
+            "price": 24.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Exquisite Shrimp Scampi over Linguine",
+            "price": 25.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Herbed Basa Fillet with Dill Cream Sauce",
+            "price": 24.81,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Handcrafted Golden Oysters Rockefeller with Pernod Cream",
-            "price": 35.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
           }
         ]
       },
@@ -425,8 +425,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Authentic Sweet Wild Rice Pilaf",
-            "price": 6.21,
+            "name": "Premium Flaky Scalloped Potatoes with Thyme",
+            "price": 5.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,8 +434,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Marinated Steamed Jasmine Rice",
-            "price": 6.93,
+            "name": "Hearty Sweet Provencal Ratatouille",
+            "price": 9.23,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -443,38 +443,38 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Hearty Grilled Asparagus with Lemon Zest",
-            "price": 5.2,
-            "isVegetarian": false,
+            "name": "Fresh Delicious Macaroni and Aged Cheddar",
+            "price": 8.71,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Satisfying Green Beans Almondine",
-            "price": 8.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Flaky Roasted Root Vegetables",
-            "price": 9.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Zingy Sweet Corn and Cheddar Fritters",
-            "price": 7.84,
+            "name": "Deluxe Irresistible French Fries",
+            "price": 7.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Creamy Mashed Potatoes",
+            "price": 7.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spiced Buttered Egg Noodles",
+            "price": 7.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -484,8 +484,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Coffee",
-            "price": 5.91,
+            "name": "Smoothie",
+            "price": 5.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -493,18 +493,9 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 6.89,
+            "name": "Coffee",
+            "price": 5.74,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 6.97,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -512,28 +503,37 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Water",
-            "price": 7.15,
-            "isVegetarian": true,
+            "price": 5.78,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 5.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 4.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Juice",
-            "price": 6.65,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 6.15,
+            "price": 5.19,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,8 +549,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Berry Tart",
-            "price": 7.49,
+            "name": "Portuguese Custard Tarts",
+            "price": 10.55,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,38 +558,38 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Apple Pie",
-            "price": 7.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Danish Pastries",
-            "price": 10.35,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Biscotti",
-            "price": 8.16,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cannoli",
-            "price": 9.66,
+            "name": "Brownies",
+            "price": 6.48,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Scones",
+            "price": 6.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pain au Chocolat",
+            "price": 8.55,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cinnamon Rolls",
+            "price": 10.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -599,17 +599,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Pie",
-            "price": 9.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Semifreddo",
-            "price": 11.6,
+            "price": 8.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -617,8 +608,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Baked Alaska",
-            "price": 10.71,
+            "name": "Frozen Banana",
+            "price": 11.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -626,20 +617,29 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ice Cream",
-            "price": 8.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gelato",
-            "price": 10.46,
+            "name": "Frozen Mousse",
+            "price": 7.5,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Fruit Bars",
+            "price": 7.69,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Pie",
+            "price": 11.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -655,17 +655,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Manhattan",
-            "price": 15.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 12.77,
+            "name": "Martini",
+            "price": 14.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -673,8 +664,26 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 15.61,
+            "name": "Manhattan",
+            "price": 14.02,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 11.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 15.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -683,7 +692,7 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Whiskey Sour",
-            "price": 10.24,
+            "price": 12.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -691,28 +700,19 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Old Fashioned",
-            "price": 14.94,
+            "name": "Negroni",
+            "price": 11.82,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 13.74,
-            "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 14.78,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Old Fashioned",
+            "price": 11.69,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -723,8 +723,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Tempranillo",
-            "price": 8.15,
+            "name": "Nebbiolo",
+            "price": 8.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -732,8 +732,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pinot Grigio",
-            "price": 9.89,
+            "name": "Chardonnay",
+            "price": 9.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -741,38 +741,38 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sangiovese",
-            "price": 9.81,
-            "isVegetarian": true,
+            "name": "Sauvignon Blanc",
+            "price": 12.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Riesling",
+            "price": 13.93,
+            "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Prosecco",
-            "price": 13.05,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nebbiolo",
-            "price": 9.69,
-            "isVegetarian": true,
+            "price": 11.47,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Viognier",
-            "price": 13.32,
-            "isVegetarian": false,
+            "name": "Syrah/Shiraz",
+            "price": 9.87,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -782,8 +782,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Anisette",
-            "price": 10.44,
+            "name": "Vodka",
+            "price": 15.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -791,8 +791,17 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Triple Sec",
-            "price": 10.6,
+            "name": "Coffee Liqueur",
+            "price": 12.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Calvados",
+            "price": 11.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -800,8 +809,8 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Drambuie",
-            "price": 13.36,
+            "name": "Pisco",
+            "price": 16.91,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -809,18 +818,9 @@ export const londongrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Whiskey",
-            "price": 10.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Galliano",
-            "price": 14.98,
-            "isVegetarian": false,
+            "name": "Gin",
+            "price": 16.68,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

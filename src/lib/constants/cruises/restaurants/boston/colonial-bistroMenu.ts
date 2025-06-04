@@ -12,8 +12,53 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Deluxe Sweet Local Bounty Harvest Plate (Vegetarian)",
-            "price": 25.85,
+            "name": "Homestyle Sweet Age-Old Recipe Osso Buco with Gremolata",
+            "price": 33.82,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Chef's Special Surf and Turf",
+            "price": 26.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Steamed Japanese A5 Wagyu with Ponzu Butter",
+            "price": 27.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Steamed Signature Truffle Pasta with Aged Pecorino",
+            "price": 26.83,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Luscious Heritage Recipe Lamb Shank",
+            "price": 30.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Creamy Secret Recipe Bouillabaisse",
+            "price": 30.9,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -21,57 +66,12 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Grilled Charcoal Grilled Iberico Pork",
-            "price": 25.49,
+            "name": "Gourmet Flavorful Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 32.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Pan-seared Award-Winning Seafood Boil",
-            "price": 36.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Sweet Seasonal Tasting Menu Experience",
-            "price": 37.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Wholesome Traditional Family Paella",
-            "price": 27.82,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Exquisite Flambéed Tableside Specialty",
-            "price": 37.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Crispy Secret Recipe Bouillabaisse",
-            "price": 33.49,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -80,8 +80,8 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Fresh Delicious Modern Interpretation of Regional Classic",
-            "price": 38.49,
+            "name": "Premium Creamy Seasonal Farm-to-Table Vegetable Plate",
+            "price": 35.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -89,26 +89,17 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Grilled Tableside Flambé Preparation",
-            "price": 33.42,
-            "isVegetarian": false,
+            "name": "Gourmet Braised Sous Vide Perfection with Molecular Gastronomy Elements",
+            "price": 39.35,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Tender Special Occasion Celebratory Dish",
-            "price": 35.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Succulent Black Garlic Marinated Octopus",
-            "price": 31.48,
+            "name": "Classic Enticing Sustainable Seafood Tower",
+            "price": 29.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -116,13 +107,22 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Fried Heritage Breed Porchetta",
-            "price": 38.6,
+            "name": "Deluxe Sweet Duck Confit with Roasted Root Vegetables",
+            "price": 38.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Spicy Smoked and Slow-Roasted Heritage Meat",
+            "price": 39.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -130,62 +130,35 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Fresh Sautéed Bruschetta",
-            "price": 8.77,
+            "name": "Authentic Herbed Potato Skins",
+            "price": 15.1,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Satisfying Bruschetta",
+            "price": 11.94,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Golden Tempura",
-            "price": 13.77,
+            "name": "Organic Delicious Arancini",
+            "price": 15.91,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Golden Cheese Platter",
-            "price": 14.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Sautéed Stuffed Jalapeños",
-            "price": 15.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Spicy Ceviche",
-            "price": 10.6,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Comforting Mini Quesadillas",
-            "price": 8.37,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Tangy Garlic Knots",
-            "price": 14.7,
+            "name": "Seasonal Hearty Mezze Platter",
+            "price": 15.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -193,9 +166,36 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Crispy Mezze Platter",
-            "price": 14.94,
+            "name": "Gourmet Hearty Garlic Bread",
+            "price": 9.04,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Mouthwatering Cheese Nachos",
+            "price": 12.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spicy Caprese Salad",
+            "price": 10.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Steamed Spinach Artichoke Dip",
+            "price": 12.71,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -207,37 +207,37 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Fresh Irresistible Beef Stew",
-            "price": 8.3,
+            "name": "Traditional Enticing Borscht",
+            "price": 9.19,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Stuffed Borscht",
-            "price": 7.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Savory Thai Coconut Soup",
-            "price": 10.17,
+            "name": "Deluxe Braised Thai Coconut Soup",
+            "price": 11.58,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Stuffed Gazpacho",
+            "price": 7.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Fresh Savory Clam Chowder",
-            "price": 10.65,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Hearty Grilled Vegetable Barley Soup",
+            "price": 9.75,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -248,35 +248,8 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Mediterranean Chopped Salad",
-            "price": 9.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nicoise Salad",
-            "price": 15.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cobb Salad",
-            "price": 11.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Thai Green Papaya Salad",
-            "price": 9.19,
+            "name": "Watermelon Feta Salad",
+            "price": 14.93,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -284,8 +257,35 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Kale Salad",
-            "price": 10.38,
+            "name": "Pear and Gorgonzola Salad",
+            "price": 14.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Farro Salad",
+            "price": 12.81,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Southwest Black Bean Salad",
+            "price": 12.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Quinoa Salad",
+            "price": 15.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -298,8 +298,17 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Authentic Steamed Thai Curry",
-            "price": 25.39,
+            "name": "Authentic Steamed Lentil Stew",
+            "price": 23.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Tangy Teriyaki Chicken",
+            "price": 30.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,17 +316,8 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Spiced Stir-fry",
-            "price": 18.83,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Mouthwatering Biryani",
-            "price": 27.88,
+            "name": "Hearty Sweet Fajitas",
+            "price": 18.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -325,26 +325,26 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Sizzling Korma",
-            "price": 24.08,
-            "isVegetarian": true,
+            "name": "Gourmet Spiced Eggplant Parmesan",
+            "price": 30.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Grilled Enchiladas",
+            "price": 30.49,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Juicy Teriyaki Chicken",
-            "price": 19.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Grilled Chicken Parmesan",
-            "price": 19.37,
+            "name": "Authentic Appetizing Grilled Tofu",
+            "price": 28.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -352,8 +352,8 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Roasted Cottage Pie",
-            "price": 21.08,
+            "name": "Hearty Crunchy Tagine",
+            "price": 26.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -361,13 +361,13 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Hearty Salmon",
-            "price": 28.67,
+            "name": "Fresh Baked Lasagna",
+            "price": 21.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
@@ -375,8 +375,8 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Handcrafted Pan-seared Valencian Seafood Paella",
-            "price": 32.62,
+            "name": "Traditional Smoked Oysters Rockefeller with Pernod Cream",
+            "price": 32.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,39 +384,39 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Premium Sautéed Cedar Plank Roasted Salmon",
-            "price": 32.66,
+            "name": "Homestyle Mouthwatering Pan-Seared Scallops with Pea Purée",
+            "price": 25.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Sweet Steamed Littleneck Clams in Garlic Broth",
-            "price": 32.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Hearty Pan-Seared Scallops with Pea Purée",
-            "price": 25.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Smoked Alaskan King Crab Legs with Drawn Butter",
-            "price": 34.49,
+            "name": "Homestyle Roasted Linguine with Clam Sauce",
+            "price": 35.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Delicious Hearty Italian Cioppino",
+            "price": 30.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Delicious Crab-Stuffed Mushrooms",
+            "price": 25.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": false
           }
         ]
@@ -425,17 +425,8 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "House Special Roasted Wild Mushroom Risotto",
-            "price": 9.69,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Succulent Cauliflower Gratin with Gruyère",
-            "price": 5.66,
+            "name": "Homestyle Exquisite Green Beans Almondine",
+            "price": 9.04,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -443,17 +434,35 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Golden Creamed Spinach with Nutmeg",
-            "price": 6.39,
+            "name": "Seasonal Braised Herbed Bulgur Wheat with Lemon",
+            "price": 7.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Tender Mashed Potatoes",
+            "price": 9.32,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Creamy Grilled Zucchini and Peppers",
+            "price": 6.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Classic Spicy Macaroni and Aged Cheddar",
-            "price": 9.56,
+            "name": "Premium Wholesome Sweet Corn and Cheddar Fritters",
+            "price": 8.17,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -461,17 +470,8 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Pan-seared Buttered Egg Noodles",
-            "price": 5.09,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Grilled Grilled Asparagus with Lemon Zest",
-            "price": 8.87,
+            "name": "Premium Pan-seared Provencal Ratatouille",
+            "price": 7.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -484,53 +484,53 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Hot Chocolate",
-            "price": 6.59,
+            "name": "Coffee",
+            "price": 6.02,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 7.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 6.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 5.43,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 7.79,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Juice",
-            "price": 6.88,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 4.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coffee",
-            "price": 7.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 6.27,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 7.91,
+            "price": 5.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -549,8 +549,26 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Red Velvet Cake",
-            "price": 7.65,
+            "name": "Portuguese Custard Tarts",
+            "price": 6.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Madeleines",
+            "price": 9.04,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Muffins",
+            "price": 7.69,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,8 +576,8 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cupcakes",
-            "price": 8.79,
+            "name": "Strawberry Shortcake",
+            "price": 8.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -567,26 +585,8 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pecan Pie",
-            "price": 10.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Banana Bread",
-            "price": 8.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tiramisu",
-            "price": 9.25,
+            "name": "Vanilla Cake",
+            "price": 9.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,8 +599,8 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Granita",
-            "price": 9.79,
+            "name": "Baked Alaska",
+            "price": 11.01,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -609,16 +609,25 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
           },
           {
             "name": "Frozen Custard",
-            "price": 7.84,
-            "isVegetarian": false,
+            "price": 9.88,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gelato",
+            "price": 8.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Frozen Pudding",
-            "price": 11.25,
+            "price": 9.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -626,20 +635,11 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sherbet",
-            "price": 10.91,
+            "name": "Ice Cream Cake",
+            "price": 11.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baked Alaska",
-            "price": 8.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -655,8 +655,35 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
+            "name": "Martini",
+            "price": 13.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 15.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Whiskey Sour",
-            "price": 13.34,
+            "price": 15.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 12.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -665,44 +692,8 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
           },
           {
             "name": "Mojito",
-            "price": 11.82,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 12.71,
+            "price": 15.41,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 13.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 13.8,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 14.49,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -710,7 +701,16 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
           },
           {
             "name": "Margarita",
-            "price": 15.29,
+            "price": 11.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 12.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -724,7 +724,7 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Pinot Grigio",
-            "price": 12.4,
+            "price": 8.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -733,25 +733,7 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
           },
           {
             "name": "Cabernet Sauvignon",
-            "price": 11.45,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cabernet Franc",
-            "price": 13.6,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Verdicchio",
-            "price": 10.67,
+            "price": 8.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -759,19 +741,37 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gewürztraminer",
-            "price": 13,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Syrah/Shiraz",
+            "price": 8.43,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Merlot",
-            "price": 9.66,
-            "isVegetarian": true,
+            "name": "Sangiovese",
+            "price": 12.18,
+            "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Prosecco",
+            "price": 9.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grenache",
+            "price": 8.98,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -782,17 +782,8 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Mezcal",
-            "price": 16.71,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sambuca",
-            "price": 13.53,
+            "name": "Scotch",
+            "price": 12.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -800,27 +791,36 @@ export const bostoncolonialBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chambord",
-            "price": 11.28,
+            "name": "Vodka",
+            "price": 16.02,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Baileys Irish Cream",
-            "price": 15.84,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Rum",
-            "price": 13.75,
-            "isVegetarian": true,
+            "name": "Brandy",
+            "price": 12.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "St-Germain",
+            "price": 10.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Armagnac",
+            "price": 16.95,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

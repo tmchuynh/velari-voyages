@@ -12,8 +12,44 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Traditional Enticing Flambéed Tableside Specialty",
-            "price": 35.28,
+            "name": "Fresh Roasted Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 34.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Succulent Flambéed Tableside Specialty",
+            "price": 32.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Aromatic House Famous Duck Confit",
+            "price": 33.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Grilled Whole Roasted Heritage Chicken",
+            "price": 28.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Succulent Molecular Gastronomy Showcase Tasting",
+            "price": 32.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -21,53 +57,17 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Golden Local Bounty Harvest Plate (Vegetarian)",
-            "price": 35.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Marinated Executive Chef's Daily Inspiration Entrée",
-            "price": 25.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Roasted Celebrity Favorite Lobster Dish",
-            "price": 27.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Grilled Traditional Family Paella",
-            "price": 29.09,
+            "name": "Gourmet Zesty Founder's Family Recipe Pasta",
+            "price": 31.86,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Sweet Wood-Fired Peking Duck with Plum Sauce",
-            "price": 37.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Stuffed Legendary Prime Rib",
-            "price": 26.86,
+            "name": "Homestyle Wholesome Chef's Childhood Inspired Creation",
+            "price": 35.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -80,76 +80,17 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Handcrafted Creamy Chef's Childhood Favorite Reimagined",
-            "price": 31.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Spicy House Specialty Pasta Creation",
-            "price": 30.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Roasted Seared Foie Gras with Fig Compote",
-            "price": 33.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Sizzling Charcoal-Grilled Wagyu Beef",
-            "price": 26.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Sweet Sous Vide Pork Tenderloin",
-            "price": 26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Appetizers",
-        "items": [
-          {
-            "name": "Seasonal Crispy Mezze Platter",
-            "price": 10.41,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Organic Wholesome Hand-Selected Wine Pairing Experience",
+            "price": 35.03,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Grilled Bruschetta",
-            "price": 14.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Herbed Ceviche",
-            "price": 8.58,
+            "name": "Hearty Smoked Locally Foraged Mushroom Selection",
+            "price": 33.35,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,17 +98,58 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Creamy Tuna Tartare",
-            "price": 12.54,
+            "name": "Premium Delicious Sous Vide Perfection with Molecular Gastronomy Elements",
+            "price": 28.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Organic Succulent Prawn Toast",
-            "price": 10.65,
+            "name": "Hearty Luscious Slow-Roasted Prime Rib",
+            "price": 26.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Fried Sous Vide Pork Tenderloin",
+            "price": 28.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Appetizers",
+        "items": [
+          {
+            "name": "Premium Comforting Prawn Cocktail",
+            "price": 12.4,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Zingy Cheese Nachos",
+            "price": 9.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Roasted Ceviche",
+            "price": 10.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -175,30 +157,48 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Crunchy Dumplings",
-            "price": 15.97,
+            "name": "Authentic Luscious Mini Sliders",
+            "price": 13.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Zingy Falafel",
-            "price": 11.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Creamy Mini Empanadas",
-            "price": 14.86,
+            "name": "Gourmet Flaky Caprese Salad",
+            "price": 14.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Grilled Mini Quesadillas",
+            "price": 10.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Pan-seared Garlic Knots",
+            "price": 11,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sizzling Spinach Puffs",
+            "price": 15.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -207,8 +207,8 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Deluxe Marinated Zuppa Toscana",
-            "price": 13.11,
+            "name": "Deluxe Grilled Avgolemono (Greek Lemon Soup)",
+            "price": 7.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -216,27 +216,27 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Flaky Chicken Noodle Soup",
-            "price": 10.15,
+            "name": "Deluxe Luscious Corn Chowder",
+            "price": 11.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Succulent Split Pea Soup",
+            "price": 13.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Premium Delectable Seafood Chowder",
-            "price": 11.5,
+            "name": "Handcrafted Stuffed Butternut Squash Soup",
+            "price": 10.67,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Luscious Thai Coconut Soup",
-            "price": 8.79,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -248,17 +248,35 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Southwest Black Bean Salad",
-            "price": 14.86,
-            "isVegetarian": true,
+            "name": "Avocado Corn Salad",
+            "price": 15.46,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Asian Slaw",
+            "price": 13.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 12.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Fruit Salad",
-            "price": 12.62,
+            "price": 12.34,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -266,28 +284,10 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mediterranean Chopped Salad",
-            "price": 12.04,
+            "name": "Caesar Salad",
+            "price": 11.12,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Waldorf Salad",
-            "price": 9.81,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Arugula Salad",
-            "price": 10.62,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -298,26 +298,26 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Traditional Stuffed Salmon",
-            "price": 19.64,
+            "name": "Traditional Grilled Teriyaki Chicken",
+            "price": 20.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Premium Zesty Stuffed Zucchini Boats",
-            "price": 23.11,
+            "name": "Gourmet Crispy Burrito",
+            "price": 21.49,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Zingy Risotto",
-            "price": 22.57,
+            "name": "Fresh Delectable Cottage Pie",
+            "price": 20.46,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -325,8 +325,8 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Spiced Thai Curry",
-            "price": 24.79,
+            "name": "Premium Crunchy Stuffed Peppers",
+            "price": 31.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -334,17 +334,8 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Marinated Gnocchi",
-            "price": 26.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Grilled Biryani",
-            "price": 30.69,
+            "name": "Hearty Delectable Fajitas",
+            "price": 25.79,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,8 +343,40 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Crunchy Teriyaki Chicken",
-            "price": 30.05,
+            "name": "Hearty Spicy Beef Burger",
+            "price": 21.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Crunchy Steak",
+            "price": 24.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Crispy Vegetable Stir-Fry",
+            "price": 22.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "items": [
+          {
+            "name": "Deluxe Marinated Stuffed Flounder with Crab and Spinach",
+            "price": 34.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -361,8 +384,94 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Fried Ramen",
-            "price": 31.09,
+            "name": "Handcrafted Pan-seared Maryland Style Crab Cakes",
+            "price": 32.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Spiced Classic British Fish and Chips",
+            "price": 24.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Tangy Oysters Rockefeller with Pernod Cream",
+            "price": 31.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Exquisite Baked Cod with Lemon Caper Sauce",
+            "price": 23.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Premium Aromatic Steamed Jasmine Rice",
+            "price": 8.17,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Mouthwatering Warm Buttermilk Dinner Rolls",
+            "price": 9.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Luscious Stuffed Bell Peppers with Brown Rice",
+            "price": 9.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Hearty Crispy Zucchini Fritters",
+            "price": 6.76,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Stuffed Sweet Corn and Cheddar Fritters",
+            "price": 7.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Wholesome Yukon Gold Potato Gratin",
+            "price": 5.46,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -372,147 +481,11 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Seafood Specialties",
-        "items": [
-          {
-            "name": "Handcrafted Golden Baked Cod with Lemon Caper Sauce",
-            "price": 23.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Enticing Traditional Provençal Bouillabaisse",
-            "price": 26.43,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Succulent Seafood Risotto with Saffron",
-            "price": 34.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Baked Miso-Marinated Chilean Sea Bass",
-            "price": 29.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Herbed Alaskan King Crab Legs with Drawn Butter",
-            "price": 26.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Traditional Flaky Fragrant Basmati Rice Pilaf",
-            "price": 9.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Zesty Mashed Potatoes",
-            "price": 7.66,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Irresistible Garlic Bread with Herb Butter",
-            "price": 5.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Aromatic Crispy Beer-Battered Onion Rings",
-            "price": 5.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Smoked Sautéed Garlic Mushrooms",
-            "price": 5.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Delicious French Fries",
-            "price": 8.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          }
-        ]
-      },
-      {
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Juice",
-            "price": 5.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 5.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 4.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hot Chocolate",
-            "price": 4.89,
+            "name": "Coffee",
+            "price": 5.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -521,7 +494,16 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
           },
           {
             "name": "Smoothie",
-            "price": 7.82,
+            "price": 4.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 5.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,10 +511,28 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 7.7,
+            "name": "Tea",
+            "price": 4.95,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 7.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 4.98,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -549,47 +549,47 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Eclairs",
-            "price": 6.03,
+            "name": "Cheesecake",
+            "price": 7.94,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cannoli",
+            "price": 10.49,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Macarons",
+            "price": 6.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cinnamon Rolls",
+            "price": 6.7,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Eclairs",
+            "price": 6.55,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemon Bars",
-            "price": 7.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Banana Bread",
-            "price": 10.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Brownies",
-            "price": 6.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pain au Chocolat",
-            "price": 10.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -599,8 +599,8 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Banana",
-            "price": 11.71,
+            "name": "Frozen Mousse",
+            "price": 9.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -608,17 +608,8 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frosty",
-            "price": 7.49,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ice Cream",
-            "price": 11.65,
+            "name": "Frozen Custard",
+            "price": 10.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -627,16 +618,25 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
           },
           {
             "name": "Frozen Yogurt",
-            "price": 11.77,
+            "price": 7.72,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Ice Cream Sandwich",
-            "price": 11.51,
+            "name": "Frozen Pudding",
+            "price": 8.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sherbet",
+            "price": 9.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -655,26 +655,8 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Negroni",
-            "price": 15.64,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Martini",
-            "price": 13.98,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 13.67,
+            "price": 12.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -682,8 +664,8 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 12.85,
+            "name": "Mai Tai",
+            "price": 13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -691,18 +673,27 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 15.26,
+            "name": "Margarita",
+            "price": 12.49,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Cosmopolitan",
-            "price": 15.82,
-            "isVegetarian": false,
+            "price": 15.23,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 13.49,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -710,10 +701,19 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
           },
           {
             "name": "Old Fashioned",
-            "price": 11.41,
-            "isVegetarian": true,
+            "price": 12.14,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 10.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,8 +723,8 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Torrontés",
-            "price": 10.28,
+            "name": "Moscato",
+            "price": 8.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -732,18 +732,9 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Barbera",
-            "price": 12.77,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Zinfandel",
-            "price": 8.54,
-            "isVegetarian": false,
+            "name": "Grenache",
+            "price": 9.77,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -751,28 +742,37 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
           },
           {
             "name": "Petit Verdot",
-            "price": 8.92,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gewürztraminer",
-            "price": 12.2,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Viognier",
-            "price": 13.92,
+            "price": 11.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mourvèdre",
+            "price": 9.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Grigio",
+            "price": 11.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Dolcetto",
+            "price": 8.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -782,8 +782,17 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Bourbon",
-            "price": 12.56,
+            "name": "Rum",
+            "price": 13.93,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Amaretto",
+            "price": 12.43,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -791,17 +800,8 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Rum",
-            "price": 13.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grappa",
-            "price": 13.72,
+            "name": "Scotch",
+            "price": 16.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -810,19 +810,19 @@ export const newOrleansgoldenTavernMenu: RestaurantMenu[] = [
           },
           {
             "name": "Gin",
-            "price": 12.56,
+            "price": 14.23,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coffee Liqueur",
-            "price": 13.61,
-            "isVegetarian": false,
+            "name": "Maraschino",
+            "price": 15.51,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

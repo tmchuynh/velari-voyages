@@ -12,8 +12,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Deluxe Comforting Seasonal Tasting Menu Experience",
-            "price": 27.63,
+            "name": "Gourmet Flaky Chef's Special Surf and Turf",
+            "price": 33.92,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -21,17 +21,17 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Irresistible Japanese A5 Wagyu with Ponzu Butter",
-            "price": 34.65,
-            "isVegetarian": true,
+            "name": "Classic Braised Seasonal Tasting Menu Experience",
+            "price": 27.17,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Tender Whole Roasted Heritage Chicken",
-            "price": 26.31,
+            "name": "Authentic Golden Executive Chef's Daily Inspiration Entrée",
+            "price": 26.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -39,17 +39,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Aromatic Signature Truffle Pasta with Aged Pecorino",
-            "price": 33.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Luscious Black Garlic Glazed Beef Tenderloin",
-            "price": 35.42,
+            "name": "Hearty Appetizing Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 31.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -57,18 +48,27 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seasonal Mouthwatering Age-Old Recipe Osso Buco with Gremolata",
-            "price": 27.12,
+            "name": "Seasonal Spiced Captain's Favorite Seafood Tower",
+            "price": 26.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Stuffed Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 31.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Authentic Fried Tableside Carved Chateaubriand",
-            "price": 32.76,
-            "isVegetarian": false,
+            "name": "Homestyle Mouthwatering Local Bounty Harvest Plate (Vegetarian)",
+            "price": 32.69,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -80,17 +80,26 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Hearty Juicy Volcanic Stone-Cooked Specialty",
-            "price": 29.16,
-            "isVegetarian": true,
+            "name": "Deluxe Tender Cold-Smoked Delicacy",
+            "price": 35.17,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Flaky Off-Menu Secret Preparation",
+            "price": 39.5,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Fried Tableside Flambé Preparation",
-            "price": 24.04,
+            "name": "Handcrafted Smoked Herb-Crusted Rack of Lamb",
+            "price": 28.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -98,31 +107,22 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Wholesome Truffle-Infused Filet Mignon",
-            "price": 34.57,
+            "name": "Authentic Flavorful Whole Animal Butchery Showcase",
+            "price": 27.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Luscious Tasting of Local Artisanal Cheeses",
+            "price": 35.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
-          },
-          {
-            "name": "Gourmet Pan-seared Chef's Tasting Menu Experience",
-            "price": 32.11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Tangy Heritage Breed Porchetta",
-            "price": 24.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
@@ -130,8 +130,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Gourmet Marinated Garlic Knots",
-            "price": 15.76,
+            "name": "Fresh Savory Garlic Bread",
+            "price": 8.87,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -139,8 +139,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Delectable Nachos",
-            "price": 11.28,
+            "name": "Classic Smoked Spring Rolls",
+            "price": 8.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -148,35 +148,17 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Luscious Crostini",
-            "price": 13.3,
-            "isVegetarian": false,
+            "name": "Fresh Golden Mini Quesadillas",
+            "price": 14.54,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Juicy Spring Rolls",
-            "price": 14.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Succulent Mini Tacos",
-            "price": 12.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Sweet Charcuterie Board",
-            "price": 11.19,
+            "name": "Authentic Flaky Caprese Salad",
+            "price": 14.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -184,8 +166,17 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Spicy Bruschetta",
-            "price": 10.54,
+            "name": "House Special Grilled Calamari",
+            "price": 9.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Marinated Mozzarella Sticks",
+            "price": 13.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -193,9 +184,18 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Grilled Cheese Platter",
-            "price": 15.33,
-            "isVegetarian": true,
+            "name": "Handcrafted Marinated Charcuterie Board",
+            "price": 9.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Spicy Tzatziki with Pita",
+            "price": 9.57,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -207,36 +207,36 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Authentic Fried Broccoli Cheddar Soup",
-            "price": 12.42,
+            "name": "Handcrafted Crispy Mushroom Soup",
+            "price": 8.65,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Irresistible Zuppa Toscana",
-            "price": 8.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Luscious Egg Drop Soup",
-            "price": 8.79,
-            "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spiced Lentil Soup",
+            "price": 10.21,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Creamy Tomato Soup",
-            "price": 12.11,
-            "isVegetarian": true,
+            "name": "Deluxe Tangy Tomato Soup",
+            "price": 7.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Aromatic Gumbo",
+            "price": 12.82,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -248,8 +248,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Kale Salad",
-            "price": 12.34,
+            "name": "Broccoli Crunch Salad",
+            "price": 11.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -257,17 +257,17 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Broccoli Crunch Salad",
-            "price": 13.65,
-            "isVegetarian": true,
+            "name": "Lentil and Feta Salad",
+            "price": 12.04,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Caprese Salad",
-            "price": 15.64,
+            "name": "Roasted Vegetable Salad",
+            "price": 15.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -276,19 +276,19 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
           },
           {
             "name": "Coleslaw",
-            "price": 12.5,
-            "isVegetarian": true,
+            "price": 10.48,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Asian Slaw",
-            "price": 10.65,
+            "name": "Fruit Salad",
+            "price": 10.97,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -298,8 +298,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Authentic Steamed Jambalaya",
-            "price": 18.07,
+            "name": "Homestyle Spicy Salmon",
+            "price": 28.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,17 +307,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Marinated Pizza",
-            "price": 26.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Sweet Lasagna",
-            "price": 31.48,
+            "name": "Authentic Creamy Jambalaya",
+            "price": 27.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -325,8 +316,17 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Golden Gnocchi",
-            "price": 18.72,
+            "name": "Seasonal Wholesome Bibimbap",
+            "price": 18.54,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Grilled Pasta Primavera",
+            "price": 21.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -334,26 +334,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Pan-seared Eggplant Parmesan",
-            "price": 24.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Irresistible Enchiladas",
-            "price": 20.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Enticing Korma",
-            "price": 24.29,
+            "name": "Authentic Herbed Tagine",
+            "price": 25.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -361,12 +343,30 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Comforting Fish and Chips",
-            "price": 25.07,
+            "name": "Homestyle Mouthwatering Grilled Chicken",
+            "price": 19.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Aromatic Stuffed Peppers",
+            "price": 28.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Delectable Steak",
+            "price": 21.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": false
           }
         ]
@@ -375,17 +375,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Gourmet Enticing Garlic Butter Shrimp Skillet",
-            "price": 24.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Exquisite Alaskan King Crab Legs with Drawn Butter",
-            "price": 31.89,
+            "name": "Handcrafted Sweet Traditional Provençal Bouillabaisse",
+            "price": 28.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,17 +384,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Luscious Lemon-Herb Calamari Steak",
-            "price": 24.88,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Creamy Stuffed Flounder with Crab and Spinach",
-            "price": 27.49,
+            "name": "Fresh Steamed Shrimp Scampi over Linguine",
+            "price": 31.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -411,8 +393,26 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Comforting Linguine with Clam Sauce",
-            "price": 33.07,
+            "name": "House Special Smoked Crab-Stuffed Mushrooms",
+            "price": 33.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Smoked Lemon-Herb Calamari Steak",
+            "price": 23.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Golden New England Lobster Roll",
+            "price": 34.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,8 +425,17 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Seasonal Luscious Homestyle Baked Beans",
-            "price": 9.32,
+            "name": "Homestyle Pan-seared Scalloped Potatoes with Thyme",
+            "price": 8.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Crispy Sweet Corn and Cheddar Fritters",
+            "price": 8.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,47 +443,38 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Zesty Corn on the Cob with Chili Lime Butter",
-            "price": 6.76,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Luscious Grilled Asparagus with Lemon Zest",
-            "price": 6.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Sweet Wild Rice Pilaf",
-            "price": 7.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Baked French Fries",
+            "name": "Gourmet Sizzling Wild Rice Pilaf",
             "price": 5.25,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Sweet Sweet Potato Wedges with Smoked Paprika",
+            "price": 6.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Steamed Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 8.91,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Grilled Yukon Gold Potato Gratin",
-            "price": 9.94,
+            "name": "Handcrafted Zesty Wild Mushroom Risotto",
+            "price": 7.25,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -485,17 +485,26 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Juice",
-            "price": 7.44,
-            "isVegetarian": true,
-            "isVegan": true,
+            "price": 4.13,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Milkshake",
-            "price": 7.26,
+            "name": "Iced Tea",
+            "price": 7.64,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 6.36,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -503,36 +512,27 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
           },
           {
             "name": "Smoothie",
-            "price": 5.07,
-            "isVegetarian": false,
+            "price": 5.53,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 7.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Coffee",
-            "price": 6.98,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 7.33,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soda",
-            "price": 7.86,
-            "isVegetarian": true,
-            "isVegan": false,
+            "price": 4.96,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -549,8 +549,17 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Muffins",
-            "price": 10.12,
+            "name": "Croissants",
+            "price": 7.34,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Treacle Tart",
+            "price": 10.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,8 +567,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Biscotti",
-            "price": 6.05,
+            "name": "Banana Bread",
+            "price": 8.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -567,8 +576,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Vanilla Cake",
-            "price": 6.19,
+            "name": "Fruit Galette",
+            "price": 8.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -576,20 +585,11 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Donuts",
-            "price": 6.42,
+            "name": "Cannoli",
+            "price": 9.84,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shortbread",
-            "price": 8.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -599,8 +599,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Yogurt",
-            "price": 8.97,
+            "name": "Kulfi",
+            "price": 11.92,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -608,17 +608,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ice Cream",
-            "price": 9.47,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Cheesecake",
-            "price": 10.74,
+            "name": "Gelato",
+            "price": 11.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -626,8 +617,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Custard",
-            "price": 9.23,
+            "name": "Popsicles",
+            "price": 11.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -635,11 +626,20 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Baked Alaska",
-            "price": 11.85,
+            "name": "Ice Cream Sandwich",
+            "price": 8.12,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Granita",
+            "price": 7.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -655,8 +655,26 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
+            "name": "Bloody Mary",
+            "price": 11.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 15.7,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Margarita",
-            "price": 15.49,
+            "price": 15.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -665,7 +683,16 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
           },
           {
             "name": "Negroni",
-            "price": 10.83,
+            "price": 13.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 14.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -673,8 +700,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 15.28,
+            "name": "Mai Tai",
+            "price": 15.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -683,35 +710,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
           },
           {
             "name": "Martini",
-            "price": 15.37,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 15.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 13.43,
+            "price": 12.53,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 13.47,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -723,57 +723,57 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Merlot",
-            "price": 10.99,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Noir",
-            "price": 9.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chardonnay",
-            "price": 9.5,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cabernet Franc",
-            "price": 11.02,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Dolcetto",
-            "price": 13.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Chenin Blanc",
-            "price": 13.27,
+            "price": 13.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Grenache",
+            "price": 12.3,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sangiovese",
+            "price": 11.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Petit Verdot",
+            "price": 8.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Zinfandel",
+            "price": 11.21,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cabernet Sauvignon",
+            "price": 8.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -782,8 +782,17 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Anisette",
-            "price": 17.86,
+            "name": "Brandy",
+            "price": 10.03,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chartreuse",
+            "price": 17.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -791,38 +800,29 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cognac",
-            "price": 11.42,
+            "name": "Drambuie",
+            "price": 14.97,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Calvados",
+            "price": 15.77,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Scotch",
-            "price": 15.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Aquavit",
-            "price": 10.81,
+            "price": 16.11,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tequila",
-            "price": 17.98,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

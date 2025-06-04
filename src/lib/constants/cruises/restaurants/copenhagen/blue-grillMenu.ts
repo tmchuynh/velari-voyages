@@ -12,26 +12,8 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Gourmet Mouthwatering Japanese A5 Wagyu with Ponzu Butter",
-            "price": 31.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Herbed Legendary Prime Rib",
-            "price": 27.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Irresistible Executive Chef's Daily Inspiration Entrée",
-            "price": 26.65,
+            "name": "Deluxe Marinated Legendary Prime Rib",
+            "price": 27.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -39,8 +21,8 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Roasted Secret Recipe Bouillabaisse",
-            "price": 29.7,
+            "name": "Traditional Comforting Traditional Family Paella",
+            "price": 36.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -48,31 +30,49 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Exquisite Signature Truffle Pasta with Aged Pecorino",
-            "price": 30.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Zingy Traditional Family Paella",
-            "price": 26.67,
+            "name": "Handcrafted Aromatic Chef's Childhood Inspired Creation",
+            "price": 26.81,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Zesty Charcoal Grilled Iberico Pork",
+            "price": 24.99,
+            "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Spicy Chef’s Wild Game Selection",
+            "price": 24.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Flaky Sous Vide Perfected Wagyu",
+            "price": 29.72,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Zesty Captain's Favorite Seafood Tower",
-            "price": 30.49,
+            "name": "Deluxe Braised Heritage Recipe Lamb Shank",
+            "price": 30.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
+            "isHalal": false,
+            "isKosher": true
           }
         ]
       },
@@ -80,35 +80,26 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Classic Zesty Freshly Harvested Seasonal Creation",
-            "price": 29.36,
+            "name": "Premium Baked Fusion of Traditional and Modern Techniques",
+            "price": 30.62,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Satisfying Chef's Tasting Menu Experience",
-            "price": 27.04,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Flaky Locally Foraged Mushroom Selection",
-            "price": 33.07,
+            "name": "Premium Delicious Volcanic Stone-Cooked Specialty",
+            "price": 34.02,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Smoked Cedar Plank Salmon",
-            "price": 30.4,
+            "name": "Hearty Smoked Tableside Flambé Preparation",
+            "price": 35.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -116,8 +107,17 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Grilled Chef's Childhood Favorite Reimagined",
-            "price": 35.84,
+            "name": "Authentic Braised Heritage Breed Porchetta",
+            "price": 39.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Hearty Crispy Skin Sea Bass",
+            "price": 24.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -130,73 +130,73 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Handcrafted Sautéed Nachos",
-            "price": 9.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Flavorful Lettuce Wraps",
-            "price": 9.41,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Tangy Calamari",
-            "price": 12.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Comforting Chicken Satay",
-            "price": 11.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Enticing Garlic Knots",
-            "price": 15.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Grilled Sweet Potato Fries",
-            "price": 13.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Delicious Potato Skins",
-            "price": 15.06,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Roasted Stuffed Jalapeños",
-            "price": 8.1,
+            "name": "Deluxe Baked Hummus Platter",
+            "price": 10.07,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Luscious Mozzarella Sticks",
+            "price": 13.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Herbed Sweet Potato Fries",
+            "price": 13.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Zesty Baked Brie",
+            "price": 9.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Crispy Falafel",
+            "price": 8.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Succulent Potato Skins",
+            "price": 12.52,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Zesty Stuffed Peppers",
+            "price": 10.32,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Flavorful Arancini",
+            "price": 15.36,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -207,37 +207,37 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Authentic Roasted Clam Chowder",
-            "price": 9.45,
+            "name": "Traditional Steamed Egg Drop Soup",
+            "price": 10.32,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Lobster Bisque",
+            "price": 10.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Gourmet Grilled Corn Chowder",
-            "price": 9.29,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Herbed Lentil Soup",
-            "price": 13.51,
+            "name": "Seasonal Pan-seared Turkey and Wild Rice Soup",
+            "price": 11.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Homestyle Sweet Minestrone",
-            "price": 8.25,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Classic Sweet Gazpacho",
+            "price": 9.75,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -248,8 +248,8 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Asian Slaw",
-            "price": 11.69,
+            "name": "Cobb Salad",
+            "price": 15.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -257,38 +257,38 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Caesar Salad",
-            "price": 10.21,
+            "name": "Fruit Salad",
+            "price": 13.49,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Watermelon Feta Salad",
-            "price": 14.54,
-            "isVegetarian": false,
+            "name": "Apple Pecan Salad",
+            "price": 12.73,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Greek Salad",
-            "price": 12.37,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Southwest Black Bean Salad",
+            "price": 10.02,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Spinach Salad",
-            "price": 10.77,
+            "name": "Quinoa Salad",
+            "price": 11.94,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -298,17 +298,35 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Hearty Marinated Katsu Curry",
-            "price": 30.88,
+            "name": "Seasonal Mouthwatering Roast Duck",
+            "price": 25.76,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Creamy Pulled Pork Sandwich",
+            "price": 24.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Smoked Coq au Vin",
+            "price": 18.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Zesty Vegetable Stir-Fry",
-            "price": 27.58,
+            "name": "Traditional Hearty Pasta Primavera",
+            "price": 23.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -316,76 +334,8 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Tangy Biryani",
-            "price": 31.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Stuffed Lasagna",
-            "price": 22.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Exquisite Steak",
-            "price": 26.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Crispy Ramen",
-            "price": 31.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Marinated Bibimbap",
-            "price": 18.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Luscious Fajitas",
-            "price": 19.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Seafood Specialties",
-        "items": [
-          {
-            "name": "Deluxe Sautéed Hearty Italian Cioppino",
-            "price": 31.83,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Creamy New England Lobster Roll",
-            "price": 28.71,
+            "name": "Authentic Satisfying Grilled Chicken",
+            "price": 20.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,8 +343,49 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Deluxe Sautéed Miso-Marinated Chilean Sea Bass",
-            "price": 22.47,
+            "name": "Deluxe Golden Moussaka",
+            "price": 31.7,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Aromatic Steak",
+            "price": 21.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Flavorful Chicken Parmesan",
+            "price": 29.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "items": [
+          {
+            "name": "Fresh Flavorful Seafood Risotto with Saffron",
+            "price": 35.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Mouthwatering Miso-Marinated Chilean Sea Bass",
+            "price": 23.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -402,8 +393,8 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Crunchy Seafood Risotto with Saffron",
-            "price": 34.1,
+            "name": "Authentic Roasted Alaskan King Crab Legs with Drawn Butter",
+            "price": 32.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -411,12 +402,21 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Delectable Lobster Thermidor with Gruyère Crust",
-            "price": 33.35,
+            "name": "Gourmet Steamed Maryland Style Crab Cakes",
+            "price": 31.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Fried Lemon-Herb Calamari Steak",
+            "price": 22.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": false
           }
         ]
@@ -425,8 +425,8 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Premium Roasted Mashed Potatoes",
-            "price": 7.28,
+            "name": "Hearty Zesty Charred Broccolini with Garlic Oil",
+            "price": 6.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,8 +434,35 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Baked Creamed Spinach with Nutmeg",
-            "price": 5.39,
+            "name": "Authentic Creamy Wild Mushroom Risotto",
+            "price": 6.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Grilled Green Beans Almondine",
+            "price": 7.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Roasted Homestyle Baked Beans",
+            "price": 5.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Sautéed Macaroni and Aged Cheddar",
+            "price": 5.37,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -443,35 +470,8 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Flavorful Corn on the Cob with Chili Lime Butter",
-            "price": 9.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Stuffed Maple-Glazed Baby Carrots",
-            "price": 7.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Golden Baked Idaho Potato with Sour Cream",
-            "price": 8.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Zesty Scalloped Potatoes with Thyme",
-            "price": 9.86,
+            "name": "Authentic Sweet Creamy Colcannon (Irish Potato Mash)",
+            "price": 5.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -484,35 +484,8 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Hot Chocolate",
-            "price": 5.03,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soda",
-            "price": 6.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 7.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 7.32,
+            "name": "Water",
+            "price": 4.77,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -520,8 +493,17 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
+            "name": "Juice",
+            "price": 6.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Lemonade",
-            "price": 5.11,
+            "price": 5.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,9 +511,27 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Juice",
-            "price": 6.78,
+            "name": "Smoothie",
+            "price": 7.28,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 4.47,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 7.58,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -549,8 +549,8 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Apple Pie",
-            "price": 8.2,
+            "name": "Shortbread",
+            "price": 10.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,26 +558,17 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Baklava",
-            "price": 8.52,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pumpkin Pie",
-            "price": 9.67,
+            "name": "Muffins",
+            "price": 6.39,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Danish Pastries",
-            "price": 9.72,
+            "name": "Carrot Cake",
+            "price": 8.62,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -585,9 +576,18 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Banana Bread",
-            "price": 9.56,
+            "name": "Tiramisu",
+            "price": 6.42,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vanilla Cake",
+            "price": 7.68,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -599,17 +599,8 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Granita",
-            "price": 10.69,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Semifreddo",
-            "price": 11.54,
+            "name": "Popsicles",
+            "price": 8.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -617,8 +608,8 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frosty",
-            "price": 7.32,
+            "name": "Frozen Yogurt",
+            "price": 7.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -626,20 +617,29 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Fruit Bars",
-            "price": 9.48,
-            "isVegetarian": true,
+            "name": "Frozen Banana",
+            "price": 10.18,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Pie",
-            "price": 11.44,
-            "isVegetarian": false,
+            "name": "Sherbet",
+            "price": 9.59,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baked Alaska",
+            "price": 11.46,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -655,44 +655,8 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Negroni",
-            "price": 14.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 13.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 15.49,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 12.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 13.76,
+            "name": "Cosmopolitan",
+            "price": 15.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -701,7 +665,43 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
           },
           {
             "name": "Mojito",
-            "price": 15.2,
+            "price": 13.49,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 15.03,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 13.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 10.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -709,10 +709,10 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 15.83,
+            "name": "Martini",
+            "price": 10.86,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -723,35 +723,8 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Zinfandel",
-            "price": 10.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Riesling",
-            "price": 10.63,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Sémillon",
-            "price": 10.71,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vermentino",
-            "price": 12.14,
+            "price": 11.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -759,17 +732,44 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chardonnay",
-            "price": 9.73,
-            "isVegetarian": true,
+            "name": "Tempranillo",
+            "price": 10.57,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Barbera",
-            "price": 9.68,
+            "price": 11.22,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Moscato",
+            "price": 12.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nebbiolo",
+            "price": 12.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Malbec",
+            "price": 12.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -782,8 +782,8 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Cointreau",
-            "price": 13.35,
+            "name": "Drambuie",
+            "price": 10.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -791,8 +791,26 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Brandy",
-            "price": 17.86,
+            "name": "Tequila",
+            "price": 11.87,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grand Marnier",
+            "price": 13.56,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Aquavit",
+            "price": 13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -800,30 +818,12 @@ export const copenhagenblueGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pisco",
-            "price": 14.25,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Amaretto",
-            "price": 15.69,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baileys Irish Cream",
-            "price": 17.62,
+            "name": "Chambord",
+            "price": 17.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           }
         ]

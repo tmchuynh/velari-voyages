@@ -12,8 +12,26 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Organic Crispy Japanese A5 Wagyu with Ponzu Butter",
-            "price": 35.69,
+            "name": "Deluxe Flavorful Award-Winning Seafood Boil",
+            "price": 26.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Baked Wood-Fired Peking Duck with Plum Sauce",
+            "price": 32.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Appetizing Secret Recipe Bouillabaisse",
+            "price": 31.76,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -21,57 +39,39 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Sweet Heritage Recipe Lamb Shank",
-            "price": 36.65,
+            "name": "Hearty Tangy Molecular Gastronomy Showcase Tasting",
+            "price": 35.56,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Crunchy Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 29.44,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Satisfying Seasonal Tasting Menu Experience",
-            "price": 34.61,
+            "name": "Organic Baked Charcoal Grilled Iberico Pork",
+            "price": 24.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Luscious Heritage Recipe Lamb Shank",
+            "price": 37.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Homestyle Fried Molecular Gastronomy Showcase Tasting",
-            "price": 35.19,
+            "name": "Deluxe Steamed Chef's Childhood Inspired Creation",
+            "price": 29.24,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Grilled Legendary Prime Rib",
-            "price": 37.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Sizzling Local Bounty Harvest Plate (Vegetarian)",
-            "price": 37.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -80,35 +80,8 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Gourmet Creamy Miso-Glazed Black Cod",
-            "price": 24.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Flaky Volcanic Stone-Cooked Specialty",
-            "price": 38.94,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Marinated Sustainable Seafood Tower",
-            "price": 37.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Hearty Smoked and Slow-Roasted Heritage Meat",
-            "price": 32.96,
+            "name": "Authentic Pan-seared Aged and House-Cured Charcuterie Selection",
+            "price": 36.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -116,8 +89,35 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Grilled Tomahawk Ribeye for Two",
-            "price": 32.18,
+            "name": "Homestyle Steamed Lobster and Crab Stuffed Ravioli",
+            "price": 34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Satisfying Smoked and Slow-Roasted Heritage Meat",
+            "price": 35.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Grilled Wild Mushroom Risotto",
+            "price": 38.02,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Juicy Truffle-Infused Filet Mignon",
+            "price": 25.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -130,103 +130,8 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Authentic Pan-seared Dumplings",
-            "price": 10.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Spiced Chicken Wings",
-            "price": 11.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Succulent Stuffed Avocado",
-            "price": 11.26,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Spiced Spinach Puffs",
-            "price": 15.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Satisfying Nachos",
-            "price": 12.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Crispy Calamari",
-            "price": 10.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Zingy Tuna Tartare",
-            "price": 11.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Zingy Samosas",
-            "price": 15.05,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Soups",
-        "items": [
-          {
-            "name": "Fresh Tender Split Pea Soup",
-            "price": 13.39,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Hearty Vegetable Barley Soup",
-            "price": 8.86,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Hearty Turkey and Wild Rice Soup",
-            "price": 7.03,
+            "name": "Authentic Juicy Mozzarella Sticks",
+            "price": 9.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -234,8 +139,103 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Roasted Tortilla Soup",
-            "price": 11,
+            "name": "Gourmet Stuffed Crostini",
+            "price": 11.54,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Enticing Stuffed Avocado",
+            "price": 14.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Spicy Bruschetta",
+            "price": 15.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Mouthwatering Caprese Salad",
+            "price": 10.81,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Luscious Sweet Potato Fries",
+            "price": 9.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Creamy Mini Quesadillas",
+            "price": 12.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Pan-seared Mini Empanadas",
+            "price": 12.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Soups",
+        "items": [
+          {
+            "name": "Hearty Delectable Egg Drop Soup",
+            "price": 13.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Sizzling Seafood Chowder",
+            "price": 13.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Wholesome Gazpacho",
+            "price": 9.98,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Smoked Broccoli Cheddar Soup",
+            "price": 8.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -248,8 +248,26 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Coleslaw",
-            "price": 9.55,
+            "name": "Cucumber Salad",
+            "price": 11.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cobb Salad",
+            "price": 13.8,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Asian Slaw",
+            "price": 14.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -257,36 +275,18 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Kale Salad",
-            "price": 10.53,
+            "name": "Pasta Salad",
+            "price": 13.5,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tabbouleh",
-            "price": 14.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caesar Salad",
-            "price": 12.08,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Watermelon Feta Salad",
-            "price": 10.58,
-            "isVegetarian": true,
+            "name": "Beet Salad",
+            "price": 13.72,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -298,35 +298,26 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Gourmet Grilled Fajitas",
-            "price": 30.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Smoked Bibimbap",
-            "price": 18.82,
+            "name": "Handcrafted Zesty Pulled Pork Sandwich",
+            "price": 28.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Deluxe Spiced Katsu Curry",
-            "price": 19.61,
-            "isVegetarian": true,
+            "name": "Fresh Flaky Chicken Parmesan",
+            "price": 22.94,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Fresh Zesty Chili con Carne",
-            "price": 24.7,
+            "name": "Gourmet Irresistible Thai Curry",
+            "price": 31.16,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -334,8 +325,8 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Steamed Lasagna",
-            "price": 22.78,
+            "name": "Seasonal Hearty Ramen",
+            "price": 26.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -343,27 +334,36 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Golden Burrito",
-            "price": 27.03,
-            "isVegetarian": false,
+            "name": "Handcrafted Delectable Cottage Pie",
+            "price": 25.95,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Crunchy Eggplant Parmesan",
-            "price": 26.46,
-            "isVegetarian": false,
+            "name": "Fresh Roasted Pho",
+            "price": 28.5,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Luscious Korma",
-            "price": 26.32,
-            "isVegetarian": true,
+            "name": "Hearty Grilled Steak",
+            "price": 20.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Savory Stuffed Zucchini Boats",
+            "price": 31.2,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -375,76 +375,8 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Homestyle Grilled Stuffed Flounder with Crab and Spinach",
-            "price": 26.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Creamy Grilled Spanish Octopus with Smoked Paprika",
-            "price": 25.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Satisfying Traditional Provençal Bouillabaisse",
-            "price": 26.49,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Spiced Smoked Salmon Platter with Dill Crème",
-            "price": 22.88,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Mouthwatering New England Lobster Roll",
-            "price": 26.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Handcrafted Crunchy Steamed Jasmine Rice",
-            "price": 7.8,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Grilled Provencal Ratatouille",
-            "price": 9.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Flavorful Mashed Potatoes",
-            "price": 8.55,
+            "name": "Authentic Hearty Seared Tuna Steak with Sesame Crust",
+            "price": 33.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -452,8 +384,17 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seasonal Grilled Herbed Bulgur Wheat with Lemon",
-            "price": 8.33,
+            "name": "Authentic Irresistible Mussels Mariniere in White Wine",
+            "price": 24.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Smoked Sushi-Grade Sashimi Platter",
+            "price": 31.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -461,8 +402,58 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Crunchy Sweet Corn and Cheddar Fritters",
-            "price": 6.63,
+            "name": "Classic Spiced Stuffed Flounder with Crab and Spinach",
+            "price": 27.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Spiced Linguine with Clam Sauce",
+            "price": 27.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Authentic Smoked Baked Idaho Potato with Sour Cream",
+            "price": 9.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Crunchy Truffle Parmesan Fries",
+            "price": 8.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked Israeli Couscous with Roasted Tomatoes",
+            "price": 7.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Satisfying Maple-Glazed Baby Carrots",
+            "price": 9.29,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -470,12 +461,21 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Savory Truffle Parmesan Fries",
-            "price": 8.49,
-            "isVegetarian": true,
+            "name": "House Special Spiced Scalloped Potatoes with Thyme",
+            "price": 5.53,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Crispy Charred Broccolini with Garlic Oil",
+            "price": 6.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -485,43 +485,16 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Coffee",
-            "price": 5.74,
+            "price": 7.02,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 5.96,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 6.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soda",
-            "price": 5.64,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Water",
-            "price": 7.83,
+            "price": 7.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,8 +502,35 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Smoothie",
-            "price": 7.95,
+            "name": "Milkshake",
+            "price": 7.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 5.26,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 6.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 4.23,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -549,26 +549,8 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Red Velvet Cake",
-            "price": 10.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chocolate Chip Cookies",
-            "price": 8.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Cannoli",
-            "price": 10.89,
+            "price": 8.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -576,8 +558,26 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Brownies",
-            "price": 9.31,
+            "name": "Croissants",
+            "price": 9.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Madeleines",
+            "price": 6.56,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Carrot Cake",
+            "price": 10.73,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -585,8 +585,8 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Shortbread",
-            "price": 9.77,
+            "name": "Danish Pastries",
+            "price": 8.02,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -599,35 +599,8 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Kulfi",
-            "price": 7.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sherbet",
-            "price": 7.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Pie",
-            "price": 7.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Fruit Bars",
-            "price": 10.83,
+            "name": "Frozen Banana",
+            "price": 10.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -636,10 +609,37 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Ice Cream",
-            "price": 11.09,
+            "price": 9.57,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Cheesecake",
+            "price": 7.72,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Cake",
+            "price": 7.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kulfi",
+            "price": 9.15,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -655,17 +655,26 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Manhattan",
-            "price": 10.79,
+            "name": "Martini",
+            "price": 12.19,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 13.33,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 12.62,
+            "name": "Mai Tai",
+            "price": 12.48,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -673,26 +682,17 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 13.63,
+            "name": "Margarita",
+            "price": 10.85,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Whiskey Sour",
-            "price": 11.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 13.79,
+            "name": "Manhattan",
+            "price": 14.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -701,19 +701,19 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Old Fashioned",
-            "price": 14.13,
+            "price": 10.32,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 10.84,
+            "name": "Negroni",
+            "price": 13.05,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,17 +723,17 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Chardonnay",
-            "price": 9.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Albariño",
-            "price": 13.49,
+            "price": 11.24,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Dolcetto",
+            "price": 12.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -741,8 +741,26 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Merlot",
-            "price": 12.91,
+            "name": "Pinot Grigio",
+            "price": 11.92,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Syrah/Shiraz",
+            "price": 9.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Riesling",
+            "price": 9.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -751,26 +769,8 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Prosecco",
-            "price": 12.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sauvignon Blanc",
-            "price": 9.43,
+            "price": 9.49,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Dolcetto",
-            "price": 12.74,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -782,35 +782,8 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Vodka",
-            "price": 17.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cointreau",
-            "price": 14.88,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Drambuie",
-            "price": 16.16,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gin",
-            "price": 17.84,
+            "name": "Grappa",
+            "price": 17.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -818,11 +791,38 @@ export const newOrleanstheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Calvados",
-            "price": 12.34,
+            "name": "Pisco",
+            "price": 11.29,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bénédictine",
+            "price": 12.17,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kahlúa",
+            "price": 14.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Amaretto",
+            "price": 16.99,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

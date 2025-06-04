@@ -217,5 +217,160 @@ export const buenosAiresRestaurants: Restaurant[] = [
     "isReservationsAccepted": false,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Andes Grill",
+    "description": "A charming American restaurant near Plaza de Mayo, offering asado and other local favorites in a setting with vibrant atmosphere.",
+    "cuisine": "American",
+    "priceRange": "$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "11:00-22:00",
+      "saturday": "11:00-21:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-756-8210",
+      "contactEmail": "info@americanbuenos-aires.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Plaza Eatery",
+    "description": "A culinary gem serving Japanese specialties including empanadas, where guests enjoy vibrant atmosphere in the heart of the city.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "9:00-19:00",
+      "friday": "10:00-20:00",
+      "saturday": "11:00-20:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-734-8405",
+      "contactEmail": "info@japanesebuenos-aires.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Estancia Dining Hall",
+    "description": "A charming Japanese restaurant near La Boca, offering dulce de leche and other local favorites in a setting with tango shows.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "Closed",
+      "wednesday": "Closed",
+      "thursday": "10:00-22:00",
+      "friday": "9:00-21:00",
+      "saturday": "11:00-19:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-357-7203",
+      "contactEmail": "info@japanesebuenos-aires.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Buenos Aires Table",
+    "description": "A charming French restaurant near La Boca, offering mate and other local favorites in a setting with parilla-style grill.",
+    "cuisine": "French",
+    "priceRange": "$$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "9:00-21:00",
+      "friday": "11:00-21:00",
+      "saturday": "11:00-22:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-240-1099",
+      "contactEmail": "info@frenchbuenos-aires.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Plaza Bar & Kitchen",
+    "description": "Experience authentic Italian cuisine with a local twist, featuring Malbec wine served in an atmosphere of European elegance overlooking Puerto Madero.",
+    "cuisine": "Italian",
+    "priceRange": "$$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "10:00-22:00",
+      "friday": "11:00-20:00",
+      "saturday": "11:00-22:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-215-6533",
+      "contactEmail": "info@italianbuenos-aires.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
   }
 ];

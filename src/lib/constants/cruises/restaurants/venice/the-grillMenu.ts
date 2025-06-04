@@ -12,8 +12,8 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Authentic Flaky Signature Truffle Pasta with Aged Pecorino",
-            "price": 25.62,
+            "name": "House Special Zingy Celebrity Favorite Lobster Dish",
+            "price": 29.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -21,58 +21,58 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Irresistible Award-Winning Seafood Boil",
-            "price": 37.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Satisfying Founder's Family Recipe Pasta",
-            "price": 33.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Exquisite Captain's Favorite Seafood Tower",
-            "price": 28.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Delectable Legendary Prime Rib",
-            "price": 29.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Delectable Chef's Childhood Inspired Creation",
-            "price": 24.82,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Pan-seared Heritage Recipe Lamb Shank",
-            "price": 30.91,
+            "name": "Traditional Marinated 24-Hour Braised Short Ribs",
+            "price": 31.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Luscious Whole Roasted Heritage Chicken",
+            "price": 27.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Marinated Local Bounty Harvest Plate (Vegetarian)",
+            "price": 34.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Premium Braised Award-Winning Seafood Boil",
+            "price": 35.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Tangy Captain's Favorite Seafood Tower",
+            "price": 34.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Savory House Famous Duck Confit",
+            "price": 26.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -80,17 +80,17 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Seasonal Satisfying Signature Spice-Rubbed Protein",
-            "price": 38.18,
-            "isVegetarian": true,
+            "name": "Authentic Herbed Modern Interpretation of Regional Classic",
+            "price": 30.6,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Classic Succulent Collaborative Limited Edition Special",
-            "price": 36.83,
+            "name": "Handcrafted Golden Tableside Prepared Tartare",
+            "price": 33.08,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -98,31 +98,31 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Grilled Cold-Smoked Delicacy",
-            "price": 30.31,
+            "name": "Deluxe Smoked Live-Fire Grilled Feature",
+            "price": 29.75,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Smoked Volcanic Stone-Cooked Specialty",
+            "price": 33.32,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Golden Roasted Quail with Truffle Jus",
+            "price": 36.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Spicy Sous Vide Perfection with Molecular Gastronomy Elements",
-            "price": 30.62,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Fried Chef's Tasting Menu Experience",
-            "price": 27.1,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -130,26 +130,17 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "House Special Grilled Hummus Platter",
-            "price": 8.03,
+            "name": "Fresh Flavorful Hummus Platter",
+            "price": 8.65,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Juicy Nachos",
-            "price": 14.62,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Tender Potato Skins",
-            "price": 15.16,
+            "name": "Organic Crunchy Mini Crab Cakes",
+            "price": 9.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,49 +148,58 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Grilled Mini Sliders",
-            "price": 13.45,
+            "name": "Homestyle Sweet Stuffed Jalapeños",
+            "price": 10.62,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Hearty Nachos",
+            "price": 10.11,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spiced Garlic Bread",
+            "price": 8.35,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Zingy Cheese Nachos",
+            "price": 15.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Luscious Falafel",
-            "price": 12.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Grilled Mini Tacos",
-            "price": 10.52,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Creamy Tempura",
-            "price": 15.67,
-            "isVegetarian": true,
+            "name": "Authentic Tender Tuna Tartare",
+            "price": 11.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Grilled Tzatziki with Pita",
+            "price": 15.78,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Authentic Juicy Mozzarella Sticks",
-            "price": 14.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
           }
         ]
       },
@@ -207,8 +207,8 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Seasonal Steamed Corn Chowder",
-            "price": 7.01,
+            "name": "Fresh Crispy Tortilla Soup",
+            "price": 7.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -216,17 +216,8 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Grilled Clam Chowder",
-            "price": 12.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Spiced Vegetable Barley Soup",
-            "price": 11.57,
+            "name": "Gourmet Crunchy Mushroom Soup",
+            "price": 9.48,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -234,8 +225,17 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Spicy Turkey and Wild Rice Soup",
-            "price": 12.2,
+            "name": "Authentic Mouthwatering Egg Drop Soup",
+            "price": 12.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Sizzling Minestrone",
+            "price": 11.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -248,17 +248,26 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Caesar Salad",
-            "price": 9.69,
+            "name": "Pasta Salad",
+            "price": 13.34,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Apple Pecan Salad",
-            "price": 12.43,
+            "name": "Greek Salad",
+            "price": 11.21,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Vegetable Salad",
+            "price": 10.57,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -267,26 +276,17 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
           },
           {
             "name": "Potato Salad",
-            "price": 9.18,
+            "price": 9.88,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kale Salad",
+            "price": 12.93,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lentil and Feta Salad",
-            "price": 11.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roasted Beet and Goat Cheese Salad",
-            "price": 11.7,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -298,17 +298,8 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Seasonal Baked Lamb Chops",
-            "price": 21.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Braised Cottage Pie",
-            "price": 21.81,
+            "name": "Authentic Exquisite Salmon",
+            "price": 28.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -316,8 +307,17 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Premium Creamy Gnocchi",
-            "price": 22.48,
+            "name": "Gourmet Mouthwatering Shakshuka",
+            "price": 20.8,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Golden Roast Duck",
+            "price": 27.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -325,8 +325,8 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Comforting Paella",
-            "price": 18.71,
+            "name": "Handcrafted Stuffed Moussaka",
+            "price": 25.06,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -334,40 +334,40 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Fried Katsu Curry",
-            "price": 20.32,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Baked Spaghetti Bolognese",
-            "price": 21.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Flavorful Coq au Vin",
-            "price": 28.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Enticing Beef Wellington",
-            "price": 26.59,
+            "name": "Authentic Grilled Cottage Pie",
+            "price": 18.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Hearty Marinated Stir-fry",
+            "price": 19.12,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Steamed Chicken Parmesan",
+            "price": 22.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Luscious Lentil Stew",
+            "price": 29.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -375,44 +375,44 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Hearty Pan-seared Oysters Rockefeller with Pernod Cream",
-            "price": 33.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Smoked Grilled Lobster with Lemon Butter",
-            "price": 35.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Sizzling Lemon-Herb Calamari Steak",
-            "price": 27.22,
+            "name": "Authentic Crispy Grilled Lobster with Lemon Butter",
+            "price": 24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Premium Succulent Cedar Plank Roasted Salmon",
-            "price": 28.74,
+            "name": "Authentic Zingy Oysters Rockefeller with Pernod Cream",
+            "price": 27.81,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Appetizing Baked Cod with Lemon Caper Sauce",
+            "price": 24.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Seasonal Juicy Miso-Marinated Chilean Sea Bass",
-            "price": 29.06,
+            "name": "Fresh Mouthwatering Valencian Seafood Paella",
+            "price": 29.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Smoked Miso-Marinated Chilean Sea Bass",
+            "price": 24.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,8 +425,8 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Gourmet Smoked Mashed Potatoes",
-            "price": 7.09,
+            "name": "Deluxe Tender Roasted Root Vegetables",
+            "price": 9.4,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,17 +434,8 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Smoked Grilled Asparagus with Lemon Zest",
-            "price": 7.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Enticing Creamy Colcannon (Irish Potato Mash)",
-            "price": 9.2,
+            "name": "Traditional Fried Yukon Gold Potato Gratin",
+            "price": 6.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -452,17 +443,8 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Sautéed Buttered Egg Noodles",
-            "price": 9.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Spicy Fragrant Basmati Rice Pilaf",
-            "price": 7.36,
+            "name": "Hearty Golden Crispy Beer-Battered Onion Rings",
+            "price": 9.89,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -470,9 +452,27 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Grilled Israeli Couscous with Roasted Tomatoes",
-            "price": 5.98,
-            "isVegetarian": true,
+            "name": "Fresh Smoked Grilled Zucchini and Peppers",
+            "price": 7.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Flavorful Creamed Spinach with Nutmeg",
+            "price": 9.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Stuffed Homestyle Baked Beans",
+            "price": 9.83,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -484,8 +484,17 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Tea",
-            "price": 7.6,
+            "name": "Milkshake",
+            "price": 4.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 7.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -493,8 +502,8 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Iced Tea",
-            "price": 4.24,
+            "name": "Coffee",
+            "price": 4.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -503,7 +512,7 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
           },
           {
             "name": "Smoothie",
-            "price": 5.24,
+            "price": 5.11,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -511,27 +520,18 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Milkshake",
-            "price": 6.51,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 5.68,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coffee",
-            "price": 7.66,
+            "name": "Tea",
+            "price": 5.12,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 5.94,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -549,35 +549,26 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Donuts",
-            "price": 8.51,
+            "name": "Baklava",
+            "price": 7.43,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Macarons",
-            "price": 7.33,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Apple Pie",
-            "price": 6.89,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Muffins",
-            "price": 7.04,
+            "name": "Treacle Tart",
+            "price": 8.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chocolate Chip Cookies",
+            "price": 7.27,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -585,8 +576,17 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Shortbread",
-            "price": 9.76,
+            "name": "Banana Bread",
+            "price": 8.75,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sticky Toffee Pudding",
+            "price": 9.13,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,45 +599,45 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Ice Cream",
-            "price": 11.58,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Mousse",
-            "price": 11.25,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Snow Cone",
-            "price": 9.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baked Alaska",
-            "price": 7.16,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Frozen Yogurt",
-            "price": 8.81,
+            "price": 8.88,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Custard",
+            "price": 9.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Paletas",
+            "price": 8.57,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Sandwich",
+            "price": 7.06,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Granita",
+            "price": 9.75,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -655,44 +655,26 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Mojito",
-            "price": 11.95,
+            "name": "Martini",
+            "price": 12.14,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 10.96,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "price": 13.82,
+            "name": "Manhattan",
+            "price": 10.97,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 10.55,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Mai Tai",
-            "price": 14.96,
+            "price": 11.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -701,19 +683,37 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
           },
           {
             "name": "Bloody Mary",
-            "price": 10.66,
-            "isVegetarian": false,
+            "price": 10.84,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Margarita",
-            "price": 15.39,
-            "isVegetarian": true,
+            "price": 11.95,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 15.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 13.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,44 +723,17 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Grenache",
-            "price": 10.08,
+            "name": "Gewürztraminer",
+            "price": 10.85,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Petit Verdot",
-            "price": 13.43,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tempranillo",
-            "price": 12.63,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Champagne/Sparkling Wine",
-            "price": 9.06,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Vermentino",
-            "price": 8.09,
+            "name": "Verdicchio",
+            "price": 9.48,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -768,10 +741,37 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chardonnay",
-            "price": 10.77,
+            "name": "Syrah/Shiraz",
+            "price": 8.44,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Riesling",
+            "price": 13.86,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Zinfandel",
+            "price": 12.82,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fiano",
+            "price": 11.83,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -782,8 +782,8 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Tequila",
-            "price": 12.62,
+            "name": "Drambuie",
+            "price": 15.87,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -791,17 +791,17 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cognac",
-            "price": 10.69,
+            "name": "Calvados",
+            "price": 14.73,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Rum",
-            "price": 10.63,
+            "name": "Chartreuse",
+            "price": 10.94,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -809,17 +809,17 @@ export const venicetheGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Bourbon",
-            "price": 14.17,
-            "isVegetarian": false,
+            "name": "Sambuca",
+            "price": 12.68,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "St-Germain",
-            "price": 12.17,
+            "name": "Galliano",
+            "price": 13.99,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,

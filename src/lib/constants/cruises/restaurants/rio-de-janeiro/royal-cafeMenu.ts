@@ -12,26 +12,8 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Fresh Crunchy Legendary Prime Rib",
-            "price": 32.45,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Spiced 24-Hour Braised Short Ribs",
-            "price": 29.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Comforting Seasonal Tasting Platter",
-            "price": 28.63,
+            "name": "Homestyle Sweet Seasonal Tasting Menu Experience",
+            "price": 35.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -39,8 +21,35 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Satisfying Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 28.75,
+            "name": "Organic Spicy Heritage Recipe Lamb Shank",
+            "price": 24.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Marinated Celebrity Favorite Lobster Dish",
+            "price": 32.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Sweet Executive Chef's Daily Inspiration Entrée",
+            "price": 35.61,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Creamy Traditional Family Paella",
+            "price": 34.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -48,26 +57,17 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Satisfying Wood-Fired Peking Duck with Plum Sauce",
-            "price": 25.64,
+            "name": "Homestyle Grilled Japanese A5 Wagyu with Ponzu Butter",
+            "price": 37.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Gourmet Stuffed Whole Roasted Heritage Chicken",
-            "price": 37.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Stuffed Celebrity Favorite Lobster Dish",
-            "price": 34.76,
+            "name": "Traditional Luscious Flambéed Tableside Specialty",
+            "price": 34.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -80,26 +80,8 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Authentic Baked Chef's Tasting Menu Experience",
-            "price": 30.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Grilled Cast Iron Seafood Presentation",
-            "price": 26.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Enticing Truffle-Infused Filet Mignon",
-            "price": 37.26,
+            "name": "Authentic Roasted Miso-Glazed Black Cod",
+            "price": 39.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -107,20 +89,38 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Luscious Daily Fresh Catch with Seasonal Accompaniments",
-            "price": 28.78,
+            "name": "Authentic Roasted Locally Foraged Mushroom Selection",
+            "price": 29.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Stuffed Smoked and Slow-Roasted Heritage Meat",
+            "price": 31.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Zesty Daily Fresh Catch with Seasonal Accompaniments",
+            "price": 35.95,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Zingy Sustainable Seafood Tower",
-            "price": 37.38,
-            "isVegetarian": false,
+            "name": "House Special Tangy Slow-Roasted Prime Rib",
+            "price": 35.16,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,8 +130,8 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Seasonal Pan-seared Cheese Nachos",
-            "price": 9.87,
+            "name": "Classic Enticing Hummus Platter",
+            "price": 9.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -139,8 +139,17 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Sizzling Antipasto Platter",
-            "price": 10.49,
+            "name": "Handcrafted Grilled Calamari",
+            "price": 8.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Tender Potstickers",
+            "price": 12.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -148,17 +157,8 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Flavorful Crostini",
-            "price": 12.76,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Flaky Caprese Salad",
-            "price": 12.12,
+            "name": "Authentic Herbed Nachos",
+            "price": 11.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -166,8 +166,8 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Exquisite Falafel",
-            "price": 10.33,
+            "name": "Traditional Baked Stuffed Jalapeños",
+            "price": 9.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -175,8 +175,8 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Tangy Potstickers",
-            "price": 10.68,
+            "name": "Seasonal Sweet Stuffed Mushrooms",
+            "price": 13.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -184,17 +184,17 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Juicy Stuffed Peppers",
-            "price": 9.84,
+            "name": "Fresh Herbed Arancini",
+            "price": 9.17,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Satisfying Onion Rings",
-            "price": 9.68,
+            "name": "Hearty Roasted Mini Quesadillas",
+            "price": 15.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -207,40 +207,40 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Authentic Grilled Mushroom Soup",
-            "price": 9.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Savory Lentil Soup",
-            "price": 10.74,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Hearty Clam Chowder",
-            "price": 9.67,
+            "name": "Hearty Creamy Chicken Noodle Soup",
+            "price": 11.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "House Special Sweet French Onion Soup",
-            "price": 7.29,
-            "isVegetarian": true,
+            "name": "Deluxe Grilled Zuppa Toscana",
+            "price": 8.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Sautéed Hot and Sour Soup",
+            "price": 12.58,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Fresh Sweet Clam Chowder",
+            "price": 9.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -248,47 +248,47 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
+            "name": "Orzo Salad",
+            "price": 10.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Cucumber Salad",
-            "price": 10.74,
+            "price": 10.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 14.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Farro Salad",
+            "price": 14.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tabbouleh",
+            "price": 14.14,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caesar Salad",
-            "price": 9.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mediterranean Chopped Salad",
-            "price": 10.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Potato Salad",
-            "price": 10.96,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coleslaw",
-            "price": 14.17,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -298,17 +298,35 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Handcrafted Wholesome Gnocchi",
-            "price": 31.41,
-            "isVegetarian": true,
+            "name": "Fresh Marinated Korma",
+            "price": 30.22,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Grilled Teriyaki Chicken",
-            "price": 24.22,
+            "name": "Gourmet Golden Chicken Parmesan",
+            "price": 31.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Stuffed Tacos",
+            "price": 29.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Delectable Stuffed Zucchini Boats",
+            "price": 24.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -316,26 +334,17 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Premium Irresistible Korma",
-            "price": 28.96,
+            "name": "Organic Spicy Moussaka",
+            "price": 25.57,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Sweet Chili con Carne",
-            "price": 20.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Flavorful Cottage Pie",
-            "price": 19.75,
+            "name": "Traditional Stuffed Lentil Stew",
+            "price": 25.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -343,17 +352,8 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Herbed Pesto Pasta",
-            "price": 20.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Zingy Thai Curry",
-            "price": 24.11,
+            "name": "Hearty Crispy Mac and Cheese",
+            "price": 27.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -361,13 +361,13 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Sweet Steak",
-            "price": 25.42,
+            "name": "Premium Herbed Risotto",
+            "price": 26.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
@@ -375,35 +375,8 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Hearty Spicy Grilled Spanish Octopus with Smoked Paprika",
-            "price": 23.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Savory Mussels Mariniere in White Wine",
-            "price": 27.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Smoked Oysters Rockefeller with Pernod Cream",
-            "price": 32.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Roasted Tempura Soft Shell Crab",
-            "price": 24.52,
+            "name": "Homestyle Sweet New England Lobster Roll",
+            "price": 34.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -411,8 +384,35 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Braised Stuffed Flounder with Crab and Spinach",
-            "price": 26.44,
+            "name": "Deluxe Grilled Garlic Butter Shrimp Skillet",
+            "price": 28.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Crunchy Pan-Seared Scallops with Pea Purée",
+            "price": 34.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Tangy Stuffed Flounder with Crab and Spinach",
+            "price": 30.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Hearty Mussels Mariniere in White Wine",
+            "price": 29.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,56 +425,56 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Authentic Delectable Braised Red Cabbage with Apple",
-            "price": 5.89,
+            "name": "Classic Hearty Mashed Potatoes",
+            "price": 6.67,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Golden Grilled Zucchini and Peppers",
+            "price": 7.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Hearty Spicy Homestyle Baked Beans",
-            "price": 5.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Spicy Fragrant Basmati Rice Pilaf",
-            "price": 8.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Luscious Crispy Zucchini Fritters",
-            "price": 6.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Grilled Steamed Jasmine Rice",
-            "price": 6.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Sizzling Green Beans Almondine",
-            "price": 7.13,
+            "name": "Handcrafted Smoked Braised Red Cabbage with Apple",
+            "price": 7.47,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Grilled Garlic Bread with Herb Butter",
+            "price": 6.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Roasted Chili Lime Roasted Chickpeas",
+            "price": 7.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Enticing Cauliflower Gratin with Gruyère",
+            "price": 9.99,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -485,7 +485,25 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Milkshake",
-            "price": 4.7,
+            "price": 5.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 4.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 7.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -494,7 +512,7 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
           },
           {
             "name": "Tea",
-            "price": 4.61,
+            "price": 7.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,38 +520,20 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Juice",
-            "price": 6.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 5.34,
+            "name": "Hot Chocolate",
+            "price": 5.7,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coffee",
-            "price": 6.71,
+            "name": "Smoothie",
+            "price": 7.35,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 7.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,8 +549,17 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
+            "name": "Custard Tart",
+            "price": 9.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Chocolate Chip Cookies",
-            "price": 8.15,
+            "price": 8.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,35 +567,26 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Banana Bread",
-            "price": 7.55,
+            "name": "Soufflé",
+            "price": 6.74,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Strawberry Shortcake",
-            "price": 7.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cannoli",
-            "price": 7.49,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cupcakes",
-            "price": 7.26,
+            "name": "Apple Pie",
+            "price": 8.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crumb Cake",
+            "price": 6.68,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -599,8 +599,17 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
+            "name": "Baked Alaska",
+            "price": 10.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Ice Cream",
-            "price": 11.05,
+            "price": 7.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -609,34 +618,25 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
           },
           {
             "name": "Granita",
-            "price": 11.53,
+            "price": 7.53,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Pudding",
+            "price": 11.74,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Semifreddo",
-            "price": 11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Popsicles",
-            "price": 9.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Custard",
-            "price": 9.15,
+            "name": "Kulfi",
+            "price": 8.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -655,8 +655,26 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
+            "name": "Mojito",
+            "price": 11.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Martini",
-            "price": 11.82,
+            "price": 12.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 10.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -665,34 +683,25 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
           },
           {
             "name": "Margarita",
-            "price": 12.99,
+            "price": 12.82,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 11.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Whiskey Sour",
-            "price": 11.65,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 14.03,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 13.75,
+            "price": 14.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -701,19 +710,10 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
           },
           {
             "name": "Old Fashioned",
-            "price": 13.03,
-            "isVegetarian": false,
+            "price": 14.15,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 10.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,35 +723,8 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Nebbiolo",
-            "price": 13.5,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Barbera",
-            "price": 9.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sémillon",
-            "price": 9.67,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cabernet Franc",
-            "price": 10.68,
+            "name": "Pinot Blanc",
+            "price": 13.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -760,7 +733,16 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
           },
           {
             "name": "Fiano",
-            "price": 8.21,
+            "price": 10.18,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sémillon",
+            "price": 11.32,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -768,13 +750,31 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cabernet Sauvignon",
-            "price": 9.33,
+            "name": "Petit Verdot",
+            "price": 12.5,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vouvray",
+            "price": 9.21,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Champagne/Sparkling Wine",
+            "price": 11.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -782,8 +782,8 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Bénédictine",
-            "price": 10.93,
+            "name": "Campari",
+            "price": 12.88,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -791,36 +791,36 @@ export const rioDeJaneiroroyalCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Scotch",
-            "price": 14.49,
+            "name": "Calvados",
+            "price": 13.17,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee Liqueur",
+            "price": 14.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Rum",
+            "price": 10.5,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Amaretto",
+            "price": 17.45,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baileys Irish Cream",
-            "price": 16.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Maraschino",
-            "price": 10.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chartreuse",
-            "price": 17.1,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

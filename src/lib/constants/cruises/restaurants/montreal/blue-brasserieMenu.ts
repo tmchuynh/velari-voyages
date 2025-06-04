@@ -12,17 +12,17 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Traditional Grilled Heritage Recipe Lamb Shank",
-            "price": 34.37,
+            "name": "Gourmet Aromatic Legendary Prime Rib",
+            "price": 37.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Zesty Black Garlic Glazed Beef Tenderloin",
-            "price": 27.7,
+            "name": "Authentic Herbed Founder's Family Recipe Pasta",
+            "price": 29.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -30,35 +30,8 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Steamed Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 29.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Stuffed Charcoal Grilled Iberico Pork",
-            "price": 24.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Luscious Japanese A5 Wagyu with Ponzu Butter",
-            "price": 34.33,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Golden Flambéed Tableside Specialty",
-            "price": 29.76,
+            "name": "Homestyle Flaky Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 28.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -66,10 +39,37 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Zingy Celebrity Favorite Lobster Dish",
-            "price": 36.98,
+            "name": "Homestyle Fried Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 30.12,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sweet Charcoal Grilled Iberico Pork",
+            "price": 33.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Aromatic Sous Vide Perfected Wagyu",
+            "price": 31.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Herbed Restaurant's Namesake Signature Entrée",
+            "price": 33.63,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -80,26 +80,35 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Deluxe Smoked Special Occasion Celebratory Dish",
-            "price": 38.74,
+            "name": "Hearty Spiced Special Occasion Celebratory Dish",
+            "price": 24.48,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Sweet Herb-Crusted Rack of Lamb",
+            "price": 35.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Irresistible Slow-Roasted Prime Rib",
+            "price": 35.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Classic Zingy Cold-Smoked Delicacy",
-            "price": 37.89,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Aromatic Tableside Prepared Tartare",
-            "price": 29,
+            "name": "Handcrafted Steamed Wild Mushroom Risotto",
+            "price": 39.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -107,17 +116,8 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Satisfying High-End Ingredient Showcase",
-            "price": 32.11,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Stuffed Sustainable Seafood Tower",
-            "price": 38.94,
+            "name": "House Special Creamy Seared Foie Gras with Fig Compote",
+            "price": 33.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -130,35 +130,8 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Fresh Creamy Nachos",
-            "price": 11.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Pan-seared Baked Brie",
-            "price": 13.19,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Sizzling Lettuce Wraps",
-            "price": 15.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Braised Mini Quesadillas",
-            "price": 12.59,
+            "name": "Homestyle Sautéed Mini Crab Cakes",
+            "price": 8.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -166,35 +139,62 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Golden Samosas",
-            "price": 14.13,
+            "name": "Seasonal Tangy Calamari",
+            "price": 13.57,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Crispy Lettuce Wraps",
+            "price": 11.27,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Marinated Stuffed Peppers",
-            "price": 9.35,
-            "isVegetarian": false,
+            "name": "Handcrafted Wholesome Antipasto Platter",
+            "price": 12.82,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Creamy Stuffed Mushrooms",
-            "price": 13.95,
-            "isVegetarian": true,
+            "name": "Authentic Grilled Hummus Platter",
+            "price": 14.84,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Tangy Deviled Eggs",
-            "price": 9,
+            "name": "Authentic Grilled Mozzarella Sticks",
+            "price": 12.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Comforting Caprese Salad",
+            "price": 8.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Fried Tzatziki with Pita",
+            "price": 12.65,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -207,17 +207,8 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Handcrafted Flavorful Broccoli Cheddar Soup",
-            "price": 11.4,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Zingy French Onion Soup",
-            "price": 7.76,
+            "name": "Deluxe Creamy Tomato Soup",
+            "price": 10.24,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -225,20 +216,29 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Exquisite Cabbage Soup",
-            "price": 13.63,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Flaky Black Bean Soup",
-            "price": 7.81,
+            "name": "Fresh Zingy Beef Stew",
+            "price": 10.8,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Succulent French Onion Soup",
+            "price": 12.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Grilled Corn Chowder",
+            "price": 8.69,
+            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -248,27 +248,27 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Waldorf Salad",
-            "price": 9.79,
+            "name": "Arugula Salad",
+            "price": 14.64,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caprese Salad",
+            "price": 9.27,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pasta Salad",
-            "price": 9.67,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Thai Green Papaya Salad",
-            "price": 15.35,
-            "isVegetarian": true,
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 9.35,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -276,7 +276,7 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Lentil and Feta Salad",
-            "price": 12.9,
+            "price": 13.17,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -284,11 +284,11 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Potato Salad",
-            "price": 12.81,
+            "name": "Quinoa Salad",
+            "price": 9.74,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -298,76 +298,76 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Authentic Sweet Salmon",
-            "price": 19.78,
+            "name": "Premium Roasted Vegetable Stir-Fry",
+            "price": 30.04,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Steamed Tacos",
+            "price": 29.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Steamed Fajitas",
+            "price": 21.6,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Spicy Lamb Chops",
+            "price": 20.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Succulent Pizza",
+            "price": 31.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Smoked Jambalaya",
+            "price": 26.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Sizzling Pho",
+            "price": 22.44,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Stuffed Teriyaki Chicken",
+            "price": 19.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Smoked Beef Burger",
-            "price": 27.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Crispy Stir-fry",
-            "price": 29.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Spicy Beef Wellington",
-            "price": 27.88,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Tender Roast Duck",
-            "price": 18.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Luscious Steak",
-            "price": 27.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": false
-          },
-          {
-            "name": "Deluxe Marinated Pesto Pasta",
-            "price": 20.46,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Aromatic Quiche",
-            "price": 20.93,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
@@ -375,35 +375,8 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Traditional Marinated Smoked Salmon Platter with Dill Crème",
-            "price": 24.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Savory Seafood Risotto with Saffron",
-            "price": 22.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Mouthwatering Lobster Thermidor with Gruyère Crust",
-            "price": 27.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Herbed Miso-Marinated Chilean Sea Bass",
-            "price": 23.49,
+            "name": "House Special Smoked Crab-Stuffed Mushrooms",
+            "price": 32.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -411,13 +384,40 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Sweet Hearty Italian Cioppino",
-            "price": 29.58,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Handcrafted Comforting Classic British Fish and Chips",
+            "price": 27.13,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Traditional Spicy Smoked Salmon Platter with Dill Crème",
+            "price": 34.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Exquisite Grilled Lobster with Lemon Butter",
+            "price": 22.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Crunchy Shrimp Scampi over Linguine",
+            "price": 22.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -425,35 +425,26 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Deluxe Pan-seared Mashed Potatoes",
-            "price": 8.16,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Spiced Truffle Parmesan Fries",
-            "price": 7.88,
+            "name": "Authentic Sweet Mashed Potatoes",
+            "price": 5.69,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Homestyle Marinated Garlic Bread with Herb Butter",
-            "price": 6.35,
+            "name": "Homestyle Mouthwatering French Fries",
+            "price": 5.21,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Hearty Creamed Spinach with Nutmeg",
-            "price": 7.77,
+            "name": "Traditional Zingy Maple-Glazed Baby Carrots",
+            "price": 6.63,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -461,8 +452,17 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Herbed Provencal Ratatouille",
-            "price": 5.58,
+            "name": "Hearty Flaky Cauliflower Gratin with Gruyère",
+            "price": 5.63,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Braised Buttered Egg Noodles",
+            "price": 5.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -470,9 +470,9 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Tangy Braised Red Cabbage with Apple",
-            "price": 7.92,
-            "isVegetarian": false,
+            "name": "Traditional Roasted Corn on the Cob with Chili Lime Butter",
+            "price": 9.56,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -484,18 +484,27 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Milkshake",
-            "price": 4.29,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Tea",
+            "price": 7.35,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 5.72,
+            "name": "Iced Tea",
+            "price": 7.68,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 5.38,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -503,34 +512,25 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Smoothie",
-            "price": 7.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "price": 6.86,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 7.68,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Soda",
+            "price": 6.03,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Water",
-            "price": 6.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coffee",
-            "price": 4.92,
+            "price": 7.46,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -549,45 +549,45 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Shortbread",
-            "price": 6.63,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Apple Pie",
-            "price": 10.66,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baklava",
-            "price": 8.22,
+            "name": "Cinnamon Rolls",
+            "price": 8.54,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Portuguese Custard Tarts",
+            "price": 10.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Strawberry Shortcake",
+            "price": 9.72,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Macarons",
+            "price": 10.6,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Banana Bread",
-            "price": 9.46,
+            "name": "Carrot Cake",
+            "price": 6.89,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cannoli",
-            "price": 7.78,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -599,46 +599,46 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
+            "name": "Sorbet",
+            "price": 7.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gelato",
+            "price": 7.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Cake",
+            "price": 7.63,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Frozen Mousse",
-            "price": 10.8,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Yogurt",
-            "price": 8.24,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Granita",
-            "price": 11.97,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Snow Cone",
-            "price": 8.52,
+            "price": 8.15,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sherbet",
-            "price": 7.96,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Frozen Banana",
+            "price": 7.56,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -655,26 +655,26 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Old Fashioned",
-            "price": 14.5,
+            "name": "Mojito",
+            "price": 12.85,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 12.56,
-            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 11.02,
+            "name": "Negroni",
+            "price": 11.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 10.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -682,17 +682,26 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 13.54,
+            "name": "Cosmopolitan",
+            "price": 14.09,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 14.23,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Bloody Mary",
-            "price": 10.37,
+            "price": 12.95,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -700,20 +709,11 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 11.93,
+            "name": "Margarita",
+            "price": 13.39,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 11.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,17 +723,8 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Fiano",
-            "price": 10.25,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Viognier",
-            "price": 13.99,
+            "name": "Pinot Noir",
+            "price": 9.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -741,38 +732,47 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Champagne/Sparkling Wine",
-            "price": 12.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Pinot Blanc",
-            "price": 12.95,
+            "name": "Viognier",
+            "price": 8.34,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Chenin Blanc",
-            "price": 12.67,
+            "price": 10.72,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Sauvignon Blanc",
-            "price": 13.31,
-            "isVegetarian": true,
+            "name": "Syrah/Shiraz",
+            "price": 8.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Grigio",
+            "price": 11.26,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vouvray",
+            "price": 9.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -782,47 +782,47 @@ export const montrealblueBrasserieMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Tequila",
-            "price": 11.81,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Campari",
-            "price": 11.58,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey",
-            "price": 11.18,
-            "isVegetarian": true,
+            "name": "Baileys Irish Cream",
+            "price": 13.78,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Rum",
-            "price": 16.97,
+            "name": "Armagnac",
+            "price": 15.23,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Anisette",
-            "price": 15.64,
+            "name": "Drambuie",
+            "price": 13.51,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Calvados",
+            "price": 11.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Triple Sec",
+            "price": 14.91,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

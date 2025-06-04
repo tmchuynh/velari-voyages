@@ -12,67 +12,67 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Classic Steamed Chef's Special Surf and Turf",
-            "price": 33.65,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Fresh Grilled Chef’s Wild Game Selection",
+            "price": 31.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Grilled Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 28.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Crunchy Legendary Prime Rib",
+            "price": 24.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Sautéed Heritage Recipe Lamb Shank",
+            "price": 33.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Irresistible Celebrity Favorite Lobster Dish",
+            "price": 33.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spicy Award-Winning Seafood Boil",
+            "price": 35.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Sautéed House Famous Duck Confit",
+            "price": 24.18,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Grilled Secret Recipe Bouillabaisse",
-            "price": 28.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": false
-          },
-          {
-            "name": "Seasonal Grilled Whole Roasted Heritage Chicken",
-            "price": 26.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Zingy Age-Old Recipe Osso Buco with Gremolata",
-            "price": 33.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Delectable Dry-Aged Tomahawk Steak",
-            "price": 37.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Stuffed Charcoal Grilled Iberico Pork",
-            "price": 26.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Wholesome Chef’s Wild Game Selection",
-            "price": 36.46,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
@@ -80,8 +80,8 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Homestyle Baked Chef's Tasting Menu Experience",
-            "price": 36.29,
+            "name": "House Special Flavorful Sous Vide Perfection with Molecular Gastronomy Elements",
+            "price": 36.36,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -89,8 +89,8 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Fried Locally Foraged Mushroom Selection",
-            "price": 33.05,
+            "name": "Premium Grilled Chef's Market Inspiration of the Day",
+            "price": 33.3,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -98,8 +98,8 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Creamy Freshly Harvested Seasonal Creation",
-            "price": 32.72,
+            "name": "Classic Pan-seared Slow-Roasted Prime Rib",
+            "price": 36.03,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -107,17 +107,17 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Crispy Herb-Crusted Rack of Lamb",
-            "price": 37.73,
-            "isVegetarian": false,
+            "name": "Homestyle Succulent Wild Mushroom Risotto",
+            "price": 28.97,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Zingy Sous Vide Perfection with Molecular Gastronomy Elements",
-            "price": 36.82,
+            "name": "Hearty Juicy Tableside Prepared Tartare",
+            "price": 38.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -130,8 +130,8 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Authentic Sautéed Edamame",
-            "price": 13.88,
+            "name": "Homestyle Zesty Chicken Satay",
+            "price": 8.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -139,35 +139,17 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Premium Delicious Shrimp Cocktail",
-            "price": 8.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Pan-seared Dumplings",
-            "price": 15.51,
-            "isVegetarian": false,
+            "name": "Homestyle Flavorful Crostini",
+            "price": 11.76,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Crunchy Cheese Platter",
-            "price": 12.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Flaky Garlic Bread",
-            "price": 15.54,
+            "name": "Homestyle Golden Edamame",
+            "price": 13.11,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -175,8 +157,17 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Creamy Meatballs",
-            "price": 11.81,
+            "name": "Deluxe Savory Baba Ganoush",
+            "price": 12.24,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Steamed Potato Skins",
+            "price": 14.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -184,8 +175,8 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Savory Potstickers",
-            "price": 11.01,
+            "name": "Fresh Spicy Prawn Cocktail",
+            "price": 14.52,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -193,9 +184,18 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Delicious Mezze Platter",
-            "price": 14.27,
-            "isVegetarian": false,
+            "name": "Hearty Savory Bruschetta",
+            "price": 15.33,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Crunchy Garlic Bread",
+            "price": 15.3,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -207,17 +207,26 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Authentic Satisfying Italian Wedding Soup",
-            "price": 12.87,
+            "name": "Homestyle Sautéed Borscht",
+            "price": 11.52,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Creamy Miso Soup",
+            "price": 7.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Hearty Spicy Tomato Soup",
-            "price": 9.12,
+            "name": "Classic Pan-seared Cabbage Soup",
+            "price": 7.49,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -225,20 +234,11 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Grilled Corn Chowder",
-            "price": 10.5,
-            "isVegetarian": false,
+            "name": "Gourmet Luscious Pumpkin Soup",
+            "price": 9.27,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Creamy Clam Chowder",
-            "price": 13.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -248,17 +248,8 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Roasted Vegetable Salad",
-            "price": 14.51,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nicoise Salad",
-            "price": 9.01,
+            "name": "Pasta Salad",
+            "price": 14.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -266,17 +257,17 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Potato Salad",
-            "price": 14.3,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Mediterranean Chopped Salad",
+            "price": 13.29,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Kale Salad",
-            "price": 13.27,
+            "name": "Beet Salad",
+            "price": 9.78,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -284,8 +275,17 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Orzo Salad",
-            "price": 14.87,
+            "name": "Thai Green Papaya Salad",
+            "price": 11.19,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coleslaw",
+            "price": 10.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -298,8 +298,26 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "House Special Smoked Salmon",
-            "price": 24.56,
+            "name": "Hearty Sweet Coq au Vin",
+            "price": 27.19,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Grilled Chicken Parmesan",
+            "price": 18.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Flaky Eggplant Parmesan",
+            "price": 24.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -307,8 +325,26 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Grilled Coq au Vin",
-            "price": 28.84,
+            "name": "Authentic Crispy Lamb Chops",
+            "price": 27.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Roasted Pizza",
+            "price": 31.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Herbed Cottage Pie",
+            "price": 29.6,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -316,8 +352,8 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Golden Mac and Cheese",
-            "price": 18.96,
+            "name": "Handcrafted Crispy Biryani",
+            "price": 31.71,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -325,46 +361,10 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Herbed Shish Kebabs",
-            "price": 31.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Golden Grilled Tofu",
-            "price": 31.05,
+            "name": "Authentic Zesty Grilled Tofu",
+            "price": 20.98,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Sweet Spaghetti Bolognese",
-            "price": 22.89,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Crunchy Lamb Chops",
-            "price": 28.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Luscious Pasta Primavera",
-            "price": 19.29,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -375,26 +375,35 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Authentic Smoked Tempura Soft Shell Crab",
-            "price": 25.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Braised Traditional Provençal Bouillabaisse",
-            "price": 24.31,
+            "name": "Authentic Crunchy Tempura Soft Shell Crab",
+            "price": 22.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Hearty Smoked Oysters Rockefeller with Pernod Cream",
-            "price": 29.53,
+            "name": "Authentic Enticing Lemon-Herb Calamari Steak",
+            "price": 26.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Roasted Smoked Salmon Platter with Dill Crème",
+            "price": 35.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Pan-seared Crab-Stuffed Mushrooms",
+            "price": 35.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -402,22 +411,13 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Spiced Crab-Stuffed Mushrooms",
-            "price": 35.35,
+            "name": "Deluxe Roasted Sushi-Grade Sashimi Platter",
+            "price": 35.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Pan-seared Alaskan King Crab Legs with Drawn Butter",
-            "price": 32.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
@@ -425,26 +425,8 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Premium Exquisite Baked Idaho Potato with Sour Cream",
-            "price": 9.59,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Herbed Roasted Root Vegetables",
-            "price": 7.63,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Appetizing Crispy Zucchini Fritters",
-            "price": 7.55,
+            "name": "House Special Hearty Chili Lime Roasted Chickpeas",
+            "price": 5.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -452,17 +434,8 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Golden Flaky Cheddar and Chive Biscuits",
-            "price": 7.86,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Roasted Sweet Corn and Cheddar Fritters",
-            "price": 7.45,
+            "name": "Homestyle Baked Creamy Colcannon (Irish Potato Mash)",
+            "price": 9.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -470,8 +443,35 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Luscious Creamed Spinach with Nutmeg",
-            "price": 8.28,
+            "name": "Fresh Mouthwatering Mashed Potatoes",
+            "price": 8.12,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sweet Garlic Bread with Herb Butter",
+            "price": 8.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Smoked French Fries",
+            "price": 8.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Crispy Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 6.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -484,26 +484,44 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Coffee",
-            "price": 4.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 7.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Tea",
-            "price": 5.89,
+            "price": 6.62,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 6.52,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 7.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 7.83,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 6.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -512,28 +530,10 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Smoothie",
-            "price": 6.93,
+            "price": 6.01,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 5.84,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 7.21,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,17 +549,8 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Red Velvet Cake",
-            "price": 9.19,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Carrot Cake",
-            "price": 6.86,
+            "name": "Croissants",
+            "price": 8.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,16 +559,16 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Berry Tart",
-            "price": 10.07,
-            "isVegetarian": true,
-            "isVegan": true,
+            "price": 8.21,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cheesecake",
-            "price": 6.28,
+            "name": "Pumpkin Pie",
+            "price": 10.3,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -585,8 +576,17 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cinnamon Rolls",
-            "price": 10.92,
+            "name": "Shortbread",
+            "price": 8.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Muffins",
+            "price": 9.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,46 +599,46 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Mousse",
-            "price": 7.38,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Granita",
-            "price": 9.71,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Pie",
-            "price": 11.76,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Frozen Yogurt",
-            "price": 9.08,
+            "price": 8.59,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Sandwich",
+            "price": 8.82,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Sorbet",
-            "price": 7.77,
+            "price": 8.45,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Mousse",
+            "price": 7.99,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frosty",
+            "price": 10.59,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -655,26 +655,17 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Cosmopolitan",
-            "price": 14.75,
-            "isVegetarian": false,
+            "name": "Bloody Mary",
+            "price": 14.32,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 15.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 11.24,
+            "name": "Martini",
+            "price": 14.01,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -683,8 +674,17 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Negroni",
-            "price": 12.69,
+            "price": 14.33,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 12.64,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -692,25 +692,25 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Manhattan",
-            "price": 15.42,
+            "price": 12.31,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 10.99,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 14.2,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 15.27,
+            "name": "Whiskey Sour",
+            "price": 10.9,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -723,8 +723,35 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Malbec",
-            "price": 10.54,
+            "name": "Sangiovese",
+            "price": 10.39,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Noir",
+            "price": 9.11,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Marsanne",
+            "price": 8.36,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Dolcetto",
+            "price": 13.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -732,46 +759,19 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Vouvray",
+            "name": "Vermentino",
+            "price": 9.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Barbera",
             "price": 9.2,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Moscato",
-            "price": 11.05,
-            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cabernet Franc",
-            "price": 12.06,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Petit Verdot",
-            "price": 13.16,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roussanne",
-            "price": 11.39,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -782,8 +782,8 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Cognac",
-            "price": 15.4,
+            "name": "Whiskey",
+            "price": 13.93,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -791,37 +791,37 @@ export const florencegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Whiskey",
-            "price": 12.96,
+            "name": "Tequila",
+            "price": 12.85,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Vodka",
-            "price": 17.53,
+            "name": "Frangelico",
+            "price": 15.91,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Baileys Irish Cream",
-            "price": 14.23,
-            "isVegetarian": true,
+            "name": "Scotch",
+            "price": 14.67,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Amaretto",
-            "price": 15.95,
+            "name": "Galliano",
+            "price": 13.41,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true

@@ -12,66 +12,66 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Gourmet Roasted Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 26.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Zingy Traditional Family Paella",
-            "price": 26.17,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Flavorful Japanese A5 Wagyu with Ponzu Butter",
-            "price": 34.13,
+            "name": "Handcrafted Succulent Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 29.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Sizzling Chef's Special Surf and Turf",
-            "price": 26.82,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Zesty 24-Hour Braised Short Ribs",
-            "price": 25.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Aromatic Wood-Fired Peking Duck with Plum Sauce",
-            "price": 36.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Gourmet Appetizing Award-Winning Seafood Boil",
-            "price": 34.32,
+            "name": "Hearty Marinated Dry-Aged Tomahawk Steak",
+            "price": 30.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Braised Flambéed Tableside Specialty",
+            "price": 31.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Herbed Local Bounty Harvest Plate (Vegetarian)",
+            "price": 31.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Grilled Seasonal Tasting Platter",
+            "price": 31.23,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Hearty Signature Truffle Pasta with Aged Pecorino",
+            "price": 25.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Mouthwatering Molecular Gastronomy Showcase Tasting",
+            "price": 25.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": false
           }
         ]
@@ -80,35 +80,8 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Handcrafted Delicious Lobster Thermidor",
-            "price": 33.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Grilled Dry-Aged Prime Beef Selection",
-            "price": 37.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Grilled Aged and House-Cured Charcuterie Selection",
-            "price": 36.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Stuffed Special Occasion Celebratory Dish",
-            "price": 29.48,
+            "name": "House Special Stuffed Whole Animal Butchery Showcase",
+            "price": 31.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -116,9 +89,36 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Smoked Gourmet Vegetarian Wellington",
-            "price": 30.5,
-            "isVegetarian": true,
+            "name": "Authentic Luscious Chef's Tasting Menu Experience",
+            "price": 39.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Savory Daily Fresh Catch with Seasonal Accompaniments",
+            "price": 29.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spiced Locally Foraged Mushroom Selection",
+            "price": 31.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Braised Sous Vide Perfection with Molecular Gastronomy Elements",
+            "price": 24.76,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -130,17 +130,17 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Handcrafted Grilled Spinach Artichoke Dip",
-            "price": 10,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Traditional Zingy Garlic Bread",
+            "price": 14.65,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Grilled Samosas",
-            "price": 14.6,
+            "name": "Hearty Zingy Nachos",
+            "price": 14.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -148,8 +148,17 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Zesty Charcuterie Board",
-            "price": 11.95,
+            "name": "Handcrafted Spiced Zucchini Fries",
+            "price": 14.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Pan-seared Potstickers",
+            "price": 12.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,46 +166,37 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Juicy Tzatziki with Pita",
-            "price": 11.88,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Delectable Sweet Potato Fries",
-            "price": 15.05,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Tender Garlic Knots",
-            "price": 13.05,
+            "name": "Homestyle Fried Deviled Eggs",
+            "price": 15.59,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Zesty Hummus Platter",
+            "price": 8.63,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Tender Bruschetta",
-            "price": 15.79,
+            "name": "House Special Crispy Spinach Artichoke Dip",
+            "price": 12.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Classic Tender Baked Brie",
-            "price": 11.31,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Deluxe Smoked Edamame",
+            "price": 10.04,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -207,17 +207,8 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Authentic Fried Broccoli Cheddar Soup",
-            "price": 8.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Mouthwatering Cabbage Soup",
-            "price": 10.8,
+            "name": "Gourmet Grilled Broccoli Cheddar Soup",
+            "price": 12.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -225,17 +216,26 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Crunchy Beef Stew",
-            "price": 12.76,
+            "name": "Fresh Exquisite Beef Stew",
+            "price": 13.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Steamed Tomato Soup",
+            "price": 11.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Fresh Delicious Minestrone",
-            "price": 11.74,
+            "name": "Fresh Enticing Mushroom Soup",
+            "price": 10.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -249,16 +249,16 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Chickpea Salad",
-            "price": 12.48,
-            "isVegetarian": false,
+            "price": 12.96,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Asian Slaw",
-            "price": 11.39,
+            "name": "Caprese Salad",
+            "price": 12.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -266,8 +266,8 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lentil and Feta Salad",
-            "price": 10.35,
+            "name": "Southwest Black Bean Salad",
+            "price": 12.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -275,22 +275,22 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cobb Salad",
-            "price": 10.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beet Salad",
-            "price": 9.64,
-            "isVegetarian": false,
+            "name": "Thai Green Papaya Salad",
+            "price": 13.14,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 14.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -298,17 +298,17 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Traditional Delectable Risotto",
-            "price": 22.87,
+            "name": "Authentic Sautéed Roast Duck",
+            "price": 28.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Hearty Smoked Pasta Primavera",
-            "price": 26.92,
+            "name": "Fresh Grilled Bibimbap",
+            "price": 25.36,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -316,17 +316,17 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Mouthwatering Vegetable Stir-Fry",
-            "price": 23.73,
+            "name": "Traditional Roasted Cottage Pie",
+            "price": 22.23,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Stuffed Eggplant Parmesan",
-            "price": 28.49,
+            "name": "Handcrafted Zesty Quiche",
+            "price": 20.49,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -334,35 +334,35 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Hearty Teriyaki Chicken",
-            "price": 18.37,
+            "name": "Authentic Exquisite Pizza",
+            "price": 19.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Seasonal Baked Stir-fry",
-            "price": 29.54,
+            "name": "Hearty Herbed Lamb Chops",
+            "price": 31.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "House Special Pan-seared Quiche",
-            "price": 21.42,
+            "name": "Hearty Zingy Stuffed Zucchini Boats",
+            "price": 21.14,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Smoked Gnocchi",
-            "price": 29.54,
+            "name": "Organic Hearty Pasta Primavera",
+            "price": 27.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -375,8 +375,8 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Premium Zesty Valencian Seafood Paella",
-            "price": 24.44,
+            "name": "Seasonal Crunchy Stuffed Flounder with Crab and Spinach",
+            "price": 28.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,8 +384,8 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "House Special Spiced Tempura Soft Shell Crab",
-            "price": 30.08,
+            "name": "Gourmet Delectable Grilled Lobster with Lemon Butter",
+            "price": 29.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,8 +393,8 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Spiced Hearty Italian Cioppino",
-            "price": 30.1,
+            "name": "Gourmet Hearty Prawn Curry in Coconut Masala",
+            "price": 29.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -402,22 +402,22 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Zesty Lemon-Herb Calamari Steak",
-            "price": 28.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Enticing Cajun Shrimp and Grits",
-            "price": 31.68,
+            "name": "Traditional Roasted Cajun Shrimp and Grits",
+            "price": 24.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Traditional Creamy Hearty Italian Cioppino",
+            "price": 30.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -425,54 +425,54 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "House Special Tangy Fragrant Basmati Rice Pilaf",
-            "price": 7.49,
+            "name": "Homestyle Smoked Mashed Potatoes",
+            "price": 8.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Juicy Sweet Potato Wedges with Smoked Paprika",
+            "price": 7.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Delectable Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 9.17,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Grilled French Fries",
+            "price": 6.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Spiced Charred Broccolini with Garlic Oil",
+            "price": 9.39,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Stuffed Roasted Root Vegetables",
-            "price": 6.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Flavorful Scalloped Potatoes with Thyme",
-            "price": 7.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Flaky Sweet Corn and Cheddar Fritters",
-            "price": 9.32,
+            "name": "Hearty Grilled Sweet Corn and Cheddar Fritters",
+            "price": 7.7,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Sizzling French Fries",
-            "price": 7.62,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Sizzling Garlic Bread with Herb Butter",
-            "price": 9.85,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -484,18 +484,18 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Iced Tea",
-            "price": 5.62,
+            "name": "Smoothie",
+            "price": 6.53,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 6.04,
-            "isVegetarian": true,
+            "name": "Iced Tea",
+            "price": 4.46,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -503,37 +503,37 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Lemonade",
-            "price": 7.8,
+            "price": 7.87,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 4.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 5.69,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Juice",
-            "price": 6.81,
+            "price": 4.38,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 7.64,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soda",
-            "price": 5.02,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,8 +549,8 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Pecan Pie",
-            "price": 8.28,
+            "name": "Carrot Cake",
+            "price": 8.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,18 +558,9 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Custard Tart",
-            "price": 6.6,
+            "name": "Cupcakes",
+            "price": 8.53,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fruit Galette",
-            "price": 6.36,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -577,17 +568,26 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Lemon Bars",
-            "price": 6.39,
-            "isVegetarian": true,
+            "price": 6.3,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Shortbread",
-            "price": 8.84,
-            "isVegetarian": true,
+            "name": "Soufflé",
+            "price": 8.52,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sticky Toffee Pudding",
+            "price": 9.93,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -599,8 +599,8 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Custard",
-            "price": 8.19,
+            "name": "Ice Cream",
+            "price": 7.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -608,8 +608,26 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ice Cream Cake",
-            "price": 8.01,
+            "name": "Frozen Pie",
+            "price": 9.25,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frosty",
+            "price": 11.46,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gelato",
+            "price": 8.24,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -617,29 +635,11 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Granita",
-            "price": 11.84,
-            "isVegetarian": false,
+            "name": "Paletas",
+            "price": 10.39,
+            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Kulfi",
-            "price": 11.54,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baked Alaska",
-            "price": 9.19,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -655,26 +655,17 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Mai Tai",
-            "price": 15.17,
+            "name": "Mojito",
+            "price": 14.76,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 11.08,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 12.21,
+            "name": "Martini",
+            "price": 10.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -683,7 +674,25 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Cosmopolitan",
-            "price": 14.47,
+            "price": 10.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 11.99,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 12.55,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -691,28 +700,19 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 14.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 11.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 13.82,
+            "name": "Negroni",
+            "price": 13.61,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 11.19,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -723,35 +723,8 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Syrah/Shiraz",
-            "price": 13.51,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Prosecco",
-            "price": 13.73,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chenin Blanc",
-            "price": 9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Albariño",
-            "price": 10.45,
+            "name": "Riesling",
+            "price": 8.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -759,17 +732,44 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Riesling",
-            "price": 9.13,
-            "isVegetarian": true,
+            "name": "Tempranillo",
+            "price": 8.07,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gewürztraminer",
-            "price": 13.54,
+            "name": "Pinot Grigio",
+            "price": 10.97,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Noir",
+            "price": 9.55,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nebbiolo",
+            "price": 11.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Verdicchio",
+            "price": 8.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -782,26 +782,8 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Whiskey",
-            "price": 17.07,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cognac",
-            "price": 15.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Kahlúa",
-            "price": 13.54,
+            "price": 10.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -809,8 +791,8 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Triple Sec",
-            "price": 17.12,
+            "name": "Bourbon",
+            "price": 15.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -818,10 +800,28 @@ export const newYorkCitytheBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coffee Liqueur",
-            "price": 12.4,
+            "name": "Pisco",
+            "price": 10.04,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mezcal",
+            "price": 17.26,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Aquavit",
+            "price": 13.68,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true

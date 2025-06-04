@@ -12,8 +12,8 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Gourmet Marinated 24-Hour Braised Short Ribs",
-            "price": 30.46,
+            "name": "Classic Stuffed Whole Roasted Heritage Chicken",
+            "price": 34.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -21,17 +21,17 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Gourmet Creamy Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 35.29,
+            "name": "Premium Delectable Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 32.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Tangy Wood-Fired Peking Duck with Plum Sauce",
-            "price": 28.65,
+            "name": "Authentic Satisfying Celebrity Favorite Lobster Dish",
+            "price": 26.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -39,8 +39,8 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Smoked Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 32.34,
+            "name": "Classic Baked Secret Recipe Bouillabaisse",
+            "price": 35.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -48,17 +48,17 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Grilled Chef's Childhood Inspired Creation",
-            "price": 24.17,
-            "isVegetarian": true,
+            "name": "Handcrafted Grilled Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 33.05,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Grilled Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 35.14,
+            "name": "Seasonal Sautéed Flambéed Tableside Specialty",
+            "price": 26.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -66,8 +66,8 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Sweet Chef’s Wild Game Selection",
-            "price": 31.37,
+            "name": "Traditional Sizzling Age-Old Recipe Osso Buco with Gremolata",
+            "price": 34.22,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -80,8 +80,8 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Fresh Creamy Chef's Market Inspiration of the Day",
-            "price": 34.54,
+            "name": "Handcrafted Luscious Seasonal Farm-to-Table Vegetable Plate",
+            "price": 34.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -89,8 +89,26 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Aromatic Signature Spice-Rubbed Protein",
-            "price": 28.18,
+            "name": "Deluxe Pan-seared Seasonal Truffle Risotto",
+            "price": 38.75,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Smoked Fire-Roasted Seasonal Centerpiece",
+            "price": 30.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Tender Sous Vide Perfection with Molecular Gastronomy Elements",
+            "price": 36.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -98,29 +116,11 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Herbed Chef's Tasting Menu Experience",
-            "price": 27.39,
+            "name": "Fresh Spiced Collaborative Limited Edition Special",
+            "price": 33.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Zingy Tableside Prepared Tartare",
-            "price": 28.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Hearty Tasting of Local Artisanal Cheeses",
-            "price": 28.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,17 +130,26 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Premium Zingy Zucchini Fries",
-            "price": 12.02,
+            "name": "Hearty Appetizing Spring Rolls",
+            "price": 9.23,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Marinated Edamame",
-            "price": 15.19,
+            "name": "Authentic Creamy Mini Quesadillas",
+            "price": 11.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked Stuffed Avocado",
+            "price": 10.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -148,8 +157,8 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Tender Arancini",
-            "price": 12.73,
+            "name": "Premium Spiced Cheese Platter",
+            "price": 9.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,49 +166,40 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Succulent Spinach Puffs",
-            "price": 10.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Flavorful Stuffed Peppers",
-            "price": 9,
+            "name": "Authentic Braised Cheese Nachos",
+            "price": 13.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Deluxe Tangy Tempura",
-            "price": 14.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Crispy Falafel",
-            "price": 12.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Succulent Calamari",
-            "price": 13.52,
+            "name": "Organic Appetizing Tuna Tartare",
+            "price": 15.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Gourmet Stuffed Garlic Knots",
+            "price": 9.02,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Sweet Mezze Platter",
+            "price": 15.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -207,8 +207,8 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Authentic Smoked Cabbage Soup",
-            "price": 13.17,
+            "name": "Authentic Smoked Split Pea Soup",
+            "price": 7.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -216,26 +216,26 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Succulent Butternut Squash Soup",
-            "price": 12.44,
-            "isVegetarian": true,
+            "name": "Homestyle Mouthwatering Vegetable Barley Soup",
+            "price": 11.06,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Zingy Mushroom Soup",
-            "price": 11.43,
-            "isVegetarian": true,
+            "name": "Homestyle Creamy Pho",
+            "price": 8.28,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Flaky Tortilla Soup",
-            "price": 13.98,
+            "name": "Authentic Sweet Seafood Chowder",
+            "price": 11.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -248,8 +248,8 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Mango Avocado Salad",
-            "price": 10.62,
+            "name": "Pear and Gorgonzola Salad",
+            "price": 11.75,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -257,35 +257,35 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Quinoa Salad",
-            "price": 10.99,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Broccoli Crunch Salad",
+            "price": 12.51,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Spinach Salad",
-            "price": 9.78,
-            "isVegetarian": false,
+            "name": "Beet Salad",
+            "price": 11.94,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Caesar Salad",
-            "price": 12.44,
+            "name": "Fruit Salad",
+            "price": 14.56,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef Salad",
-            "price": 9.23,
+            "name": "Greek Salad",
+            "price": 11.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -298,62 +298,44 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Premium Crunchy Biryani",
-            "price": 31.83,
+            "name": "Handcrafted Golden Lamb Chops",
+            "price": 18.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Deluxe Tender Salmon",
-            "price": 20.11,
+            "name": "Authentic Sizzling Steak",
+            "price": 23.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Traditional Stuffed Stuffed Zucchini Boats",
-            "price": 24.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Pan-seared Spaghetti Bolognese",
-            "price": 21.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Delicious Vegetable Stir-Fry",
-            "price": 18.76,
-            "isVegetarian": false,
+            "name": "Classic Appetizing Ramen",
+            "price": 27.98,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Spicy Burrito",
-            "price": 20.74,
+            "name": "Authentic Wholesome Enchiladas",
+            "price": 24.18,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Homestyle Smoked Enchiladas",
-            "price": 29.18,
+            "name": "Gourmet Spicy Cottage Pie",
+            "price": 30.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -361,11 +343,29 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Smoked Coq au Vin",
-            "price": 25.96,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Organic Delicious Burrito",
+            "price": 28.8,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Flavorful Paella",
+            "price": 26.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Appetizing Fish and Chips",
+            "price": 20.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -375,49 +375,49 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Organic Irresistible Hearty Italian Cioppino",
-            "price": 29.87,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Steamed New England Lobster Roll",
-            "price": 25.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Sautéed Cedar Plank Roasted Salmon",
-            "price": 24.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Zingy Lemon-Herb Calamari Steak",
-            "price": 27.73,
+            "name": "Authentic Wholesome Seared Tuna Steak with Sesame Crust",
+            "price": 31.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Golden Seafood Alfredo with Spinach Fettuccine",
+            "price": 33.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Hearty Golden Sushi-Grade Sashimi Platter",
-            "price": 22.68,
-            "isVegetarian": true,
+            "name": "Traditional Wholesome Stuffed Flounder with Crab and Spinach",
+            "price": 29.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Marinated Traditional Provençal Bouillabaisse",
+            "price": 35.35,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Gourmet Wholesome Steamed Littleneck Clams in Garlic Broth",
+            "price": 23.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -425,54 +425,54 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Authentic Grilled Steamed Jasmine Rice",
-            "price": 8.85,
+            "name": "Seasonal Zesty Roasted Root Vegetables",
+            "price": 8.65,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Herbed Baked Idaho Potato with Sour Cream",
-            "price": 5.28,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Creamy Israeli Couscous with Roasted Tomatoes",
-            "price": 9.77,
+            "name": "Deluxe Pan-seared Provencal Ratatouille",
+            "price": 6.08,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Juicy Quinoa Pilaf with Herbs",
+            "price": 7.6,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Savory Sautéed Garlic Mushrooms",
-            "price": 6.71,
+            "name": "Fresh Crispy Steamed Jasmine Rice",
+            "price": 7.64,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sizzling Flaky Cheddar and Chive Biscuits",
+            "price": 7.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Deluxe Spicy Warm Buttermilk Dinner Rolls",
-            "price": 8.47,
+            "name": "Gourmet Juicy Macaroni and Aged Cheddar",
+            "price": 9.12,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Stuffed Cauliflower Gratin with Gruyère",
-            "price": 5.88,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -484,8 +484,17 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Soda",
-            "price": 5.32,
+            "name": "Coffee",
+            "price": 4.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 7.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -493,44 +502,35 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
+            "name": "Tea",
+            "price": 7.85,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Smoothie",
-            "price": 4.69,
+            "price": 4.21,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 5.64,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Water",
-            "price": 5.61,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 5.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hot Chocolate",
-            "price": 7.75,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 5.4,
+            "price": 6.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -549,8 +549,17 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Berry Tart",
-            "price": 8.08,
+            "name": "Croissants",
+            "price": 10.44,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Red Velvet Cake",
+            "price": 7.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,8 +567,8 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Madeleines",
-            "price": 7.59,
+            "name": "Pumpkin Pie",
+            "price": 8.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,16 +577,7 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Vanilla Cake",
-            "price": 7.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Custard Tart",
-            "price": 7.67,
+            "price": 7.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -585,8 +585,8 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Eclairs",
-            "price": 8.69,
+            "name": "Treacle Tart",
+            "price": 6.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,17 +599,26 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Paletas",
-            "price": 9.55,
-            "isVegetarian": true,
+            "name": "Snow Cone",
+            "price": 7.31,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Ice Cream Sandwich",
-            "price": 7.12,
+            "name": "Baked Alaska",
+            "price": 11.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream",
+            "price": 9.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -618,16 +627,7 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Sherbet",
-            "price": 7.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Cheesecake",
-            "price": 10.62,
+            "price": 11.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -635,8 +635,8 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Popsicles",
-            "price": 8.4,
+            "name": "Frozen Fruit Bars",
+            "price": 9.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -655,65 +655,65 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Mojito",
-            "price": 10.54,
-            "isVegetarian": false,
+            "name": "Martini",
+            "price": 15.97,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 10.84,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 15.51,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 15.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Cosmopolitan",
-            "price": 13.78,
-            "isVegetarian": false,
+            "price": 13.36,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 14.12,
-            "isVegetarian": false,
+            "name": "Mai Tai",
+            "price": 13.91,
+            "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 11.68,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 15.08,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 11.86,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Bloody Mary",
-            "price": 15.33,
+            "price": 10.97,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,8 +723,8 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Champagne/Sparkling Wine",
-            "price": 9.03,
+            "name": "Sangiovese",
+            "price": 12.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -732,8 +732,8 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Vermentino",
-            "price": 11.26,
+            "name": "Petit Verdot",
+            "price": 11.98,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -741,26 +741,17 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sauvignon Blanc",
-            "price": 13.87,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Noir",
-            "price": 13.12,
+            "name": "Vouvray",
+            "price": 12.7,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gewürztraminer",
-            "price": 13.77,
+            "name": "Albariño",
+            "price": 12.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -768,9 +759,18 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cabernet Franc",
-            "price": 12.75,
-            "isVegetarian": true,
+            "name": "Grenache",
+            "price": 12.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Noir",
+            "price": 13.61,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -782,8 +782,8 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Vodka",
-            "price": 15.35,
+            "name": "Bourbon",
+            "price": 15.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -791,17 +791,17 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Midori",
-            "price": 11.01,
+            "name": "Maraschino",
+            "price": 15.8,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gin",
-            "price": 12.95,
+            "name": "Anisette",
+            "price": 12.96,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -809,20 +809,20 @@ export const losAngelesroyalBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cognac",
-            "price": 15.86,
-            "isVegetarian": true,
+            "name": "Scotch",
+            "price": 10.86,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Rum",
-            "price": 12.81,
-            "isVegetarian": true,
+            "name": "Drambuie",
+            "price": 11.57,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

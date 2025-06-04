@@ -155,5 +155,160 @@ export const rioDeJaneiroRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": true
+  },
+  {
+    "name": "Sugarloaf Table",
+    "description": "This popular Italian establishment combines traditional recipes and caipirinha, all served in a unique setting with beachfront dining.",
+    "cuisine": "Italian",
+    "priceRange": "$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "11:00-22:00",
+      "friday": "9:00-20:00",
+      "saturday": "10:00-19:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-712-5907",
+      "contactEmail": "info@italianrio-de-janeiro.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Christ the Redeemer Bakery",
+    "description": "Located close to Christ the Redeemer, this Japanese restaurant delights with its açaí bowls and samba music.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "9:00-19:00",
+      "friday": "9:00-21:00",
+      "saturday": "10:00-22:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-914-4135",
+      "contactEmail": "info@japaneserio-de-janeiro.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Carioca Bakery",
+    "description": "A culinary gem serving Portuguese specialties including feijoada, where guests enjoy beachfront dining in the heart of the city.",
+    "cuisine": "Portuguese",
+    "priceRange": "$$$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "Closed",
+      "thursday": "Closed",
+      "friday": "10:00-21:00",
+      "saturday": "9:00-21:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-919-3077",
+      "contactEmail": "info@portugueserio-de-janeiro.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Brazilian Buffet",
+    "description": "Experience authentic Portuguese cuisine with a local twist, featuring churrasco served in an atmosphere of tropical atmosphere overlooking Sugarloaf Mountain.",
+    "cuisine": "Portuguese",
+    "priceRange": "$$$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-22:00",
+      "wednesday": "Closed",
+      "thursday": "9:00-21:00",
+      "friday": "9:00-20:00",
+      "saturday": "11:00-19:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-301-6183",
+      "contactEmail": "info@portugueserio-de-janeiro.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Samba Cafe",
+    "description": "A culinary gem serving Seafood specialties including pão de queijo, where guests enjoy beachfront dining in the heart of the city.",
+    "cuisine": "Seafood",
+    "priceRange": "$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "11:00-20:00",
+      "friday": "9:00-19:00",
+      "saturday": "10:00-20:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-555-6953",
+      "contactEmail": "info@seafoodrio-de-janeiro.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
   }
 ];

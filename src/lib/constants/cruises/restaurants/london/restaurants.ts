@@ -217,5 +217,160 @@ export const londonRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Piccadilly Buffet",
+    "description": "A charming Indian restaurant near downtown, offering fresh produce and other local favorites in a setting with local ambiance.",
+    "cuisine": "Indian",
+    "priceRange": "$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "Closed",
+      "wednesday": "11:00-19:00",
+      "thursday": "10:00-21:00",
+      "friday": "9:00-20:00",
+      "saturday": "9:00-20:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-982-1449",
+      "contactEmail": "info@indianlondon.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Westminster Saloon",
+    "description": "A culinary gem serving Indian specialties including fresh produce, where guests enjoy local ambiance in the heart of the city.",
+    "cuisine": "Indian",
+    "priceRange": "$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "Closed",
+      "wednesday": "9:00-20:00",
+      "thursday": "11:00-21:00",
+      "friday": "9:00-19:00",
+      "saturday": "9:00-22:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-360-7809",
+      "contactEmail": "info@indianlondon.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Big Ben Room",
+    "description": "A culinary gem serving Indian specialties including local ingredients, where guests enjoy elegant atmosphere in the heart of the city.",
+    "cuisine": "Indian",
+    "priceRange": "$$$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "9:00-21:00",
+      "friday": "11:00-22:00",
+      "saturday": "10:00-19:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-368-8852",
+      "contactEmail": "info@indianlondon.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Piccadilly Restaurant",
+    "description": "A charming Indian restaurant near downtown, offering artisanal creations and other local favorites in a setting with beautiful decor.",
+    "cuisine": "Indian",
+    "priceRange": "$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "11:00-22:00",
+      "friday": "10:00-21:00",
+      "saturday": "10:00-19:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-336-6791",
+      "contactEmail": "info@indianlondon.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Tea Time Bar & Kitchen",
+    "description": "Experience authentic Italian cuisine with a local twist, featuring signature dishes served in an atmosphere of friendly service overlooking downtown.",
+    "cuisine": "Italian",
+    "priceRange": "$$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "Closed",
+      "friday": "11:00-20:00",
+      "saturday": "10:00-22:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-901-5974",
+      "contactEmail": "info@italianlondon.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
   }
 ];

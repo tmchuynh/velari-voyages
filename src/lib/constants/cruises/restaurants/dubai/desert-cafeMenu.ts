@@ -12,8 +12,8 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Seasonal Delectable Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 26.73,
+            "name": "Hearty Succulent Tableside Carved Chateaubriand",
+            "price": 25.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -21,44 +21,8 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Pan-seared Local Bounty Harvest Plate (Vegetarian)",
-            "price": 36.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Flaky Sous Vide Perfected Wagyu",
-            "price": 24.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Creamy Legendary Prime Rib",
-            "price": 35.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Golden Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 28.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Comforting Signature Truffle Pasta with Aged Pecorino",
-            "price": 35.39,
+            "name": "Organic Flavorful Secret Recipe Bouillabaisse",
+            "price": 29.41,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -66,12 +30,48 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Savory Charcoal Grilled Iberico Pork",
-            "price": 29.38,
+            "name": "Authentic Creamy Flambéed Tableside Specialty",
+            "price": 36.9,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Steamed Award-Winning Seafood Boil",
+            "price": 29.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Tender Captain's Favorite Seafood Tower",
+            "price": 32.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Spiced Seasonal Tasting Menu Experience",
+            "price": 25.78,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Stuffed Chef’s Wild Game Selection",
+            "price": 27.66,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -80,48 +80,48 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Premium Stuffed Chef's Tasting Menu Experience",
-            "price": 34.2,
+            "name": "Organic Marinated Hand-Selected Wine Pairing Experience",
+            "price": 27.1,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Flavorful Aged and House-Cured Charcuterie Selection",
-            "price": 27.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Crispy Lobster and Crab Stuffed Ravioli",
-            "price": 36.32,
+            "name": "Classic Exquisite Signature Spice-Rubbed Protein",
+            "price": 26.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Steamed Grilled Venison with Juniper Berry Sauce",
+            "price": 26.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Braised Miso-Glazed Black Cod",
+            "price": 32.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Classic Delectable Tableside Prepared Tartare",
-            "price": 30.72,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Crispy Truffle-Infused Filet Mignon",
-            "price": 34.8,
+            "name": "Authentic Grilled Seasonal Farm-to-Table Vegetable Plate",
+            "price": 32.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           }
         ]
@@ -130,8 +130,53 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Traditional Pan-seared Nachos",
-            "price": 15.41,
+            "name": "Fresh Flavorful Tzatziki with Pita",
+            "price": 8.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Grilled Crostini",
+            "price": 15.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Fried Tuna Tartare",
+            "price": 14.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Crunchy Sweet Potato Fries",
+            "price": 9.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Satisfying Potstickers",
+            "price": 12.59,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Flavorful Cheese Platter",
+            "price": 9.49,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -139,8 +184,8 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Delectable Spring Rolls",
-            "price": 14.78,
+            "name": "Traditional Grilled Garlic Bread",
+            "price": 14.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -148,58 +193,13 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Grilled Mozzarella Sticks",
-            "price": 13.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Golden Lettuce Wraps",
-            "price": 10.89,
+            "name": "Authentic Spiced Shrimp Cocktail",
+            "price": 14.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Sweet Mini Quesadillas",
-            "price": 14.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
             "isKosher": false
-          },
-          {
-            "name": "Organic Grilled Calamari",
-            "price": 8.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Creamy Zucchini Fries",
-            "price": 10.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Spicy Baked Brie",
-            "price": 12.57,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
@@ -207,17 +207,26 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Deluxe Sautéed Broccoli Cheddar Soup",
-            "price": 11.78,
+            "name": "Seasonal Sweet Peanut Soup (West African)",
+            "price": 9.91,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Zingy Black Bean Soup",
-            "price": 8.72,
+            "name": "Deluxe Grilled Carrot Ginger Soup",
+            "price": 8.75,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Marinated Gazpacho",
+            "price": 12.95,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -225,20 +234,11 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Luscious Miso Soup",
-            "price": 12.8,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Zingy Tomato Soup",
-            "price": 7.35,
+            "name": "Deluxe Zesty Corn Chowder",
+            "price": 11.26,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -248,8 +248,17 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Caprese Salad",
-            "price": 13.07,
+            "name": "Quinoa Salad",
+            "price": 13.39,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Orzo Salad",
+            "price": 14.92,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -257,36 +266,27 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cobb Salad",
-            "price": 10.02,
+            "name": "Watermelon Feta Salad",
+            "price": 10.52,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fruit Salad",
-            "price": 9.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spinach Salad",
-            "price": 14.15,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 13.44,
-            "isVegetarian": false,
+            "name": "Greek Salad",
+            "price": 14.85,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coleslaw",
+            "price": 13.78,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -298,76 +298,76 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Authentic Enticing Enchiladas",
-            "price": 30.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Smoked Salmon",
-            "price": 29.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Smoked Tagine",
-            "price": 21.32,
+            "name": "Authentic Sizzling Moussaka",
+            "price": 20.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Tender Lasagna",
+            "price": 22.84,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Golden Jambalaya",
-            "price": 28.6,
+            "name": "Hearty Smoked Spaghetti Bolognese",
+            "price": 24.72,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Sweet Beef Wellington",
-            "price": 23.14,
+            "name": "Authentic Flavorful Biryani",
+            "price": 18.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Grilled Paella",
-            "price": 27.98,
+            "name": "House Special Hearty Ramen",
+            "price": 25.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Exquisite Fish and Chips",
+            "price": 30.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Flaky Steak",
+            "price": 25.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Seasonal Aromatic Teriyaki Chicken",
-            "price": 28.68,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "House Special Exquisite Enchiladas",
+            "price": 23.65,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Grilled Fish and Chips",
-            "price": 28.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
@@ -375,8 +375,8 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Handcrafted Pan-seared Seafood Alfredo with Spinach Fettuccine",
-            "price": 31.3,
+            "name": "Gourmet Spiced Grilled Lobster with Lemon Butter",
+            "price": 35.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,17 +384,8 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Grilled Pan-Seared Scallops with Pea Purée",
-            "price": 27.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Juicy Oysters Rockefeller with Pernod Cream",
-            "price": 34.6,
+            "name": "Authentic Crispy Pan-Seared Scallops with Pea Purée",
+            "price": 24.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -402,22 +393,31 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Smoked Mussels Mariniere in White Wine",
-            "price": 23.05,
+            "name": "Organic Hearty Smoked Salmon Platter with Dill Crème",
+            "price": 22.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Tender Seafood Risotto with Saffron",
+            "price": 22.52,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Pan-seared Oysters Rockefeller with Pernod Cream",
+            "price": 26.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Authentic Comforting Shrimp Scampi over Linguine",
-            "price": 22.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
           }
         ]
       },
@@ -425,26 +425,35 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Seasonal Sizzling Mashed Potatoes",
-            "price": 8.45,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Hearty Stuffed Garlic Bread with Herb Butter",
+            "price": 7.24,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Crunchy Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 6.83,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Fresh Sweet Flaky Cheddar and Chive Biscuits",
+            "price": 9.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spicy Grilled Asparagus with Lemon Zest",
+            "price": 8.48,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Roasted Warm Buttermilk Dinner Rolls",
-            "price": 7.25,
+            "name": "Seasonal Aromatic Chili Lime Roasted Chickpeas",
+            "price": 6.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -452,26 +461,17 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Delectable Macaroni and Aged Cheddar",
-            "price": 5.82,
-            "isVegetarian": true,
+            "name": "Classic Spicy Grilled Zucchini and Peppers",
+            "price": 9.06,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Luscious Scalloped Potatoes with Thyme",
-            "price": 6.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Tender Chili Lime Roasted Chickpeas",
-            "price": 6.39,
+            "name": "Traditional Appetizing Homestyle Baked Beans",
+            "price": 9.02,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -484,35 +484,17 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Soda",
-            "price": 5.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 6.66,
-            "isVegetarian": false,
+            "name": "Lemonade",
+            "price": 7.7,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Iced Tea",
-            "price": 4.62,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Juice",
-            "price": 7.87,
+            "price": 6.67,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -520,8 +502,17 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Smoothie",
-            "price": 6.67,
+            "name": "Iced Tea",
+            "price": 5.96,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 4.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,8 +520,17 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 7.35,
+            "name": "Soda",
+            "price": 6.37,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 5.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -549,35 +549,17 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Madeleines",
-            "price": 8.17,
-            "isVegetarian": false,
+            "name": "Soufflé",
+            "price": 7.2,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Berry Tart",
-            "price": 8.87,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Custard Tart",
-            "price": 7.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Red Velvet Cake",
-            "price": 6.39,
+            "name": "Eclairs",
+            "price": 9.8,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -585,11 +567,29 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sticky Toffee Pudding",
-            "price": 9.36,
+            "name": "Pumpkin Pie",
+            "price": 6.56,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Brownies",
+            "price": 10.87,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cupcakes",
+            "price": 7.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -599,26 +599,17 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
+            "name": "Snow Cone",
+            "price": 10.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Ice Cream",
-            "price": 7.87,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Kulfi",
-            "price": 8.26,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gelato",
-            "price": 8.27,
+            "price": 8.85,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -627,19 +618,28 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
           },
           {
             "name": "Frozen Fruit Bars",
-            "price": 11.78,
-            "isVegetarian": false,
+            "price": 11.05,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gelato",
+            "price": 11.48,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sherbet",
-            "price": 7.68,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Sorbet",
+            "price": 7.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -655,35 +655,8 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Negroni",
-            "price": 15.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 15.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 11.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 13.63,
+            "name": "Martini",
+            "price": 10.36,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -691,17 +664,8 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 10.99,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Margarita",
-            "price": 13.53,
+            "price": 15.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -709,8 +673,44 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 13.8,
+            "name": "Mojito",
+            "price": 15.23,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 10.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 11.51,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 14.96,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 11.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -723,44 +723,17 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Riesling",
-            "price": 8.72,
+            "name": "Chardonnay",
+            "price": 9.7,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sauvignon Blanc",
-            "price": 10.36,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Verdicchio",
-            "price": 10.97,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Syrah/Shiraz",
-            "price": 8.02,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Prosecco",
-            "price": 9.83,
+            "name": "Roussanne",
+            "price": 10.16,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -769,7 +742,34 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
           },
           {
             "name": "Gewürztraminer",
-            "price": 10.72,
+            "price": 13.82,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grenache",
+            "price": 11.78,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Merlot",
+            "price": 13.46,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Syrah/Shiraz",
+            "price": 11.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -782,17 +782,17 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Brandy",
-            "price": 13.03,
+            "name": "Mezcal",
+            "price": 10.19,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Armagnac",
-            "price": 11.8,
+            "name": "Galliano",
+            "price": 14.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -800,17 +800,8 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cognac",
-            "price": 13.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Absinthe",
-            "price": 17.71,
+            "name": "Calvados",
+            "price": 16.81,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -819,10 +810,19 @@ export const dubaidesertCafeMenu: RestaurantMenu[] = [
           },
           {
             "name": "Maraschino",
-            "price": 12.1,
+            "price": 10.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Absinthe",
+            "price": 17.86,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

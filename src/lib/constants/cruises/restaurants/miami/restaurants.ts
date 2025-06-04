@@ -217,5 +217,160 @@ export const miamiRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Sunshine Cellar",
+    "description": "This popular Caribbean establishment combines traditional recipes and Cuban sandwiches, all served in a unique setting with Latin influence.",
+    "cuisine": "Caribbean",
+    "priceRange": "$$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "Closed",
+      "friday": "10:00-20:00",
+      "saturday": "9:00-19:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-505-4935",
+      "contactEmail": "info@caribbeanmiami.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Little Havana Gastropub",
+    "description": "Experience authentic Caribbean cuisine with a local twist, featuring mojitos served in an atmosphere of neon lighting overlooking Art Deco District.",
+    "cuisine": "Caribbean",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-21:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "9:00-21:00",
+      "friday": "10:00-21:00",
+      "saturday": "10:00-22:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-389-1494",
+      "contactEmail": "info@caribbeanmiami.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "South Beach Osteria",
+    "description": "Experience authentic Caribbean cuisine with a local twist, featuring stone crabs served in an atmosphere of tropical outdoor spaces overlooking Biscayne Bay.",
+    "cuisine": "Caribbean",
+    "priceRange": "$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "Closed",
+      "thursday": "Closed",
+      "friday": "10:00-19:00",
+      "saturday": "11:00-21:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-611-1552",
+      "contactEmail": "info@caribbeanmiami.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Cuban Coffee House",
+    "description": "A culinary gem serving Caribbean specialties including mojitos, where guests enjoy tropical outdoor spaces in the heart of the city.",
+    "cuisine": "Caribbean",
+    "priceRange": "$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-20:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "9:00-22:00",
+      "friday": "11:00-19:00",
+      "saturday": "9:00-22:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-975-1450",
+      "contactEmail": "info@caribbeanmiami.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Little Havana Inn",
+    "description": "A charming American restaurant near Art Deco District, offering mojitos and other local favorites in a setting with Latin influence.",
+    "cuisine": "American",
+    "priceRange": "$$$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "9:00-19:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "Closed",
+      "friday": "9:00-22:00",
+      "saturday": "11:00-19:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-485-5523",
+      "contactEmail": "info@americanmiami.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
   }
 ];

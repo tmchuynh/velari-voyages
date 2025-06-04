@@ -12,8 +12,17 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Homestyle Grilled Local Bounty Harvest Plate (Vegetarian)",
-            "price": 29.78,
+            "name": "Authentic Roasted Secret Recipe Bouillabaisse",
+            "price": 25.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Pan-seared Chef's Special Surf and Turf",
+            "price": 30.06,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -21,53 +30,44 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Zesty Chef’s Wild Game Selection",
-            "price": 27.38,
+            "name": "Hearty Luscious Whole Roasted Heritage Chicken",
+            "price": 31.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Pan-seared Tableside Carved Chateaubriand",
-            "price": 28.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Zesty Traditional Family Paella",
-            "price": 24.46,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Satisfying Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 26.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Smoked Charcoal Grilled Iberico Pork",
-            "price": 35.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Baked Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 37.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Spiced Restaurant's Namesake Signature Entrée",
-            "price": 24.1,
+            "name": "Hearty Sautéed Traditional Family Paella",
+            "price": 33.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Hearty Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 29.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Zingy Restaurant's Namesake Signature Entrée",
+            "price": 28.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -80,8 +80,8 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Handcrafted Steamed High-End Ingredient Showcase",
-            "price": 28.05,
+            "name": "Authentic Delectable Dry-Aged Prime Beef Selection",
+            "price": 33.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -89,40 +89,40 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Satisfying Heritage Breed Porchetta",
-            "price": 38.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Baked Collaborative Limited Edition Special",
-            "price": 34.46,
+            "name": "Authentic Flavorful Special Occasion Celebratory Dish",
+            "price": 34.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Grilled Whole Animal Butchery Showcase",
-            "price": 31.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Hearty Herbed Sous Vide Perfection with Molecular Gastronomy Elements",
-            "price": 27.08,
+            "name": "Gourmet Hearty Chef's Tasting Menu Experience",
+            "price": 38.45,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Fresh Sweet Custom Tasting Menu Based on Guest Preferences",
+            "price": 31.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Herbed Duck Confit with Roasted Root Vegetables",
+            "price": 29.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -130,85 +130,53 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Fresh Zesty Sweet Potato Fries",
-            "price": 14.23,
+            "name": "Gourmet Crispy Baked Brie",
+            "price": 14.5,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Spiced Stuffed Avocado",
-            "price": 15.09,
+            "name": "Homestyle Flaky Prawn Cocktail",
+            "price": 12.82,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Herbed Mini Crab Cakes",
-            "price": 11.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Spicy Crostini",
-            "price": 15.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Exquisite Baba Ganoush",
-            "price": 15.82,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Spiced Chicken Wings",
-            "price": 12.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Succulent Garlic Knots",
-            "price": 11.49,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Spicy Zucchini Fries",
-            "price": 9.83,
+            "name": "Fresh Satisfying Dumplings",
+            "price": 14.89,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Marinated Tuna Tartare",
+            "price": 11.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Soups",
-        "items": [
+          },
           {
-            "name": "Authentic Smoked Minestrone",
-            "price": 7.09,
+            "name": "Homestyle Exquisite Mezze Platter",
+            "price": 10.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Sautéed Shrimp Cocktail",
+            "price": 10.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -216,17 +184,8 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Baked Clam Chowder",
-            "price": 8.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Spiced Miso Soup",
-            "price": 7.58,
+            "name": "Seasonal Zesty Bruschetta",
+            "price": 15.77,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -234,12 +193,53 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Pan-seared Turkey and Wild Rice Soup",
-            "price": 8.83,
+            "name": "Organic Roasted Chicken Satay",
+            "price": 14.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Soups",
+        "items": [
+          {
+            "name": "Handcrafted Delectable Minestrone",
+            "price": 9.31,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Stuffed Gazpacho",
+            "price": 13.95,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Braised Egg Drop Soup",
+            "price": 8.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Satisfying Clam Chowder",
+            "price": 7.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
           }
         ]
@@ -248,26 +248,17 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Southwest Black Bean Salad",
-            "price": 11.67,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Caesar Salad",
-            "price": 12.46,
-            "isVegetarian": false,
+            "price": 11.61,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cucumber Salad",
-            "price": 15.09,
+            "name": "Kale Salad",
+            "price": 10.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -275,8 +266,8 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Avocado Corn Salad",
-            "price": 14.08,
+            "name": "Coleslaw",
+            "price": 9.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -284,8 +275,17 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mediterranean Chopped Salad",
-            "price": 14.84,
+            "name": "Tabbouleh",
+            "price": 10.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Greek Salad",
+            "price": 10.4,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -298,17 +298,44 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Gourmet Grilled Lentil Stew",
-            "price": 23.27,
+            "name": "Traditional Juicy Steak",
+            "price": 20.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Tangy Lamb Chops",
+            "price": 19.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Creamy Fish and Chips",
+            "price": 25.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Grilled Fajitas",
+            "price": 31.24,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Tangy Lasagna",
-            "price": 23.08,
+            "name": "Organic Delicious Tacos",
+            "price": 30.48,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -316,58 +343,31 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Herbed Teriyaki Chicken",
-            "price": 23.54,
+            "name": "Homestyle Spiced Enchiladas",
+            "price": 30.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Tangy Quiche",
+            "price": 27.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Creamy Thai Curry",
+            "price": 25.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Luscious Coq au Vin",
-            "price": 31.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Succulent Beef Wellington",
-            "price": 28.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Zingy Lamb Chops",
-            "price": 23.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Hearty Katsu Curry",
-            "price": 22.04,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Zesty Pizza",
-            "price": 26.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -375,8 +375,8 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Organic Savory Pan-Seared Scallops with Pea Purée",
-            "price": 33.04,
+            "name": "Seasonal Hearty Alaskan King Crab Legs with Drawn Butter",
+            "price": 35.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,8 +384,17 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Tender Classic British Fish and Chips",
-            "price": 32.83,
+            "name": "Authentic Wholesome Classic British Fish and Chips",
+            "price": 29.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Succulent Garlic Butter Shrimp Skillet",
+            "price": 25.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,31 +402,22 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Savory Garlic Butter Shrimp Skillet",
-            "price": 22.57,
+            "name": "Homestyle Luscious Sushi-Grade Sashimi Platter",
+            "price": 22.13,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Smoked Oysters Rockefeller with Pernod Cream",
-            "price": 34.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Zingy Lobster Thermidor with Gruyère Crust",
-            "price": 30.93,
+            "name": "Fresh Flavorful Stuffed Flounder with Crab and Spinach",
+            "price": 29.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -425,56 +425,56 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "House Special Fried Steamed Jasmine Rice",
-            "price": 6.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Delicious Maple-Glazed Baby Carrots",
-            "price": 7.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Appetizing Grilled Asparagus with Lemon Zest",
-            "price": 9.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Roasted Charred Broccolini with Garlic Oil",
-            "price": 5.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Smoked Cauliflower Gratin with Gruyère",
-            "price": 5.89,
+            "name": "Gourmet Zesty Sweet Corn and Cheddar Fritters",
+            "price": 7.47,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Wholesome Cauliflower Gratin with Gruyère",
+            "price": 8.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Steamed Warm Buttermilk Dinner Rolls",
+            "price": 9.95,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Savory Wild Mushroom Risotto",
+            "price": 5.13,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Flaky Baked Idaho Potato with Sour Cream",
-            "price": 6.95,
-            "isVegetarian": true,
+            "name": "Seasonal Zingy Corn on the Cob with Chili Lime Butter",
+            "price": 8.92,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Grilled Israeli Couscous with Roasted Tomatoes",
+            "price": 8.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -484,18 +484,18 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Lemonade",
-            "price": 7.43,
-            "isVegetarian": true,
+            "name": "Milkshake",
+            "price": 6.29,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Iced Tea",
-            "price": 7.55,
-            "isVegetarian": false,
+            "name": "Soda",
+            "price": 6.32,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -503,7 +503,7 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Coffee",
-            "price": 6.23,
+            "price": 6.71,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -511,8 +511,8 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Milkshake",
-            "price": 6.51,
+            "name": "Tea",
+            "price": 7.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -520,20 +520,20 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hot Chocolate",
-            "price": 7.52,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Lemonade",
+            "price": 6.93,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 6.41,
+            "name": "Iced Tea",
+            "price": 7.99,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,8 +549,8 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Chocolate Chip Cookies",
-            "price": 6.68,
+            "name": "Baklava",
+            "price": 7.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,8 +558,8 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soufflé",
-            "price": 9.97,
+            "name": "Berry Tart",
+            "price": 10.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -567,8 +567,8 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Strawberry Shortcake",
-            "price": 9.29,
+            "name": "Danish Pastries",
+            "price": 10.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -576,20 +576,20 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cinnamon Rolls",
-            "price": 7.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fruit Galette",
-            "price": 8.82,
+            "name": "Biscotti",
+            "price": 8.84,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pecan Pie",
+            "price": 6.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -599,35 +599,17 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Sorbet",
-            "price": 8.82,
-            "isVegetarian": true,
+            "name": "Frozen Mousse",
+            "price": 9.27,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Baked Alaska",
-            "price": 7.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Yogurt",
-            "price": 8.57,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Banana",
-            "price": 9.95,
+            "name": "Sorbet",
+            "price": 10.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -635,8 +617,26 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Fruit Bars",
-            "price": 8.97,
+            "name": "Frozen Custard",
+            "price": 10.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gelato",
+            "price": 10.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Yogurt",
+            "price": 7.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -655,17 +655,17 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Cosmopolitan",
-            "price": 11.89,
-            "isVegetarian": false,
+            "name": "Margarita",
+            "price": 15.21,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 11.38,
+            "name": "Negroni",
+            "price": 12.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -674,8 +674,8 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Bloody Mary",
-            "price": 14.17,
-            "isVegetarian": true,
+            "price": 10.72,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -683,16 +683,7 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Manhattan",
-            "price": 11.18,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 11.2,
+            "price": 11.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -700,17 +691,26 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 11.98,
+            "name": "Old Fashioned",
+            "price": 15.14,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "price": 13.06,
+            "name": "Martini",
+            "price": 10.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 10.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -723,55 +723,55 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Sémillon",
-            "price": 8.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Dolcetto",
-            "price": 11.02,
+            "name": "Mourvèdre",
+            "price": 10.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Riesling",
-            "price": 8.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fiano",
-            "price": 11.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Sauvignon Blanc",
-            "price": 13.09,
+            "price": 12.47,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gewürztraminer",
+            "price": 11.21,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pinot Blanc",
-            "price": 13.53,
+            "name": "Albariño",
+            "price": 8.97,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Blanc",
+            "price": 13.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grenache",
+            "price": 11.41,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -782,17 +782,8 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Drambuie",
-            "price": 15.38,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sambuca",
-            "price": 11.24,
+            "name": "Absinthe",
+            "price": 11.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -800,8 +791,8 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Limoncello",
-            "price": 16.62,
+            "name": "Calvados",
+            "price": 12.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -809,17 +800,26 @@ export const charlestonmagnoliaKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coffee Liqueur",
-            "price": 17.56,
-            "isVegetarian": true,
+            "name": "Bourbon",
+            "price": 15.06,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Campari",
-            "price": 13.04,
+            "name": "Pisco",
+            "price": 13.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grand Marnier",
+            "price": 10.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,

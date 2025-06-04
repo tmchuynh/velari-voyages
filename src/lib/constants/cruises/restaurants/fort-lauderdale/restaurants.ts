@@ -248,5 +248,160 @@ export const fortLauderdaleRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": true
+  },
+  {
+    "name": "Cruise Port Garden",
+    "description": "This popular Italian establishment combines traditional recipes and fusion cuisine, all served in a unique setting with tropical ambiance.",
+    "cuisine": "Italian",
+    "priceRange": "$$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "10:00-21:00",
+      "friday": "11:00-19:00",
+      "saturday": "9:00-21:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-864-9912",
+      "contactEmail": "info@italianfort-lauderdale.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Intracoastal Coffee House",
+    "description": "Experience authentic Mexican cuisine with a local twist, featuring stone crab served in an atmosphere of yacht views overlooking Riverwalk.",
+    "cuisine": "Mexican",
+    "priceRange": "$$$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "9:00-22:00",
+      "friday": "9:00-22:00",
+      "saturday": "10:00-20:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-355-6138",
+      "contactEmail": "info@mexicanfort-lauderdale.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Yacht Bistro",
+    "description": "A culinary gem serving Mexican specialties including key lime pie, where guests enjoy outdoor patios in the heart of the city.",
+    "cuisine": "Mexican",
+    "priceRange": "$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-21:00",
+      "friday": "10:00-21:00",
+      "saturday": "9:00-21:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-518-1502",
+      "contactEmail": "info@mexicanfort-lauderdale.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "A1A Lounge",
+    "description": "Experience authentic Seafood cuisine with a local twist, featuring fusion cuisine served in an atmosphere of waterfront dining overlooking Riverwalk.",
+    "cuisine": "Seafood",
+    "priceRange": "$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "10:00-21:00",
+      "friday": "11:00-20:00",
+      "saturday": "11:00-22:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-906-3944",
+      "contactEmail": "info@seafoodfort-lauderdale.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Intracoastal Grill",
+    "description": "A culinary gem serving Seafood specialties including tropical cocktails, where guests enjoy tropical ambiance in the heart of the city.",
+    "cuisine": "Seafood",
+    "priceRange": "$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "11:00-19:00",
+      "friday": "9:00-22:00",
+      "saturday": "10:00-22:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-925-6158",
+      "contactEmail": "info@seafoodfort-lauderdale.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
   }
 ];

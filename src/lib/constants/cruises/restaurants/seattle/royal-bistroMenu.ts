@@ -12,67 +12,67 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "House Special Stuffed Flambéed Tableside Specialty",
-            "price": 30.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Sweet Whole Roasted Heritage Chicken",
-            "price": 30.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Herbed Restaurant's Namesake Signature Entrée",
-            "price": 28.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Irresistible Traditional Family Paella",
-            "price": 24.48,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Marinated Black Garlic Glazed Beef Tenderloin",
-            "price": 31.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Spiced Award-Winning Seafood Boil",
-            "price": 29.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Stuffed Celebrity Favorite Lobster Dish",
-            "price": 27.9,
+            "name": "Fresh Fried Legendary Prime Rib",
+            "price": 24.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "House Special Comforting Heritage Recipe Lamb Shank",
+            "price": 30.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Pan-seared Black Garlic Glazed Beef Tenderloin",
+            "price": 37.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Herbed Executive Chef's Daily Inspiration Entrée",
+            "price": 30.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Golden House Famous Duck Confit",
+            "price": 25.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Zesty Secret Recipe Bouillabaisse",
+            "price": 24.64,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Sautéed Flambéed Tableside Specialty",
+            "price": 26.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -80,8 +80,17 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Traditional Grilled Live-Fire Grilled Feature",
-            "price": 24.08,
+            "name": "Fresh Marinated Chef's Market Inspiration of the Day",
+            "price": 39.9,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Wholesome Lobster and Crab Stuffed Ravioli",
+            "price": 30.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -89,26 +98,8 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Luscious Fusion of Traditional and Modern Techniques",
-            "price": 38.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Golden Sous Vide Pork Tenderloin",
-            "price": 36.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Flaky Deconstructed Classic with Modern Technique",
-            "price": 26.02,
+            "name": "Traditional Spiced Chef's Childhood Favorite Reimagined",
+            "price": 36.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -116,13 +107,22 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Herbed Seared Duck Breast with Cherry Reduction",
-            "price": 39.94,
-            "isVegetarian": false,
+            "name": "Traditional Grilled Tasting of Local Artisanal Cheeses",
+            "price": 37.82,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Irresistible Heritage Breed Porchetta",
+            "price": 29.48,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -130,35 +130,26 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Authentic Tender Mini Crab Cakes",
-            "price": 10.8,
+            "name": "Fresh Herbed Caprese Salad",
+            "price": 15.78,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Delectable Caprese Salad",
-            "price": 14.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Tender Samosas",
-            "price": 13.59,
-            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Smoked Mini Empanadas",
-            "price": 14.92,
+            "name": "Traditional Fried Lettuce Wraps",
+            "price": 9.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Creamy Bruschetta",
+            "price": 12.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -166,17 +157,35 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Comforting Calamari",
-            "price": 10.4,
+            "name": "Deluxe Delectable Tuna Tartare",
+            "price": 15.96,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "House Special Marinated Cheese Platter",
-            "price": 8.77,
+            "name": "Handcrafted Stuffed Mini Quesadillas",
+            "price": 8.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Spiced Mini Empanadas",
+            "price": 13.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Mouthwatering Mini Sliders",
+            "price": 14.01,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -184,21 +193,12 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Grilled Tzatziki with Pita",
-            "price": 8.63,
+            "name": "Fresh Sweet Mozzarella Sticks",
+            "price": 8.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Grilled Meatballs",
-            "price": 14.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -207,40 +207,40 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Fresh Spiced Egg Drop Soup",
-            "price": 12.94,
+            "name": "Fresh Marinated Zuppa Toscana",
+            "price": 11.35,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Spiced Lentil Soup",
+            "price": 11.62,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Stuffed Lentil Soup",
-            "price": 8.07,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Smoked Italian Wedding Soup",
-            "price": 8.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Flaky Turkey and Wild Rice Soup",
-            "price": 10.39,
+            "name": "Seasonal Mouthwatering Seafood Chowder",
+            "price": 10.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Classic Braised Mushroom Soup",
+            "price": 7.36,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -248,8 +248,17 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Broccoli Crunch Salad",
-            "price": 11.41,
+            "name": "Farro Salad",
+            "price": 15.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pasta Salad",
+            "price": 12.78,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -257,8 +266,8 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Caesar Salad",
-            "price": 13.92,
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 10.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -266,27 +275,18 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chickpea Salad",
-            "price": 14.64,
+            "name": "Nicoise Salad",
+            "price": 12.18,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tabbouleh",
-            "price": 10.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Greek Salad",
-            "price": 12.4,
-            "isVegetarian": false,
+            "name": "Apple Pecan Salad",
+            "price": 12.96,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -298,8 +298,8 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Premium Mouthwatering Biryani",
-            "price": 23.16,
+            "name": "Handcrafted Hearty Pizza",
+            "price": 20.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,103 +307,17 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Stuffed Pasta Primavera",
-            "price": 23.58,
+            "name": "Authentic Stuffed Lamb Chops",
+            "price": 24.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Grilled Enchiladas",
-            "price": 26.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Savory Paella",
-            "price": 30.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Juicy Steak",
-            "price": 27.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Golden Lentil Stew",
-            "price": 19.18,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Pan-seared Pho",
-            "price": 29.08,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Smoked Shakshuka",
-            "price": 28.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Seafood Specialties",
-        "items": [
-          {
-            "name": "Classic Smoked Hearty Italian Cioppino",
-            "price": 23.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Satisfying Cajun Shrimp and Grits",
-            "price": 25.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Deluxe Tangy Traditional Provençal Bouillabaisse",
-            "price": 30.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Smoked Basa Fillet with Dill Cream Sauce",
-            "price": 27.79,
+            "name": "Deluxe Tender Beef Burger",
+            "price": 20.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -411,13 +325,99 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Smoked Grilled Lobster with Lemon Butter",
-            "price": 34.96,
+            "name": "Traditional Wholesome Gnocchi",
+            "price": 19.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Homestyle Enticing Lasagna",
+            "price": 20.55,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Sweet Pasta Primavera",
+            "price": 28.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Spiced Tagine",
+            "price": 27.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Luscious Salmon",
+            "price": 25.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "items": [
+          {
+            "name": "Deluxe Irresistible Lobster Thermidor with Gruyère Crust",
+            "price": 34.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Marinated Maryland Style Crab Cakes",
+            "price": 25.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Exquisite Seafood Alfredo with Spinach Fettuccine",
+            "price": 23.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Zesty Grilled Lobster with Lemon Butter",
+            "price": 24.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Grilled Shrimp Scampi over Linguine",
+            "price": 34.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -425,8 +425,8 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "House Special Smoked Grilled Asparagus with Lemon Zest",
-            "price": 5.43,
+            "name": "Fresh Savory Crispy Beer-Battered Onion Rings",
+            "price": 6.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,8 +434,8 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Zesty Fragrant Basmati Rice Pilaf",
-            "price": 7.56,
+            "name": "Hearty Satisfying Grilled Asparagus with Lemon Zest",
+            "price": 8.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -443,37 +443,37 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Herbed Charred Broccolini with Garlic Oil",
-            "price": 7.82,
-            "isVegetarian": false,
+            "name": "Classic Roasted Wild Mushroom Risotto",
+            "price": 5.25,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Herbed Wild Mushroom Risotto",
-            "price": 6.44,
+            "name": "Authentic Savory Wild Rice Pilaf",
+            "price": 8.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Braised Maple-Glazed Baby Carrots",
+            "price": 5.02,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Grilled Homestyle Baked Beans",
+            "price": 8.24,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Luscious Flaky Cheddar and Chive Biscuits",
-            "price": 9.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Smoked Grilled Zucchini and Peppers",
-            "price": 8.14,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -484,26 +484,8 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Smoothie",
-            "price": 5.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 7.42,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 4.74,
+            "name": "Iced Tea",
+            "price": 4.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -511,9 +493,36 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coffee",
-            "price": 5.44,
+            "name": "Tea",
+            "price": 6.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 4.18,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 4.29,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 4.96,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -521,16 +530,7 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
           },
           {
             "name": "Water",
-            "price": 4.14,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soda",
-            "price": 6.14,
+            "price": 7.64,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -549,17 +549,8 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Pumpkin Pie",
-            "price": 6.14,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Macarons",
-            "price": 8.3,
+            "name": "Tiramisu",
+            "price": 8.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -567,8 +558,8 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Croissants",
-            "price": 9.21,
+            "name": "Cupcakes",
+            "price": 8.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -576,8 +567,8 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Apple Pie",
-            "price": 10.18,
+            "name": "Custard Tart",
+            "price": 6.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -585,8 +576,17 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cannoli",
-            "price": 9.93,
+            "name": "Banana Bread",
+            "price": 7.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Galette",
+            "price": 9.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,45 +599,45 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Yogurt",
-            "price": 10.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Gelato",
-            "price": 11.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ice Cream Sandwich",
-            "price": 8.51,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Banana",
-            "price": 11.08,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Cheesecake",
-            "price": 9.74,
+            "price": 11.22,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Mousse",
+            "price": 11.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kulfi",
+            "price": 7.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Yogurt",
+            "price": 9.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream",
+            "price": 9.25,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -655,26 +655,8 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Bloody Mary",
-            "price": 11.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 10.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 13.95,
+            "name": "Mojito",
+            "price": 14.99,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -682,17 +664,8 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "price": 15.92,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 15.33,
+            "name": "Whiskey Sour",
+            "price": 10.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -700,9 +673,18 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 11.26,
-            "isVegetarian": false,
+            "name": "Martini",
+            "price": 13.24,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 12.38,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -710,10 +692,28 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
           },
           {
             "name": "Old Fashioned",
-            "price": 14.15,
+            "price": 14.08,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 11.57,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 10.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,8 +723,26 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Barbera",
-            "price": 13.83,
+            "name": "Cabernet Sauvignon",
+            "price": 12.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Noir",
+            "price": 13.33,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Prosecco",
+            "price": 13.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -732,44 +750,26 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chardonnay",
-            "price": 12.3,
+            "name": "Tempranillo",
+            "price": 8.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Champagne/Sparkling Wine",
+            "price": 13.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           },
           {
             "name": "Sémillon",
-            "price": 13.78,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sauvignon Blanc",
-            "price": 11.89,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Moscato",
-            "price": 13.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Albariño",
-            "price": 13.46,
+            "price": 13.83,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -782,44 +782,44 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Armagnac",
-            "price": 15.87,
-            "isVegetarian": false,
+            "name": "Midori",
+            "price": 17.92,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "St-Germain",
-            "price": 11.46,
+            "name": "Vodka",
+            "price": 11.13,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Absinthe",
-            "price": 15.45,
+            "price": 15.89,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grand Marnier",
-            "price": 13.97,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chartreuse",
-            "price": 13.48,
+            "name": "Drambuie",
+            "price": 15.25,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Galliano",
+            "price": 12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,

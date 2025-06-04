@@ -12,8 +12,17 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Seasonal Sautéed Captain's Favorite Seafood Tower",
-            "price": 34.87,
+            "name": "Hearty Spiced Dry-Aged Tomahawk Steak",
+            "price": 26.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Smoked Chef’s Wild Game Selection",
+            "price": 30.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -21,17 +30,17 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Mouthwatering Tableside Carved Chateaubriand",
-            "price": 31.79,
+            "name": "Homestyle Flaky Heritage Recipe Lamb Shank",
+            "price": 35.9,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Fresh Spicy Legendary Prime Rib",
-            "price": 37.9,
+            "name": "Premium Satisfying Japanese A5 Wagyu with Ponzu Butter",
+            "price": 33.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -39,40 +48,31 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Crunchy Heritage Recipe Lamb Shank",
-            "price": 28.56,
+            "name": "Premium Mouthwatering Signature Truffle Pasta with Aged Pecorino",
+            "price": 29.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Marinated Captain's Favorite Seafood Tower",
+            "price": 25.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Herbed Traditional Family Paella",
+            "price": 30.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
-          },
-          {
-            "name": "Fresh Zesty Award-Winning Seafood Boil",
-            "price": 30.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Creamy Restaurant's Namesake Signature Entrée",
-            "price": 32.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Mouthwatering Seasonal Tasting Menu Experience",
-            "price": 34.42,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
@@ -80,17 +80,8 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Authentic Creamy Freshly Harvested Seasonal Creation",
-            "price": 32.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Roasted Wild Mushroom Risotto",
-            "price": 26.04,
+            "name": "Hearty Steamed Signature Spice-Rubbed Protein",
+            "price": 35.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -98,8 +89,17 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Spicy Miso-Glazed Black Cod",
-            "price": 31.36,
+            "name": "Gourmet Steamed Modern Interpretation of Regional Classic",
+            "price": 32.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Grilled Tableside Prepared Tartare",
+            "price": 26.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -107,19 +107,19 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Wholesome Deconstructed Classic with Modern Technique",
-            "price": 36.39,
+            "name": "Seasonal Marinated Chef's Tasting Menu Experience",
+            "price": 28.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Gourmet Marinated Hand-Selected Wine Pairing Experience",
-            "price": 25.18,
+            "name": "Classic Smoked Slow-Roasted Prime Rib",
+            "price": 35.7,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -130,26 +130,8 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Classic Flavorful Meatballs",
-            "price": 8.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Crunchy Stuffed Mushrooms",
-            "price": 15.49,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Satisfying Mini Tacos",
-            "price": 13.03,
+            "name": "Seasonal Spiced Prawn Cocktail",
+            "price": 9.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,26 +139,17 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Crunchy Cheese Nachos",
-            "price": 10.43,
+            "name": "Authentic Grilled Ceviche",
+            "price": 8.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Traditional Spiced Prawn Cocktail",
-            "price": 15.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Fried Prawn Toast",
-            "price": 10.95,
+            "name": "Fresh Sizzling Baked Brie",
+            "price": 13.99,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -184,8 +157,8 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Exquisite Dumplings",
-            "price": 13.25,
+            "name": "Handcrafted Crunchy Spinach Artichoke Dip",
+            "price": 13.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -193,10 +166,37 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Pan-seared Garlic Knots",
-            "price": 15.59,
+            "name": "House Special Fried Onion Rings",
+            "price": 13.16,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Pan-seared Charcuterie Board",
+            "price": 12.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Mouthwatering Baba Ganoush",
+            "price": 10.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Grilled Tempura",
+            "price": 9.03,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -207,38 +207,38 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Gourmet Aromatic Egg Drop Soup",
-            "price": 10.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Exquisite Pho",
-            "price": 12.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Stuffed Chicken Noodle Soup",
-            "price": 10.1,
+            "name": "Authentic Satisfying Seafood Chowder",
+            "price": 8.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Fried Cabbage Soup",
+            "price": 10.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Marinated Black Bean Soup",
-            "price": 11.63,
+            "name": "Homestyle Satisfying Mushroom Soup",
+            "price": 12.93,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Crunchy Pho",
+            "price": 8.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -248,44 +248,44 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Southwest Black Bean Salad",
-            "price": 13.59,
-            "isVegetarian": false,
+            "name": "Lentil and Feta Salad",
+            "price": 12.31,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Orzo Salad",
-            "price": 13.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Garden Salad",
-            "price": 9.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Potato Salad",
+            "price": 14.24,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Roasted Beet and Goat Cheese Salad",
-            "price": 13.46,
+            "price": 11.43,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Chef Salad",
-            "price": 12.69,
+            "name": "Greek Salad",
+            "price": 14.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caprese Salad",
+            "price": 9.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -298,44 +298,8 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Traditional Herbed Cottage Pie",
-            "price": 20.03,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Braised Pesto Pasta",
-            "price": 29.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Tender Stuffed Peppers",
-            "price": 29.91,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Grilled Beef Wellington",
-            "price": 22.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Appetizing Steak",
-            "price": 25.31,
+            "name": "Homestyle Wholesome Steak",
+            "price": 24.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -343,17 +307,44 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Spiced Seafood Platter",
-            "price": 25.91,
+            "name": "Authentic Savory Eggplant Parmesan",
+            "price": 28.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Luscious Lamb Chops",
+            "price": 31.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Tangy Chicken Parmesan",
+            "price": 25.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Deluxe Spiced Jambalaya",
-            "price": 18.63,
+            "name": "Homestyle Creamy Pulled Pork Sandwich",
+            "price": 28.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Smoked Enchiladas",
+            "price": 18.37,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -361,12 +352,21 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Sautéed Teriyaki Chicken",
-            "price": 27.53,
+            "name": "Handcrafted Stuffed Vegetable Stir-Fry",
+            "price": 19.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Sizzling Teriyaki Chicken",
+            "price": 29.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           }
         ]
@@ -375,8 +375,8 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Organic Crunchy Linguine with Clam Sauce",
-            "price": 22.12,
+            "name": "Traditional Smoked New England Lobster Roll",
+            "price": 32.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,39 +384,39 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Mouthwatering Seafood Gumbo with Okra",
-            "price": 24.76,
+            "name": "Classic Juicy Stuffed Flounder with Crab and Spinach",
+            "price": 27.97,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Crunchy Seafood Risotto with Saffron",
-            "price": 22.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Deluxe Grilled Grilled Lobster with Lemon Butter",
-            "price": 35.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Creamy Classic British Fish and Chips",
-            "price": 26.86,
+            "name": "Hearty Pan-seared Blackened Mahi-Mahi with Pineapple Salsa",
+            "price": 28.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Herbed Lemon-Herb Calamari Steak",
+            "price": 22.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Stuffed Linguine with Clam Sauce",
+            "price": 24.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": false
           }
         ]
@@ -425,8 +425,8 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Premium Luscious Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 5.61,
+            "name": "Classic Zesty Herbed Bulgur Wheat with Lemon",
+            "price": 6.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,8 +434,8 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Roasted Stuffed Bell Peppers with Brown Rice",
-            "price": 5.04,
+            "name": "Fresh Flavorful Chili Lime Roasted Chickpeas",
+            "price": 8.9,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -443,40 +443,40 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Herbed Fragrant Basmati Rice Pilaf",
-            "price": 7.36,
+            "name": "Authentic Spicy Scalloped Potatoes with Thyme",
+            "price": 8.62,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Organic Fried Garlic Bread with Herb Butter",
-            "price": 9.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Tender Grilled Zucchini and Peppers",
-            "price": 6.76,
+            "name": "Gourmet Stuffed Mashed Potatoes",
+            "price": 8.41,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Wholesome Provencal Ratatouille",
+            "price": 9.79,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Golden Green Beans Almondine",
-            "price": 6.64,
+            "name": "Authentic Fried Quinoa Pilaf with Herbs",
+            "price": 7.5,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -484,44 +484,35 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Water",
-            "price": 7.87,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Coffee",
-            "price": 7.3,
+            "price": 7.58,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soda",
-            "price": 7.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Tea",
-            "price": 6.85,
-            "isVegetarian": true,
+            "price": 4.58,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Juice",
-            "price": 6.9,
+            "name": "Hot Chocolate",
+            "price": 5.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 6.54,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -530,10 +521,19 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Smoothie",
-            "price": 4.2,
-            "isVegetarian": false,
-            "isVegan": false,
+            "price": 6.21,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 7.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,8 +549,35 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
+            "name": "Shortbread",
+            "price": 9.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Custard Tart",
+            "price": 10.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Baklava",
-            "price": 9.31,
+            "price": 9.27,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crumb Cake",
+            "price": 6.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,35 +585,8 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Macarons",
-            "price": 9.47,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Danish Pastries",
-            "price": 7.08,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pumpkin Pie",
-            "price": 10.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soufflé",
-            "price": 8.06,
+            "name": "Sticky Toffee Pudding",
+            "price": 10.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,17 +599,17 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Baked Alaska",
-            "price": 11.91,
+            "name": "Snow Cone",
+            "price": 7.77,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Custard",
-            "price": 7.2,
+            "name": "Ice Cream",
+            "price": 7.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -618,7 +618,7 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Frozen Fruit Bars",
-            "price": 7.05,
+            "price": 9.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -626,19 +626,19 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frosty",
-            "price": 9.78,
-            "isVegetarian": true,
+            "name": "Kulfi",
+            "price": 10.98,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Mousse",
-            "price": 11.73,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Gelato",
+            "price": 8.66,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -655,27 +655,27 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Bloody Mary",
-            "price": 12.4,
-            "isVegetarian": true,
+            "name": "Manhattan",
+            "price": 12.83,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 10.28,
+            "name": "Margarita",
+            "price": 10.76,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 10.78,
-            "isVegetarian": true,
+            "name": "Martini",
+            "price": 13.41,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -683,7 +683,7 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Whiskey Sour",
-            "price": 10.95,
+            "price": 10.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -691,29 +691,29 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 12.83,
-            "isVegetarian": true,
+            "name": "Negroni",
+            "price": 14.02,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 12.23,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Mojito",
+            "price": 10.58,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Cosmopolitan",
-            "price": 12.53,
+            "price": 15.37,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,26 +723,17 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Riesling",
-            "price": 10.19,
-            "isVegetarian": true,
+            "name": "Torrontés",
+            "price": 11.24,
+            "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Syrah/Shiraz",
-            "price": 8.33,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Barbera",
-            "price": 13.96,
+            "name": "Grenache",
+            "price": 13.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -750,8 +741,8 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gamay",
-            "price": 11.72,
+            "name": "Verdicchio",
+            "price": 10.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -759,20 +750,29 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Champagne/Sparkling Wine",
-            "price": 8.89,
+            "name": "Nebbiolo",
+            "price": 8.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Merlot",
+            "price": 13.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Prosecco",
+            "price": 11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Zinfandel",
-            "price": 10.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -782,8 +782,26 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Aquavit",
-            "price": 12.74,
+            "name": "Tequila",
+            "price": 13.57,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Calvados",
+            "price": 14.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cointreau",
+            "price": 14.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -791,8 +809,8 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gin",
-            "price": 16.78,
+            "name": "Pisco",
+            "price": 16.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -800,27 +818,9 @@ export const montrealroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Maraschino",
-            "price": 15.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Anisette",
-            "price": 13.47,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cointreau",
-            "price": 17.42,
-            "isVegetarian": false,
+            "name": "Baileys Irish Cream",
+            "price": 16.82,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

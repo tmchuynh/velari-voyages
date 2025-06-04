@@ -217,5 +217,160 @@ export const tampaRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": false
+  },
+  {
+    "name": "Riverwalk Inn",
+    "description": "A culinary gem serving Seafood specialties including key lime pie, where guests enjoy tropical gardens in the heart of the city.",
+    "cuisine": "Seafood",
+    "priceRange": "$$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "9:00-20:00",
+      "friday": "10:00-21:00",
+      "saturday": "10:00-20:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-798-8353",
+      "contactEmail": "info@seafoodtampa.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Ybor Room",
+    "description": "A culinary gem serving American specialties including deviled crab, where guests enjoy waterfront views in the heart of the city.",
+    "cuisine": "American",
+    "priceRange": "$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "Closed",
+      "wednesday": "Closed",
+      "thursday": "11:00-20:00",
+      "friday": "11:00-21:00",
+      "saturday": "9:00-21:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-431-5608",
+      "contactEmail": "info@americantampa.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Coastal Brasserie",
+    "description": "Located close to Bayshore Boulevard, this Seafood restaurant delights with its deviled crab and waterfront views.",
+    "cuisine": "Seafood",
+    "priceRange": "$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "Closed",
+      "friday": "10:00-21:00",
+      "saturday": "10:00-21:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-196-7642",
+      "contactEmail": "info@seafoodtampa.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Gulf Ristorante",
+    "description": "Experience authentic Spanish cuisine with a local twist, featuring Cuban sandwiches served in an atmosphere of Cuban influence overlooking Busch Gardens.",
+    "cuisine": "Spanish",
+    "priceRange": "$$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "11:00-21:00",
+      "friday": "9:00-20:00",
+      "saturday": "11:00-19:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-307-5419",
+      "contactEmail": "info@spanishtampa.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Cigar Eatery",
+    "description": "Located close to Busch Gardens, this Cuban restaurant delights with its key lime pie and Cuban influence.",
+    "cuisine": "Cuban",
+    "priceRange": "$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "9:00-20:00",
+      "friday": "10:00-21:00",
+      "saturday": "9:00-20:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-588-9092",
+      "contactEmail": "info@cubantampa.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
   }
 ];

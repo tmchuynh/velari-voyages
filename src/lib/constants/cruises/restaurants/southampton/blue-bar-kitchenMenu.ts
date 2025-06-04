@@ -12,66 +12,66 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Seasonal Herbed 24-Hour Braised Short Ribs",
-            "price": 28.29,
-            "isVegetarian": false,
+            "name": "Handcrafted Zingy Executive Chef's Daily Inspiration Entrée",
+            "price": 25.88,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Mouthwatering Sous Vide Perfected Wagyu",
-            "price": 37.13,
+            "name": "House Special Savory Chef's Special Surf and Turf",
+            "price": 31.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Stuffed Legendary Prime Rib",
+            "price": 34.92,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Juicy House Famous Duck Confit",
+            "price": 28.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Tender Chef’s Wild Game Selection",
+            "price": 35.86,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Juicy Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 31.14,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Luscious Age-Old Recipe Osso Buco with Gremolata",
-            "price": 29.27,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Grilled Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 26.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Delicious Wood-Fired Peking Duck with Plum Sauce",
-            "price": 30.53,
+            "name": "Fresh Braised Flambéed Tableside Specialty",
+            "price": 34.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
+            "isHalal": true,
+            "isKosher": false
           },
           {
-            "name": "Authentic Crispy Signature Truffle Pasta with Aged Pecorino",
-            "price": 35.81,
+            "name": "Hearty Satisfying Chef's Childhood Inspired Creation",
+            "price": 33.96,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -80,8 +80,17 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Deluxe Fried Off-Menu Secret Preparation",
-            "price": 34.15,
+            "name": "Seasonal Smoked Sustainable Seafood Tower",
+            "price": 35.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Savory Chef's Tasting Menu Experience",
+            "price": 32.66,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -89,26 +98,8 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Tender Freshly Harvested Seasonal Creation",
-            "price": 29.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Baked Charcoal-Grilled Wagyu Beef",
-            "price": 25.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Juicy Collaborative Limited Edition Special",
-            "price": 38.17,
+            "name": "House Special Roasted Seared Foie Gras with Fig Compote",
+            "price": 29,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -116,9 +107,18 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Satisfying Tableside Flambé Preparation",
-            "price": 35.79,
+            "name": "Organic Marinated Seasonal Farm-to-Table Vegetable Plate",
+            "price": 24.83,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Spiced Live-Fire Grilled Feature",
+            "price": 29.77,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -130,17 +130,17 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Authentic Tangy Spinach Artichoke Dip",
-            "price": 13.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Fresh Baked Garlic Bread",
+            "price": 10.22,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Creamy Potato Skins",
-            "price": 11.39,
+            "name": "Homestyle Herbed Nachos",
+            "price": 9.91,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -148,35 +148,8 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Creamy Potstickers",
-            "price": 9.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Sautéed Mini Tacos",
-            "price": 11.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Stuffed Stuffed Mushrooms",
-            "price": 14.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Succulent Stuffed Avocado",
-            "price": 11.47,
+            "name": "Handcrafted Pan-seared Prawn Cocktail",
+            "price": 11.24,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -184,8 +157,17 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Pan-seared Prawn Cocktail",
-            "price": 13.33,
+            "name": "Organic Zesty Calamari",
+            "price": 8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Braised Mini Quesadillas",
+            "price": 15.28,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -193,9 +175,27 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Creamy Edamame",
-            "price": 13,
+            "name": "Gourmet Marinated Sweet Potato Fries",
+            "price": 9.46,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Smoked Lettuce Wraps",
+            "price": 15.57,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Luscious Mini Sliders",
+            "price": 9.2,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -207,8 +207,17 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Handcrafted Sweet Minestrone",
-            "price": 8.16,
+            "name": "Fresh Crunchy Chicken Corn Soup",
+            "price": 8.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Savory Egg Drop Soup",
+            "price": 10.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -216,29 +225,20 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Savory Pho",
-            "price": 10.75,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Premium Succulent Lobster Bisque",
+            "price": 8.96,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Flavorful Black Bean Soup",
-            "price": 10.36,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Comforting Pumpkin Soup",
-            "price": 12.31,
-            "isVegetarian": true,
+            "name": "Gourmet Zesty Clam Chowder",
+            "price": 12.11,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -248,26 +248,8 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Cucumber Salad",
-            "price": 15.96,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Greek Salad",
-            "price": 12.74,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nicoise Salad",
-            "price": 12.08,
+            "name": "Farro Salad",
+            "price": 9.4,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -275,18 +257,36 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Potato Salad",
-            "price": 10.13,
+            "name": "Cobb Salad",
+            "price": 11.99,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Caesar Salad",
-            "price": 13,
-            "isVegetarian": false,
+            "price": 12.54,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tabbouleh",
+            "price": 14.19,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Thai Green Papaya Salad",
+            "price": 10.67,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -298,62 +298,8 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Fresh Grilled Cottage Pie",
-            "price": 28.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Pan-seared Biryani",
-            "price": 22.21,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Luscious Grilled Chicken",
-            "price": 20.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Braised Fish and Chips",
-            "price": 30.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Marinated Steak",
-            "price": 29.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Marinated Stuffed Zucchini Boats",
-            "price": 23.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Smoked Grilled Tofu",
-            "price": 19.28,
+            "name": "Classic Smoked Paella",
+            "price": 28.08,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -361,8 +307,62 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Pan-seared Beef Burger",
-            "price": 22.58,
+            "name": "Traditional Flavorful Gnocchi",
+            "price": 30.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Satisfying Cottage Pie",
+            "price": 21.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Zesty Pho",
+            "price": 20.52,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Zingy Salmon",
+            "price": 27.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Baked Roast Duck",
+            "price": 29.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Grilled Stuffed Zucchini Boats",
+            "price": 18.41,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Mouthwatering Burrito",
+            "price": 22.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -375,17 +375,26 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Authentic Flavorful Mussels Mariniere in White Wine",
-            "price": 31.74,
+            "name": "Handcrafted Juicy New England Lobster Roll",
+            "price": 33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Golden Crab-Stuffed Mushrooms",
-            "price": 23.64,
+            "name": "Handcrafted Herbed Grilled Lobster with Lemon Butter",
+            "price": 24.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Succulent Oysters Rockefeller with Pernod Cream",
+            "price": 27.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,30 +402,21 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Spicy Stuffed Flounder with Crab and Spinach",
-            "price": 22.73,
+            "name": "Classic Zingy Valencian Seafood Paella",
+            "price": 25.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Deluxe Succulent Shrimp Scampi over Linguine",
-            "price": 32.19,
+            "name": "Authentic Grilled Baked Cod with Lemon Caper Sauce",
+            "price": 22.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Satisfying Linguine with Clam Sauce",
-            "price": 31.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           }
         ]
@@ -425,56 +425,56 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Seasonal Herbed Wild Mushroom Risotto",
-            "price": 6.02,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Classic Sweet Green Beans Almondine",
+            "price": 9.8,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Marinated Roasted Root Vegetables",
-            "price": 7.61,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Flaky Crispy Zucchini Fritters",
-            "price": 8.48,
+            "name": "Authentic Tangy Buttered Egg Noodles",
+            "price": 8.8,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Smoked Truffle Parmesan Fries",
-            "price": 8.28,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Smoked Sautéed Garlic Mushrooms",
-            "price": 5.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Hearty Tangy Baked Idaho Potato with Sour Cream",
-            "price": 8.99,
+            "name": "Deluxe Flavorful Grilled Zucchini and Peppers",
+            "price": 7.95,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Succulent French Fries",
+            "price": 6.33,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Sweet Wild Mushroom Risotto",
+            "price": 9.45,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Marinated Corn on the Cob with Chili Lime Butter",
+            "price": 6.41,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -484,45 +484,9 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Juice",
-            "price": 5.93,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 7.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Hot Chocolate",
-            "price": 6.78,
+            "price": 6.03,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 7.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coffee",
-            "price": 4.83,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -530,7 +494,43 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Milkshake",
-            "price": 6,
+            "price": 5.26,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 6.78,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 6.92,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 6.07,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 6.67,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -549,46 +549,46 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Cinnamon Rolls",
-            "price": 10.4,
+            "name": "Eclairs",
+            "price": 9.25,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Custard Tart",
-            "price": 6.29,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cobbler",
-            "price": 7.32,
-            "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Baklava",
-            "price": 10.77,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Croissants",
+            "price": 8.68,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Brownies",
-            "price": 9.78,
-            "isVegetarian": false,
+            "name": "Fruit Galette",
+            "price": 8.34,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Carrot Cake",
+            "price": 7.98,
+            "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pie",
+            "price": 10.3,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -599,17 +599,26 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Banana",
-            "price": 9.59,
+            "name": "Frozen Pie",
+            "price": 9.33,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sorbet",
+            "price": 7.11,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Snow Cone",
-            "price": 10,
+            "name": "Gelato",
+            "price": 11.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -617,29 +626,20 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Custard",
-            "price": 10.91,
+            "name": "Sherbet",
+            "price": 11.76,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Paletas",
-            "price": 9.07,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Granita",
-            "price": 7.53,
-            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kulfi",
+            "price": 10.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -655,17 +655,17 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Manhattan",
-            "price": 15.64,
+            "name": "Bloody Mary",
+            "price": 11.43,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Negroni",
-            "price": 14.37,
+            "price": 10.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -674,7 +674,7 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Mojito",
-            "price": 10.52,
+            "price": 12.09,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -683,25 +683,25 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Old Fashioned",
-            "price": 10.36,
+            "price": 11.19,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 12.04,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Margarita",
-            "price": 11.49,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 10.63,
+            "price": 15.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -709,11 +709,11 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 13.81,
+            "name": "Cosmopolitan",
+            "price": 15.54,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,8 +723,26 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Fiano",
-            "price": 11.29,
+            "name": "Malbec",
+            "price": 8.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sauvignon Blanc",
+            "price": 10.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sémillon",
+            "price": 13.36,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -732,35 +750,8 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Petit Verdot",
-            "price": 9.9,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Verdicchio",
-            "price": 11.1,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Torrontés",
-            "price": 8.08,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Blanc",
-            "price": 8.24,
+            "name": "Gamay",
+            "price": 8.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -768,8 +759,17 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Prosecco",
-            "price": 8.7,
+            "name": "Fiano",
+            "price": 10.98,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mourvèdre",
+            "price": 10.52,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -782,8 +782,35 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Kahlúa",
-            "price": 12.03,
+            "name": "Armagnac",
+            "price": 16.11,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bénédictine",
+            "price": 14.79,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Drambuie",
+            "price": 12.36,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grand Marnier",
+            "price": 13.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -791,36 +818,9 @@ export const southamptonblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Scotch",
-            "price": 16.39,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pisco",
-            "price": 13.05,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grand Marnier",
-            "price": 10.33,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gin",
-            "price": 10.15,
-            "isVegetarian": true,
+            "name": "Sambuca",
+            "price": 15.67,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,

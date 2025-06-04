@@ -12,66 +12,66 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Classic Savory Founder's Family Recipe Pasta",
-            "price": 28.45,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Spiced Signature Truffle Pasta with Aged Pecorino",
-            "price": 36.02,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Marinated Dry-Aged Tomahawk Steak",
-            "price": 32.57,
+            "name": "Homestyle Steamed Chef’s Wild Game Selection",
+            "price": 26.14,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Comforting Wood-Fired Peking Duck with Plum Sauce",
+            "price": 37.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Gourmet Tangy Secret Recipe Bouillabaisse",
-            "price": 37.12,
+            "name": "Deluxe Satisfying Legendary Prime Rib",
+            "price": 34.94,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Zingy Celebrity Favorite Lobster Dish",
+            "price": 30.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Wholesome Seasonal Tasting Menu Experience",
+            "price": 37.81,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Smoked Restaurant's Namesake Signature Entrée",
+            "price": 32.32,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Smoked Tableside Carved Chateaubriand",
-            "price": 29.2,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Grilled Chef's Childhood Inspired Creation",
-            "price": 34.67,
+            "name": "Classic Spicy Whole Roasted Heritage Chicken",
+            "price": 25.32,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Tangy Charcoal Grilled Iberico Pork",
-            "price": 34.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": false
           }
         ]
@@ -80,44 +80,44 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Organic Zingy Collaborative Limited Edition Special",
-            "price": 26.77,
-            "isVegetarian": false,
+            "name": "House Special Luscious Daily Fresh Catch with Seasonal Accompaniments",
+            "price": 39.78,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Mouthwatering Fusion of Traditional and Modern Techniques",
-            "price": 24.21,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Fried Truffle-Infused Filet Mignon",
-            "price": 28.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Aromatic Cedar Plank Salmon",
-            "price": 37.82,
-            "isVegetarian": false,
+            "name": "Fresh Zesty Chef's Market Inspiration of the Day",
+            "price": 31.15,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Homestyle Grilled Fire-Roasted Seasonal Centerpiece",
-            "price": 34.97,
+            "name": "Hearty Creamy Lobster Thermidor",
+            "price": 29.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Delicious Braised Short Ribs with Red Wine Sauce",
+            "price": 32.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Sweet Chef's Childhood Favorite Reimagined",
+            "price": 25.62,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -130,44 +130,8 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Deluxe Crispy Spinach Puffs",
-            "price": 8.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Stuffed Tzatziki with Pita",
-            "price": 13.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Grilled Samosas",
-            "price": 8.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Delicious Spinach Artichoke Dip",
-            "price": 9.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Golden Stuffed Mushrooms",
-            "price": 12.17,
+            "name": "Deluxe Crunchy Mezze Platter",
+            "price": 8.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -175,8 +139,8 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Hearty Crostini",
-            "price": 11.13,
+            "name": "Deluxe Sweet Edamame",
+            "price": 15.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -184,19 +148,55 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Stuffed Baked Brie",
-            "price": 11.56,
+            "name": "Deluxe Sweet Bruschetta",
+            "price": 13.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Seasonal Satisfying Mini Sliders",
-            "price": 9.22,
+            "name": "Homestyle Savory Cheese Platter",
+            "price": 12.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Sweet Potato Skins",
+            "price": 15.56,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Mouthwatering Potstickers",
+            "price": 13.42,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Smoked Falafel",
+            "price": 15.71,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Delectable Prawn Toast",
+            "price": 8.07,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -207,8 +207,8 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Classic Grilled Cabbage Soup",
-            "price": 7.62,
+            "name": "Gourmet Golden Mushroom Soup",
+            "price": 9.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -216,8 +216,8 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Sizzling Miso Soup",
-            "price": 7.54,
+            "name": "Handcrafted Roasted Zuppa Toscana",
+            "price": 8.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -225,21 +225,21 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Delectable Tortilla Soup",
-            "price": 10.16,
+            "name": "Classic Satisfying Borscht",
+            "price": 7.02,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Flaky Thai Coconut Soup",
-            "price": 10.83,
-            "isVegetarian": false,
+            "name": "Seasonal Crunchy Avgolemono (Greek Lemon Soup)",
+            "price": 9.32,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -248,44 +248,44 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Waldorf Salad",
-            "price": 11.17,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nicoise Salad",
-            "price": 12.44,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beet Salad",
-            "price": 13.6,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tabbouleh",
-            "price": 10.1,
+            "name": "Mango Avocado Salad",
+            "price": 14.95,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Vegetable Salad",
+            "price": 9.15,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Caprese Salad",
-            "price": 14.14,
+            "name": "Broccoli Crunch Salad",
+            "price": 10.83,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pecan Salad",
+            "price": 14.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caesar Salad",
+            "price": 14.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -298,62 +298,26 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Hearty Wholesome Thai Curry",
-            "price": 22.54,
-            "isVegetarian": true,
+            "name": "Organic Comforting Eggplant Parmesan",
+            "price": 22.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Appetizing Beef Burger",
+            "price": 22.57,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Grilled Biryani",
-            "price": 22.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Crunchy Salmon",
-            "price": 31.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Deluxe Pan-seared Cottage Pie",
-            "price": 23.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Herbed Vegetable Stir-Fry",
-            "price": 29.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Baked Pho",
-            "price": 19.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Golden Lasagna",
-            "price": 23.37,
+            "name": "Fresh Fried Coq au Vin",
+            "price": 26.99,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -361,11 +325,47 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Enticing Shish Kebabs",
-            "price": 26.2,
-            "isVegetarian": true,
+            "name": "Handcrafted Luscious Lasagna",
+            "price": 19.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Fried Moussaka",
+            "price": 29.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Savory Risotto",
+            "price": 30.31,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Succulent Pesto Pasta",
+            "price": 21.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Luscious Paella",
+            "price": 23.52,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -375,49 +375,49 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Traditional Mouthwatering Lemon-Herb Calamari Steak",
-            "price": 28.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Herbed Grilled Swordfish with Mango Chutney",
-            "price": 34.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Satisfying Pan-Seared Scallops with Pea Purée",
-            "price": 22.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Steamed Miso-Marinated Chilean Sea Bass",
-            "price": 26.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Zingy Blackened Mahi-Mahi with Pineapple Salsa",
-            "price": 29.74,
+            "name": "Seasonal Tangy Traditional Provençal Bouillabaisse",
+            "price": 32.3,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Savory Valencian Seafood Paella",
+            "price": 26.15,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "House Special Grilled Oysters Rockefeller with Pernod Cream",
+            "price": 33.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Mouthwatering Alaskan King Crab Legs with Drawn Butter",
+            "price": 34.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Zingy Lobster Thermidor with Gruyère Crust",
+            "price": 28.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -425,8 +425,8 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Deluxe Delicious Wild Rice Pilaf",
-            "price": 8.12,
+            "name": "Authentic Steamed Mashed Potatoes",
+            "price": 9.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,26 +434,8 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Zingy Steamed Jasmine Rice",
-            "price": 6.03,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Luscious Homestyle Baked Beans",
-            "price": 7.77,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Flavorful Yukon Gold Potato Gratin",
-            "price": 6.18,
+            "name": "Traditional Fried Steamed Jasmine Rice",
+            "price": 6.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -461,8 +443,17 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Zingy Corn on the Cob with Chili Lime Butter",
-            "price": 7.32,
+            "name": "Gourmet Marinated Grilled Zucchini and Peppers",
+            "price": 7.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Hearty Braised Red Cabbage with Apple",
+            "price": 9.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -470,13 +461,22 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Herbed Crispy Zucchini Fritters",
-            "price": 9.15,
+            "name": "Authentic Mouthwatering Wild Rice Pilaf",
+            "price": 6.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Mouthwatering Wild Mushroom Risotto",
+            "price": 5.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -484,26 +484,17 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Coffee",
-            "price": 6.41,
-            "isVegetarian": false,
+            "name": "Juice",
+            "price": 4.48,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Juice",
-            "price": 5.03,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soda",
-            "price": 4.38,
+            "name": "Iced Tea",
+            "price": 6.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -512,7 +503,16 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
           },
           {
             "name": "Tea",
-            "price": 4.64,
+            "price": 4.56,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 7.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -521,16 +521,16 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
           },
           {
             "name": "Milkshake",
-            "price": 7.25,
-            "isVegetarian": true,
+            "price": 6.45,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Smoothie",
-            "price": 5.6,
+            "name": "Soda",
+            "price": 7.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -549,8 +549,8 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Red Velvet Cake",
-            "price": 9.13,
+            "name": "Scones",
+            "price": 10.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,8 +558,8 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Eclairs",
-            "price": 9.92,
+            "name": "Chocolate Chip Cookies",
+            "price": 8.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -567,17 +567,8 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pecan Pie",
-            "price": 7.21,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Danish Pastries",
-            "price": 7.03,
+            "name": "Apple Pie",
+            "price": 6.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -585,8 +576,17 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pain au Chocolat",
-            "price": 8.97,
+            "name": "Cheesecake",
+            "price": 10.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Macarons",
+            "price": 10.31,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,35 +599,35 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Sorbet",
-            "price": 10.88,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Granita",
-            "price": 9.72,
+            "name": "Paletas",
+            "price": 10.56,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Pudding",
-            "price": 9.89,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Baked Alaska",
-            "price": 8.74,
+            "name": "Frozen Custard",
+            "price": 8.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Fruit Bars",
+            "price": 10.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Popsicles",
+            "price": 7.55,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -635,9 +635,9 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Cheesecake",
-            "price": 10.9,
-            "isVegetarian": true,
+            "name": "Frozen Mousse",
+            "price": 9.87,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -655,8 +655,26 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Old Fashioned",
-            "price": 13.55,
+            "name": "Mojito",
+            "price": 14.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 13.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 12.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -665,7 +683,7 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
           },
           {
             "name": "Margarita",
-            "price": 11.58,
+            "price": 11.08,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -673,35 +691,8 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 13.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Cosmopolitan",
-            "price": 12.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 13.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 10.29,
+            "price": 12.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -709,8 +700,17 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 15.64,
+            "name": "Negroni",
+            "price": 14.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 10.26,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -723,17 +723,8 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Moscato",
-            "price": 13.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nebbiolo",
-            "price": 9.34,
+            "name": "Petit Verdot",
+            "price": 13.04,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -741,18 +732,9 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Riesling",
-            "price": 10.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vouvray",
-            "price": 11.86,
-            "isVegetarian": false,
+            "name": "Pinot Noir",
+            "price": 11.15,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -760,7 +742,7 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
           },
           {
             "name": "Chardonnay",
-            "price": 13.98,
+            "price": 11.65,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -768,9 +750,27 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Roussanne",
-            "price": 12.05,
+            "name": "Dolcetto",
+            "price": 12.02,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Torrontés",
+            "price": 10.1,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Prosecco",
+            "price": 8.31,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -782,35 +782,17 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Sambuca",
-            "price": 12,
-            "isVegetarian": false,
+            "name": "Anisette",
+            "price": 14.8,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Kahlúa",
-            "price": 14.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cognac",
-            "price": 10.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vodka",
-            "price": 15.14,
+            "name": "St-Germain",
+            "price": 11.16,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -818,11 +800,29 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Galliano",
-            "price": 14.04,
-            "isVegetarian": false,
+            "name": "Whiskey",
+            "price": 17.66,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tequila",
+            "price": 14.94,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Scotch",
+            "price": 17.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

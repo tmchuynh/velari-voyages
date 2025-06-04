@@ -12,53 +12,8 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Organic Zingy Secret Recipe Bouillabaisse",
-            "price": 37.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Zesty Local Bounty Harvest Plate (Vegetarian)",
-            "price": 27.73,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Roasted Restaurant's Namesake Signature Entrée",
-            "price": 36.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Sizzling Captain's Favorite Seafood Tower",
-            "price": 24.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Zesty Molecular Gastronomy Showcase Tasting",
-            "price": 30.06,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Spiced 24-Hour Braised Short Ribs",
-            "price": 35.67,
+            "name": "Hearty Luscious Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 27.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -66,13 +21,58 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Pan-seared Award-Winning Seafood Boil",
-            "price": 28.87,
+            "name": "Authentic Tender Restaurant's Namesake Signature Entrée",
+            "price": 37.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Pan-seared Celebrity Favorite Lobster Dish",
+            "price": 31.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Savory Black Garlic Glazed Beef Tenderloin",
+            "price": 31.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Hearty Fried Heritage Recipe Lamb Shank",
+            "price": 28.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Zingy Flambéed Tableside Specialty",
+            "price": 31.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Flavorful Chef's Childhood Inspired Creation",
+            "price": 33.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -80,8 +80,8 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Deluxe Tangy Lobster Thermidor",
-            "price": 25.54,
+            "name": "Deluxe Hearty Miso-Glazed Black Cod",
+            "price": 38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -89,8 +89,8 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Sautéed Black Garlic Marinated Octopus",
-            "price": 24.74,
+            "name": "Authentic Hearty Heirloom Recipe from Chef's Family",
+            "price": 31.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -98,17 +98,8 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Smoked Heritage Breed Porchetta",
-            "price": 38.52,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Crispy Truffle-Infused Filet Mignon",
-            "price": 25.3,
+            "name": "Authentic Tangy Seared Foie Gras with Fig Compote",
+            "price": 35.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -116,12 +107,21 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Deluxe Grilled Miso-Glazed Black Cod",
-            "price": 29.48,
+            "name": "Fresh Braised Truffle-Infused Filet Mignon",
+            "price": 26.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Hand-Selected Wine Pairing Experience",
+            "price": 35.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": false
           }
         ]
@@ -130,26 +130,8 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Deluxe Spiced Garlic Bread",
-            "price": 12.32,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Mouthwatering Dumplings",
-            "price": 12.01,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Smoked Antipasto Platter",
-            "price": 14.37,
+            "name": "Traditional Grilled Samosas",
+            "price": 8.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,17 +139,8 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Tender Onion Rings",
-            "price": 13.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Spiced Bruschetta",
-            "price": 10.15,
+            "name": "Homestyle Irresistible Stuffed Mushrooms",
+            "price": 12.54,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -175,8 +148,8 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Smoked Baked Brie",
-            "price": 10.4,
+            "name": "Homestyle Grilled Baba Ganoush",
+            "price": 13.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -184,8 +157,17 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Crispy Calamari",
-            "price": 8.63,
+            "name": "Classic Comforting Onion Rings",
+            "price": 12.92,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Pan-seared Mini Sliders",
+            "price": 15.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -193,13 +175,31 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Grilled Tzatziki with Pita",
-            "price": 15.74,
+            "name": "House Special Tangy Edamame",
+            "price": 14.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Satisfying Charcuterie Board",
+            "price": 13.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Savory Tzatziki with Pita",
+            "price": 11.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -207,17 +207,17 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Handcrafted Smoked Seafood Chowder",
-            "price": 9.88,
+            "name": "Homestyle Savory Clam Chowder",
+            "price": 9.11,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Deluxe Sweet Tomato Soup",
-            "price": 13.99,
+            "name": "Hearty Flavorful Miso Soup",
+            "price": 12.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -225,21 +225,21 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Sweet Chicken Noodle Soup",
-            "price": 7.76,
-            "isVegetarian": false,
+            "name": "House Special Sweet Minestrone",
+            "price": 8.7,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Authentic Crunchy Gumbo",
-            "price": 13.94,
+            "name": "Handcrafted Crunchy Carrot Ginger Soup",
+            "price": 8.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -248,17 +248,8 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Nicoise Salad",
-            "price": 14.43,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Garden Salad",
-            "price": 10.1,
+            "name": "Pasta Salad",
+            "price": 12.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -266,8 +257,26 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Orzo Salad",
-            "price": 15.32,
+            "name": "Greek Salad",
+            "price": 10.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Potato Salad",
+            "price": 9.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mediterranean Chopped Salad",
+            "price": 14.49,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -275,19 +284,10 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Broccoli Crunch Salad",
-            "price": 10.62,
+            "name": "Beet Salad",
+            "price": 15.73,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 14.14,
-            "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -298,17 +298,26 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Deluxe Crunchy Fajitas",
-            "price": 26.66,
+            "name": "Homestyle Flavorful Lentil Stew",
+            "price": 30.17,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Pan-seared Grilled Chicken",
-            "price": 20.81,
+            "name": "Hearty Satisfying Beef Wellington",
+            "price": 31.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Crunchy Lasagna",
+            "price": 30.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -316,8 +325,35 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Mouthwatering Shish Kebabs",
-            "price": 24.39,
+            "name": "Premium Marinated Grilled Tofu",
+            "price": 26.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Zesty Fajitas",
+            "price": 31.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Pan-seared Eggplant Parmesan",
+            "price": 18.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Satisfying Pizza",
+            "price": 22.93,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -325,49 +361,13 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Spaghetti Bolognese",
-            "price": 25.32,
+            "name": "Authentic Crispy Gnocchi",
+            "price": 27.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Seasonal Roasted Tagine",
-            "price": 30.75,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Herbed Steak",
-            "price": 24.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Delicious Shakshuka",
-            "price": 24.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Creamy Pasta Primavera",
-            "price": 21.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
           }
         ]
       },
@@ -375,17 +375,8 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Fresh Mouthwatering Stuffed Flounder with Crab and Spinach",
-            "price": 26.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Baked Seafood Risotto with Saffron",
-            "price": 29.66,
+            "name": "Hearty Hearty Lemon-Herb Calamari Steak",
+            "price": 26.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,8 +384,8 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Sweet Grilled Swordfish with Mango Chutney",
-            "price": 31.89,
+            "name": "Premium Luscious Maryland Style Crab Cakes",
+            "price": 31.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -402,8 +393,8 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Mouthwatering Garlic Butter Shrimp Skillet",
-            "price": 23.16,
+            "name": "Authentic Sautéed Oysters Rockefeller with Pernod Cream",
+            "price": 29.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -411,8 +402,17 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Spiced Lobster Thermidor with Gruyère Crust",
-            "price": 33.21,
+            "name": "Fresh Herbed Grilled Spanish Octopus with Smoked Paprika",
+            "price": 23.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Smoked Lobster Thermidor with Gruyère Crust",
+            "price": 29.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,8 +425,8 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Handcrafted Grilled Grilled Zucchini and Peppers",
-            "price": 8.42,
+            "name": "Traditional Spiced Grilled Zucchini and Peppers",
+            "price": 6.06,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,48 +434,48 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Zesty Mashed Potatoes",
-            "price": 6.2,
+            "name": "Homestyle Smoked Roasted Root Vegetables",
+            "price": 9.26,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Crunchy Braised Red Cabbage with Apple",
+            "price": 5.3,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Satisfying Scalloped Potatoes with Thyme",
+            "price": 8.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Hearty Zesty Braised Red Cabbage with Apple",
-            "price": 7.45,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Steamed Garlic Bread with Herb Butter",
-            "price": 8.38,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Smoked Sautéed Garlic Mushrooms",
-            "price": 6.57,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Spiced Roasted Root Vegetables",
-            "price": 8.69,
+            "name": "Authentic Sizzling Mashed Potatoes",
+            "price": 7.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Pan-seared Wild Mushroom Risotto",
+            "price": 9.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -484,54 +484,54 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Water",
-            "price": 4.67,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 4.2,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Juice",
-            "price": 5.92,
+            "price": 6.39,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 4.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 6.31,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 7.7,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Milkshake",
-            "price": 4.79,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soda",
-            "price": 5.24,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 7.86,
+            "price": 6.42,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 4.75,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -549,26 +549,8 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Pain au Chocolat",
-            "price": 7.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Berry Tart",
-            "price": 8.14,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Banana Bread",
-            "price": 6.68,
+            "name": "Fruit Galette",
+            "price": 10.41,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -576,20 +558,38 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Strawberry Shortcake",
-            "price": 10.25,
+            "name": "Soufflé",
+            "price": 8.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Portuguese Custard Tarts",
+            "price": 6.71,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Macarons",
-            "price": 10.81,
+            "name": "Danish Pastries",
+            "price": 10.9,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sticky Toffee Pudding",
+            "price": 6.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -599,8 +599,8 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Sorbet",
-            "price": 10.21,
+            "name": "Frozen Cheesecake",
+            "price": 11.48,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -608,8 +608,8 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gelato",
-            "price": 11.75,
+            "name": "Semifreddo",
+            "price": 8.05,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -617,8 +617,8 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frosty",
-            "price": 11.26,
+            "name": "Frozen Fruit Bars",
+            "price": 8.66,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -626,17 +626,17 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ice Cream Sandwich",
-            "price": 11.6,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Kulfi",
+            "price": 9.08,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Ice Cream Cake",
-            "price": 11.64,
+            "name": "Sherbet",
+            "price": 9.06,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -655,26 +655,8 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Margarita",
-            "price": 13.97,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Mojito",
-            "price": 10.73,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 12.41,
+            "price": 15.94,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -682,8 +664,8 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Whiskey Sour",
-            "price": 12.33,
+            "name": "Old Fashioned",
+            "price": 15.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -691,9 +673,9 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 15.6,
-            "isVegetarian": false,
+            "name": "Negroni",
+            "price": 11.43,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -701,16 +683,34 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
           },
           {
             "name": "Cosmopolitan",
-            "price": 12.31,
-            "isVegetarian": true,
+            "price": 12.97,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 14.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 12.71,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "price": 11.38,
+            "name": "Mai Tai",
+            "price": 11.99,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -723,56 +723,56 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Champagne/Sparkling Wine",
-            "price": 8,
+            "name": "Dolcetto",
+            "price": 13.2,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Torrontés",
+            "price": 12.12,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Blanc",
+            "price": 8.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           },
           {
             "name": "Roussanne",
-            "price": 13.15,
+            "price": 12.56,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Grigio",
-            "price": 12.18,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tempranillo",
-            "price": 10.26,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sémillon",
-            "price": 12.5,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Cabernet Franc",
-            "price": 11.84,
+            "price": 11.62,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vermentino",
+            "price": 10.27,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -782,17 +782,17 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Calvados",
-            "price": 14.3,
-            "isVegetarian": true,
+            "name": "Kahlúa",
+            "price": 11.06,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Aquavit",
-            "price": 15.5,
+            "name": "Whiskey",
+            "price": 17.63,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -800,17 +800,17 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tequila",
-            "price": 17.58,
+            "name": "Brandy",
+            "price": 15.27,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Grand Marnier",
-            "price": 14.57,
+            "name": "Amaretto",
+            "price": 14.31,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -818,11 +818,11 @@ export const miamitheHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Bourbon",
-            "price": 12.87,
+            "name": "Limoncello",
+            "price": 11.95,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

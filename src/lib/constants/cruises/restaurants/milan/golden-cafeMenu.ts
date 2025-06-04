@@ -12,67 +12,67 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Seasonal Crunchy Whole Roasted Heritage Chicken",
-            "price": 33.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Smoked Wood-Fired Peking Duck with Plum Sauce",
-            "price": 31.86,
-            "isVegetarian": false,
+            "name": "Homestyle Marinated Chef's Special Surf and Turf",
+            "price": 24.63,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Fresh Herbed Captain's Favorite Seafood Tower",
-            "price": 26.18,
+            "name": "Homestyle Appetizing Seasonal Tasting Platter",
+            "price": 32.22,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Sizzling Signature Truffle Pasta with Aged Pecorino",
+            "price": 32.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Traditional Luscious Seasonal Tasting Menu Experience",
-            "price": 32.62,
+            "name": "Hearty Stuffed Molecular Gastronomy Showcase Tasting",
+            "price": 34.25,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Flaky Traditional Family Paella",
-            "price": 33.34,
-            "isVegetarian": true,
+            "name": "Authentic Delectable Dry-Aged Tomahawk Steak",
+            "price": 24.59,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "House Special Mouthwatering Chef's Special Surf and Turf",
-            "price": 36.04,
-            "isVegetarian": true,
+            "name": "Authentic Aromatic Chef's Childhood Inspired Creation",
+            "price": 28.65,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Handcrafted Braised Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 30.98,
-            "isVegetarian": true,
+            "name": "Classic Luscious Heritage Recipe Lamb Shank",
+            "price": 34.9,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -80,17 +80,8 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Deluxe Grilled Signature Spice-Rubbed Protein",
-            "price": 29.64,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Marinated Black Garlic Marinated Octopus",
-            "price": 26.2,
+            "name": "Deluxe Marinated Seasonal Farm-to-Table Vegetable Plate",
+            "price": 28.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -98,31 +89,40 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Tangy Volcanic Stone-Cooked Specialty",
-            "price": 32.91,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Exquisite Deconstructed Classic with Modern Technique",
-            "price": 39.04,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Juicy Off-Menu Secret Preparation",
-            "price": 28.39,
-            "isVegetarian": true,
+            "name": "Seasonal Succulent Collaborative Limited Edition Special",
+            "price": 26.4,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Fresh Hearty Braised Short Ribs with Red Wine Sauce",
+            "price": 33.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Sizzling Seasonal Truffle Risotto",
+            "price": 30.82,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Mouthwatering Truffle-Infused Filet Mignon",
+            "price": 31.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -130,17 +130,17 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Hearty Sweet Stuffed Peppers",
-            "price": 14.01,
-            "isVegetarian": true,
+            "name": "Authentic Marinated Bruschetta",
+            "price": 15.77,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Authentic Stuffed Shrimp Cocktail",
-            "price": 13.04,
+            "name": "Premium Spicy Calamari",
+            "price": 9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -148,17 +148,8 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "House Special Savory Sweet Potato Fries",
-            "price": 11.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Sizzling Potstickers",
-            "price": 11.19,
+            "name": "Traditional Sweet Dumplings",
+            "price": 8.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -166,35 +157,44 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Sautéed Mini Crab Cakes",
-            "price": 13.75,
+            "name": "Gourmet Crunchy Edamame",
+            "price": 12.23,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Stuffed Deviled Eggs",
+            "price": 8.33,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Sweet Mini Quesadillas",
+            "price": 9.66,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Sizzling Shrimp Cocktail",
+            "price": 13.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Mouthwatering Lettuce Wraps",
-            "price": 9.96,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Handcrafted Herbed Nachos",
-            "price": 15.62,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Aromatic Mozzarella Sticks",
-            "price": 11.57,
+            "name": "Hearty Appetizing Ceviche",
+            "price": 15.36,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -207,38 +207,38 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "House Special Smoked Beef Stew",
-            "price": 11.19,
+            "name": "Seasonal Golden French Onion Soup",
+            "price": 8.38,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Hearty Clam Chowder",
-            "price": 9.07,
+            "name": "House Special Pan-seared Corn Chowder",
+            "price": 9.23,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Hearty Cabbage Soup",
-            "price": 11.41,
+            "name": "Deluxe Delectable Egg Drop Soup",
+            "price": 13.69,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Tangy Zuppa Toscana",
+            "price": 10.57,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Irresistible Borscht",
-            "price": 10.68,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -248,47 +248,47 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Mango Avocado Salad",
-            "price": 10.54,
+            "name": "Orzo Salad",
+            "price": 15.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 12.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Apple Pecan Salad",
+            "price": 13.25,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Watermelon Feta Salad",
+            "price": 14.11,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cobb Salad",
+            "price": 10.65,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roasted Vegetable Salad",
-            "price": 9.22,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Orzo Salad",
-            "price": 15.18,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caprese Salad",
-            "price": 13.12,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Thai Green Papaya Salad",
-            "price": 9.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -298,75 +298,75 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Premium Spicy Fajitas",
-            "price": 24.85,
+            "name": "Authentic Aromatic Lamb Chops",
+            "price": 18.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Sizzling Thai Curry",
+            "price": 31.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Smoked Biryani",
+            "price": 21.75,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Golden Burrito",
+            "price": 25.31,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Savory Pesto Pasta",
+            "price": 20.24,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Herbed Steak",
-            "price": 19.18,
+            "name": "Classic Roasted Seafood Platter",
+            "price": 29.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Marinated Stir-fry",
+            "price": 25.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Fried Pulled Pork Sandwich",
+            "price": 29.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Luscious Stir-fry",
-            "price": 26.2,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Sweet Tacos",
-            "price": 18.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Delectable Currywurst",
-            "price": 19.69,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Fried Stuffed Zucchini Boats",
-            "price": 31.24,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Hearty Katsu Curry",
-            "price": 19.94,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Golden Lamb Chops",
-            "price": 24.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -375,35 +375,26 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Handcrafted Appetizing Cedar Plank Roasted Salmon",
-            "price": 29.14,
+            "name": "Handcrafted Crispy Prawn Curry in Coconut Masala",
+            "price": 29.92,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Herbed Seafood Alfredo with Spinach Fettuccine",
-            "price": 29.83,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Satisfying Pan-Seared Scallops with Pea Purée",
-            "price": 30.54,
+            "name": "Seasonal Smoked Hearty Italian Cioppino",
+            "price": 27.15,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Homestyle Roasted Shrimp Scampi over Linguine",
-            "price": 31.03,
+            "name": "Deluxe Zingy Linguine with Clam Sauce",
+            "price": 34.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -411,12 +402,21 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Aromatic Traditional Provençal Bouillabaisse",
-            "price": 26.98,
+            "name": "Authentic Baked Garlic Butter Shrimp Skillet",
+            "price": 28.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Tender Baked Cod with Lemon Caper Sauce",
+            "price": 23.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           }
         ]
@@ -425,56 +425,56 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Homestyle Sweet Grilled Zucchini and Peppers",
-            "price": 7.43,
+            "name": "Traditional Smoked Soft Polenta with Parmesan",
+            "price": 6.2,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Braised Garlic Bread with Herb Butter",
-            "price": 9.62,
+            "name": "Organic Zingy Homestyle Baked Beans",
+            "price": 9.49,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Grilled Roasted Root Vegetables",
+            "price": 9.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Stuffed Yukon Gold Potato Gratin",
+            "price": 5.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Premium Marinated Wild Rice Pilaf",
-            "price": 9.95,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Irresistible Israeli Couscous with Roasted Tomatoes",
-            "price": 8.09,
-            "isVegetarian": true,
+            "name": "Gourmet Herbed Crispy Zucchini Fritters",
+            "price": 5.53,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Luscious Warm Buttermilk Dinner Rolls",
-            "price": 5.85,
+            "name": "Handcrafted Flaky Macaroni and Aged Cheddar",
+            "price": 8.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Mouthwatering Roasted Root Vegetables",
-            "price": 6.34,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -484,26 +484,17 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Juice",
-            "price": 5.77,
+            "name": "Tea",
+            "price": 4.17,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 4.66,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Iced Tea",
-            "price": 4.4,
+            "price": 6.1,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -511,8 +502,17 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lemonade",
-            "price": 6.96,
+            "name": "Juice",
+            "price": 5.21,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 7.68,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -521,16 +521,16 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
           },
           {
             "name": "Soda",
-            "price": 5.71,
+            "price": 6.48,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Milkshake",
-            "price": 6.04,
+            "name": "Lemonade",
+            "price": 4.15,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -549,8 +549,8 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Apple Pie",
-            "price": 6.56,
+            "name": "Cupcakes",
+            "price": 9.45,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -558,8 +558,8 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Custard Tart",
-            "price": 7.16,
+            "name": "Treacle Tart",
+            "price": 9.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -567,17 +567,8 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Vanilla Cake",
-            "price": 9.03,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Berry Tart",
-            "price": 10.78,
+            "name": "Pecan Pie",
+            "price": 7.68,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -585,10 +576,19 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Baklava",
-            "price": 8.09,
+            "name": "Biscotti",
+            "price": 7.49,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sticky Toffee Pudding",
+            "price": 9.92,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -599,17 +599,17 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Sherbet",
-            "price": 8.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Sorbet",
-            "price": 11.36,
+            "price": 9.25,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Mousse",
+            "price": 11.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -617,8 +617,8 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Custard",
-            "price": 8.43,
+            "name": "Ice Cream Sandwich",
+            "price": 10.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -626,20 +626,20 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gelato",
-            "price": 9.75,
+            "name": "Frozen Fruit Bars",
+            "price": 7.26,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Kulfi",
-            "price": 7.8,
-            "isVegetarian": false,
+            "name": "Ice Cream",
+            "price": 8.48,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -655,17 +655,8 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Mojito",
-            "price": 12.11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 12.65,
+            "name": "Cosmopolitan",
+            "price": 13.97,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -674,16 +665,7 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
           },
           {
             "name": "Old Fashioned",
-            "price": 11.76,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 12.44,
+            "price": 14.46,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -691,8 +673,35 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 10.55,
+            "name": "Mai Tai",
+            "price": 14.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 10.37,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 10.48,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 12.99,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -701,19 +710,10 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
           },
           {
             "name": "Negroni",
-            "price": 15.7,
+            "price": 12.43,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 13.86,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,56 +723,56 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Malbec",
-            "price": 13.78,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roussanne",
-            "price": 8.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tempranillo",
-            "price": 8.72,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Marsanne",
-            "price": 9.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nebbiolo",
-            "price": 10.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Verdicchio",
-            "price": 12.68,
+            "name": "Pinot Blanc",
+            "price": 13.95,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Noir",
+            "price": 12.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chardonnay",
+            "price": 8.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vouvray",
+            "price": 11.53,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Zinfandel",
+            "price": 9.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Syrah/Shiraz",
+            "price": 10.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -782,47 +782,47 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Whiskey",
-            "price": 15.96,
+            "name": "Absinthe",
+            "price": 14.44,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tequila",
+            "price": 16.27,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "St-Germain",
+            "price": 10.6,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gin",
+            "price": 10.81,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bourbon",
-            "price": 14.91,
+            "name": "Brandy",
+            "price": 15.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mezcal",
-            "price": 17.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grand Marnier",
-            "price": 11.26,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grappa",
-            "price": 17.08,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

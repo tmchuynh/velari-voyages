@@ -12,8 +12,8 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Authentic Grilled Chef's Special Surf and Turf",
-            "price": 37.63,
+            "name": "Deluxe Creamy Charcoal Grilled Iberico Pork",
+            "price": 30.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -21,35 +21,26 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Deluxe Sizzling Heritage Recipe Lamb Shank",
-            "price": 29.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Sweet Wood-Fired Peking Duck with Plum Sauce",
-            "price": 30.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Pan-seared Dry-Aged Tomahawk Steak",
-            "price": 36.51,
+            "name": "Fresh Mouthwatering Captain's Favorite Seafood Tower",
+            "price": 31.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Gourmet Sizzling Chef’s Wild Game Selection",
-            "price": 36.66,
+            "name": "Handcrafted Herbed Seasonal Tasting Platter",
+            "price": 30.2,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Hearty Molecular Gastronomy Showcase Tasting",
+            "price": 37.47,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -57,8 +48,8 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Savory House Famous Duck Confit",
-            "price": 27.46,
+            "name": "Authentic Enticing Award-Winning Seafood Boil",
+            "price": 35.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -66,10 +57,19 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Smoked Founder's Family Recipe Pasta",
-            "price": 37.6,
+            "name": "Handcrafted Pan-seared Restaurant's Namesake Signature Entrée",
+            "price": 33.11,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Succulent Chef’s Wild Game Selection",
+            "price": 26.16,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -80,49 +80,49 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Fresh Sizzling Tasting of Local Artisanal Cheeses",
-            "price": 35.03,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Marinated Sous Vide Pork Tenderloin",
-            "price": 28.88,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Creamy Tableside Prepared Tartare",
-            "price": 35.67,
+            "name": "Fresh Fried Volcanic Stone-Cooked Specialty",
+            "price": 27.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Grilled Tableside Flambé Preparation",
-            "price": 33.99,
+            "name": "Gourmet Roasted Hand-Selected Wine Pairing Experience",
+            "price": 31.18,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Golden Pan-Seared Scallops with Citrus Beurre Blanc",
+            "price": 25.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Juicy Seared Duck Breast with Cherry Reduction",
+            "price": 39.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Gourmet Crunchy Daily Fresh Catch with Seasonal Accompaniments",
-            "price": 34.28,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Authentic Luscious Special Occasion Celebratory Dish",
+            "price": 37.48,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -130,17 +130,8 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Premium Pan-seared Meatballs",
-            "price": 10.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Zesty Falafel",
-            "price": 11.96,
+            "name": "Authentic Golden Spring Rolls",
+            "price": 15.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -148,8 +139,8 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Fried Stuffed Peppers",
-            "price": 11.19,
+            "name": "Deluxe Irresistible Bruschetta",
+            "price": 14.16,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -157,46 +148,55 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Hearty Mini Crab Cakes",
-            "price": 8.42,
+            "name": "Organic Aromatic Onion Rings",
+            "price": 13.14,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Grilled Mini Sliders",
-            "price": 15.07,
-            "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Delectable Mozzarella Sticks",
+            "price": 11.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Juicy Samosas",
+            "price": 12.52,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Grilled Sweet Potato Fries",
-            "price": 10.46,
+            "name": "Premium Marinated Mini Sliders",
+            "price": 13.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Classic Creamy Tuna Tartare",
-            "price": 12.63,
-            "isVegetarian": false,
+            "name": "Fresh Marinated Dumplings",
+            "price": 10.21,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Fresh Pan-seared Mini Quesadillas",
-            "price": 10.84,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Organic Delicious Nachos",
+            "price": 11.63,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -207,40 +207,40 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Classic Irresistible Butternut Squash Soup",
-            "price": 11.42,
-            "isVegetarian": false,
+            "name": "Fresh Spiced Thai Coconut Soup",
+            "price": 8.96,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Delectable Pho",
-            "price": 13.51,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Luscious Thai Coconut Soup",
-            "price": 13.64,
+            "name": "Authentic Spiced Avgolemono (Greek Lemon Soup)",
+            "price": 10.19,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Exquisite French Onion Soup",
-            "price": 8.61,
-            "isVegetarian": true,
+            "name": "Organic Grilled Turkey and Wild Rice Soup",
+            "price": 9.92,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Crunchy Chicken Noodle Soup",
+            "price": 8.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -248,35 +248,26 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Asian Slaw",
-            "price": 11.03,
+            "name": "Watermelon Feta Salad",
+            "price": 12.08,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Garden Salad",
-            "price": 14.79,
-            "isVegetarian": true,
+            "name": "Caesar Salad",
+            "price": 10.77,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Caprese Salad",
-            "price": 14.34,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Arugula Salad",
-            "price": 11.14,
+            "name": "Roasted Vegetable Salad",
+            "price": 12.68,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -284,9 +275,18 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cobb Salad",
-            "price": 12.82,
+            "name": "Thai Green Papaya Salad",
+            "price": 11.55,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coleslaw",
+            "price": 13.53,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -298,26 +298,8 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "House Special Aromatic Salmon",
-            "price": 25.83,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Exquisite Grilled Tofu",
-            "price": 20.56,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Tender Thai Curry",
-            "price": 25.78,
+            "name": "Hearty Succulent Tacos",
+            "price": 25.44,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -325,35 +307,44 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Aromatic Fish and Chips",
-            "price": 31.25,
+            "name": "Authentic Delectable Moussaka",
+            "price": 22.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Hearty Smoked Biryani",
-            "price": 31.36,
+            "name": "Organic Baked Jambalaya",
+            "price": 19.95,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Flaky Fajitas",
+            "price": 21.84,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Exquisite Spaghetti Bolognese",
-            "price": 30.02,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "House Special Grilled Risotto",
+            "price": 26.2,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "House Special Pan-seared Lentil Stew",
-            "price": 22.8,
+            "name": "House Special Stuffed Korma",
+            "price": 27.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -361,13 +352,22 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Mouthwatering Teriyaki Chicken",
-            "price": 28.15,
+            "name": "Fresh Spicy Shakshuka",
+            "price": 20.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Grilled Pesto Pasta",
+            "price": 22.92,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -375,8 +375,8 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Gourmet Tender Oysters Rockefeller with Pernod Cream",
-            "price": 35.93,
+            "name": "Gourmet Stuffed Classic British Fish and Chips",
+            "price": 23.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,8 +384,8 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Appetizing Stuffed Flounder with Crab and Spinach",
-            "price": 24.75,
+            "name": "Homestyle Exquisite Seafood Risotto with Saffron",
+            "price": 22.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,30 +393,30 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Sweet Hearty Italian Cioppino",
-            "price": 32.78,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Gourmet Luscious Baked Cod with Lemon Caper Sauce",
+            "price": 28.37,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Tangy Linguine with Clam Sauce",
-            "price": 28.63,
-            "isVegetarian": false,
+            "name": "Handcrafted Sweet Basa Fillet with Dill Cream Sauce",
+            "price": 22.13,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Hearty Herbed Miso-Marinated Chilean Sea Bass",
-            "price": 26.2,
+            "name": "Authentic Herbed Prawn Curry in Coconut Masala",
+            "price": 25.4,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": false
           }
         ]
@@ -425,26 +425,8 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Premium Crunchy Creamy Colcannon (Irish Potato Mash)",
-            "price": 7.01,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Smoked Homestyle Baked Beans",
-            "price": 5.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Irresistible Sautéed Garlic Mushrooms",
-            "price": 6.82,
+            "name": "House Special Herbed Mashed Potatoes",
+            "price": 7.22,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -452,29 +434,47 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Mouthwatering Truffle Parmesan Fries",
-            "price": 6.61,
+            "name": "Fresh Braised Herbed Bulgur Wheat with Lemon",
+            "price": 9.32,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Traditional Zingy Fragrant Basmati Rice Pilaf",
-            "price": 9.96,
-            "isVegetarian": false,
+            "name": "Handcrafted Exquisite French Fries",
+            "price": 9.08,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Hearty Crispy Zucchini Fritters",
+            "price": 6.51,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Fried Green Beans Almondine",
+            "price": 9.16,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Pan-seared Provencal Ratatouille",
-            "price": 5.78,
-            "isVegetarian": true,
+            "name": "Traditional Steamed Grilled Zucchini and Peppers",
+            "price": 6.73,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -484,56 +484,56 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Lemonade",
-            "price": 7.88,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 6.74,
+            "name": "Iced Tea",
+            "price": 6.87,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 4.82,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 7.5,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coffee",
-            "price": 5.71,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Juice",
+            "price": 7.1,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Iced Tea",
-            "price": 4.45,
+            "name": "Coffee",
+            "price": 5.25,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 7.21,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 5.3,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 7.91,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,17 +549,8 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Carrot Cake",
-            "price": 10.52,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Cannoli",
-            "price": 10.79,
+            "price": 6.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -567,29 +558,38 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Brownies",
-            "price": 8.72,
-            "isVegetarian": false,
+            "name": "Red Velvet Cake",
+            "price": 6.75,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Madeleines",
-            "price": 10.58,
+            "name": "Berry Tart",
+            "price": 7.72,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Banana Bread",
+            "price": 8.45,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cinnamon Rolls",
-            "price": 6.04,
-            "isVegetarian": false,
+            "name": "Eclairs",
+            "price": 6.9,
+            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -599,44 +599,44 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Yogurt",
-            "price": 7.47,
+            "name": "Semifreddo",
+            "price": 9.63,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Popsicles",
-            "price": 7.86,
+            "name": "Ice Cream",
+            "price": 8.22,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gelato",
-            "price": 7.11,
-            "isVegetarian": true,
+            "name": "Frozen Pie",
+            "price": 7.15,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sorbet",
-            "price": 9.5,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Ice Cream Cake",
+            "price": 8.48,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Cheesecake",
-            "price": 8.71,
+            "name": "Frozen Fruit Bars",
+            "price": 7.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -655,35 +655,17 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Bloody Mary",
-            "price": 10.46,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Manhattan",
-            "price": 12.59,
+            "price": 12.73,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 15.36,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Mojito",
-            "price": 14.53,
+            "price": 10.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -691,28 +673,46 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 14.95,
+            "name": "Negroni",
+            "price": 12.15,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 15.17,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 11.95,
+            "name": "Martini",
+            "price": 14.76,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Old Fashioned",
-            "price": 12.6,
+            "name": "Margarita",
+            "price": 11.49,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 15.82,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -723,17 +723,8 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Cabernet Sauvignon",
-            "price": 13.53,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chardonnay",
-            "price": 8.75,
+            "name": "Moscato",
+            "price": 13.48,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -741,38 +732,47 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chenin Blanc",
-            "price": 13.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Torrontés",
-            "price": 13.12,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Blanc",
-            "price": 8.14,
+            "name": "Syrah/Shiraz",
+            "price": 11.57,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Prosecco",
+            "price": 8.53,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gamay",
-            "price": 10.56,
-            "isVegetarian": false,
+            "name": "Viognier",
+            "price": 10.2,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Verdicchio",
+            "price": 10.7,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vermentino",
+            "price": 8.73,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -782,47 +782,47 @@ export const galvestongrandKitchenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Vodka",
-            "price": 10.23,
-            "isVegetarian": false,
+            "name": "Rum",
+            "price": 13.94,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Aquavit",
-            "price": 17.99,
-            "isVegetarian": false,
+            "name": "Tequila",
+            "price": 14.36,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Grand Marnier",
-            "price": 17.05,
+            "name": "Brandy",
+            "price": 11.66,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Scotch",
+            "price": 13.43,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Baileys Irish Cream",
-            "price": 10.57,
+            "name": "Calvados",
+            "price": 13.34,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Limoncello",
-            "price": 12.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

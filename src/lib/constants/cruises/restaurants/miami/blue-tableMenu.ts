@@ -12,17 +12,8 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Fresh Sizzling Founder's Family Recipe Pasta",
-            "price": 33.13,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Herbed Molecular Gastronomy Showcase Tasting",
-            "price": 25.47,
+            "name": "Organic Crunchy Black Garlic Glazed Beef Tenderloin",
+            "price": 29.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -30,46 +21,55 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Golden Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 28.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Wholesome Executive Chef's Daily Inspiration Entrée",
-            "price": 25.56,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Spiced Award-Winning Seafood Boil",
-            "price": 27.39,
+            "name": "Traditional Spicy 24-Hour Braised Short Ribs",
+            "price": 27.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Sweet Flambéed Tableside Specialty",
-            "price": 26.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Classic Spiced Age-Old Recipe Osso Buco with Gremolata",
-            "price": 26.02,
+            "name": "Authentic Tender Restaurant's Namesake Signature Entrée",
+            "price": 34.39,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Appetizing Chef's Special Surf and Turf",
+            "price": 31.23,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Tangy Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 32.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Marinated Seasonal Tasting Platter",
+            "price": 24.05,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Hearty Secret Recipe Bouillabaisse",
+            "price": 37.77,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -80,47 +80,47 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Classic Sizzling Tableside Flambé Preparation",
-            "price": 34.93,
+            "name": "Classic Grilled Lobster Thermidor",
+            "price": 39.28,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Authentic Crispy Off-Menu Secret Preparation",
-            "price": 38.43,
+            "name": "Deluxe Golden Cold-Smoked Delicacy",
+            "price": 36.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Marinated Custom Tasting Menu Based on Guest Preferences",
+            "price": 36.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Handcrafted Marinated High-End Ingredient Showcase",
-            "price": 36.29,
-            "isVegetarian": true,
+            "name": "Authentic Crunchy Sustainable Seafood Tower",
+            "price": 29.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Marinated Locally Foraged Mushroom Selection",
+            "price": 34.1,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Zesty Seasonal Truffle Risotto",
-            "price": 35.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Hearty Tableside Prepared Tartare",
-            "price": 35.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,35 +130,26 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Homestyle Zingy Stuffed Peppers",
-            "price": 15.61,
-            "isVegetarian": true,
+            "name": "Fresh Baked Hummus Platter",
+            "price": 12.17,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Stuffed Nachos",
-            "price": 11.18,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Delectable Mozzarella Sticks",
-            "price": 8.59,
-            "isVegetarian": true,
+            "name": "Premium Creamy Meatballs",
+            "price": 8.22,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Seasonal Sweet Onion Rings",
-            "price": 10.66,
+            "name": "House Special Sweet Caprese Salad",
+            "price": 12.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -166,40 +157,49 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Mini Sliders",
-            "price": 11.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Sweet Spinach Puffs",
-            "price": 11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Crispy Mini Quesadillas",
-            "price": 15.75,
+            "name": "Gourmet Aromatic Crostini",
+            "price": 10.93,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Pan-seared Mezze Platter",
-            "price": 15.86,
+            "name": "Premium Exquisite Cheese Platter",
+            "price": 12.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Gourmet Pan-seared Tempura",
+            "price": 12.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Mini Sliders",
+            "price": 8.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Stuffed Mini Crab Cakes",
+            "price": 9.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -207,26 +207,8 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Handcrafted Satisfying Italian Wedding Soup",
-            "price": 8.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Baked Gazpacho",
-            "price": 11.55,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Savory Thai Coconut Soup",
-            "price": 12.99,
+            "name": "Hearty Exquisite Mushroom Soup",
+            "price": 8.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -234,8 +216,26 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Zingy Broccoli Cheddar Soup",
-            "price": 12.1,
+            "name": "Homestyle Succulent Seafood Chowder",
+            "price": 11.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Sautéed Clam Chowder",
+            "price": 8.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Braised Tortilla Soup",
+            "price": 11.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -248,26 +248,8 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Caprese Salad",
-            "price": 13.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cobb Salad",
-            "price": 13.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Greek Salad",
-            "price": 11.43,
+            "price": 9.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -276,7 +258,25 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
           },
           {
             "name": "Thai Green Papaya Salad",
-            "price": 11.14,
+            "price": 11.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Salad",
+            "price": 10.08,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caesar Salad",
+            "price": 12.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -284,9 +284,9 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 11.52,
-            "isVegetarian": false,
+            "name": "Quinoa Salad",
+            "price": 13.83,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -298,44 +298,17 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Traditional Braised Pho",
-            "price": 30.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Delicious Fajitas",
-            "price": 26.99,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Herbed Thai Curry",
-            "price": 27.09,
+            "name": "Authentic Wholesome Biryani",
+            "price": 24.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Premium Delicious Grilled Chicken",
-            "price": 28.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Hearty Mac and Cheese",
-            "price": 26.03,
+            "name": "Authentic Smoked Stuffed Peppers",
+            "price": 23.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -343,29 +316,56 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "House Special Flaky Ramen",
-            "price": 29.15,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Comforting Burrito",
-            "price": 30.5,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Smoked Pesto Pasta",
-            "price": 21.66,
+            "name": "Authentic Satisfying Tagine",
+            "price": 24.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Zesty Salmon",
+            "price": 19.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Enticing Grilled Chicken",
+            "price": 19.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Crunchy Ramen",
+            "price": 20.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Marinated Jambalaya",
+            "price": 18.2,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Succulent Tacos",
+            "price": 24.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -375,8 +375,8 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "House Special Spicy Mussels Mariniere in White Wine",
-            "price": 24.64,
+            "name": "Deluxe Stuffed Grilled Lobster with Lemon Butter",
+            "price": 22.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,8 +384,8 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Delectable Crab-Stuffed Mushrooms",
-            "price": 31.97,
+            "name": "Classic Grilled Baked Cod with Lemon Caper Sauce",
+            "price": 31.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,29 +393,29 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Baked Basa Fillet with Dill Cream Sauce",
-            "price": 23.05,
+            "name": "Authentic Sweet Stuffed Flounder with Crab and Spinach",
+            "price": 34.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Fresh Succulent Hearty Italian Cioppino",
-            "price": 28.22,
+            "name": "Fresh Marinated Basa Fillet with Dill Cream Sauce",
+            "price": 26.64,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Enticing Seafood Alfredo with Spinach Fettuccine",
-            "price": 22.78,
+            "name": "Fresh Roasted Traditional Provençal Bouillabaisse",
+            "price": 32.21,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -425,8 +425,8 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Handcrafted Sizzling Soft Polenta with Parmesan",
-            "price": 7.91,
+            "name": "Traditional Delicious Grilled Zucchini and Peppers",
+            "price": 9.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,17 +434,17 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Succulent Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 7.7,
-            "isVegetarian": true,
+            "name": "Gourmet Sweet Yukon Gold Potato Gratin",
+            "price": 5.31,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Juicy Creamy Colcannon (Irish Potato Mash)",
-            "price": 9.82,
+            "name": "House Special Sizzling Garlic Bread with Herb Butter",
+            "price": 6.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -452,31 +452,31 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Flaky Scalloped Potatoes with Thyme",
-            "price": 5.58,
+            "name": "Gourmet Zesty Macaroni and Aged Cheddar",
+            "price": 8.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Satisfying Roasted Root Vegetables",
+            "price": 7.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Appetizing Green Beans Almondine",
+            "price": 9.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": true
-          },
-          {
-            "name": "Fresh Roasted Buttered Egg Noodles",
-            "price": 9.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Juicy Creamed Spinach with Nutmeg",
-            "price": 7.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
           }
         ]
       },
@@ -484,17 +484,26 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Soda",
-            "price": 5.09,
+            "name": "Iced Tea",
+            "price": 7.57,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Milkshake",
-            "price": 5.64,
+            "name": "Coffee",
+            "price": 5.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 5.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -503,16 +512,7 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
           },
           {
             "name": "Smoothie",
-            "price": 6.47,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hot Chocolate",
-            "price": 7.58,
+            "price": 6.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -521,17 +521,17 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
           },
           {
             "name": "Lemonade",
-            "price": 7.49,
-            "isVegetarian": true,
+            "price": 6.22,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 7.73,
-            "isVegetarian": true,
+            "name": "Juice",
+            "price": 7.48,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -549,8 +549,8 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Brownies",
-            "price": 9.97,
+            "name": "Apple Pie",
+            "price": 10.8,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,17 +558,8 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Macarons",
-            "price": 10.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pain au Chocolat",
-            "price": 8.29,
+            "name": "Scones",
+            "price": 7.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -576,8 +567,8 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Portuguese Custard Tarts",
-            "price": 10.32,
+            "name": "Baklava",
+            "price": 10.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -585,8 +576,17 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Apple Pie",
-            "price": 6.59,
+            "name": "Donuts",
+            "price": 10.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Banana Bread",
+            "price": 10.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,26 +599,8 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Sorbet",
-            "price": 9.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ice Cream Sandwich",
-            "price": 7.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baked Alaska",
-            "price": 8.43,
+            "name": "Sherbet",
+            "price": 11.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -626,8 +608,17 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Kulfi",
-            "price": 11.92,
+            "name": "Frozen Mousse",
+            "price": 9.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Cheesecake",
+            "price": 8.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -636,9 +627,18 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
           },
           {
             "name": "Snow Cone",
-            "price": 10.73,
+            "price": 9.5,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gelato",
+            "price": 8.41,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -655,16 +655,16 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Negroni",
-            "price": 13.05,
-            "isVegetarian": true,
+            "name": "Old Fashioned",
+            "price": 11.59,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
+            "name": "Mojito",
             "price": 10.71,
             "isVegetarian": true,
             "isVegan": false,
@@ -674,8 +674,8 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
           },
           {
             "name": "Margarita",
-            "price": 13.66,
-            "isVegetarian": false,
+            "price": 15.18,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -683,37 +683,37 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
           },
           {
             "name": "Whiskey Sour",
-            "price": 12.47,
+            "price": 10.27,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 14.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Martini",
-            "price": 12.62,
+            "price": 14.04,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 15.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 14.8,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 10.11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,8 +723,17 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Moscato",
-            "price": 9.37,
+            "name": "Sangiovese",
+            "price": 13.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Syrah/Shiraz",
+            "price": 9.59,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -733,16 +742,7 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
           },
           {
             "name": "Chardonnay",
-            "price": 13.94,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sauvignon Blanc",
-            "price": 13.48,
+            "price": 9.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -750,29 +750,29 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Viognier",
-            "price": 10.02,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Syrah/Shiraz",
-            "price": 8.49,
+            "name": "Chenin Blanc",
+            "price": 9.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gewürztraminer",
+            "price": 9.1,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Barbera",
-            "price": 12.42,
+            "name": "Moscato",
+            "price": 12.44,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -782,8 +782,17 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Triple Sec",
-            "price": 15.51,
+            "name": "Aquavit",
+            "price": 12.83,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Galliano",
+            "price": 11.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -791,38 +800,29 @@ export const miamiblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grappa",
-            "price": 12.2,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "name": "Calvados",
+            "price": 17.51,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chambord",
-            "price": 15.84,
+            "name": "Rum",
+            "price": 14.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Scotch",
-            "price": 15.07,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Vodka",
-            "price": 17.38,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Frangelico",
+            "price": 11.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

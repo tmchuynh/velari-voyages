@@ -248,5 +248,160 @@ export const newYorkCityRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": false
+  },
+  {
+    "name": "Statue Lounge",
+    "description": "A charming Chinese restaurant near Empire State Building, offering hot dogs and other local favorites in a setting with Broadway proximity.",
+    "cuisine": "Chinese",
+    "priceRange": "$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "9:00-20:00",
+      "friday": "9:00-20:00",
+      "saturday": "10:00-22:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-100-8657",
+      "contactEmail": "info@chinesenew-york-city.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Empire Supper Club",
+    "description": "Located close to Empire State Building, this Chinese restaurant delights with its New York-style pizza and Broadway proximity.",
+    "cuisine": "Chinese",
+    "priceRange": "$$$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "10:00-20:00",
+      "friday": "10:00-22:00",
+      "saturday": "10:00-21:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-747-6201",
+      "contactEmail": "info@chinesenew-york-city.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Times Square Buffet",
+    "description": "A charming Japanese restaurant near Empire State Building, offering hot dogs and other local favorites in a setting with 24/7 dining.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "9:00-20:00",
+      "friday": "9:00-21:00",
+      "saturday": "10:00-19:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-734-6865",
+      "contactEmail": "info@japanesenew-york-city.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "New York Buffet",
+    "description": "This popular Japanese establishment combines traditional recipes and hot dogs, all served in a unique setting with skyline views.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "Closed",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-19:00",
+      "friday": "Closed",
+      "saturday": "9:00-20:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-302-7506",
+      "contactEmail": "info@japanesenew-york-city.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Liberty Eatery",
+    "description": "Experience authentic Japanese cuisine with a local twist, featuring pasta primavera served in an atmosphere of 24/7 dining overlooking Times Square.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "Closed",
+      "wednesday": "9:00-22:00",
+      "thursday": "9:00-20:00",
+      "friday": "10:00-20:00",
+      "saturday": "10:00-20:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-933-4511",
+      "contactEmail": "info@japanesenew-york-city.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
   }
 ];

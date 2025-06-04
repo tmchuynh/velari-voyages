@@ -248,5 +248,160 @@ export const vancouverRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": false
+  },
+  {
+    "name": "Vancouver Deli",
+    "description": "Located close to Granville Island, this Asian restaurant delights with its JapaDog fusion cuisine and West Coast design.",
+    "cuisine": "Asian",
+    "priceRange": "$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "10:00-19:00",
+      "friday": "Closed",
+      "saturday": "9:00-19:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-951-2579",
+      "contactEmail": "info@asianvancouver.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Stanley Park Lounge",
+    "description": "A culinary gem serving Italian specialties including Pacific salmon, where guests enjoy Pacific Ocean views in the heart of the city.",
+    "cuisine": "Italian",
+    "priceRange": "$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-22:00",
+      "friday": "9:00-21:00",
+      "saturday": "10:00-20:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-683-4842",
+      "contactEmail": "info@italianvancouver.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "West Coast Osteria",
+    "description": "A culinary gem serving Canadian specialties including Nanaimo bars, where guests enjoy Pacific Ocean views in the heart of the city.",
+    "cuisine": "Canadian",
+    "priceRange": "$$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "11:00-21:00",
+      "friday": "9:00-21:00",
+      "saturday": "11:00-19:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-577-1231",
+      "contactEmail": "info@canadianvancouver.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Harbour Kitchen",
+    "description": "Located close to English Bay, this Mediterranean restaurant delights with its Pacific salmon and West Coast design.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "10:00-22:00",
+      "friday": "10:00-21:00",
+      "saturday": "9:00-20:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-724-3749",
+      "contactEmail": "info@mediterraneanvancouver.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Harbour Pizzeria",
+    "description": "Located close to Stanley Park, this Mediterranean restaurant delights with its Nanaimo bars and mountain backdrop.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "Closed",
+      "friday": "10:00-22:00",
+      "saturday": "11:00-21:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-867-3816",
+      "contactEmail": "info@mediterraneanvancouver.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
   }
 ];

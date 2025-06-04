@@ -12,44 +12,8 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Authentic Zingy Chef's Special Surf and Turf",
-            "price": 26.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Grilled Flambéed Tableside Specialty",
-            "price": 28.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Pan-seared Sous Vide Perfected Wagyu",
-            "price": 26.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Braised Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 24.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Stuffed Black Garlic Glazed Beef Tenderloin",
-            "price": 33.94,
+            "name": "Deluxe Creamy Traditional Family Paella",
+            "price": 28.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -57,8 +21,44 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Grilled Local Bounty Harvest Plate (Vegetarian)",
-            "price": 35.33,
+            "name": "Authentic Zingy Seasonal Tasting Platter",
+            "price": 29.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Mouthwatering Dry-Aged Tomahawk Steak",
+            "price": 29.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Succulent Seasonal Tasting Menu Experience",
+            "price": 26.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Marinated Japanese A5 Wagyu with Ponzu Butter",
+            "price": 25,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Comforting Sous Vide Perfected Wagyu",
+            "price": 37.09,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -66,13 +66,13 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Sautéed Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 30.19,
+            "name": "Hearty Creamy Chef's Childhood Inspired Creation",
+            "price": 31.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -80,26 +80,8 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Authentic Creamy Dry-Aged Prime Beef Selection",
-            "price": 36.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Sautéed Herb-Crusted Rack of Lamb",
-            "price": 34.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Golden Chef's Market Inspiration of the Day",
-            "price": 31.25,
+            "name": "Traditional Tender Sous Vide Perfection with Molecular Gastronomy Elements",
+            "price": 35.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -107,21 +89,39 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Grilled Crispy Skin Sea Bass",
-            "price": 39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Flaky Smoked and Slow-Roasted Heritage Meat",
-            "price": 30.93,
+            "name": "Authentic Satisfying Cold-Smoked Delicacy",
+            "price": 27.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Zingy Cedar Plank Salmon",
+            "price": 33.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Stuffed Roasted Quail with Truffle Jus",
+            "price": 29.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Delicious Chef's Childhood Favorite Reimagined",
+            "price": 30.22,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -130,8 +130,8 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Premium Marinated Bruschetta",
-            "price": 14.03,
+            "name": "Homestyle Pan-seared Edamame",
+            "price": 8.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -139,26 +139,8 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Spicy Shrimp Cocktail",
-            "price": 15.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Juicy Deviled Eggs",
-            "price": 12.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Aromatic Sweet Potato Fries",
-            "price": 15.59,
+            "name": "Homestyle Stuffed Prawn Cocktail",
+            "price": 14.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -166,8 +148,26 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Marinated Hummus Platter",
-            "price": 8.27,
+            "name": "Traditional Flavorful Spring Rolls",
+            "price": 13.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Spicy Mini Quesadillas",
+            "price": 8.21,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Crunchy Spinach Puffs",
+            "price": 10.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -175,8 +175,8 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Satisfying Calamari",
-            "price": 15.59,
+            "name": "Deluxe Spicy Hummus Platter",
+            "price": 13.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -184,8 +184,8 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Stuffed Stuffed Mushrooms",
-            "price": 9.88,
+            "name": "Premium Satisfying Garlic Bread",
+            "price": 8.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -193,9 +193,9 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Stuffed Baba Ganoush",
-            "price": 11.44,
-            "isVegetarian": false,
+            "name": "Gourmet Herbed Cheese Nachos",
+            "price": 8.44,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -207,40 +207,40 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Fresh Irresistible Beef Stew",
-            "price": 12.87,
+            "name": "Fresh Grilled Zuppa Toscana",
+            "price": 8.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Hearty Beef Stew",
+            "price": 9.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Authentic Tangy Zuppa Toscana",
-            "price": 12.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Spiced Chicken Corn Soup",
-            "price": 8.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Sweet Gazpacho",
-            "price": 13.74,
+            "name": "Traditional Flaky Minestrone",
+            "price": 7.26,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Authentic Flavorful Italian Wedding Soup",
+            "price": 9.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -248,46 +248,46 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Garden Salad",
-            "price": 14.09,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Cobb Salad",
+            "price": 10.42,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caesar Salad",
+            "price": 11.06,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Spinach Salad",
-            "price": 15.6,
+            "price": 15.79,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caesar Salad",
-            "price": 10.73,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mediterranean Chopped Salad",
-            "price": 9.25,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coleslaw",
-            "price": 14.52,
-            "isVegetarian": false,
+            "name": "Pasta Salad",
+            "price": 12.76,
+            "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Potato Salad",
+            "price": 11.48,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -298,8 +298,8 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Classic Crispy Korma",
-            "price": 21.4,
+            "name": "House Special Braised Katsu Curry",
+            "price": 24.57,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,53 +307,26 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Braised Enchiladas",
-            "price": 25.81,
+            "name": "Classic Smoked Roast Duck",
+            "price": 30.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Organic Aromatic Spaghetti Bolognese",
-            "price": 31.87,
+            "name": "Authentic Grilled Salmon",
+            "price": 21.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Herbed Mac and Cheese",
-            "price": 26.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Luscious Salmon",
-            "price": 27.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Deluxe Smoked Stir-fry",
-            "price": 30.09,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Crispy Thai Curry",
-            "price": 18.72,
+            "name": "Gourmet Smoked Fajitas",
+            "price": 28.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -361,12 +334,39 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Satisfying Roast Duck",
-            "price": 21.69,
+            "name": "Fresh Delicious Korma",
+            "price": 31.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Stuffed Quiche",
+            "price": 27.3,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Creamy Grilled Tofu",
+            "price": 31.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spicy Tagine",
+            "price": 30.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -375,17 +375,8 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Authentic Crispy Linguine with Clam Sauce",
-            "price": 32.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Crunchy Tempura Soft Shell Crab",
-            "price": 27.04,
+            "name": "Deluxe Tender Lemon-Herb Calamari Steak",
+            "price": 24.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,26 +384,35 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Wholesome Miso-Marinated Chilean Sea Bass",
-            "price": 24.1,
+            "name": "Traditional Satisfying Cedar Plank Roasted Salmon",
+            "price": 31.27,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Homestyle Luscious Grilled Swordfish with Mango Chutney",
-            "price": 32.85,
+            "name": "Organic Herbed Oysters Rockefeller with Pernod Cream",
+            "price": 31.17,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Grilled Mussels Mariniere in White Wine",
-            "price": 28.07,
+            "name": "Fresh Pan-seared Alaskan King Crab Legs with Drawn Butter",
+            "price": 30.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Stuffed Steamed Littleneck Clams in Garlic Broth",
+            "price": 34.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,26 +425,17 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Fresh Sweet Chili Lime Roasted Chickpeas",
-            "price": 6.99,
+            "name": "Deluxe Zingy Corn on the Cob with Chili Lime Butter",
+            "price": 9.75,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Flavorful Wild Rice Pilaf",
-            "price": 7.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Crunchy Grilled Asparagus with Lemon Zest",
-            "price": 7.41,
+            "name": "Hearty Delicious Green Beans Almondine",
+            "price": 6.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -452,8 +443,8 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Spiced Provencal Ratatouille",
-            "price": 7.39,
+            "name": "Seasonal Spiced Baked Idaho Potato with Sour Cream",
+            "price": 9.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -461,20 +452,29 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Grilled Homestyle Baked Beans",
-            "price": 9.09,
+            "name": "Homestyle Enticing Wild Mushroom Risotto",
+            "price": 7.17,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Luscious Steamed Jasmine Rice",
-            "price": 6.67,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Delicious Creamy Colcannon (Irish Potato Mash)",
+            "price": 5.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Enticing Mashed Potatoes",
+            "price": 8.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -484,17 +484,26 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Coffee",
-            "price": 4.43,
+            "name": "Lemonade",
+            "price": 5.92,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 6.94,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Water",
-            "price": 6.35,
+            "price": 7.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,37 +511,28 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Milkshake",
-            "price": 4.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hot Chocolate",
-            "price": 7.44,
+            "name": "Coffee",
+            "price": 6.9,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 5.71,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Soda",
-            "price": 5.39,
-            "isVegetarian": false,
+            "price": 7.59,
+            "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 7.26,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -549,8 +549,8 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Cinnamon Rolls",
-            "price": 6.74,
+            "name": "Scones",
+            "price": 10.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,8 +558,8 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pecan Pie",
-            "price": 9.78,
+            "name": "Cannoli",
+            "price": 9.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -567,8 +567,17 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sticky Toffee Pudding",
-            "price": 10.98,
+            "name": "Brownies",
+            "price": 7.06,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Treacle Tart",
+            "price": 9.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -576,17 +585,8 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soufflé",
-            "price": 8.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baklava",
-            "price": 6.54,
+            "name": "Eclairs",
+            "price": 7.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,17 +599,8 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frosty",
-            "price": 7.32,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Custard",
-            "price": 8.63,
+            "name": "Ice Cream",
+            "price": 7.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -617,26 +608,35 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Paletas",
-            "price": 11.4,
+            "name": "Snow Cone",
+            "price": 7.39,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sorbet",
-            "price": 11.98,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Pie",
-            "price": 9.02,
+            "name": "Gelato",
+            "price": 9.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Sandwich",
+            "price": 9.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Cheesecake",
+            "price": 8.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -655,8 +655,8 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Martini",
-            "price": 12.85,
+            "name": "Whiskey Sour",
+            "price": 11.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -664,8 +664,17 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
+            "name": "Martini",
+            "price": 14.22,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Margarita",
-            "price": 12.92,
+            "price": 11.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -674,16 +683,7 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Old Fashioned",
-            "price": 10.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 11.01,
+            "price": 13.83,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -691,17 +691,8 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "price": 11.58,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 11.8,
+            "name": "Cosmopolitan",
+            "price": 14.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -709,10 +700,19 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Whiskey Sour",
-            "price": 15.83,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Mojito",
+            "price": 14.89,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 11.77,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -723,55 +723,55 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Gewürztraminer",
-            "price": 9.52,
-            "isVegetarian": true,
+            "name": "Petit Verdot",
+            "price": 11.88,
+            "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Riesling",
-            "price": 11.9,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vouvray",
-            "price": 13.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roussanne",
-            "price": 11.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Barbera",
-            "price": 12.47,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Tempranillo",
-            "price": 11.08,
+            "price": 11.65,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cabernet Franc",
+            "price": 9.76,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Syrah/Shiraz",
+            "price": 9.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Champagne/Sparkling Wine",
+            "price": 9.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Moscato",
+            "price": 8.11,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -782,26 +782,26 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Whiskey",
-            "price": 11.88,
+            "name": "Sambuca",
+            "price": 15.26,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Galliano",
-            "price": 17.28,
-            "isVegetarian": false,
+            "name": "Maraschino",
+            "price": 16.86,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Brandy",
-            "price": 16.81,
+            "price": 12.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -809,8 +809,8 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mezcal",
-            "price": 15.5,
+            "name": "Rum",
+            "price": 14.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -818,10 +818,10 @@ export const newOrleansroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Limoncello",
-            "price": 14.38,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Tequila",
+            "price": 10.41,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true

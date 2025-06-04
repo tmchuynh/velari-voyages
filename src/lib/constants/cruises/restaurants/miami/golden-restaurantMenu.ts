@@ -12,17 +12,17 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Gourmet Grilled Celebrity Favorite Lobster Dish",
-            "price": 33.65,
+            "name": "Organic Tender Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 32.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Seasonal Flavorful Seasonal Tasting Platter",
-            "price": 31.63,
+            "name": "Authentic Golden Japanese A5 Wagyu with Ponzu Butter",
+            "price": 24.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -30,17 +30,26 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Sweet Dry-Aged Tomahawk Steak",
-            "price": 30.69,
+            "name": "Fresh Delectable 24-Hour Braised Short Ribs",
+            "price": 36.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Deluxe Golden Black Garlic Glazed Beef Tenderloin",
-            "price": 34.52,
+            "name": "Handcrafted Crispy Chef's Special Surf and Turf",
+            "price": 26.79,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked Signature Truffle Pasta with Aged Pecorino",
+            "price": 25.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -48,8 +57,8 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Delectable 24-Hour Braised Short Ribs",
-            "price": 31.32,
+            "name": "Traditional Mouthwatering Dry-Aged Tomahawk Steak",
+            "price": 35.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -57,21 +66,12 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Pan-seared Age-Old Recipe Osso Buco with Gremolata",
-            "price": 35.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Pan-seared Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 27.42,
+            "name": "Handcrafted Enticing Seasonal Tasting Menu Experience",
+            "price": 36.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -80,17 +80,26 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Authentic Sizzling Heritage Breed Porchetta",
-            "price": 38.46,
+            "name": "Deluxe Pan-seared Live-Fire Grilled Feature",
+            "price": 33.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Herbed Whole Animal Butchery Showcase",
+            "price": 36.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Classic Golden Daily Fresh Catch with Seasonal Accompaniments",
-            "price": 35.8,
+            "name": "Handcrafted Aromatic Herb-Crusted Rack of Lamb",
+            "price": 28.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -98,30 +107,21 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Grilled Tableside Prepared Tartare",
-            "price": 31.23,
-            "isVegetarian": true,
+            "name": "Handcrafted Spicy Hand-Selected Wine Pairing Experience",
+            "price": 27.68,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Zingy Live-Fire Grilled Feature",
-            "price": 38.58,
-            "isVegetarian": true,
+            "name": "Traditional Tangy Cedar Plank Salmon",
+            "price": 36.83,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Steamed Tomahawk Ribeye for Two",
-            "price": 31.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": false
           }
         ]
@@ -130,8 +130,8 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Organic Zesty Garlic Bread",
-            "price": 15.5,
+            "name": "Seasonal Hearty Nachos",
+            "price": 15.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -139,8 +139,17 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Steamed Mini Quesadillas",
-            "price": 11.69,
+            "name": "Handcrafted Stuffed Mini Empanadas",
+            "price": 11.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Spicy Prawn Toast",
+            "price": 15.86,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -148,44 +157,35 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Golden Chicken Wings",
-            "price": 10.04,
-            "isVegetarian": false,
+            "name": "Organic Exquisite Stuffed Mushrooms",
+            "price": 10.65,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Mouthwatering Potstickers",
+            "price": 8.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Crunchy Chicken Satay",
+            "price": 12.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Traditional Creamy Charcuterie Board",
-            "price": 8.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Pan-seared Calamari",
-            "price": 9.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Grilled Edamame",
-            "price": 15.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Delicious Arancini",
-            "price": 13.93,
+            "name": "Gourmet Creamy Mini Quesadillas",
+            "price": 10.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -193,8 +193,8 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Spiced Spring Rolls",
-            "price": 15.21,
+            "name": "Fresh Zesty Spinach Puffs",
+            "price": 13.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -207,8 +207,26 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Fresh Spiced French Onion Soup",
-            "price": 10.01,
+            "name": "Authentic Roasted Tortilla Soup",
+            "price": 7.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Roasted Gumbo",
+            "price": 12.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Fried Lentil Soup",
+            "price": 13.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -216,28 +234,10 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Golden Clam Chowder",
-            "price": 11.77,
+            "name": "Homestyle Tangy Vegetable Barley Soup",
+            "price": 8.84,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Delectable Carrot Ginger Soup",
-            "price": 8.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Baked Gazpacho",
-            "price": 11.69,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -248,8 +248,17 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Watermelon Feta Salad",
-            "price": 9.44,
+            "name": "Spinach Salad",
+            "price": 11.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Salad",
+            "price": 14.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -257,8 +266,17 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garden Salad",
-            "price": 12.96,
+            "name": "Apple Pecan Salad",
+            "price": 14.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Beet Salad",
+            "price": 11.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -267,26 +285,8 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
           },
           {
             "name": "Broccoli Crunch Salad",
-            "price": 10.77,
+            "price": 10.11,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cobb Salad",
-            "price": 14.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Waldorf Salad",
-            "price": 10.84,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -298,53 +298,8 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "House Special Tangy Tacos",
-            "price": 25.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Zesty Eggplant Parmesan",
-            "price": 26.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Tender Coq au Vin",
-            "price": 24.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Savory Paella",
-            "price": 19.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Comforting Thai Curry",
-            "price": 26.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Luscious Lasagna",
-            "price": 30.86,
+            "name": "Organic Grilled Fish and Chips",
+            "price": 18.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,8 +307,8 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Marinated Vegetable Stir-Fry",
-            "price": 19.89,
+            "name": "Authentic Marinated Shakshuka",
+            "price": 21.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -361,13 +316,58 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Herbed Fish and Chips",
-            "price": 19.01,
+            "name": "Authentic Sautéed Grilled Tofu",
+            "price": 27.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Deluxe Grilled Stir-fry",
+            "price": 18.54,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Sizzling Risotto",
+            "price": 23.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Roasted Mac and Cheese",
+            "price": 19.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Baked Stuffed Zucchini Boats",
+            "price": 18.55,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Grilled Tacos",
+            "price": 31.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -375,17 +375,17 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "House Special Roasted Stuffed Flounder with Crab and Spinach",
-            "price": 23.31,
+            "name": "Deluxe Spiced Pan-Seared Scallops with Pea Purée",
+            "price": 34.38,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Organic Herbed Crab-Stuffed Mushrooms",
-            "price": 26.84,
+            "name": "Fresh Steamed Blackened Mahi-Mahi with Pineapple Salsa",
+            "price": 22.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,17 +393,8 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Delectable Pan-Seared Scallops with Pea Purée",
-            "price": 24.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Spicy Cedar Plank Roasted Salmon",
-            "price": 25.06,
+            "name": "Organic Stuffed Oysters Rockefeller with Pernod Cream",
+            "price": 23.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -411,8 +402,17 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Zingy New England Lobster Roll",
-            "price": 22.33,
+            "name": "Traditional Irresistible Mussels Mariniere in White Wine",
+            "price": 23.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Satisfying Garlic Butter Shrimp Skillet",
+            "price": 22.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,26 +425,8 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Fresh Crunchy Mashed Potatoes",
-            "price": 5.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Grilled Grilled Asparagus with Lemon Zest",
-            "price": 6.4,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Grilled Sweet Potato Wedges with Smoked Paprika",
-            "price": 5.92,
+            "name": "Premium Roasted Macaroni and Aged Cheddar",
+            "price": 7.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -452,31 +434,49 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Creamy Fragrant Basmati Rice Pilaf",
-            "price": 7.28,
+            "name": "Homestyle Satisfying Crispy Zucchini Fritters",
+            "price": 7.52,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Enticing Sweet Corn and Cheddar Fritters",
-            "price": 5.65,
+            "name": "Organic Smoked Steamed Jasmine Rice",
+            "price": 7.84,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Enticing Scalloped Potatoes with Thyme",
-            "price": 9.27,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Traditional Tender French Fries",
+            "price": 8.76,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Satisfying Sweet Potato Wedges with Smoked Paprika",
+            "price": 7.59,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Appetizing Scalloped Potatoes with Thyme",
+            "price": 7.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -484,17 +484,8 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Tea",
-            "price": 6.45,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 5,
+            "name": "Juice",
+            "price": 4.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,35 +493,44 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 6,
+            "name": "Water",
+            "price": 5.96,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 4.92,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Iced Tea",
-            "price": 4.27,
+            "price": 5.61,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Juice",
-            "price": 6.22,
+            "name": "Tea",
+            "price": 7.01,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Coffee",
-            "price": 6.57,
+            "price": 5.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -549,8 +549,17 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Shortbread",
-            "price": 8.71,
+            "name": "Custard Tart",
+            "price": 10.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sticky Toffee Pudding",
+            "price": 10.08,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -559,7 +568,16 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
           },
           {
             "name": "Berry Tart",
-            "price": 9.89,
+            "price": 7.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baklava",
+            "price": 8.72,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -567,26 +585,8 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Carrot Cake",
-            "price": 10.18,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pumpkin Pie",
-            "price": 9.97,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Strawberry Shortcake",
-            "price": 9.13,
+            "name": "Brownies",
+            "price": 9.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,8 +599,8 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Granita",
-            "price": 7.61,
+            "name": "Popsicles",
+            "price": 8.23,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -608,8 +608,8 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Custard",
-            "price": 11.31,
+            "name": "Frozen Yogurt",
+            "price": 8.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -617,26 +617,26 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sherbet",
-            "price": 11.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Snow Cone",
-            "price": 7.68,
+            "name": "Sorbet",
+            "price": 11.69,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Cheesecake",
-            "price": 7.05,
+            "name": "Frozen Banana",
+            "price": 8.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Mousse",
+            "price": 7.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -655,54 +655,9 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Manhattan",
-            "price": 13.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 14.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 11.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 10.71,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Bloody Mary",
-            "price": 11.46,
+            "price": 10.04,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 14.42,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -710,10 +665,55 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
           },
           {
             "name": "Negroni",
-            "price": 15.53,
+            "price": 14.11,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 15.44,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 13.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 10.78,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 14.97,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 14.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,8 +723,26 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Syrah/Shiraz",
-            "price": 12.63,
+            "name": "Pinot Noir",
+            "price": 13.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roussanne",
+            "price": 13.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Petit Verdot",
+            "price": 10.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -733,46 +751,28 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
           },
           {
             "name": "Chenin Blanc",
-            "price": 11.07,
+            "price": 11.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
             "name": "Albariño",
-            "price": 9.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Grigio",
-            "price": 8.36,
-            "isVegetarian": false,
+            "price": 9.85,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Riesling",
-            "price": 13.2,
+            "name": "Pinot Blanc",
+            "price": 11.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grenache",
-            "price": 12.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -782,8 +782,35 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Pisco",
-            "price": 11.48,
+            "name": "Aquavit",
+            "price": 13.94,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Galliano",
+            "price": 11.86,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Brandy",
+            "price": 10.29,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chartreuse",
+            "price": 11.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -792,35 +819,8 @@ export const miamigoldenRestaurantMenu: RestaurantMenu[] = [
           },
           {
             "name": "Campari",
-            "price": 11.91,
+            "price": 11.29,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Calvados",
-            "price": 10.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Anisette",
-            "price": 16.34,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sambuca",
-            "price": 17.27,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

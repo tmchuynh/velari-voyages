@@ -12,66 +12,66 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Traditional Sautéed Charcoal Grilled Iberico Pork",
-            "price": 34.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Marinated Founder's Family Recipe Pasta",
-            "price": 34.26,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Appetizing Japanese A5 Wagyu with Ponzu Butter",
-            "price": 36.02,
+            "name": "Seasonal Pan-seared Local Bounty Harvest Plate (Vegetarian)",
+            "price": 30.5,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Sweet Whole Roasted Heritage Chicken",
-            "price": 31.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Crunchy Molecular Gastronomy Showcase Tasting",
-            "price": 33.6,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Stuffed Legendary Prime Rib",
-            "price": 32.32,
-            "isVegetarian": true,
+            "name": "Authentic Savory Legendary Prime Rib",
+            "price": 32.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Irresistible Molecular Gastronomy Showcase Tasting",
+            "price": 25.49,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled House Famous Duck Confit",
-            "price": 29.53,
+            "name": "Fresh Zesty Seasonal Tasting Platter",
+            "price": 29.2,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Tangy Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 28.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Steamed Charcoal Grilled Iberico Pork",
+            "price": 35.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Aromatic Signature Truffle Pasta with Aged Pecorino",
+            "price": 25.02,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -80,48 +80,48 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Deluxe Flavorful Cold-Smoked Delicacy",
-            "price": 38.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Herbed Smoked and Slow-Roasted Heritage Meat",
-            "price": 35.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Sweet Aged and House-Cured Charcuterie Selection",
-            "price": 30.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Roasted Grilled Venison with Juniper Berry Sauce",
-            "price": 24.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Herbed Daily Fresh Catch with Seasonal Accompaniments",
-            "price": 33.33,
+            "name": "Fresh Smoked Chef's Childhood Favorite Reimagined",
+            "price": 31.5,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Smoked Fusion of Traditional and Modern Techniques",
+            "price": 39.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Savory Grilled Venison with Juniper Berry Sauce",
+            "price": 32.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Spicy Seasonal Truffle Risotto",
+            "price": 25.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Braised Tomahawk Ribeye for Two",
+            "price": 37.97,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -130,44 +130,26 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Authentic Sweet Prawn Toast",
-            "price": 14.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Sweet Potstickers",
-            "price": 10.25,
+            "name": "Traditional Luscious Hummus Platter",
+            "price": 10.18,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Spicy Hummus Platter",
-            "price": 12.24,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Smoked Caprese Salad",
-            "price": 11.64,
+            "name": "House Special Braised Caprese Salad",
+            "price": 14.29,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Pan-seared Chicken Wings",
-            "price": 15.46,
+            "name": "Authentic Stuffed Stuffed Avocado",
+            "price": 10.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -175,8 +157,8 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Premium Sizzling Mozzarella Sticks",
-            "price": 13.8,
+            "name": "Authentic Crispy Mini Crab Cakes",
+            "price": 8.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -184,8 +166,17 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Roasted Bruschetta",
-            "price": 11.84,
+            "name": "Authentic Tangy Potato Skins",
+            "price": 15.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Mouthwatering Mini Quesadillas",
+            "price": 13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -193,9 +184,18 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Savory Lettuce Wraps",
-            "price": 12.41,
+            "name": "Authentic Smoked Prawn Toast",
+            "price": 12.73,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Mouthwatering Bruschetta",
+            "price": 10.88,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
@@ -207,26 +207,8 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Organic Hearty Egg Drop Soup",
-            "price": 9.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Creamy Broccoli Cheddar Soup",
-            "price": 13.28,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Smoked Chicken Corn Soup",
-            "price": 7.48,
+            "name": "Authentic Wholesome Chicken Corn Soup",
+            "price": 9.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -234,11 +216,29 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Aromatic Hot and Sour Soup",
-            "price": 12.47,
+            "name": "Authentic Irresistible Lobster Bisque",
+            "price": 13.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Zesty Borscht",
+            "price": 10.4,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Crunchy Pumpkin Soup",
+            "price": 10.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -248,8 +248,8 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Mango Avocado Salad",
-            "price": 14.34,
+            "name": "Quinoa Salad",
+            "price": 12.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -257,8 +257,8 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Potato Salad",
-            "price": 13.07,
+            "name": "Caesar Salad",
+            "price": 14.61,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -267,8 +267,17 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Garden Salad",
-            "price": 11.6,
+            "price": 9.01,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Greek Salad",
+            "price": 14.86,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -276,19 +285,10 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Cucumber Salad",
-            "price": 12.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caprese Salad",
-            "price": 9.7,
+            "price": 9.11,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -298,8 +298,26 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Classic Stuffed Pizza",
-            "price": 25.96,
+            "name": "Homestyle Sizzling Spaghetti Bolognese",
+            "price": 27.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Crispy Pizza",
+            "price": 19.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Savory Risotto",
+            "price": 19.93,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,8 +325,26 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Stuffed Salmon",
-            "price": 23.71,
+            "name": "Fresh Hearty Quiche",
+            "price": 30.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Pan-seared Stir-fry",
+            "price": 30.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Aromatic Salmon",
+            "price": 21.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -316,58 +352,22 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Flavorful Chili con Carne",
-            "price": 20.38,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Marinated Vegetable Stir-Fry",
-            "price": 25.17,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Grilled Shish Kebabs",
-            "price": 29.28,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Satisfying Enchiladas",
-            "price": 26.89,
+            "name": "Hearty Mouthwatering Bibimbap",
+            "price": 24.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Pan-seared Shish Kebabs",
+            "price": 30.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": false
-          },
-          {
-            "name": "Authentic Crunchy Stuffed Peppers",
-            "price": 25.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Spiced Seafood Platter",
-            "price": 23.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
@@ -375,8 +375,26 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Authentic Grilled Garlic Butter Shrimp Skillet",
-            "price": 34.84,
+            "name": "Seasonal Grilled Miso-Marinated Chilean Sea Bass",
+            "price": 25.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Zesty Basa Fillet with Dill Cream Sauce",
+            "price": 32.48,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Enticing Lemon-Herb Calamari Steak",
+            "price": 24.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,8 +402,8 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Gourmet Pan-seared Mussels Mariniere in White Wine",
-            "price": 33.39,
+            "name": "Authentic Sweet Grilled Lobster with Lemon Butter",
+            "price": 25.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,30 +411,12 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Grilled Grilled Spanish Octopus with Smoked Paprika",
-            "price": 31.38,
+            "name": "Authentic Grilled Blackened Mahi-Mahi with Pineapple Salsa",
+            "price": 29.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Tangy Cajun Shrimp and Grits",
-            "price": 35.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Delectable Hearty Italian Cioppino",
-            "price": 25.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -425,26 +425,35 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Premium Flavorful Scalloped Potatoes with Thyme",
-            "price": 7.34,
-            "isVegetarian": false,
+            "name": "Classic Hearty Israeli Couscous with Roasted Tomatoes",
+            "price": 6.83,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Succulent Wild Mushroom Risotto",
+            "price": 7.07,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Appetizing Wild Rice Pilaf",
+            "price": 5.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Seasonal Delicious Truffle Parmesan Fries",
-            "price": 5.99,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Comforting Baked Idaho Potato with Sour Cream",
-            "price": 7.06,
+            "name": "Handcrafted Aromatic Fragrant Basmati Rice Pilaf",
+            "price": 5.76,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -452,17 +461,8 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Delectable Roasted Root Vegetables",
-            "price": 5.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Marinated Green Beans Almondine",
-            "price": 5.1,
+            "name": "Seasonal Flavorful Steamed Jasmine Rice",
+            "price": 9.15,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -470,10 +470,10 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Grilled Steamed Jasmine Rice",
-            "price": 7.46,
+            "name": "Gourmet Golden Charred Broccolini with Garlic Oil",
+            "price": 6.23,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -484,35 +484,8 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Coffee",
-            "price": 4.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 5.68,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Hot Chocolate",
-            "price": 5.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 5.46,
+            "price": 7.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -521,16 +494,43 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Smoothie",
-            "price": 7.43,
+            "price": 5.87,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Water",
-            "price": 5.98,
+            "name": "Lemonade",
+            "price": 7.43,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 7.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 6.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 6.57,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -549,44 +549,44 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Pumpkin Pie",
-            "price": 7.02,
-            "isVegetarian": false,
+            "name": "Crumb Cake",
+            "price": 7.13,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Crumb Cake",
-            "price": 7.92,
-            "isVegetarian": false,
+            "name": "Cupcakes",
+            "price": 8.24,
+            "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Croissants",
+            "price": 9.12,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Madeleines",
+            "price": 7.86,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Carrot Cake",
-            "price": 9,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tiramisu",
-            "price": 7.94,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cheesecake",
-            "price": 9.5,
+            "price": 6.12,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,17 +599,8 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Fruit Bars",
-            "price": 11.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Paletas",
-            "price": 8.54,
+            "name": "Frozen Pudding",
+            "price": 7.75,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -617,29 +608,38 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ice Cream",
-            "price": 7.45,
-            "isVegetarian": false,
+            "name": "Frozen Mousse",
+            "price": 7.1,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Snow Cone",
-            "price": 8.77,
-            "isVegetarian": false,
+            "name": "Ice Cream Sandwich",
+            "price": 11.31,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Mousse",
-            "price": 11.39,
-            "isVegetarian": false,
+            "name": "Baked Alaska",
+            "price": 8.67,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Banana",
+            "price": 8.4,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -655,8 +655,35 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
+            "name": "Margarita",
+            "price": 15.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 12.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 14.07,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Manhattan",
-            "price": 14.88,
+            "price": 14.86,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -665,16 +692,7 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Whiskey Sour",
-            "price": 14.63,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 14.16,
+            "price": 13.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -682,38 +700,20 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 12.98,
-            "isVegetarian": true,
+            "name": "Old Fashioned",
+            "price": 13.83,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 13.24,
-            "isVegetarian": true,
+            "name": "Mojito",
+            "price": 13.86,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 13.63,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 12.21,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,44 +723,8 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Nebbiolo",
-            "price": 11.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Noir",
-            "price": 9.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Dolcetto",
-            "price": 11.71,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chardonnay",
-            "price": 12.8,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cabernet Franc",
-            "price": 11.93,
+            "name": "Sangiovese",
+            "price": 11.95,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -769,10 +733,46 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Torrontés",
-            "price": 12.95,
+            "price": 8.31,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Malbec",
+            "price": 12.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Moscato",
+            "price": 9.08,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Verdicchio",
+            "price": 12.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Riesling",
+            "price": 13.05,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -782,17 +782,17 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Maraschino",
-            "price": 13.22,
-            "isVegetarian": false,
+            "name": "Absinthe",
+            "price": 12.9,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Campari",
-            "price": 13.7,
+            "name": "Tequila",
+            "price": 15.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -800,26 +800,26 @@ export const londonroyalTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Rum",
-            "price": 10.56,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Midori",
+            "price": 13.12,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bourbon",
-            "price": 17.04,
+            "name": "Grand Marnier",
+            "price": 14.02,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bénédictine",
-            "price": 15.55,
+            "name": "Campari",
+            "price": 15.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,

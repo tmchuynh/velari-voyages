@@ -12,17 +12,8 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Fresh Enticing Chef’s Wild Game Selection",
-            "price": 34.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Tangy Executive Chef's Daily Inspiration Entrée",
-            "price": 28.8,
+            "name": "Homestyle Smoked Chef's Special Surf and Turf",
+            "price": 30.27,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -30,35 +21,35 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Spiced Secret Recipe Bouillabaisse",
-            "price": 25.35,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Stuffed Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 25.28,
+            "name": "Hearty Satisfying Seasonal Tasting Menu Experience",
+            "price": 32.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Premium Herbed Award-Winning Seafood Boil",
-            "price": 35.68,
+            "name": "Premium Spiced Local Bounty Harvest Plate (Vegetarian)",
+            "price": 30.56,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Spiced Award-Winning Seafood Boil",
+            "price": 26.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "House Special Appetizing Molecular Gastronomy Showcase Tasting",
-            "price": 28.35,
+            "name": "Classic Golden Seasonal Tasting Platter",
+            "price": 35.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -66,13 +57,22 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Golden 24-Hour Braised Short Ribs",
-            "price": 37.5,
+            "name": "Authentic Crunchy Flambéed Tableside Specialty",
+            "price": 34.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Crispy Molecular Gastronomy Showcase Tasting",
+            "price": 24.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -80,17 +80,35 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Authentic Crispy Volcanic Stone-Cooked Specialty",
-            "price": 29.1,
+            "name": "Hearty Succulent Roasted Quail with Truffle Jus",
+            "price": 37.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Fresh Exquisite Tasting of Local Artisanal Cheeses",
-            "price": 39.11,
+            "name": "Traditional Exquisite Whole Animal Butchery Showcase",
+            "price": 38.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Creamy Chef's Tasting Menu Experience",
+            "price": 31.93,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Mouthwatering Gourmet Vegetarian Wellington",
+            "price": 26.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -98,27 +116,9 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Exquisite Cold-Smoked Delicacy",
-            "price": 32.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Grilled Tomahawk Ribeye for Two",
-            "price": 24.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Spiced Deconstructed Classic with Modern Technique",
-            "price": 33.26,
-            "isVegetarian": false,
+            "name": "Handcrafted Smoked Deconstructed Classic with Modern Technique",
+            "price": 25.5,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -130,8 +130,8 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Hearty Spiced Samosas",
-            "price": 11.64,
+            "name": "Homestyle Sizzling Stuffed Avocado",
+            "price": 11.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -139,8 +139,8 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Sweet Prawn Cocktail",
-            "price": 12.61,
+            "name": "Premium Appetizing Mozzarella Sticks",
+            "price": 11.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -148,8 +148,8 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Grilled Bruschetta",
-            "price": 12.48,
+            "name": "Hearty Grilled Stuffed Peppers",
+            "price": 9.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,35 +157,8 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Delicious Prawn Toast",
-            "price": 14.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Sizzling Garlic Knots",
-            "price": 8.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Delectable Mini Tacos",
-            "price": 13.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Braised Chicken Wings",
-            "price": 11.71,
+            "name": "Authentic Spicy Potato Skins",
+            "price": 9.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -193,9 +166,36 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Flavorful Onion Rings",
-            "price": 11.98,
-            "isVegetarian": true,
+            "name": "Seasonal Crunchy Tempura",
+            "price": 8.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Spiced Spring Rolls",
+            "price": 8.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Steamed Garlic Knots",
+            "price": 15.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Spiced Caprese Salad",
+            "price": 15.1,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -207,38 +207,38 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Handcrafted Succulent Hot and Sour Soup",
-            "price": 12.2,
-            "isVegetarian": false,
+            "name": "Deluxe Tangy Gumbo",
+            "price": 8.79,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Smoked Avgolemono (Greek Lemon Soup)",
-            "price": 12.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Zingy Miso Soup",
-            "price": 13.45,
+            "name": "Authentic Zingy Lobster Bisque",
+            "price": 12.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Wholesome Tomato Soup",
+            "price": 8.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Sizzling Black Bean Soup",
-            "price": 8.26,
+            "name": "Seasonal Luscious Corn Chowder",
+            "price": 13.54,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -248,8 +248,8 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Pasta Salad",
-            "price": 15.9,
+            "name": "Garden Salad",
+            "price": 14.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -257,37 +257,37 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Potato Salad",
-            "price": 9.97,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Farro Salad",
-            "price": 13.58,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Apple Pecan Salad",
-            "price": 10.54,
+            "name": "Caesar Salad",
+            "price": 14.13,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Avocado Corn Salad",
+            "price": 11.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Southwest Black Bean Salad",
+            "price": 13.86,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cucumber Salad",
-            "price": 11.41,
+            "name": "Arugula Salad",
+            "price": 9.31,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -298,76 +298,76 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Deluxe Enticing Chicken Parmesan",
+            "name": "Fresh Enticing Tagine",
+            "price": 29.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Delicious Eggplant Parmesan",
+            "price": 31.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Spicy Burrito",
             "price": 28.55,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Zesty Pulled Pork Sandwich",
+            "price": 30.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Pan-seared Paella",
+            "price": 31.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Delicious Bibimbap",
+            "price": 20.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Crispy Roast Duck",
+            "price": 26.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Fresh Juicy Fajitas",
-            "price": 28.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Herbed Risotto",
-            "price": 21.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Marinated Roast Duck",
-            "price": 26.68,
+            "name": "Authentic Smoked Seafood Platter",
+            "price": 30.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
-          },
-          {
-            "name": "Authentic Crunchy Thai Curry",
-            "price": 29.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Aromatic Ramen",
-            "price": 22.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Smoked Spaghetti Bolognese",
-            "price": 25.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Crunchy Pulled Pork Sandwich",
-            "price": 23.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
@@ -375,8 +375,8 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Seasonal Juicy Linguine with Clam Sauce",
-            "price": 27.39,
+            "name": "Traditional Herbed Grilled Lobster with Lemon Butter",
+            "price": 24.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,17 +384,8 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Sizzling Oysters Rockefeller with Pernod Cream",
-            "price": 30.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Satisfying Sushi-Grade Sashimi Platter",
-            "price": 34.4,
+            "name": "Fresh Exquisite Seafood Gumbo with Okra",
+            "price": 22.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -402,17 +393,26 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Luscious Shrimp Scampi over Linguine",
-            "price": 29.32,
+            "name": "Handcrafted Satisfying Shrimp Scampi over Linguine",
+            "price": 25.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Tender Grilled Swordfish with Mango Chutney",
+            "price": 30.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Hearty Grilled Seared Tuna Steak with Sesame Crust",
-            "price": 31.19,
+            "name": "Classic Grilled Traditional Provençal Bouillabaisse",
+            "price": 33.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,26 +425,44 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Premium Satisfying French Fries",
-            "price": 6.07,
+            "name": "Deluxe Appetizing Scalloped Potatoes with Thyme",
+            "price": 5.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Zesty Charred Broccolini with Garlic Oil",
+            "price": 9.71,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Crunchy Roasted Root Vegetables",
+            "price": 5.23,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Succulent Maple-Glazed Baby Carrots",
-            "price": 5.66,
+            "name": "Authentic Comforting Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 7.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Homestyle Smoked Green Beans Almondine",
-            "price": 6.29,
+            "name": "Handcrafted Stuffed Green Beans Almondine",
+            "price": 8.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -452,27 +470,9 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Zingy Soft Polenta with Parmesan",
-            "price": 8.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Creamy Roasted Root Vegetables",
-            "price": 9.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Sweet Corn on the Cob with Chili Lime Butter",
-            "price": 8.77,
-            "isVegetarian": false,
+            "name": "Organic Braised Creamed Spinach with Nutmeg",
+            "price": 7.57,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -484,44 +484,8 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Iced Tea",
-            "price": 5.35,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 6.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hot Chocolate",
-            "price": 5.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 5.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 6.12,
+            "name": "Coffee",
+            "price": 5.87,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -530,7 +494,43 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Tea",
-            "price": 7.05,
+            "price": 7.61,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 4.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 7.28,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 7.45,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 6.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -549,8 +549,8 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Treacle Tart",
-            "price": 9.28,
+            "name": "Donuts",
+            "price": 7.66,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,27 +558,18 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Portuguese Custard Tarts",
-            "price": 7.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Croissants",
-            "price": 8.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cheesecake",
-            "price": 7.33,
+            "name": "Tiramisu",
+            "price": 9.49,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Banana Bread",
+            "price": 10.71,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -586,7 +577,16 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Carrot Cake",
-            "price": 10.03,
+            "price": 10.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baklava",
+            "price": 9.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,35 +599,8 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Cheesecake",
-            "price": 8.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Popsicles",
-            "price": 9.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Yogurt",
-            "price": 8.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Paletas",
-            "price": 11.61,
+            "name": "Frozen Fruit Bars",
+            "price": 7.03,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -635,10 +608,37 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Custard",
-            "price": 11.09,
-            "isVegetarian": true,
+            "name": "Frozen Yogurt",
+            "price": 10.92,
+            "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kulfi",
+            "price": 7.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Banana",
+            "price": 11.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frosty",
+            "price": 11.22,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -655,9 +655,36 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Mojito",
-            "price": 14.48,
+            "name": "Old Fashioned",
+            "price": 12.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 14.24,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 12.91,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 11.43,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -665,7 +692,16 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Negroni",
-            "price": 15.69,
+            "price": 14.72,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 15.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -673,45 +709,9 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Old Fashioned",
-            "price": 13.18,
+            "name": "Mojito",
+            "price": 10.97,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 11.32,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 12.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 13.13,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 11.62,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -723,9 +723,36 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Albariño",
-            "price": 10.14,
-            "isVegetarian": true,
+            "name": "Sémillon",
+            "price": 8.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Marsanne",
+            "price": 9.1,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Grigio",
+            "price": 8.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Riesling",
+            "price": 12.02,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -733,46 +760,19 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Sauvignon Blanc",
-            "price": 9.81,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vermentino",
-            "price": 13.32,
+            "price": 11.69,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gewürztraminer",
-            "price": 8.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Moscato",
-            "price": 9.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mourvèdre",
-            "price": 11.61,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tempranillo",
+            "price": 13.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -782,17 +782,8 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Grappa",
-            "price": 16.4,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "St-Germain",
-            "price": 10.44,
+            "name": "Gin",
+            "price": 16.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -801,7 +792,7 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Brandy",
-            "price": 12.94,
+            "price": 10.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -809,17 +800,26 @@ export const sydneytheKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Whiskey",
-            "price": 13.92,
+            "name": "Chambord",
+            "price": 10.68,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Rum",
+            "price": 15.07,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cointreau",
-            "price": 12.42,
+            "name": "Bénédictine",
+            "price": 10.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,

@@ -248,5 +248,160 @@ export const montrealRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": true
+  },
+  {
+    "name": "Winter City Terrace",
+    "description": "A culinary gem serving Mediterranean specialties including tourtière, where guests enjoy seasonal terrasses in the heart of the city.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "9:00-20:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "9:00-19:00",
+      "friday": "11:00-21:00",
+      "saturday": "11:00-22:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-112-7731",
+      "contactEmail": "info@mediterraneanmontreal.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Old Port Snack Shack",
+    "description": "Located close to Notre-Dame Basilica, this Italian restaurant delights with its smoked meat and bilingual ambiance.",
+    "cuisine": "Italian",
+    "priceRange": "$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "10:00-20:00",
+      "saturday": "11:00-22:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-746-9432",
+      "contactEmail": "info@italianmontreal.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Winter House",
+    "description": "A culinary gem serving Italian specialties including tourtière, where guests enjoy bilingual ambiance in the heart of the city.",
+    "cuisine": "Italian",
+    "priceRange": "$$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "Closed",
+      "wednesday": "9:00-19:00",
+      "thursday": "Closed",
+      "friday": "11:00-20:00",
+      "saturday": "11:00-19:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-987-7406",
+      "contactEmail": "info@italianmontreal.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Mount Royal Lounge",
+    "description": "A culinary gem serving Mediterranean specialties including poutine, where guests enjoy seasonal terrasses in the heart of the city.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "Closed",
+      "wednesday": "10:00-20:00",
+      "thursday": "9:00-21:00",
+      "friday": "9:00-22:00",
+      "saturday": "11:00-19:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-672-5394",
+      "contactEmail": "info@mediterraneanmontreal.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Cultural Fish House",
+    "description": "Experience authentic Italian cuisine with a local twist, featuring tourtière served in an atmosphere of European charm overlooking Notre-Dame Basilica.",
+    "cuisine": "Italian",
+    "priceRange": "$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "Closed",
+      "wednesday": "Closed",
+      "thursday": "9:00-20:00",
+      "friday": "10:00-20:00",
+      "saturday": "Closed",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-502-9178",
+      "contactEmail": "info@italianmontreal.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
   }
 ];

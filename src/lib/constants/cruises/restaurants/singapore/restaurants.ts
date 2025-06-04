@@ -248,5 +248,160 @@ export const singaporeRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": false
+  },
+  {
+    "name": "Gardens House",
+    "description": "Experience authentic Singaporean cuisine with a local twist, featuring chili crab served in an atmosphere of hawker center style overlooking Orchard Road.",
+    "cuisine": "Singaporean",
+    "priceRange": "$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-22:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "9:00-20:00",
+      "friday": "10:00-19:00",
+      "saturday": "10:00-21:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-539-4805",
+      "contactEmail": "info@singaporeansingapore.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Lion City Pizzeria",
+    "description": "A culinary gem serving Malaysian specialties including satay, where guests enjoy cutting-edge design in the heart of the city.",
+    "cuisine": "Malaysian",
+    "priceRange": "$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "9:00-20:00",
+      "friday": "9:00-20:00",
+      "saturday": "9:00-20:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-566-9146",
+      "contactEmail": "info@malaysiansingapore.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Sentosa Saloon",
+    "description": "Experience authentic Chinese cuisine with a local twist, featuring satay served in an atmosphere of colonial architecture overlooking Gardens by the Bay.",
+    "cuisine": "Chinese",
+    "priceRange": "$$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "Closed",
+      "wednesday": "10:00-21:00",
+      "thursday": "11:00-19:00",
+      "friday": "11:00-21:00",
+      "saturday": "Closed",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-850-8242",
+      "contactEmail": "info@chinesesingapore.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Futuristic Coffee House",
+    "description": "Experience authentic Japanese cuisine with a local twist, featuring satay served in an atmosphere of multicultural atmosphere overlooking Gardens by the Bay.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "10:00-22:00",
+      "friday": "10:00-21:00",
+      "saturday": "11:00-20:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-752-9578",
+      "contactEmail": "info@japanesesingapore.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Merlion Bakery",
+    "description": "This popular Malaysian establishment combines traditional recipes and kaya toast, all served in a unique setting with cutting-edge design.",
+    "cuisine": "Malaysian",
+    "priceRange": "$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "11:00-19:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "9:00-20:00",
+      "friday": "9:00-19:00",
+      "saturday": "10:00-22:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-788-1521",
+      "contactEmail": "info@malaysiansingapore.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
   }
 ];

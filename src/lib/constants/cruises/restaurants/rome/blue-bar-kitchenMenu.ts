@@ -12,17 +12,8 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Fresh Stuffed Heritage Recipe Lamb Shank",
-            "price": 29.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Aromatic Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 37.8,
+            "name": "Authentic Luscious Chef's Special Surf and Turf",
+            "price": 35.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -30,49 +21,58 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Spicy Chef's Childhood Inspired Creation",
-            "price": 36.53,
+            "name": "Organic Grilled Wood-Fired Peking Duck with Plum Sauce",
+            "price": 33.44,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Aromatic Sous Vide Perfected Wagyu",
+            "price": 33.33,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Spicy Japanese A5 Wagyu with Ponzu Butter",
-            "price": 35.52,
+            "name": "Hearty Crunchy Secret Recipe Bouillabaisse",
+            "price": 29.32,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Enticing Chef’s Wild Game Selection",
+            "price": 32.57,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Luscious Charcoal Grilled Iberico Pork",
-            "price": 37.27,
+            "name": "Fresh Satisfying Molecular Gastronomy Showcase Tasting",
+            "price": 33.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Savory Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 28.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
-          },
-          {
-            "name": "Deluxe Stuffed Tableside Carved Chateaubriand",
-            "price": 28.35,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Satisfying Founder's Family Recipe Pasta",
-            "price": 26.01,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
@@ -80,17 +80,26 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Hearty Braised Tasting of Local Artisanal Cheeses",
-            "price": 36.84,
-            "isVegetarian": true,
+            "name": "Classic Spiced Chef's Market Inspiration of the Day",
+            "price": 35.98,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Appetizing Whole Animal Butchery Showcase",
-            "price": 31.65,
+            "name": "Fresh Enticing Chef's Tasting Menu Experience",
+            "price": 39.56,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked Lobster and Crab Stuffed Ravioli",
+            "price": 37.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -98,30 +107,21 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Gourmet Crunchy Dry-Aged Prime Beef Selection",
-            "price": 27.45,
+            "name": "Fresh Smoked Dry-Aged Prime Beef Selection",
+            "price": 36.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Flavorful Wild Mushroom Risotto",
-            "price": 24.07,
+            "name": "Authentic Crunchy Freshly Harvested Seasonal Creation",
+            "price": 32.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Tangy Tableside Flambé Preparation",
-            "price": 33.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           }
         ]
@@ -130,53 +130,17 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Organic Spiced Ceviche",
-            "price": 15.17,
+            "name": "Gourmet Mouthwatering Deviled Eggs",
+            "price": 8.64,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Irresistible Caprese Salad",
-            "price": 10.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Flaky Zucchini Fries",
-            "price": 14.17,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Creamy Stuffed Mushrooms",
-            "price": 9.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Roasted Prawn Toast",
-            "price": 15.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Spiced Stuffed Peppers",
-            "price": 13.14,
+            "name": "House Special Tender Onion Rings",
+            "price": 13.98,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -184,8 +148,26 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Luscious Bruschetta",
-            "price": 12.93,
+            "name": "Authentic Mouthwatering Spinach Puffs",
+            "price": 8.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Appetizing Crostini",
+            "price": 12.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Grilled Mini Tacos",
+            "price": 14.37,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -193,13 +175,31 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Crunchy Stuffed Avocado",
-            "price": 15.34,
+            "name": "Handcrafted Sautéed Meatballs",
+            "price": 11.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Spiced Antipasto Platter",
+            "price": 10.29,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Seasonal Satisfying Chicken Wings",
+            "price": 15.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -207,17 +207,17 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Authentic Exquisite Chicken Corn Soup",
-            "price": 7.73,
-            "isVegetarian": false,
+            "name": "Deluxe Tangy Avgolemono (Greek Lemon Soup)",
+            "price": 13.64,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Delectable Broccoli Cheddar Soup",
-            "price": 13.18,
+            "name": "Gourmet Spiced Vegetable Barley Soup",
+            "price": 8.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -225,8 +225,8 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Spiced Butternut Squash Soup",
-            "price": 7.55,
+            "name": "House Special Stuffed Clam Chowder",
+            "price": 11.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -234,8 +234,8 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Sweet Avgolemono (Greek Lemon Soup)",
-            "price": 12.37,
+            "name": "Seasonal Grilled Italian Wedding Soup",
+            "price": 11.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -248,17 +248,8 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Chickpea Salad",
-            "price": 12.74,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Asian Slaw",
-            "price": 11.72,
+            "name": "Mediterranean Chopped Salad",
+            "price": 12.04,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -266,17 +257,17 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Spinach Salad",
-            "price": 15.33,
-            "isVegetarian": false,
+            "name": "Potato Salad",
+            "price": 14.22,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Nicoise Salad",
-            "price": 9.63,
+            "name": "Roasted Vegetable Salad",
+            "price": 14.12,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -284,8 +275,17 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Watermelon Feta Salad",
-            "price": 12.2,
+            "name": "Beet Salad",
+            "price": 12.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Thai Green Papaya Salad",
+            "price": 10,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -298,44 +298,17 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Handcrafted Juicy Lentil Stew",
-            "price": 30.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Herbed Beef Burger",
-            "price": 21.47,
+            "name": "Seasonal Comforting Lamb Chops",
+            "price": 29.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Marinated Korma",
-            "price": 25.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Enticing Paella",
-            "price": 22.84,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Handcrafted Hearty Moussaka",
-            "price": 20.77,
+            "name": "Classic Juicy Tacos",
+            "price": 30.4,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -343,31 +316,58 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Succulent Shish Kebabs",
-            "price": 24.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Steamed Steak",
-            "price": 27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Crunchy Bibimbap",
-            "price": 24.96,
+            "name": "Organic Steamed Chili con Carne",
+            "price": 30.7,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Fresh Comforting Shakshuka",
+            "price": 18.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Marinated Seafood Platter",
+            "price": 29.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Sautéed Fajitas",
+            "price": 31.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Tangy Stuffed Zucchini Boats",
+            "price": 22.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Enticing Fish and Chips",
+            "price": 20.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -375,8 +375,35 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Authentic Spiced Traditional Provençal Bouillabaisse",
-            "price": 25.06,
+            "name": "Premium Wholesome Grilled Lobster with Lemon Butter",
+            "price": 27.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Delectable Stuffed Flounder with Crab and Spinach",
+            "price": 26.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Delectable Miso-Marinated Chilean Sea Bass",
+            "price": 23.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Marinated Prawn Curry in Coconut Masala",
+            "price": 22.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,40 +411,13 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Golden Grilled Swordfish with Mango Chutney",
-            "price": 27.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Sautéed Grilled Spanish Octopus with Smoked Paprika",
-            "price": 23.76,
+            "name": "Premium Baked Lobster Thermidor with Gruyère Crust",
+            "price": 26.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Classic Mouthwatering Alaskan King Crab Legs with Drawn Butter",
-            "price": 34.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Braised Sushi-Grade Sashimi Platter",
-            "price": 29.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
           }
         ]
       },
@@ -425,35 +425,26 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Authentic Baked Braised Red Cabbage with Apple",
-            "price": 9.8,
+            "name": "Seasonal Fried Truffle Parmesan Fries",
+            "price": 9.29,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Steamed Grilled Asparagus with Lemon Zest",
-            "price": 5.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Sizzling Roasted Root Vegetables",
-            "price": 5.48,
-            "isVegetarian": false,
+            "name": "Traditional Creamy Stuffed Bell Peppers with Brown Rice",
+            "price": 9.08,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Pan-seared Buttered Egg Noodles",
-            "price": 9.57,
+            "name": "Gourmet Pan-seared French Fries",
+            "price": 6.24,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -461,8 +452,8 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Tangy Flaky Cheddar and Chive Biscuits",
-            "price": 7.62,
+            "name": "Organic Enticing Cauliflower Gratin with Gruyère",
+            "price": 5.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -470,9 +461,18 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Spicy Cauliflower Gratin with Gruyère",
-            "price": 6.91,
-            "isVegetarian": true,
+            "name": "Hearty Pan-seared Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 5.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Tangy Roasted Root Vegetables",
+            "price": 5.27,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -484,17 +484,8 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Juice",
-            "price": 6.92,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 7.83,
+            "name": "Water",
+            "price": 7.21,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,17 +493,8 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coffee",
-            "price": 6.55,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 6.84,
+            "name": "Milkshake",
+            "price": 6.08,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -521,7 +503,25 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Soda",
-            "price": 6.38,
+            "price": 4.07,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 4.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 5.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,11 +529,11 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hot Chocolate",
-            "price": 5.67,
+            "name": "Juice",
+            "price": 7.49,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,8 +549,8 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Pain au Chocolat",
-            "price": 7.38,
+            "name": "Shortbread",
+            "price": 6.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,17 +558,26 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fruit Galette",
-            "price": 6.4,
+            "name": "Cobbler",
+            "price": 9.53,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Strawberry Shortcake",
-            "price": 6.96,
+            "name": "Scones",
+            "price": 7.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tiramisu",
+            "price": 9.67,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -576,17 +585,8 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Portuguese Custard Tarts",
-            "price": 8.85,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Custard Tart",
-            "price": 6.49,
+            "name": "Muffins",
+            "price": 10.89,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,8 +599,8 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Custard",
-            "price": 7.59,
+            "name": "Sherbet",
+            "price": 8.32,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -608,38 +608,38 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ice Cream Cake",
-            "price": 7.48,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Snow Cone",
-            "price": 7.8,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Banana",
-            "price": 11.5,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sorbet",
-            "price": 10.69,
+            "name": "Ice Cream",
+            "price": 7.39,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Popsicles",
+            "price": 7.87,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Pudding",
+            "price": 10.08,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Mousse",
+            "price": 10.68,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -655,44 +655,26 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Mai Tai",
-            "price": 11.15,
+            "name": "Manhattan",
+            "price": 15.3,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 13.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Margarita",
-            "price": 14.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 11.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 11.1,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 15.02,
+            "price": 13.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -701,7 +683,7 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Cosmopolitan",
-            "price": 12.24,
+            "price": 11.13,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -710,10 +692,28 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Whiskey Sour",
-            "price": 10.42,
-            "isVegetarian": true,
+            "price": 14.06,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 12.24,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 15.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,56 +723,56 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Syrah/Shiraz",
-            "price": 11.6,
-            "isVegetarian": false,
+            "name": "Grenache",
+            "price": 9.81,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Champagne/Sparkling Wine",
-            "price": 9.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Petit Verdot",
-            "price": 13.61,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Tempranillo",
-            "price": 12.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nebbiolo",
-            "price": 8.36,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fiano",
-            "price": 10.15,
+            "price": 13.74,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Blanc",
+            "price": 13.4,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Verdicchio",
+            "price": 11.98,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vouvray",
+            "price": 8.77,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Grigio",
+            "price": 12.94,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -782,34 +782,7 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Vodka",
-            "price": 11.63,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baileys Irish Cream",
-            "price": 10.63,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Absinthe",
-            "price": 11.9,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mezcal",
+            "name": "Cognac",
             "price": 10.95,
             "isVegetarian": true,
             "isVegan": false,
@@ -818,11 +791,38 @@ export const romeblueBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gin",
-            "price": 10.12,
-            "isVegetarian": true,
+            "name": "Aquavit",
+            "price": 16.63,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Rum",
+            "price": 12.56,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tequila",
+            "price": 15.24,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Midori",
+            "price": 10.66,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

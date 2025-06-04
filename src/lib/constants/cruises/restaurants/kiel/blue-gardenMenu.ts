@@ -12,8 +12,26 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Gourmet Grilled Traditional Family Paella",
-            "price": 28.09,
+            "name": "Handcrafted Herbed Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 30.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Stuffed Heritage Recipe Lamb Shank",
+            "price": 27.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Tangy Chef's Special Surf and Turf",
+            "price": 31.79,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -21,17 +39,17 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Herbed Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 32.65,
-            "isVegetarian": false,
+            "name": "House Special Zingy Local Bounty Harvest Plate (Vegetarian)",
+            "price": 28.46,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Seasonal Enticing Signature Truffle Pasta with Aged Pecorino",
-            "price": 27.01,
+            "name": "Authentic Mouthwatering Chef's Childhood Inspired Creation",
+            "price": 34.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -39,40 +57,22 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Zesty Flambéed Tableside Specialty",
-            "price": 31.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Flaky Award-Winning Seafood Boil",
-            "price": 32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Mouthwatering Wood-Fired Peking Duck with Plum Sauce",
-            "price": 32.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Smoked Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 29.63,
+            "name": "Premium Grilled Japanese A5 Wagyu with Ponzu Butter",
+            "price": 26.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Irresistible House Famous Duck Confit",
+            "price": 33.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
           }
         ]
       },
@@ -80,17 +80,26 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Authentic Flavorful Grilled Venison with Juniper Berry Sauce",
-            "price": 27.81,
+            "name": "Gourmet Stuffed Whole Animal Butchery Showcase",
+            "price": 32.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Homestyle Luscious Deconstructed Classic with Modern Technique",
-            "price": 39.4,
+            "name": "Handcrafted Enticing House Specialty Pasta Creation",
+            "price": 28.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Marinated Chef's Tasting Menu Experience",
+            "price": 28.63,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -98,29 +107,20 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Savory Dry-Aged Prime Beef Selection",
-            "price": 39.07,
+            "name": "Gourmet Grilled Tableside Flambé Preparation",
+            "price": 37.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Steamed Pan-Seared Scallops with Citrus Beurre Blanc",
-            "price": 34.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Deluxe Grilled Aged and House-Cured Charcuterie Selection",
-            "price": 28.88,
+            "name": "Premium Herbed Sous Vide Perfection with Molecular Gastronomy Elements",
+            "price": 30.69,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,8 +130,8 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Homestyle Delicious Garlic Bread",
-            "price": 12.43,
+            "name": "Deluxe Savory Sweet Potato Fries",
+            "price": 8.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -139,67 +139,67 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Delicious Bruschetta",
-            "price": 10.91,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Creamy Prawn Toast",
-            "price": 9.83,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Zesty Edamame",
-            "price": 11.35,
+            "name": "Hearty Aromatic Meatballs",
+            "price": 13.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Deluxe Herbed Antipasto Platter",
-            "price": 9.21,
+            "name": "Deluxe Comforting Bruschetta",
+            "price": 11.04,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Stuffed Crostini",
-            "price": 10.37,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Satisfying Falafel",
-            "price": 9.92,
+            "name": "Organic Crunchy Mozzarella Sticks",
+            "price": 15.28,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Gourmet Pan-seared Stuffed Mushrooms",
-            "price": 14.71,
+            "name": "Deluxe Golden Spinach Puffs",
+            "price": 13.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Handcrafted Stuffed Stuffed Avocado",
+            "price": 10.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Zesty Baba Ganoush",
+            "price": 13.72,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sizzling Tuna Tartare",
+            "price": 14.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -207,39 +207,39 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Authentic Sizzling Hot and Sour Soup",
-            "price": 10.05,
+            "name": "Authentic Zesty Seafood Chowder",
+            "price": 11.86,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Hearty Aromatic Chicken Noodle Soup",
-            "price": 13.97,
+            "name": "Classic Tangy Italian Wedding Soup",
+            "price": 9.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Fresh Flaky Miso Soup",
-            "price": 13.9,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Hearty Marinated French Onion Soup",
+            "price": 9.95,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Comforting Gazpacho",
-            "price": 13.93,
+            "name": "Authentic Braised Tomato Soup",
+            "price": 8.68,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -248,26 +248,8 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Beet Salad",
-            "price": 9.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Watermelon Feta Salad",
-            "price": 15.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Potato Salad",
-            "price": 10,
+            "name": "Lentil and Feta Salad",
+            "price": 14.91,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -275,8 +257,8 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Southwest Black Bean Salad",
-            "price": 12.91,
+            "name": "Cucumber Salad",
+            "price": 15.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -284,9 +266,27 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garden Salad",
-            "price": 12.09,
+            "name": "Southwest Black Bean Salad",
+            "price": 9.12,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Beet Salad",
+            "price": 14.99,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coleslaw",
+            "price": 15.03,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -298,8 +298,8 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "House Special Marinated Fish and Chips",
-            "price": 28.2,
+            "name": "Fresh Roasted Bibimbap",
+            "price": 27.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,17 +307,8 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Spiced Pasta Primavera",
-            "price": 22.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Marinated Currywurst",
-            "price": 26.69,
+            "name": "Organic Herbed Lamb Chops",
+            "price": 31.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -325,26 +316,17 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Pan-seared Gnocchi",
-            "price": 23.71,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Juicy Lentil Stew",
-            "price": 25.66,
+            "name": "Homestyle Aromatic Chicken Parmesan",
+            "price": 18.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Traditional Fried Cottage Pie",
-            "price": 31.48,
+            "name": "Seasonal Hearty Stir-fry",
+            "price": 19.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,8 +334,17 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Sweet Lasagna",
-            "price": 20.36,
+            "name": "Homestyle Savory Fish and Chips",
+            "price": 25.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Savory Shakshuka",
+            "price": 27.59,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -361,8 +352,17 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Hearty Mac and Cheese",
-            "price": 29.69,
+            "name": "Seasonal Zingy Steak",
+            "price": 23.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Roasted Beef Wellington",
+            "price": 25.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -375,8 +375,8 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Homestyle Herbed Cedar Plank Roasted Salmon",
-            "price": 31.82,
+            "name": "Classic Exquisite Valencian Seafood Paella",
+            "price": 31.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,8 +384,8 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Grilled Seared Tuna Steak with Sesame Crust",
-            "price": 28.08,
+            "name": "Seasonal Savory Classic British Fish and Chips",
+            "price": 30.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,16 +393,7 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Creamy Lobster Thermidor with Gruyère Crust",
-            "price": 33.83,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Herbed Maryland Style Crab Cakes",
+            "name": "Traditional Sweet Seafood Gumbo with Okra",
             "price": 24.78,
             "isVegetarian": false,
             "isVegan": false,
@@ -411,13 +402,22 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Aromatic Grilled Lobster with Lemon Butter",
-            "price": 34.05,
+            "name": "Classic Sweet Smoked Salmon Platter with Dill Crème",
+            "price": 28.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Steamed Steamed Littleneck Clams in Garlic Broth",
+            "price": 32.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -425,8 +425,8 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "House Special Hearty Wild Rice Pilaf",
-            "price": 6.77,
+            "name": "Gourmet Zesty Corn on the Cob with Chili Lime Butter",
+            "price": 5.9,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,8 +434,8 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Truffle Parmesan Fries",
-            "price": 7.4,
+            "name": "Premium Crunchy Truffle Parmesan Fries",
+            "price": 7.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -443,36 +443,36 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Luscious Homestyle Baked Beans",
-            "price": 9.58,
+            "name": "Authentic Mouthwatering Roasted Root Vegetables",
+            "price": 5.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Flaky French Fries",
-            "price": 6.43,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Sizzling Scalloped Potatoes with Thyme",
-            "price": 9.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Fresh Appetizing Baked Idaho Potato with Sour Cream",
-            "price": 6.99,
+            "name": "Organic Crunchy Baked Idaho Potato with Sour Cream",
+            "price": 6.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Spicy Macaroni and Aged Cheddar",
+            "price": 5.73,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Braised Green Beans Almondine",
+            "price": 6.01,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -484,8 +484,8 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Coffee",
-            "price": 7.88,
+            "name": "Smoothie",
+            "price": 5.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -493,8 +493,8 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Iced Tea",
-            "price": 6.62,
+            "name": "Coffee",
+            "price": 6.24,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,26 +502,8 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 5.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hot Chocolate",
-            "price": 7.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 6.74,
+            "name": "Milkshake",
+            "price": 6.59,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -529,10 +511,28 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Juice",
-            "price": 6.17,
+            "name": "Water",
+            "price": 4.31,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 4.27,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 5.01,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -549,26 +549,8 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Muffins",
-            "price": 8.45,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemon Bars",
-            "price": 9.53,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Carrot Cake",
-            "price": 7.66,
+            "name": "Apple Pie",
+            "price": 8.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -576,20 +558,38 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Croissants",
-            "price": 10.09,
+            "name": "Pain au Chocolat",
+            "price": 10.89,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Soufflé",
-            "price": 8.73,
+            "name": "Baklava",
+            "price": 9.4,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chocolate Chip Cookies",
+            "price": 7.92,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Eclairs",
+            "price": 7.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -600,16 +600,7 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Snow Cone",
-            "price": 9.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Yogurt",
-            "price": 11.91,
+            "price": 7.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -618,7 +609,16 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Frozen Pie",
-            "price": 10.06,
+            "price": 8.44,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frosty",
+            "price": 10.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -626,8 +626,8 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Mousse",
-            "price": 7.19,
+            "name": "Sherbet",
+            "price": 11.79,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -635,10 +635,10 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Paletas",
-            "price": 11.39,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Frozen Custard",
+            "price": 8.96,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -655,35 +655,17 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Mai Tai",
-            "price": 15.15,
+            "name": "Bloody Mary",
+            "price": 10.71,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 12,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 15.28,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 10.07,
+            "name": "Whiskey Sour",
+            "price": 15.82,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -691,17 +673,17 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 11.67,
-            "isVegetarian": false,
+            "name": "Old Fashioned",
+            "price": 12.53,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "price": 10.43,
+            "name": "Mojito",
+            "price": 11.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -709,8 +691,26 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 10.75,
+            "name": "Cosmopolitan",
+            "price": 15.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 13.4,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 12.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -723,35 +723,17 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Riesling",
-            "price": 12.71,
+            "name": "Gamay",
+            "price": 13.91,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Petit Verdot",
-            "price": 10.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sauvignon Blanc",
-            "price": 10.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Torrontés",
-            "price": 9.7,
+            "name": "Malbec",
+            "price": 9.93,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -759,18 +741,36 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Champagne/Sparkling Wine",
-            "price": 11.5,
+            "name": "Riesling",
+            "price": 13.05,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Dolcetto",
+            "price": 12.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chenin Blanc",
+            "price": 12.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Pinot Blanc",
-            "price": 12.27,
-            "isVegetarian": false,
+            "name": "Vouvray",
+            "price": 10.91,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -782,26 +782,8 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Sambuca",
-            "price": 10.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Midori",
-            "price": 13.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Maraschino",
-            "price": 14.98,
+            "name": "Triple Sec",
+            "price": 15.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -809,8 +791,17 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Aquavit",
-            "price": 11.94,
+            "name": "Gin",
+            "price": 16.74,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chartreuse",
+            "price": 15.47,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -818,10 +809,19 @@ export const kielblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Baileys Irish Cream",
-            "price": 10.77,
-            "isVegetarian": true,
+            "name": "Pisco",
+            "price": 13.39,
+            "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kahlúa",
+            "price": 12.05,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true

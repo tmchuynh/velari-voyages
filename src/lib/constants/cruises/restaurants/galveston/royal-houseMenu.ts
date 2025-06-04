@@ -12,35 +12,8 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Authentic Golden Sous Vide Perfected Wagyu",
-            "price": 37.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Grilled Age-Old Recipe Osso Buco with Gremolata",
-            "price": 35.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Irresistible Local Bounty Harvest Plate (Vegetarian)",
-            "price": 24.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Hearty Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 29.59,
+            "name": "Gourmet Zingy 24-Hour Braised Short Ribs",
+            "price": 31.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -48,8 +21,8 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Sautéed Chef's Special Surf and Turf",
-            "price": 34.09,
+            "name": "Classic Herbed Sous Vide Perfected Wagyu",
+            "price": 37.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -57,8 +30,8 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Irresistible Whole Roasted Heritage Chicken",
-            "price": 31.91,
+            "name": "Fresh Spiced Heritage Recipe Lamb Shank",
+            "price": 33.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -66,8 +39,35 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Roasted Seasonal Tasting Platter",
-            "price": 31.09,
+            "name": "Handcrafted Tangy Secret Recipe Bouillabaisse",
+            "price": 30.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Pan-seared Local Bounty Harvest Plate (Vegetarian)",
+            "price": 26.71,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Smoked Chef’s Wild Game Selection",
+            "price": 29.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Creamy Flambéed Tableside Specialty",
+            "price": 37.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -80,17 +80,8 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Fresh Roasted Tableside Flambé Preparation",
-            "price": 33.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Crunchy Modern Interpretation of Regional Classic",
-            "price": 29.13,
+            "name": "Fresh Flaky Seasonal Farm-to-Table Vegetable Plate",
+            "price": 30.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -98,17 +89,8 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Pan-seared Seasonal Farm-to-Table Vegetable Plate",
-            "price": 27.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Spiced Chef's Market Inspiration of the Day",
-            "price": 39.68,
+            "name": "Gourmet Mouthwatering Dry-Aged Prime Beef Selection",
+            "price": 25.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -116,12 +98,30 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Grilled Tomahawk Ribeye for Two",
-            "price": 24.82,
+            "name": "Authentic Mouthwatering Cold-Smoked Delicacy",
+            "price": 39.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Sizzling Deconstructed Classic with Modern Technique",
+            "price": 39.49,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Smoked Chef's Childhood Favorite Reimagined",
+            "price": 39.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -130,17 +130,17 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Authentic Luscious Spinach Artichoke Dip",
-            "price": 11.21,
+            "name": "Traditional Spiced Mezze Platter",
+            "price": 14.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Deluxe Marinated Antipasto Platter",
-            "price": 9.7,
+            "name": "Classic Flaky Onion Rings",
+            "price": 10.78,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -148,35 +148,17 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Stuffed Caprese Salad",
-            "price": 15.37,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Stuffed Dumplings",
-            "price": 10.66,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Flavorful Stuffed Peppers",
-            "price": 10.3,
+            "name": "Handcrafted Creamy Tuna Tartare",
+            "price": 10.07,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "House Special Spicy Mozzarella Sticks",
-            "price": 10.12,
+            "name": "Gourmet Spiced Stuffed Avocado",
+            "price": 14.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -184,8 +166,8 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Aromatic Deviled Eggs",
-            "price": 11.88,
+            "name": "Authentic Sautéed Sweet Potato Fries",
+            "price": 15.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -193,13 +175,31 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Gourmet Tangy Mini Quesadillas",
-            "price": 12.79,
+            "name": "Traditional Exquisite Stuffed Jalapeños",
+            "price": 11.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Gourmet Roasted Potato Skins",
+            "price": 15.32,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Delectable Calamari",
+            "price": 11.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -207,17 +207,26 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Gourmet Sizzling Beef Stew",
-            "price": 12.49,
+            "name": "Homestyle Mouthwatering Turkey and Wild Rice Soup",
+            "price": 11.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Creamy Vegetable Barley Soup",
+            "price": 10.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Comforting Tomato Soup",
-            "price": 11.53,
+            "name": "Classic Hearty Black Bean Soup",
+            "price": 13.43,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -225,22 +234,13 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Pan-seared Egg Drop Soup",
-            "price": 13.59,
+            "name": "Authentic Grilled Butternut Squash Soup",
+            "price": 9.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Spiced Mushroom Soup",
-            "price": 10.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -248,44 +248,44 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
+            "name": "Cobb Salad",
+            "price": 12.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Arugula Salad",
+            "price": 13.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caprese Salad",
+            "price": 12.35,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Cucumber Salad",
-            "price": 10.25,
+            "price": 14.05,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lentil and Feta Salad",
-            "price": 12.75,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Farro Salad",
-            "price": 9.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Orzo Salad",
-            "price": 11.31,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nicoise Salad",
-            "price": 13.08,
+            "name": "Pasta Salad",
+            "price": 9.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -298,26 +298,17 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Seasonal Sweet Fajitas",
-            "price": 28.62,
+            "name": "Organic Enticing Steak",
+            "price": 22.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Deluxe Zesty Shakshuka",
-            "price": 31.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Grilled Quiche",
-            "price": 25.95,
+            "name": "Authentic Juicy Seafood Platter",
+            "price": 24.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -325,26 +316,8 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Tangy Beef Wellington",
-            "price": 29.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Braised Bibimbap",
-            "price": 26.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Comforting Chili con Carne",
-            "price": 31.86,
+            "name": "Premium Succulent Risotto",
+            "price": 21.3,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -352,18 +325,45 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Zesty Steak",
-            "price": 27.68,
+            "name": "House Special Succulent Lamb Chops",
+            "price": 21.64,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Zingy Biryani",
+            "price": 26.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Satisfying Risotto",
-            "price": 18.64,
+            "name": "Hearty Satisfying Beef Burger",
+            "price": 19.04,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Creamy Jambalaya",
+            "price": 28.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Hearty Eggplant Parmesan",
+            "price": 24.21,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -375,44 +375,44 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Deluxe Zesty Stuffed Flounder with Crab and Spinach",
-            "price": 22.49,
-            "isVegetarian": false,
+            "name": "Traditional Sweet Basa Fillet with Dill Cream Sauce",
+            "price": 22.62,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Steamed Seafood Risotto with Saffron",
-            "price": 22.02,
+            "name": "Organic Baked Miso-Marinated Chilean Sea Bass",
+            "price": 27.81,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Roasted Pan-Seared Scallops with Pea Purée",
-            "price": 24.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Hearty Stuffed Grilled Swordfish with Mango Chutney",
-            "price": 33.54,
+            "name": "Authentic Smoked Tempura Soft Shell Crab",
+            "price": 33.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Grilled Cedar Plank Roasted Salmon",
+            "price": 31.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Handcrafted Grilled New England Lobster Roll",
-            "price": 34.8,
+            "name": "Gourmet Exquisite Smoked Salmon Platter with Dill Crème",
+            "price": 35.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,57 +425,57 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Hearty Savory Truffle Parmesan Fries",
-            "price": 5.35,
+            "name": "Handcrafted Golden Mashed Potatoes",
+            "price": 6.97,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Herbed Warm Buttermilk Dinner Rolls",
+            "price": 7.56,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Aromatic Roasted Root Vegetables",
+            "price": 8.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Flaky Yukon Gold Potato Gratin",
+            "price": 5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Tender Grilled Zucchini and Peppers",
+            "price": 8.13,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Authentic Pan-seared Sautéed Garlic Mushrooms",
-            "price": 5.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Flaky Green Beans Almondine",
-            "price": 6.04,
+            "price": 6.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Stuffed Provencal Ratatouille",
-            "price": 7.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Grilled Quinoa Pilaf with Herbs",
-            "price": 7.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Hearty Sweet Potato Wedges with Smoked Paprika",
-            "price": 9.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": false
           }
         ]
@@ -484,8 +484,8 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Juice",
-            "price": 6.66,
+            "name": "Coffee",
+            "price": 5.28,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -493,8 +493,8 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Iced Tea",
-            "price": 6.62,
+            "name": "Tea",
+            "price": 4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -503,7 +503,7 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
           },
           {
             "name": "Smoothie",
-            "price": 7.3,
+            "price": 5.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -511,17 +511,17 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lemonade",
-            "price": 6.04,
+            "name": "Juice",
+            "price": 6.73,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Water",
-            "price": 6.67,
+            "price": 6.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,11 +529,11 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 6.97,
+            "name": "Soda",
+            "price": 5.21,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,8 +549,26 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Treacle Tart",
-            "price": 10.28,
+            "name": "Madeleines",
+            "price": 6.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Custard Tart",
+            "price": 7.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Strawberry Shortcake",
+            "price": 8.56,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -558,17 +576,8 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sticky Toffee Pudding",
-            "price": 10.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Custard Tart",
-            "price": 6.23,
+            "name": "Vanilla Cake",
+            "price": 10.65,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -576,17 +585,8 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Biscotti",
-            "price": 10.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cannoli",
-            "price": 9.76,
+            "name": "Eclairs",
+            "price": 8.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,47 +599,47 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
+            "name": "Frozen Yogurt",
+            "price": 11.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Frozen Custard",
-            "price": 7.85,
+            "price": 8.91,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Cake",
+            "price": 8.92,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sherbet",
-            "price": 8.87,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Frozen Pie",
+            "price": 8.53,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Gelato",
-            "price": 7.88,
+            "price": 10.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Kulfi",
-            "price": 9.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Snow Cone",
-            "price": 9.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -655,18 +655,36 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Mojito",
-            "price": 11.13,
-            "isVegetarian": false,
+            "name": "Manhattan",
+            "price": 12.96,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "price": 11.88,
+            "name": "Martini",
+            "price": 11.46,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 12.19,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 15.13,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -674,44 +692,26 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
           },
           {
             "name": "Cosmopolitan",
-            "price": 12.46,
+            "price": 12.73,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 13.82,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 10.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Mai Tai",
-            "price": 10.31,
+            "price": 11.81,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Whiskey Sour",
-            "price": 13.47,
-            "isVegetarian": true,
+            "name": "Bloody Mary",
+            "price": 15.54,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -723,17 +723,17 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Sauvignon Blanc",
-            "price": 13.92,
-            "isVegetarian": true,
+            "name": "Barbera",
+            "price": 9.24,
+            "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cabernet Franc",
-            "price": 12.87,
+            "name": "Sémillon",
+            "price": 9.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -741,26 +741,8 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Zinfandel",
-            "price": 9.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fiano",
-            "price": 11.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Albariño",
-            "price": 13.26,
+            "name": "Champagne/Sparkling Wine",
+            "price": 10.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -768,8 +750,26 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sémillon",
-            "price": 12.88,
+            "name": "Roussanne",
+            "price": 11.71,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nebbiolo",
+            "price": 8.94,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gewürztraminer",
+            "price": 12.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -782,17 +782,17 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Galliano",
-            "price": 13.41,
+            "name": "Scotch",
+            "price": 13.42,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Calvados",
-            "price": 12.73,
+            "name": "Armagnac",
+            "price": 15.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -800,26 +800,26 @@ export const galvestonroyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Campari",
-            "price": 15.5,
+            "name": "Brandy",
+            "price": 13.96,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bénédictine",
+            "price": 14.76,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cognac",
-            "price": 13.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Anisette",
-            "price": 11.68,
+            "price": 10.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,

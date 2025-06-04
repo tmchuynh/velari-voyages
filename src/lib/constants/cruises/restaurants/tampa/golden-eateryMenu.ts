@@ -12,17 +12,17 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Handcrafted Mouthwatering Black Garlic Glazed Beef Tenderloin",
-            "price": 35.96,
+            "name": "Authentic Satisfying Dry-Aged Tomahawk Steak",
+            "price": 26.82,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Classic Creamy Chef's Childhood Inspired Creation",
-            "price": 25.62,
+            "name": "Premium Wholesome Tableside Carved Chateaubriand",
+            "price": 26.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -30,8 +30,17 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Satisfying Traditional Family Paella",
-            "price": 36.64,
+            "name": "Authentic Sizzling Chef's Special Surf and Turf",
+            "price": 30.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Pan-seared Chef's Childhood Inspired Creation",
+            "price": 35.59,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -39,17 +48,8 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Comforting Local Bounty Harvest Plate (Vegetarian)",
-            "price": 37.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Stuffed Dry-Aged Tomahawk Steak",
-            "price": 26.94,
+            "name": "House Special Sautéed Flambéed Tableside Specialty",
+            "price": 27.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -57,22 +57,22 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Tender Age-Old Recipe Osso Buco with Gremolata",
-            "price": 33.61,
+            "name": "Homestyle Grilled Executive Chef's Daily Inspiration Entrée",
+            "price": 31.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spiced Black Garlic Glazed Beef Tenderloin",
+            "price": 37.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
-          },
-          {
-            "name": "Hearty Zesty Chef's Special Surf and Turf",
-            "price": 32.97,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
@@ -80,26 +80,8 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Homestyle Sweet Crispy Skin Sea Bass",
-            "price": 32.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Crunchy Seared Duck Breast with Cherry Reduction",
-            "price": 37.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Braised Chef's Tasting Menu Experience",
-            "price": 39.57,
+            "name": "Authentic Spiced Lobster and Crab Stuffed Ravioli",
+            "price": 25.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -107,20 +89,38 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Exquisite Dry-Aged Prime Beef Selection",
-            "price": 31.06,
+            "name": "Premium Spicy Volcanic Stone-Cooked Specialty",
+            "price": 39.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Mouthwatering Seasonal Truffle Risotto",
+            "price": 30.97,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Roasted Truffle-Infused Filet Mignon",
+            "price": 25.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Homestyle Spiced Fusion of Traditional and Modern Techniques",
-            "price": 31.19,
+            "name": "Organic Spiced Locally Foraged Mushroom Selection",
+            "price": 24.15,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,44 +130,17 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Seasonal Savory Mini Quesadillas",
-            "price": 13.46,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Exquisite Spinach Artichoke Dip",
-            "price": 14.18,
+            "name": "Hearty Sweet Onion Rings",
+            "price": 15.28,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Smoked Onion Rings",
-            "price": 8.7,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Herbed Baba Ganoush",
-            "price": 8.04,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Creamy Bruschetta",
-            "price": 12.33,
+            "name": "Homestyle Flavorful Potstickers",
+            "price": 12.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -175,17 +148,8 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Creamy Mini Tacos",
-            "price": 11.62,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Delicious Arancini",
-            "price": 12.45,
+            "name": "Organic Crunchy Bruschetta",
+            "price": 8.67,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -193,13 +157,49 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Braised Garlic Bread",
-            "price": 8.57,
+            "name": "Authentic Smoked Spinach Puffs",
+            "price": 14.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Pan-seared Antipasto Platter",
+            "price": 11.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Sizzling Tempura",
+            "price": 10.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Sweet Samosas",
+            "price": 15.74,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Deluxe Hearty Chicken Wings",
+            "price": 14.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -207,17 +207,8 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Seasonal Grilled French Onion Soup",
-            "price": 11.19,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Grilled Tomato Soup",
-            "price": 9.79,
+            "name": "Handcrafted Appetizing Pho",
+            "price": 12.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -225,18 +216,27 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Crunchy Thai Coconut Soup",
-            "price": 10.84,
-            "isVegetarian": false,
+            "name": "Homestyle Zesty Butternut Squash Soup",
+            "price": 10.66,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Homestyle Pan-seared Split Pea Soup",
-            "price": 13.48,
+            "name": "Hearty Fried Borscht",
+            "price": 9.95,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Stuffed Mushroom Soup",
+            "price": 12.81,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -248,17 +248,8 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Farro Salad",
-            "price": 15.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Greek Salad",
-            "price": 10.05,
+            "name": "Chickpea Salad",
+            "price": 9.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -266,17 +257,17 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Asian Slaw",
-            "price": 9.79,
-            "isVegetarian": true,
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 12.37,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Lentil and Feta Salad",
-            "price": 12.64,
+            "name": "Cucumber Salad",
+            "price": 14.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -284,8 +275,17 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mediterranean Chopped Salad",
-            "price": 12.83,
+            "name": "Caesar Salad",
+            "price": 9.11,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Quinoa Salad",
+            "price": 9.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -298,8 +298,17 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Classic Tender Salmon",
-            "price": 29.38,
+            "name": "Handcrafted Aromatic Fish and Chips",
+            "price": 24.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Zingy Chili con Carne",
+            "price": 21.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,8 +316,35 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Grilled Ramen",
-            "price": 26.71,
+            "name": "Traditional Juicy Stir-fry",
+            "price": 30.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Delicious Enchiladas",
+            "price": 27.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Savory Pasta Primavera",
+            "price": 29.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Savory Tacos",
+            "price": 28.38,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -316,44 +352,8 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Tender Tacos",
-            "price": 27.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Zesty Spaghetti Bolognese",
-            "price": 18.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Baked Pizza",
-            "price": 28.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Braised Lasagna",
-            "price": 19.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Zesty Stuffed Peppers",
-            "price": 23.89,
+            "name": "Hearty Succulent Shakshuka",
+            "price": 24.12,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -361,11 +361,11 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Juicy Pesto Pasta",
-            "price": 18.94,
+            "name": "Organic Stuffed Tagine",
+            "price": 31.64,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -375,8 +375,8 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Homestyle Baked Oysters Rockefeller with Pernod Cream",
-            "price": 34.11,
+            "name": "Organic Grilled Stuffed Flounder with Crab and Spinach",
+            "price": 23.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,8 +384,8 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Delectable Grilled Spanish Octopus with Smoked Paprika",
-            "price": 26.76,
+            "name": "Fresh Grilled Tempura Soft Shell Crab",
+            "price": 29.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,8 +393,8 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Satisfying Tempura Soft Shell Crab",
-            "price": 22.97,
+            "name": "Handcrafted Appetizing Grilled Lobster with Lemon Butter",
+            "price": 29.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -402,8 +402,8 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Zingy Traditional Provençal Bouillabaisse",
-            "price": 33.71,
+            "name": "Deluxe Golden Seafood Alfredo with Spinach Fettuccine",
+            "price": 31.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -411,13 +411,13 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Delicious Sushi-Grade Sashimi Platter",
-            "price": 29.02,
+            "name": "House Special Hearty Seafood Risotto with Saffron",
+            "price": 33.79,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -425,26 +425,8 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Premium Spicy Warm Buttermilk Dinner Rolls",
-            "price": 7.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Roasted Cauliflower Gratin with Gruyère",
-            "price": 7.06,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Savory Chili Lime Roasted Chickpeas",
-            "price": 7.01,
+            "name": "Authentic Pan-seared Macaroni and Aged Cheddar",
+            "price": 7.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -452,8 +434,26 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Succulent Sweet Corn and Cheddar Fritters",
-            "price": 7.45,
+            "name": "Classic Irresistible Creamed Spinach with Nutmeg",
+            "price": 9.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Roasted Provencal Ratatouille",
+            "price": 5.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Grilled Crispy Beer-Battered Onion Rings",
+            "price": 9.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -461,18 +461,18 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Spicy Steamed Jasmine Rice",
-            "price": 6.7,
+            "name": "Authentic Mouthwatering Warm Buttermilk Dinner Rolls",
+            "price": 6.58,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
           },
           {
-            "name": "Organic Mouthwatering Grilled Asparagus with Lemon Zest",
-            "price": 6.53,
-            "isVegetarian": true,
+            "name": "House Special Juicy Sautéed Garlic Mushrooms",
+            "price": 5.23,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -485,16 +485,25 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Juice",
-            "price": 6.66,
+            "price": 5.74,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 7.69,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Hot Chocolate",
-            "price": 7.66,
+            "price": 4.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,17 +511,8 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 5.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 5.73,
+            "name": "Water",
+            "price": 4.93,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -521,16 +521,16 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Coffee",
-            "price": 5.14,
-            "isVegetarian": false,
+            "price": 5.82,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Iced Tea",
-            "price": 4.65,
+            "name": "Tea",
+            "price": 4.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -549,45 +549,45 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Berry Tart",
-            "price": 9.44,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Banana Bread",
-            "price": 7.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Treacle Tart",
-            "price": 8.17,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Scones",
-            "price": 6.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fruit Galette",
-            "price": 10.9,
+            "name": "Pumpkin Pie",
+            "price": 8.65,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Red Velvet Cake",
+            "price": 10.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pie",
+            "price": 6.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crumb Cake",
+            "price": 8.38,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pain au Chocolat",
+            "price": 9.57,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -599,27 +599,36 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Baked Alaska",
-            "price": 9.56,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Popsicles",
+            "price": 7.02,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sherbet",
-            "price": 8.93,
-            "isVegetarian": true,
+            "name": "Ice Cream Cake",
+            "price": 9.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Fruit Bars",
+            "price": 10.93,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Paletas",
-            "price": 10.96,
-            "isVegetarian": true,
+            "name": "Ice Cream",
+            "price": 7.14,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -627,17 +636,8 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Snow Cone",
-            "price": 7.69,
+            "price": 8.96,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ice Cream",
-            "price": 7.36,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -655,35 +655,8 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Mojito",
-            "price": 11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 10.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 10.69,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 11.91,
+            "name": "Whiskey Sour",
+            "price": 13.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -691,8 +664,26 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
+            "name": "Bloody Mary",
+            "price": 10.68,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 13.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Margarita",
-            "price": 15.07,
+            "price": 13.25,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -700,18 +691,27 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 15.24,
-            "isVegetarian": false,
+            "name": "Mai Tai",
+            "price": 11.74,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Whiskey Sour",
-            "price": 11.25,
-            "isVegetarian": false,
+            "name": "Cosmopolitan",
+            "price": 11.48,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 10.27,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -723,44 +723,8 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Pinot Blanc",
-            "price": 10.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roussanne",
-            "price": 12.61,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vouvray",
-            "price": 13.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Viognier",
-            "price": 8.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Grigio",
-            "price": 12.34,
+            "name": "Chardonnay",
+            "price": 13.16,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -769,8 +733,44 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Cabernet Sauvignon",
-            "price": 11.67,
+            "price": 8.29,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Noir",
+            "price": 12.03,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vermentino",
+            "price": 12.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gewürztraminer",
+            "price": 11.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Malbec",
+            "price": 12.69,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -782,44 +782,44 @@ export const tampagoldenEateryMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Scotch",
-            "price": 11.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Triple Sec",
-            "price": 15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Anisette",
-            "price": 10.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chartreuse",
-            "price": 11.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Midori",
-            "price": 10.72,
+            "price": 11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vodka",
+            "price": 17.35,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bénédictine",
+            "price": 12.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Galliano",
+            "price": 12.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bourbon",
+            "price": 11.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,

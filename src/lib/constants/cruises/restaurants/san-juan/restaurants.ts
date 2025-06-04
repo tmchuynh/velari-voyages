@@ -155,5 +155,160 @@ export const sanJuanRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": true
+  },
+  {
+    "name": "Taino Brasserie",
+    "description": "Experience authentic American cuisine with a local twist, featuring mofongo served in an atmosphere of cobblestone streets overlooking El Morro.",
+    "cuisine": "American",
+    "priceRange": "$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "11:00-22:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "9:00-21:00",
+      "friday": "9:00-19:00",
+      "saturday": "10:00-19:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-168-3960",
+      "contactEmail": "info@americansan-juan.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Puerto Rican Saloon",
+    "description": "Experience authentic Puerto Rican cuisine with a local twist, featuring arroz con gandules served in an atmosphere of colonial Spanish architecture overlooking Old San Juan.",
+    "cuisine": "Puerto Rican",
+    "priceRange": "$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "10:00-20:00",
+      "friday": "10:00-21:00",
+      "saturday": "11:00-21:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-925-5583",
+      "contactEmail": "info@puertoricansan-juan.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Island Cantina",
+    "description": "A culinary gem serving American specialties including arroz con gandules, where guests enjoy colonial Spanish architecture in the heart of the city.",
+    "cuisine": "American",
+    "priceRange": "$$$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-22:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "10:00-20:00",
+      "friday": "9:00-19:00",
+      "saturday": "9:00-21:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-326-5285",
+      "contactEmail": "info@americansan-juan.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Taino Restaurant",
+    "description": "A charming Puerto Rican restaurant near La Fortaleza, offering lechón and other local favorites in a setting with colorful buildings.",
+    "cuisine": "Puerto Rican",
+    "priceRange": "$$$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-19:00",
+      "friday": "10:00-22:00",
+      "saturday": "9:00-21:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-129-3717",
+      "contactEmail": "info@puertoricansan-juan.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Viejo San Juan Dining Room",
+    "description": "A culinary gem serving Caribbean specialties including lechón, where guests enjoy cobblestone streets in the heart of the city.",
+    "cuisine": "Caribbean",
+    "priceRange": "$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "10:00-19:00",
+      "friday": "10:00-19:00",
+      "saturday": "9:00-21:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-187-5675",
+      "contactEmail": "info@caribbeansan-juan.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];

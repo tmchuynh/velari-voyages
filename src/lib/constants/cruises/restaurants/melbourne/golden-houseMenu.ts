@@ -12,8 +12,17 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Homestyle Luscious Age-Old Recipe Osso Buco with Gremolata",
-            "price": 28.66,
+            "name": "Premium Appetizing Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 37.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Aromatic Executive Chef's Daily Inspiration Entrée",
+            "price": 37.21,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -21,35 +30,8 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Sautéed Legendary Prime Rib",
-            "price": 28.5,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Hearty House Famous Duck Confit",
-            "price": 27.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Marinated Tableside Carved Chateaubriand",
-            "price": 24.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Creamy 24-Hour Braised Short Ribs",
-            "price": 29.45,
+            "name": "Fresh Smoked Heritage Recipe Lamb Shank",
+            "price": 31.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -57,17 +39,35 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seasonal Tangy Whole Roasted Heritage Chicken",
-            "price": 37.45,
-            "isVegetarian": false,
+            "name": "Homestyle Grilled Chef's Special Surf and Turf",
+            "price": 33.18,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Steamed Molecular Gastronomy Showcase Tasting",
-            "price": 27.57,
+            "name": "Gourmet Juicy Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 31.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Creamy Age-Old Recipe Osso Buco with Gremolata",
+            "price": 36.51,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Zingy Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 28.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -80,17 +80,8 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Classic Braised Modern Interpretation of Regional Classic",
-            "price": 38.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Roasted Hand-Selected Wine Pairing Experience",
-            "price": 30.46,
+            "name": "Fresh Appetizing Volcanic Stone-Cooked Specialty",
+            "price": 29.26,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -98,29 +89,38 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Smoked Heritage Breed Porchetta",
-            "price": 26.95,
+            "name": "Authentic Smoked Cedar Plank Salmon",
+            "price": 27.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Authentic Satisfying Tableside Flambé Preparation",
-            "price": 28.02,
+            "name": "Authentic Roasted Heritage Breed Porchetta",
+            "price": 30.84,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Premium Tender Whole Animal Butchery Showcase",
-            "price": 32.57,
+            "name": "Authentic Herbed Chef's Tasting Menu Experience",
+            "price": 37.97,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Hearty Seasonal Farm-to-Table Vegetable Plate",
+            "price": 28.77,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,62 +130,17 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Gourmet Spiced Dumplings",
-            "price": 10.17,
+            "name": "Homestyle Delectable Charcuterie Board",
+            "price": 9.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Homestyle Savory Spring Rolls",
-            "price": 9.01,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Luscious Spinach Artichoke Dip",
-            "price": 10.61,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Satisfying Tzatziki with Pita",
-            "price": 12.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Delicious Mini Empanadas",
-            "price": 8.52,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Juicy Prawn Toast",
-            "price": 10.06,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Marinated Mini Crab Cakes",
-            "price": 13.42,
+            "name": "Authentic Flaky Mini Quesadillas",
+            "price": 15.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -193,8 +148,53 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Smoked Lettuce Wraps",
-            "price": 11.6,
+            "name": "Authentic Zingy Potstickers",
+            "price": 14.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Smoked Zucchini Fries",
+            "price": 15.6,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Spiced Lettuce Wraps",
+            "price": 8.35,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Hearty Cheese Platter",
+            "price": 9.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Herbed Spinach Artichoke Dip",
+            "price": 12.4,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Comforting Antipasto Platter",
+            "price": 8.46,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -207,26 +207,17 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Fresh Baked Avgolemono (Greek Lemon Soup)",
-            "price": 8.33,
-            "isVegetarian": false,
+            "name": "Homestyle Zesty Mushroom Soup",
+            "price": 13.27,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Savory Minestrone",
-            "price": 9.83,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Flavorful Split Pea Soup",
-            "price": 10.87,
+            "name": "Fresh Comforting Hot and Sour Soup",
+            "price": 9.28,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -234,13 +225,22 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Roasted Butternut Squash Soup",
-            "price": 11.91,
+            "name": "Premium Pan-seared Borscht",
+            "price": 11.28,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Authentic Exquisite Clam Chowder",
+            "price": 8.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -248,8 +248,8 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Garden Salad",
-            "price": 13.04,
+            "name": "Beet Salad",
+            "price": 15.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -257,37 +257,37 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Nicoise Salad",
-            "price": 13.92,
+            "name": "Greek Salad",
+            "price": 10.19,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Quinoa Salad",
+            "price": 10.76,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Asian Slaw",
+            "price": 15.65,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Pasta Salad",
-            "price": 13.78,
+            "price": 13.73,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Waldorf Salad",
-            "price": 11.62,
-            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Potato Salad",
-            "price": 13.84,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -298,62 +298,53 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Deluxe Sautéed Fish and Chips",
-            "price": 26.55,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Homestyle Hearty Stuffed Peppers",
+            "price": 24.39,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "House Special Crunchy Ramen",
-            "price": 22.04,
+            "name": "Seasonal Stuffed Pesto Pasta",
+            "price": 20.7,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Savory Grilled Tofu",
-            "price": 26.82,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Smoked Fajitas",
-            "price": 26.33,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Fried Salmon",
-            "price": 20.73,
+            "name": "Authentic Hearty Coq au Vin",
+            "price": 25.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Gourmet Irresistible Teriyaki Chicken",
-            "price": 22.88,
+            "name": "Hearty Sizzling Ramen",
+            "price": 24.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Deluxe Satisfying Enchiladas",
-            "price": 25.68,
+            "name": "Authentic Enticing Stir-fry",
+            "price": 22.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Sizzling Bibimbap",
+            "price": 25.14,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -361,13 +352,22 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Marinated Gnocchi",
-            "price": 22.63,
+            "name": "Traditional Savory Jambalaya",
+            "price": 18.36,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Luscious Steak",
+            "price": 25.14,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -375,26 +375,26 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Gourmet Savory Shrimp Scampi over Linguine",
-            "price": 25.58,
+            "name": "Homestyle Savory Seared Tuna Steak with Sesame Crust",
+            "price": 26.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Traditional Pan-seared Smoked Salmon Platter with Dill Crème",
-            "price": 23.98,
+            "name": "Fresh Fried Cedar Plank Roasted Salmon",
+            "price": 24.41,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Flavorful Traditional Provençal Bouillabaisse",
-            "price": 35.33,
+            "name": "Handcrafted Exquisite Seafood Risotto with Saffron",
+            "price": 33.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -402,20 +402,20 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Stuffed Seafood Alfredo with Spinach Fettuccine",
-            "price": 29.11,
+            "name": "Traditional Smoked Traditional Provençal Bouillabaisse",
+            "price": 31.96,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Braised Shrimp Scampi over Linguine",
+            "price": 28.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Stuffed Seafood Gumbo with Okra",
-            "price": 30.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           }
@@ -425,8 +425,8 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Fresh Sautéed Garlic Bread with Herb Butter",
-            "price": 7.74,
+            "name": "Traditional Spiced Soft Polenta with Parmesan",
+            "price": 9.44,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,26 +434,8 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Exquisite Corn on the Cob with Chili Lime Butter",
-            "price": 9.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Herbed Mashed Potatoes",
-            "price": 9.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Mouthwatering Baked Idaho Potato with Sour Cream",
-            "price": 8.55,
+            "name": "Gourmet Smoked Mashed Potatoes",
+            "price": 9.35,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -461,8 +443,8 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Grilled Sweet Potato Wedges with Smoked Paprika",
-            "price": 6.29,
+            "name": "Homestyle Crispy Yukon Gold Potato Gratin",
+            "price": 5.7,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -470,9 +452,27 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Delicious Creamed Spinach with Nutmeg",
-            "price": 7.71,
+            "name": "Gourmet Smoked French Fries",
+            "price": 9.72,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Tangy Israeli Couscous with Roasted Tomatoes",
+            "price": 9.85,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Braised Buttered Egg Noodles",
+            "price": 8.35,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -484,53 +484,53 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Coffee",
-            "price": 7.74,
+            "name": "Juice",
+            "price": 5.84,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 5.79,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 7.62,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 6.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soda",
-            "price": 6.62,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Juice",
-            "price": 4.7,
+            "name": "Smoothie",
+            "price": 7.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 5.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 5.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 6.07,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 6.8,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -550,7 +550,25 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Portuguese Custard Tarts",
-            "price": 7.24,
+            "price": 10.48,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Brownies",
+            "price": 7.22,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Shortbread",
+            "price": 7.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,36 +576,18 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cannoli",
-            "price": 8.2,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Apple Pie",
-            "price": 6.87,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tiramisu",
-            "price": 8.77,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Croissants",
-            "price": 8.09,
+            "name": "Cupcakes",
+            "price": 10.63,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Strawberry Shortcake",
+            "price": 8.21,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -599,44 +599,44 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Ice Cream Cake",
-            "price": 11.58,
+            "name": "Frozen Banana",
+            "price": 11.2,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Popsicles",
-            "price": 10.37,
-            "isVegetarian": false,
+            "name": "Frozen Mousse",
+            "price": 7.56,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Pie",
-            "price": 10.28,
+            "name": "Frozen Fruit Bars",
+            "price": 7.23,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Snow Cone",
-            "price": 10.86,
+            "name": "Frozen Yogurt",
+            "price": 11.91,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Mousse",
-            "price": 10.34,
+            "name": "Semifreddo",
+            "price": 10.79,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -655,8 +655,35 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
+            "name": "Negroni",
+            "price": 13.61,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 12.86,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 12.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Martini",
-            "price": 11.81,
+            "price": 13.08,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -665,34 +692,16 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
           },
           {
             "name": "Margarita",
-            "price": 15.52,
+            "price": 15.11,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Mojito",
-            "price": 10.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 14.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 11.69,
+            "price": 13.42,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -700,20 +709,11 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 14.06,
-            "isVegetarian": false,
+            "name": "Old Fashioned",
+            "price": 11.11,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 14.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,17 +723,8 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Roussanne",
-            "price": 13.37,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tempranillo",
-            "price": 13.41,
+            "name": "Chardonnay",
+            "price": 11.85,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -741,8 +732,26 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Barbera",
-            "price": 11.53,
+            "name": "Verdicchio",
+            "price": 12.23,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cabernet Franc",
+            "price": 9.52,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Blanc",
+            "price": 12.68,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -750,26 +759,17 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mourvèdre",
-            "price": 9.57,
+            "name": "Gewürztraminer",
+            "price": 13.99,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Syrah/Shiraz",
-            "price": 9.98,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Petit Verdot",
-            "price": 9.02,
+            "name": "Sauvignon Blanc",
+            "price": 10.2,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -782,17 +782,17 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Vodka",
-            "price": 16.28,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Tequila",
+            "price": 14.76,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bourbon",
-            "price": 12.67,
+            "name": "Cointreau",
+            "price": 15.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -800,8 +800,17 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Maraschino",
-            "price": 15.85,
+            "name": "Chambord",
+            "price": 14.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Aquavit",
+            "price": 15.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -809,17 +818,8 @@ export const melbournegoldenHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Rum",
-            "price": 12.1,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cointreau",
-            "price": 16.2,
+            "name": "Calvados",
+            "price": 17.26,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,

@@ -12,26 +12,8 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Deluxe Fried Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 29.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Crispy Chef's Special Surf and Turf",
-            "price": 25.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Zesty Award-Winning Seafood Boil",
-            "price": 25.98,
+            "name": "Homestyle Succulent Seasonal Tasting Platter",
+            "price": 29.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -39,8 +21,17 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Stuffed Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 37.1,
+            "name": "Deluxe Zesty Molecular Gastronomy Showcase Tasting",
+            "price": 25.35,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Appetizing Heritage Recipe Lamb Shank",
+            "price": 37.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -48,31 +39,40 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Grilled Charcoal Grilled Iberico Pork",
-            "price": 34.76,
+            "name": "Deluxe Spicy Dry-Aged Tomahawk Steak",
+            "price": 29.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Tender Award-Winning Seafood Boil",
+            "price": 34.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Premium Comforting Flambéed Tableside Specialty",
-            "price": 27.15,
-            "isVegetarian": false,
+            "name": "Homestyle Crispy Age-Old Recipe Osso Buco with Gremolata",
+            "price": 36.22,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Fresh Appetizing Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 34.79,
-            "isVegetarian": false,
+            "name": "Traditional Tangy Local Bounty Harvest Plate (Vegetarian)",
+            "price": 25.92,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -80,47 +80,47 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Deluxe Tangy Whole Animal Butchery Showcase",
-            "price": 31.43,
+            "name": "Homestyle Tender Heritage Breed Porchetta",
+            "price": 38.77,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Golden Chef's Tasting Menu Experience",
-            "price": 36.08,
-            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Pan-seared Heritage Breed Porchetta",
-            "price": 32.36,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Zingy Modern Interpretation of Regional Classic",
-            "price": 28.76,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Spiced Miso-Glazed Black Cod",
-            "price": 34.36,
+            "name": "Authentic Stuffed Smoked and Slow-Roasted Heritage Meat",
+            "price": 24.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Baked Dry-Aged Prime Beef Selection",
+            "price": 31.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Sautéed Sous Vide Pork Tenderloin",
+            "price": 30.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Tender Custom Tasting Menu Based on Guest Preferences",
+            "price": 25.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,17 +130,26 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Fresh Flaky Mozzarella Sticks",
-            "price": 9.3,
+            "name": "Authentic Satisfying Potato Skins",
+            "price": 13.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Marinated Garlic Bread",
+            "price": 11.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Organic Enticing Cheese Nachos",
-            "price": 15.24,
+            "name": "Homestyle Sweet Baked Brie",
+            "price": 13.31,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -148,54 +157,45 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Pan-seared Antipasto Platter",
-            "price": 11.46,
+            "name": "Premium Sweet Spinach Artichoke Dip",
+            "price": 9.58,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Wholesome Spring Rolls",
+            "price": 13.1,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Satisfying Lettuce Wraps",
+            "price": 8.48,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Stuffed Stuffed Avocado",
-            "price": 12.18,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Wholesome Mini Tacos",
-            "price": 8.36,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Mouthwatering Caprese Salad",
-            "price": 11.78,
+            "name": "Authentic Smoked Onion Rings",
+            "price": 13.61,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Flaky Nachos",
-            "price": 12.79,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Deluxe Herbed Zucchini Fries",
-            "price": 9.47,
-            "isVegetarian": false,
+            "name": "Hearty Grilled Crostini",
+            "price": 10.07,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
@@ -207,38 +207,38 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Authentic Herbed Peanut Soup (West African)",
-            "price": 7.27,
+            "name": "Deluxe Pan-seared Italian Wedding Soup",
+            "price": 8.1,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Homestyle Creamy Butternut Squash Soup",
-            "price": 8.49,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Classic Steamed Tomato Soup",
+            "price": 12.16,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Smoked Vegetable Barley Soup",
-            "price": 12.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Hearty Miso Soup",
-            "price": 10.57,
+            "name": "Classic Fried Seafood Chowder",
+            "price": 10.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Spiced Beef Stew",
+            "price": 10.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": true
           }
@@ -248,8 +248,17 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Chef Salad",
-            "price": 9.6,
+            "name": "Lentil and Feta Salad",
+            "price": 12.18,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tabbouleh",
+            "price": 9.46,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -257,37 +266,28 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Caesar Salad",
-            "price": 9.97,
+            "name": "Quinoa Salad",
+            "price": 15.46,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chickpea Salad",
+            "price": 9.8,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mediterranean Chopped Salad",
+            "price": 10.14,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cucumber Salad",
-            "price": 11.5,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roasted Vegetable Salad",
-            "price": 10.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Southwest Black Bean Salad",
-            "price": 11.32,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -298,44 +298,35 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Organic Crunchy Pulled Pork Sandwich",
-            "price": 23.34,
+            "name": "Authentic Delectable Tacos",
+            "price": 25.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Deluxe Tangy Lentil Stew",
-            "price": 20.16,
+            "name": "House Special Spicy Burrito",
+            "price": 23.6,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Appetizing Pasta Primavera",
+            "price": 25.61,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Pan-seared Beef Wellington",
-            "price": 27.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Grilled Tacos",
-            "price": 24.76,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Delectable Pasta Primavera",
-            "price": 21.86,
+            "name": "Seasonal Satisfying Beef Wellington",
+            "price": 31.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -343,8 +334,8 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seasonal Hearty Coq au Vin",
-            "price": 20.5,
+            "name": "Hearty Zesty Pho",
+            "price": 19.8,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -352,20 +343,29 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Irresistible Fish and Chips",
-            "price": 27.12,
+            "name": "Authentic Spiced Lamb Chops",
+            "price": 24.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Crunchy Jambalaya",
+            "price": 30.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Handcrafted Roasted Enchiladas",
-            "price": 22.32,
-            "isVegetarian": false,
+            "name": "Deluxe Spicy Paella",
+            "price": 20.52,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -375,26 +375,8 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Deluxe Aromatic Pan-Seared Scallops with Pea Purée",
-            "price": 22.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Flavorful Valencian Seafood Paella",
-            "price": 26.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Delectable Crab-Stuffed Mushrooms",
-            "price": 25.72,
+            "name": "Hearty Grilled Grilled Lobster with Lemon Butter",
+            "price": 32.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -402,21 +384,39 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Delectable Cedar Plank Roasted Salmon",
-            "price": 35.78,
+            "name": "Deluxe Creamy Alaskan King Crab Legs with Drawn Butter",
+            "price": 27.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Homestyle Baked Stuffed Flounder with Crab and Spinach",
-            "price": 28.51,
+            "name": "Seasonal Hearty Shrimp Scampi over Linguine",
+            "price": 29.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Creamy Sushi-Grade Sashimi Platter",
+            "price": 27.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Roasted Pan-Seared Scallops with Pea Purée",
+            "price": 35.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -425,58 +425,58 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Classic Delicious Provencal Ratatouille",
-            "price": 5.65,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Classic Crunchy Macaroni and Aged Cheddar",
+            "price": 9.31,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Herbed Stuffed Bell Peppers with Brown Rice",
-            "price": 7.67,
+            "name": "Handcrafted Satisfying Garlic Bread with Herb Butter",
+            "price": 5.68,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Stuffed Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 9.97,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Marinated Israeli Couscous with Roasted Tomatoes",
-            "price": 6.47,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Appetizing Wild Rice Pilaf",
-            "price": 6.19,
+            "name": "Authentic Satisfying Quinoa Pilaf with Herbs",
+            "price": 6.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "House Special Zingy Steamed Jasmine Rice",
-            "price": 6.8,
-            "isVegetarian": false,
+            "name": "Handcrafted Steamed Herbed Bulgur Wheat with Lemon",
+            "price": 9.12,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Homestyle Grilled Mashed Potatoes",
+            "price": 9.31,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Delicious Roasted Root Vegetables",
+            "price": 9.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -484,17 +484,8 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Milkshake",
-            "price": 7.38,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 4.77,
+            "name": "Lemonade",
+            "price": 5.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -503,7 +494,16 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
           },
           {
             "name": "Smoothie",
-            "price": 6.01,
+            "price": 4.06,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 6.55,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -511,17 +511,8 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coffee",
-            "price": 7.03,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soda",
-            "price": 6.2,
+            "name": "Hot Chocolate",
+            "price": 5.22,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -529,10 +520,19 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Juice",
-            "price": 4.06,
+            "name": "Soda",
+            "price": 6.58,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 7.65,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -549,26 +549,8 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Crumb Cake",
-            "price": 7.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pain au Chocolat",
-            "price": 6.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chocolate Chip Cookies",
-            "price": 6.56,
+            "name": "Strawberry Shortcake",
+            "price": 6.77,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -576,17 +558,35 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Red Velvet Cake",
-            "price": 8.76,
+            "name": "Treacle Tart",
+            "price": 7.53,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Muffins",
-            "price": 8.49,
+            "name": "Custard Tart",
+            "price": 10.12,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Berry Tart",
+            "price": 7.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pie",
+            "price": 9.82,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -599,45 +599,45 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Ice Cream",
-            "price": 7.57,
+            "name": "Ice Cream Sandwich",
+            "price": 9.52,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gelato",
-            "price": 7.1,
+            "name": "Frozen Banana",
+            "price": 7.25,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Cheesecake",
-            "price": 8.89,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Pie",
-            "price": 9.73,
-            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sorbet",
-            "price": 11.89,
-            "isVegetarian": false,
+            "name": "Semifreddo",
+            "price": 7.3,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Yogurt",
+            "price": 11.93,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frosty",
+            "price": 7.54,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -655,62 +655,62 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Negroni",
-            "price": 10.51,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 15.41,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 13.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 13.46,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Whiskey Sour",
-            "price": 12.62,
+            "price": 14.25,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Mojito",
-            "price": 11.64,
+            "price": 12.93,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 10.01,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 15.73,
+            "name": "Manhattan",
+            "price": 11.24,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 11.6,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 14.32,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 13.29,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -723,26 +723,44 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Syrah/Shiraz",
-            "price": 13.07,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Sangiovese",
+            "price": 8.65,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fiano",
-            "price": 10.07,
+            "name": "Petit Verdot",
+            "price": 11.26,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gamay",
+            "price": 8.31,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Grigio",
+            "price": 11.94,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Mourvèdre",
-            "price": 13.91,
+            "price": 9.99,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -750,26 +768,8 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Torrontés",
-            "price": 9.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Dolcetto",
-            "price": 10.34,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Pinot Noir",
-            "price": 9.24,
+            "price": 9.43,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -782,46 +782,46 @@ export const torontograndTavernMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Maraschino",
-            "price": 10.28,
+            "name": "Bénédictine",
+            "price": 13.11,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Campari",
-            "price": 16.86,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Coffee Liqueur",
-            "price": 13.48,
-            "isVegetarian": false,
+            "price": 17.6,
+            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cointreau",
-            "price": 11.6,
-            "isVegetarian": false,
+            "name": "Mezcal",
+            "price": 17.96,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vodka",
+            "price": 15.6,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Brandy",
-            "price": 12.97,
+            "price": 14.6,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true

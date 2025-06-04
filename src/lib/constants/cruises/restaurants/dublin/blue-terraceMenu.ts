@@ -12,8 +12,8 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Organic Satisfying Executive Chef's Daily Inspiration Entrée",
-            "price": 25.6,
+            "name": "Organic Spiced Traditional Family Paella",
+            "price": 27.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -21,94 +21,8 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Sweet Celebrity Favorite Lobster Dish",
-            "price": 37.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Aromatic Wood-Fired Peking Duck with Plum Sauce",
-            "price": 24.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Tangy Sous Vide Perfected Wagyu",
-            "price": 28.62,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Fried Local Bounty Harvest Plate (Vegetarian)",
-            "price": 24.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Golden Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 27.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Sweet Black Garlic Glazed Beef Tenderloin",
-            "price": 30.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Chef's Specials",
-        "items": [
-          {
-            "name": "Fresh Savory High-End Ingredient Showcase",
-            "price": 31.46,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Herbed Heirloom Recipe from Chef's Family",
-            "price": 25.57,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Crunchy Collaborative Limited Edition Special",
-            "price": 36.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Smoked Whole Animal Butchery Showcase",
-            "price": 31.39,
+            "name": "Classic Herbed Restaurant's Namesake Signature Entrée",
+            "price": 30.24,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -116,9 +30,45 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Flaky Tableside Prepared Tartare",
-            "price": 24.99,
+            "name": "Gourmet Comforting Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 25.7,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Exquisite Black Garlic Glazed Beef Tenderloin",
+            "price": 30.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spiced Age-Old Recipe Osso Buco with Gremolata",
+            "price": 27.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spicy Heritage Recipe Lamb Shank",
+            "price": 24.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Marinated Japanese A5 Wagyu with Ponzu Butter",
+            "price": 32.17,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -127,38 +77,11 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Appetizers",
+        "name": "Chef's Specials",
         "items": [
           {
-            "name": "Gourmet Mouthwatering Spinach Artichoke Dip",
-            "price": 9.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Comforting Calamari",
-            "price": 13.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Luscious Shrimp Cocktail",
-            "price": 13.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Zingy Mini Crab Cakes",
-            "price": 8.32,
+            "name": "Fresh Exquisite Cast Iron Seafood Presentation",
+            "price": 39.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -166,8 +89,8 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Savory Stuffed Jalapeños",
-            "price": 9.11,
+            "name": "Traditional Crunchy Seasonal Truffle Risotto",
+            "price": 39.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -175,17 +98,40 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Golden Meatballs",
-            "price": 9.37,
+            "name": "Fresh Pan-seared Cold-Smoked Delicacy",
+            "price": 24.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Grilled Braised Short Ribs with Red Wine Sauce",
+            "price": 31.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Fresh Enticing Mini Empanadas",
-            "price": 14.64,
+            "name": "Traditional Pan-seared Lobster Thermidor",
+            "price": 32.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Appetizers",
+        "items": [
+          {
+            "name": "Seasonal Roasted Prawn Cocktail",
+            "price": 12.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -193,12 +139,66 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Spicy Nachos",
-            "price": 15.83,
+            "name": "Classic Sautéed Stuffed Peppers",
+            "price": 9.99,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Spicy Prawn Toast",
+            "price": 8.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Creamy Potstickers",
+            "price": 15.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Roasted Mini Crab Cakes",
+            "price": 9.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Succulent Bruschetta",
+            "price": 9.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Antipasto Platter",
+            "price": 14.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Flavorful Mini Tacos",
+            "price": 14.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -207,8 +207,8 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "House Special Exquisite Miso Soup",
-            "price": 8.9,
+            "name": "Seasonal Smoked Minestrone",
+            "price": 8.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -216,31 +216,31 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Sizzling French Onion Soup",
-            "price": 9.14,
-            "isVegetarian": true,
+            "name": "Authentic Baked Egg Drop Soup",
+            "price": 9.09,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Spiced Black Bean Soup",
-            "price": 9.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Crunchy Seafood Chowder",
-            "price": 8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": true
+          },
+          {
+            "name": "House Special Delicious French Onion Soup",
+            "price": 13.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Herbed Turkey and Wild Rice Soup",
+            "price": 13.97,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -248,26 +248,26 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Cobb Salad",
-            "price": 15.38,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Pasta Salad",
+            "price": 15.31,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Potato Salad",
-            "price": 11,
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 13.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Nicoise Salad",
-            "price": 12.5,
+            "name": "Arugula Salad",
+            "price": 14.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -275,20 +275,20 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Asian Slaw",
-            "price": 14,
-            "isVegetarian": true,
+            "name": "Greek Salad",
+            "price": 10.61,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fruit Salad",
-            "price": 10.69,
+            "name": "Cucumber Salad",
+            "price": 11.5,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -298,26 +298,8 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Fresh Sautéed Chili con Carne",
-            "price": 19.66,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Hearty Grilled Chicken",
-            "price": 25.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Spicy Thai Curry",
-            "price": 30.33,
+            "name": "Premium Sautéed Ramen",
+            "price": 29.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -325,35 +307,8 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Aromatic Lasagna",
-            "price": 21.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Spiced Spaghetti Bolognese",
-            "price": 19.36,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Exquisite Risotto",
-            "price": 21.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Marinated Katsu Curry",
-            "price": 20.7,
+            "name": "Deluxe Luscious Grilled Tofu",
+            "price": 27.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -361,13 +316,58 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Comforting Mac and Cheese",
-            "price": 30.36,
+            "name": "Hearty Zesty Pasta Primavera",
+            "price": 30.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Smoked Gnocchi",
+            "price": 26.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Pan-seared Stir-fry",
+            "price": 24.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Pan-seared Biryani",
+            "price": 20.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Sweet Coq au Vin",
+            "price": 21.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Wholesome Stuffed Peppers",
+            "price": 19.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -375,8 +375,26 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Gourmet Golden Linguine with Clam Sauce",
-            "price": 28.6,
+            "name": "Homestyle Grilled Baked Cod with Lemon Caper Sauce",
+            "price": 24.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Roasted Valencian Seafood Paella",
+            "price": 32.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Juicy Seafood Alfredo with Spinach Fettuccine",
+            "price": 26.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,8 +402,8 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Creamy Classic British Fish and Chips",
-            "price": 26.37,
+            "name": "Handcrafted Hearty Pan-Seared Scallops with Pea Purée",
+            "price": 25.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -393,31 +411,13 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Marinated Sushi-Grade Sashimi Platter",
-            "price": 31.62,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Zingy Oysters Rockefeller with Pernod Cream",
-            "price": 26.12,
+            "name": "Organic Zesty Cedar Plank Roasted Salmon",
+            "price": 28.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Satisfying Baked Cod with Lemon Caper Sauce",
-            "price": 22.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -425,8 +425,8 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Deluxe Luscious Israeli Couscous with Roasted Tomatoes",
-            "price": 9.67,
+            "name": "Fresh Tender Scalloped Potatoes with Thyme",
+            "price": 9.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,49 +434,49 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Grilled Roasted Root Vegetables",
-            "price": 5.34,
+            "name": "Traditional Satisfying Cauliflower Gratin with Gruyère",
+            "price": 6.96,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Grilled Scalloped Potatoes with Thyme",
-            "price": 7.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Exquisite Mashed Potatoes",
-            "price": 9.75,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Tangy Grilled Zucchini and Peppers",
-            "price": 9.59,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Grilled Soft Polenta with Parmesan",
-            "price": 7.06,
-            "isVegetarian": true,
+            "name": "Deluxe Crunchy Stuffed Bell Peppers with Brown Rice",
+            "price": 8.53,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Fresh Sizzling Corn on the Cob with Chili Lime Butter",
+            "price": 7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Pan-seared Green Beans Almondine",
+            "price": 6.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Irresistible Quinoa Pilaf with Herbs",
+            "price": 5.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -484,8 +484,8 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Smoothie",
-            "price": 4.04,
+            "name": "Iced Tea",
+            "price": 6.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -494,7 +494,16 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Juice",
-            "price": 7.47,
+            "price": 5.49,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 6.2,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -503,7 +512,16 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Tea",
-            "price": 6.01,
+            "price": 5.1,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 5.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -511,28 +529,10 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Water",
-            "price": 4.08,
+            "name": "Lemonade",
+            "price": 6.99,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coffee",
-            "price": 4.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 5.8,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -549,8 +549,8 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Cupcakes",
-            "price": 9.6,
+            "name": "Baklava",
+            "price": 10.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,8 +558,17 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Brownies",
-            "price": 10.64,
+            "name": "Sticky Toffee Pudding",
+            "price": 8.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cinnamon Rolls",
+            "price": 8.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -567,29 +576,20 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Muffins",
-            "price": 8.78,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Cobbler",
+            "price": 8.79,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Danish Pastries",
-            "price": 6.63,
+            "name": "Fruit Galette",
+            "price": 7.57,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vanilla Cake",
-            "price": 8.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -599,26 +599,8 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Yogurt",
-            "price": 8.53,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ice Cream",
-            "price": 11.75,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Mousse",
-            "price": 11.58,
+            "name": "Baked Alaska",
+            "price": 9.88,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -626,8 +608,8 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Kulfi",
-            "price": 11.05,
+            "name": "Ice Cream Cake",
+            "price": 8.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -635,8 +617,26 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Semifreddo",
-            "price": 11.48,
+            "name": "Snow Cone",
+            "price": 7.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Fruit Bars",
+            "price": 7.24,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kulfi",
+            "price": 10.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -656,25 +656,43 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Manhattan",
-            "price": 14.98,
+            "price": 14.45,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 15.65,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 14.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 12.13,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 13.98,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 10.04,
+            "name": "Bloody Mary",
+            "price": 11.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -683,16 +701,7 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Mojito",
-            "price": 12.79,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 13.18,
+            "price": 12.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -700,20 +709,11 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "price": 10.6,
+            "name": "Old Fashioned",
+            "price": 13.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 10.85,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,8 +723,8 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Cabernet Franc",
-            "price": 11.27,
+            "name": "Roussanne",
+            "price": 12.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -732,17 +732,17 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Zinfandel",
-            "price": 10.49,
-            "isVegetarian": true,
+            "name": "Pinot Blanc",
+            "price": 12.29,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Dolcetto",
-            "price": 11.24,
+            "name": "Chardonnay",
+            "price": 13.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -750,29 +750,29 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Viognier",
-            "price": 12.14,
+            "name": "Gamay",
+            "price": 9.06,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Chenin Blanc",
-            "price": 10.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Vermentino",
-            "price": 9.4,
+            "price": 8.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Tempranillo",
+            "price": 11.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -782,9 +782,18 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Galliano",
-            "price": 16.7,
-            "isVegetarian": false,
+            "name": "Drambuie",
+            "price": 17.56,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mezcal",
+            "price": 11.58,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -792,37 +801,28 @@ export const dublinblueTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Chartreuse",
-            "price": 11.13,
+            "price": 14.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gin",
+            "price": 11.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "St-Germain",
+            "price": 12.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tequila",
-            "price": 10.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sambuca",
-            "price": 17.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Armagnac",
-            "price": 14.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

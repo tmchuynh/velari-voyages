@@ -12,67 +12,67 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Fresh Enticing Seasonal Tasting Menu Experience",
-            "price": 30.25,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Smoked Chef's Childhood Inspired Creation",
-            "price": 28.65,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Smoked Restaurant's Namesake Signature Entrée",
-            "price": 26.37,
+            "name": "Classic Luscious House Famous Duck Confit",
+            "price": 35.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Grilled Dry-Aged Tomahawk Steak",
-            "price": 34.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Enticing Executive Chef's Daily Inspiration Entrée",
-            "price": 36.96,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Golden Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 28.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Creamy Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 28.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Hearty Zingy Chef's Special Surf and Turf",
+            "price": 33.82,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 28.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Braised Executive Chef's Daily Inspiration Entrée",
+            "price": 32.17,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Spiced Heritage Recipe Lamb Shank",
+            "price": 27.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Crunchy Award-Winning Seafood Boil",
+            "price": 27.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Exquisite Charcoal Grilled Iberico Pork",
+            "price": 32.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
           }
         ]
       },
@@ -80,35 +80,17 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Fresh Spicy Modern Interpretation of Regional Classic",
-            "price": 26.07,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Comforting Cold-Smoked Delicacy",
-            "price": 26.06,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Marinated Duck Confit with Roasted Root Vegetables",
-            "price": 35.22,
+            "name": "Seasonal Baked Special Occasion Celebratory Dish",
+            "price": 32.25,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Creamy Wild Mushroom Risotto",
-            "price": 36.28,
+            "name": "Premium Spiced Chef's Market Inspiration of the Day",
+            "price": 37.35,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -116,13 +98,31 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Satisfying Miso-Glazed Black Cod",
-            "price": 34.57,
+            "name": "Deluxe Steamed Seasonal Farm-to-Table Vegetable Plate",
+            "price": 37.71,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Fried Modern Interpretation of Regional Classic",
+            "price": 33.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Luscious Lobster and Crab Stuffed Ravioli",
+            "price": 31.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -130,26 +130,26 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Fresh Crunchy Stuffed Avocado",
-            "price": 10.89,
-            "isVegetarian": false,
+            "name": "Deluxe Smoked Spinach Artichoke Dip",
+            "price": 10.27,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Stuffed Mini Tacos",
-            "price": 11.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Organic Herbed Stuffed Avocado",
+            "price": 9.3,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Luscious Mini Empanadas",
-            "price": 14.2,
+            "name": "Classic Exquisite Cheese Nachos",
+            "price": 8.82,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,46 +157,46 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Grilled Bruschetta",
-            "price": 15.78,
-            "isVegetarian": false,
+            "name": "Organic Sweet Deviled Eggs",
+            "price": 11.3,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Succulent Tzatziki with Pita",
-            "price": 9.24,
-            "isVegetarian": false,
+            "name": "Hearty Pan-seared Mini Quesadillas",
+            "price": 11.71,
+            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Creamy Meatballs",
-            "price": 8.21,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Creamy Mini Crab Cakes",
-            "price": 13.72,
+            "name": "Fresh Zesty Baked Brie",
+            "price": 11.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Homestyle Tangy Prawn Cocktail",
-            "price": 12.76,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Handcrafted Flaky Bruschetta",
+            "price": 9.08,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Crunchy Prawn Toast",
+            "price": 15.72,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -207,38 +207,38 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Handcrafted Pan-seared Lobster Bisque",
-            "price": 13.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Grilled Corn Chowder",
-            "price": 8.12,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Gourmet Grilled Tortilla Soup",
+            "price": 7.67,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Spiced Beef Stew",
-            "price": 13.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
+            "name": "Premium Satisfying Thai Coconut Soup",
+            "price": 11.12,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Hearty Peanut Soup (West African)",
-            "price": 8.81,
-            "isVegetarian": true,
+            "name": "Authentic Mouthwatering Turkey and Wild Rice Soup",
+            "price": 7.53,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Zingy Italian Wedding Soup",
+            "price": 11.78,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -248,17 +248,35 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Nicoise Salad",
-            "price": 10.99,
-            "isVegetarian": false,
+            "name": "Arugula Salad",
+            "price": 12.75,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fruit Salad",
-            "price": 12.4,
+            "name": "Greek Salad",
+            "price": 12.28,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caesar Salad",
+            "price": 12.38,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mediterranean Chopped Salad",
+            "price": 11.48,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -266,29 +284,11 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cobb Salad",
-            "price": 12.58,
+            "name": "Farro Salad",
+            "price": 11.95,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beet Salad",
-            "price": 14.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Garden Salad",
-            "price": 10.46,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -298,8 +298,8 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Authentic Hearty Pizza",
-            "price": 25.59,
+            "name": "Authentic Juicy Thai Curry",
+            "price": 20.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,17 +307,26 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Spiced Seafood Platter",
-            "price": 26.08,
+            "name": "Fresh Crunchy Biryani",
+            "price": 20.32,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Enticing Grilled Tofu",
-            "price": 30.64,
+            "name": "Hearty Delicious Currywurst",
+            "price": 18.52,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Sautéed Pesto Pasta",
+            "price": 23.2,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -325,8 +334,8 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Pan-seared Spaghetti Bolognese",
-            "price": 31.05,
+            "name": "Premium Grilled Enchiladas",
+            "price": 30.32,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -334,17 +343,8 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Satisfying Gnocchi",
-            "price": 22.77,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Roasted Steak",
-            "price": 29.85,
+            "name": "Authentic Mouthwatering Steak",
+            "price": 20.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,8 +352,8 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Sizzling Shakshuka",
-            "price": 31.04,
+            "name": "Hearty Sizzling Mac and Cheese",
+            "price": 26.18,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -361,8 +361,8 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Wholesome Risotto",
-            "price": 29.36,
+            "name": "Authentic Stuffed Grilled Chicken",
+            "price": 24.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -375,8 +375,8 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Traditional Grilled Miso-Marinated Chilean Sea Bass",
-            "price": 26.99,
+            "name": "Hearty Pan-seared Prawn Curry in Coconut Masala",
+            "price": 27.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -384,8 +384,17 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Enticing Seafood Alfredo with Spinach Fettuccine",
-            "price": 29.52,
+            "name": "Gourmet Steamed Garlic Butter Shrimp Skillet",
+            "price": 32.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Appetizing Tempura Soft Shell Crab",
+            "price": 22.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,29 +402,20 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Crunchy Tempura Soft Shell Crab",
-            "price": 31.63,
+            "name": "Authentic Spicy Mussels Mariniere in White Wine",
+            "price": 35.44,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Zingy Cajun Shrimp and Grits",
-            "price": 34.05,
+            "name": "Fresh Tender Grilled Spanish Octopus with Smoked Paprika",
+            "price": 34.13,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Delectable Shrimp Scampi over Linguine",
-            "price": 27.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -425,58 +425,58 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Handcrafted Mouthwatering Roasted Root Vegetables",
-            "price": 5.09,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Pan-seared Wild Rice Pilaf",
-            "price": 7.08,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Savory Garlic Bread with Herb Butter",
-            "price": 8.97,
+            "name": "Traditional Marinated Homestyle Baked Beans",
+            "price": 5.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Hearty Sweet Corn and Cheddar Fritters",
+            "price": 6.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Fresh Roasted Creamed Spinach with Nutmeg",
-            "price": 6.29,
-            "isVegetarian": true,
+            "name": "Hearty Delectable Scalloped Potatoes with Thyme",
+            "price": 7.92,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Spiced Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 8.62,
-            "isVegetarian": true,
+            "name": "Handcrafted Appetizing Provencal Ratatouille",
+            "price": 8.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Spiced Grilled Zucchini and Peppers",
+            "price": 9.96,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Pan-seared Creamy Colcannon (Irish Potato Mash)",
-            "price": 8.21,
-            "isVegetarian": true,
+            "name": "Authentic Mouthwatering Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 9.4,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -484,8 +484,26 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
+            "name": "Juice",
+            "price": 7.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Coffee",
-            "price": 6.97,
+            "price": 4.43,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 6.89,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -493,8 +511,17 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 6.57,
+            "name": "Water",
+            "price": 5.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 5.1,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -503,37 +530,10 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
           },
           {
             "name": "Soda",
-            "price": 4.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 5.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 5.93,
+            "price": 6.11,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 6.15,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,18 +549,9 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Cheesecake",
-            "price": 8.05,
+            "name": "Croissants",
+            "price": 7.15,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Apple Pie",
-            "price": 10.79,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -568,26 +559,35 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
           },
           {
             "name": "Muffins",
-            "price": 6.19,
-            "isVegetarian": false,
+            "price": 9.43,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Lemon Bars",
-            "price": 10.25,
+            "name": "Tiramisu",
+            "price": 7.2,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Treacle Tart",
+            "price": 8.69,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Danish Pastries",
-            "price": 7.12,
-            "isVegetarian": false,
+            "name": "Carrot Cake",
+            "price": 7.59,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
@@ -599,26 +599,8 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Snow Cone",
-            "price": 10.17,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Mousse",
-            "price": 11.3,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Pudding",
-            "price": 7.5,
+            "name": "Frozen Custard",
+            "price": 10.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -626,8 +608,8 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frosty",
-            "price": 9.5,
+            "name": "Paletas",
+            "price": 10.1,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -635,9 +617,27 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ice Cream Sandwich",
-            "price": 11.51,
+            "name": "Ice Cream Cake",
+            "price": 11.92,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Semifreddo",
+            "price": 11.55,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Snow Cone",
+            "price": 8.06,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -655,44 +655,17 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Manhattan",
-            "price": 12.21,
+            "name": "Margarita",
+            "price": 13.06,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 10.24,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 13.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Mai Tai",
-            "price": 15.53,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 13.02,
+            "price": 12.32,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -700,8 +673,26 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 14.69,
+            "name": "Mojito",
+            "price": 15.47,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 13.51,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 12.18,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -709,11 +700,20 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "price": 14.01,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Old Fashioned",
+            "price": 12.57,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 15.53,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,56 +723,56 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Pinot Blanc",
-            "price": 10.64,
+            "name": "Chardonnay",
+            "price": 11.03,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Viognier",
+            "price": 13.1,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vermentino",
-            "price": 9.32,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Noir",
-            "price": 13.7,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Riesling",
-            "price": 9.4,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Sémillon",
-            "price": 11.83,
-            "isVegetarian": false,
-            "isVegan": true,
+            "price": 13.62,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sangiovese",
-            "price": 8.18,
+            "name": "Syrah/Shiraz",
+            "price": 9.54,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Prosecco",
+            "price": 11.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tempranillo",
+            "price": 13.72,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -782,8 +782,8 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Chartreuse",
-            "price": 14.29,
+            "name": "Aquavit",
+            "price": 14.76,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -791,36 +791,36 @@ export const florencegrandGrillMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chambord",
-            "price": 13.06,
+            "name": "Brandy",
+            "price": 14.21,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Galliano",
-            "price": 16.2,
-            "isVegetarian": false,
+            "name": "Kahlúa",
+            "price": 10.67,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Absinthe",
-            "price": 12.93,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Campari",
+            "price": 11.03,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frangelico",
-            "price": 11.49,
-            "isVegetarian": false,
+            "name": "Midori",
+            "price": 11.87,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,

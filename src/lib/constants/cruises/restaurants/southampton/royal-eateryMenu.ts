@@ -12,8 +12,8 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Handcrafted Spicy Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 27.24,
+            "name": "Classic Crunchy Award-Winning Seafood Boil",
+            "price": 33.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -21,35 +21,8 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Sautéed Heritage Recipe Lamb Shank",
-            "price": 24.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Mouthwatering Sous Vide Perfected Wagyu",
-            "price": 25.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Flaky Seasonal Tasting Menu Experience",
-            "price": 33.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Pan-seared 24-Hour Braised Short Ribs",
-            "price": 26.47,
+            "name": "Authentic Luscious Seasonal Tasting Platter",
+            "price": 33.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -57,18 +30,45 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "House Special Marinated Whole Roasted Heritage Chicken",
-            "price": 28.03,
+            "name": "Deluxe Spiced Charcoal Grilled Iberico Pork",
+            "price": 37.04,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Fresh Marinated Traditional Family Paella",
-            "price": 30.11,
+            "name": "Hearty Pan-seared Seasonal Tasting Menu Experience",
+            "price": 36.49,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Flavorful Legendary Prime Rib",
+            "price": 36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Spiced Dry-Aged Tomahawk Steak",
+            "price": 36.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Tangy Secret Recipe Bouillabaisse",
+            "price": 26.41,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -80,49 +80,49 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Hearty Creamy Special Occasion Celebratory Dish",
-            "price": 32.08,
+            "name": "Seasonal Irresistible Braised Short Ribs with Red Wine Sauce",
+            "price": 37.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Mouthwatering Roasted Quail with Truffle Jus",
+            "price": 33.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Marinated Dry-Aged Prime Beef Selection",
+            "price": 26.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Creamy Locally Foraged Mushroom Selection",
+            "price": 34.41,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Smoked Black Garlic Marinated Octopus",
-            "price": 30.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Mouthwatering Duck Confit with Roasted Root Vegetables",
-            "price": 31.78,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Succulent Sustainable Seafood Tower",
-            "price": 39.76,
-            "isVegetarian": false,
+            "name": "Fresh Creamy Hand-Selected Wine Pairing Experience",
+            "price": 36.51,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Golden Sous Vide Pork Tenderloin",
-            "price": 38.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
@@ -130,26 +130,17 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Classic Sweet Mini Crab Cakes",
-            "price": 11.95,
+            "name": "Homestyle Smoked Arancini",
+            "price": 11.45,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Spicy Mini Empanadas",
-            "price": 9.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Pan-seared Mozzarella Sticks",
-            "price": 10.9,
+            "name": "Handcrafted Roasted Cheese Nachos",
+            "price": 10.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,49 +148,58 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Delicious Potato Skins",
-            "price": 15.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Pan-seared Bruschetta",
-            "price": 14.4,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Spicy Mini Sliders",
-            "price": 14.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Herbed Mini Tacos",
-            "price": 9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Golden Meatballs",
-            "price": 8.09,
+            "name": "House Special Zingy Meatballs",
+            "price": 13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Premium Creamy Bruschetta",
+            "price": 13.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Zesty Chicken Satay",
+            "price": 11.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Pan-seared Cheese Platter",
+            "price": 9.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Braised Tempura",
+            "price": 10.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Succulent Caprese Salad",
+            "price": 10.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -207,38 +207,38 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Gourmet Spicy Beef Stew",
-            "price": 8.43,
-            "isVegetarian": false,
+            "name": "Handcrafted Zesty Split Pea Soup",
+            "price": 11.15,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Stuffed Gumbo",
-            "price": 7.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Aromatic Gazpacho",
-            "price": 8.28,
+            "name": "Gourmet Sizzling Clam Chowder",
+            "price": 8.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Spicy Mushroom Soup",
+            "price": 12.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Aromatic Tortilla Soup",
-            "price": 8.32,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Premium Savory Black Bean Soup",
+            "price": 8.11,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -248,35 +248,26 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Tabbouleh",
-            "price": 9.45,
+            "name": "Waldorf Salad",
+            "price": 11.97,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cucumber Salad",
-            "price": 10.07,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Pear and Gorgonzola Salad",
-            "price": 13.49,
-            "isVegetarian": true,
-            "isVegan": false,
+            "price": 14.58,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Garden Salad",
-            "price": 15.66,
+            "name": "Tabbouleh",
+            "price": 14.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -284,11 +275,20 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Greek Salad",
-            "price": 9.54,
-            "isVegetarian": true,
+            "name": "Fruit Salad",
+            "price": 9.56,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Arugula Salad",
+            "price": 15.51,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -298,8 +298,8 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Authentic Grilled Lamb Chops",
-            "price": 26.06,
+            "name": "House Special Golden Jambalaya",
+            "price": 22.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,17 +307,8 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Sweet Currywurst",
-            "price": 30.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Smoked Steak",
-            "price": 24.39,
+            "name": "Seasonal Aromatic Shish Kebabs",
+            "price": 28.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -325,17 +316,8 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Smoked Vegetable Stir-Fry",
-            "price": 25.58,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Roasted Risotto",
-            "price": 27.2,
+            "name": "Gourmet Appetizing Lamb Chops",
+            "price": 21.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -343,30 +325,48 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Tangy Ramen",
-            "price": 28.47,
+            "name": "Fresh Golden Mac and Cheese",
+            "price": 20.44,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Appetizing Biryani",
-            "price": 25.62,
-            "isVegetarian": false,
+            "name": "Classic Steamed Tagine",
+            "price": 25.88,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Grilled Roast Duck",
-            "price": 23.84,
+            "name": "Fresh Steamed Korma",
+            "price": 19.77,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Stuffed Pesto Pasta",
+            "price": 19.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Tender Biryani",
+            "price": 30.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -375,8 +375,8 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Homestyle Enticing Grilled Spanish Octopus with Smoked Paprika",
-            "price": 30.77,
+            "name": "Homestyle Herbed Seafood Alfredo with Spinach Fettuccine",
+            "price": 28.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,17 +384,17 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Irresistible Pan-Seared Scallops with Pea Purée",
-            "price": 25.56,
+            "name": "Authentic Smoked Blackened Mahi-Mahi with Pineapple Salsa",
+            "price": 26.13,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Hearty Smoked Sushi-Grade Sashimi Platter",
-            "price": 31.04,
+            "name": "Homestyle Roasted Maryland Style Crab Cakes",
+            "price": 29.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -402,17 +402,17 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Mouthwatering Shrimp Scampi over Linguine",
-            "price": 25.59,
+            "name": "House Special Sizzling Cedar Plank Roasted Salmon",
+            "price": 26.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Authentic Mouthwatering Baked Cod with Lemon Caper Sauce",
-            "price": 28.9,
+            "name": "Hearty Wholesome Shrimp Scampi over Linguine",
+            "price": 25.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,8 +425,8 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Traditional Braised Grilled Asparagus with Lemon Zest",
-            "price": 8.28,
+            "name": "Handcrafted Stuffed Herbed Bulgur Wheat with Lemon",
+            "price": 8.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,17 +434,8 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Wholesome Sweet Corn and Cheddar Fritters",
-            "price": 5.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Grilled Stuffed Bell Peppers with Brown Rice",
-            "price": 6.83,
+            "name": "House Special Irresistible Baked Idaho Potato with Sour Cream",
+            "price": 7.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -452,8 +443,8 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Mouthwatering Roasted Root Vegetables",
-            "price": 6.26,
+            "name": "Organic Mouthwatering Roasted Root Vegetables",
+            "price": 6.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -461,8 +452,8 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Spiced Wild Mushroom Risotto",
-            "price": 9.37,
+            "name": "Seasonal Irresistible Mashed Potatoes",
+            "price": 5.09,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -470,10 +461,19 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Stuffed Mashed Potatoes",
-            "price": 9.44,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Premium Grilled Yukon Gold Potato Gratin",
+            "price": 5.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Exquisite Warm Buttermilk Dinner Rolls",
+            "price": 5.58,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -485,7 +485,16 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Coffee",
-            "price": 6.52,
+            "price": 5.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 6.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -493,26 +502,8 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 5.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soda",
-            "price": 5.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 7.94,
+            "name": "Hot Chocolate",
+            "price": 5.73,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -520,18 +511,27 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lemonade",
-            "price": 5.91,
+            "name": "Iced Tea",
+            "price": 7.85,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hot Chocolate",
-            "price": 6.14,
+            "name": "Soda",
+            "price": 5.9,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 4.6,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -549,26 +549,8 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Chocolate Chip Cookies",
-            "price": 10.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Apple Pie",
-            "price": 9.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Scones",
-            "price": 9.48,
+            "name": "Soufflé",
+            "price": 9.22,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -576,8 +558,8 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lemon Bars",
-            "price": 9.84,
+            "name": "Baklava",
+            "price": 9.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -585,10 +567,28 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Carrot Cake",
-            "price": 10.16,
+            "name": "Banana Bread",
+            "price": 8.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Madeleines",
+            "price": 8.96,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Portuguese Custard Tarts",
+            "price": 6.15,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -599,17 +599,8 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Custard",
-            "price": 7.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Frozen Yogurt",
-            "price": 9.66,
+            "price": 9.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -617,8 +608,8 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ice Cream Cake",
-            "price": 7.42,
+            "name": "Frozen Custard",
+            "price": 7.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -626,18 +617,27 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Pudding",
-            "price": 9.94,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Baked Alaska",
+            "price": 9.98,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Semifreddo",
-            "price": 8.81,
+            "name": "Ice Cream Sandwich",
+            "price": 10.6,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Fruit Bars",
+            "price": 7.85,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -655,35 +655,8 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Cosmopolitan",
-            "price": 13.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 11.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 14.83,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Mojito",
-            "price": 13.9,
+            "price": 14.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -692,28 +665,55 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Manhattan",
-            "price": 15.38,
-            "isVegetarian": false,
+            "price": 14.46,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 11.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Negroni",
-            "price": 14.65,
+            "price": 13.79,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 13.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 14.21,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 12.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 10.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,35 +723,8 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Roussanne",
-            "price": 13.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Noir",
-            "price": 12.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fiano",
-            "price": 12.73,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Viognier",
-            "price": 9.26,
+            "price": 12.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -759,8 +732,8 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Riesling",
-            "price": 9.08,
+            "name": "Sémillon",
+            "price": 9.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -768,9 +741,36 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Nebbiolo",
-            "price": 13.45,
+            "name": "Sangiovese",
+            "price": 9.8,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vermentino",
+            "price": 10.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Moscato",
+            "price": 11.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vouvray",
+            "price": 10.96,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -782,26 +782,17 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Kahlúa",
-            "price": 11.11,
-            "isVegetarian": false,
+            "name": "Rum",
+            "price": 11.13,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Aquavit",
-            "price": 15.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grand Marnier",
-            "price": 13.54,
+            "name": "Tequila",
+            "price": 12.85,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -810,7 +801,7 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Limoncello",
-            "price": 10.84,
+            "price": 10.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -818,9 +809,18 @@ export const southamptonroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Bénédictine",
-            "price": 16.1,
+            "name": "Pisco",
+            "price": 17.02,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Aquavit",
+            "price": 12.55,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

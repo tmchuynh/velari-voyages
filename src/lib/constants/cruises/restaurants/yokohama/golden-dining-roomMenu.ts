@@ -12,8 +12,8 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "House Special Golden Traditional Family Paella",
-            "price": 24.23,
+            "name": "House Special Creamy Legendary Prime Rib",
+            "price": 37.7,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -21,44 +21,35 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Crunchy Restaurant's Namesake Signature Entrée",
-            "price": 28.32,
+            "name": "Classic Flaky Charcoal Grilled Iberico Pork",
+            "price": 35.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Seasonal Comforting Dry-Aged Tomahawk Steak",
-            "price": 31.2,
+            "name": "Hearty Delicious Traditional Family Paella",
+            "price": 26.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Classic Baked Whole Roasted Heritage Chicken",
-            "price": 28.35,
+            "name": "Deluxe Sweet House Famous Duck Confit",
+            "price": 24.6,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Classic Grilled Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 35.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Satisfying Seasonal Tasting Platter",
-            "price": 36.28,
+            "name": "House Special Creamy Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 25.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -66,8 +57,17 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Herbed Age-Old Recipe Osso Buco with Gremolata",
-            "price": 36.36,
+            "name": "House Special Spiced Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 24.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Tangy Seasonal Tasting Platter",
+            "price": 37.16,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -80,8 +80,8 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Homestyle Creamy Braised Short Ribs with Red Wine Sauce",
-            "price": 31.25,
+            "name": "Deluxe Smoked Freshly Harvested Seasonal Creation",
+            "price": 37.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -89,39 +89,39 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Sweet Collaborative Limited Edition Special",
-            "price": 39.64,
-            "isVegetarian": true,
+            "name": "Traditional Pan-seared Fusion of Traditional and Modern Techniques",
+            "price": 34.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Smoked Custom Tasting Menu Based on Guest Preferences",
+            "price": 31.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Hearty Whole Animal Butchery Showcase",
+            "price": 29.22,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Herbed Custom Tasting Menu Based on Guest Preferences",
-            "price": 32.53,
+            "name": "Fresh Grilled Chef's Market Inspiration of the Day",
+            "price": 35.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Zesty Tasting of Local Artisanal Cheeses",
-            "price": 29.21,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Spicy Chef's Tasting Menu Experience",
-            "price": 31.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -130,8 +130,8 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Organic Mouthwatering Chicken Wings",
-            "price": 13.03,
+            "name": "Gourmet Smoked Shrimp Cocktail",
+            "price": 13.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -139,35 +139,8 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Crunchy Meatballs",
-            "price": 14.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Sautéed Spring Rolls",
-            "price": 13.39,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Mouthwatering Antipasto Platter",
-            "price": 8.64,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Hearty Arancini",
-            "price": 8.56,
+            "name": "Hearty Sautéed Cheese Platter",
+            "price": 11.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -175,17 +148,17 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Herbed Calamari",
-            "price": 10.22,
+            "name": "Authentic Mouthwatering Stuffed Avocado",
+            "price": 12.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Seasonal Tender Ceviche",
-            "price": 12.81,
+            "name": "Deluxe Spiced Potato Skins",
+            "price": 15.34,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -193,11 +166,38 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Roasted Sweet Potato Fries",
-            "price": 13.79,
+            "name": "Gourmet Delicious Antipasto Platter",
+            "price": 13.97,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Zesty Falafel",
+            "price": 9.31,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Aromatic Mini Empanadas",
+            "price": 9.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Sweet Arancini",
+            "price": 8.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -207,8 +207,8 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Handcrafted Zesty Chicken Corn Soup",
-            "price": 8.39,
+            "name": "Authentic Sweet Avgolemono (Greek Lemon Soup)",
+            "price": 9.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -216,17 +216,8 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Grilled Zuppa Toscana",
-            "price": 7.36,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Stuffed Clam Chowder",
-            "price": 11.27,
+            "name": "Gourmet Marinated Miso Soup",
+            "price": 11.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -234,8 +225,17 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Braised Beef Stew",
-            "price": 10.97,
+            "name": "Handcrafted Fried Black Bean Soup",
+            "price": 8.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Sizzling Butternut Squash Soup",
+            "price": 12.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -248,17 +248,8 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Pasta Salad",
-            "price": 13.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Caesar Salad",
-            "price": 10.87,
+            "price": 12.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -266,8 +257,26 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garden Salad",
-            "price": 9.28,
+            "name": "Roasted Vegetable Salad",
+            "price": 14.59,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Broccoli Crunch Salad",
+            "price": 15.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Avocado Corn Salad",
+            "price": 9.93,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -275,17 +284,8 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Caprese Salad",
-            "price": 14.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Greek Salad",
-            "price": 15.7,
+            "name": "Chickpea Salad",
+            "price": 12.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -298,17 +298,17 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Authentic Zingy Katsu Curry",
-            "price": 24.94,
+            "name": "Traditional Aromatic Fish and Chips",
+            "price": 20.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Authentic Sizzling Stuffed Zucchini Boats",
-            "price": 30.58,
+            "name": "Traditional Stuffed Lamb Chops",
+            "price": 26.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -316,17 +316,8 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Flavorful Lamb Chops",
-            "price": 28.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Tender Teriyaki Chicken",
-            "price": 26.93,
+            "name": "Traditional Tangy Teriyaki Chicken",
+            "price": 26.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -334,17 +325,35 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Enticing Pasta Primavera",
-            "price": 24.24,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Premium Delectable Lentil Stew",
+            "price": 20.72,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Zesty Pulled Pork Sandwich",
-            "price": 23.2,
+            "name": "Authentic Crispy Currywurst",
+            "price": 23.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Creamy Korma",
+            "price": 29.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Crunchy Grilled Tofu",
+            "price": 24.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -352,22 +361,13 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Comforting Lentil Stew",
-            "price": 18.38,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Aromatic Beef Burger",
-            "price": 24.66,
+            "name": "Authentic Zesty Salmon",
+            "price": 27.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -375,35 +375,26 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Authentic Fried Traditional Provençal Bouillabaisse",
-            "price": 35.12,
+            "name": "House Special Succulent Prawn Curry in Coconut Masala",
+            "price": 27.05,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Baked Basa Fillet with Dill Cream Sauce",
+            "price": 30.24,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Delectable Oysters Rockefeller with Pernod Cream",
-            "price": 32.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Grilled Grilled Lobster with Lemon Butter",
-            "price": 33.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Pan-seared Smoked Salmon Platter with Dill Crème",
-            "price": 26.07,
+            "name": "Traditional Sweet Cedar Plank Roasted Salmon",
+            "price": 25.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -411,8 +402,17 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Sweet Tempura Soft Shell Crab",
-            "price": 23.08,
+            "name": "Homestyle Zingy Steamed Littleneck Clams in Garlic Broth",
+            "price": 24.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Crispy Lobster Thermidor with Gruyère Crust",
+            "price": 31.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,17 +425,8 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "House Special Delicious Homestyle Baked Beans",
-            "price": 5.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Spiced Charred Broccolini with Garlic Oil",
-            "price": 5.31,
+            "name": "Organic Irresistible Green Beans Almondine",
+            "price": 9.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -443,17 +434,8 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Sizzling Yukon Gold Potato Gratin",
-            "price": 8.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Spiced Roasted Root Vegetables",
-            "price": 5.53,
+            "name": "House Special Smoked Scalloped Potatoes with Thyme",
+            "price": 6.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -461,20 +443,38 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Zesty Soft Polenta with Parmesan",
-            "price": 6.7,
-            "isVegetarian": true,
+            "name": "Authentic Sizzling Maple-Glazed Baby Carrots",
+            "price": 6.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Steamed Truffle Parmesan Fries",
+            "price": 6.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Herbed Steamed Jasmine Rice",
+            "price": 5.64,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Smoked Steamed Jasmine Rice",
-            "price": 7.76,
-            "isVegetarian": true,
+            "name": "Fresh Delicious Creamy Colcannon (Irish Potato Mash)",
+            "price": 5.14,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -484,8 +484,8 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Milkshake",
-            "price": 5.1,
+            "name": "Iced Tea",
+            "price": 5.96,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -493,8 +493,26 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Juice",
-            "price": 6.67,
+            "name": "Hot Chocolate",
+            "price": 5.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 7.28,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 7.4,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -502,17 +520,8 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 5.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 4.94,
+            "name": "Soda",
+            "price": 7.13,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -520,18 +529,9 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Water",
-            "price": 7.74,
+            "name": "Smoothie",
+            "price": 4.93,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 6.15,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -549,8 +549,35 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Brownies",
-            "price": 6.11,
+            "name": "Berry Tart",
+            "price": 10.41,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Danish Pastries",
+            "price": 6.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Banana Bread",
+            "price": 8.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baklava",
+            "price": 9.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -559,35 +586,8 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
           },
           {
             "name": "Crumb Cake",
-            "price": 9.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fruit Galette",
-            "price": 7.34,
+            "price": 10.32,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Eclairs",
-            "price": 8.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Scones",
-            "price": 8.15,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -599,17 +599,8 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Mousse",
-            "price": 9.52,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Popsicles",
-            "price": 11.54,
+            "name": "Ice Cream Sandwich",
+            "price": 11.5,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -617,17 +608,8 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Fruit Bars",
-            "price": 11.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Frozen Pie",
-            "price": 9.88,
+            "price": 11.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -635,11 +617,29 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ice Cream Sandwich",
-            "price": 9.69,
-            "isVegetarian": true,
+            "name": "Popsicles",
+            "price": 10.11,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Yogurt",
+            "price": 9.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Mousse",
+            "price": 10.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -655,64 +655,64 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Old Fashioned",
-            "price": 10.94,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 13.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 10.12,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 12.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 12.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Martini",
-            "price": 15.01,
+            "price": 10.21,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 11.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 13.53,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Bloody Mary",
-            "price": 11.45,
+            "price": 13.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 11.18,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 15.7,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 14.73,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -723,34 +723,7 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Vouvray",
-            "price": 10.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Grigio",
-            "price": 13.78,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chardonnay",
-            "price": 8.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Petit Verdot",
+            "name": "Cabernet Sauvignon",
             "price": 12.47,
             "isVegetarian": false,
             "isVegan": false,
@@ -759,8 +732,26 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pinot Noir",
-            "price": 10.66,
+            "name": "Chardonnay",
+            "price": 11.35,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Blanc",
+            "price": 8.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vermentino",
+            "price": 13.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -768,11 +759,20 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Albariño",
-            "price": 10.47,
-            "isVegetarian": false,
+            "name": "Viognier",
+            "price": 8.11,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chenin Blanc",
+            "price": 13.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -782,35 +782,26 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Tequila",
-            "price": 15.88,
+            "name": "Coffee Liqueur",
+            "price": 11.27,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vodka",
-            "price": 16.44,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Calvados",
-            "price": 16.35,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "name": "Rum",
+            "price": 16.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mezcal",
-            "price": 11.7,
+            "name": "Triple Sec",
+            "price": 16.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -818,9 +809,18 @@ export const yokohamagoldenDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chartreuse",
-            "price": 10.04,
+            "name": "Campari",
+            "price": 12.39,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pisco",
+            "price": 15.85,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

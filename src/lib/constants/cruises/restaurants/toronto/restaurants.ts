@@ -186,5 +186,160 @@ export const torontoRestaurants: Restaurant[] = [
     "isReservationsAccepted": false,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Canadian Snack Bar",
+    "description": "A charming Canadian restaurant near Lake Ontario, offering Toronto peameal bacon sandwich and other local favorites in a setting with historic victorian buildings.",
+    "cuisine": "Canadian",
+    "priceRange": "$$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "Closed",
+      "thursday": "9:00-21:00",
+      "friday": "Closed",
+      "saturday": "9:00-21:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-171-2116",
+      "contactEmail": "info@canadiantoronto.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Hockey Bistro",
+    "description": "Experience authentic Italian cuisine with a local twist, featuring Toronto peameal bacon sandwich served in an atmosphere of lake views overlooking Royal Ontario Museum.",
+    "cuisine": "Italian",
+    "priceRange": "$$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "Closed",
+      "friday": "Closed",
+      "saturday": "9:00-22:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-677-6837",
+      "contactEmail": "info@italiantoronto.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Toronto Taproom",
+    "description": "Located close to Distillery District, this Japanese restaurant delights with its Ontario wines and lake views.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "Closed",
+      "thursday": "11:00-21:00",
+      "friday": "10:00-20:00",
+      "saturday": "9:00-19:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-102-1821",
+      "contactEmail": "info@japanesetoronto.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Toronto Fish House",
+    "description": "A charming Canadian restaurant near CN Tower, offering butter tarts and other local favorites in a setting with lake views.",
+    "cuisine": "Canadian",
+    "priceRange": "$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "9:00-19:00",
+      "friday": "11:00-20:00",
+      "saturday": "11:00-21:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-416-7000",
+      "contactEmail": "info@canadiantoronto.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Maple Osteria",
+    "description": "Located close to Royal Ontario Museum, this Indian restaurant delights with its craft beer and historic victorian buildings.",
+    "cuisine": "Indian",
+    "priceRange": "$$$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "9:00-21:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "Closed",
+      "friday": "11:00-20:00",
+      "saturday": "9:00-21:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-164-6120",
+      "contactEmail": "info@indiantoronto.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
   }
 ];

@@ -12,35 +12,26 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Seasonal Creamy Chef’s Wild Game Selection",
-            "price": 27.64,
-            "isVegetarian": false,
+            "name": "Classic Braised Chef's Special Surf and Turf",
+            "price": 24.18,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Delicious Captain's Favorite Seafood Tower",
-            "price": 33.32,
+            "name": "Homestyle Creamy House Famous Duck Confit",
+            "price": 28.1,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Comforting Signature Truffle Pasta with Aged Pecorino",
-            "price": 31.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Smoked Founder's Family Recipe Pasta",
-            "price": 34.49,
+            "name": "Hearty Appetizing Secret Recipe Bouillabaisse",
+            "price": 27.27,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -48,17 +39,8 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Enticing Age-Old Recipe Osso Buco with Gremolata",
-            "price": 28.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Creamy Heritage Recipe Lamb Shank",
-            "price": 34.81,
+            "name": "Traditional Satisfying Wood-Fired Peking Duck with Plum Sauce",
+            "price": 29.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -66,13 +48,31 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Spicy Molecular Gastronomy Showcase Tasting",
-            "price": 33.74,
+            "name": "Fresh Herbed Seasonal Tasting Menu Experience",
+            "price": 33.37,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Seasonal Grilled Heritage Recipe Lamb Shank",
+            "price": 31.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Irresistible Award-Winning Seafood Boil",
+            "price": 26.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -80,35 +80,26 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Deluxe Roasted Grilled Venison with Juniper Berry Sauce",
-            "price": 27.8,
+            "name": "Homestyle Satisfying High-End Ingredient Showcase",
+            "price": 28.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Hearty Lobster Thermidor",
+            "price": 36.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Handcrafted Steamed Locally Foraged Mushroom Selection",
-            "price": 28.47,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Creamy Miso-Glazed Black Cod",
-            "price": 30.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Braised Gourmet Vegetarian Wellington",
-            "price": 35.9,
+            "name": "Deluxe Baked Chef's Market Inspiration of the Day",
+            "price": 35.14,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -116,9 +107,18 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Crunchy Tasting of Local Artisanal Cheeses",
-            "price": 37.67,
+            "name": "Classic Luscious Pan-Seared Scallops with Citrus Beurre Blanc",
+            "price": 28.15,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Grilled Seasonal Farm-to-Table Vegetable Plate",
+            "price": 36.99,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -130,17 +130,17 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Gourmet Smoked Tzatziki with Pita",
-            "price": 12.32,
-            "isVegetarian": true,
+            "name": "Seasonal Luscious Stuffed Avocado",
+            "price": 14.05,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Tangy Potato Skins",
-            "price": 11.37,
+            "name": "Authentic Grilled Spinach Artichoke Dip",
+            "price": 12.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -148,8 +148,8 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seasonal Pan-seared Ceviche",
-            "price": 9.78,
+            "name": "Homestyle Sweet Lettuce Wraps",
+            "price": 14.67,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -157,8 +157,26 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Delicious Spring Rolls",
-            "price": 13.38,
+            "name": "Authentic Succulent Spinach Puffs",
+            "price": 11.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Tangy Calamari",
+            "price": 10.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Aromatic Bruschetta",
+            "price": 14.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -166,39 +184,21 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Tender Calamari",
-            "price": 12,
+            "name": "Authentic Tangy Samosas",
+            "price": 12.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Classic Aromatic Dumplings",
-            "price": 11.09,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Spiced Arancini",
-            "price": 14.47,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Savory Bruschetta",
-            "price": 15.61,
+            "name": "Authentic Luscious Dumplings",
+            "price": 14.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -207,35 +207,35 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Traditional Juicy Gazpacho",
-            "price": 10.36,
-            "isVegetarian": true,
+            "name": "Authentic Creamy Mushroom Soup",
+            "price": 11.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Satisfying Tomato Soup",
+            "price": 13.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Grilled Pumpkin Soup",
+            "price": 12.32,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Golden Hot and Sour Soup",
-            "price": 12.42,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Spicy Black Bean Soup",
-            "price": 8.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Aromatic Tortilla Soup",
-            "price": 9.11,
+            "name": "Fresh Zesty Hot and Sour Soup",
+            "price": 13.86,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -248,17 +248,26 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Cobb Salad",
-            "price": 10.92,
-            "isVegetarian": true,
+            "name": "Nicoise Salad",
+            "price": 11.19,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Potato Salad",
-            "price": 10.32,
+            "name": "Caesar Salad",
+            "price": 15.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Avocado Corn Salad",
+            "price": 11.84,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -266,29 +275,20 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Apple Pecan Salad",
-            "price": 13.34,
-            "isVegetarian": true,
+            "name": "Coleslaw",
+            "price": 11.45,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Avocado Corn Salad",
-            "price": 15.37,
+            "name": "Mediterranean Chopped Salad",
+            "price": 9.3,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 10.2,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -298,8 +298,8 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Premium Crispy Steak",
-            "price": 18.99,
+            "name": "Authentic Satisfying Fajitas",
+            "price": 28.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,8 +307,53 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Juicy Currywurst",
-            "price": 29.05,
+            "name": "Hearty Herbed Salmon",
+            "price": 22.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Steamed Stir-fry",
+            "price": 19.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Tangy Shish Kebabs",
+            "price": 27.3,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Crispy Biryani",
+            "price": 20.23,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Delicious Vegetable Stir-Fry",
+            "price": 20.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Sautéed Thai Curry",
+            "price": 30.43,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -316,57 +361,12 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Stuffed Grilled Chicken",
-            "price": 25.89,
+            "name": "Authentic Irresistible Stuffed Peppers",
+            "price": 26.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Grilled Burrito",
-            "price": 24.91,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Mouthwatering Ramen",
-            "price": 26.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Marinated Pesto Pasta",
-            "price": 22.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Enticing Mac and Cheese",
-            "price": 18.15,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Crunchy Biryani",
-            "price": 21.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -375,35 +375,8 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Seasonal Comforting Cajun Shrimp and Grits",
-            "price": 24.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Sweet Grilled Spanish Octopus with Smoked Paprika",
-            "price": 27.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Golden Steamed Littleneck Clams in Garlic Broth",
-            "price": 28.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Herbed Linguine with Clam Sauce",
-            "price": 24.74,
+            "name": "Handcrafted Roasted Maryland Style Crab Cakes",
+            "price": 31.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -411,13 +384,40 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Comforting Valencian Seafood Paella",
-            "price": 34,
+            "name": "Premium Pan-seared Grilled Spanish Octopus with Smoked Paprika",
+            "price": 31.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Spicy Cajun Shrimp and Grits",
+            "price": 32.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Smoked Grilled Lobster with Lemon Butter",
+            "price": 30.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Handcrafted Marinated Shrimp Scampi over Linguine",
+            "price": 31.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -425,56 +425,56 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Seasonal Flaky Fragrant Basmati Rice Pilaf",
-            "price": 5.93,
+            "name": "Handcrafted Grilled Israeli Couscous with Roasted Tomatoes",
+            "price": 7.79,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Zingy Wild Mushroom Risotto",
+            "price": 9.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Grilled Creamed Spinach with Nutmeg",
+            "price": 9.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Crunchy Braised Red Cabbage with Apple",
+            "price": 8.95,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Sweet Sautéed Garlic Mushrooms",
-            "price": 9.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Sizzling Crispy Beer-Battered Onion Rings",
-            "price": 7.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Flaky Buttered Egg Noodles",
-            "price": 9.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Marinated Roasted Root Vegetables",
-            "price": 8.75,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Zingy Maple-Glazed Baby Carrots",
-            "price": 5.92,
+            "name": "Organic Zingy Green Beans Almondine",
+            "price": 7.02,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Wholesome Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 6.88,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -484,56 +484,56 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
+            "name": "Coffee",
+            "price": 5.26,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Lemonade",
-            "price": 7.36,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 7.54,
+            "price": 7.79,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 7.76,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 6.97,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 6.71,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Hot Chocolate",
-            "price": 4.28,
+            "price": 4.42,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 5.71,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 5.5,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 6.91,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,8 +549,8 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Cinnamon Rolls",
-            "price": 7.86,
+            "name": "Apple Pie",
+            "price": 10.41,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -558,8 +558,8 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pecan Pie",
-            "price": 8.36,
+            "name": "Crumb Cake",
+            "price": 8.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -567,8 +567,8 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Berry Tart",
-            "price": 9.68,
+            "name": "Danish Pastries",
+            "price": 7.72,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -576,8 +576,8 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fruit Galette",
-            "price": 7.12,
+            "name": "Strawberry Shortcake",
+            "price": 8.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -585,11 +585,11 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tiramisu",
-            "price": 6.55,
+            "name": "Muffins",
+            "price": 6.28,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -599,44 +599,44 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Sorbet",
-            "price": 10.13,
+            "name": "Paletas",
+            "price": 10.26,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Ice Cream",
-            "price": 7.6,
-            "isVegetarian": false,
+            "price": 11.23,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sherbet",
-            "price": 10.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gelato",
-            "price": 7.75,
-            "isVegetarian": false,
+            "name": "Ice Cream Sandwich",
+            "price": 11.9,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Fruit Bars",
-            "price": 9.28,
+            "name": "Sherbet",
+            "price": 8.59,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Banana",
+            "price": 7.28,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -655,35 +655,17 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Martini",
-            "price": 14.12,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Mojito",
-            "price": 10.91,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 13.21,
-            "isVegetarian": false,
+            "price": 12.79,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 11.1,
+            "name": "Cosmopolitan",
+            "price": 14.5,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -691,8 +673,8 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 12.97,
+            "name": "Martini",
+            "price": 14.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -701,7 +683,25 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Whiskey Sour",
-            "price": 15.44,
+            "price": 12.49,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 14.03,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 14.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -709,9 +709,9 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 10.27,
-            "isVegetarian": false,
+            "name": "Negroni",
+            "price": 11.43,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -723,8 +723,8 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Vermentino",
-            "price": 10.62,
+            "name": "Tempranillo",
+            "price": 11.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -732,35 +732,35 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Zinfandel",
-            "price": 12.96,
+            "name": "Mourvèdre",
+            "price": 10.08,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Dolcetto",
-            "price": 11.84,
-            "isVegetarian": false,
+            "name": "Pinot Grigio",
+            "price": 8.19,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Syrah/Shiraz",
-            "price": 12.97,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "name": "Roussanne",
+            "price": 8.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sangiovese",
-            "price": 11.05,
+            "name": "Dolcetto",
+            "price": 9.09,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -768,10 +768,10 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grenache",
-            "price": 12.53,
+            "name": "Sangiovese",
+            "price": 8.14,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -782,8 +782,8 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Brandy",
-            "price": 13.45,
+            "name": "Tequila",
+            "price": 17.75,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -791,17 +791,17 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pisco",
-            "price": 14.19,
-            "isVegetarian": true,
+            "name": "Mezcal",
+            "price": 17.75,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Galliano",
-            "price": 17.3,
+            "name": "Rum",
+            "price": 16.37,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -809,19 +809,19 @@ export const tokyosakuraGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grand Marnier",
-            "price": 16.13,
+            "name": "Bourbon",
+            "price": 15.77,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bénédictine",
-            "price": 13.03,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Gin",
+            "price": 13.4,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true

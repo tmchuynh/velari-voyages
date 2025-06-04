@@ -12,8 +12,44 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Deluxe Tender Heritage Recipe Lamb Shank",
-            "price": 26.22,
+            "name": "Authentic Pan-seared Flambéed Tableside Specialty",
+            "price": 26.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Sautéed Whole Roasted Heritage Chicken",
+            "price": 32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Aromatic Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 31.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Enticing Secret Recipe Bouillabaisse",
+            "price": 32.67,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sizzling Legendary Prime Rib",
+            "price": 28.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -21,53 +57,17 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Organic Flavorful Chef's Special Surf and Turf",
-            "price": 33.83,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Satisfying Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 34.83,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Spiced Restaurant's Namesake Signature Entrée",
-            "price": 24.37,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Golden Executive Chef's Daily Inspiration Entrée",
-            "price": 30.98,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Tender Local Bounty Harvest Plate (Vegetarian)",
-            "price": 33.27,
+            "name": "House Special Grilled Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 34.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "House Special Creamy Traditional Family Paella",
-            "price": 36.41,
+            "name": "Hearty Spiced Founder's Family Recipe Pasta",
+            "price": 31.3,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -80,8 +80,8 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Fresh Crispy Special Occasion Celebratory Dish",
-            "price": 34.98,
+            "name": "Premium Grilled Modern Interpretation of Regional Classic",
+            "price": 25.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -89,26 +89,17 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Flaky Roasted Quail with Truffle Jus",
-            "price": 32.8,
+            "name": "Hearty Crunchy Tasting of Local Artisanal Cheeses",
+            "price": 38.91,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Smoked Collaborative Limited Edition Special",
-            "price": 36.85,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Crispy Deconstructed Classic with Modern Technique",
-            "price": 34.43,
+            "name": "Deluxe Herbed Freshly Harvested Seasonal Creation",
+            "price": 36.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -116,13 +107,22 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Tangy Off-Menu Secret Preparation",
-            "price": 24.52,
+            "name": "Handcrafted Pan-seared Aged and House-Cured Charcuterie Selection",
+            "price": 37.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Sizzling Chef's Tasting Menu Experience",
+            "price": 34.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -130,74 +130,74 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Fresh Herbed Stuffed Avocado",
-            "price": 15.91,
+            "name": "Classic Grilled Falafel",
+            "price": 15.42,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Hearty Crostini",
+            "price": 10.34,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Stuffed Potato Skins",
+            "price": 15.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spiced Cheese Nachos",
+            "price": 15.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Juicy Garlic Bread",
+            "price": 12.62,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Crispy Prawn Cocktail",
-            "price": 9.69,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Creamy Mini Empanadas",
-            "price": 10.46,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Pan-seared Mini Sliders",
-            "price": 14.35,
+            "name": "Seasonal Tangy Tuna Tartare",
+            "price": 8.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Deluxe Irresistible Mini Quesadillas",
-            "price": 11.09,
+            "name": "Authentic Tangy Onion Rings",
+            "price": 10.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Hearty Irresistible Bruschetta",
-            "price": 11.51,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Mouthwatering Garlic Bread",
-            "price": 15.08,
+            "name": "Premium Delicious Baba Ganoush",
+            "price": 8.04,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Crunchy Hummus Platter",
-            "price": 15.84,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -207,8 +207,8 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Homestyle Golden French Onion Soup",
-            "price": 12.25,
+            "name": "Seasonal Creamy Tomato Soup",
+            "price": 9.27,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -216,31 +216,31 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Pan-seared Minestrone",
-            "price": 12.81,
+            "name": "Authentic Aromatic Beef Stew",
+            "price": 13.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Flavorful Italian Wedding Soup",
+            "price": 12.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Herbed Chicken Noodle Soup",
-            "price": 11.75,
+            "name": "Authentic Luscious Chicken Corn Soup",
+            "price": 7.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Tender Butternut Squash Soup",
-            "price": 9.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -248,17 +248,8 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Broccoli Crunch Salad",
-            "price": 12.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mango Avocado Salad",
-            "price": 10.28,
+            "name": "Pasta Salad",
+            "price": 15.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -266,8 +257,17 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 15.61,
+            "name": "Tabbouleh",
+            "price": 14.97,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chickpea Salad",
+            "price": 12.82,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -275,18 +275,18 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Roasted Vegetable Salad",
-            "price": 9.25,
-            "isVegetarian": true,
+            "name": "Beet Salad",
+            "price": 11.1,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Garden Salad",
-            "price": 10.91,
-            "isVegetarian": false,
+            "name": "Coleslaw",
+            "price": 12.94,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -298,17 +298,35 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Classic Steamed Stuffed Peppers",
-            "price": 21.24,
+            "name": "Classic Mouthwatering Steak",
+            "price": 27.82,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Sautéed Grilled Chicken",
+            "price": 24.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Roasted Enchiladas",
+            "price": 28.53,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Delicious Lamb Chops",
-            "price": 31.54,
+            "name": "Authentic Stuffed Stuffed Peppers",
+            "price": 28.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -316,44 +334,17 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Crispy Paella",
-            "price": 22.81,
+            "name": "Gourmet Baked Cottage Pie",
+            "price": 27.75,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Sautéed Pasta Primavera",
-            "price": 22.85,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Roasted Tacos",
-            "price": 23.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Spiced Ramen",
-            "price": 25.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Golden Spaghetti Bolognese",
-            "price": 22.52,
+            "name": "Homestyle Smoked Pasta Primavera",
+            "price": 21.9,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -361,11 +352,20 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Luscious Pho",
-            "price": 21.12,
+            "name": "Hearty Smoked Lamb Chops",
+            "price": 28.53,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Smoked Gnocchi",
+            "price": 20.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -375,8 +375,8 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Homestyle Aromatic Miso-Marinated Chilean Sea Bass",
-            "price": 27.75,
+            "name": "Deluxe Steamed Valencian Seafood Paella",
+            "price": 22.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,26 +384,17 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Deluxe Marinated Grilled Spanish Octopus with Smoked Paprika",
-            "price": 32.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Tangy Smoked Salmon Platter with Dill Crème",
-            "price": 23.57,
+            "name": "Hearty Savory Stuffed Flounder with Crab and Spinach",
+            "price": 25.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Handcrafted Herbed Grilled Lobster with Lemon Butter",
-            "price": 23.95,
+            "name": "Organic Flavorful Shrimp Scampi over Linguine",
+            "price": 31.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -411,12 +402,21 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Tangy Blackened Mahi-Mahi with Pineapple Salsa",
-            "price": 32.91,
+            "name": "Premium Golden Oysters Rockefeller with Pernod Cream",
+            "price": 24.31,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Zingy Seared Tuna Steak with Sesame Crust",
+            "price": 34.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -425,8 +425,8 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Deluxe Juicy Buttered Egg Noodles",
-            "price": 9.1,
+            "name": "Fresh Grilled Baked Idaho Potato with Sour Cream",
+            "price": 9.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,47 +434,47 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Spicy Fragrant Basmati Rice Pilaf",
-            "price": 6.38,
+            "name": "Premium Marinated Fragrant Basmati Rice Pilaf",
+            "price": 8.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Pan-seared Crispy Beer-Battered Onion Rings",
-            "price": 8.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Satisfying Homestyle Baked Beans",
-            "price": 5.71,
+            "name": "Handcrafted Aromatic Maple-Glazed Baby Carrots",
+            "price": 5.77,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Creamy Chili Lime Roasted Chickpeas",
-            "price": 5.25,
+            "name": "Classic Smoked Creamy Colcannon (Irish Potato Mash)",
+            "price": 8.27,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Handcrafted Golden Creamed Spinach with Nutmeg",
-            "price": 9.53,
+            "name": "Organic Spicy Scalloped Potatoes with Thyme",
+            "price": 7.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Aromatic Braised Red Cabbage with Apple",
+            "price": 9.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -484,54 +484,54 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Soda",
-            "price": 6.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 4.79,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 4.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Juice",
-            "price": 5.67,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hot Chocolate",
             "price": 7.32,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Smoothie",
-            "price": 5.32,
+            "price": 7.55,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 4.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 6.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 6.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 6.21,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -549,35 +549,8 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Muffins",
-            "price": 7.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Apple Pie",
-            "price": 8.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baklava",
-            "price": 9.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cinnamon Rolls",
-            "price": 7.91,
+            "name": "Cheesecake",
+            "price": 9.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -586,7 +559,34 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
           },
           {
             "name": "Madeleines",
-            "price": 10.81,
+            "price": 6.71,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Strawberry Shortcake",
+            "price": 7.59,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Muffins",
+            "price": 10.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Berry Tart",
+            "price": 10.65,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,26 +599,17 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Mousse",
-            "price": 8.45,
-            "isVegetarian": false,
+            "name": "Frozen Banana",
+            "price": 8.29,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Ice Cream",
-            "price": 10.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Custard",
-            "price": 11.59,
+            "name": "Popsicles",
+            "price": 11.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -627,7 +618,16 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
           },
           {
             "name": "Frozen Pie",
-            "price": 8.03,
+            "price": 7.46,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Snow Cone",
+            "price": 7.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -635,10 +635,10 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Semifreddo",
+            "name": "Frozen Cheesecake",
             "price": 7.53,
-            "isVegetarian": true,
-            "isVegan": true,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -655,17 +655,8 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Bloody Mary",
-            "price": 14.46,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 11.18,
+            "name": "Whiskey Sour",
+            "price": 11.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -673,9 +664,36 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
+            "name": "Margarita",
+            "price": 10.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Mai Tai",
-            "price": 12.17,
+            "price": 13.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 13.81,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 12,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -683,37 +701,19 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
           },
           {
             "name": "Old Fashioned",
-            "price": 12.17,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 15.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 15.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 11.34,
+            "price": 14.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 15.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,17 +723,17 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Barbera",
-            "price": 12.73,
-            "isVegetarian": false,
+            "name": "Moscato",
+            "price": 10.08,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pinot Grigio",
-            "price": 11.09,
+            "name": "Riesling",
+            "price": 8.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -741,26 +741,26 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grenache",
-            "price": 12.26,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Vermentino",
+            "price": 11.85,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Champagne/Sparkling Wine",
-            "price": 11.11,
+            "name": "Barbera",
+            "price": 13.86,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Prosecco",
-            "price": 9.42,
+            "price": 8.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -768,11 +768,11 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pinot Noir",
-            "price": 9.71,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Cabernet Sauvignon",
+            "price": 10.22,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -782,17 +782,8 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Mezcal",
-            "price": 14.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frangelico",
-            "price": 17.01,
+            "name": "Cognac",
+            "price": 14.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -800,8 +791,8 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Vodka",
-            "price": 15.82,
+            "name": "Bourbon",
+            "price": 16.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -809,8 +800,17 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gin",
-            "price": 16.81,
+            "name": "Baileys Irish Cream",
+            "price": 13.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Armagnac",
+            "price": 12.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -818,11 +818,11 @@ export const fortLauderdalegoldenTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Brandy",
-            "price": 12.99,
+            "name": "Pisco",
+            "price": 10.89,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

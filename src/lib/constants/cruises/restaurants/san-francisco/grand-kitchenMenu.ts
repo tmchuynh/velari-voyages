@@ -12,44 +12,17 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Deluxe Grilled Wood-Fired Peking Duck with Plum Sauce",
-            "price": 31.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Marinated Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 36.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Spicy Captain's Favorite Seafood Tower",
-            "price": 37.33,
+            "name": "Authentic Sweet Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 35.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Premium Tender Whole Roasted Heritage Chicken",
-            "price": 25.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Smoked Seasonal Tasting Platter",
-            "price": 32.54,
+            "name": "Traditional Delectable Japanese A5 Wagyu with Ponzu Butter",
+            "price": 26.26,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -57,49 +30,8 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Mouthwatering Legendary Prime Rib",
-            "price": 33.73,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Aromatic Heritage Recipe Lamb Shank",
-            "price": 33.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Chef's Specials",
-        "items": [
-          {
-            "name": "Seasonal Stuffed Daily Fresh Catch with Seasonal Accompaniments",
-            "price": 32.41,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Flavorful Duck Confit with Roasted Root Vegetables",
-            "price": 26.83,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Enticing Volcanic Stone-Cooked Specialty",
-            "price": 24.91,
+            "name": "Premium Herbed Molecular Gastronomy Showcase Tasting",
+            "price": 37.92,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -107,22 +39,90 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Sweet Lobster Thermidor",
-            "price": 30.17,
+            "name": "Authentic Roasted Executive Chef's Daily Inspiration Entrée",
+            "price": 35.16,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Pan-seared Chef's Special Surf and Turf",
+            "price": 29.9,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Grilled 24-Hour Braised Short Ribs",
+            "price": 35.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Traditional Crunchy Chef's Tasting Menu Experience",
-            "price": 38.39,
+            "name": "Authentic Zingy Celebrity Favorite Lobster Dish",
+            "price": 36.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Fresh Tender Chef's Market Inspiration of the Day",
+            "price": 37.98,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Hearty Succulent Volcanic Stone-Cooked Specialty",
+            "price": 36.39,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Zingy Deconstructed Classic with Modern Technique",
+            "price": 39.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Hearty Locally Foraged Mushroom Selection",
+            "price": 37.78,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Stuffed Black Garlic Marinated Octopus",
+            "price": 33.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -130,8 +130,8 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Seasonal Wholesome Crostini",
-            "price": 9.01,
+            "name": "Seasonal Creamy Sweet Potato Fries",
+            "price": 9.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -139,17 +139,17 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Pan-seared Dumplings",
-            "price": 15.08,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Authentic Steamed Garlic Bread",
+            "price": 10.98,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Homestyle Mouthwatering Hummus Platter",
-            "price": 10.01,
+            "name": "Traditional Wholesome Cheese Nachos",
+            "price": 14.7,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -157,47 +157,47 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Sizzling Lettuce Wraps",
-            "price": 13.6,
+            "name": "Authentic Smoked Mezze Platter",
+            "price": 11.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Grilled Baked Brie",
+            "price": 14.42,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Zingy Nachos",
-            "price": 14.37,
+            "name": "Authentic Steamed Potstickers",
+            "price": 11.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Gourmet Spicy Spring Rolls",
-            "price": 13.99,
-            "isVegetarian": true,
+            "name": "Authentic Mouthwatering Prawn Toast",
+            "price": 9.21,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Zesty Prawn Toast",
-            "price": 15.89,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Exquisite Stuffed Avocado",
-            "price": 13.22,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Irresistible Chicken Wings",
+            "price": 11.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -207,39 +207,39 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Fresh Marinated French Onion Soup",
-            "price": 7.43,
+            "name": "Fresh Mouthwatering Split Pea Soup",
+            "price": 12.42,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Herbed Tomato Soup",
+            "price": 7.46,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Marinated Hot and Sour Soup",
+            "price": 12.27,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Crispy Broccoli Cheddar Soup",
-            "price": 12.85,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Savory Borscht",
-            "price": 7.82,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Stuffed Lobster Bisque",
-            "price": 12.34,
+            "name": "Authentic Spiced Lobster Bisque",
+            "price": 13.84,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": false
           }
         ]
@@ -248,26 +248,17 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Chickpea Salad",
-            "price": 14.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caprese Salad",
-            "price": 15.08,
-            "isVegetarian": false,
+            "name": "Quinoa Salad",
+            "price": 14.89,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cobb Salad",
-            "price": 12.05,
+            "name": "Arugula Salad",
+            "price": 9.91,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -276,16 +267,25 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Apple Pecan Salad",
-            "price": 10.49,
-            "isVegetarian": true,
-            "isVegan": true,
+            "price": 15.72,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Nicoise Salad",
-            "price": 10.26,
+            "name": "Waldorf Salad",
+            "price": 11.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caesar Salad",
+            "price": 13.73,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -298,8 +298,62 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Authentic Spicy Fajitas",
-            "price": 29.71,
+            "name": "Gourmet Savory Enchiladas",
+            "price": 28.05,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Roasted Roast Duck",
+            "price": 18.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Tangy Fajitas",
+            "price": 29.81,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Zingy Steak",
+            "price": 31.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Smoked Pizza",
+            "price": 20.07,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Grilled Chicken",
+            "price": 23.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Zingy Pulled Pork Sandwich",
+            "price": 26.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,65 +361,11 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Savory Seafood Platter",
-            "price": 30.36,
+            "name": "Deluxe Stuffed Fish and Chips",
+            "price": 28.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Tangy Ramen",
-            "price": 27.86,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Creamy Moussaka",
-            "price": 30.25,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Baked Eggplant Parmesan",
-            "price": 22.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Tender Teriyaki Chicken",
-            "price": 30.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Braised Salmon",
-            "price": 21.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Hearty Pesto Pasta",
-            "price": 20.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           }
@@ -375,35 +375,17 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Fresh Smoked Garlic Butter Shrimp Skillet",
-            "price": 31.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Zesty Lobster Thermidor with Gruyère Crust",
-            "price": 23.21,
+            "name": "Authentic Smoked Basa Fillet with Dill Cream Sauce",
+            "price": 27.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Classic Tender Stuffed Flounder with Crab and Spinach",
-            "price": 22.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Pan-seared Valencian Seafood Paella",
-            "price": 25.95,
+            "name": "Deluxe Crunchy Garlic Butter Shrimp Skillet",
+            "price": 25.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -411,13 +393,31 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Crunchy Alaskan King Crab Legs with Drawn Butter",
-            "price": 30.15,
+            "name": "House Special Golden Linguine with Clam Sauce",
+            "price": 31.34,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Classic Irresistible Grilled Lobster with Lemon Butter",
+            "price": 35.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Baked Alaskan King Crab Legs with Drawn Butter",
+            "price": 32.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -425,8 +425,8 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Deluxe Zingy Crispy Zucchini Fritters",
-            "price": 8.96,
+            "name": "Seasonal Grilled Herbed Bulgur Wheat with Lemon",
+            "price": 5.69,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,44 +434,44 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Golden Crispy Beer-Battered Onion Rings",
-            "price": 7.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Zesty Maple-Glazed Baby Carrots",
-            "price": 9.96,
+            "name": "Hearty Exquisite Fragrant Basmati Rice Pilaf",
+            "price": 9.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Classic Creamy Flaky Cheddar and Chive Biscuits",
-            "price": 5.2,
+            "name": "Classic Delicious Wild Rice Pilaf",
+            "price": 8.76,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Juicy Steamed Jasmine Rice",
+            "price": 6.3,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Succulent Grilled Zucchini and Peppers",
+            "price": 5.13,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Delectable Garlic Bread with Herb Butter",
-            "price": 5.61,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Sweet Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 7.96,
+            "name": "Fresh Grilled Braised Red Cabbage with Apple",
+            "price": 5.23,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -484,56 +484,56 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Soda",
-            "price": 4.11,
+            "name": "Water",
+            "price": 6.5,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 6.49,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 5.3,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 5.33,
+            "name": "Lemonade",
+            "price": 7.85,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 5.36,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Hot Chocolate",
-            "price": 7.92,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 5.6,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 5.63,
+            "price": 6.79,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 4.23,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,17 +549,17 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Scones",
-            "price": 6.27,
+            "name": "Madeleines",
+            "price": 6.02,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Pumpkin Pie",
-            "price": 7.05,
+            "price": 9.61,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -567,17 +567,8 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cannoli",
-            "price": 10.8,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Carrot Cake",
-            "price": 9.29,
+            "name": "Strawberry Shortcake",
+            "price": 10.97,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -585,11 +576,20 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soufflé",
-            "price": 10.89,
+            "name": "Cupcakes",
+            "price": 8.77,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Red Velvet Cake",
+            "price": 6.54,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -599,8 +599,17 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Pie",
-            "price": 7.87,
+            "name": "Snow Cone",
+            "price": 11.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Yogurt",
+            "price": 8.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -609,7 +618,16 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Popsicles",
-            "price": 7.94,
+            "price": 10.4,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Pie",
+            "price": 10.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -617,26 +635,8 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Pudding",
-            "price": 7.19,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gelato",
-            "price": 11.37,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Cheesecake",
-            "price": 10.6,
+            "name": "Sorbet",
+            "price": 10.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -655,17 +655,17 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Negroni",
-            "price": 11.98,
+            "name": "Manhattan",
+            "price": 12.15,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 15.77,
+            "name": "Cosmopolitan",
+            "price": 14.83,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -674,34 +674,25 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Whiskey Sour",
-            "price": 15.91,
-            "isVegetarian": true,
+            "price": 14.33,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 11.48,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 12.26,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Mojito",
-            "price": 13.23,
+            "price": 15.46,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 13.25,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -709,11 +700,20 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 11.52,
-            "isVegetarian": false,
+            "name": "Old Fashioned",
+            "price": 10.95,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 10.57,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,17 +723,26 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Pinot Blanc",
-            "price": 11.73,
+            "name": "Prosecco",
+            "price": 13.17,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cabernet Franc",
+            "price": 11.44,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Viognier",
-            "price": 12.2,
+            "name": "Riesling",
+            "price": 13.24,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -742,36 +751,27 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Vermentino",
-            "price": 11.89,
-            "isVegetarian": false,
+            "price": 10.14,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Noir",
-            "price": 10.89,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Zinfandel",
-            "price": 12.57,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Petit Verdot",
-            "price": 8.35,
+            "name": "Pinot Noir",
+            "price": 9.31,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chardonnay",
+            "price": 13.86,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -782,17 +782,8 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Vodka",
-            "price": 13.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Galliano",
-            "price": 13.21,
+            "name": "Calvados",
+            "price": 16.18,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -800,8 +791,17 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gin",
-            "price": 17.01,
+            "name": "Bourbon",
+            "price": 12.72,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Scotch",
+            "price": 15.85,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -809,17 +809,17 @@ export const sanFranciscograndKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Baileys Irish Cream",
-            "price": 15.94,
-            "isVegetarian": false,
+            "name": "Armagnac",
+            "price": 15.49,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pisco",
-            "price": 12.25,
+            "name": "Sambuca",
+            "price": 14.01,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,

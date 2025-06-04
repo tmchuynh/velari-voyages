@@ -12,67 +12,67 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Traditional Braised Seasonal Tasting Platter",
-            "price": 35.46,
+            "name": "Organic Zesty Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 35.28,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Fresh Marinated Tableside Carved Chateaubriand",
-            "price": 29.57,
+            "name": "Homestyle Golden Legendary Prime Rib",
+            "price": 32.92,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Grilled Legendary Prime Rib",
-            "price": 30.44,
-            "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Satisfying 24-Hour Braised Short Ribs",
-            "price": 28.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Pan-seared Wood-Fired Peking Duck with Plum Sauce",
-            "price": 26.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Zingy Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 25.49,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Crispy Black Garlic Glazed Beef Tenderloin",
-            "price": 29.52,
+            "name": "Gourmet Herbed 24-Hour Braised Short Ribs",
+            "price": 32.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Savory Executive Chef's Daily Inspiration Entrée",
+            "price": 34.5,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Gourmet Marinated Traditional Family Paella",
+            "price": 25.06,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Grilled Chef’s Wild Game Selection",
+            "price": 24.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Satisfying Award-Winning Seafood Boil",
+            "price": 30.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -80,17 +80,17 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Handcrafted Zesty Freshly Harvested Seasonal Creation",
-            "price": 30.83,
+            "name": "Fresh Baked Signature Spice-Rubbed Protein",
+            "price": 29.4,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Delectable Heirloom Recipe from Chef's Family",
-            "price": 31,
+            "name": "Handcrafted Aromatic Tableside Prepared Tartare",
+            "price": 38.33,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -98,31 +98,31 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Aromatic Crispy Skin Sea Bass",
-            "price": 35.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Satisfying Sous Vide Pork Tenderloin",
-            "price": 35.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Spiced Dry-Aged Prime Beef Selection",
-            "price": 27.81,
+            "name": "Traditional Marinated Charcoal-Grilled Wagyu Beef",
+            "price": 29.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Deluxe Mouthwatering Seared Foie Gras with Fig Compote",
+            "price": 35.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Crunchy High-End Ingredient Showcase",
+            "price": 33.31,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -130,62 +130,62 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Authentic Crispy Antipasto Platter",
-            "price": 12.12,
-            "isVegetarian": false,
+            "name": "Deluxe Grilled Spinach Puffs",
+            "price": 15.44,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Spicy Spinach Artichoke Dip",
-            "price": 9.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Creamy Prawn Toast",
-            "price": 8.96,
+            "name": "Authentic Sweet Garlic Bread",
+            "price": 12.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Tangy Baba Ganoush",
-            "price": 12.22,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Tender Spring Rolls",
-            "price": 13.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Zesty Mini Crab Cakes",
+            "name": "Classic Spiced Mozzarella Sticks",
             "price": 14.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Marinated Tempura",
+            "price": 12.81,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Stuffed Potstickers",
+            "price": 15.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Tangy Chicken Wings",
+            "price": 11.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Gourmet Wholesome Edamame",
-            "price": 13.75,
+            "name": "Handcrafted Crunchy Samosas",
+            "price": 10.84,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -193,11 +193,11 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Zesty Sweet Potato Fries",
-            "price": 13.08,
-            "isVegetarian": false,
+            "name": "Seasonal Baked Zucchini Fries",
+            "price": 11.42,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -207,26 +207,8 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Deluxe Irresistible Egg Drop Soup",
-            "price": 9.12,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Appetizing Gumbo",
-            "price": 11.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Steamed Seafood Chowder",
-            "price": 12.76,
+            "name": "House Special Sizzling Mushroom Soup",
+            "price": 12.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -234,9 +216,27 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Golden Pho",
-            "price": 7.18,
+            "name": "Fresh Grilled Hot and Sour Soup",
+            "price": 7.57,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Pho",
+            "price": 13.69,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Spicy Butternut Squash Soup",
+            "price": 13.4,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -248,8 +248,8 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Kale Salad",
-            "price": 11.96,
+            "name": "Caesar Salad",
+            "price": 10.76,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -257,38 +257,38 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Arugula Salad",
-            "price": 11.75,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 12.5,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Asian Slaw",
-            "price": 15.78,
-            "isVegetarian": true,
+            "name": "Mediterranean Chopped Salad",
+            "price": 13.86,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Nicoise Salad",
-            "price": 14.11,
-            "isVegetarian": false,
+            "name": "Coleslaw",
+            "price": 13.84,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Greek Salad",
+            "price": 13.85,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Watermelon Feta Salad",
+            "price": 12.17,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -298,35 +298,8 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Classic Pan-seared Lamb Chops",
-            "price": 28.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Spicy Coq au Vin",
-            "price": 29.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Pan-seared Gnocchi",
-            "price": 19.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Sweet Bibimbap",
-            "price": 29.96,
+            "name": "Fresh Sautéed Lasagna",
+            "price": 27.13,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -334,17 +307,44 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Appetizing Thai Curry",
-            "price": 18.82,
+            "name": "Handcrafted Flaky Gnocchi",
+            "price": 28.34,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Zingy Shakshuka",
+            "price": 25.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Marinated Grilled Tofu",
+            "price": 30.57,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Grilled Thai Curry",
+            "price": 27.42,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Wholesome Quiche",
-            "price": 31.62,
+            "name": "Seasonal Appetizing Stuffed Zucchini Boats",
+            "price": 28.1,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,17 +352,17 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Sizzling Biryani",
-            "price": 22.74,
-            "isVegetarian": true,
+            "name": "Organic Crunchy Moussaka",
+            "price": 22.39,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Sweet Eggplant Parmesan",
-            "price": 23.3,
+            "name": "Deluxe Marinated Ramen",
+            "price": 19.7,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -375,26 +375,17 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Authentic Succulent Seafood Risotto with Saffron",
-            "price": 22.53,
+            "name": "Traditional Juicy Oysters Rockefeller with Pernod Cream",
+            "price": 28.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Tangy Miso-Marinated Chilean Sea Bass",
-            "price": 32.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Grilled Crab-Stuffed Mushrooms",
-            "price": 35.12,
+            "name": "Traditional Delicious Lemon-Herb Calamari Steak",
+            "price": 27.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -402,8 +393,8 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Stuffed Classic British Fish and Chips",
-            "price": 29.12,
+            "name": "Seasonal Roasted Valencian Seafood Paella",
+            "price": 33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -411,11 +402,20 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Aromatic Linguine with Clam Sauce",
-            "price": 35.86,
+            "name": "Handcrafted Savory Grilled Lobster with Lemon Butter",
+            "price": 29.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Herbed Garlic Butter Shrimp Skillet",
+            "price": 35.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           }
@@ -425,35 +425,8 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Hearty Tender Sweet Corn and Cheddar Fritters",
-            "price": 7.53,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Flaky Mashed Potatoes",
-            "price": 7.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Spiced Sweet Potato Wedges with Smoked Paprika",
-            "price": 7.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Grilled Crispy Beer-Battered Onion Rings",
-            "price": 8.93,
+            "name": "Homestyle Crunchy Homestyle Baked Beans",
+            "price": 8.01,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -461,22 +434,49 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Delectable Wild Rice Pilaf",
-            "price": 8.31,
+            "name": "Handcrafted Savory Quinoa Pilaf with Herbs",
+            "price": 8.24,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Comforting Corn on the Cob with Chili Lime Butter",
-            "price": 9.19,
+            "name": "House Special Savory Provencal Ratatouille",
+            "price": 5.07,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Aromatic Truffle Parmesan Fries",
+            "price": 6.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Sizzling Braised Red Cabbage with Apple",
+            "price": 8.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Mouthwatering French Fries",
+            "price": 8.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -484,8 +484,8 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Smoothie",
-            "price": 7.71,
+            "name": "Water",
+            "price": 7.85,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -493,27 +493,9 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 5.49,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coffee",
-            "price": 6.77,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 4.95,
-            "isVegetarian": true,
+            "name": "Lemonade",
+            "price": 4.84,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -521,16 +503,34 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
           },
           {
             "name": "Juice",
-            "price": 7.34,
-            "isVegetarian": true,
+            "price": 5.24,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Lemonade",
-            "price": 5.46,
+            "name": "Milkshake",
+            "price": 4.77,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 5.85,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 4.9,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -549,8 +549,8 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Pain au Chocolat",
-            "price": 8.97,
+            "name": "Croissants",
+            "price": 10.98,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,8 +558,8 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Brownies",
-            "price": 7.29,
+            "name": "Banana Bread",
+            "price": 6.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -567,29 +567,29 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Treacle Tart",
-            "price": 10.02,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Scones",
-            "price": 7.43,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cobbler",
-            "price": 9.57,
+            "name": "Macarons",
+            "price": 10.5,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Portuguese Custard Tarts",
+            "price": 7.74,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sticky Toffee Pudding",
+            "price": 7.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -599,8 +599,8 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Ice Cream",
-            "price": 10.96,
+            "name": "Semifreddo",
+            "price": 11.78,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -608,8 +608,8 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gelato",
-            "price": 10.6,
+            "name": "Frozen Pudding",
+            "price": 9.92,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -617,8 +617,17 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Paletas",
-            "price": 8.49,
+            "name": "Frozen Yogurt",
+            "price": 10.8,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Pie",
+            "price": 9.69,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -626,18 +635,9 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Kulfi",
-            "price": 8.69,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baked Alaska",
-            "price": 8.6,
-            "isVegetarian": true,
+            "name": "Frozen Custard",
+            "price": 8.91,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -655,65 +655,65 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Manhattan",
-            "price": 15.88,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 15.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 11.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Martini",
-            "price": 15.13,
+            "price": 12.53,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Negroni",
-            "price": 15.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 10.82,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 10.56,
+            "price": 11.82,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 12.06,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 11.29,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 13.09,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 10.46,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 10.85,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,8 +723,17 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Malbec",
-            "price": 12.64,
+            "name": "Pinot Grigio",
+            "price": 9.43,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gamay",
+            "price": 13.02,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -732,44 +741,35 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Barbera",
-            "price": 8.87,
-            "isVegetarian": true,
+            "name": "Viognier",
+            "price": 13.02,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Albariño",
-            "price": 10.01,
-            "isVegetarian": true,
+            "name": "Nebbiolo",
+            "price": 8.28,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Dolcetto",
-            "price": 12.86,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Verdicchio",
-            "price": 11.07,
+            "name": "Grenache",
+            "price": 10.97,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Vermentino",
-            "price": 13.32,
+            "name": "Roussanne",
+            "price": 13.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -782,47 +782,47 @@ export const sydneygrandDiningRoomMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Mezcal",
-            "price": 17.3,
-            "isVegetarian": true,
+            "name": "Chambord",
+            "price": 17.54,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Brandy",
-            "price": 14.37,
-            "isVegetarian": false,
+            "name": "Limoncello",
+            "price": 17.79,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Limoncello",
-            "price": 11.41,
+            "name": "Scotch",
+            "price": 15.3,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Anisette",
-            "price": 16.56,
-            "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gin",
-            "price": 12.04,
+            "name": "Bourbon",
+            "price": 11.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baileys Irish Cream",
+            "price": 13.51,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

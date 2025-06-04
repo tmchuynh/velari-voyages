@@ -12,8 +12,44 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Deluxe Crispy Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 25.18,
+            "name": "House Special Spiced Signature Truffle Pasta with Aged Pecorino",
+            "price": 30.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Herbed Award-Winning Seafood Boil",
+            "price": 27.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Delectable Flambéed Tableside Specialty",
+            "price": 27.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Irresistible Age-Old Recipe Osso Buco with Gremolata",
+            "price": 30.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Delectable Sous Vide Perfected Wagyu",
+            "price": 37.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -21,56 +57,20 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Flavorful Heritage Recipe Lamb Shank",
-            "price": 33.08,
+            "name": "Deluxe Juicy House Famous Duck Confit",
+            "price": 33.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Mouthwatering Chef's Childhood Inspired Creation",
-            "price": 28.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Golden Captain's Favorite Seafood Tower",
-            "price": 36.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Grilled Local Bounty Harvest Plate (Vegetarian)",
-            "price": 31.84,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Marinated Traditional Family Paella",
-            "price": 28.85,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Flavorful Chef's Special Surf and Turf",
-            "price": 27.01,
+            "name": "Authentic Crunchy 24-Hour Braised Short Ribs",
+            "price": 32.89,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -80,8 +80,26 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Fresh Braised Whole Animal Butchery Showcase",
-            "price": 36.97,
+            "name": "Seasonal Crispy Crispy Skin Sea Bass",
+            "price": 24.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Crunchy Freshly Harvested Seasonal Creation",
+            "price": 24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Mouthwatering Whole Animal Butchery Showcase",
+            "price": 28.85,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -89,35 +107,17 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Braised Pan-Seared Scallops with Citrus Beurre Blanc",
-            "price": 25.05,
-            "isVegetarian": false,
+            "name": "Hearty Aromatic Signature Spice-Rubbed Protein",
+            "price": 36.61,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Grilled Braised Short Ribs with Red Wine Sauce",
-            "price": 25.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Delicious Smoked and Slow-Roasted Heritage Meat",
-            "price": 33.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Enticing Custom Tasting Menu Based on Guest Preferences",
-            "price": 26.11,
+            "name": "Premium Tangy Cold-Smoked Delicacy",
+            "price": 34.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -130,26 +130,17 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Seasonal Mouthwatering Samosas",
-            "price": 8.04,
+            "name": "Seasonal Fried Chicken Satay",
+            "price": 15.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Classic Golden Garlic Knots",
-            "price": 11.31,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Grilled Falafel",
-            "price": 11.69,
+            "name": "Seasonal Sizzling Spinach Artichoke Dip",
+            "price": 14.87,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -157,46 +148,55 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Roasted Stuffed Peppers",
-            "price": 13.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Zesty Spinach Artichoke Dip",
-            "price": 15.09,
+            "name": "Deluxe Golden Meatballs",
+            "price": 12.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Premium Succulent Caprese Salad",
-            "price": 14.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Roasted Prawn Toast",
-            "price": 14.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Crunchy Zucchini Fries",
-            "price": 15.73,
+            "name": "Handcrafted Stuffed Spinach Puffs",
+            "price": 15.42,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Marinated Stuffed Avocado",
+            "price": 11.44,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Tangy Mini Sliders",
+            "price": 14.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Enticing Prawn Toast",
+            "price": 15.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Luscious Edamame",
+            "price": 12.29,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -207,17 +207,17 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Seasonal Grilled Cabbage Soup",
-            "price": 7.21,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Premium Crunchy Clam Chowder",
+            "price": 10,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "House Special Herbed Tomato Soup",
-            "price": 8.68,
+            "name": "Homestyle Smoked Vegetable Barley Soup",
+            "price": 12.86,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -225,20 +225,20 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Grilled Chicken Noodle Soup",
-            "price": 9.04,
+            "name": "Homestyle Herbed Seafood Chowder",
+            "price": 9.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Premium Zesty Peanut Soup (West African)",
-            "price": 9.13,
-            "isVegetarian": true,
+            "name": "Traditional Creamy Mushroom Soup",
+            "price": 8.91,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -248,8 +248,17 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Spinach Salad",
-            "price": 12.7,
+            "name": "Roasted Vegetable Salad",
+            "price": 13.44,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Orzo Salad",
+            "price": 14.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -257,8 +266,17 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Quinoa Salad",
-            "price": 15.11,
+            "name": "Mediterranean Chopped Salad",
+            "price": 13.4,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cobb Salad",
+            "price": 12.51,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -266,29 +284,11 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 9.55,
+            "name": "Avocado Corn Salad",
+            "price": 9.39,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Thai Green Papaya Salad",
-            "price": 15.06,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nicoise Salad",
-            "price": 12,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -298,73 +298,73 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Organic Grilled Shakshuka",
-            "price": 24.38,
-            "isVegetarian": true,
+            "name": "Authentic Delicious Thai Curry",
+            "price": 26.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Zesty Chicken Parmesan",
+            "price": 18.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Juicy Pasta Primavera",
+            "price": 19.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Delicious Biryani",
+            "price": 27.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Stuffed Risotto",
+            "price": 27.86,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Savory Pesto Pasta",
-            "price": 29.25,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Delicious Enchiladas",
-            "price": 23.53,
+            "name": "Hearty Tender Salmon",
+            "price": 25.46,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Fresh Tender Currywurst",
-            "price": 31.32,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Grilled Chicken Parmesan",
-            "price": 19.24,
+            "name": "Premium Zesty Teriyaki Chicken",
+            "price": 23.9,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Gourmet Exquisite Moussaka",
-            "price": 29.25,
-            "isVegetarian": false,
+            "name": "Homestyle Pan-seared Stuffed Peppers",
+            "price": 25.65,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Hearty Thai Curry",
-            "price": 20.8,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Smoked Stir-fry",
-            "price": 24.3,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -375,26 +375,17 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Hearty Crispy Oysters Rockefeller with Pernod Cream",
-            "price": 22.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Fried Crab-Stuffed Mushrooms",
-            "price": 30.57,
+            "name": "Deluxe Golden Oysters Rockefeller with Pernod Cream",
+            "price": 33.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Authentic Herbed Stuffed Flounder with Crab and Spinach",
-            "price": 30.74,
+            "name": "Authentic Zesty Traditional Provençal Bouillabaisse",
+            "price": 29.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -402,22 +393,31 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Aromatic Prawn Curry in Coconut Masala",
-            "price": 29.36,
-            "isVegetarian": true,
+            "name": "Handcrafted Zesty Grilled Lobster with Lemon Butter",
+            "price": 26.61,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Luscious Garlic Butter Shrimp Skillet",
-            "price": 33.33,
+            "name": "Hearty Aromatic Smoked Salmon Platter with Dill Crème",
+            "price": 25.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Seasonal Herbed Sushi-Grade Sashimi Platter",
+            "price": 35.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -425,58 +425,58 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Fresh Pan-seared Sweet Potato Wedges with Smoked Paprika",
-            "price": 5.47,
+            "name": "Authentic Crispy Israeli Couscous with Roasted Tomatoes",
+            "price": 6.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Herbed Grilled Zucchini and Peppers",
+            "price": 8.93,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Golden Steamed Jasmine Rice",
-            "price": 8.21,
+            "name": "Authentic Satisfying Cauliflower Gratin with Gruyère",
+            "price": 8.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Stuffed Fragrant Basmati Rice Pilaf",
+            "price": 5.89,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Crispy Quinoa Pilaf with Herbs",
-            "price": 8.06,
-            "isVegetarian": true,
+            "name": "Deluxe Tangy Creamy Colcannon (Irish Potato Mash)",
+            "price": 7.84,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Creamy Homestyle Baked Beans",
-            "price": 6.96,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Sautéed Sautéed Garlic Mushrooms",
-            "price": 9.56,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Herbed Wild Mushroom Risotto",
-            "price": 6.28,
+            "name": "Authentic Grilled Steamed Jasmine Rice",
+            "price": 5.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -485,35 +485,35 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Lemonade",
-            "price": 5.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hot Chocolate",
-            "price": 4.8,
-            "isVegetarian": false,
+            "price": 6.52,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Juice",
-            "price": 7.54,
+            "name": "Soda",
+            "price": 5.05,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 6.31,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Iced Tea",
-            "price": 6.76,
-            "isVegetarian": false,
+            "name": "Water",
+            "price": 4.94,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -521,7 +521,7 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
           },
           {
             "name": "Smoothie",
-            "price": 5.87,
+            "price": 6.24,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -529,10 +529,10 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 4.25,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Tea",
+            "price": 6.25,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -549,45 +549,45 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
+            "name": "Muffins",
+            "price": 7.79,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baklava",
+            "price": 8.22,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Berry Tart",
-            "price": 7.81,
+            "price": 10.43,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pumpkin Pie",
-            "price": 8.55,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pecan Pie",
-            "price": 8.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemon Bars",
-            "price": 8.76,
-            "isVegetarian": true,
+            "name": "Macarons",
+            "price": 10.94,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Red Velvet Cake",
-            "price": 8.87,
-            "isVegetarian": false,
+            "name": "Shortbread",
+            "price": 10.5,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -600,16 +600,34 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Frozen Pudding",
-            "price": 8.71,
-            "isVegetarian": true,
+            "price": 10.76,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Paletas",
-            "price": 7.96,
+            "name": "Granita",
+            "price": 7.22,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Yogurt",
+            "price": 7.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sorbet",
+            "price": 9.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -618,28 +636,10 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
           },
           {
             "name": "Semifreddo",
-            "price": 9.43,
+            "price": 9.37,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Yogurt",
-            "price": 10.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Banana",
-            "price": 10.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -655,62 +655,62 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Bloody Mary",
-            "price": 13.45,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Martini",
-            "price": 14.43,
+            "price": 11.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 11.27,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Margarita",
-            "price": 11.36,
+            "price": 12.74,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Manhattan",
-            "price": 15.45,
-            "isVegetarian": false,
-            "isVegan": true,
+            "price": 11.72,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Cosmopolitan",
-            "price": 14.88,
+            "price": 11.6,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 14.35,
+            "name": "Old Fashioned",
+            "price": 15.84,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 10.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 12.84,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -723,8 +723,8 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Syrah/Shiraz",
-            "price": 11.19,
+            "name": "Sémillon",
+            "price": 13.18,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -732,26 +732,35 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Roussanne",
-            "price": 8.72,
-            "isVegetarian": false,
+            "name": "Dolcetto",
+            "price": 12.26,
+            "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nebbiolo",
+            "price": 8.78,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Vermentino",
-            "price": 8.51,
+            "name": "Grenache",
+            "price": 12.95,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Vouvray",
-            "price": 8.04,
+            "price": 12.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -759,17 +768,8 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cabernet Franc",
-            "price": 11.2,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gewürztraminer",
-            "price": 9.48,
+            "name": "Zinfandel",
+            "price": 13.57,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -782,45 +782,45 @@ export const melbourneroyalBistroMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Kahlúa",
-            "price": 13.99,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Midori",
-            "price": 15.03,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vodka",
-            "price": 12.96,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sambuca",
-            "price": 14.88,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Maraschino",
-            "price": 11.72,
+            "name": "Galliano",
+            "price": 14.57,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chartreuse",
+            "price": 10.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chambord",
+            "price": 12.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Aquavit",
+            "price": 17.7,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee Liqueur",
+            "price": 17.31,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,

@@ -12,17 +12,8 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Authentic Flaky Sous Vide Perfected Wagyu",
-            "price": 32.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Savory Chef's Special Surf and Turf",
-            "price": 26.07,
+            "name": "Organic Fried Celebrity Favorite Lobster Dish",
+            "price": 30.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -30,8 +21,8 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Baked Local Bounty Harvest Plate (Vegetarian)",
-            "price": 33.1,
+            "name": "Handcrafted Wholesome Seasonal Tasting Platter",
+            "price": 35.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -39,26 +30,26 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Savory Japanese A5 Wagyu with Ponzu Butter",
-            "price": 37.05,
+            "name": "Authentic Luscious Seasonal Tasting Menu Experience",
+            "price": 28.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Hearty Pan-seared Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 26.69,
+            "name": "Authentic Luscious Traditional Family Paella",
+            "price": 24.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Homestyle Smoked Wood-Fired Peking Duck with Plum Sauce",
-            "price": 24.97,
+            "name": "Handcrafted Succulent Heritage Recipe Lamb Shank",
+            "price": 34.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -66,8 +57,17 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Enticing Chef's Childhood Inspired Creation",
-            "price": 26.39,
+            "name": "Premium Grilled Founder's Family Recipe Pasta",
+            "price": 33.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked Secret Recipe Bouillabaisse",
+            "price": 25.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -80,26 +80,8 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Gourmet Grilled Dry-Aged Prime Beef Selection",
-            "price": 30.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Satisfying Wild Mushroom Risotto",
-            "price": 37.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Juicy Cold-Smoked Delicacy",
-            "price": 26.39,
+            "name": "Handcrafted Stuffed Live-Fire Grilled Feature",
+            "price": 39,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -107,22 +89,40 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Comforting Locally Foraged Mushroom Selection",
-            "price": 39.11,
+            "name": "Fresh Sautéed Sous Vide Perfection with Molecular Gastronomy Elements",
+            "price": 39.04,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Flaky Custom Tasting Menu Based on Guest Preferences",
-            "price": 29.91,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Premium Zesty Chef's Tasting Menu Experience",
+            "price": 29.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Flavorful Daily Fresh Catch with Seasonal Accompaniments",
+            "price": 38.67,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Stuffed Miso-Glazed Black Cod",
+            "price": 24.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -130,73 +130,73 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Hearty Sizzling Stuffed Mushrooms",
-            "price": 14.47,
+            "name": "Homestyle Herbed Antipasto Platter",
+            "price": 14.69,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Exquisite Bruschetta",
+            "price": 12.97,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Creamy Mezze Platter",
+            "price": 13.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Herbed Meatballs",
+            "price": 11.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Irresistible Sweet Potato Fries",
+            "price": 13.08,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Golden Mini Empanadas",
-            "price": 11.63,
+            "name": "Fresh Aromatic Potstickers",
+            "price": 9.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Stuffed Calamari",
+            "price": 12.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Gourmet Smoked Mozzarella Sticks",
-            "price": 8.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Zesty Spinach Artichoke Dip",
-            "price": 9.81,
+            "name": "Fresh Exquisite Spring Rolls",
+            "price": 11.19,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Hearty Spring Rolls",
-            "price": 11.97,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Marinated Garlic Knots",
-            "price": 8.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Sizzling Prawn Toast",
-            "price": 14.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Smoked Tempura",
-            "price": 10.21,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -207,17 +207,26 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Classic Sweet Egg Drop Soup",
-            "price": 13.45,
-            "isVegetarian": false,
+            "name": "Gourmet Mouthwatering Vegetable Barley Soup",
+            "price": 12.68,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Satisfying Tomato Soup",
-            "price": 8.4,
+            "name": "Gourmet Spiced Chicken Noodle Soup",
+            "price": 12.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Appetizing Hot and Sour Soup",
+            "price": 11.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -225,17 +234,8 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Sizzling Broccoli Cheddar Soup",
-            "price": 7.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Grilled Chicken Noodle Soup",
-            "price": 11.07,
+            "name": "Authentic Luscious Miso Soup",
+            "price": 8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -248,17 +248,17 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Roasted Vegetable Salad",
-            "price": 14.43,
-            "isVegetarian": true,
+            "name": "Cucumber Salad",
+            "price": 13.89,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Southwest Black Bean Salad",
-            "price": 10.73,
+            "name": "Waldorf Salad",
+            "price": 13.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -267,7 +267,16 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
           },
           {
             "name": "Lentil and Feta Salad",
-            "price": 10.23,
+            "price": 11.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spinach Salad",
+            "price": 9.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -275,20 +284,11 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Avocado Corn Salad",
-            "price": 11.21,
-            "isVegetarian": true,
+            "name": "Roasted Vegetable Salad",
+            "price": 9.64,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cobb Salad",
-            "price": 11.83,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -298,62 +298,17 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Fresh Satisfying Lasagna",
-            "price": 31.7,
+            "name": "Authentic Zingy Pizza",
+            "price": 20.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Spicy Paella",
-            "price": 20.57,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Irresistible Pho",
-            "price": 30.12,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Tangy Moussaka",
-            "price": 25.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Succulent Vegetable Stir-Fry",
-            "price": 21.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Comforting Teriyaki Chicken",
-            "price": 23.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Homestyle Delectable Enchiladas",
-            "price": 21.07,
+            "name": "Gourmet Marinated Fajitas",
+            "price": 26.06,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -361,8 +316,53 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Hearty Biryani",
-            "price": 27.25,
+            "name": "Deluxe Tangy Biryani",
+            "price": 27.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Crunchy Moussaka",
+            "price": 31.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Zingy Risotto",
+            "price": 25.16,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Golden Seafood Platter",
+            "price": 29.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Aromatic Pasta Primavera",
+            "price": 29.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Baked Beef Burger",
+            "price": 23.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -375,35 +375,8 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Hearty Sizzling Alaskan King Crab Legs with Drawn Butter",
-            "price": 27.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Luscious Pan-Seared Scallops with Pea Purée",
-            "price": 27.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Exquisite Seared Tuna Steak with Sesame Crust",
-            "price": 24.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Fried Traditional Provençal Bouillabaisse",
-            "price": 28.92,
+            "name": "Handcrafted Baked Maryland Style Crab Cakes",
+            "price": 27.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -411,13 +384,40 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Crunchy Seafood Risotto with Saffron",
-            "price": 31.75,
+            "name": "Premium Sweet Cedar Plank Roasted Salmon",
+            "price": 33.02,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Homestyle Zesty New England Lobster Roll",
+            "price": 22.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Spiced Grilled Lobster with Lemon Butter",
+            "price": 33.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Marinated Basa Fillet with Dill Cream Sauce",
+            "price": 29.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -425,56 +425,56 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Homestyle Sizzling Wild Rice Pilaf",
-            "price": 8.89,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Juicy Roasted Root Vegetables",
+            "name": "Deluxe Savory Scalloped Potatoes with Thyme",
             "price": 8.42,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Steamed Buttered Egg Noodles",
-            "price": 7.93,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Spicy Grilled Asparagus with Lemon Zest",
-            "price": 6.88,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Creamy Green Beans Almondine",
-            "price": 6.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Seasonal Luscious Corn on the Cob with Chili Lime Butter",
-            "price": 8.6,
+            "name": "Homestyle Tangy Sweet Corn and Cheddar Fritters",
+            "price": 7.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Marinated Herbed Bulgur Wheat with Lemon",
+            "price": 8.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Golden Roasted Root Vegetables",
+            "price": 5.72,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Stuffed Soft Polenta with Parmesan",
+            "price": 9.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Steamed Crispy Beer-Battered Onion Rings",
+            "price": 7.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -484,35 +484,35 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Tea",
-            "price": 4.45,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Lemonade",
+            "price": 6.09,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Soda",
-            "price": 7.65,
+            "price": 5.45,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 5.87,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Iced Tea",
-            "price": 6.62,
+            "name": "Smoothie",
+            "price": 4.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 4.52,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -520,18 +520,18 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lemonade",
-            "price": 7.01,
-            "isVegetarian": false,
+            "name": "Milkshake",
+            "price": 7.37,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Juice",
-            "price": 5.57,
-            "isVegetarian": true,
+            "name": "Water",
+            "price": 7.08,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -549,8 +549,8 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Banana Bread",
-            "price": 7.76,
+            "name": "Apple Pie",
+            "price": 7.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,8 +558,8 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cheesecake",
-            "price": 7.57,
+            "name": "Brownies",
+            "price": 9.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -567,8 +567,17 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chocolate Chip Cookies",
-            "price": 6.51,
+            "name": "Croissants",
+            "price": 10.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cupcakes",
+            "price": 10.33,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -576,20 +585,11 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pecan Pie",
-            "price": 7.63,
+            "name": "Scones",
+            "price": 9.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sticky Toffee Pudding",
-            "price": 6.76,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -599,17 +599,26 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Sherbet",
-            "price": 7.97,
-            "isVegetarian": false,
+            "name": "Snow Cone",
+            "price": 10.14,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baked Alaska",
+            "price": 10.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Ice Cream",
-            "price": 10.24,
+            "price": 8.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -617,8 +626,8 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Popsicles",
-            "price": 9.03,
+            "name": "Frozen Pudding",
+            "price": 9.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -626,17 +635,8 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Kulfi",
-            "price": 11.73,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gelato",
-            "price": 8.11,
+            "name": "Frozen Mousse",
+            "price": 11.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -655,26 +655,26 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Mojito",
-            "price": 15.7,
-            "isVegetarian": true,
+            "name": "Cosmopolitan",
+            "price": 11.43,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 13.4,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Bloody Mary",
+            "price": 13.75,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Old Fashioned",
-            "price": 14.88,
+            "name": "Mai Tai",
+            "price": 13.86,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -682,8 +682,26 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 14.31,
+            "name": "Manhattan",
+            "price": 15.93,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 14.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 13.99,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -692,25 +710,7 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
           },
           {
             "name": "Margarita",
-            "price": 15.66,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 15.9,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 15.47,
+            "price": 10.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -723,53 +723,53 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Chenin Blanc",
-            "price": 9.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Blanc",
-            "price": 8.97,
+            "name": "Merlot",
+            "price": 10.68,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Torrontés",
-            "price": 9.05,
+            "name": "Sémillon",
+            "price": 13.41,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Prosecco",
+            "price": 12.82,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chardonnay",
-            "price": 12.42,
+            "name": "Fiano",
+            "price": 11.8,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pinot Noir",
-            "price": 9.72,
-            "isVegetarian": true,
+            "name": "Vermentino",
+            "price": 11.67,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Syrah/Shiraz",
-            "price": 9.58,
+            "name": "Champagne/Sparkling Wine",
+            "price": 11.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -782,8 +782,8 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Whiskey",
-            "price": 17.08,
+            "name": "Brandy",
+            "price": 13.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -791,17 +791,8 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Drambuie",
-            "price": 14.62,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Rum",
-            "price": 11.84,
+            "name": "Campari",
+            "price": 17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -809,20 +800,29 @@ export const kyotoblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chambord",
-            "price": 17.62,
+            "name": "Limoncello",
+            "price": 13.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Amaretto",
-            "price": 14.35,
+            "name": "Maraschino",
+            "price": 11.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Anisette",
+            "price": 10.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

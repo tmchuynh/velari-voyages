@@ -248,5 +248,160 @@ export const kyotoRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Nishiki Taproom",
+    "description": "A culinary gem serving Japanese specialties including Kaiseki cuisine, where guests enjoy ryokan-style dining in the heart of the city.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-19:00",
+      "friday": "10:00-20:00",
+      "saturday": "9:00-20:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-892-7359",
+      "contactEmail": "info@japanesekyoto.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Imperial Eatery",
+    "description": "A charming Chinese restaurant near Gion District, offering Kyo-wagashi (Kyoto sweets) and other local favorites in a setting with traditional tatami rooms.",
+    "cuisine": "Chinese",
+    "priceRange": "$$$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "9:00-20:00",
+      "friday": "10:00-20:00",
+      "saturday": "10:00-19:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-152-9689",
+      "contactEmail": "info@chinesekyoto.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Blossom Taproom",
+    "description": "This popular Italian establishment combines traditional recipes and Kyo-wagashi (Kyoto sweets), all served in a unique setting with ryokan-style dining.",
+    "cuisine": "Italian",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "9:00-20:00",
+      "friday": "Closed",
+      "saturday": "9:00-22:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-118-6285",
+      "contactEmail": "info@italiankyoto.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Temple House",
+    "description": "A charming Asian restaurant near Gion District, offering Kyo-wagashi (Kyoto sweets) and other local favorites in a setting with historic tea house setting.",
+    "cuisine": "Asian",
+    "priceRange": "$$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "Closed",
+      "wednesday": "10:00-20:00",
+      "thursday": "11:00-20:00",
+      "friday": "Closed",
+      "saturday": "10:00-22:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-718-1109",
+      "contactEmail": "info@asiankyoto.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Arashiyama Grill",
+    "description": "A charming Asian restaurant near Arashiyama Bamboo Grove, offering Kyo-tsukemono (pickles) and other local favorites in a setting with traditional tatami rooms.",
+    "cuisine": "Asian",
+    "priceRange": "$$$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "Closed",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-21:00",
+      "friday": "9:00-20:00",
+      "saturday": "10:00-21:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-978-6831",
+      "contactEmail": "info@asiankyoto.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
   }
 ];

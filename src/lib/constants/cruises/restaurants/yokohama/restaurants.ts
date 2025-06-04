@@ -155,5 +155,160 @@ export const yokohamaRestaurants: Restaurant[] = [
     "isReservationsAccepted": false,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Sky Garden Bar & Kitchen",
+    "description": "This popular French establishment combines traditional recipes and seafood, all served in a unique setting with harbor views.",
+    "cuisine": "French",
+    "priceRange": "$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "9:00-19:00",
+      "saturday": "11:00-19:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-261-6527",
+      "contactEmail": "info@frenchyokohama.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Yokohama Supper Club",
+    "description": "This popular American establishment combines traditional recipes and craft beer, all served in a unique setting with fusion of Japanese and Western aesthetics.",
+    "cuisine": "American",
+    "priceRange": "$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "9:00-22:00",
+      "friday": "9:00-22:00",
+      "saturday": "Closed",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-630-4758",
+      "contactEmail": "info@americanyokohama.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Sakuragicho Lounge",
+    "description": "This popular French establishment combines traditional recipes and Yokohama ramen, all served in a unique setting with harbor views.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "9:00-21:00",
+      "friday": "10:00-21:00",
+      "saturday": "9:00-22:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-347-3940",
+      "contactEmail": "info@frenchyokohama.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Hamakko Snack Bar",
+    "description": "A culinary gem serving Japanese specialties including Japanese-Chinese fusion dishes, where guests enjoy harbor views in the heart of the city.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "Closed",
+      "friday": "10:00-21:00",
+      "saturday": "Closed",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-927-3909",
+      "contactEmail": "info@japaneseyokohama.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Pacifico Steakhouse",
+    "description": "This popular Chinese establishment combines traditional recipes and seafood, all served in a unique setting with fusion of Japanese and Western aesthetics.",
+    "cuisine": "Chinese",
+    "priceRange": "$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "9:00-21:00",
+      "friday": "9:00-19:00",
+      "saturday": "11:00-19:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-315-9662",
+      "contactEmail": "info@chineseyokohama.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];

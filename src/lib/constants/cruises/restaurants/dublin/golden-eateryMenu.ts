@@ -12,67 +12,67 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Traditional Aromatic 24-Hour Braised Short Ribs",
-            "price": 36.44,
+            "name": "Gourmet Baked Chef's Special Surf and Turf",
+            "price": 25.44,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Mouthwatering Tableside Carved Chateaubriand",
-            "price": 36.27,
+            "name": "Authentic Grilled Signature Truffle Pasta with Aged Pecorino",
+            "price": 28.93,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Pan-seared Charcoal Grilled Iberico Pork",
+            "price": 29.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Stuffed Seasonal Tasting Platter",
+            "price": 36.05,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Zingy Award-Winning Seafood Boil",
+            "price": 26.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Aromatic Restaurant's Namesake Signature Entrée",
+            "price": 24.15,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Roasted Traditional Family Paella",
-            "price": 26.75,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Creamy Age-Old Recipe Osso Buco with Gremolata",
-            "price": 27.33,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Spiced Charcoal Grilled Iberico Pork",
-            "price": 36.23,
+            "name": "Authentic Comforting Wood-Fired Peking Duck with Plum Sauce",
+            "price": 30.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
-          },
-          {
-            "name": "Deluxe Herbed Secret Recipe Bouillabaisse",
-            "price": 37.89,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Spicy Chef's Childhood Inspired Creation",
-            "price": 29.21,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
@@ -80,48 +80,48 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Handcrafted Sizzling Sous Vide Perfection with Molecular Gastronomy Elements",
-            "price": 29.64,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Zesty Lobster and Crab Stuffed Ravioli",
-            "price": 26.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Baked Chef's Tasting Menu Experience",
-            "price": 36.85,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Sizzling Signature Spice-Rubbed Protein",
-            "price": 34.56,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Juicy Braised Short Ribs with Red Wine Sauce",
-            "price": 29.26,
+            "name": "Handcrafted Flaky Tableside Flambé Preparation",
+            "price": 30.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Smoked Gourmet Vegetarian Wellington",
+            "price": 35.65,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Savory Cold-Smoked Delicacy",
+            "price": 26.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Sautéed Sous Vide Perfection with Molecular Gastronomy Elements",
+            "price": 39.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Zesty Whole Animal Butchery Showcase",
+            "price": 38,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -130,35 +130,44 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Hearty Creamy Chicken Satay",
-            "price": 12.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Sizzling Garlic Bread",
-            "price": 9.89,
+            "name": "Authentic Sautéed Mini Sliders",
+            "price": 12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Smoked Prawn Toast",
+            "price": 12.78,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Satisfying Shrimp Cocktail",
-            "price": 15.32,
+            "name": "Deluxe Delectable Prawn Cocktail",
+            "price": 9.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Flaky Lettuce Wraps",
+            "price": 15.65,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Homestyle Delicious Baked Brie",
-            "price": 8.14,
+            "name": "Fresh Pan-seared Garlic Bread",
+            "price": 15.62,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -166,38 +175,29 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Pan-seared Samosas",
-            "price": 14.66,
-            "isVegetarian": false,
+            "name": "Premium Creamy Cheese Nachos",
+            "price": 9.09,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Herbed Mini Sliders",
-            "price": 8.87,
-            "isVegetarian": false,
+            "name": "Homestyle Delicious Garlic Knots",
+            "price": 13.39,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Exquisite Nachos",
-            "price": 10.73,
+            "name": "Authentic Grilled Antipasto Platter",
+            "price": 13.17,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Aromatic Tuna Tartare",
-            "price": 10.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
           }
@@ -207,8 +207,17 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Classic Tangy Clam Chowder",
-            "price": 9.74,
+            "name": "House Special Enticing Pho",
+            "price": 13.71,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Baked Seafood Chowder",
+            "price": 9.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -216,8 +225,8 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Crunchy Butternut Squash Soup",
-            "price": 13.47,
+            "name": "Handcrafted Aromatic Tomato Soup",
+            "price": 12.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -225,17 +234,8 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Herbed Mushroom Soup",
-            "price": 12.44,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Steamed Split Pea Soup",
-            "price": 12.98,
+            "name": "Seasonal Delicious Peanut Soup (West African)",
+            "price": 12.32,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -248,47 +248,47 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Lentil and Feta Salad",
-            "price": 11.07,
+            "name": "Roasted Vegetable Salad",
+            "price": 13.7,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Apple Pecan Salad",
-            "price": 11.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cobb Salad",
-            "price": 9.72,
+            "name": "Coleslaw",
+            "price": 14.44,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cucumber Salad",
-            "price": 14.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Caprese Salad",
-            "price": 13.93,
+            "price": 14.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tabbouleh",
+            "price": 11.26,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Watermelon Feta Salad",
+            "price": 11.54,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -298,26 +298,35 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Hearty Zesty Pulled Pork Sandwich",
-            "price": 25.9,
+            "name": "Hearty Satisfying Quiche",
+            "price": 25.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Traditional Marinated Grilled Chicken",
-            "price": 21.99,
-            "isVegetarian": false,
+            "name": "Seasonal Flaky Risotto",
+            "price": 31.13,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Juicy Currywurst",
-            "price": 20.74,
+            "name": "Hearty Golden Fish and Chips",
+            "price": 28.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Delectable Enchiladas",
+            "price": 31.9,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -325,35 +334,17 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Savory Paella",
-            "price": 30.46,
-            "isVegetarian": false,
+            "name": "Homestyle Sautéed Stir-fry",
+            "price": 20.05,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Luscious Stuffed Zucchini Boats",
-            "price": 19.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Delicious Tagine",
-            "price": 20.69,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Marinated Lamb Chops",
-            "price": 20.71,
+            "name": "Handcrafted Spiced Lamb Chops",
+            "price": 23.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -361,8 +352,17 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seasonal Crispy Stir-fry",
-            "price": 18.42,
+            "name": "Deluxe Zesty Tacos",
+            "price": 22.65,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Succulent Pizza",
+            "price": 30.16,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -375,8 +375,17 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Organic Hearty Grilled Lobster with Lemon Butter",
-            "price": 31.83,
+            "name": "Traditional Golden Seafood Gumbo with Okra",
+            "price": 22.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Comforting Basa Fillet with Dill Cream Sauce",
+            "price": 29.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -384,17 +393,8 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Irresistible Oysters Rockefeller with Pernod Cream",
-            "price": 35.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Braised Smoked Salmon Platter with Dill Crème",
-            "price": 29.19,
+            "name": "Gourmet Delectable Lobster Thermidor with Gruyère Crust",
+            "price": 28.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -402,22 +402,22 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Appetizing Basa Fillet with Dill Cream Sauce",
-            "price": 35.53,
-            "isVegetarian": true,
+            "name": "House Special Sweet Crab-Stuffed Mushrooms",
+            "price": 29.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Smoked Prawn Curry in Coconut Masala",
+            "price": 25.65,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Authentic Herbed Shrimp Scampi over Linguine",
-            "price": 24.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
           }
         ]
       },
@@ -425,54 +425,54 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Authentic Spiced Yukon Gold Potato Gratin",
-            "price": 9.23,
+            "name": "Homestyle Wholesome Roasted Root Vegetables",
+            "price": 8.58,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Luscious French Fries",
+            "price": 9.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "House Special Braised Buttered Egg Noodles",
-            "price": 9.4,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Grilled Provencal Ratatouille",
-            "price": 6.11,
+            "name": "Premium Enticing Corn on the Cob with Chili Lime Butter",
+            "price": 5.27,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Satisfying Steamed Jasmine Rice",
-            "price": 5.35,
+            "name": "Handcrafted Succulent Stuffed Bell Peppers with Brown Rice",
+            "price": 7.05,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Pan-seared Truffle Parmesan Fries",
-            "price": 6.75,
+            "name": "Fresh Marinated Scalloped Potatoes with Thyme",
+            "price": 9.37,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Traditional Sweet Sautéed Garlic Mushrooms",
-            "price": 8.75,
-            "isVegetarian": true,
+            "name": "Fresh Grilled Sweet Potato Wedges with Smoked Paprika",
+            "price": 7.7,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -484,17 +484,26 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Coffee",
-            "price": 5.74,
+            "name": "Tea",
+            "price": 4.29,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 5.67,
+            "name": "Juice",
+            "price": 5.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 5.4,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -503,16 +512,16 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Milkshake",
-            "price": 4.54,
-            "isVegetarian": false,
+            "price": 4.09,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Juice",
-            "price": 7.61,
+            "name": "Iced Tea",
+            "price": 6.56,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -520,17 +529,8 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hot Chocolate",
-            "price": 7.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 7.57,
+            "name": "Coffee",
+            "price": 6.88,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -549,8 +549,8 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Apple Pie",
-            "price": 6.37,
+            "name": "Shortbread",
+            "price": 7.16,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,37 +558,37 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Strawberry Shortcake",
-            "price": 7.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cobbler",
-            "price": 7.12,
+            "name": "Baklava",
+            "price": 7.47,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Donuts",
-            "price": 9.29,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Treacle Tart",
-            "price": 8.8,
-            "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Macarons",
+            "price": 8.69,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sticky Toffee Pudding",
+            "price": 8.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Brownies",
+            "price": 9.9,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -599,8 +599,8 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Ice Cream",
-            "price": 7.23,
+            "name": "Frozen Fruit Bars",
+            "price": 9.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -608,38 +608,38 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Popsicles",
-            "price": 8.22,
+            "name": "Frozen Yogurt",
+            "price": 11.25,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Snow Cone",
-            "price": 9.25,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gelato",
-            "price": 11.66,
+            "name": "Ice Cream Sandwich",
+            "price": 8,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Banana",
-            "price": 9.73,
+            "name": "Sherbet",
+            "price": 11.75,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Paletas",
+            "price": 7.27,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -655,53 +655,26 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Negroni",
-            "price": 10.39,
-            "isVegetarian": true,
+            "name": "Mai Tai",
+            "price": 15.28,
+            "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 12.74,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Mojito",
-            "price": 11.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 14.74,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 11.24,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 14.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 13.87,
+            "price": 10.08,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -709,11 +682,38 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 14.12,
+            "name": "Martini",
+            "price": 15.04,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 14.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 12.96,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 13.81,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,8 +723,8 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Prosecco",
-            "price": 9.42,
+            "name": "Petit Verdot",
+            "price": 11.29,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -732,8 +732,17 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Moscato",
-            "price": 10.84,
+            "name": "Roussanne",
+            "price": 9.92,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mourvèdre",
+            "price": 8.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -741,17 +750,8 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chardonnay",
-            "price": 9.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sémillon",
-            "price": 13.76,
+            "name": "Nebbiolo",
+            "price": 10.25,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -759,18 +759,18 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Merlot",
-            "price": 11.11,
+            "name": "Zinfandel",
+            "price": 12.37,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Albariño",
-            "price": 13.24,
-            "isVegetarian": false,
+            "name": "Vermentino",
+            "price": 13.54,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -782,17 +782,26 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Whiskey",
-            "price": 11.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Grand Marnier",
-            "price": 16.5,
+            "price": 14.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Armagnac",
+            "price": 16.28,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gin",
+            "price": 13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -800,29 +809,20 @@ export const dublingoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frangelico",
-            "price": 16.1,
+            "name": "Anisette",
+            "price": 11.76,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cognac",
+            "price": 17.02,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Aquavit",
-            "price": 13.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baileys Irish Cream",
-            "price": 17.78,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

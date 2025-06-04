@@ -12,17 +12,26 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Traditional Grilled Chef's Special Surf and Turf",
-            "price": 24.97,
-            "isVegetarian": true,
+            "name": "Authentic Herbed Seasonal Tasting Menu Experience",
+            "price": 31.69,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Traditional Sautéed Legendary Prime Rib",
-            "price": 34.05,
+            "name": "Homestyle Hearty House Famous Duck Confit",
+            "price": 32.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Delectable Legendary Prime Rib",
+            "price": 36.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -30,49 +39,40 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Delicious Molecular Gastronomy Showcase Tasting",
-            "price": 24.81,
+            "name": "Authentic Appetizing Charcoal Grilled Iberico Pork",
+            "price": 29.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Comforting Whole Roasted Heritage Chicken",
+            "price": 30.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Sweet Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 35.25,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Golden Traditional Family Paella",
-            "price": 32.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Wholesome Seasonal Tasting Platter",
-            "price": 31.79,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Golden Chef’s Wild Game Selection",
-            "price": 28.59,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Satisfying Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 32.15,
-            "isVegetarian": true,
+            "name": "Authentic Flavorful Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 25.87,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -80,8 +80,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Gourmet Golden Gourmet Vegetarian Wellington",
-            "price": 30.82,
+            "name": "Handcrafted Pan-seared Heritage Breed Porchetta",
+            "price": 28.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -89,26 +89,26 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Zesty Miso-Glazed Black Cod",
-            "price": 33.45,
-            "isVegetarian": false,
+            "name": "House Special Crunchy Tableside Prepared Tartare",
+            "price": 35.51,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Enticing Roasted Quail with Truffle Jus",
+            "price": 30.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Fresh Spicy Collaborative Limited Edition Special",
-            "price": 27.13,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Sizzling Whole Animal Butchery Showcase",
-            "price": 36.52,
+            "name": "Organic Stuffed Wild Mushroom Risotto",
+            "price": 35.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -116,8 +116,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Enticing Sous Vide Perfection with Molecular Gastronomy Elements",
-            "price": 31.31,
+            "name": "Hearty Irresistible Herb-Crusted Rack of Lamb",
+            "price": 35.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -130,62 +130,26 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Hearty Crispy Mozzarella Sticks",
-            "price": 14.19,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Stuffed Falafel",
-            "price": 11.53,
+            "name": "Authentic Spicy Sweet Potato Fries",
+            "price": 12.29,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Hearty Smoked Mini Tacos",
-            "price": 10.25,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Hearty Prawn Cocktail",
-            "price": 9.71,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Spicy Garlic Bread",
-            "price": 13.96,
+            "name": "Traditional Tangy Spinach Puffs",
+            "price": 11.81,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Spiced Spring Rolls",
-            "price": 12.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Roasted Calamari",
-            "price": 14.56,
+            "name": "Deluxe Pan-seared Meatballs",
+            "price": 8.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -193,10 +157,46 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Deluxe Wholesome Baba Ganoush",
-            "price": 9.05,
+            "name": "Organic Smoked Dumplings",
+            "price": 10.94,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Tender Ceviche",
+            "price": 10.86,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Golden Mini Crab Cakes",
+            "price": 12.73,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Mouthwatering Cheese Platter",
+            "price": 14.69,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Grilled Nachos",
+            "price": 15.34,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -207,17 +207,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Classic Braised Gumbo",
-            "price": 9.7,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Pan-seared Miso Soup",
-            "price": 10.8,
+            "name": "Classic Spicy Gazpacho",
+            "price": 12.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -225,20 +216,29 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Aromatic Seafood Chowder",
-            "price": 10.35,
+            "name": "Authentic Sautéed Minestrone",
+            "price": 10.5,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "House Special Savory Mushroom Soup",
-            "price": 11.87,
-            "isVegetarian": true,
+            "name": "Gourmet Herbed Hot and Sour Soup",
+            "price": 12.17,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Tangy Lentil Soup",
+            "price": 8.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -248,17 +248,26 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Pasta Salad",
-            "price": 14.64,
+            "name": "Fruit Salad",
+            "price": 14.94,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Orzo Salad",
+            "price": 14.27,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Watermelon Feta Salad",
-            "price": 14.05,
+            "name": "Quinoa Salad",
+            "price": 13.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -266,28 +275,19 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Southwest Black Bean Salad",
-            "price": 10.73,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Potato Salad",
-            "price": 15.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tabbouleh",
-            "price": 13.9,
+            "name": "Caprese Salad",
+            "price": 11.2,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cobb Salad",
+            "price": 15.26,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -298,17 +298,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Homestyle Sautéed Lasagna",
-            "price": 18.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Smoked Vegetable Stir-Fry",
-            "price": 27.5,
+            "name": "Handcrafted Herbed Katsu Curry",
+            "price": 25.33,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -316,35 +307,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Satisfying Biryani",
-            "price": 25.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Sautéed Chili con Carne",
-            "price": 18.42,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Hearty Bibimbap",
-            "price": 25.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Crispy Stir-fry",
-            "price": 28.21,
+            "name": "Homestyle Braised Moussaka",
+            "price": 25.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -352,8 +316,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Tender Mac and Cheese",
-            "price": 29.14,
+            "name": "Classic Succulent Pasta Primavera",
+            "price": 27.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -361,8 +325,44 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Comforting Moussaka",
-            "price": 27.02,
+            "name": "Gourmet Zingy Tagine",
+            "price": 27.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Herbed Jambalaya",
+            "price": 27.62,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Roasted Enchiladas",
+            "price": 30.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Exquisite Roast Duck",
+            "price": 22.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Smoked Quiche",
+            "price": 29.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -375,8 +375,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Authentic Hearty Grilled Swordfish with Mango Chutney",
-            "price": 28.19,
+            "name": "Fresh Mouthwatering Shrimp Scampi over Linguine",
+            "price": 33.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,8 +384,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Sautéed Miso-Marinated Chilean Sea Bass",
-            "price": 24.97,
+            "name": "Premium Wholesome Classic British Fish and Chips",
+            "price": 25.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,26 +393,26 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Premium Hearty Garlic Butter Shrimp Skillet",
-            "price": 23.95,
+            "name": "Deluxe Steamed Basa Fillet with Dill Cream Sauce",
+            "price": 28.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Organic Crunchy Smoked Salmon Platter with Dill Crème",
-            "price": 26.84,
+            "name": "Seasonal Flavorful Baked Cod with Lemon Caper Sauce",
+            "price": 27.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Handcrafted Herbed Sushi-Grade Sashimi Platter",
-            "price": 30.39,
+            "name": "Deluxe Aromatic Valencian Seafood Paella",
+            "price": 32.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,8 +425,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Organic Enticing Provencal Ratatouille",
-            "price": 7.96,
+            "name": "Homestyle Zesty Charred Broccolini with Garlic Oil",
+            "price": 9.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,8 +434,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Luscious Creamed Spinach with Nutmeg",
-            "price": 7.09,
+            "name": "Classic Marinated Warm Buttermilk Dinner Rolls",
+            "price": 5.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -443,35 +443,35 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Pan-seared Baked Idaho Potato with Sour Cream",
-            "price": 8.71,
-            "isVegetarian": true,
+            "name": "Authentic Herbed Maple-Glazed Baby Carrots",
+            "price": 5.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Delectable Creamed Spinach with Nutmeg",
+            "price": 8.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Zesty Green Beans Almondine",
+            "price": 9.36,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Hearty Sweet Potato Wedges with Smoked Paprika",
-            "price": 9.24,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Sweet Macaroni and Aged Cheddar",
-            "price": 9.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Succulent Green Beans Almondine",
-            "price": 7.55,
+            "name": "Homestyle Enticing Mashed Potatoes",
+            "price": 5.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -485,7 +485,7 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Smoothie",
-            "price": 4.83,
+            "price": 5.83,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -493,8 +493,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 5.51,
+            "name": "Tea",
+            "price": 5.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,26 +502,26 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 4.91,
-            "isVegetarian": false,
+            "name": "Water",
+            "price": 4.56,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Hot Chocolate",
-            "price": 6.44,
-            "isVegetarian": false,
+            "price": 7.27,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Milkshake",
-            "price": 4.62,
+            "price": 7.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,11 +529,11 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lemonade",
-            "price": 6.89,
+            "name": "Juice",
+            "price": 4.84,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,8 +549,17 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Cobbler",
-            "price": 6.87,
+            "name": "Soufflé",
+            "price": 7.73,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Donuts",
+            "price": 9.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,8 +567,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Crumb Cake",
-            "price": 10.59,
+            "name": "Cannoli",
+            "price": 8.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -567,17 +576,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Treacle Tart",
-            "price": 10.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Croissants",
-            "price": 9.12,
+            "name": "Eclairs",
+            "price": 7.12,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -585,8 +585,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cinnamon Rolls",
-            "price": 8.64,
+            "name": "Chocolate Chip Cookies",
+            "price": 8.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,35 +599,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Pudding",
-            "price": 9.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Yogurt",
-            "price": 10.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sherbet",
-            "price": 11.87,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Banana",
-            "price": 11.91,
+            "name": "Baked Alaska",
+            "price": 7.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -636,8 +609,35 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Popsicles",
-            "price": 8.05,
-            "isVegetarian": true,
+            "price": 11.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Snow Cone",
+            "price": 7.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Sandwich",
+            "price": 10.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream",
+            "price": 11.4,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -655,17 +655,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Old Fashioned",
-            "price": 10.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 14.03,
+            "name": "Cosmopolitan",
+            "price": 10.73,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -673,26 +664,44 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 11.06,
+            "name": "Bloody Mary",
+            "price": 13.65,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 15.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Negroni",
-            "price": 10.5,
+            "price": 14.45,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 12.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 13.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 10.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -701,19 +710,10 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Mai Tai",
-            "price": 14.92,
-            "isVegetarian": true,
+            "price": 13.34,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 11.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,8 +723,35 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Riesling",
-            "price": 13.87,
+            "name": "Mourvèdre",
+            "price": 11.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Syrah/Shiraz",
+            "price": 13.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Verdicchio",
+            "price": 8.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Marsanne",
+            "price": 12.85,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -732,35 +759,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cabernet Sauvignon",
-            "price": 11.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sauvignon Blanc",
-            "price": 8.3,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Moscato",
-            "price": 12.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Tempranillo",
-            "price": 8.01,
+            "price": 12.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -768,8 +768,8 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chardonnay",
-            "price": 11.59,
+            "name": "Gewürztraminer",
+            "price": 11.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -782,35 +782,26 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Armagnac",
-            "price": 13.4,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pisco",
-            "price": 15.65,
+            "name": "Calvados",
+            "price": 17.07,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Limoncello",
-            "price": 10.55,
-            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Vodka",
-            "price": 15.87,
+            "name": "Rum",
+            "price": 13.33,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chartreuse",
+            "price": 12.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -818,11 +809,20 @@ export const barcelonacataloniaBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Whiskey",
-            "price": 14.68,
-            "isVegetarian": false,
+            "name": "Grand Marnier",
+            "price": 15.74,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cointreau",
+            "price": 14.83,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

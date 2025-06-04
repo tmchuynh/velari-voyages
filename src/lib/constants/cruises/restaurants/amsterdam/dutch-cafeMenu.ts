@@ -12,35 +12,53 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Authentic Marinated Traditional Family Paella",
-            "price": 33.94,
+            "name": "Hearty Spicy Celebrity Favorite Lobster Dish",
+            "price": 37.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Sizzling Restaurant's Namesake Signature Entrée",
+            "price": 36.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Crispy Dry-Aged Tomahawk Steak",
+            "price": 36.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Creamy Heritage Recipe Lamb Shank",
+            "price": 34.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Organic Spiced Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 34.5,
+            "name": "House Special Crispy Captain's Favorite Seafood Tower",
+            "price": 28.08,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Mouthwatering Award-Winning Seafood Boil",
-            "price": 26.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Seasonal Creamy Age-Old Recipe Osso Buco with Gremolata",
-            "price": 24.43,
+            "name": "Handcrafted Pan-seared Local Bounty Harvest Plate (Vegetarian)",
+            "price": 30.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -48,26 +66,8 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Spiced Sous Vide Perfected Wagyu",
-            "price": 28.19,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Marinated Chef's Special Surf and Turf",
-            "price": 37.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Smoked Seasonal Tasting Platter",
-            "price": 32.56,
+            "name": "Handcrafted Tangy Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 34.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -80,49 +80,49 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Fresh Marinated Locally Foraged Mushroom Selection",
-            "price": 26.02,
+            "name": "Classic Tangy Cast Iron Seafood Presentation",
+            "price": 27.24,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Grilled Tomahawk Ribeye for Two",
-            "price": 27.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Seasonal Roasted Gourmet Vegetarian Wellington",
-            "price": 32.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Savory Off-Menu Secret Preparation",
-            "price": 28.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Delicious Pan-Seared Scallops with Citrus Beurre Blanc",
-            "price": 26.45,
+            "name": "Authentic Tangy Tasting of Local Artisanal Cheeses",
+            "price": 39.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Seasonal Sizzling High-End Ingredient Showcase",
+            "price": 29.99,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Volcanic Stone-Cooked Specialty",
+            "price": 36.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Stuffed Special Occasion Celebratory Dish",
+            "price": 24.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -130,53 +130,8 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Seasonal Fried Deviled Eggs",
-            "price": 9.2,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Spiced Lettuce Wraps",
-            "price": 13.46,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Tangy Samosas",
-            "price": 15.09,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Tangy Cheese Platter",
-            "price": 11.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Smoked Stuffed Mushrooms",
-            "price": 12.69,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Delicious Shrimp Cocktail",
-            "price": 11.86,
+            "name": "Authentic Comforting Caprese Salad",
+            "price": 10.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -184,20 +139,65 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Crispy Cheese Nachos",
-            "price": 15.75,
+            "name": "Fresh Marinated Baba Ganoush",
+            "price": 11.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Satisfying Stuffed Avocado",
+            "price": 12.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Classic Smoked Antipasto Platter",
-            "price": 14.74,
+            "name": "Authentic Spicy Mezze Platter",
+            "price": 15.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Grilled Mini Tacos",
+            "price": 10.92,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Spiced Antipasto Platter",
+            "price": 13.76,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Spicy Potato Skins",
+            "price": 13.26,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Tangy Mini Sliders",
+            "price": 9.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -207,40 +207,40 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Authentic Roasted Seafood Chowder",
-            "price": 7.57,
+            "name": "Handcrafted Flaky Broccoli Cheddar Soup",
+            "price": 11.3,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spicy Black Bean Soup",
+            "price": 12.71,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Crunchy Peanut Soup (West African)",
+            "price": 9.68,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Spicy Corn Chowder",
-            "price": 11.18,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Steamed Lobster Bisque",
-            "price": 10.38,
-            "isVegetarian": false,
+            "name": "Handcrafted Steamed Thai Coconut Soup",
+            "price": 12.89,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Authentic Exquisite Avgolemono (Greek Lemon Soup)",
-            "price": 8.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
           }
         ]
       },
@@ -248,17 +248,8 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Mediterranean Chopped Salad",
-            "price": 10.05,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fruit Salad",
-            "price": 12.6,
+            "name": "Nicoise Salad",
+            "price": 15.64,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -266,8 +257,17 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Southwest Black Bean Salad",
-            "price": 13.81,
+            "name": "Lentil and Feta Salad",
+            "price": 9.07,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pasta Salad",
+            "price": 15.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -275,8 +275,8 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garden Salad",
-            "price": 14.89,
+            "name": "Beet Salad",
+            "price": 13.88,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -284,8 +284,8 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Watermelon Feta Salad",
-            "price": 15.13,
+            "name": "Caesar Salad",
+            "price": 12.54,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -298,8 +298,8 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Authentic Hearty Pho",
-            "price": 28.3,
+            "name": "Hearty Grilled Steak",
+            "price": 26.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -307,35 +307,17 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Tender Ramen",
-            "price": 30.62,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Herbed Enchiladas",
-            "price": 30.51,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Delicious Stuffed Peppers",
-            "price": 18.23,
+            "name": "Traditional Savory Roast Duck",
+            "price": 23.72,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Gourmet Sweet Quiche",
-            "price": 23.12,
+            "name": "Hearty Comforting Shakshuka",
+            "price": 25.48,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -343,17 +325,17 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Zesty Risotto",
-            "price": 23.92,
+            "name": "Deluxe Comforting Fajitas",
+            "price": 31.14,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Delectable Pizza",
-            "price": 29.72,
+            "name": "Deluxe Steamed Beef Wellington",
+            "price": 20.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -361,12 +343,30 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Organic Smoked Steak",
-            "price": 21.69,
+            "name": "Gourmet Marinated Biryani",
+            "price": 25.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked Tagine",
+            "price": 25.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Hearty Grilled Chicken",
+            "price": 29.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": false
           }
         ]
@@ -375,8 +375,8 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Homestyle Baked New England Lobster Roll",
-            "price": 25.56,
+            "name": "Authentic Marinated Valencian Seafood Paella",
+            "price": 33.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,38 +384,38 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Comforting Cedar Plank Roasted Salmon",
-            "price": 34.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Grilled Mussels Mariniere in White Wine",
-            "price": 32.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Hearty Basa Fillet with Dill Cream Sauce",
-            "price": 27.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Grilled Oysters Rockefeller with Pernod Cream",
-            "price": 25.88,
+            "name": "Fresh Spiced Grilled Lobster with Lemon Butter",
+            "price": 27.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Flaky Stuffed Flounder with Crab and Spinach",
+            "price": 28.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Irresistible Blackened Mahi-Mahi with Pineapple Salsa",
+            "price": 27.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Sweet Classic British Fish and Chips",
+            "price": 23.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           }
@@ -425,17 +425,8 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Organic Flaky Steamed Jasmine Rice",
-            "price": 8.82,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Stuffed Yukon Gold Potato Gratin",
-            "price": 5.92,
+            "name": "Classic Spiced Flaky Cheddar and Chive Biscuits",
+            "price": 7.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -443,17 +434,8 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Spicy Sweet Corn and Cheddar Fritters",
-            "price": 5.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Sizzling Wild Rice Pilaf",
-            "price": 8.58,
+            "name": "Seasonal Crunchy Charred Broccolini with Garlic Oil",
+            "price": 8.32,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -461,8 +443,8 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Roasted Creamy Colcannon (Irish Potato Mash)",
-            "price": 6.06,
+            "name": "Deluxe Crunchy Soft Polenta with Parmesan",
+            "price": 9.72,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -470,9 +452,27 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Flaky Sautéed Garlic Mushrooms",
-            "price": 5.68,
+            "name": "Hearty Hearty Truffle Parmesan Fries",
+            "price": 5.28,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Flaky Mashed Potatoes",
+            "price": 6.22,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Smoked Chili Lime Roasted Chickpeas",
+            "price": 6.69,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -484,26 +484,17 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Juice",
-            "price": 6.41,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hot Chocolate",
-            "price": 6.71,
-            "isVegetarian": true,
+            "name": "Lemonade",
+            "price": 4.07,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Milkshake",
-            "price": 5.31,
+            "name": "Iced Tea",
+            "price": 5.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -511,8 +502,8 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lemonade",
-            "price": 4.22,
+            "name": "Coffee",
+            "price": 7.72,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -520,8 +511,8 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 6.87,
+            "name": "Smoothie",
+            "price": 4.68,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,9 +520,18 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 6.31,
-            "isVegetarian": false,
+            "name": "Water",
+            "price": 5.26,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 4.85,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -549,26 +549,17 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Fruit Galette",
-            "price": 6.72,
+            "name": "Red Velvet Cake",
+            "price": 8.18,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Madeleines",
-            "price": 10.98,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Muffins",
-            "price": 8.92,
+            "name": "Scones",
+            "price": 7.46,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -577,7 +568,16 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
           },
           {
             "name": "Custard Tart",
-            "price": 8.21,
+            "price": 10.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Strawberry Shortcake",
+            "price": 9.97,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -585,8 +585,8 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soufflé",
-            "price": 9.4,
+            "name": "Banana Bread",
+            "price": 8.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,18 +599,27 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Ice Cream Cake",
-            "price": 9.88,
-            "isVegetarian": false,
+            "name": "Ice Cream",
+            "price": 11.46,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Ice Cream",
-            "price": 7.91,
-            "isVegetarian": true,
+            "name": "Frozen Mousse",
+            "price": 10.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baked Alaska",
+            "price": 11.52,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -618,25 +627,16 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
           },
           {
             "name": "Kulfi",
-            "price": 8.34,
+            "price": 7.13,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gelato",
-            "price": 8.73,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Fruit Bars",
-            "price": 11.21,
+            "name": "Snow Cone",
+            "price": 10.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -655,8 +655,17 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Mojito",
-            "price": 13.44,
+            "name": "Negroni",
+            "price": 10.73,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 10.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -664,9 +673,27 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "price": 10.86,
+            "name": "Mojito",
+            "price": 10.83,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 13.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 10.31,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -674,44 +701,17 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
           },
           {
             "name": "Margarita",
-            "price": 12.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 13.54,
+            "price": 14.56,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Mai Tai",
-            "price": 13.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 12.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 12.43,
-            "isVegetarian": false,
+            "price": 11.37,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -724,16 +724,7 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Merlot",
-            "price": 12.03,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Noir",
-            "price": 11.53,
+            "price": 10.21,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -741,26 +732,26 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fiano",
-            "price": 9.3,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roussanne",
-            "price": 11.17,
-            "isVegetarian": false,
+            "name": "Vermentino",
+            "price": 12.44,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chardonnay",
-            "price": 8.87,
+            "name": "Champagne/Sparkling Wine",
+            "price": 10.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Grenache",
+            "price": 11.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -768,11 +759,20 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sauvignon Blanc",
-            "price": 11.86,
+            "name": "Cabernet Sauvignon",
+            "price": 10.45,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sangiovese",
+            "price": 11.26,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -782,46 +782,46 @@ export const amsterdamdutchCafeMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Baileys Irish Cream",
-            "price": 13.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gin",
-            "price": 13.79,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grand Marnier",
-            "price": 11.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mezcal",
-            "price": 11.38,
+            "name": "Cointreau",
+            "price": 11.54,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Rum",
-            "price": 13.89,
+            "name": "Tequila",
+            "price": 10.94,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baileys Irish Cream",
+            "price": 15.71,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chambord",
+            "price": 12.46,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Brandy",
+            "price": 14.77,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true

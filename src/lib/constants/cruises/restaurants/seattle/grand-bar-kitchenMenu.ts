@@ -12,17 +12,8 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Premium Roasted Celebrity Favorite Lobster Dish",
-            "price": 37.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Marinated Legendary Prime Rib",
-            "price": 24.84,
+            "name": "Hearty Succulent Secret Recipe Bouillabaisse",
+            "price": 34.51,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -30,35 +21,35 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Zesty Captain's Favorite Seafood Tower",
-            "price": 32.51,
+            "name": "Hearty Enticing Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 24.68,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Gourmet Zingy Restaurant's Namesake Signature Entrée",
-            "price": 32.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Satisfying Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 29.21,
-            "isVegetarian": false,
+            "name": "Classic Baked Founder's Family Recipe Pasta",
+            "price": 28.38,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Aromatic Local Bounty Harvest Plate (Vegetarian)",
-            "price": 25.91,
+            "name": "Organic Satisfying Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Crispy Charcoal Grilled Iberico Pork",
+            "price": 28.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -66,13 +57,22 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Creamy Dry-Aged Tomahawk Steak",
-            "price": 29.29,
+            "name": "Classic Succulent Captain's Favorite Seafood Tower",
+            "price": 31.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Organic Grilled Sous Vide Perfected Wagyu",
+            "price": 26.44,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -80,35 +80,35 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Organic Spicy Chef's Tasting Menu Experience",
-            "price": 24.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Irresistible Daily Fresh Catch with Seasonal Accompaniments",
-            "price": 34.05,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Tender Chef's Market Inspiration of the Day",
-            "price": 38.14,
+            "name": "House Special Braised House Specialty Pasta Creation",
+            "price": 32.99,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sweet Charcoal-Grilled Wagyu Beef",
+            "price": 29.17,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Fried Herb-Crusted Rack of Lamb",
-            "price": 29.42,
+            "name": "Organic Sizzling Collaborative Limited Edition Special",
+            "price": 28.01,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Zesty Seared Duck Breast with Cherry Reduction",
+            "price": 29.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -116,12 +116,12 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Hearty Dry-Aged Prime Beef Selection",
-            "price": 29.47,
+            "name": "Classic Spiced Lobster and Crab Stuffed Ravioli",
+            "price": 29.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           }
         ]
@@ -130,26 +130,26 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Fresh Smoked Calamari",
-            "price": 8.19,
+            "name": "Authentic Succulent Caprese Salad",
+            "price": 9.71,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Organic Golden Zucchini Fries",
-            "price": 9.96,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Homestyle Spicy Arancini",
+            "price": 15.73,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Sweet Mezze Platter",
-            "price": 12.49,
+            "name": "Seasonal Delicious Prawn Cocktail",
+            "price": 13.78,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -157,17 +157,8 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Enticing Potato Skins",
-            "price": 12.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Braised Spinach Puffs",
-            "price": 13.72,
+            "name": "Authentic Exquisite Hummus Platter",
+            "price": 15.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -175,17 +166,17 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Organic Herbed Garlic Knots",
-            "price": 12.55,
+            "name": "Organic Irresistible Ceviche",
+            "price": 8.16,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Spiced Garlic Bread",
-            "price": 14.83,
+            "name": "Classic Crunchy Stuffed Jalapeños",
+            "price": 8.59,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -193,10 +184,19 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Crunchy Mini Quesadillas",
-            "price": 10.71,
+            "name": "Authentic Crunchy Sweet Potato Fries",
+            "price": 14.91,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Smoked Edamame",
+            "price": 15,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -207,39 +207,39 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "House Special Exquisite Avgolemono (Greek Lemon Soup)",
-            "price": 13.13,
+            "name": "Handcrafted Baked Avgolemono (Greek Lemon Soup)",
+            "price": 10.41,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Tangy Miso Soup",
-            "price": 9.81,
-            "isVegetarian": true,
+            "name": "Premium Hearty Beef Stew",
+            "price": 10.68,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Hearty Stuffed Gumbo",
-            "price": 8.04,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Zingy Mushroom Soup",
-            "price": 13.29,
+            "name": "Premium Grilled Tomato Soup",
+            "price": 10.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Grilled Broccoli Cheddar Soup",
+            "price": 7.1,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -248,8 +248,8 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Watermelon Feta Salad",
-            "price": 14.26,
+            "name": "Orzo Salad",
+            "price": 10.37,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -257,8 +257,8 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef Salad",
-            "price": 9.86,
+            "name": "Kale Salad",
+            "price": 15.02,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -266,26 +266,26 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garden Salad",
-            "price": 13.2,
+            "name": "Mango Avocado Salad",
+            "price": 10.93,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Quinoa Salad",
-            "price": 13.32,
+            "name": "Waldorf Salad",
+            "price": 10.65,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tabbouleh",
-            "price": 15.42,
+            "name": "Thai Green Papaya Salad",
+            "price": 15.76,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -298,8 +298,26 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Authentic Sautéed Chicken Parmesan",
-            "price": 25.97,
+            "name": "Authentic Baked Teriyaki Chicken",
+            "price": 31.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Marinated Mac and Cheese",
+            "price": 29.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Grilled Chicken Parmesan",
+            "price": 18.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -307,17 +325,8 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Stuffed Tagine",
-            "price": 30.72,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Stuffed Eggplant Parmesan",
-            "price": 24.29,
+            "name": "House Special Tangy Risotto",
+            "price": 24.1,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -325,45 +334,36 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Wholesome Tacos",
-            "price": 19.86,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Smoked Vegetable Stir-Fry",
-            "price": 31.6,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Pan-seared Mac and Cheese",
-            "price": 29.26,
+            "name": "Authentic Flavorful Pesto Pasta",
+            "price": 25.93,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Spiced Enchiladas",
+            "price": 24.19,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Aromatic Fish and Chips",
+            "price": 20.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Deluxe Marinated Jambalaya",
-            "price": 19.68,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Spiced Chili con Carne",
-            "price": 29.32,
-            "isVegetarian": true,
+            "name": "Handcrafted Satisfying Katsu Curry",
+            "price": 18.46,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -375,48 +375,48 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Authentic Delicious Grilled Lobster with Lemon Butter",
-            "price": 30.11,
+            "name": "Deluxe Pan-seared Cedar Plank Roasted Salmon",
+            "price": 22.35,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Flavorful Oysters Rockefeller with Pernod Cream",
-            "price": 28.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Grilled Lobster Thermidor with Gruyère Crust",
-            "price": 33.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Savory Seafood Risotto with Saffron",
-            "price": 26.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Flavorful Blackened Mahi-Mahi with Pineapple Salsa",
-            "price": 32.69,
+            "name": "Organic Steamed Lemon-Herb Calamari Steak",
+            "price": 29.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Tangy Pan-Seared Scallops with Pea Purée",
+            "price": 33.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Golden Hearty Italian Cioppino",
+            "price": 24.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Braised Sushi-Grade Sashimi Platter",
+            "price": 28.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -425,8 +425,35 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Gourmet Wholesome Fragrant Basmati Rice Pilaf",
-            "price": 5.41,
+            "name": "Authentic Smoked Warm Buttermilk Dinner Rolls",
+            "price": 8.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Aromatic Crispy Beer-Battered Onion Rings",
+            "price": 9.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Spicy Creamy Colcannon (Irish Potato Mash)",
+            "price": 9.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Smoked Herbed Bulgur Wheat with Lemon",
+            "price": 6.28,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,47 +461,20 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Zingy Roasted Root Vegetables",
-            "price": 8.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Spicy Mashed Potatoes",
-            "price": 5.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Roasted Israeli Couscous with Roasted Tomatoes",
-            "price": 8.56,
+            "name": "Hearty Herbed Roasted Root Vegetables",
+            "price": 8.15,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Succulent Garlic Bread with Herb Butter",
-            "price": 6.03,
+            "name": "Handcrafted Satisfying Baked Idaho Potato with Sour Cream",
+            "price": 8.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Aromatic Corn on the Cob with Chili Lime Butter",
-            "price": 7.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -484,55 +484,55 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Lemonade",
-            "price": 5.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Coffee",
+            "price": 6.61,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Juice",
-            "price": 7.06,
+            "price": 7.45,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 6.79,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 5.48,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Water",
-            "price": 7.87,
-            "isVegetarian": false,
+            "price": 4.12,
+            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Smoothie",
-            "price": 6.39,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 6.09,
+            "price": 7.28,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soda",
-            "price": 6.41,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -549,8 +549,8 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Brownies",
-            "price": 10.75,
+            "name": "Crumb Cake",
+            "price": 7.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,36 +558,36 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Scones",
-            "price": 8.88,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Brownies",
+            "price": 7.57,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Treacle Tart",
-            "price": 10.31,
-            "isVegetarian": false,
+            "price": 9.07,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Shortbread",
-            "price": 10.93,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Vanilla Cake",
+            "price": 8.61,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Carrot Cake",
-            "price": 6.7,
-            "isVegetarian": true,
+            "name": "Cheesecake",
+            "price": 10.39,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -599,27 +599,36 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Ice Cream",
-            "price": 7.47,
-            "isVegetarian": true,
+            "name": "Frozen Custard",
+            "price": 7.87,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Paletas",
-            "price": 7.84,
-            "isVegetarian": true,
+            "name": "Popsicles",
+            "price": 11.7,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gelato",
-            "price": 10.1,
-            "isVegetarian": true,
+            "name": "Paletas",
+            "price": 10.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baked Alaska",
+            "price": 7.06,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -627,18 +636,9 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Kulfi",
-            "price": 8.45,
+            "price": 9.58,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frosty",
-            "price": 8.22,
-            "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -655,44 +655,8 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Martini",
-            "price": 10.91,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 13.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Old Fashioned",
-            "price": 15.47,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 12.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 11.37,
+            "price": 10.62,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -701,18 +665,54 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Negroni",
-            "price": 11.73,
+            "price": 10.4,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 13.92,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 15.4,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 10.19,
+            "name": "Margarita",
+            "price": 12.21,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 13.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 15.45,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -723,53 +723,53 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Viognier",
-            "price": 13.56,
-            "isVegetarian": true,
+            "name": "Albariño",
+            "price": 8.29,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chardonnay",
-            "price": 12.45,
+            "name": "Verdicchio",
+            "price": 8.33,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Petit Verdot",
+            "price": 9.18,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Torrontés",
+            "price": 8.38,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Malbec",
+            "price": 11.95,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Barbera",
-            "price": 8.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vermentino",
-            "price": 11.67,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Champagne/Sparkling Wine",
-            "price": 13.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Marsanne",
-            "price": 9.37,
+            "name": "Pinot Noir",
+            "price": 12.15,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -782,47 +782,47 @@ export const seattlegrandBarKitchenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Cognac",
-            "price": 10.84,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Armagnac",
-            "price": 13.72,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "St-Germain",
-            "price": 15.08,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Brandy",
-            "price": 17.24,
-            "isVegetarian": false,
-            "isVegan": true,
+            "price": 14.92,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Anisette",
-            "price": 11.43,
+            "price": 16.96,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chambord",
+            "price": 11.38,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Galliano",
+            "price": 12.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gin",
+            "price": 10.86,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

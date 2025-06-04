@@ -12,44 +12,26 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Organic Creamy Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 28.28,
+            "name": "Homestyle Creamy Sous Vide Perfected Wagyu",
+            "price": 25.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Satisfying Restaurant's Namesake Signature Entrée",
-            "price": 28.1,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Zesty Heritage Recipe Lamb Shank",
-            "price": 35.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Flaky Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 34.26,
+            "name": "Fresh Golden Flambéed Tableside Specialty",
+            "price": 24.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Premium Roasted Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 32.95,
+            "name": "Deluxe Creamy Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 31.27,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -57,17 +39,35 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Tangy Traditional Family Paella",
-            "price": 30.38,
+            "name": "Fresh Flaky Executive Chef's Daily Inspiration Entrée",
+            "price": 31.88,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Mouthwatering Executive Chef's Daily Inspiration Entrée",
-            "price": 30.82,
+            "name": "Classic Smoked Captain's Favorite Seafood Tower",
+            "price": 27.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Sautéed Signature Truffle Pasta with Aged Pecorino",
+            "price": 37.31,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Zingy Traditional Family Paella",
+            "price": 25.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -80,49 +80,49 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Authentic Delectable Off-Menu Secret Preparation",
-            "price": 28.86,
+            "name": "Gourmet Satisfying Slow-Roasted Prime Rib",
+            "price": 34.88,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Hearty Stuffed Tableside Flambé Preparation",
-            "price": 36.73,
+            "name": "Gourmet Golden House Specialty Pasta Creation",
+            "price": 38.59,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Steamed Duck Confit with Roasted Root Vegetables",
-            "price": 38.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Tender Freshly Harvested Seasonal Creation",
-            "price": 25.97,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Roasted Custom Tasting Menu Based on Guest Preferences",
-            "price": 34.96,
+            "name": "Seasonal Zingy Crispy Skin Sea Bass",
+            "price": 35.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Grilled Pan-Seared Scallops with Citrus Beurre Blanc",
+            "price": 28.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Authentic Roasted Heirloom Recipe from Chef's Family",
+            "price": 29.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
           }
         ]
       },
@@ -130,17 +130,26 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Gourmet Appetizing Spring Rolls",
-            "price": 11.73,
+            "name": "Handcrafted Mouthwatering Caprese Salad",
+            "price": 13.81,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Zingy Cheese Platter",
+            "price": 11.65,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Mouthwatering Caprese Salad",
-            "price": 11.34,
+            "name": "Authentic Steamed Mozzarella Sticks",
+            "price": 11.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -148,17 +157,8 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seasonal Creamy Bruschetta",
-            "price": 8.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Grilled Potato Skins",
-            "price": 12.54,
+            "name": "Fresh Spicy Cheese Nachos",
+            "price": 14.47,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -166,8 +166,8 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Luscious Prawn Toast",
-            "price": 10.78,
+            "name": "Deluxe Herbed Mini Empanadas",
+            "price": 9.42,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -175,17 +175,17 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Spiced Chicken Satay",
-            "price": 13.24,
-            "isVegetarian": false,
+            "name": "Homestyle Crispy Stuffed Jalapeños",
+            "price": 15.96,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Fresh Zesty Hummus Platter",
-            "price": 9.73,
+            "name": "Fresh Golden Spring Rolls",
+            "price": 11.2,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -193,9 +193,9 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Flavorful Stuffed Peppers",
-            "price": 9.64,
-            "isVegetarian": false,
+            "name": "House Special Braised Nachos",
+            "price": 10.96,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -207,40 +207,40 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Hearty Pan-seared Chicken Corn Soup",
-            "price": 8.81,
+            "name": "Homestyle Flaky Gazpacho",
+            "price": 12.07,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Grilled Thai Coconut Soup",
+            "price": 8.74,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Irresistible Carrot Ginger Soup",
+            "price": 12.79,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Tangy Chicken Corn Soup",
+            "price": 10.48,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
-          },
-          {
-            "name": "Fresh Herbed Gumbo",
-            "price": 7.47,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Smoked Corn Chowder",
-            "price": 11.81,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Smoked Hot and Sour Soup",
-            "price": 13.64,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
@@ -248,44 +248,44 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Caesar Salad",
-            "price": 14.94,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Orzo Salad",
-            "price": 15.16,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Quinoa Salad",
-            "price": 15.3,
-            "isVegetarian": false,
+            "price": 13.32,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nicoise Salad",
+            "price": 11.99,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Roasted Vegetable Salad",
-            "price": 11.43,
-            "isVegetarian": false,
+            "name": "Cucumber Salad",
+            "price": 10.07,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef Salad",
-            "price": 12.45,
+            "name": "Watermelon Feta Salad",
+            "price": 15.57,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pear and Gorgonzola Salad",
+            "price": 12.27,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -298,8 +298,44 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Authentic Marinated Thai Curry",
-            "price": 26.99,
+            "name": "Authentic Enticing Beef Burger",
+            "price": 27.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Delicious Jambalaya",
+            "price": 23.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Wholesome Enchiladas",
+            "price": 22.35,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Smoked Biryani",
+            "price": 30.36,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Creamy Beef Wellington",
+            "price": 29.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,26 +343,17 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Crunchy Steak",
-            "price": 23.37,
+            "name": "Authentic Spicy Pho",
+            "price": 23.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Creamy Grilled Chicken",
-            "price": 22.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Seasonal Steamed Pasta Primavera",
-            "price": 23.2,
+            "name": "Authentic Juicy Mac and Cheese",
+            "price": 30.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -334,40 +361,13 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Satisfying Currywurst",
-            "price": 20.52,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Tender Lasagna",
-            "price": 29.26,
+            "name": "Hearty Creamy Korma",
+            "price": 19.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Authentic Sizzling Chicken Parmesan",
-            "price": 25.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Crispy Salmon",
-            "price": 19.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
           }
         ]
       },
@@ -375,17 +375,8 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Fresh Aromatic Miso-Marinated Chilean Sea Bass",
-            "price": 32.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Sizzling Oysters Rockefeller with Pernod Cream",
-            "price": 35.72,
+            "name": "Traditional Enticing Tempura Soft Shell Crab",
+            "price": 32.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,8 +384,8 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Premium Exquisite Baked Cod with Lemon Caper Sauce",
-            "price": 25.15,
+            "name": "Authentic Pan-seared Grilled Lobster with Lemon Butter",
+            "price": 26.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -402,22 +393,31 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Smoked Blackened Mahi-Mahi with Pineapple Salsa",
-            "price": 25.43,
-            "isVegetarian": true,
+            "name": "Hearty Succulent Grilled Swordfish with Mango Chutney",
+            "price": 23.18,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Sweet Cedar Plank Roasted Salmon",
-            "price": 29.62,
+            "name": "Handcrafted Creamy Grilled Spanish Octopus with Smoked Paprika",
+            "price": 30.21,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Seasonal Pan-seared Maryland Style Crab Cakes",
+            "price": 32.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -425,35 +425,17 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Seasonal Golden Crispy Beer-Battered Onion Rings",
-            "price": 9.24,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Pan-seared Truffle Parmesan Fries",
-            "price": 7.81,
+            "name": "Authentic Savory Wild Mushroom Risotto",
+            "price": 9.64,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Sizzling Homestyle Baked Beans",
-            "price": 7.29,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Hearty Delectable Crispy Zucchini Fritters",
-            "price": 8.55,
+            "name": "Handcrafted Roasted Stuffed Bell Peppers with Brown Rice",
+            "price": 7.83,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -461,8 +443,8 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Enticing Israeli Couscous with Roasted Tomatoes",
-            "price": 8.15,
+            "name": "Premium Pan-seared Baked Idaho Potato with Sour Cream",
+            "price": 6.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -470,9 +452,27 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Braised Sweet Corn and Cheddar Fritters",
-            "price": 7.71,
+            "name": "Handcrafted Tender Sweet Potato Wedges with Smoked Paprika",
+            "price": 7.21,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spiced Flaky Cheddar and Chive Biscuits",
+            "price": 5.33,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Tangy Corn on the Cob with Chili Lime Butter",
+            "price": 5.15,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -484,8 +484,8 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Coffee",
-            "price": 5.52,
+            "name": "Juice",
+            "price": 4.68,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -493,9 +493,36 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 5.94,
-            "isVegetarian": false,
+            "name": "Lemonade",
+            "price": 4.19,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 4.6,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 7.88,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 6.49,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -503,37 +530,10 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Water",
-            "price": 4.24,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 7.97,
+            "price": 6.86,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 5.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soda",
-            "price": 6.37,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,8 +549,35 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Fruit Galette",
-            "price": 10.55,
+            "name": "Tiramisu",
+            "price": 8.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemon Bars",
+            "price": 8.1,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Eclairs",
+            "price": 7.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Carrot Cake",
+            "price": 10.65,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,35 +585,8 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Baklava",
-            "price": 6.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Custard Tart",
-            "price": 8.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Berry Tart",
-            "price": 8.6,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cupcakes",
-            "price": 10.35,
+            "name": "Portuguese Custard Tarts",
+            "price": 9.47,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,8 +599,17 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Ice Cream Cake",
-            "price": 10.16,
+            "name": "Frozen Mousse",
+            "price": 10.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Popsicles",
+            "price": 8.24,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -609,26 +618,17 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Ice Cream",
-            "price": 10.56,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gelato",
-            "price": 9.91,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Pudding",
-            "price": 8.76,
+            "price": 11.07,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baked Alaska",
+            "price": 8.88,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -636,10 +636,10 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Semifreddo",
-            "price": 9.93,
+            "price": 11.61,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -655,8 +655,8 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Bloody Mary",
-            "price": 14.28,
+            "name": "Cosmopolitan",
+            "price": 12.33,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -664,18 +664,18 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 13.02,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 13.34,
+            "name": "Manhattan",
+            "price": 12.23,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 12.75,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -683,16 +683,7 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Old Fashioned",
-            "price": 12.77,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 11.34,
+            "price": 12.04,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -701,7 +692,7 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Mojito",
-            "price": 11.54,
+            "price": 15.01,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -709,8 +700,17 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "price": 14.43,
+            "name": "Mai Tai",
+            "price": 15.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 14.66,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -723,8 +723,8 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Marsanne",
-            "price": 10.35,
+            "name": "Riesling",
+            "price": 9.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -732,8 +732,8 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Merlot",
-            "price": 12.6,
+            "name": "Syrah/Shiraz",
+            "price": 12.01,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -741,37 +741,37 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Torrontés",
-            "price": 8.2,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Grigio",
-            "price": 8.53,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Moscato",
-            "price": 11.46,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sangiovese",
-            "price": 13.1,
+            "name": "Champagne/Sparkling Wine",
+            "price": 12.63,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gewürztraminer",
+            "price": 9.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vouvray",
+            "price": 12.5,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sauvignon Blanc",
+            "price": 8.85,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -782,47 +782,47 @@ export const berlindeutscheBarKitchenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Absinthe",
-            "price": 16.66,
+            "name": "Tequila",
+            "price": 17.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee Liqueur",
+            "price": 13.96,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chambord",
+            "price": 17.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Vodka",
-            "price": 14.17,
+            "name": "Cognac",
+            "price": 10.27,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Brandy",
-            "price": 13.42,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey",
-            "price": 16.26,
+            "name": "Gin",
+            "price": 15.06,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Maraschino",
-            "price": 16.75,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

@@ -12,8 +12,8 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Homestyle Grilled Dry-Aged Tomahawk Steak",
-            "price": 30.56,
+            "name": "Authentic Savory Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 25.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -21,17 +21,8 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Pan-seared Molecular Gastronomy Showcase Tasting",
-            "price": 24.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Stuffed Charcoal Grilled Iberico Pork",
-            "price": 35.28,
+            "name": "House Special Steamed Secret Recipe Bouillabaisse",
+            "price": 26.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -39,39 +30,48 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Sweet Award-Winning Seafood Boil",
-            "price": 26.66,
-            "isVegetarian": false,
+            "name": "Organic Flaky Legendary Prime Rib",
+            "price": 29.23,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Spiced Local Bounty Harvest Plate (Vegetarian)",
+            "price": 30.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Grilled Japanese A5 Wagyu with Ponzu Butter",
+            "price": 25.07,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Sautéed Black Garlic Glazed Beef Tenderloin",
-            "price": 35.46,
+            "name": "Seasonal Golden Heritage Recipe Lamb Shank",
+            "price": 27.87,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Homestyle Herbed Chef's Childhood Inspired Creation",
-            "price": 26.22,
+            "name": "Classic Tangy Flambéed Tableside Specialty",
+            "price": 37.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Hearty Flambéed Tableside Specialty",
-            "price": 34.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           }
         ]
@@ -80,26 +80,17 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Homestyle Sizzling Heritage Breed Porchetta",
-            "price": 32.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Crispy Locally Foraged Mushroom Selection",
-            "price": 25.2,
+            "name": "Hearty Golden Herb-Crusted Rack of Lamb",
+            "price": 31.77,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Hearty Flavorful Lobster and Crab Stuffed Ravioli",
-            "price": 27.79,
+            "name": "Gourmet Mouthwatering Sustainable Seafood Tower",
+            "price": 26.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -107,22 +98,31 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Crunchy Chef's Tasting Menu Experience",
-            "price": 28.51,
-            "isVegetarian": false,
+            "name": "Fresh Sizzling Seared Foie Gras with Fig Compote",
+            "price": 37.09,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Savory Collaborative Limited Edition Special",
-            "price": 29.93,
+            "name": "Authentic Stuffed Chef's Market Inspiration of the Day",
+            "price": 26.32,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Juicy Crispy Skin Sea Bass",
+            "price": 24.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -130,62 +130,62 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Traditional Flavorful Onion Rings",
-            "price": 15.28,
+            "name": "Traditional Golden Hummus Platter",
+            "price": 15.71,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Irresistible Calamari",
-            "price": 10.5,
+            "name": "Deluxe Delectable Stuffed Peppers",
+            "price": 8.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Premium Spiced Deviled Eggs",
-            "price": 13.57,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Deluxe Pan-seared Bruschetta",
+            "price": 11.94,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Mini Quesadillas",
-            "price": 14.46,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Savory Prawn Toast",
-            "price": 10.51,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Juicy Chicken Wings",
-            "price": 10.4,
+            "name": "Authentic Grilled Spring Rolls",
+            "price": 9.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Fresh Irresistible Falafel",
-            "price": 15.55,
+            "name": "Seasonal Flavorful Cheese Nachos",
+            "price": 8.96,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Baked Lettuce Wraps",
+            "price": 15.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Enticing Spinach Puffs",
+            "price": 9.53,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -193,11 +193,11 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Stuffed Mini Sliders",
-            "price": 13.2,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Deluxe Spicy Falafel",
+            "price": 13.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -207,26 +207,17 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Gourmet Smoked Carrot Ginger Soup",
-            "price": 10.24,
-            "isVegetarian": true,
+            "name": "Homestyle Stuffed Zuppa Toscana",
+            "price": 10.64,
+            "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Delectable Thai Coconut Soup",
-            "price": 9.92,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Spicy Chicken Corn Soup",
-            "price": 9.29,
+            "name": "Authentic Spiced Hot and Sour Soup",
+            "price": 10.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -234,10 +225,19 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Zesty Tomato Soup",
-            "price": 8.42,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Authentic Zesty Tomato Soup",
+            "price": 8.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Delectable Broccoli Cheddar Soup",
+            "price": 9.25,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -248,8 +248,35 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Tabbouleh",
-            "price": 10.7,
+            "name": "Caesar Salad",
+            "price": 10.19,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Broccoli Crunch Salad",
+            "price": 15.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Southwest Black Bean Salad",
+            "price": 14.3,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Beet Salad",
+            "price": 9.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -257,38 +284,11 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Farro Salad",
-            "price": 9.96,
+            "name": "Chickpea Salad",
+            "price": 13.54,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caesar Salad",
-            "price": 14.84,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Greek Salad",
-            "price": 13.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coleslaw",
-            "price": 13.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -298,17 +298,17 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "House Special Satisfying Risotto",
-            "price": 22.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Deluxe Herbed Lentil Stew",
+            "price": 26.36,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Appetizing Salmon",
-            "price": 28.37,
+            "name": "Handcrafted Irresistible Salmon",
+            "price": 25.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -316,55 +316,55 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Premium Spiced Tagine",
-            "price": 19.15,
-            "isVegetarian": false,
+            "name": "Traditional Stuffed Burrito",
+            "price": 18.34,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Golden Pasta Primavera",
-            "price": 20.59,
-            "isVegetarian": true,
+            "name": "House Special Mouthwatering Beef Wellington",
+            "price": 26.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Zingy Katsu Curry",
+            "price": 19.5,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Spicy Coq au Vin",
-            "price": 20.54,
+            "name": "Traditional Roasted Paella",
+            "price": 31.5,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Irresistible Pizza",
-            "price": 21.08,
-            "isVegetarian": true,
+            "name": "Hearty Grilled Jambalaya",
+            "price": 25.05,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Appetizing Seafood Platter",
-            "price": 22.19,
-            "isVegetarian": false,
+            "name": "Traditional Roasted Lasagna",
+            "price": 23.07,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Satisfying Grilled Tofu",
-            "price": 21.94,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -375,17 +375,26 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Handcrafted Savory Grilled Spanish Octopus with Smoked Paprika",
-            "price": 23.44,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Hearty Crispy Traditional Provençal Bouillabaisse",
+            "price": 24.6,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Premium Crunchy Maryland Style Crab Cakes",
-            "price": 32.32,
+            "name": "Organic Satisfying Garlic Butter Shrimp Skillet",
+            "price": 27.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Grilled Linguine with Clam Sauce",
+            "price": 22.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,31 +402,22 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Gourmet Crispy Stuffed Flounder with Crab and Spinach",
-            "price": 26.59,
+            "name": "Handcrafted Crispy Crab-Stuffed Mushrooms",
+            "price": 32.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Spiced Stuffed Flounder with Crab and Spinach",
+            "price": 32.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
-          },
-          {
-            "name": "House Special Juicy Steamed Littleneck Clams in Garlic Broth",
-            "price": 29.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Zesty Lemon-Herb Calamari Steak",
-            "price": 31.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
@@ -425,56 +425,56 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Seasonal Herbed Roasted Root Vegetables",
-            "price": 5.73,
+            "name": "Fresh Appetizing Warm Buttermilk Dinner Rolls",
+            "price": 7.89,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Roasted Green Beans Almondine",
-            "price": 8.28,
+            "name": "Classic Roasted Charred Broccolini with Garlic Oil",
+            "price": 7.7,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Zingy Quinoa Pilaf with Herbs",
-            "price": 5.45,
+            "name": "Classic Flavorful Macaroni and Aged Cheddar",
+            "price": 6.02,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Sautéed Garlic Mushrooms",
-            "price": 7.12,
+            "name": "Seasonal Satisfying Steamed Jasmine Rice",
+            "price": 9.52,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Tangy Buttered Egg Noodles",
+            "price": 5.34,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Juicy Sautéed Garlic Mushrooms",
+            "price": 9.12,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Delicious Sweet Potato Wedges with Smoked Paprika",
-            "price": 6.48,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Zesty Steamed Jasmine Rice",
-            "price": 6.18,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -484,56 +484,56 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Milkshake",
-            "price": 5.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Water",
+            "price": 4.93,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Juice",
-            "price": 5.52,
+            "price": 4.43,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 6.92,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 6.16,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 6.15,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 6.09,
-            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 4.21,
+            "name": "Coffee",
+            "price": 6.53,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Tea",
-            "price": 6.91,
+            "price": 7.69,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,26 +549,8 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Cobbler",
-            "price": 8.83,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cannoli",
-            "price": 7.97,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pecan Pie",
-            "price": 8.05,
+            "name": "Pumpkin Pie",
+            "price": 6.33,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -576,20 +558,38 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Brownies",
-            "price": 10.42,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Custard Tart",
+            "price": 8.34,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Danish Pastries",
-            "price": 6.99,
+            "name": "Cheesecake",
+            "price": 9.65,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Carrot Cake",
+            "price": 10.73,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Biscotti",
+            "price": 10.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -599,35 +599,17 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Yogurt",
-            "price": 7.56,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Snow Cone",
-            "price": 9.92,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Pudding",
-            "price": 7.11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Granita",
-            "price": 10.93,
+            "price": 10.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sorbet",
+            "price": 10.62,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -635,11 +617,29 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Semifreddo",
-            "price": 8.27,
+            "name": "Frozen Custard",
+            "price": 10.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gelato",
+            "price": 9.93,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Cheesecake",
+            "price": 8.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -655,64 +655,64 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
+            "name": "Old Fashioned",
+            "price": 13.38,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Manhattan",
-            "price": 10.55,
-            "isVegetarian": true,
+            "price": 10.3,
+            "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 11.84,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Whiskey Sour",
-            "price": 11.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 14.11,
+            "price": 15.14,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 13.15,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 13.8,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 11.35,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Cosmopolitan",
-            "price": 11.29,
-            "isVegetarian": false,
+            "price": 14.64,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 13.49,
+            "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 10.27,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -723,45 +723,27 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Chardonnay",
-            "price": 9.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vouvray",
-            "price": 13.78,
+            "name": "Riesling",
+            "price": 9.8,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vermentino",
-            "price": 8.01,
-            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chenin Blanc",
-            "price": 13.88,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Cabernet Franc",
+            "price": 11.58,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Sangiovese",
-            "price": 8.62,
-            "isVegetarian": true,
+            "name": "Viognier",
+            "price": 11.89,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -769,10 +751,28 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
           },
           {
             "name": "Pinot Grigio",
-            "price": 8.78,
+            "price": 13.62,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cabernet Sauvignon",
+            "price": 9.24,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Syrah/Shiraz",
+            "price": 8.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -783,34 +783,7 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Brandy",
-            "price": 13.33,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Aquavit",
-            "price": 10.9,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Galliano",
-            "price": 12.41,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tequila",
-            "price": 15.32,
+            "price": 16.19,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -818,11 +791,38 @@ export const dubaiemiratesRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Bénédictine",
-            "price": 15.07,
+            "name": "Maraschino",
+            "price": 13.35,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vodka",
+            "price": 14.67,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chartreuse",
+            "price": 16.87,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Scotch",
+            "price": 13.21,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

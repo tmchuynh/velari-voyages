@@ -248,5 +248,160 @@ export const berlinRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": true
+  },
+  {
+    "name": "Kreuzberg Kitchen",
+    "description": "A charming Mediterranean restaurant near Brandenburg Gate, offering currywurst and other local favorites in a setting with historic building.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "9:00-19:00",
+      "friday": "10:00-21:00",
+      "saturday": "Closed",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-708-8654",
+      "contactEmail": "info@mediterraneanberlin.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Berlin Cellar",
+    "description": "Located close to Museum Island, this Turkish restaurant delights with its pretzels and beer garden.",
+    "cuisine": "Turkish",
+    "priceRange": "$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "11:00-20:00",
+      "friday": "10:00-21:00",
+      "saturday": "11:00-21:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-504-6952",
+      "contactEmail": "info@turkishberlin.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Brandenburg Coffee House",
+    "description": "Located close to Brandenburg Gate, this Turkish restaurant delights with its pretzels and historic building.",
+    "cuisine": "Turkish",
+    "priceRange": "$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "11:00-19:00",
+      "friday": "10:00-20:00",
+      "saturday": "10:00-21:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-211-2474",
+      "contactEmail": "info@turkishberlin.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Prussian Brasserie",
+    "description": "Experience authentic Mediterranean cuisine with a local twist, featuring currywurst served in an atmosphere of industrial chic decor overlooking Brandenburg Gate.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "11:00-20:00",
+      "friday": "11:00-21:00",
+      "saturday": "10:00-21:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-288-5494",
+      "contactEmail": "info@mediterraneanberlin.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Tiergarten Snack Shack",
+    "description": "This popular German establishment combines traditional recipes and pretzels, all served in a unique setting with beer garden.",
+    "cuisine": "German",
+    "priceRange": "$$$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "9:00-22:00",
+      "friday": "9:00-20:00",
+      "saturday": "11:00-20:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-154-4568",
+      "contactEmail": "info@germanberlin.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];

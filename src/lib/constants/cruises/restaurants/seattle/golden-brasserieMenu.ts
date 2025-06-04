@@ -12,53 +12,35 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "House Special Pan-seared 24-Hour Braised Short Ribs",
-            "price": 33.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Wholesome Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 31.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Juicy Local Bounty Harvest Plate (Vegetarian)",
-            "price": 31.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Succulent Sous Vide Perfected Wagyu",
-            "price": 37.37,
+            "name": "Authentic Flavorful Whole Roasted Heritage Chicken",
+            "price": 32.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Flavorful Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 24.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Fresh Zingy Seasonal Tasting Platter",
-            "price": 26.2,
+            "name": "Homestyle Luscious 24-Hour Braised Short Ribs",
+            "price": 26.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Sizzling Chef's Special Surf and Turf",
+            "price": 35.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Flaky Seasonal Tasting Platter",
+            "price": 27.97,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -66,8 +48,26 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Mouthwatering Chef's Childhood Inspired Creation",
-            "price": 25.95,
+            "name": "Handcrafted Spiced Flambéed Tableside Specialty",
+            "price": 27.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Marinated House Famous Duck Confit",
+            "price": 33.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Succulent Age-Old Recipe Osso Buco with Gremolata",
+            "price": 35.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -80,8 +80,17 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Seasonal Grilled Crispy Skin Sea Bass",
-            "price": 34.53,
+            "name": "Hearty Tangy Hand-Selected Wine Pairing Experience",
+            "price": 26.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Aromatic Duck Confit with Roasted Root Vegetables",
+            "price": 39.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -89,38 +98,29 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Delicious Modern Interpretation of Regional Classic",
-            "price": 25.27,
-            "isVegetarian": false,
+            "name": "Gourmet Exquisite Special Occasion Celebratory Dish",
+            "price": 31.2,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Smoked Cold-Smoked Delicacy",
-            "price": 24.44,
+            "name": "Seasonal Mouthwatering Roasted Quail with Truffle Jus",
+            "price": 30.87,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Crispy Fire-Roasted Seasonal Centerpiece",
+            "price": 24.16,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Delectable Custom Tasting Menu Based on Guest Preferences",
-            "price": 30.06,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Spiced Tasting of Local Artisanal Cheeses",
-            "price": 25.15,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,8 +130,8 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Seasonal Zesty Crostini",
-            "price": 13.38,
+            "name": "Fresh Juicy Caprese Salad",
+            "price": 14,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -139,8 +139,35 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Sizzling Onion Rings",
-            "price": 8.11,
+            "name": "Homestyle Spiced Potato Skins",
+            "price": 9.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Creamy Samosas",
+            "price": 14.58,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Irresistible Mini Sliders",
+            "price": 12.95,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Braised Prawn Cocktail",
+            "price": 10.58,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -148,8 +175,17 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Wholesome Spinach Puffs",
-            "price": 15.88,
+            "name": "Homestyle Herbed Ceviche",
+            "price": 11.36,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sweet Mini Crab Cakes",
+            "price": 11.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,49 +193,13 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Premium Pan-seared Tuna Tartare",
-            "price": 12.8,
+            "name": "Authentic Savory Chicken Wings",
+            "price": 14.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
-          },
-          {
-            "name": "Homestyle Fried Nachos",
-            "price": 9.8,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Spiced Ceviche",
-            "price": 9.66,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Delicious Lettuce Wraps",
-            "price": 8.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Zingy Hummus Platter",
-            "price": 14.33,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
@@ -207,26 +207,17 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Authentic Marinated Pho",
-            "price": 7.4,
+            "name": "Authentic Marinated Tomato Soup",
+            "price": 8.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Crispy Clam Chowder",
-            "price": 8.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Deluxe Crunchy Turkey and Wild Rice Soup",
-            "price": 9.57,
+            "name": "Homestyle Savory Chicken Noodle Soup",
+            "price": 10.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -234,13 +225,22 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Zesty Butternut Squash Soup",
-            "price": 9.93,
+            "name": "Classic Fried Corn Chowder",
+            "price": 10,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Traditional Aromatic Clam Chowder",
+            "price": 10.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -248,26 +248,8 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Mediterranean Chopped Salad",
-            "price": 14.98,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cobb Salad",
-            "price": 9.81,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Avocado Corn Salad",
-            "price": 9.94,
+            "name": "Nicoise Salad",
+            "price": 12.47,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -275,18 +257,36 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Spinach Salad",
-            "price": 12.72,
-            "isVegetarian": false,
+            "name": "Southwest Black Bean Salad",
+            "price": 15.24,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Thai Green Papaya Salad",
-            "price": 10.34,
+            "name": "Potato Salad",
+            "price": 11.15,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Quinoa Salad",
+            "price": 14.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Arugula Salad",
+            "price": 15.93,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -298,53 +298,8 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Organic Smoked Mac and Cheese",
-            "price": 20.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Luscious Teriyaki Chicken",
-            "price": 18.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Sweet Grilled Tofu",
-            "price": 28.02,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Delectable Beef Wellington",
-            "price": 31.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Sizzling Grilled Chicken",
-            "price": 25.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Juicy Risotto",
-            "price": 23.73,
+            "name": "Traditional Golden Jambalaya",
+            "price": 21.39,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,22 +307,67 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Flavorful Pho",
-            "price": 22.99,
+            "name": "Hearty Crunchy Biryani",
+            "price": 31.35,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Baked Grilled Chicken",
+            "price": 21.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Appetizing Pulled Pork Sandwich",
+            "price": 18.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Creamy Tacos",
+            "price": 24.18,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Crunchy Beef Burger",
-            "price": 23.05,
+            "name": "Authentic Herbed Grilled Tofu",
+            "price": 19.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Sweet Lasagna",
+            "price": 24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Golden Quiche",
+            "price": 21.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -375,17 +375,17 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Hearty Zingy Traditional Provençal Bouillabaisse",
-            "price": 27.78,
-            "isVegetarian": true,
+            "name": "Organic Flavorful Grilled Lobster with Lemon Butter",
+            "price": 25.58,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Organic Crunchy Lobster Thermidor with Gruyère Crust",
-            "price": 29.66,
+            "name": "Authentic Grilled Seafood Risotto with Saffron",
+            "price": 34.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,8 +393,8 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Stuffed Alaskan King Crab Legs with Drawn Butter",
-            "price": 26.59,
+            "name": "Deluxe Zesty Sushi-Grade Sashimi Platter",
+            "price": 27.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -402,22 +402,22 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Luscious Crab-Stuffed Mushrooms",
-            "price": 28.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Roasted Stuffed Flounder with Crab and Spinach",
-            "price": 32.43,
+            "name": "Classic Irresistible Crab-Stuffed Mushrooms",
+            "price": 24.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Fresh Satisfying Stuffed Flounder with Crab and Spinach",
+            "price": 26.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -425,17 +425,17 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Homestyle Crunchy Sweet Potato Wedges with Smoked Paprika",
-            "price": 5.41,
-            "isVegetarian": true,
+            "name": "Fresh Flaky Herbed Bulgur Wheat with Lemon",
+            "price": 5.98,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Juicy Green Beans Almondine",
-            "price": 9.15,
+            "name": "Hearty Pan-seared Macaroni and Aged Cheddar",
+            "price": 8.94,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -443,40 +443,40 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Creamy Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 5.74,
+            "name": "Classic Zingy Cauliflower Gratin with Gruyère",
+            "price": 5.37,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Smoked Truffle Parmesan Fries",
-            "price": 9.29,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Comforting Grilled Zucchini and Peppers",
-            "price": 5.09,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Enticing Fragrant Basmati Rice Pilaf",
-            "price": 7.86,
-            "isVegetarian": false,
+            "name": "Organic Wholesome Corn on the Cob with Chili Lime Butter",
+            "price": 9.23,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Homestyle Sautéed Mashed Potatoes",
+            "price": 7.45,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Crunchy Israeli Couscous with Roasted Tomatoes",
+            "price": 7.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -484,18 +484,27 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Iced Tea",
-            "price": 5.3,
-            "isVegetarian": false,
+            "name": "Soda",
+            "price": 7.22,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Smoothie",
-            "price": 7.08,
-            "isVegetarian": false,
+            "name": "Lemonade",
+            "price": 5.11,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 5.42,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
@@ -503,7 +512,16 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Tea",
-            "price": 6.83,
+            "price": 7.11,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 7.64,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -511,27 +529,9 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coffee",
-            "price": 7.46,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soda",
-            "price": 6.83,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Water",
-            "price": 4.76,
-            "isVegetarian": true,
+            "price": 4.16,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -549,8 +549,26 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Baklava",
-            "price": 10.62,
+            "name": "Pecan Pie",
+            "price": 10.68,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Macarons",
+            "price": 10.58,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Treacle Tart",
+            "price": 8.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,26 +576,8 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Crumb Cake",
-            "price": 10.71,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemon Bars",
-            "price": 6.04,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Red Velvet Cake",
-            "price": 9.14,
+            "name": "Banana Bread",
+            "price": 10.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -585,10 +585,10 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Brownies",
-            "price": 6.76,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Soufflé",
+            "price": 8.31,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -599,26 +599,8 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Ice Cream",
-            "price": 11.64,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frosty",
-            "price": 9.66,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Fruit Bars",
-            "price": 9.35,
+            "name": "Sorbet",
+            "price": 9.93,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -627,16 +609,34 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Gelato",
-            "price": 10.64,
+            "price": 8.28,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Semifreddo",
+            "price": 7.89,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Mousse",
-            "price": 9,
+            "name": "Ice Cream Cake",
+            "price": 10.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Fruit Bars",
+            "price": 7.78,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -655,53 +655,35 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Mojito",
-            "price": 12.54,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Negroni",
+            "price": 11.72,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 11.22,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 11.65,
+            "name": "Bloody Mary",
+            "price": 11.8,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Cosmopolitan",
-            "price": 14.79,
+            "price": 10.31,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 13.7,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Old Fashioned",
-            "price": 12.94,
+            "price": 14.03,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -709,8 +691,26 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "price": 15.5,
+            "name": "Margarita",
+            "price": 13.93,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 15.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 15.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -723,53 +723,53 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Grenache",
-            "price": 9.86,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Blanc",
-            "price": 10.46,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Dolcetto",
-            "price": 13.13,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Marsanne",
-            "price": 12.7,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sangiovese",
-            "price": 13.22,
+            "name": "Pinot Noir",
+            "price": 13.92,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Riesling",
-            "price": 12.88,
+            "name": "Merlot",
+            "price": 11.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cabernet Franc",
+            "price": 13.92,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tempranillo",
+            "price": 8.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Barbera",
+            "price": 8.53,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mourvèdre",
+            "price": 8.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -782,47 +782,47 @@ export const seattlegoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Mezcal",
-            "price": 13.69,
-            "isVegetarian": true,
+            "name": "Sambuca",
+            "price": 10.3,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Triple Sec",
+            "price": 15.86,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Pisco",
-            "price": 17.5,
-            "isVegetarian": true,
+            "price": 14.31,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Absinthe",
-            "price": 16.67,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vodka",
-            "price": 17.99,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Campari",
-            "price": 15.87,
-            "isVegetarian": true,
+            "name": "Gin",
+            "price": 11.11,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cointreau",
+            "price": 17.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

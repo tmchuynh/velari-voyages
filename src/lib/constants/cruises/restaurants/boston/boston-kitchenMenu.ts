@@ -12,35 +12,17 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Gourmet Delicious Heritage Recipe Lamb Shank",
-            "price": 32.54,
+            "name": "Authentic Crunchy Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 32.04,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Crunchy Flambéed Tableside Specialty",
-            "price": 31.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Pan-seared Celebrity Favorite Lobster Dish",
-            "price": 31.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Irresistible Executive Chef's Daily Inspiration Entrée",
-            "price": 24.74,
+            "name": "Classic Creamy Chef's Special Surf and Turf",
+            "price": 36.37,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -48,28 +30,46 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Crunchy Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 27.98,
+            "name": "Handcrafted Spiced Tableside Carved Chateaubriand",
+            "price": 30.85,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Sizzling Legendary Prime Rib",
-            "price": 29.9,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Herbed Seasonal Tasting Platter",
-            "price": 37.37,
+            "name": "Traditional Comforting Black Garlic Glazed Beef Tenderloin",
+            "price": 24.48,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Sweet Executive Chef's Daily Inspiration Entrée",
+            "price": 30.42,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Marinated Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 31.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Spiced Age-Old Recipe Osso Buco with Gremolata",
+            "price": 29.36,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -80,35 +80,8 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "House Special Aromatic Collaborative Limited Edition Special",
-            "price": 30.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Mouthwatering Chef's Childhood Favorite Reimagined",
-            "price": 36.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Grilled Miso-Glazed Black Cod",
-            "price": 37.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Pan-seared Modern Interpretation of Regional Classic",
-            "price": 25.23,
+            "name": "Homestyle Delicious Whole Animal Butchery Showcase",
+            "price": 33.38,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -116,13 +89,40 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Zesty Roasted Quail with Truffle Jus",
-            "price": 34.21,
+            "name": "Seasonal Stuffed Tableside Flambé Preparation",
+            "price": 26.54,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Grilled Seared Duck Breast with Cherry Reduction",
+            "price": 38.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Wholesome Tomahawk Ribeye for Two",
+            "price": 31.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
+          },
+          {
+            "name": "Classic Appetizing Sustainable Seafood Tower",
+            "price": 37.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -130,8 +130,17 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Fresh Juicy Garlic Bread",
-            "price": 13,
+            "name": "House Special Grilled Tempura",
+            "price": 9.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Delicious Potstickers",
+            "price": 10.94,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -139,8 +148,8 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Potstickers",
-            "price": 12.34,
+            "name": "Homestyle Sweet Garlic Knots",
+            "price": 13.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -148,17 +157,8 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Juicy Tuna Tartare",
-            "price": 13.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Appetizing Garlic Knots",
-            "price": 9.09,
+            "name": "Homestyle Crispy Lettuce Wraps",
+            "price": 14.56,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -166,17 +166,8 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Spicy Prawn Toast",
-            "price": 13.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Smoked Cheese Nachos",
-            "price": 15.26,
+            "name": "Fresh Spiced Mini Empanadas",
+            "price": 11.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -184,22 +175,31 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Irresistible Mini Tacos",
-            "price": 8.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Delicious Spinach Puffs",
-            "price": 10.84,
+            "name": "Authentic Grilled Prawn Toast",
+            "price": 15.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Seasonal Zingy Nachos",
+            "price": 12.35,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Fried Stuffed Avocado",
+            "price": 15.47,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -207,26 +207,26 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Seasonal Smoked Beef Stew",
-            "price": 7.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Herbed Peanut Soup (West African)",
-            "price": 13.48,
-            "isVegetarian": false,
+            "name": "Handcrafted Marinated Lentil Soup",
+            "price": 12.96,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Delicious Miso Soup",
-            "price": 10.81,
+            "name": "Hearty Irresistible Tortilla Soup",
+            "price": 9.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Spicy Italian Wedding Soup",
+            "price": 11.63,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -234,9 +234,9 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Aromatic Mushroom Soup",
-            "price": 8.68,
-            "isVegetarian": false,
+            "name": "Organic Mouthwatering Mushroom Soup",
+            "price": 10.14,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -248,35 +248,35 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Farro Salad",
-            "price": 14.38,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Orzo Salad",
-            "price": 10.03,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beet Salad",
-            "price": 15.46,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Arugula Salad",
-            "price": 10.85,
+            "price": 13.14,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cobb Salad",
+            "price": 9.43,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Avocado Corn Salad",
+            "price": 9.88,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caprese Salad",
+            "price": 10.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -284,11 +284,11 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Potato Salad",
-            "price": 15.82,
+            "name": "Coleslaw",
+            "price": 13.74,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -298,44 +298,8 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Authentic Herbed Thai Curry",
-            "price": 29.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Exquisite Grilled Tofu",
-            "price": 25.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Aromatic Seafood Platter",
-            "price": 25.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Marinated Roast Duck",
-            "price": 18.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Luscious Coq au Vin",
-            "price": 30.16,
+            "name": "Fresh Comforting Pizza",
+            "price": 28.17,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -343,17 +307,8 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Grilled Shish Kebabs",
-            "price": 23.88,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Smoked Biryani",
-            "price": 30.06,
+            "name": "Seasonal Mouthwatering Risotto",
+            "price": 25.37,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -361,8 +316,53 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Fried Fajitas",
-            "price": 19.98,
+            "name": "Organic Sweet Stir-fry",
+            "price": 25.24,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Crispy Spaghetti Bolognese",
+            "price": 27.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Braised Salmon",
+            "price": 26.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Steamed Jambalaya",
+            "price": 26.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Marinated Bibimbap",
+            "price": 29.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Pan-seared Stuffed Zucchini Boats",
+            "price": 31,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -375,26 +375,17 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Authentic Herbed Grilled Lobster with Lemon Butter",
-            "price": 22.72,
+            "name": "Seasonal Delicious Seafood Gumbo with Okra",
+            "price": 29.79,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Savory Linguine with Clam Sauce",
-            "price": 25.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Exquisite Stuffed Flounder with Crab and Spinach",
-            "price": 31.97,
+            "name": "Handcrafted Marinated Smoked Salmon Platter with Dill Crème",
+            "price": 22.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -402,17 +393,26 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Satisfying Baked Cod with Lemon Caper Sauce",
-            "price": 30.76,
+            "name": "Authentic Grilled Mussels Mariniere in White Wine",
+            "price": 30.11,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Handcrafted Smoked Sushi-Grade Sashimi Platter",
-            "price": 23.53,
+            "name": "Fresh Irresistible Valencian Seafood Paella",
+            "price": 29.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Sweet Hearty Italian Cioppino",
+            "price": 32.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,44 +425,44 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Gourmet Grilled Herbed Bulgur Wheat with Lemon",
-            "price": 6.79,
+            "name": "Homestyle Marinated Sweet Potato Wedges with Smoked Paprika",
+            "price": 6.02,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Savory Creamed Spinach with Nutmeg",
+            "price": 6.28,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Stuffed Quinoa Pilaf with Herbs",
+            "price": 8.56,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Satisfying Provencal Ratatouille",
-            "price": 9.99,
+            "name": "Deluxe Spicy Chili Lime Roasted Chickpeas",
+            "price": 6.3,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Sweet Grilled Zucchini and Peppers",
-            "price": 6.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Creamy Baked Idaho Potato with Sour Cream",
-            "price": 6.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Spiced Creamy Colcannon (Irish Potato Mash)",
-            "price": 8.53,
+            "name": "Gourmet Delicious Grilled Zucchini and Peppers",
+            "price": 5.8,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -470,11 +470,11 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Fried Scalloped Potatoes with Thyme",
-            "price": 7.04,
+            "name": "Authentic Smoked Warm Buttermilk Dinner Rolls",
+            "price": 6.59,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           }
@@ -484,8 +484,17 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Water",
-            "price": 4.09,
+            "name": "Coffee",
+            "price": 4.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 5.31,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -493,18 +502,9 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lemonade",
-            "price": 4.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 4.87,
-            "isVegetarian": false,
+            "name": "Smoothie",
+            "price": 4.41,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -512,27 +512,27 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Juice",
-            "price": 5.07,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 4.48,
-            "isVegetarian": false,
+            "price": 6.23,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Iced Tea",
-            "price": 4.86,
+            "name": "Milkshake",
+            "price": 6.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 7.22,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -549,17 +549,8 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Apple Pie",
-            "price": 7.01,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Eclairs",
-            "price": 8.39,
+            "price": 9.29,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -567,26 +558,35 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Macarons",
-            "price": 9.18,
-            "isVegetarian": false,
+            "name": "Lemon Bars",
+            "price": 9.2,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Croissants",
-            "price": 6.1,
-            "isVegetarian": false,
+            "name": "Scones",
+            "price": 10.2,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Muffins",
-            "price": 9.71,
+            "name": "Custard Tart",
+            "price": 10.13,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cheesecake",
+            "price": 7.68,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,17 +599,17 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Ice Cream",
-            "price": 11.15,
+            "name": "Frozen Custard",
+            "price": 7.6,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Frozen Cheesecake",
-            "price": 7.34,
+            "price": 9.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -617,8 +617,8 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ice Cream Sandwich",
-            "price": 8.66,
+            "name": "Frozen Pie",
+            "price": 7.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -626,17 +626,17 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Granita",
-            "price": 8.88,
+            "name": "Ice Cream Cake",
+            "price": 11.07,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Paletas",
-            "price": 9.1,
+            "name": "Frozen Pudding",
+            "price": 10.34,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -655,17 +655,17 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Margarita",
-            "price": 14.98,
+            "name": "Martini",
+            "price": 13.32,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 13.86,
+            "name": "Bloody Mary",
+            "price": 12.54,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -674,25 +674,16 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Whiskey Sour",
-            "price": 10.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 14.65,
+            "price": 11.92,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Old Fashioned",
-            "price": 10.61,
+            "name": "Cosmopolitan",
+            "price": 12.85,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -700,8 +691,8 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 11.31,
+            "name": "Manhattan",
+            "price": 14.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -709,8 +700,17 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 12.3,
+            "name": "Mojito",
+            "price": 15.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 12.8,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -723,44 +723,17 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Marsanne",
-            "price": 12.68,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Gamay",
-            "price": 10.85,
-            "isVegetarian": true,
+            "price": 10.77,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mourvèdre",
-            "price": 13.17,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Verdicchio",
-            "price": 13.59,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Barbera",
-            "price": 10.12,
+            "name": "Grenache",
+            "price": 8.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -768,8 +741,35 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Syrah/Shiraz",
-            "price": 13.03,
+            "name": "Roussanne",
+            "price": 13.53,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Malbec",
+            "price": 11.94,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Verdicchio",
+            "price": 13.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vermentino",
+            "price": 9.05,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -782,17 +782,17 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Vodka",
-            "price": 17.58,
+            "name": "Chambord",
+            "price": 15.26,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Amaretto",
-            "price": 13.87,
+            "name": "Rum",
+            "price": 13.75,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -800,8 +800,8 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Maraschino",
-            "price": 10.2,
+            "name": "Brandy",
+            "price": 16.3,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -810,19 +810,19 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Sambuca",
-            "price": 14.69,
+            "price": 17.86,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Rum",
-            "price": 16.43,
-            "isVegetarian": false,
+            "name": "Calvados",
+            "price": 17.04,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

@@ -12,35 +12,8 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "House Special Smoked Executive Chef's Daily Inspiration Entrée",
-            "price": 24.11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Spicy Traditional Family Paella",
-            "price": 28.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Zesty Sous Vide Perfected Wagyu",
-            "price": 26.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Smoked 24-Hour Braised Short Ribs",
-            "price": 30.76,
+            "name": "Deluxe Sweet Heritage Recipe Lamb Shank",
+            "price": 36.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -48,17 +21,35 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Hearty Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 35.84,
+            "name": "Classic Stuffed Flambéed Tableside Specialty",
+            "price": 26.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Tangy Wood-Fired Peking Duck with Plum Sauce",
+            "price": 37.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Sautéed Local Bounty Harvest Plate (Vegetarian)",
+            "price": 37.74,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Irresistible Age-Old Recipe Osso Buco with Gremolata",
-            "price": 25.82,
+            "name": "Seasonal Zingy Signature Truffle Pasta with Aged Pecorino",
+            "price": 33.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -66,8 +57,17 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Tender Chef’s Wild Game Selection",
-            "price": 36.69,
+            "name": "Deluxe Zesty Restaurant's Namesake Signature Entrée",
+            "price": 24.74,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Crunchy Founder's Family Recipe Pasta",
+            "price": 37.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -80,49 +80,49 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Fresh Crispy Heirloom Recipe from Chef's Family",
-            "price": 32.61,
-            "isVegetarian": true,
+            "name": "Fresh Crispy Lobster Thermidor",
+            "price": 28.21,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Grilled Heritage Breed Porchetta",
+            "price": 38.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Hearty Chef's Childhood Favorite Reimagined",
-            "price": 37.9,
+            "name": "Fresh Sweet Tableside Flambé Preparation",
+            "price": 29.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Fried Modern Interpretation of Regional Classic",
+            "price": 26.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Crispy Truffle-Infused Filet Mignon",
+            "price": 26.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
-          },
-          {
-            "name": "Traditional Grilled Volcanic Stone-Cooked Specialty",
-            "price": 39.07,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Sautéed Sustainable Seafood Tower",
-            "price": 24.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Savory Lobster Thermidor",
-            "price": 30.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
@@ -130,8 +130,53 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Handcrafted Herbed Falafel",
-            "price": 15.64,
+            "name": "Authentic Juicy Cheese Nachos",
+            "price": 8.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Hearty Sweet Potato Fries",
+            "price": 10.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Sweet Edamame",
+            "price": 11.95,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Delectable Nachos",
+            "price": 14.14,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Pan-seared Mini Crab Cakes",
+            "price": 14.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Hearty Prawn Toast",
+            "price": 13.58,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -139,8 +184,8 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Tangy Bruschetta",
-            "price": 8.06,
+            "name": "Authentic Herbed Ceviche",
+            "price": 14.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -148,53 +193,8 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Grilled Cheese Platter",
-            "price": 14.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Wholesome Stuffed Jalapeños",
-            "price": 15.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Aromatic Stuffed Mushrooms",
-            "price": 11.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Zingy Tzatziki with Pita",
-            "price": 11.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Spicy Prawn Toast",
-            "price": 13.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Pan-seared Dumplings",
-            "price": 10.34,
+            "name": "Fresh Irresistible Charcuterie Board",
+            "price": 11.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -207,17 +207,26 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Deluxe Succulent Broccoli Cheddar Soup",
-            "price": 11.05,
+            "name": "Authentic Smoked Gazpacho",
+            "price": 11.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Luscious Turkey and Wild Rice Soup",
+            "price": 13.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Fresh Luscious Egg Drop Soup",
-            "price": 11.74,
+            "name": "Deluxe Tangy Minestrone",
+            "price": 10.84,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -225,22 +234,13 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Sweet Pho",
-            "price": 12.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Crunchy Butternut Squash Soup",
-            "price": 7.62,
+            "name": "House Special Sautéed Lobster Bisque",
+            "price": 7.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -248,8 +248,26 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Waldorf Salad",
-            "price": 10.47,
+            "name": "Arugula Salad",
+            "price": 9.45,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cucumber Salad",
+            "price": 11.02,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cobb Salad",
+            "price": 12.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -257,8 +275,8 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Caprese Salad",
-            "price": 13.32,
+            "name": "Greek Salad",
+            "price": 13.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -266,27 +284,9 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coleslaw",
-            "price": 11.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Kale Salad",
-            "price": 10.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Broccoli Crunch Salad",
-            "price": 15.66,
-            "isVegetarian": false,
+            "name": "Asian Slaw",
+            "price": 10.54,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -298,17 +298,17 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Authentic Crispy Teriyaki Chicken",
-            "price": 27.45,
+            "name": "Fresh Stuffed Lamb Chops",
+            "price": 23.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Hearty Flaky Tacos",
-            "price": 21.28,
+            "name": "Homestyle Flavorful Tagine",
+            "price": 29.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -316,8 +316,8 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Spiced Paella",
-            "price": 21.36,
+            "name": "Seasonal Creamy Katsu Curry",
+            "price": 30.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -325,34 +325,25 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Roasted Spaghetti Bolognese",
-            "price": 29.61,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Braised Grilled Tofu",
-            "price": 26.39,
+            "name": "Authentic Juicy Lentil Stew",
+            "price": 24.78,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Herbed Stuffed Peppers",
-            "price": 22.26,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Golden Bibimbap",
+            "price": 30.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Zingy Shish Kebabs",
+            "name": "Premium Grilled Eggplant Parmesan",
             "price": 23.56,
             "isVegetarian": false,
             "isVegan": false,
@@ -361,11 +352,20 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Aromatic Enchiladas",
-            "price": 21.32,
+            "name": "Classic Creamy Pulled Pork Sandwich",
+            "price": 25.27,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Juicy Pasta Primavera",
+            "price": 27.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -375,8 +375,8 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Homestyle Grilled Cajun Shrimp and Grits",
-            "price": 27.15,
+            "name": "Homestyle Baked Grilled Spanish Octopus with Smoked Paprika",
+            "price": 22.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,8 +384,8 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Herbed Tempura Soft Shell Crab",
-            "price": 25,
+            "name": "Fresh Spiced Lemon-Herb Calamari Steak",
+            "price": 22.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,26 +393,26 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Herbed Valencian Seafood Paella",
-            "price": 25.82,
+            "name": "Authentic Crispy Linguine with Clam Sauce",
+            "price": 29.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Traditional Zingy Pan-Seared Scallops with Pea Purée",
-            "price": 27.17,
+            "name": "Premium Savory Seared Tuna Steak with Sesame Crust",
+            "price": 27.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Hearty Sweet Grilled Lobster with Lemon Butter",
-            "price": 34.26,
+            "name": "Seasonal Roasted Maryland Style Crab Cakes",
+            "price": 31.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,56 +425,56 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Hearty Creamy Mashed Potatoes",
-            "price": 5.91,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Exquisite Stuffed Bell Peppers with Brown Rice",
-            "price": 7.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Pan-seared Yukon Gold Potato Gratin",
-            "price": 5.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Flaky Maple-Glazed Baby Carrots",
-            "price": 6.97,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Herbed Green Beans Almondine",
-            "price": 8.48,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Smoked Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 9.85,
+            "name": "Classic Succulent Sautéed Garlic Mushrooms",
+            "price": 7.48,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Creamy Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 6.32,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Sweet Macaroni and Aged Cheddar",
+            "price": 7.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Grilled Mashed Potatoes",
+            "price": 5.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Zesty French Fries",
+            "price": 8.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Sizzling Steamed Jasmine Rice",
+            "price": 8.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -484,44 +484,8 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Water",
-            "price": 5.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 6.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soda",
-            "price": 7.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 7.35,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 5.62,
+            "name": "Lemonade",
+            "price": 5.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -530,10 +494,46 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Hot Chocolate",
-            "price": 4.09,
+            "price": 6.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 7.41,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 6.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 4.2,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 6.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,8 +549,8 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Apple Pie",
-            "price": 6,
+            "name": "Strawberry Shortcake",
+            "price": 8.75,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,38 +558,38 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fruit Galette",
-            "price": 9.54,
-            "isVegetarian": false,
+            "name": "Tiramisu",
+            "price": 7.22,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sticky Toffee Pudding",
-            "price": 10.19,
+            "name": "Madeleines",
+            "price": 10.13,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Macarons",
-            "price": 10.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Carrot Cake",
-            "price": 8.25,
+            "price": 10.64,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pain au Chocolat",
+            "price": 8.17,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -599,8 +599,8 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Ice Cream",
-            "price": 10.85,
+            "name": "Frozen Banana",
+            "price": 11.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -608,17 +608,8 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Paletas",
-            "price": 11.94,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Pudding",
-            "price": 10.78,
+            "name": "Frozen Yogurt",
+            "price": 7.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -626,8 +617,8 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ice Cream Cake",
-            "price": 11.63,
+            "name": "Baked Alaska",
+            "price": 9.03,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -636,9 +627,18 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Sorbet",
-            "price": 9.06,
-            "isVegetarian": false,
-            "isVegan": false,
+            "price": 9.64,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Pie",
+            "price": 7.91,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -655,8 +655,8 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Cosmopolitan",
-            "price": 10.38,
+            "name": "Martini",
+            "price": 14.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -665,7 +665,16 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Bloody Mary",
-            "price": 10.12,
+            "price": 12.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 14.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -673,8 +682,26 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 11.04,
+            "name": "Negroni",
+            "price": 11.26,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 15.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 10.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -683,37 +710,10 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Mai Tai",
-            "price": 14.36,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 15.2,
+            "price": 12.68,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 12.96,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 12.13,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,44 +723,35 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
+            "name": "Roussanne",
+            "price": 12.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gamay",
+            "price": 9.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Marsanne",
+            "price": 11.99,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Chardonnay",
-            "price": 12.93,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Verdicchio",
-            "price": 10.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Moscato",
-            "price": 10.56,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chenin Blanc",
-            "price": 8.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Sauvignon Blanc",
-            "price": 12.35,
+            "price": 12.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -768,11 +759,20 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Vouvray",
-            "price": 11.31,
+            "name": "Vermentino",
+            "price": 10.19,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fiano",
+            "price": 9.85,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -782,8 +782,8 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Kahlúa",
-            "price": 10.39,
+            "name": "Cointreau",
+            "price": 16.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -791,8 +791,8 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pisco",
-            "price": 11.9,
+            "name": "Rum",
+            "price": 11.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -801,26 +801,26 @@ export const bostonharborTerraceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Gin",
-            "price": 11.95,
+            "price": 13.76,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Absinthe",
+            "price": 12.34,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey",
+            "price": 12.86,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Scotch",
-            "price": 11.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chambord",
-            "price": 12.58,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

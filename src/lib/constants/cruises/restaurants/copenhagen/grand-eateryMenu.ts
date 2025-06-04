@@ -12,8 +12,8 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Premium Roasted Whole Roasted Heritage Chicken",
-            "price": 26.95,
+            "name": "Authentic Crunchy Chef's Special Surf and Turf",
+            "price": 32.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -21,26 +21,8 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Gourmet Smoked Age-Old Recipe Osso Buco with Gremolata",
-            "price": 37.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Crunchy 24-Hour Braised Short Ribs",
-            "price": 37.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Juicy Legendary Prime Rib",
-            "price": 28.16,
+            "name": "Premium Savory Local Bounty Harvest Plate (Vegetarian)",
+            "price": 25.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -48,8 +30,8 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Stuffed Chef's Childhood Inspired Creation",
-            "price": 35.09,
+            "name": "Homestyle Appetizing Charcoal Grilled Iberico Pork",
+            "price": 34.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -57,8 +39,17 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Grilled Wood-Fired Peking Duck with Plum Sauce",
-            "price": 37.68,
+            "name": "Handcrafted Irresistible Founder's Family Recipe Pasta",
+            "price": 35.31,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Creamy Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 29.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -66,13 +57,22 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Pan-seared Seasonal Tasting Menu Experience",
-            "price": 30.45,
+            "name": "Hearty Herbed Tableside Carved Chateaubriand",
+            "price": 35.35,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Tangy Japanese A5 Wagyu with Ponzu Butter",
+            "price": 28.58,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
@@ -80,17 +80,17 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Hearty Roasted Smoked and Slow-Roasted Heritage Meat",
-            "price": 35.8,
+            "name": "Authentic Zingy Whole Animal Butchery Showcase",
+            "price": 36.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Fresh Exquisite Crispy Skin Sea Bass",
-            "price": 29.75,
+            "name": "Homestyle Spiced Heritage Breed Porchetta",
+            "price": 32.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -98,29 +98,29 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Juicy Whole Animal Butchery Showcase",
-            "price": 26.22,
+            "name": "Deluxe Grilled Locally Foraged Mushroom Selection",
+            "price": 30.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Golden Tasting of Local Artisanal Cheeses",
+            "price": 35.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Grilled Modern Interpretation of Regional Classic",
+            "price": 37.45,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Tangy Wild Mushroom Risotto",
-            "price": 33.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Tangy Slow-Roasted Prime Rib",
-            "price": 34.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,44 +130,26 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Authentic Delectable Prawn Toast",
-            "price": 10.64,
+            "name": "Handcrafted Grilled Garlic Knots",
+            "price": 9.18,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Hearty Stuffed Avocado",
-            "price": 9.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Mouthwatering Baba Ganoush",
-            "price": 9.69,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Authentic Sizzling Spinach Artichoke Dip",
-            "price": 10,
-            "isVegetarian": false,
+            "name": "Fresh Creamy Dumplings",
+            "price": 9.67,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Seasonal Fried Baked Brie",
-            "price": 10.53,
+            "name": "Organic Grilled Tuna Tartare",
+            "price": 14.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -175,17 +157,8 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Delectable Mini Crab Cakes",
-            "price": 10.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Golden Bruschetta",
-            "price": 11.22,
+            "name": "Traditional Comforting Crostini",
+            "price": 15.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -193,12 +166,39 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Satisfying Hummus Platter",
-            "price": 9.6,
+            "name": "Fresh Grilled Mini Quesadillas",
+            "price": 11,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Appetizing Tempura",
+            "price": 13.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Smoked Cheese Platter",
+            "price": 11.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Baked Stuffed Mushrooms",
+            "price": 14.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -207,8 +207,8 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Fresh Zingy Vegetable Barley Soup",
-            "price": 9.47,
+            "name": "Handcrafted Exquisite Pho",
+            "price": 11.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -216,29 +216,29 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Stuffed Hot and Sour Soup",
-            "price": 10.49,
+            "name": "Homestyle Zesty Tomato Soup",
+            "price": 12.81,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Smoked Turkey and Wild Rice Soup",
+            "price": 13.41,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Traditional Grilled Italian Wedding Soup",
-            "price": 7.55,
-            "isVegetarian": true,
+            "name": "Handcrafted Wholesome Carrot Ginger Soup",
+            "price": 9.66,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Herbed Egg Drop Soup",
-            "price": 11.48,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -248,26 +248,8 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Greek Salad",
-            "price": 13.12,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Potato Salad",
-            "price": 10.6,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Garden Salad",
-            "price": 10.58,
+            "name": "Caprese Salad",
+            "price": 11.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -275,20 +257,38 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Beet Salad",
-            "price": 9.18,
+            "name": "Caesar Salad",
+            "price": 11.39,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Asian Slaw",
-            "price": 14.1,
+            "name": "Southwest Black Bean Salad",
+            "price": 9.38,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Thai Green Papaya Salad",
+            "price": 11.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mediterranean Chopped Salad",
+            "price": 15.08,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -298,26 +298,8 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Gourmet Stuffed Salmon",
-            "price": 31.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Creamy Shish Kebabs",
-            "price": 25.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Spiced Shakshuka",
-            "price": 23.33,
+            "name": "Premium Satisfying Lamb Chops",
+            "price": 18.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -325,26 +307,26 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Creamy Tagine",
-            "price": 20.82,
+            "name": "Homestyle Pan-seared Risotto",
+            "price": 23.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Crunchy Chicken Parmesan",
+            "price": 22.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Handcrafted Appetizing Biryani",
-            "price": 18.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Delicious Lasagna",
-            "price": 23.43,
+            "name": "House Special Crispy Korma",
+            "price": 26.24,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,18 +334,36 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Smoked Roast Duck",
-            "price": 31.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Traditional Braised Stuffed Zucchini Boats",
+            "price": 27.79,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Zingy Chili con Carne",
-            "price": 29.07,
-            "isVegetarian": true,
+            "name": "Homestyle Sweet Teriyaki Chicken",
+            "price": 21.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Roasted Fish and Chips",
+            "price": 20.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Grilled Thai Curry",
+            "price": 23.23,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -375,26 +375,8 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "House Special Braised Seared Tuna Steak with Sesame Crust",
-            "price": 25.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Grilled Stuffed Flounder with Crab and Spinach",
-            "price": 25.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Exquisite Cajun Shrimp and Grits",
-            "price": 24.55,
+            "name": "Classic Comforting Seared Tuna Steak with Sesame Crust",
+            "price": 34.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -402,31 +384,8 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Stuffed Smoked Salmon Platter with Dill Crème",
-            "price": 27.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Grilled Crab-Stuffed Mushrooms",
-            "price": 33.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Authentic Aromatic Yukon Gold Potato Gratin",
-            "price": 6.57,
+            "name": "Authentic Herbed Stuffed Flounder with Crab and Spinach",
+            "price": 24.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,44 +393,85 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Delectable Provencal Ratatouille",
-            "price": 9.6,
+            "name": "Deluxe Sweet Seafood Alfredo with Spinach Fettuccine",
+            "price": 25.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spiced Sushi-Grade Sashimi Platter",
+            "price": 30.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Braised Blackened Mahi-Mahi with Pineapple Salsa",
+            "price": 25.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Seasonal Grilled Soft Polenta with Parmesan",
+            "price": 5.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Steamed Grilled Asparagus with Lemon Zest",
+            "price": 8.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Mouthwatering Crispy Beer-Battered Onion Rings",
+            "price": 5.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sweet Green Beans Almondine",
+            "price": 7.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spiced Sautéed Garlic Mushrooms",
+            "price": 5.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Marinated Corn on the Cob with Chili Lime Butter",
-            "price": 5.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Grilled French Fries",
-            "price": 8.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Handcrafted Marinated Scalloped Potatoes with Thyme",
-            "price": 7.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Tender Grilled Asparagus with Lemon Zest",
-            "price": 7.41,
+            "name": "Hearty Grilled Homestyle Baked Beans",
+            "price": 9.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -485,17 +485,8 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Coffee",
-            "price": 5.42,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 7.52,
-            "isVegetarian": true,
+            "price": 6.33,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -503,7 +494,16 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Juice",
-            "price": 7.56,
+            "price": 6.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 7.34,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -511,29 +511,29 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Water",
-            "price": 4.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Tea",
-            "price": 4.71,
+            "price": 6.49,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 5.4,
-            "isVegetarian": true,
+            "name": "Milkshake",
+            "price": 4.05,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 5.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,9 +549,27 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Red Velvet Cake",
-            "price": 8.34,
+            "name": "Chocolate Chip Cookies",
+            "price": 10.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemon Bars",
+            "price": 7.25,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Brownies",
+            "price": 7.06,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -559,36 +577,18 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Danish Pastries",
-            "price": 7.78,
-            "isVegetarian": false,
+            "price": 6.94,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Shortbread",
-            "price": 8.37,
+            "name": "Apple Pie",
+            "price": 6.93,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pain au Chocolat",
-            "price": 6.2,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Macarons",
-            "price": 10.33,
-            "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -599,26 +599,35 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Sorbet",
+            "name": "Ice Cream",
+            "price": 7.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Mousse",
+            "price": 8.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Popsicles",
             "price": 11.88,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Granita",
-            "price": 11.89,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Pudding",
-            "price": 9.4,
+            "price": 10.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -626,17 +635,8 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Pie",
-            "price": 10.76,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Snow Cone",
-            "price": 9.87,
+            "name": "Frozen Custard",
+            "price": 8.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -655,18 +655,18 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Whiskey Sour",
-            "price": 15.12,
+            "name": "Manhattan",
+            "price": 10.16,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 15.41,
-            "isVegetarian": false,
+            "name": "Mojito",
+            "price": 13.7,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -674,7 +674,34 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Negroni",
-            "price": 12.37,
+            "price": 15.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 14.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 10.43,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 15.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -683,37 +710,10 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Bloody Mary",
-            "price": 14.6,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 11.53,
+            "price": 15.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 11.73,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 12.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,26 +723,8 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Mourvèdre",
-            "price": 13.13,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gamay",
-            "price": 9.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vouvray",
-            "price": 10.06,
+            "name": "Malbec",
+            "price": 13.89,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -750,29 +732,47 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Petit Verdot",
-            "price": 9.02,
-            "isVegetarian": false,
+            "name": "Zinfandel",
+            "price": 9.68,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Syrah/Shiraz",
-            "price": 9.73,
-            "isVegetarian": false,
+            "name": "Barbera",
+            "price": 9.88,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cabernet Franc",
-            "price": 9.32,
+            "name": "Moscato",
+            "price": 10.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sémillon",
+            "price": 13.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grenache",
+            "price": 12.94,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -782,8 +782,8 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Bourbon",
-            "price": 12.09,
+            "name": "Galliano",
+            "price": 17.2,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -791,17 +791,8 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Calvados",
-            "price": 17.1,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Maraschino",
-            "price": 11.61,
+            "price": 10.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -809,20 +800,29 @@ export const copenhagengrandEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tequila",
-            "price": 10.05,
+            "name": "Rum",
+            "price": 14.05,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vodka",
+            "price": 16.68,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Baileys Irish Cream",
-            "price": 12.78,
+            "price": 12.92,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

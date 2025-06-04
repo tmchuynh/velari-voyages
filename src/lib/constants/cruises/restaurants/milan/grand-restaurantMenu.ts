@@ -12,35 +12,26 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Authentic Herbed Chef's Special Surf and Turf",
-            "price": 30.59,
+            "name": "Gourmet Crispy Flambéed Tableside Specialty",
+            "price": 37.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Luscious Whole Roasted Heritage Chicken",
+            "price": 37.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Authentic Juicy Heritage Recipe Lamb Shank",
-            "price": 33.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Juicy Executive Chef's Daily Inspiration Entrée",
-            "price": 33.81,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Tangy Signature Truffle Pasta with Aged Pecorino",
-            "price": 24.91,
+            "name": "Seasonal Herbed Restaurant's Namesake Signature Entrée",
+            "price": 27.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -48,8 +39,8 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Crispy Chef's Childhood Inspired Creation",
-            "price": 36.02,
+            "name": "Seasonal Baked Age-Old Recipe Osso Buco with Gremolata",
+            "price": 35.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -57,17 +48,26 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Grilled Chef’s Wild Game Selection",
-            "price": 30.41,
+            "name": "Gourmet Aromatic House Famous Duck Confit",
+            "price": 31.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Marinated Celebrity Favorite Lobster Dish",
+            "price": 33.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Creamy Tableside Carved Chateaubriand",
-            "price": 27.72,
+            "name": "Hearty Hearty Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 29.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -80,8 +80,8 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Traditional Mouthwatering House Specialty Pasta Creation",
-            "price": 29.45,
+            "name": "House Special Succulent Tableside Prepared Tartare",
+            "price": 26.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -89,26 +89,8 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Spiced Grilled Venison with Juniper Berry Sauce",
-            "price": 36.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Flaky Heirloom Recipe from Chef's Family",
-            "price": 26.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Sizzling Fire-Roasted Seasonal Centerpiece",
-            "price": 24.55,
+            "name": "Handcrafted Tender Whole Animal Butchery Showcase",
+            "price": 39.07,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -116,13 +98,31 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Flavorful Sustainable Seafood Tower",
-            "price": 30.71,
+            "name": "Organic Herbed Crispy Skin Sea Bass",
+            "price": 36.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Smoked Grilled Venison with Juniper Berry Sauce",
+            "price": 38.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Fried Miso-Glazed Black Cod",
+            "price": 29.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -130,8 +130,8 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Fresh Tender Cheese Platter",
-            "price": 11.13,
+            "name": "Hearty Herbed Stuffed Mushrooms",
+            "price": 13.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -139,8 +139,8 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Crunchy Tempura",
-            "price": 10.37,
+            "name": "Gourmet Flavorful Calamari",
+            "price": 15.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -148,8 +148,8 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Comforting Mini Sliders",
-            "price": 14.61,
+            "name": "Gourmet Delicious Sweet Potato Fries",
+            "price": 12.06,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,17 +157,17 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Marinated Crostini",
-            "price": 14.39,
-            "isVegetarian": false,
+            "name": "Fresh Irresistible Falafel",
+            "price": 14.55,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Homestyle Marinated Samosas",
-            "price": 15.87,
+            "name": "Homestyle Pan-seared Arancini",
+            "price": 10.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -175,8 +175,17 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Enticing Baked Brie",
-            "price": 11.69,
+            "name": "Hearty Sweet Potstickers",
+            "price": 9.41,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Delectable Baba Ganoush",
+            "price": 8.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -184,17 +193,8 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Flaky Spinach Puffs",
-            "price": 13.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Mouthwatering Dumplings",
-            "price": 14.68,
+            "name": "Fresh Grilled Dumplings",
+            "price": 11.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -207,35 +207,35 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Authentic Creamy Seafood Chowder",
-            "price": 11.95,
+            "name": "Handcrafted Spicy Beef Stew",
+            "price": 12.2,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Grilled Egg Drop Soup",
+            "price": 11.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Spiced Vegetable Barley Soup",
-            "price": 7.78,
+            "name": "Gourmet Spiced Tomato Soup",
+            "price": 11.25,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Wholesome Miso Soup",
-            "price": 9.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Herbed Mushroom Soup",
-            "price": 13.81,
+            "name": "Homestyle Herbed Clam Chowder",
+            "price": 11.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -248,17 +248,17 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Spinach Salad",
-            "price": 11,
+            "name": "Lentil and Feta Salad",
+            "price": 10.26,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cobb Salad",
-            "price": 14.1,
+            "name": "Orzo Salad",
+            "price": 9.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -266,8 +266,17 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Asian Slaw",
-            "price": 10.67,
+            "name": "Roasted Vegetable Salad",
+            "price": 14.25,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Quinoa Salad",
+            "price": 12.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -275,19 +284,10 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pasta Salad",
-            "price": 15.28,
-            "isVegetarian": false,
+            "name": "Mango Avocado Salad",
+            "price": 15.04,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef Salad",
-            "price": 11.61,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -298,8 +298,8 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Gourmet Zesty Shakshuka",
-            "price": 18.88,
+            "name": "House Special Stuffed Bibimbap",
+            "price": 30.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,8 +307,8 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Delectable Katsu Curry",
-            "price": 29.75,
+            "name": "Authentic Golden Moussaka",
+            "price": 24.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -316,35 +316,8 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Spicy Moussaka",
-            "price": 20.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Delicious Gnocchi",
-            "price": 29.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Stuffed Risotto",
-            "price": 23.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Smoked Lentil Stew",
-            "price": 21.7,
+            "name": "Organic Roasted Katsu Curry",
+            "price": 22.24,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,22 +325,49 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Herbed Mac and Cheese",
-            "price": 31.66,
-            "isVegetarian": false,
+            "name": "Fresh Zingy Lentil Stew",
+            "price": 21.47,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Hearty Salmon",
-            "price": 24.8,
+            "name": "House Special Spiced Salmon",
+            "price": 27.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Gourmet Succulent Chicken Parmesan",
+            "price": 31.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Marinated Risotto",
+            "price": 24.68,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Braised Shakshuka",
+            "price": 26.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -375,8 +375,8 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Hearty Enticing Lemon-Herb Calamari Steak",
-            "price": 30.32,
+            "name": "Premium Zesty Smoked Salmon Platter with Dill Crème",
+            "price": 33.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,26 +384,26 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Grilled Garlic Butter Shrimp Skillet",
-            "price": 23.92,
+            "name": "Premium Steamed Sushi-Grade Sashimi Platter",
+            "price": 27.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Fresh Mouthwatering Steamed Littleneck Clams in Garlic Broth",
-            "price": 35.33,
+            "name": "Deluxe Appetizing Grilled Lobster with Lemon Butter",
+            "price": 26.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Traditional Zesty Alaskan King Crab Legs with Drawn Butter",
-            "price": 30.99,
+            "name": "Hearty Roasted Garlic Butter Shrimp Skillet",
+            "price": 28.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -411,11 +411,11 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Savory Seafood Alfredo with Spinach Fettuccine",
-            "price": 33.22,
+            "name": "Deluxe Crunchy Cedar Plank Roasted Salmon",
+            "price": 32.2,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           }
@@ -425,8 +425,26 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Premium Mouthwatering Garlic Bread with Herb Butter",
-            "price": 6.85,
+            "name": "Handcrafted Satisfying Mashed Potatoes",
+            "price": 5.61,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Satisfying Homestyle Baked Beans",
+            "price": 7.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Pan-seared Creamy Colcannon (Irish Potato Mash)",
+            "price": 6.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,17 +452,8 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Baked Homestyle Baked Beans",
-            "price": 9.76,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Steamed Scalloped Potatoes with Thyme",
-            "price": 6.45,
+            "name": "Authentic Satisfying Herbed Bulgur Wheat with Lemon",
+            "price": 6.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -452,29 +461,20 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Deluxe Grilled Wild Mushroom Risotto",
-            "price": 5.56,
-            "isVegetarian": false,
+            "name": "House Special Tangy Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 7.48,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Succulent Buttered Egg Noodles",
-            "price": 9.59,
-            "isVegetarian": false,
+            "name": "Seasonal Hearty Fragrant Basmati Rice Pilaf",
+            "price": 8.72,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Enticing Macaroni and Aged Cheddar",
-            "price": 9.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -484,44 +484,17 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Iced Tea",
-            "price": 4.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coffee",
-            "price": 6.64,
+            "name": "Soda",
+            "price": 5.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hot Chocolate",
-            "price": 4.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Tea",
-            "price": 7.32,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 7.23,
+            "price": 5.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -529,9 +502,36 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lemonade",
-            "price": 6.21,
+            "name": "Smoothie",
+            "price": 4.77,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 5.93,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 4.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 7.19,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -549,44 +549,44 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Pecan Pie",
-            "price": 9.2,
+            "name": "Donuts",
+            "price": 7.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baklava",
+            "price": 6.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pumpkin Pie",
+            "price": 10.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cobbler",
+            "price": 7.55,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cannoli",
-            "price": 6.6,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Red Velvet Cake",
-            "price": 8.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tiramisu",
-            "price": 9.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Apple Pie",
-            "price": 7.43,
+            "name": "Brownies",
+            "price": 9.55,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -599,44 +599,44 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Baked Alaska",
-            "price": 11.08,
+            "name": "Frozen Cheesecake",
+            "price": 9.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Pie",
+            "price": 9.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kulfi",
+            "price": 9.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Custard",
+            "price": 7.04,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Mousse",
-            "price": 10.96,
-            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frosty",
-            "price": 10.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Yogurt",
-            "price": 8.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Semifreddo",
-            "price": 9.67,
+            "name": "Granita",
+            "price": 7.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -655,26 +655,17 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Martini",
-            "price": 10.84,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 14.41,
-            "isVegetarian": false,
+            "name": "Old Fashioned",
+            "price": 11.14,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Old Fashioned",
-            "price": 13.11,
+            "name": "Cosmopolitan",
+            "price": 14.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -682,8 +673,8 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 14.79,
+            "name": "Whiskey Sour",
+            "price": 12.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -692,16 +683,7 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
           },
           {
             "name": "Mojito",
-            "price": 10.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 15.17,
+            "price": 15.27,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -709,8 +691,26 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "price": 12.1,
+            "name": "Bloody Mary",
+            "price": 14.76,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 13.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 13.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -723,54 +723,54 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Moscato",
-            "price": 11.37,
+            "name": "Vouvray",
+            "price": 12.33,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Zinfandel",
-            "price": 10.05,
-            "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cabernet Franc",
-            "price": 8.31,
+            "name": "Champagne/Sparkling Wine",
+            "price": 13.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Malbec",
+            "price": 12.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Blanc",
+            "price": 10.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Merlot",
+            "price": 8.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Cabernet Sauvignon",
-            "price": 13.82,
+            "price": 10.21,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Grigio",
-            "price": 13,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grenache",
-            "price": 8.72,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -782,17 +782,17 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Campari",
-            "price": 16.53,
-            "isVegetarian": true,
+            "name": "Bourbon",
+            "price": 13.69,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Drambuie",
-            "price": 17.19,
+            "name": "Gin",
+            "price": 14.98,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -800,27 +800,27 @@ export const milangrandRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grappa",
-            "price": 12.27,
-            "isVegetarian": true,
+            "name": "Tequila",
+            "price": 12.59,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Kahlúa",
-            "price": 15.98,
-            "isVegetarian": false,
+            "name": "Vodka",
+            "price": 12.85,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sambuca",
-            "price": 12.05,
-            "isVegetarian": false,
+            "name": "Aquavit",
+            "price": 14.39,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

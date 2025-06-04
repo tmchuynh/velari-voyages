@@ -12,17 +12,44 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Classic Luscious Flambéed Tableside Specialty",
-            "price": 34.04,
+            "name": "Gourmet Delicious Chef's Special Surf and Turf",
+            "price": 27.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Mouthwatering 24-Hour Braised Short Ribs",
-            "price": 26.32,
+            "name": "Fresh Flaky Seasonal Tasting Platter",
+            "price": 30.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Grilled Traditional Family Paella",
+            "price": 33.97,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Satisfying Founder's Family Recipe Pasta",
+            "price": 33.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Grilled Black Garlic Glazed Beef Tenderloin",
+            "price": 26.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -30,47 +57,20 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Flaky Legendary Prime Rib",
-            "price": 24.09,
+            "name": "Gourmet Roasted Flambéed Tableside Specialty",
+            "price": 33.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Crispy Seasonal Tasting Menu Experience",
-            "price": 30.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Grilled Molecular Gastronomy Showcase Tasting",
-            "price": 37.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Smoked Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 34.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Authentic Crispy Tableside Carved Chateaubriand",
-            "price": 30.69,
+            "name": "Fresh Satisfying 24-Hour Braised Short Ribs",
+            "price": 30.12,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
           }
@@ -80,26 +80,26 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Premium Herbed Duck Confit with Roasted Root Vegetables",
-            "price": 30.85,
+            "name": "Authentic Spiced Collaborative Limited Edition Special",
+            "price": 36.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Grilled Smoked and Slow-Roasted Heritage Meat",
-            "price": 35.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Premium Succulent Volcanic Stone-Cooked Specialty",
-            "price": 29.3,
+            "name": "Homestyle Sweet Fire-Roasted Seasonal Centerpiece",
+            "price": 39.33,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Delectable Live-Fire Grilled Feature",
+            "price": 27.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -107,22 +107,22 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Grilled Chef's Tasting Menu Experience",
-            "price": 39.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Creamy Seared Foie Gras with Fig Compote",
-            "price": 36.25,
+            "name": "Authentic Creamy Tableside Prepared Tartare",
+            "price": 25.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Tangy Pan-Seared Scallops with Citrus Beurre Blanc",
+            "price": 29.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -130,35 +130,17 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Authentic Stuffed Garlic Bread",
-            "price": 8.84,
+            "name": "Authentic Zesty Garlic Bread",
+            "price": 11.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Fresh Baked Mezze Platter",
-            "price": 11.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Irresistible Sweet Potato Fries",
-            "price": 12.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Steamed Bruschetta",
-            "price": 11.98,
+            "name": "Deluxe Delicious Nachos",
+            "price": 13.3,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -166,17 +148,8 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Marinated Crostini",
-            "price": 10.13,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Herbed Prawn Cocktail",
-            "price": 15,
+            "name": "Homestyle Irresistible Tzatziki with Pita",
+            "price": 9.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -184,8 +157,35 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Herbed Garlic Knots",
-            "price": 15.47,
+            "name": "Authentic Steamed Chicken Wings",
+            "price": 10.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Grilled Hummus Platter",
+            "price": 12.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Enticing Charcuterie Board",
+            "price": 9.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Spiced Mini Tacos",
+            "price": 10.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -193,8 +193,8 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Hearty Mozzarella Sticks",
-            "price": 14.52,
+            "name": "Handcrafted Herbed Lettuce Wraps",
+            "price": 10.65,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -207,8 +207,26 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Seasonal Comforting Carrot Ginger Soup",
-            "price": 13.25,
+            "name": "Handcrafted Tender Avgolemono (Greek Lemon Soup)",
+            "price": 13.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Stuffed Italian Wedding Soup",
+            "price": 12.86,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Grilled Thai Coconut Soup",
+            "price": 11.5,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -216,26 +234,8 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Flavorful Minestrone",
-            "price": 12.77,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Savory Clam Chowder",
-            "price": 7.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Savory Cabbage Soup",
-            "price": 13.3,
+            "name": "Fresh Golden Split Pea Soup",
+            "price": 7.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -248,8 +248,35 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 10.49,
+            "name": "Chickpea Salad",
+            "price": 11.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nicoise Salad",
+            "price": 10.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Waldorf Salad",
+            "price": 9.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mango Avocado Salad",
+            "price": 13.38,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -257,36 +284,9 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Caprese Salad",
-            "price": 9.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Kale Salad",
-            "price": 14.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cobb Salad",
-            "price": 12.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Greek Salad",
-            "price": 14.32,
-            "isVegetarian": false,
+            "name": "Apple Pecan Salad",
+            "price": 13.93,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -298,8 +298,17 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Traditional Exquisite Jambalaya",
-            "price": 22.46,
+            "name": "Deluxe Golden Pesto Pasta",
+            "price": 27.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Zesty Shish Kebabs",
+            "price": 26.9,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,26 +316,8 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Sweet Korma",
-            "price": 26.73,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Exquisite Bibimbap",
-            "price": 21.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Zingy Steak",
-            "price": 31.31,
+            "name": "Organic Zingy Lamb Chops",
+            "price": 26.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -334,8 +325,35 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Spicy Salmon",
-            "price": 26.13,
+            "name": "Hearty Zingy Pulled Pork Sandwich",
+            "price": 21.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Irresistible Stuffed Peppers",
+            "price": 31.69,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Tender Katsu Curry",
+            "price": 25.16,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked Seafood Platter",
+            "price": 29.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -343,31 +361,13 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Mouthwatering Paella",
-            "price": 21.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Sweet Fajitas",
-            "price": 25.83,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Golden Pesto Pasta",
-            "price": 24.76,
+            "name": "House Special Juicy Steak",
+            "price": 20.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -375,58 +375,26 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Deluxe Baked Tempura Soft Shell Crab",
-            "price": 34.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Spiced Crab-Stuffed Mushrooms",
-            "price": 26.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Pan-seared Lemon-Herb Calamari Steak",
-            "price": 32.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Crispy Oysters Rockefeller with Pernod Cream",
-            "price": 33.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Marinated Grilled Lobster with Lemon Butter",
-            "price": 28.73,
+            "name": "Fresh Luscious Seared Tuna Steak with Sesame Crust",
+            "price": 31.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
+          },
           {
-            "name": "Deluxe Steamed Wild Rice Pilaf",
-            "price": 9.97,
+            "name": "Seasonal Spiced Tempura Soft Shell Crab",
+            "price": 34.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Stuffed Basa Fillet with Dill Cream Sauce",
+            "price": 24.16,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,35 +402,31 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Stuffed Grilled Asparagus with Lemon Zest",
-            "price": 6.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Marinated Baked Idaho Potato with Sour Cream",
-            "price": 7.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Zesty Truffle Parmesan Fries",
-            "price": 6.9,
+            "name": "Seasonal Grilled Oysters Rockefeller with Pernod Cream",
+            "price": 28.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Fresh Delicious Braised Red Cabbage with Apple",
-            "price": 5.68,
+            "name": "Gourmet Golden Linguine with Clam Sauce",
+            "price": 32.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Gourmet Pan-seared Wild Mushroom Risotto",
+            "price": 5.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -470,8 +434,44 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Grilled Wild Mushroom Risotto",
-            "price": 9.34,
+            "name": "Deluxe Sizzling Mashed Potatoes",
+            "price": 7.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Crunchy Herbed Bulgur Wheat with Lemon",
+            "price": 6.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Pan-seared Quinoa Pilaf with Herbs",
+            "price": 9.85,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Hearty Wild Rice Pilaf",
+            "price": 6.93,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Flaky Crispy Beer-Battered Onion Rings",
+            "price": 5.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -484,26 +484,8 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Water",
-            "price": 6.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 6.55,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Coffee",
-            "price": 4.11,
+            "price": 4.19,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -511,27 +493,45 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 5.2,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 7.99,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Iced Tea",
-            "price": 5.37,
+            "price": 4.64,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 5.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 5.83,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 4.52,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 6.84,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -549,8 +549,8 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Pumpkin Pie",
-            "price": 7.36,
+            "name": "Pain au Chocolat",
+            "price": 9.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,8 +558,8 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Red Velvet Cake",
-            "price": 10.56,
+            "name": "Vanilla Cake",
+            "price": 7.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -567,8 +567,8 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cannoli",
-            "price": 7.22,
+            "name": "Croissants",
+            "price": 10.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -576,18 +576,18 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Banana Bread",
-            "price": 6.97,
+            "name": "Fruit Galette",
+            "price": 6.89,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Madeleines",
+            "price": 6.35,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Danish Pastries",
-            "price": 7.03,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -599,8 +599,8 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Granita",
-            "price": 8.44,
+            "name": "Frozen Banana",
+            "price": 11.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -608,17 +608,26 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gelato",
-            "price": 11.9,
+            "name": "Sorbet",
+            "price": 11.26,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Ice Cream",
-            "price": 10.65,
+            "name": "Ice Cream Cake",
+            "price": 7.88,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kulfi",
+            "price": 10.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -627,19 +636,10 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Frozen Pie",
-            "price": 7.66,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sherbet",
-            "price": 8.95,
+            "price": 9.07,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -655,8 +655,8 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Negroni",
-            "price": 14.7,
+            "name": "Manhattan",
+            "price": 10.94,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -665,7 +665,7 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Martini",
-            "price": 11.43,
+            "price": 14.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -673,8 +673,8 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 15.16,
+            "name": "Whiskey Sour",
+            "price": 15.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -683,26 +683,26 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Margarita",
-            "price": 12.88,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "price": 10.4,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 11.11,
+            "name": "Bloody Mary",
+            "price": 10.13,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 12.86,
-            "isVegetarian": true,
+            "name": "Old Fashioned",
+            "price": 10.83,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
@@ -710,7 +710,7 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Mai Tai",
-            "price": 10.09,
+            "price": 10.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -723,8 +723,17 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Roussanne",
-            "price": 13.97,
+            "name": "Petit Verdot",
+            "price": 13.38,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Barbera",
+            "price": 8.23,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -732,17 +741,26 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gewürztraminer",
-            "price": 11.72,
+            "name": "Fiano",
+            "price": 11.05,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chenin Blanc",
-            "price": 11.77,
+            "name": "Grenache",
+            "price": 8.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Champagne/Sparkling Wine",
+            "price": 13.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -750,26 +768,8 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Zinfandel",
-            "price": 13.74,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Champagne/Sparkling Wine",
-            "price": 13.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nebbiolo",
-            "price": 13.36,
+            "name": "Vouvray",
+            "price": 10.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -782,17 +782,26 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
+            "name": "Baileys Irish Cream",
+            "price": 10.28,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Rum",
+            "price": 10.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "St-Germain",
-            "price": 10.75,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Kahlúa",
-            "price": 10.25,
+            "price": 10.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -800,31 +809,22 @@ export const sanJuangrandBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Aquavit",
-            "price": 13.59,
+            "name": "Absinthe",
+            "price": 15.24,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey",
-            "price": 12,
-            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gin",
-            "price": 10.43,
+            "name": "Chambord",
+            "price": 14.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       }
