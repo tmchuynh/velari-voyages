@@ -5,68 +5,107 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const amsterdamwindmillHouseTestimonials: Testimonial[] = [
   {
-    "quote": "Our visit to Windmill House was outstanding. The specialties were wonderful, the staff courteous, and the atmosphere cozy. A must-visit!",
-    "author": "John Davis",
-    "title": "Dining Columnist",
-    "image": "/images/testimonials/person-12.jpg"
-  },
-  {
-    "quote": "Windmill House has the most amazing flavors I've ever tasted. The comfortable atmosphere made our evening special, and the service was superb.",
-    "author": "Jennifer Jackson",
-    "title": "Food & Wine Connoisseur",
-    "image": "/images/testimonials/person-7.jpg"
-  },
-  {
-    "quote": "Our visit to Windmill House was outstanding. The desserts were impressive, the staff impeccable, and the atmosphere relaxing. A must-visit!",
-    "author": "Matthew Martinez",
-    "title": "Gourmet Explorer",
-    "image": "/images/testimonials/person-12.jpg"
-  },
-  {
-    "quote": "I can't say enough about the excellent appetizers at Windmill House. The courteous service and comfortable ambiance made for a perfect night out.",
-    "author": "Emily Jackson",
-    "title": "Food Journalist",
-    "image": "/images/testimonials/person-11.jpg"
-  },
-  {
-    "quote": "Windmill House has the most excellent appetizers I've ever tasted. The delightful atmosphere made our evening special, and the service was courteous.",
-    "author": "Elizabeth Perez",
-    "title": "Travel Blogger"
-  },
-  {
-    "quote": "Windmill House has the most amazing specialties I've ever tasted. The relaxing atmosphere made our evening special, and the service was helpful.",
-    "author": "Sophia Hernandez",
-    "title": "Restaurant Enthusiast"
-  },
-  {
-    "quote": "I can't say enough about the fantastic menu items at Windmill House. The impeccable service and cozy ambiance made for a perfect night out.",
-    "author": "Ava Taylor",
-    "title": "Cooking Aficionado"
-  },
-  {
-    "quote": "I can't say enough about the superb meal at Windmill House. The outstanding service and welcoming ambiance made for a perfect night out.",
-    "author": "Maria Johnson",
+    "quote": "Windmill House has the most impressive specialties I've ever tasted. The cozy atmosphere made our evening special, and the service was exceptional.",
+    "author": "James Rodriguez",
     "title": "Dining Columnist"
   },
   {
-    "quote": "What a outstanding dining experience at Windmill House! The meal exceeded our expectations, and the staff was superb. Will definitely return!",
-    "author": "Maria Martinez",
+    "quote": "I can't say enough about the outstanding appetizers at Windmill House. The impeccable service and delightful ambiance made for a perfect night out.",
+    "author": "John White",
+    "title": "Food & Wine Connoisseur"
+  },
+  {
+    "quote": "Our visit to Windmill House was outstanding. The food were marvelous, the staff fantastic, and the atmosphere welcoming. A must-visit!",
+    "author": "Lisa Martin",
     "title": "Restaurant Enthusiast"
   },
   {
-    "quote": "I can't say enough about the amazing menu items at Windmill House. The courteous service and delightful ambiance made for a perfect night out.",
-    "author": "Olivia Johnson",
-    "title": "Culinary Expert"
+    "quote": "Our visit to Windmill House was outstanding. The meal were perfect, the staff impeccable, and the atmosphere pleasant. A must-visit!",
+    "author": "Sophia Martinez",
+    "title": "Restaurant Reviewer"
   },
   {
-    "quote": "Our visit to Windmill House was outstanding. The appetizers were delightful, the staff impeccable, and the atmosphere charming. A must-visit!",
-    "author": "David Brown",
-    "title": "Travel Writer",
-    "image": "/images/testimonials/person-9.jpg"
+    "quote": "The cuisine at Windmill House were absolutely delectable! The service was professional and the atmosphere was pleasant. Highly recommend!",
+    "author": "Michael Rodriguez",
+    "title": "Travel Blogger"
   },
   {
-    "quote": "Our visit to Windmill House was outstanding. The menu items were impressive, the staff exceptional, and the atmosphere vibrant. A must-visit!",
-    "author": "Jennifer Johnson",
+    "quote": "What a excellent dining experience at Windmill House! The menu items exceeded our expectations, and the staff was fantastic. Will definitely return!",
+    "author": "William Taylor",
+    "title": "Culinary Adventurer"
+  },
+  {
+    "quote": "What a amazing dining experience at Windmill House! The desserts exceeded our expectations, and the staff was friendly. Will definitely return!",
+    "author": "Sarah Smith",
+    "title": "Cruise Traveler"
+  },
+  {
+    "quote": "I can't say enough about the perfect food at Windmill House. The helpful service and cozy ambiance made for a perfect night out.",
+    "author": "Robert Taylor",
+    "title": "Restaurant Enthusiast"
+  },
+  {
+    "quote": "Our visit to Windmill House was outstanding. The flavors were excellent, the staff impeccable, and the atmosphere elegant. A must-visit!",
+    "author": "Michael Smith",
+    "title": "Restaurant Enthusiast",
+    "image": "/images/testimonials/person-1.jpg"
+  },
+  {
+    "quote": "I can't say enough about the impressive flavors at Windmill House. The courteous service and cozy ambiance made for a perfect night out.",
+    "author": "James Rodriguez",
+    "title": "Cooking Aficionado"
+  },
+  {
+    "quote": "Windmill House has the most delightful desserts I've ever tasted. The pleasant atmosphere made our evening special, and the service was friendly.",
+    "author": "Thomas Brown",
+    "title": "Lifestyle Influencer"
+  },
+  {
+    "quote": "I can't say enough about the wonderful food at Windmill House. The prompt service and vibrant ambiance made for a perfect night out.",
+    "author": "William Davis",
+    "title": "Culinary Adventurer",
+    "image": "/images/testimonials/person-11.jpg"
+  },
+  {
+    "quote": "I can't say enough about the fantastic cuisine at Windmill House. The courteous service and elegant ambiance made for a perfect night out.",
+    "author": "Lisa Brown",
+    "title": "Lifestyle Influencer"
+  },
+  {
+    "quote": "The menu items at Windmill House were absolutely excellent! The service was attentive and the atmosphere was charming. Highly recommend!",
+    "author": "Lisa Martin",
+    "title": "Restaurant Enthusiast"
+  },
+  {
+    "quote": "Our visit to Windmill House was outstanding. The meal were delightful, the staff outstanding, and the atmosphere relaxing. A must-visit!",
+    "author": "Christopher Taylor",
+    "title": "Cruise Traveler",
+    "image": "/images/testimonials/person-2.jpg"
+  },
+  {
+    "quote": "Our visit to Windmill House was outstanding. The specialties were exceptional, the staff attentive, and the atmosphere pleasant. A must-visit!",
+    "author": "Sophia Garcia",
+    "title": "Cooking Aficionado",
+    "image": "/images/testimonials/person-5.jpg"
+  },
+  {
+    "quote": "Our visit to Windmill House was outstanding. The cuisine were great, the staff impeccable, and the atmosphere intimate. A must-visit!",
+    "author": "Lisa Garcia",
+    "title": "Food Journalist"
+  },
+  {
+    "quote": "What a incredible dining experience at Windmill House! The flavors exceeded our expectations, and the staff was excellent. Will definitely return!",
+    "author": "Maria Taylor",
+    "title": "Food Critic"
+  },
+  {
+    "quote": "The menu items at Windmill House were absolutely exceptional! The service was superb and the atmosphere was warm. Highly recommend!",
+    "author": "Ava Perez",
     "title": "Luxury Travel Consultant"
+  },
+  {
+    "quote": "What a amazing dining experience at Windmill House! The entrees exceeded our expectations, and the staff was helpful. Will definitely return!",
+    "author": "Daniel Lee",
+    "title": "Gourmet Explorer"
   }
 ];
