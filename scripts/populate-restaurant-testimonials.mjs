@@ -2,17 +2,35 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
+// // Basic usage (replaces existing testimonials, generates 6 per restaurant)
+// node scripts/populate-restaurant-testimonials.mjs
+
+// // Append mode: adds new testimonials to existing ones instead of replacing
+// node scripts/populate-restaurant-testimonials.mjs --append
+
+// // Short form of append flag
+// node scripts/populate-restaurant-testimonials.mjs -a
+
+// // Generate a specific number of testimonials per restaurant
+// node scripts/populate-restaurant-testimonials.mjs --count=10
+
+// // Combine options: append 8 testimonials per restaurant
+// node scripts/populate-restaurant-testimonials.mjs --append --count=8
+
 // Get the equivalent of __dirname in ESM
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Parse command line arguments
 const args = process.argv.slice(2);
-const APPEND_MODE = args.includes('--append') || args.includes('-a');
-const TESTIMONIAL_COUNT = args.find(arg => arg.startsWith('--count='))?.split('=')[1] || 6;
+const APPEND_MODE = args.includes("--append") || args.includes("-a");
+const TESTIMONIAL_COUNT =
+  args.find((arg) => arg.startsWith("--count="))?.split("=")[1] || 6;
+const DEBUG_MODE = args.includes("--debug") || args.includes("-d");
 
-console.log(`Mode: ${APPEND_MODE ? 'Append' : 'Replace'} testimonials`);
+console.log(`Mode: ${APPEND_MODE ? "Append" : "Replace"} testimonials`);
 console.log(`Generating ${TESTIMONIAL_COUNT} testimonials per restaurant`);
+if (DEBUG_MODE) console.log("Debug mode: ON");
 
 // Base directory where restaurant files are located (read from here)
 const restaurantsBaseDir = path.join(
@@ -285,21 +303,75 @@ function extractExistingTestimonials(filePath) {
     }
 
     const content = fs.readFileSync(filePath, "utf8");
-    // Try to extract the array portion of the file
-    const arrayMatch = content.match(/\[\s*([\s\S]*?)\s*\];/);
+
+    if (DEBUG_MODE) {
+      console.log(`DEBUG: Reading testimonials from ${filePath}`);
+      console.log(`DEBUG: File exists: ${fs.existsSync(filePath)}`);
+      console.log(`DEBUG: File size: ${content.length} bytes`);
+      console.log(
+        `DEBUG: File content preview: ${content.substring(0, 100)}...`
+      );
+    }
+
+    // Try to extract the array portion of the file with a more robust regex
+    // This looks for the export statement and captures everything between the array brackets
+    const arrayMatch = content.match(
+      /export\s+const\s+\w+Testimonials\s*:\s*Testimonial\[\]\s*=\s*(\[[\s\S]*?\]);/
+    );
 
     if (!arrayMatch) {
+      if (DEBUG_MODE) {
+        console.log(`DEBUG: Failed to match array pattern in file`);
+      }
       return [];
     }
 
     // Try to parse the array as JSON
     try {
-      // Add brackets back and parse
-      const jsonStr = `[${arrayMatch[1]}]`;
-      return JSON.parse(jsonStr);
+      // Clean up the extracted content to make it more JSON-friendly
+      let jsonStr = arrayMatch[1]
+        .replace(/\/\/.*$/gm, "") // Remove single-line comments
+        .replace(/\/\*[\s\S]*?\*\//g, "") // Remove multi-line comments
+        .replace(/,\s*]/g, "]") // Remove trailing commas
+        .trim();
+
+      if (DEBUG_MODE) {
+        console.log(`DEBUG: Cleaned JSON: ${jsonStr.substring(0, 100)}...`);
+      }
+
+      const parsedData = JSON.parse(jsonStr);
+
+      if (DEBUG_MODE) {
+        console.log(
+          `DEBUG: Successfully parsed ${parsedData.length} testimonials`
+        );
+      }
+
+      return parsedData;
     } catch (parseError) {
       console.error(`Error parsing testimonials from ${filePath}:`, parseError);
-      return [];
+
+      if (DEBUG_MODE) {
+        console.log(`DEBUG: JSON parse error details: ${parseError.message}`);
+        console.log(`DEBUG: Attempting fallback method...`);
+      }
+
+      // Fallback method using Function constructor (safer than eval)
+      try {
+        const safeEval = new Function(`return ${arrayMatch[1]}`);
+        const result = safeEval();
+
+        if (DEBUG_MODE) {
+          console.log(
+            `DEBUG: Fallback method successful, found ${result.length} testimonials`
+          );
+        }
+
+        return result;
+      } catch (fallbackError) {
+        console.error("Fallback parsing also failed:", fallbackError);
+        return [];
+      }
     }
   } catch (error) {
     console.error(`Error reading file ${filePath}:`, error);
@@ -326,6 +398,20 @@ function generateTestimonialFileContent(
   const testimonials = APPEND_MODE
     ? [...existingTestimonials, ...newTestimonials]
     : newTestimonials;
+
+  // Validate the append actually worked
+  if (APPEND_MODE && existingTestimonials.length > 0) {
+    const expectedCount = existingTestimonials.length + newTestimonials.length;
+    if (testimonials.length !== expectedCount) {
+      console.error(
+        `WARNING: Expected ${expectedCount} testimonials but got ${testimonials.length}. Append may not be working correctly!`
+      );
+    } else if (DEBUG_MODE) {
+      console.log(
+        `DEBUG: Successfully combined ${existingTestimonials.length} existing + ${newTestimonials.length} new = ${testimonials.length} testimonials`
+      );
+    }
+  }
 
   return `import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
@@ -435,4 +521,5 @@ if (totalFailed > 0) {
 }
 console.log(`Mode: ${APPEND_MODE ? "Append" : "Replace"}`);
 console.log(`Testimonials per restaurant: ${TESTIMONIAL_COUNT}`);
+console.log(`Debug mode: ${DEBUG_MODE ? "ON" : "OFF"}`);
 console.log("All restaurant testimonial files processed!");
