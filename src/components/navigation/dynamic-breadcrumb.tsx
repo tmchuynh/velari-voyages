@@ -2,7 +2,7 @@
 
 import useMediumScreen from "@/hooks/useMediumScreen";
 import useSmallScreen from "@/hooks/useSmallScreen";
-import { capitalize } from "@/lib/utils/format";
+import { capitalize } from "@/lib/utils/format.ts";
 import { generateRandomString } from "@/lib/utils/sort";
 import { usePathname } from "next/navigation";
 import { JSX, useMemo } from "react";
