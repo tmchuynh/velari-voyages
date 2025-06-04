@@ -1,506 +1,1473 @@
-import { CrewMember } from "@/lib/interfaces/people/staff";
+import { CrewMember } from "@/lib/interfaces/people/staff.ts";
 
-export const romeTeamMembers: CrewMember[] = [
-  // Deck Department
+export const romeTeamMembers:CrewMember[] = [
   {
-    name: "Giovanni Rossi",
-    role: "Captain",
-    department: "Deck Department",
-    bio: "Captain Rossi has over 25 years of experience navigating the Mediterranean Sea, specializing in coastal and offshore operations with a focus on luxury yacht management.",
-    languages: ["Italian", "English", "Spanish"],
-    experienceYears: 25,
-    profileImage: "/images/crew/captain-rossi.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Maria Williams",
+    "role": "Captain",
+    "department": "Deck Department",
+    "bio": "Maria Williams is an experienced Captain with 12 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "/images/crew/captain-williams.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Marco Esposito",
-    role: "Captain",
-    department: "Deck Department",
-    bio: "With over two decades at sea, Captain Esposito brings deep knowledge of Mediterranean passages and ports from Gibraltar to the Aegean.",
-    languages: ["Italian", "English", "French", "Greek"],
-    experienceYears: 23,
-    profileImage: "/images/crew/captain-esposito.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Sophia Smith",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "Sophia Smith is an experienced First Officer with 17 years of service in the maritime industry.",
+    "languages": [
+      "Spanish",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "/images/crew/first-officer-smith.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Francesca Bianchi",
-    role: "First Officer",
-    department: "Deck Department",
-    bio: "Francesca is known for her expertise in navigating the busy shipping lanes of the Tyrrhenian Sea and surrounding areas, ensuring safe and efficient voyages.",
-    languages: ["Italian", "English", "French"],
-    experienceYears: 12,
-    profileImage: "/images/crew/officer-bianchi.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Maria Rodriguez",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "Maria Rodriguez is an experienced Second Officer with 18 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "/images/crew/second-officer-rodriguez.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Antonio Marino",
-    role: "First Officer",
-    department: "Deck Department",
-    bio: "Former Italian Coast Guard officer with specialized knowledge of Mediterranean waters and maritime regulations.",
-    languages: ["Italian", "English", "Spanish", "Arabic"],
-    experienceYears: 15,
-    profileImage: "/images/crew/officer-marino.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
-  },
-
-  // Engineering Department
-  {
-    name: "Marco Conti",
-    role: "Chief Engineer",
-    department: "Engineering Department",
-    bio: "Marco ensures all engineering systems are running smoothly, with a focus on sustainability and energy efficiency in marine operations across the Mediterranean.",
-    languages: ["Italian", "English"],
-    experienceYears: 15,
-    profileImage: "/images/crew/engineer-conti.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Olivia Garcia",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Olivia Garcia is an experienced Third Officer with 15 years of service in the maritime industry.",
+    "languages": [
+      "English",
+      "Arabic"
+    ],
+    "experienceYears": 15,
+    "profileImage": "/images/crew/third-officer-garcia.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Alessia Ricci",
-    role: "Chief Engineer",
-    department: "Engineering Department",
-    bio: "Alessia specializes in hybrid propulsion systems and innovations in maritime engineering for luxury vessels.",
-    languages: ["Italian", "English", "German"],
-    experienceYears: 13,
-    profileImage: "/images/crew/engineer-ricci.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Sarah Garcia",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Sarah Garcia is an experienced Navigation Officer with 8 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/navigation-officer-garcia.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Lorenzo Ferrari",
-    role: "Electrical Engineer",
-    department: "Engineering Department",
-    bio: "Lorenzo maintains all electrical systems with expertise in smart yacht technology and sustainable energy solutions.",
-    languages: ["Italian", "English"],
-    experienceYears: 10,
-    profileImage: "/images/crew/electrical-ferrari.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Michael Martinez",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Michael Martinez is an experienced Safety Officer with 15 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "/images/crew/safety-officer-martinez.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Gabriele Moretti",
-    role: "Mechanical Engineer",
-    department: "Engineering Department",
-    bio: "Gabriele specializes in propulsion systems and mechanical operations for luxury yachts in Mediterranean conditions.",
-    languages: ["Italian", "English", "French"],
-    experienceYears: 8,
-    profileImage: "/images/crew/mechanical-moretti.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
-  },
-
-  // Security Department
-  {
-    name: "Paolo Russo",
-    role: "Security Director",
-    department: "Security Department",
-    bio: "Former Italian Naval officer Paolo leads vessel security with expertise in Mediterranean maritime security protocols.",
-    languages: ["Italian", "English", "Arabic", "French"],
-    experienceYears: 20,
-    profileImage: "/images/crew/security-russo.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Sophia Davis",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Sophia Davis is an experienced Deck Cadet with 8 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/deck-cadet-davis.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Valentina Colombo",
-    role: "Security Officer",
-    department: "Security Department",
-    bio: "Valentina oversees guest safety with specialized training in VIP protection and emergency management.",
-    languages: ["Italian", "English", "Spanish", "Russian"],
-    experienceYears: 11,
-    profileImage: "/images/crew/security-colombo.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "John Smith",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "John Smith is an experienced Bosun with 11 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "/images/crew/bosun-smith.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Roberto De Luca",
-    role: "Cybersecurity Specialist",
-    department: "Security Department",
-    bio: "Roberto protects all digital systems with expertise in maritime cybersecurity and data privacy compliance.",
-    languages: ["Italian", "English", "German"],
-    experienceYears: 7,
-    profileImage: "/images/crew/cyber-deluca.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
-  },
-
-  // Youth & Family Programs
-  {
-    name: "Chiara Martini",
-    role: "Youth Program Director",
-    department: "Youth & Family Programs",
-    bio: "Former educator Chiara creates engaging activities introducing young guests to Mediterranean history, art, and marine ecology.",
-    languages: ["Italian", "English", "French"],
-    experienceYears: 9,
-    profileImage: "/images/crew/youth-martini.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Sophia Davis",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Sophia Davis is an experienced Chief Engineer with 19 years of service in the maritime industry.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "/images/crew/chief-engineer-davis.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Matteo Vitali",
-    role: "Family Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Matteo designs multigenerational experiences that bring families together through Italian traditions and Mediterranean adventures.",
-    languages: ["Italian", "English", "Spanish"],
-    experienceYears: 6,
-    profileImage: "/images/crew/family-vitali.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Michael Rodriguez",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "Michael Rodriguez is an experienced First Engineer with 9 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "Portuguese",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "/images/crew/first-engineer-rodriguez.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Isabella Romano",
-    role: "Art Educator",
-    department: "Youth & Family Programs",
-    bio: "Art historian Isabella introduces children to Mediterranean artistic traditions through interactive workshops and creative activities.",
-    languages: ["Italian", "English", "French"],
-    experienceYears: 7,
-    profileImage: "/images/crew/art-romano.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
-  },
-
-  // Activities & Recreation
-  {
-    name: "Leonardo Belli",
-    role: "Activities Director",
-    department: "Activities & Recreation",
-    bio: "Leonardo creates innovative recreational programs highlighting Italian and Mediterranean cultural experiences and outdoor adventures.",
-    languages: ["Italian", "English", "French", "Spanish"],
-    experienceYears: 14,
-    profileImage: "/images/crew/activities-belli.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Maria Garcia",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Maria Garcia is an experienced Second Engineer with 15 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "/images/crew/second-engineer-garcia.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Sofia Gallo",
-    role: "Cultural Program Coordinator",
-    department: "Activities & Recreation",
-    bio: "Sofia organizes immersive experiences showcasing Italian heritage, from culinary traditions to architectural wonders.",
-    languages: ["Italian", "English", "German", "French"],
-    experienceYears: 8,
-    profileImage: "/images/crew/cultural-gallo.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "David Rodriguez",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "David Rodriguez is an experienced Electrical Engineer with 8 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "Russian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/electrical-engineer-rodriguez.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Alessandro Costa",
-    role: "Water Sports Instructor",
-    department: "Activities & Recreation",
-    bio: "Former Italian national team athlete Alessandro leads water-based activities throughout the Mediterranean coastline.",
-    languages: ["Italian", "English", "Spanish"],
-    experienceYears: 12,
-    profileImage: "/images/crew/water-costa.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "John Williams",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "John Williams is an experienced Mechanical Engineer with 10 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "/images/crew/mechanical-engineer-williams.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Beatrice Fabbri",
-    role: "Yoga Instructor",
-    department: "Activities & Recreation",
-    bio: "Beatrice leads wellness activities combining traditional practices with Mediterranean settings for rejuvenating experiences.",
-    languages: ["Italian", "English", "Sanskrit"],
-    experienceYears: 9,
-    profileImage: "/images/crew/yoga-fabbri.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
-  },
-
-  // Photography & Videography
-  {
-    name: "Davide Santoro",
-    role: "Lead Photographer",
-    department: "Photography & Videography",
-    bio: "Award-winning photographer Davide captures stunning images of Mediterranean landscapes and moments from each voyage.",
-    languages: ["Italian", "English", "French"],
-    experienceYears: 15,
-    profileImage: "/images/crew/photographer-santoro.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "David Garcia",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "David Garcia is an experienced HVAC Engineer with 16 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "/images/crew/hvac-engineer-garcia.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Giulia Lombardi",
-    role: "Videographer",
-    department: "Photography & Videography",
-    bio: "Documentary filmmaker Giulia creates cinematic memories of each journey through the Mediterranean.",
-    languages: ["Italian", "English", "Spanish"],
-    experienceYears: 10,
-    profileImage: "/images/crew/videographer-lombardi.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Maria Jones",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Maria Jones is an experienced Environmental Engineer with 15 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "/images/crew/environmental-engineer-jones.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Fabio Mancini",
-    role: "Drone Specialist",
-    department: "Photography & Videography",
-    bio: "Fabio captures breathtaking aerial footage of coastal landscapes and ancient Mediterranean port cities.",
-    languages: ["Italian", "English"],
-    experienceYears: 6,
-    profileImage: "/images/crew/drone-mancini.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
-  },
-
-  // Health & Safety
-  {
-    name: "Dr. Claudia Rizzo",
-    role: "Chief Medical Officer",
-    department: "Health & Safety",
-    bio: "Dr. Rizzo oversees all medical services with specializations in travel medicine and maritime healthcare.",
-    languages: ["Italian", "English", "French", "Spanish"],
-    experienceYears: 18,
-    profileImage: "/images/crew/doctor-rizzo.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Robert Rodriguez",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Robert Rodriguez is an experienced Systems Engineer with 19 years of service in the maritime industry.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "/images/crew/systems-engineer-rodriguez.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Dr. Pietro Greco",
-    role: "Ship's Physician",
-    department: "Health & Safety",
-    bio: "Dr. Greco provides comprehensive medical care with expertise in emergency medicine and international health protocols.",
-    languages: ["Italian", "English", "German"],
-    experienceYears: 15,
-    profileImage: "/images/crew/doctor-greco.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Emma Johnson",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Emma Johnson is an experienced Technical Manager with 15 years of service in the maritime industry.",
+    "languages": [
+      "English",
+      "Portuguese"
+    ],
+    "experienceYears": 15,
+    "profileImage": "/images/crew/technical-manager-johnson.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Anna De Angelis",
-    role: "Nurse",
-    department: "Health & Safety",
-    bio: "With extensive experience in emergency care, Anna ensures prompt medical attention for all passengers and crew.",
-    languages: ["Italian", "English", "French"],
-    experienceYears: 12,
-    profileImage: "/images/crew/nurse-deangelis.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Maria Martinez",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Maria Martinez is an experienced Maintenance Engineer with 14 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "/images/crew/maintenance-engineer-martinez.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Francesco Marini",
-    role: "Safety Officer",
-    department: "Health & Safety",
-    bio: "Former maritime safety inspector Francesco coordinates emergency protocols and ensures compliance with international standards.",
-    languages: ["Italian", "English", "Spanish"],
-    experienceYears: 14,
-    profileImage: "/images/crew/safety-marini.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
-  },
-
-  // Hospitality Department
-  {
-    name: "Elena Romano",
-    role: "Chief Steward",
-    department: "Hospitality Department",
-    bio: "Elena is dedicated to providing exceptional service and ensuring the comfort of all guests on board, with a focus on luxury and hospitality in the Mediterranean region.",
-    languages: ["Italian", "English", "German"],
-    experienceYears: 8,
-    profileImage: "/images/crew/steward-romano.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Michael Smith",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Michael Smith is an experienced Security Director with 18 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "/images/crew/security-director-smith.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Simone Caruso",
-    role: "Guest Relations Manager",
-    department: "Hospitality Department",
-    bio: "Simone ensures personalized service for all guests with his background in luxury Italian hospitality and international etiquette.",
-    languages: ["Italian", "English", "French", "Russian"],
-    experienceYears: 11,
-    profileImage: "/images/crew/relations-caruso.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Robert Martinez",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Robert Martinez is an experienced Security Officer with 17 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "/images/crew/security-officer-martinez.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Teresa Palermo",
-    role: "Concierge",
-    department: "Hospitality Department",
-    bio: "Teresa arranges exclusive experiences in each Mediterranean port of call, from private tours to reservations at renowned restaurants.",
-    languages: ["Italian", "English", "Spanish", "Greek"],
-    experienceYears: 9,
-    profileImage: "/images/crew/concierge-palermo.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
-  },
-
-  // Culinary Department
-  {
-    name: "Luca Ferrara",
-    role: "Executive Chef",
-    department: "Culinary Department",
-    bio: "Luca is a culinary expert specializing in Mediterranean cuisine, bringing traditional Italian flavors to life with a modern twist for all guests on board.",
-    languages: ["Italian", "English"],
-    experienceYears: 10,
-    profileImage: "/images/crew/chef-ferrara.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Michael Garcia",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Michael Garcia is an experienced Security Specialist with 13 years of service in the maritime industry.",
+    "languages": [
+      "Portuguese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "/images/crew/security-specialist-garcia.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Maria Esposito",
-    role: "Executive Chef",
-    department: "Culinary Department",
-    bio: "Chef Maria creates Mediterranean culinary journeys featuring regional specialties from every coastal stop along our voyages.",
-    languages: ["Italian", "English", "Spanish", "French"],
-    experienceYears: 16,
-    profileImage: "/images/crew/chef-esposito.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Michael Williams",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Michael Williams is an experienced Cybersecurity Officer with 14 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "Japanese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "/images/crew/cybersecurity-officer-williams.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Andrea Monti",
-    role: "Pastry Chef",
-    department: "Culinary Department",
-    bio: "Andrea crafts exquisite Italian and Mediterranean desserts, from traditional pastries to innovative sweet creations.",
-    languages: ["Italian", "English", "French"],
-    experienceYears: 12,
-    profileImage: "/images/crew/pastry-monti.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Robert Smith",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Robert Smith is an experienced Maritime Security Coordinator with 10 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "/images/crew/maritime-security-coordinator-smith.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Vittorio Longo",
-    role: "Sommelier",
-    department: "Culinary Department",
-    bio: "Vittorio curates an exceptional wine program featuring the finest selections from Italian vineyards and Mediterranean wine regions.",
-    languages: ["Italian", "English", "French", "Spanish"],
-    experienceYears: 14,
-    profileImage: "/images/crew/sommelier-longo.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
-  },
-
-  // Entertainment Department
-  {
-    name: "Carlo Rinaldi",
-    role: "Entertainment Director",
-    department: "Entertainment Department",
-    bio: "Carlo creates sophisticated onboard programs featuring Italian performing arts, from classical music to contemporary entertainment.",
-    languages: ["Italian", "English", "German"],
-    experienceYears: 13,
-    profileImage: "/images/crew/entertainment-rinaldi.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Olivia Davis",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Olivia Davis is an experienced Access Control Officer with 18 years of service in the maritime industry.",
+    "languages": [
+      "English",
+      "Italian"
+    ],
+    "experienceYears": 18,
+    "profileImage": "/images/crew/access-control-officer-davis.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Bianca Fontana",
-    role: "Performance Coordinator",
-    department: "Entertainment Department",
-    bio: "Former opera singer Bianca coordinates cultural performances ranging from Italian opera to regional Mediterranean music and dance.",
-    languages: ["Italian", "English", "French", "Spanish"],
-    experienceYears: 8,
-    profileImage: "/images/crew/performance-fontana.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
-  },
-
-  // Operations Department
-  {
-    name: "Massimo Benedetti",
-    role: "Operations Manager",
-    department: "Operations Department",
-    bio: "Massimo ensures smooth logistics for all Mediterranean voyages, coordinating supplies, port operations, and regulatory compliance.",
-    languages: ["Italian", "English", "French"],
-    experienceYears: 17,
-    profileImage: "/images/crew/operations-benedetti.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Olivia Jones",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Olivia Jones is an experienced Safety Compliance Officer with 5 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "/images/crew/safety-compliance-officer-jones.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Caterina Neri",
-    role: "Itinerary Planner",
-    department: "Operations Department",
-    bio: "Caterina develops sophisticated voyage itineraries highlighting the Mediterranean's most exquisite destinations and experiences.",
-    languages: ["Italian", "English", "Spanish", "Greek"],
-    experienceYears: 10,
-    profileImage: "/images/crew/itinerary-neri.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Olivia Johnson",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Olivia Johnson is an experienced Youth Program Director with 12 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "/images/crew/youth-program-director-johnson.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Sofia Greco",
-    role: "Deckhand",
-    department: "Deck Department",
-    bio: "Sofia is a skilled deckhand with a passion for sailing and marine operations, assisting in all aspects of deck maintenance and navigation.",
-    languages: ["Italian", "English"],
-    experienceYears: 5,
-    profileImage: "/images/crew/deckhand-greco.jpg",
-    city: "Rome",
-    country: "Italy",
-    state: "Lazio",
-    region: "Central Italy",
+    "name": "Emma Johnson",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Emma Johnson is an experienced Family Activities Coordinator with 9 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "/images/crew/family-activities-coordinator-johnson.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
+  {
+    "name": "Michael Miller",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Michael Miller is an experienced Children's Entertainment Specialist with 11 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "/images/crew/children's-entertainment-specialist-miller.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Smith",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Robert Smith is an experienced Teen Activities Coordinator with 6 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/teen-activities-coordinator-smith.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Robert Johnson is an experienced Educational Program Manager with 7 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "/images/crew/educational-program-manager-johnson.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "John Rodriguez",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "John Rodriguez is an experienced Child Care Specialist with 19 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "French",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "/images/crew/child-care-specialist-rodriguez.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sarah Williams",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Sarah Williams is an experienced Activities Director with 9 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "/images/crew/activities-director-williams.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Michael Martinez",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Michael Martinez is an experienced Water Sports Instructor with 14 years of service in the maritime industry.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "/images/crew/water-sports-instructor-martinez.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Emma Johnson",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Emma Johnson is an experienced Fitness Instructor with 7 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "/images/crew/fitness-instructor-johnson.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Maria Martinez",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Maria Martinez is an experienced Excursion Coordinator with 9 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "/images/crew/excursion-coordinator-martinez.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "John Jones",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "John Jones is an experienced Lead Photographer with 14 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "/images/crew/lead-photographer-jones.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Emma Miller",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Emma Miller is an experienced Videographer with 6 years of service in the maritime industry.",
+    "languages": [
+      "English",
+      "Arabic",
+      "Mandarin"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/videographer-miller.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Maria Williams",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Maria Williams is an experienced Digital Media Specialist with 6 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/digital-media-specialist-williams.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Robert Johnson is an experienced Chief Medical Officer with 6 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/chief-medical-officer-johnson.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Michael Brown",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Michael Brown is an experienced Ship's Doctor with 6 years of service in the maritime industry.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/ship's-doctor-brown.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Davis",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Robert Davis is an experienced Nurse with 6 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/nurse-davis.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Emma Johnson",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Emma Johnson is an experienced Safety Officer with 16 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "/images/crew/safety-officer-johnson.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Michael Williams",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Michael Williams is an experienced Hospitality Director with 16 years of service in the maritime industry.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "/images/crew/hospitality-director-williams.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Emma Williams",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Emma Williams is an experienced Guest Relations Manager with 12 years of service in the maritime industry.",
+    "languages": [
+      "Spanish",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "/images/crew/guest-relations-manager-williams.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sarah Miller",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Sarah Miller is an experienced Chief Steward with 17 years of service in the maritime industry.",
+    "languages": [
+      "Spanish",
+      "Italian",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "/images/crew/chief-steward-miller.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Smith",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Robert Smith is an experienced Senior Steward with 15 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "/images/crew/senior-steward-smith.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Maria Smith",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Maria Smith is an experienced Butler with 10 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "/images/crew/butler-smith.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Olivia Davis",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Olivia Davis is an experienced Accommodation Manager with 10 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "/images/crew/accommodation-manager-davis.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Garcia",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Sophia Garcia is an experienced Housekeeping Supervisor with 16 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "/images/crew/housekeeping-supervisor-garcia.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Michael Williams",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Michael Williams is an experienced Guest Services Specialist with 5 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "Russian",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "/images/crew/guest-services-specialist-williams.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Williams",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Sophia Williams is an experienced Concierge with 16 years of service in the maritime industry.",
+    "languages": [
+      "Russian",
+      "Japanese",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "/images/crew/concierge-williams.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Brown",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Robert Brown is an experienced Front Desk Manager with 16 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "/images/crew/front-desk-manager-brown.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "David Garcia",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "David Garcia is an experienced VIP Coordinator with 10 years of service in the maritime industry.",
+    "languages": [
+      "Russian",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "/images/crew/vip-coordinator-garcia.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "John Smith",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "John Smith is an experienced Hospitality Trainer with 8 years of service in the maritime industry.",
+    "languages": [
+      "Spanish",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/hospitality-trainer-smith.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Rodriguez",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Robert Rodriguez is an experienced Executive Chef with 14 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "/images/crew/executive-chef-rodriguez.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Olivia Miller",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Olivia Miller is an experienced Sous Chef with 8 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/sous-chef-miller.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Emma Davis",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Emma Davis is an experienced Pastry Chef with 8 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/pastry-chef-davis.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "David Garcia",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "David Garcia is an experienced Chef de Partie with 17 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "/images/crew/chef-de-partie-garcia.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "James Johnson",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "James Johnson is an experienced Specialty Chef with 7 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "/images/crew/specialty-chef-johnson.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Olivia Garcia",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Olivia Garcia is an experienced Sushi Chef with 17 years of service in the maritime industry.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "/images/crew/sushi-chef-garcia.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Maria Smith",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Maria Smith is an experienced Garde Manger with 6 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/garde-manger-smith.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "James Jones",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "James Jones is an experienced Butcher with 17 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "/images/crew/butcher-jones.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "John Rodriguez",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "John Rodriguez is an experienced Baker with 14 years of service in the maritime industry.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "/images/crew/baker-rodriguez.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Michael Johnson",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Michael Johnson is an experienced Sommelier with 15 years of service in the maritime industry.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "/images/crew/sommelier-johnson.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Olivia Martinez",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Olivia Martinez is an experienced Mixologist with 8 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/mixologist-martinez.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Johnson",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Sophia Johnson is an experienced Barista with 6 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "Mandarin",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/barista-johnson.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Rodriguez",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Sophia Rodriguez is an experienced Nutritionist with 18 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "/images/crew/nutritionist-rodriguez.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "James Williams",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "James Williams is an experienced Entertainment Director with 7 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "/images/crew/entertainment-director-williams.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Smith",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Sophia Smith is an experienced Performance Coordinator with 9 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "Japanese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "/images/crew/performance-coordinator-smith.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Miller",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "Robert Miller is an experienced Lead Vocalist with 11 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "/images/crew/lead-vocalist-miller.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sarah Smith",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Sarah Smith is an experienced Musician with 5 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "/images/crew/musician-smith.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "James Garcia",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "James Garcia is an experienced Dancer with 10 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "/images/crew/dancer-garcia.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Michael Brown",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Michael Brown is an experienced Choreographer with 16 years of service in the maritime industry.",
+    "languages": [
+      "Spanish",
+      "Portuguese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "/images/crew/choreographer-brown.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Olivia Garcia",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Olivia Garcia is an experienced Comedy Performer with 19 years of service in the maritime industry.",
+    "languages": [
+      "Spanish",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "/images/crew/comedy-performer-garcia.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Maria Rodriguez",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Maria Rodriguez is an experienced Magic Act with 10 years of service in the maritime industry.",
+    "languages": [
+      "Spanish",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "/images/crew/magic-act-rodriguez.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Rodriguez",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "Sophia Rodriguez is an experienced DJ with 19 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "/images/crew/dj-rodriguez.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Michael Miller is an experienced Audio Technician with 10 years of service in the maritime industry.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "/images/crew/audio-technician-miller.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "John Johnson",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "John Johnson is an experienced Lighting Specialist with 6 years of service in the maritime industry.",
+    "languages": [
+      "Spanish",
+      "Arabic",
+      "German",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/lighting-specialist-johnson.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "David Smith",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "David Smith is an experienced Stage Manager with 17 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "/images/crew/stage-manager-smith.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "James Johnson",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "James Johnson is an experienced Production Manager with 8 years of service in the maritime industry.",
+    "languages": [
+      "Portuguese",
+      "Mandarin",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/production-manager-johnson.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Olivia Brown",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Olivia Brown is an experienced Costume Designer with 8 years of service in the maritime industry.",
+    "languages": [
+      "English",
+      "German",
+      "Japanese"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/costume-designer-brown.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "John Brown",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "John Brown is an experienced Cultural Program Director with 5 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "/images/crew/cultural-program-director-brown.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Sophia Miller is an experienced Performance Artist with 19 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "/images/crew/performance-artist-miller.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "David Brown",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "David Brown is an experienced Operations Manager with 11 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "/images/crew/operations-manager-brown.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "David Jones",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "David Jones is an experienced Logistics Coordinator with 7 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "/images/crew/logistics-coordinator-jones.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "John Martinez",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "John Martinez is an experienced Inventory Specialist with 19 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "/images/crew/inventory-specialist-martinez.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Emma Jones",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Emma Jones is an experienced Procurement Officer with 19 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "/images/crew/procurement-officer-jones.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sarah Brown",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Sarah Brown is an experienced Sustainability Coordinator with 8 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/sustainability-coordinator-brown.jpg",
+    "city": "Rome",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  }
 ];

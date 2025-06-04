@@ -1,335 +1,1476 @@
-import { CrewMember } from "@/lib/interfaces/people/staff";
+import { CrewMember } from "@/lib/interfaces/people/staff.ts";
 
-export const singaporeTeamMembers: CrewMember[] = [
-  // Deck Department
+export const singaporeTeamMembers:CrewMember[] = [
   {
-    name: "Rajesh Kumar",
-    role: "Captain",
-    department: "Deck Department",
-    bio: "Captain Kumar has over 20 years of experience navigating the waters of Southeast Asia, specializing in coastal and offshore operations.",
-    languages: ["English", "Malay", "Tamil"],
-    experienceYears: 20,
-    profileImage: "/images/crew/captain-kumar.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
+    "name": "David Rodriguez",
+    "role": "Captain",
+    "department": "Deck Department",
+    "bio": "David Rodriguez is an experienced Captain with 15 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "/images/crew/captain-rodriguez.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Li Wei Chen",
-    role: "Captain",
-    department: "Deck Department",
-    bio: "Captain Chen brings 22 years of maritime leadership with specialized expertise in navigating the South China Sea and Strait of Malacca.",
-    languages: ["English", "Mandarin", "Malay", "Cantonese"],
-    experienceYears: 22,
-    profileImage: "/images/crew/captain-chen.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
+    "name": "Michael Smith",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "Michael Smith is an experienced First Officer with 7 years of service in the maritime industry.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "/images/crew/first-officer-smith.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Aisha Tan",
-    role: "First Officer",
-    department: "Deck Department",
-    bio: "Aisha is known for her expertise in navigating the busy shipping lanes of the Singapore Strait and surrounding areas.",
-    languages: ["English", "Mandarin", "Malay"],
-    experienceYears: 10,
-    profileImage: "/images/crew/officer-tan.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
+    "name": "Sophia Williams",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "Sophia Williams is an experienced Second Officer with 6 years of service in the maritime industry.",
+    "languages": [
+      "Spanish",
+      "German",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/second-officer-williams.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "David Wong",
-    role: "First Officer",
-    department: "Deck Department",
-    bio: "Former Singapore Navy officer David brings exceptional navigational expertise and leadership skills to all voyages.",
-    languages: ["English", "Mandarin", "Hokkien"],
-    experienceYears: 12,
-    profileImage: "/images/crew/officer-wong.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
-  },
-
-  // Engineering Department
-  {
-    name: "Mohamed Ali",
-    role: "Chief Engineer",
-    department: "Engineering Department",
-    bio: "Mohamed ensures all engineering systems are running smoothly, with a focus on sustainability and energy efficiency in marine operations.",
-    languages: ["English", "Malay", "Arabic"],
-    experienceYears: 15,
-    profileImage: "/images/crew/engineer-ali.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
+    "name": "Robert Johnson",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Robert Johnson is an experienced Third Officer with 10 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "/images/crew/third-officer-johnson.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Priya Sharma",
-    role: "Chief Engineer",
-    department: "Engineering Department",
-    bio: "Specialist in smart ship systems, Priya leads innovations in maritime technology and sustainable engineering practices.",
-    languages: ["English", "Hindi", "Tamil"],
-    experienceYears: 13,
-    profileImage: "/images/crew/engineer-sharma.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
+    "name": "David Garcia",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "David Garcia is an experienced Navigation Officer with 11 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "Italian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "/images/crew/navigation-officer-garcia.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Jackson Lim",
-    role: "Electrical Engineer",
-    department: "Engineering Department",
-    bio: "Jackson maintains all electrical systems with expertise in power management and automation technology.",
-    languages: ["English", "Mandarin", "Malay"],
-    experienceYears: 9,
-    profileImage: "/images/crew/electrical-lim.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
-  },
-
-  // Security Department
-  {
-    name: "Desmond Teo",
-    role: "Security Director",
-    department: "Security Department",
-    bio: "Former Singapore Police Force officer, Desmond leads vessel security with expertise in maritime security protocols.",
-    languages: ["English", "Mandarin", "Malay", "Cantonese"],
-    experienceYears: 17,
-    profileImage: "/images/crew/security-teo.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
+    "name": "Sarah Garcia",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Sarah Garcia is an experienced Safety Officer with 9 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "/images/crew/safety-officer-garcia.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Kartika Sulaiman",
-    role: "Security Officer",
-    department: "Security Department",
-    bio: "Kartika oversees guest safety with a background in risk management and international maritime security.",
-    languages: ["English", "Malay", "Indonesian", "Arabic"],
-    experienceYears: 8,
-    profileImage: "/images/crew/security-sulaiman.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
-  },
-
-  // Youth & Family Programs
-  {
-    name: "Hannah Yeoh",
-    role: "Youth Program Director",
-    department: "Youth & Family Programs",
-    bio: "Certified educator Hannah creates engaging activities that blend entertainment with Asian cultural and educational experiences.",
-    languages: ["English", "Mandarin", "Malay", "Cantonese"],
-    experienceYears: 10,
-    profileImage: "/images/crew/youth-yeoh.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
+    "name": "James Garcia",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "James Garcia is an experienced Deck Cadet with 13 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "/images/crew/deck-cadet-garcia.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Rahul Venkatesh",
-    role: "Family Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Rahul designs multigenerational activities that bring families together through shared adventures and cultural discovery.",
-    languages: ["English", "Tamil", "Hindi", "Malay"],
-    experienceYears: 7,
-    profileImage: "/images/crew/family-venkatesh.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
-  },
-
-  // Activities & Recreation
-  {
-    name: "Sharon Chong",
-    role: "Activities Director",
-    department: "Activities & Recreation",
-    bio: "Sharon creates innovative recreational programs highlighting Asian cultures alongside contemporary entertainment experiences.",
-    languages: ["English", "Mandarin", "Cantonese", "Malay"],
-    experienceYears: 11,
-    profileImage: "/images/crew/activities-chong.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
+    "name": "Sarah Williams",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Sarah Williams is an experienced Bosun with 9 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "/images/crew/bosun-williams.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Kumar Ranganathan",
-    role: "Cultural Program Coordinator",
-    department: "Activities & Recreation",
-    bio: "Kumar organizes authentic cultural experiences from traditional dance performances to local craft demonstrations.",
-    languages: ["English", "Tamil", "Hindi", "Malay"],
-    experienceYears: 9,
-    profileImage: "/images/crew/cultural-ranganathan.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
+    "name": "Sophia Johnson",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Sophia Johnson is an experienced Chief Engineer with 14 years of service in the maritime industry.",
+    "languages": [
+      "Spanish",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "/images/crew/chief-engineer-johnson.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Jasmine Tay",
-    role: "Fitness Instructor",
-    department: "Activities & Recreation",
-    bio: "Former competitive athlete Jasmine leads fitness programs combining Eastern practices with contemporary training methods.",
-    languages: ["English", "Mandarin", "Malay"],
-    experienceYears: 8,
-    profileImage: "/images/crew/fitness-tay.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
-  },
-
-  // Photography & Videography
-  {
-    name: "Michael Tan",
-    role: "Lead Photographer",
-    department: "Photography & Videography",
-    bio: "Award-winning photographer Michael captures stunning moments of guests' journeys through Southeast Asia.",
-    languages: ["English", "Mandarin", "Cantonese", "Malay"],
-    experienceYears: 12,
-    profileImage: "/images/crew/photographer-tan.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
+    "name": "John Davis",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "John Davis is an experienced First Engineer with 16 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "/images/crew/first-engineer-davis.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Anisa Ibrahim",
-    role: "Videographer",
-    department: "Photography & Videography",
-    bio: "Documentary filmmaker Anisa creates cinematic cruise memories and destination features showcasing Singapore and beyond.",
-    languages: ["English", "Malay", "Indonesian"],
-    experienceYears: 9,
-    profileImage: "/images/crew/videographer-ibrahim.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
-  },
-
-  // Health & Safety
-  {
-    name: "Dr. Vincent Lim",
-    role: "Chief Medical Officer",
-    department: "Health & Safety",
-    bio: "Dr. Lim oversees all medical services with specializations in tropical medicine and travel health in Southeast Asia.",
-    languages: ["English", "Mandarin", "Malay", "Cantonese"],
-    experienceYears: 18,
-    profileImage: "/images/crew/doctor-lim.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
+    "name": "John Jones",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "John Jones is an experienced Second Engineer with 6 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/second-engineer-jones.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Dr. Meera Pillai",
-    role: "Ship's Doctor",
-    department: "Health & Safety",
-    bio: "Dr. Pillai provides comprehensive medical care with expertise in tropical diseases and maritime health regulations.",
-    languages: ["English", "Tamil", "Hindi", "Malayalam"],
-    experienceYears: 15,
-    profileImage: "/images/crew/doctor-pillai.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
+    "name": "Robert Davis",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Robert Davis is an experienced Electrical Engineer with 19 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "/images/crew/electrical-engineer-davis.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Alex Koh",
-    role: "Safety Officer",
-    department: "Health & Safety",
-    bio: "Former maritime safety inspector Alex coordinates emergency protocols and ensures compliance with international safety standards.",
-    languages: ["English", "Mandarin", "Malay"],
-    experienceYears: 14,
-    profileImage: "/images/crew/safety-koh.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
-  },
-
-  // Hospitality Department
-  {
-    name: "Grace Tan",
-    role: "Guest Relations Manager",
-    department: "Hospitality Department",
-    bio: "Grace ensures personalized service for all guests with her background in luxury Asian hospitality management.",
-    languages: ["English", "Mandarin", "Cantonese", "Malay"],
-    experienceYears: 12,
-    profileImage: "/images/crew/relations-tan.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
+    "name": "Sarah Smith",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Sarah Smith is an experienced Mechanical Engineer with 15 years of service in the maritime industry.",
+    "languages": [
+      "English",
+      "Portuguese"
+    ],
+    "experienceYears": 15,
+    "profileImage": "/images/crew/mechanical-engineer-smith.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Syed Rahman",
-    role: "Chief Steward",
-    department: "Hospitality Department",
-    bio: "Syed ensures exceptional service standards across all guest accommodations with meticulous attention to detail and warm hospitality.",
-    languages: ["English", "Malay", "Arabic", "Hindi"],
-    experienceYears: 10,
-    profileImage: "/images/crew/steward-rahman.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
-  },
-
-  // Culinary Department
-  {
-    name: "Chef Marcus Quek",
-    role: "Executive Chef",
-    department: "Culinary Department",
-    bio: "Chef Quek creates exquisite Asian fusion cuisine featuring Singapore's diverse culinary influences and fresh local ingredients.",
-    languages: ["English", "Mandarin", "Malay", "Cantonese"],
-    experienceYears: 18,
-    profileImage: "/images/crew/chef-quek.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
+    "name": "John Davis",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "John Davis is an experienced HVAC Engineer with 11 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "/images/crew/hvac-engineer-davis.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Lakshmi Narayanan",
-    role: "Pastry Chef",
-    department: "Culinary Department",
-    bio: "Award-winning pastry artist Lakshmi creates stunning desserts combining European techniques with Asian flavors.",
-    languages: ["English", "Tamil", "Hindi", "Malay"],
-    experienceYears: 14,
-    profileImage: "/images/crew/pastry-narayanan.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
+    "name": "Sarah Davis",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Sarah Davis is an experienced Environmental Engineer with 18 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "English",
+      "Russian"
+    ],
+    "experienceYears": 18,
+    "profileImage": "/images/crew/environmental-engineer-davis.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Wei Ming Chua",
-    role: "Sommelier",
-    department: "Culinary Department",
-    bio: "Wei Ming curates an exceptional wine collection and advises on perfect pairings for the ship's diverse culinary offerings.",
-    languages: ["English", "Mandarin", "Cantonese", "French"],
-    experienceYears: 13,
-    profileImage: "/images/crew/sommelier-chua.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
-  },
-
-  // Entertainment Department
-  {
-    name: "Jason Cheng",
-    role: "Entertainment Director",
-    department: "Entertainment Department",
-    bio: "Jason creates sophisticated performance experiences featuring both traditional Asian arts and contemporary entertainment.",
-    languages: ["English", "Mandarin", "Cantonese", "Malay"],
-    experienceYears: 15,
-    profileImage: "/images/crew/entertainment-cheng.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
+    "name": "David Brown",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "David Brown is an experienced Systems Engineer with 17 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "German",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "/images/crew/systems-engineer-brown.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Zarina Abdullah",
-    role: "Performance Coordinator",
-    department: "Entertainment Department",
-    bio: "Former professional dancer Zarina coordinates onboard performances ranging from traditional cultural shows to contemporary entertainment.",
-    languages: ["English", "Malay", "Arabic"],
-    experienceYears: 8,
-    profileImage: "/images/crew/performance-abdullah.jpg",
-    city: "Singapore",
-    country: "Singapore",
-    region: "Southeast Asia",
+    "name": "David Garcia",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "David Garcia is an experienced Technical Manager with 6 years of service in the maritime industry.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/technical-manager-garcia.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
+  {
+    "name": "Emma Williams",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Emma Williams is an experienced Maintenance Engineer with 5 years of service in the maritime industry.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "/images/crew/maintenance-engineer-williams.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Michael Williams",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Michael Williams is an experienced Security Director with 9 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "/images/crew/security-director-williams.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sarah Davis",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Sarah Davis is an experienced Security Officer with 13 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "/images/crew/security-officer-davis.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "James Rodriguez",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "James Rodriguez is an experienced Security Specialist with 5 years of service in the maritime industry.",
+    "languages": [
+      "English",
+      "French"
+    ],
+    "experienceYears": 5,
+    "profileImage": "/images/crew/security-specialist-rodriguez.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "David Williams",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "David Williams is an experienced Cybersecurity Officer with 18 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "/images/crew/cybersecurity-officer-williams.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Smith",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Robert Smith is an experienced Maritime Security Coordinator with 13 years of service in the maritime industry.",
+    "languages": [
+      "Russian",
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "/images/crew/maritime-security-coordinator-smith.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sarah Smith",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Sarah Smith is an experienced Access Control Officer with 5 years of service in the maritime industry.",
+    "languages": [
+      "English",
+      "Russian"
+    ],
+    "experienceYears": 5,
+    "profileImage": "/images/crew/access-control-officer-smith.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Olivia Garcia",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Olivia Garcia is an experienced Safety Compliance Officer with 19 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "/images/crew/safety-compliance-officer-garcia.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "David Rodriguez",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "David Rodriguez is an experienced Youth Program Director with 15 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "/images/crew/youth-program-director-rodriguez.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sarah Williams",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Sarah Williams is an experienced Family Activities Coordinator with 6 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "Japanese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/family-activities-coordinator-williams.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Sophia Miller is an experienced Children's Entertainment Specialist with 13 years of service in the maritime industry.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "/images/crew/children's-entertainment-specialist-miller.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "James Miller",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "James Miller is an experienced Teen Activities Coordinator with 14 years of service in the maritime industry.",
+    "languages": [
+      "English",
+      "German"
+    ],
+    "experienceYears": 14,
+    "profileImage": "/images/crew/teen-activities-coordinator-miller.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Maria Miller",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Maria Miller is an experienced Educational Program Manager with 11 years of service in the maritime industry.",
+    "languages": [
+      "Portuguese",
+      "Italian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "/images/crew/educational-program-manager-miller.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "John Miller",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "John Miller is an experienced Child Care Specialist with 18 years of service in the maritime industry.",
+    "languages": [
+      "English",
+      "German",
+      "French"
+    ],
+    "experienceYears": 18,
+    "profileImage": "/images/crew/child-care-specialist-miller.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Johnson",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Sophia Johnson is an experienced Activities Director with 16 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "/images/crew/activities-director-johnson.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Williams",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Robert Williams is an experienced Water Sports Instructor with 5 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "Russian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "/images/crew/water-sports-instructor-williams.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Michael Garcia",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Michael Garcia is an experienced Fitness Instructor with 18 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "Arabic",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "/images/crew/fitness-instructor-garcia.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "David Garcia",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "David Garcia is an experienced Excursion Coordinator with 7 years of service in the maritime industry.",
+    "languages": [
+      "Spanish",
+      "French",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "/images/crew/excursion-coordinator-garcia.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Maria Rodriguez",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Maria Rodriguez is an experienced Lead Photographer with 8 years of service in the maritime industry.",
+    "languages": [
+      "English",
+      "Mandarin",
+      "Spanish"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/lead-photographer-rodriguez.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Maria Johnson",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Maria Johnson is an experienced Videographer with 15 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "/images/crew/videographer-johnson.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "David Miller",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "David Miller is an experienced Digital Media Specialist with 10 years of service in the maritime industry.",
+    "languages": [
+      "Portuguese",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "/images/crew/digital-media-specialist-miller.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Emma Williams",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Emma Williams is an experienced Chief Medical Officer with 7 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "/images/crew/chief-medical-officer-williams.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Maria Smith",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Maria Smith is an experienced Ship's Doctor with 7 years of service in the maritime industry.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "/images/crew/ship's-doctor-smith.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Michael Williams",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Michael Williams is an experienced Nurse with 11 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "/images/crew/nurse-williams.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Emma Martinez",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Emma Martinez is an experienced Safety Officer with 8 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/safety-officer-martinez.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "John Johnson",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "John Johnson is an experienced Hospitality Director with 14 years of service in the maritime industry.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "/images/crew/hospitality-director-johnson.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Maria Martinez",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Maria Martinez is an experienced Guest Relations Manager with 18 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "/images/crew/guest-relations-manager-martinez.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "John Miller",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "John Miller is an experienced Chief Steward with 11 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "Portuguese",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "/images/crew/chief-steward-miller.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "David Martinez",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "David Martinez is an experienced Senior Steward with 14 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "/images/crew/senior-steward-martinez.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Smith",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Robert Smith is an experienced Butler with 15 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "/images/crew/butler-smith.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "David Brown",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "David Brown is an experienced Accommodation Manager with 18 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "/images/crew/accommodation-manager-brown.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "John Davis",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "John Davis is an experienced Housekeeping Supervisor with 17 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "/images/crew/housekeeping-supervisor-davis.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Michael Brown",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Michael Brown is an experienced Guest Services Specialist with 9 years of service in the maritime industry.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "/images/crew/guest-services-specialist-brown.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Emma Miller",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Emma Miller is an experienced Concierge with 11 years of service in the maritime industry.",
+    "languages": [
+      "English",
+      "Italian"
+    ],
+    "experienceYears": 11,
+    "profileImage": "/images/crew/concierge-miller.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Johnson",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Sophia Johnson is an experienced Front Desk Manager with 18 years of service in the maritime industry.",
+    "languages": [
+      "Russian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "/images/crew/front-desk-manager-johnson.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sarah Davis",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "Sarah Davis is an experienced VIP Coordinator with 5 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "/images/crew/vip-coordinator-davis.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Emma Davis",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Emma Davis is an experienced Hospitality Trainer with 7 years of service in the maritime industry.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "/images/crew/hospitality-trainer-davis.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sarah Johnson",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Sarah Johnson is an experienced Executive Chef with 9 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "/images/crew/executive-chef-johnson.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Maria Johnson",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Maria Johnson is an experienced Sous Chef with 12 years of service in the maritime industry.",
+    "languages": [
+      "Spanish",
+      "French",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "/images/crew/sous-chef-johnson.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "John Garcia",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "John Garcia is an experienced Pastry Chef with 10 years of service in the maritime industry.",
+    "languages": [
+      "Russian",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "/images/crew/pastry-chef-garcia.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Garcia",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Sophia Garcia is an experienced Chef de Partie with 9 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "German",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "/images/crew/chef-de-partie-garcia.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Maria Rodriguez",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Maria Rodriguez is an experienced Specialty Chef with 16 years of service in the maritime industry.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "/images/crew/specialty-chef-rodriguez.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Michael Williams",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Michael Williams is an experienced Sushi Chef with 5 years of service in the maritime industry.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "/images/crew/sushi-chef-williams.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Garcia",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Robert Garcia is an experienced Garde Manger with 11 years of service in the maritime industry.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "/images/crew/garde-manger-garcia.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sarah Brown",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Sarah Brown is an experienced Butcher with 14 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "Japanese",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "/images/crew/butcher-brown.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Emma Garcia",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Emma Garcia is an experienced Baker with 11 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "/images/crew/baker-garcia.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Smith",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Sophia Smith is an experienced Sommelier with 12 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "/images/crew/sommelier-smith.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Emma Rodriguez",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Emma Rodriguez is an experienced Mixologist with 5 years of service in the maritime industry.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "/images/crew/mixologist-rodriguez.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Davis",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Robert Davis is an experienced Barista with 10 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "/images/crew/barista-davis.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Emma Martinez",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Emma Martinez is an experienced Nutritionist with 15 years of service in the maritime industry.",
+    "languages": [
+      "English",
+      "Russian",
+      "Italian"
+    ],
+    "experienceYears": 15,
+    "profileImage": "/images/crew/nutritionist-martinez.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Maria Smith",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Maria Smith is an experienced Entertainment Director with 12 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "Spanish",
+      "French",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "/images/crew/entertainment-director-smith.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Emma Davis",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Emma Davis is an experienced Performance Coordinator with 11 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "/images/crew/performance-coordinator-davis.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "James Miller",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "James Miller is an experienced Lead Vocalist with 11 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "/images/crew/lead-vocalist-miller.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sarah Brown",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Sarah Brown is an experienced Musician with 14 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "/images/crew/musician-brown.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Williams",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Sophia Williams is an experienced Dancer with 8 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/dancer-williams.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sarah Davis",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Sarah Davis is an experienced Choreographer with 16 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "Mandarin",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "/images/crew/choreographer-davis.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Johnson",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Sophia Johnson is an experienced Comedy Performer with 15 years of service in the maritime industry.",
+    "languages": [
+      "Portuguese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "/images/crew/comedy-performer-johnson.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Brown",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Sophia Brown is an experienced Magic Act with 16 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "/images/crew/magic-act-brown.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "David Johnson",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "David Johnson is an experienced DJ with 6 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/dj-johnson.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sarah Miller",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Sarah Miller is an experienced Audio Technician with 7 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "Mandarin",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "/images/crew/audio-technician-miller.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "David Miller",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "David Miller is an experienced Lighting Specialist with 9 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "Portuguese",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "/images/crew/lighting-specialist-miller.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Olivia Davis",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Olivia Davis is an experienced Stage Manager with 8 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/stage-manager-davis.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Olivia Smith",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Olivia Smith is an experienced Production Manager with 13 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "/images/crew/production-manager-smith.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Emma Miller",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Emma Miller is an experienced Costume Designer with 10 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "/images/crew/costume-designer-miller.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "James Davis",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "James Davis is an experienced Cultural Program Director with 8 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "Mandarin",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/cultural-program-director-davis.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Olivia Brown",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Olivia Brown is an experienced Performance Artist with 6 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/performance-artist-brown.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "John Rodriguez",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "John Rodriguez is an experienced Operations Manager with 11 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "/images/crew/operations-manager-rodriguez.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Williams",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Sophia Williams is an experienced Logistics Coordinator with 5 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "/images/crew/logistics-coordinator-williams.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Michael Martinez",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Michael Martinez is an experienced Inventory Specialist with 9 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "/images/crew/inventory-specialist-martinez.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Maria Rodriguez",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Maria Rodriguez is an experienced Procurement Officer with 15 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "/images/crew/procurement-officer-rodriguez.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Miller",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Robert Miller is an experienced Sustainability Coordinator with 7 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "/images/crew/sustainability-coordinator-miller.jpg",
+    "city": "Singapore",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  }
 ];

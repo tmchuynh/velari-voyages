@@ -1,396 +1,1463 @@
-import { CrewMember } from "@/lib/interfaces/people/staff";
+import { CrewMember } from "@/lib/interfaces/people/staff.ts";
 
-export const southamptonTeamMembers: CrewMember[] = [
-  // Deck Department
+export const southamptonTeamMembers:CrewMember[] = [
   {
-    name: "Oliver Smith",
-    role: "Captain",
-    department: "Deck Department",
-    bio: "Captain Smith has over 20 years of experience navigating the waters of the English Channel and North Sea, specializing in luxury yacht operations.",
-    languages: ["English", "French"],
-    experienceYears: 20,
-    profileImage: "/images/crew/captain-smith.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
+    "name": "Sophia Brown",
+    "role": "Captain",
+    "department": "Deck Department",
+    "bio": "Sophia Brown is an experienced Captain with 15 years of service in the maritime industry.",
+    "languages": [
+      "English",
+      "Portuguese",
+      "Mandarin"
+    ],
+    "experienceYears": 15,
+    "profileImage": "/images/crew/captain-brown.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Victoria Clarke",
-    role: "Captain",
-    department: "Deck Department",
-    bio: "Captain Clarke brings 22 years of transatlantic expertise and leads with a focus on British maritime traditions.",
-    languages: ["English", "Spanish", "German"],
-    experienceYears: 22,
-    profileImage: "/images/crew/captain-clarke.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
+    "name": "Sarah Miller",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "Sarah Miller is an experienced First Officer with 12 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "/images/crew/first-officer-miller.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Isabella Johnson",
-    role: "First Officer",
-    department: "Deck Department",
-    bio: "Isabella is known for her expertise in navigating the busy shipping lanes of the Solent and surrounding areas.",
-    languages: ["English", "Spanish"],
-    experienceYears: 10,
-    profileImage: "/images/crew/officer-johnson.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
+    "name": "John Garcia",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "John Garcia is an experienced Second Officer with 6 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/second-officer-garcia.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "James Wilson",
-    role: "First Officer",
-    department: "Deck Department",
-    bio: "Former Royal Navy officer with specialized knowledge of North Atlantic navigation and maritime regulations.",
-    languages: ["English", "French", "Norwegian"],
-    experienceYears: 15,
-    profileImage: "/images/crew/officer-wilson.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
+    "name": "Michael Smith",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Michael Smith is an experienced Third Officer with 10 years of service in the maritime industry.",
+    "languages": [
+      "Russian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "/images/crew/third-officer-smith.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Emily Davies",
-    role: "Navigation Officer",
-    department: "Deck Department",
-    bio: "Emily specializes in electronic navigation systems and maritime weather analysis for optimal route planning.",
-    languages: ["English", "Welsh", "German"],
-    experienceYears: 8,
-    profileImage: "/images/crew/navigation-davies.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
-  },
-
-  // Engineering Department
-  {
-    name: "Liam Brown",
-    role: "Chief Engineer",
-    department: "Engineering Department",
-    bio: "Liam ensures all engineering systems are running smoothly, with a focus on sustainability and energy efficiency in marine operations.",
-    languages: ["English", "German"],
-    experienceYears: 15,
-    profileImage: "/images/crew/engineer-brown.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
+    "name": "James Miller",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "James Miller is an experienced Navigation Officer with 15 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "/images/crew/navigation-officer-miller.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Sophia Patel",
-    role: "Chief Engineer",
-    department: "Engineering Department",
-    bio: "Specialist in advanced propulsion systems, Sophia leads innovations in low-emission maritime engineering.",
-    languages: ["English", "Hindi", "Gujarati"],
-    experienceYears: 17,
-    profileImage: "/images/crew/engineer-patel.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
+    "name": "Olivia Brown",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Olivia Brown is an experienced Safety Officer with 10 years of service in the maritime industry.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "/images/crew/safety-officer-brown.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Thomas Edwards",
-    role: "Electrical Engineer",
-    department: "Engineering Department",
-    bio: "Thomas oversees all electrical systems with expertise in smart ship technologies and power management.",
-    languages: ["English", "French"],
-    experienceYears: 12,
-    profileImage: "/images/crew/electrical-edwards.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
+    "name": "James Rodriguez",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "James Rodriguez is an experienced Deck Cadet with 13 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "/images/crew/deck-cadet-rodriguez.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Sophie Williams",
-    role: "Mechanical Engineer",
-    department: "Engineering Department",
-    bio: "Sophie specializes in maintenance of propulsion systems and mechanical operations in challenging North Sea conditions.",
-    languages: ["English", "Danish"],
-    experienceYears: 9,
-    profileImage: "/images/crew/mechanical-williams.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
-  },
-
-  // Security Department
-  {
-    name: "Henry Taylor",
-    role: "Security Director",
-    department: "Security Department",
-    bio: "Former Royal Marine, Henry leads vessel security with expertise in international maritime protocols.",
-    languages: ["English", "Arabic", "French"],
-    experienceYears: 18,
-    profileImage: "/images/crew/security-taylor.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
+    "name": "Olivia Garcia",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Olivia Garcia is an experienced Bosun with 7 years of service in the maritime industry.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "/images/crew/bosun-garcia.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Charlotte Hughes",
-    role: "Security Officer",
-    department: "Security Department",
-    bio: "Charlotte oversees guest safety protocols with a background in diplomatic security and VIP protection.",
-    languages: ["English", "Italian", "Russian"],
-    experienceYears: 10,
-    profileImage: "/images/crew/security-hughes.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
+    "name": "Michael Martinez",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Michael Martinez is an experienced Chief Engineer with 6 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/chief-engineer-martinez.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Mohammed Khan",
-    role: "Security Officer",
-    department: "Security Department",
-    bio: "Specialized in cybersecurity and maritime threat assessment for international operations.",
-    languages: ["English", "Urdu", "Arabic"],
-    experienceYears: 9,
-    profileImage: "/images/crew/security-khan.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
-  },
-
-  // Youth & Family Programs
-  {
-    name: "Alice Robinson",
-    role: "Youth Program Director",
-    department: "Youth & Family Programs",
-    bio: "Certified educator Alice creates engaging activities combining British educational methods with entertainment for young travelers.",
-    languages: ["English", "French", "Spanish"],
-    experienceYears: 11,
-    profileImage: "/images/crew/youth-robinson.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
+    "name": "Olivia Rodriguez",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "Olivia Rodriguez is an experienced First Engineer with 13 years of service in the maritime industry.",
+    "languages": [
+      "English",
+      "Arabic",
+      "Japanese"
+    ],
+    "experienceYears": 13,
+    "profileImage": "/images/crew/first-engineer-rodriguez.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "George Baker",
-    role: "Youth Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Former museum educator specialized in creating maritime history learning experiences through interactive play.",
-    languages: ["English", "German"],
-    experienceYears: 8,
-    profileImage: "/images/crew/youth-baker.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
+    "name": "John Garcia",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "John Garcia is an experienced Second Engineer with 6 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/second-engineer-garcia.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Emma Thompson",
-    role: "Family Programs Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Emma designs multigenerational activities that bring families together through shared experiences of British maritime heritage.",
-    languages: ["English", "Swedish"],
-    experienceYears: 7,
-    profileImage: "/images/crew/family-thompson.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
-  },
-
-  // Activities & Recreation
-  {
-    name: "William Jones",
-    role: "Activities Director",
-    department: "Activities & Recreation",
-    bio: "William creates innovative recreational programs highlighting British traditions alongside contemporary entertainment.",
-    languages: ["English", "Welsh", "French"],
-    experienceYears: 14,
-    profileImage: "/images/crew/activities-jones.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
+    "name": "Emma Johnson",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Emma Johnson is an experienced Electrical Engineer with 16 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "/images/crew/electrical-engineer-johnson.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Sarah Mitchell",
-    role: "Cultural Program Coordinator",
-    department: "Activities & Recreation",
-    bio: "Sarah organizes authentic cultural experiences from afternoon tea to historical tours of maritime Britain.",
-    languages: ["English", "Italian", "French"],
-    experienceYears: 9,
-    profileImage: "/images/crew/cultural-mitchell.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
+    "name": "Sarah Jones",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Sarah Jones is an experienced Mechanical Engineer with 8 years of service in the maritime industry.",
+    "languages": [
+      "Spanish",
+      "German",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/mechanical-engineer-jones.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Daniel Foster",
-    role: "Fitness Instructor",
-    department: "Activities & Recreation",
-    bio: "Former Olympic rowing team member Daniel leads fitness programs combining traditional and contemporary wellness approaches.",
-    languages: ["English", "Portuguese"],
-    experienceYears: 10,
-    profileImage: "/images/crew/fitness-foster.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
+    "name": "David Miller",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "David Miller is an experienced HVAC Engineer with 12 years of service in the maritime industry.",
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "experienceYears": 12,
+    "profileImage": "/images/crew/hvac-engineer-miller.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Louise Bailey",
-    role: "Dance Instructor",
-    department: "Activities & Recreation",
-    bio: "Professional dancer Louise teaches ballroom dance and hosts elegant evening entertainment for guests.",
-    languages: ["English", "Spanish", "Russian"],
-    experienceYears: 8,
-    profileImage: "/images/crew/dance-bailey.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
-  },
-
-  // Photography & Videography
-  {
-    name: "David Cooper",
-    role: "Lead Photographer",
-    department: "Photography & Videography",
-    bio: "Award-winning photographer David captures memorable moments of guests' journeys with an artistic eye for composition.",
-    languages: ["English", "Spanish"],
-    experienceYears: 15,
-    profileImage: "/images/crew/photographer-cooper.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
+    "name": "Olivia Miller",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Olivia Miller is an experienced Environmental Engineer with 16 years of service in the maritime industry.",
+    "languages": [
+      "Portuguese",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "/images/crew/environmental-engineer-miller.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Olivia Green",
-    role: "Videographer",
-    department: "Photography & Videography",
-    bio: "Documentary filmmaker Olivia creates cinematic cruise memories and destination features with British storytelling tradition.",
-    languages: ["English", "French", "Italian"],
-    experienceYears: 11,
-    profileImage: "/images/crew/videographer-green.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
+    "name": "Robert Johnson",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Robert Johnson is an experienced Systems Engineer with 16 years of service in the maritime industry.",
+    "languages": [
+      "English",
+      "Arabic"
+    ],
+    "experienceYears": 16,
+    "profileImage": "/images/crew/systems-engineer-johnson.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Jack Harrison",
-    role: "Digital Media Specialist",
-    department: "Photography & Videography",
-    bio: "Jack combines traditional photography with cutting-edge digital techniques to create stunning visual mementos.",
-    languages: ["English", "Norwegian"],
-    experienceYears: 7,
-    profileImage: "/images/crew/media-harrison.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
-  },
-
-  // Health & Safety
-  {
-    name: "Dr. Elizabeth Scott",
-    role: "Chief Medical Officer",
-    department: "Health & Safety",
-    bio: "Dr. Scott oversees all medical services with specializations in emergency medicine and travel health.",
-    languages: ["English", "French", "German"],
-    experienceYears: 19,
-    profileImage: "/images/crew/doctor-scott.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
+    "name": "John Miller",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "John Miller is an experienced Technical Manager with 17 years of service in the maritime industry.",
+    "languages": [
+      "English",
+      "German"
+    ],
+    "experienceYears": 17,
+    "profileImage": "/images/crew/technical-manager-miller.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Dr. Robert Lewis",
-    role: "Ship's Doctor",
-    department: "Health & Safety",
-    bio: "Dr. Lewis provides comprehensive medical care with expertise in maritime medicine and international health regulations.",
-    languages: ["English", "Spanish"],
-    experienceYears: 16,
-    profileImage: "/images/crew/doctor-lewis.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
+    "name": "Olivia Rodriguez",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Olivia Rodriguez is an experienced Maintenance Engineer with 15 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "/images/crew/maintenance-engineer-rodriguez.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Catherine White",
-    role: "Nurse",
-    department: "Health & Safety",
-    bio: "With experience in emergency and travel medicine, Catherine ensures prompt medical care for all passengers and crew.",
-    languages: ["English", "Italian"],
-    experienceYears: 10,
-    profileImage: "/images/crew/nurse-white.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
+    "name": "Robert Martinez",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Robert Martinez is an experienced Security Director with 16 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "/images/crew/security-director-martinez.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Andrew Phillips",
-    role: "Safety Officer",
-    department: "Health & Safety",
-    bio: "Former maritime safety inspector Andrew coordinates all emergency protocols and ensures compliance with international safety standards.",
-    languages: ["English", "Dutch", "German"],
-    experienceYears: 14,
-    profileImage: "/images/crew/safety-phillips.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
-  },
-
-  // Hospitality Department
-  {
-    name: "Eleanor Wright",
-    role: "Chief Steward",
-    department: "Hospitality Department",
-    bio: "Eleanor ensures exceptional service standards across all guest accommodations with her attention to detail and personalized approach.",
-    languages: ["English", "French", "Italian"],
-    experienceYears: 13,
-    profileImage: "/images/crew/steward-wright.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
+    "name": "Michael Smith",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Michael Smith is an experienced Security Officer with 6 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "Mandarin",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/security-officer-smith.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "James Bennett",
-    role: "Executive Chef",
-    department: "Hospitality Department",
-    bio: "Michelin-trained Chef Bennett creates sophisticated British cuisine alongside international offerings, emphasizing local ingredients.",
-    languages: ["English", "French", "Spanish"],
-    experienceYears: 18,
-    profileImage: "/images/crew/chef-bennett.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
+    "name": "Robert Garcia",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Robert Garcia is an experienced Security Specialist with 11 years of service in the maritime industry.",
+    "languages": [
+      "Portuguese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "/images/crew/security-specialist-garcia.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
   {
-    name: "Amelia Richards",
-    role: "Guest Relations Manager",
-    department: "Hospitality Department",
-    bio: "Amelia ensures personalized service for all guests with her background in luxury British hospitality.",
-    languages: ["English", "German", "Russian"],
-    experienceYears: 10,
-    profileImage: "/images/crew/relations-richards.jpg",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "England",
-    region: "South East",
+    "name": "Robert Miller",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Robert Miller is an experienced Cybersecurity Officer with 14 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "/images/crew/cybersecurity-officer-miller.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
   },
+  {
+    "name": "David Johnson",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "David Johnson is an experienced Maritime Security Coordinator with 10 years of service in the maritime industry.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "/images/crew/maritime-security-coordinator-johnson.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "John Johnson",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "John Johnson is an experienced Access Control Officer with 6 years of service in the maritime industry.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/access-control-officer-johnson.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Miller",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Robert Miller is an experienced Safety Compliance Officer with 13 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "/images/crew/safety-compliance-officer-miller.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sarah Martinez",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Sarah Martinez is an experienced Youth Program Director with 8 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "French",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/youth-program-director-martinez.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Maria Brown",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Maria Brown is an experienced Family Activities Coordinator with 5 years of service in the maritime industry.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "/images/crew/family-activities-coordinator-brown.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Michael Davis",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Michael Davis is an experienced Children's Entertainment Specialist with 5 years of service in the maritime industry.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "/images/crew/children's-entertainment-specialist-davis.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Michael Rodriguez",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Michael Rodriguez is an experienced Teen Activities Coordinator with 10 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "English",
+      "Italian"
+    ],
+    "experienceYears": 10,
+    "profileImage": "/images/crew/teen-activities-coordinator-rodriguez.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Williams",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Sophia Williams is an experienced Educational Program Manager with 14 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "/images/crew/educational-program-manager-williams.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Michael Smith",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Michael Smith is an experienced Child Care Specialist with 17 years of service in the maritime industry.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "/images/crew/child-care-specialist-smith.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Davis",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Robert Davis is an experienced Activities Director with 8 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "German",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/activities-director-davis.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Garcia",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Robert Garcia is an experienced Water Sports Instructor with 7 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "Japanese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "/images/crew/water-sports-instructor-garcia.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Martinez",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Robert Martinez is an experienced Fitness Instructor with 13 years of service in the maritime industry.",
+    "languages": [
+      "Russian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "/images/crew/fitness-instructor-martinez.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "John Johnson",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "John Johnson is an experienced Excursion Coordinator with 8 years of service in the maritime industry.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/excursion-coordinator-johnson.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Olivia Martinez",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Olivia Martinez is an experienced Lead Photographer with 6 years of service in the maritime industry.",
+    "languages": [
+      "Russian",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/lead-photographer-martinez.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sarah Miller",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Sarah Miller is an experienced Videographer with 17 years of service in the maritime industry.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "/images/crew/videographer-miller.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sarah Jones",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Sarah Jones is an experienced Digital Media Specialist with 11 years of service in the maritime industry.",
+    "languages": [
+      "Portuguese",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "/images/crew/digital-media-specialist-jones.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Olivia Williams",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Olivia Williams is an experienced Chief Medical Officer with 8 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/chief-medical-officer-williams.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Davis",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Robert Davis is an experienced Ship's Doctor with 13 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "/images/crew/ship's-doctor-davis.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "David Martinez",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "David Martinez is an experienced Nurse with 5 years of service in the maritime industry.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "/images/crew/nurse-martinez.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Davis",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Robert Davis is an experienced Safety Officer with 8 years of service in the maritime industry.",
+    "languages": [
+      "Russian",
+      "English",
+      "Japanese"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/safety-officer-davis.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Olivia Jones",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Olivia Jones is an experienced Hospitality Director with 5 years of service in the maritime industry.",
+    "languages": [
+      "English",
+      "Italian"
+    ],
+    "experienceYears": 5,
+    "profileImage": "/images/crew/hospitality-director-jones.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "James Williams",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "James Williams is an experienced Guest Relations Manager with 16 years of service in the maritime industry.",
+    "languages": [
+      "Russian",
+      "Arabic",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "/images/crew/guest-relations-manager-williams.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Martinez",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Robert Martinez is an experienced Chief Steward with 19 years of service in the maritime industry.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "/images/crew/chief-steward-martinez.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Michael Davis",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Michael Davis is an experienced Senior Steward with 15 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "/images/crew/senior-steward-davis.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "John Martinez",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "John Martinez is an experienced Butler with 5 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "/images/crew/butler-martinez.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Maria Williams",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Maria Williams is an experienced Accommodation Manager with 14 years of service in the maritime industry.",
+    "languages": [
+      "Russian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "/images/crew/accommodation-manager-williams.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "John Jones",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "John Jones is an experienced Housekeeping Supervisor with 18 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "/images/crew/housekeeping-supervisor-jones.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Garcia",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Sophia Garcia is an experienced Guest Services Specialist with 17 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "/images/crew/guest-services-specialist-garcia.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Maria Brown",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Maria Brown is an experienced Concierge with 18 years of service in the maritime industry.",
+    "languages": [
+      "Portuguese",
+      "Spanish",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "/images/crew/concierge-brown.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "John Williams",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "John Williams is an experienced Front Desk Manager with 12 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "/images/crew/front-desk-manager-williams.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Emma Rodriguez",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "Emma Rodriguez is an experienced VIP Coordinator with 10 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "/images/crew/vip-coordinator-rodriguez.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Emma Smith",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Emma Smith is an experienced Hospitality Trainer with 18 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "/images/crew/hospitality-trainer-smith.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sarah Jones",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Sarah Jones is an experienced Executive Chef with 5 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "/images/crew/executive-chef-jones.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "James Brown",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "James Brown is an experienced Sous Chef with 17 years of service in the maritime industry.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "/images/crew/sous-chef-brown.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sarah Johnson",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Sarah Johnson is an experienced Pastry Chef with 11 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "/images/crew/pastry-chef-johnson.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Maria Johnson",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Maria Johnson is an experienced Chef de Partie with 10 years of service in the maritime industry.",
+    "languages": [
+      "Spanish",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "/images/crew/chef-de-partie-johnson.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "David Davis",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "David Davis is an experienced Specialty Chef with 12 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "French",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "/images/crew/specialty-chef-davis.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Michael Williams",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Michael Williams is an experienced Sushi Chef with 9 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "/images/crew/sushi-chef-williams.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Garcia",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Sophia Garcia is an experienced Garde Manger with 18 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "/images/crew/garde-manger-garcia.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "David Martinez",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "David Martinez is an experienced Butcher with 15 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "/images/crew/butcher-martinez.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Michael Jones",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Michael Jones is an experienced Baker with 19 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "Arabic",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "/images/crew/baker-jones.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Robert Johnson is an experienced Sommelier with 16 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "/images/crew/sommelier-johnson.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "John Garcia",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "John Garcia is an experienced Mixologist with 5 years of service in the maritime industry.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "/images/crew/mixologist-garcia.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "David Smith",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "David Smith is an experienced Barista with 19 years of service in the maritime industry.",
+    "languages": [
+      "Portuguese",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "/images/crew/barista-smith.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sarah Martinez",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Sarah Martinez is an experienced Nutritionist with 14 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "Spanish",
+      "German",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "/images/crew/nutritionist-martinez.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Maria Smith",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Maria Smith is an experienced Entertainment Director with 12 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "Portuguese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "/images/crew/entertainment-director-smith.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sarah Brown",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Sarah Brown is an experienced Performance Coordinator with 6 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "German",
+      "French",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/performance-coordinator-brown.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "Sophia Miller is an experienced Lead Vocalist with 17 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "/images/crew/lead-vocalist-miller.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "John Jones",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "John Jones is an experienced Musician with 7 years of service in the maritime industry.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "/images/crew/musician-jones.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Emma Jones",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Emma Jones is an experienced Dancer with 18 years of service in the maritime industry.",
+    "languages": [
+      "English",
+      "German",
+      "Arabic"
+    ],
+    "experienceYears": 18,
+    "profileImage": "/images/crew/dancer-jones.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Smith",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Sophia Smith is an experienced Choreographer with 10 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "/images/crew/choreographer-smith.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "James Smith",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "James Smith is an experienced Comedy Performer with 13 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "Spanish",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "/images/crew/comedy-performer-smith.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "David Brown",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "David Brown is an experienced Magic Act with 12 years of service in the maritime industry.",
+    "languages": [
+      "English",
+      "Arabic",
+      "Mandarin"
+    ],
+    "experienceYears": 12,
+    "profileImage": "/images/crew/magic-act-brown.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "James Smith",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "James Smith is an experienced DJ with 14 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "/images/crew/dj-smith.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "John Williams",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "John Williams is an experienced Audio Technician with 6 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "/images/crew/audio-technician-williams.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Williams",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Robert Williams is an experienced Lighting Specialist with 16 years of service in the maritime industry.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "/images/crew/lighting-specialist-williams.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Jones",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Robert Jones is an experienced Stage Manager with 5 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "/images/crew/stage-manager-jones.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Maria Martinez",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Maria Martinez is an experienced Production Manager with 11 years of service in the maritime industry.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "/images/crew/production-manager-martinez.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Emma Johnson",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Emma Johnson is an experienced Costume Designer with 19 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "/images/crew/costume-designer-johnson.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Jones",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Sophia Jones is an experienced Cultural Program Director with 7 years of service in the maritime industry.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "/images/crew/cultural-program-director-jones.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "David Miller",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "David Miller is an experienced Performance Artist with 8 years of service in the maritime industry.",
+    "languages": [
+      "Japanese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/performance-artist-miller.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Sophia Miller is an experienced Operations Manager with 8 years of service in the maritime industry.",
+    "languages": [
+      "French",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "/images/crew/operations-manager-miller.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Robert Rodriguez",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Robert Rodriguez is an experienced Logistics Coordinator with 17 years of service in the maritime industry.",
+    "languages": [
+      "Spanish",
+      "Japanese",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "/images/crew/logistics-coordinator-rodriguez.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Sophia Miller is an experienced Inventory Specialist with 18 years of service in the maritime industry.",
+    "languages": [
+      "Mandarin",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "/images/crew/inventory-specialist-miller.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Olivia Williams",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Olivia Williams is an experienced Procurement Officer with 11 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "/images/crew/procurement-officer-williams.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  },
+  {
+    "name": "Sarah Garcia",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Sarah Garcia is an experienced Sustainability Coordinator with 14 years of service in the maritime industry.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "/images/crew/sustainability-coordinator-garcia.jpg",
+    "city": "Southampton",
+    "country": "United States",
+    "state": "California",
+    "region": "West Coast"
+  }
 ];
