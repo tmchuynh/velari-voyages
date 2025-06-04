@@ -3,6 +3,7 @@
 import { cn } from "@/lib/utils";
 import { useTheme } from "next-themes";
 import { useState } from "react";
+import { Card, CardContent, CardHeader } from "./card";
 
 interface OpeningHours {
   monday?: string;
@@ -90,13 +91,17 @@ export default function RestaurantHours({
   // Page variant - more spacious for dedicated page sections
   if (variant === "page") {
     return (
-      <div className={cn("mt-6 space-y-3", className)}>
-        <h3 className="mb-4 font-bold text-xl">Restaurant Hours</h3>
-        <div className="gap-4 grid grid-cols-1 md:grid-cols-2 bg-card p-4 border rounded-lg">
+      <Card
+        className={cn("space-y-3 border rounded-lg bg-card h-full", className)}
+      >
+        <CardHeader>
+          <h2 className="mb-0">Restaurant Hours</h2>
+        </CardHeader>
+        <CardContent className="gap-4 grid grid-cols-1 md:grid-cols-2">
           {days.map((day) => (
             <div
               key={day.name}
-              className={cn("p-3 rounded-md", {
+              className={cn("p-1 rounded-md", {
                 "bg-primary/10 border-l-4 border-primary":
                   currentDay === day.name,
               })}
@@ -118,8 +123,8 @@ export default function RestaurantHours({
               </p>
             </div>
           ))}
-        </div>
-      </div>
+        </CardContent>
+      </Card>
     );
   }
 

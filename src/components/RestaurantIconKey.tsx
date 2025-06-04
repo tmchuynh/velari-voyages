@@ -1,4 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { cn } from "@/lib/utils";
 import {
   FaCalendarCheck,
   FaChair,
@@ -70,7 +71,7 @@ export default function RestaurantIconKey({
 
   // Full version with Card wrapper
   return (
-    <Card className={className}>
+    <Card className={cn("h-full", className)}>
       <CardHeader>
         <CardTitle className="sr-only">Restaurant Icon Key</CardTitle>
         <h2 className="mb-0">Icon Key</h2>
