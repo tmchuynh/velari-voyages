@@ -50,7 +50,56 @@ function getCruiseCategories() {
   }
 }
 
+function getLocations() {
+  try {
+    const locationsPath = path.join(
+      __dirname,
+      "..",
+      "src",
+      "lib",
+      "constants",
+      "info",
+      "locations.ts"
+    );
+
+    const content = fs.readFileSync(locationsPath, "utf8");
+    const locationIdsMatch = content.matchAll(/id:\s*["']([^"']+)["']/g);
+
+    return Array.from(locationIdsMatch).map((match) => match[1]);
+  } catch (error) {
+    console.error("Error reading locations:", error);
+    return [
+      {
+        city: "Auckland",
+        country: "New Zealand",
+        region: "North Island",
+      },
+      {
+        city: "Amsterdam",
+        country: "Netherlands",
+        region: "North Holland",
+      },
+      {
+        city: "Barcelona",
+        country: "Spain",
+        region: "Catalonia",
+      },
+      {
+        city: "Berlin",
+        country: "Germany",
+        region: "Brandenburg",
+      },
+      {
+        city: "Boston",
+        country: "United States",
+        region: "Massachusetts",
+      },
+    ];
+  }
+}
+
 const cruiseCategoryIds = getCruiseCategories();
+const cruiseLocations = getLocations();
 
 // Base directory for cruise files
 const cruisesDir = path.join(
@@ -126,22 +175,48 @@ const cityCountryMap = {
 
 // Sample regions for each city
 const regionMap = {
-  "United States": [
-    "East Coast",
-    "West Coast",
-    "Gulf Coast",
-    "Northeast",
-    "Southeast",
-    "Pacific Northwest",
-  ],
-  Canada: ["British Columbia", "Quebec", "Ontario"],
-  Italy: ["Tuscany", "Lazio", "Veneto", "Lombardy"],
-  Spain: ["Catalonia", "Andalusia", "Valencia"],
-  "United Kingdom": ["England", "Scotland", "Wales"],
-  Australia: ["New South Wales", "Victoria", "Queensland"],
-  Japan: ["Kanto", "Kansai", "Kyushu"],
-  Germany: ["Bavaria", "Schleswig-Holstein", "Berlin"],
-  France: ["Île-de-France", "Provence", "Normandy"],
+  auckland: "North Island",
+  amsterdam: "North Holland",
+  barcelona: "Catalonia",
+  berlin: "Brandenburg",
+  boston: "Massachusetts",
+  "buenos-aires": "Pampas Region",
+  "cape-town": "Western Cape",
+  charleston: "South Carolina",
+  copenhagen: "Hovedstaden (Capital Region)",
+  dubai: "Dubai Emirate",
+  dublin: "Leinster",
+  florence: "Tuscany",
+  "fort-lauderdale": "Florida",
+  galveston: "Texas",
+  "hong-kong": "South China Sea Coast",
+  kiel: "Schleswig-Holstein",
+  kyoto: "Kansai",
+  lisbon: "Lisbon Metropolitan Area",
+  london: "England",
+  "los-angeles": "California",
+  melbourne: "Victoria",
+  miami: "Florida",
+  milan: "Lombardy",
+  montreal: "Quebec",
+  "new-orleans": "Louisiana",
+  "new-york-city": "New York State",
+  paris: "Ile-de-France",
+  "quebec-city": "Quebec",
+  "rio-de-janeiro": "State of Rio de Janeiro",
+  rome: "Lazio",
+  "san-francisco": "California",
+  "san-juan": "Caribbean",
+  seattle: "Washington State",
+  singapore: "Southeast Asia",
+  southampton: "Hampshire, England",
+  sydney: "New South Wales",
+  tampa: "Florida",
+  tokyo: "Kanto",
+  toronto: "Ontario",
+  vancouver: "British Columbia",
+  venice: "Veneto",
+  yokohama: "Kanagawa Prefecture",
 };
 
 // Popular cruise destinations by region
@@ -272,12 +347,8 @@ function getDestinationsForCity(cityName) {
 // Generate realistic cruise itinerary with sequential days
 function generateCruiseData(cityName) {
   const cityDisplayName = capitalizeWords(cityName);
-  const countryName = cityCountryMap[cityName] || "Sample Country";
-  const regionName = regionMap[countryName]
-    ? regionMap[countryName][
-        Math.floor(Math.random() * regionMap[countryName].length)
-      ]
-    : "Sample Region";
+  const countryName = cityCountryMap[cityName] || "";
+  const regionName = regionMap[cityName] || "";
 
   // Get destinations for this cruise
   const destinations = getDestinationsForCity(cityName);
