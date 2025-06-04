@@ -5,109 +5,45 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const sydneygrandDiningRoomTestimonials: Testimonial[] = [
   {
-    "quote": "I can't say enough about the marvelous meal at Grand Dining Room. The outstanding service and relaxing ambiance made for a perfect night out.",
-    "author": "Sarah Brown",
-    "title": "Gourmet Explorer"
-  },
-  {
-    "quote": "I can't say enough about the outstanding meal at Grand Dining Room. The attentive service and pleasant ambiance made for a perfect night out.",
-    "author": "Jennifer Brown",
-    "title": "Dining Columnist"
-  },
-  {
-    "quote": "Grand Dining Room has the most delectable cuisine I've ever tasted. The charming atmosphere made our evening special, and the service was courteous.",
-    "author": "Emily Davis",
-    "title": "Restaurant Reviewer"
-  },
-  {
-    "quote": "The cuisine at Grand Dining Room were absolutely fantastic! The service was outstanding and the atmosphere was delightful. Highly recommend!",
-    "author": "Thomas Garcia",
-    "title": "Food & Wine Connoisseur",
-    "image": "/images/testimonials/person-10.jpg"
-  },
-  {
-    "quote": "What a exceptional dining experience at Grand Dining Room! The flavors exceeded our expectations, and the staff was helpful. Will definitely return!",
-    "author": "Maria Thompson",
-    "title": "Gastronomy Enthusiast"
-  },
-  {
-    "quote": "I can't say enough about the impressive appetizers at Grand Dining Room. The attentive service and warm ambiance made for a perfect night out.",
-    "author": "Michael Johnson",
-    "title": "Lifestyle Influencer"
-  },
-  {
-    "quote": "The meal at Grand Dining Room were absolutely excellent! The service was fantastic and the atmosphere was vibrant. Highly recommend!",
-    "author": "Jennifer Martinez",
-    "title": "Dining Columnist"
-  },
-  {
-    "quote": "Our visit to Grand Dining Room was outstanding. The flavors were delectable, the staff excellent, and the atmosphere appealing. A must-visit!",
-    "author": "Sophia Anderson",
-    "title": "Culinary Expert",
+    "quote": "Grand Dining Room has the most amazing meal I've ever tasted. The sophisticated atmosphere made our evening special, and the service was knowledgeable.",
+    "author": "Michael Lee",
+    "title": "Cruise Traveler",
     "image": "/images/testimonials/person-3.jpg"
   },
   {
-    "quote": "Our visit to Grand Dining Room was outstanding. The appetizers were great, the staff superb, and the atmosphere appealing. A must-visit!",
-    "author": "David Moore",
-    "title": "Cooking Aficionado"
+    "quote": "What a superb dining experience at Grand Dining Room! The menu items exceeded our expectations, and the staff was fantastic. Will definitely return!",
+    "author": "Daniel Anderson",
+    "title": "Food & Wine Connoisseur"
   },
   {
-    "quote": "The appetizers at Grand Dining Room were absolutely outstanding! The service was outstanding and the atmosphere was elegant. Highly recommend!",
-    "author": "Thomas Brown",
-    "title": "Food Journalist"
+    "quote": "I can't say enough about the perfect cuisine at Grand Dining Room. The friendly service and appealing ambiance made for a perfect night out.",
+    "author": "Emily Martin",
+    "title": "Food Critic"
   },
   {
-    "quote": "Grand Dining Room has the most perfect specialties I've ever tasted. The stylish atmosphere made our evening special, and the service was friendly.",
-    "author": "David Miller",
+    "quote": "What a amazing dining experience at Grand Dining Room! The menu items exceeded our expectations, and the staff was professional. Will definitely return!",
+    "author": "Thomas Lee",
+    "title": "Food & Wine Connoisseur"
+  },
+  {
+    "quote": "Our visit to Grand Dining Room was outstanding. The desserts were delectable, the staff prompt, and the atmosphere stylish. A must-visit!",
+    "author": "Emma Lee",
     "title": "Dining Columnist"
   },
   {
-    "quote": "The flavors at Grand Dining Room were absolutely delightful! The service was prompt and the atmosphere was inviting. Highly recommend!",
-    "author": "Michael Johnson",
-    "title": "Restaurant Reviewer"
-  },
-  {
-    "quote": "The desserts at Grand Dining Room were absolutely excellent! The service was attentive and the atmosphere was sophisticated. Highly recommend!",
-    "author": "James Brown",
-    "title": "Dining Columnist",
-    "image": "/images/testimonials/person-1.jpg"
-  },
-  {
-    "quote": "The appetizers at Grand Dining Room were absolutely amazing! The service was professional and the atmosphere was intimate. Highly recommend!",
-    "author": "Christopher Miller",
-    "title": "Dining Columnist",
-    "image": "/images/testimonials/person-6.jpg"
-  },
-  {
-    "quote": "Our visit to Grand Dining Room was outstanding. The menu items were delicious, the staff friendly, and the atmosphere delightful. A must-visit!",
-    "author": "Emma Miller",
-    "title": "Gourmet Explorer",
-    "image": "/images/testimonials/person-11.jpg"
-  },
-  {
-    "quote": "Our visit to Grand Dining Room was outstanding. The cuisine were exceptional, the staff fantastic, and the atmosphere vibrant. A must-visit!",
-    "author": "William Thompson",
-    "title": "Food Journalist"
-  },
-  {
-    "quote": "What a delectable dining experience at Grand Dining Room! The desserts exceeded our expectations, and the staff was helpful. Will definitely return!",
-    "author": "Christopher Smith",
+    "quote": "Grand Dining Room has the most marvelous flavors I've ever tasted. The cozy atmosphere made our evening special, and the service was professional.",
+    "author": "Thomas Jones",
     "title": "Culinary Expert"
   },
   {
-    "quote": "Grand Dining Room has the most delicious specialties I've ever tasted. The comfortable atmosphere made our evening special, and the service was knowledgeable.",
-    "author": "Emily Rodriguez",
-    "title": "Gourmet Explorer",
-    "image": "/images/testimonials/person-3.jpg"
+    "quote": "Grand Dining Room has the most fantastic meal I've ever tasted. The elegant atmosphere made our evening special, and the service was excellent.",
+    "author": "Ava Davis",
+    "title": "Lifestyle Influencer",
+    "image": "/images/testimonials/person-12.jpg"
   },
   {
-    "quote": "Our visit to Grand Dining Room was outstanding. The meal were delicious, the staff exceptional, and the atmosphere appealing. A must-visit!",
-    "author": "Ava Perez",
-    "title": "Culinary Expert"
-  },
-  {
-    "quote": "Grand Dining Room has the most amazing desserts I've ever tasted. The pleasant atmosphere made our evening special, and the service was fantastic.",
-    "author": "Ava Martin",
-    "title": "Dining Columnist"
+    "quote": "Grand Dining Room has the most amazing appetizers I've ever tasted. The vibrant atmosphere made our evening special, and the service was impeccable.",
+    "author": "Jennifer Davis",
+    "title": "Food Critic"
   }
 ];

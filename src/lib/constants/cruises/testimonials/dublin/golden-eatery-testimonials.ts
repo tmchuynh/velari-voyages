@@ -5,108 +5,47 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const dublingoldenEateryTestimonials: Testimonial[] = [
   {
-    "quote": "The specialties at Golden Eatery were absolutely excellent! The service was helpful and the atmosphere was pleasant. Highly recommend!",
-    "author": "Ava Thompson",
-    "title": "Gourmet Explorer"
-  },
-  {
-    "quote": "What a fantastic dining experience at Golden Eatery! The specialties exceeded our expectations, and the staff was knowledgeable. Will definitely return!",
-    "author": "John Rodriguez",
-    "title": "Cruise Traveler"
-  },
-  {
-    "quote": "The meal at Golden Eatery were absolutely fantastic! The service was knowledgeable and the atmosphere was pleasant. Highly recommend!",
-    "author": "Emily Johnson",
-    "title": "Travel Writer"
-  },
-  {
-    "quote": "The specialties at Golden Eatery were absolutely exceptional! The service was attentive and the atmosphere was comfortable. Highly recommend!",
-    "author": "Daniel Taylor",
-    "title": "Dining Columnist"
-  },
-  {
-    "quote": "Our visit to Golden Eatery was outstanding. The menu items were fantastic, the staff knowledgeable, and the atmosphere inviting. A must-visit!",
-    "author": "Michael Anderson",
-    "title": "Cruise Traveler"
-  },
-  {
-    "quote": "Our visit to Golden Eatery was outstanding. The entrees were perfect, the staff professional, and the atmosphere warm. A must-visit!",
-    "author": "Emily Perez",
-    "title": "Restaurant Enthusiast",
-    "image": "/images/testimonials/person-4.jpg"
-  },
-  {
-    "quote": "Our visit to Golden Eatery was outstanding. The menu items were amazing, the staff helpful, and the atmosphere appealing. A must-visit!",
-    "author": "Matthew Anderson",
-    "title": "Travel Writer"
-  },
-  {
-    "quote": "I can't say enough about the outstanding menu items at Golden Eatery. The professional service and cozy ambiance made for a perfect night out.",
-    "author": "Olivia Jones",
-    "title": "Dining Columnist"
-  },
-  {
-    "quote": "Golden Eatery has the most exceptional desserts I've ever tasted. The vibrant atmosphere made our evening special, and the service was prompt.",
-    "author": "Michael Martin",
-    "title": "Food & Wine Connoisseur"
-  },
-  {
-    "quote": "The meal at Golden Eatery were absolutely exceptional! The service was excellent and the atmosphere was charming. Highly recommend!",
-    "author": "Olivia Thompson",
+    "quote": "Golden Eatery has the most outstanding cuisine I've ever tasted. The elegant atmosphere made our evening special, and the service was exceptional.",
+    "author": "Thomas Rodriguez",
     "title": "Lifestyle Influencer"
   },
   {
-    "quote": "Golden Eatery has the most incredible flavors I've ever tasted. The inviting atmosphere made our evening special, and the service was helpful.",
-    "author": "Christopher Anderson",
-    "title": "Food Journalist"
+    "quote": "Our visit to Golden Eatery was outstanding. The meal were outstanding, the staff superb, and the atmosphere comfortable. A must-visit!",
+    "author": "Ava Rodriguez",
+    "title": "Lifestyle Influencer"
   },
   {
-    "quote": "I can't say enough about the marvelous food at Golden Eatery. The knowledgeable service and sophisticated ambiance made for a perfect night out.",
-    "author": "David Davis",
-    "title": "Restaurant Reviewer"
-  },
-  {
-    "quote": "What a fantastic dining experience at Golden Eatery! The specialties exceeded our expectations, and the staff was excellent. Will definitely return!",
-    "author": "Sarah White",
-    "title": "Gastronomy Enthusiast",
+    "quote": "Our visit to Golden Eatery was outstanding. The cuisine were delicious, the staff fantastic, and the atmosphere relaxing. A must-visit!",
+    "author": "Thomas Johnson",
+    "title": "Travel Writer",
     "image": "/images/testimonials/person-9.jpg"
   },
   {
-    "quote": "Golden Eatery has the most amazing dishes I've ever tasted. The appealing atmosphere made our evening special, and the service was professional.",
-    "author": "Jennifer Taylor",
-    "title": "Travel Writer"
+    "quote": "Our visit to Golden Eatery was outstanding. The appetizers were exceptional, the staff impeccable, and the atmosphere intimate. A must-visit!",
+    "author": "Lisa Davis",
+    "title": "Culinary Expert"
   },
   {
-    "quote": "What a delectable dining experience at Golden Eatery! The food exceeded our expectations, and the staff was superb. Will definitely return!",
-    "author": "John Perez",
-    "title": "Cooking Aficionado"
+    "quote": "What a delectable dining experience at Golden Eatery! The appetizers exceeded our expectations, and the staff was exceptional. Will definitely return!",
+    "author": "Robert Wilson",
+    "title": "Cruise Traveler",
+    "image": "/images/testimonials/person-8.jpg"
   },
   {
-    "quote": "Golden Eatery has the most impressive appetizers I've ever tasted. The warm atmosphere made our evening special, and the service was prompt.",
-    "author": "Christopher Perez",
-    "title": "Cooking Aficionado",
+    "quote": "Our visit to Golden Eatery was outstanding. The cuisine were outstanding, the staff professional, and the atmosphere charming. A must-visit!",
+    "author": "Emma Taylor",
+    "title": "Cruise Traveler",
     "image": "/images/testimonials/person-11.jpg"
   },
   {
-    "quote": "What a delectable dining experience at Golden Eatery! The cuisine exceeded our expectations, and the staff was attentive. Will definitely return!",
-    "author": "Robert Smith",
-    "title": "Cruise Traveler",
-    "image": "/images/testimonials/person-3.jpg"
+    "quote": "I can't say enough about the delicious flavors at Golden Eatery. The superb service and appealing ambiance made for a perfect night out.",
+    "author": "Robert Moore",
+    "title": "Food Journalist",
+    "image": "/images/testimonials/person-6.jpg"
   },
   {
-    "quote": "What a superb dining experience at Golden Eatery! The menu items exceeded our expectations, and the staff was knowledgeable. Will definitely return!",
-    "author": "Ava Miller",
-    "title": "Food & Wine Connoisseur"
-  },
-  {
-    "quote": "Our visit to Golden Eatery was outstanding. The menu items were perfect, the staff impeccable, and the atmosphere welcoming. A must-visit!",
-    "author": "Christopher Martinez",
-    "title": "Travel Blogger"
-  },
-  {
-    "quote": "Golden Eatery has the most delightful dishes I've ever tasted. The cozy atmosphere made our evening special, and the service was professional.",
-    "author": "Robert Thompson",
-    "title": "Restaurant Enthusiast",
-    "image": "/images/testimonials/person-2.jpg"
+    "quote": "What a amazing dining experience at Golden Eatery! The food exceeded our expectations, and the staff was prompt. Will definitely return!",
+    "author": "Sarah Johnson",
+    "title": "Restaurant Reviewer"
   }
 ];

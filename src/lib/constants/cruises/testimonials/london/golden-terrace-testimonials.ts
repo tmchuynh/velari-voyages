@@ -5,106 +5,46 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const londongoldenTerraceTestimonials: Testimonial[] = [
   {
-    "quote": "Golden Terrace has the most impressive flavors I've ever tasted. The inviting atmosphere made our evening special, and the service was outstanding.",
-    "author": "Jennifer Davis",
-    "title": "Food Journalist"
+    "quote": "Golden Terrace has the most delightful specialties I've ever tasted. The inviting atmosphere made our evening special, and the service was attentive.",
+    "author": "Maria Wilson",
+    "title": "Gastronomy Enthusiast",
+    "image": "/images/testimonials/person-4.jpg"
   },
   {
-    "quote": "Our visit to Golden Terrace was outstanding. The dishes were delicious, the staff exceptional, and the atmosphere comfortable. A must-visit!",
-    "author": "William Smith",
-    "title": "Gastronomy Enthusiast"
-  },
-  {
-    "quote": "What a impressive dining experience at Golden Terrace! The specialties exceeded our expectations, and the staff was exceptional. Will definitely return!",
-    "author": "Thomas Garcia",
-    "title": "Cooking Aficionado"
-  },
-  {
-    "quote": "I can't say enough about the amazing cuisine at Golden Terrace. The attentive service and charming ambiance made for a perfect night out.",
-    "author": "Michael Moore",
-    "title": "Luxury Travel Consultant"
-  },
-  {
-    "quote": "I can't say enough about the delicious meal at Golden Terrace. The exceptional service and comfortable ambiance made for a perfect night out.",
-    "author": "Elizabeth Garcia",
-    "title": "Culinary Expert",
-    "image": "/images/testimonials/person-1.jpg"
-  },
-  {
-    "quote": "Our visit to Golden Terrace was outstanding. The meal were wonderful, the staff impeccable, and the atmosphere charming. A must-visit!",
-    "author": "Daniel Jackson",
+    "quote": "The meal at Golden Terrace were absolutely excellent! The service was professional and the atmosphere was delightful. Highly recommend!",
+    "author": "Robert Perez",
     "title": "Travel Blogger"
   },
   {
-    "quote": "I can't say enough about the incredible entrees at Golden Terrace. The friendly service and inviting ambiance made for a perfect night out.",
-    "author": "David Lee",
-    "title": "Food Critic"
+    "quote": "The dishes at Golden Terrace were absolutely amazing! The service was professional and the atmosphere was charming. Highly recommend!",
+    "author": "Sarah Miller",
+    "title": "Cooking Aficionado"
   },
   {
-    "quote": "Our visit to Golden Terrace was outstanding. The menu items were perfect, the staff excellent, and the atmosphere intimate. A must-visit!",
-    "author": "Lisa Perez",
-    "title": "Cruise Traveler"
-  },
-  {
-    "quote": "Our visit to Golden Terrace was outstanding. The specialties were perfect, the staff attentive, and the atmosphere warm. A must-visit!",
-    "author": "Ava Garcia",
-    "title": "Restaurant Enthusiast",
-    "image": "/images/testimonials/person-1.jpg"
-  },
-  {
-    "quote": "What a delightful dining experience at Golden Terrace! The menu items exceeded our expectations, and the staff was wonderful. Will definitely return!",
-    "author": "Daniel Hernandez",
-    "title": "Cruise Traveler"
-  },
-  {
-    "quote": "I can't say enough about the superb entrees at Golden Terrace. The impeccable service and cozy ambiance made for a perfect night out.",
-    "author": "Emily Johnson",
+    "quote": "Golden Terrace has the most impressive food I've ever tasted. The comfortable atmosphere made our evening special, and the service was courteous.",
+    "author": "Elizabeth Jones",
     "title": "Food & Wine Connoisseur"
   },
   {
-    "quote": "The entrees at Golden Terrace were absolutely fantastic! The service was attentive and the atmosphere was warm. Highly recommend!",
-    "author": "Emily Thompson",
-    "title": "Culinary Expert"
-  },
-  {
-    "quote": "Golden Terrace has the most wonderful meal I've ever tasted. The comfortable atmosphere made our evening special, and the service was friendly.",
-    "author": "David Jackson",
-    "title": "Dining Columnist"
-  },
-  {
-    "quote": "The entrees at Golden Terrace were absolutely fantastic! The service was friendly and the atmosphere was elegant. Highly recommend!",
-    "author": "Michael Davis",
-    "title": "Luxury Travel Consultant"
-  },
-  {
-    "quote": "The food at Golden Terrace were absolutely fantastic! The service was impeccable and the atmosphere was welcoming. Highly recommend!",
-    "author": "Elizabeth Perez",
-    "title": "Cruise Traveler"
-  },
-  {
-    "quote": "Golden Terrace has the most outstanding dishes I've ever tasted. The relaxing atmosphere made our evening special, and the service was helpful.",
-    "author": "Elizabeth Lee",
-    "title": "Travel Writer"
-  },
-  {
-    "quote": "Golden Terrace has the most delightful dishes I've ever tasted. The stylish atmosphere made our evening special, and the service was fantastic.",
-    "author": "James Lee",
-    "title": "Gourmet Explorer",
-    "image": "/images/testimonials/person-1.jpg"
-  },
-  {
-    "quote": "Golden Terrace has the most great entrees I've ever tasted. The vibrant atmosphere made our evening special, and the service was fantastic.",
-    "author": "Christopher Anderson",
-    "title": "Food Journalist"
-  },
-  {
-    "quote": "The specialties at Golden Terrace were absolutely impressive! The service was attentive and the atmosphere was comfortable. Highly recommend!",
+    "quote": "Golden Terrace has the most fantastic meal I've ever tasted. The appealing atmosphere made our evening special, and the service was fantastic.",
     "author": "Jennifer Rodriguez",
-    "title": "Restaurant Reviewer"
+    "title": "Culinary Adventurer",
+    "image": "/images/testimonials/person-9.jpg"
   },
   {
-    "quote": "I can't say enough about the marvelous entrees at Golden Terrace. The superb service and comfortable ambiance made for a perfect night out.",
-    "author": "Michael Martin",
-    "title": "Culinary Adventurer"
+    "quote": "Golden Terrace has the most delightful dishes I've ever tasted. The charming atmosphere made our evening special, and the service was impeccable.",
+    "author": "Maria Moore",
+    "title": "Lifestyle Influencer",
+    "image": "/images/testimonials/person-10.jpg"
+  },
+  {
+    "quote": "Our visit to Golden Terrace was outstanding. The cuisine were exceptional, the staff impeccable, and the atmosphere inviting. A must-visit!",
+    "author": "Emily Lee",
+    "title": "Gastronomy Enthusiast"
+  },
+  {
+    "quote": "I can't say enough about the impressive desserts at Golden Terrace. The fantastic service and stylish ambiance made for a perfect night out.",
+    "author": "Emma Wilson",
+    "title": "Gourmet Explorer"
   }
 ];

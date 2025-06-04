@@ -5,107 +5,46 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const vancouvergoldenKitchenTestimonials: Testimonial[] = [
   {
-    "quote": "I can't say enough about the incredible meal at Golden Kitchen. The fantastic service and vibrant ambiance made for a perfect night out.",
-    "author": "David Johnson",
-    "title": "Cruise Traveler"
+    "quote": "I can't say enough about the delightful food at Golden Kitchen. The knowledgeable service and elegant ambiance made for a perfect night out.",
+    "author": "John Miller",
+    "title": "Travel Blogger"
   },
   {
-    "quote": "I can't say enough about the delectable dishes at Golden Kitchen. The courteous service and pleasant ambiance made for a perfect night out.",
-    "author": "Emily Wilson",
-    "title": "Food Journalist"
-  },
-  {
-    "quote": "What a amazing dining experience at Golden Kitchen! The menu items exceeded our expectations, and the staff was exceptional. Will definitely return!",
-    "author": "Olivia Perez",
-    "title": "Luxury Travel Consultant",
-    "image": "/images/testimonials/person-4.jpg"
-  },
-  {
-    "quote": "The specialties at Golden Kitchen were absolutely exceptional! The service was fantastic and the atmosphere was vibrant. Highly recommend!",
-    "author": "James Wilson",
-    "title": "Food Critic"
-  },
-  {
-    "quote": "Golden Kitchen has the most perfect specialties I've ever tasted. The comfortable atmosphere made our evening special, and the service was fantastic.",
-    "author": "Emily Jones",
-    "title": "Dining Columnist"
-  },
-  {
-    "quote": "Golden Kitchen has the most delicious dishes I've ever tasted. The delightful atmosphere made our evening special, and the service was courteous.",
-    "author": "Olivia Anderson",
-    "title": "Travel Blogger",
-    "image": "/images/testimonials/person-4.jpg"
-  },
-  {
-    "quote": "What a outstanding dining experience at Golden Kitchen! The entrees exceeded our expectations, and the staff was impeccable. Will definitely return!",
-    "author": "Daniel Brown",
-    "title": "Gastronomy Enthusiast",
-    "image": "/images/testimonials/person-12.jpg"
-  },
-  {
-    "quote": "I can't say enough about the fantastic food at Golden Kitchen. The knowledgeable service and intimate ambiance made for a perfect night out.",
-    "author": "David Thompson",
-    "title": "Cooking Aficionado"
-  },
-  {
-    "quote": "Golden Kitchen has the most impressive appetizers I've ever tasted. The relaxing atmosphere made our evening special, and the service was fantastic.",
-    "author": "Sarah Brown",
-    "title": "Restaurant Enthusiast"
-  },
-  {
-    "quote": "The entrees at Golden Kitchen were absolutely wonderful! The service was exceptional and the atmosphere was relaxing. Highly recommend!",
-    "author": "Elizabeth Davis",
+    "quote": "I can't say enough about the delicious meal at Golden Kitchen. The courteous service and elegant ambiance made for a perfect night out.",
+    "author": "John Davis",
     "title": "Culinary Expert"
   },
   {
-    "quote": "Golden Kitchen has the most delicious meal I've ever tasted. The inviting atmosphere made our evening special, and the service was friendly.",
+    "quote": "I can't say enough about the exceptional cuisine at Golden Kitchen. The friendly service and welcoming ambiance made for a perfect night out.",
     "author": "Michael Wilson",
-    "title": "Cooking Aficionado"
+    "title": "Restaurant Enthusiast",
+    "image": "/images/testimonials/person-5.jpg"
   },
   {
-    "quote": "Our visit to Golden Kitchen was outstanding. The dishes were delightful, the staff outstanding, and the atmosphere warm. A must-visit!",
-    "author": "Elizabeth Martin",
+    "quote": "Golden Kitchen has the most impressive desserts I've ever tasted. The vibrant atmosphere made our evening special, and the service was exceptional.",
+    "author": "Elizabeth Rodriguez",
     "title": "Food & Wine Connoisseur"
   },
   {
-    "quote": "What a great dining experience at Golden Kitchen! The dishes exceeded our expectations, and the staff was outstanding. Will definitely return!",
-    "author": "Emma Anderson",
-    "title": "Restaurant Enthusiast"
-  },
-  {
-    "quote": "What a superb dining experience at Golden Kitchen! The menu items exceeded our expectations, and the staff was knowledgeable. Will definitely return!",
-    "author": "Maria Garcia",
+    "quote": "I can't say enough about the superb appetizers at Golden Kitchen. The exceptional service and delightful ambiance made for a perfect night out.",
+    "author": "Ava Perez",
     "title": "Travel Writer"
   },
   {
-    "quote": "I can't say enough about the superb desserts at Golden Kitchen. The attentive service and pleasant ambiance made for a perfect night out.",
-    "author": "James Garcia",
-    "title": "Gastronomy Enthusiast"
+    "quote": "What a delectable dining experience at Golden Kitchen! The desserts exceeded our expectations, and the staff was attentive. Will definitely return!",
+    "author": "Thomas Thompson",
+    "title": "Culinary Expert",
+    "image": "/images/testimonials/person-6.jpg"
   },
   {
-    "quote": "Our visit to Golden Kitchen was outstanding. The appetizers were great, the staff professional, and the atmosphere pleasant. A must-visit!",
-    "author": "Emily Perez",
-    "title": "Restaurant Enthusiast"
+    "quote": "Our visit to Golden Kitchen was outstanding. The meal were delectable, the staff excellent, and the atmosphere inviting. A must-visit!",
+    "author": "Emma Taylor",
+    "title": "Culinary Adventurer",
+    "image": "/images/testimonials/person-2.jpg"
   },
   {
-    "quote": "Our visit to Golden Kitchen was outstanding. The specialties were amazing, the staff impeccable, and the atmosphere cozy. A must-visit!",
-    "author": "Ava Anderson",
-    "title": "Luxury Travel Consultant",
-    "image": "/images/testimonials/person-7.jpg"
-  },
-  {
-    "quote": "The food at Golden Kitchen were absolutely delicious! The service was outstanding and the atmosphere was warm. Highly recommend!",
-    "author": "Michael Perez",
-    "title": "Culinary Expert"
-  },
-  {
-    "quote": "Our visit to Golden Kitchen was outstanding. The food were marvelous, the staff impeccable, and the atmosphere appealing. A must-visit!",
-    "author": "Jennifer Smith",
-    "title": "Food Critic"
-  },
-  {
-    "quote": "The flavors at Golden Kitchen were absolutely impressive! The service was prompt and the atmosphere was warm. Highly recommend!",
-    "author": "Emma Martinez",
-    "title": "Lifestyle Influencer"
+    "quote": "I can't say enough about the exceptional appetizers at Golden Kitchen. The outstanding service and warm ambiance made for a perfect night out.",
+    "author": "John Wilson",
+    "title": "Travel Writer"
   }
 ];

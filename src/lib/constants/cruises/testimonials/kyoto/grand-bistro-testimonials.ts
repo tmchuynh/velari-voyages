@@ -5,110 +5,47 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const kyotograndBistroTestimonials: Testimonial[] = [
   {
-    "quote": "The dishes at Grand Bistro were absolutely fantastic! The service was helpful and the atmosphere was relaxing. Highly recommend!",
-    "author": "Maria Garcia",
-    "title": "Food & Wine Connoisseur",
-    "image": "/images/testimonials/person-5.jpg"
+    "quote": "The flavors at Grand Bistro were absolutely excellent! The service was wonderful and the atmosphere was delightful. Highly recommend!",
+    "author": "Olivia Davis",
+    "title": "Culinary Expert",
+    "image": "/images/testimonials/person-1.jpg"
   },
   {
-    "quote": "What a amazing dining experience at Grand Bistro! The dishes exceeded our expectations, and the staff was fantastic. Will definitely return!",
-    "author": "John Taylor",
-    "title": "Restaurant Reviewer"
-  },
-  {
-    "quote": "What a delicious dining experience at Grand Bistro! The desserts exceeded our expectations, and the staff was prompt. Will definitely return!",
-    "author": "Sarah Taylor",
-    "title": "Food & Wine Connoisseur",
-    "image": "/images/testimonials/person-5.jpg"
-  },
-  {
-    "quote": "The specialties at Grand Bistro were absolutely perfect! The service was courteous and the atmosphere was elegant. Highly recommend!",
-    "author": "Michael Anderson",
-    "title": "Luxury Travel Consultant"
-  },
-  {
-    "quote": "I can't say enough about the exceptional food at Grand Bistro. The excellent service and vibrant ambiance made for a perfect night out.",
-    "author": "Thomas White",
-    "title": "Gastronomy Enthusiast"
-  },
-  {
-    "quote": "Grand Bistro has the most delightful cuisine I've ever tasted. The comfortable atmosphere made our evening special, and the service was courteous.",
-    "author": "Emma Martin",
-    "title": "Culinary Adventurer"
-  },
-  {
-    "quote": "I can't say enough about the marvelous entrees at Grand Bistro. The helpful service and sophisticated ambiance made for a perfect night out.",
-    "author": "Daniel Miller",
-    "title": "Culinary Expert"
-  },
-  {
-    "quote": "I can't say enough about the outstanding food at Grand Bistro. The knowledgeable service and elegant ambiance made for a perfect night out.",
-    "author": "Matthew Wilson",
-    "title": "Restaurant Reviewer"
-  },
-  {
-    "quote": "I can't say enough about the wonderful flavors at Grand Bistro. The helpful service and intimate ambiance made for a perfect night out.",
-    "author": "John Hernandez",
-    "title": "Gourmet Explorer"
-  },
-  {
-    "quote": "I can't say enough about the fantastic entrees at Grand Bistro. The helpful service and elegant ambiance made for a perfect night out.",
-    "author": "Lisa Smith",
-    "title": "Gastronomy Enthusiast",
-    "image": "/images/testimonials/person-10.jpg"
-  },
-  {
-    "quote": "The appetizers at Grand Bistro were absolutely marvelous! The service was wonderful and the atmosphere was charming. Highly recommend!",
-    "author": "Christopher Wilson",
-    "title": "Lifestyle Influencer"
-  },
-  {
-    "quote": "What a marvelous dining experience at Grand Bistro! The specialties exceeded our expectations, and the staff was outstanding. Will definitely return!",
-    "author": "Sarah Rodriguez",
+    "quote": "What a exceptional dining experience at Grand Bistro! The food exceeded our expectations, and the staff was helpful. Will definitely return!",
+    "author": "Christopher Rodriguez",
     "title": "Restaurant Reviewer",
     "image": "/images/testimonials/person-4.jpg"
   },
   {
-    "quote": "What a marvelous dining experience at Grand Bistro! The menu items exceeded our expectations, and the staff was superb. Will definitely return!",
-    "author": "Thomas Lee",
-    "title": "Travel Writer",
-    "image": "/images/testimonials/person-12.jpg"
+    "quote": "The desserts at Grand Bistro were absolutely outstanding! The service was courteous and the atmosphere was welcoming. Highly recommend!",
+    "author": "Emily Martinez",
+    "title": "Restaurant Reviewer",
+    "image": "/images/testimonials/person-9.jpg"
   },
   {
-    "quote": "Our visit to Grand Bistro was outstanding. The entrees were impressive, the staff outstanding, and the atmosphere pleasant. A must-visit!",
-    "author": "Sophia Miller",
-    "title": "Luxury Travel Consultant",
-    "image": "/images/testimonials/person-1.jpg"
+    "quote": "Grand Bistro has the most perfect meal I've ever tasted. The appealing atmosphere made our evening special, and the service was wonderful.",
+    "author": "Sophia Taylor",
+    "title": "Cooking Aficionado"
   },
   {
-    "quote": "What a superb dining experience at Grand Bistro! The menu items exceeded our expectations, and the staff was knowledgeable. Will definitely return!",
-    "author": "Lisa Davis",
-    "title": "Food & Wine Connoisseur"
+    "quote": "What a incredible dining experience at Grand Bistro! The cuisine exceeded our expectations, and the staff was attentive. Will definitely return!",
+    "author": "David Lee",
+    "title": "Gastronomy Enthusiast"
   },
   {
-    "quote": "Our visit to Grand Bistro was outstanding. The appetizers were outstanding, the staff prompt, and the atmosphere cozy. A must-visit!",
-    "author": "Daniel Martinez",
-    "title": "Restaurant Enthusiast"
+    "quote": "What a delicious dining experience at Grand Bistro! The appetizers exceeded our expectations, and the staff was courteous. Will definitely return!",
+    "author": "Emily Miller",
+    "title": "Gastronomy Enthusiast"
   },
   {
-    "quote": "Our visit to Grand Bistro was outstanding. The desserts were excellent, the staff exceptional, and the atmosphere inviting. A must-visit!",
-    "author": "Thomas Martin",
-    "title": "Culinary Expert"
+    "quote": "Grand Bistro has the most excellent flavors I've ever tasted. The charming atmosphere made our evening special, and the service was exceptional.",
+    "author": "Lisa Lee",
+    "title": "Culinary Expert",
+    "image": "/images/testimonials/person-9.jpg"
   },
   {
-    "quote": "The food at Grand Bistro were absolutely delectable! The service was outstanding and the atmosphere was intimate. Highly recommend!",
-    "author": "Emily Moore",
-    "title": "Lifestyle Influencer",
-    "image": "/images/testimonials/person-12.jpg"
-  },
-  {
-    "quote": "Our visit to Grand Bistro was outstanding. The desserts were amazing, the staff courteous, and the atmosphere inviting. A must-visit!",
-    "author": "Elizabeth Jones",
-    "title": "Lifestyle Influencer"
-  },
-  {
-    "quote": "Grand Bistro has the most impressive specialties I've ever tasted. The stylish atmosphere made our evening special, and the service was excellent.",
-    "author": "Olivia White",
-    "title": "Culinary Expert"
+    "quote": "I can't say enough about the delicious meal at Grand Bistro. The fantastic service and charming ambiance made for a perfect night out.",
+    "author": "Michael Davis",
+    "title": "Cruise Traveler"
   }
 ];

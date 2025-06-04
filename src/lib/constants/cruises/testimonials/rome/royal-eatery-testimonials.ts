@@ -5,109 +5,45 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const romeroyalEateryTestimonials: Testimonial[] = [
   {
-    "quote": "Our visit to Royal Eatery was outstanding. The cuisine were impressive, the staff friendly, and the atmosphere cozy. A must-visit!",
-    "author": "Daniel Hernandez",
-    "title": "Cooking Aficionado"
+    "quote": "I can't say enough about the perfect cuisine at Royal Eatery. The courteous service and welcoming ambiance made for a perfect night out.",
+    "author": "Lisa Lee",
+    "title": "Cruise Traveler"
   },
   {
-    "quote": "I can't say enough about the great meal at Royal Eatery. The superb service and pleasant ambiance made for a perfect night out.",
-    "author": "John Johnson",
-    "title": "Culinary Adventurer"
-  },
-  {
-    "quote": "What a delectable dining experience at Royal Eatery! The dishes exceeded our expectations, and the staff was superb. Will definitely return!",
-    "author": "Jennifer Rodriguez",
-    "title": "Restaurant Reviewer"
-  },
-  {
-    "quote": "Our visit to Royal Eatery was outstanding. The entrees were marvelous, the staff professional, and the atmosphere sophisticated. A must-visit!",
-    "author": "Matthew Davis",
-    "title": "Lifestyle Influencer"
-  },
-  {
-    "quote": "The meal at Royal Eatery were absolutely amazing! The service was impeccable and the atmosphere was vibrant. Highly recommend!",
-    "author": "Lisa Martinez",
-    "title": "Travel Blogger"
-  },
-  {
-    "quote": "The flavors at Royal Eatery were absolutely incredible! The service was professional and the atmosphere was welcoming. Highly recommend!",
-    "author": "David Miller",
-    "title": "Culinary Adventurer"
-  },
-  {
-    "quote": "I can't say enough about the incredible food at Royal Eatery. The attentive service and elegant ambiance made for a perfect night out.",
-    "author": "Olivia Miller",
-    "title": "Dining Columnist"
-  },
-  {
-    "quote": "Royal Eatery has the most marvelous specialties I've ever tasted. The sophisticated atmosphere made our evening special, and the service was outstanding.",
-    "author": "Thomas Brown",
-    "title": "Cooking Aficionado"
-  },
-  {
-    "quote": "Royal Eatery has the most delectable dishes I've ever tasted. The charming atmosphere made our evening special, and the service was attentive.",
-    "author": "Thomas Thompson",
-    "title": "Food Journalist"
-  },
-  {
-    "quote": "Our visit to Royal Eatery was outstanding. The meal were marvelous, the staff prompt, and the atmosphere comfortable. A must-visit!",
-    "author": "Robert Jackson",
-    "title": "Lifestyle Influencer"
-  },
-  {
-    "quote": "I can't say enough about the delectable appetizers at Royal Eatery. The outstanding service and stylish ambiance made for a perfect night out.",
-    "author": "Michael Jones",
-    "title": "Culinary Expert"
-  },
-  {
-    "quote": "I can't say enough about the delightful meal at Royal Eatery. The exceptional service and warm ambiance made for a perfect night out.",
-    "author": "Daniel Martin",
+    "quote": "I can't say enough about the exceptional food at Royal Eatery. The courteous service and delightful ambiance made for a perfect night out.",
+    "author": "Robert Jones",
     "title": "Travel Writer",
-    "image": "/images/testimonials/person-10.jpg"
-  },
-  {
-    "quote": "The entrees at Royal Eatery were absolutely excellent! The service was helpful and the atmosphere was comfortable. Highly recommend!",
-    "author": "Michael Brown",
-    "title": "Gourmet Explorer",
-    "image": "/images/testimonials/person-11.jpg"
-  },
-  {
-    "quote": "Royal Eatery has the most fantastic appetizers I've ever tasted. The relaxing atmosphere made our evening special, and the service was friendly.",
-    "author": "Michael Davis",
-    "title": "Cruise Traveler",
     "image": "/images/testimonials/person-1.jpg"
   },
   {
-    "quote": "The cuisine at Royal Eatery were absolutely incredible! The service was knowledgeable and the atmosphere was inviting. Highly recommend!",
-    "author": "Jennifer Thompson",
-    "title": "Food Journalist",
-    "image": "/images/testimonials/person-3.jpg"
+    "quote": "I can't say enough about the amazing cuisine at Royal Eatery. The friendly service and elegant ambiance made for a perfect night out.",
+    "author": "William Moore",
+    "title": "Dining Columnist",
+    "image": "/images/testimonials/person-12.jpg"
   },
   {
-    "quote": "Our visit to Royal Eatery was outstanding. The meal were marvelous, the staff friendly, and the atmosphere vibrant. A must-visit!",
-    "author": "Jennifer Martinez",
-    "title": "Food & Wine Connoisseur"
+    "quote": "Our visit to Royal Eatery was outstanding. The flavors were superb, the staff outstanding, and the atmosphere warm. A must-visit!",
+    "author": "Ava Anderson",
+    "title": "Restaurant Enthusiast"
   },
   {
-    "quote": "Royal Eatery has the most impressive entrees I've ever tasted. The stylish atmosphere made our evening special, and the service was fantastic.",
-    "author": "Sarah White",
-    "title": "Food Journalist",
-    "image": "/images/testimonials/person-5.jpg"
+    "quote": "What a outstanding dining experience at Royal Eatery! The entrees exceeded our expectations, and the staff was friendly. Will definitely return!",
+    "author": "William Garcia",
+    "title": "Food Journalist"
   },
   {
-    "quote": "The dishes at Royal Eatery were absolutely perfect! The service was outstanding and the atmosphere was warm. Highly recommend!",
-    "author": "Thomas Thompson",
-    "title": "Gourmet Explorer",
-    "image": "/images/testimonials/person-3.jpg"
+    "quote": "Our visit to Royal Eatery was outstanding. The entrees were delicious, the staff attentive, and the atmosphere elegant. A must-visit!",
+    "author": "James Hernandez",
+    "title": "Food Critic"
   },
   {
-    "quote": "The menu items at Royal Eatery were absolutely excellent! The service was excellent and the atmosphere was welcoming. Highly recommend!",
-    "author": "Christopher Jones",
-    "title": "Culinary Expert"
+    "quote": "Royal Eatery has the most exceptional appetizers I've ever tasted. The comfortable atmosphere made our evening special, and the service was superb.",
+    "author": "Elizabeth White",
+    "title": "Culinary Adventurer"
   },
   {
-    "quote": "I can't say enough about the delectable meal at Royal Eatery. The courteous service and intimate ambiance made for a perfect night out.",
-    "author": "John Jackson",
-    "title": "Lifestyle Influencer"
+    "quote": "What a great dining experience at Royal Eatery! The entrees exceeded our expectations, and the staff was excellent. Will definitely return!",
+    "author": "Sophia Taylor",
+    "title": "Gastronomy Enthusiast"
   }
 ];

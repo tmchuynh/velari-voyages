@@ -5,110 +5,44 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const buenosAirestheBrasserieTestimonials: Testimonial[] = [
   {
-    "quote": "What a incredible dining experience at The Brasserie! The flavors exceeded our expectations, and the staff was prompt. Will definitely return!",
-    "author": "James Jackson",
-    "title": "Culinary Adventurer"
+    "quote": "The Brasserie has the most incredible desserts I've ever tasted. The relaxing atmosphere made our evening special, and the service was friendly.",
+    "author": "Sarah Lee",
+    "title": "Travel Writer"
   },
   {
-    "quote": "I can't say enough about the incredible desserts at The Brasserie. The attentive service and elegant ambiance made for a perfect night out.",
-    "author": "Robert Davis",
-    "title": "Food Critic"
-  },
-  {
-    "quote": "The Brasserie has the most excellent entrees I've ever tasted. The intimate atmosphere made our evening special, and the service was superb.",
-    "author": "Jennifer Johnson",
-    "title": "Dining Columnist",
-    "image": "/images/testimonials/person-11.jpg"
-  },
-  {
-    "quote": "The food at The Brasserie were absolutely amazing! The service was knowledgeable and the atmosphere was cozy. Highly recommend!",
-    "author": "William Martinez",
-    "title": "Culinary Expert",
-    "image": "/images/testimonials/person-5.jpg"
-  },
-  {
-    "quote": "The Brasserie has the most amazing desserts I've ever tasted. The intimate atmosphere made our evening special, and the service was friendly.",
-    "author": "Emily Garcia",
-    "title": "Lifestyle Influencer"
-  },
-  {
-    "quote": "I can't say enough about the marvelous dishes at The Brasserie. The impeccable service and cozy ambiance made for a perfect night out.",
-    "author": "Daniel White",
-    "title": "Gastronomy Enthusiast",
+    "quote": "What a marvelous dining experience at The Brasserie! The menu items exceeded our expectations, and the staff was prompt. Will definitely return!",
+    "author": "Daniel Lee",
+    "title": "Food Critic",
     "image": "/images/testimonials/person-1.jpg"
   },
   {
-    "quote": "What a delightful dining experience at The Brasserie! The flavors exceeded our expectations, and the staff was attentive. Will definitely return!",
-    "author": "William Brown",
-    "title": "Food Journalist"
+    "quote": "What a fantastic dining experience at The Brasserie! The specialties exceeded our expectations, and the staff was exceptional. Will definitely return!",
+    "author": "William Davis",
+    "title": "Culinary Adventurer"
   },
   {
-    "quote": "What a superb dining experience at The Brasserie! The desserts exceeded our expectations, and the staff was professional. Will definitely return!",
-    "author": "Matthew Martinez",
-    "title": "Travel Blogger"
+    "quote": "The Brasserie has the most great appetizers I've ever tasted. The charming atmosphere made our evening special, and the service was courteous.",
+    "author": "Emily Martin",
+    "title": "Lifestyle Influencer"
   },
   {
-    "quote": "What a impressive dining experience at The Brasserie! The flavors exceeded our expectations, and the staff was attentive. Will definitely return!",
-    "author": "Robert Wilson",
-    "title": "Dining Columnist",
-    "image": "/images/testimonials/person-6.jpg"
+    "quote": "The flavors at The Brasserie were absolutely amazing! The service was impeccable and the atmosphere was appealing. Highly recommend!",
+    "author": "Elizabeth Johnson",
+    "title": "Cruise Traveler"
   },
   {
-    "quote": "What a marvelous dining experience at The Brasserie! The cuisine exceeded our expectations, and the staff was courteous. Will definitely return!",
-    "author": "Thomas Anderson",
-    "title": "Restaurant Reviewer"
+    "quote": "The flavors at The Brasserie were absolutely incredible! The service was impeccable and the atmosphere was warm. Highly recommend!",
+    "author": "Sarah Johnson",
+    "title": "Food Critic"
   },
   {
-    "quote": "The Brasserie has the most exceptional appetizers I've ever tasted. The comfortable atmosphere made our evening special, and the service was superb.",
-    "author": "Ava Rodriguez",
-    "title": "Travel Blogger"
+    "quote": "What a superb dining experience at The Brasserie! The food exceeded our expectations, and the staff was knowledgeable. Will definitely return!",
+    "author": "Sarah Rodriguez",
+    "title": "Travel Writer"
   },
   {
-    "quote": "The food at The Brasserie were absolutely delicious! The service was exceptional and the atmosphere was cozy. Highly recommend!",
-    "author": "Jennifer Brown",
-    "title": "Cooking Aficionado"
-  },
-  {
-    "quote": "The Brasserie has the most amazing meal I've ever tasted. The delightful atmosphere made our evening special, and the service was excellent.",
-    "author": "James Jones",
-    "title": "Luxury Travel Consultant"
-  },
-  {
-    "quote": "The dishes at The Brasserie were absolutely impressive! The service was prompt and the atmosphere was welcoming. Highly recommend!",
-    "author": "Ava Garcia",
-    "title": "Travel Writer",
-    "image": "/images/testimonials/person-7.jpg"
-  },
-  {
-    "quote": "The desserts at The Brasserie were absolutely amazing! The service was exceptional and the atmosphere was relaxing. Highly recommend!",
-    "author": "Michael Martinez",
-    "title": "Food Journalist"
-  },
-  {
-    "quote": "The desserts at The Brasserie were absolutely incredible! The service was prompt and the atmosphere was intimate. Highly recommend!",
-    "author": "David Hernandez",
-    "title": "Luxury Travel Consultant"
-  },
-  {
-    "quote": "What a delectable dining experience at The Brasserie! The specialties exceeded our expectations, and the staff was prompt. Will definitely return!",
-    "author": "Ava Wilson",
-    "title": "Cooking Aficionado"
-  },
-  {
-    "quote": "Our visit to The Brasserie was outstanding. The cuisine were impressive, the staff courteous, and the atmosphere sophisticated. A must-visit!",
-    "author": "Maria Jones",
-    "title": "Restaurant Reviewer",
-    "image": "/images/testimonials/person-5.jpg"
-  },
-  {
-    "quote": "The menu items at The Brasserie were absolutely amazing! The service was exceptional and the atmosphere was delightful. Highly recommend!",
-    "author": "William Miller",
+    "quote": "What a delectable dining experience at The Brasserie! The cuisine exceeded our expectations, and the staff was outstanding. Will definitely return!",
+    "author": "Jennifer Miller",
     "title": "Culinary Expert"
-  },
-  {
-    "quote": "The Brasserie has the most delectable specialties I've ever tasted. The warm atmosphere made our evening special, and the service was impeccable.",
-    "author": "Robert White",
-    "title": "Cooking Aficionado",
-    "image": "/images/testimonials/person-12.jpg"
   }
 ];

@@ -5,108 +5,46 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const seattleroyalBrasserieTestimonials: Testimonial[] = [
   {
-    "quote": "The food at Royal Brasserie were absolutely outstanding! The service was impeccable and the atmosphere was stylish. Highly recommend!",
-    "author": "Elizabeth Taylor",
-    "title": "Gourmet Explorer"
-  },
-  {
-    "quote": "I can't say enough about the outstanding menu items at Royal Brasserie. The superb service and charming ambiance made for a perfect night out.",
-    "author": "Elizabeth Martin",
-    "title": "Cruise Traveler"
-  },
-  {
-    "quote": "The food at Royal Brasserie were absolutely marvelous! The service was fantastic and the atmosphere was appealing. Highly recommend!",
-    "author": "Sophia Rodriguez",
-    "title": "Food Journalist",
-    "image": "/images/testimonials/person-7.jpg"
-  },
-  {
-    "quote": "Royal Brasserie has the most great dishes I've ever tasted. The vibrant atmosphere made our evening special, and the service was attentive.",
-    "author": "John Jackson",
-    "title": "Travel Blogger"
-  },
-  {
-    "quote": "What a impressive dining experience at Royal Brasserie! The menu items exceeded our expectations, and the staff was outstanding. Will definitely return!",
-    "author": "John Anderson",
-    "title": "Gastronomy Enthusiast"
-  },
-  {
-    "quote": "I can't say enough about the wonderful appetizers at Royal Brasserie. The impeccable service and inviting ambiance made for a perfect night out.",
-    "author": "Ava Jackson",
-    "title": "Restaurant Enthusiast"
-  },
-  {
-    "quote": "The cuisine at Royal Brasserie were absolutely fantastic! The service was prompt and the atmosphere was warm. Highly recommend!",
-    "author": "Sarah Miller",
-    "title": "Food & Wine Connoisseur"
-  },
-  {
-    "quote": "Our visit to Royal Brasserie was outstanding. The cuisine were superb, the staff impeccable, and the atmosphere pleasant. A must-visit!",
-    "author": "Thomas Moore",
-    "title": "Gourmet Explorer",
-    "image": "/images/testimonials/person-8.jpg"
-  },
-  {
-    "quote": "What a delectable dining experience at Royal Brasserie! The menu items exceeded our expectations, and the staff was wonderful. Will definitely return!",
-    "author": "Emily Lee",
-    "title": "Travel Blogger"
-  },
-  {
-    "quote": "What a delectable dining experience at Royal Brasserie! The menu items exceeded our expectations, and the staff was superb. Will definitely return!",
-    "author": "Jennifer Jones",
-    "title": "Food Journalist",
+    "quote": "Royal Brasserie has the most impressive menu items I've ever tasted. The vibrant atmosphere made our evening special, and the service was superb.",
+    "author": "Christopher Perez",
+    "title": "Dining Columnist",
     "image": "/images/testimonials/person-11.jpg"
   },
   {
-    "quote": "Royal Brasserie has the most wonderful specialties I've ever tasted. The intimate atmosphere made our evening special, and the service was helpful.",
-    "author": "Lisa Martinez",
-    "title": "Gourmet Explorer",
-    "image": "/images/testimonials/person-10.jpg"
-  },
-  {
-    "quote": "What a delightful dining experience at Royal Brasserie! The specialties exceeded our expectations, and the staff was friendly. Will definitely return!",
-    "author": "Robert Jones",
-    "title": "Culinary Expert"
-  },
-  {
-    "quote": "What a superb dining experience at Royal Brasserie! The desserts exceeded our expectations, and the staff was excellent. Will definitely return!",
-    "author": "Jennifer Miller",
-    "title": "Luxury Travel Consultant"
-  },
-  {
-    "quote": "Royal Brasserie has the most perfect entrees I've ever tasted. The inviting atmosphere made our evening special, and the service was fantastic.",
-    "author": "John Garcia",
-    "title": "Food Journalist"
-  },
-  {
-    "quote": "What a amazing dining experience at Royal Brasserie! The dishes exceeded our expectations, and the staff was superb. Will definitely return!",
-    "author": "Matthew Perez",
+    "quote": "I can't say enough about the delectable specialties at Royal Brasserie. The exceptional service and comfortable ambiance made for a perfect night out.",
+    "author": "Jennifer Garcia",
     "title": "Lifestyle Influencer"
   },
   {
-    "quote": "Our visit to Royal Brasserie was outstanding. The desserts were marvelous, the staff friendly, and the atmosphere cozy. A must-visit!",
-    "author": "William Martinez",
-    "title": "Dining Columnist"
-  },
-  {
-    "quote": "Royal Brasserie has the most delightful food I've ever tasted. The pleasant atmosphere made our evening special, and the service was superb.",
+    "quote": "I can't say enough about the delicious entrees at Royal Brasserie. The exceptional service and delightful ambiance made for a perfect night out.",
     "author": "Elizabeth Miller",
-    "title": "Food Critic",
-    "image": "/images/testimonials/person-1.jpg"
+    "title": "Culinary Expert",
+    "image": "/images/testimonials/person-4.jpg"
   },
   {
-    "quote": "The specialties at Royal Brasserie were absolutely perfect! The service was friendly and the atmosphere was warm. Highly recommend!",
-    "author": "Sophia Martin",
-    "title": "Cruise Traveler"
+    "quote": "What a wonderful dining experience at Royal Brasserie! The dishes exceeded our expectations, and the staff was fantastic. Will definitely return!",
+    "author": "John Moore",
+    "title": "Gastronomy Enthusiast"
   },
   {
-    "quote": "Royal Brasserie has the most perfect meal I've ever tasted. The sophisticated atmosphere made our evening special, and the service was outstanding.",
-    "author": "Olivia Miller",
-    "title": "Cooking Aficionado"
+    "quote": "The dishes at Royal Brasserie were absolutely wonderful! The service was fantastic and the atmosphere was inviting. Highly recommend!",
+    "author": "David Smith",
+    "title": "Travel Blogger",
+    "image": "/images/testimonials/person-7.jpg"
   },
   {
-    "quote": "I can't say enough about the delectable appetizers at Royal Brasserie. The wonderful service and welcoming ambiance made for a perfect night out.",
+    "quote": "The meal at Royal Brasserie were absolutely fantastic! The service was wonderful and the atmosphere was cozy. Highly recommend!",
+    "author": "Lisa Hernandez",
+    "title": "Food Journalist"
+  },
+  {
+    "quote": "I can't say enough about the great desserts at Royal Brasserie. The exceptional service and charming ambiance made for a perfect night out.",
+    "author": "Daniel Moore",
+    "title": "Restaurant Reviewer"
+  },
+  {
+    "quote": "Royal Brasserie has the most fantastic meal I've ever tasted. The appealing atmosphere made our evening special, and the service was friendly.",
     "author": "James Miller",
-    "title": "Culinary Expert"
+    "title": "Lifestyle Influencer"
   }
 ];

@@ -5,107 +5,44 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const romegrandTableTestimonials: Testimonial[] = [
   {
-    "quote": "What a amazing dining experience at Grand Table! The specialties exceeded our expectations, and the staff was helpful. Will definitely return!",
-    "author": "Emma Lee",
-    "title": "Food Critic"
-  },
-  {
-    "quote": "The meal at Grand Table were absolutely impressive! The service was courteous and the atmosphere was intimate. Highly recommend!",
-    "author": "Christopher Anderson",
-    "title": "Restaurant Enthusiast"
-  },
-  {
-    "quote": "What a amazing dining experience at Grand Table! The cuisine exceeded our expectations, and the staff was excellent. Will definitely return!",
-    "author": "Lisa Jackson",
-    "title": "Culinary Expert"
-  },
-  {
-    "quote": "Our visit to Grand Table was outstanding. The food were delicious, the staff friendly, and the atmosphere welcoming. A must-visit!",
-    "author": "Emma Taylor",
-    "title": "Cooking Aficionado",
-    "image": "/images/testimonials/person-11.jpg"
-  },
-  {
-    "quote": "I can't say enough about the perfect food at Grand Table. The wonderful service and cozy ambiance made for a perfect night out.",
-    "author": "Matthew Taylor",
-    "title": "Dining Columnist"
-  },
-  {
-    "quote": "Our visit to Grand Table was outstanding. The meal were delightful, the staff professional, and the atmosphere elegant. A must-visit!",
-    "author": "Daniel Rodriguez",
-    "title": "Gourmet Explorer"
-  },
-  {
-    "quote": "Grand Table has the most perfect entrees I've ever tasted. The pleasant atmosphere made our evening special, and the service was prompt.",
-    "author": "Matthew Smith",
-    "title": "Restaurant Enthusiast",
-    "image": "/images/testimonials/person-7.jpg"
-  },
-  {
-    "quote": "I can't say enough about the amazing menu items at Grand Table. The professional service and delightful ambiance made for a perfect night out.",
-    "author": "Christopher Smith",
-    "title": "Food Journalist"
-  },
-  {
-    "quote": "The food at Grand Table were absolutely delicious! The service was prompt and the atmosphere was pleasant. Highly recommend!",
-    "author": "Lisa Taylor",
-    "title": "Gourmet Explorer"
-  },
-  {
-    "quote": "The dishes at Grand Table were absolutely amazing! The service was helpful and the atmosphere was stylish. Highly recommend!",
-    "author": "Emily Brown",
+    "quote": "Grand Table has the most impressive appetizers I've ever tasted. The appealing atmosphere made our evening special, and the service was superb.",
+    "author": "Sophia Martin",
     "title": "Cruise Traveler"
   },
   {
-    "quote": "The menu items at Grand Table were absolutely fantastic! The service was exceptional and the atmosphere was appealing. Highly recommend!",
-    "author": "Michael Martin",
-    "title": "Food Journalist"
+    "quote": "The entrees at Grand Table were absolutely delicious! The service was helpful and the atmosphere was sophisticated. Highly recommend!",
+    "author": "Sarah Smith",
+    "title": "Food Critic"
   },
   {
-    "quote": "Grand Table has the most impressive flavors I've ever tasted. The relaxing atmosphere made our evening special, and the service was prompt.",
-    "author": "David Martinez",
-    "title": "Luxury Travel Consultant"
+    "quote": "I can't say enough about the incredible flavors at Grand Table. The attentive service and sophisticated ambiance made for a perfect night out.",
+    "author": "James Jones",
+    "title": "Gourmet Explorer"
   },
   {
-    "quote": "Grand Table has the most outstanding menu items I've ever tasted. The cozy atmosphere made our evening special, and the service was prompt.",
-    "author": "Emma White",
-    "title": "Dining Columnist",
-    "image": "/images/testimonials/person-3.jpg"
-  },
-  {
-    "quote": "The flavors at Grand Table were absolutely exceptional! The service was courteous and the atmosphere was warm. Highly recommend!",
-    "author": "Jennifer Johnson",
-    "title": "Lifestyle Influencer"
-  },
-  {
-    "quote": "Our visit to Grand Table was outstanding. The meal were impressive, the staff fantastic, and the atmosphere delightful. A must-visit!",
-    "author": "John Martin",
+    "quote": "Grand Table has the most great food I've ever tasted. The relaxing atmosphere made our evening special, and the service was friendly.",
+    "author": "Sarah Moore",
     "title": "Culinary Adventurer"
   },
   {
-    "quote": "Our visit to Grand Table was outstanding. The appetizers were great, the staff courteous, and the atmosphere charming. A must-visit!",
-    "author": "Sarah Garcia",
-    "title": "Food Journalist"
+    "quote": "Our visit to Grand Table was outstanding. The menu items were superb, the staff impeccable, and the atmosphere sophisticated. A must-visit!",
+    "author": "Lisa Perez",
+    "title": "Travel Blogger"
   },
   {
-    "quote": "Grand Table has the most impressive specialties I've ever tasted. The delightful atmosphere made our evening special, and the service was exceptional.",
-    "author": "Daniel Taylor",
-    "title": "Food Journalist"
+    "quote": "The desserts at Grand Table were absolutely excellent! The service was superb and the atmosphere was elegant. Highly recommend!",
+    "author": "Christopher Martin",
+    "title": "Travel Writer",
+    "image": "/images/testimonials/person-12.jpg"
   },
   {
-    "quote": "I can't say enough about the impressive menu items at Grand Table. The exceptional service and delightful ambiance made for a perfect night out.",
-    "author": "Christopher Rodriguez",
-    "title": "Gastronomy Enthusiast"
+    "quote": "What a delectable dining experience at Grand Table! The entrees exceeded our expectations, and the staff was exceptional. Will definitely return!",
+    "author": "Christopher Lee",
+    "title": "Luxury Travel Consultant"
   },
   {
-    "quote": "The flavors at Grand Table were absolutely marvelous! The service was courteous and the atmosphere was pleasant. Highly recommend!",
-    "author": "Jennifer Martin",
-    "title": "Lifestyle Influencer",
-    "image": "/images/testimonials/person-1.jpg"
-  },
-  {
-    "quote": "I can't say enough about the marvelous appetizers at Grand Table. The superb service and intimate ambiance made for a perfect night out.",
-    "author": "Emily Davis",
-    "title": "Gastronomy Enthusiast"
+    "quote": "Grand Table has the most delicious specialties I've ever tasted. The welcoming atmosphere made our evening special, and the service was helpful.",
+    "author": "Olivia Hernandez",
+    "title": "Luxury Travel Consultant"
   }
 ];
