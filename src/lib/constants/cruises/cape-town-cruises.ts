@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const capeTownCruises: Cruise[] = [
-  {
+{
     basePrice: 8951,
     departureLocation: {
   "city": "Cape Town",
@@ -2059,5 +2059,811 @@ export const capeTownCruises: Cruise[] = [
     description: "Discover the wonders of Africa aboard this heavenly cruise departing from Cape Town. Journey through crystal waters to explore the treasures of Dubrovnik, Malta, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
     rating: 4.0,
     tags: ["long-distance","fall-cruise","holiday-cruise"]
+  },
+  {
+    basePrice: 4604,
+    departureLocation: {
+  "city": "Cape Town",
+  "country": "South Africa",
+  "region": "Africa",
+  "coordinates": {
+    "latitude": -33.918861,
+    "longitude": 18.4233
+  }
+},
+    arrivalLocation: {
+  "city": "Athens",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa",
+    "coordinates": {
+      "latitude": -33.918861,
+      "longitude": 18.4233
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Step aboard in Cape Town and begin a sublime journey through the scenic Africa. From historic cities to coastal hideaways like Dubrovnik, Malta, Barcelona, Athens, every day is unforgettable.",
+      distance: "574 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Cape Town to Dubrovnik"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Dubrovnik to Malta"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Malta to Barcelona"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Athens"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Cape Town"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Alexander Campbell",
+        role: "Travel Advisor",
+        languages: ["Urdu"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/88.jpg",
+        contact: {
+          contactEmail: "starlit.saga.of.the.@velarivoyages.com",
+          contactNumber: "+1-581-836-2076"
+        }
+      }
+    ],
+    title: "Starlit Saga of the Elephant Shores",
+    description: "Step aboard in Cape Town and begin a sublime journey through the scenic Africa. From historic cities to coastal hideaways like Dubrovnik, Malta, Barcelona, Athens, every day is unforgettable.",
+    rating: 5.0,
+    tags: ["long-distance"]
+  },
+  {
+    basePrice: 5219,
+    departureLocation: {
+  "city": "Cape Town",
+  "country": "South Africa",
+  "region": "Africa",
+  "coordinates": {
+    "latitude": -33.918861,
+    "longitude": 18.4233
+  }
+},
+    arrivalLocation: {
+  "city": "Rome",
+  "country": "Italy",
+  "coordinates": {
+    "latitude": 41.9028,
+    "longitude": 12.4964
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa",
+    "coordinates": {
+      "latitude": -33.918861,
+      "longitude": 18.4233
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  }
+],
+      description: "Sail away from Cape Town into the beautiful expanse of Africa. Along the way, enjoy rich cultural experiences in Santorini, Malta, Mykonos, Rome, where history, nature, and cuisine collide.",
+      distance: "887 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Cape Town to Santorini"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Santorini to Malta"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Malta to Mykonos"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Rome"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Cape Town"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Matthew Carpenter",
+        role: "Travel Advisor",
+        languages: ["Urdu"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/0.jpg",
+        contact: {
+          contactEmail: "mythic.reflection.of@velarivoyages.com",
+          contactNumber: "+1-443-836-5580"
+        }
+      }
+    ],
+    title: "Mythic Reflection of the Baobab Bay",
+    description: "Sail away from Cape Town into the beautiful expanse of Africa. Along the way, enjoy rich cultural experiences in Santorini, Malta, Mykonos, Rome, where history, nature, and cuisine collide.",
+    rating: 4.3,
+    tags: ["fall-cruise"]
+  },
+  {
+    basePrice: 2160,
+    departureLocation: {
+  "city": "Cape Town",
+  "country": "South Africa",
+  "region": "Africa",
+  "coordinates": {
+    "latitude": -33.918861,
+    "longitude": 18.4233
+  }
+},
+    arrivalLocation: {
+  "city": "Cape Town",
+  "country": "South Africa",
+  "region": "Africa",
+  "coordinates": {
+    "latitude": -33.918861,
+    "longitude": 18.4233
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa",
+    "coordinates": {
+      "latitude": -33.918861,
+      "longitude": 18.4233
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa",
+    "coordinates": {
+      "latitude": -33.918861,
+      "longitude": 18.4233
+    }
+  }
+],
+      description: "Let the winds of the Africa carry you from Cape Town to the most stunning ports in the region. With destinations like Barcelona, Dubrovnik, this pulse redefines luxury travel.",
+      distance: "1428 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Cape Town to Barcelona"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Dubrovnik"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Dubrovnik to Cape Town"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Cape Town"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Cape Town"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Richard Foster",
+        role: "Travel Advisor",
+        languages: ["Urdu"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/73.jpg",
+        contact: {
+          contactEmail: "alluring.lullaby.of.@velarivoyages.com",
+          contactNumber: "+1-539-636-6740"
+        }
+      }
+    ],
+    title: "Alluring Lullaby of the Mountain-Guarded Mystique",
+    description: "Let the winds of the Africa carry you from Cape Town to the most stunning ports in the region. With destinations like Barcelona, Dubrovnik, this pulse redefines luxury travel.",
+    rating: 4.8,
+    tags: ["general"]
+  },
+  {
+    basePrice: 4968,
+    departureLocation: {
+  "city": "Cape Town",
+  "country": "South Africa",
+  "region": "Africa",
+  "coordinates": {
+    "latitude": -33.918861,
+    "longitude": 18.4233
+  }
+},
+    arrivalLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa",
+    "coordinates": {
+      "latitude": -33.918861,
+      "longitude": 18.4233
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  }
+],
+      description: "Join us in Cape Town for a tide of a lifetime. Sail across the serene waters of Africa, stopping at ports like Dubrovnik, Rome, Barcelona where timeless traditions meet modern luxuries.",
+      distance: "792 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Cape Town to Dubrovnik"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Dubrovnik to Rome"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Barcelona"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Cape Town"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  }
+]
+    },
+    tourCategoryId: "anniversary-cruise",
+    contactPersonnel: [
+      {
+        name: "Daniel Hunter",
+        role: "Travel Advisor",
+        languages: ["Urdu"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/97.jpg",
+        contact: {
+          contactEmail: "enchanting.symphony.@velarivoyages.com",
+          contactNumber: "+1-725-844-7150"
+        }
+      }
+    ],
+    title: "Enchanting Symphony of the Elephant Shores",
+    description: "Join us in Cape Town for a tide of a lifetime. Sail across the serene waters of Africa, stopping at ports like Dubrovnik, Rome, Barcelona where timeless traditions meet modern luxuries.",
+    rating: 4.3,
+    tags: ["anniversary-cruise","cruise-journey"]
+  },
+  {
+    basePrice: 8612,
+    departureLocation: {
+  "city": "Cape Town",
+  "country": "South Africa",
+  "region": "Africa",
+  "coordinates": {
+    "latitude": -33.918861,
+    "longitude": 18.4233
+  }
+},
+    arrivalLocation: {
+  "city": "Athens",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa",
+    "coordinates": {
+      "latitude": -33.918861,
+      "longitude": 18.4233
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Depart Cape Town on a relaxing pilgrimage through the Africa region. Highlights include the stunning coastlines of Malta, Barcelona, Athens, all while enjoying first-class amenities on board.",
+      distance: "723 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Cape Town to Malta"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Malta to Barcelona"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Athens"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Cape Town"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Athens"
+  }
+]
+    },
+    tourCategoryId: "luxury-cruise",
+    contactPersonnel: [
+      {
+        name: "Wayne Bennett",
+        role: "Travel Advisor",
+        languages: ["Urdu"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/28.jpg",
+        contact: {
+          contactEmail: "radiancedrenched.whi@velarivoyages.com",
+          contactNumber: "+1-719-255-3215"
+        }
+      }
+    ],
+    title: "Radiance-Drenched Whisper of the Cradle of Two Oceans",
+    description: "Depart Cape Town on a relaxing pilgrimage through the Africa region. Highlights include the stunning coastlines of Malta, Barcelona, Athens, all while enjoying first-class amenities on board.",
+    rating: 4.8,
+    tags: ["cruise-ship","luxury","cruise-getaway"]
+  },
+  {
+    basePrice: 5684,
+    departureLocation: {
+  "city": "Cape Town",
+  "country": "South Africa",
+  "region": "Africa",
+  "coordinates": {
+    "latitude": -33.918861,
+    "longitude": 18.4233
+  }
+},
+    arrivalLocation: {
+  "city": "Cape Town",
+  "country": "South Africa",
+  "region": "Africa",
+  "coordinates": {
+    "latitude": -33.918861,
+    "longitude": 18.4233
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa",
+    "coordinates": {
+      "latitude": -33.918861,
+      "longitude": 18.4233
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa",
+    "coordinates": {
+      "latitude": -33.918861,
+      "longitude": 18.4233
+    }
+  }
+],
+      description: "Let this immersive voyage redefine your idea of travel. From Cape Town, explore the Africa in luxurious comfort, stopping at Malta, Athens where every port offers a new chapter.",
+      distance: "661 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Cape Town to Malta"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Malta to Athens"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Athens to Cape Town"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Cape Town"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Cape Town"
+  }
+]
+    },
+    tourCategoryId: "anniversary-cruise",
+    contactPersonnel: [
+      {
+        name: "Harold Hayes",
+        role: "Travel Advisor",
+        languages: ["Urdu"],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/27.jpg",
+        contact: {
+          contactEmail: "riveting.retreat.of.@velarivoyages.com",
+          contactNumber: "+1-821-915-5481"
+        }
+      }
+    ],
+    title: "Riveting Retreat of the Where Currents Converge",
+    description: "Let this immersive voyage redefine your idea of travel. From Cape Town, explore the Africa in luxurious comfort, stopping at Malta, Athens where every port offers a new chapter.",
+    rating: 4.3,
+    tags: ["romantic"]
   }
 ];
