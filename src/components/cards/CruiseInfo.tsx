@@ -34,28 +34,26 @@ export default function CruiseInfo({
   return (
     <div className="bg-card shadow-lg hover:shadow-xl border border-border rounded-lg h-full transition-shadow overflow-hidden">
       <div className="flex flex-col justify-between h-full">
-        <div>
-          <div className="relative h-64">
-            <Badge
-              variant={"outline"}
-              className="top-4 right-4 absolute uppercase"
-            >
-              {cruise.tourCategoryId}
-            </Badge>
-          </div>
-          <div className="relative px-6 pt-5">
-            <div className="flex flex-col justify-between items-start mb-2">
-              <h2 className="w-11/12">{cruise.title}</h2>
+        <div className="relative h-full">
+          <Badge
+            variant={"outline"}
+            className="top-4 right-4 absolute uppercase"
+          >
+            {cruise.tourCategoryId}
+          </Badge>
+          <div className="relative flex flex-col justify-between px-6 pt-12 h-full">
+            <div>
+              <h2>{cruise.title}</h2>
               <p>{cruise.description}</p>
-              {displayRatingStars(cruise.rating)}
             </div>
+            <div className="flex">{displayRatingStars(cruise.rating)}</div>
             <Sheet>
               <SheetTrigger asChild>
                 <Button
                   variant={"icon"}
                   size={"icon"}
                   onClick={() => console.log("Open cruise details")}
-                  className="top-10 right-5 absolute size-5"
+                  className="top-3 left-5 absolute size-5"
                 >
                   <IoMdInformationCircle />
                 </Button>
