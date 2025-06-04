@@ -13,10 +13,10 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
-import { cruiseDepartureLocations } from "@/lib/constants/info/city";
+import { cruiseDepartureLocations } from "@/lib/constants/info/city.ts";
 import { Cruise } from "@/lib/interfaces/services/cruises";
-import { capitalize, formatNumberToCurrency } from "@/lib/utils/format";
-import { getAllCruises } from "@/lib/utils/get";
+import { capitalize, formatNumberToCurrency } from "@/lib/utils/format.ts";
+import { getAllCruises } from "@/lib/utils/get.ts";
 import { featuredArray, groupAndSortByProperties } from "@/lib/utils/sort";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
