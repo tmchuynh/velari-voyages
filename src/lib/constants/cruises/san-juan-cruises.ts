@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const sanJuanCruises: Cruise[] = [
-  {
+{
     basePrice: 1618,
     departureLocation: {
   "city": "San Juan",
@@ -2187,5 +2187,1040 @@ export const sanJuanCruises: Cruise[] = [
     description: "Your journey through the Caribbean begins in San Juan, where elegance meets adventure. Explore the shores of St. Thomas, Nassau, with curated excursions and luxurious onboard amenities.",
     rating: 4.9,
     tags: ["short-getaway"]
+  },
+  {
+    basePrice: 5462,
+    departureLocation: {
+  "city": "San Juan",
+  "country": "Puerto Rico",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 18.4655,
+    "longitude": -66.1057
+  }
+},
+    arrivalLocation: {
+  "city": "Roatán",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 18.4655,
+      "longitude": -66.1057
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Roatán",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Depart from the iconic port of San Juan and sail through the enchanting Caribbean. Explore vibrant destinations like Cozumel, Nassau, Roatán, each offering its own unique charm and local flair.",
+      distance: "1230 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from San Juan to Cozumel"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Cozumel to Nassau"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Nassau to Roatán"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Roatán"
+  }
+]
+    },
+    tourCategoryId: "anniversary-cruise",
+    contactPersonnel: [
+      {
+        name: "Bryan Dixon",
+        role: "Cruise Specialist",
+        languages: ["Italian","Burmese"],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/56.jpg",
+        contact: {
+          contactEmail: "harmonic.embrace.of.@velarivoyages.com",
+          contactNumber: "+1-797-491-7612"
+        }
+      }
+    ],
+    title: "Harmonic Embrace of the Sun-Worn Stones",
+    description: "Depart from the iconic port of San Juan and sail through the enchanting Caribbean. Explore vibrant destinations like Cozumel, Nassau, Roatán, each offering its own unique charm and local flair.",
+    rating: 4.2,
+    tags: ["romantic"]
+  },
+  {
+    basePrice: 8074,
+    departureLocation: {
+  "city": "San Juan",
+  "country": "Puerto Rico",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 18.4655,
+    "longitude": -66.1057
+  }
+},
+    arrivalLocation: {
+  "city": "San Juan",
+  "country": "Puerto Rico",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 18.4655,
+    "longitude": -66.1057
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 18.4655,
+      "longitude": -66.1057
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 18.4655,
+      "longitude": -66.1057
+    }
+  }
+],
+      description: "Explore a new side of Caribbean with this breathtaking drift starting in San Juan. Visit charming ports such as Nassau, St. Thomas, Cozumel, George Town, each offering its own unique rhythm.",
+      distance: "1155 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from San Juan to Nassau"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Nassau to St. Thomas"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from St. Thomas to Cozumel"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Sailing from Cozumel to George Town"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 16",
+    "duration": "1 days",
+    "description": "Sailing from George Town to San Juan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Exploring George Town"
+  },
+  {
+    "start": "Day 17",
+    "end": "Day 17",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Blake Hunter",
+        role: "Cruise Specialist",
+        languages: ["Italian","Burmese"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/33.jpg",
+        contact: {
+          contactEmail: "idyllic.labyrinth.of@velarivoyages.com",
+          contactNumber: "+1-970-875-6994"
+        }
+      }
+    ],
+    title: "Idyllic Labyrinth of the Colonial Echo",
+    description: "Explore a new side of Caribbean with this breathtaking drift starting in San Juan. Visit charming ports such as Nassau, St. Thomas, Cozumel, George Town, each offering its own unique rhythm.",
+    rating: 4.4,
+    tags: ["exclusive","wellness"]
+  },
+  {
+    basePrice: 4597,
+    departureLocation: {
+  "city": "San Juan",
+  "country": "Puerto Rico",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 18.4655,
+    "longitude": -66.1057
+  }
+},
+    arrivalLocation: {
+  "city": "San Juan",
+  "country": "Puerto Rico",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 18.4655,
+    "longitude": -66.1057
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 18.4655,
+      "longitude": -66.1057
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Roatán",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 18.4655,
+      "longitude": -66.1057
+    }
+  }
+],
+      description: "Let the spirit of exploration guide your majestic journey from San Juan. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Philipsburg, Roatán, Cozumel.",
+      distance: "553 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from San Juan to Philipsburg"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Philipsburg to Roatán"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Roatán to Cozumel"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Cozumel to San Juan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Philipsburg"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Roatán"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  }
+]
+    },
+    tourCategoryId: "vip-cruise",
+    contactPersonnel: [
+      {
+        name: "John Harper",
+        role: "Cruise Specialist",
+        languages: ["Italian","Burmese"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/33.jpg",
+        contact: {
+          contactEmail: "majestic.wanderlust.@velarivoyages.com",
+          contactNumber: "+1-749-499-2077"
+        }
+      }
+    ],
+    title: "Majestic Wanderlust of the Painted Port",
+    description: "Let the spirit of exploration guide your majestic journey from San Juan. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Philipsburg, Roatán, Cozumel.",
+    rating: 5.0,
+    tags: ["adventure","VIP"]
+  },
+  {
+    basePrice: 2407,
+    departureLocation: {
+  "city": "San Juan",
+  "country": "Puerto Rico",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 18.4655,
+    "longitude": -66.1057
+  }
+},
+    arrivalLocation: {
+  "city": "George Town",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 18.4655,
+      "longitude": -66.1057
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Unwind and explore on this sanctuary through Caribbean, departing from San Juan. With every stop—from Cozumel to George Town—you’ll collect memories that last a lifetime.",
+      distance: "1216 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from San Juan to Cozumel"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Cozumel to Philipsburg"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Philipsburg to George Town"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Philipsburg"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring George Town"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Edward Clark",
+        role: "Cruise Specialist",
+        languages: ["Italian","Burmese"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/47.jpg",
+        contact: {
+          contactEmail: "lavish.mirage.of.the@velarivoyages.com",
+          contactNumber: "+1-693-171-5631"
+        }
+      }
+    ],
+    title: "Lavish Mirage of the Sun-Worn Stones",
+    description: "Unwind and explore on this sanctuary through Caribbean, departing from San Juan. With every stop—from Cozumel to George Town—you’ll collect memories that last a lifetime.",
+    rating: 4.6,
+    tags: ["exclusive","adventure"]
+  },
+  {
+    basePrice: 9845,
+    departureLocation: {
+  "city": "San Juan",
+  "country": "Puerto Rico",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 18.4655,
+    "longitude": -66.1057
+  }
+},
+    arrivalLocation: {
+  "city": "San Juan",
+  "country": "Puerto Rico",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 18.4655,
+    "longitude": -66.1057
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 18.4655,
+      "longitude": -66.1057
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 18.4655,
+      "longitude": -66.1057
+    }
+  }
+],
+      description: "This saga takes you beyond the ordinary, starting in San Juan. With breathtaking stops in Philipsburg, Nassau, St. Thomas, Cozumel, your cruise delivers immersive moments and unforgettable vistas.",
+      distance: "623 nautical miles",
+      totalDuration: "19 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from San Juan to Philipsburg"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Philipsburg to Nassau"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Nassau to St. Thomas"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Sailing from St. Thomas to Cozumel"
+  },
+  {
+    "start": "Day 17",
+    "end": "Day 18",
+    "duration": "2 days",
+    "description": "Sailing from Cozumel to San Juan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Philipsburg"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 19",
+    "end": "Day 19",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  }
+]
+    },
+    tourCategoryId: "vip-cruise",
+    contactPersonnel: [
+      {
+        name: "Alexander Keller",
+        role: "Cruise Specialist",
+        languages: ["Italian","Burmese"],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/68.jpg",
+        contact: {
+          contactEmail: "luminous.horizon.of.@velarivoyages.com",
+          contactNumber: "+1-798-573-8607"
+        }
+      }
+    ],
+    title: "Luminous Horizon of the Colorful Coastline",
+    description: "This saga takes you beyond the ordinary, starting in San Juan. With breathtaking stops in Philipsburg, Nassau, St. Thomas, Cozumel, your cruise delivers immersive moments and unforgettable vistas.",
+    rating: 4.4,
+    tags: ["VIP","cruise-ship"]
+  },
+  {
+    basePrice: 8581,
+    departureLocation: {
+  "city": "San Juan",
+  "country": "Puerto Rico",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 18.4655,
+    "longitude": -66.1057
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 18.4655,
+      "longitude": -66.1057
+    }
+  },
+  {
+    "city": "Roatán",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Begin an epic reunion from San Juan, where the seas meet culture. Visit the remarkable ports of Roatán, Cozumel, George Town, Nassau while indulging in fine dining, entertainment, and unmatched hospitality.",
+      distance: "1366 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from San Juan to Roatán"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Sailing from Roatán to Cozumel"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Cozumel to George Town"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from George Town to Nassau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Roatán"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring George Town"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Ethan Collins",
+        role: "Cruise Specialist",
+        languages: ["Italian","Burmese"],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
+        contact: {
+          contactEmail: "refined.solstice.of.@velarivoyages.com",
+          contactNumber: "+1-412-603-6887"
+        }
+      }
+    ],
+    title: "Refined Solstice of the Pirate Passages",
+    description: "Begin an epic reunion from San Juan, where the seas meet culture. Visit the remarkable ports of Roatán, Cozumel, George Town, Nassau while indulging in fine dining, entertainment, and unmatched hospitality.",
+    rating: 4.4,
+    tags: ["wellness"]
+  },
+  {
+    basePrice: 9902,
+    departureLocation: {
+  "city": "San Juan",
+  "country": "Puerto Rico",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 18.4655,
+    "longitude": -66.1057
+  }
+},
+    arrivalLocation: {
+  "city": "George Town",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 18.4655,
+      "longitude": -66.1057
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Roatán",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Your infinite begins in San Juan, where every sunset on the Caribbean horizon promises another day of discovery—from Nassau, Cozumel, Roatán, George Town to hidden ports of charm.",
+      distance: "1031 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from San Juan to Nassau"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Nassau to Cozumel"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Cozumel to Roatán"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Roatán to George Town"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Roatán"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring George Town"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Joel Marshall",
+        role: "Cruise Specialist",
+        languages: ["Italian","Burmese"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/men/32.jpg",
+        contact: {
+          contactEmail: "forbidden.panorama.o@velarivoyages.com",
+          contactNumber: "+1-962-346-6397"
+        }
+      }
+    ],
+    title: "Forbidden Panorama of the Spanish Caribbean Jewel",
+    description: "Your infinite begins in San Juan, where every sunset on the Caribbean horizon promises another day of discovery—from Nassau, Cozumel, Roatán, George Town to hidden ports of charm.",
+    rating: 4.1,
+    tags: ["historical"]
   }
 ];

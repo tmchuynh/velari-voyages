@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const sanFranciscoCruises: Cruise[] = [
-  {
+{
     basePrice: 6021,
     departureLocation: {
   "city": "San Francisco",
@@ -2043,5 +2043,960 @@ export const sanFranciscoCruises: Cruise[] = [
     description: "Step into a world of elegance and exploration from San Francisco. This eclipse through the West Coast USA unveils stunning stops including Malta, Mykonos, Dubrovnik, Rome, all with first-class service.",
     rating: 4.9,
     tags: ["repositioning","romantic","nature"]
+  },
+  {
+    basePrice: 4059,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 37.7749,
+    "longitude": -122.4194
+  }
+},
+    arrivalLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 37.7749,
+    "longitude": -122.4194
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    }
+  }
+],
+      description: "This handpicked labyrinth begins in San Francisco and travels through West Coast USA's iconic waterscapes. Discover Barcelona, Athens, Santorini as each day brings new stories and every night offers elegant repose.",
+      distance: "534 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from San Francisco to Barcelona"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Athens"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Athens to Santorini"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Santorini to San Francisco"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring San Francisco"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Oliver Payne",
+        role: "Travel Advisor",
+        languages: ["Punjabi"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
+        contact: {
+          contactEmail: "oceanic.reverie.of.t@velarivoyages.com",
+          contactNumber: "+1-961-751-7517"
+        }
+      }
+    ],
+    title: "Oceanic Reverie of the Golden Gateway",
+    description: "This handpicked labyrinth begins in San Francisco and travels through West Coast USA's iconic waterscapes. Discover Barcelona, Athens, Santorini as each day brings new stories and every night offers elegant repose.",
+    rating: 4.6,
+    tags: ["holiday-cruise","fall-cruise"]
+  },
+  {
+    basePrice: 8304,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 37.7749,
+    "longitude": -122.4194
+  }
+},
+    arrivalLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  }
+],
+      description: "An unforgettable elevation awaits as you cruise from San Francisco across West Coast USA. Dive into history, flavor, and culture with stops including Athens, Dubrovnik, Malta, Barcelona.",
+      distance: "1052 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from San Francisco to Athens"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Athens to Dubrovnik"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Dubrovnik to Malta"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from Malta to Barcelona"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  }
+]
+    },
+    tourCategoryId: "weekend-cruise",
+    contactPersonnel: [
+      {
+        name: "Frank Reed",
+        role: "Travel Advisor",
+        languages: ["Punjabi"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/men/43.jpg",
+        contact: {
+          contactEmail: "opulent.journey.of.t@velarivoyages.com",
+          contactNumber: "+1-151-229-7665"
+        }
+      }
+    ],
+    title: "Opulent Journey of the Fog-Draped Haven",
+    description: "An unforgettable elevation awaits as you cruise from San Francisco across West Coast USA. Dive into history, flavor, and culture with stops including Athens, Dubrovnik, Malta, Barcelona.",
+    rating: 4.4,
+    tags: ["adventure","wellness","weekend-cruise"]
+  },
+  {
+    basePrice: 3281,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 37.7749,
+    "longitude": -122.4194
+  }
+},
+    arrivalLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 37.7749,
+    "longitude": -122.4194
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    }
+  }
+],
+      description: "Set sail from San Francisco on this awe-inspiring escape through the heart of West Coast USA. Experience the perfect blend of relaxation and adventure as you explore Malta and Barcelona and Santorini and Athens, with personalized service and unforgettable experiences awaiting at every port.",
+      distance: "1349 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from San Francisco to Malta"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Malta to Barcelona"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Barcelona to Santorini"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Santorini to Athens"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Sailing from Athens to San Francisco"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Exploring San Francisco"
+  }
+]
+    },
+    tourCategoryId: "vip-cruise",
+    contactPersonnel: [
+      {
+        name: "Bruce Reed",
+        role: "Travel Advisor",
+        languages: ["Punjabi"],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/men/87.jpg",
+        contact: {
+          contactEmail: "legendary.haven.of.t@velarivoyages.com",
+          contactNumber: "+1-524-406-6501"
+        }
+      }
+    ],
+    title: "Legendary Haven of the Pacific Panoramas",
+    description: "Set sail from San Francisco on this awe-inspiring escape through the heart of West Coast USA. Experience the perfect blend of relaxation and adventure as you explore Malta and Barcelona and Santorini and Athens, with personalized service and unforgettable experiences awaiting at every port.",
+    rating: 5.0,
+    tags: ["VIP"]
+  },
+  {
+    basePrice: 2388,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 37.7749,
+    "longitude": -122.4194
+  }
+},
+    arrivalLocation: {
+  "city": "Santorini",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Experience the elegance of the seas on this epic infinite through West Coast USA, starting from the illustrious port of San Francisco. From Dubrovnik to Santorini, each destination offers its own story, culture, and breathtaking views.",
+      distance: "1028 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from San Francisco to Dubrovnik"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Dubrovnik to Santorini"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Santorini"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Alan Harper",
+        role: "Travel Advisor",
+        languages: ["Punjabi"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/men/80.jpg",
+        contact: {
+          contactEmail: "opulent.enigma.of.th@velarivoyages.com",
+          contactNumber: "+1-759-382-6159"
+        }
+      }
+    ],
+    title: "Opulent Enigma of the Coastal Giants",
+    description: "Experience the elegance of the seas on this epic infinite through West Coast USA, starting from the illustrious port of San Francisco. From Dubrovnik to Santorini, each destination offers its own story, culture, and breathtaking views.",
+    rating: 4.7,
+    tags: ["cruise-ship","cultural"]
+  },
+  {
+    basePrice: 3766,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 37.7749,
+    "longitude": -122.4194
+  }
+},
+    arrivalLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 37.7749,
+    "longitude": -122.4194
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    }
+  }
+],
+      description: "Your exploration begins in San Francisco, where every sunset on the West Coast USA horizon promises another day of discovery—from Santorini, Athens to hidden ports of charm.",
+      distance: "965 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from San Francisco to Santorini"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Santorini to Athens"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Athens to San Francisco"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring San Francisco"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Patrick West",
+        role: "Travel Advisor",
+        languages: ["Punjabi"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
+        contact: {
+          contactEmail: "extraordinary.odysse@velarivoyages.com",
+          contactNumber: "+1-458-944-5173"
+        }
+      }
+    ],
+    title: "Extraordinary Odyssey of the Golden Gateway",
+    description: "Your exploration begins in San Francisco, where every sunset on the West Coast USA horizon promises another day of discovery—from Santorini, Athens to hidden ports of charm.",
+    rating: 4.3,
+    tags: ["cruise-ship"]
+  },
+  {
+    basePrice: 1753,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 37.7749,
+    "longitude": -122.4194
+  }
+},
+    arrivalLocation: {
+  "city": "Rome",
+  "country": "Italy",
+  "coordinates": {
+    "latitude": 41.9028,
+    "longitude": 12.4964
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  }
+],
+      description: "Escape to sea from San Francisco on a spectacular voyage exploring the magic of West Coast USA. Visit unforgettable locales like Malta, Mykonos, Rome, where each stop inspires awe.",
+      distance: "710 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from San Francisco to Malta"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Malta to Mykonos"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Rome"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Rome"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Christian Graham",
+        role: "Travel Advisor",
+        languages: ["Punjabi"],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
+        contact: {
+          contactEmail: "epic.currents.of.the@velarivoyages.com",
+          contactNumber: "+1-422-365-5665"
+        }
+      }
+    ],
+    title: "Epic Currents of the Harbor of Horizons",
+    description: "Escape to sea from San Francisco on a spectacular voyage exploring the magic of West Coast USA. Visit unforgettable locales like Malta, Mykonos, Rome, where each stop inspires awe.",
+    rating: 4.1,
+    tags: ["long-distance","romantic"]
+  },
+  {
+    basePrice: 8521,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 37.7749,
+    "longitude": -122.4194
+  }
+},
+    arrivalLocation: {
+  "city": "Rome",
+  "country": "Italy",
+  "coordinates": {
+    "latitude": 41.9028,
+    "longitude": 12.4964
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  }
+],
+      description: "This handpicked odyssey begins in San Francisco and travels through West Coast USA's iconic waterscapes. Discover Malta, Barcelona, Rome as each day brings new stories and every night offers elegant repose.",
+      distance: "922 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from San Francisco to Malta"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Malta to Barcelona"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Barcelona to Rome"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Rome"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Michael Hunter",
+        role: "Travel Advisor",
+        languages: ["Punjabi"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/33.jpg",
+        contact: {
+          contactEmail: "panoramic.quest.of.t@velarivoyages.com",
+          contactNumber: "+1-949-641-2823"
+        }
+      }
+    ],
+    title: "Panoramic Quest of the Harbor of Horizons",
+    description: "This handpicked odyssey begins in San Francisco and travels through West Coast USA's iconic waterscapes. Discover Malta, Barcelona, Rome as each day brings new stories and every night offers elegant repose.",
+    rating: 4.0,
+    tags: ["cruise-experience"]
   }
 ];

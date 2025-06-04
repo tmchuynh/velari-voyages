@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const seattleCruises: Cruise[] = [
-  {
+{
     basePrice: 4548,
     departureLocation: {
   "city": "Seattle",
@@ -1997,5 +1997,962 @@ export const seattleCruises: Cruise[] = [
     description: "Escape the everyday with this dreamlike journey through Alaska, departing from Seattle. You'll visit Victoria, Glacier Bay, Juneau, where every stop is a new adventure.",
     rating: 4.0,
     tags: ["cruise-excursion","cruise-vacation","cruise-adventure"]
+  },
+  {
+    basePrice: 4202,
+    departureLocation: {
+  "city": "Seattle",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 47.6062,
+    "longitude": -122.3321
+  }
+},
+    arrivalLocation: {
+  "city": "Seattle",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 47.6062,
+    "longitude": -122.3321
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Sitka",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    }
+  }
+],
+      description: "Let the spirit of exploration guide your charming journey from Seattle. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Juneau, Sitka.",
+      distance: "1245 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Seattle to Juneau"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Juneau to Sitka"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Sitka to Seattle"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Seattle"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Sitka"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Seattle"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Carter Lawson",
+        role: "Corporate Concierge",
+        languages: ["Hindi","Marathi"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
+        contact: {
+          contactEmail: "mystical.mirage.of.t@velarivoyages.com",
+          contactNumber: "+1-591-667-3416"
+        }
+      }
+    ],
+    title: "Mystical Mirage of the Forest by the Sea",
+    description: "Let the spirit of exploration guide your charming journey from Seattle. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Juneau, Sitka.",
+    rating: 4.6,
+    tags: ["exclusive","cruise-journey","cruise"]
+  },
+  {
+    basePrice: 7949,
+    departureLocation: {
+  "city": "Seattle",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 47.6062,
+    "longitude": -122.3321
+  }
+},
+    arrivalLocation: {
+  "city": "Ketchikan",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    }
+  },
+  {
+    "city": "Glacier Bay",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Ketchikan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Your journey through the Alaska begins in Seattle, where elegance meets adventure. Explore the shores of Glacier Bay, Ketchikan, with curated excursions and luxurious onboard amenities.",
+      distance: "613 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Seattle to Glacier Bay"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Glacier Bay to Ketchikan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Seattle"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Glacier Bay"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Ketchikan"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Walter Mason",
+        role: "Corporate Concierge",
+        languages: ["Hindi","Marathi"],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/22.jpg",
+        contact: {
+          contactEmail: "golden.escape.of.the@velarivoyages.com",
+          contactNumber: "+1-519-625-2818"
+        }
+      }
+    ],
+    title: "Golden Escape of the Sound of Silence",
+    description: "Your journey through the Alaska begins in Seattle, where elegance meets adventure. Explore the shores of Glacier Bay, Ketchikan, with curated excursions and luxurious onboard amenities.",
+    rating: 4.8,
+    tags: ["cruise-journey"]
+  },
+  {
+    basePrice: 1028,
+    departureLocation: {
+  "city": "Seattle",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 47.6062,
+    "longitude": -122.3321
+  }
+},
+    arrivalLocation: {
+  "city": "Skagway",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    }
+  },
+  {
+    "city": "Victoria",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Skagway",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Let the spirit of exploration guide your timeless journey from Seattle. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Victoria, Juneau, Skagway.",
+      distance: "1314 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Seattle to Victoria"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Sailing from Victoria to Juneau"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Juneau to Skagway"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Seattle"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Victoria"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Skagway"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Kenneth Sutton",
+        role: "Corporate Concierge",
+        languages: ["Hindi","Marathi"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/men/41.jpg",
+        contact: {
+          contactEmail: "opulent.pulse.of.the@velarivoyages.com",
+          contactNumber: "+1-730-289-6371"
+        }
+      }
+    ],
+    title: "Opulent Pulse of the Emerald City",
+    description: "Let the spirit of exploration guide your timeless journey from Seattle. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Victoria, Juneau, Skagway.",
+    rating: 4.0,
+    tags: ["cruise","general","adventure"]
+  },
+  {
+    basePrice: 4816,
+    departureLocation: {
+  "city": "Seattle",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 47.6062,
+    "longitude": -122.3321
+  }
+},
+    arrivalLocation: {
+  "city": "Seattle",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 47.6062,
+    "longitude": -122.3321
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    }
+  },
+  {
+    "city": "Ketchikan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Glacier Bay",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Victoria",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    }
+  }
+],
+      description: "This handpicked escape begins in Seattle and travels through Alaska's iconic waterscapes. Discover Ketchikan, Juneau, Glacier Bay, Victoria as each day brings new stories and every night offers elegant repose.",
+      distance: "538 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Seattle to Ketchikan"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Ketchikan to Juneau"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Juneau to Glacier Bay"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from Glacier Bay to Victoria"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Sailing from Victoria to Seattle"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Seattle"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Ketchikan"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Glacier Bay"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Victoria"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 16",
+    "duration": "1 days",
+    "description": "Exploring Seattle"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Louis Gibson",
+        role: "Corporate Concierge",
+        languages: ["Hindi","Marathi"],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/men/21.jpg",
+        contact: {
+          contactEmail: "mystical.passage.of.@velarivoyages.com",
+          contactNumber: "+1-948-613-9964"
+        }
+      }
+    ],
+    title: "Mystical Passage of the Sound of Silence",
+    description: "This handpicked escape begins in Seattle and travels through Alaska's iconic waterscapes. Discover Ketchikan, Juneau, Glacier Bay, Victoria as each day brings new stories and every night offers elegant repose.",
+    rating: 4.6,
+    tags: ["long-distance","culinary","romantic"]
+  },
+  {
+    basePrice: 8136,
+    departureLocation: {
+  "city": "Seattle",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 47.6062,
+    "longitude": -122.3321
+  }
+},
+    arrivalLocation: {
+  "city": "Seattle",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 47.6062,
+    "longitude": -122.3321
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    }
+  },
+  {
+    "city": "Sitka",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Ketchikan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Skagway",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    }
+  }
+],
+      description: "Let the winds of the Alaska carry you from Seattle to the most stunning ports in the region. With destinations like Sitka, Ketchikan, Skagway, this lullaby redefines luxury travel.",
+      distance: "1109 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Seattle to Sitka"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Sitka to Ketchikan"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Ketchikan to Skagway"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Skagway to Seattle"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Seattle"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Sitka"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Ketchikan"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Skagway"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Seattle"
+  }
+]
+    },
+    tourCategoryId: "luxury-cruise",
+    contactPersonnel: [
+      {
+        name: "Jesse Coleman",
+        role: "Corporate Concierge",
+        languages: ["Hindi","Marathi"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/83.jpg",
+        contact: {
+          contactEmail: "sublime.discovery.of@velarivoyages.com",
+          contactNumber: "+1-248-830-9137"
+        }
+      }
+    ],
+    title: "Sublime Discovery of the Forest by the Sea",
+    description: "Let the winds of the Alaska carry you from Seattle to the most stunning ports in the region. With destinations like Sitka, Ketchikan, Skagway, this lullaby redefines luxury travel.",
+    rating: 4.4,
+    tags: ["luxury"]
+  },
+  {
+    basePrice: 1179,
+    departureLocation: {
+  "city": "Seattle",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 47.6062,
+    "longitude": -122.3321
+  }
+},
+    arrivalLocation: {
+  "city": "Ketchikan",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Victoria",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Ketchikan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Board in Seattle for a hand-crafted embrace through the breathtaking Alaska. Highlights include sun-drenched beaches, historic ports, and immersive culture in Juneau, Victoria, Ketchikan.",
+      distance: "1344 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Seattle to Juneau"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Juneau to Victoria"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Victoria to Ketchikan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Seattle"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Victoria"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Ketchikan"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Frank Montgomery",
+        role: "Corporate Concierge",
+        languages: ["Hindi","Marathi"],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/men/93.jpg",
+        contact: {
+          contactEmail: "harmonic.realm.of.th@velarivoyages.com",
+          contactNumber: "+1-721-558-7231"
+        }
+      }
+    ],
+    title: "Harmonic Realm of the Tundra Tides",
+    description: "Board in Seattle for a hand-crafted embrace through the breathtaking Alaska. Highlights include sun-drenched beaches, historic ports, and immersive culture in Juneau, Victoria, Ketchikan.",
+    rating: 4.8,
+    tags: ["fall-cruise","historical","cruise-vacation"]
+  },
+  {
+    basePrice: 1043,
+    departureLocation: {
+  "city": "Seattle",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 47.6062,
+    "longitude": -122.3321
+  }
+},
+    arrivalLocation: {
+  "city": "Seattle",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 47.6062,
+    "longitude": -122.3321
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    }
+  },
+  {
+    "city": "Glacier Bay",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Ketchikan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Skagway",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    }
+  }
+],
+      description: "An escape like no other begins in Seattle, where your voyage launches into the heart of Alaska. Discover the magic of Glacier Bay, Ketchikan, Skagway with style and sophistication.",
+      distance: "771 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Seattle to Glacier Bay"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Glacier Bay to Ketchikan"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Ketchikan to Skagway"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Sailing from Skagway to Seattle"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Seattle"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Glacier Bay"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Ketchikan"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Skagway"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Exploring Seattle"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Andrew West",
+        role: "Corporate Concierge",
+        languages: ["Hindi","Marathi"],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/18.jpg",
+        contact: {
+          contactEmail: "aweinspiring.escape.@velarivoyages.com",
+          contactNumber: "+1-297-790-5045"
+        }
+      }
+    ],
+    title: "Awe-Inspiring Escape of the Tundra Tides",
+    description: "An escape like no other begins in Seattle, where your voyage launches into the heart of Alaska. Discover the magic of Glacier Bay, Ketchikan, Skagway with style and sophistication.",
+    rating: 4.4,
+    tags: ["expedition","glacier-cruise"]
   }
 ];
