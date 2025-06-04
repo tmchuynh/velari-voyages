@@ -1,7 +1,9 @@
 "use client";
+import Loading from "@/components/Loading";
 import { Card } from "@/components/ui/card";
 import { cityFiles } from "@/lib/constants/info/city";
 import { Restaurant } from "@/lib/types/types";
+import { formatTitleToKebabCase } from "@/lib/utils/format";
 import { getAllRestaurantsFromCity } from "@/lib/utils/get";
 import Image from "next/image";
 import Link from "next/link";
@@ -51,12 +53,7 @@ export default function RestaurantPage() {
   console.log("All Restaurants:", allRestaurants);
 
   if (loading) {
-    return (
-      <div className="mx-auto p-6 container">
-        <h1 className="mb-6 font-bold text-3xl">Restaurants</h1>
-        <p>Loading restaurants...</p>
-      </div>
-    );
+    return <Loading />;
   }
 
   if (error || allRestaurants.length === 0) {
@@ -76,47 +73,52 @@ export default function RestaurantPage() {
 
       <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {cityRestaurants.map(({ city, restaurants }, index) =>
-          restaurants.map((restaurant, index) => (
-            <Card key={index} className="overflow-hidden">
-              <div className="relative h-48">
-                {restaurant.images && restaurant.images.length > 0 ? (
-                  <Image
-                    src={restaurant.images[0]}
-                    alt={restaurant.name}
-                    fill
-                    className="object-cover"
-                  />
-                ) : (
-                  <div className="flex justify-center items-center bg-gray-200 w-full h-full">
-                    No image available
-                  </div>
-                )}
-              </div>
-              <div className="p-4">
-                <h2 className="mb-2 font-bold text-xl">{restaurant.name}</h2>
-                <p className="mb-1 text-gray-500 text-sm">
-                  Cuisine: {restaurant.cuisine}
-                </p>
-                <p className="mb-3 text-gray-500 text-sm">
-                  Price Range: {restaurant.priceRange}
-                </p>
-                <p className="mb-4 text-sm line-clamp-2">
-                  {restaurant.description}
-                </p>
+          restaurants.map((restaurant, index) => {
+            const fileName = formatTitleToKebabCase(restaurant.name) + "Menu";
 
-                <Link
-                  href={`/cruises/restaurants/${restaurant.name
-                    .toLowerCase()
-                    .replace(/\s+/g, "-")}?restaurant=${
-                    restaurant.name
-                  }&city=${city}`}
-                  className="text-primary text-sm hover:underline"
-                >
-                  View Menu & Details
-                </Link>
-              </div>
-            </Card>
-          ))
+            return (
+              <Card key={index} className="overflow-hidden">
+                <div className="relative h-48">
+                  {restaurant.images && restaurant.images.length > 0 ? (
+                    <Image
+                      src={restaurant.images[0]}
+                      alt={restaurant.name}
+                      className="w-full h-full object-cover object-center"
+                      fill
+                    />
+                  ) : (
+                    <div className="flex justify-center items-center bg-gray-200 w-full h-full">
+                      No image available
+                    </div>
+                  )}
+                </div>
+                <div className="p-4">
+                  <h2 className="mb-2 font-bold text-xl">{restaurant.name}</h2>
+                  <p className="mb-1 text-gray-500 text-sm">
+                    Cuisine: {restaurant.cuisine}
+                  </p>
+                  <p className="mb-3 text-gray-500 text-sm">
+                    Price Range: {restaurant.priceRange}
+                  </p>
+                  <p className="mb-4 text-sm line-clamp-2">
+                    {restaurant.description}
+                  </p>
+
+                  <Link
+                    href={`/cruises/restaurants/${restaurant.name
+                      .toLowerCase()
+                      .replace(
+                        /\s+/g,
+                        "-"
+                      )}?restaurant=${fileName}&city=${city}`}
+                    className="text-primary text-sm hover:underline"
+                  >
+                    View Menu & Details
+                  </Link>
+                </div>
+              </Card>
+            );
+          })
         )}
       </div>
     </div>
