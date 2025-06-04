@@ -1,1473 +1,1300 @@
-import { CrewMember } from "@/lib/interfaces/people/staff.ts";
+import { CrewMember } from "@/lib/interfaces/people/staff";
 
-export const quebeccityTeamMembers:CrewMember[] = [
+export const quebeccityTeamMembers: CrewMember[] = [
   {
-    "name": "Emma Jones",
+    "name": "David Jones",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "Emma Jones is an experienced Captain with 9 years of service in the maritime industry.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/captain-jones.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Garcia",
-    "role": "First Officer",
-    "department": "Deck Department",
-    "bio": "Sophia Garcia is an experienced First Officer with 7 years of service in the maritime industry.",
+    "bio": "Drawing on 6 years of command, David Jones expertly manages all aspects of vessel operation in undefined, emphasizing crew development and operational excellence.",
     "languages": [
       "French",
       "English"
     ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/first-officer-garcia.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Robert Garcia",
+    "name": "Emma Smith",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "First Officer Smith supports the Captain by managing daily operations and maintaining vessel readiness, backed by extensive experience in undefined.",
+    "languages": [
+      "Italian",
+      "English",
+      "Japanese"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "James Martinez",
     "role": "Second Officer",
     "department": "Deck Department",
-    "bio": "Robert Garcia is an experienced Second Officer with 13 years of service in the maritime industry.",
+    "bio": "James Martinez is skilled in passage planning software and integrated bridge systems, contributing 12 years of knowledge to operations in undefined.",
     "languages": [
-      "German",
-      "Spanish",
+      "French",
+      "Mandarin",
       "English"
     ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/second-officer-garcia.jpg",
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Sophia Martinez",
+    "name": "James Miller",
     "role": "Third Officer",
     "department": "Deck Department",
-    "bio": "Sophia Martinez is an experienced Third Officer with 18 years of service in the maritime industry.",
+    "bio": "Third Officer Miller conducts regular safety inspections and coordinates emergency drills, enhancing onboard security across undefined.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Miller",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "With 16 years dedicated to undefined routes, Sarah Miller excels in dynamic positioning and integrated navigation systems management.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/8.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "James Davis",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "James Davis conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in undefined's maritime operations.",
+    "languages": [
+      "Portuguese",
+      "Russian",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Miller",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Deck Cadet Miller learns shipboard operations under experienced officers, preparing for a future leadership role in undefined waters.",
+    "languages": [
+      "Mandarin",
+      "French",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Brown",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Leveraging 5 years of seamanship, Bosun Brown is an expert in rigging, anchoring, and all aspects of deck machinery operation in undefined.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Williams",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Sophia Williams oversees all vessel systems with 5 years of expertise in maritime engineering, specializing in vessel automation and ensuring compliance with safety and environmental regulations.",
     "languages": [
       "English",
       "Spanish"
     ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/third-officer-martinez.jpg",
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Michael Jones",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "Michael Jones is an experienced Navigation Officer with 17 years of service in the maritime industry.",
+    "name": "David Williams",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "Drawing on 9 years, David Williams takes charge of the engine room in the Chief Engineer's absence, ensuring all systems run smoothly and efficiently.",
     "languages": [
-      "French",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/navigation-officer-jones.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Jones",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "Maria Jones is an experienced Safety Officer with 17 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/safety-officer-jones.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Williams",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "Emma Williams is an experienced Deck Cadet with 8 years of service in the maritime industry.",
-    "languages": [
-      "French",
       "English",
-      "Arabic"
+      "Portuguese",
+      "Mandarin"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Brown",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Sophia Brown plays an integral role in maintaining fuel efficiency and reducing emissions through optimized machinery operation.",
+    "languages": [
+      "Mandarin",
+      "English"
     ],
     "experienceYears": 8,
-    "profileImage": "/images/crew/deck-cadet-williams.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Robert Rodriguez",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Robert Rodriguez is an experienced Bosun with 16 years of service in the maritime industry.",
+    "name": "Sophia Williams",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Sophia Williams implements energy-saving technologies and complies with international standards for electrical safety aboard ships.",
     "languages": [
-      "Russian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Garcia",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "With 10 years of mechanical expertise, Emma Garcia maintains critical ship machinery, including pumps, compressors, and hydraulic systems.",
+    "languages": [
+      "French",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/94.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "John Rodriguez",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "HVAC Engineer Rodriguez ensures optimal climate control aboard vessels, leveraging 12 years of system optimization and energy efficiency knowledge.",
+    "languages": [
+      "Arabic",
       "Mandarin",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/97.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "With 16 years focused on sustainability, Michael Miller develops and implements environmental protection measures aboard ships, ensuring regulatory compliance.",
+    "languages": [
+      "German",
+      "Spanish",
       "English"
     ],
     "experienceYears": 16,
-    "profileImage": "/images/crew/bosun-rodriguez.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "John Jones",
-    "role": "Chief Engineer",
+    "name": "Emma Rodriguez",
+    "role": "Systems Engineer",
     "department": "Engineering Department",
-    "bio": "John Jones is an experienced Chief Engineer with 7 years of service in the maritime industry.",
+    "bio": "Emma Rodriguez integrates complex onboard systems, ensuring operational synergy and reliability with 18 years of maritime engineering expertise.",
     "languages": [
-      "Arabic",
-      "Spanish",
+      "Portuguese",
+      "French",
+      "Italian",
       "English"
     ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/chief-engineer-jones.jpg",
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Sophia Martinez",
-    "role": "First Engineer",
+    "name": "Sarah Rodriguez",
+    "role": "Technical Manager",
     "department": "Engineering Department",
-    "bio": "Sophia Martinez is an experienced First Engineer with 14 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/first-engineer-martinez.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Garcia",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "Emma Garcia is an experienced Second Engineer with 10 years of service in the maritime industry.",
+    "bio": "Technical Manager Rodriguez oversees budgeting, procurement, and scheduling of maintenance to optimize vessel availability and lifecycle costs.",
     "languages": [
       "French",
       "English"
     ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/second-engineer-garcia.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "James Davis",
-    "role": "Electrical Engineer",
+    "name": "Sarah Martinez",
+    "role": "Maintenance Engineer",
     "department": "Engineering Department",
-    "bio": "James Davis is an experienced Electrical Engineer with 19 years of service in the maritime industry.",
+    "bio": "Maintenance Engineer Martinez applies 8 years of hands-on expertise maintaining and repairing shipboard mechanical and electrical equipment.",
     "languages": [
-      "Arabic",
+      "Japanese",
       "English"
     ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/electrical-engineer-davis.jpg",
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Michael Davis",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "Michael Davis is an experienced Mechanical Engineer with 9 years of service in the maritime industry.",
+    "name": "Sarah Smith",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Security Director Smith leads threat analysis initiatives and implements advanced security measures to safeguard vessel integrity.",
     "languages": [
       "English",
-      "Japanese"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/mechanical-engineer-davis.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Rodriguez",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "Sophia Rodriguez is an experienced HVAC Engineer with 17 years of service in the maritime industry.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/hvac-engineer-rodriguez.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Garcia",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Emma Garcia is an experienced Environmental Engineer with 15 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
       "German",
+      "Italian"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/90.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Brown",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Leveraging 15 years of maritime security experience, Maria Brown excels in threat detection and proactive deterrence measures.",
+    "languages": [
+      "Spanish",
+      "Italian",
       "English"
     ],
     "experienceYears": 15,
-    "profileImage": "/images/crew/environmental-engineer-garcia.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "David Jones",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "David Jones is an experienced Systems Engineer with 11 years of service in the maritime industry.",
-    "languages": [
-      "English",
-      "Arabic"
-    ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/systems-engineer-jones.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Brown",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "Michael Brown is an experienced Technical Manager with 8 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/technical-manager-brown.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Williams",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Emma Williams is an experienced Maintenance Engineer with 12 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "French",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/maintenance-engineer-williams.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Williams",
-    "role": "Security Director",
+    "name": "Sophia Johnson",
+    "role": "Security Specialist",
     "department": "Security Department",
-    "bio": "Maria Williams is an experienced Security Director with 7 years of service in the maritime industry.",
+    "bio": "Drawing on 15 years, Sophia Johnson has in-depth knowledge of non-lethal defense tactics and anti-piracy measures.",
     "languages": [
-      "Italian",
+      "German",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/96.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Williams",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "With a background in IT security, Sarah Williams safeguards shipboard communication and control systems against cyber threats, ensuring data integrity and system availability.",
+    "languages": [
+      "Mandarin",
+      "Japanese",
       "English"
     ],
     "experienceYears": 7,
-    "profileImage": "/images/crew/security-director-williams.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/49.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Brown",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Michael Brown is an experienced Security Officer with 6 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/security-officer-brown.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Martinez",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "John Martinez is an experienced Security Specialist with 13 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "Portuguese",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/security-specialist-martinez.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Rodriguez",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Robert Rodriguez is an experienced Cybersecurity Officer with 6 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/cybersecurity-officer-rodriguez.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Williams",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "James Williams is an experienced Maritime Security Coordinator with 10 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/maritime-security-coordinator-williams.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Jones",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Robert Jones is an experienced Access Control Officer with 10 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/access-control-officer-jones.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Martinez",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "James Martinez is an experienced Safety Compliance Officer with 8 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/safety-compliance-officer-martinez.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Miller",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "John Miller is an experienced Youth Program Director with 10 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "Italian",
-      "French",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/youth-program-director-miller.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Williams",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "John Williams is an experienced Family Activities Coordinator with 12 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/family-activities-coordinator-williams.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Garcia",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Robert Garcia is an experienced Children's Entertainment Specialist with 8 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/children's-entertainment-specialist-garcia.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
     "name": "Sarah Jones",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Sarah Jones is an experienced Teen Activities Coordinator with 11 years of service in the maritime industry.",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Sarah Jones coordinates security protocols and emergency responses, drawing on 18 years in maritime operations and multi-agency collaboration.",
     "languages": [
-      "Arabic",
+      "Italian",
+      "Portuguese",
       "English"
     ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/teen-activities-coordinator-jones.jpg",
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "John Smith",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "John Smith is an experienced Educational Program Manager with 9 years of service in the maritime industry.",
+    "name": "Michael Brown",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Access Control Officer Brown plays a crucial role in gangway security and managing visitor identification processes, a responsibility held for 18 years.",
     "languages": [
-      "Arabic",
+      "Italian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Brown",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "With a thorough understanding of hazard identification and mitigation, Michael Brown leads incident investigations and corrective action plans.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "James Johnson",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "James Johnson designs and leads engaging youth programs, applying 10 years in educational, recreational, and developmental management onboard.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Garcia",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Focused on safety and accessibility, Michael Garcia ensures all family activities comply with onboard regulations and guest expectations.",
+    "languages": [
+      "Spanish",
       "Mandarin",
       "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/educational-program-manager-smith.jpg",
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/90.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "John Davis",
+    "name": "Olivia Smith",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Children's Entertainment Specialist Smith collaborates with youth program teams to develop diverse content promoting creativity and social interaction.",
+    "languages": [
+      "Italian",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Brown",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Focused on safety and inclusivity, Emma Brown maintains open communication with parents and guardians regarding teen program activities.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Davis",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Focused on accessibility, Olivia Davis ensures programs accommodate different learning styles and abilities for broad passenger appeal.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Miller",
     "role": "Child Care Specialist",
     "department": "Youth & Family Programs",
-    "bio": "John Davis is an experienced Child Care Specialist with 17 years of service in the maritime industry.",
+    "bio": "Sophia Miller excels at engaging children with age-appropriate crafts, stories, and games, drawing from 8 years of experience in child-focused roles.",
     "languages": [
-      "Japanese",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Miller",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "With strong organizational skills, Robert Miller manages budgets, resources, and partnerships to deliver high-quality recreational services.",
+    "languages": [
+      "English",
+      "Russian"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/92.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Garcia",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Leveraging 13 years of experience, Michael Garcia is certified to instruct activities such as snorkeling, kayaking, and paddleboarding in diverse marine environments.",
+    "languages": [
+      "Italian",
       "Arabic",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/99.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "David Davis",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Drawing on 5 years of expertise, David Davis offers specialized classes like yoga, Pilates, and high-intensity interval training (HIIT).",
+    "languages": [
+      "Arabic",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Miller",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Leveraging 13 years of experience, Sarah Miller curates a portfolio of unique and authentic shore excursions that showcase the best of each port.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "John Johnson",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Drawing on 17 years behind the lens, John Johnson expertly captures the essence of the cruise experience, from grand events to intimate moments.",
+    "languages": [
+      "Mandarin",
       "Russian",
       "English"
     ],
     "experienceYears": 17,
-    "profileImage": "/images/crew/child-care-specialist-davis.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Michael Davis",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "Michael Davis is an experienced Activities Director with 18 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "English",
-      "French"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/activities-director-davis.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Davis",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Emma Davis is an experienced Water Sports Instructor with 8 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/water-sports-instructor-davis.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Johnson",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Robert Johnson is an experienced Fitness Instructor with 16 years of service in the maritime industry.",
-    "languages": [
-      "English",
-      "Arabic"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/fitness-instructor-johnson.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Miller",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "James Miller is an experienced Excursion Coordinator with 7 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "Mandarin",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/excursion-coordinator-miller.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Miller",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "John Miller is an experienced Lead Photographer with 18 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/lead-photographer-miller.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Smith",
+    "name": "Michael Johnson",
     "role": "Videographer",
     "department": "Photography & Videography",
-    "bio": "Emma Smith is an experienced Videographer with 18 years of service in the maritime industry.",
+    "bio": "Michael Johnson uses 14 years of editing expertise to transform raw footage into engaging narratives that resonate with passengers and promote future voyages.",
     "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/videographer-smith.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Brown",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "Olivia Brown is an experienced Digital Media Specialist with 8 years of service in the maritime industry.",
-    "languages": [
+      "Italian",
       "Russian",
       "English"
     ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/digital-media-specialist-brown.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Emma Miller",
+    "name": "David Miller",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Digital Media Specialist Miller ensures an engaging online presence by creating and curating multimedia content tailored to diverse passenger demographics.",
+    "languages": [
+      "Portuguese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Rodriguez",
     "role": "Chief Medical Officer",
     "department": "Health & Safety",
-    "bio": "Emma Miller is an experienced Chief Medical Officer with 18 years of service in the maritime industry.",
+    "bio": "Chief Medical Officer Rodriguez maintains medical supplies and liaises with shore-based health facilities to support comprehensive care.",
     "languages": [
       "Spanish",
-      "Portuguese",
+      "German",
       "English"
     ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/chief-medical-officer-miller.jpg",
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Maria Miller",
+    "name": "Emma Williams",
     "role": "Ship's Doctor",
     "department": "Health & Safety",
-    "bio": "Maria Miller is an experienced Ship's Doctor with 8 years of service in the maritime industry.",
+    "bio": "Dr. Williams, drawing from 17 years in travel and maritime health, offers expert advice on pre-existing conditions and destination-specific health risks.",
     "languages": [
-      "Spanish",
-      "French",
+      "Italian",
+      "Japanese",
       "English"
     ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/ship's-doctor-miller.jpg",
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "David Rodriguez",
+    "name": "James Davis",
     "role": "Nurse",
     "department": "Health & Safety",
-    "bio": "David Rodriguez is an experienced Nurse with 19 years of service in the maritime industry.",
+    "bio": "Nurse Davis is experienced in managing chronic health conditions at sea and providing ongoing support to guests with specific medical needs, drawing from 6 years of practice.",
     "languages": [
-      "French",
-      "Mandarin",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/nurse-rodriguez.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Brown",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Olivia Brown is an experienced Safety Officer with 6 years of service in the maritime industry.",
-    "languages": [
-      "German",
       "Russian",
       "Mandarin",
       "English"
     ],
     "experienceYears": 6,
-    "profileImage": "/images/crew/safety-officer-brown.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Olivia Rodriguez",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "Olivia Rodriguez is an experienced Hospitality Director with 16 years of service in the maritime industry.",
+    "name": "Sophia Jones",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Sophia Jones enforces safety standards and conducts training programs, drawing on 10 years of maritime safety expertise to minimize risks onboard.",
     "languages": [
-      "Arabic",
-      "Italian",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/hospitality-director-rodriguez.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "Robert Smith is an experienced Guest Relations Manager with 10 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/guest-relations-manager-smith.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Jones",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Emma Jones is an experienced Chief Steward with 17 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/chief-steward-jones.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Williams",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "James Williams is an experienced Senior Steward with 15 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/senior-steward-williams.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Garcia",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "Sophia Garcia is an experienced Butler with 13 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
       "French",
       "Portuguese",
       "English"
     ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/butler-garcia.jpg",
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Miller",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "With 18 years in hospitality management, Olivia Miller drives operational excellence and team performance onboard.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Guest Relations Manager Johnson enhances passenger satisfaction through attentive and personalized service.",
+    "languages": [
+      "Russian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/90.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Johnson",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Sophia Johnson ensures the highest standards of cleanliness and comfort throughout passenger accommodations.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Jones",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Sophia Jones provides exceptional valet services and anticipates guest needs, contributing to a luxurious and comfortable onboard experience over 19 years.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "James Williams",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "James Williams anticipates guest needs to deliver tailored luxury experiences throughout the voyage.",
+    "languages": [
+      "Italian",
+      "Portuguese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/87.jpg",
+    "city": "Quebec City",
+    "country": "Global"
   },
   {
     "name": "Sophia Garcia",
     "role": "Accommodation Manager",
     "department": "Hospitality Department",
-    "bio": "Sophia Garcia is an experienced Accommodation Manager with 8 years of service in the maritime industry.",
+    "bio": "Accommodation Manager Garcia plays a key role in inventory control for linens, amenities, and cleaning supplies, optimizing resources over 16 years.",
     "languages": [
-      "Portuguese",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/accommodation-manager-garcia.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Brown",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "Michael Brown is an experienced Housekeeping Supervisor with 17 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "Mandarin",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/housekeeping-supervisor-brown.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Johnson",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Emma Johnson is an experienced Guest Services Specialist with 12 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/guest-services-specialist-johnson.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Rodriguez",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "Robert Rodriguez is an experienced Concierge with 5 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/concierge-rodriguez.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Jones",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Sarah Jones is an experienced Front Desk Manager with 11 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/front-desk-manager-jones.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Smith",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "Maria Smith is an experienced VIP Coordinator with 7 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/vip-coordinator-smith.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Davis",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Michael Davis is an experienced Hospitality Trainer with 6 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/hospitality-trainer-davis.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Johnson",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Olivia Johnson is an experienced Executive Chef with 16 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "Italian",
+      "Japanese",
       "English"
     ],
     "experienceYears": 16,
-    "profileImage": "/images/crew/executive-chef-johnson.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Robert Miller",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "Robert Miller is an experienced Sous Chef with 13 years of service in the maritime industry.",
+    "name": "James Jones",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Jones is committed to sustainability in cleaning practices, implementing eco-friendly procedures throughout their 13 years of service.",
     "languages": [
-      "Mandarin",
+      "Italian",
       "English"
     ],
     "experienceYears": 13,
-    "profileImage": "/images/crew/sous-chef-miller.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Sophia Johnson",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "Sophia Johnson is an experienced Pastry Chef with 12 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/pastry-chef-johnson.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Rodriguez",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Olivia Rodriguez is an experienced Chef de Partie with 12 years of service in the maritime industry.",
+    "name": "Michael Miller",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Guest Services Specialist Miller efficiently handles onboard account management, reservations for activities, and general assistance with a friendly and professional demeanor.",
     "languages": [
       "Italian",
-      "Japanese",
       "English"
     ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/chef-de-partie-rodriguez.jpg",
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Robert Davis",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Robert Davis is an experienced Specialty Chef with 8 years of service in the maritime industry.",
+    "name": "Sophia Brown",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Concierge Brown offers expert local knowledge and personalized recommendations to enrich guest journeys.",
     "languages": [
-      "Italian",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/specialty-chef-davis.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Miller",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Sophia Miller is an experienced Sushi Chef with 17 years of service in the maritime industry.",
-    "languages": [
-      "French",
+      "Spanish",
       "English"
     ],
     "experienceYears": 17,
-    "profileImage": "/images/crew/sushi-chef-miller.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Olivia Jones",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "Olivia Jones is an experienced Garde Manger with 19 years of service in the maritime industry.",
+    "name": "Robert Brown",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Front Desk Manager Brown oversees reception operations, ensuring efficient guest check-in and issue resolution.",
     "languages": [
-      "Japanese",
+      "German",
+      "Mandarin",
       "English"
     ],
     "experienceYears": 19,
-    "profileImage": "/images/crew/garde-manger-jones.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "David Jones",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "David Jones is an experienced Butcher with 18 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/butcher-jones.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Miller",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "David Miller is an experienced Baker with 9 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "Portuguese",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/baker-miller.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Jones",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "James Jones is an experienced Sommelier with 10 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/sommelier-jones.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Smith",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "Maria Smith is an experienced Mixologist with 9 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/mixologist-smith.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Williams",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Michael Williams is an experienced Barista with 18 years of service in the maritime industry.",
-    "languages": [
-      "English",
-      "German"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/barista-williams.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Jones",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Maria Jones is an experienced Nutritionist with 10 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/nutritionist-jones.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Brown",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "Sarah Brown is an experienced Entertainment Director with 5 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/entertainment-director-brown.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Smith",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "John Smith is an experienced Performance Coordinator with 15 years of service in the maritime industry.",
+    "name": "James Miller",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "VIP Coordinator Miller manages exclusive guest services, ensuring privacy and personalized attention throughout the voyage.",
     "languages": [
       "Portuguese",
-      "Spanish",
       "English"
     ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/performance-coordinator-smith.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "John Jones",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "John Jones is an experienced Lead Vocalist with 5 years of service in the maritime industry.",
+    "name": "Maria Brown",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "With 6 years of designing and delivering impactful training, Maria Brown empowers staff with the knowledge and skills to provide outstanding service.",
     "languages": [
       "Arabic",
       "English"
     ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/lead-vocalist-jones.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Smith",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "Michael Smith is an experienced Musician with 11 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/musician-smith.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Johnson",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Robert Johnson is an experienced Dancer with 6 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "Spanish",
-      "English"
-    ],
     "experienceYears": 6,
-    "profileImage": "/images/crew/dancer-johnson.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Davis",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Michael Davis is an experienced Choreographer with 9 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/choreographer-davis.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Jones",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "James Jones is an experienced Comedy Performer with 14 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "Portuguese",
-      "German",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/comedy-performer-jones.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Davis",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "Emma Davis is an experienced Magic Act with 6 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "Portuguese",
-      "German",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/magic-act-davis.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Jones",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "Sophia Jones is an experienced DJ with 16 years of service in the maritime industry.",
-    "languages": [
-      "English",
-      "French"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/dj-jones.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Garcia",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Michael Garcia is an experienced Audio Technician with 15 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "German",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/audio-technician-garcia.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Davis",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "John Davis is an experienced Lighting Specialist with 16 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/lighting-specialist-davis.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Martinez",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "Michael Martinez is an experienced Stage Manager with 11 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/stage-manager-martinez.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Rodriguez",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "David Rodriguez is an experienced Production Manager with 11 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Japanese",
-      "German",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/production-manager-rodriguez.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Davis",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Sarah Davis is an experienced Costume Designer with 19 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/costume-designer-davis.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Johnson",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Michael Johnson is an experienced Cultural Program Director with 11 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "English",
-      "Spanish"
-    ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/cultural-program-director-johnson.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "Robert Smith is an experienced Performance Artist with 19 years of service in the maritime industry.",
-    "languages": [
-      "English",
-      "Mandarin"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/performance-artist-smith.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
     "name": "Olivia Smith",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Olivia Smith is an experienced Operations Manager with 15 years of service in the maritime industry.",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Beyond crafting exquisite Japanese, Chef Smith expertly manages kitchen hygiene, inventory, and food cost control, honed over 5 years in demanding culinary environments.",
+    "languages": [
+      "Arabic",
+      "Italian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/5.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Martinez",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "With 13 years in high-volume kitchens, Sous Chef Martinez is adept at managing specific stations and stepping in for the Executive Chef as needed.",
     "languages": [
       "Japanese",
+      "Mandarin",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Martinez",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Olivia Martinez blends creativity and technique to deliver memorable pastry experiences for guests.",
+    "languages": [
+      "French",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Miller",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Emma Miller maintains immaculate standards of organization and hygiene at their station, contributing to the kitchen's overall efficiency with 10 years of discipline.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Smith",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Master of {cuisineSpecific} cuisine, Michael Smith creates authentic dishes that transport guests to undefined, drawing on 15 years of dedicated culinary exploration.",
+    "languages": [
       "English"
     ],
     "experienceYears": 15,
-    "profileImage": "/images/crew/operations-manager-smith.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "David Davis",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "David Davis is an experienced Logistics Coordinator with 6 years of service in the maritime industry.",
+    "name": "Maria Johnson",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Maria Johnson delights guests with traditional Edomae-style sushi and contemporary maki rolls, showcasing skills honed over 14 years of rigorous training.",
     "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/logistics-coordinator-davis.jpg",
-    "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Davis",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "Olivia Davis is an experienced Inventory Specialist with 7 years of service in the maritime industry.",
-    "languages": [
+      "Mandarin",
       "Spanish",
       "English"
     ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/inventory-specialist-davis.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Olivia Williams",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "Olivia Williams is an experienced Procurement Officer with 7 years of service in the maritime industry.",
+    "name": "Emma Williams",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Emma Williams maintains high standards in food presentation and safety for all cold kitchen offerings.",
+    "languages": [
+      "Japanese",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Smith",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Butcher Smith manages meat inventory and advises chefs on the best cuts for specific culinary applications, drawing on 19 years of specialized knowledge.",
+    "languages": [
+      "French",
+      "English",
+      "Spanish"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/84.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "David Martinez",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "With 14 years dedicated to the art of baking, David Martinez fills the ship with the aroma of freshly baked artisan breads, pastries, and viennoiserie.",
+    "languages": [
+      "Portuguese",
+      "Italian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/99.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "James Smith",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "James Smith enhances dining experiences by sourcing and recommending premium wines.",
+    "languages": [
+      "Japanese",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "David Martinez",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "David Martinez delivers exceptional beverage experiences tailored to guest preferences onboard.",
+    "languages": [
+      "Russian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/92.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Johnson",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Barista Johnson prepares specialty coffees with precision, backed by 17 years in coffee service.",
+    "languages": [
+      "German",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/56.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Nutritionist Miller designs balanced menus catering to health-conscious guests, leveraging 16 years of dietary expertise.",
+    "languages": [
+      "French",
+      "English",
+      "Russian"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Williams",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Entertainment Director Williams leads a dynamic team of performers and technicians, ensuring flawless execution and high-energy engagement across all venues, backed by 12 years of industry leadership.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Garcia",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Performance Coordinator Garcia supports talent and technical teams to deliver seamless shows.",
+    "languages": [
+      "Spanish",
+      "Mandarin",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "John Martinez",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "As a key figure in production shows, Lead Vocalist Martinez collaborates with the cast and creative team, bringing 16 years of professional discipline and artistry.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "A master of the {instrument}, Robert Johnson brings 19 years of versatile musicianship, performing solo or as part of an ensemble in various ship venues.",
     "languages": [
       "Italian",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "John Martinez",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Dancer Martinez brings dynamism and grace to every performance, captivating audiences with technical skill and expressive movement honed over 17 years.",
+    "languages": [
+      "Russian",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "John Martinez",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "John Martinez leads rehearsals and performance design to enhance the entertainment experience onboard.",
+    "languages": [
+      "Japanese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "John Smith",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "John Smith's ability to connect with the audience and improvise, developed over 8 years, makes each show a unique and highly enjoyable experience.",
+    "languages": [
+      "Spanish",
+      "Russian",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "James Davis",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "James Davis brings a unique brand of enchantment to the ship's entertainment, drawing on 7 years of professional magic and a flair for theatrical presentation.",
+    "languages": [
+      "Japanese",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "John Garcia",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "John Garcia keeps dance floors lively with dynamic sets tailored for diverse guest preferences.",
+    "languages": [
+      "Arabic",
+      "Portuguese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "James Martinez",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Audio Technician Martinez expertly operates and maintains complex soundboards, microphones, and speaker systems, ensuring every note and word is perfectly heard.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/90.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Smith",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Robert Smith applies 12 years of technical skill to create immersive visual experiences.",
+    "languages": [
+      "Japanese",
+      "Arabic",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Rodriguez",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Stage Manager Rodriguez is the organizational backbone of the production, liaising between performers, technicians, and the director to maintain artistic integrity and timing.",
+    "languages": [
+      "German",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/96.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Miller",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "With 15 years managing complex theatrical and event productions, Sarah Miller oversees budgeting, scheduling, staffing, and technical riders for all entertainment.",
+    "languages": [
+      "Spanish",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "John Smith",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "John Smith combines creativity and craftsmanship with 13 years of design expertise.",
+    "languages": [
+      "French",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "James Miller",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "James Miller promotes diversity and cultural awareness through engaging onboard programming.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Davis",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Performance Artist Davis delivers unique and innovative acts, blending multiple disciplines with 10 years of artistic practice.",
+    "languages": [
+      "French",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "John Garcia",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Operations Manager Garcia applies 15 years of leadership in maritime operations.",
+    "languages": [
+      "Russian",
+      "English",
+      "Mandarin"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Garcia",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Sarah Garcia leverages 14 years in logistics to optimize onboard operations.",
+    "languages": [
       "German",
       "Russian",
       "English"
     ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/procurement-officer-williams.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Michael Davis",
-    "role": "Sustainability Coordinator",
+    "name": "Emma Davis",
+    "role": "Inventory Specialist",
     "department": "Operations Department",
-    "bio": "Michael Davis is an experienced Sustainability Coordinator with 19 years of service in the maritime industry.",
+    "bio": "Emma Davis ensures accurate inventory control using advanced management systems.",
     "languages": [
+      "Arabic",
       "Mandarin",
-      "German",
-      "Italian",
       "English"
     ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/sustainability-coordinator-davis.jpg",
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
     "city": "Quebec City",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
+  },
+  {
+    "name": "Emma Davis",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Emma Davis applies expertise in vendor management and cost optimization to benefit ship operations.",
+    "languages": [
+      "Portuguese",
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
+    "city": "Quebec City",
+    "country": "Global"
+  },
+  {
+    "name": "James Martinez",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Sustainability Coordinator Martinez ensures compliance with international environmental regulations (e.g., MARPOL) and promotes a culture of sustainability among crew and guests.",
+    "languages": [
+      "German",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/94.jpg",
+    "city": "Quebec City",
+    "country": "Global"
   }
 ];

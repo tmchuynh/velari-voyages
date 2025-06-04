@@ -1,1470 +1,1304 @@
-import { CrewMember } from "@/lib/interfaces/people/staff.ts";
+import { CrewMember } from "@/lib/interfaces/people/staff";
 
-export const sanfranciscoTeamMembers:CrewMember[] = [
-  {
-    "name": "Robert Garcia",
-    "role": "Captain",
-    "department": "Deck Department",
-    "bio": "Robert Garcia is an experienced Captain with 14 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/captain-garcia.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Johnson",
-    "role": "First Officer",
-    "department": "Deck Department",
-    "bio": "Emma Johnson is an experienced First Officer with 8 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/first-officer-johnson.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Garcia",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "Michael Garcia is an experienced Second Officer with 19 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/second-officer-garcia.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Williams",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "David Williams is an experienced Third Officer with 7 years of service in the maritime industry.",
-    "languages": [
-      "English",
-      "German"
-    ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/third-officer-williams.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Williams",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "James Williams is an experienced Navigation Officer with 18 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/navigation-officer-williams.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Smith",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "Sophia Smith is an experienced Safety Officer with 15 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "English",
-      "French"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/safety-officer-smith.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Rodriguez",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "James Rodriguez is an experienced Deck Cadet with 5 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "Arabic",
-      "German",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/deck-cadet-rodriguez.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Johnson",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "James Johnson is an experienced Bosun with 8 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/bosun-johnson.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Garcia",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "Maria Garcia is an experienced Chief Engineer with 10 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/chief-engineer-garcia.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Garcia",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "Olivia Garcia is an experienced First Engineer with 17 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/first-engineer-garcia.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Jones",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "Maria Jones is an experienced Second Engineer with 9 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "French",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/second-engineer-jones.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
+export const sanfranciscoTeamMembers: CrewMember[] = [
   {
     "name": "David Jones",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "David Jones is an experienced Electrical Engineer with 19 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/electrical-engineer-jones.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Miller",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "James Miller is an experienced Mechanical Engineer with 12 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/mechanical-engineer-miller.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Smith",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "Olivia Smith is an experienced HVAC Engineer with 16 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/hvac-engineer-smith.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Martinez",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Robert Martinez is an experienced Environmental Engineer with 17 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/environmental-engineer-martinez.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Davis",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "Michael Davis is an experienced Systems Engineer with 10 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "German",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/systems-engineer-davis.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Rodriguez",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "Sarah Rodriguez is an experienced Technical Manager with 16 years of service in the maritime industry.",
+    "role": "Captain",
+    "department": "Deck Department",
+    "bio": "Captain Jones is a veteran mariner with 5 years in undefined, known for meticulous voyage planning and a steadfast commitment to maritime law.",
     "languages": [
       "Italian",
-      "Arabic",
-      "French",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/technical-manager-rodriguez.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Davis",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Emma Davis is an experienced Maintenance Engineer with 12 years of service in the maritime industry.",
-    "languages": [
       "Portuguese",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/maintenance-engineer-davis.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Martinez",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Emma Martinez is an experienced Security Director with 5 years of service in the maritime industry.",
-    "languages": [
-      "German",
+      "Japanese",
       "English"
     ],
     "experienceYears": 5,
-    "profileImage": "/images/crew/security-director-martinez.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/87.jpg",
     "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "James Johnson",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "James Johnson is an experienced Security Officer with 16 years of service in the maritime industry.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/security-officer-johnson.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Brown",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Robert Brown is an experienced Security Specialist with 15 years of service in the maritime industry.",
+    "name": "Robert Miller",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "Leveraging 6 years of experience in undefined, Robert Miller is adept at cargo operations, stability calculations, and bridge resource management.",
     "languages": [
       "Russian",
-      "Spanish",
-      "German",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/security-specialist-brown.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Martinez",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Michael Martinez is an experienced Cybersecurity Officer with 19 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "German",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/cybersecurity-officer-martinez.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Johnson",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "Michael Johnson is an experienced Maritime Security Coordinator with 8 years of service in the maritime industry.",
-    "languages": [
-      "English",
-      "French"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/maritime-security-coordinator-johnson.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Garcia",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "John Garcia is an experienced Access Control Officer with 6 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "Italian",
       "English"
     ],
     "experienceYears": 6,
-    "profileImage": "/images/crew/access-control-officer-garcia.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
     "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Michael Smith",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Michael Smith is an experienced Safety Compliance Officer with 18 years of service in the maritime industry.",
+    "name": "John Brown",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "John Brown applies 9 years of navigational skills to support safe and efficient voyages across undefined, with strong expertise in chart plotting and communication systems.",
     "languages": [
       "French",
-      "Russian",
+      "Portuguese",
+      "German",
       "English"
     ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/safety-compliance-officer-smith.jpg",
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/88.jpg",
     "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Emma Martinez",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Emma Martinez is an experienced Youth Program Director with 18 years of service in the maritime industry.",
+    "name": "Maria Davis",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "With 18 years dedicated to bridge operations, Maria Davis contributes to seamless voyages through undefined's waterways by monitoring safety and compliance.",
     "languages": [
-      "Russian",
+      "Portuguese",
+      "German",
+      "Italian",
       "English"
     ],
     "experienceYears": 18,
-    "profileImage": "/images/crew/youth-program-director-martinez.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/86.jpg",
     "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Emma Miller",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Emma Miller is an experienced Family Activities Coordinator with 13 years of service in the maritime industry.",
+    "name": "David Brown",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "David Brown collaborates with the bridge team to optimize voyage efficiency, integrating real-time data and weather information specific to undefined.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Davis",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Safety Officer Davis works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
+    "languages": [
+      "Japanese",
+      "French",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Brown",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Under the guidance of senior officers, Deck Cadet Brown is developing a strong foundation in practical navigation and ship handling in undefined.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Brown",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Bosun Brown supervises deck crew operations with 8 years of expertise ensuring maintenance, safety, and efficient handling of equipment aboard ships in undefined.",
+    "languages": [
+      "Japanese",
+      "German",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "John Miller",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "John Miller leads the engineering department with a focus on fuel efficiency and emissions reduction, drawing upon 15 years of innovative practice and power management knowledge.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "With 16 years in marine engineering, Sophia Miller excels in diagnosing faults and executing prompt, effective repairs to critical shipboard machinery.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Smith",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Robert Smith supports engineering operations with 19 years focused on mechanical maintenance, diagnostics, and equipment troubleshooting aboard vessels.",
+    "languages": [
+      "Portuguese",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Davis",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "With 13 years designing, installing, and maintaining vessel electrical infrastructure, Sophia Davis ensures continuous power supply and safety.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Smith",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Maria Smith is skilled in preventive maintenance scheduling and compliance with technical documentation and safety protocols.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/62.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Rodriguez",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "Olivia Rodriguez monitors system performance and implements upgrades to enhance passenger comfort and crew wellbeing.",
+    "languages": [
+      "Italian",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Rodriguez",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Sarah Rodriguez champions innovative solutions for waste reduction and energy efficiency, reflecting 6 years of commitment to maritime sustainability.",
     "languages": [
       "German",
       "English"
     ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/family-activities-coordinator-miller.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
     "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
+  },
+  {
+    "name": "Maria Davis",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Maria Davis integrates complex onboard systems, ensuring operational synergy and reliability with 18 years of maritime engineering expertise.",
+    "languages": [
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "James Johnson",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Technical Manager Johnson oversees budgeting, procurement, and scheduling of maintenance to optimize vessel availability and lifecycle costs.",
+    "languages": [
+      "English",
+      "Italian",
+      "Japanese"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Jones",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Maintenance Engineer Jones applies 6 years of hands-on expertise maintaining and repairing shipboard mechanical and electrical equipment.",
+    "languages": [
+      "Japanese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/88.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Martinez",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Former security services Sophia Martinez leads our security team with 10 years of expertise in maritime safety protocols, risk assessment, and crisis management.",
+    "languages": [
+      "English",
+      "Japanese"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "John Jones",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "John Jones conducts routine security patrols and enforces safety regulations, backed by 17 years in maritime security operations and incident response.",
+    "languages": [
+      "English",
+      "Japanese"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/97.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Johnson",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Security Specialist Johnson designs and delivers bespoke security training programs for crew members, reflecting 19 years of practical insight.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "James Jones",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Leveraging 8 years in cyber defense, James Jones specializes in securing operational technology (OT) unique to maritime assets.",
+    "languages": [
+      "Mandarin",
+      "French",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Rodriguez",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Maritime Security Coordinator Rodriguez leads risk assessment initiatives and supports vessel security certification processes.",
+    "languages": [
+      "Mandarin",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Johnson",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Drawing on 12 years of experience, Maria Johnson is proficient in operating and maintaining advanced access control systems and screening equipment.",
+    "languages": [
+      "English",
+      "Arabic",
+      "French"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Jones",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Safety Compliance Officer Jones promotes a safety-first culture through continuous education and enforcement of best practices.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/92.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "John Johnson",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "John Johnson designs and leads engaging youth programs, applying 5 years in educational, recreational, and developmental management onboard.",
+    "languages": [
+      "Spanish",
+      "French",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Garcia",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Family Activities Coordinator Garcia gathers feedback to adapt programs that enhance passenger satisfaction and engagement.",
+    "languages": [
+      "Spanish",
+      "Arabic",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
+    "city": "San Francisco",
+    "country": "Global"
   },
   {
     "name": "Maria Garcia",
     "role": "Children's Entertainment Specialist",
     "department": "Youth & Family Programs",
-    "bio": "Maria Garcia is an experienced Children's Entertainment Specialist with 13 years of service in the maritime industry.",
+    "bio": "Maria Garcia is passionate about sparking imagination, developing new and exciting entertainment formats for kids over 13 years in the field.",
     "languages": [
-      "English",
-      "Portuguese"
+      "French",
+      "Mandarin",
+      "English"
     ],
     "experienceYears": 13,
-    "profileImage": "/images/crew/children's-entertainment-specialist-garcia.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/8.jpg",
     "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
+  },
+  {
+    "name": "John Williams",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "With knowledge of adolescent development, John Williams balances fun and educational content to engage teens effectively onboard.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Jones",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Educational Program Manager Jones forges partnerships with guest speakers and institutions to provide high-quality learning experiences, leveraging 11 years of networking.",
+    "languages": [
+      "German",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/97.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "James Johnson",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "James Johnson excels at engaging children with age-appropriate crafts, stories, and games, drawing from 5 years of experience in child-focused roles.",
+    "languages": [
+      "Mandarin",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
+    "city": "San Francisco",
+    "country": "Global"
   },
   {
     "name": "Robert Williams",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Robert Williams is an experienced Teen Activities Coordinator with 14 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/teen-activities-coordinator-williams.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Garcia",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "David Garcia is an experienced Educational Program Manager with 8 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "Russian",
-      "French",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/educational-program-manager-garcia.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Jones",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Olivia Jones is an experienced Child Care Specialist with 8 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/child-care-specialist-jones.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Garcia",
     "role": "Activities Director",
     "department": "Activities & Recreation",
-    "bio": "Robert Garcia is an experienced Activities Director with 14 years of service in the maritime industry.",
+    "bio": "Known for innovative programming, Robert Williams continuously evaluates activity trends and passenger feedback to refresh and improve offerings.",
     "languages": [
-      "Arabic",
-      "Mandarin",
+      "German",
       "English"
     ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/activities-director-garcia.jpg",
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
     "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Emma Williams",
+    "name": "James Brown",
     "role": "Water Sports Instructor",
     "department": "Activities & Recreation",
-    "bio": "Emma Williams is an experienced Water Sports Instructor with 11 years of service in the maritime industry.",
+    "bio": "James Brown's primary focus for 14 years has been ensuring every guest feels confident and secure while exploring the water.",
     "languages": [
-      "French",
+      "Spanish",
+      "Russian",
       "English"
     ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/water-sports-instructor-williams.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
     "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "David Johnson",
+    "name": "Sophia Martinez",
     "role": "Fitness Instructor",
     "department": "Activities & Recreation",
-    "bio": "David Johnson is an experienced Fitness Instructor with 12 years of service in the maritime industry.",
+    "bio": "Drawing on 8 years of expertise, Sophia Martinez offers specialized classes like yoga, Pilates, and high-intensity interval training (HIIT).",
     "languages": [
-      "Mandarin",
+      "Russian",
       "Japanese",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/fitness-instructor-johnson.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Brown",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Maria Brown is an experienced Excursion Coordinator with 16 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "Portuguese",
-      "French",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/excursion-coordinator-brown.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Jones",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "David Jones is an experienced Lead Photographer with 10 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/lead-photographer-jones.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Miller",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "James Miller is an experienced Videographer with 15 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/videographer-miller.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Davis",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "John Davis is an experienced Digital Media Specialist with 13 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/digital-media-specialist-davis.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Jones",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Michael Jones is an experienced Chief Medical Officer with 16 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/chief-medical-officer-jones.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Johnson",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "Sophia Johnson is an experienced Ship's Doctor with 11 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/ship's-doctor-johnson.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Rodriguez",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Sarah Rodriguez is an experienced Nurse with 13 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "Mandarin",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/nurse-rodriguez.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Miller",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "James Miller is an experienced Safety Officer with 17 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "German",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/safety-officer-miller.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Garcia",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "Sophia Garcia is an experienced Hospitality Director with 12 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/hospitality-director-garcia.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Johnson",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "Sarah Johnson is an experienced Guest Relations Manager with 13 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/guest-relations-manager-johnson.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Johnson",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "David Johnson is an experienced Chief Steward with 6 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/chief-steward-johnson.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Miller",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "Sophia Miller is an experienced Senior Steward with 17 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "Portuguese",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/senior-steward-miller.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Miller",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "Sarah Miller is an experienced Butler with 18 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/butler-miller.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Garcia",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "James Garcia is an experienced Accommodation Manager with 16 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/accommodation-manager-garcia.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Brown",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "Maria Brown is an experienced Housekeeping Supervisor with 9 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/housekeeping-supervisor-brown.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Garcia",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Maria Garcia is an experienced Guest Services Specialist with 13 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/guest-services-specialist-garcia.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Davis",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "Robert Davis is an experienced Concierge with 7 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/concierge-davis.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Miller",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Michael Miller is an experienced Front Desk Manager with 8 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
       "English"
     ],
     "experienceYears": 8,
-    "profileImage": "/images/crew/front-desk-manager-miller.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/33.jpg",
     "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Davis",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "Sarah Davis is an experienced VIP Coordinator with 17 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Arabic",
-      "German",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/vip-coordinator-davis.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Johnson",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "John Johnson is an experienced Hospitality Trainer with 8 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "German",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/hospitality-trainer-johnson.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Davis",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Sarah Davis is an experienced Executive Chef with 7 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/executive-chef-davis.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Rodriguez",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "Olivia Rodriguez is an experienced Sous Chef with 18 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/sous-chef-rodriguez.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Martinez",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "Michael Martinez is an experienced Pastry Chef with 19 years of service in the maritime industry.",
-    "languages": [
-      "English",
-      "Spanish",
-      "Mandarin"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/pastry-chef-martinez.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Rodriguez",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Michael Rodriguez is an experienced Chef de Partie with 9 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/chef-de-partie-rodriguez.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Rodriguez",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Emma Rodriguez is an experienced Specialty Chef with 14 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/specialty-chef-rodriguez.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Martinez",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Olivia Martinez is an experienced Sushi Chef with 8 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English",
-      "Arabic"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/sushi-chef-martinez.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Williams",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "Sophia Williams is an experienced Garde Manger with 9 years of service in the maritime industry.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/garde-manger-williams.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Jones",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Emma Jones is an experienced Butcher with 9 years of service in the maritime industry.",
-    "languages": [
-      "English",
-      "Japanese"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/butcher-jones.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Martinez",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "David Martinez is an experienced Baker with 5 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/baker-martinez.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Robert Smith is an experienced Sommelier with 13 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/sommelier-smith.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Jones",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "Michael Jones is an experienced Mixologist with 19 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/mixologist-jones.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Martinez",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Olivia Martinez is an experienced Barista with 7 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "Italian",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/barista-martinez.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Davis",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Sophia Davis is an experienced Nutritionist with 5 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Portuguese",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/nutritionist-davis.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Jones",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "James Jones is an experienced Entertainment Director with 12 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "Spanish",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/entertainment-director-jones.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Williams",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Olivia Williams is an experienced Performance Coordinator with 10 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/performance-coordinator-williams.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Rodriguez",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "John Rodriguez is an experienced Lead Vocalist with 13 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "French",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/lead-vocalist-rodriguez.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Johnson",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "Olivia Johnson is an experienced Musician with 5 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/musician-johnson.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Smith",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Olivia Smith is an experienced Dancer with 15 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/dancer-smith.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Johnson",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "David Johnson is an experienced Choreographer with 9 years of service in the maritime industry.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/choreographer-johnson.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Garcia",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Olivia Garcia is an experienced Comedy Performer with 19 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/comedy-performer-garcia.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Jones",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "John Jones is an experienced Magic Act with 10 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/magic-act-jones.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Smith",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "John Smith is an experienced DJ with 5 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "French",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/dj-smith.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Smith",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Michael Smith is an experienced Audio Technician with 18 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/audio-technician-smith.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Miller",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "Maria Miller is an experienced Lighting Specialist with 17 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "German",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/lighting-specialist-miller.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Davis",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "Olivia Davis is an experienced Stage Manager with 18 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/stage-manager-davis.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Smith",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "Michael Smith is an experienced Production Manager with 15 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/production-manager-smith.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Jones",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Emma Jones is an experienced Costume Designer with 10 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/costume-designer-jones.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Martinez",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Emma Martinez is an experienced Cultural Program Director with 13 years of service in the maritime industry.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/cultural-program-director-martinez.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Jones",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "Sophia Jones is an experienced Performance Artist with 17 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/performance-artist-jones.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Williams",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Sarah Williams is an experienced Operations Manager with 14 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/operations-manager-williams.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Miller",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "Maria Miller is an experienced Logistics Coordinator with 18 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/logistics-coordinator-miller.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Jones",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "Maria Jones is an experienced Inventory Specialist with 10 years of service in the maritime industry.",
-    "languages": [
-      "English",
-      "French",
-      "Russian"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/inventory-specialist-jones.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Jones",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "Robert Jones is an experienced Procurement Officer with 8 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/procurement-officer-jones.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
     "name": "John Brown",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "John Brown is an experienced Sustainability Coordinator with 14 years of service in the maritime industry.",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Leveraging 6 years of experience, John Brown curates a portfolio of unique and authentic shore excursions that showcase the best of each port.",
+    "languages": [
+      "Italian",
+      "Mandarin",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Garcia",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Known for creativity and attention to detail, Sophia Garcia collaborates with other departments to produce visual content that enhances onboard marketing and memory-making.",
+    "languages": [
+      "German",
+      "Mandarin",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Martinez",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Videographer Martinez crafts compelling visual stories that highlight onboard experiences and diverse destinations through expert filming and editing.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Davis",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "With expertise in social media, video editing, and graphic design, Michael Davis drives effective digital campaigns that promote the voyage experience.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Davis",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Chief Medical Officer Davis maintains medical supplies and liaises with shore-based health facilities to support comprehensive care.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/49.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Martinez",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Ship's Doctor Martinez is skilled in minor surgical procedures and advanced cardiac life support, bringing 11 years of critical care experience.",
+    "languages": [
+      "German",
+      "French",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Davis",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "With 7 years of experience, Sarah Davis is proficient in emergency care, routine medical procedures, and health education for passengers and crew.",
+    "languages": [
+      "Portuguese",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/99.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Martinez",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "With 10 years overseeing maritime safety, Sophia Martinez ensures strict adherence to international safety regulations (SOLAS, MARPOL) and promotes a culture of vigilance onboard vessels operating in undefined.",
+    "languages": [
+      "German",
+      "French",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "James Williams",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "James Williams manages all hospitality services, ensuring exceptional guest experiences with 19 years of leadership.",
+    "languages": [
+      "Japanese",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/89.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Smith",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Guest Relations Manager Smith enhances passenger satisfaction through attentive and personalized service.",
+    "languages": [
+      "German",
+      "French",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Johnson",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Sophia Johnson ensures the highest standards of cleanliness and comfort throughout passenger accommodations.",
     "languages": [
       "Italian",
       "English"
     ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/sustainability-coordinator-brown.jpg",
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
     "city": "San Francisco",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Martinez",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Senior Steward Martinez delivers attentive guest services and supports stewardship operations, drawing on 15 years onboard.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/74.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "David Smith",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "David Smith crafts unforgettable moments for discerning guests, drawing on 13 years of experience in curating exclusive and seamless luxury service.",
+    "languages": [
+      "French",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Williams",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "With 19 years managing large-scale accommodation facilities, Robert Williams ensures all guest cabins and public areas meet exacting standards of cleanliness and repair.",
+    "languages": [
+      "Italian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Rodriguez",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Olivia Rodriguez manages daily assignments, motivates the housekeeping team, and ensures efficient use of cleaning resources, drawing on 8 years of leadership.",
+    "languages": [
+      "French",
+      "German",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Johnson",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Guest Services Specialist Johnson facilitates seamless guest interactions to enhance onboard experiences.",
+    "languages": [
+      "Arabic",
+      "French",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "John Martinez",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Concierge Martinez offers expert local knowledge and personalized recommendations to enrich guest journeys.",
+    "languages": [
+      "German",
+      "French",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Brown",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Sarah Brown is pivotal in managing high-traffic periods and resolving escalated guest concerns with professionalism and grace, reflecting 11 years in the field.",
+    "languages": [
+      "Japanese",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Garcia",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "VIP Coordinator Garcia liaises with all departments to provide seamless, anticipatory service for distinguished guests, maintaining utmost confidentiality.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Johnson",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Emma Johnson conducts needs assessments and measures training effectiveness to ensure continuous improvement across all hospitality departments, reflecting 13 years in adult learning.",
+    "languages": [
+      "German",
+      "French",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Jones",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "With 13 years in fine dining, Chef Jones specializes in Continental flavors using locally sourced ingredients.",
+    "languages": [
+      "Italian",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Garcia",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Sous Chef Garcia supports kitchen operations with 6 years of culinary expertise and leadership.",
+    "languages": [
+      "Japanese",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Smith",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Sarah Smith blends creativity and technique to deliver memorable pastry experiences for guests.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "John Garcia",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "With 9 years as a section chef, John Garcia is responsible for stock control and guiding commis chefs within their designated area of the Italian kitchen.",
+    "languages": [
+      "Russian",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Miller",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Specialty Chef Miller curates exclusive menus for themed dining venues, showcasing 9 years of passion for {cuisineSpecific} traditions and techniques.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Rodriguez",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Sushi Chef Rodriguez manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 12 years of Japanese culinary excellence.",
+    "languages": [
+      "Arabic",
+      "Japanese",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Garcia",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "With 17 years specializing in charcuterie, salads, and elaborate cold platters, Chef Garcia brings artistry and precision to the Garde Manger station.",
+    "languages": [
+      "Italian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Smith",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "With 15 years of expertise, Butcher Smith expertly handles all meat and poultry, providing custom cuts and ensuring optimal yield for various Continental dishes.",
+    "languages": [
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Smith",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Baker Smith meticulously prepares a wide array of Caribbean-inspired and classic baked goods daily, showcasing skills honed over 19 years.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "David Smith",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "With 6 years in Michelin-starred establishments, Sommelier Smith elevates the dining journey through impeccable wine service and cellar management.",
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "James Miller",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Miller delights guests with flair, technique, and a deep understanding of flavor profiles, creating personalized drink experiences over 16 years.",
+    "languages": [
+      "Russian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Martinez",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Barista Martinez ensures consistently excellent coffee quality, from bean grinding to final pour, reflecting 19 years of dedication to the craft.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/89.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "John Brown",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "John Brown collaborates with chefs to ensure nutritious and delicious meal options onboard.",
+    "languages": [
+      "Portuguese",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Robert Johnson constantly seeks innovative entertainment concepts and top-tier talent, leveraging 9 years to keep the onboard experience fresh, exciting, and memorable.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Garcia",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Performance Coordinator Garcia supports talent and technical teams to deliver seamless shows.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "Sophia Miller consistently delivers show-stopping performances, connecting with audiences through emotive storytelling and exceptional vocal talent honed across 10 years on stage.",
+    "languages": [
+      "Japanese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Johnson",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Musician Johnson adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 14 years of diverse musical experience.",
+    "languages": [
+      "Japanese",
+      "English",
+      "French"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/91.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Brown",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "With 18 years of professional training in {danceStyle} and contemporary dance, Olivia Brown executes complex choreography with precision and artistry in mainstage productions.",
+    "languages": [
+      "Japanese",
+      "Italian",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/51.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Davis",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Choreographer Davis creates captivating dance routines, blending creativity with 6 years of dance expertise.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Williams",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Comedy Performer Williams delivers engaging and memorable stand-up routines onboard.",
+    "languages": [
+      "Japanese",
+      "Russian",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/8.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "James Garcia",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Magic Act specialist Garcia mystifies audiences with skilled illusions and interactive performances.",
+    "languages": [
+      "Italian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "David Davis",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "David Davis utilizes professional mixing skills and an energetic presence to ensure high-energy parties and memorable nights for guests, backed by 19 years of club experience.",
+    "languages": [
+      "Arabic",
+      "German",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Johnson",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Sophia Johnson's keen ear and technical proficiency, developed over 14 years, are essential for delivering immersive and high-quality auditory experiences.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Johnson",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Lighting Specialist Johnson designs and operates lighting systems to enhance onboard shows and events.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Martinez",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "With 9 years in professional stage management, Sophia Martinez meticulously calls cues, manages backstage operations, and ensures the smooth running of every show.",
+    "languages": [
+      "Arabic",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/5.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Martinez",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Robert Martinez ensures timely and efficient delivery of shows, leveraging 11 years in production management.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Johnson",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Michael Johnson combines creativity and craftsmanship with 11 years of design expertise.",
+    "languages": [
+      "Portuguese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "James Smith",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Cultural Program Director Smith curates culturally enriching events and experiences for guests.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "John Brown",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "With 13 years pushing artistic boundaries, John Brown offers a distinctive and captivating addition to the ship's diverse entertainment offerings.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "John Rodriguez",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "John Rodriguez oversees daily operations and coordinates departments to maintain smooth vessel functioning.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Martinez",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "With 18 years coordinating complex supply chains, Sophia Martinez ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Williams",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Sarah Williams's analytical skills, honed over 8 years, are key to forecasting demand and optimizing stock levels across various departments.",
+    "languages": [
+      "Portuguese",
+      "French",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "John Jones",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Procurement Officer Jones sources and negotiates contracts for goods and services needed onboard.",
+    "languages": [
+      "Arabic",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "San Francisco",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Jones",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Michael Jones champions innovative eco-friendly technologies and practices, leveraging 19 years to enhance the vessel's environmental performance and reputation.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
+    "city": "San Francisco",
+    "country": "Global"
   }
 ];

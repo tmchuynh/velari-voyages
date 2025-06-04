@@ -1,1474 +1,1297 @@
-import { CrewMember } from "@/lib/interfaces/people/staff.ts";
+import { CrewMember } from "@/lib/interfaces/people/staff";
 
-export const kielTeamMembers:CrewMember[] = [
+export const kielTeamMembers: CrewMember[] = [
   {
-    "name": "Emma Martinez",
+    "name": "John Davis",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "Emma Martinez is an experienced Captain with 9 years of service in the maritime industry.",
+    "bio": "Drawing on 10 years of command, John Davis expertly manages all aspects of vessel operation in undefined, emphasizing crew development and operational excellence.",
     "languages": [
-      "Spanish",
+      "Russian",
+      "French",
       "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/captain-martinez.jpg",
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
     "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Maria Garcia",
+    "name": "Maria Rodriguez",
     "role": "First Officer",
     "department": "Deck Department",
-    "bio": "Maria Garcia is an experienced First Officer with 10 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "Arabic",
-      "French",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/first-officer-garcia.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Miller",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "John Miller is an experienced Second Officer with 16 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/second-officer-miller.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Martinez",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "Maria Martinez is an experienced Third Officer with 15 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "French",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/third-officer-martinez.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Martinez",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "David Martinez is an experienced Navigation Officer with 17 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "Portuguese",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/navigation-officer-martinez.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Jones",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "Michael Jones is an experienced Safety Officer with 15 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/safety-officer-jones.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Miller",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "Olivia Miller is an experienced Deck Cadet with 13 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/deck-cadet-miller.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Brown",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Maria Brown is an experienced Bosun with 5 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/bosun-brown.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Miller",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "Michael Miller is an experienced Chief Engineer with 7 years of service in the maritime industry.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/chief-engineer-miller.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Williams",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "David Williams is an experienced First Engineer with 18 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/first-engineer-williams.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Martinez",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "Michael Martinez is an experienced Second Engineer with 9 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/second-engineer-martinez.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Williams",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Emma Williams is an experienced Electrical Engineer with 15 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/electrical-engineer-williams.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Smith",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "Maria Smith is an experienced Mechanical Engineer with 10 years of service in the maritime industry.",
-    "languages": [
-      "English",
-      "Italian"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/mechanical-engineer-smith.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Garcia",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "Sophia Garcia is an experienced HVAC Engineer with 12 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/hvac-engineer-garcia.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Smith",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Olivia Smith is an experienced Environmental Engineer with 14 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/environmental-engineer-smith.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Williams",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "Olivia Williams is an experienced Systems Engineer with 13 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/systems-engineer-williams.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Miller",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "John Miller is an experienced Technical Manager with 17 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "Mandarin",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/technical-manager-miller.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Williams",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Maria Williams is an experienced Maintenance Engineer with 13 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Russian",
-      "German",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/maintenance-engineer-williams.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Miller",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Sarah Miller is an experienced Security Director with 17 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/security-director-miller.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Garcia",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Emma Garcia is an experienced Security Officer with 9 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/security-officer-garcia.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Miller",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Sophia Miller is an experienced Security Specialist with 15 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/security-specialist-miller.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Smith",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Sarah Smith is an experienced Cybersecurity Officer with 16 years of service in the maritime industry.",
+    "bio": "Maria Rodriguez applies comprehensive knowledge of undefined's tides, currents, and weather patterns, contributing to efficient and safe ship navigation.",
     "languages": [
       "Portuguese",
-      "English",
-      "Italian"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/cybersecurity-officer-smith.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Martinez",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "Michael Martinez is an experienced Maritime Security Coordinator with 11 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/maritime-security-coordinator-martinez.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Martinez",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Robert Martinez is an experienced Access Control Officer with 19 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/access-control-officer-martinez.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Johnson",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Olivia Johnson is an experienced Safety Compliance Officer with 11 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/safety-compliance-officer-johnson.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Martinez",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Emma Martinez is an experienced Youth Program Director with 18 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "French",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/youth-program-director-martinez.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Martinez",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Olivia Martinez is an experienced Family Activities Coordinator with 10 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/family-activities-coordinator-martinez.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Garcia",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Michael Garcia is an experienced Children's Entertainment Specialist with 5 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/children's-entertainment-specialist-garcia.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Johnson",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Robert Johnson is an experienced Teen Activities Coordinator with 13 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/teen-activities-coordinator-johnson.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Garcia",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Sarah Garcia is an experienced Educational Program Manager with 15 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/educational-program-manager-garcia.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Jones",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Maria Jones is an experienced Child Care Specialist with 13 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/child-care-specialist-jones.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Brown",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "Olivia Brown is an experienced Activities Director with 6 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/activities-director-brown.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Davis",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Robert Davis is an experienced Water Sports Instructor with 13 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/water-sports-instructor-davis.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Garcia",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Maria Garcia is an experienced Fitness Instructor with 15 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/fitness-instructor-garcia.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Davis",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "James Davis is an experienced Excursion Coordinator with 15 years of service in the maritime industry.",
-    "languages": [
       "German",
       "Arabic",
-      "French",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/excursion-coordinator-davis.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Miller",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "Emma Miller is an experienced Lead Photographer with 7 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "German",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/lead-photographer-miller.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Smith",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "John Smith is an experienced Videographer with 9 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "German",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/videographer-smith.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Brown",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "John Brown is an experienced Digital Media Specialist with 18 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/digital-media-specialist-brown.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Johnson",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Maria Johnson is an experienced Chief Medical Officer with 7 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/chief-medical-officer-johnson.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Martinez",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "David Martinez is an experienced Ship's Doctor with 18 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/ship's-doctor-martinez.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Brown",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Sophia Brown is an experienced Nurse with 6 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/nurse-brown.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Martinez",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Robert Martinez is an experienced Safety Officer with 8 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "Portuguese",
       "English"
     ],
     "experienceYears": 8,
-    "profileImage": "/images/crew/safety-officer-martinez.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
     "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Emma Davis",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "Emma Davis is an experienced Hospitality Director with 15 years of service in the maritime industry.",
+    "name": "David Martinez",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "With a strong focus on electronic navigation and safety equipment, David Martinez brings 13 years of experience navigating undefined's challenging routes.",
     "languages": [
       "German",
-      "French",
-      "Japanese",
       "English"
     ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/hospitality-director-davis.jpg",
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
     "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Emma Williams",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "Emma Williams is an experienced Guest Relations Manager with 6 years of service in the maritime industry.",
+    "name": "Olivia Garcia",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Third Officer Garcia assists with cargo operations and ballast management, a key part of their 17 years of development in undefined.",
     "languages": [
-      "Arabic",
-      "French",
+      "German",
+      "Italian",
       "English"
     ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/guest-relations-manager-williams.jpg",
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
     "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
+  },
+  {
+    "name": "David Miller",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Navigation Officer Miller maintains detailed voyage records and monitors navigation aids, ensuring compliance with maritime regulations in undefined.",
+    "languages": [
+      "English",
+      "German"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Rodriguez",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Sophia Rodriguez conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in undefined's maritime operations.",
+    "languages": [
+      "Italian",
+      "German",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "city": "Kiel",
+    "country": "Global"
   },
   {
     "name": "Sophia Davis",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Sophia Davis is an experienced Chief Steward with 10 years of service in the maritime industry.",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Sophia Davis is an aspiring maritime professional with foundational training and practical experience in ship operations and navigation within undefined.",
+    "languages": [
+      "French",
+      "Spanish",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "David Brown",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Bosun Brown maintains the vessel's exterior appearance and structural integrity, a testament to 9 years of dedication in undefined.",
+    "languages": [
+      "Mandarin",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "James Brown",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "With 9 years at the helm of engineering departments, James Brown excels in vessel automation systems and guarantees adherence to strict environmental MARPOL regulations.",
+    "languages": [
+      "Mandarin",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Brown",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "First Engineer Brown manages spare parts inventory and oversees condition monitoring programs to prevent system failures.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "With strong technical acumen, Michael Miller assists in crew training on engineering systems and emergency response procedures.",
+    "languages": [
+      "German",
+      "French",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Johnson",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Maria Johnson's expertise covers power distribution, electric propulsion components, and emergency backup systems, backed by 11 years in the field.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/19.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Williams",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Mechanical Engineer Williams provides vital support in dry-docking operations, overseeing repairs and upgrades to mechanical systems based on 17 years of insight.",
+    "languages": [
+      "Spanish",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Brown",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "HVAC Engineer Brown ensures optimal climate control aboard vessels, leveraging 18 years of system optimization and energy efficiency knowledge.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Jones",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "With 12 years focused on sustainability, Sophia Jones develops and implements environmental protection measures aboard ships, ensuring regulatory compliance.",
+    "languages": [
+      "Italian",
+      "Arabic",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Davis",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Sophia Davis manages system diagnostics and upgrades to improve vessel performance and crew operational efficiency.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Rodriguez",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Olivia Rodriguez manages technical operations, upgrades, and team leadership, leveraging 14 years in maritime technology and project management.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/97.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Jones",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Maintenance Engineer Jones applies 11 years of hands-on expertise maintaining and repairing shipboard mechanical and electrical equipment.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/40.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Johnson",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Drawing on 13 years and a military background, Emma Johnson develops and executes sophisticated security plans tailored to high-risk maritime environments.",
+    "languages": [
+      "Spanish",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Garcia",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Robert Garcia conducts routine security patrols and enforces safety regulations, backed by 12 years in maritime security operations and incident response.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Brown",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Security Specialist Brown advises senior management on emerging security trends and implements best practices in security operations.",
+    "languages": [
+      "Portuguese",
+      "Mandarin",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "James Martinez",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Leveraging 10 years in cyber defense, James Martinez specializes in securing operational technology (OT) unique to maritime assets.",
     "languages": [
       "Spanish",
       "Japanese",
       "English"
     ],
     "experienceYears": 10,
-    "profileImage": "/images/crew/chief-steward-davis.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
     "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "David Brown",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "David Brown is an experienced Senior Steward with 14 years of service in the maritime industry.",
+    "name": "James Davis",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "With strong organizational skills, James Davis maintains detailed records and reports to support continuous security improvement.",
     "languages": [
       "German",
+      "French",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/88.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "James Williams",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Access Control Officer Williams plays a crucial role in gangway security and managing visitor identification processes, a responsibility held for 14 years.",
+    "languages": [
+      "Japanese",
+      "Arabic",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Martinez",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Safety Compliance Officer Martinez is an expert in ISM, ISPS, and MLC compliance, bringing 18 years of dedicated focus to these areas.",
+    "languages": [
       "Portuguese",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/97.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "John Williams",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "With a passion for youth development, John Williams crafts innovative activities fostering learning, social growth, and cultural awareness during voyages.",
+    "languages": [
+      "German",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "James Williams",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "James Williams, with 8 years of experience, excels in logistics and planning, ensuring every family event runs smoothly and delights guests.",
+    "languages": [
+      "Russian",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "John Garcia",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Children's Entertainment Specialist Garcia collaborates with youth program teams to develop diverse content promoting creativity and social interaction.",
+    "languages": [
+      "Italian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "John Smith",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Teen Activities Coordinator Smith fosters positive social environments with interactive, age-appropriate activities that encourage peer bonding.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Garcia",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Known for strong organizational skills, Michael Garcia evaluates program effectiveness and implements improvements based on passenger feedback.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Martinez",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Child Care Specialist Martinez promotes social and emotional development through structured play and educational activities.",
+    "languages": [
+      "German",
+      "Arabic",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Garcia",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "With a focus on guest engagement and satisfaction, Michael Garcia designs diverse activity schedules that cater to a wide range of interests and age groups onboard.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "John Brown",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "John Brown teaches water sports safely and effectively, leveraging 19 years of professional instruction and certification in aquatic activities.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Williams",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Drawing on 6 years of expertise, Robert Williams offers specialized classes like yoga, Pilates, and high-intensity interval training (HIIT).",
+    "languages": [
+      "Mandarin",
+      "Arabic",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "David Williams",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Known for excellent problem-solving, David Williams adapts plans efficiently to address unexpected challenges or changing conditions.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Smith",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "With extensive experience in portrait, event, and environmental photography, Robert Smith ensures high-quality imagery that reflects the voyage’s unique character.",
+    "languages": [
+      "German",
+      "Mandarin",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Johnson",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Videographer Johnson is skilled in aerial videography and underwater filming, adding unique perspectives to cruise documentation over 14 years.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "David Smith",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "David Smith manages digital content and multimedia production, applying 15 years in digital media, marketing, and audience engagement strategies.",
+    "languages": [
+      "Portuguese",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Garcia",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Chief Medical Officer Garcia leads all medical operations onboard, leveraging 19 years of clinical and maritime healthcare expertise to ensure passenger and crew wellbeing.",
+    "languages": [
+      "Spanish",
+      "Arabic",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "John Williams",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Dr. Williams collaborates with medical officers and safety teams to uphold the highest health standards aboard.",
+    "languages": [
+      "Italian",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Davis",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Nurse Davis provides empathetic and skilled assistance, ensuring patient comfort and adherence to strict hygiene and infection control protocols.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Davis",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Safety Officer Davis works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
+    "languages": [
+      "Arabic",
+      "Russian",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Jones",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Emma Jones is dedicated to fostering a welcoming and memorable atmosphere for all guests, drawing upon 9 years of cultivating outstanding hospitality teams.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Martinez",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Sarah Martinez coordinates guest services and resolves issues, leveraging 5 years of customer relations expertise.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/30.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Davis",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "With 14 years leading stewardship teams, Chief Steward Davis meticulously manages cabin services, laundry operations, and public area upkeep.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "John Garcia",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Senior Steward Garcia delivers attentive guest services and supports stewardship operations, drawing on 18 years onboard.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "David Rodriguez",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Butler Rodriguez provides personalized guest services, backed by 8 years of elite hospitality expertise.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Garcia",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Accommodation Manager Garcia coordinates housekeeping and maintenance teams for optimal guest satisfaction.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "John Smith",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Smith is committed to sustainability in cleaning practices, implementing eco-friendly procedures throughout their 11 years of service.",
+    "languages": [
+      "Russian",
+      "Arabic",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Brown",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Guest Services Specialist Brown efficiently handles onboard account management, reservations for activities, and general assistance with a friendly and professional demeanor.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Martinez",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Sarah Martinez acts as a personal guide to onboard and onshore experiences, providing insider tips and tailored advice to create unique memories for guests.",
+    "languages": [
+      "Portuguese",
+      "Japanese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/29.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Jones",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Sarah Jones leads front office teams with a focus on excellent customer service and operational efficiency.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Jones",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "With 14 years catering to high-profile clientele, Sophia Jones curates bespoke itineraries and ensures flawless execution of all VIP arrangements.",
+    "languages": [
+      "Russian",
+      "French",
       "Mandarin",
       "English"
     ],
     "experienceYears": 14,
-    "profileImage": "/images/crew/senior-steward-brown.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
     "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Sarah Rodriguez",
-    "role": "Butler",
+    "name": "James Miller",
+    "role": "Hospitality Trainer",
     "department": "Hospitality Department",
-    "bio": "Sarah Rodriguez is an experienced Butler with 19 years of service in the maritime industry.",
+    "bio": "Hospitality Trainer Miller specializes in areas like luxury service standards, complaint resolution, and upselling techniques, drawing on 16 years of industry best practices.",
     "languages": [
       "Arabic",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Garcia",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "With 17 years in fine dining, Chef Garcia specializes in Asian fusion flavors using locally sourced ingredients.",
+    "languages": [
+      "Spanish",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/95.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Miller",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Sarah Miller excels in menu execution and team management to maintain high culinary standards.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/95.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "John Brown",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "John Brown manages the pastry section, from artisan breads to elaborate cakes and plated desserts, ensuring exceptional quality over 10 years.",
+    "languages": [
+      "English",
+      "Mandarin"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Smith",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Chef de Partie Smith manages specific kitchen stations with 16 years of focused culinary skill.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Brown",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Specialty Chef Brown curates exclusive menus for themed dining venues, showcasing 8 years of passion for {cuisineSpecific} traditions and techniques.",
+    "languages": [
+      "Mandarin",
+      "French",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "David Miller",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Sushi Chef Miller manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 6 years of Japanese culinary excellence.",
+    "languages": [
+      "Portuguese",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Miller",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Garde Manger Miller expertly prepares cold dishes and appetizers with 6 years of culinary proficiency.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "David Rodriguez",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "David Rodriguez maintains the highest standards of hygiene and technique in meat processing, a skill perfected over 18 years in professional butchery.",
+    "languages": [
+      "Japanese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Williams",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Baker Williams meticulously prepares a wide array of French-inspired and classic baked goods daily, showcasing skills honed over 17 years.",
+    "languages": [
+      "German",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/90.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Brown",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Certified Sommelier Brown navigates an extensive cellar to find the perfect wine for every palate and Nordic, drawing on 19 years of oenological expertise.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "James Martinez",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "With 10 years behind the bar, James Martinez designs innovative signature cocktails and perfectly executes classic recipes using premium spirits and fresh ingredients.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Brown",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Barista Brown prepares specialty coffees with precision, backed by 18 years in coffee service.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Martinez",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Olivia Martinez collaborates with chefs to ensure nutritious and delicious meal options onboard.",
+    "languages": [
+      "Italian",
+      "Portuguese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/92.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Miller",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Entertainment Director Miller leads a dynamic team of performers and technicians, ensuring flawless execution and high-energy engagement across all venues, backed by 10 years of industry leadership.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Williams",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Performance Coordinator Williams serves as the key liaison between artists, production staff, and management, ensuring clear communication and efficient problem-solving.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Brown",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "As a key figure in production shows, Lead Vocalist Brown collaborates with the cast and creative team, bringing 19 years of professional discipline and artistry.",
+    "languages": [
+      "Spanish",
+      "Portuguese",
       "Mandarin",
       "English"
     ],
     "experienceYears": 19,
-    "profileImage": "/images/crew/butler-rodriguez.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
     "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Jones",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "Sophia Jones is an experienced Accommodation Manager with 10 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/accommodation-manager-jones.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Williams",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "David Williams is an experienced Housekeeping Supervisor with 15 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/housekeeping-supervisor-williams.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Miller",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Robert Miller is an experienced Guest Services Specialist with 5 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/guest-services-specialist-miller.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Martinez",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "David Martinez is an experienced Concierge with 17 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/concierge-martinez.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Martinez",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Olivia Martinez is an experienced Front Desk Manager with 12 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/front-desk-manager-martinez.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Miller",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "Michael Miller is an experienced VIP Coordinator with 8 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/vip-coordinator-miller.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Johnson",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Emma Johnson is an experienced Hospitality Trainer with 13 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/hospitality-trainer-johnson.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Garcia",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Maria Garcia is an experienced Executive Chef with 16 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/executive-chef-garcia.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Martinez",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "Olivia Martinez is an experienced Sous Chef with 5 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/sous-chef-martinez.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Miller",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "John Miller is an experienced Pastry Chef with 17 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/pastry-chef-miller.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Garcia",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Emma Garcia is an experienced Chef de Partie with 15 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/chef-de-partie-garcia.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Johnson",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Maria Johnson is an experienced Specialty Chef with 9 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/specialty-chef-johnson.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Rodriguez",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Emma Rodriguez is an experienced Sushi Chef with 14 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/sushi-chef-rodriguez.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Johnson",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "John Johnson is an experienced Garde Manger with 18 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/garde-manger-johnson.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Williams",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Maria Williams is an experienced Butcher with 13 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "Portuguese",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/butcher-williams.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Martinez",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "Sophia Martinez is an experienced Baker with 14 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "Japanese",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/baker-martinez.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Williams",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Michael Williams is an experienced Sommelier with 12 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/sommelier-williams.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Johnson",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "Michael Johnson is an experienced Mixologist with 8 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/mixologist-johnson.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Brown",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Olivia Brown is an experienced Barista with 6 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/barista-brown.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Smith",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Sophia Smith is an experienced Nutritionist with 9 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/nutritionist-smith.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Williams",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "Michael Williams is an experienced Entertainment Director with 10 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/entertainment-director-williams.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Brown",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "John Brown is an experienced Performance Coordinator with 7 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/performance-coordinator-brown.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Johnson",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "Sophia Johnson is an experienced Lead Vocalist with 6 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/lead-vocalist-johnson.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Martinez",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "James Martinez is an experienced Musician with 7 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/musician-martinez.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Martinez",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Olivia Martinez is an experienced Dancer with 8 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/dancer-martinez.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Davis",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Emma Davis is an experienced Choreographer with 10 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/choreographer-davis.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Miller",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Robert Miller is an experienced Comedy Performer with 10 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/comedy-performer-miller.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Johnson",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "Emma Johnson is an experienced Magic Act with 13 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/magic-act-johnson.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Williams",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "David Williams is an experienced DJ with 7 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/dj-williams.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Garcia",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Michael Garcia is an experienced Audio Technician with 11 years of service in the maritime industry.",
-    "languages": [
-      "English",
-      "German",
-      "Portuguese"
-    ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/audio-technician-garcia.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
     "name": "David Johnson",
-    "role": "Lighting Specialist",
+    "role": "Musician",
     "department": "Entertainment Department",
-    "bio": "David Johnson is an experienced Lighting Specialist with 18 years of service in the maritime industry.",
+    "bio": "With 5 years entertaining audiences worldwide, David Johnson creates an engaging atmosphere, taking requests and interacting with guests through the power of live music.",
     "languages": [
-      "French",
+      "Spanish",
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "John Martinez",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "With 13 years of professional training in {danceStyle} and contemporary dance, John Martinez executes complex choreography with precision and artistry in mainstage productions.",
+    "languages": [
+      "Italian",
       "Japanese",
       "English"
     ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/lighting-specialist-johnson.jpg",
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
     "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Sophia Smith",
-    "role": "Stage Manager",
+    "name": "John Rodriguez",
+    "role": "Choreographer",
     "department": "Entertainment Department",
-    "bio": "Sophia Smith is an experienced Stage Manager with 17 years of service in the maritime industry.",
+    "bio": "John Rodriguez collaborates with costume and lighting designers to create a cohesive and visually stunning spectacle, drawing on 19 years of experience in stage production.",
     "languages": [
       "German",
-      "French",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/stage-manager-smith.jpg",
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
     "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Williams",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "Maria Williams is an experienced Production Manager with 6 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/production-manager-williams.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Johnson",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "John Johnson is an experienced Costume Designer with 15 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/costume-designer-johnson.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Brown",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Maria Brown is an experienced Cultural Program Director with 12 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/cultural-program-director-brown.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
     "name": "Sophia Williams",
-    "role": "Performance Artist",
+    "role": "Comedy Performer",
     "department": "Entertainment Department",
-    "bio": "Sophia Williams is an experienced Performance Artist with 12 years of service in the maritime industry.",
+    "bio": "Sophia Williams's ability to connect with the audience and improvise, developed over 8 years, makes each show a unique and highly enjoyable experience.",
     "languages": [
-      "Russian",
+      "German",
       "English"
     ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/performance-artist-williams.jpg",
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
     "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "David Martinez",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "David Martinez is an experienced Operations Manager with 18 years of service in the maritime industry.",
+    "name": "Robert Jones",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "With 5 years honing the art of illusion, Robert Jones performs mind-bending feats of magic, from close-up tricks to grand stage illusions, delighting guests of all ages.",
     "languages": [
-      "French",
-      "Arabic",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/operations-manager-martinez.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Martinez",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "David Martinez is an experienced Logistics Coordinator with 11 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
+      "Japanese",
       "Arabic",
       "English"
     ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/logistics-coordinator-martinez.jpg",
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
     "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Olivia Davis",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "Olivia Davis is an experienced Inventory Specialist with 7 years of service in the maritime industry.",
+    "name": "Sarah Jones",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "With an extensive music library and 19 years of reading crowds, DJ Jones seamlessly blends genres to create the perfect soundtrack for any onboard event or nightclub.",
     "languages": [
-      "Mandarin",
-      "Russian",
       "French",
       "English"
     ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/inventory-specialist-davis.jpg",
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/33.jpg",
     "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Robert Johnson",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "Robert Johnson is an experienced Procurement Officer with 10 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/procurement-officer-johnson.jpg",
-    "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Miller",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "John Miller is an experienced Sustainability Coordinator with 16 years of service in the maritime industry.",
+    "name": "Emma Brown",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Audio Technician Brown expertly operates and maintains complex soundboards, microphones, and speaker systems, ensuring every note and word is perfectly heard.",
     "languages": [
       "German",
       "Italian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Johnson",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Maria Johnson applies 5 years of technical skill to create immersive visual experiences.",
+    "languages": [
+      "German",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/67.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Smith",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Maria Smith's calm under pressure and attention to detail, honed over 15 years, are vital for delivering complex, multi-layered performances without a hitch.",
+    "languages": [
+      "Japanese",
+      "German",
+      "French",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/98.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "With 8 years managing complex theatrical and event productions, Sophia Miller oversees budgeting, scheduling, staffing, and technical riders for all entertainment.",
+    "languages": [
       "Arabic",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/49.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Williams",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "With 16 years of experience in theatrical costume design, Michael Williams conceives and produces stunning wardrobes that define characters and elevate productions.",
+    "languages": [
+      "Portuguese",
+      "Italian",
       "English"
     ],
     "experienceYears": 16,
-    "profileImage": "/images/crew/sustainability-coordinator-miller.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
     "city": "Kiel",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Williams",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Olivia Williams promotes diversity and cultural awareness through engaging onboard programming.",
+    "languages": [
+      "Mandarin",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Davis",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Sarah Davis captivates audiences with original performances tailored to shipboard entertainment.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/29.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Miller",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Emma Miller plays a crucial role in port operations coordination, safety compliance oversight, and emergency response planning, backed by 9 years of maritime expertise.",
+    "languages": [
+      "English",
+      "Japanese",
+      "Arabic"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/26.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Brown",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Robert Brown leverages 12 years in logistics to optimize onboard operations.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/87.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Johnson",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Maria Johnson ensures accurate inventory control using advanced management systems.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Williams",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "With 15 years in strategic sourcing, Michael Williams identifies reliable suppliers and negotiates favorable terms for all shipboard necessities, from fuel to food.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/92.jpg",
+    "city": "Kiel",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Rodriguez",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "With 11 years dedicated to environmental stewardship in the maritime sector, Sophia Rodriguez develops and manages programs for waste reduction, recycling, and energy conservation.",
+    "languages": [
+      "Portuguese",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
+    "city": "Kiel",
+    "country": "Global"
   }
 ];

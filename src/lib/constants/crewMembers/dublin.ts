@@ -1,1476 +1,1298 @@
-import { CrewMember } from "@/lib/interfaces/people/staff.ts";
+import { CrewMember } from "@/lib/interfaces/people/staff";
 
-export const dublinTeamMembers:CrewMember[] = [
+export const dublinTeamMembers: CrewMember[] = [
   {
-    "name": "David Davis",
+    "name": "Emma Brown",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "David Davis is an experienced Captain with 17 years of service in the maritime industry.",
+    "bio": "Captain Brown's strategic decision-making and crisis management skills, honed over 13 years, ensure smooth and safe voyages throughout undefined.",
     "languages": [
+      "Spanish",
+      "German",
       "Japanese",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/captain-davis.jpg",
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Sarah Jones",
+    "name": "David Williams",
     "role": "First Officer",
     "department": "Deck Department",
-    "bio": "Sarah Jones is an experienced First Officer with 11 years of service in the maritime industry.",
+    "bio": "Former police officer David Williams brings exceptional navigational precision and leadership with 14 years sailing throughout undefined.",
     "languages": [
       "Spanish",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/first-officer-jones.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Smith",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "Michael Smith is an experienced Second Officer with 5 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "French",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/second-officer-smith.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Davis",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "Sarah Davis is an experienced Third Officer with 14 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
       "English"
     ],
     "experienceYears": 14,
-    "profileImage": "/images/crew/third-officer-davis.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "James Garcia",
-    "role": "Navigation Officer",
+    "name": "Robert Miller",
+    "role": "Second Officer",
     "department": "Deck Department",
-    "bio": "James Garcia is an experienced Navigation Officer with 10 years of service in the maritime industry.",
+    "bio": "With a strong focus on electronic navigation and safety equipment, Robert Miller brings 6 years of experience navigating undefined's challenging routes.",
     "languages": [
-      "Italian",
       "French",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/navigation-officer-garcia.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Williams",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "Sophia Williams is an experienced Safety Officer with 16 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/safety-officer-williams.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Davis",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "Maria Davis is an experienced Deck Cadet with 15 years of service in the maritime industry.",
-    "languages": [
       "Spanish",
-      "French",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/deck-cadet-davis.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Robert Smith is an experienced Bosun with 17 years of service in the maritime industry.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/bosun-smith.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Johnson",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "James Johnson is an experienced Chief Engineer with 18 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/chief-engineer-johnson.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Rodriguez",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "Michael Rodriguez is an experienced First Engineer with 19 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "Arabic",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/first-engineer-rodriguez.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Johnson",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "Olivia Johnson is an experienced Second Engineer with 6 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "Italian",
       "English"
     ],
     "experienceYears": 6,
-    "profileImage": "/images/crew/second-engineer-johnson.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Emma Garcia",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Emma Garcia is an experienced Electrical Engineer with 14 years of service in the maritime industry.",
+    "name": "Michael Williams",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Michael Williams supports communication and lookout duties during watches, maintaining high situational awareness in undefined's maritime environment.",
     "languages": [
-      "French",
       "Spanish",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/electrical-engineer-garcia.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Williams",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "Maria Williams is an experienced Mechanical Engineer with 15 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "Portuguese",
       "English"
     ],
     "experienceYears": 15,
-    "profileImage": "/images/crew/mechanical-engineer-williams.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Michael Rodriguez",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "Michael Rodriguez is an experienced HVAC Engineer with 12 years of service in the maritime industry.",
+    "name": "Sophia Jones",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Navigation Officer Jones ensures all navigational equipment is calibrated and fully operational, leveraging 9 years of technical expertise in undefined.",
     "languages": [
       "Mandarin",
-      "Spanish",
-      "Russian",
       "English"
     ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/hvac-engineer-rodriguez.jpg",
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Sarah Johnson",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Sarah Johnson is an experienced Environmental Engineer with 10 years of service in the maritime industry.",
+    "name": "Robert Brown",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "With a thorough understanding of hazard identification and mitigation, Robert Brown fosters a culture of safety awareness among crew and passengers.",
     "languages": [
-      "Russian",
       "German",
       "Italian",
       "English"
     ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/environmental-engineer-johnson.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
+  },
+  {
+    "name": "John Johnson",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Deck Cadet Johnson learns shipboard operations under experienced officers, preparing for a future leadership role in undefined waters.",
+    "languages": [
+      "French",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/89.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Robert Johnson plays a pivotal role in implementing maintenance schedules and overseeing deck inventory to support smooth voyages through undefined.",
+    "languages": [
+      "Arabic",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Garcia",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Known for strategic problem-solving, Robert Garcia directs all technical operations, balancing safety, performance, and cost-effectiveness aboard vessels.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/87.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Davis",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "Drawing on 17 years, Maria Davis takes charge of the engine room in the Chief Engineer's absence, ensuring all systems run smoothly and efficiently.",
+    "languages": [
+      "French",
+      "English",
+      "Portuguese"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "James Brown",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "With strong technical acumen, James Brown assists in crew training on engineering systems and emergency response procedures.",
+    "languages": [
+      "Spanish",
+      "Japanese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Brown",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Olivia Brown implements energy-saving technologies and complies with international standards for electrical safety aboard ships.",
+    "languages": [
+      "Italian",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "James Miller",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "James Miller's problem-solving abilities are crucial for addressing unexpected mechanical challenges, ensuring vessel safety and uptime through 13 years of service.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "John Smith",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "HVAC Engineer Smith's focus includes maintaining air quality and compliance with health standards across all vessel compartments, a skill developed over 12 years.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "David Williams",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "With in-depth knowledge of MARPOL regulations, David Williams leads training and awareness programs on environmental best practices among crew members.",
+    "languages": [
+      "German",
+      "French",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "city": "Dublin",
+    "country": "Global"
   },
   {
     "name": "James Williams",
     "role": "Systems Engineer",
     "department": "Engineering Department",
-    "bio": "James Williams is an experienced Systems Engineer with 16 years of service in the maritime industry.",
+    "bio": "With extensive knowledge of software and hardware interfaces, James Williams enhances system interoperability and cybersecurity aboard vessels.",
     "languages": [
-      "French",
       "Mandarin",
       "English"
     ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/systems-engineer-williams.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Olivia Miller",
+    "name": "Michael Jones",
     "role": "Technical Manager",
     "department": "Engineering Department",
-    "bio": "Olivia Miller is an experienced Technical Manager with 13 years of service in the maritime industry.",
+    "bio": "Michael Jones drives continuous improvement initiatives and implements emerging maritime technologies to maintain competitive operational capabilities.",
     "languages": [
-      "Portuguese",
-      "French",
       "English"
     ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/technical-manager-miller.jpg",
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Sophia Johnson",
+    "name": "James Williams",
     "role": "Maintenance Engineer",
     "department": "Engineering Department",
-    "bio": "Sophia Johnson is an experienced Maintenance Engineer with 12 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/maintenance-engineer-johnson.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Martinez",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Sophia Martinez is an experienced Security Director with 12 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/security-director-martinez.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Smith",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Michael Smith is an experienced Security Officer with 17 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/security-officer-smith.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Johnson",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Olivia Johnson is an experienced Security Specialist with 11 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/security-specialist-johnson.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Johnson",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "David Johnson is an experienced Cybersecurity Officer with 17 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "Russian",
-      "French",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/cybersecurity-officer-johnson.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Johnson",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "David Johnson is an experienced Maritime Security Coordinator with 10 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/maritime-security-coordinator-johnson.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Rodriguez",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Sarah Rodriguez is an experienced Access Control Officer with 16 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/access-control-officer-rodriguez.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Johnson",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Maria Johnson is an experienced Safety Compliance Officer with 19 years of service in the maritime industry.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/safety-compliance-officer-johnson.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Johnson",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Maria Johnson is an experienced Youth Program Director with 14 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/youth-program-director-johnson.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Williams",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Olivia Williams is an experienced Family Activities Coordinator with 16 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/family-activities-coordinator-williams.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Rodriguez",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Sarah Rodriguez is an experienced Children's Entertainment Specialist with 5 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Portuguese",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/children's-entertainment-specialist-rodriguez.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Martinez",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Sophia Martinez is an experienced Teen Activities Coordinator with 8 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "Mandarin",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/teen-activities-coordinator-martinez.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Williams",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Sarah Williams is an experienced Educational Program Manager with 11 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/educational-program-manager-williams.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Brown",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Sophia Brown is an experienced Child Care Specialist with 17 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "German",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/child-care-specialist-brown.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Rodriguez",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "Sophia Rodriguez is an experienced Activities Director with 18 years of service in the maritime industry.",
+    "bio": "With a focus on reliability-centered maintenance, James Williams optimizes maintenance practices in accordance with industry best practices.",
     "languages": [
       "English",
-      "Spanish"
+      "Russian"
     ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/activities-director-rodriguez.jpg",
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Michael Garcia",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Michael Garcia is an experienced Water Sports Instructor with 9 years of service in the maritime industry.",
+    "name": "David Johnson",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Security Director Johnson leads threat analysis initiatives and implements advanced security measures to safeguard vessel integrity.",
     "languages": [
       "Russian",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/water-sports-instructor-garcia.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Williams",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Sarah Williams is an experienced Fitness Instructor with 9 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "Japanese",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/fitness-instructor-williams.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Jones",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Sarah Jones is an experienced Excursion Coordinator with 19 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/excursion-coordinator-jones.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Martinez",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "Olivia Martinez is an experienced Lead Photographer with 15 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "Italian",
-      "Spanish",
+      "French",
       "English"
     ],
     "experienceYears": 15,
-    "profileImage": "/images/crew/lead-photographer-martinez.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Maria Jones",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Maria Jones is an experienced Videographer with 10 years of service in the maritime industry.",
+    "name": "David Davis",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "With keen attention to risk, David Davis has 7 years experience protecting vessel personnel, property, and critical infrastructure against diverse threats.",
     "languages": [
-      "Mandarin",
+      "Japanese",
       "Portuguese",
+      "Arabic",
       "English"
     ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/videographer-jones.jpg",
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Michael Rodriguez",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "Michael Rodriguez is an experienced Digital Media Specialist with 14 years of service in the maritime industry.",
+    "name": "David Davis",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Security Specialist Davis advises senior management on emerging security trends and implements best practices in security operations.",
     "languages": [
       "Portuguese",
-      "Italian",
+      "Russian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Martinez",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Leveraging 11 years in cyber defense, Robert Martinez specializes in securing operational technology (OT) unique to maritime assets.",
+    "languages": [
+      "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Brown",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Michael Brown's 14 years include expertise in crisis communication and liaising with flag state and port state control on security matters.",
+    "languages": [
+      "Japanese",
       "English"
     ],
     "experienceYears": 14,
-    "profileImage": "/images/crew/digital-media-specialist-rodriguez.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "John Johnson",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "John Johnson is an experienced Chief Medical Officer with 5 years of service in the maritime industry.",
+    "name": "Sophia Smith",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Access Control Officer Smith plays a crucial role in gangway security and managing visitor identification processes, a responsibility held for 11 years.",
     "languages": [
-      "Portuguese",
-      "English",
-      "Spanish"
+      "Spanish",
+      "English"
     ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/chief-medical-officer-johnson.jpg",
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
+  },
+  {
+    "name": "John Davis",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "John Davis meticulously prepares the vessel for internal and external safety audits, ensuring all documentation and practices meet or exceed standards, backed by 8 years.",
+    "languages": [
+      "English",
+      "Arabic",
+      "Portuguese"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "John Davis",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Known for creative leadership, John Davis continuously evaluates and improves youth programming to meet evolving passenger needs.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "city": "Dublin",
+    "country": "Global"
   },
   {
     "name": "Emma Davis",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "Emma Davis is an experienced Ship's Doctor with 18 years of service in the maritime industry.",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Emma Davis, with 7 years of experience, excels in logistics and planning, ensuring every family event runs smoothly and delights guests.",
     "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/ship's-doctor-davis.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Miller",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Olivia Miller is an experienced Nurse with 16 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "Mandarin",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/nurse-miller.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Rodriguez",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Sophia Rodriguez is an experienced Safety Officer with 18 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/safety-officer-rodriguez.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Jones",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "John Jones is an experienced Hospitality Director with 19 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "Mandarin",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/hospitality-director-jones.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Miller",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "Sophia Miller is an experienced Guest Relations Manager with 14 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/guest-relations-manager-miller.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Davis",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Robert Davis is an experienced Chief Steward with 13 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/chief-steward-davis.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Miller",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "James Miller is an experienced Senior Steward with 15 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "Arabic",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/senior-steward-miller.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Johnson",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "Emma Johnson is an experienced Butler with 18 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/butler-johnson.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Williams",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "Olivia Williams is an experienced Accommodation Manager with 16 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/accommodation-manager-williams.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Martinez",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "Sarah Martinez is an experienced Housekeeping Supervisor with 19 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/housekeeping-supervisor-martinez.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Garcia",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Sophia Garcia is an experienced Guest Services Specialist with 9 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/guest-services-specialist-garcia.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Johnson",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "John Johnson is an experienced Concierge with 18 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/concierge-johnson.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Johnson",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Emma Johnson is an experienced Front Desk Manager with 7 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
+      "Spanish",
       "English"
     ],
     "experienceYears": 7,
-    "profileImage": "/images/crew/front-desk-manager-johnson.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Emma Brown",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "Emma Brown is an experienced VIP Coordinator with 8 years of service in the maritime industry.",
+    "name": "John Williams",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "John Williams engages young guests with creative entertainment programs, leveraging 13 years in children’s recreational services and event planning.",
     "languages": [
       "Mandarin",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/vip-coordinator-brown.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Miller",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Sophia Miller is an experienced Hospitality Trainer with 13 years of service in the maritime industry.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/hospitality-trainer-miller.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Garcia",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Olivia Garcia is an experienced Executive Chef with 13 years of service in the maritime industry.",
-    "languages": [
       "Japanese",
       "English"
     ],
     "experienceYears": 13,
-    "profileImage": "/images/crew/executive-chef-garcia.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Maria Johnson",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "Maria Johnson is an experienced Sous Chef with 13 years of service in the maritime industry.",
+    "name": "Emma Davis",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Emma Davis uses 16 years of insight to design activities like themed parties, sports tournaments, and creative workshops specifically for teen cruisers.",
     "languages": [
-      "English",
-      "Mandarin"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/sous-chef-johnson.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Jones",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "Maria Jones is an experienced Pastry Chef with 18 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
+      "Arabic",
       "English"
     ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/pastry-chef-jones.jpg",
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Davis",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Sarah Davis is an experienced Chef de Partie with 7 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "Russian",
-      "German",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/chef-de-partie-davis.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Martinez",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "James Martinez is an experienced Specialty Chef with 18 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/specialty-chef-martinez.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Williams",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Olivia Williams is an experienced Sushi Chef with 19 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/sushi-chef-williams.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
     "name": "Emma Martinez",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "Emma Martinez is an experienced Garde Manger with 16 years of service in the maritime industry.",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Focused on accessibility, Emma Martinez ensures programs accommodate different learning styles and abilities for broad passenger appeal.",
     "languages": [
-      "Arabic",
-      "English"
+      "English",
+      "Portuguese"
     ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/garde-manger-martinez.jpg",
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Emma Williams",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Emma Williams is an experienced Butcher with 16 years of service in the maritime industry.",
+    "name": "Olivia Smith",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "With 12 years dedicated to early childhood development, Olivia Smith creates a stimulating and secure setting for the youngest guests.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/99.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Jones",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "With strong organizational skills, Maria Jones manages budgets, resources, and partnerships to deliver high-quality recreational services.",
     "languages": [
       "Italian",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/butcher-williams.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Rodriguez",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "John Rodriguez is an experienced Baker with 16 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/baker-rodriguez.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Johnson",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Sophia Johnson is an experienced Sommelier with 13 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/sommelier-johnson.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Jones",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "David Jones is an experienced Mixologist with 17 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "Spanish",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/mixologist-jones.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Johnson",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Robert Johnson is an experienced Barista with 10 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "Mandarin",
       "Spanish",
       "English"
     ],
     "experienceYears": 10,
-    "profileImage": "/images/crew/barista-johnson.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/21.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
+  },
+  {
+    "name": "John Garcia",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Water Sports Instructor Garcia possesses an in-depth knowledge of local water conditions and marine life, enhancing guest experiences over 12 years.",
+    "languages": [
+      "Japanese",
+      "Italian",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Williams",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Fitness Instructor Williams provides nutritional advice and wellness coaching, empowering guests to achieve their health goals over 10 years.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Davis",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Excursion Coordinator Davis plans enriching off-ship experiences that promote cultural immersion and memorable interactions for passengers.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Davis",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Lead Photographer Davis captures stunning imagery of ship life, landscapes, and destinations, backed by 9 years of professional photography expertise.",
+    "languages": [
+      "Italian",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/9.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Davis",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Leveraging 6 years in filmmaking, Olivia Davis produces cinematic-quality videos that beautifully encapsulate the journey and its destinations.",
+    "languages": [
+      "Arabic",
+      "Portuguese",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Brown",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Digital Media Specialist Brown ensures an engaging online presence by creating and curating multimedia content tailored to diverse passenger demographics.",
+    "languages": [
+      "English",
+      "Japanese",
+      "French"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Martinez",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Drawing on 10 years as a medical leader, Sophia Martinez ensures the ship's medical facility operates to the highest international healthcare standards.",
+    "languages": [
+      "Russian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "John Garcia",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Known for calm professionalism, Dr. Garcia leads medical emergency interventions and coordinates evacuation when necessary.",
+    "languages": [
+      "Japanese",
+      "Spanish",
+      "German",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/93.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Brown",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Nurse Brown provides empathetic and skilled assistance, ensuring patient comfort and adherence to strict hygiene and infection control protocols.",
+    "languages": [
+      "German",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Johnson",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Committed to regulatory adherence, Maria Johnson stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "David Martinez",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "David Martinez is dedicated to fostering a welcoming and memorable atmosphere for all guests, drawing upon 17 years of cultivating outstanding hospitality teams.",
+    "languages": [
+      "Portuguese",
+      "Japanese",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/96.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Davis",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Guest Relations Manager Davis enhances passenger satisfaction through attentive and personalized service.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/85.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Jones",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Chief Steward Jones supervises housekeeping and guest services with 10 years of maritime hospitality experience.",
+    "languages": [
+      "English",
+      "Italian"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "John Miller",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Senior Steward Miller also assists in training junior stewards, sharing expertise gained from 17 years in maritime hospitality.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Smith",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "With discreet professionalism honed over 19 years, Butler Smith offers bespoke services, including in-suite dining, wardrobe management, and personalized arrangements.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Davis",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "With 6 years managing large-scale accommodation facilities, Olivia Davis ensures all guest cabins and public areas meet exacting standards of cleanliness and repair.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/90.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Jones",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Maria Jones ensures smooth operations and staff training, supported by 12 years in hospitality management.",
+    "languages": [
+      "Italian",
+      "Mandarin",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "David Rodriguez",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "With 16 years providing frontline support, David Rodriguez is adept at information sharing, problem-solving, and ensuring guests feel valued and well-informed.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Martinez",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Maria Martinez leverages 17 years of service to provide exceptional concierge support onboard.",
+    "languages": [
+      "German",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Jones",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "With 12 years in front office management, Sophia Jones ensures a welcoming and organized reception area, managing all aspects of guest registration and billing.",
+    "languages": [
+      "Portuguese",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/74.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Rodriguez",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "With 17 years catering to high-profile clientele, Maria Rodriguez curates bespoke itineraries and ensures flawless execution of all VIP arrangements.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "James Davis",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "James Davis develops training programs to elevate hospitality team skills, with 8 years in workforce development.",
+    "languages": [
+      "Mandarin",
+      "Portuguese",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Rodriguez",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "With 7 years in fine dining, Chef Rodriguez specializes in Pan-Asian flavors using locally sourced ingredients.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Johnson",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Sous Chef Johnson supports kitchen operations with 11 years of culinary expertise and leadership.",
+    "languages": [
+      "French",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Rodriguez",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Pastry Chef Rodriguez crafts exquisite desserts with 7 years of baking and pastry artistry.",
+    "languages": [
+      "Mandarin",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/49.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Rodriguez",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Robert Rodriguez ensures consistency and quality in dish preparation across assigned kitchen areas.",
+    "languages": [
+      "Russian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Rodriguez",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Specialty Chef Rodriguez brings innovation and authenticity to the onboard dining experience.",
+    "languages": [
+      "Russian",
+      "Spanish",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/36.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Rodriguez",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "With 7 years dedicated to the art of sushi and sashimi, Chef Rodriguez meticulously selects the freshest seafood and crafts each piece with mastery.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/97.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "David Miller",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "David Miller is responsible for creating visually stunning and delicious cold appetizers, canapés, and buffet displays, backed by 11 years of Asian fusion expertise.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "James Brown",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "With 18 years of expertise, Butcher Brown expertly handles all meat and poultry, providing custom cuts and ensuring optimal yield for various Caribbean dishes.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Garcia",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Baker Garcia produces fresh breads and baked goods, leveraging 6 years of baking expertise.",
+    "languages": [
+      "Spanish",
+      "Arabic",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "James Williams",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "James Williams provides engaging wine education and tasting experiences for guests, sharing insights from 11 years exploring global viticulture.",
+    "languages": [
+      "Japanese",
+      "Russian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "John Brown",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Brown crafts creative cocktails, combining flavor expertise with 8 years of bartending skill.",
+    "languages": [
+      "Italian",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Davis",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Barista Davis prepares specialty coffees with precision, backed by 16 years in coffee service.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/56.jpg",
+    "city": "Dublin",
+    "country": "Global"
   },
   {
     "name": "Michael Williams",
     "role": "Nutritionist",
     "department": "Culinary Department",
-    "bio": "Michael Williams is an experienced Nutritionist with 17 years of service in the maritime industry.",
+    "bio": "With 14 years in clinical and culinary nutrition, Michael Williams provides personalized dietary consultations and develops specialized meal plans for guests with specific needs.",
     "languages": [
-      "Japanese",
-      "Italian",
+      "Portuguese",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/nutritionist-williams.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "David Brown",
+    "name": "Olivia Rodriguez",
     "role": "Entertainment Director",
     "department": "Entertainment Department",
-    "bio": "David Brown is an experienced Entertainment Director with 17 years of service in the maritime industry.",
+    "bio": "Olivia Rodriguez plans and oversees all entertainment activities, applying 15 years of event and talent management.",
     "languages": [
-      "Italian",
-      "Portuguese",
       "Spanish",
+      "German",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/entertainment-director-brown.jpg",
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Sophia Williams",
+    "name": "James Martinez",
     "role": "Performance Coordinator",
     "department": "Entertainment Department",
-    "bio": "Sophia Williams is an experienced Performance Coordinator with 6 years of service in the maritime industry.",
+    "bio": "James Martinez manages scheduling and logistics for performers, ensuring smooth entertainment operations onboard.",
     "languages": [
       "Portuguese",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/performance-coordinator-williams.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Brown",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "Emma Brown is an experienced Lead Vocalist with 12 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/lead-vocalist-brown.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Miller",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "Sarah Miller is an experienced Musician with 6 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "Portuguese",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/musician-miller.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Davis",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Olivia Davis is an experienced Dancer with 8 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/dancer-davis.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Brown",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Sophia Brown is an experienced Choreographer with 8 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/choreographer-brown.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Garcia",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Olivia Garcia is an experienced Comedy Performer with 8 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "Russian",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/comedy-performer-garcia.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Rodriguez",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "Maria Rodriguez is an experienced Magic Act with 14 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/magic-act-rodriguez.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Williams",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "Michael Williams is an experienced DJ with 14 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/dj-williams.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Miller",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Sarah Miller is an experienced Audio Technician with 17 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/audio-technician-miller.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Jones",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "John Jones is an experienced Lighting Specialist with 7 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
       "English"
     ],
     "experienceYears": 7,
-    "profileImage": "/images/crew/lighting-specialist-jones.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "David Johnson",
-    "role": "Stage Manager",
+    "name": "Olivia Johnson",
+    "role": "Lead Vocalist",
     "department": "Entertainment Department",
-    "bio": "David Johnson is an experienced Stage Manager with 12 years of service in the maritime industry.",
+    "bio": "Lead Vocalist Johnson captivates audiences with dynamic performances, backed by 17 years of professional singing.",
     "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/stage-manager-johnson.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Rodriguez",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "Maria Rodriguez is an experienced Production Manager with 11 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "French",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/production-manager-rodriguez.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Miller",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Robert Miller is an experienced Costume Designer with 19 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/costume-designer-miller.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Garcia",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "John Garcia is an experienced Cultural Program Director with 11 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/cultural-program-director-garcia.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Smith",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "David Smith is an experienced Performance Artist with 13 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "Italian",
       "Mandarin",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/performance-artist-smith.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Jones",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Emma Jones is an experienced Operations Manager with 8 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/operations-manager-jones.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Johnson",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "Emma Johnson is an experienced Logistics Coordinator with 5 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/logistics-coordinator-johnson.jpg",
-    "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Martinez",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "Robert Martinez is an experienced Inventory Specialist with 6 years of service in the maritime industry.",
-    "languages": [
-      "French",
       "German",
       "English"
     ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/inventory-specialist-martinez.jpg",
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/92.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "David Williams",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "David Williams is an experienced Procurement Officer with 18 years of service in the maritime industry.",
+    "name": "James Rodriguez",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "James Rodriguez enriches onboard ambiance through skilled instrumental and vocal performances.",
     "languages": [
+      "Arabic",
+      "Mandarin",
+      "French",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Dancer Johnson delivers energetic and polished routines, drawing on 18 years of dance training.",
+    "languages": [
+      "Italian",
       "Arabic",
       "English"
     ],
     "experienceYears": 18,
-    "profileImage": "/images/crew/procurement-officer-williams.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Robert Martinez",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "Robert Martinez is an experienced Sustainability Coordinator with 16 years of service in the maritime industry.",
+    "name": "John Martinez",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "John Martinez collaborates with costume and lighting designers to create a cohesive and visually stunning spectacle, drawing on 17 years of experience in stage production.",
     "languages": [
       "Spanish",
       "English"
     ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/sustainability-coordinator-martinez.jpg",
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
     "city": "Dublin",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
+  },
+  {
+    "name": "Robert Garcia",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "With a sharp wit and 6 years on the comedy circuit, Robert Garcia offers hilarious observational humor and storytelling that resonates with diverse audiences.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "David Davis",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "With 8 years honing the art of illusion, David Davis performs mind-bending feats of magic, from close-up tricks to grand stage illusions, delighting guests of all ages.",
+    "languages": [
+      "Mandarin",
+      "German",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "David Miller",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "David Miller utilizes professional mixing skills and an energetic presence to ensure high-energy parties and memorable nights for guests, backed by 13 years of club experience.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/89.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Rodriguez",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Audio Technician Rodriguez manages sound systems and ensures optimal audio quality for performances onboard.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Rodriguez",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Lighting Specialist Rodriguez programs and operates sophisticated lighting consoles, working closely with directors to achieve the desired visual impact for each performance.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/40.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "James Johnson",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "James Johnson supervises stage operations and talent, drawing on 13 years of event management.",
+    "languages": [
+      "Spanish",
+      "Mandarin",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Brown",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Production Manager Brown oversees logistics and technical coordination for large-scale entertainment productions.",
+    "languages": [
+      "German",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "James Williams",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "James Williams's artistic flair and attention to historical detail, honed over 10 years, bring visual richness and authenticity to the stage.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Cultural Program Director Johnson collaborates with local artists, historians, and experts to provide authentic and immersive cultural experiences for guests.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Rodriguez",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "With 7 years pushing artistic boundaries, Maria Rodriguez offers a distinctive and captivating addition to the ship's diverse entertainment offerings.",
+    "languages": [
+      "English",
+      "Russian",
+      "German"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Martinez",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Operations Manager Martinez is adept at problem-solving complex logistical challenges and implementing solutions that enhance overall ship performance and guest satisfaction.",
+    "languages": [
+      "Russian",
+      "Italian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Davis",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Logistics Coordinator Davis manages supply chain and transport logistics, ensuring efficient resource allocation.",
+    "languages": [
+      "Italian",
+      "Russian",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "John Davis",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Inventory Specialist Davis tracks and manages stock levels, maintaining operational readiness.",
+    "languages": [
+      "Portuguese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/93.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Williams",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Procurement Officer Williams sources and negotiates contracts for goods and services needed onboard.",
+    "languages": [
+      "Spanish",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
+    "city": "Dublin",
+    "country": "Global"
+  },
+  {
+    "name": "John Smith",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Sustainability Coordinator Smith ensures compliance with international environmental regulations (e.g., MARPOL) and promotes a culture of sustainability among crew and guests.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/88.jpg",
+    "city": "Dublin",
+    "country": "Global"
   }
 ];

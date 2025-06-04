@@ -1,1470 +1,1302 @@
-import { CrewMember } from "@/lib/interfaces/people/staff.ts";
+import { CrewMember } from "@/lib/interfaces/people/staff";
 
-export const galvestonTeamMembers:CrewMember[] = [
+export const galvestonTeamMembers: CrewMember[] = [
   {
-    "name": "John Martinez",
+    "name": "Maria Brown",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "John Martinez is an experienced Captain with 15 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/captain-martinez.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Johnson",
-    "role": "First Officer",
-    "department": "Deck Department",
-    "bio": "James Johnson is an experienced First Officer with 18 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "German",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/first-officer-johnson.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Smith",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "Michael Smith is an experienced Second Officer with 5 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/second-officer-smith.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Miller",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "Maria Miller is an experienced Third Officer with 6 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "French",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/third-officer-miller.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "Robert Smith is an experienced Navigation Officer with 9 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "German",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/navigation-officer-smith.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Brown",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "Robert Brown is an experienced Safety Officer with 19 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/safety-officer-brown.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Rodriguez",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "Olivia Rodriguez is an experienced Deck Cadet with 15 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/deck-cadet-rodriguez.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Martinez",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Robert Martinez is an experienced Bosun with 5 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/bosun-martinez.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Garcia",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "John Garcia is an experienced Chief Engineer with 17 years of service in the maritime industry.",
+    "bio": "Captain Brown has navigated the challenging waters of undefined for over 16 years, consistently prioritizing sustainable maritime practices and regulatory compliance.",
     "languages": [
       "Russian",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/chief-engineer-garcia.jpg",
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
     "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Maria Davis",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "Maria Davis is an experienced First Engineer with 19 years of service in the maritime industry.",
+    "name": "Sophia Davis",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "Sophia Davis applies comprehensive knowledge of undefined's tides, currents, and weather patterns, contributing to efficient and safe ship navigation.",
     "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/first-engineer-davis.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Jones",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "David Jones is an experienced Second Engineer with 14 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
       "French",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/second-engineer-jones.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Smith",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Sarah Smith is an experienced Electrical Engineer with 12 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/electrical-engineer-smith.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Brown",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "Emma Brown is an experienced Mechanical Engineer with 7 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/mechanical-engineer-brown.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Rodriguez",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "John Rodriguez is an experienced HVAC Engineer with 17 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "French",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/hvac-engineer-rodriguez.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Williams",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Olivia Williams is an experienced Environmental Engineer with 10 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Arabic",
+      "Japanese",
       "English"
     ],
     "experienceYears": 10,
-    "profileImage": "/images/crew/environmental-engineer-williams.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
     "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
+  },
+  {
+    "name": "James Davis",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "With a strong focus on electronic navigation and safety equipment, James Davis brings 14 years of experience navigating undefined's challenging routes.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Smith",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "With 14 years dedicated to bridge operations, Robert Smith contributes to seamless voyages through undefined's waterways by monitoring safety and compliance.",
+    "languages": [
+      "Mandarin",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Williams",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Robert Williams utilizes advanced navigational technology with 16 years ensuring precise route planning and safe passage in undefined.",
+    "languages": [
+      "Portuguese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/87.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Williams",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Robert Williams enforces safety standards and conducts training programs, drawing on 17 years of maritime safety expertise to minimize risks onboard.",
+    "languages": [
+      "Arabic",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Williams",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Olivia Williams, a promising Deck Cadet, is quickly mastering the fundamentals of seamanship and safety protocols specific to undefined maritime operations.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Rodriguez",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "With 12 years managing deck teams, Robert Rodriguez coordinates tasks such as mooring, cargo handling, and routine repairs, maintaining operational readiness in undefined.",
+    "languages": [
+      "German",
+      "Spanish",
+      "French",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "David Williams",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "David Williams brings 19 years of engineering excellence, leading innovations in sustainable maritime technology and driving continuous improvement in vessel operations.",
+    "languages": [
+      "Arabic",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Garcia",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "With a focus on propulsion and power systems, Sophia Garcia applies 13 years of expertise to optimize engine performance and troubleshoot complex mechanical issues.",
+    "languages": [
+      "English",
+      "German"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "city": "Galveston",
+    "country": "Global"
   },
   {
     "name": "Emma Davis",
-    "role": "Systems Engineer",
+    "role": "Second Engineer",
     "department": "Engineering Department",
-    "bio": "Emma Davis is an experienced Systems Engineer with 9 years of service in the maritime industry.",
+    "bio": "Emma Davis's 8 years include supervising junior engineers and engine room ratings, fostering a culture of safety and competence.",
+    "languages": [
+      "English",
+      "German"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "David Martinez",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Electrical Engineer Martinez conducts regular testing and troubleshooting of generators, switchboards, and control systems to prevent downtime.",
     "languages": [
       "Spanish",
       "English"
     ],
     "experienceYears": 9,
-    "profileImage": "/images/crew/systems-engineer-davis.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
     "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Sarah Williams",
-    "role": "Technical Manager",
+    "name": "Robert Davis",
+    "role": "Mechanical Engineer",
     "department": "Engineering Department",
-    "bio": "Sarah Williams is an experienced Technical Manager with 15 years of service in the maritime industry.",
+    "bio": "With 19 years dedicated to marine mechanics, Robert Davis excels in the overhaul and alignment of engines and rotating machinery.",
     "languages": [
-      "English",
-      "Russian"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/technical-manager-williams.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Brown",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Emma Brown is an experienced Maintenance Engineer with 9 years of service in the maritime industry.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/maintenance-engineer-brown.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Williams",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Robert Williams is an experienced Security Director with 14 years of service in the maritime industry.",
-    "languages": [
-      "English",
-      "Spanish"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/security-director-williams.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Williams",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Robert Williams is an experienced Security Officer with 16 years of service in the maritime industry.",
-    "languages": [
-      "English",
-      "Portuguese"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/security-officer-williams.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Garcia",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Maria Garcia is an experienced Security Specialist with 17 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "Italian",
+      "French",
       "Portuguese",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/security-specialist-garcia.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Miller",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Sarah Miller is an experienced Cybersecurity Officer with 6 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/cybersecurity-officer-miller.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Smith",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "Maria Smith is an experienced Maritime Security Coordinator with 19 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
     "experienceYears": 19,
-    "profileImage": "/images/crew/maritime-security-coordinator-smith.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
     "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "David Johnson",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "David Johnson is an experienced Access Control Officer with 15 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/access-control-officer-johnson.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Rodriguez",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Emma Rodriguez is an experienced Safety Compliance Officer with 6 years of service in the maritime industry.",
+    "name": "Maria Miller",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "HVAC Engineer Miller's focus includes maintaining air quality and compliance with health standards across all vessel compartments, a skill developed over 13 years.",
     "languages": [
       "Italian",
       "English"
     ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/safety-compliance-officer-rodriguez.jpg",
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/84.jpg",
     "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
+  },
+  {
+    "name": "Robert Garcia",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Robert Garcia champions innovative solutions for waste reduction and energy efficiency, reflecting 5 years of commitment to maritime sustainability.",
+    "languages": [
+      "Portuguese",
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Williams",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Systems Engineer Williams's proficiency in network engineering and data management ensures seamless information flow across shipboard platforms, built over 8 years.",
+    "languages": [
+      "Portuguese",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/90.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "John Garcia",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Technical Manager Garcia has 14 years of experience managing dry-dock specifications, contract negotiations, and supervision of major refit projects.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Johnson",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Maintenance Engineer Johnson applies 9 years of hands-on expertise maintaining and repairing shipboard mechanical and electrical equipment.",
+    "languages": [
+      "Russian",
+      "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/97.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Brown",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "With 8 years in maritime security, Michael Brown ensures comprehensive protection for passengers, crew, and assets through proactive strategy and coordination.",
+    "languages": [
+      "Spanish",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Garcia",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Emma Garcia is trained in conflict resolution and emergency protocols, ensuring rapid and effective response to security incidents.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Davis",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "With extensive training in security technologies, Olivia Davis leads specialized investigations and security audits to strengthen vessel defenses.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Davis",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "With a background in IT security, Robert Davis safeguards shipboard communication and control systems against cyber threats, ensuring data integrity and system availability.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
+    "city": "Galveston",
+    "country": "Global"
   },
   {
     "name": "Emma Rodriguez",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Emma Rodriguez is an experienced Youth Program Director with 18 years of service in the maritime industry.",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "With strong organizational skills, Emma Rodriguez maintains detailed records and reports to support continuous security improvement.",
     "languages": [
-      "French",
+      "Russian",
       "Spanish",
       "English"
     ],
     "experienceYears": 18,
-    "profileImage": "/images/crew/youth-program-director-rodriguez.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/8.jpg",
     "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Brown",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Sophia Brown is an experienced Family Activities Coordinator with 8 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/family-activities-coordinator-brown.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Garcia",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Sarah Garcia is an experienced Children's Entertainment Specialist with 13 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "Portuguese",
-      "German",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/children's-entertainment-specialist-garcia.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Davis",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Michael Davis is an experienced Teen Activities Coordinator with 12 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "Japanese",
-      "German",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/teen-activities-coordinator-davis.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
     "name": "John Williams",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "John Williams is an experienced Educational Program Manager with 17 years of service in the maritime industry.",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "With expertise in surveillance and monitoring, John Williams detects and prevents unauthorized access to restricted vessel areas.",
     "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "David Smith",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Safety Compliance Officer Smith conducts safety audits, training, and inspections to uphold the highest standards throughout vessel operations.",
+    "languages": [
+      "French",
+      "English",
+      "Japanese"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/96.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "John Johnson",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Youth Program Director Johnson manages program staff and coordinates resources to deliver safe, inclusive, and dynamic youth experiences.",
+    "languages": [
+      "Russian",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Jones",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Family Activities Coordinator Jones designs multi-generational programs that promote bonding and enjoyment throughout the voyage.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Williams",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Robert Williams engages young guests with creative entertainment programs, leveraging 17 years in children’s recreational services and event planning.",
+    "languages": [
+      "Japanese",
+      "Mandarin",
       "English"
     ],
     "experienceYears": 17,
-    "profileImage": "/images/crew/educational-program-manager-williams.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
     "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Emma Miller",
+    "name": "John Garcia",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Teen Activities Coordinator Garcia fosters positive social environments with interactive, age-appropriate activities that encourage peer bonding.",
+    "languages": [
+      "Russian",
+      "Spanish",
+      "German",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/94.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "David Johnson",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "David Johnson, with 8 years in curriculum development, ensures educational content is engaging, accurate, and inspiring for passengers of all ages.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Williams",
     "role": "Child Care Specialist",
     "department": "Youth & Family Programs",
-    "bio": "Emma Miller is an experienced Child Care Specialist with 5 years of service in the maritime industry.",
+    "bio": "Child Care Specialist Williams promotes social and emotional development through structured play and educational activities.",
+    "languages": [
+      "French",
+      "German",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "David Smith",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Known for innovative programming, David Smith continuously evaluates activity trends and passenger feedback to refresh and improve offerings.",
+    "languages": [
+      "Mandarin",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "John Smith",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "John Smith teaches water sports safely and effectively, leveraging 12 years of professional instruction and certification in aquatic activities.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "James Garcia",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Drawing on 16 years of expertise, James Garcia offers specialized classes like yoga, Pilates, and high-intensity interval training (HIIT).",
+    "languages": [
+      "Russian",
+      "Arabic",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Rodriguez",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Robert Rodriguez's meticulous planning and attention to detail, developed over 8 years, ensure every guest's off-ship adventure is seamless and unforgettable.",
+    "languages": [
+      "Mandarin",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Garcia",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Drawing on 8 years behind the lens, Robert Garcia expertly captures the essence of the cruise experience, from grand events to intimate moments.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Jones",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Videographer Jones crafts compelling visual stories that highlight onboard experiences and diverse destinations through expert filming and editing.",
     "languages": [
       "Portuguese",
       "English"
     ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/child-care-specialist-miller.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
     "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Olivia Jones",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "Olivia Jones is an experienced Activities Director with 6 years of service in the maritime industry.",
+    "name": "Emma Miller",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Emma Miller manages digital content and multimedia production, applying 8 years in digital media, marketing, and audience engagement strategies.",
     "languages": [
-      "Italian",
+      "Portuguese",
       "Russian",
-      "Spanish",
       "English"
     ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/activities-director-jones.jpg",
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
     "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Maria Rodriguez",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Maria Rodriguez is an experienced Water Sports Instructor with 19 years of service in the maritime industry.",
+    "name": "Robert Smith",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Chief Medical Officer Smith leads all medical operations onboard, leveraging 13 years of clinical and maritime healthcare expertise to ensure passenger and crew wellbeing.",
+    "languages": [
+      "Italian",
+      "Mandarin",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Davis",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Ship's Doctor Davis conducts routine health assessments and manages medical records in compliance with international maritime standards.",
     "languages": [
       "Italian",
       "English"
     ],
     "experienceYears": 19,
-    "profileImage": "/images/crew/water-sports-instructor-rodriguez.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
     "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "John Davis",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "John Davis is an experienced Fitness Instructor with 7 years of service in the maritime industry.",
+    "name": "Sarah Brown",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Nurse Brown supports the medical team by administering treatments, monitoring patient conditions, and maintaining comprehensive medical records.",
     "languages": [
-      "German",
+      "Spanish",
+      "Japanese",
+      "Portuguese",
       "English"
     ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/fitness-instructor-davis.jpg",
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
     "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Michael Davis",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Michael Davis is an experienced Excursion Coordinator with 19 years of service in the maritime industry.",
+    "name": "John Brown",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "John Brown enforces safety standards and conducts training programs, drawing on 7 years of maritime safety expertise to minimize risks onboard.",
     "languages": [
       "Portuguese",
       "English",
       "Mandarin"
     ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/excursion-coordinator-davis.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Rodriguez",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "Emma Rodriguez is an experienced Lead Photographer with 16 years of service in the maritime industry.",
-    "languages": [
-      "English",
-      "Arabic"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/lead-photographer-rodriguez.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Jones",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Maria Jones is an experienced Videographer with 16 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "German",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/videographer-jones.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Garcia",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "James Garcia is an experienced Digital Media Specialist with 13 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/digital-media-specialist-garcia.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Davis",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Sarah Davis is an experienced Chief Medical Officer with 7 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "German",
-      "English"
-    ],
     "experienceYears": 7,
-    "profileImage": "/images/crew/chief-medical-officer-davis.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
     "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Sarah Jones",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "Sarah Jones is an experienced Ship's Doctor with 13 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/ship's-doctor-jones.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Rodriguez",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Olivia Rodriguez is an experienced Nurse with 18 years of service in the maritime industry.",
-    "languages": [
-      "English",
-      "Russian",
-      "Japanese"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/nurse-rodriguez.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Johnson",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Maria Johnson is an experienced Safety Officer with 14 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/safety-officer-johnson.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Miller",
+    "name": "Robert Smith",
     "role": "Hospitality Director",
     "department": "Hospitality Department",
-    "bio": "David Miller is an experienced Hospitality Director with 6 years of service in the maritime industry.",
+    "bio": "Robert Smith manages all hospitality services, ensuring exceptional guest experiences with 17 years of leadership.",
     "languages": [
       "Italian",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/hospitality-director-miller.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Rodriguez",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "Emma Rodriguez is an experienced Guest Relations Manager with 7 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/guest-relations-manager-rodriguez.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Martinez",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Maria Martinez is an experienced Chief Steward with 14 years of service in the maritime industry.",
-    "languages": [
-      "French",
       "Mandarin",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/chief-steward-martinez.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Johnson",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "Olivia Johnson is an experienced Senior Steward with 16 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "French",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/senior-steward-johnson.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Smith",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "John Smith is an experienced Butler with 7 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "German",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/butler-smith.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Garcia",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "David Garcia is an experienced Accommodation Manager with 14 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/accommodation-manager-garcia.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Rodriguez",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "Sarah Rodriguez is an experienced Housekeeping Supervisor with 7 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/housekeeping-supervisor-rodriguez.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Williams",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Robert Williams is an experienced Guest Services Specialist with 5 years of service in the maritime industry.",
-    "languages": [
-      "English",
-      "Mandarin",
-      "Portuguese"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/guest-services-specialist-williams.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Garcia",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "Michael Garcia is an experienced Concierge with 17 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
       "English"
     ],
     "experienceYears": 17,
-    "profileImage": "/images/crew/concierge-garcia.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
     "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Sarah Davis",
-    "role": "Front Desk Manager",
+    "name": "Maria Rodriguez",
+    "role": "Guest Relations Manager",
     "department": "Hospitality Department",
-    "bio": "Sarah Davis is an experienced Front Desk Manager with 18 years of service in the maritime industry.",
+    "bio": "Maria Rodriguez champions a guest-first culture, utilizing 18 years of experience to train and motivate staff in delivering exceptional, personalized care.",
     "languages": [
+      "German",
+      "Spanish",
       "French",
       "English"
     ],
     "experienceYears": 18,
-    "profileImage": "/images/crew/front-desk-manager-davis.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
     "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Smith",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "David Smith is an experienced VIP Coordinator with 8 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/vip-coordinator-smith.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
     "name": "Sophia Rodriguez",
-    "role": "Hospitality Trainer",
+    "role": "Chief Steward",
     "department": "Hospitality Department",
-    "bio": "Sophia Rodriguez is an experienced Hospitality Trainer with 7 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/hospitality-trainer-rodriguez.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Miller",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Olivia Miller is an experienced Executive Chef with 5 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/executive-chef-miller.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Martinez",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "Sarah Martinez is an experienced Sous Chef with 8 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/sous-chef-martinez.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Williams",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "John Williams is an experienced Pastry Chef with 11 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/pastry-chef-williams.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Johnson",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "David Johnson is an experienced Chef de Partie with 14 years of service in the maritime industry.",
+    "bio": "Sophia Rodriguez ensures the highest standards of cleanliness and comfort throughout passenger accommodations.",
     "languages": [
       "Japanese",
-      "German",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/chef-de-partie-johnson.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Miller",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Olivia Miller is an experienced Specialty Chef with 15 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "German",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/specialty-chef-miller.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Miller",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "John Miller is an experienced Sushi Chef with 9 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
+      "Portuguese",
       "English"
     ],
     "experienceYears": 9,
-    "profileImage": "/images/crew/sushi-chef-miller.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
     "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Sarah Rodriguez",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "Sarah Rodriguez is an experienced Garde Manger with 18 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/garde-manger-rodriguez.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Brown",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Robert Brown is an experienced Butcher with 13 years of service in the maritime industry.",
+    "name": "Robert Jones",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Senior Steward Jones also assists in training junior stewards, sharing expertise gained from 6 years in maritime hospitality.",
     "languages": [
       "Japanese",
-      "Spanish",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "John Davis",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "With discreet professionalism honed over 9 years, Butler Davis offers bespoke services, including in-suite dining, wardrobe management, and personalized arrangements.",
+    "languages": [
+      "Arabic",
       "Mandarin",
       "English"
     ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/butcher-brown.jpg",
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
     "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Emma Miller",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "Emma Miller is an experienced Baker with 7 years of service in the maritime industry.",
+    "name": "Maria Miller",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Accommodation Manager Miller plays a key role in inventory control for linens, amenities, and cleaning supplies, optimizing resources over 6 years.",
     "languages": [
-      "Spanish",
-      "Arabic",
+      "French",
+      "Mandarin",
       "English"
     ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/baker-miller.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
     "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Miller",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Miller leads cleaning teams, maintaining impeccable standards across all guest areas.",
+    "languages": [
+      "Italian",
+      "German",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Martinez",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Guest Services Specialist Martinez efficiently handles onboard account management, reservations for activities, and general assistance with a friendly and professional demeanor.",
+    "languages": [
+      "English",
+      "German",
+      "Portuguese"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Brown",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Concierge Brown offers expert local knowledge and personalized recommendations to enrich guest journeys.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "Galveston",
+    "country": "Global"
   },
   {
     "name": "Maria Garcia",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Maria Garcia is an experienced Sommelier with 15 years of service in the maritime industry.",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "With 11 years in front office management, Maria Garcia ensures a welcoming and organized reception area, managing all aspects of guest registration and billing.",
     "languages": [
+      "Arabic",
+      "German",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Williams",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "Maria Williams's expertise over 11 years lies in creating unparalleled experiences, making every VIP guest feel exceptionally valued and pampered.",
+    "languages": [
+      "Japanese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Jones",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "With 7 years of designing and delivering impactful training, Robert Jones empowers staff with the knowledge and skills to provide outstanding service.",
+    "languages": [
+      "English",
+      "Russian"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "James Smith",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "With 7 years in fine dining, Chef Smith specializes in Caribbean flavors using locally sourced ingredients.",
+    "languages": [
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Rodriguez",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "With 15 years in high-volume kitchens, Sous Chef Rodriguez is adept at managing specific stations and stepping in for the Executive Chef as needed.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/87.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "John Jones",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "With a passion for sweet masterpieces, Pastry Chef Jones continually develops new recipes, delighting guests with 5 years of dedication to the art of patisserie.",
+    "languages": [
+      "Japanese",
+      "German",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "David Jones",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "David Jones ensures consistency and quality in dish preparation across assigned kitchen areas.",
+    "languages": [
+      "Japanese",
       "German",
       "Russian",
       "English"
     ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/sommelier-garcia.jpg",
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/95.jpg",
     "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Michael Martinez",
-    "role": "Mixologist",
+    "name": "Sophia Williams",
+    "role": "Specialty Chef",
     "department": "Culinary Department",
-    "bio": "Michael Martinez is an experienced Mixologist with 10 years of service in the maritime industry.",
+    "bio": "With 8 years perfecting {cuisineSpecific} artistry, Sophia Williams ensures each plate is a true representation of its cultural heritage and bold flavors.",
     "languages": [
-      "French",
-      "Portuguese",
-      "Arabic",
+      "German",
+      "Mandarin",
+      "Russian",
       "English"
     ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/mixologist-martinez.jpg",
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
     "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Emma Rodriguez",
-    "role": "Barista",
+    "name": "James Davis",
+    "role": "Sushi Chef",
     "department": "Culinary Department",
-    "bio": "Emma Rodriguez is an experienced Barista with 18 years of service in the maritime industry.",
+    "bio": "With 17 years dedicated to the art of sushi and sashimi, Chef Davis meticulously selects the freshest seafood and crafts each piece with mastery.",
     "languages": [
-      "French",
-      "Russian",
+      "Portuguese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Martinez",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Garde Manger Martinez ensures all cold food items are stored and handled with the utmost care, upholding critical food safety protocols over 6 years.",
+    "languages": [
       "Japanese",
       "English"
     ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/barista-rodriguez.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
     "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Davis",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "With 12 years of expertise, Butcher Davis expertly handles all meat and poultry, providing custom cuts and ensuring optimal yield for various Japanese dishes.",
+    "languages": [
+      "Japanese",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/92.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Johnson",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Olivia Johnson combines traditional techniques with innovation to delight guests with baked specialties.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Johnson",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Michael Johnson enhances dining experiences by sourcing and recommending premium wines.",
+    "languages": [
+      "French",
+      "English",
+      "Portuguese"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/96.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "James Brown",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "James Brown delivers exceptional beverage experiences tailored to guest preferences onboard.",
+    "languages": [
+      "Arabic",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Johnson",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Olivia Johnson combines artistry and technique to serve quality espresso and coffee beverages.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
+    "city": "Galveston",
+    "country": "Global"
   },
   {
     "name": "David Garcia",
     "role": "Nutritionist",
     "department": "Culinary Department",
-    "bio": "David Garcia is an experienced Nutritionist with 19 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/nutritionist-garcia.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Johnson",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "Robert Johnson is an experienced Entertainment Director with 19 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/entertainment-director-johnson.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Garcia",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "David Garcia is an experienced Performance Coordinator with 12 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/performance-coordinator-garcia.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Johnson",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "Sophia Johnson is an experienced Lead Vocalist with 17 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "German",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/lead-vocalist-johnson.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Jones",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "Michael Jones is an experienced Musician with 19 years of service in the maritime industry.",
+    "bio": "Nutritionist Garcia works closely with the culinary team to create wholesome Mediterranean options that are both flavorful and aligned with wellness goals, drawing on 6 years of expertise.",
     "languages": [
       "Portuguese",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/musician-jones.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Brown",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "James Brown is an experienced Dancer with 5 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "Spanish",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/dancer-brown.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Johnson",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "James Johnson is an experienced Choreographer with 9 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "German",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/choreographer-johnson.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Johnson",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "David Johnson is an experienced Comedy Performer with 10 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "English",
-      "German"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/comedy-performer-johnson.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Brown",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "James Brown is an experienced Magic Act with 11 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/magic-act-brown.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Brown",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "Michael Brown is an experienced DJ with 16 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "English",
-      "Italian"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/dj-brown.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Brown",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Sarah Brown is an experienced Audio Technician with 14 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/audio-technician-brown.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Miller",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "Sophia Miller is an experienced Lighting Specialist with 15 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/lighting-specialist-miller.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Brown",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "John Brown is an experienced Stage Manager with 13 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "Italian",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/stage-manager-brown.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Davis",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "Sophia Davis is an experienced Production Manager with 12 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "Russian",
-      "French",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/production-manager-davis.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Davis",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Michael Davis is an experienced Costume Designer with 18 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/costume-designer-davis.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Rodriguez",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Olivia Rodriguez is an experienced Cultural Program Director with 10 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "English",
-      "French"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/cultural-program-director-rodriguez.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Smith",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "Olivia Smith is an experienced Performance Artist with 12 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/performance-artist-smith.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Johnson",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Olivia Johnson is an experienced Operations Manager with 13 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/operations-manager-johnson.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Davis",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "Sophia Davis is an experienced Logistics Coordinator with 9 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/logistics-coordinator-davis.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Brown",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "John Brown is an experienced Inventory Specialist with 5 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/inventory-specialist-brown.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Williams",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "David Williams is an experienced Procurement Officer with 13 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/procurement-officer-williams.jpg",
-    "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Smith",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "Emma Smith is an experienced Sustainability Coordinator with 6 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "German",
       "English"
     ],
     "experienceYears": 6,
-    "profileImage": "/images/crew/sustainability-coordinator-smith.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
     "city": "Galveston",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
+  },
+  {
+    "name": "Robert Garcia",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "With 12 years orchestrating spectacular onboard entertainment, Robert Garcia manages everything from Broadway-style shows to intimate musical performances and themed parties.",
+    "languages": [
+      "Japanese",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Smith",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Performance Coordinator Smith serves as the key liaison between artists, production staff, and management, ensuring clear communication and efficient problem-solving.",
+    "languages": [
+      "Spanish",
+      "English",
+      "Portuguese"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "James Williams",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "As a key figure in production shows, Lead Vocalist Williams collaborates with the cast and creative team, bringing 7 years of professional discipline and artistry.",
+    "languages": [
+      "German",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Johnson",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Musician Johnson adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 18 years of diverse musical experience.",
+    "languages": [
+      "Spanish",
+      "French",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Rodriguez",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "With 5 years of professional training in {danceStyle} and contemporary dance, Emma Rodriguez executes complex choreography with precision and artistry in mainstage productions.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Smith",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Choreographer Smith works closely with dancers to teach and refine intricate movements, ensuring performances are polished and impactful, reflecting 6 years of artistic direction.",
+    "languages": [
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Miller",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "With a sharp wit and 12 years on the comedy circuit, Olivia Miller offers hilarious observational humor and storytelling that resonates with diverse audiences.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Rodriguez",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Olivia Rodriguez blends showmanship and technique to deliver captivating magic shows at sea.",
+    "languages": [
+      "German",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Miller",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "With an extensive music library and 10 years of reading crowds, DJ Miller seamlessly blends genres to create the perfect soundtrack for any onboard event or nightclub.",
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "James Martinez",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "James Martinez's keen ear and technical proficiency, developed over 13 years, are essential for delivering immersive and high-quality auditory experiences.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Smith",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Sophia Smith's artistic vision and technical mastery over 16 years ensure that lighting plays a crucial role in the storytelling and excitement of onboard entertainment.",
+    "languages": [
+      "Russian",
+      "Arabic",
+      "German",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/67.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Miller",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Sarah Miller's calm under pressure and attention to detail, honed over 7 years, are vital for delivering complex, multi-layered performances without a hitch.",
+    "languages": [
+      "Spanish",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/94.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Garcia",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Sophia Garcia's strategic planning and problem-solving skills, developed over 6 years, are crucial for the successful execution of a high-quality entertainment program.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Martinez",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "With 6 years of experience in theatrical costume design, Sarah Martinez conceives and produces stunning wardrobes that define characters and elevate productions.",
+    "languages": [
+      "German",
+      "Italian",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Jones",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Robert Jones's passion for cultural exchange, cultivated over 15 years, enriches the voyage by fostering understanding and appreciation of diverse traditions.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Williams",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "A specialist in {artisticDiscipline}, Maria Williams presents breathtaking and thought-provoking performances honed over 13 years of dedicated artistic exploration.",
+    "languages": [
+      "Italian",
+      "English",
+      "Mandarin"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Smith",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Robert Smith plays a crucial role in port operations coordination, safety compliance oversight, and emergency response planning, backed by 13 years of maritime expertise.",
+    "languages": [
+      "Russian",
+      "German",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Williams",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Sarah Williams leverages 14 years in logistics to optimize onboard operations.",
+    "languages": [
+      "Russian",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Jones",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "With 13 years in inventory management, Robert Jones meticulously maintains records for all consumables, technical spares, and retail goods onboard.",
+    "languages": [
+      "Japanese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Davis",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Emma Davis applies expertise in vendor management and cost optimization to benefit ship operations.",
+    "languages": [
+      "English",
+      "Italian",
+      "Spanish"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
+    "city": "Galveston",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Jones",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "With 5 years dedicated to environmental stewardship in the maritime sector, Michael Jones develops and manages programs for waste reduction, recycling, and energy conservation.",
+    "languages": [
+      "Mandarin",
+      "French",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/98.jpg",
+    "city": "Galveston",
+    "country": "Global"
   }
 ];

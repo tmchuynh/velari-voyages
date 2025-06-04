@@ -1,1466 +1,1293 @@
-import { CrewMember } from "@/lib/interfaces/people/staff.ts";
+import { CrewMember } from "@/lib/interfaces/people/staff";
 
-export const sydneyTeamMembers:CrewMember[] = [
+export const sydneyTeamMembers: CrewMember[] = [
   {
-    "name": "John Johnson",
+    "name": "Robert Jones",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "John Johnson is an experienced Captain with 10 years of service in the maritime industry.",
+    "bio": "Drawing on 16 years of command, Robert Jones expertly manages all aspects of vessel operation in undefined, emphasizing crew development and operational excellence.",
     "languages": [
-      "German",
-      "Portuguese",
       "French",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/captain-johnson.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Williams",
-    "role": "First Officer",
-    "department": "Deck Department",
-    "bio": "John Williams is an experienced First Officer with 7 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/first-officer-williams.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Miller",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "Olivia Miller is an experienced Second Officer with 5 years of service in the maritime industry.",
-    "languages": [
       "Italian",
-      "Spanish",
-      "German",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/second-officer-miller.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Jones",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "Olivia Jones is an experienced Third Officer with 17 years of service in the maritime industry.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/third-officer-jones.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Johnson",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "Emma Johnson is an experienced Navigation Officer with 6 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/navigation-officer-johnson.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Garcia",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "James Garcia is an experienced Safety Officer with 10 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/safety-officer-garcia.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Brown",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "Maria Brown is an experienced Deck Cadet with 8 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/deck-cadet-brown.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Brown",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Michael Brown is an experienced Bosun with 16 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "German",
       "English"
     ],
     "experienceYears": 16,
-    "profileImage": "/images/crew/bosun-brown.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "James Brown",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "James Brown is an experienced Chief Engineer with 12 years of service in the maritime industry.",
+    "name": "Sophia Johnson",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "Former coast guard officer Sophia Johnson brings exceptional navigational precision and leadership with 10 years sailing throughout undefined.",
     "languages": [
+      "Spanish",
+      "Russian",
       "French",
-      "Italian",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Johnson",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "With a strong focus on electronic navigation and safety equipment, Emma Johnson brings 8 years of experience navigating undefined's challenging routes.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Sophia Rodriguez",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Third Officer Rodriguez conducts regular safety inspections and coordinates emergency drills, enhancing onboard security across undefined.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "James Williams",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "James Williams plays a key role in training junior officers on undefined-specific navigational challenges and best practices, backed by 18 years of experience.",
+    "languages": [
       "German",
+      "Italian",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Davis",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Committed to regulatory adherence, Sarah Davis stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
+    "languages": [
+      "Japanese",
+      "French",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/95.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Emma Jones",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Eager to learn, Deck Cadet Emma Jones diligently assists with bridge duties and deck maintenance tasks, absorbing essential skills for navigating undefined.",
+    "languages": [
+      "Japanese",
+      "Spanish",
+      "French",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Williams",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Robert Williams's leadership ensures the deck department operates efficiently and safely, drawing from 12 years of hands-on experience in undefined.",
+    "languages": [
+      "Mandarin",
+      "Italian",
       "English"
     ],
     "experienceYears": 12,
-    "profileImage": "/images/crew/chief-engineer-brown.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Miller",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Olivia Miller leads the engineering department with a focus on fuel efficiency and emissions reduction, drawing upon 10 years of innovative practice and power management knowledge.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/59.jpg",
+    "city": "Sydney",
+    "country": "Global"
   },
   {
     "name": "Emma Smith",
     "role": "First Engineer",
     "department": "Engineering Department",
-    "bio": "Emma Smith is an experienced First Engineer with 17 years of service in the maritime industry.",
+    "bio": "First Engineer Smith manages spare parts inventory and oversees condition monitoring programs to prevent system failures.",
     "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/first-engineer-smith.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Brown",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "Maria Brown is an experienced Second Engineer with 9 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/second-engineer-brown.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Johnson",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Sophia Johnson is an experienced Electrical Engineer with 15 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
+      "French",
       "English"
     ],
     "experienceYears": 15,
-    "profileImage": "/images/crew/electrical-engineer-johnson.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Sophia Smith",
-    "role": "Mechanical Engineer",
+    "name": "Olivia Rodriguez",
+    "role": "Second Engineer",
     "department": "Engineering Department",
-    "bio": "Sophia Smith is an experienced Mechanical Engineer with 5 years of service in the maritime industry.",
+    "bio": "Olivia Rodriguez's 17 years include supervising junior engineers and engine room ratings, fostering a culture of safety and competence.",
     "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/mechanical-engineer-smith.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Rodriguez",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "Emma Rodriguez is an experienced HVAC Engineer with 14 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/hvac-engineer-rodriguez.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Smith",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Michael Smith is an experienced Environmental Engineer with 6 years of service in the maritime industry.",
-    "languages": [
-      "English",
-      "Portuguese",
-      "Japanese"
-    ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/environmental-engineer-smith.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Davis",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "John Davis is an experienced Systems Engineer with 17 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "Spanish",
+      "German",
       "English"
     ],
     "experienceYears": 17,
-    "profileImage": "/images/crew/systems-engineer-davis.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
+  },
+  {
+    "name": "David Brown",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "David Brown implements energy-saving technologies and complies with international standards for electrical safety aboard ships.",
+    "languages": [
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Mechanical Engineer Johnson collaborates closely with the engineering team to enhance machinery performance and lifecycle management.",
+    "languages": [
+      "Russian",
+      "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/96.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "David Johnson",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "HVAC Engineer Johnson's focus includes maintaining air quality and compliance with health standards across all vessel compartments, a skill developed over 12 years.",
+    "languages": [
+      "English",
+      "German"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "John Brown",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "With 8 years focused on sustainability, John Brown develops and implements environmental protection measures aboard ships, ensuring regulatory compliance.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/87.jpg",
+    "city": "Sydney",
+    "country": "Global"
   },
   {
     "name": "Sophia Miller",
-    "role": "Technical Manager",
+    "role": "Systems Engineer",
     "department": "Engineering Department",
-    "bio": "Sophia Miller is an experienced Technical Manager with 13 years of service in the maritime industry.",
+    "bio": "Systems Engineer Miller's proficiency in network engineering and data management ensures seamless information flow across shipboard platforms, built over 19 years.",
     "languages": [
-      "French",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/technical-manager-miller.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Smith",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Olivia Smith is an experienced Maintenance Engineer with 8 years of service in the maritime industry.",
-    "languages": [
+      "Italian",
       "Japanese",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/maintenance-engineer-smith.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Brown",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Michael Brown is an experienced Security Director with 18 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/security-director-brown.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Smith",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Michael Smith is an experienced Security Officer with 13 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/security-officer-smith.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Garcia",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Sophia Garcia is an experienced Security Specialist with 8 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "Spanish",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/security-specialist-garcia.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Miller",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "David Miller is an experienced Cybersecurity Officer with 8 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English",
-      "Italian"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/cybersecurity-officer-miller.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Johnson",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "John Johnson is an experienced Maritime Security Coordinator with 18 years of service in the maritime industry.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/maritime-security-coordinator-johnson.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Smith",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "James Smith is an experienced Access Control Officer with 5 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "English",
-      "Portuguese"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/access-control-officer-smith.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Jones",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Robert Jones is an experienced Safety Compliance Officer with 19 years of service in the maritime industry.",
-    "languages": [
-      "German",
       "English"
     ],
     "experienceYears": 19,
-    "profileImage": "/images/crew/safety-compliance-officer-jones.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Emma Smith",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Emma Smith is an experienced Youth Program Director with 9 years of service in the maritime industry.",
+    "name": "Sarah Jones",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Sarah Jones manages technical operations, upgrades, and team leadership, leveraging 14 years in maritime technology and project management.",
     "languages": [
-      "Mandarin",
-      "Portuguese",
       "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/youth-program-director-smith.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Maria Johnson",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Maria Johnson is an experienced Family Activities Coordinator with 5 years of service in the maritime industry.",
+    "name": "Robert Brown",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Robert Brown develops maintenance schedules and coordinates with crew to minimize downtime and extend equipment service life.",
     "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/family-activities-coordinator-johnson.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Williams",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "David Williams is an experienced Children's Entertainment Specialist with 11 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "Mandarin",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/children's-entertainment-specialist-williams.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Davis",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Robert Davis is an experienced Teen Activities Coordinator with 8 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/teen-activities-coordinator-davis.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Williams",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Emma Williams is an experienced Educational Program Manager with 9 years of service in the maritime industry.",
-    "languages": [
-      "German",
       "Arabic",
       "English"
     ],
     "experienceYears": 9,
-    "profileImage": "/images/crew/educational-program-manager-williams.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Sarah Davis",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Sarah Davis is an experienced Child Care Specialist with 5 years of service in the maritime industry.",
-    "languages": [
-      "English",
-      "Russian"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/child-care-specialist-davis.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Martinez",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "Robert Martinez is an experienced Activities Director with 13 years of service in the maritime industry.",
+    "name": "Sophia Johnson",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Security Director Johnson leads threat analysis initiatives and implements advanced security measures to safeguard vessel integrity.",
     "languages": [
       "French",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/92.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "James Johnson",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "James Johnson is trained in conflict resolution and emergency protocols, ensuring rapid and effective response to security incidents.",
+    "languages": [
       "Russian",
       "English"
     ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/activities-director-martinez.jpg",
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Maria Williams",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Maria Williams is an experienced Water Sports Instructor with 8 years of service in the maritime industry.",
+    "name": "Emma Miller",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Emma Miller provides expert assessment and response coordination to maritime security challenges, leveraging advanced knowledge in risk management and compliance.",
     "languages": [
-      "Mandarin",
       "Spanish",
+      "Italian",
       "English"
     ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/water-sports-instructor-williams.jpg",
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Michael Martinez",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Michael Martinez is an experienced Fitness Instructor with 5 years of service in the maritime industry.",
+    "name": "Sophia Smith",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Known for proactive defense strategies, Sophia Smith continuously monitors network activity and coordinates responses to cyber incidents onboard.",
     "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "James Miller",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "James Miller coordinates security protocols and emergency responses, drawing on 16 years in maritime operations and multi-agency collaboration.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/91.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Jones",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Drawing on 13 years of experience, Maria Jones is proficient in operating and maintaining advanced access control systems and screening equipment.",
+    "languages": [
+      "Japanese",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Martinez",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "With a thorough understanding of hazard identification and mitigation, Maria Martinez leads incident investigations and corrective action plans.",
+    "languages": [
+      "French",
       "German",
       "English"
     ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/fitness-instructor-martinez.jpg",
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/87.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
+  },
+  {
+    "name": "Robert Smith",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "With a passion for youth development, Robert Smith crafts innovative activities fostering learning, social growth, and cultural awareness during voyages.",
+    "languages": [
+      "Spanish",
+      "Japanese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Davis",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Family Activities Coordinator Davis gathers feedback to adapt programs that enhance passenger satisfaction and engagement.",
+    "languages": [
+      "Spanish",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Brown",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Sarah Brown engages young guests with creative entertainment programs, leveraging 5 years in children’s recreational services and event planning.",
+    "languages": [
+      "German",
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Davis",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Maria Davis uses 9 years of insight to design activities like themed parties, sports tournaments, and creative workshops specifically for teen cruisers.",
+    "languages": [
+      "Japanese",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Jones",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "With a commitment to lifelong learning, Maria Jones curates curriculum and interactive sessions that enhance passenger knowledge and engagement.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/62.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Smith",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Known for patience and professionalism, Robert Smith communicates effectively with parents and crew to support child wellbeing.",
+    "languages": [
+      "Italian",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Brown",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Drawing on 6 years in recreation management, Michael Brown curates an exciting and varied daily program of entertainment and activities for all guests.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "David Johnson",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Known for excellent communication and risk management skills, David Johnson maintains vigilance during all aquatic activities to protect participants.",
+    "languages": [
+      "Spanish",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "James Brown",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Fitness Instructor Brown provides nutritional advice and wellness coaching, empowering guests to achieve their health goals over 5 years.",
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "Sydney",
+    "country": "Global"
   },
   {
     "name": "Maria Miller",
     "role": "Excursion Coordinator",
     "department": "Activities & Recreation",
-    "bio": "Maria Miller is an experienced Excursion Coordinator with 10 years of service in the maritime industry.",
+    "bio": "Maria Miller manages shore excursions with 15 years coordinating logistics, safety, and guest engagement across diverse international destinations.",
     "languages": [
-      "German",
+      "Spanish",
       "English"
     ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/excursion-coordinator-miller.jpg",
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Michael Miller",
+    "name": "John Williams",
     "role": "Lead Photographer",
     "department": "Photography & Videography",
-    "bio": "Michael Miller is an experienced Lead Photographer with 7 years of service in the maritime industry.",
+    "bio": "Known for creativity and attention to detail, John Williams collaborates with other departments to produce visual content that enhances onboard marketing and memory-making.",
     "languages": [
-      "French",
+      "Russian",
       "Mandarin",
+      "Italian",
       "English"
     ],
     "experienceYears": 7,
-    "profileImage": "/images/crew/lead-photographer-miller.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Olivia Brown",
+    "name": "Maria Smith",
     "role": "Videographer",
     "department": "Photography & Videography",
-    "bio": "Olivia Brown is an experienced Videographer with 13 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/videographer-brown.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Jones",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "Olivia Jones is an experienced Digital Media Specialist with 11 years of service in the maritime industry.",
+    "bio": "With a strong understanding of narrative flow and audience engagement, Maria Smith produces videos for promotional and archival purposes.",
     "languages": [
       "German",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/digital-media-specialist-jones.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Martinez",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Sarah Martinez is an experienced Chief Medical Officer with 17 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
+      "Arabic",
       "English"
     ],
     "experienceYears": 17,
-    "profileImage": "/images/crew/chief-medical-officer-martinez.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Johnson",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "James Johnson is an experienced Ship's Doctor with 7 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/ship's-doctor-johnson.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Smith",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Robert Smith is an experienced Nurse with 19 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "Japanese",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 19,
-    "profileImage": "/images/crew/nurse-smith.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Davis",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Maria Davis is an experienced Safety Officer with 6 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "French",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/safety-officer-davis.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Johnson",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "Olivia Johnson is an experienced Hospitality Director with 12 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "French",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/hospitality-director-johnson.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Brown",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "Emma Brown is an experienced Guest Relations Manager with 6 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "Mandarin",
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/guest-relations-manager-brown.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Davis",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Emma Davis is an experienced Chief Steward with 6 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/chief-steward-davis.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
     "name": "Sarah Johnson",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "Sarah Johnson is an experienced Senior Steward with 16 years of service in the maritime industry.",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Sarah Johnson uses 8 years of experience to leverage emerging digital trends, enhancing guest communication and brand visibility online.",
     "languages": [
-      "Italian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/90.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "John Smith",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Chief Medical Officer Smith maintains medical supplies and liaises with shore-based health facilities to support comprehensive care.",
+    "languages": [
+      "Mandarin",
       "Portuguese",
       "English"
     ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/senior-steward-johnson.jpg",
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Michael Garcia",
+    "name": "Michael Miller",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Dr. Miller provides comprehensive medical care with 17 years of expertise in maritime and travel medicine, addressing acute and chronic conditions onboard.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Rodriguez",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "With 15 years of experience, Sarah Rodriguez is proficient in emergency care, routine medical procedures, and health education for passengers and crew.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/89.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Robert Johnson enforces safety standards and conducts training programs, drawing on 6 years of maritime safety expertise to minimize risks onboard.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Davis",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Michael Davis manages all hospitality services, ensuring exceptional guest experiences with 17 years of leadership.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Smith",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Guest Relations Manager Smith enhances passenger satisfaction through attentive and personalized service.",
+    "languages": [
+      "Arabic",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Miller",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Chief Steward Miller trains and mentors the housekeeping staff, instilling a keen eye for detail and a commitment to impeccable service honed over 6 years.",
+    "languages": [
+      "German",
+      "Russian",
+      "French",
+      "English"
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Williams",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Michael Williams is skilled in managing cabin maintenance and guest requests with professionalism and care.",
+    "languages": [
+      "Spanish",
+      "Mandarin",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Smith",
     "role": "Butler",
     "department": "Hospitality Department",
-    "bio": "Michael Garcia is an experienced Butler with 10 years of service in the maritime industry.",
+    "bio": "With discreet professionalism honed over 7 years, Butler Smith offers bespoke services, including in-suite dining, wardrobe management, and personalized arrangements.",
     "languages": [
       "Mandarin",
       "English"
     ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/butler-garcia.jpg",
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Robert Miller",
+    "name": "Olivia Smith",
     "role": "Accommodation Manager",
     "department": "Hospitality Department",
-    "bio": "Robert Miller is an experienced Accommodation Manager with 18 years of service in the maritime industry.",
+    "bio": "Olivia Smith oversees accommodation services, ensuring comfort and efficiency with 11 years in maritime hospitality.",
     "languages": [
-      "Arabic",
+      "French",
       "English"
     ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/accommodation-manager-miller.jpg",
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
+  },
+  {
+    "name": "Maria Williams",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Williams leads cleaning teams, maintaining impeccable standards across all guest areas.",
+    "languages": [
+      "Portuguese",
+      "Spanish",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "John Miller",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "John Miller assists guests with inquiries and special requests, drawing on 16 years in customer service roles.",
+    "languages": [
+      "German",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Garcia",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "With an extensive network and 8 years of experience, Concierge Garcia arranges bespoke shore excursions, dining reservations, and special occasion services.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/94.jpg",
+    "city": "Sydney",
+    "country": "Global"
   },
   {
     "name": "Maria Davis",
-    "role": "Housekeeping Supervisor",
+    "role": "Front Desk Manager",
     "department": "Hospitality Department",
-    "bio": "Maria Davis is an experienced Housekeeping Supervisor with 19 years of service in the maritime industry.",
+    "bio": "Front Desk Manager Davis trains staff in handling diverse guest interactions and maintaining accurate records, drawing on 10 years of best practices.",
     "languages": [
+      "Spanish",
+      "Mandarin",
+      "German",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "David Miller",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "With 15 years catering to high-profile clientele, David Miller curates bespoke itineraries and ensures flawless execution of all VIP arrangements.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "With 17 years of designing and delivering impactful training, Robert Johnson empowers staff with the knowledge and skills to provide outstanding service.",
+    "languages": [
+      "Arabic",
+      "Spanish",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "John Smith",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "With 5 years in fine dining, Chef Smith specializes in Italian flavors using locally sourced ingredients.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "John Williams",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "John Williams excels in menu execution and team management to maintain high culinary standards.",
+    "languages": [
+      "Japanese",
       "German",
       "English"
     ],
     "experienceYears": 19,
-    "profileImage": "/images/crew/housekeeping-supervisor-davis.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Sophia Jones",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Sophia Jones is an experienced Guest Services Specialist with 14 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/guest-services-specialist-jones.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Maria Brown",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "Maria Brown is an experienced Concierge with 17 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "French",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/concierge-brown.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Jones",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Olivia Jones is an experienced Front Desk Manager with 7 years of service in the maritime industry.",
-    "languages": [
-      "Spanish",
-      "Arabic",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/front-desk-manager-jones.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Davis",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "Robert Davis is an experienced VIP Coordinator with 17 years of service in the maritime industry.",
-    "languages": [
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/vip-coordinator-davis.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Jones",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Sophia Jones is an experienced Hospitality Trainer with 16 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/hospitality-trainer-jones.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Miller",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Sarah Miller is an experienced Executive Chef with 9 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/executive-chef-miller.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Rodriguez",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "David Rodriguez is an experienced Sous Chef with 17 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/sous-chef-rodriguez.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Miller",
+    "name": "James Rodriguez",
     "role": "Pastry Chef",
     "department": "Culinary Department",
-    "bio": "Emma Miller is an experienced Pastry Chef with 14 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 14,
-    "profileImage": "/images/crew/pastry-chef-miller.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Smith",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Michael Smith is an experienced Chef de Partie with 8 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "Japanese",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 8,
-    "profileImage": "/images/crew/chef-de-partie-smith.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Garcia",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "John Garcia is an experienced Specialty Chef with 11 years of service in the maritime industry.",
-    "languages": [
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/specialty-chef-garcia.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Brown",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "John Brown is an experienced Sushi Chef with 9 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "Portuguese",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/sushi-chef-brown.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Davis",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "David Davis is an experienced Garde Manger with 17 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "English"
-    ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/garde-manger-davis.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Garcia",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "James Garcia is an experienced Butcher with 13 years of service in the maritime industry.",
-    "languages": [
-      "English",
-      "Russian"
-    ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/butcher-garcia.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Miller",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "David Miller is an experienced Baker with 12 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "Mandarin",
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/baker-miller.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Michael Davis",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Michael Davis is an experienced Sommelier with 15 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/sommelier-davis.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Jones",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "Sarah Jones is an experienced Mixologist with 10 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/mixologist-jones.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Johnson",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Robert Johnson is an experienced Barista with 15 years of service in the maritime industry.",
-    "languages": [
-      "Russian",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/barista-johnson.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Smith",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "John Smith is an experienced Nutritionist with 15 years of service in the maritime industry.",
-    "languages": [
-      "Portuguese",
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 15,
-    "profileImage": "/images/crew/nutritionist-smith.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "David Martinez",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "David Martinez is an experienced Entertainment Director with 16 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/entertainment-director-martinez.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Olivia Garcia",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Olivia Garcia is an experienced Performance Coordinator with 7 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "Italian",
-      "English"
-    ],
-    "experienceYears": 7,
-    "profileImage": "/images/crew/performance-coordinator-garcia.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sarah Garcia",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "Sarah Garcia is an experienced Lead Vocalist with 10 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 10,
-    "profileImage": "/images/crew/lead-vocalist-garcia.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Robert Williams",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "Robert Williams is an experienced Musician with 12 years of service in the maritime industry.",
-    "languages": [
-      "German",
-      "English"
-    ],
-    "experienceYears": 12,
-    "profileImage": "/images/crew/musician-williams.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Martinez",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "John Martinez is an experienced Dancer with 6 years of service in the maritime industry.",
+    "bio": "With a passion for sweet masterpieces, Pastry Chef Rodriguez continually develops new recipes, delighting guests with 15 years of dedication to the art of patisserie.",
     "languages": [
       "English",
       "Mandarin"
     ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/dancer-martinez.jpg",
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "John Smith",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "John Smith is an experienced Choreographer with 6 years of service in the maritime industry.",
+    "name": "Olivia Rodriguez",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "With 14 years as a section chef, Olivia Rodriguez is responsible for stock control and guiding commis chefs within their designated area of the Mediterranean kitchen.",
+    "languages": [
+      "German",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/90.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Jones",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "With 14 years perfecting {cuisineSpecific} artistry, Sarah Jones ensures each plate is a true representation of its cultural heritage and bold flavors.",
+    "languages": [
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/93.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Brown",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Olivia Brown delights guests with traditional Edomae-style sushi and contemporary maki rolls, showcasing skills honed over 6 years of rigorous training.",
     "languages": [
       "Arabic",
       "Spanish",
       "English"
     ],
     "experienceYears": 6,
-    "profileImage": "/images/crew/choreographer-smith.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Michael Williams",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Michael Williams is an experienced Comedy Performer with 18 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 18,
-    "profileImage": "/images/crew/comedy-performer-williams.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Garcia",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "John Garcia is an experienced Magic Act with 9 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/magic-act-garcia.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Rodriguez",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "Emma Rodriguez is an experienced DJ with 6 years of service in the maritime industry.",
-    "languages": [
-      "French",
-      "English"
-    ],
-    "experienceYears": 6,
-    "profileImage": "/images/crew/dj-rodriguez.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Smith",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Sophia Smith is an experienced Audio Technician with 11 years of service in the maritime industry.",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "experienceYears": 11,
-    "profileImage": "/images/crew/audio-technician-smith.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "James Johnson",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "James Johnson is an experienced Lighting Specialist with 9 years of service in the maritime industry.",
-    "languages": [
-      "English",
-      "French"
-    ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/lighting-specialist-johnson.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "John Johnson",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "John Johnson is an experienced Stage Manager with 16 years of service in the maritime industry.",
-    "languages": [
-      "Mandarin",
-      "German",
-      "English"
-    ],
-    "experienceYears": 16,
-    "profileImage": "/images/crew/stage-manager-johnson.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Sophia Rodriguez",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "Sophia Rodriguez is an experienced Production Manager with 5 years of service in the maritime industry.",
-    "languages": [
-      "Japanese",
-      "Russian",
-      "Mandarin",
-      "English"
-    ],
-    "experienceYears": 5,
-    "profileImage": "/images/crew/production-manager-rodriguez.jpg",
-    "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
-  },
-  {
-    "name": "Emma Garcia",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Emma Garcia is an experienced Costume Designer with 8 years of service in the maritime industry.",
+    "name": "Olivia Smith",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Garde Manger Smith ensures all cold food items are stored and handled with the utmost care, upholding critical food safety protocols over 14 years.",
     "languages": [
       "Portuguese",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/67.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "David Brown",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "David Brown is responsible for precise meat cuts that meet kitchen and guest expectations.",
+    "languages": [
+      "French",
       "English"
     ],
     "experienceYears": 8,
-    "profileImage": "/images/crew/costume-designer-garcia.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "John Davis",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "John Davis is an experienced Cultural Program Director with 13 years of service in the maritime industry.",
+    "name": "Emma Williams",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "With 6 years dedicated to the art of baking, Emma Williams fills the ship with the aroma of freshly baked artisan breads, pastries, and viennoiserie.",
     "languages": [
+      "French",
       "Arabic",
       "English"
     ],
-    "experienceYears": 13,
-    "profileImage": "/images/crew/cultural-program-director-davis.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/84.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Olivia Martinez",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "Olivia Martinez is an experienced Performance Artist with 6 years of service in the maritime industry.",
+    "name": "Sarah Miller",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "With 13 years in Michelin-starred establishments, Sommelier Miller elevates the dining journey through impeccable wine service and cellar management.",
+    "languages": [
+      "German",
+      "English",
+      "Italian"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "John Rodriguez",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Rodriguez delights guests with flair, technique, and a deep understanding of flavor profiles, creating personalized drink experiences over 11 years.",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "David Jones",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Barista Jones prepares specialty coffees with precision, backed by 9 years in coffee service.",
     "languages": [
       "Spanish",
+      "Arabic",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Robert Garcia",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Robert Garcia collaborates with chefs to ensure nutritious and delicious meal options onboard.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/93.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Smith",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Entertainment Director Smith curates diverse programming to engage and delight guests throughout voyages.",
+    "languages": [
       "French",
+      "Spanish",
       "English"
     ],
     "experienceYears": 6,
-    "profileImage": "/images/crew/performance-artist-martinez.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Maria Martinez",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Maria Martinez is an experienced Operations Manager with 16 years of service in the maritime industry.",
+    "name": "Michael Jones",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Michael Jones manages scheduling and logistics for performers, ensuring smooth entertainment operations onboard.",
+    "languages": [
+      "Japanese",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Rodriguez",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "Michael Rodriguez brings charisma and vocal expertise to the ship's entertainment lineup.",
+    "languages": [
+      "Spanish",
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "James Brown",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Musician Brown adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 5 years of diverse musical experience.",
+    "languages": [
+      "English",
+      "Japanese",
+      "Russian"
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Williams",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "With 9 years of professional training in {danceStyle} and contemporary dance, Michael Williams executes complex choreography with precision and artistry in mainstage productions.",
+    "languages": [
+      "Arabic",
+      "Italian",
+      "Russian",
+      "English"
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Rodriguez",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Maria Rodriguez collaborates with costume and lighting designers to create a cohesive and visually stunning spectacle, drawing on 16 years of experience in stage production.",
     "languages": [
       "Italian",
-      "Mandarin",
+      "Japanese",
       "English"
     ],
     "experienceYears": 16,
-    "profileImage": "/images/crew/operations-manager-martinez.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/91.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "David Davis",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "David Davis is an experienced Logistics Coordinator with 17 years of service in the maritime industry.",
+    "name": "John Williams",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "John Williams entertains guests with humor and timing, backed by 8 years in comedy performance.",
     "languages": [
-      "Portuguese",
+      "Spanish",
+      "English"
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/85.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Maria Rodriguez",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Magic Act specialist Rodriguez mystifies audiences with skilled illusions and interactive performances.",
+    "languages": [
+      "Japanese",
       "German",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/logistics-coordinator-davis.jpg",
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Emma Rodriguez",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "Emma Rodriguez is an experienced Inventory Specialist with 17 years of service in the maritime industry.",
+    "name": "Robert Smith",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "DJ Smith creates vibrant atmospheres with expertly mixed music, drawing on 8 years in live DJing.",
     "languages": [
-      "English",
-      "French"
+      "Spanish",
+      "French",
+      "German",
+      "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/inventory-specialist-rodriguez.jpg",
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/86.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "Sophia Rodriguez",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "Sophia Rodriguez is an experienced Procurement Officer with 17 years of service in the maritime industry.",
+    "name": "Olivia Williams",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Audio Technician Williams expertly operates and maintains complex soundboards, microphones, and speaker systems, ensuring every note and word is perfectly heard.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "James Williams",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "James Williams's artistic vision and technical mastery over 14 years ensure that lighting plays a crucial role in the storytelling and excitement of onboard entertainment.",
+    "languages": [
+      "Spanish",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "David Miller",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "David Miller's calm under pressure and attention to detail, honed over 18 years, are vital for delivering complex, multi-layered performances without a hitch.",
     "languages": [
       "Russian",
       "English"
     ],
-    "experienceYears": 17,
-    "profileImage": "/images/crew/procurement-officer-rodriguez.jpg",
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
   },
   {
-    "name": "James Smith",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "James Smith is an experienced Sustainability Coordinator with 9 years of service in the maritime industry.",
+    "name": "Maria Johnson",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Maria Johnson's strategic planning and problem-solving skills, developed over 18 years, are crucial for the successful execution of a high-quality entertainment program.",
     "languages": [
-      "German",
       "Spanish",
       "English"
     ],
-    "experienceYears": 9,
-    "profileImage": "/images/crew/sustainability-coordinator-smith.jpg",
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
     "city": "Sydney",
-    "country": "United States",
-    "state": "California",
-    "region": "West Coast"
+    "country": "Global"
+  },
+  {
+    "name": "Robert Davis",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Robert Davis's artistic flair and attention to historical detail, honed over 7 years, bring visual richness and authenticity to the stage.",
+    "languages": [
+      "English",
+      "Mandarin",
+      "French"
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/99.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "John Brown",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Cultural Program Director Brown collaborates with local artists, historians, and experts to provide authentic and immersive cultural experiences for guests.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Johnson",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "With 16 years pushing artistic boundaries, Olivia Johnson offers a distinctive and captivating addition to the ship's diverse entertainment offerings.",
+    "languages": [
+      "English",
+      "Italian"
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Sarah Garcia",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Sarah Garcia plays a crucial role in port operations coordination, safety compliance oversight, and emergency response planning, backed by 15 years of maritime expertise.",
+    "languages": [
+      "Japanese",
+      "German",
+      "French",
+      "English"
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "David Martinez",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Logistics Coordinator Martinez meticulously plans and tracks shipments, manages customs documentation, and optimizes storage solutions onboard.",
+    "languages": [
+      "Mandarin",
+      "Portuguese",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Michael Brown",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "With 10 years in inventory management, Michael Brown meticulously maintains records for all consumables, technical spares, and retail goods onboard.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "Olivia Williams",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Procurement Officer Williams manages supplier relationships, monitors market trends, and ensures compliance with ethical purchasing policies.",
+    "languages": [
+      "Portuguese",
+      "Mandarin",
+      "English"
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
+    "city": "Sydney",
+    "country": "Global"
+  },
+  {
+    "name": "James Miller",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Sustainability Coordinator Miller ensures compliance with international environmental regulations (e.g., MARPOL) and promotes a culture of sustainability among crew and guests.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Sydney",
+    "country": "Global"
   }
 ];
