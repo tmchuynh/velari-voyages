@@ -12,34 +12,117 @@ export const florenceroyalEateryMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Traditional Luscious Celebrity Favorite Lobster Dish",
-            "description": "A citrusy dish whipped with finest quality ingredients and served on rustic ware.",
-            "price": 34.83,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Satisfying Korean BBQ Short Ribs with Kimchi Rice",
-            "description": "Our delicate specialty, created with cold-pressed oils and served on rustic ware.",
-            "price": 29.07,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Charcoal Grilled Iberico Pork",
-            "description": "Our subtle specialty, caramelized with grass-fed beef and beautifully presented.",
-            "price": 27.04,
+            "name": "Hearty Appetizing Award-Winning Seafood Boil",
+            "price": 29.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Deluxe Steamed Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 35.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Irresistible Secret Recipe Bouillabaisse",
+            "price": 32.28,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Pan-seared Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 27.54,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Crispy Local Bounty Harvest Plate (Vegetarian)",
+            "price": 30.74,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Pan-seared Seasonal Tasting Platter",
+            "price": 33.73,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Sweet Chef's Special Surf and Turf",
+            "price": 28.04,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Traditional Luscious House Specialty Pasta Creation",
+            "price": 33.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sweet Slow-Roasted Prime Rib",
+            "price": 30.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Tender Pan-Seared Scallops with Citrus Beurre Blanc",
+            "price": 33.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Savory Chef's Market Inspiration of the Day",
+            "price": 31.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Pan-seared High-End Ingredient Showcase",
+            "price": 26.07,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -47,9 +130,8 @@ export const florenceroyalEateryMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Chicken Parmesan",
-            "description": "A briny dish fire-roasted with premium components and neatly composed.",
-            "price": 23.15,
+            "name": "Authentic Herbed Mini Empanadas",
+            "price": 14.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -57,19 +139,35 @@ export const florenceroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Lamb Chops",
-            "description": "This aromatic favorite is grilled using aged cheeses, then presented on a wooden board.",
-            "price": 22.87,
+            "name": "Gourmet Herbed Edamame",
+            "price": 14.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Delectable Spring Rolls",
+            "price": 12.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "House Special Savory Steak",
-            "description": "Our umami-packed specialty, stir-fried with organic ingredients and beautifully presented.",
-            "price": 20.46,
+            "name": "Hearty Steamed Stuffed Jalapeños",
+            "price": 10.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Stuffed Potato Skins",
+            "price": 10.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -77,67 +175,29 @@ export const florenceroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Vegetable Stir-Fry",
-            "description": "This tangy favorite is assembled using locally foraged herbs, then nestled in a ceramic bowl.",
-            "price": 26.05,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beef Burger",
-            "description": "Layered with care and braised to perfection using premium components.",
-            "price": 29.68,
+            "name": "Traditional Enticing Charcuterie Board",
+            "price": 15.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
+            "isHalal": false,
+            "isKosher": true
+          },
           {
-            "name": "Paella",
-            "description": "Nestled in a ceramic bowl and fire-roasted to perfection using wild-caught fish.",
-            "price": 29.56,
+            "name": "Homestyle Stuffed Calamari",
+            "price": 15.82,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Tender Pizza",
-            "description": "A creamy dish made with finest quality ingredients and attractively arranged.",
-            "price": 19.22,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Quiche",
-            "description": "A zesty dish marinated with sustainable seafood and served family-style.",
-            "price": 20.38,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shish Kebabs",
-            "description": "Our nutty specialty, prepared with cold-pressed oils and layered with care.",
-            "price": 19.04,
-            "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Mouthwatering Crostini",
+            "price": 11.63,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -147,19 +207,58 @@ export const florenceroyalEateryMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "House Special Herbed Seafood Platter",
-            "description": "Our briny specialty, stir-fried with wild-caught fish and served with flair.",
-            "price": 26.62,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Homestyle Roasted Butternut Squash Soup",
+            "price": 8.54,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Lasagna",
-            "description": "A robust dish composed with locally sourced produce and layered with care.",
-            "price": 21.54,
+            "name": "Authentic Baked Pumpkin Soup",
+            "price": 7.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Juicy Italian Wedding Soup",
+            "price": 13.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Grilled Pho",
+            "price": 12.92,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Watermelon Feta Salad",
+            "price": 14.08,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Salad",
+            "price": 10.89,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -167,21 +266,28 @@ export const florenceroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Crispy Stuffed Zucchini Boats",
-            "description": "Our zesty specialty, marinated with locally foraged herbs and artfully plated.",
-            "price": 29.19,
-            "isVegetarian": true,
+            "name": "Chickpea Salad",
+            "price": 9.99,
+            "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coleslaw",
+            "price": 12.6,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Local Smoked Stuffed Peppers",
-            "description": "This briny favorite is hand-folded using artisanal elements, then styled for visual appeal.",
-            "price": 28.73,
+            "name": "Broccoli Crunch Salad",
+            "price": 10.18,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -192,127 +298,74 @@ export const florenceroyalEateryMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "House Special Luscious Grilled Chicken",
-            "description": "A floral dish fire-roasted with seasonal ingredients and nestled in a ceramic bowl.",
-            "price": 27.6,
+            "name": "Authentic Crunchy Steak",
+            "price": 18.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Juicy Beef Burger",
+            "price": 22.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Aromatic Beef Wellington",
+            "price": 18.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Bibimbap",
-            "description": "A spicy dish glazed with aged cheeses and beautifully presented.",
-            "price": 18.69,
+            "name": "Handcrafted Wholesome Stuffed Peppers",
+            "price": 24.91,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Herbed Pasta Primavera",
-            "description": "This tangy favorite is prepared using house-made sauces, then plated with precision.",
-            "price": 24.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Golden Quiche",
-            "description": "Our subtle specialty, glazed with cold-pressed oils and drizzled with finesse.",
-            "price": 29.86,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Mouthwatering Fajitas",
-            "description": "Presented on a wooden board and prepared to perfection using cold-pressed oils.",
-            "price": 20.29,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Tofu",
-            "description": "Our briny specialty, pan-seared with seasonal ingredients and styled for visual appeal.",
-            "price": 21.79,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Roasted Moussaka",
-            "description": "A delicate dish hand-folded with locally sourced produce and garnished to perfection.",
-            "price": 30.24,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coq au Vin",
-            "description": "Our pungent specialty, prepared with chef-selected spices and beautifully presented.",
-            "price": 25.24,
-            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
+          },
           {
-            "name": "Chef's Braised Lamb Chops",
-            "description": "Plated with precision and created to perfection using farm-fresh eggs.",
-            "price": 27.02,
+            "name": "Organic Smoked Chicken Parmesan",
+            "price": 19.67,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Pasta Primavera",
-            "description": "A complex dish seasoned with sustainable seafood and offered as a tasting portion.",
-            "price": 29.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beef Burger",
-            "description": "A bold dish slow-cooked with organic ingredients and nestled in a ceramic bowl.",
-            "price": 26.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Enticing Pho",
-            "description": "Our robust specialty, prepared with microgreens and served on rustic ware.",
-            "price": 26.22,
+            "name": "Homestyle Zesty Thai Curry",
+            "price": 29.81,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Fried Tagine",
+            "price": 25.35,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Flavorful Paella",
+            "price": 19.18,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -322,9 +375,8 @@ export const florenceroyalEateryMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Signature Spiced Oysters Rockefeller with Pernod Cream",
-            "description": "Our refreshing specialty, crafted with farm-fresh eggs and served with flair.",
-            "price": 33.92,
+            "name": "House Special Zingy Pan-Seared Scallops with Pea Purée",
+            "price": 30.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -332,19 +384,17 @@ export const florenceroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Crispy Seared Tuna Steak with Sesame Crust",
-            "description": "Our floral specialty, created with wild-caught fish and served on rustic ware.",
-            "price": 24.61,
+            "name": "Homestyle Hearty Stuffed Flounder with Crab and Spinach",
+            "price": 22.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Garlic Butter Shrimp Skillet",
-            "description": "This rich favorite is grilled using heirloom tomatoes, then garnished to perfection.",
-            "price": 23.85,
+            "name": "Handcrafted Sizzling Seafood Risotto with Saffron",
+            "price": 33.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,12 +402,138 @@ export const florenceroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Organic Golden Cajun Shrimp and Grits",
-            "description": "This bold favorite is crafted using artisanal elements, then garnished to perfection.",
-            "price": 29.13,
+            "name": "Authentic Enticing Baked Cod with Lemon Caper Sauce",
+            "price": 24.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Baked Seared Tuna Steak with Sesame Crust",
+            "price": 35.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Homestyle Flaky Corn on the Cob with Chili Lime Butter",
+            "price": 7.55,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Spicy Soft Polenta with Parmesan",
+            "price": 7.32,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Wholesome Herbed Bulgur Wheat with Lemon",
+            "price": 5.87,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Pan-seared Creamed Spinach with Nutmeg",
+            "price": 9.55,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Flavorful Israeli Couscous with Roasted Tomatoes",
+            "price": 5.13,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Stuffed Yukon Gold Potato Gratin",
+            "price": 8.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Juice",
+            "price": 6.47,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 5.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 7.64,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 6.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 7.05,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 4.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -370,12 +546,11 @@ export const florenceroyalEateryMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Chef's Marinated Quiche",
-            "description": "Our briny specialty, made with chef-selected spices and attractively arranged.",
-            "price": 22.48,
+            "name": "Strawberry Shortcake",
+            "price": 8.95,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -383,19 +558,8 @@ export const florenceroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Spicy Grilled Tofu",
-            "description": "Styled for visual appeal and seasoned to perfection using natural sweeteners.",
-            "price": 22.31,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bibimbap",
-            "description": "Attractively arranged and made to perfection using cultured dairy.",
-            "price": 25.57,
+            "name": "Pain au Chocolat",
+            "price": 7.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -403,77 +567,79 @@ export const florenceroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grilled Chicken",
-            "description": "Beautifully presented and created to perfection using wild-caught fish.",
-            "price": 18.17,
+            "name": "Danish Pastries",
+            "price": 9.04,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Biryani",
-            "description": "Attractively arranged and stir-fried to perfection using grass-fed beef.",
-            "price": 29.23,
+            "name": "Madeleines",
+            "price": 10.28,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soufflé",
+            "price": 7.28,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Signature Grilled Stir-fry",
-            "description": "This smoky favorite is fire-roasted using grass-fed beef, then beautifully presented.",
-            "price": 18.66,
+            "name": "Frozen Mousse",
+            "price": 7.85,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Enticing Salmon",
-            "description": "This bold favorite is prepared using locally foraged herbs, then served with flair.",
-            "price": 23.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Chef's Grilled Katsu Curry",
-            "description": "A briny dish assembled with chef-selected spices and elegantly served.",
-            "price": 19.84,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef's Sweet Burrito",
-            "description": "This savory favorite is stir-fried using heritage grains, then drizzled with finesse.",
-            "price": 24.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Appetizing Quiche",
-            "description": "This refreshing favorite is prepared using premium components, then garnished to perfection.",
-            "price": 28.74,
+            "name": "Granita",
+            "price": 9.91,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Pudding",
+            "price": 10.55,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Cake",
+            "price": 11.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Custard",
+            "price": 7.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -489,9 +655,8 @@ export const florenceroyalEateryMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Local Zesty Brandy",
-            "description": "This zesty favorite is hand-folded using sustainable seafood, then presented on a wooden board.",
-            "price": 10.65,
+            "name": "Mai Tai",
+            "price": 15.55,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -499,9 +664,26 @@ export const florenceroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Beer",
-            "description": "A robust dish braised with seasonal ingredients and served on rustic ware.",
-            "price": 14.94,
+            "name": "Whiskey Sour",
+            "price": 13.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 13.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 14.47,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -509,30 +691,27 @@ export const florenceroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tennessee Whiskey",
-            "description": "This citrusy favorite is marinated using heirloom tomatoes, then accompanied by a tasteful garnish.",
-            "price": 12.09,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Spicy Añejo Tequila",
-            "description": "This balanced favorite is cooked using premium components, then accompanied by a tasteful garnish.",
-            "price": 14.64,
+            "name": "Old Fashioned",
+            "price": 11.88,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Crispy Grappa",
-            "description": "This aromatic favorite is made using finest quality ingredients, then presented on a wooden board.",
-            "price": 10.87,
+            "name": "Mojito",
+            "price": 11.4,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 14.69,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -544,29 +723,26 @@ export const florenceroyalEateryMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Pasta Primavera",
-            "description": "Our savory specialty, crafted with seasonal ingredients and offered as a tasting portion.",
-            "price": 19.92,
+            "name": "Pinot Noir",
+            "price": 12.04,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Petit Verdot",
+            "price": 8.07,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Local Delectable Gnocchi",
-            "description": "A zesty dish caramelized with sun-ripened fruits and accompanied by a tasteful garnish.",
-            "price": 19.08,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lentil Stew",
-            "description": "Layered with care and made to perfection using non-GMO produce.",
-            "price": 28.04,
+            "name": "Mourvèdre",
+            "price": 9.08,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -574,33 +750,30 @@ export const florenceroyalEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Aromatic Pho",
-            "description": "This herbaceous favorite is glazed using premium components, then styled for visual appeal.",
-            "price": 22.46,
+            "name": "Fiano",
+            "price": 11.34,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Sweet Lasagna",
-            "description": "This zesty favorite is whipped using organic ingredients, then artfully plated.",
-            "price": 25.61,
+            "name": "Grenache",
+            "price": 11.96,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chardonnay",
+            "price": 8.5,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Hearty Grilled Chicken",
-            "description": "This savory favorite is made using finest quality ingredients, then plated with precision.",
-            "price": 27.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -609,40 +782,45 @@ export const florenceroyalEateryMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "House Special Stuffed Fajitas",
-            "description": "This umami-packed favorite is composed using seasonal ingredients, then garnished to perfection.",
-            "price": 29.12,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Satisfying Risotto",
-            "description": "A zesty dish seasoned with locally sourced produce and garnished to perfection.",
-            "price": 25.62,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Marinated Shish Kebabs",
-            "description": "Our peppery specialty, slow-cooked with seasonal ingredients and stacked artistically.",
-            "price": 28.89,
+            "name": "Armagnac",
+            "price": 16.87,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Tangy Eggplant Parmesan",
-            "description": "This sweet favorite is charred using cultured dairy, then garnished to perfection.",
-            "price": 22.58,
+            "name": "Frangelico",
+            "price": 13.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "St-Germain",
+            "price": 14.32,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Absinthe",
+            "price": 14.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chambord",
+            "price": 12.75,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

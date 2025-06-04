@@ -12,9 +12,85 @@ export const florencetheTavernMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Signature Pan-seared Traditional Family Paella",
-            "description": "Nestled in a ceramic bowl and pan-seared to perfection using microgreens.",
-            "price": 24.6,
+            "name": "Traditional Zingy Age-Old Recipe Osso Buco with Gremolata",
+            "price": 35.8,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Luscious Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Succulent Molecular Gastronomy Showcase Tasting",
+            "price": 35.59,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Delicious Local Bounty Harvest Plate (Vegetarian)",
+            "price": 25.78,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Comforting Legendary Prime Rib",
+            "price": 36.76,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Marinated Celebrity Favorite Lobster Dish",
+            "price": 28.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Baked Whole Roasted Heritage Chicken",
+            "price": 25.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Fresh Sautéed Truffle-Infused Filet Mignon",
+            "price": 27.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Flaky Slow-Roasted Prime Rib",
+            "price": 29.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -22,24 +98,31 @@ export const florencetheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Spiced Seasonal Tasting Menu Experience",
-            "description": "Our refreshing specialty, marinated with handmade pasta and stacked artistically.",
-            "price": 30.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Charcoal Grilled Iberico Pork",
-            "description": "This briny favorite is assembled using seasonal ingredients, then served with flair.",
-            "price": 36.37,
+            "name": "Authentic Grilled Locally Foraged Mushroom Selection",
+            "price": 27.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Hearty Pan-seared Charcoal-Grilled Wagyu Beef",
+            "price": 24.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Zingy High-End Ingredient Showcase",
+            "price": 32.73,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -47,19 +130,35 @@ export const florencetheTavernMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "House Special Aromatic Stuffed Zucchini Boats",
-            "description": "Presented on a wooden board and roasted to perfection using microgreens.",
-            "price": 18.73,
+            "name": "Authentic Spicy Chicken Satay",
+            "price": 10.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Grilled Onion Rings",
+            "price": 14.61,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Sweet Potato Skins",
+            "price": 13.92,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Exquisite Chili con Carne",
-            "description": "Our nutty specialty, stir-fried with farm-fresh eggs and garnished to perfection.",
-            "price": 29.27,
+            "name": "Seasonal Sizzling Stuffed Mushrooms",
+            "price": 10.76,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -67,9 +166,8 @@ export const florencetheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Savory Quiche",
-            "description": "This balanced favorite is poached using heritage grains, then plated with precision.",
-            "price": 28.69,
+            "name": "Premium Pan-seared Spinach Puffs",
+            "price": 11.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -77,22 +175,70 @@ export const florencetheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Luscious Tagine",
-            "description": "A citrusy dish whipped with aged cheeses and served on rustic ware.",
-            "price": 24.51,
+            "name": "Authentic Smoked Baba Ganoush",
+            "price": 10.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Appetizing Cheese Nachos",
+            "price": 11.38,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Steamed Stuffed Jalapeños",
+            "price": 13.96,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Soups",
+        "items": [
+          {
+            "name": "Homestyle Crispy Clam Chowder",
+            "price": 12.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Enticing Gazpacho",
+            "price": 7.01,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Grilled Pho",
-            "description": "Presented on a wooden board and seasoned to perfection using locally foraged herbs.",
-            "price": 18.23,
-            "isVegetarian": true,
+            "name": "House Special Spiced Seafood Chowder",
+            "price": 10.73,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Sizzling Broccoli Cheddar Soup",
+            "price": 11.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -102,9 +248,8 @@ export const florencetheTavernMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Classic Flavorful Pizza",
-            "description": "Our aromatic specialty, sautéed with natural sweeteners and accompanied by a tasteful garnish.",
-            "price": 22.12,
+            "name": "Beet Salad",
+            "price": 14.41,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -112,9 +257,8 @@ export const florencetheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Smoked Biryani",
-            "description": "Our delicate specialty, created with sun-ripened fruits and offered as a tasting portion.",
-            "price": 23.23,
+            "name": "Thai Green Papaya Salad",
+            "price": 9.05,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -122,65 +266,27 @@ export const florencetheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tagine",
-            "description": "Neatly composed and pan-seared to perfection using seasonal ingredients.",
-            "price": 20.16,
-            "isVegetarian": false,
+            "name": "Lentil and Feta Salad",
+            "price": 13.14,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Beef Burger",
-            "description": "Our sweet specialty, crafted with finest quality ingredients and served with flair.",
-            "price": 29.15,
+            "name": "Orzo Salad",
+            "price": 12.14,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Soups",
-        "items": [
-          {
-            "name": "Pasta Primavera",
-            "description": "Our buttery specialty, assembled with organic ingredients and elegantly served.",
-            "price": 29.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Spiced Salmon",
-            "description": "A delicate dish charred with seasonal ingredients and garnished to perfection.",
-            "price": 26.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Risotto",
-            "description": "Served on rustic ware and fire-roasted to perfection using cold-pressed oils.",
-            "price": 25,
-            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seafood Platter",
-            "description": "Nestled in a ceramic bowl and grilled to perfection using sustainable seafood.",
-            "price": 29.36,
-            "isVegetarian": false,
+            "name": "Mediterranean Chopped Salad",
+            "price": 13.1,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -192,127 +298,74 @@ export const florencetheTavernMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Local Stuffed Cottage Pie",
-            "description": "Our hearty specialty, fire-roasted with cold-pressed oils and served family-style.",
-            "price": 24.67,
+            "name": "Homestyle Spiced Gnocchi",
+            "price": 22.52,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Zesty Salmon",
-            "description": "Our nutty specialty, cooked with sun-ripened fruits and nestled in a ceramic bowl.",
-            "price": 26.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Smoked Tacos",
-            "description": "This buttery favorite is prepared using artisanal elements, then nestled in a ceramic bowl.",
-            "price": 22.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Spiced Fajitas",
-            "description": "Our complex specialty, prepared with non-GMO produce and garnished to perfection.",
-            "price": 24.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mac and Cheese",
-            "description": "A rich dish oven-baked with heritage grains and plated with precision.",
-            "price": 25.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tagine",
-            "description": "Stacked artistically and prepared to perfection using wild-caught fish.",
-            "price": 30.88,
-            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Crispy Pho",
-            "description": "Elegantly served and fire-roasted to perfection using sustainable seafood.",
-            "price": 29.71,
+            "name": "Authentic Pan-seared Grilled Chicken",
+            "price": 30.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Stuffed Salmon",
+            "price": 22.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Zesty Lasagna",
+            "price": 23.25,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Delectable Pasta Primavera",
+            "price": 28.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Exquisite Beef Wellington",
+            "price": 26.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Luscious Pesto Pasta",
+            "price": 23.52,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Appetizing Tacos",
+            "price": 29.02,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Crunchy Thai Curry",
-            "description": "Layered with care and grilled to perfection using finest quality ingredients.",
-            "price": 18.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Fish and Chips",
-            "description": "Styled for visual appeal and cooked to perfection using hand-picked vegetables.",
-            "price": 23.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Signature Zingy Steak",
-            "description": "This subtle favorite is prepared using aged cheeses, then accompanied by a tasteful garnish.",
-            "price": 22.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Currywurst",
-            "description": "Nestled in a ceramic bowl and composed to perfection using locally foraged herbs.",
-            "price": 23.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Juicy Tacos",
-            "description": "A savory dish grilled with seasonal ingredients and beautifully presented.",
-            "price": 19.45,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -322,29 +375,8 @@ export const florencetheTavernMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Local Savory Pan-Seared Scallops with Pea Purée",
-            "description": "Presented on a wooden board and composed to perfection using non-GMO produce.",
-            "price": 29.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Mussels Mariniere in White Wine",
-            "description": "A savory dish cooked with chef-selected spices and beautifully presented.",
-            "price": 24.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Herbed Stuffed Flounder with Crab and Spinach",
-            "description": "This fruity favorite is composed using farm-fresh eggs, then served with flair.",
-            "price": 25.15,
+            "name": "Classic Roasted Grilled Spanish Octopus with Smoked Paprika",
+            "price": 28.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -352,9 +384,153 @@ export const florencetheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Pan-seared Linguine with Clam Sauce",
-            "description": "Presented on a wooden board and seasoned to perfection using locally foraged herbs.",
-            "price": 30.71,
+            "name": "Hearty Roasted Miso-Marinated Chilean Sea Bass",
+            "price": 28.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Tangy Valencian Seafood Paella",
+            "price": 29.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Delectable Seared Tuna Steak with Sesame Crust",
+            "price": 35.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Satisfying Blackened Mahi-Mahi with Pineapple Salsa",
+            "price": 29.59,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Homestyle Zingy Sautéed Garlic Mushrooms",
+            "price": 7.37,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Appetizing Wild Mushroom Risotto",
+            "price": 7.67,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Sautéed Mashed Potatoes",
+            "price": 6.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Spiced Truffle Parmesan Fries",
+            "price": 6.81,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Satisfying Scalloped Potatoes with Thyme",
+            "price": 8.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Comforting Quinoa Pilaf with Herbs",
+            "price": 5.75,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Hot Chocolate",
+            "price": 6.75,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 6.76,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 7.18,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 6.23,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 4.33,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 6.15,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -370,12 +546,11 @@ export const florencetheTavernMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Organic Spicy Bibimbap",
-            "description": "A subtle dish cooked with non-GMO produce and nestled in a ceramic bowl.",
-            "price": 26.89,
+            "name": "Fruit Galette",
+            "price": 8.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -383,19 +558,8 @@ export const florencetheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Herbed Steak",
-            "description": "A rich dish braised with wild-caught fish and attractively arranged.",
-            "price": 21.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Smoked Coq au Vin",
-            "description": "This spicy favorite is made using locally foraged herbs, then styled for visual appeal.",
-            "price": 23.83,
+            "name": "Pain au Chocolat",
+            "price": 6.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -403,19 +567,26 @@ export const florencetheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Tender Stir-fry",
-            "description": "Beautifully presented and poached to perfection using sustainable seafood.",
-            "price": 20.12,
+            "name": "Banana Bread",
+            "price": 8.6,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cottage Pie",
-            "description": "Nestled in a ceramic bowl and grilled to perfection using grass-fed beef.",
-            "price": 24.88,
+            "name": "Treacle Tart",
+            "price": 7.44,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Berry Tart",
+            "price": 7.12,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,55 +596,50 @@ export const florencetheTavernMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Pasta Primavera",
-            "description": "This spicy favorite is sautéed using sun-ripened fruits, then artfully plated.",
-            "price": 21.29,
+            "name": "Ice Cream",
+            "price": 9.72,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Sandwich",
+            "price": 8.51,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Semifreddo",
+            "price": 10.81,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Paletas",
+            "price": 11.17,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sherbet",
+            "price": 7.61,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Satisfying Vegetable Stir-Fry",
-            "description": "Beautifully presented and seasoned to perfection using organic ingredients.",
-            "price": 21.44,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Golden Stuffed Peppers",
-            "description": "Neatly composed and cooked to perfection using free-range meats.",
-            "price": 29.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Korma",
-            "description": "A earthy dish crafted with free-range meats and layered with care.",
-            "price": 26.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Pan-seared Tagine",
-            "description": "A savory dish sautéed with natural sweeteners and beautifully presented.",
-            "price": 24.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -489,52 +655,65 @@ export const florencetheTavernMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Armagnac",
-            "description": "Served family-style and prepared to perfection using sun-ripened fruits.",
-            "price": 11.22,
-            "isVegetarian": false,
+            "name": "Mojito",
+            "price": 13.47,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 13.16,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 15.57,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 13.8,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 12.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 11.64,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Whiskey",
-            "description": "This spicy favorite is pan-seared using seasonal ingredients, then plated with precision.",
-            "price": 9.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Madeira",
-            "description": "A robust dish oven-baked with free-range meats and presented on a wooden board.",
-            "price": 11.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Tom Gin",
-            "description": "Accompanied by a tasteful garnish and hand-folded to perfection using heirloom tomatoes.",
-            "price": 11.64,
-            "isVegetarian": false,
+            "name": "Manhattan",
+            "price": 10.41,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Rum",
-            "description": "Nestled in a ceramic bowl and poached to perfection using locally sourced produce.",
-            "price": 11.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -544,29 +723,26 @@ export const florencetheTavernMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Quiche",
-            "description": "Our subtle specialty, glazed with locally sourced produce and neatly composed.",
-            "price": 28.1,
+            "name": "Mourvèdre",
+            "price": 11.29,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Sizzling Roast Duck",
-            "description": "This herbaceous favorite is sautéed using locally foraged herbs, then styled for visual appeal.",
-            "price": 21.99,
-            "isVegetarian": false,
+            "name": "Barbera",
+            "price": 11.81,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Classic Golden Jambalaya",
-            "description": "A umami-packed dish hand-rolled with grass-fed beef and nestled in a ceramic bowl.",
-            "price": 23.75,
+            "name": "Malbec",
+            "price": 11.64,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -574,30 +750,27 @@ export const florencetheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Shish Kebabs",
-            "description": "A savory dish fire-roasted with house-made sauces and served with flair.",
-            "price": 18.07,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Gewürztraminer",
+            "price": 11.88,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Smoked Korma",
-            "description": "This pungent favorite is fire-roasted using seasonal ingredients, then beautifully presented.",
-            "price": 22.57,
-            "isVegetarian": false,
+            "name": "Chardonnay",
+            "price": 8.26,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Shakshuka",
-            "description": "Artfully plated and charred to perfection using farm-fresh eggs.",
-            "price": 20.12,
-            "isVegetarian": false,
+            "name": "Nebbiolo",
+            "price": 8.37,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -609,9 +782,35 @@ export const florencetheTavernMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Classic Roasted Lasagna",
-            "description": "Neatly composed and created to perfection using aged cheeses.",
-            "price": 29.82,
+            "name": "Campari",
+            "price": 17.74,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Rum",
+            "price": 13.65,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sambuca",
+            "price": 15.61,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gin",
+            "price": 10.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -619,34 +818,13 @@ export const florencetheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Exquisite Jambalaya",
-            "description": "This nutty favorite is seasoned using house-made sauces, then garnished to perfection.",
-            "price": 28.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pizza",
-            "description": "Beautifully presented and caramelized to perfection using house-made sauces.",
-            "price": 23.78,
+            "name": "Mezcal",
+            "price": 17.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Beef Wellington",
-            "description": "Our subtle specialty, marinated with wild-caught fish and artfully plated.",
-            "price": 25.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
           }
         ]
       }
