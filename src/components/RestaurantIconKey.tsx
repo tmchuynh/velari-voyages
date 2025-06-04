@@ -71,8 +71,9 @@ export default function RestaurantIconKey({
   // Full version with Card wrapper
   return (
     <Card className={className}>
-      <CardHeader className="pb-3">
-        <CardTitle className="text-lg">Restaurant Icon Key</CardTitle>
+      <CardHeader>
+        <CardTitle className="sr-only">Restaurant Icon Key</CardTitle>
+        <h2 className="mb-0">Icon Key</h2>
       </CardHeader>
       <CardContent>{renderIconItems()}</CardContent>
     </Card>
