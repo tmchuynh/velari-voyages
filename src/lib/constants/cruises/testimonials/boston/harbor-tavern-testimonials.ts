@@ -5,70 +5,108 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const bostonharborTavernTestimonials: Testimonial[] = [
   {
-    "quote": "Harbor Tavern has the most incredible food I've ever tasted. The stylish atmosphere made our evening special, and the service was prompt.",
-    "author": "Sarah Anderson",
-    "title": "Luxury Travel Consultant",
-    "image": "/images/testimonials/person-10.jpg"
+    "quote": "I can't say enough about the excellent food at Harbor Tavern. The professional service and delightful ambiance made for a perfect night out.",
+    "author": "Daniel Anderson",
+    "title": "Culinary Adventurer"
   },
   {
-    "quote": "The specialties at Harbor Tavern were absolutely marvelous! The service was outstanding and the atmosphere was pleasant. Highly recommend!",
-    "author": "Elizabeth Martinez",
+    "quote": "The flavors at Harbor Tavern were absolutely delicious! The service was exceptional and the atmosphere was charming. Highly recommend!",
+    "author": "Daniel Moore",
+    "title": "Culinary Adventurer"
+  },
+  {
+    "quote": "The meal at Harbor Tavern were absolutely perfect! The service was professional and the atmosphere was inviting. Highly recommend!",
+    "author": "Elizabeth Thompson",
+    "title": "Luxury Travel Consultant"
+  },
+  {
+    "quote": "I can't say enough about the wonderful meal at Harbor Tavern. The wonderful service and delightful ambiance made for a perfect night out.",
+    "author": "Michael Rodriguez",
     "title": "Dining Columnist"
   },
   {
-    "quote": "Our visit to Harbor Tavern was outstanding. The appetizers were exceptional, the staff knowledgeable, and the atmosphere intimate. A must-visit!",
-    "author": "Lisa Perez",
-    "title": "Gourmet Explorer",
-    "image": "/images/testimonials/person-5.jpg"
+    "quote": "Harbor Tavern has the most wonderful flavors I've ever tasted. The comfortable atmosphere made our evening special, and the service was wonderful.",
+    "author": "Jennifer Taylor",
+    "title": "Cooking Aficionado"
   },
   {
-    "quote": "The entrees at Harbor Tavern were absolutely superb! The service was knowledgeable and the atmosphere was inviting. Highly recommend!",
-    "author": "John Smith",
-    "title": "Food Critic"
+    "quote": "What a delectable dining experience at Harbor Tavern! The specialties exceeded our expectations, and the staff was attentive. Will definitely return!",
+    "author": "David Davis",
+    "title": "Dining Columnist"
   },
   {
-    "quote": "I can't say enough about the amazing meal at Harbor Tavern. The outstanding service and vibrant ambiance made for a perfect night out.",
-    "author": "Lisa Anderson",
-    "title": "Dining Columnist",
-    "image": "/images/testimonials/person-6.jpg"
+    "quote": "Harbor Tavern has the most amazing cuisine I've ever tasted. The delightful atmosphere made our evening special, and the service was wonderful.",
+    "author": "William Perez",
+    "title": "Gastronomy Enthusiast"
   },
   {
-    "quote": "The entrees at Harbor Tavern were absolutely delightful! The service was fantastic and the atmosphere was appealing. Highly recommend!",
-    "author": "Robert Miller",
-    "title": "Restaurant Enthusiast"
+    "quote": "Harbor Tavern has the most outstanding appetizers I've ever tasted. The charming atmosphere made our evening special, and the service was attentive.",
+    "author": "Emma Jones",
+    "title": "Travel Blogger"
   },
   {
-    "quote": "What a outstanding dining experience at Harbor Tavern! The appetizers exceeded our expectations, and the staff was courteous. Will definitely return!",
-    "author": "Emily Martinez",
-    "title": "Luxury Travel Consultant",
-    "image": "/images/testimonials/person-1.jpg"
-  },
-  {
-    "quote": "The dishes at Harbor Tavern were absolutely marvelous! The service was fantastic and the atmosphere was delightful. Highly recommend!",
-    "author": "Michael Smith",
-    "title": "Restaurant Reviewer"
-  },
-  {
-    "quote": "Our visit to Harbor Tavern was outstanding. The desserts were impressive, the staff excellent, and the atmosphere charming. A must-visit!",
-    "author": "James Smith",
-    "title": "Lifestyle Influencer",
-    "image": "/images/testimonials/person-5.jpg"
-  },
-  {
-    "quote": "I can't say enough about the wonderful flavors at Harbor Tavern. The outstanding service and vibrant ambiance made for a perfect night out.",
-    "author": "James Wilson",
-    "title": "Luxury Travel Consultant",
+    "quote": "Harbor Tavern has the most delicious menu items I've ever tasted. The elegant atmosphere made our evening special, and the service was superb.",
+    "author": "Emma Wilson",
+    "title": "Restaurant Enthusiast",
     "image": "/images/testimonials/person-9.jpg"
   },
   {
-    "quote": "Harbor Tavern has the most marvelous desserts I've ever tasted. The inviting atmosphere made our evening special, and the service was wonderful.",
-    "author": "Olivia Smith",
-    "title": "Travel Blogger",
-    "image": "/images/testimonials/person-7.jpg"
+    "quote": "What a impressive dining experience at Harbor Tavern! The appetizers exceeded our expectations, and the staff was prompt. Will definitely return!",
+    "author": "Lisa Davis",
+    "title": "Cruise Traveler",
+    "image": "/images/testimonials/person-10.jpg"
   },
   {
-    "quote": "Harbor Tavern has the most amazing food I've ever tasted. The intimate atmosphere made our evening special, and the service was courteous.",
-    "author": "David Anderson",
+    "quote": "The entrees at Harbor Tavern were absolutely wonderful! The service was impeccable and the atmosphere was stylish. Highly recommend!",
+    "author": "Elizabeth Perez",
+    "title": "Culinary Adventurer"
+  },
+  {
+    "quote": "The menu items at Harbor Tavern were absolutely impressive! The service was impeccable and the atmosphere was delightful. Highly recommend!",
+    "author": "Jennifer Garcia",
+    "title": "Culinary Expert",
+    "image": "/images/testimonials/person-5.jpg"
+  },
+  {
+    "quote": "The appetizers at Harbor Tavern were absolutely great! The service was exceptional and the atmosphere was warm. Highly recommend!",
+    "author": "Christopher Miller",
+    "title": "Gourmet Explorer",
+    "image": "/images/testimonials/person-4.jpg"
+  },
+  {
+    "quote": "The cuisine at Harbor Tavern were absolutely great! The service was professional and the atmosphere was warm. Highly recommend!",
+    "author": "James Brown",
+    "title": "Cruise Traveler"
+  },
+  {
+    "quote": "Harbor Tavern has the most wonderful food I've ever tasted. The charming atmosphere made our evening special, and the service was courteous.",
+    "author": "Daniel Johnson",
+    "title": "Food & Wine Connoisseur",
+    "image": "/images/testimonials/person-6.jpg"
+  },
+  {
+    "quote": "Harbor Tavern has the most superb appetizers I've ever tasted. The warm atmosphere made our evening special, and the service was professional.",
+    "author": "Michael Smith",
+    "title": "Cooking Aficionado"
+  },
+  {
+    "quote": "I can't say enough about the wonderful cuisine at Harbor Tavern. The attentive service and sophisticated ambiance made for a perfect night out.",
+    "author": "William Martinez",
     "title": "Food Critic"
+  },
+  {
+    "quote": "I can't say enough about the delectable dishes at Harbor Tavern. The professional service and appealing ambiance made for a perfect night out.",
+    "author": "David Lee",
+    "title": "Travel Writer"
+  },
+  {
+    "quote": "Harbor Tavern has the most wonderful specialties I've ever tasted. The welcoming atmosphere made our evening special, and the service was excellent.",
+    "author": "Thomas Jackson",
+    "title": "Food Critic"
+  },
+  {
+    "quote": "I can't say enough about the exceptional food at Harbor Tavern. The excellent service and appealing ambiance made for a perfect night out.",
+    "author": "John Jackson",
+    "title": "Luxury Travel Consultant"
   }
 ];

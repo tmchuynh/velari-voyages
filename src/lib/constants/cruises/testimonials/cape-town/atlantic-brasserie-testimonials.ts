@@ -5,69 +5,110 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const capeTownatlanticBrasserieTestimonials: Testimonial[] = [
   {
-    "quote": "Our visit to Atlantic Brasserie was outstanding. The desserts were impressive, the staff wonderful, and the atmosphere sophisticated. A must-visit!",
-    "author": "Emily Perez",
-    "title": "Restaurant Enthusiast",
-    "image": "/images/testimonials/person-6.jpg"
+    "quote": "Atlantic Brasserie has the most delectable meal I've ever tasted. The vibrant atmosphere made our evening special, and the service was fantastic.",
+    "author": "William Garcia",
+    "title": "Culinary Adventurer"
   },
   {
-    "quote": "Our visit to Atlantic Brasserie was outstanding. The appetizers were delightful, the staff prompt, and the atmosphere intimate. A must-visit!",
-    "author": "Daniel Thompson",
-    "title": "Dining Columnist",
-    "image": "/images/testimonials/person-12.jpg"
+    "quote": "What a delightful dining experience at Atlantic Brasserie! The appetizers exceeded our expectations, and the staff was courteous. Will definitely return!",
+    "author": "Sophia Perez",
+    "title": "Gastronomy Enthusiast"
   },
   {
-    "quote": "I can't say enough about the outstanding dishes at Atlantic Brasserie. The courteous service and cozy ambiance made for a perfect night out.",
-    "author": "Emily Hernandez",
-    "title": "Cooking Aficionado"
+    "quote": "Atlantic Brasserie has the most incredible meal I've ever tasted. The comfortable atmosphere made our evening special, and the service was friendly.",
+    "author": "Thomas Hernandez",
+    "title": "Cruise Traveler"
   },
   {
-    "quote": "Atlantic Brasserie has the most impressive food I've ever tasted. The appealing atmosphere made our evening special, and the service was impeccable.",
-    "author": "Jennifer Jones",
-    "title": "Restaurant Reviewer"
+    "quote": "What a impressive dining experience at Atlantic Brasserie! The entrees exceeded our expectations, and the staff was impeccable. Will definitely return!",
+    "author": "Robert Brown",
+    "title": "Cruise Traveler"
   },
   {
-    "quote": "Atlantic Brasserie has the most perfect flavors I've ever tasted. The vibrant atmosphere made our evening special, and the service was excellent.",
-    "author": "Sophia Moore",
-    "title": "Dining Columnist",
+    "quote": "Our visit to Atlantic Brasserie was outstanding. The food were superb, the staff exceptional, and the atmosphere comfortable. A must-visit!",
+    "author": "Maria Brown",
+    "title": "Food Journalist"
+  },
+  {
+    "quote": "What a outstanding dining experience at Atlantic Brasserie! The flavors exceeded our expectations, and the staff was exceptional. Will definitely return!",
+    "author": "Matthew Anderson",
+    "title": "Restaurant Enthusiast"
+  },
+  {
+    "quote": "I can't say enough about the perfect cuisine at Atlantic Brasserie. The wonderful service and pleasant ambiance made for a perfect night out.",
+    "author": "Daniel Anderson",
+    "title": "Gourmet Explorer",
+    "image": "/images/testimonials/person-10.jpg"
+  },
+  {
+    "quote": "Atlantic Brasserie has the most delectable entrees I've ever tasted. The pleasant atmosphere made our evening special, and the service was excellent.",
+    "author": "Christopher White",
+    "title": "Travel Blogger",
     "image": "/images/testimonials/person-2.jpg"
   },
   {
-    "quote": "What a delicious dining experience at Atlantic Brasserie! The flavors exceeded our expectations, and the staff was superb. Will definitely return!",
-    "author": "Jennifer Davis",
-    "title": "Food & Wine Connoisseur"
+    "quote": "Our visit to Atlantic Brasserie was outstanding. The entrees were superb, the staff wonderful, and the atmosphere delightful. A must-visit!",
+    "author": "Michael Martinez",
+    "title": "Culinary Adventurer",
+    "image": "/images/testimonials/person-4.jpg"
   },
   {
-    "quote": "Atlantic Brasserie has the most marvelous flavors I've ever tasted. The warm atmosphere made our evening special, and the service was fantastic.",
-    "author": "Michael Moore",
-    "title": "Culinary Expert"
+    "quote": "What a impressive dining experience at Atlantic Brasserie! The dishes exceeded our expectations, and the staff was wonderful. Will definitely return!",
+    "author": "John Hernandez",
+    "title": "Culinary Adventurer"
   },
   {
-    "quote": "Atlantic Brasserie has the most delicious desserts I've ever tasted. The appealing atmosphere made our evening special, and the service was wonderful.",
-    "author": "John Rodriguez",
-    "title": "Gourmet Explorer"
-  },
-  {
-    "quote": "What a wonderful dining experience at Atlantic Brasserie! The specialties exceeded our expectations, and the staff was outstanding. Will definitely return!",
-    "author": "Lisa White",
-    "title": "Cruise Traveler",
+    "quote": "I can't say enough about the marvelous food at Atlantic Brasserie. The fantastic service and cozy ambiance made for a perfect night out.",
+    "author": "Lisa Lee",
+    "title": "Cooking Aficionado",
     "image": "/images/testimonials/person-3.jpg"
   },
   {
-    "quote": "I can't say enough about the amazing desserts at Atlantic Brasserie. The helpful service and stylish ambiance made for a perfect night out.",
-    "author": "Daniel Moore",
+    "quote": "Atlantic Brasserie has the most delightful flavors I've ever tasted. The pleasant atmosphere made our evening special, and the service was prompt.",
+    "author": "Sarah Garcia",
+    "title": "Luxury Travel Consultant"
+  },
+  {
+    "quote": "What a impressive dining experience at Atlantic Brasserie! The specialties exceeded our expectations, and the staff was exceptional. Will definitely return!",
+    "author": "James Martinez",
+    "title": "Travel Writer"
+  },
+  {
+    "quote": "Our visit to Atlantic Brasserie was outstanding. The meal were impressive, the staff superb, and the atmosphere delightful. A must-visit!",
+    "author": "Emily Jones",
     "title": "Cooking Aficionado",
-    "image": "/images/testimonials/person-6.jpg"
+    "image": "/images/testimonials/person-8.jpg"
   },
   {
-    "quote": "Our visit to Atlantic Brasserie was outstanding. The meal were exceptional, the staff fantastic, and the atmosphere vibrant. A must-visit!",
-    "author": "Maria Brown",
-    "title": "Restaurant Reviewer",
-    "image": "/images/testimonials/person-2.jpg"
+    "quote": "Atlantic Brasserie has the most marvelous dishes I've ever tasted. The intimate atmosphere made our evening special, and the service was outstanding.",
+    "author": "Christopher Brown",
+    "title": "Luxury Travel Consultant"
   },
   {
-    "quote": "What a exceptional dining experience at Atlantic Brasserie! The food exceeded our expectations, and the staff was friendly. Will definitely return!",
-    "author": "Matthew Rodriguez",
-    "title": "Cruise Traveler"
+    "quote": "Atlantic Brasserie has the most wonderful cuisine I've ever tasted. The cozy atmosphere made our evening special, and the service was outstanding.",
+    "author": "Sarah Thompson",
+    "title": "Gourmet Explorer",
+    "image": "/images/testimonials/person-8.jpg"
+  },
+  {
+    "quote": "Atlantic Brasserie has the most wonderful desserts I've ever tasted. The appealing atmosphere made our evening special, and the service was helpful.",
+    "author": "Thomas Jones",
+    "title": "Restaurant Enthusiast"
+  },
+  {
+    "quote": "Atlantic Brasserie has the most impressive entrees I've ever tasted. The delightful atmosphere made our evening special, and the service was friendly.",
+    "author": "Olivia Johnson",
+    "title": "Travel Writer"
+  },
+  {
+    "quote": "The food at Atlantic Brasserie were absolutely excellent! The service was professional and the atmosphere was comfortable. Highly recommend!",
+    "author": "Sophia Garcia",
+    "title": "Travel Writer"
+  },
+  {
+    "quote": "What a delightful dining experience at Atlantic Brasserie! The dishes exceeded our expectations, and the staff was knowledgeable. Will definitely return!",
+    "author": "James Brown",
+    "title": "Culinary Expert",
+    "image": "/images/testimonials/person-4.jpg"
   }
 ];
