@@ -4715,5 +4715,1049 @@ export const dubaiCruises: Cruise[] = [
     description: "Begin a captivating tide through the Middle East, departing Dubai. With visits to Barcelona, Athens, Santorini, Dubrovnik, each day brings a new adventure and deeper connection to the region.",
     rating: 4.9,
     tags: ["themed-cruise"]
+  },
+  {
+    basePrice: 8484,
+    departureLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    arrivalLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  }
+],
+      description: "Sail away from Dubai into the beautiful expanse of Middle East. Along the way, enjoy rich cultural experiences in Santorini, Mykonos, where history, nature, and cuisine collide.",
+      distance: "584 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Dubai to Santorini"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Santorini to Mykonos"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Dubai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Dubai"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Dubai"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Sebastian Graham",
+        role: "Guest Relations Manager",
+        languages: ["Vietnamese"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/men/26.jpg",
+        contact: {
+          contactEmail: "epic.tide.of.the.ara@velarivoyages.com",
+          contactNumber: "+1-154-584-8101"
+        }
+      }
+    ],
+    title: "Epic Tide of the Arabian Nights",
+    description: "Sail away from Dubai into the beautiful expanse of Middle East. Along the way, enjoy rich cultural experiences in Santorini, Mykonos, where history, nature, and cuisine collide.",
+    rating: 5.0,
+    tags: ["family-friendly","sightseeing","fall-cruise"]
+  },
+  {
+    basePrice: 8334,
+    departureLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    arrivalLocation: {
+  "city": "Rome",
+  "country": "Italy",
+  "coordinates": {
+    "latitude": 41.9028,
+    "longitude": 12.4964
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  }
+],
+      description: "Sail away from Dubai into the beautiful expanse of Middle East. Along the way, enjoy rich cultural experiences in Santorini, Barcelona, Rome, where history, nature, and cuisine collide.",
+      distance: "627 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Dubai to Santorini"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Santorini to Barcelona"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Barcelona to Rome"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Dubai"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Larry Watson",
+        role: "Guest Relations Manager",
+        languages: ["Vietnamese"],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
+        contact: {
+          contactEmail: "captivating.tide.of.@velarivoyages.com",
+          contactNumber: "+1-813-489-6296"
+        }
+      }
+    ],
+    title: "Captivating Tide of the Golden Metropolis",
+    description: "Sail away from Dubai into the beautiful expanse of Middle East. Along the way, enjoy rich cultural experiences in Santorini, Barcelona, Rome, where history, nature, and cuisine collide.",
+    rating: 5.0,
+    tags: ["adventure","VIP"]
+  },
+  {
+    basePrice: 6182,
+    departureLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    arrivalLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  }
+],
+      description: "Sail away from Dubai into the beautiful expanse of Middle East. Along the way, enjoy rich cultural experiences in Santorini, Rome, where history, nature, and cuisine collide.",
+      distance: "654 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Dubai to Santorini"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Santorini to Rome"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Rome to Dubai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Dubai"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Dubai"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Ralph Mitchell",
+        role: "Guest Relations Manager",
+        languages: ["Vietnamese"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
+        contact: {
+          contactEmail: "majestic.saga.of.the@velarivoyages.com",
+          contactNumber: "+1-803-450-2360"
+        }
+      }
+    ],
+    title: "Majestic Saga of the Oasis of Luxury",
+    description: "Sail away from Dubai into the beautiful expanse of Middle East. Along the way, enjoy rich cultural experiences in Santorini, Rome, where history, nature, and cuisine collide.",
+    rating: 4.1,
+    tags: ["themed-cruise"]
+  },
+  {
+    basePrice: 8936,
+    departureLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    arrivalLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  }
+],
+      description: "Depart from Dubai on this thoughtfully designed excursion across the Middle East. Savor coastal charm, cultural treasures, and ocean views with stops at Barcelona, Rome, Malta.",
+      distance: "1401 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Dubai to Barcelona"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Barcelona to Rome"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Malta"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Malta to Dubai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Dubai"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Dubai"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Billy Montgomery",
+        role: "Guest Relations Manager",
+        languages: ["Vietnamese"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/0.jpg",
+        contact: {
+          contactEmail: "luxurious.saga.of.th@velarivoyages.com",
+          contactNumber: "+1-807-234-7000"
+        }
+      }
+    ],
+    title: "Luxurious Saga of the Golden Metropolis",
+    description: "Depart from Dubai on this thoughtfully designed excursion across the Middle East. Savor coastal charm, cultural treasures, and ocean views with stops at Barcelona, Rome, Malta.",
+    rating: 4.1,
+    tags: ["tropical"]
+  },
+  {
+    basePrice: 3631,
+    departureLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    arrivalLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  }
+],
+      description: "This expedition takes you beyond the ordinary, starting in Dubai. With breathtaking stops in Mykonos, Dubrovnik, Barcelona, your cruise delivers immersive moments and unforgettable vistas.",
+      distance: "631 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Dubai to Mykonos"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Mykonos to Dubrovnik"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Dubrovnik to Barcelona"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Dubai"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Bobby Campbell",
+        role: "Guest Relations Manager",
+        languages: ["Vietnamese"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/96.jpg",
+        contact: {
+          contactEmail: "infinite.mystique.of@velarivoyages.com",
+          contactNumber: "+1-989-772-7506"
+        }
+      }
+    ],
+    title: "Infinite Mystique of the Golden Sands",
+    description: "This expedition takes you beyond the ordinary, starting in Dubai. With breathtaking stops in Mykonos, Dubrovnik, Barcelona, your cruise delivers immersive moments and unforgettable vistas.",
+    rating: 4.2,
+    tags: ["romantic","short-getaway","themed-cruise"]
+  },
+  {
+    basePrice: 4350,
+    departureLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    arrivalLocation: {
+  "city": "Mykonos",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Your journey through the Middle East begins in Dubai, where elegance meets adventure. Explore the shores of Dubrovnik, Barcelona, Mykonos, with curated excursions and luxurious onboard amenities.",
+      distance: "508 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Dubai to Dubrovnik"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Sailing from Dubrovnik to Barcelona"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Mykonos"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Dubai"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Paul Hayes",
+        role: "Guest Relations Manager",
+        languages: ["Vietnamese"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/men/82.jpg",
+        contact: {
+          contactEmail: "infinite.reverie.of.@velarivoyages.com",
+          contactNumber: "+1-747-191-4068"
+        }
+      }
+    ],
+    title: "Infinite Reverie of the Arabian Nights",
+    description: "Your journey through the Middle East begins in Dubai, where elegance meets adventure. Explore the shores of Dubrovnik, Barcelona, Mykonos, with curated excursions and luxurious onboard amenities.",
+    rating: 4.9,
+    tags: ["VIP","themed-cruise"]
+  },
+  {
+    basePrice: 9599,
+    departureLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    arrivalLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  }
+],
+      description: "Your exploration begins in Dubai, where every sunset on the Middle East horizon promises another day of discovery—from Athens, Mykonos, Barcelona to hidden ports of charm.",
+      distance: "590 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Dubai to Athens"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Athens to Mykonos"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Mykonos to Barcelona"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Barcelona to Dubai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Dubai"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Dubai"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Edward Gibson",
+        role: "Guest Relations Manager",
+        languages: ["Vietnamese"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/men/68.jpg",
+        contact: {
+          contactEmail: "legendary.saga.of.th@velarivoyages.com",
+          contactNumber: "+1-658-159-7316"
+        }
+      }
+    ],
+    title: "Legendary Saga of the Golden Metropolis",
+    description: "Your exploration begins in Dubai, where every sunset on the Middle East horizon promises another day of discovery—from Athens, Mykonos, Barcelona to hidden ports of charm.",
+    rating: 5.0,
+    tags: ["relaxation","exclusive","luxury"]
+  },
+  {
+    basePrice: 6909,
+    departureLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    arrivalLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  }
+],
+      description: "Let the winds of the Middle East carry you from Dubai to the most stunning ports in the region. With destinations like Dubrovnik, Barcelona, this journey redefines luxury travel.",
+      distance: "583 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Dubai to Dubrovnik"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Dubrovnik to Barcelona"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Dubai"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Walter Hamilton",
+        role: "Guest Relations Manager",
+        languages: ["Vietnamese"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/75.jpg",
+        contact: {
+          contactEmail: "secret.voyage.of.the@velarivoyages.com",
+          contactNumber: "+1-629-691-2356"
+        }
+      }
+    ],
+    title: "Secret Voyage of the Arabian Nights",
+    description: "Let the winds of the Middle East carry you from Dubai to the most stunning ports in the region. With destinations like Dubrovnik, Barcelona, this journey redefines luxury travel.",
+    rating: 4.0,
+    tags: ["family-friendly","exclusive","fall-cruise"]
   }
 ];

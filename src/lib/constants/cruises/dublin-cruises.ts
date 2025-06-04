@@ -4911,5 +4911,1155 @@ export const dublinCruises: Cruise[] = [
     description: "Sail into splendor from Dublin on a epic voyage through Northern Europe. Let each stop—from Oslo to Copenhagen—reveal the unique flavors and colors of the region.",
     rating: 4.7,
     tags: ["family-friendly","tropical"]
+  },
+  {
+    basePrice: 9005,
+    departureLocation: {
+  "city": "Dublin",
+  "country": "Ireland",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 53.349805,
+    "longitude": -6.26031
+  }
+},
+    arrivalLocation: {
+  "city": "Stockholm",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Let the spirit of exploration guide your hidden journey from Dublin. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Tallinn, Stockholm.",
+      distance: "1070 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Dublin to Tallinn"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Tallinn to Stockholm"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Dublin"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Tallinn"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Stockholm"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "John West",
+        role: "Safety Officer",
+        languages: ["Vietnamese"],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/57.jpg",
+        contact: {
+          contactEmail: "breathtaking.requiem@velarivoyages.com",
+          contactNumber: "+1-523-342-4593"
+        }
+      }
+    ],
+    title: "Breathtaking Requiem of the Literary Capital",
+    description: "Let the spirit of exploration guide your hidden journey from Dublin. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Tallinn, Stockholm.",
+    rating: 4.2,
+    tags: ["sightseeing"]
+  },
+  {
+    basePrice: 1192,
+    departureLocation: {
+  "city": "Dublin",
+  "country": "Ireland",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 53.349805,
+    "longitude": -6.26031
+  }
+},
+    arrivalLocation: {
+  "city": "Dublin",
+  "country": "Ireland",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 53.349805,
+    "longitude": -6.26031
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  },
+  {
+    "city": "St. Petersburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  }
+],
+      description: "Sail away from Dublin into the beautiful expanse of Northern Europe. Along the way, enjoy rich cultural experiences in St. Petersburg, Copenhagen, Stockholm, Helsinki, where history, nature, and cuisine collide.",
+      distance: "1168 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Dublin to St. Petersburg"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from St. Petersburg to Copenhagen"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Copenhagen to Stockholm"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from Stockholm to Helsinki"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Sailing from Helsinki to Dublin"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Dublin"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring St. Petersburg"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Exploring Dublin"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Larry Baker",
+        role: "Safety Officer",
+        languages: ["Vietnamese"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
+        contact: {
+          contactEmail: "midnight.discovery.o@velarivoyages.com",
+          contactNumber: "+1-218-749-2684"
+        }
+      }
+    ],
+    title: "Midnight Discovery of the Nordic Waters",
+    description: "Sail away from Dublin into the beautiful expanse of Northern Europe. Along the way, enjoy rich cultural experiences in St. Petersburg, Copenhagen, Stockholm, Helsinki, where history, nature, and cuisine collide.",
+    rating: 4.1,
+    tags: ["sightseeing"]
+  },
+  {
+    basePrice: 2701,
+    departureLocation: {
+  "city": "Dublin",
+  "country": "Ireland",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 53.349805,
+    "longitude": -6.26031
+  }
+},
+    arrivalLocation: {
+  "city": "Dublin",
+  "country": "Ireland",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 53.349805,
+    "longitude": -6.26031
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  }
+],
+      description: "Leave stress behind with this curated voyage from Dublin. Sail across the best of Northern Europe and explore treasures like Tallinn, Stockholm, Helsinki with comfort and style.",
+      distance: "1266 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Dublin to Tallinn"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Tallinn to Stockholm"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Stockholm to Helsinki"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Sailing from Helsinki to Dublin"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Dublin"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Tallinn"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Exploring Dublin"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Jacob Mitchell",
+        role: "Safety Officer",
+        languages: ["Vietnamese"],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/75.jpg",
+        contact: {
+          contactEmail: "spectacular.reverie.@velarivoyages.com",
+          contactNumber: "+1-873-983-4940"
+        }
+      }
+    ],
+    title: "Spectacular Reverie of the Twilight Fjords",
+    description: "Leave stress behind with this curated voyage from Dublin. Sail across the best of Northern Europe and explore treasures like Tallinn, Stockholm, Helsinki with comfort and style.",
+    rating: 4.8,
+    tags: ["romantic","family-friendly","short-getaway"]
+  },
+  {
+    basePrice: 1119,
+    departureLocation: {
+  "city": "Dublin",
+  "country": "Ireland",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 53.349805,
+    "longitude": -6.26031
+  }
+},
+    arrivalLocation: {
+  "city": "Dublin",
+  "country": "Ireland",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 53.349805,
+    "longitude": -6.26031
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  }
+],
+      description: "Step aboard in Dublin and begin a hidden journey through the scenic Northern Europe. From historic cities to coastal hideaways like Stockholm, Oslo, Copenhagen, Helsinki, every day is unforgettable.",
+      distance: "910 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Dublin to Stockholm"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Stockholm to Oslo"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Oslo to Copenhagen"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Copenhagen to Helsinki"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Sailing from Helsinki to Dublin"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Dublin"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Exploring Dublin"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Carl Fox",
+        role: "Safety Officer",
+        languages: ["Vietnamese"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/83.jpg",
+        contact: {
+          contactEmail: "mesmerizing.expediti@velarivoyages.com",
+          contactNumber: "+1-667-999-1444"
+        }
+      }
+    ],
+    title: "Mesmerizing Expedition of the Twilight Fjords",
+    description: "Step aboard in Dublin and begin a hidden journey through the scenic Northern Europe. From historic cities to coastal hideaways like Stockholm, Oslo, Copenhagen, Helsinki, every day is unforgettable.",
+    rating: 4.6,
+    tags: ["sightseeing"]
+  },
+  {
+    basePrice: 2098,
+    departureLocation: {
+  "city": "Dublin",
+  "country": "Ireland",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 53.349805,
+    "longitude": -6.26031
+  }
+},
+    arrivalLocation: {
+  "city": "Dublin",
+  "country": "Ireland",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 53.349805,
+    "longitude": -6.26031
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Petersburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  }
+],
+      description: "Sail into splendor from Dublin on a infinite voyage through Northern Europe. Let each stop—from Stockholm to St. Petersburg—reveal the unique flavors and colors of the region.",
+      distance: "1374 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Dublin to Stockholm"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Stockholm to St. Petersburg"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from St. Petersburg to Copenhagen"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Copenhagen to Dublin"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Dublin"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring St. Petersburg"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Dublin"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Andrew Crawford",
+        role: "Safety Officer",
+        languages: ["Vietnamese"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/62.jpg",
+        contact: {
+          contactEmail: "mythic.requiem.of.th@velarivoyages.com",
+          contactNumber: "+1-999-112-9220"
+        }
+      }
+    ],
+    title: "Mythic Requiem of the Emerald Gateway",
+    description: "Sail into splendor from Dublin on a infinite voyage through Northern Europe. Let each stop—from Stockholm to St. Petersburg—reveal the unique flavors and colors of the region.",
+    rating: 4.1,
+    tags: ["tropical","luxury"]
+  },
+  {
+    basePrice: 3625,
+    departureLocation: {
+  "city": "Dublin",
+  "country": "Ireland",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 53.349805,
+    "longitude": -6.26031
+  }
+},
+    arrivalLocation: {
+  "city": "Dublin",
+  "country": "Ireland",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 53.349805,
+    "longitude": -6.26031
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  },
+  {
+    "city": "St. Petersburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  }
+],
+      description: "Experience the elegance of the seas on this secret expedition through Northern Europe, starting from the illustrious port of Dublin. From St. Petersburg to Oslo, each destination offers its own story, culture, and breathtaking views.",
+      distance: "948 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Dublin to St. Petersburg"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from St. Petersburg to Oslo"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Oslo to Dublin"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Dublin"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring St. Petersburg"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Dublin"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "John Montgomery",
+        role: "Safety Officer",
+        languages: ["Vietnamese"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/men/53.jpg",
+        contact: {
+          contactEmail: "majestic.mystique.of@velarivoyages.com",
+          contactNumber: "+1-699-246-8120"
+        }
+      }
+    ],
+    title: "Majestic Mystique of the Nordic Waters",
+    description: "Experience the elegance of the seas on this secret expedition through Northern Europe, starting from the illustrious port of Dublin. From St. Petersburg to Oslo, each destination offers its own story, culture, and breathtaking views.",
+    rating: 4.6,
+    tags: ["seasonal","sightseeing","family-friendly"]
+  },
+  {
+    basePrice: 4418,
+    departureLocation: {
+  "city": "Dublin",
+  "country": "Ireland",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 53.349805,
+    "longitude": -6.26031
+  }
+},
+    arrivalLocation: {
+  "city": "Dublin",
+  "country": "Ireland",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 53.349805,
+    "longitude": -6.26031
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  }
+],
+      description: "This crystalline labyrinth begins in Dublin and ventures deep into the heart of Northern Europe. Wander through colorful markets, historic streets, and serene coastlines at Tallinn, Stockholm.",
+      distance: "1159 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Dublin to Tallinn"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Tallinn to Stockholm"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Stockholm to Dublin"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Dublin"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Tallinn"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Dublin"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Thabo Watson",
+        role: "Safety Officer",
+        languages: ["Vietnamese"],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/56.jpg",
+        contact: {
+          contactEmail: "hidden.discovery.of.@velarivoyages.com",
+          contactNumber: "+1-885-922-2304"
+        }
+      }
+    ],
+    title: "Hidden Discovery of the Nordic Waters",
+    description: "This crystalline labyrinth begins in Dublin and ventures deep into the heart of Northern Europe. Wander through colorful markets, historic streets, and serene coastlines at Tallinn, Stockholm.",
+    rating: 4.2,
+    tags: ["tropical","exclusive"]
+  },
+  {
+    basePrice: 7519,
+    departureLocation: {
+  "city": "Dublin",
+  "country": "Ireland",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 53.349805,
+    "longitude": -6.26031
+  }
+},
+    arrivalLocation: {
+  "city": "Dublin",
+  "country": "Ireland",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 53.349805,
+    "longitude": -6.26031
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  },
+  {
+    "city": "St. Petersburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  }
+],
+      description: "Discover the wonders of Northern Europe aboard this eternal cruise departing from Dublin. Journey through crystal waters to explore the treasures of St. Petersburg, Tallinn, Copenhagen, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
+      distance: "1121 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Dublin to St. Petersburg"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from St. Petersburg to Tallinn"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Tallinn to Copenhagen"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Copenhagen to Dublin"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Dublin"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring St. Petersburg"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Tallinn"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring Dublin"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Jeremy Fletcher",
+        role: "Safety Officer",
+        languages: ["Vietnamese"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/men/88.jpg",
+        contact: {
+          contactEmail: "celestial.escape.of.@velarivoyages.com",
+          contactNumber: "+1-112-965-4258"
+        }
+      }
+    ],
+    title: "Celestial Escape of the Emerald Gateway",
+    description: "Discover the wonders of Northern Europe aboard this eternal cruise departing from Dublin. Journey through crystal waters to explore the treasures of St. Petersburg, Tallinn, Copenhagen, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
+    rating: 4.3,
+    tags: ["tropical","exclusive"]
   }
 ];
