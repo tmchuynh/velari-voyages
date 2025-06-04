@@ -12,34 +12,117 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Organic Spicy Wood-Fired Peking Duck with Plum Sauce",
-            "description": "This savory favorite is made using house-made sauces, then beautifully presented.",
-            "price": 37.49,
+            "name": "Authentic Baked Chef's Special Surf and Turf",
+            "price": 33.61,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Grilled Seasonal Tasting Platter",
+            "price": 26,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Dry-Aged Tomahawk Steak",
-            "description": "Presented on a wooden board and prepared to perfection using locally foraged herbs.",
-            "price": 36.26,
+            "name": "Fresh Baked Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 26.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spicy Japanese A5 Wagyu with Ponzu Butter",
+            "price": 24.69,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Herbed Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 25.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Stuffed Chef's Childhood Inspired Creation",
+            "price": 26.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Aromatic Wood-Fired Peking Duck with Plum Sauce",
+            "price": 35.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Authentic Sweet Herb-Crusted Rack of Lamb",
+            "price": 38.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Celebrity Favorite Lobster Dish",
-            "description": "This robust favorite is whipped using handmade pasta, then plated with precision.",
-            "price": 24.33,
+            "name": "Fresh Sweet Sous Vide Perfection with Molecular Gastronomy Elements",
+            "price": 35.61,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Savory Aged and House-Cured Charcuterie Selection",
+            "price": 34.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Succulent Seasonal Farm-to-Table Vegetable Plate",
+            "price": 27.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Traditional Creamy Dry-Aged Prime Beef Selection",
+            "price": 25.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -47,9 +130,8 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Traditional Zingy Pizza",
-            "description": "Plated with precision and marinated to perfection using non-GMO produce.",
-            "price": 19.48,
+            "name": "House Special Exquisite Cheese Platter",
+            "price": 15.22,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -57,29 +139,17 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Sizzling Risotto",
-            "description": "This tangy favorite is roasted using finest quality ingredients, then beautifully presented.",
-            "price": 22.9,
+            "name": "Authentic Creamy Mozzarella Sticks",
+            "price": 14.37,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Marinated Spaghetti Bolognese",
-            "description": "This succulent favorite is hand-rolled using locally foraged herbs, then plated with precision.",
-            "price": 24.51,
-            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Cottage Pie",
-            "description": "Served family-style and sautéed to perfection using finest quality ingredients.",
-            "price": 20.92,
+            "name": "Fresh Zesty Meatballs",
+            "price": 11.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -87,24 +157,17 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Zesty Tacos",
-            "description": "Our complex specialty, prepared with sustainable seafood and served with flair.",
-            "price": 27.29,
+            "name": "Seasonal Crunchy Tuna Tartare",
+            "price": 13.41,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
+            "isKosher": false
+          },
           {
-            "name": "Paella",
-            "description": "Nestled in a ceramic bowl and cooked to perfection using finest quality ingredients.",
-            "price": 23.76,
+            "name": "Fresh Luscious Shrimp Cocktail",
+            "price": 14.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -112,9 +175,17 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gnocchi",
-            "description": "Layered with care and whipped to perfection using aged cheeses.",
-            "price": 28.94,
+            "name": "Authentic Zesty Prawn Toast",
+            "price": 13.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Creamy Tempura",
+            "price": 12.97,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -122,20 +193,9 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Spaghetti Bolognese",
-            "description": "Plated with precision and grilled to perfection using handmade pasta.",
-            "price": 28.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ramen",
-            "description": "A hearty dish stir-fried with sustainable seafood and nestled in a ceramic bowl.",
-            "price": 26.98,
-            "isVegetarian": false,
+            "name": "Homestyle Braised Garlic Knots",
+            "price": 11.72,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -147,42 +207,88 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Pasta Primavera",
-            "description": "Our briny specialty, created with heirloom tomatoes and served with flair.",
-            "price": 27.81,
+            "name": "Homestyle Satisfying Cabbage Soup",
+            "price": 13.74,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Steak",
-            "description": "This bold favorite is hand-rolled using handmade pasta, then garnished to perfection.",
-            "price": 18.73,
+            "name": "Traditional Crispy Butternut Squash Soup",
+            "price": 11.72,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Satisfying Zuppa Toscana",
+            "price": 11.37,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Crunchy Tomato Soup",
+            "price": 7.57,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Coleslaw",
+            "price": 13.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Grilled Tofu",
-            "description": "Elegantly served and created to perfection using farm-fresh eggs.",
-            "price": 24.03,
+            "name": "Spinach Salad",
+            "price": 10.63,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Moussaka",
-            "description": "This earthy favorite is hand-rolled using locally foraged herbs, then served with flair.",
-            "price": 23.21,
+            "name": "Mango Avocado Salad",
+            "price": 14.93,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caesar Salad",
+            "price": 10.57,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Avocado Corn Salad",
+            "price": 11.15,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -192,19 +298,8 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Pho",
-            "description": "Plated with precision and slow-cooked to perfection using locally sourced produce.",
-            "price": 29,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pizza",
-            "description": "This hearty favorite is hand-folded using sustainable seafood, then neatly composed.",
-            "price": 25.77,
+            "name": "Premium Braised Gnocchi",
+            "price": 23.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -212,94 +307,44 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Pan-seared Grilled Chicken",
-            "description": "This succulent favorite is crafted using sustainable seafood, then accompanied by a tasteful garnish.",
-            "price": 20.3,
+            "name": "Traditional Savory Beef Burger",
+            "price": 19.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Pesto Pasta",
-            "description": "Attractively arranged and composed to perfection using microgreens.",
-            "price": 18.17,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Fresh Sautéed Biryani",
-            "description": "Our subtle specialty, composed with handmade pasta and beautifully presented.",
-            "price": 23.35,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Paella",
-            "description": "A savory dish prepared with wild-caught fish and stacked artistically.",
-            "price": 30.77,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Smoked Eggplant Parmesan",
-            "description": "A subtle dish whipped with house-made sauces and nestled in a ceramic bowl.",
-            "price": 22.65,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Tofu",
-            "description": "This rich favorite is composed using hand-picked vegetables, then garnished to perfection.",
-            "price": 21.23,
+            "name": "Deluxe Creamy Fajitas",
+            "price": 25.23,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
+          },
           {
-            "name": "Fresh Spicy Lentil Stew",
-            "description": "Our buttery specialty, grilled with sun-ripened fruits and served on rustic ware.",
-            "price": 27.74,
+            "name": "Classic Stuffed Pasta Primavera",
+            "price": 21.32,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Sautéed Pulled Pork Sandwich",
-            "description": "Elegantly served and oven-baked to perfection using finest quality ingredients.",
-            "price": 29.98,
+            "name": "Classic Aromatic Grilled Chicken",
+            "price": 23.34,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Signature Crispy Korma",
-            "description": "A succulent dish stir-fried with finest quality ingredients and nestled in a ceramic bowl.",
-            "price": 22.25,
+            "name": "Fresh Spicy Shakshuka",
+            "price": 22.93,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,11 +352,19 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pesto Pasta",
-            "description": "A sweet dish smoked with aged cheeses and beautifully presented.",
-            "price": 25.51,
+            "name": "Authentic Pan-seared Risotto",
+            "price": 21.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Stuffed Ramen",
+            "price": 28,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -322,19 +375,76 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Organic Sautéed Cajun Shrimp and Grits",
-            "description": "Served family-style and crafted to perfection using free-range meats.",
-            "price": 34.8,
+            "name": "Fresh Mouthwatering Tempura Soft Shell Crab",
+            "price": 26.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Spicy Oysters Rockefeller with Pernod Cream",
+            "price": 30.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Creamy Valencian Seafood Paella",
+            "price": 22.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seafood Risotto with Saffron",
-            "description": "This robust favorite is created using cold-pressed oils, then stacked artistically.",
-            "price": 33.03,
+            "name": "Organic Braised Steamed Littleneck Clams in Garlic Broth",
+            "price": 33.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Spiced Cedar Plank Roasted Salmon",
+            "price": 35.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Authentic Sautéed Sweet Corn and Cheddar Fritters",
+            "price": 5.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Mouthwatering Creamed Spinach with Nutmeg",
+            "price": 8.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Spicy Maple-Glazed Baby Carrots",
+            "price": 6.13,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -342,24 +452,90 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seafood Gumbo with Okra",
-            "description": "Our rich specialty, roasted with cold-pressed oils and artfully plated.",
-            "price": 23.36,
+            "name": "Authentic Succulent Grilled Zucchini and Peppers",
+            "price": 6.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Luscious Corn on the Cob with Chili Lime Butter",
+            "price": 5.08,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "New England Lobster Roll",
-            "description": "Our rich specialty, assembled with hand-picked vegetables and beautifully presented.",
-            "price": 27.58,
+            "name": "Organic Tangy Grilled Asparagus with Lemon Zest",
+            "price": 8.61,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Hot Chocolate",
+            "price": 6.93,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 6.59,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 5.78,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 6.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 5.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 7.86,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
@@ -370,42 +546,29 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Fresh Pan-seared Cottage Pie",
-            "description": "This floral favorite is created using organic ingredients, then offered as a tasting portion.",
-            "price": 24.04,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Biscotti",
+            "price": 10.62,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Zingy Grilled Chicken",
-            "description": "Our floral specialty, assembled with cold-pressed oils and served on rustic ware.",
-            "price": 27.99,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Pain au Chocolat",
+            "price": 8.67,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Satisfying Chicken Parmesan",
-            "description": "A refreshing dish assembled with heritage grains and garnished to perfection.",
-            "price": 25.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Stuffed Zucchini Boats",
-            "description": "Our hearty specialty, stir-fried with seasonal ingredients and styled for visual appeal.",
-            "price": 18.3,
+            "name": "Crumb Cake",
+            "price": 6.89,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -413,11 +576,19 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Wholesome Ramen",
-            "description": "This bold favorite is charred using hand-picked vegetables, then nestled in a ceramic bowl.",
-            "price": 26.57,
+            "name": "Treacle Tart",
+            "price": 8.92,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pie",
+            "price": 8.07,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -425,22 +596,11 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Pesto Pasta",
-            "description": "Styled for visual appeal and seasoned to perfection using finest quality ingredients.",
-            "price": 27.14,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Crunchy Burrito",
-            "description": "Our creamy specialty, created with hand-picked vegetables and garnished to perfection.",
-            "price": 21.14,
+            "name": "Frozen Mousse",
+            "price": 10.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -448,9 +608,8 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Irresistible Pho",
-            "description": "Our zesty specialty, braised with heritage grains and served with flair.",
-            "price": 26.85,
+            "name": "Sorbet",
+            "price": 11.24,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -458,21 +617,28 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Steak",
-            "description": "Our succulent specialty, infused with heirloom tomatoes and drizzled with finesse.",
-            "price": 26.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Enchiladas",
-            "description": "Attractively arranged and created to perfection using premium components.",
-            "price": 26.19,
+            "name": "Frozen Banana",
+            "price": 8.26,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Paletas",
+            "price": 7.83,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Pie",
+            "price": 8.58,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -489,29 +655,8 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Brandy",
-            "description": "Our buttery specialty, prepared with sustainable seafood and garnished to perfection.",
-            "price": 9.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cocktail",
-            "description": "Our spicy specialty, seasoned with natural sweeteners and presented on a wooden board.",
-            "price": 9.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Rum",
-            "description": "This robust favorite is prepared using non-GMO produce, then elegantly served.",
-            "price": 14.32,
+            "name": "Martini",
+            "price": 13.01,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -519,22 +664,56 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Arak",
-            "description": "A briny dish grilled with microgreens and beautifully presented.",
-            "price": 12.65,
+            "name": "Bloody Mary",
+            "price": 10.47,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Spicy Sherry",
-            "description": "This spicy favorite is slow-cooked using grass-fed beef, then beautifully presented.",
-            "price": 14.03,
+            "name": "Whiskey Sour",
+            "price": 14.38,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 13.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 15.17,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 12.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 10.83,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -544,62 +723,56 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Bibimbap",
-            "description": "A refreshing dish grilled with locally sourced produce and styled for visual appeal.",
-            "price": 27.9,
+            "name": "Barbera",
+            "price": 12.6,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sémillon",
+            "price": 10.2,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Exquisite Tagine",
-            "description": "A subtle dish caramelized with hand-picked vegetables and styled for visual appeal.",
-            "price": 25.84,
+            "name": "Grenache",
+            "price": 12.76,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Merlot",
+            "price": 9.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Albariño",
+            "price": 9.73,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Lentil Stew",
-            "description": "A nutty dish crafted with free-range meats and plated with precision.",
-            "price": 26.1,
+            "name": "Vouvray",
+            "price": 10.9,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Tangy Fajitas",
-            "description": "This tangy favorite is crafted using finest quality ingredients, then beautifully presented.",
-            "price": 27.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tacos",
-            "description": "Stacked artistically and poached to perfection using heritage grains.",
-            "price": 28.6,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Crispy Katsu Curry",
-            "description": "Our zesty specialty, caramelized with sustainable seafood and served with flair.",
-            "price": 20.95,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -609,9 +782,17 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Chef's Succulent Jambalaya",
-            "description": "Served family-style and pan-seared to perfection using handmade pasta.",
-            "price": 27.53,
+            "name": "Triple Sec",
+            "price": 13.71,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Anisette",
+            "price": 10.45,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -619,19 +800,17 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Marinated Salmon",
-            "description": "This savory favorite is made using finest quality ingredients, then elegantly served.",
-            "price": 27.26,
-            "isVegetarian": false,
+            "name": "Drambuie",
+            "price": 14.51,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Seafood Platter",
-            "description": "Our rich specialty, assembled with handmade pasta and garnished to perfection.",
-            "price": 29.23,
+            "name": "Brandy",
+            "price": 17.94,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -639,12 +818,11 @@ export const berlinbrandenburgDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Moussaka",
-            "description": "A peppery dish cooked with handmade pasta and beautifully presented.",
-            "price": 23.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Tequila",
+            "price": 17.85,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
