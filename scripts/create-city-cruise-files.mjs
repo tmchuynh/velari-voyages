@@ -49,57 +49,7 @@ function getCruiseCategories() {
     ];
   }
 }
-
-function getLocations() {
-  try {
-    const locationsPath = path.join(
-      __dirname,
-      "..",
-      "src",
-      "lib",
-      "constants",
-      "info",
-      "locations.ts"
-    );
-
-    const content = fs.readFileSync(locationsPath, "utf8");
-    const locationIdsMatch = content.matchAll(/id:\s*["']([^"']+)["']/g);
-
-    return Array.from(locationIdsMatch).map((match) => match[1]);
-  } catch (error) {
-    console.error("Error reading locations:", error);
-    return [
-      {
-        city: "Auckland",
-        country: "New Zealand",
-        region: "North Island",
-      },
-      {
-        city: "Amsterdam",
-        country: "Netherlands",
-        region: "North Holland",
-      },
-      {
-        city: "Barcelona",
-        country: "Spain",
-        region: "Catalonia",
-      },
-      {
-        city: "Berlin",
-        country: "Germany",
-        region: "Brandenburg",
-      },
-      {
-        city: "Boston",
-        country: "United States",
-        region: "Massachusetts",
-      },
-    ];
-  }
-}
-
 const cruiseCategoryIds = getCruiseCategories();
-const cruiseLocations = getLocations();
 
 // Base directory for cruise files
 const cruisesDir = path.join(
@@ -173,52 +123,6 @@ const cityCountryMap = {
   yokohama: "Japan",
 };
 
-// Sample regions for each city
-const regionMap = {
-  auckland: "North Island",
-  amsterdam: "North Holland",
-  barcelona: "Catalonia",
-  berlin: "Brandenburg",
-  boston: "Massachusetts",
-  "buenos-aires": "Pampas Region",
-  "cape-town": "Western Cape",
-  charleston: "South Carolina",
-  copenhagen: "Hovedstaden (Capital Region)",
-  dubai: "Dubai Emirate",
-  dublin: "Leinster",
-  florence: "Tuscany",
-  "fort-lauderdale": "Florida",
-  galveston: "Texas",
-  "hong-kong": "South China Sea Coast",
-  kiel: "Schleswig-Holstein",
-  kyoto: "Kansai",
-  lisbon: "Lisbon Metropolitan Area",
-  london: "England",
-  "los-angeles": "California",
-  melbourne: "Victoria",
-  miami: "Florida",
-  milan: "Lombardy",
-  montreal: "Quebec",
-  "new-orleans": "Louisiana",
-  "new-york-city": "New York State",
-  paris: "Ile-de-France",
-  "quebec-city": "Quebec",
-  "rio-de-janeiro": "State of Rio de Janeiro",
-  rome: "Lazio",
-  "san-francisco": "California",
-  "san-juan": "Caribbean",
-  seattle: "Washington State",
-  singapore: "Southeast Asia",
-  southampton: "Hampshire, England",
-  sydney: "New South Wales",
-  tampa: "Florida",
-  tokyo: "Kanto",
-  toronto: "Ontario",
-  vancouver: "British Columbia",
-  venice: "Veneto",
-  yokohama: "Kanagawa Prefecture",
-};
-
 // Popular cruise destinations by region
 const regionalDestinations = {
   Caribbean: [
@@ -276,27 +180,95 @@ const regionalDestinations = {
 
 // Map cities to nearby cruising regions
 const cityToRegionMap = {
-  miami: "Caribbean",
+  auckland: "Asia Pacific",
+  amsterdam: "Northern Europe",
+  barcelona: "Mediterranean",
+  berlin: "Northern Europe",
+  boston: "East Coast USA",
+  "buenos-aires": "South America",
+  "cape-town": "Africa",
+  charleston: "East Coast USA",
+  copenhagen: "Northern Europe",
+  dubai: "Middle East",
+  dublin: "Northern Europe",
+  florence: "Mediterranean",
   "fort-lauderdale": "Caribbean",
   galveston: "Caribbean",
-  "new-orleans": "Caribbean",
-  tampa: "Caribbean",
-  barcelona: "Mediterranean",
-  rome: "Mediterranean",
-  venice: "Mediterranean",
-  athens: "Mediterranean",
-  seattle: "Alaska",
-  vancouver: "Alaska",
-  tokyo: "Asia Pacific",
-  singapore: "Asia Pacific",
   "hong-kong": "Asia Pacific",
-  sydney: "Asia Pacific",
-  copenhagen: "Northern Europe",
-  stockholm: "Northern Europe",
   kiel: "Northern Europe",
-  southampton: "Northern Europe",
-  "buenos-aires": "South America",
+  kyoto: "Asia Pacific",
+  lisbon: "Mediterranean",
+  london: "Northern Europe",
+  "los-angeles": "West Coast USA",
+  melbourne: "Asia Pacific",
+  miami: "Caribbean",
+  milan: "Mediterranean",
+  montreal: "East Coast Canada",
+  "new-orleans": "Caribbean",
+  "new-york-city": "East Coast USA",
+  paris: "Northern Europe",
+  "quebec-city": "East Coast Canada",
   "rio-de-janeiro": "South America",
+  rome: "Mediterranean",
+  "san-francisco": "West Coast USA",
+  "san-juan": "Caribbean",
+  seattle: "Alaska",
+  singapore: "Asia Pacific",
+  southampton: "Northern Europe",
+  sydney: "Asia Pacific",
+  tampa: "Caribbean",
+  tokyo: "Asia Pacific",
+  toronto: "East Coast Canada",
+  vancouver: "Alaska",
+  venice: "Mediterranean",
+  yokohama: "Asia Pacific",
+  athens: "Mediterranean",
+  stockholm: "Northern Europe",
+};
+
+const cityCoordinates = {
+  auckland: { latitude: -36.848461, longitude: 174.763336 },
+  amsterdam: { latitude: 52.377956, longitude: 4.89707 },
+  barcelona: { latitude: 41.390205, longitude: 2.154007 },
+  berlin: { latitude: 52.520008, longitude: 13.404954 },
+  boston: { latitude: 42.361145, longitude: -71.057083 },
+  "buenos-aires": { latitude: -34.603722, longitude: -58.381592 },
+  "cape-town": { latitude: -33.918861, longitude: 18.4233 },
+  charleston: { latitude: 32.77657, longitude: -79.93092 },
+  copenhagen: { latitude: 55.6761, longitude: 12.5683 },
+  dubai: { latitude: 25.276987, longitude: 55.296249 },
+  dublin: { latitude: 53.349805, longitude: -6.26031 },
+  florence: { latitude: 43.769562, longitude: 11.255814 },
+  "fort-lauderdale": { latitude: 26.122439, longitude: -80.137317 },
+  galveston: { latitude: 29.301348, longitude: -94.797695 },
+  "hong-kong": { latitude: 22.3193, longitude: 114.1694 },
+  kiel: { latitude: 54.3233, longitude: 10.1228 },
+  kyoto: { latitude: 35.0116, longitude: 135.7681 },
+  lisbon: { latitude: 38.7169, longitude: -9.1399 },
+  london: { latitude: 51.5074, longitude: -0.1278 },
+  "los-angeles": { latitude: 34.0522, longitude: -118.2437 },
+  melbourne: { latitude: -37.8136, longitude: 144.9631 },
+  miami: { latitude: 25.7617, longitude: -80.1918 },
+  milan: { latitude: 45.4642, longitude: 9.19 },
+  montreal: { latitude: 45.5017, longitude: -73.5673 },
+  "new-orleans": { latitude: 29.9511, longitude: -90.0715 },
+  "new-york-city": { latitude: 40.7128, longitude: -74.006 },
+  paris: { latitude: 48.8566, longitude: 2.3522 },
+  "quebec-city": { latitude: 46.8139, longitude: -71.2082 },
+  "rio-de-janeiro": { latitude: -22.9068, longitude: -43.1729 },
+  rome: { latitude: 41.9028, longitude: 12.4964 },
+  "san-francisco": { latitude: 37.7749, longitude: -122.4194 },
+  "san-juan": { latitude: 18.4655, longitude: -66.1057 },
+  seattle: { latitude: 47.6062, longitude: -122.3321 },
+  singapore: { latitude: 1.3521, longitude: 103.8198 },
+  southampton: { latitude: 50.9097, longitude: -1.4044 },
+  sydney: { latitude: -33.8688, longitude: 151.2093 },
+  tampa: { latitude: 27.9506, longitude: -82.4572 },
+  tokyo: { latitude: 35.6895, longitude: 139.6917 },
+  toronto: { latitude: 43.6532, longitude: -79.3832 },
+  vancouver: { latitude: 49.2827, longitude: -123.1207 },
+  venice: { latitude: 45.4408, longitude: 12.3155 },
+  yokohama: { latitude: 35.4437, longitude: 139.638 },
 };
 
 // Read and extract cityFiles array from the file
@@ -318,6 +290,8 @@ try {
   console.error("Error reading city files:", error);
   process.exit(1);
 }
+
+const CRUISES_PER_CITY = 10;
 
 // Generate regional destinations for a cruise from a given city
 function getDestinationsForCity(cityName) {
@@ -348,7 +322,11 @@ function getDestinationsForCity(cityName) {
 function generateCruiseData(cityName) {
   const cityDisplayName = capitalizeWords(cityName);
   const countryName = cityCountryMap[cityName] || "";
-  const regionName = regionMap[cityName] || "";
+  const regionName = cityToRegionMap[cityName] || "";
+  const cityCoordinatesData = cityCoordinates[cityName] || {
+    latitude: 0,
+    longitude: 0,
+  };
 
   // Get destinations for this cruise
   const destinations = getDestinationsForCity(cityName);
@@ -359,10 +337,7 @@ function generateCruiseData(cityName) {
       city: cityDisplayName,
       country: countryName,
       region: regionName,
-      coordinates: {
-        latitude: Math.random() * 170 - 85,
-        longitude: Math.random() * 360 - 180,
-      },
+      coordinates: cityCoordinatesData,
     },
   ];
 
@@ -508,35 +483,158 @@ function createEmailFromTitle(title) {
 
 // Create files for each city
 let createdFiles = 0;
-let existingFiles = 0;
+let updatedFiles = 0;
+let totalCruisesCreated = 0;
+
+function getTourCategoryId(totalDuration, tags) {
+  const hasTag = (tag) => tags.includes(tag);
+
+  // Prioritized conditions
+  if (totalDuration >= 90) {
+    return "vip-cruise";
+  }
+
+  if (totalDuration >= 20 && totalDuration <= 35) {
+    return "luxury-cruise";
+  }
+
+  if (totalDuration >= 15 && totalDuration <= 20) {
+    return "repositioning-cruise";
+  }
+
+  if (
+    totalDuration >= 5 &&
+    totalDuration <= 14 &&
+    hasTag("themed-cruise") &&
+    !hasTag("seasonal")
+  ) {
+    return "theme-cruise";
+  }
+
+  if (totalDuration >= 3 && totalDuration <= 10 && hasTag("seasonal")) {
+    return "holiday-cruise";
+  }
+
+  if (totalDuration >= 7 && totalDuration <= 10 && hasTag("romantic")) {
+    return "anniversary-cruise";
+  }
+
+  if (totalDuration >= 7 && totalDuration <= 10) {
+    return "glacier-cruise";
+  }
+
+  if (totalDuration >= 3 && totalDuration <= 7) {
+    return "tropical-cruise";
+  }
+
+  if (totalDuration >= 5 && totalDuration <= 14) {
+    return "fall-foliage-cruise";
+  }
+
+  if (totalDuration >= 3 && totalDuration <= 4) {
+    return "weekend-cruise";
+  }
+
+  return "general-cruise"; // fallback
+}
 
 for (const city of cityFiles) {
   const camelCaseCity = kebabToCamelCase(city);
   const cruiseFilePath = path.join(cruisesDir, `${city}-cruises.ts`);
-
-  // Check if file already exists
-  if (fs.existsSync(cruiseFilePath)) {
-    console.log(`File already exists: ${cruiseFilePath}`);
-    existingFiles++;
-    continue;
-  }
+  let existingCruises = [];
+  let cruisesToAdd = CRUISES_PER_CITY;
+  let fileAction = "Created";
 
   try {
-    // Generate cruise data
-    const cruiseData = generateCruiseData(city);
+    // Check if file already exists
+    if (fs.existsSync(cruiseFilePath)) {
+      // Read existing file content
+      const existingContent = fs.readFileSync(cruiseFilePath, "utf8");
 
-    // Select a random cruise category ID
-    const randomCategoryId =
-      cruiseCategoryIds[Math.floor(Math.random() * cruiseCategoryIds.length)];
+      // Extract the existing array
+      const arrayMatch = existingContent.match(
+        /export const \w+Cruises: Cruise\[\] = \[([\s\S]*?)\];/
+      );
+      if (arrayMatch && arrayMatch[1]) {
+        try {
+          // Count number of objects by counting opening braces
+          const objectMatches = arrayMatch[1].match(/\{/g);
+          if (objectMatches) {
+            const existingObjectCount = objectMatches.length;
+            console.log(
+              `Found ${existingObjectCount} existing cruises in ${city}-cruises.ts`
+            );
 
-    // Generate contact email based on cruise title
-    const contactEmail = createEmailFromTitle(cruiseData.cruiseTitle);
+            // Keep the existing content untouched
+            existingCruises = arrayMatch[1].trim();
+            fileAction = "Updated";
+            updatedFiles++;
+          }
+        } catch (parseError) {
+          console.error(
+            `Error parsing existing cruises in ${city}-cruises.ts:`,
+            parseError
+          );
+        }
+      }
+    } else {
+      createdFiles++;
+    }
 
-    // Create file content
-    const fileContent = `import { Cruise } from "@/lib/interfaces/services/cruises";
+    // Generate multiple cruise objects based on CRUISES_PER_CITY
+    const cruiseObjects = [];
 
-export const ${camelCaseCity}Cruises: Cruise[] = [
-  {
+    for (let i = 0; i < cruisesToAdd; i++) {
+      // Generate cruise data
+      const cruiseData = generateCruiseData(city);
+
+      const tagsForCategories = [
+        "family-friendly",
+        "romantic",
+        "adventure",
+        "relaxation",
+        "fall-cruise",
+        "themed-cruise",
+        "VIP",
+        "luxury",
+        "exclusive",
+        "tropical",
+        "long-distance",
+        "short-getaway",
+        "sightseeing",
+        "seasonal",
+      ];
+
+      const tags = [];
+      const tagsCount = Math.floor(Math.random() * 3) + 1; // 1-3 tags per cruise
+      for (let j = 0; j < tagsCount; j++) {
+        const randomTag =
+          tagsForCategories[
+            Math.floor(Math.random() * tagsForCategories.length)
+          ];
+        if (!tags.includes(`"${randomTag}"`)) {
+          tags.push(`"${randomTag}"`);
+        }
+      }
+      // Ensure we have at least one tag
+      if (tags.length === 0) {
+        tags.push("general");
+      }
+
+      const tourCategoryId = getTourCategoryId(
+        parseInt(cruiseData.totalDuration, 10),
+        tags
+      );
+
+      // Select a random cruise category ID
+      const randomCategoryId =
+        cruiseCategoryIds[Math.floor(Math.random() * cruiseCategoryIds.length)];
+
+      // Generate contact email based on cruise title
+      const contactEmail = createEmailFromTitle(cruiseData.cruiseTitle);
+
+      // Generate a cruise object
+      cruiseObjects.push(`  {
     basePrice: ${1000 + Math.floor(Math.random() * 9000)},
     departureLocation: ${JSON.stringify(cruiseData.route[0], null, 2)},
     arrivalLocation: ${JSON.stringify(
@@ -544,7 +642,7 @@ export const ${camelCaseCity}Cruises: Cruise[] = [
       null,
       2
     )},
-    isPopular: ${Math.random() > 0.5},
+    isPopular: ${Math.random() > 0.7}, // Make fewer cruises "popular"
     hasPopularDestination: ${Math.random() > 0.5},
     category: "${
       [
@@ -565,38 +663,61 @@ export const ${camelCaseCity}Cruises: Cruise[] = [
       timeAtSea: ${JSON.stringify(cruiseData.timeAtSea, null, 2)},
       timeOnLand: ${JSON.stringify(cruiseData.timeOnLand, null, 2)}
     },
-    tourCategoryId: "${randomCategoryId}",
+    tourCategoryId: "${tourCategoryId}",
     contactPersonnel: [
       {
-        name: "John Doe",
+        name: "Cruise Director ${i + 1}",
         role: "Cruise Director",
-        languages: ["English", "Spanish"],
-        experienceYears: 10,
-        profileImage: "/images/staff/john-doe.jpg",
+        languages: ["English", ${i % 2 === 0 ? '"Spanish"' : '"French"'}, ${
+        i % 3 === 0 ? '"German"' : '"Italian"'
+      }],
+        experienceYears: ${5 + Math.floor(Math.random() * 15)},
+        profileImage: "/images/staff/cruise-director-${i + 1}.jpg",
         contact: {
           contactEmail: "${contactEmail}",
-          contactNumber: "+1-123-456-7890"
+          contactNumber: "+1-${Math.floor(Math.random() * 900) + 100}-${
+        Math.floor(Math.random() * 900) + 100
+      }-${Math.floor(Math.random() * 9000) + 1000}"
         }
       }
     ],
     title: "${cruiseData.cruiseTitle}",
     description: "${cruiseData.cruiseDescription}",
     rating: ${(Math.random() * 1 + 4).toFixed(1)},
-    tags: ["adventure", "relaxation", "sightseeing"]
-  }
+    tags: [${tags}]
+  }`);
+    }
+
+    // Create file content, combining existing and new cruises if applicable
+    let combinedCruises;
+    if (existingCruises.length > 0) {
+      // Append new cruises to existing ones
+      combinedCruises = existingCruises + ",\n" + cruiseObjects.join(",\n");
+    } else {
+      // Just use the new cruises
+      combinedCruises = cruiseObjects.join(",\n");
+    }
+
+    const fileContent = `import { Cruise } from "@/lib/interfaces/services/cruises";
+
+export const ${camelCaseCity}Cruises: Cruise[] = [
+${combinedCruises}
 ];
 `;
 
     // Write the file
     fs.writeFileSync(cruiseFilePath, fileContent);
-    console.log(`Created file: ${cruiseFilePath}`);
-    createdFiles++;
+    totalCruisesCreated += cruiseObjects.length;
+    console.log(
+      `${fileAction} file: ${cruiseFilePath} with ${cruiseObjects.length} new cruises`
+    );
   } catch (error) {
-    console.error(`Error creating cruise file for ${city}:`, error);
+    console.error(`Error processing cruise file for ${city}:`, error);
   }
 }
 
 console.log(`\nSummary:`);
 console.log(`Created ${createdFiles} new cruise files`);
-console.log(`Found ${existingFiles} existing cruise files`);
+console.log(`Updated ${updatedFiles} existing cruise files`);
 console.log(`Total cities processed: ${cityFiles.length}`);
+console.log(`Total new cruises created: ${totalCruisesCreated}`);
