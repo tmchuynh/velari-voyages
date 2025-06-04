@@ -12,7 +12,6 @@ import { Button } from "@/components/ui/button";
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -20,7 +19,6 @@ import {
 import {
   Table,
   TableBody,
-  TableCaption,
   TableCell,
   TableHead,
   TableHeader,
@@ -33,13 +31,13 @@ import {
 import { Cruise } from "@/lib/interfaces/services/cruises";
 import { Package } from "@/lib/types/types";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
-import { capitalize, formatNumberToCurrency } from "@/lib/utils/format.ts";
+import { formatNumberToCurrency } from "@/lib/utils/format.ts";
 import {
   getAllCruises,
   getCruises,
   getCruisesByCategory,
 } from "@/lib/utils/get.ts";
-import { groupAndSortByProperties } from "@/lib/utils/sort";
+import { groupAndSortByProperties, sortByProperty } from "@/lib/utils/sort";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
@@ -183,69 +181,107 @@ export default function CruiseInformationPage() {
 
       <section className="gap-8 grid grid-cols-1 lg:grid-cols-3">
         <div className="lg:col-span-2">
+          <section className="gap-4 grid grid-cols-1 md:grid-cols-2">
+            <div>
+              <h5>Departure Location</h5>
+              <p>
+                {cruiseData.departureLocation.city},{" "}
+                {cruiseData.departureLocation.country}
+              </p>
+            </div>
+            <div>
+              <h5>Arrival Location</h5>
+              <p>
+                {cruiseData.arrivalLocation.city},{" "}
+                {cruiseData.arrivalLocation.country}
+              </p>
+            </div>
+          </section>
           <section>
-            <h3>Departure Location</h3>
             <p>
-              {cruiseData.departureLocation.city},{" "}
-              {cruiseData.departureLocation.country}
+              <strong>Total Duration:</strong>{" "}
+              {cruiseData.itinerary.totalDuration}
             </p>
-            <h3>Arrival Location</h3>
             <p>
-              {cruiseData.arrivalLocation.city},{" "}
-              {cruiseData.arrivalLocation.country}
+              <strong>Total Distance:</strong> {cruiseData.itinerary.distance}
             </p>
           </section>
           <section>
             <h2>Itinerary</h2>
             <p>{cruiseData.itinerary.description}</p>
             <Table>
-              <TableCaption>
-                Total Duration: {cruiseData.itinerary.totalDuration} | Total
-                Distance: {cruiseData.itinerary.distance}
-              </TableCaption>
               <TableHeader>
                 <TableRow>
                   <TableHead>Location</TableHead>
-                  <TableHead>Date</TableHead>
-                  <TableHead>Duration</TableHead>
+                  <TableHead>On Land</TableHead>
+                  <TableHead>At Sea</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
                 {cruiseData.itinerary.route.map((location, index) => (
                   <TableRow key={index}>
-                    <TableCell className="font-medium">
+                    <TableCell className="w-1/4 font-medium">
                       {location.city}
                     </TableCell>
                     <TableCell>
-                      {index < cruiseData.itinerary.timeAtSea.length && (
-                        <>
-                          {new Date(
-                            cruiseData.itinerary.timeAtSea[index].start
-                          ).toLocaleDateString()}{" "}
-                          -{" "}
-                          {new Date(
-                            cruiseData.itinerary.timeAtSea[index].end
-                          ).toLocaleDateString()}
-                        </>
-                      )}{" "}
-                      to{" "}
                       {index < cruiseData.itinerary.timeOnLand.length && (
-                        <>
-                          {new Date(
-                            cruiseData.itinerary.timeOnLand[index].start
-                          ).toLocaleDateString()}{" "}
-                          -{" "}
-                          {new Date(
-                            cruiseData.itinerary.timeOnLand[index].end
-                          ).toLocaleDateString()}
-                        </>
+                        <span className="space-x-3">
+                          <span>
+                            {cruiseData.itinerary.timeOnLand[index].start}
+                            {cruiseData.itinerary.timeOnLand[index].start !==
+                              cruiseData.itinerary.timeOnLand[index].end && (
+                              <>
+                                {" "}
+                                - {cruiseData.itinerary.timeOnLand[index].end}
+                              </>
+                            )}
+                          </span>
+                          <span>
+                            {index < cruiseData.itinerary.timeOnLand.length &&
+                              cruiseData.itinerary.timeOnLand[index]
+                                .duration !== "1 days" && (
+                                <>
+                                  (
+                                  {
+                                    cruiseData.itinerary.timeOnLand[index]
+                                      .duration
+                                  }
+                                  )
+                                </>
+                              )}
+                          </span>
+                        </span>
                       )}
                     </TableCell>
                     <TableCell>
-                      {index < cruiseData.itinerary.timeAtSea.length &&
-                        cruiseData.itinerary.timeAtSea[index].duration}
-                      {index < cruiseData.itinerary.timeOnLand.length &&
-                        cruiseData.itinerary.timeOnLand[index].duration}
+                      {index < cruiseData.itinerary.timeAtSea.length && (
+                        <span className="space-x-3">
+                          <span>
+                            {cruiseData.itinerary.timeAtSea[index].start}
+                            {cruiseData.itinerary.timeAtSea[index].start !==
+                              cruiseData.itinerary.timeAtSea[index].end && (
+                              <>
+                                {" "}
+                                - {cruiseData.itinerary.timeAtSea[index].end}
+                              </>
+                            )}
+                          </span>
+                          <span>
+                            {index < cruiseData.itinerary.timeAtSea.length &&
+                              cruiseData.itinerary.timeAtSea[index].duration !==
+                                "1 days" && (
+                                <>
+                                  (
+                                  {
+                                    cruiseData.itinerary.timeAtSea[index]
+                                      .duration
+                                  }
+                                  )
+                                </>
+                              )}
+                          </span>
+                        </span>
+                      )}{" "}
                     </TableCell>
                   </TableRow>
                 ))}
@@ -255,8 +291,11 @@ export default function CruiseInformationPage() {
         </div>
         <div className="lg:col-span-1">
           <section>
-            <h3>Base Price</h3>
-            <p>{formatNumberToCurrency(cruiseData.basePrice)} USD</p>
+            <h5>Base Price</h5>
+            <div className="inline-flex items-end gap-2">
+              <h1>{formatNumberToCurrency(cruiseData.basePrice)} </h1>
+              <h5 className="mb-2.5">USD</h5>
+            </div>
           </section>
 
           {/* Required Documents Section */}
@@ -286,47 +325,43 @@ export default function CruiseInformationPage() {
 
           {/* Cruise Features Section */}
           <section>
-            <h3>Cruise Features</h3>
-            <div>
-              <Dialog>
-                <DialogTrigger asChild>
-                  <Button variant="outline">View Available Packages</Button>
-                </DialogTrigger>
-                <DialogContent className="min-w-11/12 max-h-[80vh] overflow-y-auto">
-                  <DialogHeader>
-                    <DialogTitle>
-                      Available Packages for {cruiseData.title}
-                    </DialogTitle>
-                    <DialogDescription>
-                      Select a package to enhance your cruise experienceSel
-                    </DialogDescription>
-                  </DialogHeader>
+            <Dialog>
+              <DialogTrigger asChild>
+                <Button variant="outline">View Available Packages</Button>
+              </DialogTrigger>
+              <DialogContent className="min-w-11/12 max-h-[80vh] overflow-y-auto">
+                <DialogHeader>
+                  <DialogTitle className="sr-only">
+                    Available Packages for {cruiseData.title}
+                  </DialogTitle>
+                  <h1>Available Packages for {cruiseData.title}</h1>
+                </DialogHeader>
 
-                  <div className="gap-6 grid grid-cols-1 mt-4">
-                    {availablePackages.length > 0 ? (
-                      availablePackages.map((pkg) => (
+                <div className="gap-6 grid grid-cols-1 mt-4">
+                  {availablePackages.length > 0 ? (
+                    sortByProperty(availablePackages, "price", false).map(
+                      (pkg) => (
                         <div
                           key={pkg.id}
-                          className="hover:shadow-md p-4 border rounded-lg transition-shadow"
+                          className="hover:shadow-md p-6 border rounded-lg transition-shadow"
                         >
                           <div className="flex justify-between items-start">
                             <div>
-                              <h3>{pkg.title}</h3>
+                              <h2>{pkg.title}</h2>
                               <p>{pkg.description}</p>
                             </div>
-                            <div className="font-bold text-xl">
-                              {formatNumberToCurrency(pkg.price)} USD
+                            <div className="inline-flex items-end gap-2">
+                              <h1>{formatNumberToCurrency(pkg.price)} </h1>
+                              <h5 className="mb-2.5">USD</h5>
                             </div>
                           </div>
 
-                          <div className="gap-4 grid grid-cols-1 md:grid-cols-2 mt-4">
+                          <div className="gap-6 grid grid-cols-1 lg:grid-cols-2 mt-4">
                             <div>
                               <h4>Includes:</h4>
                               <ul className="gap-3 grid xl:grid-cols-2 mt-2 pl-5 list-disc">
                                 {pkg.includes.map((item, i) => (
-                                  <li key={i} className="text-sm">
-                                    {item}
-                                  </li>
+                                  <li key={i}>{item}</li>
                                 ))}
                               </ul>
                             </div>
@@ -335,9 +370,7 @@ export default function CruiseInformationPage() {
                                 <h4>Excludes:</h4>
                                 <ul className="gap-3 grid xl:grid-cols-2 mt-2 pl-5 list-disc">
                                   {pkg.excludes.map((item, i) => (
-                                    <li key={i} className="text-sm">
-                                      {item}
-                                    </li>
+                                    <li key={i}>{item}</li>
                                   ))}
                                 </ul>
                               </div>
@@ -350,22 +383,22 @@ export default function CruiseInformationPage() {
                             </Button>
                           </div>
                         </div>
-                      ))
-                    ) : (
-                      <p>No packages available for this cruise category.</p>
-                    )}
-                  </div>
-                </DialogContent>
-              </Dialog>
-
-              {selectedPackage && (
-                <div className="mt-2">
-                  <Badge variant="secondary" size={"2xl"}>
-                    Selected: {selectedPackage.title} - ${selectedPackage.price}
-                  </Badge>
+                      )
+                    )
+                  ) : (
+                    <p>No packages available for this cruise category.</p>
+                  )}
                 </div>
-              )}
-            </div>
+              </DialogContent>
+            </Dialog>
+
+            {selectedPackage && (
+              <div className="mt-2">
+                <Badge variant="secondary" size={"2xl"}>
+                  Selected: {selectedPackage.title} - ${selectedPackage.price}
+                </Badge>
+              </div>
+            )}
           </section>
 
           <section>
@@ -400,11 +433,6 @@ export default function CruiseInformationPage() {
                   <p>No contact personnel available for this cruise.</p>
                 ))}
             </div>
-          </section>
-
-          <section>
-            <h3>Category</h3>
-            <p>{capitalize(cruiseData.category)}</p>
           </section>
 
           <section className="flex flex-wrap gap-2 mt-2">
