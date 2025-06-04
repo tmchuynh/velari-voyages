@@ -644,7 +644,37 @@ function generateMenuItemsForType(category, cuisine, count = args["items"]) {
   // Get the appropriate item source based on menu type
   let itemSource;
   let priceRange = { min: 8, max: 16 };
+
+  // By default, use fancy names for most items
   let useFancyName = true;
+
+  // Determine dessert and drink categories for simple naming
+  const dessertCategories = [
+    "desserts",
+    "sweet treats",
+    "frozen desserts",
+    "baked goods",
+  ];
+
+  const drinkCategories = [
+    "alcoholic beverages",
+    "drinks",
+    "cocktails",
+    "signature cocktails",
+    "wine",
+    "wine selection",
+    "spirits",
+    "spirits and liqueurs",
+    "non-alcoholic beverages",
+  ];
+
+  // If category is a dessert or drink type, don't use fancy names
+  if (
+    dessertCategories.includes(category.toLowerCase()) ||
+    drinkCategories.includes(category.toLowerCase())
+  ) {
+    useFancyName = false;
+  }
 
   switch (category.toLowerCase()) {
     case "main courses":
@@ -683,7 +713,6 @@ function generateMenuItemsForType(category, cuisine, count = args["items"]) {
       priceRange = { min: 5, max: 10 };
       break;
     case "desserts":
-      useFancyName = false;
     case "sweet treats":
       itemSource = menuItems.desserts;
       priceRange = { min: 7, max: 12 };
@@ -701,7 +730,6 @@ function generateMenuItemsForType(category, cuisine, count = args["items"]) {
       priceRange = { min: 4, max: 8 };
       break;
     case "alcoholic beverages":
-      useFancyName = false;
     case "drinks":
     case "cocktails":
       itemSource = menuItems.alcoholicBeverages;
@@ -725,13 +753,11 @@ function generateMenuItemsForType(category, cuisine, count = args["items"]) {
       priceRange = { min: 10, max: 16 };
       break;
     case "wine":
-      useFancyName = false;
     case "wine selection":
       itemSource = menuItems.wines;
       priceRange = { min: 8, max: 14 };
       break;
     case "spirits":
-      useFancyName = false;
     case "spirits and liqueurs":
       itemSource = menuItems.spiritsAndLiqueurs;
       priceRange = { min: 10, max: 18 };
@@ -750,8 +776,7 @@ function generateMenuItemsForType(category, cuisine, count = args["items"]) {
     const prefix = getRandomItems(menuItems.prefixes, 1)[0];
     const descriptor = getRandomItems(menuItems.descriptors, 1)[0];
 
-    // Decide if we'll use a fancy name with prefix and descriptor (50% chance)
-
+    // Use fancy name only for appropriate categories
     const itemName = useFancyName ? `${prefix} ${descriptor} ${item}` : item;
 
     const dietaryFlags = getDietaryFlags(cuisine, itemName);
