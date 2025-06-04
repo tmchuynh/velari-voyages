@@ -12,9 +12,17 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Chef's Golden Award-Winning Seafood Boil",
-            "description": "Attractively arranged and assembled to perfection using farm-fresh eggs.",
-            "price": 36.68,
+            "name": "Traditional Luscious Heritage Recipe Lamb Shank",
+            "price": 28.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Braised Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 30.48,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -22,9 +30,17 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Sizzling Charcoal Grilled Iberico Pork",
-            "description": "Our savory specialty, whipped with finest quality ingredients and accompanied by a tasteful garnish.",
-            "price": 32.94,
+            "name": "Classic Pan-seared Tableside Carved Chateaubriand",
+            "price": 25.65,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Juicy Flambéed Tableside Specialty",
+            "price": 26.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -32,9 +48,26 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Roasted Heritage Recipe Lamb Shank",
-            "description": "A robust dish crafted with handmade pasta and artfully plated.",
-            "price": 37.55,
+            "name": "Authentic Aromatic Charcoal Grilled Iberico Pork",
+            "price": 36.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Tangy Age-Old Recipe Osso Buco with Gremolata",
+            "price": 24.35,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Smoked Award-Winning Seafood Boil",
+            "price": 31.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -44,32 +77,11 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Appetizers",
+        "name": "Chef's Specials",
         "items": [
           {
-            "name": "Chef's Crunchy Katsu Curry",
-            "description": "Styled for visual appeal and whipped to perfection using wild-caught fish.",
-            "price": 20.89,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Luscious Teriyaki Chicken",
-            "description": "A subtle dish braised with hand-picked vegetables and served on rustic ware.",
-            "price": 26.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Delectable Pulled Pork Sandwich",
-            "description": "Served with flair and hand-rolled to perfection using handmade pasta.",
-            "price": 21.74,
+            "name": "Homestyle Appetizing Miso-Glazed Black Cod",
+            "price": 35.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -77,19 +89,153 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Luscious Pho",
-            "description": "This buttery favorite is composed using locally sourced produce, then nestled in a ceramic bowl.",
-            "price": 24.91,
+            "name": "Gourmet Grilled Seared Foie Gras with Fig Compote",
+            "price": 25.54,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Luscious Heirloom Recipe from Chef's Family",
+            "price": 34.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Succulent Tableside Prepared Tartare",
+            "price": 37.61,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Zingy Locally Foraged Mushroom Selection",
+            "price": 26.74,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Appetizers",
+        "items": [
+          {
+            "name": "Organic Roasted Falafel",
+            "price": 14.19,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Steak",
-            "description": "This savory favorite is whipped using hand-picked vegetables, then styled for visual appeal.",
-            "price": 21.09,
+            "name": "Homestyle Savory Nachos",
+            "price": 11.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Pan-seared Onion Rings",
+            "price": 11.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Aromatic Baked Brie",
+            "price": 11.93,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Zesty Dumplings",
+            "price": 15.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Wholesome Potstickers",
+            "price": 12.66,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Herbed Mini Quesadillas",
+            "price": 11.46,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Delectable Spring Rolls",
+            "price": 12.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Soups",
+        "items": [
+          {
+            "name": "Classic Luscious Mushroom Soup",
+            "price": 10.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Hot and Sour Soup",
+            "price": 8.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Comforting French Onion Soup",
+            "price": 11.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Creamy Chicken Noodle Soup",
+            "price": 12.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -102,54 +248,17 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Seafood Platter",
-            "description": "This fruity favorite is crafted using seasonal ingredients, then beautifully presented.",
-            "price": 22.58,
-            "isVegetarian": false,
+            "name": "Spinach Salad",
+            "price": 10.57,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Hearty Bibimbap",
-            "description": "This creamy favorite is stir-fried using seasonal ingredients, then served with flair.",
-            "price": 21.8,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Succulent Gnocchi",
-            "description": "This floral favorite is glazed using non-GMO produce, then attractively arranged.",
-            "price": 23.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beef Burger",
-            "description": "Our savory specialty, assembled with microgreens and elegantly served.",
-            "price": 22.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Soups",
-        "items": [
-          {
-            "name": "Pulled Pork Sandwich",
-            "description": "Beautifully presented and roasted to perfection using grass-fed beef.",
-            "price": 27.25,
+            "name": "Fruit Salad",
+            "price": 9.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -157,29 +266,26 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Steamed Salmon",
-            "description": "Nestled in a ceramic bowl and made to perfection using artisanal elements.",
-            "price": 27.54,
+            "name": "Orzo Salad",
+            "price": 14.02,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Local Marinated Tacos",
-            "description": "A delicate dish seasoned with seasonal ingredients and beautifully presented.",
-            "price": 20.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pasta Primavera",
-            "description": "A rich dish stir-fried with artisanal elements and nestled in a ceramic bowl.",
-            "price": 29.44,
+            "name": "Broccoli Crunch Salad",
+            "price": 11.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Farro Salad",
+            "price": 14.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -192,19 +298,8 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Classic Fried Fajitas",
-            "description": "This aromatic favorite is fire-roasted using cultured dairy, then stacked artistically.",
-            "price": 24.07,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Tofu",
-            "description": "Beautifully presented and hand-folded to perfection using house-made sauces.",
-            "price": 22.9,
+            "name": "Classic Tender Lasagna",
+            "price": 23.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -212,19 +307,44 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grilled Chicken",
-            "description": "This umami-packed favorite is roasted using non-GMO produce, then stacked artistically.",
-            "price": 27.6,
+            "name": "Homestyle Flavorful Steak",
+            "price": 27.2,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Classic Marinated Jambalaya",
-            "description": "A complex dish infused with locally sourced produce and presented on a wooden board.",
-            "price": 22.96,
+            "name": "Fresh Mouthwatering Tagine",
+            "price": 20.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Roasted Seafood Platter",
+            "price": 30.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Smoked Spaghetti Bolognese",
+            "price": 28.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Golden Katsu Curry",
+            "price": 26.15,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -232,54 +352,8 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Steamed Tacos",
-            "description": "This sweet favorite is crafted using cold-pressed oils, then attractively arranged.",
+            "name": "Traditional Pan-seared Roast Duck",
             "price": 31.03,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pizza",
-            "description": "This hearty favorite is seasoned using organic ingredients, then garnished to perfection.",
-            "price": 30.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Spicy Cottage Pie",
-            "description": "A rich dish braised with grass-fed beef and layered with care.",
-            "price": 21.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Tangy Moussaka",
-            "description": "Accompanied by a tasteful garnish and poached to perfection using finest quality ingredients.",
-            "price": 19.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Local Grilled Stuffed Peppers",
-            "description": "Our complex specialty, prepared with cultured dairy and served with flair.",
-            "price": 22.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -287,34 +361,13 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seafood Platter",
-            "description": "A spicy dish crafted with house-made sauces and presented on a wooden board.",
-            "price": 23.95,
+            "name": "Hearty Fried Teriyaki Chicken",
+            "price": 24.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pizza",
-            "description": "This nutty favorite is grilled using heirloom tomatoes, then elegantly served.",
-            "price": 27.5,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Hearty Pesto Pasta",
-            "description": "Our robust specialty, created with chef-selected spices and served on rustic ware.",
-            "price": 20.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -322,9 +375,8 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Seafood Alfredo with Spinach Fettuccine",
-            "description": "A spicy dish hand-rolled with seasonal ingredients and garnished to perfection.",
-            "price": 27.9,
+            "name": "Hearty Satisfying Prawn Curry in Coconut Masala",
+            "price": 28.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -332,9 +384,17 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Creamy Stuffed Flounder with Crab and Spinach",
-            "description": "This umami-packed favorite is cooked using farm-fresh eggs, then served with flair.",
-            "price": 34.3,
+            "name": "Authentic Golden Seafood Risotto with Saffron",
+            "price": 32.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Flavorful Tempura Soft Shell Crab",
+            "price": 27.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -342,9 +402,40 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "House Special Sweet Cajun Shrimp and Grits",
-            "description": "A rich dish made with natural sweeteners and styled for visual appeal.",
-            "price": 22.27,
+            "name": "Classic Braised Miso-Marinated Chilean Sea Bass",
+            "price": 31.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Delicious Garlic Butter Shrimp Skillet",
+            "price": 32.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Authentic Creamy Mashed Potatoes",
+            "price": 9.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Creamy Grilled Asparagus with Lemon Zest",
+            "price": 7.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,14 +443,99 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tempura Soft Shell Crab",
-            "description": "A refreshing dish prepared with seasonal ingredients and attractively arranged.",
-            "price": 29.06,
+            "name": "Handcrafted Crispy Israeli Couscous with Roasted Tomatoes",
+            "price": 5.3,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Sautéed Flaky Cheddar and Chive Biscuits",
+            "price": 7.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Crunchy Soft Polenta with Parmesan",
+            "price": 5.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Juicy French Fries",
+            "price": 7.37,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Smoothie",
+            "price": 6.96,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 5.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 5.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 5.52,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 5.26,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 6.47,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
@@ -370,52 +546,47 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Traditional Exquisite Lamb Chops",
-            "description": "A floral dish hand-rolled with premium components and beautifully presented.",
-            "price": 28.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Wholesome Stir-fry",
-            "description": "Garnished to perfection and sautéed to perfection using organic ingredients.",
-            "price": 21.25,
+            "name": "Lemon Bars",
+            "price": 6.43,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chicken Parmesan",
-            "description": "Our bold specialty, prepared with seasonal ingredients and beautifully presented.",
-            "price": 23.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Vegetable Stir-Fry",
-            "description": "Styled for visual appeal and crafted to perfection using hand-picked vegetables.",
-            "price": 26.67,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Stuffed Peppers",
-            "description": "Garnished to perfection and assembled to perfection using microgreens.",
-            "price": 27.41,
+            "name": "Treacle Tart",
+            "price": 6.78,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pain au Chocolat",
+            "price": 8.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pie",
+            "price": 6.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Madeleines",
+            "price": 7.03,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,32 +596,11 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Fresh Spicy Fish and Chips",
-            "description": "This peppery favorite is poached using artisanal elements, then accompanied by a tasteful garnish.",
-            "price": 23.88,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Grilled Steak",
-            "description": "This aromatic favorite is marinated using handmade pasta, then stacked artistically.",
-            "price": 25.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Biryani",
-            "description": "A zesty dish marinated with house-made sauces and beautifully presented.",
-            "price": 24.61,
+            "name": "Frozen Pudding",
+            "price": 7.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -458,9 +608,17 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Stuffed Peppers",
-            "description": "Our herbaceous specialty, marinated with seasonal ingredients and nestled in a ceramic bowl.",
-            "price": 29.01,
+            "name": "Frozen Mousse",
+            "price": 8.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Granita",
+            "price": 8.13,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -468,14 +626,22 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Beef Wellington",
-            "description": "Our umami-packed specialty, fire-roasted with artisanal elements and stacked artistically.",
-            "price": 24.45,
+            "name": "Snow Cone",
+            "price": 11.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Pie",
+            "price": 11.06,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
@@ -489,9 +655,8 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Traditional Zingy Cider",
-            "description": "A robust dish glazed with non-GMO produce and beautifully presented.",
-            "price": 11.61,
+            "name": "Martini",
+            "price": 12.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -499,9 +664,17 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Creamy Cosmopolitan",
-            "description": "This nutty favorite is pan-seared using seasonal ingredients, then offered as a tasting portion.",
-            "price": 9.08,
+            "name": "Negroni",
+            "price": 13.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 11.15,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -509,9 +682,8 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tom Collins",
-            "description": "This succulent favorite is hand-rolled using natural sweeteners, then beautifully presented.",
-            "price": 13.98,
+            "name": "Mojito",
+            "price": 10.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -519,22 +691,29 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Grilled Liqueur",
-            "description": "Beautifully presented and assembled to perfection using finest quality ingredients.",
-            "price": 10.13,
+            "name": "Margarita",
+            "price": 13.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 12.42,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 14.4,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Canadian Whisky",
-            "description": "This nutty favorite is oven-baked using artisanal elements, then beautifully presented.",
-            "price": 14.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -544,49 +723,8 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Pizza",
-            "description": "Neatly composed and charred to perfection using seasonal ingredients.",
-            "price": 24.66,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Succulent Steak",
-            "description": "This complex favorite is pan-seared using cultured dairy, then presented on a wooden board.",
-            "price": 26.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Roast Duck",
-            "description": "A robust dish hand-rolled with cold-pressed oils and beautifully presented.",
-            "price": 22.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Eggplant Parmesan",
-            "description": "Our spicy specialty, poached with seasonal ingredients and beautifully presented.",
-            "price": 22.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Aromatic Biryani",
-            "description": "A hearty dish seasoned with house-made sauces and garnished to perfection.",
-            "price": 24.91,
+            "name": "Zinfandel",
+            "price": 9.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -594,9 +732,44 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Comforting Grilled Tofu",
-            "description": "Our complex specialty, marinated with free-range meats and served on rustic ware.",
-            "price": 27.12,
+            "name": "Gamay",
+            "price": 9.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Torrontés",
+            "price": 9.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Barbera",
+            "price": 13.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Albariño",
+            "price": 8.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chardonnay",
+            "price": 10.19,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -609,29 +782,17 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Grilled Chicken",
-            "description": "This refreshing favorite is hand-folded using seasonal ingredients, then artfully plated.",
-            "price": 27.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Ramen",
-            "description": "A savory dish pan-seared with sun-ripened fruits and beautifully presented.",
-            "price": 18.87,
-            "isVegetarian": false,
+            "name": "Campari",
+            "price": 17.48,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Signature Herbed Tacos",
-            "description": "This subtle favorite is created using seasonal ingredients, then styled for visual appeal.",
-            "price": 23.82,
+            "name": "Vodka",
+            "price": 10.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -639,12 +800,29 @@ export const miamigoldenBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Delectable Mac and Cheese",
-            "description": "This subtle favorite is prepared using heirloom tomatoes, then stacked artistically.",
-            "price": 24.5,
+            "name": "Baileys Irish Cream",
+            "price": 12.49,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Drambuie",
+            "price": 15.48,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mezcal",
+            "price": 13.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

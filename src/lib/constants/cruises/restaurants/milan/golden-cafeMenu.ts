@@ -12,33 +12,116 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Modernist Foie Gras Sphere with Rhubarb Gel",
-            "description": "This delicate favorite is prepared using non-GMO produce, then beautifully presented.",
-            "price": 28.59,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Legendary Prime Rib",
-            "description": "Nestled in a ceramic bowl and grilled to perfection using finest quality ingredients.",
-            "price": 27.82,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caribbean-Style Jerk Duck with Mango Slaw",
-            "description": "Accompanied by a tasteful garnish and roasted to perfection using artisanal elements.",
-            "price": 33.86,
+            "name": "Seasonal Crunchy Whole Roasted Heritage Chicken",
+            "price": 33.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Smoked Wood-Fired Peking Duck with Plum Sauce",
+            "price": 31.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Herbed Captain's Favorite Seafood Tower",
+            "price": 26.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Luscious Seasonal Tasting Menu Experience",
+            "price": 32.62,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Flaky Traditional Family Paella",
+            "price": 33.34,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Mouthwatering Chef's Special Surf and Turf",
+            "price": 36.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Braised Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 30.98,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Deluxe Grilled Signature Spice-Rubbed Protein",
+            "price": 29.64,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Marinated Black Garlic Marinated Octopus",
+            "price": 26.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Tangy Volcanic Stone-Cooked Specialty",
+            "price": 32.91,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Exquisite Deconstructed Classic with Modern Technique",
+            "price": 39.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Juicy Off-Menu Secret Preparation",
+            "price": 28.39,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -47,94 +130,71 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Traditional Mouthwatering Pho",
-            "description": "Layered with care and whipped to perfection using cold-pressed oils.",
-            "price": 26.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Biryani",
-            "description": "A rich dish poached with aged cheeses and nestled in a ceramic bowl.",
-            "price": 25.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Enticing Tacos",
-            "description": "Offered as a tasting portion and assembled to perfection using wild-caught fish.",
-            "price": 28.45,
+            "name": "Hearty Sweet Stuffed Peppers",
+            "price": 14.01,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Stuffed Shrimp Cocktail",
+            "price": 13.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Savory Sweet Potato Fries",
+            "price": 11.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Sizzling Potstickers",
+            "price": 11.19,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seafood Platter",
-            "description": "A complex dish stir-fried with farm-fresh eggs and elegantly served.",
-            "price": 22.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roast Duck",
-            "description": "Presented on a wooden board and braised to perfection using natural sweeteners.",
-            "price": 28.98,
+            "name": "Authentic Sautéed Mini Crab Cakes",
+            "price": 13.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
+            "isKosher": true
+          },
           {
-            "name": "Lentil Stew",
-            "description": "This hearty favorite is pan-seared using sustainable seafood, then nestled in a ceramic bowl.",
-            "price": 28.89,
+            "name": "Gourmet Mouthwatering Lettuce Wraps",
+            "price": 9.96,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fajitas",
-            "description": "Our complex specialty, oven-baked with sustainable seafood and artfully plated.",
-            "price": 26.14,
+            "name": "Handcrafted Herbed Nachos",
+            "price": 15.62,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef's Exquisite Tacos",
-            "description": "This rich favorite is caramelized using sun-ripened fruits, then styled for visual appeal.",
-            "price": 19.18,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Succulent Stuffed Peppers",
-            "description": "A complex dish fire-roasted with farm-fresh eggs and garnished to perfection.",
-            "price": 23.98,
+            "name": "Deluxe Aromatic Mozzarella Sticks",
+            "price": 11.57,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -147,40 +207,86 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Currywurst",
-            "description": "Plated with precision and crafted to perfection using wild-caught fish.",
-            "price": 21.46,
+            "name": "House Special Smoked Beef Stew",
+            "price": 11.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Hearty Clam Chowder",
+            "price": 9.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Hearty Cabbage Soup",
+            "price": 11.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Irresistible Borscht",
+            "price": 10.68,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
-          },
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
           {
-            "name": "Local Crunchy Paella",
-            "description": "This creamy favorite is whipped using heirloom tomatoes, then served family-style.",
-            "price": 22.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Luscious Stir-fry",
-            "description": "Our bold specialty, charred with seasonal ingredients and layered with care.",
-            "price": 27.33,
-            "isVegetarian": false,
+            "name": "Mango Avocado Salad",
+            "price": 10.54,
+            "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Vegetable Salad",
+            "price": 9.22,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Korma",
-            "description": "Our refreshing specialty, glazed with heritage grains and served on rustic ware.",
-            "price": 20.84,
+            "name": "Orzo Salad",
+            "price": 15.18,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caprese Salad",
+            "price": 13.12,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Thai Green Papaya Salad",
+            "price": 9.11,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -192,69 +298,35 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Pho",
-            "description": "Garnished to perfection and assembled to perfection using handmade pasta.",
-            "price": 26.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Flaky Grilled Chicken",
-            "description": "A subtle dish made with organic ingredients and garnished to perfection.",
-            "price": 18.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Lamb Chops",
-            "description": "Our buttery specialty, crafted with locally sourced produce and served with flair.",
-            "price": 24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Golden Lasagna",
-            "description": "Beautifully presented and charred to perfection using handmade pasta.",
-            "price": 20.74,
+            "name": "Premium Spicy Fajitas",
+            "price": 24.85,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Roasted Steak",
-            "description": "This robust favorite is fire-roasted using heirloom tomatoes, then beautifully presented.",
-            "price": 23.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Creamy Pulled Pork Sandwich",
-            "description": "Neatly composed and pan-seared to perfection using natural sweeteners.",
-            "price": 25.26,
+            "name": "Authentic Herbed Steak",
+            "price": 19.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Pizza",
-            "description": "This fruity favorite is cooked using seasonal ingredients, then served family-style.",
-            "price": 25.87,
+            "name": "Seasonal Luscious Stir-fry",
+            "price": 26.2,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Sweet Tacos",
+            "price": 18.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -262,24 +334,8 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Risotto",
-            "description": "This aromatic favorite is slow-cooked using locally sourced produce, then drizzled with finesse.",
-            "price": 30.49,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Biryani",
-            "description": "Presented on a wooden board and pan-seared to perfection using heritage grains.",
-            "price": 21.34,
+            "name": "Seasonal Delectable Currywurst",
+            "price": 19.69,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -287,29 +343,26 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fajitas",
-            "description": "A balanced dish made with house-made sauces and beautifully presented.",
-            "price": 27.66,
-            "isVegetarian": false,
+            "name": "Homestyle Fried Stuffed Zucchini Boats",
+            "price": 31.24,
+            "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Hearty Katsu Curry",
+            "price": 19.94,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef's Smoked Quiche",
-            "description": "This umami-packed favorite is pan-seared using cold-pressed oils, then attractively arranged.",
-            "price": 29.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vegetable Stir-Fry",
-            "description": "A creamy dish charred with heritage grains and served with flair.",
-            "price": 18.06,
+            "name": "Deluxe Golden Lamb Chops",
+            "price": 24.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -322,9 +375,35 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Classic Tangy Prawn Curry in Coconut Masala",
-            "description": "Our peppery specialty, sautéed with aged cheeses and elegantly served.",
-            "price": 31.86,
+            "name": "Handcrafted Appetizing Cedar Plank Roasted Salmon",
+            "price": 29.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Herbed Seafood Alfredo with Spinach Fettuccine",
+            "price": 29.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Satisfying Pan-Seared Scallops with Pea Purée",
+            "price": 30.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Roasted Shrimp Scampi over Linguine",
+            "price": 31.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -332,9 +411,58 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Signature Mouthwatering Blackened Mahi-Mahi with Pineapple Salsa",
-            "description": "This peppery favorite is smoked using heirloom tomatoes, then plated with precision.",
-            "price": 31.53,
+            "name": "Authentic Aromatic Traditional Provençal Bouillabaisse",
+            "price": 26.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Homestyle Sweet Grilled Zucchini and Peppers",
+            "price": 7.43,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Braised Garlic Bread with Herb Butter",
+            "price": 9.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Marinated Wild Rice Pilaf",
+            "price": 9.95,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Irresistible Israeli Couscous with Roasted Tomatoes",
+            "price": 8.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Luscious Warm Buttermilk Dinner Rolls",
+            "price": 5.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -342,9 +470,22 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Roasted Tempura Soft Shell Crab",
-            "description": "A hearty dish roasted with finest quality ingredients and offered as a tasting portion.",
-            "price": 25.99,
+            "name": "Homestyle Mouthwatering Roasted Root Vegetables",
+            "price": 6.34,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Juice",
+            "price": 5.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -352,11 +493,46 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seafood Gumbo with Okra",
-            "description": "A citrusy dish braised with seasonal ingredients and garnished to perfection.",
-            "price": 22.79,
+            "name": "Water",
+            "price": 4.66,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 4.4,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 6.96,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 5.71,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 6.04,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -370,32 +546,38 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Traditional Stuffed Eggplant Parmesan",
-            "description": "Garnished to perfection and assembled to perfection using seasonal ingredients.",
-            "price": 20.28,
+            "name": "Apple Pie",
+            "price": 6.56,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Aromatic Steak",
-            "description": "Our complex specialty, hand-rolled with sustainable seafood and styled for visual appeal.",
-            "price": 28.11,
+            "name": "Custard Tart",
+            "price": 7.16,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Signature Smoked Risotto",
-            "description": "Garnished to perfection and oven-baked to perfection using sun-ripened fruits.",
-            "price": 18.93,
+            "name": "Vanilla Cake",
+            "price": 9.03,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Berry Tart",
+            "price": 10.78,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -403,21 +585,10 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tacos",
-            "description": "This succulent favorite is composed using seasonal ingredients, then presented on a wooden board.",
-            "price": 29.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Grilled Vegetable Stir-Fry",
-            "description": "Our herbaceous specialty, infused with chef-selected spices and served on rustic ware.",
-            "price": 29.56,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Baklava",
+            "price": 8.09,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -425,12 +596,38 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Pizza",
-            "description": "Our rich specialty, composed with seasonal ingredients and garnished to perfection.",
-            "price": 24.29,
+            "name": "Sherbet",
+            "price": 8.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sorbet",
+            "price": 11.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Custard",
+            "price": 8.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gelato",
+            "price": 9.75,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -438,44 +635,13 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Steak",
-            "description": "Our pungent specialty, stir-fried with organic ingredients and beautifully presented.",
-            "price": 27.88,
+            "name": "Kulfi",
+            "price": 7.8,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Spicy Chili con Carne",
-            "description": "This subtle favorite is slow-cooked using farm-fresh eggs, then neatly composed.",
-            "price": 29.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Burrito",
-            "description": "Served with flair and oven-baked to perfection using seasonal ingredients.",
-            "price": 25.05,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Chicken Parmesan",
-            "description": "Our fruity specialty, charred with heritage grains and served with flair.",
-            "price": 25.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
           }
         ]
       }
@@ -489,51 +655,64 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Beer",
-            "description": "Our citrusy specialty, grilled with locally foraged herbs and garnished to perfection.",
-            "price": 10.29,
+            "name": "Mojito",
+            "price": 12.11,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Spiced Whiskey Sour",
-            "description": "Beautifully presented and assembled to perfection using wild-caught fish.",
-            "price": 9.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Luscious Gin",
-            "description": "This hearty favorite is pan-seared using finest quality ingredients, then presented on a wooden board.",
-            "price": 11.3,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pina Colada",
-            "description": "This sweet favorite is poached using sustainable seafood, then served on rustic ware.",
-            "price": 13.13,
-            "isVegetarian": false,
+            "name": "Whiskey Sour",
+            "price": 12.65,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Signature Roasted Bloody Mary",
-            "description": "This rich favorite is roasted using cultured dairy, then garnished to perfection.",
-            "price": 14.53,
+            "name": "Old Fashioned",
+            "price": 11.76,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 12.44,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 10.55,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 15.7,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 13.86,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -544,49 +723,17 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Classic Mouthwatering Salmon",
-            "description": "A pungent dish smoked with heirloom tomatoes and neatly composed.",
-            "price": 20.99,
+            "name": "Malbec",
+            "price": 13.78,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Sweet Tacos",
-            "description": "A refreshing dish glazed with artisanal elements and plated with precision.",
-            "price": 24.97,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mac and Cheese",
-            "description": "Presented on a wooden board and cooked to perfection using cold-pressed oils.",
-            "price": 22.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Golden Risotto",
-            "description": "This rich favorite is sautéed using cold-pressed oils, then presented on a wooden board.",
-            "price": 21.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gnocchi",
-            "description": "Our rich specialty, smoked with cold-pressed oils and neatly composed.",
-            "price": 18.95,
+            "name": "Roussanne",
+            "price": 8.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -594,9 +741,35 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Marinated Biryani",
-            "description": "This rich favorite is hand-folded using grass-fed beef, then layered with care.",
-            "price": 28.36,
+            "name": "Tempranillo",
+            "price": 8.72,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Marsanne",
+            "price": 9.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nebbiolo",
+            "price": 10.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Verdicchio",
+            "price": 12.68,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -609,9 +782,8 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Organic Grilled Chili con Carne",
-            "description": "Our subtle specialty, crafted with free-range meats and artfully plated.",
-            "price": 24.48,
+            "name": "Whiskey",
+            "price": 15.96,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -619,32 +791,38 @@ export const milangoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Zingy Paella",
-            "description": "A smoky dish pan-seared with heirloom tomatoes and beautifully presented.",
-            "price": 22.85,
+            "name": "Bourbon",
+            "price": 14.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mezcal",
+            "price": 17.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grand Marnier",
+            "price": 11.26,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grappa",
+            "price": 17.08,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Burrito",
-            "description": "Our sweet specialty, seasoned with organic ingredients and styled for visual appeal.",
-            "price": 20.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Tofu",
-            "description": "A nutty dish cooked with hand-picked vegetables and styled for visual appeal.",
-            "price": 25.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

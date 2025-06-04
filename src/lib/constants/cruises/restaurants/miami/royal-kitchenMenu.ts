@@ -12,19 +12,35 @@ export const miamiroyalKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Legendary Prime Rib",
-            "description": "Our rich specialty, oven-baked with sun-ripened fruits and stacked artistically.",
-            "price": 30.82,
+            "name": "Homestyle Pan-seared Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 30.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Creamy House Famous Duck Confit",
+            "price": 35.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Spiced Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 25.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Award-Winning Seafood Boil",
-            "description": "A nutty dish assembled with farm-fresh eggs and served with flair.",
-            "price": 25.65,
+            "name": "Gourmet Herbed Seasonal Tasting Platter",
+            "price": 26.72,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -32,9 +48,76 @@ export const miamiroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Irresistible Flambéed Tableside Specialty",
-            "description": "Our sweet specialty, cooked with finest quality ingredients and artfully plated.",
-            "price": 27.09,
+            "name": "Authentic Crunchy Signature Truffle Pasta with Aged Pecorino",
+            "price": 31.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Stuffed Whole Roasted Heritage Chicken",
+            "price": 26.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Spiced Secret Recipe Bouillabaisse",
+            "price": 32.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Organic Sweet Aged and House-Cured Charcuterie Selection",
+            "price": 28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Delicious Gourmet Vegetarian Wellington",
+            "price": 25.24,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Pan-seared Sous Vide Perfection with Molecular Gastronomy Elements",
+            "price": 24.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Tangy Lobster and Crab Stuffed Ravioli",
+            "price": 32.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Enticing Volcanic Stone-Cooked Specialty",
+            "price": 33.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -47,9 +130,8 @@ export const miamiroyalKitchenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Paella",
-            "description": "A earthy dish poached with sun-ripened fruits and served on rustic ware.",
-            "price": 20.7,
+            "name": "Organic Enticing Stuffed Jalapeños",
+            "price": 13.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -57,9 +139,8 @@ export const miamiroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Sweet Lasagna",
-            "description": "This zesty favorite is grilled using seasonal ingredients, then served on rustic ware.",
-            "price": 21.69,
+            "name": "Deluxe Crispy Baba Ganoush",
+            "price": 8.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -67,77 +148,56 @@ export const miamiroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Satisfying Bibimbap",
-            "description": "This citrusy favorite is hand-folded using organic ingredients, then drizzled with finesse.",
-            "price": 27.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Moussaka",
-            "description": "Our balanced specialty, hand-rolled with artisanal elements and layered with care.",
-            "price": 27.03,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Marinated Biryani",
-            "description": "Garnished to perfection and braised to perfection using locally foraged herbs.",
-            "price": 21.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
-          {
-            "name": "Pulled Pork Sandwich",
-            "description": "This sweet favorite is braised using chef-selected spices, then presented on a wooden board.",
-            "price": 25.53,
+            "name": "Authentic Tender Prawn Toast",
+            "price": 12.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Korma",
-            "description": "This citrusy favorite is sautéed using house-made sauces, then accompanied by a tasteful garnish.",
-            "price": 25.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Salmon",
-            "description": "Served family-style and braised to perfection using heritage grains.",
-            "price": 19.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Eggplant Parmesan",
-            "description": "Beautifully presented and marinated to perfection using cold-pressed oils.",
-            "price": 21.31,
-            "isVegetarian": true,
+            "name": "Authentic Marinated Sweet Potato Fries",
+            "price": 13.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Marinated Meatballs",
+            "price": 12.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Grilled Nachos",
+            "price": 14.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Marinated Stuffed Mushrooms",
+            "price": 9.39,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Savory Garlic Bread",
+            "price": 10.71,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -147,41 +207,87 @@ export const miamiroyalKitchenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Classic Smoked Fajitas",
-            "description": "Our complex specialty, created with heritage grains and stacked artistically.",
-            "price": 27.6,
-            "isVegetarian": true,
+            "name": "Authentic Sweet Beef Stew",
+            "price": 7.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Flavorful Hot and Sour Soup",
+            "price": 10.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Smoked Chicken Noodle Soup",
+            "price": 7.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Golden Zuppa Toscana",
+            "price": 7.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Kale Salad",
+            "price": 9.08,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chicken Parmesan",
-            "description": "A spicy dish glazed with farm-fresh eggs and beautifully presented.",
-            "price": 19.7,
+            "name": "Cobb Salad",
+            "price": 11.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Steak",
-            "description": "Our rich specialty, infused with wild-caught fish and accompanied by a tasteful garnish.",
-            "price": 27.75,
-            "isVegetarian": false,
+            "name": "Caesar Salad",
+            "price": 13.13,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Traditional Spicy Pho",
-            "description": "This fruity favorite is seasoned using finest quality ingredients, then drizzled with finesse.",
-            "price": 28.18,
-            "isVegetarian": false,
+            "name": "Spinach Salad",
+            "price": 12.77,
+            "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Orzo Salad",
+            "price": 13.97,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -192,39 +298,26 @@ export const miamiroyalKitchenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Burrito",
-            "description": "Our hearty specialty, prepared with locally sourced produce and beautifully presented.",
-            "price": 19,
+            "name": "Hearty Delectable Stuffed Zucchini Boats",
+            "price": 30.07,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Zesty Stuffed Zucchini Boats",
-            "description": "Our delicate specialty, fire-roasted with premium components and accompanied by a tasteful garnish.",
-            "price": 27.93,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Lasagna",
-            "description": "Garnished to perfection and smoked to perfection using organic ingredients.",
-            "price": 25.11,
-            "isVegetarian": true,
+            "name": "Authentic Grilled Pho",
+            "price": 26,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Risotto",
-            "description": "This bold favorite is oven-baked using premium components, then beautifully presented.",
-            "price": 23.23,
+            "name": "Traditional Crunchy Pesto Pasta",
+            "price": 24.66,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -232,9 +325,8 @@ export const miamiroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Delectable Mac and Cheese",
-            "description": "Attractively arranged and composed to perfection using artisanal elements.",
-            "price": 24.69,
+            "name": "Traditional Tender Fish and Chips",
+            "price": 20.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -242,64 +334,17 @@ export const miamiroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Hearty Fajitas",
-            "description": "This pungent favorite is hand-folded using chef-selected spices, then garnished to perfection.",
-            "price": 18.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Delicious Lentil Stew",
-            "description": "This citrusy favorite is prepared using microgreens, then garnished to perfection.",
-            "price": 18.9,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Salmon",
-            "description": "This briny favorite is slow-cooked using hand-picked vegetables, then nestled in a ceramic bowl.",
-            "price": 31.18,
+            "name": "Deluxe Braised Seafood Platter",
+            "price": 30.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Tacos",
-            "description": "Our fruity specialty, fire-roasted with wild-caught fish and garnished to perfection.",
-            "price": 21.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
           },
           {
-            "name": "Moussaka",
-            "description": "A briny dish composed with artisanal elements and beautifully presented.",
-            "price": 21.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Burrito",
-            "description": "Our sweet specialty, charred with farm-fresh eggs and offered as a tasting portion.",
-            "price": 25.56,
+            "name": "Premium Herbed Enchiladas",
+            "price": 18.35,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,9 +352,17 @@ export const miamiroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Salmon",
-            "description": "Our rich specialty, marinated with seasonal ingredients and attractively arranged.",
-            "price": 21.9,
+            "name": "Hearty Roasted Roast Duck",
+            "price": 25.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Wholesome Stuffed Peppers",
+            "price": 25.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -322,9 +375,8 @@ export const miamiroyalKitchenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Traditional Provençal Bouillabaisse",
-            "description": "This briny favorite is slow-cooked using artisanal elements, then nestled in a ceramic bowl.",
-            "price": 24.34,
+            "name": "Fresh Grilled Garlic Butter Shrimp Skillet",
+            "price": 23.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -332,19 +384,67 @@ export const miamiroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grilled Lobster with Lemon Butter",
-            "description": "A rich dish created with cold-pressed oils and served with flair.",
-            "price": 26.85,
+            "name": "House Special Spiced Seared Tuna Steak with Sesame Crust",
+            "price": 25.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Creamy Seafood Alfredo with Spinach Fettuccine",
+            "price": 24.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Creamy Alaskan King Crab Legs with Drawn Butter",
+            "price": 30.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Savory Maryland Style Crab Cakes",
+            "price": 22.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Homestyle Baked Yukon Gold Potato Gratin",
+            "price": 6.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Fresh Sizzling Grilled Spanish Octopus with Smoked Paprika",
-            "description": "A robust dish pan-seared with farm-fresh eggs and layered with care.",
-            "price": 32.22,
+            "name": "Homestyle Zesty Garlic Bread with Herb Butter",
+            "price": 6.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Steamed Creamed Spinach with Nutmeg",
+            "price": 5.5,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,14 +452,90 @@ export const miamiroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Pan-seared Grilled Swordfish with Mango Chutney",
-            "description": "This aromatic favorite is grilled using wild-caught fish, then plated with precision.",
-            "price": 31.46,
+            "name": "Organic Delectable Quinoa Pilaf with Herbs",
+            "price": 7.95,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Pan-seared Fragrant Basmati Rice Pilaf",
+            "price": 7.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Delectable Mashed Potatoes",
+            "price": 6.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Smoothie",
+            "price": 6.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 7.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 5.33,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 4.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 5.94,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 4.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
@@ -370,42 +546,11 @@ export const miamiroyalKitchenMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Organic Flaky Ramen",
-            "description": "A bold dish charred with sun-ripened fruits and drizzled with finesse.",
-            "price": 20.8,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Enchiladas",
-            "description": "Styled for visual appeal and created to perfection using farm-fresh eggs.",
-            "price": 19.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Braised Paella",
-            "description": "Styled for visual appeal and hand-rolled to perfection using heritage grains.",
-            "price": 22.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Steamed Fajitas",
-            "description": "This tangy favorite is grilled using sustainable seafood, then accompanied by a tasteful garnish.",
-            "price": 19.56,
+            "name": "Muffins",
+            "price": 6.09,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -413,44 +558,49 @@ export const miamiroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Hearty Steak",
-            "description": "Drizzled with finesse and composed to perfection using farm-fresh eggs.",
-            "price": 22.78,
+            "name": "Apple Pie",
+            "price": 7.29,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Strawberry Shortcake",
+            "price": 7.02,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Berry Tart",
+            "price": 8.82,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Biscotti",
+            "price": 10.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Signature Smoked Beef Burger",
-            "description": "Artfully plated and slow-cooked to perfection using organic ingredients.",
-            "price": 27.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Salmon",
-            "description": "This sweet favorite is prepared using free-range meats, then attractively arranged.",
-            "price": 27.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Stir-fry",
-            "description": "Served on rustic ware and grilled to perfection using grass-fed beef.",
-            "price": 21.42,
+            "name": "Snow Cone",
+            "price": 9.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -458,9 +608,8 @@ export const miamiroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Crunchy Tacos",
-            "description": "This floral favorite is pan-seared using finest quality ingredients, then beautifully presented.",
-            "price": 22.93,
+            "name": "Kulfi",
+            "price": 10.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -468,9 +617,26 @@ export const miamiroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Jambalaya",
-            "description": "A zesty dish infused with locally foraged herbs and styled for visual appeal.",
-            "price": 19.31,
+            "name": "Semifreddo",
+            "price": 10.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sorbet",
+            "price": 9.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Pudding",
+            "price": 8.33,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -489,29 +655,35 @@ export const miamiroyalKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Organic Stuffed Old Fashioned",
-            "description": "Our citrusy specialty, oven-baked with finest quality ingredients and plated with precision.",
-            "price": 14.76,
+            "name": "Negroni",
+            "price": 11.92,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Steamed White Rum",
-            "description": "This hearty favorite is infused using locally foraged herbs, then garnished to perfection.",
-            "price": 9.43,
-            "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Crunchy Pina Colada",
-            "description": "Served with flair and prepared to perfection using sustainable seafood.",
-            "price": 9.5,
+            "name": "Cosmopolitan",
+            "price": 11.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 14.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 11.17,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -519,21 +691,28 @@ export const miamiroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Aquavit",
-            "description": "This umami-packed favorite is oven-baked using chef-selected spices, then served family-style.",
-            "price": 13.29,
-            "isVegetarian": false,
+            "name": "Mai Tai",
+            "price": 14.76,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Signature Spiced Vodka",
-            "description": "Our robust specialty, oven-baked with sustainable seafood and accompanied by a tasteful garnish.",
-            "price": 11.43,
+            "name": "Manhattan",
+            "price": 15.2,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 10.76,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -544,62 +723,56 @@ export const miamiroyalKitchenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Classic Satisfying Tacos",
-            "description": "This subtle favorite is roasted using aged cheeses, then garnished to perfection.",
-            "price": 24.14,
+            "name": "Syrah/Shiraz",
+            "price": 13.43,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Fried Ramen",
-            "description": "Drizzled with finesse and hand-folded to perfection using locally foraged herbs.",
-            "price": 24.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spaghetti Bolognese",
-            "description": "This refreshing favorite is prepared using microgreens, then beautifully presented.",
-            "price": 24.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stir-fry",
-            "description": "This umami-packed favorite is sautéed using locally sourced produce, then beautifully presented.",
-            "price": 27.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Aromatic Bibimbap",
-            "description": "This citrusy favorite is slow-cooked using farm-fresh eggs, then drizzled with finesse.",
-            "price": 26.96,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Vegetable Stir-Fry",
-            "description": "A rich dish grilled with premium components and served on rustic ware.",
-            "price": 21.64,
-            "isVegetarian": true,
+            "name": "Verdicchio",
+            "price": 9.67,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Barbera",
+            "price": 13.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grenache",
+            "price": 12.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Champagne/Sparkling Wine",
+            "price": 9.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Malbec",
+            "price": 13.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -609,9 +782,35 @@ export const miamiroyalKitchenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Tacos",
-            "description": "Our complex specialty, marinated with locally sourced produce and plated with precision.",
-            "price": 19.42,
+            "name": "St-Germain",
+            "price": 12.65,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Amaretto",
+            "price": 12.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cognac",
+            "price": 11.45,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bourbon",
+            "price": 11.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,30 +818,9 @@ export const miamiroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Stuffed Stuffed Peppers",
-            "description": "Drizzled with finesse and oven-baked to perfection using sun-ripened fruits.",
-            "price": 23.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pesto Pasta",
-            "description": "Beautifully presented and prepared to perfection using artisanal elements.",
-            "price": 29.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pasta Primavera",
-            "description": "Served on rustic ware and composed to perfection using wild-caught fish.",
-            "price": 18.85,
-            "isVegetarian": false,
+            "name": "Cointreau",
+            "price": 17.83,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

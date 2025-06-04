@@ -12,9 +12,17 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Celebrity Favorite Lobster Dish",
-            "description": "A delicate dish infused with grass-fed beef and served with flair.",
-            "price": 31.9,
+            "name": "Traditional Grilled Whole Roasted Heritage Chicken",
+            "price": 28.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Delicious Flambéed Tableside Specialty",
+            "price": 29.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,20 +30,95 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Signature Pan-seared Award-Winning Seafood Boil",
-            "description": "A floral dish sautéed with finest quality ingredients and elegantly served.",
-            "price": 32.19,
+            "name": "Seasonal Spicy Molecular Gastronomy Showcase Tasting",
+            "price": 37.21,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Age-Old Recipe Osso Buco with Gremolata",
-            "description": "Presented on a wooden board and marinated to perfection using heritage grains.",
-            "price": 27.57,
-            "isVegetarian": true,
+            "name": "Deluxe Herbed Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 29.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Grilled Captain's Favorite Seafood Tower",
+            "price": 33.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Savory Chef’s Wild Game Selection",
+            "price": 29.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Grilled 24-Hour Braised Short Ribs",
+            "price": 31.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Organic Herbed Gourmet Vegetarian Wellington",
+            "price": 39.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Delicious Duck Confit with Roasted Root Vegetables",
+            "price": 31.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Tangy Crispy Skin Sea Bass",
+            "price": 24.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Spicy Cast Iron Seafood Presentation",
+            "price": 29.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Savory Volcanic Stone-Cooked Specialty",
+            "price": 28.41,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -47,94 +130,71 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Moussaka",
-            "description": "A succulent dish oven-baked with aged cheeses and beautifully presented.",
-            "price": 29.04,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pizza",
-            "description": "Served with flair and composed to perfection using organic ingredients.",
-            "price": 28.16,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Marinated Mac and Cheese",
-            "description": "Our peppery specialty, whipped with wild-caught fish and accompanied by a tasteful garnish.",
-            "price": 29.73,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shakshuka",
-            "description": "A complex dish glazed with aged cheeses and nestled in a ceramic bowl.",
-            "price": 23.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Savory Salmon",
-            "description": "A zesty dish smoked with non-GMO produce and beautifully presented.",
-            "price": 25.08,
+            "name": "Fresh Roasted Baba Ganoush",
+            "price": 15.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
+            "isKosher": true
+          },
           {
-            "name": "Signature Sizzling Tagine",
-            "description": "A zesty dish crafted with heirloom tomatoes and nestled in a ceramic bowl.",
-            "price": 22.12,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "House Special Zingy Stuffed Avocado",
+            "price": 13.63,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Local Crunchy Tacos",
-            "description": "Offered as a tasting portion and caramelized to perfection using seasonal ingredients.",
-            "price": 26.54,
+            "name": "Deluxe Crunchy Arancini",
+            "price": 12.07,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Teriyaki Chicken",
-            "description": "Our briny specialty, seasoned with organic ingredients and beautifully presented.",
-            "price": 19.42,
+            "name": "Fresh Delicious Chicken Satay",
+            "price": 12.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
+            "isHalal": false,
+            "isKosher": true
           },
           {
-            "name": "Cottage Pie",
-            "description": "This earthy favorite is glazed using seasonal ingredients, then presented on a wooden board.",
-            "price": 21.57,
+            "name": "Gourmet Spiced Nachos",
+            "price": 11.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Fried Onion Rings",
+            "price": 9.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Luscious Tempura",
+            "price": 9.54,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Appetizing Potstickers",
+            "price": 8.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -147,19 +207,8 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Stuffed Peppers",
-            "description": "Our complex specialty, prepared with seasonal ingredients and garnished to perfection.",
-            "price": 21.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cottage Pie",
-            "description": "Beautifully presented and seasoned to perfection using sustainable seafood.",
-            "price": 24.32,
+            "name": "Gourmet Crunchy Gumbo",
+            "price": 12.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -167,9 +216,49 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Grilled Grilled Tofu",
-            "description": "Our succulent specialty, infused with locally sourced produce and garnished to perfection.",
-            "price": 22.3,
+            "name": "Fresh Smoked Tomato Soup",
+            "price": 13.65,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Mouthwatering Borscht",
+            "price": 10.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked Gazpacho",
+            "price": 11.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Kale Salad",
+            "price": 12.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Beet Salad",
+            "price": 13.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -177,12 +266,29 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pho",
-            "description": "Our delicate specialty, crafted with sun-ripened fruits and layered with care.",
-            "price": 26.52,
+            "name": "Cobb Salad",
+            "price": 13.92,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Waldorf Salad",
+            "price": 11.34,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pasta Salad",
+            "price": 15.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -192,9 +298,26 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Teriyaki Chicken",
-            "description": "This hearty favorite is fire-roasted using wild-caught fish, then garnished to perfection.",
-            "price": 28.37,
+            "name": "Traditional Sweet Stir-fry",
+            "price": 26.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Pan-seared Coq au Vin",
+            "price": 18.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Zingy Grilled Tofu",
+            "price": 22.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -202,19 +325,8 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Smoked Steak",
-            "description": "Our peppery specialty, cooked with non-GMO produce and garnished to perfection.",
-            "price": 29.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Lentil Stew",
-            "description": "A hearty dish composed with hand-picked vegetables and plated with precision.",
-            "price": 23.92,
+            "name": "Gourmet Mouthwatering Grilled Chicken",
+            "price": 29.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -222,29 +334,8 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Salmon",
-            "description": "A balanced dish sautéed with finest quality ingredients and served with flair.",
-            "price": 22.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coq au Vin",
-            "description": "Presented on a wooden board and braised to perfection using cold-pressed oils.",
-            "price": 25.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Sizzling Pesto Pasta",
-            "description": "Garnished to perfection and grilled to perfection using finest quality ingredients.",
-            "price": 23.76,
+            "name": "Fresh Steamed Bibimbap",
+            "price": 23.13,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -252,9 +343,17 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Irresistible Stuffed Zucchini Boats",
-            "description": "A savory dish hand-folded with organic ingredients and beautifully presented.",
-            "price": 25.83,
+            "name": "Authentic Stuffed Korma",
+            "price": 25.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Delectable Risotto",
+            "price": 29.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -262,54 +361,8 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Fried Currywurst",
-            "description": "This earthy favorite is seasoned using farm-fresh eggs, then styled for visual appeal.",
-            "price": 27.94,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Stuffed Zucchini Boats",
-            "description": "This savory favorite is pan-seared using organic ingredients, then drizzled with finesse.",
-            "price": 25.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Tofu",
-            "description": "This pungent favorite is made using sustainable seafood, then nestled in a ceramic bowl.",
-            "price": 18.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Fried Tacos",
-            "description": "Presented on a wooden board and created to perfection using artisanal elements.",
-            "price": 22.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Flavorful Steak",
-            "description": "This nutty favorite is sautéed using wild-caught fish, then accompanied by a tasteful garnish.",
-            "price": 18.44,
+            "name": "Classic Grilled Steak",
+            "price": 26.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -322,9 +375,8 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Steamed Littleneck Clams in Garlic Broth",
-            "description": "Our pungent specialty, oven-baked with natural sweeteners and artfully plated.",
-            "price": 31,
+            "name": "Homestyle Tender Seafood Risotto with Saffron",
+            "price": 23.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -332,19 +384,67 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Tangy Cajun Shrimp and Grits",
-            "description": "This savory favorite is pan-seared using cultured dairy, then served family-style.",
-            "price": 34.44,
+            "name": "Premium Delicious Shrimp Scampi over Linguine",
+            "price": 29.15,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Luscious Valencian Seafood Paella",
+            "price": 34.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Local Savory Blackened Mahi-Mahi with Pineapple Salsa",
-            "description": "Stacked artistically and charred to perfection using organic ingredients.",
-            "price": 35.79,
+            "name": "Homestyle Appetizing Cedar Plank Roasted Salmon",
+            "price": 23.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Sizzling Seared Tuna Steak with Sesame Crust",
+            "price": 27.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Authentic Herbed Crispy Beer-Battered Onion Rings",
+            "price": 6.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Exquisite Macaroni and Aged Cheddar",
+            "price": 9.08,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Savory Homestyle Baked Beans",
+            "price": 8.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,12 +452,88 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Basa Fillet with Dill Cream Sauce",
-            "description": "Our earthy specialty, composed with organic ingredients and attractively arranged.",
-            "price": 33.92,
+            "name": "Authentic Tangy Corn on the Cob with Chili Lime Butter",
+            "price": 6.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Crispy Truffle Parmesan Fries",
+            "price": 7.47,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Roasted Maple-Glazed Baby Carrots",
+            "price": 6.08,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Hot Chocolate",
+            "price": 7.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 5.98,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 5.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 5.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 5.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 4.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -370,22 +546,20 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Vegetable Stir-Fry",
-            "description": "Elegantly served and crafted to perfection using finest quality ingredients.",
-            "price": 18.82,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Baklava",
+            "price": 7.36,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Crunchy Stir-fry",
-            "description": "Our earthy specialty, created with sustainable seafood and nestled in a ceramic bowl.",
-            "price": 22.87,
+            "name": "Sticky Toffee Pudding",
+            "price": 9.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -393,9 +567,17 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Zingy Coq au Vin",
-            "description": "Plated with precision and assembled to perfection using locally foraged herbs.",
-            "price": 18.82,
+            "name": "Madeleines",
+            "price": 7.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pie",
+            "price": 10.89,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -403,21 +585,10 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Enticing Tagine",
-            "description": "A peppery dish smoked with aged cheeses and elegantly served.",
-            "price": 19.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fajitas",
-            "description": "Our creamy specialty, braised with grass-fed beef and artfully plated.",
-            "price": 28.35,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Macarons",
+            "price": 9.87,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -425,52 +596,47 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Classic Smoked Shish Kebabs",
-            "description": "Our zesty specialty, made with wild-caught fish and beautifully presented.",
-            "price": 27.07,
+            "name": "Paletas",
+            "price": 11.51,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Risotto",
-            "description": "Our rich specialty, poached with free-range meats and accompanied by a tasteful garnish.",
-            "price": 29.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mac and Cheese",
-            "description": "Our complex specialty, made with hand-picked vegetables and neatly composed.",
-            "price": 22.68,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Quiche",
-            "description": "A earthy dish prepared with cold-pressed oils and beautifully presented.",
-            "price": 28.01,
+            "name": "Frosty",
+            "price": 10.9,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Yogurt",
+            "price": 9.42,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fajitas",
-            "description": "Our spicy specialty, crafted with locally foraged herbs and beautifully presented.",
-            "price": 23.02,
+            "name": "Snow Cone",
+            "price": 10.12,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream",
+            "price": 10.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -489,19 +655,26 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Rum",
-            "description": "This balanced favorite is stir-fried using microgreens, then offered as a tasting portion.",
-            "price": 13.72,
-            "isVegetarian": true,
+            "name": "Bloody Mary",
+            "price": 10.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 11.99,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Enticing Absinthe",
-            "description": "Garnished to perfection and caramelized to perfection using wild-caught fish.",
-            "price": 12.45,
+            "name": "Mai Tai",
+            "price": 15.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -509,9 +682,8 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Flaky Cider",
-            "description": "Beautifully presented and cooked to perfection using organic ingredients.",
-            "price": 9.21,
+            "name": "Cosmopolitan",
+            "price": 12.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -519,22 +691,29 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Mouthwatering Blanco Tequila",
-            "description": "Garnished to perfection and braised to perfection using sustainable seafood.",
-            "price": 14.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Sizzling Old Tom Gin",
-            "description": "This rich favorite is braised using house-made sauces, then presented on a wooden board.",
-            "price": 9.47,
+            "name": "Margarita",
+            "price": 12.21,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 14.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 15.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -544,29 +723,17 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Quiche",
-            "description": "Our zesty specialty, grilled with heritage grains and garnished to perfection.",
-            "price": 29.23,
+            "name": "Sangiovese",
+            "price": 8.98,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Katsu Curry",
-            "description": "A umami-packed dish crafted with finest quality ingredients and nestled in a ceramic bowl.",
-            "price": 26.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Zucchini Boats",
-            "description": "A peppery dish roasted with locally foraged herbs and elegantly served.",
-            "price": 23.39,
+            "name": "Nebbiolo",
+            "price": 10.11,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -574,9 +741,17 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Crispy Shish Kebabs",
-            "description": "This succulent favorite is marinated using locally foraged herbs, then accompanied by a tasteful garnish.",
-            "price": 28.3,
+            "name": "Pinot Grigio",
+            "price": 10.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Riesling",
+            "price": 12.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -584,22 +759,20 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grilled Chicken",
-            "description": "A pungent dish created with grass-fed beef and served on rustic ware.",
-            "price": 19.15,
+            "name": "Tempranillo",
+            "price": 8.23,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gewürztraminer",
+            "price": 10.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Creamy Biryani",
-            "description": "This sweet favorite is made using organic ingredients, then beautifully presented.",
-            "price": 18.21,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -609,9 +782,8 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Classic Herbed Gnocchi",
-            "description": "Artfully plated and marinated to perfection using handmade pasta.",
-            "price": 18.29,
+            "name": "Kahlúa",
+            "price": 12.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,9 +791,8 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Biryani",
-            "description": "This buttery favorite is cooked using locally sourced produce, then garnished to perfection.",
-            "price": 23.21,
+            "name": "Cognac",
+            "price": 15.33,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -629,9 +800,8 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Comforting Pesto Pasta",
-            "description": "A robust dish whipped with natural sweeteners and served with flair.",
-            "price": 22.33,
+            "name": "Frangelico",
+            "price": 16.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -639,12 +809,20 @@ export const newYorkCitytheBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Hearty Enchiladas",
-            "description": "This herbaceous favorite is created using farm-fresh eggs, then plated with precision.",
-            "price": 28.88,
+            "name": "St-Germain",
+            "price": 11.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vodka",
+            "price": 11.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
