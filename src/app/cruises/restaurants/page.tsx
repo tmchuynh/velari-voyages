@@ -16,13 +16,17 @@ export default function RestaurantPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  // Filter states
+  const [selectedCity, setSelectedCity] = useState<string>("");
+  const [selectedPriceRange, setSelectedPriceRange] = useState<string>("");
+  const [selectedCuisine, setSelectedCuisine] = useState<string>("");
+
   useEffect(() => {
     const fetchData = async () => {
       try {
         setLoading(true);
         const cityRestaurants: { city: string; restaurants: Restaurant[] }[] =
           [];
-        const city: string = "";
 
         for (const city of cityFiles) {
           try {
@@ -33,8 +37,8 @@ export default function RestaurantPage() {
           } catch (cityError) {
             console.error(`Error loading restaurants for ${city}:`, cityError);
           }
-          setCityRestaurants(cityRestaurants);
         }
+        setCityRestaurants(cityRestaurants);
       } catch (error) {
         console.error("Failed to load restaurants:", error);
         setError("Failed to load restaurant data. Please try again later.");
@@ -46,11 +50,48 @@ export default function RestaurantPage() {
     fetchData();
   }, []);
 
-  console.log("City Restaurants:", cityRestaurants);
-  const allRestaurants: Restaurant[] = cityRestaurants.flatMap(
+  // Extracting filter options
+  const getCities = () => {
+    return Array.from(new Set(cityRestaurants.map((item) => item.city)));
+  };
+
+  const getPriceRanges = () => {
+    return Array.from(
+      new Set(
+        cityRestaurants.flatMap((city) =>
+          city.restaurants.map((restaurant) => restaurant.priceRange)
+        )
+      )
+    ).filter(Boolean);
+  };
+
+  const getCuisines = () => {
+    return Array.from(
+      new Set(
+        cityRestaurants.flatMap((city) =>
+          city.restaurants.map((restaurant) => restaurant.cuisine)
+        )
+      )
+    ).filter(Boolean);
+  };
+
+  // Apply filters to restaurants
+  const filteredCityRestaurants = cityRestaurants
+    .filter(({ city }) => !selectedCity || city === selectedCity)
+    .map(({ city, restaurants }) => ({
+      city,
+      restaurants: restaurants.filter(
+        (restaurant) =>
+          (!selectedPriceRange ||
+            restaurant.priceRange === selectedPriceRange) &&
+          (!selectedCuisine || restaurant.cuisine === selectedCuisine)
+      ),
+    }))
+    .filter(({ restaurants }) => restaurants.length > 0);
+
+  const allRestaurants: Restaurant[] = filteredCityRestaurants.flatMap(
     (city) => city.restaurants
   );
-  console.log("All Restaurants:", allRestaurants);
 
   if (loading) {
     return <Loading />;
@@ -71,54 +112,138 @@ export default function RestaurantPage() {
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <h1 className="mb-6 font-bold text-3xl">Our Restaurants</h1>
 
-      <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        {cityRestaurants.map(({ city, restaurants }, index) =>
-          restaurants.map((restaurant, index) => {
-            const fileName = formatTitleToKebabCase(restaurant.name) + "Menu";
+      {/* Filters section */}
+      <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-8">
+        <div>
+          <label
+            htmlFor="city-filter"
+            className="block mb-1 font-medium text-sm"
+          >
+            City
+          </label>
+          <select
+            id="city-filter"
+            value={selectedCity}
+            onChange={(e) => setSelectedCity(e.target.value)}
+            className="p-2 border rounded-md w-full"
+          >
+            <option value="">All Cities</option>
+            {getCities().map((city) => (
+              <option key={city} value={city}>
+                {city}
+              </option>
+            ))}
+          </select>
 
-            return (
-              <Card key={index} className="overflow-hidden">
-                <div className="relative h-48">
-                  {restaurant.images && restaurant.images.length > 0 ? (
-                    <Image
-                      src={restaurant.images[0]}
-                      alt={restaurant.name}
-                      className="w-full h-full object-cover object-center"
-                      fill
-                    />
-                  ) : (
-                    <div className="flex justify-center items-center bg-gray-200 w-full h-full">
-                      No image available
-                    </div>
-                  )}
-                </div>
-                <div className="p-4">
-                  <h2 className="mb-2 font-bold text-xl">{restaurant.name}</h2>
-                  <p className="mb-1 text-gray-500 text-sm">
-                    Cuisine: {restaurant.cuisine}
-                  </p>
-                  <p className="mb-3 text-gray-500 text-sm">
-                    Price Range: {restaurant.priceRange}
-                  </p>
-                  <p className="mb-4 text-sm line-clamp-2">
-                    {restaurant.description}
-                  </p>
+          <label
+            htmlFor="price-filter"
+            className="block mt-4 mb-1 font-medium text-sm"
+          >
+            Price
+          </label>
+          <select
+            id="price-filter"
+            value={selectedPriceRange}
+            onChange={(e) => setSelectedPriceRange(e.target.value)}
+            className="p-2 border rounded-md w-full"
+          >
+            <option value="">All Price Ranges</option>
+            {getPriceRanges().map((price) => (
+              <option key={price} value={price}>
+                {price}
+              </option>
+            ))}
+          </select>
+        </div>
 
-                  <Link
-                    href={`/cruises/restaurants/${restaurant.name
-                      .toLowerCase()
-                      .replace(
-                        /\s+/g,
-                        "-"
-                      )}?restaurant=${fileName}&city=${city}`}
-                    className="text-primary text-sm hover:underline"
-                  >
-                    View Menu & Details
-                  </Link>
-                </div>
-              </Card>
-            );
-          })
+        <div>
+          <label
+            htmlFor="cuisine-filter"
+            className="block mb-1 font-medium text-sm"
+          >
+            Cuisine
+          </label>
+          <select
+            id="cuisine-filter"
+            value={selectedCuisine}
+            onChange={(e) => setSelectedCuisine(e.target.value)}
+            className="p-2 border rounded-md w-full"
+          >
+            <option value="">All Cuisines</option>
+            {getCuisines().map((cuisine) => (
+              <option key={cuisine} value={cuisine}>
+                {cuisine}
+              </option>
+            ))}
+          </select>
+        </div>
+      </div>
+
+      <div>
+        {/* Display restaurants organized by city */}
+        {filteredCityRestaurants.length === 0 ? (
+          <div className="py-8 text-center">
+            <p>No restaurants match your selected filters.</p>
+          </div>
+        ) : (
+          filteredCityRestaurants.map(({ city, restaurants }) => (
+            <div key={city} className="mb-12">
+              <h2 className="mb-4 pb-2 border-b font-semibold text-2xl">
+                {city}
+              </h2>
+              <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                {restaurants.map((restaurant, index) => {
+                  const fileName =
+                    formatTitleToKebabCase(restaurant.name) + "Menu";
+
+                  return (
+                    <Card key={index} className="overflow-hidden">
+                      <div className="relative h-48">
+                        {restaurant.images && restaurant.images.length > 0 ? (
+                          <Image
+                            src={restaurant.images[0]}
+                            alt={restaurant.name}
+                            className="w-full h-full object-cover object-center"
+                            fill
+                          />
+                        ) : (
+                          <div className="flex justify-center items-center bg-gray-200 w-full h-full">
+                            No image available
+                          </div>
+                        )}
+                      </div>
+                      <div className="p-4">
+                        <h2 className="mb-2 font-bold text-xl">
+                          {restaurant.name}
+                        </h2>
+                        <p className="mb-1 text-gray-500 text-sm">
+                          Cuisine: {restaurant.cuisine}
+                        </p>
+                        <p className="mb-3 text-gray-500 text-sm">
+                          Price Range: {restaurant.priceRange}
+                        </p>
+                        <p className="mb-4 text-sm line-clamp-2">
+                          {restaurant.description}
+                        </p>
+
+                        <Link
+                          href={`/cruises/restaurants/${restaurant.name
+                            .toLowerCase()
+                            .replace(
+                              /\s+/g,
+                              "-"
+                            )}?restaurant=${fileName}&city=${city}`}
+                          className="text-primary text-sm hover:underline"
+                        >
+                          View Menu & Details
+                        </Link>
+                      </div>
+                    </Card>
+                  );
+                })}
+              </div>
+            </div>
+          ))
         )}
       </div>
     </div>
