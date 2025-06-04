@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const galvestonCruises: Cruise[] = [
-  {
+{
     basePrice: 6919,
     departureLocation: {
   "city": "Galveston",
@@ -1983,5 +1983,1389 @@ export const galvestonCruises: Cruise[] = [
     description: "Escape to sea from Galveston on a luxurious voyage exploring the magic of Caribbean. Visit unforgettable locales like Philipsburg, Nassau, San Juan, where each stop inspires awe.",
     rating: 4.6,
     tags: ["VIP","expedition"]
+  },
+  {
+    basePrice: 6600,
+    departureLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    arrivalLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  }
+],
+      description: "Join us in Galveston for a expedition of a lifetime. Sail across the serene waters of Caribbean, stopping at ports like Philipsburg, George Town, St. Thomas where timeless traditions meet modern luxuries.",
+      distance: "1081 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Galveston to Philipsburg"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Philipsburg to George Town"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from George Town to St. Thomas"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from St. Thomas to Galveston"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Galveston"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Philipsburg"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring George Town"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring Galveston"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Linda Stewart",
+        role: "Group Booking Coordinator",
+        languages: ["Gujarati"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/women/53.jpg",
+        contact: {
+          contactEmail: "dreamlike.solstice.o@velarivoyages.com",
+          contactNumber: "+1-170-141-5414"
+        }
+      }
+    ],
+    title: "Dreamlike Solstice of the Lone Star Port",
+    description: "Join us in Galveston for a expedition of a lifetime. Sail across the serene waters of Caribbean, stopping at ports like Philipsburg, George Town, St. Thomas where timeless traditions meet modern luxuries.",
+    rating: 4.9,
+    tags: ["glacier-cruise","romantic"]
+  },
+  {
+    basePrice: 2960,
+    departureLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    arrivalLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  },
+  {
+    "city": "Roatán",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  }
+],
+      description: "Experience the elegance of the seas on this azure quest through Caribbean, starting from the illustrious port of Galveston. From Roatán to Nassau, each destination offers its own story, culture, and breathtaking views.",
+      distance: "1282 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Galveston to Roatán"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Roatán to Nassau"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Nassau to Galveston"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Galveston"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Roatán"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Galveston"
+  }
+]
+    },
+    tourCategoryId: "weekend-cruise",
+    contactPersonnel: [
+      {
+        name: "Catherine Lawson",
+        role: "Group Booking Coordinator",
+        languages: ["Gujarati"],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
+        contact: {
+          contactEmail: "radiancedrenched.cur@velarivoyages.com",
+          contactNumber: "+1-223-614-9802"
+        }
+      }
+    ],
+    title: "Radiance-Drenched Currents of the Gulf Gateway",
+    description: "Experience the elegance of the seas on this azure quest through Caribbean, starting from the illustrious port of Galveston. From Roatán to Nassau, each destination offers its own story, culture, and breathtaking views.",
+    rating: 4.1,
+    tags: ["weekend-cruise","cruise-adventure","cruise-ship"]
+  },
+  {
+    basePrice: 3078,
+    departureLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    arrivalLocation: {
+  "city": "St. Thomas",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Your wanderlust begins in Galveston, where every sunset on the Caribbean horizon promises another day of discovery—from George Town, San Juan, Cozumel, St. Thomas to hidden ports of charm.",
+      distance: "1431 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Galveston to George Town"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from George Town to San Juan"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from San Juan to Cozumel"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Cozumel to St. Thomas"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Galveston"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring George Town"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring St. Thomas"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Laura Fisher",
+        role: "Group Booking Coordinator",
+        languages: ["Gujarati"],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/women/62.jpg",
+        contact: {
+          contactEmail: "radiancedrenched.exp@velarivoyages.com",
+          contactNumber: "+1-126-424-2956"
+        }
+      }
+    ],
+    title: "Radiance-Drenched Exploration of the Palm-Fringed Paradises",
+    description: "Your wanderlust begins in Galveston, where every sunset on the Caribbean horizon promises another day of discovery—from George Town, San Juan, Cozumel, St. Thomas to hidden ports of charm.",
+    rating: 4.4,
+    tags: ["cruise-excursion"]
+  },
+  {
+    basePrice: 1449,
+    departureLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    arrivalLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  }
+],
+      description: "Step into a world of elegance and exploration from Galveston. This passage through the Caribbean unveils stunning stops including Philipsburg, St. Thomas, Cozumel, San Juan, all with first-class service.",
+      distance: "609 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Galveston to Philipsburg"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Philipsburg to St. Thomas"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from St. Thomas to Cozumel"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Cozumel to San Juan"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from San Juan to Galveston"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Galveston"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Philipsburg"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Galveston"
+  }
+]
+    },
+    tourCategoryId: "weekend-cruise",
+    contactPersonnel: [
+      {
+        name: "Elena Coleman",
+        role: "Group Booking Coordinator",
+        languages: ["Gujarati"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/80.jpg",
+        contact: {
+          contactEmail: "sublime.infinite.of.@velarivoyages.com",
+          contactNumber: "+1-195-785-7787"
+        }
+      }
+    ],
+    title: "Sublime Infinite of the Windswept Sentinel",
+    description: "Step into a world of elegance and exploration from Galveston. This passage through the Caribbean unveils stunning stops including Philipsburg, St. Thomas, Cozumel, San Juan, all with first-class service.",
+    rating: 4.3,
+    tags: ["weekend-cruise"]
+  },
+  {
+    basePrice: 9837,
+    departureLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    arrivalLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  }
+],
+      description: "Begin a captivating horizon through the Caribbean, departing Galveston. With visits to Nassau, Cozumel, each day brings a new adventure and deeper connection to the region.",
+      distance: "1372 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Galveston to Nassau"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Nassau to Cozumel"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Cozumel to Galveston"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Galveston"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Galveston"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Abigail Ellis",
+        role: "Group Booking Coordinator",
+        languages: ["Gujarati"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/women/87.jpg",
+        contact: {
+          contactEmail: "crystalline.saga.of.@velarivoyages.com",
+          contactNumber: "+1-956-513-3799"
+        }
+      }
+    ],
+    title: "Crystalline Saga of the Texan Tidepost",
+    description: "Begin a captivating horizon through the Caribbean, departing Galveston. With visits to Nassau, Cozumel, each day brings a new adventure and deeper connection to the region.",
+    rating: 4.9,
+    tags: ["seasonal","wildlife"]
+  },
+  {
+    basePrice: 5734,
+    departureLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    arrivalLocation: {
+  "city": "St. Thomas",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Sail into splendor from Galveston on a forbidden voyage through Caribbean. Let each stop—from Nassau to St. Thomas—reveal the unique flavors and colors of the region.",
+      distance: "1052 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Galveston to Nassau"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Nassau to St. Thomas"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Galveston"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring St. Thomas"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        name: "Sarah Murray",
+        role: "Group Booking Coordinator",
+        languages: ["Gujarati"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
+        contact: {
+          contactEmail: "pearlescent.saga.of.@velarivoyages.com",
+          contactNumber: "+1-941-705-6803"
+        }
+      }
+    ],
+    title: "Pearlescent Saga of the Tropical Isles",
+    description: "Sail into splendor from Galveston on a forbidden voyage through Caribbean. Let each stop—from Nassau to St. Thomas—reveal the unique flavors and colors of the region.",
+    rating: 4.7,
+    tags: ["expedition","cruise-holiday"]
+  },
+  {
+    basePrice: 4963,
+    departureLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    arrivalLocation: {
+  "city": "Roatán",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Roatán",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Leave ordinary behind as you sail from Galveston across the captivating Caribbean. Discover the distinctive personality of each destination, from George Town, San Juan, Roatán.",
+      distance: "1015 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Galveston to George Town"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from George Town to San Juan"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from San Juan to Roatán"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Galveston"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring George Town"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Roatán"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Sarah Graves",
+        role: "Group Booking Coordinator",
+        languages: ["Gujarati"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
+        contact: {
+          contactEmail: "epic.odyssey.of.the.@velarivoyages.com",
+          contactNumber: "+1-387-877-7671"
+        }
+      }
+    ],
+    title: "Epic Odyssey of the Texan Tidepost",
+    description: "Leave ordinary behind as you sail from Galveston across the captivating Caribbean. Discover the distinctive personality of each destination, from George Town, San Juan, Roatán.",
+    rating: 4.0,
+    tags: ["exclusive","cruise-getaway"]
+  },
+  {
+    basePrice: 4012,
+    departureLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    arrivalLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  },
+  {
+    "city": "Roatán",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  }
+],
+      description: "This serene arcadia begins in Galveston and ventures deep into the heart of Caribbean. Wander through colorful markets, historic streets, and serene coastlines at Roatán, St. Thomas.",
+      distance: "530 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Galveston to Roatán"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Roatán to St. Thomas"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from St. Thomas to Galveston"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Galveston"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Roatán"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Galveston"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Brooklyn Warren",
+        role: "Group Booking Coordinator",
+        languages: ["Gujarati"],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
+        contact: {
+          contactEmail: "crystalline.mythos.o@velarivoyages.com",
+          contactNumber: "+1-248-536-4750"
+        }
+      }
+    ],
+    title: "Crystalline Mythos of the Gulf Gateway",
+    description: "This serene arcadia begins in Galveston and ventures deep into the heart of Caribbean. Wander through colorful markets, historic streets, and serene coastlines at Roatán, St. Thomas.",
+    rating: 4.4,
+    tags: ["repositioning"]
+  },
+  {
+    basePrice: 6398,
+    departureLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    arrivalLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  }
+],
+      description: "Experience the elegance of the seas on this secluded expedition through Caribbean, starting from the illustrious port of Galveston. From George Town, Cozumel, St. Thomas to Philipsburg, each destination offers its own story, culture, and breathtaking views.",
+      distance: "1081 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Galveston to George Town"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from George Town to Cozumel"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Cozumel to St. Thomas"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from St. Thomas to Philipsburg"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from Philipsburg to Galveston"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Galveston"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring George Town"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Philipsburg"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring Galveston"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Lily Dean",
+        role: "Group Booking Coordinator",
+        languages: ["Gujarati"],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/women/70.jpg",
+        contact: {
+          contactEmail: "sublime.arcadia.of.t@velarivoyages.com",
+          contactNumber: "+1-107-496-8344"
+        }
+      }
+    ],
+    title: "Sublime Arcadia of the Reggae Shores",
+    description: "Experience the elegance of the seas on this secluded expedition through Caribbean, starting from the illustrious port of Galveston. From George Town, Cozumel, St. Thomas to Philipsburg, each destination offers its own story, culture, and breathtaking views.",
+    rating: 4.3,
+    tags: ["cruise-experience","tropical","expedition"]
+  },
+  {
+    basePrice: 8741,
+    departureLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    arrivalLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  }
+],
+      description: "Escape into the calm waters of Caribbean with this spectacular journey from Galveston. Explore vibrant markets, sun-soaked beaches, and architectural marvels at Cozumel, St. Thomas.",
+      distance: "673 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Galveston to Cozumel"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Cozumel to St. Thomas"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from St. Thomas to Galveston"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Galveston"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Galveston"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Isabella Lawson",
+        role: "Group Booking Coordinator",
+        languages: ["Gujarati"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/92.jpg",
+        contact: {
+          contactEmail: "secret.tranquility.o@velarivoyages.com",
+          contactNumber: "+1-652-678-4420"
+        }
+      }
+    ],
+    title: "Secret Tranquility of the Tropical Isles",
+    description: "Escape into the calm waters of Caribbean with this spectacular journey from Galveston. Explore vibrant markets, sun-soaked beaches, and architectural marvels at Cozumel, St. Thomas.",
+    rating: 4.6,
+    tags: ["family-friendly"]
   }
 ];
