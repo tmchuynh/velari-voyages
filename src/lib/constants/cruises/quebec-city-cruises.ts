@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const quebecCityCruises: Cruise[] = [
-  {
+{
     basePrice: 4344,
     departureLocation: {
   "city": "Quebec City",
@@ -1977,5 +1977,577 @@ export const quebecCityCruises: Cruise[] = [
     description: "Let the winds of the East Coast Canada carry you from Quebec City to the most stunning ports in the region. With destinations like Rome, Santorini, Malta, this infinite redefines luxury travel.",
     rating: 4.6,
     tags: ["wildlife"]
+  },
+  {
+    basePrice: 8802,
+    departureLocation: {
+  "city": "Quebec City",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 46.8139,
+    "longitude": -71.2082
+  }
+},
+    arrivalLocation: {
+  "city": "Quebec City",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 46.8139,
+    "longitude": -71.2082
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Quebec City",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 46.8139,
+      "longitude": -71.2082
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Quebec City",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 46.8139,
+      "longitude": -71.2082
+    }
+  }
+],
+      description: "Step aboard in Quebec City and begin a whispering journey through the scenic East Coast Canada. From historic cities to coastal hideaways like Santorini, Rome, Athens, every day is unforgettable.",
+      distance: "705 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Quebec City to Santorini"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Santorini to Rome"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Athens"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Sailing from Athens to Quebec City"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Quebec City"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Exploring Quebec City"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Melissa Bennett",
+        role: "Travel Advisor",
+        languages: ["Portuguese","English","Mandarin"],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/women/62.jpg",
+        contact: {
+          contactEmail: "panoramic.horizon.of@velarivoyages.com",
+          contactNumber: "+1-162-237-3751"
+        }
+      }
+    ],
+    title: "Panoramic Horizon of the French-Canadian Crown",
+    description: "Step aboard in Quebec City and begin a whispering journey through the scenic East Coast Canada. From historic cities to coastal hideaways like Santorini, Rome, Athens, every day is unforgettable.",
+    rating: 4.7,
+    tags: ["cruise-excursion","adventure"]
+  },
+  {
+    basePrice: 9247,
+    departureLocation: {
+  "city": "Quebec City",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 46.8139,
+    "longitude": -71.2082
+  }
+},
+    arrivalLocation: {
+  "city": "Mykonos",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Quebec City",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 46.8139,
+      "longitude": -71.2082
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "This drift takes you beyond the ordinary, starting in Quebec City. With breathtaking stops in Athens, Rome, Dubrovnik, Mykonos, your cruise delivers immersive moments and unforgettable vistas.",
+      distance: "1128 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Quebec City to Athens"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Athens to Rome"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Dubrovnik"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from Dubrovnik to Mykonos"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Quebec City"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Grace Fox",
+        role: "Travel Advisor",
+        languages: ["Portuguese","English","Mandarin"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/21.jpg",
+        contact: {
+          contactEmail: "mystical.embrace.of.@velarivoyages.com",
+          contactNumber: "+1-357-642-7940"
+        }
+      }
+    ],
+    title: "Mystical Embrace of the Red Sand Shores",
+    description: "This drift takes you beyond the ordinary, starting in Quebec City. With breathtaking stops in Athens, Rome, Dubrovnik, Mykonos, your cruise delivers immersive moments and unforgettable vistas.",
+    rating: 4.0,
+    tags: ["cruise","sightseeing"]
+  },
+  {
+    basePrice: 6801,
+    departureLocation: {
+  "city": "Quebec City",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 46.8139,
+    "longitude": -71.2082
+  }
+},
+    arrivalLocation: {
+  "city": "Quebec City",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 46.8139,
+    "longitude": -71.2082
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Quebec City",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 46.8139,
+      "longitude": -71.2082
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Quebec City",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 46.8139,
+      "longitude": -71.2082
+    }
+  }
+],
+      description: "An escape like no other begins in Quebec City, where your pulse launches into the heart of East Coast Canada. Discover the magic of Santorini, Mykonos, Rome with style and sophistication.",
+      distance: "841 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Quebec City to Santorini"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Santorini to Mykonos"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Rome"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Quebec City"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Quebec City"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring Quebec City"
+  }
+]
+    },
+    tourCategoryId: "luxury-cruise",
+    contactPersonnel: [
+      {
+        name: "Aaliyah Baker",
+        role: "Travel Advisor",
+        languages: ["Portuguese","English","Mandarin"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/31.jpg",
+        contact: {
+          contactEmail: "dreamlike.tide.of.th@velarivoyages.com",
+          contactNumber: "+1-789-147-6991"
+        }
+      }
+    ],
+    title: "Dreamlike Tide of the French-Canadian Crown",
+    description: "An escape like no other begins in Quebec City, where your pulse launches into the heart of East Coast Canada. Discover the magic of Santorini, Mykonos, Rome with style and sophistication.",
+    rating: 4.5,
+    tags: ["cultural","luxury","historical"]
+  },
+  {
+    basePrice: 1669,
+    departureLocation: {
+  "city": "Quebec City",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 46.8139,
+    "longitude": -71.2082
+  }
+},
+    arrivalLocation: {
+  "city": "Mykonos",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Quebec City",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 46.8139,
+      "longitude": -71.2082
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Sail away from the charming harbor of Quebec City on this serene journey across East Coast Canada. Uncover the beauty and history of Barcelona, Athens, Mykonos with curated excursions, world-class cuisine, and exceptional service.",
+      distance: "1227 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Quebec City to Barcelona"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Barcelona to Athens"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Athens to Mykonos"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Quebec City"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Mykonos"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Lily Montgomery",
+        role: "Travel Advisor",
+        languages: ["Portuguese","English","Mandarin"],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/women/17.jpg",
+        contact: {
+          contactEmail: "ornate.passage.of.th@velarivoyages.com",
+          contactNumber: "+1-405-607-2820"
+        }
+      }
+    ],
+    title: "Ornate Passage of the Time-Frozen Ramparts",
+    description: "Sail away from the charming harbor of Quebec City on this serene journey across East Coast Canada. Uncover the beauty and history of Barcelona, Athens, Mykonos with curated excursions, world-class cuisine, and exceptional service.",
+    rating: 4.5,
+    tags: ["weekend-cruise","cruise-holiday","expedition"]
   }
 ];
