@@ -223,6 +223,7 @@ export default function CruiseInformationPage() {
                   <TableHead>Location</TableHead>
                   <TableHead>On Land</TableHead>
                   <TableHead>At Sea</TableHead>
+                  <TableHead></TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
@@ -290,6 +291,11 @@ export default function CruiseInformationPage() {
                           </span>
                         </span>
                       )}{" "}
+                    </TableCell>
+                    <TableCell className="w-1/6">
+                      <Button size={"xs"} className="border w-full text-wrap">
+                        Resturants
+                      </Button>
                     </TableCell>
                   </TableRow>
                 ))}
