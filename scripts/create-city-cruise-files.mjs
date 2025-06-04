@@ -1743,52 +1743,79 @@ function getName() {
 }
 
 function getTourCategoryId(totalDuration, tags) {
-  const hasTag = (tag) => tags.includes(tag);
+  // Helper function to check if a tag exists, handling quoted strings
+  const hasTag = (tag) => tags.some((t) => t.includes(tag));
 
-  // Prioritized conditions
-  if (totalDuration >= 90) {
+  // Prioritized conditions based on tags first, then duration
+  if (hasTag("VIP") || totalDuration >= 90) {
     return "vip-cruise";
   }
 
-  if (totalDuration >= 20 && totalDuration <= 35) {
+  if (hasTag("luxury") || (totalDuration >= 20 && totalDuration <= 35)) {
     return "luxury-cruise";
   }
 
-  if (totalDuration >= 15 && totalDuration <= 20) {
+  if (hasTag("repositioning") || (totalDuration >= 15 && totalDuration <= 20)) {
     return "repositioning-cruise";
   }
 
   if (
-    totalDuration >= 5 &&
-    totalDuration <= 14 &&
+    hasTag("anniversary") ||
+    (hasTag("romantic") && totalDuration >= 7 && totalDuration <= 10)
+  ) {
+    return "anniversary-cruise";
+  }
+
+  if (
     hasTag("themed-cruise") &&
-    !hasTag("seasonal")
+    !hasTag("seasonal") &&
+    totalDuration >= 5 &&
+    totalDuration <= 14
   ) {
     return "theme-cruise";
   }
 
-  if (totalDuration >= 3 && totalDuration <= 10 && hasTag("seasonal")) {
+  if (
+    (hasTag("holiday") || hasTag("seasonal")) &&
+    totalDuration >= 3 &&
+    totalDuration <= 10
+  ) {
     return "holiday-cruise";
   }
 
-  if (totalDuration >= 7 && totalDuration <= 10 && hasTag("romantic")) {
-    return "anniversary-cruise";
-  }
-
-  if (totalDuration >= 7 && totalDuration <= 10) {
+  if (
+    hasTag("glacier") ||
+    hasTag("expedition") ||
+    (totalDuration >= 7 && totalDuration <= 10 && hasTag("nature"))
+  ) {
     return "glacier-cruise";
   }
 
-  if (totalDuration >= 3 && totalDuration <= 7) {
+  if (
+    hasTag("tropical") ||
+    (hasTag("relaxation") && totalDuration >= 3 && totalDuration <= 7)
+  ) {
     return "tropical-cruise";
   }
 
-  if (totalDuration >= 5 && totalDuration <= 14) {
+  if (
+    hasTag("fall") ||
+    hasTag("fall-cruise") ||
+    (totalDuration >= 5 && totalDuration <= 14 && hasTag("nature"))
+  ) {
     return "fall-foliage-cruise";
   }
 
-  if (totalDuration >= 3 && totalDuration <= 4) {
+  if (
+    hasTag("weekend") ||
+    (totalDuration >= 2 && totalDuration <= 4 && hasTag("short-getaway"))
+  ) {
     return "weekend-cruise";
+  }
+
+  // Check for fjords-tour which was missing from the original function
+  if (hasTag("nature") && hasTag("sightseeing") && totalDuration >= 5) {
+    return "fjords-tour";
   }
 
   return "general-cruise"; // fallback
@@ -1924,6 +1951,29 @@ for (const city of cityFiles) {
         "relaxation",
         "fall-cruise",
         "themed-cruise",
+        "holiday-cruise",
+        "glacier-cruise",
+        "anniversary-cruise",
+        "weekend-cruise",
+        "general",
+        "cultural",
+        "historical",
+        "culinary",
+        "wellness",
+        "nature",
+        "wildlife",
+        "expedition",
+        "repositioning",
+        "cruise",
+        "cruise-line",
+        "cruise-ship",
+        "cruise-vacation",
+        "cruise-holiday",
+        "cruise-experience",
+        "cruise-adventure",
+        "cruise-journey",
+        "cruise-getaway",
+        "cruise-excursion",
         "VIP",
         "luxury",
         "exclusive",
