@@ -12,19 +12,8 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Classic Grilled Japanese A5 Wagyu with Ponzu Butter",
-            "description": "A pungent dish prepared with grass-fed beef and served on rustic ware.",
-            "price": 31.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Heritage Recipe Lamb Shank",
-            "description": "Layered with care and marinated to perfection using finest quality ingredients.",
-            "price": 28.36,
+            "name": "Authentic Crunchy Award-Winning Seafood Boil",
+            "price": 24.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -32,13 +21,107 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Signature Sweet Whole Roasted Heritage Chicken",
-            "description": "This bold favorite is stir-fried using wild-caught fish, then served with flair.",
-            "price": 33.68,
+            "name": "Hearty Sweet Wood-Fired Peking Duck with Plum Sauce",
+            "price": 35.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Spicy Black Garlic Glazed Beef Tenderloin",
+            "price": 24.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Marinated Signature Truffle Pasta with Aged Pecorino",
+            "price": 36.99,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Luscious House Famous Duck Confit",
+            "price": 29.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Aromatic Sous Vide Perfected Wagyu",
+            "price": 27.81,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Smoked Chef's Childhood Inspired Creation",
+            "price": 35.88,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Homestyle Delectable Aged and House-Cured Charcuterie Selection",
+            "price": 36.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Smoked Signature Spice-Rubbed Protein",
+            "price": 28.12,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Hearty Miso-Glazed Black Cod",
+            "price": 25.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Zingy Tasting of Local Artisanal Cheeses",
+            "price": 31.47,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Crunchy Chef's Tasting Menu Experience",
+            "price": 27.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
           }
         ]
@@ -47,9 +130,17 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Chef's Flaky Stir-fry",
-            "description": "Our complex specialty, created with hand-picked vegetables and attractively arranged.",
-            "price": 23.99,
+            "name": "Deluxe Delicious Mezze Platter",
+            "price": 14.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Crunchy Bruschetta",
+            "price": 8.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -57,74 +148,44 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Grilled Tacos",
-            "description": "Accompanied by a tasteful garnish and pan-seared to perfection using premium components.",
-            "price": 20.02,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Zesty Mac and Cheese",
-            "description": "Garnished to perfection and slow-cooked to perfection using house-made sauces.",
-            "price": 25.97,
+            "name": "Homestyle Spicy Calamari",
+            "price": 9.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gnocchi",
-            "description": "A complex dish smoked with seasonal ingredients and offered as a tasting portion.",
-            "price": 18.3,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Korma",
-            "description": "A zesty dish made with seasonal ingredients and drizzled with finesse.",
-            "price": 27.75,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
-          {
-            "name": "Teriyaki Chicken",
-            "description": "Our robust specialty, prepared with free-range meats and elegantly served.",
-            "price": 27.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Roast Duck",
-            "description": "A peppery dish smoked with finest quality ingredients and plated with precision.",
-            "price": 23.74,
+            "name": "Classic Savory Spinach Puffs",
+            "price": 9.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Braised Stuffed Mushrooms",
+            "price": 13.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Creamy Baba Ganoush",
+            "price": 15.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef's Marinated Steak",
-            "description": "Our subtle specialty, made with sun-ripened fruits and beautifully presented.",
-            "price": 27.26,
+            "name": "Homestyle Delicious Shrimp Cocktail",
+            "price": 13.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -132,13 +193,12 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Stuffed Zucchini Boats",
-            "description": "A umami-packed dish prepared with sun-ripened fruits and attractively arranged.",
-            "price": 27.16,
+            "name": "Authentic Herbed Hummus Platter",
+            "price": 12.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -147,29 +207,17 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Steak",
-            "description": "Our complex specialty, braised with house-made sauces and elegantly served.",
-            "price": 22.81,
+            "name": "Homestyle Spicy Butternut Squash Soup",
+            "price": 8.51,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Moussaka",
-            "description": "A umami-packed dish hand-rolled with finest quality ingredients and beautifully presented.",
-            "price": 27.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Juicy Tagine",
-            "description": "Offered as a tasting portion and cooked to perfection using premium components.",
-            "price": 29.83,
+            "name": "Gourmet Flaky Vegetable Barley Soup",
+            "price": 9.45,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -177,12 +225,70 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pesto Pasta",
-            "description": "This refreshing favorite is cooked using premium components, then artfully plated.",
-            "price": 19.79,
+            "name": "Organic Aromatic Lobster Bisque",
+            "price": 13.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Satisfying Seafood Chowder",
+            "price": 13.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Asian Slaw",
+            "price": 9.69,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mediterranean Chopped Salad",
+            "price": 15.92,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coleslaw",
+            "price": 14.05,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cucumber Salad",
+            "price": 13.55,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pecan Salad",
+            "price": 12.23,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -192,127 +298,74 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Thai Curry",
-            "description": "Our bold specialty, assembled with microgreens and neatly composed.",
-            "price": 29.05,
+            "name": "Organic Sautéed Chicken Parmesan",
+            "price": 31.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Crunchy Beef Burger",
+            "price": 31.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Classic Steamed Risotto",
-            "description": "Styled for visual appeal and marinated to perfection using organic ingredients.",
-            "price": 18.47,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Smoked Biryani",
-            "description": "Our bold specialty, glazed with premium components and beautifully presented.",
-            "price": 28.88,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chicken Parmesan",
-            "description": "Elegantly served and prepared to perfection using heritage grains.",
-            "price": 23.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tacos",
-            "description": "Elegantly served and grilled to perfection using heirloom tomatoes.",
-            "price": 28.82,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Burrito",
-            "description": "Our subtle specialty, prepared with heirloom tomatoes and garnished to perfection.",
-            "price": 27.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pasta Primavera",
-            "description": "Served on rustic ware and caramelized to perfection using finest quality ingredients.",
-            "price": 19.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pulled Pork Sandwich",
-            "description": "Our savory specialty, created with aged cheeses and drizzled with finesse.",
-            "price": 27.77,
+            "name": "Authentic Herbed Korma",
+            "price": 20.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Stir-fry",
-            "description": "Our hearty specialty, charred with hand-picked vegetables and artfully plated.",
-            "price": 21.22,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           },
           {
-            "name": "Classic Juicy Spaghetti Bolognese",
-            "description": "This creamy favorite is made using grass-fed beef, then garnished to perfection.",
-            "price": 29.05,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Korma",
-            "description": "This subtle favorite is grilled using locally sourced produce, then served with flair.",
-            "price": 21.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bibimbap",
-            "description": "Our rich specialty, grilled with wild-caught fish and layered with care.",
-            "price": 27.57,
+            "name": "Hearty Satisfying Tagine",
+            "price": 30.57,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Succulent Stuffed Peppers",
+            "price": 28.81,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Grilled Currywurst",
+            "price": 18.13,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Satisfying Thai Curry",
+            "price": 19.44,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Spicy Salmon",
+            "price": 25.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -322,19 +375,8 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Basa Fillet with Dill Cream Sauce",
-            "description": "Our succulent specialty, braised with cultured dairy and attractively arranged.",
-            "price": 33.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Grilled Pan-Seared Scallops with Pea Purée",
-            "description": "Our refreshing specialty, charred with sustainable seafood and presented on a wooden board.",
-            "price": 27.44,
+            "name": "Hearty Grilled Seared Tuna Steak with Sesame Crust",
+            "price": 26.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -342,9 +384,8 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Local Luscious Baked Cod with Lemon Caper Sauce",
-            "description": "Nestled in a ceramic bowl and prepared to perfection using sun-ripened fruits.",
-            "price": 34.65,
+            "name": "Fresh Aromatic Maryland Style Crab Cakes",
+            "price": 26.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,14 +393,149 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Shrimp Scampi over Linguine",
-            "description": "This subtle favorite is composed using finest quality ingredients, then beautifully presented.",
-            "price": 26.33,
+            "name": "Traditional Smoked Traditional Provençal Bouillabaisse",
+            "price": 25.17,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Creamy Crab-Stuffed Mushrooms",
+            "price": 23.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Aromatic New England Lobster Roll",
+            "price": 23.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Premium Baked Baked Idaho Potato with Sour Cream",
+            "price": 6.59,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Sweet Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 6.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Luscious Chili Lime Roasted Chickpeas",
+            "price": 5.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Crunchy Flaky Cheddar and Chive Biscuits",
+            "price": 6.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Creamy Cauliflower Gratin with Gruyère",
+            "price": 9.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Sautéed Sweet Potato Wedges with Smoked Paprika",
+            "price": 8.05,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Coffee",
+            "price": 5.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 6.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 5.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 6.99,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 7.07,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 7.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
@@ -370,12 +546,11 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Chef's Zingy Thai Curry",
-            "description": "A robust dish stir-fried with cultured dairy and served on rustic ware.",
-            "price": 29.74,
+            "name": "Carrot Cake",
+            "price": 6.05,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -383,39 +558,35 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Stuffed Katsu Curry",
-            "description": "Stacked artistically and prepared to perfection using handmade pasta.",
-            "price": 26.35,
-            "isVegetarian": false,
+            "name": "Pecan Pie",
+            "price": 10.72,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baklava",
+            "price": 8.89,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Enticing Pho",
-            "description": "Our subtle specialty, made with seasonal ingredients and accompanied by a tasteful garnish.",
-            "price": 26.69,
+            "name": "Treacle Tart",
+            "price": 7.28,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Stuffed Peppers",
-            "description": "A peppery dish caramelized with locally sourced produce and beautifully presented.",
-            "price": 21.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Mouthwatering Risotto",
-            "description": "Our smoky specialty, pan-seared with locally sourced produce and served on rustic ware.",
-            "price": 29.27,
+            "name": "Shortbread",
+            "price": 6.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,12 +596,11 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Chef's Spiced Risotto",
-            "description": "A briny dish caramelized with artisanal elements and accompanied by a tasteful garnish.",
-            "price": 23.67,
+            "name": "Popsicles",
+            "price": 7.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -438,19 +608,26 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Tender Korma",
-            "description": "Our hearty specialty, made with sun-ripened fruits and neatly composed.",
-            "price": 27.92,
-            "isVegetarian": false,
+            "name": "Kulfi",
+            "price": 7.67,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Local Spiced Chili con Carne",
-            "description": "Served with flair and made to perfection using aged cheeses.",
-            "price": 19.72,
+            "name": "Sherbet",
+            "price": 10.95,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Yogurt",
+            "price": 11.05,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -458,20 +635,9 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Paella",
-            "description": "A smoky dish glazed with cultured dairy and beautifully presented.",
-            "price": 26.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lasagna",
-            "description": "This rich favorite is made using farm-fresh eggs, then served on rustic ware.",
-            "price": 29.37,
-            "isVegetarian": false,
+            "name": "Snow Cone",
+            "price": 7.48,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -489,9 +655,17 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "House Special Pan-seared Shochu",
-            "description": "A subtle dish cooked with sustainable seafood and elegantly served.",
-            "price": 10.77,
+            "name": "Mojito",
+            "price": 12.37,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 15.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -499,10 +673,36 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pina Colada",
-            "description": "Plated with precision and prepared to perfection using premium components.",
-            "price": 11.55,
+            "name": "Margarita",
+            "price": 14.75,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 10.48,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 14.15,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 12.64,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -510,30 +710,9 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Cosmopolitan",
-            "description": "A fruity dish seasoned with seasonal ingredients and served on rustic ware.",
-            "price": 9.61,
-            "isVegetarian": false,
+            "price": 13.23,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Rum",
-            "description": "This briny favorite is whipped using seasonal ingredients, then accompanied by a tasteful garnish.",
-            "price": 12.13,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Reposado Tequila",
-            "description": "This sweet favorite is braised using seasonal ingredients, then presented on a wooden board.",
-            "price": 11.02,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -544,29 +723,35 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Traditional Luscious Pesto Pasta",
-            "description": "Our subtle specialty, composed with artisanal elements and served with flair.",
-            "price": 22.48,
-            "isVegetarian": false,
+            "name": "Barbera",
+            "price": 9.7,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seafood Platter",
-            "description": "A sweet dish created with artisanal elements and attractively arranged.",
-            "price": 21.49,
-            "isVegetarian": false,
+            "name": "Fiano",
+            "price": 8.87,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coq au Vin",
-            "description": "This subtle favorite is prepared using cultured dairy, then served family-style.",
-            "price": 21.25,
+            "name": "Champagne/Sparkling Wine",
+            "price": 8.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gamay",
+            "price": 9.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -574,9 +759,8 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mac and Cheese",
-            "description": "A complex dish fire-roasted with locally foraged herbs and beautifully presented.",
-            "price": 28.28,
+            "name": "Riesling",
+            "price": 11.26,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -584,21 +768,10 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Hearty Fajitas",
-            "description": "This pungent favorite is charred using finest quality ingredients, then accompanied by a tasteful garnish.",
-            "price": 26.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Luscious Currywurst",
-            "description": "This sweet favorite is stir-fried using locally sourced produce, then attractively arranged.",
-            "price": 23.03,
+            "name": "Zinfandel",
+            "price": 11.38,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -609,42 +782,47 @@ export const singaporeblueKitchenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Signature Baked Tacos",
-            "description": "This briny favorite is glazed using non-GMO produce, then served with flair.",
-            "price": 20.74,
+            "name": "Kahlúa",
+            "price": 14.85,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tequila",
+            "price": 14.82,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gin",
+            "price": 11.79,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Campari",
+            "price": 12.7,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Calvados",
+            "price": 11.63,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Irresistible Teriyaki Chicken",
-            "description": "This peppery favorite is cooked using organic ingredients, then accompanied by a tasteful garnish.",
-            "price": 27.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Coq au Vin",
-            "description": "Accompanied by a tasteful garnish and smoked to perfection using seasonal ingredients.",
-            "price": 29.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pesto Pasta",
-            "description": "Stacked artistically and made to perfection using handmade pasta.",
-            "price": 20.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

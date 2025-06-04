@@ -12,9 +12,76 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Chef's Satisfying Secret Recipe Bouillabaisse",
-            "description": "This savory favorite is glazed using seasonal ingredients, then nestled in a ceramic bowl.",
-            "price": 37.01,
+            "name": "House Special Stuffed Flambéed Tableside Specialty",
+            "price": 30.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Sweet Whole Roasted Heritage Chicken",
+            "price": 30.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Herbed Restaurant's Namesake Signature Entrée",
+            "price": 28.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Irresistible Traditional Family Paella",
+            "price": 24.48,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Marinated Black Garlic Glazed Beef Tenderloin",
+            "price": 31.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Spiced Award-Winning Seafood Boil",
+            "price": 29.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Stuffed Celebrity Favorite Lobster Dish",
+            "price": 27.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Traditional Grilled Live-Fire Grilled Feature",
+            "price": 24.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,19 +89,35 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Molecular Gastronomy Showcase Tasting",
-            "description": "This herbaceous favorite is sautéed using wild-caught fish, then garnished to perfection.",
-            "price": 36.28,
-            "isVegetarian": true,
+            "name": "Authentic Luscious Fusion of Traditional and Modern Techniques",
+            "price": 38.35,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Golden Sous Vide Pork Tenderloin",
+            "price": 36.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Flaky Deconstructed Classic with Modern Technique",
+            "price": 26.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Mouthwatering Dry-Aged Tomahawk Steak",
-            "description": "This smoky favorite is smoked using heirloom tomatoes, then served family-style.",
-            "price": 36.3,
+            "name": "Gourmet Herbed Seared Duck Breast with Cherry Reduction",
+            "price": 39.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -47,9 +130,8 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Classic Flavorful Shakshuka",
-            "description": "Presented on a wooden board and hand-rolled to perfection using farm-fresh eggs.",
-            "price": 27.61,
+            "name": "Authentic Tender Mini Crab Cakes",
+            "price": 10.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -57,54 +139,35 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Stir-fry",
-            "description": "A smoky dish marinated with artisanal elements and elegantly served.",
-            "price": 20.23,
+            "name": "Homestyle Delectable Caprese Salad",
+            "price": 14.6,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Local Fried Steak",
-            "description": "Served with flair and oven-baked to perfection using cultured dairy.",
-            "price": 20.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Savory Stuffed Zucchini Boats",
-            "description": "This peppery favorite is hand-folded using free-range meats, then beautifully presented.",
-            "price": 26.71,
-            "isVegetarian": false,
+            "name": "Fresh Tender Samosas",
+            "price": 13.59,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Grilled Chicken",
-            "description": "Presented on a wooden board and crafted to perfection using premium components.",
-            "price": 26.83,
+            "name": "Hearty Smoked Mini Empanadas",
+            "price": 14.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
+            "isKosher": true
+          },
           {
-            "name": "Signature Succulent Salmon",
-            "description": "Neatly composed and cooked to perfection using wild-caught fish.",
-            "price": 21.6,
+            "name": "Traditional Comforting Calamari",
+            "price": 10.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -112,33 +175,30 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Pasta Primavera",
-            "description": "Accompanied by a tasteful garnish and crafted to perfection using organic ingredients.",
-            "price": 28.01,
+            "name": "House Special Marinated Cheese Platter",
+            "price": 8.77,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Mouthwatering Coq au Vin",
-            "description": "Our peppery specialty, smoked with microgreens and styled for visual appeal.",
-            "price": 28.36,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Biryani",
-            "description": "Our bold specialty, whipped with premium components and drizzled with finesse.",
-            "price": 28.69,
-            "isVegetarian": true,
+            "name": "Handcrafted Grilled Tzatziki with Pita",
+            "price": 8.63,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Meatballs",
+            "price": 14.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -147,19 +207,58 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Classic Sautéed Lamb Chops",
-            "description": "This succulent favorite is prepared using organic ingredients, then nestled in a ceramic bowl.",
-            "price": 19.23,
+            "name": "Fresh Spiced Egg Drop Soup",
+            "price": 12.94,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Stuffed Lentil Soup",
+            "price": 8.07,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Smoked Italian Wedding Soup",
+            "price": 8.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Flaky Turkey and Wild Rice Soup",
+            "price": 10.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Broccoli Crunch Salad",
+            "price": 11.41,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Classic Appetizing Spaghetti Bolognese",
-            "description": "A aromatic dish grilled with finest quality ingredients and presented on a wooden board.",
-            "price": 26.28,
+            "name": "Caesar Salad",
+            "price": 13.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -167,9 +266,8 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tagine",
-            "description": "Elegantly served and sautéed to perfection using sustainable seafood.",
-            "price": 25.33,
+            "name": "Chickpea Salad",
+            "price": 14.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -177,9 +275,17 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Hearty Pho",
-            "description": "A nutty dish pan-seared with sustainable seafood and presented on a wooden board.",
-            "price": 27.11,
+            "name": "Tabbouleh",
+            "price": 10.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Greek Salad",
+            "price": 12.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -192,29 +298,8 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Classic Smoked Moussaka",
-            "description": "A rich dish caramelized with microgreens and served with flair.",
-            "price": 27.03,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Zucchini Boats",
-            "description": "Plated with precision and composed to perfection using wild-caught fish.",
-            "price": 27.68,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coq au Vin",
-            "description": "Our refreshing specialty, poached with finest quality ingredients and garnished to perfection.",
-            "price": 28.64,
+            "name": "Premium Mouthwatering Biryani",
+            "price": 23.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -222,9 +307,8 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lasagna",
-            "description": "This robust favorite is sautéed using sustainable seafood, then garnished to perfection.",
-            "price": 21.24,
+            "name": "Hearty Stuffed Pasta Primavera",
+            "price": 23.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -232,84 +316,53 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Wholesome Paella",
-            "description": "Accompanied by a tasteful garnish and composed to perfection using handmade pasta.",
-            "price": 20.29,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Steamed Lentil Stew",
-            "description": "Our zesty specialty, oven-baked with seasonal ingredients and styled for visual appeal.",
-            "price": 22.1,
-            "isVegetarian": true,
+            "name": "Organic Grilled Enchiladas",
+            "price": 26.7,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Delectable Pulled Pork Sandwich",
-            "description": "A floral dish grilled with farm-fresh eggs and presented on a wooden board.",
-            "price": 22.55,
+            "name": "Authentic Savory Paella",
+            "price": 30.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Organic Enticing Thai Curry",
-            "description": "A bold dish made with locally foraged herbs and elegantly served.",
-            "price": 26.38,
+            "name": "Seasonal Juicy Steak",
+            "price": 27.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Golden Lentil Stew",
+            "price": 19.18,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Pan-seared Pho",
+            "price": 29.08,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "House Special Tender Mac and Cheese",
-            "description": "Our zesty specialty, oven-baked with microgreens and accompanied by a tasteful garnish.",
-            "price": 24.99,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Grilled Chicken",
-            "description": "This balanced favorite is created using seasonal ingredients, then garnished to perfection.",
-            "price": 28.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Hearty Gnocchi",
-            "description": "This smoky favorite is prepared using heirloom tomatoes, then beautifully presented.",
-            "price": 23.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ramen",
-            "description": "This rich favorite is grilled using locally sourced produce, then garnished to perfection.",
-            "price": 25.52,
+            "name": "Hearty Smoked Shakshuka",
+            "price": 28.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -322,9 +375,8 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Organic Spicy Classic British Fish and Chips",
-            "description": "Our creamy specialty, prepared with sun-ripened fruits and garnished to perfection.",
-            "price": 32.86,
+            "name": "Classic Smoked Hearty Italian Cioppino",
+            "price": 23.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -332,34 +384,158 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Smoked Alaskan King Crab Legs with Drawn Butter",
-            "description": "This briny favorite is created using house-made sauces, then served with flair.",
-            "price": 23.26,
+            "name": "Premium Satisfying Cajun Shrimp and Grits",
+            "price": 25.94,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Seafood Alfredo with Spinach Fettuccine",
-            "description": "A umami-packed dish prepared with cold-pressed oils and elegantly served.",
-            "price": 23.9,
+            "name": "Deluxe Tangy Traditional Provençal Bouillabaisse",
+            "price": 30.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked Basa Fillet with Dill Cream Sauce",
+            "price": 27.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Smoked Grilled Lobster with Lemon Butter",
+            "price": 34.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "House Special Smoked Grilled Asparagus with Lemon Zest",
+            "price": 5.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Zesty Fragrant Basmati Rice Pilaf",
+            "price": 7.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Herbed Charred Broccolini with Garlic Oil",
+            "price": 7.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Herbed Wild Mushroom Risotto",
+            "price": 6.44,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Luscious Flaky Cheddar and Chive Biscuits",
+            "price": 9.34,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Grilled Lobster with Lemon Butter",
-            "description": "Our nutty specialty, prepared with non-GMO produce and beautifully presented.",
-            "price": 31.33,
+            "name": "Deluxe Smoked Grilled Zucchini and Peppers",
+            "price": 8.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Smoothie",
+            "price": 5.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 7.42,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 4.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 5.44,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 4.14,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 6.14,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
@@ -370,32 +546,11 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Coq au Vin",
-            "description": "This tangy favorite is stir-fried using organic ingredients, then served on rustic ware.",
-            "price": 25.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Appetizing Currywurst",
-            "description": "A creamy dish marinated with finest quality ingredients and elegantly served.",
-            "price": 20.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ramen",
-            "description": "This earthy favorite is prepared using wild-caught fish, then served with flair.",
-            "price": 22.66,
+            "name": "Pumpkin Pie",
+            "price": 6.14,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -403,9 +558,17 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Satisfying Tagine",
-            "description": "Garnished to perfection and cooked to perfection using finest quality ingredients.",
-            "price": 20.9,
+            "name": "Macarons",
+            "price": 8.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Croissants",
+            "price": 9.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -413,9 +576,17 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pizza",
-            "description": "Layered with care and glazed to perfection using sun-ripened fruits.",
-            "price": 21.42,
+            "name": "Apple Pie",
+            "price": 10.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cannoli",
+            "price": 9.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,12 +596,11 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Risotto",
-            "description": "This tangy favorite is prepared using locally foraged herbs, then served on rustic ware.",
-            "price": 22.51,
+            "name": "Frozen Yogurt",
+            "price": 10.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -438,43 +608,39 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fajitas",
-            "description": "Drizzled with finesse and assembled to perfection using hand-picked vegetables.",
-            "price": 22.82,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Creamy Quiche",
-            "description": "Our refreshing specialty, sautéed with hand-picked vegetables and served with flair.",
-            "price": 24.5,
-            "isVegetarian": false,
+            "name": "Gelato",
+            "price": 11.95,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Grilled Chicken",
-            "description": "This refreshing favorite is grilled using organic ingredients, then neatly composed.",
-            "price": 22.3,
-            "isVegetarian": false,
+            "name": "Ice Cream Sandwich",
+            "price": 8.51,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Chicken Parmesan",
-            "description": "A briny dish crafted with heritage grains and nestled in a ceramic bowl.",
-            "price": 24.7,
+            "name": "Frozen Banana",
+            "price": 11.08,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Cheesecake",
+            "price": 9.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -489,19 +655,35 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Traditional Fried Armagnac",
-            "description": "Our savory specialty, charred with cultured dairy and drizzled with finesse.",
-            "price": 13.87,
-            "isVegetarian": true,
+            "name": "Bloody Mary",
+            "price": 11.86,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Tangy Negroni",
-            "description": "Our buttery specialty, seasoned with cold-pressed oils and garnished to perfection.",
-            "price": 12.11,
+            "name": "Whiskey Sour",
+            "price": 10.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 13.95,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 15.92,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -509,9 +691,8 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Luscious Sake",
-            "description": "A zesty dish prepared with sun-ripened fruits and neatly composed.",
-            "price": 14.03,
+            "name": "Cosmopolitan",
+            "price": 15.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -519,22 +700,20 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cider",
-            "description": "Our briny specialty, caramelized with sustainable seafood and beautifully presented.",
-            "price": 9.36,
-            "isVegetarian": true,
+            "name": "Mojito",
+            "price": 11.26,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Roasted White Rum",
-            "description": "A creamy dish marinated with seasonal ingredients and elegantly served.",
-            "price": 12.88,
-            "isVegetarian": true,
+            "name": "Old Fashioned",
+            "price": 14.15,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -544,62 +723,56 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Biryani",
-            "description": "Beautifully presented and prepared to perfection using seasonal ingredients.",
-            "price": 28.33,
+            "name": "Barbera",
+            "price": 13.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chardonnay",
+            "price": 12.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sémillon",
+            "price": 13.78,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sauvignon Blanc",
+            "price": 11.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Moscato",
+            "price": 13.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Albariño",
+            "price": 13.46,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pasta Primavera",
-            "description": "This buttery favorite is prepared using sustainable seafood, then artfully plated.",
-            "price": 18.83,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Crunchy Steak",
-            "description": "This rich favorite is made using wild-caught fish, then attractively arranged.",
-            "price": 21.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Lamb Chops",
-            "description": "Our sweet specialty, roasted with seasonal ingredients and artfully plated.",
-            "price": 29.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Sizzling Salmon",
-            "description": "Garnished to perfection and stir-fried to perfection using wild-caught fish.",
-            "price": 22.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seafood Platter",
-            "description": "This balanced favorite is hand-folded using handmade pasta, then garnished to perfection.",
-            "price": 28.63,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -609,9 +782,8 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Stir-fry",
-            "description": "This subtle favorite is composed using premium components, then offered as a tasting portion.",
-            "price": 28.64,
+            "name": "Armagnac",
+            "price": 15.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,34 +791,40 @@ export const seattleroyalBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Flavorful Tacos",
-            "description": "Drizzled with finesse and crafted to perfection using artisanal elements.",
-            "price": 20.4,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "St-Germain",
+            "price": 11.46,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Grilled Risotto",
-            "description": "Our succulent specialty, composed with grass-fed beef and attractively arranged.",
-            "price": 29.13,
+            "name": "Absinthe",
+            "price": 15.45,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Spicy Teriyaki Chicken",
-            "description": "Offered as a tasting portion and charred to perfection using seasonal ingredients.",
-            "price": 19.07,
-            "isVegetarian": false,
+            "name": "Grand Marnier",
+            "price": 13.97,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chartreuse",
+            "price": 13.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }

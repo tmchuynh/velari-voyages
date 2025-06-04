@@ -12,74 +12,17 @@ export const sanJuanblueTerraceMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Chef's Special Surf and Turf",
-            "description": "Our briny specialty, made with organic ingredients and drizzled with finesse.",
-            "price": 27.13,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Childhood Inspired Creation",
-            "description": "This creamy favorite is prepared using seasonal ingredients, then served with flair.",
-            "price": 36.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Smoked Seasonal Tasting Platter",
-            "description": "Our savory specialty, composed with organic ingredients and served on rustic ware.",
-            "price": 31.27,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Appetizers",
-        "items": [
-          {
-            "name": "Organic Creamy Grilled Chicken",
-            "description": "Garnished to perfection and grilled to perfection using locally foraged herbs.",
-            "price": 25.49,
+            "name": "Deluxe Luscious Wood-Fired Peking Duck with Plum Sauce",
+            "price": 34.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Classic Grilled Stir-fry",
-            "description": "This briny favorite is created using grass-fed beef, then accompanied by a tasteful garnish.",
-            "price": 19.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Teriyaki Chicken",
-            "description": "Served on rustic ware and slow-cooked to perfection using artisanal elements.",
-            "price": 27.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Irresistible Steak",
-            "description": "A umami-packed dish made with wild-caught fish and garnished to perfection.",
-            "price": 24.41,
+            "name": "Traditional Zingy House Famous Duck Confit",
+            "price": 28.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -87,24 +30,76 @@ export const sanJuanblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Local Spiced Cottage Pie",
-            "description": "This balanced favorite is charred using finest quality ingredients, then garnished to perfection.",
-            "price": 23.09,
+            "name": "Organic Fried Celebrity Favorite Lobster Dish",
+            "price": 29.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Marinated Chef’s Wild Game Selection",
+            "price": 32.28,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Handcrafted Grilled Seasonal Tasting Platter",
+            "price": 28.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked Chef's Childhood Inspired Creation",
+            "price": 27.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Roasted Whole Roasted Heritage Chicken",
+            "price": 33.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
       {
-        "name": "Salads",
+        "name": "Chef's Specials",
         "items": [
           {
-            "name": "Classic Fried Eggplant Parmesan",
-            "description": "This aromatic favorite is prepared using seasonal ingredients, then stacked artistically.",
-            "price": 25.14,
+            "name": "Homestyle Mouthwatering Tableside Flambé Preparation",
+            "price": 27.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Mouthwatering Roasted Quail with Truffle Jus",
+            "price": 25.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Creamy Seared Foie Gras with Fig Compote",
+            "price": 24.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -112,19 +107,31 @@ export const sanJuanblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mac and Cheese",
-            "description": "Beautifully presented and caramelized to perfection using finest quality ingredients.",
-            "price": 19.14,
-            "isVegetarian": false,
+            "name": "Gourmet Delicious Tableside Prepared Tartare",
+            "price": 29.05,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Baked Currywurst",
-            "description": "This sweet favorite is glazed using locally sourced produce, then nestled in a ceramic bowl.",
-            "price": 24,
+            "name": "Authentic Tender Chef's Market Inspiration of the Day",
+            "price": 37.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Appetizers",
+        "items": [
+          {
+            "name": "Gourmet Sizzling Caprese Salad",
+            "price": 15.4,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -132,9 +139,62 @@ export const sanJuanblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Grilled Tacos",
-            "description": "A complex dish slow-cooked with premium components and drizzled with finesse.",
-            "price": 20.31,
+            "name": "Traditional Crispy Cheese Nachos",
+            "price": 12.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Herbed Shrimp Cocktail",
+            "price": 12.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Spiced Tempura",
+            "price": 15.56,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Exquisite Charcuterie Board",
+            "price": 13.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Pan-seared Meatballs",
+            "price": 11.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Juicy Potato Skins",
+            "price": 10.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Spicy Nachos",
+            "price": 13.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -147,9 +207,67 @@ export const sanJuanblueTerraceMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Shish Kebabs",
-            "description": "Presented on a wooden board and hand-rolled to perfection using hand-picked vegetables.",
-            "price": 19.63,
+            "name": "Hearty Baked Avgolemono (Greek Lemon Soup)",
+            "price": 11.74,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Smoked Clam Chowder",
+            "price": 9.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Golden Gazpacho",
+            "price": 10.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Zingy Lentil Soup",
+            "price": 10.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Avocado Corn Salad",
+            "price": 10.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coleslaw",
+            "price": 14.51,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caesar Salad",
+            "price": 10.49,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,19 +275,8 @@ export const sanJuanblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Grilled Salmon",
-            "description": "Stacked artistically and stir-fried to perfection using locally foraged herbs.",
-            "price": 28.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Pesto Pasta",
-            "description": "A pungent dish roasted with artisanal elements and elegantly served.",
-            "price": 29.49,
+            "name": "Asian Slaw",
+            "price": 13.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -177,9 +284,8 @@ export const sanJuanblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Risotto",
-            "description": "Our creamy specialty, prepared with premium components and plated with precision.",
-            "price": 22.11,
+            "name": "Southwest Black Bean Salad",
+            "price": 9.71,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -192,19 +298,8 @@ export const sanJuanblueTerraceMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Burrito",
-            "description": "Plated with precision and stir-fried to perfection using handmade pasta.",
-            "price": 24.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fajitas",
-            "description": "Elegantly served and braised to perfection using seasonal ingredients.",
-            "price": 28.66,
+            "name": "Fresh Marinated Stuffed Zucchini Boats",
+            "price": 25.09,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -212,74 +307,17 @@ export const sanJuanblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Spaghetti Bolognese",
-            "description": "This smoky favorite is oven-baked using natural sweeteners, then nestled in a ceramic bowl.",
-            "price": 31.58,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Korma",
-            "description": "Nestled in a ceramic bowl and pan-seared to perfection using sustainable seafood.",
-            "price": 30.53,
+            "name": "Traditional Exquisite Salmon",
+            "price": 19.07,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Paella",
-            "description": "Our herbaceous specialty, pan-seared with locally foraged herbs and attractively arranged.",
-            "price": 29.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Roasted Biryani",
-            "description": "A zesty dish infused with artisanal elements and accompanied by a tasteful garnish.",
-            "price": 26.19,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pasta Primavera",
-            "description": "This tangy favorite is poached using heirloom tomatoes, then offered as a tasting portion.",
-            "price": 18.48,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Quiche",
-            "description": "A floral dish assembled with locally sourced produce and beautifully presented.",
-            "price": 30.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Korma",
-            "description": "Neatly composed and made to perfection using farm-fresh eggs.",
-            "price": 25.85,
+            "name": "Premium Spicy Gnocchi",
+            "price": 22.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -287,9 +325,17 @@ export const sanJuanblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Steak",
-            "description": "Our smoky specialty, pan-seared with heirloom tomatoes and presented on a wooden board.",
-            "price": 24.11,
+            "name": "Handcrafted Sizzling Risotto",
+            "price": 22.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Creamy Fish and Chips",
+            "price": 25.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -297,23 +343,30 @@ export const sanJuanblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Chef's Smoked Tagine",
-            "description": "This zesty favorite is composed using aged cheeses, then drizzled with finesse.",
-            "price": 29.37,
-            "isVegetarian": true,
+            "name": "Organic Marinated Eggplant Parmesan",
+            "price": 30.86,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Delicious Teriyaki Chicken",
-            "description": "Our citrusy specialty, hand-folded with locally sourced produce and styled for visual appeal.",
-            "price": 28.2,
+            "name": "House Special Spicy Pulled Pork Sandwich",
+            "price": 18.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Delicious Stuffed Peppers",
+            "price": 31.23,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -322,9 +375,17 @@ export const sanJuanblueTerraceMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Valencian Seafood Paella",
-            "description": "A buttery dish crafted with premium components and plated with precision.",
-            "price": 24.63,
+            "name": "Authentic Sautéed Grilled Lobster with Lemon Butter",
+            "price": 34.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Spiced Seafood Alfredo with Spinach Fettuccine",
+            "price": 35.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -332,9 +393,99 @@ export const sanJuanblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tempura Soft Shell Crab",
-            "description": "A briny dish slow-cooked with finest quality ingredients and nestled in a ceramic bowl.",
-            "price": 26.66,
+            "name": "Authentic Satisfying Cedar Plank Roasted Salmon",
+            "price": 31.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Spicy Hearty Italian Cioppino",
+            "price": 27.41,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Satisfying Seared Tuna Steak with Sesame Crust",
+            "price": 27.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Deluxe Spicy Wild Rice Pilaf",
+            "price": 6.3,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Tangy Sweet Potato Wedges with Smoked Paprika",
+            "price": 9.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Herbed Homestyle Baked Beans",
+            "price": 6.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Satisfying Chili Lime Roasted Chickpeas",
+            "price": 9.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Juicy Steamed Jasmine Rice",
+            "price": 6.24,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Hearty Crispy Beer-Battered Onion Rings",
+            "price": 5.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Smoothie",
+            "price": 7.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -342,9 +493,8 @@ export const sanJuanblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Linguine with Clam Sauce",
-            "description": "Our rich specialty, prepared with wild-caught fish and garnished to perfection.",
-            "price": 24.59,
+            "name": "Juice",
+            "price": 4.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,14 +502,40 @@ export const sanJuanblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Spiced Grilled Swordfish with Mango Chutney",
-            "description": "Our umami-packed specialty, prepared with seasonal ingredients and plated with precision.",
-            "price": 29.07,
+            "name": "Tea",
+            "price": 6.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 7.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 6.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 5.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
@@ -370,54 +546,49 @@ export const sanJuanblueTerraceMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Stir-fry",
-            "description": "Plated with precision and composed to perfection using aged cheeses.",
-            "price": 24.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shakshuka",
-            "description": "This delicate favorite is oven-baked using grass-fed beef, then presented on a wooden board.",
-            "price": 28.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Savory Salmon",
-            "description": "Our floral specialty, made with handmade pasta and beautifully presented.",
-            "price": 26.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Flavorful Coq au Vin",
-            "description": "This floral favorite is fire-roasted using finest quality ingredients, then stacked artistically.",
-            "price": 29.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Crunchy Thai Curry",
-            "description": "Attractively arranged and assembled to perfection using seasonal ingredients.",
-            "price": 18.67,
+            "name": "Biscotti",
+            "price": 7.77,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Macarons",
+            "price": 7.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Muffins",
+            "price": 9.21,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Banana Bread",
+            "price": 8.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crumb Cake",
+            "price": 10.78,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -425,52 +596,47 @@ export const sanJuanblueTerraceMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Pizza",
-            "description": "A buttery dish cooked with free-range meats and nestled in a ceramic bowl.",
-            "price": 27.79,
-            "isVegetarian": false,
+            "name": "Snow Cone",
+            "price": 10.5,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fajitas",
-            "description": "A savory dish braised with sustainable seafood and drizzled with finesse.",
-            "price": 20.79,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Exquisite Vegetable Stir-Fry",
-            "description": "Our smoky specialty, prepared with cold-pressed oils and served on rustic ware.",
-            "price": 28.01,
-            "isVegetarian": false,
+            "name": "Ice Cream",
+            "price": 11.55,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Mouthwatering Jambalaya",
-            "description": "Our bold specialty, hand-folded with non-GMO produce and presented on a wooden board.",
-            "price": 29.99,
-            "isVegetarian": false,
+            "name": "Popsicles",
+            "price": 10.25,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Stuffed Stuffed Peppers",
-            "description": "This rich favorite is poached using premium components, then garnished to perfection.",
-            "price": 20.42,
+            "name": "Semifreddo",
+            "price": 9.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frosty",
+            "price": 9.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -489,9 +655,44 @@ export const sanJuanblueTerraceMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Fresh Zingy Sake",
-            "description": "Our tangy specialty, glazed with free-range meats and served with flair.",
-            "price": 14.01,
+            "name": "Mojito",
+            "price": 12.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 11.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 14.76,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 10.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 10.35,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -499,40 +700,18 @@ export const sanJuanblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Golden Cider",
-            "description": "Stacked artistically and charred to perfection using grass-fed beef.",
-            "price": 13.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Delectable Manhattan",
-            "description": "This subtle favorite is assembled using sustainable seafood, then offered as a tasting portion.",
-            "price": 13.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Crispy Negroni",
-            "description": "Our fruity specialty, seasoned with sustainable seafood and styled for visual appeal.",
-            "price": 12.78,
+            "name": "Whiskey Sour",
+            "price": 12.7,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Juicy Baijiu",
-            "description": "A succulent dish made with grass-fed beef and served on rustic ware.",
-            "price": 12.41,
-            "isVegetarian": false,
+            "name": "Margarita",
+            "price": 14.32,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -544,60 +723,54 @@ export const sanJuanblueTerraceMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Classic Crispy Steak",
-            "description": "Offered as a tasting portion and assembled to perfection using artisanal elements.",
-            "price": 24.47,
+            "name": "Nebbiolo",
+            "price": 12.11,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Sizzling Stuffed Zucchini Boats",
-            "description": "Our nutty specialty, prepared with organic ingredients and garnished to perfection.",
-            "price": 24.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lentil Stew",
-            "description": "A citrusy dish grilled with sustainable seafood and artfully plated.",
-            "price": 24.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Appetizing Enchiladas",
-            "description": "A tangy dish made with sustainable seafood and garnished to perfection.",
-            "price": 20.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Katsu Curry",
-            "description": "Our succulent specialty, stir-fried with locally sourced produce and drizzled with finesse.",
-            "price": 18.89,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tagine",
-            "description": "Layered with care and prepared to perfection using seasonal ingredients.",
-            "price": 21.64,
+            "name": "Syrah/Shiraz",
+            "price": 11.81,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cabernet Franc",
+            "price": 9.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Champagne/Sparkling Wine",
+            "price": 9.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Prosecco",
+            "price": 11.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grenache",
+            "price": 11.08,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -609,29 +782,17 @@ export const sanJuanblueTerraceMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Classic Spicy Salmon",
-            "description": "Beautifully presented and whipped to perfection using sustainable seafood.",
-            "price": 27.7,
-            "isVegetarian": false,
+            "name": "Armagnac",
+            "price": 17.53,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Organic Braised Lamb Chops",
-            "description": "Our aromatic specialty, glazed with sustainable seafood and stacked artistically.",
-            "price": 22.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Tacos",
-            "description": "This nutty favorite is oven-baked using sustainable seafood, then neatly composed.",
-            "price": 24.94,
+            "name": "Whiskey",
+            "price": 13.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -639,14 +800,31 @@ export const sanJuanblueTerraceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Steak",
-            "description": "This aromatic favorite is hand-folded using heritage grains, then drizzled with finesse.",
-            "price": 27.09,
+            "name": "Anisette",
+            "price": 10.52,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Drambuie",
+            "price": 15.73,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baileys Irish Cream",
+            "price": 15.5,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
