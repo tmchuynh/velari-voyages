@@ -4198,5 +4198,746 @@ export const losAngelesCruises: Cruise[] = [
     description: "A voyage of contrasts awaits from Los Angeles. Discover the historical and natural richness of West Coast USA as you cruise to spectacular destinations like Mykonos, Malta, Athens.",
     rating: 4.4,
     tags: ["seasonal"]
+  },
+  {
+    basePrice: 8382,
+    departureLocation: {
+  "city": "Los Angeles",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  }
+},
+    arrivalLocation: {
+  "city": "Los Angeles",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Los Angeles",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Los Angeles",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    }
+  }
+],
+      description: "Board in Los Angeles for a hand-crafted mystique through the breathtaking West Coast USA. Highlights include sun-drenched beaches, historic ports, and immersive culture in Santorini, Barcelona, Mykonos, Rome.",
+      distance: "1346 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Los Angeles to Santorini"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Santorini to Barcelona"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Mykonos"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Mykonos to Rome"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Los Angeles"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Los Angeles"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 17",
+    "end": "Day 17",
+    "duration": "1 days",
+    "description": "Exploring Los Angeles"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Margaret Price",
+        role: "Security Director",
+        languages: ["Dutch"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
+        contact: {
+          contactEmail: "breathtaking.odyssey@velarivoyages.com",
+          contactNumber: "+1-671-399-5447"
+        }
+      }
+    ],
+    title: "Breathtaking Odyssey of the Golden Coastline",
+    description: "Board in Los Angeles for a hand-crafted mystique through the breathtaking West Coast USA. Highlights include sun-drenched beaches, historic ports, and immersive culture in Santorini, Barcelona, Mykonos, Rome.",
+    rating: 4.5,
+    tags: ["sightseeing","adventure","seasonal"]
+  },
+  {
+    basePrice: 9521,
+    departureLocation: {
+  "city": "Los Angeles",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  }
+},
+    arrivalLocation: {
+  "city": "Los Angeles",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Los Angeles",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Los Angeles",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    }
+  }
+],
+      description: "Set off on a escape from Los Angeles that captures the essence of West Coast USA. Discover cultural gems and culinary delights across Rome, Mykonos, Barcelona, Dubrovnik.",
+      distance: "683 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Los Angeles to Rome"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Rome to Mykonos"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Mykonos to Barcelona"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Barcelona to Dubrovnik"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Dubrovnik to Los Angeles"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Los Angeles"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring Los Angeles"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Evelyn Porter",
+        role: "Security Director",
+        languages: ["Dutch"],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/women/59.jpg",
+        contact: {
+          contactEmail: "crystalline.escape.o@velarivoyages.com",
+          contactNumber: "+1-222-841-6919"
+        }
+      }
+    ],
+    title: "Crystalline Escape of the Sunset Horizon",
+    description: "Set off on a escape from Los Angeles that captures the essence of West Coast USA. Discover cultural gems and culinary delights across Rome, Mykonos, Barcelona, Dubrovnik.",
+    rating: 4.6,
+    tags: ["themed-cruise","sightseeing"]
+  },
+  {
+    basePrice: 9749,
+    departureLocation: {
+  "city": "Los Angeles",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  }
+},
+    arrivalLocation: {
+  "city": "Los Angeles",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Los Angeles",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Los Angeles",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    }
+  }
+],
+      description: "Let the waves lead you from Los Angeles on this enchanting excursion. Traverse the iconic waters of West Coast USA and discover the beauty of Mykonos, Barcelona, Rome, Malta.",
+      distance: "1367 nautical miles",
+      totalDuration: "19 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Los Angeles to Mykonos"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Barcelona"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Rome"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Malta"
+  },
+  {
+    "start": "Day 17",
+    "end": "Day 17",
+    "duration": "1 days",
+    "description": "Sailing from Malta to Los Angeles"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Los Angeles"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 18",
+    "end": "Day 19",
+    "duration": "2 days",
+    "description": "Exploring Los Angeles"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Thandiwe Day",
+        role: "Security Director",
+        languages: ["Dutch"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/0.jpg",
+        contact: {
+          contactEmail: "secret.renaissance.o@velarivoyages.com",
+          contactNumber: "+1-619-569-8106"
+        }
+      }
+    ],
+    title: "Secret Renaissance of the City of Dreams",
+    description: "Let the waves lead you from Los Angeles on this enchanting excursion. Traverse the iconic waters of West Coast USA and discover the beauty of Mykonos, Barcelona, Rome, Malta.",
+    rating: 4.4,
+    tags: ["long-distance","short-getaway","adventure"]
+  },
+  {
+    basePrice: 2428,
+    departureLocation: {
+  "city": "Los Angeles",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  }
+},
+    arrivalLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Los Angeles",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  }
+],
+      description: "Let the winds of the West Coast USA carry you from Los Angeles to the most stunning ports in the region. With destinations like Mykonos, Barcelona, this mirage redefines luxury travel.",
+      distance: "1191 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Los Angeles to Mykonos"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Mykonos to Barcelona"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Los Angeles"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Stella Wells",
+        role: "Security Director",
+        languages: ["Dutch"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
+        contact: {
+          contactEmail: "unforgettable.retrea@velarivoyages.com",
+          contactNumber: "+1-863-549-2042"
+        }
+      }
+    ],
+    title: "Unforgettable Retreat of the Pacific Edge",
+    description: "Let the winds of the West Coast USA carry you from Los Angeles to the most stunning ports in the region. With destinations like Mykonos, Barcelona, this mirage redefines luxury travel.",
+    rating: 4.7,
+    tags: ["short-getaway"]
+  },
+  {
+    basePrice: 4940,
+    departureLocation: {
+  "city": "Los Angeles",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  }
+},
+    arrivalLocation: {
+  "city": "Malta",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Los Angeles",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Set off on a realm from Los Angeles that captures the essence of West Coast USA. Discover cultural gems and culinary delights across Barcelona, Rome, Malta.",
+      distance: "1493 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Los Angeles to Barcelona"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Barcelona to Rome"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Malta"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Los Angeles"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Katherine Hall",
+        role: "Security Director",
+        languages: ["Dutch"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/women/38.jpg",
+        contact: {
+          contactEmail: "forbidden.voyage.of.@velarivoyages.com",
+          contactNumber: "+1-747-170-1659"
+        }
+      }
+    ],
+    title: "Forbidden Voyage of the Golden Coastline",
+    description: "Set off on a realm from Los Angeles that captures the essence of West Coast USA. Discover cultural gems and culinary delights across Barcelona, Rome, Malta.",
+    rating: 4.8,
+    tags: ["VIP","relaxation","romantic"]
   }
 ];

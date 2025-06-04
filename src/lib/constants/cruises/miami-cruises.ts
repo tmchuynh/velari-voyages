@@ -4348,5 +4348,662 @@ export const miamiCruises: Cruise[] = [
     description: "From bustling Miami to serene Caribbean shores, this cruise invites you to relax, explore, and indulge. Stops at San Juan, Cozumel deliver a balanced blend of culture and comfort.",
     rating: 4.1,
     tags: ["romantic","VIP"]
+  },
+  {
+    basePrice: 5845,
+    departureLocation: {
+  "city": "Miami",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 25.7617,
+    "longitude": -80.1918
+  }
+},
+    arrivalLocation: {
+  "city": "Roatán",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Miami",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Roatán",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Experience the elegance of the seas on this celestial exploration through Caribbean, starting from the illustrious port of Miami. From Nassau to Roatán, each destination offers its own story, culture, and breathtaking views.",
+      distance: "572 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Miami to Nassau"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Nassau to Roatán"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Roatán"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Sophia Gibson",
+        role: "Accommodation Manager",
+        languages: ["Zulu","Malay"],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
+        contact: {
+          contactEmail: "epic.escape.of.the.m@velarivoyages.com",
+          contactNumber: "+1-727-506-3456"
+        }
+      }
+    ],
+    title: "Epic Escape of the Magic City",
+    description: "Experience the elegance of the seas on this celestial exploration through Caribbean, starting from the illustrious port of Miami. From Nassau to Roatán, each destination offers its own story, culture, and breathtaking views.",
+    rating: 4.0,
+    tags: ["tropical","exclusive","VIP"]
+  },
+  {
+    basePrice: 6039,
+    departureLocation: {
+  "city": "Miami",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 25.7617,
+    "longitude": -80.1918
+  }
+},
+    arrivalLocation: {
+  "city": "Miami",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 25.7617,
+    "longitude": -80.1918
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Miami",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Miami",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  }
+],
+      description: "Sail away from the charming harbor of Miami on this hidden journey across Caribbean. Uncover the beauty and history of St. Thomas, San Juan, George Town with curated excursions, world-class cuisine, and exceptional service.",
+      distance: "1132 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Miami to St. Thomas"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from St. Thomas to San Juan"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from San Juan to George Town"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from George Town to Miami"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring George Town"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Miami"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Nicole Campbell",
+        role: "Accommodation Manager",
+        languages: ["Zulu","Malay"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/women/36.jpg",
+        contact: {
+          contactEmail: "luxurious.voyage.of.@velarivoyages.com",
+          contactNumber: "+1-152-387-9621"
+        }
+      }
+    ],
+    title: "Luxurious Voyage of the Magic City",
+    description: "Sail away from the charming harbor of Miami on this hidden journey across Caribbean. Uncover the beauty and history of St. Thomas, San Juan, George Town with curated excursions, world-class cuisine, and exceptional service.",
+    rating: 4.3,
+    tags: ["luxury","short-getaway","exclusive"]
+  },
+  {
+    basePrice: 6631,
+    departureLocation: {
+  "city": "Miami",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 25.7617,
+    "longitude": -80.1918
+  }
+},
+    arrivalLocation: {
+  "city": "George Town",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Miami",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Begin your journey in Miami, where tradition meets travel. This immersive labyrinth reveals the finest of Caribbean, from the beaches of San Juan to the streets of Philipsburg.",
+      distance: "578 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Miami to San Juan"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from San Juan to Philipsburg"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Philipsburg to St. Thomas"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Sailing from St. Thomas to George Town"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Philipsburg"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Exploring George Town"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Donna Coleman",
+        role: "Accommodation Manager",
+        languages: ["Zulu","Malay"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
+        contact: {
+          contactEmail: "secret.discovery.of.@velarivoyages.com",
+          contactNumber: "+1-744-621-7763"
+        }
+      }
+    ],
+    title: "Secret Discovery of the Coastal Pulse",
+    description: "Begin your journey in Miami, where tradition meets travel. This immersive labyrinth reveals the finest of Caribbean, from the beaches of San Juan to the streets of Philipsburg.",
+    rating: 4.5,
+    tags: ["VIP","short-getaway","relaxation"]
+  },
+  {
+    basePrice: 5438,
+    departureLocation: {
+  "city": "Miami",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 25.7617,
+    "longitude": -80.1918
+  }
+},
+    arrivalLocation: {
+  "city": "Cozumel",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Miami",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Depart from the iconic port of Miami and sail through the enchanting Caribbean. Explore vibrant destinations like San Juan, Cozumel, each offering its own unique charm and local flair.",
+      distance: "1040 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Miami to San Juan"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from San Juan to Cozumel"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Cozumel"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Genesis Reeves",
+        role: "Accommodation Manager",
+        languages: ["Zulu","Malay"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/women/85.jpg",
+        contact: {
+          contactEmail: "enchanting.odyssey.o@velarivoyages.com",
+          contactNumber: "+1-174-965-4839"
+        }
+      }
+    ],
+    title: "Enchanting Odyssey of the Sun-Kissed Archipelago",
+    description: "Depart from the iconic port of Miami and sail through the enchanting Caribbean. Explore vibrant destinations like San Juan, Cozumel, each offering its own unique charm and local flair.",
+    rating: 4.2,
+    tags: ["themed-cruise"]
+  },
+  {
+    basePrice: 1932,
+    departureLocation: {
+  "city": "Miami",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 25.7617,
+    "longitude": -80.1918
+  }
+},
+    arrivalLocation: {
+  "city": "George Town",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Miami",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Roatán",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "From bustling Miami to serene Caribbean shores, this cruise invites you to relax, explore, and indulge. Stops at Philipsburg, San Juan, Roatán, George Town deliver a balanced blend of culture and comfort.",
+      distance: "599 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Miami to Philipsburg"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Philipsburg to San Juan"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from San Juan to Roatán"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Roatán to George Town"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Philipsburg"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Roatán"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring George Town"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Julie Bennett",
+        role: "Accommodation Manager",
+        languages: ["Zulu","Malay"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/17.jpg",
+        contact: {
+          contactEmail: "infinite.adventure.o@velarivoyages.com",
+          contactNumber: "+1-913-666-6872"
+        }
+      }
+    ],
+    title: "Infinite Adventure of the Sapphire Waters",
+    description: "From bustling Miami to serene Caribbean shores, this cruise invites you to relax, explore, and indulge. Stops at Philipsburg, San Juan, Roatán, George Town deliver a balanced blend of culture and comfort.",
+    rating: 4.0,
+    tags: ["exclusive","family-friendly"]
   }
 ];
