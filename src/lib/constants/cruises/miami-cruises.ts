@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const miamiCruises: Cruise[] = [
-  {
+{
     basePrice: 7856,
     departureLocation: {
   "city": "Miami",
@@ -2023,5 +2023,468 @@ export const miamiCruises: Cruise[] = [
     description: "Step into a world of elegance and exploration from Miami. This retreat through the Caribbean unveils stunning stops including Roatán, Philipsburg, Cozumel, all with first-class service.",
     rating: 4.5,
     tags: ["seasonal"]
+  },
+  {
+    basePrice: 4488,
+    departureLocation: {
+  "city": "Miami",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 25.7617,
+    "longitude": -80.1918
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Miami",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Step into a world of elegance and exploration from Miami. This enigma through the Caribbean unveils stunning stops including St. Thomas, San Juan, Philipsburg, Nassau, all with first-class service.",
+      distance: "773 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Miami to St. Thomas"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from St. Thomas to San Juan"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from San Juan to Philipsburg"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Philipsburg to Nassau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Philipsburg"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Anna Grant",
+        role: "Sales Consultant",
+        languages: ["Burmese","Malay"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
+        contact: {
+          contactEmail: "midnight.arcadia.of.@velarivoyages.com",
+          contactNumber: "+1-896-159-8161"
+        }
+      }
+    ],
+    title: "Midnight Arcadia of the Crystalline Currents",
+    description: "Step into a world of elegance and exploration from Miami. This enigma through the Caribbean unveils stunning stops including St. Thomas, San Juan, Philipsburg, Nassau, all with first-class service.",
+    rating: 4.3,
+    tags: ["cruise"]
+  },
+  {
+    basePrice: 3260,
+    departureLocation: {
+  "city": "Miami",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 25.7617,
+    "longitude": -80.1918
+  }
+},
+    arrivalLocation: {
+  "city": "Miami",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 25.7617,
+    "longitude": -80.1918
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Miami",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Miami",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  }
+],
+      description: "Sail into splendor from Miami on a dreamlike voyage through Caribbean. Let each stop—from San Juan to George Town—reveal the unique flavors and colors of the region.",
+      distance: "1349 nautical miles",
+      totalDuration: "19 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Miami to San Juan"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from San Juan to George Town"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from George Town to St. Thomas"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Sailing from St. Thomas to Philipsburg"
+  },
+  {
+    "start": "Day 17",
+    "end": "Day 18",
+    "duration": "2 days",
+    "description": "Sailing from Philipsburg to Miami"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring George Town"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 16",
+    "duration": "1 days",
+    "description": "Exploring Philipsburg"
+  },
+  {
+    "start": "Day 19",
+    "end": "Day 19",
+    "duration": "1 days",
+    "description": "Exploring Miami"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Maya Morgan",
+        role: "Sales Consultant",
+        languages: ["Burmese","Malay"],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/women/29.jpg",
+        contact: {
+          contactEmail: "tidewashed.expeditio@velarivoyages.com",
+          contactNumber: "+1-660-973-8309"
+        }
+      }
+    ],
+    title: "Tide-Washed Expedition of the City of Endless Summer",
+    description: "Sail into splendor from Miami on a dreamlike voyage through Caribbean. Let each stop—from San Juan to George Town—reveal the unique flavors and colors of the region.",
+    rating: 4.6,
+    tags: ["nature","historical"]
+  },
+  {
+    basePrice: 5356,
+    departureLocation: {
+  "city": "Miami",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 25.7617,
+    "longitude": -80.1918
+  }
+},
+    arrivalLocation: {
+  "city": "Philipsburg",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Miami",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "Roatán",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Discover the wonders of Caribbean aboard this infinite cruise departing from Miami. Journey through crystal waters to explore the treasures of Roatán, Cozumel, George Town, Philipsburg, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
+      distance: "560 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Miami to Roatán"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Roatán to Cozumel"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Cozumel to George Town"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from George Town to Philipsburg"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Roatán"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring George Town"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Philipsburg"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Rachel Day",
+        role: "Sales Consultant",
+        languages: ["Burmese","Malay"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/67.jpg",
+        contact: {
+          contactEmail: "golden.voyage.of.the@velarivoyages.com",
+          contactNumber: "+1-996-119-1073"
+        }
+      }
+    ],
+    title: "Golden Voyage of the Coastal Pulse",
+    description: "Discover the wonders of Caribbean aboard this infinite cruise departing from Miami. Journey through crystal waters to explore the treasures of Roatán, Cozumel, George Town, Philipsburg, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
+    rating: 4.6,
+    tags: ["cruise-holiday"]
   }
 ];

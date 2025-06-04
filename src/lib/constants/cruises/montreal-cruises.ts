@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const montrealCruises: Cruise[] = [
-  {
+{
     basePrice: 2535,
     departureLocation: {
   "city": "Montreal",
@@ -2023,5 +2023,470 @@ export const montrealCruises: Cruise[] = [
     description: "Leave ordinary behind as you sail from Montreal across the captivating East Coast Canada. Discover the distinctive personality of each destination, from Malta, Dubrovnik.",
     rating: 4.3,
     tags: ["cultural","fall-cruise"]
+  },
+  {
+    basePrice: 5080,
+    departureLocation: {
+  "city": "Montreal",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 45.5017,
+    "longitude": -73.5673
+  }
+},
+    arrivalLocation: {
+  "city": "Montreal",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 45.5017,
+    "longitude": -73.5673
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    }
+  }
+],
+      description: "Depart from the iconic port of Montreal and sail through the enchanting East Coast Canada. Explore vibrant destinations like Barcelona, Mykonos, Athens, Rome, each offering its own unique charm and local flair.",
+      distance: "749 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Montreal to Barcelona"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Mykonos"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Athens"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Athens to Rome"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Sailing from Rome to Montreal"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Montreal"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Exploring Montreal"
+  }
+]
+    },
+    tourCategoryId: "vip-cruise",
+    contactPersonnel: [
+      {
+        name: "Helen Wallace",
+        role: "Loyalty Program Representative",
+        languages: ["Spanish","German","Danish"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/women/96.jpg",
+        contact: {
+          contactEmail: "pristine.lullaby.of.@velarivoyages.com",
+          contactNumber: "+1-171-696-5819"
+        }
+      }
+    ],
+    title: "Pristine Lullaby of the Snow-Kissed Bohemia",
+    description: "Depart from the iconic port of Montreal and sail through the enchanting East Coast Canada. Explore vibrant destinations like Barcelona, Mykonos, Athens, Rome, each offering its own unique charm and local flair.",
+    rating: 4.6,
+    tags: ["VIP"]
+  },
+  {
+    basePrice: 5627,
+    departureLocation: {
+  "city": "Montreal",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 45.5017,
+    "longitude": -73.5673
+  }
+},
+    arrivalLocation: {
+  "city": "Montreal",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 45.5017,
+    "longitude": -73.5673
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    }
+  }
+],
+      description: "This mystique takes you beyond the ordinary, starting in Montreal. With breathtaking stops in Santorini, Malta, Dubrovnik, Athens, your cruise delivers immersive moments and unforgettable vistas.",
+      distance: "1382 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Montreal to Santorini"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Santorini to Malta"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Malta to Dubrovnik"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Dubrovnik to Athens"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Athens to Montreal"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Montreal"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Montreal"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Hannah Baker",
+        role: "Loyalty Program Representative",
+        languages: ["Spanish","German","Danish"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/74.jpg",
+        contact: {
+          contactEmail: "serene.tranquility.o@velarivoyages.com",
+          contactNumber: "+1-565-671-6987"
+        }
+      }
+    ],
+    title: "Serene Tranquility of the Seafaring Legacies",
+    description: "This mystique takes you beyond the ordinary, starting in Montreal. With breathtaking stops in Santorini, Malta, Dubrovnik, Athens, your cruise delivers immersive moments and unforgettable vistas.",
+    rating: 4.4,
+    tags: ["relaxation","cruise-ship","short-getaway"]
+  },
+  {
+    basePrice: 9306,
+    departureLocation: {
+  "city": "Montreal",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 45.5017,
+    "longitude": -73.5673
+  }
+},
+    arrivalLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  }
+],
+      description: "Leave stress behind with this curated symphony from Montreal. Sail across the best of East Coast Canada and explore treasures like Dubrovnik, Athens, Barcelona with comfort and style.",
+      distance: "859 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Montreal to Dubrovnik"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Dubrovnik to Athens"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Athens to Barcelona"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Montreal"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Harper Mason",
+        role: "Loyalty Program Representative",
+        languages: ["Spanish","German","Danish"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/women/64.jpg",
+        contact: {
+          contactEmail: "mythic.pilgrimage.of@velarivoyages.com",
+          contactNumber: "+1-114-640-1193"
+        }
+      }
+    ],
+    title: "Mythic Pilgrimage of the Island Metropolis",
+    description: "Leave stress behind with this curated symphony from Montreal. Sail across the best of East Coast Canada and explore treasures like Dubrovnik, Athens, Barcelona with comfort and style.",
+    rating: 4.4,
+    tags: ["cruise"]
   }
 ];
