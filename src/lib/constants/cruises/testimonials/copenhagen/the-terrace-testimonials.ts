@@ -5,68 +5,110 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const copenhagentheTerraceTestimonials: Testimonial[] = [
   {
-    "quote": "Our visit to The Terrace was outstanding. The meal were delicious, the staff helpful, and the atmosphere delightful. A must-visit!",
-    "author": "William Hernandez",
-    "title": "Gourmet Explorer"
-  },
-  {
-    "quote": "Our visit to The Terrace was outstanding. The flavors were outstanding, the staff prompt, and the atmosphere intimate. A must-visit!",
-    "author": "Daniel Lee",
-    "title": "Restaurant Reviewer"
-  },
-  {
-    "quote": "The Terrace has the most superb cuisine I've ever tasted. The relaxing atmosphere made our evening special, and the service was helpful.",
-    "author": "Thomas Martin",
-    "title": "Cruise Traveler"
-  },
-  {
-    "quote": "Our visit to The Terrace was outstanding. The cuisine were amazing, the staff excellent, and the atmosphere welcoming. A must-visit!",
-    "author": "Michael Martinez",
-    "title": "Cooking Aficionado",
+    "quote": "What a excellent dining experience at The Terrace! The desserts exceeded our expectations, and the staff was fantastic. Will definitely return!",
+    "author": "Sarah Davis",
+    "title": "Gastronomy Enthusiast",
     "image": "/images/testimonials/person-5.jpg"
   },
   {
-    "quote": "The Terrace has the most amazing dishes I've ever tasted. The appealing atmosphere made our evening special, and the service was professional.",
-    "author": "Lisa Martinez",
-    "title": "Culinary Adventurer"
+    "quote": "What a fantastic dining experience at The Terrace! The flavors exceeded our expectations, and the staff was professional. Will definitely return!",
+    "author": "Emma Smith",
+    "title": "Gourmet Explorer"
   },
   {
-    "quote": "I can't say enough about the exceptional dishes at The Terrace. The knowledgeable service and vibrant ambiance made for a perfect night out.",
+    "quote": "What a perfect dining experience at The Terrace! The food exceeded our expectations, and the staff was helpful. Will definitely return!",
     "author": "Robert Smith",
-    "title": "Cooking Aficionado",
-    "image": "/images/testimonials/person-1.jpg"
+    "title": "Culinary Adventurer",
+    "image": "/images/testimonials/person-11.jpg"
   },
   {
-    "quote": "The flavors at The Terrace were absolutely marvelous! The service was professional and the atmosphere was elegant. Highly recommend!",
-    "author": "Maria Rodriguez",
-    "title": "Cooking Aficionado",
-    "image": "/images/testimonials/person-10.jpg"
+    "quote": "The Terrace has the most wonderful meal I've ever tasted. The relaxing atmosphere made our evening special, and the service was exceptional.",
+    "author": "Emily Thompson",
+    "title": "Culinary Expert"
   },
   {
-    "quote": "The Terrace has the most marvelous menu items I've ever tasted. The intimate atmosphere made our evening special, and the service was outstanding.",
-    "author": "David Davis",
-    "title": "Lifestyle Influencer",
-    "image": "/images/testimonials/person-12.jpg"
+    "quote": "What a great dining experience at The Terrace! The flavors exceeded our expectations, and the staff was professional. Will definitely return!",
+    "author": "Emily Miller",
+    "title": "Gastronomy Enthusiast"
   },
   {
-    "quote": "What a outstanding dining experience at The Terrace! The food exceeded our expectations, and the staff was professional. Will definitely return!",
-    "author": "Daniel Lee",
-    "title": "Culinary Adventurer"
+    "quote": "The Terrace has the most excellent cuisine I've ever tasted. The elegant atmosphere made our evening special, and the service was friendly.",
+    "author": "Jennifer Smith",
+    "title": "Lifestyle Influencer"
   },
   {
-    "quote": "The Terrace has the most great menu items I've ever tasted. The sophisticated atmosphere made our evening special, and the service was excellent.",
-    "author": "Matthew Garcia",
-    "title": "Travel Blogger"
+    "quote": "The dishes at The Terrace were absolutely impressive! The service was superb and the atmosphere was vibrant. Highly recommend!",
+    "author": "David Jackson",
+    "title": "Gastronomy Enthusiast"
   },
   {
-    "quote": "What a excellent dining experience at The Terrace! The desserts exceeded our expectations, and the staff was outstanding. Will definitely return!",
-    "author": "Elizabeth Hernandez",
-    "title": "Travel Writer",
-    "image": "/images/testimonials/person-4.jpg"
+    "quote": "What a delectable dining experience at The Terrace! The entrees exceeded our expectations, and the staff was exceptional. Will definitely return!",
+    "author": "James Johnson",
+    "title": "Restaurant Reviewer"
   },
   {
-    "quote": "The appetizers at The Terrace were absolutely outstanding! The service was superb and the atmosphere was elegant. Highly recommend!",
-    "author": "Robert Smith",
+    "quote": "What a outstanding dining experience at The Terrace! The meal exceeded our expectations, and the staff was exceptional. Will definitely return!",
+    "author": "John Miller",
+    "title": "Gastronomy Enthusiast",
+    "image": "/images/testimonials/person-3.jpg"
+  },
+  {
+    "quote": "What a delightful dining experience at The Terrace! The flavors exceeded our expectations, and the staff was knowledgeable. Will definitely return!",
+    "author": "Lisa Jones",
+    "title": "Lifestyle Influencer"
+  },
+  {
+    "quote": "The appetizers at The Terrace were absolutely incredible! The service was helpful and the atmosphere was comfortable. Highly recommend!",
+    "author": "Thomas Garcia",
+    "title": "Food & Wine Connoisseur",
+    "image": "/images/testimonials/person-5.jpg"
+  },
+  {
+    "quote": "I can't say enough about the delicious entrees at The Terrace. The fantastic service and delightful ambiance made for a perfect night out.",
+    "author": "James White",
+    "title": "Food & Wine Connoisseur"
+  },
+  {
+    "quote": "Our visit to The Terrace was outstanding. The menu items were exceptional, the staff fantastic, and the atmosphere delightful. A must-visit!",
+    "author": "Robert Brown",
     "title": "Cooking Aficionado"
+  },
+  {
+    "quote": "Our visit to The Terrace was outstanding. The menu items were excellent, the staff courteous, and the atmosphere inviting. A must-visit!",
+    "author": "Robert Rodriguez",
+    "title": "Culinary Expert",
+    "image": "/images/testimonials/person-2.jpg"
+  },
+  {
+    "quote": "I can't say enough about the delightful cuisine at The Terrace. The fantastic service and sophisticated ambiance made for a perfect night out.",
+    "author": "Matthew Taylor",
+    "title": "Restaurant Reviewer"
+  },
+  {
+    "quote": "The Terrace has the most superb dishes I've ever tasted. The relaxing atmosphere made our evening special, and the service was knowledgeable.",
+    "author": "Daniel Wilson",
+    "title": "Dining Columnist"
+  },
+  {
+    "quote": "The dishes at The Terrace were absolutely excellent! The service was courteous and the atmosphere was sophisticated. Highly recommend!",
+    "author": "Olivia Thompson",
+    "title": "Gastronomy Enthusiast",
+    "image": "/images/testimonials/person-7.jpg"
+  },
+  {
+    "quote": "The specialties at The Terrace were absolutely superb! The service was helpful and the atmosphere was elegant. Highly recommend!",
+    "author": "John Moore",
+    "title": "Cruise Traveler"
+  },
+  {
+    "quote": "The Terrace has the most excellent flavors I've ever tasted. The inviting atmosphere made our evening special, and the service was wonderful.",
+    "author": "Daniel Martin",
+    "title": "Cruise Traveler"
+  },
+  {
+    "quote": "The desserts at The Terrace were absolutely excellent! The service was superb and the atmosphere was welcoming. Highly recommend!",
+    "author": "Elizabeth Martin",
+    "title": "Restaurant Reviewer",
+    "image": "/images/testimonials/person-10.jpg"
   }
 ];

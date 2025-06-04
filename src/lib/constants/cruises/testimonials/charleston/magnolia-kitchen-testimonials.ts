@@ -5,66 +5,111 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const charlestonmagnoliaKitchenTestimonials: Testimonial[] = [
   {
-    "quote": "Our visit to Magnolia Kitchen was outstanding. The appetizers were outstanding, the staff exceptional, and the atmosphere stylish. A must-visit!",
-    "author": "Emily Jackson",
-    "title": "Food Journalist"
+    "quote": "Magnolia Kitchen has the most incredible flavors I've ever tasted. The comfortable atmosphere made our evening special, and the service was fantastic.",
+    "author": "Sophia Lee",
+    "title": "Culinary Expert",
+    "image": "/images/testimonials/person-1.jpg"
   },
   {
-    "quote": "Magnolia Kitchen has the most great desserts I've ever tasted. The sophisticated atmosphere made our evening special, and the service was outstanding.",
-    "author": "Maria Thompson",
-    "title": "Luxury Travel Consultant",
-    "image": "/images/testimonials/person-8.jpg"
-  },
-  {
-    "quote": "What a marvelous dining experience at Magnolia Kitchen! The meal exceeded our expectations, and the staff was impeccable. Will definitely return!",
-    "author": "John Martin",
-    "title": "Luxury Travel Consultant"
-  },
-  {
-    "quote": "Magnolia Kitchen has the most amazing cuisine I've ever tasted. The welcoming atmosphere made our evening special, and the service was superb.",
-    "author": "John Moore",
-    "title": "Travel Writer"
-  },
-  {
-    "quote": "Our visit to Magnolia Kitchen was outstanding. The dishes were marvelous, the staff superb, and the atmosphere pleasant. A must-visit!",
-    "author": "Emma Perez",
-    "title": "Dining Columnist",
-    "image": "/images/testimonials/person-11.jpg"
-  },
-  {
-    "quote": "The menu items at Magnolia Kitchen were absolutely exceptional! The service was wonderful and the atmosphere was cozy. Highly recommend!",
-    "author": "Christopher Taylor",
-    "title": "Restaurant Enthusiast"
-  },
-  {
-    "quote": "The cuisine at Magnolia Kitchen were absolutely perfect! The service was outstanding and the atmosphere was inviting. Highly recommend!",
-    "author": "Maria Johnson",
-    "title": "Cruise Traveler"
-  },
-  {
-    "quote": "I can't say enough about the incredible flavors at Magnolia Kitchen. The prompt service and inviting ambiance made for a perfect night out.",
-    "author": "James Jackson",
-    "title": "Food Journalist"
-  },
-  {
-    "quote": "The specialties at Magnolia Kitchen were absolutely wonderful! The service was prompt and the atmosphere was vibrant. Highly recommend!",
-    "author": "Elizabeth Wilson",
-    "title": "Cruise Traveler"
-  },
-  {
-    "quote": "I can't say enough about the superb specialties at Magnolia Kitchen. The excellent service and inviting ambiance made for a perfect night out.",
-    "author": "Daniel White",
+    "quote": "I can't say enough about the perfect entrees at Magnolia Kitchen. The outstanding service and comfortable ambiance made for a perfect night out.",
+    "author": "Elizabeth Jones",
     "title": "Gourmet Explorer"
   },
   {
-    "quote": "I can't say enough about the superb appetizers at Magnolia Kitchen. The friendly service and sophisticated ambiance made for a perfect night out.",
-    "author": "Michael Perez",
-    "title": "Dining Columnist"
+    "quote": "Magnolia Kitchen has the most excellent specialties I've ever tasted. The intimate atmosphere made our evening special, and the service was professional.",
+    "author": "Emily Jackson",
+    "title": "Restaurant Reviewer"
   },
   {
-    "quote": "I can't say enough about the impressive specialties at Magnolia Kitchen. The wonderful service and relaxing ambiance made for a perfect night out.",
-    "author": "Maria Jones",
-    "title": "Culinary Adventurer",
-    "image": "/images/testimonials/person-1.jpg"
+    "quote": "Magnolia Kitchen has the most delicious menu items I've ever tasted. The comfortable atmosphere made our evening special, and the service was fantastic.",
+    "author": "Olivia Lee",
+    "title": "Food & Wine Connoisseur",
+    "image": "/images/testimonials/person-5.jpg"
+  },
+  {
+    "quote": "The flavors at Magnolia Kitchen were absolutely exceptional! The service was exceptional and the atmosphere was stylish. Highly recommend!",
+    "author": "Elizabeth Davis",
+    "title": "Travel Blogger"
+  },
+  {
+    "quote": "Our visit to Magnolia Kitchen was outstanding. The meal were amazing, the staff exceptional, and the atmosphere stylish. A must-visit!",
+    "author": "Maria Wilson",
+    "title": "Lifestyle Influencer",
+    "image": "/images/testimonials/person-10.jpg"
+  },
+  {
+    "quote": "I can't say enough about the excellent desserts at Magnolia Kitchen. The attentive service and pleasant ambiance made for a perfect night out.",
+    "author": "Lisa Perez",
+    "title": "Travel Writer"
+  },
+  {
+    "quote": "I can't say enough about the amazing cuisine at Magnolia Kitchen. The helpful service and warm ambiance made for a perfect night out.",
+    "author": "Jennifer Jackson",
+    "title": "Culinary Expert"
+  },
+  {
+    "quote": "Magnolia Kitchen has the most exceptional specialties I've ever tasted. The vibrant atmosphere made our evening special, and the service was professional.",
+    "author": "Maria Miller",
+    "title": "Food Critic",
+    "image": "/images/testimonials/person-3.jpg"
+  },
+  {
+    "quote": "I can't say enough about the delightful appetizers at Magnolia Kitchen. The helpful service and charming ambiance made for a perfect night out.",
+    "author": "Emily Taylor",
+    "title": "Food Journalist"
+  },
+  {
+    "quote": "Our visit to Magnolia Kitchen was outstanding. The food were outstanding, the staff excellent, and the atmosphere intimate. A must-visit!",
+    "author": "Sophia Martinez",
+    "title": "Gourmet Explorer"
+  },
+  {
+    "quote": "I can't say enough about the delightful entrees at Magnolia Kitchen. The courteous service and relaxing ambiance made for a perfect night out.",
+    "author": "William Thompson",
+    "title": "Culinary Expert"
+  },
+  {
+    "quote": "Our visit to Magnolia Kitchen was outstanding. The entrees were fantastic, the staff helpful, and the atmosphere pleasant. A must-visit!",
+    "author": "Robert Thompson",
+    "title": "Food & Wine Connoisseur"
+  },
+  {
+    "quote": "The desserts at Magnolia Kitchen were absolutely exceptional! The service was superb and the atmosphere was appealing. Highly recommend!",
+    "author": "Emma Martin",
+    "title": "Gourmet Explorer",
+    "image": "/images/testimonials/person-3.jpg"
+  },
+  {
+    "quote": "I can't say enough about the outstanding cuisine at Magnolia Kitchen. The courteous service and charming ambiance made for a perfect night out.",
+    "author": "Michael Rodriguez",
+    "title": "Luxury Travel Consultant",
+    "image": "/images/testimonials/person-2.jpg"
+  },
+  {
+    "quote": "The desserts at Magnolia Kitchen were absolutely marvelous! The service was attentive and the atmosphere was appealing. Highly recommend!",
+    "author": "Elizabeth Davis",
+    "title": "Culinary Adventurer"
+  },
+  {
+    "quote": "The specialties at Magnolia Kitchen were absolutely excellent! The service was professional and the atmosphere was stylish. Highly recommend!",
+    "author": "Emma Lee",
+    "title": "Travel Blogger",
+    "image": "/images/testimonials/person-7.jpg"
+  },
+  {
+    "quote": "Magnolia Kitchen has the most exceptional specialties I've ever tasted. The comfortable atmosphere made our evening special, and the service was exceptional.",
+    "author": "Olivia Miller",
+    "title": "Gourmet Explorer"
+  },
+  {
+    "quote": "What a amazing dining experience at Magnolia Kitchen! The dishes exceeded our expectations, and the staff was friendly. Will definitely return!",
+    "author": "Jennifer Martinez",
+    "title": "Travel Blogger"
+  },
+  {
+    "quote": "I can't say enough about the amazing flavors at Magnolia Kitchen. The excellent service and vibrant ambiance made for a perfect night out.",
+    "author": "Matthew Hernandez",
+    "title": "Restaurant Enthusiast",
+    "image": "/images/testimonials/person-2.jpg"
   }
 ];
