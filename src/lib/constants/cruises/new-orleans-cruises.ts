@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const newOrleansCruises: Cruise[] = [
-  {
+{
     basePrice: 1883,
     departureLocation: {
   "city": "New Orleans",
@@ -3397,5 +3397,582 @@ export const newOrleansCruises: Cruise[] = [
     description: "Depart from iconic New Orleans and traverse the Caribbean with visits to Cozumel, Nassau, San Juan. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
     rating: 4.4,
     tags: ["seasonal"]
+  },
+  {
+    basePrice: 5870,
+    departureLocation: {
+  "city": "New Orleans",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.9511,
+    "longitude": -90.0715
+  }
+},
+    arrivalLocation: {
+  "city": "Philipsburg",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.9511,
+      "longitude": -90.0715
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Roatán",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Sail away from the charming harbor of New Orleans on this breathtaking journey across Caribbean. Uncover the beauty and history of George Town, Roatán, Philipsburg with curated excursions, world-class cuisine, and exceptional service.",
+      distance: "774 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from New Orleans to George Town"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from George Town to Roatán"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Roatán to Philipsburg"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring New Orleans"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring George Town"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Roatán"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Philipsburg"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Russell Hall",
+        role: "Youth Program Director",
+        languages: ["Swahili"],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/men/74.jpg",
+        contact: {
+          contactEmail: "luxurious.labyrinth.@velarivoyages.com",
+          contactNumber: "+1-172-919-9602"
+        }
+      }
+    ],
+    title: "Luxurious Labyrinth of the Tropical Isles",
+    description: "Sail away from the charming harbor of New Orleans on this breathtaking journey across Caribbean. Uncover the beauty and history of George Town, Roatán, Philipsburg with curated excursions, world-class cuisine, and exceptional service.",
+    rating: 4.8,
+    tags: ["VIP"]
+  },
+  {
+    basePrice: 5897,
+    departureLocation: {
+  "city": "New Orleans",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.9511,
+    "longitude": -90.0715
+  }
+},
+    arrivalLocation: {
+  "city": "New Orleans",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.9511,
+    "longitude": -90.0715
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.9511,
+      "longitude": -90.0715
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Roatán",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.9511,
+      "longitude": -90.0715
+    }
+  }
+],
+      description: "Your sojourn begins in New Orleans, where the spirit of exploration meets modern luxury. From the sun-drenched shores of Philipsburg to the historic streets of Roatán, each stop in the Caribbean will leave a lasting impression.",
+      distance: "743 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from New Orleans to Philipsburg"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Philipsburg to Roatán"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Roatán to New Orleans"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring New Orleans"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Philipsburg"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Roatán"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring New Orleans"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Brandon Maxwell",
+        role: "Youth Program Director",
+        languages: ["Swahili"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/men/54.jpg",
+        contact: {
+          contactEmail: "enchanting.journey.o@velarivoyages.com",
+          contactNumber: "+1-113-755-7691"
+        }
+      }
+    ],
+    title: "Enchanting Journey of the Crescent City",
+    description: "Your sojourn begins in New Orleans, where the spirit of exploration meets modern luxury. From the sun-drenched shores of Philipsburg to the historic streets of Roatán, each stop in the Caribbean will leave a lasting impression.",
+    rating: 4.6,
+    tags: ["exclusive"]
+  },
+  {
+    basePrice: 9981,
+    departureLocation: {
+  "city": "New Orleans",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.9511,
+    "longitude": -90.0715
+  }
+},
+    arrivalLocation: {
+  "city": "Philipsburg",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.9511,
+      "longitude": -90.0715
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Step into a world of elegance and exploration from New Orleans. This exploration through the Caribbean unveils stunning stops including George Town, Philipsburg, all with first-class service.",
+      distance: "744 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from New Orleans to George Town"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from George Town to Philipsburg"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring New Orleans"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring George Town"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Philipsburg"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Joseph Grant",
+        role: "Youth Program Director",
+        languages: ["Swahili"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/men/43.jpg",
+        contact: {
+          contactEmail: "spectacular.tide.of.@velarivoyages.com",
+          contactNumber: "+1-697-791-7086"
+        }
+      }
+    ],
+    title: "Spectacular Tide of the Azure Horizons",
+    description: "Step into a world of elegance and exploration from New Orleans. This exploration through the Caribbean unveils stunning stops including George Town, Philipsburg, all with first-class service.",
+    rating: 4.6,
+    tags: ["tropical","romantic"]
+  },
+  {
+    basePrice: 6087,
+    departureLocation: {
+  "city": "New Orleans",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.9511,
+    "longitude": -90.0715
+  }
+},
+    arrivalLocation: {
+  "city": "San Juan",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.9511,
+      "longitude": -90.0715
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Begin your exploration in New Orleans, a gateway to the soul of Caribbean. Enjoy days spent exploring Philipsburg, San Juan and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
+      distance: "1107 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from New Orleans to Philipsburg"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Philipsburg to San Juan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring New Orleans"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Philipsburg"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Benjamin Harper",
+        role: "Youth Program Director",
+        languages: ["Swahili"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/men/88.jpg",
+        contact: {
+          contactEmail: "infinite.voyage.of.t@velarivoyages.com",
+          contactNumber: "+1-690-500-7218"
+        }
+      }
+    ],
+    title: "Infinite Voyage of the Crescent City",
+    description: "Begin your exploration in New Orleans, a gateway to the soul of Caribbean. Enjoy days spent exploring Philipsburg, San Juan and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
+    rating: 4.4,
+    tags: ["exclusive"]
+  },
+  {
+    basePrice: 2575,
+    departureLocation: {
+  "city": "New Orleans",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.9511,
+    "longitude": -90.0715
+  }
+},
+    arrivalLocation: {
+  "city": "George Town",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.9511,
+      "longitude": -90.0715
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "This starlit odyssey begins in New Orleans and ventures deep into the heart of Caribbean. Wander through colorful markets, historic streets, and serene coastlines at St. Thomas, George Town.",
+      distance: "1286 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from New Orleans to St. Thomas"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from St. Thomas to George Town"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring New Orleans"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring George Town"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Steven Chambers",
+        role: "Youth Program Director",
+        languages: ["Swahili"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
+        contact: {
+          contactEmail: "extraordinary.horizo@velarivoyages.com",
+          contactNumber: "+1-435-726-3313"
+        }
+      }
+    ],
+    title: "Extraordinary Horizon of the Tropical Isles",
+    description: "This starlit odyssey begins in New Orleans and ventures deep into the heart of Caribbean. Wander through colorful markets, historic streets, and serene coastlines at St. Thomas, George Town.",
+    rating: 4.0,
+    tags: ["sightseeing","adventure","tropical"]
   }
 ];

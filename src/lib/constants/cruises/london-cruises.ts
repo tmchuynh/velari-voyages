@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const londonCruises: Cruise[] = [
-  {
+{
     basePrice: 8500,
     departureLocation: {
   "city": "London",
@@ -3565,5 +3565,664 @@ export const londonCruises: Cruise[] = [
     description: "Depart from London on this thoughtfully designed excursion across the Northern Europe. Savor coastal charm, cultural treasures, and ocean views with stops at Copenhagen, Helsinki, Tallinn.",
     rating: 4.3,
     tags: ["luxury"]
+  },
+  {
+    basePrice: 4633,
+    departureLocation: {
+  "city": "London",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 51.5074,
+    "longitude": -0.1278
+  }
+},
+    arrivalLocation: {
+  "city": "London",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 51.5074,
+    "longitude": -0.1278
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    }
+  }
+],
+      description: "Start in the vibrant city of London and venture into the iconic Northern Europe. Discover authentic local cultures, cuisine, and coastal wonders in Oslo, Stockholm.",
+      distance: "604 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from London to Oslo"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Oslo to Stockholm"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Stockholm to London"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring London"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring London"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Victor Fox",
+        role: "Activities Director",
+        languages: ["Turkish","Khmer"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
+        contact: {
+          contactEmail: "luxurious.mirage.of.@velarivoyages.com",
+          contactNumber: "+1-585-982-5546"
+        }
+      }
+    ],
+    title: "Luxurious Mirage of the Twilight Fjords",
+    description: "Start in the vibrant city of London and venture into the iconic Northern Europe. Discover authentic local cultures, cuisine, and coastal wonders in Oslo, Stockholm.",
+    rating: 4.8,
+    tags: ["luxury"]
+  },
+  {
+    basePrice: 2293,
+    departureLocation: {
+  "city": "London",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 51.5074,
+    "longitude": -0.1278
+  }
+},
+    arrivalLocation: {
+  "city": "Helsinki",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Begin an epic adventure from London, where the seas meet culture. Visit the remarkable ports of Tallinn, Oslo, Helsinki while indulging in fine dining, entertainment, and unmatched hospitality.",
+      distance: "685 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from London to Tallinn"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Tallinn to Oslo"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Oslo to Helsinki"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring London"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Tallinn"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Helsinki"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Juan Ellis",
+        role: "Activities Director",
+        languages: ["Turkish","Khmer"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/48.jpg",
+        contact: {
+          contactEmail: "forbidden.exploratio@velarivoyages.com",
+          contactNumber: "+1-393-340-2361"
+        }
+      }
+    ],
+    title: "Forbidden Exploration of the Nordic Waters",
+    description: "Begin an epic adventure from London, where the seas meet culture. Visit the remarkable ports of Tallinn, Oslo, Helsinki while indulging in fine dining, entertainment, and unmatched hospitality.",
+    rating: 4.7,
+    tags: ["themed-cruise"]
+  },
+  {
+    basePrice: 1089,
+    departureLocation: {
+  "city": "London",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 51.5074,
+    "longitude": -0.1278
+  }
+},
+    arrivalLocation: {
+  "city": "London",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 51.5074,
+    "longitude": -0.1278
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    }
+  }
+],
+      description: "Your journey through the Northern Europe begins in London, where elegance meets adventure. Explore the shores of Stockholm, Oslo, with curated excursions and luxurious onboard amenities.",
+      distance: "678 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from London to Stockholm"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Stockholm to Oslo"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Oslo to London"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring London"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring London"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Roger Hawkins",
+        role: "Activities Director",
+        languages: ["Turkish","Khmer"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/21.jpg",
+        contact: {
+          contactEmail: "epic.escape.of.the.t@velarivoyages.com",
+          contactNumber: "+1-927-399-7842"
+        }
+      }
+    ],
+    title: "Epic Escape of the Twilight Fjords",
+    description: "Your journey through the Northern Europe begins in London, where elegance meets adventure. Explore the shores of Stockholm, Oslo, with curated excursions and luxurious onboard amenities.",
+    rating: 4.7,
+    tags: ["long-distance","adventure"]
+  },
+  {
+    basePrice: 1585,
+    departureLocation: {
+  "city": "London",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 51.5074,
+    "longitude": -0.1278
+  }
+},
+    arrivalLocation: {
+  "city": "Tallinn",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Your reverie begins in London, where every sunset on the Northern Europe horizon promises another day of discovery—from Helsinki, Oslo, Tallinn to hidden ports of charm.",
+      distance: "975 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from London to Helsinki"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Helsinki to Oslo"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Oslo to Tallinn"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring London"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Tallinn"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Jeremy Douglas",
+        role: "Activities Director",
+        languages: ["Turkish","Khmer"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/men/71.jpg",
+        contact: {
+          contactEmail: "eternal.escape.of.th@velarivoyages.com",
+          contactNumber: "+1-333-647-5770"
+        }
+      }
+    ],
+    title: "Eternal Escape of the Runestone Realms",
+    description: "Your reverie begins in London, where every sunset on the Northern Europe horizon promises another day of discovery—from Helsinki, Oslo, Tallinn to hidden ports of charm.",
+    rating: 5.0,
+    tags: ["seasonal","short-getaway"]
+  },
+  {
+    basePrice: 5345,
+    departureLocation: {
+  "city": "London",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 51.5074,
+    "longitude": -0.1278
+  }
+},
+    arrivalLocation: {
+  "city": "St. Petersburg",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Petersburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Board in London for a hand-crafted mystique through the breathtaking Northern Europe. Highlights include sun-drenched beaches, historic ports, and immersive culture in Copenhagen, Helsinki, Tallinn, St. Petersburg.",
+      distance: "1210 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from London to Copenhagen"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Copenhagen to Helsinki"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Helsinki to Tallinn"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Sailing from Tallinn to St. Petersburg"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring London"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Tallinn"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Exploring St. Petersburg"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Juan Warren",
+        role: "Activities Director",
+        languages: ["Turkish","Khmer"],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/men/27.jpg",
+        contact: {
+          contactEmail: "mesmerizing.adventur@velarivoyages.com",
+          contactNumber: "+1-719-393-5608"
+        }
+      }
+    ],
+    title: "Mesmerizing Adventure of the Baltic Echoes",
+    description: "Board in London for a hand-crafted mystique through the breathtaking Northern Europe. Highlights include sun-drenched beaches, historic ports, and immersive culture in Copenhagen, Helsinki, Tallinn, St. Petersburg.",
+    rating: 4.1,
+    tags: ["seasonal","family-friendly"]
   }
 ];

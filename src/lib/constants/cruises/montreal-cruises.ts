@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const montrealCruises: Cruise[] = [
-  {
+{
     basePrice: 5372,
     departureLocation: {
   "city": "Montreal",
@@ -3263,5 +3263,724 @@ export const montrealCruises: Cruise[] = [
     description: "Let this majestic voyage redefine your idea of travel. From Montreal, explore the East Coast Canada in luxurious comfort, stopping at Barcelona, Santorini, Rome where every port offers a new chapter.",
     rating: 4.5,
     tags: ["adventure","short-getaway","tropical"]
+  },
+  {
+    basePrice: 7158,
+    departureLocation: {
+  "city": "Montreal",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 45.5017,
+    "longitude": -73.5673
+  }
+},
+    arrivalLocation: {
+  "city": "Rome",
+  "country": "Italy",
+  "coordinates": {
+    "latitude": 41.9028,
+    "longitude": 12.4964
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  }
+],
+      description: "This handpicked sanctuary begins in Montreal and travels through East Coast Canada's iconic waterscapes. Discover Athens, Rome as each day brings new stories and every night offers elegant repose.",
+      distance: "1464 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Montreal to Athens"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Athens to Rome"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Montreal"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Ralph Reeves",
+        role: "Operations Manager",
+        languages: ["Indonesian","Dutch","Bengali"],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/35.jpg",
+        contact: {
+          contactEmail: "enchanting.passage.o@velarivoyages.com",
+          contactNumber: "+1-717-669-4581"
+        }
+      }
+    ],
+    title: "Enchanting Passage of the Island Metropolis",
+    description: "This handpicked sanctuary begins in Montreal and travels through East Coast Canada's iconic waterscapes. Discover Athens, Rome as each day brings new stories and every night offers elegant repose.",
+    rating: 4.6,
+    tags: ["fall-cruise","VIP","relaxation"]
+  },
+  {
+    basePrice: 9500,
+    departureLocation: {
+  "city": "Montreal",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 45.5017,
+    "longitude": -73.5673
+  }
+},
+    arrivalLocation: {
+  "city": "Rome",
+  "country": "Italy",
+  "coordinates": {
+    "latitude": 41.9028,
+    "longitude": 12.4964
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  }
+],
+      description: "Depart from iconic Montreal and traverse the East Coast Canada with visits to Athens, Santorini, Malta, Rome. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
+      distance: "1342 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Montreal to Athens"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Athens to Santorini"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Santorini to Malta"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Malta to Rome"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Montreal"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "David Foster",
+        role: "Operations Manager",
+        languages: ["Indonesian","Dutch","Bengali"],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/12.jpg",
+        contact: {
+          contactEmail: "exquisite.mirage.of.@velarivoyages.com",
+          contactNumber: "+1-795-297-3439"
+        }
+      }
+    ],
+    title: "Exquisite Mirage of the Island Metropolis",
+    description: "Depart from iconic Montreal and traverse the East Coast Canada with visits to Athens, Santorini, Malta, Rome. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
+    rating: 4.6,
+    tags: ["short-getaway","adventure","themed-cruise"]
+  },
+  {
+    basePrice: 1591,
+    departureLocation: {
+  "city": "Montreal",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 45.5017,
+    "longitude": -73.5673
+  }
+},
+    arrivalLocation: {
+  "city": "Montreal",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 45.5017,
+    "longitude": -73.5673
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    }
+  }
+],
+      description: "Let the spirit of exploration guide your captivating journey from Montreal. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Santorini, Barcelona, Athens.",
+      distance: "803 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Montreal to Santorini"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Santorini to Barcelona"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Barcelona to Athens"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from Athens to Montreal"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Montreal"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring Montreal"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Carl West",
+        role: "Operations Manager",
+        languages: ["Indonesian","Dutch","Bengali"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/69.jpg",
+        contact: {
+          contactEmail: "spectacular.explorat@velarivoyages.com",
+          contactNumber: "+1-307-586-9671"
+        }
+      }
+    ],
+    title: "Spectacular Exploration of the French-Canadian Heart",
+    description: "Let the spirit of exploration guide your captivating journey from Montreal. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Santorini, Barcelona, Athens.",
+    rating: 4.5,
+    tags: ["tropical"]
+  },
+  {
+    basePrice: 6127,
+    departureLocation: {
+  "city": "Montreal",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 45.5017,
+    "longitude": -73.5673
+  }
+},
+    arrivalLocation: {
+  "city": "Montreal",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 45.5017,
+    "longitude": -73.5673
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    }
+  }
+],
+      description: "A voyage of contrasts awaits from Montreal. Discover the historical and natural richness of East Coast Canada as you cruise to spectacular destinations like Rome, Athens, Santorini, Mykonos.",
+      distance: "962 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Montreal to Rome"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Rome to Athens"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Athens to Santorini"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Santorini to Mykonos"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Montreal"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Montreal"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Exploring Montreal"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Marcus Holloway",
+        role: "Operations Manager",
+        languages: ["Indonesian","Dutch","Bengali"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/men/63.jpg",
+        contact: {
+          contactEmail: "infinite.retreat.of.@velarivoyages.com",
+          contactNumber: "+1-135-306-7876"
+        }
+      }
+    ],
+    title: "Infinite Retreat of the Seaway Frontiers",
+    description: "A voyage of contrasts awaits from Montreal. Discover the historical and natural richness of East Coast Canada as you cruise to spectacular destinations like Rome, Athens, Santorini, Mykonos.",
+    rating: 4.8,
+    tags: ["sightseeing"]
+  },
+  {
+    basePrice: 4561,
+    departureLocation: {
+  "city": "Montreal",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 45.5017,
+    "longitude": -73.5673
+  }
+},
+    arrivalLocation: {
+  "city": "Santorini",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "An unforgettable journey awaits as you cruise from Montreal across East Coast Canada. Dive into history, flavor, and culture with stops including Mykonos, Malta, Dubrovnik, Santorini.",
+      distance: "601 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Montreal to Mykonos"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Malta"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Malta to Dubrovnik"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Dubrovnik to Santorini"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Montreal"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Santorini"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Ethan Mason",
+        role: "Operations Manager",
+        languages: ["Indonesian","Dutch","Bengali"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/63.jpg",
+        contact: {
+          contactEmail: "luxurious.retreat.of@velarivoyages.com",
+          contactNumber: "+1-140-631-4200"
+        }
+      }
+    ],
+    title: "Luxurious Retreat of the Harbor Havens",
+    description: "An unforgettable journey awaits as you cruise from Montreal across East Coast Canada. Dive into history, flavor, and culture with stops including Mykonos, Malta, Dubrovnik, Santorini.",
+    rating: 4.9,
+    tags: ["luxury"]
   }
 ];

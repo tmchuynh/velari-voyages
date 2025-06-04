@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const melbourneCruises: Cruise[] = [
-  {
+{
     basePrice: 6747,
     departureLocation: {
   "city": "Melbourne",
@@ -3543,5 +3543,682 @@ export const melbourneCruises: Cruise[] = [
     description: "This starlit renaissance begins in Melbourne and ventures deep into the heart of Asia Pacific. Wander through colorful markets, historic streets, and serene coastlines at Shanghai, Bangkok, Bali.",
     rating: 4.5,
     tags: ["seasonal"]
+  },
+  {
+    basePrice: 3461,
+    departureLocation: {
+  "city": "Melbourne",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -37.8136,
+    "longitude": 144.9631
+  }
+},
+    arrivalLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "coordinates": {
+    "latitude": 35.6895,
+    "longitude": 139.6917
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  }
+],
+      description: "Let the spirit of exploration guide your eternal journey from Melbourne. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Bali, Sydney, Bangkok, Tokyo.",
+      distance: "1409 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Melbourne to Bali"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Bali to Sydney"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Sydney to Bangkok"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Sailing from Bangkok to Tokyo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Bangkok"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Sean Watson",
+        role: "Security Director",
+        languages: ["Swahili","French"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/55.jpg",
+        contact: {
+          contactEmail: "exquisite.expedition@velarivoyages.com",
+          contactNumber: "+1-367-200-3065"
+        }
+      }
+    ],
+    title: "Exquisite Expedition of the Cultural Capital of Australia",
+    description: "Let the spirit of exploration guide your eternal journey from Melbourne. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Bali, Sydney, Bangkok, Tokyo.",
+    rating: 4.5,
+    tags: ["family-friendly","luxury"]
+  },
+  {
+    basePrice: 3916,
+    departureLocation: {
+  "city": "Melbourne",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -37.8136,
+    "longitude": 144.9631
+  }
+},
+    arrivalLocation: {
+  "city": "Sydney",
+  "country": "Australia",
+  "coordinates": {
+    "latitude": -33.8688,
+    "longitude": 151.2093
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  }
+],
+      description: "Sail away from Melbourne into the beautiful expanse of Asia Pacific. Along the way, enjoy rich cultural experiences in Ho Chi Minh City, Bangkok, Sydney, where history, nature, and cuisine collide.",
+      distance: "1110 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Melbourne to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Ho Chi Minh City to Bangkok"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Bangkok to Sydney"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Bangkok"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Sydney"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Miguel Hall",
+        role: "Security Director",
+        languages: ["Swahili","French"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/46.jpg",
+        contact: {
+          contactEmail: "golden.mystique.of.t@velarivoyages.com",
+          contactNumber: "+1-814-451-7230"
+        }
+      }
+    ],
+    title: "Golden Mystique of the Cultural Capital of Australia",
+    description: "Sail away from Melbourne into the beautiful expanse of Asia Pacific. Along the way, enjoy rich cultural experiences in Ho Chi Minh City, Bangkok, Sydney, where history, nature, and cuisine collide.",
+    rating: 4.2,
+    tags: ["fall-cruise"]
+  },
+  {
+    basePrice: 5725,
+    departureLocation: {
+  "city": "Melbourne",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -37.8136,
+    "longitude": 144.9631
+  }
+},
+    arrivalLocation: {
+  "city": "Singapore",
+  "country": "Singapore",
+  "coordinates": {
+    "latitude": 1.3521,
+    "longitude": 103.8198
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  }
+],
+      description: "This handpicked escape begins in Melbourne and travels through Asia Pacific's iconic waterscapes. Discover Ho Chi Minh City, Shanghai, Tokyo, Singapore as each day brings new stories and every night offers elegant repose.",
+      distance: "1196 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Melbourne to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Ho Chi Minh City to Shanghai"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Shanghai to Tokyo"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Tokyo to Singapore"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Singapore"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Roger Maxwell",
+        role: "Security Director",
+        languages: ["Swahili","French"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/men/56.jpg",
+        contact: {
+          contactEmail: "secret.exploration.o@velarivoyages.com",
+          contactNumber: "+1-997-146-9009"
+        }
+      }
+    ],
+    title: "Secret Exploration of the Laneway Wonderland",
+    description: "This handpicked escape begins in Melbourne and travels through Asia Pacific's iconic waterscapes. Discover Ho Chi Minh City, Shanghai, Tokyo, Singapore as each day brings new stories and every night offers elegant repose.",
+    rating: 4.9,
+    tags: ["luxury","themed-cruise"]
+  },
+  {
+    basePrice: 7635,
+    departureLocation: {
+  "city": "Melbourne",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -37.8136,
+    "longitude": 144.9631
+  }
+},
+    arrivalLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "coordinates": {
+    "latitude": 35.6895,
+    "longitude": 139.6917
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  }
+],
+      description: "Your expedition begins in Melbourne, where every sunset on the Asia Pacific horizon promises another day of discovery—from Sydney, Tokyo to hidden ports of charm.",
+      distance: "529 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Melbourne to Sydney"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Sydney to Tokyo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Mason Fletcher",
+        role: "Security Director",
+        languages: ["Swahili","French"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/93.jpg",
+        contact: {
+          contactEmail: "captivating.voyage.o@velarivoyages.com",
+          contactNumber: "+1-600-102-8451"
+        }
+      }
+    ],
+    title: "Captivating Voyage of the Cultural Capital of Australia",
+    description: "Your expedition begins in Melbourne, where every sunset on the Asia Pacific horizon promises another day of discovery—from Sydney, Tokyo to hidden ports of charm.",
+    rating: 4.4,
+    tags: ["long-distance","exclusive","seasonal"]
+  },
+  {
+    basePrice: 3112,
+    departureLocation: {
+  "city": "Melbourne",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -37.8136,
+    "longitude": 144.9631
+  }
+},
+    arrivalLocation: {
+  "city": "Melbourne",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -37.8136,
+    "longitude": 144.9631
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  }
+],
+      description: "Depart from iconic Melbourne and traverse the Asia Pacific with visits to Shanghai, Ho Chi Minh City, Singapore. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
+      distance: "1485 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Melbourne to Shanghai"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Ho Chi Minh City to Singapore"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Singapore to Melbourne"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Melbourne"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Eric Coleman",
+        role: "Security Director",
+        languages: ["Swahili","French"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/men/60.jpg",
+        contact: {
+          contactEmail: "forbidden.retreat.of@velarivoyages.com",
+          contactNumber: "+1-963-950-3791"
+        }
+      }
+    ],
+    title: "Forbidden Retreat of the Cultural Capital of Australia",
+    description: "Depart from iconic Melbourne and traverse the Asia Pacific with visits to Shanghai, Ho Chi Minh City, Singapore. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
+    rating: 4.6,
+    tags: ["VIP"]
   }
 ];

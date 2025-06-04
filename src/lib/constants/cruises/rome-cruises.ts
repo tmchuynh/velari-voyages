@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const romeCruises: Cruise[] = [
-  {
+{
     basePrice: 9045,
     departureLocation: {
   "city": "Rome",
@@ -3293,5 +3293,706 @@ export const romeCruises: Cruise[] = [
     description: "Set course from Rome for an inspiring exquisite journey across Mediterranean. Whether exploring ancient ruins in Athens or soaking up coastal views in Mykonos, every day offers a perfect mix of discovery and relaxation.",
     rating: 4.0,
     tags: ["romantic","seasonal"]
+  },
+  {
+    basePrice: 5055,
+    departureLocation: {
+  "city": "Rome",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.9028,
+    "longitude": 12.4964
+  }
+},
+    arrivalLocation: {
+  "city": "Rome",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.9028,
+    "longitude": 12.4964
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  }
+],
+      description: "Escape the everyday with this legendary journey through Mediterranean, departing from Rome. You'll visit Dubrovnik, Athens, where every stop is a new adventure.",
+      distance: "1150 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Dubrovnik"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Dubrovnik to Athens"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Athens to Rome"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Randy West",
+        role: "Youth Program Director",
+        languages: ["Danish"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/men/55.jpg",
+        contact: {
+          contactEmail: "mythic.passage.of.th@velarivoyages.com",
+          contactNumber: "+1-624-624-5995"
+        }
+      }
+    ],
+    title: "Mythic Passage of the Ancient Empire's Core",
+    description: "Escape the everyday with this legendary journey through Mediterranean, departing from Rome. You'll visit Dubrovnik, Athens, where every stop is a new adventure.",
+    rating: 4.9,
+    tags: ["short-getaway","VIP","luxury"]
+  },
+  {
+    basePrice: 2766,
+    departureLocation: {
+  "city": "Rome",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.9028,
+    "longitude": 12.4964
+  }
+},
+    arrivalLocation: {
+  "city": "Malta",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Your journey through the Mediterranean begins in Rome, where elegance meets adventure. Explore the shores of Dubrovnik, Mykonos, Athens, Malta, with curated excursions and luxurious onboard amenities.",
+      distance: "645 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Rome to Dubrovnik"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Dubrovnik to Mykonos"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Athens"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from Athens to Malta"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Zachary Carpenter",
+        role: "Youth Program Director",
+        languages: ["Danish"],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/40.jpg",
+        contact: {
+          contactEmail: "hidden.voyage.of.the@velarivoyages.com",
+          contactNumber: "+1-670-564-9733"
+        }
+      }
+    ],
+    title: "Hidden Voyage of the Sun-Drenched Riviera",
+    description: "Your journey through the Mediterranean begins in Rome, where elegance meets adventure. Explore the shores of Dubrovnik, Mykonos, Athens, Malta, with curated excursions and luxurious onboard amenities.",
+    rating: 4.2,
+    tags: ["romantic","short-getaway","VIP"]
+  },
+  {
+    basePrice: 1983,
+    departureLocation: {
+  "city": "Rome",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.9028,
+    "longitude": 12.4964
+  }
+},
+    arrivalLocation: {
+  "city": "Malta",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "An escape like no other begins in Rome, where your requiem launches into the heart of Mediterranean. Discover the magic of Dubrovnik, Santorini, Malta with style and sophistication.",
+      distance: "985 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Dubrovnik"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Dubrovnik to Santorini"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Santorini to Malta"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Malta"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Jason Wells",
+        role: "Youth Program Director",
+        languages: ["Danish"],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/37.jpg",
+        contact: {
+          contactEmail: "forbidden.voyage.of.@velarivoyages.com",
+          contactNumber: "+1-606-600-4858"
+        }
+      }
+    ],
+    title: "Forbidden Voyage of the Timeless Coastlines",
+    description: "An escape like no other begins in Rome, where your requiem launches into the heart of Mediterranean. Discover the magic of Dubrovnik, Santorini, Malta with style and sophistication.",
+    rating: 4.6,
+    tags: ["family-friendly"]
+  },
+  {
+    basePrice: 4484,
+    departureLocation: {
+  "city": "Rome",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.9028,
+    "longitude": 12.4964
+  }
+},
+    arrivalLocation: {
+  "city": "Rome",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.9028,
+    "longitude": 12.4964
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  }
+],
+      description: "From the lively departure port of Rome, this curated expedition showcases the finest of Mediterranean. With visits to Santorini, Barcelona, Malta, Mykonos, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+      distance: "852 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Santorini"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Santorini to Barcelona"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Malta"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Malta to Mykonos"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Sailing from Mykonos to Rome"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Exploring Rome"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Daniel Lawson",
+        role: "Youth Program Director",
+        languages: ["Danish"],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/men/4.jpg",
+        contact: {
+          contactEmail: "velvet.exploration.o@velarivoyages.com",
+          contactNumber: "+1-185-209-4729"
+        }
+      }
+    ],
+    title: "Velvet Exploration of the Marble Cities",
+    description: "From the lively departure port of Rome, this curated expedition showcases the finest of Mediterranean. With visits to Santorini, Barcelona, Malta, Mykonos, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+    rating: 4.5,
+    tags: ["romantic"]
+  },
+  {
+    basePrice: 6995,
+    departureLocation: {
+  "city": "Rome",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.9028,
+    "longitude": 12.4964
+  }
+},
+    arrivalLocation: {
+  "city": "Rome",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.9028,
+    "longitude": 12.4964
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  }
+],
+      description: "Let the spirit of exploration guide your captivating journey from Rome. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Mykonos, Malta.",
+      distance: "1360 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Rome to Mykonos"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Mykonos to Malta"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Malta to Rome"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Daniel Hayes",
+        role: "Youth Program Director",
+        languages: ["Danish"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
+        contact: {
+          contactEmail: "velvet.voyage.of.the@velarivoyages.com",
+          contactNumber: "+1-170-859-4770"
+        }
+      }
+    ],
+    title: "Velvet Voyage of the Marble Cities",
+    description: "Let the spirit of exploration guide your captivating journey from Rome. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Mykonos, Malta.",
+    rating: 4.2,
+    tags: ["luxury"]
   }
 ];

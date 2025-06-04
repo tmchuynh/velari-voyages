@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const rioDeJaneiroCruises: Cruise[] = [
-  {
+{
     basePrice: 4478,
     departureLocation: {
   "city": "Rio De Janeiro",
@@ -3403,5 +3403,704 @@ export const rioDeJaneiroCruises: Cruise[] = [
     description: "Board in Rio De Janeiro for a hand-crafted odyssey through the breathtaking South America. Highlights include sun-drenched beaches, historic ports, and immersive culture in Montevideo, Lima, Santiago, Buenos Aires.",
     rating: 4.0,
     tags: ["adventure","fall-cruise","sightseeing"]
+  },
+  {
+    basePrice: 9925,
+    departureLocation: {
+  "city": "Rio De Janeiro",
+  "country": "Brazil",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -22.9068,
+    "longitude": -43.1729
+  }
+},
+    arrivalLocation: {
+  "city": "Rio De Janeiro",
+  "country": "Brazil",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -22.9068,
+    "longitude": -43.1729
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -22.9068,
+      "longitude": -43.1729
+    }
+  },
+  {
+    "city": "Santiago",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Montevideo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Lima",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -22.9068,
+      "longitude": -43.1729
+    }
+  }
+],
+      description: "Cruise into cultural richness aboard this timeless excursion departing Rio De Janeiro. Savor local cuisine and uncover regional beauty from Santiago to Montevideo.",
+      distance: "757 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Rio De Janeiro to Santiago"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Santiago to Montevideo"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Montevideo to Lima"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Lima to Rio De Janeiro"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Rio De Janeiro"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Montevideo"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Lima"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring Rio De Janeiro"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Adam Hamilton",
+        role: "Cruise Director",
+        languages: ["Dutch","Danish"],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
+        contact: {
+          contactEmail: "mythic.renaissance.o@velarivoyages.com",
+          contactNumber: "+1-961-984-9245"
+        }
+      }
+    ],
+    title: "Mythic Renaissance of the Southern Horizons",
+    description: "Cruise into cultural richness aboard this timeless excursion departing Rio De Janeiro. Savor local cuisine and uncover regional beauty from Santiago to Montevideo.",
+    rating: 4.5,
+    tags: ["adventure","sightseeing"]
+  },
+  {
+    basePrice: 2926,
+    departureLocation: {
+  "city": "Rio De Janeiro",
+  "country": "Brazil",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -22.9068,
+    "longitude": -43.1729
+  }
+},
+    arrivalLocation: {
+  "city": "Cartagena",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -22.9068,
+      "longitude": -43.1729
+    }
+  },
+  {
+    "city": "Lima",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Santiago",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Montevideo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cartagena",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Escape to sea from Rio De Janeiro on a epic voyage exploring the magic of South America. Visit unforgettable locales like Lima, Santiago, Montevideo, Cartagena, where each stop inspires awe.",
+      distance: "1146 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Rio De Janeiro to Lima"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Lima to Santiago"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Santiago to Montevideo"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Montevideo to Cartagena"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Rio De Janeiro"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Lima"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Montevideo"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Cartagena"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Ryan Montgomery",
+        role: "Cruise Director",
+        languages: ["Dutch","Danish"],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/52.jpg",
+        contact: {
+          contactEmail: "mythic.mystique.of.t@velarivoyages.com",
+          contactNumber: "+1-325-352-8180"
+        }
+      }
+    ],
+    title: "Mythic Mystique of the Marvelous City",
+    description: "Escape to sea from Rio De Janeiro on a epic voyage exploring the magic of South America. Visit unforgettable locales like Lima, Santiago, Montevideo, Cartagena, where each stop inspires awe.",
+    rating: 4.9,
+    tags: ["seasonal"]
+  },
+  {
+    basePrice: 4798,
+    departureLocation: {
+  "city": "Rio De Janeiro",
+  "country": "Brazil",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -22.9068,
+    "longitude": -43.1729
+  }
+},
+    arrivalLocation: {
+  "city": "Rio De Janeiro",
+  "country": "Brazil",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -22.9068,
+    "longitude": -43.1729
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -22.9068,
+      "longitude": -43.1729
+    }
+  },
+  {
+    "city": "Lima",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Montevideo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Santiago",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -22.9068,
+      "longitude": -43.1729
+    }
+  }
+],
+      description: "From the lively departure port of Rio De Janeiro, this curated sojourn showcases the finest of South America. With visits to Lima, Montevideo, Santiago, Buenos Aires, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+      distance: "1020 nautical miles",
+      totalDuration: "19 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Rio De Janeiro to Lima"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Lima to Montevideo"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Montevideo to Santiago"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Sailing from Santiago to Buenos Aires"
+  },
+  {
+    "start": "Day 17",
+    "end": "Day 18",
+    "duration": "2 days",
+    "description": "Sailing from Buenos Aires to Rio De Janeiro"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Rio De Janeiro"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Lima"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Montevideo"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 16",
+    "duration": "1 days",
+    "description": "Exploring Buenos Aires"
+  },
+  {
+    "start": "Day 19",
+    "end": "Day 19",
+    "duration": "1 days",
+    "description": "Exploring Rio De Janeiro"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Oliver Dixon",
+        role: "Cruise Director",
+        languages: ["Dutch","Danish"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/men/63.jpg",
+        contact: {
+          contactEmail: "extraordinary.tide.o@velarivoyages.com",
+          contactNumber: "+1-815-506-5201"
+        }
+      }
+    ],
+    title: "Extraordinary Tide of the Carnival Capital",
+    description: "From the lively departure port of Rio De Janeiro, this curated sojourn showcases the finest of South America. With visits to Lima, Montevideo, Santiago, Buenos Aires, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+    rating: 4.8,
+    tags: ["VIP"]
+  },
+  {
+    basePrice: 3469,
+    departureLocation: {
+  "city": "Rio De Janeiro",
+  "country": "Brazil",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -22.9068,
+    "longitude": -43.1729
+  }
+},
+    arrivalLocation: {
+  "city": "Buenos Aires",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -22.9068,
+      "longitude": -43.1729
+    }
+  },
+  {
+    "city": "Cartagena",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Set sail from historic Rio De Janeiro for a modern escape into the South America. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Cartagena, Buenos Aires.",
+      distance: "523 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Rio De Janeiro to Cartagena"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Sailing from Cartagena to Buenos Aires"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Rio De Janeiro"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Cartagena"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Buenos Aires"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Kenneth Bennett",
+        role: "Cruise Director",
+        languages: ["Dutch","Danish"],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/men/16.jpg",
+        contact: {
+          contactEmail: "whispering.retreat.o@velarivoyages.com",
+          contactNumber: "+1-808-205-1918"
+        }
+      }
+    ],
+    title: "Whispering Retreat of the Marvelous City",
+    description: "Set sail from historic Rio De Janeiro for a modern escape into the South America. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Cartagena, Buenos Aires.",
+    rating: 4.3,
+    tags: ["luxury","long-distance"]
+  },
+  {
+    basePrice: 4421,
+    departureLocation: {
+  "city": "Rio De Janeiro",
+  "country": "Brazil",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -22.9068,
+    "longitude": -43.1729
+  }
+},
+    arrivalLocation: {
+  "city": "Santiago",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Rio De Janeiro",
+    "country": "Brazil",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -22.9068,
+      "longitude": -43.1729
+    }
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Montevideo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Santiago",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Start in the vibrant city of Rio De Janeiro and venture into the iconic South America. Discover authentic local cultures, cuisine, and coastal wonders in Buenos Aires, Montevideo, Santiago.",
+      distance: "1253 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Rio De Janeiro to Buenos Aires"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Sailing from Buenos Aires to Montevideo"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Montevideo to Santiago"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Rio De Janeiro"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Buenos Aires"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Montevideo"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Santiago"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Gregory West",
+        role: "Cruise Director",
+        languages: ["Dutch","Danish"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
+        contact: {
+          contactEmail: "starlit.requiem.of.t@velarivoyages.com",
+          contactNumber: "+1-408-723-5399"
+        }
+      }
+    ],
+    title: "Starlit Requiem of the Emerald Coasts",
+    description: "Start in the vibrant city of Rio De Janeiro and venture into the iconic South America. Discover authentic local cultures, cuisine, and coastal wonders in Buenos Aires, Montevideo, Santiago.",
+    rating: 4.6,
+    tags: ["relaxation"]
   }
 ];
