@@ -12,9 +12,8 @@ export const galvestonroyalGardenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Wood-Fired Peking Duck with Plum Sauce",
-            "description": "This hearty favorite is prepared using artisanal elements, then nestled in a ceramic bowl.",
-            "price": 26.45,
+            "name": "Hearty Grilled Award-Winning Seafood Boil",
+            "price": 29.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -22,9 +21,44 @@ export const galvestonroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Restaurant's Namesake Signature Entrée",
-            "description": "Our robust specialty, charred with sustainable seafood and plated with precision.",
-            "price": 35.06,
+            "name": "Premium Aromatic Restaurant's Namesake Signature Entrée",
+            "price": 32.96,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Braised Traditional Family Paella",
+            "price": 27.06,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Sautéed Wood-Fired Peking Duck with Plum Sauce",
+            "price": 28.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Sautéed 24-Hour Braised Short Ribs",
+            "price": 29.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Mouthwatering Chef's Childhood Inspired Creation",
+            "price": 35.91,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -32,14 +66,63 @@ export const galvestonroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Savory Traditional Family Paella",
-            "description": "This savory favorite is hand-folded using chef-selected spices, then accompanied by a tasteful garnish.",
-            "price": 26.11,
+            "name": "Classic Stuffed Sous Vide Perfected Wagyu",
+            "price": 37.83,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Seasonal Creamy Modern Interpretation of Regional Classic",
+            "price": 38.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Smoked Dry-Aged Prime Beef Selection",
+            "price": 27.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Braised Freshly Harvested Seasonal Creation",
+            "price": 35.26,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Sizzling Slow-Roasted Prime Rib",
+            "price": 28.52,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Pan-seared Lobster Thermidor",
+            "price": 24.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -47,84 +130,35 @@ export const galvestonroyalGardenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Classic Pan-seared Gnocchi",
-            "description": "Our floral specialty, seasoned with grass-fed beef and beautifully presented.",
-            "price": 18.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chili con Carne",
-            "description": "Our rich specialty, stir-fried with cultured dairy and beautifully presented.",
-            "price": 20.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Sautéed Lentil Stew",
-            "description": "Our floral specialty, hand-folded with cultured dairy and served with flair.",
-            "price": 24.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Crunchy Shish Kebabs",
-            "description": "Neatly composed and slow-cooked to perfection using hand-picked vegetables.",
-            "price": 27.21,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beef Wellington",
-            "description": "A citrusy dish prepared with sustainable seafood and elegantly served.",
-            "price": 18.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
-          {
-            "name": "Grilled Tofu",
-            "description": "This hearty favorite is braised using hand-picked vegetables, then stacked artistically.",
-            "price": 20,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Burrito",
-            "description": "Served on rustic ware and oven-baked to perfection using heritage grains.",
-            "price": 20.42,
+            "name": "Traditional Spiced Nachos",
+            "price": 12.62,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tacos",
-            "description": "A umami-packed dish composed with organic ingredients and presented on a wooden board.",
-            "price": 26.64,
+            "name": "Handcrafted Zingy Tuna Tartare",
+            "price": 8.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Appetizing Shrimp Cocktail",
+            "price": 13.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Succulent Spring Rolls",
+            "price": 13.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -132,12 +166,38 @@ export const galvestonroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chicken Parmesan",
-            "description": "This pungent favorite is pan-seared using cold-pressed oils, then offered as a tasting portion.",
-            "price": 21.67,
+            "name": "Authentic Stuffed Spinach Puffs",
+            "price": 13.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Crispy Deviled Eggs",
+            "price": 14.18,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Succulent Hummus Platter",
+            "price": 11.62,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Crispy Stuffed Peppers",
+            "price": 9.33,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -147,9 +207,8 @@ export const galvestonroyalGardenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Fresh Tangy Pesto Pasta",
-            "description": "Layered with care and seasoned to perfection using farm-fresh eggs.",
-            "price": 27.46,
+            "name": "Handcrafted Crispy Egg Drop Soup",
+            "price": 11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,32 +216,79 @@ export const galvestonroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Crispy Seafood Platter",
-            "description": "Our fruity specialty, charred with locally sourced produce and drizzled with finesse.",
-            "price": 22.3,
+            "name": "Handcrafted Sizzling Lentil Soup",
+            "price": 7.92,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Smoked Beef Stew",
+            "price": 7.68,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Creamy Turkey and Wild Rice Soup",
+            "price": 7.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Caesar Salad",
+            "price": 13.25,
+            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Enchiladas",
-            "description": "Styled for visual appeal and slow-cooked to perfection using heritage grains.",
-            "price": 24.33,
-            "isVegetarian": false,
+            "name": "Farro Salad",
+            "price": 9.22,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pear and Gorgonzola Salad",
+            "price": 11.3,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef's Pan-seared Stuffed Zucchini Boats",
-            "description": "A aromatic dish marinated with locally foraged herbs and beautifully presented.",
-            "price": 26.66,
-            "isVegetarian": false,
+            "name": "Apple Pecan Salad",
+            "price": 13.92,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lentil and Feta Salad",
+            "price": 13.29,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -192,9 +298,44 @@ export const galvestonroyalGardenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Traditional Crunchy Vegetable Stir-Fry",
-            "description": "Accompanied by a tasteful garnish and cooked to perfection using sustainable seafood.",
-            "price": 28.97,
+            "name": "House Special Steamed Bibimbap",
+            "price": 23.33,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Spicy Beef Burger",
+            "price": 22.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Delicious Stuffed Zucchini Boats",
+            "price": 31.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Stuffed Katsu Curry",
+            "price": 28.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Comforting Cottage Pie",
+            "price": 28.22,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -202,129 +343,8 @@ export const galvestonroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Creamy Grilled Tofu",
-            "description": "Our sweet specialty, poached with seasonal ingredients and served with flair.",
-            "price": 20.24,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pesto Pasta",
-            "description": "A rich dish charred with natural sweeteners and attractively arranged.",
-            "price": 26.25,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coq au Vin",
-            "description": "A buttery dish slow-cooked with locally foraged herbs and beautifully presented.",
-            "price": 18.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Braised Salmon",
-            "description": "Our nutty specialty, stir-fried with handmade pasta and neatly composed.",
-            "price": 29.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Steak",
-            "description": "A tangy dish marinated with wild-caught fish and presented on a wooden board.",
-            "price": 27.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Golden Fish and Chips",
-            "description": "Our rich specialty, glazed with seasonal ingredients and plated with precision.",
-            "price": 19.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Exquisite Teriyaki Chicken",
-            "description": "Our fruity specialty, crafted with free-range meats and artfully plated.",
-            "price": 18.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Pizza",
-            "description": "Our peppery specialty, glazed with cultured dairy and beautifully presented.",
-            "price": 24.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Sizzling Pasta Primavera",
-            "description": "A creamy dish smoked with farm-fresh eggs and neatly composed.",
-            "price": 27.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Teriyaki Chicken",
-            "description": "This refreshing favorite is caramelized using free-range meats, then artfully plated.",
-            "price": 22.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Chef's Braised Pulled Pork Sandwich",
-            "description": "A sweet dish made with seasonal ingredients and beautifully presented.",
-            "price": 24.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Seafood Specialties",
-        "items": [
-          {
-            "name": "Local Roasted Seafood Risotto with Saffron",
-            "description": "Our rich specialty, pan-seared with seasonal ingredients and presented on a wooden board.",
-            "price": 30.5,
+            "name": "Organic Flavorful Risotto",
+            "price": 28.13,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -332,9 +352,58 @@ export const galvestonroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Irresistible Shrimp Scampi over Linguine",
-            "description": "Plated with precision and sautéed to perfection using heritage grains.",
-            "price": 29.29,
+            "name": "Authentic Appetizing Fajitas",
+            "price": 18.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Baked Currywurst",
+            "price": 24.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "items": [
+          {
+            "name": "Premium Spiced Hearty Italian Cioppino",
+            "price": 24.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Herbed Blackened Mahi-Mahi with Pineapple Salsa",
+            "price": 32.26,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Zingy Cedar Plank Roasted Salmon",
+            "price": 26.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Sizzling Tempura Soft Shell Crab",
+            "price": 32.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -342,9 +411,31 @@ export const galvestonroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Blackened Mahi-Mahi with Pineapple Salsa",
-            "description": "Plated with precision and made to perfection using heirloom tomatoes.",
-            "price": 29.8,
+            "name": "Fresh Flaky Oysters Rockefeller with Pernod Cream",
+            "price": 35.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Homestyle Tender Wild Rice Pilaf",
+            "price": 6.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Crunchy Crispy Beer-Battered Onion Rings",
+            "price": 9.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,14 +443,99 @@ export const galvestonroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Stuffed Flounder with Crab and Spinach",
-            "description": "This balanced favorite is made using heritage grains, then garnished to perfection.",
-            "price": 33.68,
+            "name": "Hearty Spicy Braised Red Cabbage with Apple",
+            "price": 6.33,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Savory Herbed Bulgur Wheat with Lemon",
+            "price": 8.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Sizzling Crispy Zucchini Fritters",
+            "price": 6.91,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Crispy Mashed Potatoes",
+            "price": 6.25,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Lemonade",
+            "price": 7.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 5.43,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 4.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 7.71,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 5.27,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 6.31,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
@@ -370,67 +546,88 @@ export const galvestonroyalGardenMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Local Herbed Grilled Chicken",
-            "description": "This tangy favorite is braised using seasonal ingredients, then layered with care.",
-            "price": 27.63,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Fruit Galette",
+            "price": 8.71,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Organic Sizzling Fajitas",
-            "description": "This citrusy favorite is prepared using natural sweeteners, then garnished to perfection.",
-            "price": 18.62,
+            "name": "Crumb Cake",
+            "price": 10.13,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Vegetable Stir-Fry",
-            "description": "Our floral specialty, pan-seared with hand-picked vegetables and attractively arranged.",
-            "price": 21,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Aromatic Teriyaki Chicken",
-            "description": "This rich favorite is made using cultured dairy, then served with flair.",
-            "price": 26.25,
+            "name": "Carrot Cake",
+            "price": 6.26,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Delicious Seafood Platter",
-            "description": "Our tangy specialty, prepared with organic ingredients and served family-style.",
-            "price": 26.08,
+            "name": "Croissants",
+            "price": 7.78,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Berry Tart",
+            "price": 10.77,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Spaghetti Bolognese",
-            "description": "This nutty favorite is crafted using wild-caught fish, then beautifully presented.",
-            "price": 19.36,
+            "name": "Frozen Mousse",
+            "price": 11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sherbet",
+            "price": 7.45,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sorbet",
+            "price": 10.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Sandwich",
+            "price": 7.31,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -438,42 +635,11 @@ export const galvestonroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Flavorful Risotto",
-            "description": "Presented on a wooden board and pan-seared to perfection using wild-caught fish.",
-            "price": 28.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Succulent Shakshuka",
-            "description": "Our savory specialty, prepared with heritage grains and served with flair.",
-            "price": 20.79,
+            "name": "Kulfi",
+            "price": 7.04,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Braised Lentil Stew",
-            "description": "Beautifully presented and slow-cooked to perfection using handmade pasta.",
-            "price": 26.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Katsu Curry",
-            "description": "Our smoky specialty, whipped with grass-fed beef and garnished to perfection.",
-            "price": 21.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -489,9 +655,53 @@ export const galvestonroyalGardenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Blanco Tequila",
-            "description": "Our succulent specialty, pan-seared with premium components and elegantly served.",
-            "price": 10.9,
+            "name": "Negroni",
+            "price": 11.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 14.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 11.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 15.68,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 13.5,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 14.08,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -499,42 +709,11 @@ export const galvestonroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Añejo Tequila",
-            "description": "This pungent favorite is cooked using artisanal elements, then accompanied by a tasteful garnish.",
-            "price": 13.31,
+            "name": "Cosmopolitan",
+            "price": 12.63,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Smoked Martini",
-            "description": "This savory favorite is crafted using aged cheeses, then stacked artistically.",
-            "price": 10.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "description": "A briny dish poached with cultured dairy and neatly composed.",
-            "price": 14.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fortified Wine",
-            "description": "Our citrusy specialty, created with sustainable seafood and artfully plated.",
-            "price": 14.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -544,9 +723,17 @@ export const galvestonroyalGardenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Eggplant Parmesan",
-            "description": "This zesty favorite is whipped using aged cheeses, then garnished to perfection.",
-            "price": 25.5,
+            "name": "Viognier",
+            "price": 11.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Merlot",
+            "price": 12.63,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -554,52 +741,38 @@ export const galvestonroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tagine",
-            "description": "A fruity dish grilled with organic ingredients and drizzled with finesse.",
-            "price": 22.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Sweet Pasta Primavera",
-            "description": "A tangy dish pan-seared with cold-pressed oils and beautifully presented.",
-            "price": 19.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Grilled Pulled Pork Sandwich",
-            "description": "Neatly composed and slow-cooked to perfection using artisanal elements.",
-            "price": 26.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Tangy Steak",
-            "description": "This complex favorite is cooked using free-range meats, then layered with care.",
-            "price": 18.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Herbed Jambalaya",
-            "description": "This fruity favorite is made using finest quality ingredients, then neatly composed.",
-            "price": 25.68,
+            "name": "Cabernet Franc",
+            "price": 9.99,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Dolcetto",
+            "price": 13.92,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sangiovese",
+            "price": 13.96,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Riesling",
+            "price": 13.28,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -609,29 +782,8 @@ export const galvestonroyalGardenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Pasta Primavera",
-            "description": "This herbaceous favorite is stir-fried using cultured dairy, then elegantly served.",
-            "price": 22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Crunchy Shakshuka",
-            "description": "Attractively arranged and assembled to perfection using locally foraged herbs.",
-            "price": 27.88,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Exquisite Biryani",
-            "description": "This bold favorite is oven-baked using hand-picked vegetables, then attractively arranged.",
-            "price": 20.48,
+            "name": "Whiskey",
+            "price": 11.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -639,9 +791,35 @@ export const galvestonroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Golden Quiche",
-            "description": "Elegantly served and assembled to perfection using chef-selected spices.",
-            "price": 28.1,
+            "name": "Gin",
+            "price": 12.87,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frangelico",
+            "price": 16.38,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grand Marnier",
+            "price": 14.44,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Drambuie",
+            "price": 16.7,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,

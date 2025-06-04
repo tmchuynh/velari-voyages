@@ -12,19 +12,8 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "House Special Spiced Japanese A5 Wagyu with Ponzu Butter",
-            "description": "Our succulent specialty, infused with microgreens and neatly composed.",
-            "price": 28.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Zingy Award-Winning Seafood Boil",
-            "description": "Beautifully presented and cooked to perfection using sun-ripened fruits.",
-            "price": 25.28,
+            "name": "Organic Steamed Molecular Gastronomy Showcase Tasting",
+            "price": 26.31,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -32,9 +21,103 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Heritage Recipe Lamb Shank",
-            "description": "A savory dish oven-baked with sun-ripened fruits and beautifully presented.",
-            "price": 32.11,
+            "name": "Seasonal Grilled Flambéed Tableside Specialty",
+            "price": 34.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Wholesome Heritage Recipe Lamb Shank",
+            "price": 26.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Aromatic Chef's Childhood Inspired Creation",
+            "price": 24.62,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Creamy Traditional Family Paella",
+            "price": 36.44,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Hearty Captain's Favorite Seafood Tower",
+            "price": 32.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Spicy Signature Truffle Pasta with Aged Pecorino",
+            "price": 37.55,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Premium Exquisite Seasonal Truffle Risotto",
+            "price": 36.88,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Stuffed Chef's Market Inspiration of the Day",
+            "price": 30.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Succulent Tableside Flambé Preparation",
+            "price": 34.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Enticing Black Garlic Marinated Octopus",
+            "price": 36.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Baked Fire-Roasted Seasonal Centerpiece",
+            "price": 32.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -47,98 +130,75 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Quiche",
-            "description": "This savory favorite is grilled using heirloom tomatoes, then presented on a wooden board.",
-            "price": 23.83,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Delicious Paella",
-            "description": "Our earthy specialty, assembled with free-range meats and offered as a tasting portion.",
-            "price": 20.14,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Marinated Shakshuka",
-            "description": "This herbaceous favorite is slow-cooked using free-range meats, then plated with precision.",
-            "price": 24.93,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Pan-seared Biryani",
-            "description": "A succulent dish pan-seared with artisanal elements and beautifully presented.",
-            "price": 28.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Satisfying Chili con Carne",
-            "description": "This fruity favorite is cooked using house-made sauces, then drizzled with finesse.",
-            "price": 25.91,
+            "name": "Seasonal Spicy Mini Quesadillas",
+            "price": 8.28,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
+          },
           {
-            "name": "Classic Delectable Risotto",
-            "description": "Beautifully presented and made to perfection using finest quality ingredients.",
-            "price": 25.66,
-            "isVegetarian": false,
+            "name": "Deluxe Grilled Baked Brie",
+            "price": 9.44,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Signature Stuffed Salmon",
-            "description": "Beautifully presented and crafted to perfection using heritage grains.",
-            "price": 23.48,
+            "name": "Organic Golden Nachos",
+            "price": 15.59,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Pan-seared Edamame",
+            "price": 13.26,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Stuffed Falafel",
+            "price": 15.6,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Irresistible Caprese Salad",
+            "price": 12.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Zingy Garlic Knots",
+            "price": 9.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Signature Marinated Mac and Cheese",
-            "description": "Our rich specialty, oven-baked with finest quality ingredients and neatly composed.",
-            "price": 21.39,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Comforting Thai Curry",
-            "description": "This buttery favorite is sautéed using aged cheeses, then stacked artistically.",
-            "price": 29.62,
-            "isVegetarian": true,
+            "name": "Authentic Steamed Crostini",
+            "price": 14.79,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -147,9 +207,8 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Steak",
-            "description": "A balanced dish composed with finest quality ingredients and styled for visual appeal.",
-            "price": 18.19,
+            "name": "Authentic Comforting Cabbage Soup",
+            "price": 8.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,9 +216,67 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Chef's Crunchy Risotto",
-            "description": "This bold favorite is fire-roasted using aged cheeses, then elegantly served.",
-            "price": 29.88,
+            "name": "Fresh Succulent Seafood Chowder",
+            "price": 7.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Pan-seared Chicken Corn Soup",
+            "price": 7.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Grilled Beef Stew",
+            "price": 8.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Arugula Salad",
+            "price": 12.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Broccoli Crunch Salad",
+            "price": 11.23,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Quinoa Salad",
+            "price": 15.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pecan Salad",
+            "price": 13.15,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -167,22 +284,11 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lentil Stew",
-            "description": "This delicate favorite is stir-fried using artisanal elements, then beautifully presented.",
-            "price": 24.73,
-            "isVegetarian": false,
+            "name": "Waldorf Salad",
+            "price": 13.5,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Spiced Paella",
-            "description": "Our sweet specialty, braised with organic ingredients and artfully plated.",
-            "price": 29.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -192,29 +298,26 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Katsu Curry",
-            "description": "Garnished to perfection and hand-rolled to perfection using premium components.",
-            "price": 28.07,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Flavorful Fajitas",
-            "description": "Our refreshing specialty, prepared with locally sourced produce and styled for visual appeal.",
-            "price": 18.02,
-            "isVegetarian": true,
+            "name": "Classic Zingy Pho",
+            "price": 22.38,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Eggplant Parmesan",
-            "description": "Our creamy specialty, crafted with hand-picked vegetables and neatly composed.",
-            "price": 29.69,
+            "name": "Premium Steamed Quiche",
+            "price": 23.2,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Delectable Shakshuka",
+            "price": 26.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -222,9 +325,17 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Teriyaki Chicken",
-            "description": "This floral favorite is sautéed using aged cheeses, then drizzled with finesse.",
-            "price": 27.55,
+            "name": "Classic Grilled Beef Burger",
+            "price": 29.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Irresistible Korma",
+            "price": 25.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -232,9 +343,8 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Shish Kebabs",
-            "description": "Our herbaceous specialty, poached with locally foraged herbs and neatly composed.",
-            "price": 31.04,
+            "name": "Hearty Exquisite Ramen",
+            "price": 26.5,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -242,19 +352,8 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Juicy Lentil Stew",
-            "description": "This delicate favorite is prepared using wild-caught fish, then stacked artistically.",
-            "price": 20.62,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spaghetti Bolognese",
-            "description": "This delicate favorite is charred using sun-ripened fruits, then garnished to perfection.",
-            "price": 21.6,
+            "name": "Seasonal Appetizing Thai Curry",
+            "price": 26.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -262,9 +361,58 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lasagna",
-            "description": "Elegantly served and marinated to perfection using handmade pasta.",
-            "price": 22.57,
+            "name": "Hearty Spicy Biryani",
+            "price": 31.2,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "items": [
+          {
+            "name": "Traditional Comforting Oysters Rockefeller with Pernod Cream",
+            "price": 30.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Grilled Seafood Alfredo with Spinach Fettuccine",
+            "price": 31.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Steamed Linguine with Clam Sauce",
+            "price": 25.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Savory Tempura Soft Shell Crab",
+            "price": 29.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Fried Smoked Salmon Platter with Dill Crème",
+            "price": 35.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -277,29 +425,17 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Jambalaya",
-            "description": "This bold favorite is made using hand-picked vegetables, then plated with precision.",
-            "price": 24.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Enticing Shakshuka",
-            "description": "Nestled in a ceramic bowl and cooked to perfection using heirloom tomatoes.",
-            "price": 27.89,
+            "name": "Gourmet Luscious Sweet Potato Wedges with Smoked Paprika",
+            "price": 7.46,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Biryani",
-            "description": "This subtle favorite is stir-fried using finest quality ingredients, then served on rustic ware.",
-            "price": 19.26,
+            "name": "Deluxe Delectable Mashed Potatoes",
+            "price": 6.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,44 +443,49 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Grilled Beef Burger",
-            "description": "Our smoky specialty, charred with seasonal ingredients and served with flair.",
-            "price": 21.56,
+            "name": "Handcrafted Spiced Chili Lime Roasted Chickpeas",
+            "price": 9.64,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked Roasted Root Vegetables",
+            "price": 5.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Smoked Crispy Zucchini Fritters",
+            "price": 8.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Delectable Warm Buttermilk Dinner Rolls",
+            "price": 6.73,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
-        "name": "Seafood Specialties",
+        "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Classic Roasted Mussels Mariniere in White Wine",
-            "description": "A refreshing dish hand-folded with locally sourced produce and accompanied by a tasteful garnish.",
-            "price": 35.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cajun Shrimp and Grits",
-            "description": "This nutty favorite is prepared using locally foraged herbs, then served family-style.",
-            "price": 28.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Italian Cioppino",
-            "description": "Our rich specialty, created with farm-fresh eggs and nestled in a ceramic bowl.",
-            "price": 27.15,
+            "name": "Tea",
+            "price": 7.34,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,10 +493,45 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seafood Risotto with Saffron",
-            "description": "Beautifully presented and cooked to perfection using sun-ripened fruits.",
-            "price": 33.29,
+            "name": "Smoothie",
+            "price": 7.93,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 7.02,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 4.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 6.06,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 6.1,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -370,32 +546,38 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Moussaka",
-            "description": "Presented on a wooden board and hand-rolled to perfection using seasonal ingredients.",
-            "price": 20.21,
+            "name": "Fruit Galette",
+            "price": 7.32,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Tangy Pizza",
-            "description": "This creamy favorite is whipped using farm-fresh eggs, then accompanied by a tasteful garnish.",
-            "price": 18.82,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Succulent Currywurst",
-            "description": "This herbaceous favorite is braised using cold-pressed oils, then presented on a wooden board.",
-            "price": 27.17,
+            "name": "Chocolate Chip Cookies",
+            "price": 10.81,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Eclairs",
+            "price": 9.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Madeleines",
+            "price": 6.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -403,20 +585,9 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coq au Vin",
-            "description": "This zesty favorite is sautéed using locally sourced produce, then stacked artistically.",
-            "price": 21.88,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Grilled Pasta Primavera",
-            "description": "Served on rustic ware and created to perfection using microgreens.",
-            "price": 23.27,
-            "isVegetarian": false,
+            "name": "Biscotti",
+            "price": 10.71,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -425,12 +596,11 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Tagine",
-            "description": "Nestled in a ceramic bowl and glazed to perfection using locally sourced produce.",
-            "price": 20.91,
+            "name": "Ice Cream Cake",
+            "price": 9.37,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -438,9 +608,8 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Sizzling Enchiladas",
-            "description": "A smoky dish stir-fried with organic ingredients and beautifully presented.",
-            "price": 29.36,
+            "name": "Frozen Pudding",
+            "price": 11.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -448,34 +617,31 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Steamed Jambalaya",
-            "description": "A floral dish assembled with sun-ripened fruits and plated with precision.",
-            "price": 21.73,
+            "name": "Frozen Banana",
+            "price": 9.95,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pulled Pork Sandwich",
-            "description": "Our aromatic specialty, oven-baked with cultured dairy and neatly composed.",
-            "price": 28.74,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Traditional Aromatic Teriyaki Chicken",
-            "description": "A zesty dish caramelized with finest quality ingredients and accompanied by a tasteful garnish.",
-            "price": 22.62,
+            "name": "Sorbet",
+            "price": 7.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Baked Alaska",
+            "price": 11.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
@@ -489,9 +655,26 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Tequila",
-            "description": "A zesty dish pan-seared with wild-caught fish and served with flair.",
-            "price": 9.14,
+            "name": "Martini",
+            "price": 11.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 15.67,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 13.23,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -499,29 +682,17 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Luscious Old Tom Gin",
-            "description": "This creamy favorite is charred using cold-pressed oils, then attractively arranged.",
-            "price": 14.1,
+            "name": "Mai Tai",
+            "price": 10.7,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cognac",
-            "description": "Beautifully presented and smoked to perfection using organic ingredients.",
-            "price": 11.11,
-            "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Reposado Tequila",
-            "description": "Plated with precision and grilled to perfection using cold-pressed oils.",
-            "price": 12.53,
+            "name": "Manhattan",
+            "price": 15.54,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,9 +700,17 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Whiskey",
-            "description": "Our creamy specialty, composed with artisanal elements and served on rustic ware.",
-            "price": 13.27,
+            "name": "Old Fashioned",
+            "price": 14.72,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 10.67,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -544,9 +723,8 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Moussaka",
-            "description": "A subtle dish poached with grass-fed beef and garnished to perfection.",
-            "price": 24.1,
+            "name": "Vouvray",
+            "price": 11.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -554,9 +732,17 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Crispy Thai Curry",
-            "description": "A balanced dish composed with organic ingredients and beautifully presented.",
-            "price": 24.78,
+            "name": "Merlot",
+            "price": 11.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Prosecco",
+            "price": 13.38,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -564,40 +750,27 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pulled Pork Sandwich",
-            "description": "This peppery favorite is composed using finest quality ingredients, then beautifully presented.",
-            "price": 24.62,
-            "isVegetarian": false,
+            "name": "Pinot Blanc",
+            "price": 9.6,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Salmon",
-            "description": "Attractively arranged and braised to perfection using finest quality ingredients.",
-            "price": 20.64,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Korma",
-            "description": "Plated with precision and braised to perfection using farm-fresh eggs.",
-            "price": 18.62,
-            "isVegetarian": false,
+            "name": "Cabernet Franc",
+            "price": 11.69,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Tender Spaghetti Bolognese",
-            "description": "Our savory specialty, pan-seared with organic ingredients and nestled in a ceramic bowl.",
-            "price": 23.58,
-            "isVegetarian": false,
+            "name": "Sémillon",
+            "price": 11.37,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -609,19 +782,17 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Fresh Enticing Teriyaki Chicken",
-            "description": "A herbaceous dish prepared with seasonal ingredients and presented on a wooden board.",
-            "price": 29.25,
-            "isVegetarian": false,
+            "name": "Cointreau",
+            "price": 15.46,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Pesto Pasta",
-            "description": "This bold favorite is grilled using sustainable seafood, then served with flair.",
-            "price": 18.46,
+            "name": "Bénédictine",
+            "price": 17.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -629,19 +800,26 @@ export const fortLauderdaletheBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Grilled Lasagna",
-            "description": "This nutty favorite is stir-fried using finest quality ingredients, then styled for visual appeal.",
-            "price": 29.19,
+            "name": "Limoncello",
+            "price": 12,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Anisette",
+            "price": 13.05,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Ramen",
-            "description": "A buttery dish assembled with premium components and artfully plated.",
-            "price": 22.61,
+            "name": "Bourbon",
+            "price": 14.93,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,

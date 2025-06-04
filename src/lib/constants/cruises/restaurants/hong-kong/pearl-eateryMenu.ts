@@ -12,19 +12,103 @@ export const hongKongpearlEateryMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Organic Herbed Caribbean-Style Jerk Duck with Mango Slaw",
-            "description": "This zesty favorite is stir-fried using hand-picked vegetables, then offered as a tasting portion.",
-            "price": 24.75,
+            "name": "Authentic Fried Chef's Special Surf and Turf",
+            "price": 35.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Traditional Stuffed Local Bounty Harvest Plate (Vegetarian)",
-            "description": "Our umami-packed specialty, grilled with sustainable seafood and plated with precision.",
-            "price": 25.75,
+            "name": "Hearty Satisfying Tableside Carved Chateaubriand",
+            "price": 25.25,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Wholesome Restaurant's Namesake Signature Entrée",
+            "price": 31.53,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Hearty Celebrity Favorite Lobster Dish",
+            "price": 26.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Smoked Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 36.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Herbed Molecular Gastronomy Showcase Tasting",
+            "price": 25.57,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Creamy Chef's Childhood Inspired Creation",
+            "price": 34.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Authentic Zingy Chef's Tasting Menu Experience",
+            "price": 39.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Crispy Grilled Venison with Juniper Berry Sauce",
+            "price": 36.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Creamy Black Garlic Marinated Octopus",
+            "price": 37.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Sweet Daily Fresh Catch with Seasonal Accompaniments",
+            "price": 29.07,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -32,14 +116,13 @@ export const hongKongpearlEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Herbed Charcoal Grilled Iberico Pork",
-            "description": "Accompanied by a tasteful garnish and grilled to perfection using sun-ripened fruits.",
-            "price": 32.04,
+            "name": "Gourmet Luscious Heirloom Recipe from Chef's Family",
+            "price": 29.34,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -47,39 +130,8 @@ export const hongKongpearlEateryMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "House Special Herbed Fajitas",
-            "description": "Our rich specialty, fire-roasted with heritage grains and garnished to perfection.",
-            "price": 23.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Moussaka",
-            "description": "Nestled in a ceramic bowl and fire-roasted to perfection using organic ingredients.",
-            "price": 19.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stir-fry",
-            "description": "A delicate dish charred with wild-caught fish and styled for visual appeal.",
-            "price": 19.87,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Marinated Biryani",
-            "description": "Neatly composed and grilled to perfection using handmade pasta.",
-            "price": 21.71,
+            "name": "Seasonal Smoked Spring Rolls",
+            "price": 12.72,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -87,9 +139,103 @@ export const hongKongpearlEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Crispy Paella",
-            "description": "This robust favorite is seasoned using wild-caught fish, then beautifully presented.",
-            "price": 19.31,
+            "name": "Fresh Creamy Crostini",
+            "price": 9.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Mouthwatering Sweet Potato Fries",
+            "price": 9.77,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Tender Baked Brie",
+            "price": 12.22,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Spiced Prawn Cocktail",
+            "price": 12.45,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Delicious Hummus Platter",
+            "price": 14.52,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Stuffed Lettuce Wraps",
+            "price": 11.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Crispy Falafel",
+            "price": 11.8,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Soups",
+        "items": [
+          {
+            "name": "Gourmet Crispy Peanut Soup (West African)",
+            "price": 9.77,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Crunchy Tomato Soup",
+            "price": 12.71,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Wholesome Miso Soup",
+            "price": 8.97,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Golden Borscht",
+            "price": 10.9,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -102,19 +248,8 @@ export const hongKongpearlEateryMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Steak",
-            "description": "This umami-packed favorite is charred using heritage grains, then garnished to perfection.",
-            "price": 26.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Sizzling Stuffed Zucchini Boats",
-            "description": "Attractively arranged and roasted to perfection using grass-fed beef.",
-            "price": 23.75,
+            "name": "Roasted Vegetable Salad",
+            "price": 9.17,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -122,68 +257,39 @@ export const hongKongpearlEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Grilled Mac and Cheese",
-            "description": "Served family-style and sautéed to perfection using seasonal ingredients.",
-            "price": 28.65,
-            "isVegetarian": true,
+            "name": "Quinoa Salad",
+            "price": 12.67,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Juicy Vegetable Stir-Fry",
-            "description": "A rich dish pan-seared with organic ingredients and beautifully presented.",
-            "price": 26.74,
+            "name": "Caesar Salad",
+            "price": 13.22,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Soups",
-        "items": [
+          },
           {
-            "name": "Ramen",
-            "description": "Styled for visual appeal and made to perfection using seasonal ingredients.",
-            "price": 23.42,
+            "name": "Greek Salad",
+            "price": 14.35,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Delectable Spaghetti Bolognese",
-            "description": "A herbaceous dish glazed with artisanal elements and neatly composed.",
-            "price": 21.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lentil Stew",
-            "description": "A nutty dish assembled with seasonal ingredients and beautifully presented.",
-            "price": 19.81,
+            "name": "Broccoli Crunch Salad",
+            "price": 15.22,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beef Wellington",
-            "description": "Styled for visual appeal and roasted to perfection using organic ingredients.",
-            "price": 24.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -192,19 +298,62 @@ export const hongKongpearlEateryMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Grilled Chicken",
-            "description": "This rich favorite is composed using sun-ripened fruits, then stacked artistically.",
-            "price": 26.66,
+            "name": "Fresh Flavorful Fajitas",
+            "price": 21.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Delicious Chicken Parmesan",
+            "price": 18.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Stuffed Chili con Carne",
+            "price": 21.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Zingy Ramen",
+            "price": 20.75,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Savory Quiche",
+            "price": 22.79,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Braised Lamb Chops",
+            "price": 21.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Classic Herbed Cottage Pie",
-            "description": "A briny dish glazed with premium components and served with flair.",
-            "price": 24,
+            "name": "Gourmet Luscious Gnocchi",
+            "price": 23.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -212,109 +361,13 @@ export const hongKongpearlEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Katsu Curry",
-            "description": "Styled for visual appeal and composed to perfection using grass-fed beef.",
-            "price": 25.41,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Flaky Fajitas",
-            "description": "This citrusy favorite is hand-rolled using sun-ripened fruits, then served family-style.",
-            "price": 20.27,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Exquisite Biryani",
-            "description": "This balanced favorite is oven-baked using wild-caught fish, then neatly composed.",
-            "price": 24.37,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Eggplant Parmesan",
-            "description": "This aromatic favorite is pan-seared using organic ingredients, then plated with precision.",
-            "price": 26.64,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Smoked Lentil Stew",
-            "description": "This pungent favorite is made using natural sweeteners, then garnished to perfection.",
-            "price": 26.45,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Pan-seared Tacos",
-            "description": "Our succulent specialty, cooked with locally sourced produce and plated with precision.",
-            "price": 20.76,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Signature Herbed Pasta Primavera",
-            "description": "Our buttery specialty, composed with organic ingredients and styled for visual appeal.",
-            "price": 28.06,
+            "name": "Authentic Tangy Biryani",
+            "price": 23.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seafood Platter",
-            "description": "Our succulent specialty, pan-seared with organic ingredients and presented on a wooden board.",
-            "price": 27.21,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Tangy Burrito",
-            "description": "Stacked artistically and roasted to perfection using seasonal ingredients.",
-            "price": 18.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stir-fry",
-            "description": "This nutty favorite is fire-roasted using artisanal elements, then drizzled with finesse.",
-            "price": 19.11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -322,9 +375,58 @@ export const hongKongpearlEateryMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Chef's Smoked Shrimp Scampi over Linguine",
-            "description": "A earthy dish stir-fried with non-GMO produce and neatly composed.",
-            "price": 28.04,
+            "name": "Fresh Herbed Classic British Fish and Chips",
+            "price": 35.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Aromatic Oysters Rockefeller with Pernod Cream",
+            "price": 32.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Satisfying Hearty Italian Cioppino",
+            "price": 22.48,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Spicy Crab-Stuffed Mushrooms",
+            "price": 24.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Hearty Seafood Alfredo with Spinach Fettuccine",
+            "price": 35.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Authentic Crispy Sautéed Garlic Mushrooms",
+            "price": 8.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -332,34 +434,108 @@ export const hongKongpearlEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Crunchy Grilled Spanish Octopus with Smoked Paprika",
-            "description": "Served family-style and cooked to perfection using heirloom tomatoes.",
-            "price": 34.86,
+            "name": "Authentic Sweet Fragrant Basmati Rice Pilaf",
+            "price": 7.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Mouthwatering Wild Mushroom Risotto",
+            "price": 5.5,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Flavorful Sweet Potato Wedges with Smoked Paprika",
+            "price": 9.99,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Pan-seared Baked Idaho Potato with Sour Cream",
+            "price": 5.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Delectable Mashed Potatoes",
+            "price": 8.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Smoothie",
+            "price": 5.87,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 7.3,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 7.82,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 5.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 4.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 5.49,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Organic Smoked New England Lobster Roll",
-            "description": "A peppery dish glazed with wild-caught fish and served family-style.",
-            "price": 27.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pan-Seared Scallops with Pea Purée",
-            "description": "Our succulent specialty, composed with artisanal elements and elegantly served.",
-            "price": 33.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
           }
         ]
       }
@@ -370,12 +546,38 @@ export const hongKongpearlEateryMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Classic Irresistible Coq au Vin",
-            "description": "This zesty favorite is hand-rolled using locally foraged herbs, then artfully plated.",
-            "price": 19.43,
+            "name": "Cinnamon Rolls",
+            "price": 10.18,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Custard Tart",
+            "price": 9.93,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pie",
+            "price": 9.59,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cobbler",
+            "price": 6.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -383,96 +585,60 @@ export const hongKongpearlEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Braised Steak",
-            "description": "Beautifully presented and seasoned to perfection using cold-pressed oils.",
-            "price": 24.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Local Creamy Beef Burger",
-            "description": "A smoky dish sautéed with seasonal ingredients and served family-style.",
-            "price": 26.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seafood Platter",
-            "description": "This zesty favorite is glazed using locally sourced produce, then accompanied by a tasteful garnish.",
-            "price": 24.85,
-            "isVegetarian": false,
+            "name": "Strawberry Shortcake",
+            "price": 6.36,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Beef Wellington",
-            "description": "Our hearty specialty, prepared with sun-ripened fruits and plated with precision.",
-            "price": 27.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
           }
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Jambalaya",
-            "description": "A nutty dish composed with handmade pasta and served family-style.",
-            "price": 27.81,
+            "name": "Popsicles",
+            "price": 7.31,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Mousse",
+            "price": 11.56,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Lasagna",
-            "description": "This buttery favorite is cooked using microgreens, then garnished to perfection.",
-            "price": 26.6,
+            "name": "Frozen Pudding",
+            "price": 10.93,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sherbet",
+            "price": 11.13,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fish and Chips",
-            "description": "Our robust specialty, composed with locally sourced produce and garnished to perfection.",
-            "price": 18.99,
+            "name": "Snow Cone",
+            "price": 10.64,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Enchiladas",
-            "description": "Our fruity specialty, crafted with sustainable seafood and beautifully presented.",
-            "price": 19.11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Sizzling Fajitas",
-            "description": "Our citrusy specialty, made with heirloom tomatoes and accompanied by a tasteful garnish.",
-            "price": 26.91,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -489,29 +655,53 @@ export const hongKongpearlEateryMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "House Special Wholesome Beer",
-            "description": "Our aromatic specialty, glazed with artisanal elements and garnished to perfection.",
-            "price": 11.28,
+            "name": "Old Fashioned",
+            "price": 15.43,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "description": "A rich dish glazed with locally foraged herbs and garnished to perfection.",
-            "price": 13.01,
+            "name": "Mai Tai",
+            "price": 12.57,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 12.4,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 10.41,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Roasted Old Fashioned",
-            "description": "A peppery dish glazed with seasonal ingredients and presented on a wooden board.",
-            "price": 13.53,
+            "name": "Martini",
+            "price": 14.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 14.56,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -519,22 +709,11 @@ export const hongKongpearlEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Creamy Tequila",
-            "description": "Accompanied by a tasteful garnish and roasted to perfection using seasonal ingredients.",
-            "price": 12.88,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Spiced Cider",
-            "description": "Our robust specialty, stir-fried with aged cheeses and beautifully presented.",
-            "price": 13.04,
+            "name": "Negroni",
+            "price": 14.97,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -544,19 +723,35 @@ export const hongKongpearlEateryMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Chicken Parmesan",
-            "description": "This robust favorite is oven-baked using non-GMO produce, then plated with precision.",
-            "price": 18.91,
+            "name": "Zinfandel",
+            "price": 8.14,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Syrah/Shiraz",
+            "price": 13.67,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chenin Blanc",
+            "price": 10.29,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Eggplant Parmesan",
-            "description": "A herbaceous dish whipped with seasonal ingredients and garnished to perfection.",
-            "price": 22.72,
+            "name": "Merlot",
+            "price": 9.91,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -564,39 +759,17 @@ export const hongKongpearlEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Appetizing Thai Curry",
-            "description": "Our refreshing specialty, pan-seared with organic ingredients and beautifully presented.",
-            "price": 23.03,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Paella",
-            "description": "A smoky dish stir-fried with natural sweeteners and served on rustic ware.",
-            "price": 22.46,
+            "name": "Sangiovese",
+            "price": 11.76,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Sautéed Salmon",
-            "description": "Beautifully presented and stir-fried to perfection using artisanal elements.",
-            "price": 20.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Signature Flavorful Moussaka",
-            "description": "Presented on a wooden board and assembled to perfection using artisanal elements.",
-            "price": 25.81,
+            "name": "Cabernet Sauvignon",
+            "price": 9.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -609,41 +782,46 @@ export const hongKongpearlEateryMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Organic Sweet Burrito",
-            "description": "This subtle favorite is caramelized using heirloom tomatoes, then presented on a wooden board.",
-            "price": 22.52,
-            "isVegetarian": false,
+            "name": "Calvados",
+            "price": 10.03,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grappa",
+            "price": 13.37,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "St-Germain",
+            "price": 14.72,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Smoked Steak",
-            "description": "Neatly composed and braised to perfection using non-GMO produce.",
-            "price": 26.68,
+            "name": "Galliano",
+            "price": 11.59,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Coq au Vin",
-            "description": "This spicy favorite is crafted using artisanal elements, then artfully plated.",
-            "price": 25.13,
-            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Paella",
-            "description": "Our tangy specialty, pan-seared with premium components and attractively arranged.",
-            "price": 18.21,
+            "name": "Tequila",
+            "price": 11.64,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
