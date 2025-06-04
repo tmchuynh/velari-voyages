@@ -215,3 +215,27 @@ export async function getAllCruises(): Promise<Cruise[]> {
 
   return allCruises;
 }
+
+
+export function getVesselTypeDescription(type: string): string {
+  switch (type) {
+    case "Mainstream Cruise Ship":
+      return "Our core fleet of versatile ships offers broad appeal for multigenerational travelers, featuring a wide range of dining options, entertainment venues, and curated experiences at an exceptional value.";
+    case "Mega Cruise Ship":
+      return "Our largest and most dynamic vessels, offering an immersive floating-city experience with themed neighborhoods, expansive dining options, world-class performances, and innovative onboard attractions for all types of travelers.";
+    case "Ocean Cruise Ship":
+      return "Refined mid-size vessels designed for open-sea exploration and longer itineraries, with a focus on spacious public areas, ocean-view accommodations, and enriching destination-driven programming.";
+    case "Luxury Cruise Ship":
+      return "Elegantly appointed ships that set the standard for premium travel at sea — featuring gourmet dining, elevated design, personalized service, and a focus on comfort, privacy, and cultural depth.";
+    case "Small Cruise Ship":
+      return "Intimate, design-forward vessels with fewer guests, allowing access to off-the-beaten-path ports and offering a relaxed, highly personalized atmosphere perfect for sophisticated travelers seeking connection and calm.";
+    case "Adventure Cruise Ship":
+      return "Purpose-built ships for active travelers, equipped with expedition gear, water sports facilities, and programming that emphasizes outdoor exploration, physical engagement, and immersive natural encounters.";
+    case "Expedition Cruise Ship":
+      return "Ice-class and remote-capable vessels designed for discovery in the planet's most pristine corners — led by onboard experts, with science-led programming, robust safety systems, and environmentally sensitive operations.";
+    case "River Cruise Ship":
+      return "Gracefully designed ships crafted for inland navigation, offering ever-changing views, culturally immersive shore excursions, and regionally inspired cuisine in a relaxed and elegant setting.";
+    default:
+      return "Our specialized fleet offers a diverse range of vessels, each uniquely tailored to provide transformative, destination-aligned experiences across the world's oceans, rivers, and remote waterways.";
+  }
+}
