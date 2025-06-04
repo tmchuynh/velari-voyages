@@ -13,6 +13,10 @@ export function featuredArray(array: any[]) {
   return array.filter((item) => item?.featured === true);
 }
 
+export function popularArray(array: any[]) {
+  return array.filter((item) => item?.isPopular === true);
+}
+
 export function sortByLength(
   array: string[],
   ascending: boolean = true
