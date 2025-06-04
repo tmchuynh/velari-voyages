@@ -1,10 +1,19 @@
 "use client";
 import Loading from "@/components/Loading";
+import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { Label } from "@/components/ui/label";
 import { cityFiles } from "@/lib/constants/info/city.ts";
 import { Restaurant } from "@/lib/types/types";
-import { formatTitleToKebabCase } from "@/lib/utils/format.ts";
+import { capitalize, formatTitleToKebabCase } from "@/lib/utils/format.ts";
 import { getAllRestaurantsFromCity } from "@/lib/utils/get.ts";
+import { ChevronDown } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -20,6 +29,14 @@ export default function RestaurantPage() {
   const [selectedCity, setSelectedCity] = useState<string>("");
   const [selectedPriceRange, setSelectedPriceRange] = useState<string>("");
   const [selectedCuisine, setSelectedCuisine] = useState<string>("");
+
+  // State to track selected filter labels
+  const [selectedCityLabel, setSelectedCityLabel] =
+    useState<string>("All Cities");
+  const [selectedPriceLabel, setSelectedPriceLabel] =
+    useState<string>("All Price Ranges");
+  const [selectedCuisineLabel, setSelectedCuisineLabel] =
+    useState<string>("All Cuisines");
 
   useEffect(() => {
     const fetchData = async () => {
@@ -113,69 +130,110 @@ export default function RestaurantPage() {
       <h1 className="mb-6 font-bold text-3xl">Our Restaurants</h1>
 
       {/* Filters section */}
-      <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-8">
+      <div className="gap-4 grid grid-cols-1 md:grid-cols-3 mb-8">
         <div>
-          <label
-            htmlFor="city-filter"
-            className="block mb-1 font-medium text-sm"
-          >
+          <Label htmlFor="city-filter" className="block mb-2">
             City
-          </label>
-          <select
-            id="city-filter"
-            value={selectedCity}
-            onChange={(e) => setSelectedCity(e.target.value)}
-            className="p-2 border rounded-md w-full"
-          >
-            <option value="">All Cities</option>
-            {getCities().map((city) => (
-              <option key={city} value={city}>
-                {city}
-              </option>
-            ))}
-          </select>
-
-          <label
-            htmlFor="price-filter"
-            className="block mt-4 mb-1 font-medium text-sm"
-          >
-            Price
-          </label>
-          <select
-            id="price-filter"
-            value={selectedPriceRange}
-            onChange={(e) => setSelectedPriceRange(e.target.value)}
-            className="p-2 border rounded-md w-full"
-          >
-            <option value="">All Price Ranges</option>
-            {getPriceRanges().map((price) => (
-              <option key={price} value={price}>
-                {price}
-              </option>
-            ))}
-          </select>
+          </Label>
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button variant="outline" className="justify-between">
+                {selectedCityLabel}
+                <ChevronDown className="opacity-50 w-4 h-4" />
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="max-h-[25rem]">
+              <DropdownMenuItem
+                onClick={() => {
+                  setSelectedCity("");
+                  setSelectedCityLabel("All Cities");
+                }}
+              >
+                All Cities
+              </DropdownMenuItem>
+              {getCities().map((city) => (
+                <DropdownMenuItem
+                  key={city}
+                  onClick={() => {
+                    setSelectedCity(city);
+                    setSelectedCityLabel(city);
+                  }}
+                >
+                  {capitalize(city)}
+                </DropdownMenuItem>
+              ))}
+            </DropdownMenuContent>
+          </DropdownMenu>
         </div>
 
         <div>
-          <label
-            htmlFor="cuisine-filter"
-            className="block mb-1 font-medium text-sm"
-          >
+          <Label htmlFor="price-filter" className="block mb-2">
+            Price
+          </Label>
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button variant="outline" className="justify-between">
+                {selectedPriceLabel}
+                <ChevronDown className="opacity-50 w-4 h-4" />
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="max-h-[25rem]">
+              <DropdownMenuItem
+                onClick={() => {
+                  setSelectedPriceRange("");
+                  setSelectedPriceLabel("All Price Ranges");
+                }}
+              >
+                All Price Ranges
+              </DropdownMenuItem>
+              {getPriceRanges().map((price) => (
+                <DropdownMenuItem
+                  key={price}
+                  onClick={() => {
+                    setSelectedPriceRange(price);
+                    setSelectedPriceLabel(price);
+                  }}
+                >
+                  {price}
+                </DropdownMenuItem>
+              ))}
+            </DropdownMenuContent>
+          </DropdownMenu>
+        </div>
+
+        <div>
+          <Label htmlFor="cuisine-filter" className="block mb-2">
             Cuisine
-          </label>
-          <select
-            id="cuisine-filter"
-            value={selectedCuisine}
-            onChange={(e) => setSelectedCuisine(e.target.value)}
-            className="p-2 border rounded-md w-full"
-          >
-            <option value="">All Cuisines</option>
-            {getCuisines().map((cuisine) => (
-              <option key={cuisine} value={cuisine}>
-                {cuisine}
-              </option>
-            ))}
-          </select>
+          </Label>
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button variant="outline" className="justify-between">
+                {selectedCuisineLabel}
+                <ChevronDown className="opacity-50 w-4 h-4" />
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="max-h-[25rem]">
+              <DropdownMenuItem
+                onClick={() => {
+                  setSelectedCuisine("");
+                  setSelectedCuisineLabel("All Cuisines");
+                }}
+              >
+                All Cuisines
+              </DropdownMenuItem>
+              {getCuisines().map((cuisine) => (
+                <DropdownMenuItem
+                  key={cuisine}
+                  onClick={() => {
+                    setSelectedCuisine(cuisine);
+                    setSelectedCuisineLabel(cuisine);
+                  }}
+                >
+                  {cuisine}
+                </DropdownMenuItem>
+              ))}
+            </DropdownMenuContent>
+          </DropdownMenu>
         </div>
       </div>
 
