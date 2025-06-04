@@ -6,8 +6,27 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Base directory where restaurant files are located
-const baseDir = path.join(
+// Parse command line arguments
+const args = process.argv.slice(2);
+const APPEND_MODE = args.includes('--append') || args.includes('-a');
+const TESTIMONIAL_COUNT = args.find(arg => arg.startsWith('--count='))?.split('=')[1] || 6;
+
+console.log(`Mode: ${APPEND_MODE ? 'Append' : 'Replace'} testimonials`);
+console.log(`Generating ${TESTIMONIAL_COUNT} testimonials per restaurant`);
+
+// Base directory where restaurant files are located (read from here)
+const restaurantsBaseDir = path.join(
+  __dirname,
+  "..",
+  "src",
+  "lib",
+  "constants",
+  "cruises",
+  "restaurants"
+);
+
+// Output directory for testimonial files (write to here)
+const testimonialsBaseDir = path.join(
   __dirname,
   "..",
   "src",
@@ -62,8 +81,35 @@ function extractRestaurantNames(filePath) {
   }
 }
 
-// Generate random testimonial data
+// Ensure directory exists
+function ensureDirectoryExists(dirPath) {
+  if (!fs.existsSync(dirPath)) {
+    fs.mkdirSync(dirPath, { recursive: true });
+    console.log(`Created directory: ${dirPath}`);
+  }
+}
+
+// Generate random testimonial data that matches the Testimonial interface
 function generateTestimonials(restaurantName, count = 5) {
+  const professionalTitles = [
+    "Food Critic",
+    "Culinary Expert",
+    "Travel Blogger",
+    "Lifestyle Influencer",
+    "Food Journalist",
+    "Restaurant Reviewer",
+    "Gastronomy Enthusiast",
+    "Travel Writer",
+    "Culinary Adventurer",
+    "Food & Wine Connoisseur",
+    "Dining Columnist",
+    "Cruise Traveler",
+    "Luxury Travel Consultant",
+    "Gourmet Explorer",
+    "Restaurant Enthusiast",
+    "Cooking Aficionado",
+  ];
+
   const authorFirstNames = [
     "John",
     "Emma",
@@ -183,6 +229,8 @@ function generateTestimonials(restaurantName, count = 5) {
     const lastName =
       authorLastNames[Math.floor(Math.random() * authorLastNames.length)];
     const fullName = `${firstName} ${lastName}`;
+    const title =
+      professionalTitles[Math.floor(Math.random() * professionalTitles.length)];
 
     // Randomize rating between 4-5 stars (mostly positive testimonials)
     const rating = Math.floor(Math.random() * 2) + 4;
@@ -210,11 +258,17 @@ function generateTestimonials(restaurantName, count = 5) {
       `Our visit to ${restaurantName} was outstanding. The ${foodNoun} were ${positiveAdj}, the staff ${serviceAdj}, and the atmosphere ${atmosphereAdj}. A must-visit!`,
     ];
 
+    // Create a testimonial that matches the interface
     const testimonial = {
+      quote: templates[Math.floor(Math.random() * templates.length)],
       author: fullName,
-      rating: rating,
-      date: date.toISOString().split("T")[0],
-      text: templates[Math.floor(Math.random() * templates.length)],
+      title: title,
+      // Add image for some testimonials (30% chance)
+      ...(Math.random() < 0.3 && {
+        image: `/images/testimonials/person-${
+          Math.floor(Math.random() * 12) + 1
+        }.jpg`,
+      }),
     };
 
     testimonials.push(testimonial);
@@ -223,12 +277,55 @@ function generateTestimonials(restaurantName, count = 5) {
   return testimonials;
 }
 
+// Function to extract existing testimonials from a file
+function extractExistingTestimonials(filePath) {
+  try {
+    if (!fs.existsSync(filePath)) {
+      return [];
+    }
+
+    const content = fs.readFileSync(filePath, "utf8");
+    // Try to extract the array portion of the file
+    const arrayMatch = content.match(/\[\s*([\s\S]*?)\s*\];/);
+
+    if (!arrayMatch) {
+      return [];
+    }
+
+    // Try to parse the array as JSON
+    try {
+      // Add brackets back and parse
+      const jsonStr = `[${arrayMatch[1]}]`;
+      return JSON.parse(jsonStr);
+    } catch (parseError) {
+      console.error(`Error parsing testimonials from ${filePath}:`, parseError);
+      return [];
+    }
+  } catch (error) {
+    console.error(`Error reading file ${filePath}:`, error);
+    return [];
+  }
+}
+
 // Function to generate testimonial file content
-function generateTestimonialFileContent(cityName, restaurantName) {
+function generateTestimonialFileContent(
+  cityName,
+  restaurantName,
+  existingTestimonials = []
+) {
   const cityVar = toCamelCase(cityName);
   const restaurantVar = toCamelCase(restaurantName);
 
-  const testimonials = generateTestimonials(restaurantName, 6);
+  // Generate new testimonials
+  const newTestimonials = generateTestimonials(
+    restaurantName,
+    parseInt(TESTIMONIAL_COUNT)
+  );
+
+  // Combine with existing testimonials if in append mode
+  const testimonials = APPEND_MODE
+    ? [...existingTestimonials, ...newTestimonials]
+    : newTestimonials;
 
   return `import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
@@ -247,13 +344,13 @@ export const ${cityVar}${restaurantVar}Testimonials: Testimonial[] = ${JSON.stri
 let cityDirs = [];
 try {
   cityDirs = fs
-    .readdirSync(baseDir, { withFileTypes: true })
+    .readdirSync(restaurantsBaseDir, { withFileTypes: true })
     .filter((dirent) => dirent.isDirectory())
     .map((dirent) => dirent.name);
 
   console.log(`Found ${cityDirs.length} city directories`);
 } catch (error) {
-  console.error(`Error reading base directory ${baseDir}:`, error);
+  console.error(`Error reading base directory ${restaurantsBaseDir}:`, error);
   process.exit(1);
 }
 
@@ -264,12 +361,16 @@ let totalFailed = 0;
 
 // Process each city directory
 cityDirs.forEach((cityDir) => {
-  const cityPath = path.join(baseDir, cityDir);
-  const restaurantsFilePath = path.join(cityPath, "restaurants.ts");
+  const restaurantCityPath = path.join(restaurantsBaseDir, cityDir);
+  const restaurantsFilePath = path.join(restaurantCityPath, "restaurants.ts");
 
   // Check if the restaurants.ts file exists
   if (fs.existsSync(restaurantsFilePath)) {
     console.log(`Processing ${cityDir}/restaurants.ts...`);
+
+    // Create testimonial directory for this city if it doesn't exist
+    const testimonialCityPath = path.join(testimonialsBaseDir, cityDir);
+    ensureDirectoryExists(testimonialCityPath);
 
     // Extract restaurant names from the file
     const restaurantNames = extractRestaurantNames(restaurantsFilePath);
@@ -277,21 +378,36 @@ cityDirs.forEach((cityDir) => {
     // Create a testimonial file for each restaurant
     restaurantNames.forEach((restaurantName) => {
       const kebabName = toKebabCase(restaurantName) + "-testimonials";
-      const filePath = path.join(cityPath, `${kebabName}.ts`);
+      const filePath = path.join(testimonialCityPath, `${kebabName}.ts`);
 
       try {
+        // Read existing testimonials if in append mode
+        const existingTestimonials = APPEND_MODE
+          ? extractExistingTestimonials(filePath)
+          : [];
+        const hadExistingFile = fs.existsSync(filePath);
+
         // Create or update the testimonial file
         fs.writeFileSync(
           filePath,
-          generateTestimonialFileContent(cityDir, restaurantName)
+          generateTestimonialFileContent(
+            cityDir,
+            restaurantName,
+            existingTestimonials
+          )
         );
 
-        if (fs.existsSync(filePath)) {
-          console.log(`Updated testimonial file: ${filePath}`);
-          totalUpdated++;
-        } else {
+        if (!hadExistingFile) {
           console.log(`Created testimonial file: ${filePath}`);
           totalCreated++;
+        } else if (APPEND_MODE) {
+          console.log(
+            `Appended ${TESTIMONIAL_COUNT} testimonials to: ${filePath}`
+          );
+          totalUpdated++;
+        } else {
+          console.log(`Replaced testimonials in: ${filePath}`);
+          totalUpdated++;
         }
       } catch (err) {
         console.error(
@@ -306,10 +422,17 @@ cityDirs.forEach((cityDir) => {
   }
 });
 
-console.log("=== Script Complete ===");
-console.log(`Created ${totalCreated} new testimonial files`);
-console.log(`Updated ${totalUpdated} existing testimonial files`);
+console.log("\n=== Script Complete ===");
+if (APPEND_MODE) {
+  console.log(`Created ${totalCreated} new testimonial files`);
+  console.log(`Added testimonials to ${totalUpdated} existing files`);
+} else {
+  console.log(`Created ${totalCreated} new testimonial files`);
+  console.log(`Replaced testimonials in ${totalUpdated} existing files`);
+}
 if (totalFailed > 0) {
   console.log(`Failed to create/update ${totalFailed} testimonial files`);
 }
+console.log(`Mode: ${APPEND_MODE ? "Append" : "Replace"}`);
+console.log(`Testimonials per restaurant: ${TESTIMONIAL_COUNT}`);
 console.log("All restaurant testimonial files processed!");
