@@ -1,25 +1,42 @@
 "use client";
 
 import Loading from "@/components/Loading";
-import { RestaurantMenu } from "@/lib/types/types";
+import RestaurantIconKey from "@/components/RestaurantIconKey";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+import useSmallScreen from "@/hooks/useSmallScreen";
+import { Restaurant, RestaurantMenu } from "@/lib/types/types";
+import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 import {
   formatKebebToTitleCase,
   formatNumberToCurrency,
 } from "@/lib/utils/format.ts";
-import { getRestaurantMenuByName } from "@/lib/utils/get.ts";
+import {
+  getRestaurantByName,
+  getRestaurantMenuByName,
+} from "@/lib/utils/get.ts";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
+import { FaStarOfDavid } from "react-icons/fa";
+import { FaWheatAwn } from "react-icons/fa6";
+import { GiMeat } from "react-icons/gi";
+import { RiPlantFill, RiSeedlingFill } from "react-icons/ri";
 
 export default function RestaurantMenuPage() {
   const searchParams = useSearchParams();
   const restaurant = searchParams.get("restaurant");
   const city = searchParams.get("city");
   const [loading, setLoading] = useState(true);
+  const isSmallScreen = useSmallScreen();
 
   console.log("Restaurant:", restaurant?.replace("Menu", ""));
   console.log("City:", city);
 
   const [restaurantData, setRestaurantData] = useState<RestaurantMenu[]>([]);
+  const [restaurantInfo, setRestaurantInfo] = useState<Restaurant>();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -48,6 +65,35 @@ export default function RestaurantMenuPage() {
     fetchData();
   }, [restaurant]);
 
+  useEffect(() => {
+    if (restaurant && city) {
+      setLoading(true);
+      const getRestaurantData = async () => {
+        try {
+          const data = await getRestaurantByName(city, restaurant);
+          setRestaurantInfo(data);
+          if (!data) {
+            console.warn(`No restaurant found with name: ${restaurant}`);
+          }
+          setLoading(false);
+        } catch (error) {
+          console.error("Failed to fetch restaurant data:", error);
+        } finally {
+          setLoading(false);
+        }
+      };
+      getRestaurantData();
+    }
+  }, [
+    restaurant,
+    city,
+    setRestaurantInfo,
+    setLoading,
+    restaurantData.length > 0,
+  ]);
+
+  console.log("Restaurant Info:", restaurantInfo);
+
   if (loading) {
     return <Loading />;
   }
@@ -71,9 +117,21 @@ export default function RestaurantMenuPage() {
             <h1>
               {formatKebebToTitleCase(restaurant).replace("menu", "")} Menu
             </h1>
+            {restaurantInfo && (
+              <>
+                <blockquote>{restaurantInfo.description}</blockquote>
+                <h5>{displayRatingStars(restaurantInfo.rating)}</h5>
+              </>
+            )}
           </header>
 
-          <section>
+          {isSmallScreen ? (
+            <RestaurantIconKey compact className="my-4" />
+          ) : (
+            <RestaurantIconKey className="mb-15" />
+          )}
+
+          <section className="divide-y-2 divide-secondary">
             {restaurantData.map((menu, index) => {
               let split = 4; // Default split value
 
@@ -89,118 +147,88 @@ export default function RestaurantMenuPage() {
                 <div key={index} className="mb-8">
                   <h2>{menu.title}</h2>
                   <p>{menu.description}</p>
-                  <div className="gap-4 grid lg:grid-cols-2">
-                    <section>
-                      {menu.category
-                        .slice(0, split)
-                        .map((menuCategory, itemIndex) => (
-                          <section key={itemIndex} className="mt-4">
-                            <h3>{menuCategory.name}</h3>
-                            {menuCategory.items.map((item, itemIdx) => (
-                              <div key={itemIdx} className="py-1 w-full">
-                                <div className="flex-col space-y-1">
-                                  <div className="flex justify-between items-center">
-                                    <div className="flex flex-wrap items-center">
-                                      <h4 className="no-underline">
-                                        {item.name}
-                                      </h4>
-                                      {item.isVegetarian && (
-                                        <span className="ml-2 text-green-600">
-                                          (Vegetarian)
-                                        </span>
-                                      )}
-                                      {item.isVegan && (
-                                        <span className="ml-2 text-green-600">
-                                          (Vegan)
-                                        </span>
-                                      )}
-                                      {item.isGlutenFree && (
-                                        <span className="ml-2 text-blue-600">
-                                          (Gluten Free)
-                                        </span>
-                                      )}
-                                      {item.isHalal && (
-                                        <span className="ml-2 text-purple-600">
-                                          (Halal)
-                                        </span>
-                                      )}
-                                      {item.isKosher && (
-                                        <span className="ml-2 text-orange-600">
-                                          (Kosher)
-                                        </span>
-                                      )}
-                                    </div>
-                                    <p>
-                                      {formatNumberToCurrency(item.price, 2, 2)}
-                                    </p>
-                                  </div>
+                  <section className="gap-4 grid grid-cols-1 lg:grid-cols-2">
+                    {menu.category.map((menuCategory, itemIndex) => (
+                      <section key={itemIndex} className="mt-4">
+                        <h3 className="underline underline-offset-4 decoration-tertiary">
+                          {menuCategory.name}
+                        </h3>
+                        {menuCategory.items.map((item, itemIdx) => (
+                          <div key={itemIdx} className="py-1 w-full">
+                            <div className="flex-col space-y-1">
+                              <div className="flex justify-between md:items-center">
+                                <div className="flex flex-col flex-wrap lg:flex-auto justify-center gap-2 w-full h-full">
+                                  <h4 className="w-10/12 no-underline">
+                                    {item.name}
+                                  </h4>
                                   <div>
-                                    {item.description && (
-                                      <p>{" - " + item.description}</p>
+                                    {item.isVegetarian && (
+                                      <Tooltip>
+                                        <TooltipTrigger className="mt-1 p-0.5 text-muted-foreground">
+                                          <RiPlantFill />
+                                        </TooltipTrigger>
+                                        <TooltipContent>
+                                          <p>Vegetarian Options</p>
+                                        </TooltipContent>
+                                      </Tooltip>
+                                    )}
+                                    {item.isVegan && (
+                                      <Tooltip>
+                                        <TooltipTrigger className="mt-1 p-0.5 text-muted-foreground">
+                                          <RiSeedlingFill />
+                                        </TooltipTrigger>
+                                        <TooltipContent>
+                                          <p>Vegan Options</p>
+                                        </TooltipContent>
+                                      </Tooltip>
+                                    )}
+                                    {item.isGlutenFree && (
+                                      <Tooltip>
+                                        <TooltipTrigger className="mt-1 p-0.5 text-muted-foreground">
+                                          <FaWheatAwn />
+                                        </TooltipTrigger>
+                                        <TooltipContent>
+                                          <p>Gluten-Free Options</p>
+                                        </TooltipContent>
+                                      </Tooltip>
+                                    )}
+                                    {item.isHalal && (
+                                      <Tooltip>
+                                        <TooltipTrigger className="mt-1 p-0.5 text-muted-foreground">
+                                          <GiMeat />
+                                        </TooltipTrigger>
+                                        <TooltipContent>
+                                          <p>Halal Options</p>
+                                        </TooltipContent>
+                                      </Tooltip>
+                                    )}
+                                    {item.isKosher && (
+                                      <Tooltip>
+                                        <TooltipTrigger className="mt-1 p-0.5 text-muted-foreground">
+                                          <FaStarOfDavid />
+                                        </TooltipTrigger>
+                                        <TooltipContent>
+                                          <p>Kosher Options</p>
+                                        </TooltipContent>
+                                      </Tooltip>
                                     )}
                                   </div>
                                 </div>
+                                <p>
+                                  {formatNumberToCurrency(item.price, 2, 2)}
+                                </p>
                               </div>
-                            ))}
-                          </section>
-                        ))}
-                    </section>
-                    <section>
-                      {menu.category
-                        .slice(split, menu.category.length)
-                        .map((menuCategory, itemIndex) => (
-                          <section key={itemIndex} className="mt-4">
-                            <h3>{menuCategory.name}</h3>
-                            {menuCategory.items.map((item, itemIdx) => (
-                              <div key={itemIdx} className="py-1">
-                                <div className="flex-col space-y-1">
-                                  <div className="flex justify-between items-center">
-                                    <div className="flex flex-wrap items-center">
-                                      <h4 className="no-underline">
-                                        {item.name}
-                                      </h4>
-                                      {item.isVegetarian && (
-                                        <span className="ml-2 text-green-600">
-                                          (Vegetarian)
-                                        </span>
-                                      )}
-                                      {item.isVegan && (
-                                        <span className="ml-2 text-green-600">
-                                          (Vegan)
-                                        </span>
-                                      )}
-                                      {item.isGlutenFree && (
-                                        <span className="ml-2 text-blue-600">
-                                          (Gluten Free)
-                                        </span>
-                                      )}
-                                      {item.isHalal && (
-                                        <span className="ml-2 text-purple-600">
-                                          (Halal)
-                                        </span>
-                                      )}
-                                      {item.isKosher && (
-                                        <span className="ml-2 text-orange-600">
-                                          (Kosher)
-                                        </span>
-                                      )}
-                                    </div>
-                                    <p>
-                                      {formatNumberToCurrency(item.price, 2, 2)}
-                                    </p>
-                                  </div>
-                                  <div>
-                                    {item.description && (
-                                      <p>{" - " + item.description}</p>
-                                    )}
-                                  </div>
-                                </div>
+                              <div>
+                                {item.description && (
+                                  <p>{" - " + item.description}</p>
+                                )}
                               </div>
-                            ))}
-                          </section>
+                            </div>
+                          </div>
                         ))}
-                    </section>
-                  </div>
+                      </section>
+                    ))}
+                  </section>
                 </div>
               );
             })}
