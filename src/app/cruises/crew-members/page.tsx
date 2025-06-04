@@ -13,7 +13,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { CrewMember } from "@/lib/interfaces/people/staff";
-import { getAllTeamMembers } from "@/lib/utils/get.ts";
+import { getAllTeamMembers } from "@/lib/utils/get/crew-members";
 import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 import { FaFilter } from "react-icons/fa";
