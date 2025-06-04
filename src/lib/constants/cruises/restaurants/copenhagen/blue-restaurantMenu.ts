@@ -12,54 +12,26 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Traditional Grilled Seasonal Tasting Menu Experience",
-            "description": "Our fruity specialty, stir-fried with wild-caught fish and plated with precision.",
-            "price": 32.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Braised Heritage Recipe Lamb Shank",
-            "description": "Offered as a tasting portion and roasted to perfection using premium components.",
-            "price": 26.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Exquisite Korean BBQ Short Ribs with Kimchi Rice",
-            "description": "A delicate dish marinated with handmade pasta and artfully plated.",
-            "price": 29.91,
+            "name": "Hearty Steamed Chef's Special Surf and Turf",
+            "price": 28.34,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Appetizers",
-        "items": [
-          {
-            "name": "Paella",
-            "description": "This rich favorite is whipped using hand-picked vegetables, then plated with precision.",
-            "price": 27.51,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           },
           {
-            "name": "Local Delectable Grilled Chicken",
-            "description": "This nutty favorite is marinated using heritage grains, then attractively arranged.",
-            "price": 25.95,
+            "name": "Homestyle Tangy Dry-Aged Tomahawk Steak",
+            "price": 29.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Creamy Whole Roasted Heritage Chicken",
+            "price": 27.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -67,31 +39,37 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Satisfying Chili con Carne",
-            "description": "This delicate favorite is poached using wild-caught fish, then presented on a wooden board.",
-            "price": 27.13,
-            "isVegetarian": true,
+            "name": "Fresh Smoked Seasonal Tasting Menu Experience",
+            "price": 33.64,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Creamy Gnocchi",
-            "description": "Stacked artistically and crafted to perfection using sustainable seafood.",
-            "price": 26.03,
+            "name": "Authentic Marinated Secret Recipe Bouillabaisse",
+            "price": 27.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Succulent Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 35.37,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coq au Vin",
-            "description": "This zesty favorite is poached using organic ingredients, then beautifully presented.",
-            "price": 27.97,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Handcrafted Luscious Signature Truffle Pasta with Aged Pecorino",
+            "price": 31.56,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -99,22 +77,11 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Salads",
+        "name": "Chef's Specials",
         "items": [
           {
-            "name": "Katsu Curry",
-            "description": "Elegantly served and composed to perfection using microgreens.",
-            "price": 29.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pizza",
-            "description": "Plated with precision and charred to perfection using sustainable seafood.",
-            "price": 23.38,
+            "name": "Gourmet Mouthwatering Tasting of Local Artisanal Cheeses",
+            "price": 33.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -122,9 +89,94 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pasta Primavera",
-            "description": "Beautifully presented and sautéed to perfection using house-made sauces.",
-            "price": 24.97,
+            "name": "Authentic Crunchy Cast Iron Seafood Presentation",
+            "price": 27.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Crispy Braised Short Ribs with Red Wine Sauce",
+            "price": 36.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Creamy Roasted Quail with Truffle Jus",
+            "price": 37.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Sweet Seasonal Truffle Risotto",
+            "price": 25.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Appetizers",
+        "items": [
+          {
+            "name": "Classic Pan-seared Tempura",
+            "price": 15.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Tangy Calamari",
+            "price": 12.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Exquisite Stuffed Jalapeños",
+            "price": 8.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Grilled Caprese Salad",
+            "price": 15.3,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Succulent Prawn Toast",
+            "price": 11,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Marinated Bruschetta",
+            "price": 8.18,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -132,9 +184,17 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Hearty Biryani",
-            "description": "Our floral specialty, created with premium components and nestled in a ceramic bowl.",
-            "price": 27.42,
+            "name": "Seasonal Braised Prawn Cocktail",
+            "price": 13.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Aromatic Baba Ganoush",
+            "price": 13.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -147,9 +207,17 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Steak",
-            "description": "This fruity favorite is glazed using locally foraged herbs, then served family-style.",
-            "price": 24.44,
+            "name": "Traditional Mouthwatering Pumpkin Soup",
+            "price": 7.23,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sweet Butternut Squash Soup",
+            "price": 13.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,9 +225,40 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Organic Sautéed Biryani",
-            "description": "Attractively arranged and whipped to perfection using sun-ripened fruits.",
-            "price": 29.9,
+            "name": "Hearty Hearty Cabbage Soup",
+            "price": 12.74,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Steamed Minestrone",
+            "price": 7.59,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Garden Salad",
+            "price": 15.21,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Quinoa Salad",
+            "price": 15.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -167,20 +266,27 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lasagna",
-            "description": "This complex favorite is marinated using heirloom tomatoes, then attractively arranged.",
-            "price": 24.04,
+            "name": "Apple Pecan Salad",
+            "price": 10.67,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Thai Curry",
-            "description": "A fruity dish created with locally foraged herbs and layered with care.",
-            "price": 29.03,
-            "isVegetarian": false,
+            "name": "Arugula Salad",
+            "price": 12.2,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Broccoli Crunch Salad",
+            "price": 14.46,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -192,39 +298,44 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Tagine",
-            "description": "Our buttery specialty, stir-fried with locally foraged herbs and nestled in a ceramic bowl.",
-            "price": 31.21,
-            "isVegetarian": false,
+            "name": "Fresh Spicy Chili con Carne",
+            "price": 27.05,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Succulent Shakshuka",
-            "description": "This succulent favorite is charred using finest quality ingredients, then drizzled with finesse.",
-            "price": 24.55,
-            "isVegetarian": false,
+            "name": "Fresh Baked Shakshuka",
+            "price": 26.96,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pizza",
-            "description": "Our succulent specialty, hand-folded with wild-caught fish and garnished to perfection.",
-            "price": 22.06,
-            "isVegetarian": false,
+            "name": "Classic Golden Paella",
+            "price": 27.07,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chicken Parmesan",
-            "description": "Served with flair and composed to perfection using heritage grains.",
-            "price": 31.06,
+            "name": "Premium Spicy Teriyaki Chicken",
+            "price": 26.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Marinated Pho",
+            "price": 24.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -232,9 +343,8 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Local Flavorful Risotto",
-            "description": "Our rich specialty, fire-roasted with sustainable seafood and presented on a wooden board.",
-            "price": 25.32,
+            "name": "Hearty Crispy Stuffed Peppers",
+            "price": 23.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -242,32 +352,70 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Aromatic Spaghetti Bolognese",
-            "description": "This pungent favorite is created using premium components, then stacked artistically.",
-            "price": 19.21,
+            "name": "Handcrafted Hearty Salmon",
+            "price": 27.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Mac and Cheese",
-            "description": "A pungent dish infused with seasonal ingredients and garnished to perfection.",
-            "price": 25.33,
+            "name": "Authentic Stuffed Moussaka",
+            "price": 19.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "items": [
           {
-            "name": "Vegetable Stir-Fry",
-            "description": "A balanced dish smoked with heritage grains and beautifully presented.",
-            "price": 21.6,
+            "name": "Homestyle Irresistible Grilled Lobster with Lemon Butter",
+            "price": 30.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Sweet Shrimp Scampi over Linguine",
+            "price": 23.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Roasted Pan-Seared Scallops with Pea Purée",
+            "price": 25.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Roasted Valencian Seafood Paella",
+            "price": 33.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Fried Prawn Curry in Coconut Masala",
+            "price": 31.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -277,9 +425,85 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Stuffed Peppers",
-            "description": "Plated with precision and slow-cooked to perfection using handmade pasta.",
-            "price": 20.16,
+            "name": "Fresh Stuffed Macaroni and Aged Cheddar",
+            "price": 7.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Steamed Fragrant Basmati Rice Pilaf",
+            "price": 6.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Aromatic Soft Polenta with Parmesan",
+            "price": 5.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Steamed Stuffed Bell Peppers with Brown Rice",
+            "price": 9.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Exquisite Sweet Corn and Cheddar Fritters",
+            "price": 8.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Exquisite Braised Red Cabbage with Apple",
+            "price": 9.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Coffee",
+            "price": 6.95,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 6.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 6.97,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -287,79 +511,31 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pasta Primavera",
-            "description": "A earthy dish cooked with locally sourced produce and beautifully presented.",
-            "price": 21.83,
+            "name": "Milkshake",
+            "price": 5.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 5.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 6.52,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "House Special Delicious Salmon",
-            "description": "Artfully plated and crafted to perfection using organic ingredients.",
-            "price": 26.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fajitas",
-            "description": "This delicate favorite is slow-cooked using microgreens, then served family-style.",
-            "price": 20.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Seafood Specialties",
-        "items": [
-          {
-            "name": "New England Lobster Roll",
-            "description": "A tangy dish assembled with hand-picked vegetables and presented on a wooden board.",
-            "price": 31.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Shrimp Scampi over Linguine",
-            "description": "Presented on a wooden board and stir-fried to perfection using seasonal ingredients.",
-            "price": 25.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Herbed Grilled Lobster with Lemon Butter",
-            "description": "A pungent dish made with seasonal ingredients and presented on a wooden board.",
-            "price": 29.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Grilled Swordfish with Mango Chutney",
-            "description": "A bold dish assembled with hand-picked vegetables and served on rustic ware.",
-            "price": 23.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
           }
         ]
       }
@@ -370,52 +546,47 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Local Roasted Lamb Chops",
-            "description": "Our balanced specialty, assembled with aged cheeses and attractively arranged.",
-            "price": 28.17,
+            "name": "Crumb Cake",
+            "price": 10.83,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Spiced Salmon",
-            "description": "Beautifully presented and prepared to perfection using locally sourced produce.",
-            "price": 26.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Enticing Currywurst",
-            "description": "Garnished to perfection and assembled to perfection using organic ingredients.",
-            "price": 18.22,
-            "isVegetarian": true,
+            "name": "Pain au Chocolat",
+            "price": 9.1,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Eggplant Parmesan",
-            "description": "Our rich specialty, sautéed with grass-fed beef and elegantly served.",
-            "price": 24.85,
-            "isVegetarian": false,
+            "name": "Portuguese Custard Tarts",
+            "price": 10.75,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Sweet Chili con Carne",
-            "description": "Elegantly served and crafted to perfection using hand-picked vegetables.",
-            "price": 19.02,
+            "name": "Cupcakes",
+            "price": 7.61,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pumpkin Pie",
+            "price": 6.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,12 +596,11 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Classic Zingy Roast Duck",
-            "description": "Presented on a wooden board and prepared to perfection using finest quality ingredients.",
-            "price": 23.69,
+            "name": "Ice Cream Cake",
+            "price": 8.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -438,44 +608,40 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Grilled Fish and Chips",
-            "description": "Layered with care and prepared to perfection using farm-fresh eggs.",
-            "price": 29.15,
+            "name": "Frozen Yogurt",
+            "price": 9.33,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Mousse",
+            "price": 9.79,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef's Crispy Fajitas",
-            "description": "Our herbaceous specialty, made with organic ingredients and elegantly served.",
-            "price": 21.95,
-            "isVegetarian": false,
+            "name": "Frozen Cheesecake",
+            "price": 9.59,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pulled Pork Sandwich",
-            "description": "This subtle favorite is grilled using grass-fed beef, then drizzled with finesse.",
-            "price": 18.08,
-            "isVegetarian": false,
+            "name": "Frosty",
+            "price": 7.76,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Steak",
-            "description": "Our robust specialty, composed with house-made sauces and artfully plated.",
-            "price": 29.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       }
@@ -489,9 +655,17 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Signature Spiced White Rum",
-            "description": "Our creamy specialty, hand-folded with locally foraged herbs and stacked artistically.",
-            "price": 13.03,
+            "name": "Negroni",
+            "price": 10.7,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 10.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -499,29 +673,8 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Sautéed Gin",
-            "description": "This citrusy favorite is hand-rolled using cultured dairy, then styled for visual appeal.",
-            "price": 13.28,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pina Colada",
-            "description": "A floral dish poached with artisanal elements and nestled in a ceramic bowl.",
-            "price": 11.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Reposado Tequila",
-            "description": "This umami-packed favorite is assembled using organic ingredients, then beautifully presented.",
-            "price": 11.6,
+            "name": "Bloody Mary",
+            "price": 11.51,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,9 +682,35 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sherry",
-            "description": "A refreshing dish fire-roasted with finest quality ingredients and layered with care.",
-            "price": 14.77,
+            "name": "Mojito",
+            "price": 13.72,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 14.37,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 12.46,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 10.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -544,9 +723,17 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Classic Delectable Pulled Pork Sandwich",
-            "description": "A umami-packed dish glazed with heirloom tomatoes and attractively arranged.",
-            "price": 18.41,
+            "name": "Chardonnay",
+            "price": 12.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Champagne/Sparkling Wine",
+            "price": 9.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -554,19 +741,17 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Herbed Thai Curry",
-            "description": "Our tangy specialty, assembled with premium components and plated with precision.",
-            "price": 22.24,
-            "isVegetarian": false,
+            "name": "Sauvignon Blanc",
+            "price": 11.36,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fajitas",
-            "description": "This hearty favorite is grilled using cold-pressed oils, then garnished to perfection.",
-            "price": 25.25,
+            "name": "Riesling",
+            "price": 11.07,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -574,29 +759,17 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Spicy Chili con Carne",
-            "description": "Plated with precision and poached to perfection using heritage grains.",
-            "price": 25.36,
+            "name": "Sémillon",
+            "price": 9.18,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Teriyaki Chicken",
-            "description": "Our robust specialty, whipped with heirloom tomatoes and elegantly served.",
-            "price": 23.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Signature Succulent Pesto Pasta",
-            "description": "A savory dish prepared with finest quality ingredients and beautifully presented.",
-            "price": 23.76,
+            "name": "Gewürztraminer",
+            "price": 10.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -609,19 +782,17 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Pizza",
-            "description": "Our balanced specialty, fire-roasted with sustainable seafood and attractively arranged.",
-            "price": 18.57,
-            "isVegetarian": true,
+            "name": "Amaretto",
+            "price": 11.87,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Local Spicy Jambalaya",
-            "description": "This briny favorite is pan-seared using house-made sauces, then elegantly served.",
-            "price": 23.12,
+            "name": "Midori",
+            "price": 16.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -629,22 +800,29 @@ export const copenhagenblueRestaurantMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Eggplant Parmesan",
-            "description": "Nestled in a ceramic bowl and composed to perfection using hand-picked vegetables.",
-            "price": 26.48,
+            "name": "Chambord",
+            "price": 17.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Mezcal",
+            "price": 10.51,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Spicy Bibimbap",
-            "description": "A delicate dish whipped with seasonal ingredients and drizzled with finesse.",
-            "price": 21.94,
-            "isVegetarian": false,
+            "name": "Aquavit",
+            "price": 14.32,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
