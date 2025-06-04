@@ -12,9 +12,8 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "House Special Baked 24-Hour Braised Short Ribs",
-            "description": "This briny favorite is smoked using heirloom tomatoes, then garnished to perfection.",
-            "price": 37.28,
+            "name": "Deluxe Spiced Wood-Fired Peking Duck with Plum Sauce",
+            "price": 27.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,9 +21,26 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sous Vide Perfected Wagyu",
-            "description": "Presented on a wooden board and assembled to perfection using house-made sauces.",
-            "price": 37.62,
+            "name": "Deluxe Delicious Flambéed Tableside Specialty",
+            "price": 24.52,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Delicious Legendary Prime Rib",
+            "price": 35.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Spicy Sous Vide Perfected Wagyu",
+            "price": 29.58,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -32,9 +48,76 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Childhood Inspired Creation",
-            "description": "Our subtle specialty, oven-baked with cold-pressed oils and styled for visual appeal.",
-            "price": 35.78,
+            "name": "Deluxe Flavorful Founder's Family Recipe Pasta",
+            "price": 32.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Exquisite Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 34.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Crunchy Secret Recipe Bouillabaisse",
+            "price": 31.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Traditional Luscious Daily Fresh Catch with Seasonal Accompaniments",
+            "price": 36.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Herbed Tomahawk Ribeye for Two",
+            "price": 26.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Baked Cast Iron Seafood Presentation",
+            "price": 37.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Crispy Freshly Harvested Seasonal Creation",
+            "price": 31.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Pan-seared Tableside Prepared Tartare",
+            "price": 35.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -47,29 +130,26 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Thai Curry",
-            "description": "A subtle dish caramelized with free-range meats and styled for visual appeal.",
-            "price": 29.91,
+            "name": "Classic Golden Meatballs",
+            "price": 8.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Classic Herbed Shish Kebabs",
-            "description": "Styled for visual appeal and slow-cooked to perfection using wild-caught fish.",
-            "price": 26.87,
+            "name": "House Special Appetizing Shrimp Cocktail",
+            "price": 9.11,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Currywurst",
-            "description": "Our buttery specialty, assembled with locally sourced produce and neatly composed.",
-            "price": 26.01,
+            "name": "House Special Tangy Crostini",
+            "price": 8.26,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -77,9 +157,26 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gnocchi",
-            "description": "This floral favorite is infused using non-GMO produce, then artfully plated.",
-            "price": 29.34,
+            "name": "Authentic Mouthwatering Caprese Salad",
+            "price": 14.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sizzling Cheese Platter",
+            "price": 10.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Roasted Baba Ganoush",
+            "price": 9.65,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -87,56 +184,19 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Sautéed Stir-fry",
-            "description": "Artfully plated and stir-fried to perfection using microgreens.",
-            "price": 19.89,
+            "name": "Seasonal Sautéed Edamame",
+            "price": 15.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
-          {
-            "name": "Fresh Crispy Tacos",
-            "description": "This savory favorite is slow-cooked using microgreens, then neatly composed.",
-            "price": 29.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           },
           {
-            "name": "Bibimbap",
-            "description": "A fruity dish made with seasonal ingredients and beautifully presented.",
-            "price": 19.09,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Paella",
-            "description": "A umami-packed dish charred with organic ingredients and drizzled with finesse.",
-            "price": 18.51,
+            "name": "Fresh Aromatic Tzatziki with Pita",
+            "price": 14.79,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Enchiladas",
-            "description": "Our robust specialty, made with handmade pasta and neatly composed.",
-            "price": 26.49,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -147,9 +207,8 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Beef Burger",
-            "description": "A robust dish hand-rolled with organic ingredients and offered as a tasting portion.",
-            "price": 22.65,
+            "name": "Traditional Zingy French Onion Soup",
+            "price": 7.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,30 +216,77 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Braised Chili con Carne",
-            "description": "Our subtle specialty, marinated with sustainable seafood and beautifully presented.",
-            "price": 19.11,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Traditional Roasted Zuppa Toscana",
+            "price": 10,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Currywurst",
-            "description": "A bold dish cooked with heirloom tomatoes and accompanied by a tasteful garnish.",
-            "price": 20.61,
+            "name": "Hearty Stuffed Mushroom Soup",
+            "price": 7.28,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Pan-seared Pesto Pasta",
-            "description": "Our refreshing specialty, prepared with locally foraged herbs and drizzled with finesse.",
-            "price": 20.84,
+            "name": "Seasonal Appetizing Borscht",
+            "price": 13.53,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Pasta Salad",
+            "price": 11.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coleslaw",
+            "price": 12.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Quinoa Salad",
+            "price": 9.77,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mango Avocado Salad",
+            "price": 13.57,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Thai Green Papaya Salad",
+            "price": 15.34,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -192,49 +298,17 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Tacos",
-            "description": "Stacked artistically and created to perfection using finest quality ingredients.",
-            "price": 22.84,
+            "name": "House Special Crispy Pesto Pasta",
+            "price": 24.9,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Spicy Vegetable Stir-Fry",
-            "description": "A succulent dish grilled with locally foraged herbs and garnished to perfection.",
-            "price": 26.33,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Local Grilled Tagine",
-            "description": "This rich favorite is roasted using sustainable seafood, then presented on a wooden board.",
-            "price": 22.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Zesty Chicken Parmesan",
-            "description": "This pungent favorite is oven-baked using farm-fresh eggs, then elegantly served.",
-            "price": 29.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Salmon",
-            "description": "Beautifully presented and prepared to perfection using chef-selected spices.",
-            "price": 21.87,
+            "name": "House Special Grilled Steak",
+            "price": 21.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -242,19 +316,94 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Jambalaya",
-            "description": "A citrusy dish prepared with sustainable seafood and plated with precision.",
-            "price": 22.07,
+            "name": "Gourmet Crispy Beef Wellington",
+            "price": 28.38,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Signature Grilled Biryani",
-            "description": "This aromatic favorite is prepared using chef-selected spices, then stacked artistically.",
-            "price": 26.32,
+            "name": "Authentic Braised Thai Curry",
+            "price": 25.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Appetizing Ramen",
+            "price": 23.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Flavorful Chicken Parmesan",
+            "price": 22.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Tender Biryani",
+            "price": 19.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Delicious Currywurst",
+            "price": 23.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "items": [
+          {
+            "name": "Classic Zesty Grilled Spanish Octopus with Smoked Paprika",
+            "price": 22.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Grilled Crab-Stuffed Mushrooms",
+            "price": 24.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Baked Lobster Thermidor with Gruyère Crust",
+            "price": 33.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Comforting Cedar Plank Roasted Salmon",
+            "price": 25.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -262,9 +411,8 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Beef Burger",
-            "description": "This pungent favorite is sautéed using natural sweeteners, then attractively arranged.",
-            "price": 26.91,
+            "name": "Fresh Satisfying Miso-Marinated Chilean Sea Bass",
+            "price": 27.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -277,9 +425,8 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Signature Satisfying Katsu Curry",
-            "description": "A sweet dish stir-fried with sun-ripened fruits and nestled in a ceramic bowl.",
-            "price": 26.61,
+            "name": "Traditional Flavorful Crispy Beer-Battered Onion Rings",
+            "price": 6.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -287,9 +434,8 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pesto Pasta",
-            "description": "Attractively arranged and crafted to perfection using premium components.",
-            "price": 20.26,
+            "name": "Homestyle Sweet Grilled Zucchini and Peppers",
+            "price": 6.28,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -297,65 +443,95 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Crispy Salmon",
-            "description": "A aromatic dish poached with handmade pasta and artfully plated.",
-            "price": 29.25,
+            "name": "Fresh Appetizing Corn on the Cob with Chili Lime Butter",
+            "price": 9.68,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Steak",
-            "description": "Our subtle specialty, charred with sustainable seafood and served on rustic ware.",
-            "price": 21.6,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Fresh Hearty Maple-Glazed Baby Carrots",
+            "price": 9.2,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Delectable Stuffed Bell Peppers with Brown Rice",
+            "price": 6.16,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Herbed Homestyle Baked Beans",
+            "price": 8.46,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
-        "name": "Seafood Specialties",
+        "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Chef's Tangy Cajun Shrimp and Grits",
-            "description": "Our zesty specialty, cooked with chef-selected spices and presented on a wooden board.",
-            "price": 30.81,
+            "name": "Water",
+            "price": 7.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Chef's Exquisite Traditional Provençal Bouillabaisse",
-            "description": "This bold favorite is oven-baked using natural sweeteners, then served on rustic ware.",
-            "price": 28.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Maryland Style Crab Cakes",
-            "description": "Our balanced specialty, smoked with premium components and attractively arranged.",
-            "price": 29.02,
+            "name": "Juice",
+            "price": 5.1,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 6.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Basa Fillet with Dill Cream Sauce",
-            "description": "A succulent dish made with chef-selected spices and presented on a wooden board.",
-            "price": 31.93,
-            "isVegetarian": false,
+            "name": "Smoothie",
+            "price": 5.92,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 6.39,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 5.68,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -370,42 +546,11 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Local Grilled Lamb Chops",
-            "description": "Our earthy specialty, prepared with non-GMO produce and neatly composed.",
-            "price": 27.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Grilled Pasta Primavera",
-            "description": "Served on rustic ware and glazed to perfection using hand-picked vegetables.",
-            "price": 27.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roast Duck",
-            "description": "Beautifully presented and grilled to perfection using organic ingredients.",
-            "price": 20.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Satisfying Katsu Curry",
-            "description": "Plated with precision and grilled to perfection using non-GMO produce.",
-            "price": 28.12,
+            "name": "Muffins",
+            "price": 10.4,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -413,10 +558,36 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Tangy Fajitas",
-            "description": "Our umami-packed specialty, composed with heritage grains and accompanied by a tasteful garnish.",
-            "price": 26.74,
+            "name": "Treacle Tart",
+            "price": 9.17,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Banana Bread",
+            "price": 10.97,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tiramisu",
+            "price": 8.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Donuts",
+            "price": 7.34,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -425,12 +596,11 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Lentil Stew",
-            "description": "This citrusy favorite is made using free-range meats, then presented on a wooden board.",
-            "price": 24.52,
+            "name": "Frozen Custard",
+            "price": 11.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -438,19 +608,8 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Marinated Fish and Chips",
-            "description": "This subtle favorite is pan-seared using sustainable seafood, then drizzled with finesse.",
-            "price": 18.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Chili con Carne",
-            "description": "This savory favorite is prepared using locally sourced produce, then nestled in a ceramic bowl.",
-            "price": 26.33,
+            "name": "Ice Cream Cake",
+            "price": 11.93,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -458,24 +617,31 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Spiced Stuffed Peppers",
-            "description": "Our creamy specialty, pan-seared with sustainable seafood and attractively arranged.",
-            "price": 18.14,
+            "name": "Snow Cone",
+            "price": 11.38,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sorbet",
+            "price": 8.57,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Satisfying Roast Duck",
-            "description": "Beautifully presented and pan-seared to perfection using cold-pressed oils.",
-            "price": 21.59,
+            "name": "Popsicles",
+            "price": 11.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       }
@@ -489,19 +655,8 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Brandy",
-            "description": "A umami-packed dish hand-rolled with sustainable seafood and served family-style.",
-            "price": 10.46,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Daiquiri",
-            "description": "Our bold specialty, cooked with heirloom tomatoes and presented on a wooden board.",
-            "price": 11.68,
+            "name": "Margarita",
+            "price": 10.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -509,19 +664,8 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Roasted Scotch",
-            "description": "Served with flair and poached to perfection using farm-fresh eggs.",
-            "price": 14.17,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Delectable Manhattan",
-            "description": "A zesty dish made with wild-caught fish and beautifully presented.",
-            "price": 13.57,
+            "name": "Manhattan",
+            "price": 10.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,10 +673,45 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sake",
-            "description": "Our pungent specialty, composed with seasonal ingredients and artfully plated.",
-            "price": 10.49,
+            "name": "Negroni",
+            "price": 15.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 14.94,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 15.77,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 15.52,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 13.63,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -544,49 +723,26 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Jambalaya",
-            "description": "This briny favorite is poached using heirloom tomatoes, then nestled in a ceramic bowl.",
-            "price": 27.24,
+            "name": "Dolcetto",
+            "price": 10.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tempranillo",
+            "price": 12.94,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Sautéed Roast Duck",
-            "description": "This subtle favorite is pan-seared using wild-caught fish, then attractively arranged.",
-            "price": 29.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Grilled Mac and Cheese",
-            "description": "This balanced favorite is prepared using premium components, then presented on a wooden board.",
-            "price": 27.66,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chicken Parmesan",
-            "description": "Our earthy specialty, slow-cooked with organic ingredients and nestled in a ceramic bowl.",
-            "price": 20.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Tofu",
-            "description": "Garnished to perfection and created to perfection using grass-fed beef.",
-            "price": 22.44,
+            "name": "Syrah/Shiraz",
+            "price": 12.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -594,13 +750,30 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Beef Burger",
-            "description": "Beautifully presented and stir-fried to perfection using sustainable seafood.",
-            "price": 21.02,
+            "name": "Pinot Blanc",
+            "price": 13.49,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gewürztraminer",
+            "price": 9.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Zinfandel",
+            "price": 9.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -609,19 +782,8 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Tagine",
-            "description": "Our hearty specialty, composed with premium components and accompanied by a tasteful garnish.",
-            "price": 22.73,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Eggplant Parmesan",
-            "description": "A savory dish glazed with seasonal ingredients and nestled in a ceramic bowl.",
-            "price": 21.21,
+            "name": "Armagnac",
+            "price": 12.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -629,20 +791,36 @@ export const rioDeJaneirogoldenEateryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Katsu Curry",
-            "description": "Accompanied by a tasteful garnish and slow-cooked to perfection using cold-pressed oils.",
-            "price": 19.25,
+            "name": "Grappa",
+            "price": 10.31,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chili con Carne",
-            "description": "This refreshing favorite is roasted using microgreens, then garnished to perfection.",
-            "price": 25.59,
+            "name": "Campari",
+            "price": 12.74,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cognac",
+            "price": 13.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bourbon",
+            "price": 12.58,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

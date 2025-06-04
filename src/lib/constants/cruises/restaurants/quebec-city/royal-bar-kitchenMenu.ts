@@ -12,34 +12,117 @@ export const quebecCityroyalBarKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Organic Crunchy Traditional Family Paella",
-            "description": "This nutty favorite is pan-seared using microgreens, then neatly composed.",
-            "price": 36.88,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Sizzling Chef’s Wild Game Selection",
-            "description": "This sweet favorite is whipped using non-GMO produce, then styled for visual appeal.",
-            "price": 30.1,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Heritage Recipe Lamb Shank",
-            "description": "Our bold specialty, caramelized with handmade pasta and nestled in a ceramic bowl.",
-            "price": 24.78,
+            "name": "Fresh Marinated Charcoal Grilled Iberico Pork",
+            "price": 32.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Handcrafted Herbed Local Bounty Harvest Plate (Vegetarian)",
+            "price": 36.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Crispy Legendary Prime Rib",
+            "price": 26.52,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Tangy Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 36.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Creamy Secret Recipe Bouillabaisse",
+            "price": 26.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Zingy Chef’s Wild Game Selection",
+            "price": 35.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Flaky Heritage Recipe Lamb Shank",
+            "price": 36.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Gourmet Exquisite Wild Mushroom Risotto",
+            "price": 30.42,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Wholesome Tableside Flambé Preparation",
+            "price": 25.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Wholesome Cedar Plank Salmon",
+            "price": 39.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Flavorful Heritage Breed Porchetta",
+            "price": 26.87,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Grilled Gourmet Vegetarian Wellington",
+            "price": 34.51,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -47,39 +130,35 @@ export const quebecCityroyalBarKitchenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Grilled Chicken",
-            "description": "Drizzled with finesse and crafted to perfection using handmade pasta.",
-            "price": 24.55,
+            "name": "Premium Sweet Mini Crab Cakes",
+            "price": 13.28,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Classic Succulent Jambalaya",
-            "description": "Elegantly served and charred to perfection using hand-picked vegetables.",
-            "price": 23.14,
+            "name": "Deluxe Zesty Stuffed Avocado",
+            "price": 14.88,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coq au Vin",
-            "description": "Our subtle specialty, slow-cooked with seasonal ingredients and beautifully presented.",
-            "price": 28.64,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Beef Burger",
-            "description": "Styled for visual appeal and stir-fried to perfection using artisanal elements.",
-            "price": 19.88,
+            "name": "Hearty Marinated Dumplings",
+            "price": 11.68,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Irresistible Onion Rings",
+            "price": 11.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -87,44 +166,8 @@ export const quebecCityroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Signature Golden Mac and Cheese",
-            "description": "Our succulent specialty, roasted with finest quality ingredients and stacked artistically.",
-            "price": 25.89,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
-          {
-            "name": "Traditional Delicious Lasagna",
-            "description": "This hearty favorite is created using grass-fed beef, then plated with precision.",
-            "price": 18.88,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Delectable Spaghetti Bolognese",
-            "description": "Served family-style and poached to perfection using natural sweeteners.",
-            "price": 21.27,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Quiche",
-            "description": "This tangy favorite is marinated using locally foraged herbs, then drizzled with finesse.",
-            "price": 22.47,
+            "name": "Homestyle Herbed Stuffed Mushrooms",
+            "price": 11.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -132,12 +175,29 @@ export const quebecCityroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Pan-seared Tagine",
-            "description": "Our refreshing specialty, oven-baked with organic ingredients and styled for visual appeal.",
-            "price": 18.31,
-            "isVegetarian": false,
+            "name": "Seasonal Savory Mezze Platter",
+            "price": 12.29,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Baked Mini Empanadas",
+            "price": 11.58,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Marinated Charcuterie Board",
+            "price": 8.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -147,9 +207,17 @@ export const quebecCityroyalBarKitchenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Classic Creamy Chili con Carne",
-            "description": "A earthy dish whipped with microgreens and served on rustic ware.",
-            "price": 28.43,
+            "name": "Authentic Luscious Lobster Bisque",
+            "price": 12.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Zingy Tomato Soup",
+            "price": 12.52,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,9 +225,31 @@ export const quebecCityroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Spicy Beef Burger",
-            "description": "Our rich specialty, fire-roasted with finest quality ingredients and nestled in a ceramic bowl.",
-            "price": 24.11,
+            "name": "Gourmet Crunchy Pho",
+            "price": 10.48,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Succulent Chicken Noodle Soup",
+            "price": 8.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Avocado Corn Salad",
+            "price": 9.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -167,9 +257,17 @@ export const quebecCityroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Smoked Korma",
-            "description": "Served with flair and prepared to perfection using non-GMO produce.",
-            "price": 23.05,
+            "name": "Cobb Salad",
+            "price": 12.64,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Thai Green Papaya Salad",
+            "price": 15.88,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -177,11 +275,19 @@ export const quebecCityroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cottage Pie",
-            "description": "Our creamy specialty, cooked with sustainable seafood and served on rustic ware.",
-            "price": 23.08,
-            "isVegetarian": true,
+            "name": "Potato Salad",
+            "price": 15.29,
+            "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Farro Salad",
+            "price": 10.58,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -192,9 +298,8 @@ export const quebecCityroyalBarKitchenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "House Special Golden Tagine",
-            "description": "Our rich specialty, made with locally sourced produce and garnished to perfection.",
-            "price": 24.92,
+            "name": "Fresh Tangy Coq au Vin",
+            "price": 31.74,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -202,104 +307,35 @@ export const quebecCityroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pulled Pork Sandwich",
-            "description": "A subtle dish created with seasonal ingredients and served family-style.",
-            "price": 25.17,
+            "name": "Fresh Juicy Paella",
+            "price": 19.67,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Stuffed Shakshuka",
+            "price": 31.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Katsu Curry",
-            "description": "This succulent favorite is created using locally sourced produce, then presented on a wooden board.",
-            "price": 19.24,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "House Special Exquisite Jambalaya",
-            "description": "This floral favorite is oven-baked using heritage grains, then nestled in a ceramic bowl.",
-            "price": 24.31,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Paella",
-            "description": "Our citrusy specialty, created with sustainable seafood and attractively arranged.",
-            "price": 31.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Biryani",
-            "description": "A buttery dish poached with artisanal elements and accompanied by a tasteful garnish.",
-            "price": 28.94,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Hearty Stuffed Peppers",
-            "description": "Our floral specialty, composed with microgreens and plated with precision.",
-            "price": 29.6,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Smoked Beef Burger",
-            "description": "Our rich specialty, made with sustainable seafood and elegantly served.",
-            "price": 26.64,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Lentil Stew",
-            "description": "Our complex specialty, assembled with house-made sauces and drizzled with finesse.",
-            "price": 26.98,
+            "name": "Premium Juicy Seafood Platter",
+            "price": 23.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Satisfying Salmon",
-            "description": "A zesty dish assembled with house-made sauces and served family-style.",
-            "price": 20.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Classic Tangy Moussaka",
-            "description": "Our subtle specialty, cooked with handmade pasta and elegantly served.",
-            "price": 21.89,
+            "name": "House Special Fried Pasta Primavera",
+            "price": 21.35,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,12 +343,29 @@ export const quebecCityroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Pan-seared Mac and Cheese",
-            "description": "Our succulent specialty, caramelized with farm-fresh eggs and plated with precision.",
-            "price": 25.51,
+            "name": "Gourmet Grilled Pho",
+            "price": 30.98,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Sweet Cottage Pie",
+            "price": 22.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Mouthwatering Korma",
+            "price": 31.37,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -322,29 +375,26 @@ export const quebecCityroyalBarKitchenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Baked Cod with Lemon Caper Sauce",
-            "description": "Our complex specialty, roasted with sustainable seafood and styled for visual appeal.",
-            "price": 24.22,
+            "name": "Authentic Baked Stuffed Flounder with Crab and Spinach",
+            "price": 23,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Savory Basa Fillet with Dill Cream Sauce",
+            "price": 35.82,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Alaskan King Crab Legs with Drawn Butter",
-            "description": "A bold dish braised with hand-picked vegetables and attractively arranged.",
-            "price": 27.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoked Salmon Platter with Dill Crème",
-            "description": "Our robust specialty, stir-fried with cultured dairy and nestled in a ceramic bowl.",
-            "price": 29.59,
+            "name": "Fresh Hearty Grilled Spanish Octopus with Smoked Paprika",
+            "price": 28.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,11 +402,137 @@ export const quebecCityroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Luscious Mussels Mariniere in White Wine",
-            "description": "Accompanied by a tasteful garnish and created to perfection using seasonal ingredients.",
-            "price": 29.45,
+            "name": "Seasonal Flavorful Grilled Lobster with Lemon Butter",
+            "price": 25.58,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Tender Grilled Swordfish with Mango Chutney",
+            "price": 31.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Homestyle Luscious Macaroni and Aged Cheddar",
+            "price": 9.38,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spiced Creamed Spinach with Nutmeg",
+            "price": 9.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Grilled Quinoa Pilaf with Herbs",
+            "price": 7.85,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Sizzling Soft Polenta with Parmesan",
+            "price": 8.18,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Aromatic Truffle Parmesan Fries",
+            "price": 6.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Stuffed Buttered Egg Noodles",
+            "price": 5.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Juice",
+            "price": 7.98,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 7.99,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 4.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 6.62,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 5.76,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 7.89,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -370,67 +546,61 @@ export const quebecCityroyalBarKitchenMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Beef Burger",
-            "description": "This bold favorite is charred using heritage grains, then presented on a wooden board.",
-            "price": 20.05,
-            "isVegetarian": false,
+            "name": "Biscotti",
+            "price": 10.26,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Traditional Marinated Lamb Chops",
-            "description": "This aromatic favorite is poached using grass-fed beef, then layered with care.",
-            "price": 25.44,
+            "name": "Muffins",
+            "price": 7.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Traditional Sizzling Bibimbap",
-            "description": "Beautifully presented and stir-fried to perfection using wild-caught fish.",
-            "price": 25.28,
+            "name": "Vanilla Cake",
+            "price": 9.63,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Jambalaya",
-            "description": "Our bold specialty, grilled with artisanal elements and layered with care.",
-            "price": 26.98,
-            "isVegetarian": false,
+            "name": "Cupcakes",
+            "price": 10.02,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Stuffed Steak",
-            "description": "Our rich specialty, prepared with premium components and elegantly served.",
-            "price": 24.95,
-            "isVegetarian": false,
+            "name": "Berry Tart",
+            "price": 7.06,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Traditional Herbed Cottage Pie",
-            "description": "Our robust specialty, composed with grass-fed beef and attractively arranged.",
-            "price": 22.57,
+            "name": "Snow Cone",
+            "price": 8.57,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -438,44 +608,40 @@ export const quebecCityroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Shish Kebabs",
-            "description": "A fruity dish stir-fried with premium components and presented on a wooden board.",
-            "price": 23,
+            "name": "Frozen Mousse",
+            "price": 11.38,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Korma",
-            "description": "A complex dish whipped with locally foraged herbs and styled for visual appeal.",
-            "price": 29.31,
+            "name": "Frozen Pudding",
+            "price": 8.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Fruit Bars",
+            "price": 10.96,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream",
+            "price": 11.25,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "House Special Luscious Stuffed Peppers",
-            "description": "Drizzled with finesse and composed to perfection using premium components.",
-            "price": 22.8,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Pan-seared Beef Wellington",
-            "description": "Our balanced specialty, caramelized with seasonal ingredients and elegantly served.",
-            "price": 18.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
           }
         ]
       }
@@ -489,9 +655,8 @@ export const quebecCityroyalBarKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Mai Tai",
-            "description": "This bold favorite is whipped using seasonal ingredients, then artfully plated.",
-            "price": 13.9,
+            "name": "Margarita",
+            "price": 13.94,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -499,19 +664,44 @@ export const quebecCityroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cider",
-            "description": "This succulent favorite is assembled using cultured dairy, then elegantly served.",
-            "price": 9.8,
+            "name": "Mojito",
+            "price": 10.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 13.87,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 13.06,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Signature Grilled Espresso Martini",
-            "description": "Garnished to perfection and hand-folded to perfection using sun-ripened fruits.",
-            "price": 10.34,
+            "name": "Whiskey Sour",
+            "price": 12.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 13.4,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -519,21 +709,10 @@ export const quebecCityroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Old Fashioned",
-            "description": "Our savory specialty, assembled with cultured dairy and neatly composed.",
-            "price": 11.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Liqueur",
-            "description": "Our creamy specialty, smoked with premium components and served family-style.",
-            "price": 13.4,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Bloody Mary",
+            "price": 12.02,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -544,74 +723,8 @@ export const quebecCityroyalBarKitchenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Jambalaya",
-            "description": "Our refreshing specialty, prepared with non-GMO produce and beautifully presented.",
-            "price": 26.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roast Duck",
-            "description": "Beautifully presented and roasted to perfection using handmade pasta.",
-            "price": 21.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Local Steamed Lasagna",
-            "description": "This savory favorite is pan-seared using finest quality ingredients, then layered with care.",
-            "price": 25.04,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Chicken",
-            "description": "Our fruity specialty, whipped with organic ingredients and nestled in a ceramic bowl.",
-            "price": 23.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Pesto Pasta",
-            "description": "This earthy favorite is poached using sun-ripened fruits, then layered with care.",
-            "price": 19.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chicken Parmesan",
-            "description": "Our savory specialty, prepared with microgreens and beautifully presented.",
-            "price": 21.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Spirits and Liqueurs",
-        "items": [
-          {
-            "name": "Chili con Carne",
-            "description": "Our herbaceous specialty, assembled with wild-caught fish and served with flair.",
-            "price": 28.63,
+            "name": "Malbec",
+            "price": 13.42,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -619,9 +732,26 @@ export const quebecCityroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Steamed Thai Curry",
-            "description": "Our citrusy specialty, charred with free-range meats and stacked artistically.",
-            "price": 19.86,
+            "name": "Verdicchio",
+            "price": 9.09,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Noir",
+            "price": 13.69,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Champagne/Sparkling Wine",
+            "price": 10.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -629,9 +759,40 @@ export const quebecCityroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Crunchy Jambalaya",
-            "description": "A zesty dish hand-rolled with heirloom tomatoes and elegantly served.",
-            "price": 22.47,
+            "name": "Sangiovese",
+            "price": 9.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Torrontés",
+            "price": 11.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Spirits and Liqueurs",
+        "items": [
+          {
+            "name": "St-Germain",
+            "price": 12.64,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vodka",
+            "price": 16.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -639,10 +800,27 @@ export const quebecCityroyalBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Creamy Pizza",
-            "description": "Our zesty specialty, slow-cooked with locally sourced produce and attractively arranged.",
-            "price": 18.75,
+            "name": "Absinthe",
+            "price": 17.85,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baileys Irish Cream",
+            "price": 13.23,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Brandy",
+            "price": 16.4,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

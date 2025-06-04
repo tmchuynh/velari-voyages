@@ -12,9 +12,76 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Traditional Hearty Japanese A5 Wagyu with Ponzu Butter",
-            "description": "Our creamy specialty, infused with non-GMO produce and stacked artistically.",
-            "price": 27.04,
+            "name": "Authentic Spiced Sous Vide Perfected Wagyu",
+            "price": 36.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Exquisite 24-Hour Braised Short Ribs",
+            "price": 32.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Grilled Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 33.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Baked Heritage Recipe Lamb Shank",
+            "price": 31.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Grilled Seasonal Tasting Platter",
+            "price": 34.33,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Marinated Charcoal Grilled Iberico Pork",
+            "price": 33.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Hearty Chef’s Wild Game Selection",
+            "price": 25.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Deluxe Golden Locally Foraged Mushroom Selection",
+            "price": 35.54,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,24 +89,40 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Famous Duck Confit",
-            "description": "Served on rustic ware and slow-cooked to perfection using aged cheeses.",
-            "price": 31.19,
+            "name": "Deluxe Smoked Lobster Thermidor",
+            "price": 38.35,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Wood-Fired Peking Duck with Plum Sauce",
-            "description": "Garnished to perfection and braised to perfection using seasonal ingredients.",
-            "price": 24.74,
+            "name": "Traditional Crunchy Chef's Tasting Menu Experience",
+            "price": 24.03,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Steamed Tomahawk Ribeye for Two",
+            "price": 38.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Stuffed Whole Animal Butchery Showcase",
+            "price": 25.46,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -47,64 +130,8 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "House Special Flaky Chili con Carne",
-            "description": "A complex dish made with seasonal ingredients and beautifully presented.",
-            "price": 22.33,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Thai Curry",
-            "description": "Our creamy specialty, charred with artisanal elements and elegantly served.",
-            "price": 25.22,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Enchiladas",
-            "description": "Our balanced specialty, cooked with farm-fresh eggs and styled for visual appeal.",
-            "price": 26.05,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Peppers",
-            "description": "This tangy favorite is infused using finest quality ingredients, then served with flair.",
-            "price": 24.83,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Roasted Vegetable Stir-Fry",
-            "description": "A rich dish assembled with natural sweeteners and accompanied by a tasteful garnish.",
-            "price": 29.09,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
-          {
-            "name": "Organic Aromatic Enchiladas",
-            "description": "Our rich specialty, fire-roasted with artisanal elements and artfully plated.",
-            "price": 20.27,
+            "name": "Classic Grilled Prawn Toast",
+            "price": 10.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -112,19 +139,17 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tagine",
-            "description": "A subtle dish prepared with farm-fresh eggs and nestled in a ceramic bowl.",
-            "price": 28.86,
-            "isVegetarian": false,
+            "name": "Hearty Delicious Garlic Bread",
+            "price": 11.95,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tacos",
-            "description": "Our savory specialty, assembled with chef-selected spices and layered with care.",
-            "price": 18.85,
+            "name": "Homestyle Spiced Mini Quesadillas",
+            "price": 12.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -132,12 +157,47 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Flavorful Lasagna",
-            "description": "Plated with precision and prepared to perfection using premium components.",
-            "price": 28.85,
+            "name": "Authentic Juicy Tuna Tartare",
+            "price": 14.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Grilled Garlic Knots",
+            "price": 13.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Aromatic Baked Brie",
+            "price": 14.11,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Mouthwatering Lettuce Wraps",
+            "price": 14.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Crunchy Chicken Wings",
+            "price": 12.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -147,19 +207,17 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Local Exquisite Lamb Chops",
-            "description": "Presented on a wooden board and caramelized to perfection using heirloom tomatoes.",
-            "price": 19.64,
+            "name": "Seasonal Crunchy Broccoli Cheddar Soup",
+            "price": 13.3,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Signature Comforting Stir-fry",
-            "description": "A tangy dish created with artisanal elements and beautifully presented.",
-            "price": 23.51,
+            "name": "Homestyle Crunchy Miso Soup",
+            "price": 10.01,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -167,19 +225,17 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fish and Chips",
-            "description": "This zesty favorite is prepared using premium components, then elegantly served.",
-            "price": 22.9,
-            "isVegetarian": false,
+            "name": "Fresh Juicy Lentil Soup",
+            "price": 13.42,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pulled Pork Sandwich",
-            "description": "This succulent favorite is charred using cultured dairy, then served with flair.",
-            "price": 27.58,
+            "name": "Authentic Irresistible Carrot Ginger Soup",
+            "price": 11.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -189,32 +245,20 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Main Courses",
+        "name": "Salads",
         "items": [
           {
-            "name": "Thai Curry",
-            "description": "Garnished to perfection and roasted to perfection using seasonal ingredients.",
-            "price": 18.06,
+            "name": "Quinoa Salad",
+            "price": 9.12,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Zingy Katsu Curry",
-            "description": "Our zesty specialty, whipped with sun-ripened fruits and served on rustic ware.",
-            "price": 28.9,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Delectable Stuffed Zucchini Boats",
-            "description": "A peppery dish caramelized with heritage grains and elegantly served.",
-            "price": 18.5,
+            "name": "Mediterranean Chopped Salad",
+            "price": 12.36,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -222,9 +266,8 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Appetizing Fajitas",
-            "description": "Our rich specialty, hand-folded with premium components and garnished to perfection.",
-            "price": 24.8,
+            "name": "Caesar Salad",
+            "price": 11.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -232,39 +275,17 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tacos",
-            "description": "Elegantly served and braised to perfection using sun-ripened fruits.",
-            "price": 29.5,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Exquisite Steak",
-            "description": "Beautifully presented and stir-fried to perfection using cultured dairy.",
-            "price": 23.9,
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 12.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Traditional Flaky Chili con Carne",
-            "description": "This rich favorite is sautéed using heritage grains, then garnished to perfection.",
-            "price": 28.38,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Pan-seared Pho",
-            "description": "Our zesty specialty, oven-baked with finest quality ingredients and styled for visual appeal.",
-            "price": 27.04,
+            "name": "Mango Avocado Salad",
+            "price": 10.68,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -274,32 +295,65 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Side Dishes",
+        "name": "Main Courses",
         "items": [
           {
-            "name": "Shish Kebabs",
-            "description": "A refreshing dish sautéed with sun-ripened fruits and nestled in a ceramic bowl.",
-            "price": 18.46,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fish and Chips",
-            "description": "This nutty favorite is made using wild-caught fish, then served on rustic ware.",
-            "price": 29.9,
+            "name": "House Special Sweet Chicken Parmesan",
+            "price": 25.21,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Stuffed Zucchini Boats",
-            "description": "A umami-packed dish charred with finest quality ingredients and nestled in a ceramic bowl.",
-            "price": 19.38,
+            "name": "Hearty Spiced Steak",
+            "price": 25.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Aromatic Stuffed Peppers",
+            "price": 20.21,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Stuffed Grilled Chicken",
+            "price": 21.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Zingy Pasta Primavera",
+            "price": 27.88,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Flaky Paella",
+            "price": 18.36,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Sweet Pesto Pasta",
+            "price": 28.91,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,10 +361,9 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Sautéed Spaghetti Bolognese",
-            "description": "Accompanied by a tasteful garnish and prepared to perfection using finest quality ingredients.",
-            "price": 23.98,
-            "isVegetarian": true,
+            "name": "Homestyle Pan-seared Cottage Pie",
+            "price": 23.76,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -322,9 +375,8 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Local Zesty Alaskan King Crab Legs with Drawn Butter",
-            "description": "Our delicate specialty, marinated with heirloom tomatoes and styled for visual appeal.",
-            "price": 28.2,
+            "name": "Fresh Spiced Seared Tuna Steak with Sesame Crust",
+            "price": 22.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -332,9 +384,8 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Tempura Soft Shell Crab",
-            "description": "Our briny specialty, pan-seared with locally foraged herbs and beautifully presented.",
-            "price": 25.4,
+            "name": "Classic Exquisite New England Lobster Roll",
+            "price": 25.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -342,9 +393,17 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Garlic Butter Shrimp Skillet",
-            "description": "A herbaceous dish sautéed with sun-ripened fruits and neatly composed.",
-            "price": 29.87,
+            "name": "Hearty Sautéed Crab-Stuffed Mushrooms",
+            "price": 27.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Golden Basa Fillet with Dill Cream Sauce",
+            "price": 23.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,10 +411,127 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Oysters Rockefeller with Pernod Cream",
-            "description": "Our hearty specialty, prepared with finest quality ingredients and artfully plated.",
-            "price": 32.68,
+            "name": "Authentic Golden Seafood Gumbo with Okra",
+            "price": 35.28,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Fresh Tender French Fries",
+            "price": 6.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Stuffed Creamed Spinach with Nutmeg",
+            "price": 6.16,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Spiced Stuffed Bell Peppers with Brown Rice",
+            "price": 7.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Roasted Crispy Beer-Battered Onion Rings",
+            "price": 5.88,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Savory Wild Rice Pilaf",
+            "price": 7.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Spicy Grilled Asparagus with Lemon Zest",
+            "price": 9.05,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Hot Chocolate",
+            "price": 6.42,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 6.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 6.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 6.19,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 5.19,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 6.34,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -370,12 +546,11 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Chili con Carne",
-            "description": "A hearty dish grilled with farm-fresh eggs and served on rustic ware.",
-            "price": 28.44,
+            "name": "Crumb Cake",
+            "price": 10.95,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -383,96 +558,87 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coq au Vin",
-            "description": "This zesty favorite is made using finest quality ingredients, then plated with precision.",
-            "price": 26.44,
-            "isVegetarian": false,
+            "name": "Berry Tart",
+            "price": 8.49,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chicken Parmesan",
-            "description": "Layered with care and marinated to perfection using non-GMO produce.",
-            "price": 18.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Enchiladas",
-            "description": "A bold dish cooked with locally foraged herbs and served family-style.",
-            "price": 24.57,
-            "isVegetarian": false,
+            "name": "Scones",
+            "price": 9.95,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Signature Spicy Pulled Pork Sandwich",
-            "description": "This nutty favorite is prepared using handmade pasta, then neatly composed.",
-            "price": 22.15,
-            "isVegetarian": false,
+            "name": "Macarons",
+            "price": 10.51,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Red Velvet Cake",
+            "price": 9.01,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Classic Stuffed Beef Burger",
-            "description": "Stacked artistically and hand-folded to perfection using organic ingredients.",
-            "price": 25,
+            "name": "Granita",
+            "price": 10.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Jambalaya",
-            "description": "A rich dish pan-seared with organic ingredients and attractively arranged.",
-            "price": 23.1,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Mouthwatering Beef Wellington",
-            "description": "This complex favorite is stir-fried using cold-pressed oils, then accompanied by a tasteful garnish.",
-            "price": 28.67,
+            "name": "Popsicles",
+            "price": 11.16,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Sautéed Lasagna",
-            "description": "Our hearty specialty, assembled with premium components and drizzled with finesse.",
-            "price": 27.81,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coq au Vin",
-            "description": "This sweet favorite is sautéed using seasonal ingredients, then accompanied by a tasteful garnish.",
-            "price": 26.43,
+            "name": "Ice Cream",
+            "price": 9.33,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Fruit Bars",
+            "price": 7.7,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Pie",
+            "price": 10.44,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -489,29 +655,35 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Fresh Enticing Armagnac",
-            "description": "Our floral specialty, infused with organic ingredients and layered with care.",
-            "price": 12.38,
+            "name": "Bloody Mary",
+            "price": 12.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 14.38,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tom Collins",
-            "description": "Accompanied by a tasteful garnish and charred to perfection using house-made sauces.",
-            "price": 14.36,
+            "name": "Margarita",
+            "price": 15.2,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Rye Whiskey",
-            "description": "This floral favorite is caramelized using finest quality ingredients, then attractively arranged.",
-            "price": 14.85,
+            "name": "Manhattan",
+            "price": 10.22,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -519,9 +691,8 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Shochu",
-            "description": "A delicate dish pan-seared with wild-caught fish and layered with care.",
-            "price": 13.14,
+            "name": "Whiskey Sour",
+            "price": 11.86,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,11 +700,19 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Brandy",
-            "description": "Our pungent specialty, pan-seared with wild-caught fish and served with flair.",
-            "price": 9.77,
-            "isVegetarian": false,
+            "name": "Old Fashioned",
+            "price": 13.1,
+            "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 10.6,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -544,39 +723,17 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Lamb Chops",
-            "description": "Served with flair and braised to perfection using sustainable seafood.",
-            "price": 25.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Grilled Bibimbap",
-            "description": "Our robust specialty, seasoned with locally sourced produce and styled for visual appeal.",
-            "price": 25.6,
+            "name": "Gewürztraminer",
+            "price": 12.12,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Enticing Thai Curry",
-            "description": "A citrusy dish oven-baked with sustainable seafood and beautifully presented.",
-            "price": 24.29,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Biryani",
-            "description": "This briny favorite is composed using seasonal ingredients, then artfully plated.",
-            "price": 22.27,
+            "name": "Grenache",
+            "price": 8.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -584,22 +741,38 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Eggplant Parmesan",
-            "description": "A spicy dish made with locally foraged herbs and nestled in a ceramic bowl.",
-            "price": 21.05,
-            "isVegetarian": true,
+            "name": "Verdicchio",
+            "price": 12.12,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Zingy Quiche",
-            "description": "Styled for visual appeal and stir-fried to perfection using cultured dairy.",
-            "price": 25.56,
+            "name": "Cabernet Franc",
+            "price": 9.64,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gamay",
+            "price": 10.9,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Blanc",
+            "price": 8.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -609,19 +782,8 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Signature Steamed Lamb Chops",
-            "description": "A citrusy dish caramelized with farm-fresh eggs and styled for visual appeal.",
-            "price": 25.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Pizza",
-            "description": "Garnished to perfection and prepared to perfection using grass-fed beef.",
-            "price": 28.38,
+            "name": "Grappa",
+            "price": 13.22,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -629,19 +791,35 @@ export const parisgrandCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Steak",
-            "description": "This fruity favorite is roasted using farm-fresh eggs, then presented on a wooden board.",
-            "price": 24.63,
+            "name": "Maraschino",
+            "price": 13.53,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bourbon",
+            "price": 14.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Thai Curry",
-            "description": "Our complex specialty, glazed with grass-fed beef and offered as a tasting portion.",
-            "price": 26.65,
+            "name": "Campari",
+            "price": 12.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee Liqueur",
+            "price": 11.79,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
