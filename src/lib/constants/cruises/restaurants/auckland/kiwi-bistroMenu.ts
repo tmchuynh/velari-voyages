@@ -12,33 +12,116 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Organic Golden Tableside Carved Chateaubriand",
-            "description": "This floral favorite is marinated using house-made sauces, then garnished to perfection.",
-            "price": 31.39,
-            "isVegetarian": false,
+            "name": "Deluxe Comforting Seasonal Tasting Menu Experience",
+            "price": 27.63,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Signature Flavorful Seasonal Tasting Platter",
-            "description": "Our rich specialty, made with heritage grains and offered as a tasting portion.",
-            "price": 26.75,
-            "isVegetarian": false,
+            "name": "Deluxe Irresistible Japanese A5 Wagyu with Ponzu Butter",
+            "price": 34.65,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Flambéed Tableside Specialty",
-            "description": "Served on rustic ware and smoked to perfection using seasonal ingredients.",
-            "price": 36.26,
+            "name": "Authentic Tender Whole Roasted Heritage Chicken",
+            "price": 26.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Aromatic Signature Truffle Pasta with Aged Pecorino",
+            "price": 33.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Luscious Black Garlic Glazed Beef Tenderloin",
+            "price": 35.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Mouthwatering Age-Old Recipe Osso Buco with Gremolata",
+            "price": 27.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Fried Tableside Carved Chateaubriand",
+            "price": 32.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Hearty Juicy Volcanic Stone-Cooked Specialty",
+            "price": 29.16,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Fried Tableside Flambé Preparation",
+            "price": 24.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Wholesome Truffle-Infused Filet Mignon",
+            "price": 34.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Pan-seared Chef's Tasting Menu Experience",
+            "price": 32.11,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Tangy Heritage Breed Porchetta",
+            "price": 24.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -47,9 +130,17 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Beef Wellington",
-            "description": "Our complex specialty, caramelized with finest quality ingredients and layered with care.",
-            "price": 28.39,
+            "name": "Gourmet Marinated Garlic Knots",
+            "price": 15.76,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Delectable Nachos",
+            "price": 11.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -57,9 +148,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Crunchy Pho",
-            "description": "A succulent dish marinated with chef-selected spices and presented on a wooden board.",
-            "price": 23.09,
+            "name": "House Special Luscious Crostini",
+            "price": 13.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -67,29 +157,85 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Succulent Chicken Parmesan",
-            "description": "Our smoky specialty, stir-fried with seasonal ingredients and layered with care.",
-            "price": 22.32,
+            "name": "Homestyle Juicy Spring Rolls",
+            "price": 14.59,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Succulent Mini Tacos",
+            "price": 12.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Sweet Charcuterie Board",
+            "price": 11.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Quiche",
-            "description": "Our floral specialty, charred with seasonal ingredients and nestled in a ceramic bowl.",
-            "price": 19.92,
+            "name": "Homestyle Spicy Bruschetta",
+            "price": 10.54,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Creamy Pasta Primavera",
-            "description": "A hearty dish slow-cooked with grass-fed beef and served with flair.",
-            "price": 29.2,
+            "name": "Handcrafted Grilled Cheese Platter",
+            "price": 15.33,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Soups",
+        "items": [
+          {
+            "name": "Authentic Fried Broccoli Cheddar Soup",
+            "price": 12.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Irresistible Zuppa Toscana",
+            "price": 8.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Luscious Egg Drop Soup",
+            "price": 8.79,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Creamy Tomato Soup",
+            "price": 12.11,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -102,19 +248,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Teriyaki Chicken",
-            "description": "This pungent favorite is infused using finest quality ingredients, then garnished to perfection.",
-            "price": 21.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Risotto",
-            "description": "Nestled in a ceramic bowl and prepared to perfection using locally sourced produce.",
-            "price": 26.83,
+            "name": "Kale Salad",
+            "price": 12.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -122,67 +257,38 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Roasted Jambalaya",
-            "description": "A bold dish hand-rolled with free-range meats and plated with precision.",
-            "price": 26.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Zingy Mac and Cheese",
-            "description": "A citrusy dish assembled with finest quality ingredients and attractively arranged.",
-            "price": 25.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Soups",
-        "items": [
-          {
-            "name": "Local Delicious Tacos",
-            "description": "A succulent dish prepared with artisanal elements and attractively arranged.",
-            "price": 24.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Mouthwatering Pesto Pasta",
-            "description": "This savory favorite is grilled using grass-fed beef, then garnished to perfection.",
-            "price": 21.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Currywurst",
-            "description": "A citrusy dish whipped with seasonal ingredients and offered as a tasting portion.",
-            "price": 23.69,
-            "isVegetarian": false,
+            "name": "Broccoli Crunch Salad",
+            "price": 13.65,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Marinated Grilled Tofu",
-            "description": "Beautifully presented and slow-cooked to perfection using seasonal ingredients.",
-            "price": 29.44,
+            "name": "Caprese Salad",
+            "price": 15.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coleslaw",
+            "price": 12.5,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Asian Slaw",
+            "price": 10.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -192,19 +298,26 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Lasagna",
-            "description": "This fruity favorite is made using cultured dairy, then served on rustic ware.",
-            "price": 26.83,
-            "isVegetarian": true,
+            "name": "Authentic Steamed Jambalaya",
+            "price": 18.07,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Grilled Chicken",
-            "description": "This hearty favorite is grilled using grass-fed beef, then offered as a tasting portion.",
-            "price": 28.38,
+            "name": "Organic Marinated Pizza",
+            "price": 26.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sweet Lasagna",
+            "price": 31.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -212,19 +325,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Organic Enticing Steak",
-            "description": "This rich favorite is whipped using grass-fed beef, then presented on a wooden board.",
-            "price": 24.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Ramen",
-            "description": "Plated with precision and made to perfection using farm-fresh eggs.",
-            "price": 27.45,
+            "name": "Homestyle Golden Gnocchi",
+            "price": 18.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -232,9 +334,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Stuffed Paella",
-            "description": "Our nutty specialty, composed with finest quality ingredients and beautifully presented.",
-            "price": 24.78,
+            "name": "Deluxe Pan-seared Eggplant Parmesan",
+            "price": 24.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -242,9 +343,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Golden Pho",
-            "description": "This peppery favorite is stir-fried using non-GMO produce, then attractively arranged.",
-            "price": 18.19,
+            "name": "Gourmet Irresistible Enchiladas",
+            "price": 20.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -252,69 +352,22 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lentil Stew",
-            "description": "A subtle dish fire-roasted with microgreens and accompanied by a tasteful garnish.",
-            "price": 27.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Peppers",
-            "description": "This rich favorite is hand-rolled using cold-pressed oils, then layered with care.",
-            "price": 31.98,
+            "name": "Organic Enticing Korma",
+            "price": 24.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Steak",
-            "description": "A floral dish seasoned with locally sourced produce and served family-style.",
-            "price": 28.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
           },
           {
-            "name": "House Special Delicious Pesto Pasta",
-            "description": "This robust favorite is infused using hand-picked vegetables, then garnished to perfection.",
-            "price": 24.15,
+            "name": "Traditional Comforting Fish and Chips",
+            "price": 25.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pulled Pork Sandwich",
-            "description": "A subtle dish hand-folded with premium components and styled for visual appeal.",
-            "price": 26.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": false
-          },
-          {
-            "name": "Classic Flavorful Pasta Primavera",
-            "description": "A nutty dish sautéed with hand-picked vegetables and stacked artistically.",
-            "price": 26.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
@@ -322,9 +375,17 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Seafood Risotto with Saffron",
-            "description": "Our balanced specialty, prepared with free-range meats and served on rustic ware.",
-            "price": 31,
+            "name": "Gourmet Enticing Garlic Butter Shrimp Skillet",
+            "price": 24.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Exquisite Alaskan King Crab Legs with Drawn Butter",
+            "price": 31.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -332,19 +393,17 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cajun Shrimp and Grits",
-            "description": "Styled for visual appeal and prepared to perfection using finest quality ingredients.",
-            "price": 24.82,
+            "name": "Authentic Luscious Lemon-Herb Calamari Steak",
+            "price": 24.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
+            "isHalal": false,
+            "isKosher": true
           },
           {
-            "name": "Seafood Gumbo with Okra",
-            "description": "This creamy favorite is poached using wild-caught fish, then neatly composed.",
-            "price": 29.95,
+            "name": "Deluxe Creamy Stuffed Flounder with Crab and Spinach",
+            "price": 27.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,14 +411,131 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Tangy Mussels Mariniere in White Wine",
-            "description": "Nestled in a ceramic bowl and composed to perfection using cultured dairy.",
-            "price": 31.16,
+            "name": "Hearty Comforting Linguine with Clam Sauce",
+            "price": 33.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Seasonal Luscious Homestyle Baked Beans",
+            "price": 9.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Zesty Corn on the Cob with Chili Lime Butter",
+            "price": 6.76,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Luscious Grilled Asparagus with Lemon Zest",
+            "price": 6.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Organic Sweet Wild Rice Pilaf",
+            "price": 7.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Baked French Fries",
+            "price": 5.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Grilled Yukon Gold Potato Gratin",
+            "price": 9.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Juice",
+            "price": 7.44,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 7.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 5.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 6.98,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 7.33,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 7.86,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
@@ -370,52 +546,47 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Mac and Cheese",
-            "description": "Served with flair and prepared to perfection using artisanal elements.",
-            "price": 18.47,
-            "isVegetarian": true,
+            "name": "Muffins",
+            "price": 10.12,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Spiced Beef Wellington",
-            "description": "Our buttery specialty, pan-seared with grass-fed beef and plated with precision.",
-            "price": 18.58,
+            "name": "Biscotti",
+            "price": 6.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Beef Burger",
-            "description": "A succulent dish glazed with farm-fresh eggs and accompanied by a tasteful garnish.",
-            "price": 20.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Baked Steak",
-            "description": "A zesty dish oven-baked with cultured dairy and served on rustic ware.",
-            "price": 21.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Roast Duck",
-            "description": "A tangy dish seasoned with locally sourced produce and beautifully presented.",
-            "price": 25.26,
+            "name": "Vanilla Cake",
+            "price": 6.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Donuts",
+            "price": 6.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Shortbread",
+            "price": 8.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,22 +596,29 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Chef's Herbed Gnocchi",
-            "description": "Our subtle specialty, smoked with seasonal ingredients and served on rustic ware.",
-            "price": 25.3,
-            "isVegetarian": false,
+            "name": "Frozen Yogurt",
+            "price": 8.97,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef's Sizzling Bibimbap",
-            "description": "Our succulent specialty, poached with grass-fed beef and elegantly served.",
-            "price": 29.47,
+            "name": "Ice Cream",
+            "price": 9.47,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Cheesecake",
+            "price": 10.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -448,29 +626,17 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Crunchy Spaghetti Bolognese",
-            "description": "Styled for visual appeal and hand-folded to perfection using locally sourced produce.",
-            "price": 29.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Spicy Salmon",
-            "description": "A hearty dish marinated with seasonal ingredients and layered with care.",
-            "price": 24.7,
+            "name": "Frozen Custard",
+            "price": 9.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Local Sweet Roast Duck",
-            "description": "This fruity favorite is cooked using farm-fresh eggs, then served on rustic ware.",
-            "price": 25.02,
+            "name": "Baked Alaska",
+            "price": 11.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -489,29 +655,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Arak",
-            "description": "This zesty favorite is hand-folded using artisanal elements, then beautifully presented.",
-            "price": 13.92,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "White Rum",
-            "description": "This briny favorite is infused using cultured dairy, then presented on a wooden board.",
-            "price": 11.27,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gin",
-            "description": "A savory dish crafted with artisanal elements and nestled in a ceramic bowl.",
-            "price": 13.69,
+            "name": "Margarita",
+            "price": 15.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -519,19 +664,53 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mead",
-            "description": "This aromatic favorite is made using aged cheeses, then neatly composed.",
-            "price": 9.18,
-            "isVegetarian": true,
+            "name": "Negroni",
+            "price": 10.83,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Local Grilled Vodka",
-            "description": "Our tangy specialty, made with seasonal ingredients and nestled in a ceramic bowl.",
-            "price": 11.09,
+            "name": "Bloody Mary",
+            "price": 15.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 15.37,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 15.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 13.43,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 13.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -544,19 +723,17 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Teriyaki Chicken",
-            "description": "Garnished to perfection and glazed to perfection using premium components.",
-            "price": 27.9,
-            "isVegetarian": false,
+            "name": "Merlot",
+            "price": 10.99,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cottage Pie",
-            "description": "Presented on a wooden board and poached to perfection using finest quality ingredients.",
-            "price": 20.89,
+            "name": "Pinot Noir",
+            "price": 9.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -564,9 +741,17 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seafood Platter",
-            "description": "A herbaceous dish whipped with hand-picked vegetables and artfully plated.",
-            "price": 29.17,
+            "name": "Chardonnay",
+            "price": 9.5,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cabernet Franc",
+            "price": 11.02,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -574,33 +759,21 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Exquisite Risotto",
-            "description": "Our rich specialty, smoked with premium components and beautifully presented.",
-            "price": 20.79,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Dolcetto",
+            "price": 13.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Steak",
-            "description": "This succulent favorite is prepared using chef-selected spices, then offered as a tasting portion.",
-            "price": 19.34,
+            "name": "Chenin Blanc",
+            "price": 13.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Tender Pho",
-            "description": "Our nutty specialty, made with hand-picked vegetables and beautifully presented.",
-            "price": 25.87,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -609,9 +782,8 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Organic Exquisite Quiche",
-            "description": "This succulent favorite is crafted using seasonal ingredients, then accompanied by a tasteful garnish.",
-            "price": 26.65,
+            "name": "Anisette",
+            "price": 17.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,19 +791,17 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grilled Chicken",
-            "description": "This balanced favorite is made using chef-selected spices, then served with flair.",
-            "price": 25.12,
-            "isVegetarian": false,
+            "name": "Cognac",
+            "price": 11.42,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "House Special Delicious Lentil Stew",
-            "description": "Our nutty specialty, marinated with grass-fed beef and beautifully presented.",
-            "price": 22.46,
+            "name": "Scotch",
+            "price": 15.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -639,12 +809,20 @@ export const aucklandkiwiBistroMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Korma",
-            "description": "Served family-style and whipped to perfection using sun-ripened fruits.",
-            "price": 29.41,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Aquavit",
+            "price": 10.81,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tequila",
+            "price": 17.98,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
