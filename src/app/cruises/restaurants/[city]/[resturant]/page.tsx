@@ -2,6 +2,7 @@
 
 import Loading from "@/components/Loading";
 import RestaurantIconKey from "@/components/RestaurantIconKey";
+import RestaurantHours from "@/components/ui/RestaurantHours";
 import {
   Tooltip,
   TooltipContent,
@@ -125,11 +126,19 @@ export default function RestaurantMenuPage() {
             )}
           </header>
 
-          {isSmallScreen ? (
-            <RestaurantIconKey compact className="my-4" />
-          ) : (
-            <RestaurantIconKey className="mb-15" />
-          )}
+          <div className="gap-4 grid lg:grid-cols-9 my-8">
+            {" "}
+            {isSmallScreen ? (
+              <RestaurantIconKey compact className="my-4" />
+            ) : (
+              <RestaurantIconKey className="lg:col-span-5 mb-15" />
+            )}
+            <RestaurantHours
+              openingHours={restaurantInfo?.openingHours}
+              variant="page"
+              className="lg:col-span-4"
+            />
+          </div>
 
           <section className="divide-y-2 divide-secondary">
             {restaurantData.map((menu, index) => {
