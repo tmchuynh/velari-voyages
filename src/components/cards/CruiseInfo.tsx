@@ -45,7 +45,8 @@ export default function CruiseInfo({
           </div>
           <div className="relative px-6 pt-5">
             <div className="flex flex-col justify-between items-start mb-2">
-              <h2>{cruise.title}</h2>
+              <h2 className="w-11/12">{cruise.title}</h2>
+              <p>{cruise.description}</p>
               {displayRatingStars(cruise.rating)}
             </div>
             <Sheet>
@@ -205,7 +206,7 @@ export default function CruiseInfo({
         <div className="flex flex-col justify-between mb-7 px-6">
           <div className="flex flex-wrap gap-2 mb-4">
             {cruise.tags?.map((tag, i) => (
-              <Badge variant={"secondary"} key={i}>
+              <Badge variant={"secondary"} key={i} className="capitalize">
                 {tag}
               </Badge>
             ))}
