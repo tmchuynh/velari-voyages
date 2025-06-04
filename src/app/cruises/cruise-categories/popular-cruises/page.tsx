@@ -6,6 +6,14 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import {
+  Pagination,
+  PaginationContent,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "@/components/ui/pagination";
+import {
   Select,
   SelectContent,
   SelectItem,
@@ -24,6 +32,10 @@ import { FaFilter } from "react-icons/fa";
 export default function PopularTours() {
   const [popularCruises, setPopularCruises] = useState<Cruise[]>([]);
   const [loading, setLoading] = useState(true);
+
+  // Pagination states
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(9); // Default to 9 items per page (3x3 grid)
 
   // Filter states
   const [showFilters, setShowFilters] = useState(false);
@@ -62,6 +74,11 @@ export default function PopularTours() {
 
     fetchCruises();
   }, []);
+
+  // Reset to first page when filters change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [filters]);
 
   const filterOptions = useMemo(() => {
     if (!popularCruises.length)
@@ -186,6 +203,62 @@ export default function PopularTours() {
       return true;
     });
   }, [popularCruises, filters]);
+
+  // Pagination calculation
+  const totalPages = Math.ceil(filteredTours.length / itemsPerPage);
+
+  // Get current page cruises
+  const currentCruises = useMemo(() => {
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    return filteredTours.slice(startIndex, startIndex + itemsPerPage);
+  }, [filteredTours, currentPage, itemsPerPage]);
+
+  // Handle page change
+  const handlePageChange = (pageNumber: number) => {
+    setCurrentPage(pageNumber);
+    // Scroll to top of results
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  // Generate page numbers for pagination
+  const getPageNumbers = () => {
+    const pageNumbers = [];
+    const maxPagesToShow = 5; // Show at most 5 page numbers
+
+    if (totalPages <= maxPagesToShow) {
+      // If there are 5 or fewer pages, show all page numbers
+      for (let i = 1; i <= totalPages; i++) {
+        pageNumbers.push(i);
+      }
+    } else {
+      // Always include first page
+      pageNumbers.push(1);
+
+      // Add ellipsis if current page is more than 3
+      if (currentPage > 3) {
+        pageNumbers.push(-1); // Use -1 to represent ellipsis
+      }
+
+      // Add current page and pages around it
+      for (
+        let i = Math.max(2, currentPage - 1);
+        i <= Math.min(totalPages - 1, currentPage + 1);
+        i++
+      ) {
+        pageNumbers.push(i);
+      }
+
+      // Add ellipsis if current page is less than totalPages - 2
+      if (currentPage < totalPages - 2) {
+        pageNumbers.push(-2); // Use -2 to represent ellipsis
+      }
+
+      // Always include last page
+      pageNumbers.push(totalPages);
+    }
+
+    return pageNumbers;
+  };
 
   if (loading || !filters) {
     return <Loading />;
@@ -345,6 +418,30 @@ export default function PopularTours() {
                     </SelectContent>
                   </Select>
                 </div>
+
+                {/* Items per page selector */}
+                <div className="space-y-2">
+                  <Label htmlFor="items-per-page">
+                    <strong>Cruises per page</strong>
+                  </Label>
+                  <Select
+                    value={itemsPerPage.toString()}
+                    onValueChange={(value) => {
+                      setItemsPerPage(Number(value));
+                      setCurrentPage(1); // Reset to first page when changing items per page
+                    }}
+                  >
+                    <SelectTrigger id="items-per-page">
+                      <SelectValue />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="6">6</SelectItem>
+                      <SelectItem value="9">9</SelectItem>
+                      <SelectItem value="12">12</SelectItem>
+                      <SelectItem value="24">24</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </div>
               </div>
 
               <div className="flex justify-between items-end mt-6">
@@ -367,45 +464,118 @@ export default function PopularTours() {
 
       <section className="mt-6">
         <h2>Featured Cruises</h2>
-        {popularCruises && (
-          <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full">
-            {filteredTours.map((cruise, index) => {
-              if (!cruise) {
-                console.warn(`Tour data is missing for index: ${index}`);
-                return null; // Skip rendering this cruise if data is missing
-              }
-              if (!cruise.departureLocation || !cruise.arrivalLocation) {
-                console.warn(
-                  `Tour is missing departure or arrival location: ${cruise.title}`
+        {filteredTours.length > 0 ? (
+          <>
+            <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full">
+              {currentCruises.map((cruise, index) => {
+                if (!cruise) {
+                  console.warn(`Tour data is missing for index: ${index}`);
+                  return null; // Skip rendering this cruise if data is missing
+                }
+                if (!cruise.departureLocation || !cruise.arrivalLocation) {
+                  console.warn(
+                    `Tour is missing departure or arrival location: ${cruise.title}`
+                  );
+                  return null; // Skip rendering if location data is missing
+                }
+
+                // Find city info based on departure location
+                const departureInfo = cruiseDepartureLocations.find(
+                  (attraction) =>
+                    attraction.city.toLowerCase() ===
+                      cruise.departureLocation.city.toLowerCase() ||
+                    attraction.country.toLowerCase() ===
+                      cruise.departureLocation.country.toLowerCase()
                 );
-                return null; // Skip rendering if location data is missing
-              }
 
-              // Find city info based on departure location
-              const departureInfo = cruiseDepartureLocations.find(
-                (attraction) =>
-                  attraction.city.toLowerCase() ===
-                    cruise.departureLocation.city.toLowerCase() ||
-                  attraction.country.toLowerCase() ===
-                    cruise.departureLocation.country.toLowerCase()
-              );
+                if (!departureInfo) {
+                  console.warn(
+                    `Departure location information not found for cruise: ${cruise.title}`
+                  );
+                  return null;
+                }
 
-              if (!departureInfo) {
-                console.warn(
-                  `Departure location information not found for cruise: ${cruise.title}`
+                return (
+                  <CruiseInfo
+                    cruise={cruise}
+                    key={index}
+                    city={cruise.departureLocation.city || "Not specified"}
+                    country={
+                      cruise.departureLocation.country || "Not specified"
+                    }
+                  />
                 );
-                return null;
-              }
+              })}
+            </div>
 
-              return (
-                <CruiseInfo
-                  cruise={cruise}
-                  key={index}
-                  city={cruise.departureLocation.city || "Not specified"}
-                  country={cruise.departureLocation.country || "Not specified"}
-                />
-              );
-            })}
+            {/* Pagination controls */}
+            {totalPages > 1 && (
+              <Pagination className="mt-8">
+                <PaginationContent>
+                  <PaginationItem>
+                    <PaginationPrevious
+                      onClick={() =>
+                        currentPage > 1 && handlePageChange(currentPage - 1)
+                      }
+                      className={
+                        currentPage === 1
+                          ? "pointer-events-none opacity-50"
+                          : "cursor-pointer"
+                      }
+                    />
+                  </PaginationItem>
+
+                  {getPageNumbers().map((pageNumber, index) => (
+                    <PaginationItem key={index}>
+                      {pageNumber < 0 ? (
+                        <span className="px-4 py-2">...</span>
+                      ) : (
+                        <PaginationLink
+                          isActive={currentPage === pageNumber}
+                          onClick={() => handlePageChange(pageNumber)}
+                          className="cursor-pointer"
+                        >
+                          {pageNumber}
+                        </PaginationLink>
+                      )}
+                    </PaginationItem>
+                  ))}
+
+                  <PaginationItem>
+                    <PaginationNext
+                      onClick={() =>
+                        currentPage < totalPages &&
+                        handlePageChange(currentPage + 1)
+                      }
+                      className={
+                        currentPage === totalPages
+                          ? "pointer-events-none opacity-50"
+                          : "cursor-pointer"
+                      }
+                    />
+                  </PaginationItem>
+                </PaginationContent>
+              </Pagination>
+            )}
+
+            <div className="mt-4 text-center text-muted-foreground text-sm">
+              Showing{" "}
+              {Math.min(
+                (currentPage - 1) * itemsPerPage + 1,
+                filteredTours.length
+              )}{" "}
+              - {Math.min(currentPage * itemsPerPage, filteredTours.length)} of{" "}
+              {filteredTours.length} cruises
+            </div>
+          </>
+        ) : (
+          <div className="py-12 text-center">
+            <h3 className="font-semibold text-xl">
+              No cruises match your filter criteria
+            </h3>
+            <Button onClick={resetFilters} className="mt-4">
+              Reset Filters
+            </Button>
           </div>
         )}
       </section>
