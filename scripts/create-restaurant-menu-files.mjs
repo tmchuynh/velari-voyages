@@ -2,7 +2,29 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
+// // Basic usage (generates all menu types with default settings)
+// node scripts/create-restaurant-menu-files.mjs
 
+// // Generate only main course menus
+// node scripts/create-restaurant-menu-files.mjs --menu-type main
+
+// // Generate only dessert menus
+// node scripts/create-restaurant-menu-files.mjs --menu-type dessert
+
+// // Generate only drinks menus
+// node scripts/create-restaurant-menu-files.mjs --menu-type drinks
+
+// // Generate menus with 10 items per category
+// node scripts/create-restaurant-menu-files.mjs --items 10
+
+// // Generate menus for a specific restaurant (partial name matching)
+// node scripts/create-restaurant-menu-files.mjs --restaurant "Bistro"
+
+// // Focus on a specific food category
+// node scripts/create-restaurant-menu-files.mjs --category "Signature Dishes"
+
+// // Combining multiple options
+// node scripts/create-restaurant-menu-files.mjs --menu-type main --items 12 --restaurant "Seafood"
 
 // Import minimist for command-line argument parsing
 import minimist from "minimist";
@@ -17,7 +39,7 @@ const args = minimist(process.argv.slice(2), {
   default: {
     "menu-type": "all",
     category: "all",
-    items: 5,
+    items: 7,
     restaurant: "all",
   },
 });
