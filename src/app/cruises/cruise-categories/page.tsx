@@ -55,11 +55,7 @@ export default function TourPackages() {
           </Button>
           <Button
             variant="outline"
-            onClick={() =>
-              router.push(
-                "/cruises/cruise-categories/velari-voyages-cruises/crew-members"
-              )
-            }
+            onClick={() => router.push("/cruises/crew-members")}
           >
             Meet Our Dedicated Crew Teams
           </Button>
