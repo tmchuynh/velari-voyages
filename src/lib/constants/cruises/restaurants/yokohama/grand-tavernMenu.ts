@@ -12,44 +12,44 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "House Famous Duck Confit",
-            "description": "A herbaceous dish cooked with locally sourced produce and drizzled with finesse.",
-            "price": 36.57,
+            "name": "Fresh Aromatic Celebrity Favorite Lobster Dish",
+            "price": 28.28,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Organic Creamy Wood-Fired Peking Duck with Plum Sauce",
-            "description": "A spicy dish marinated with seasonal ingredients and drizzled with finesse.",
-            "price": 27.7,
+            "name": "Seasonal Smoked Restaurant's Namesake Signature Entrée",
+            "price": 31.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Mouthwatering Founder's Family Recipe Pasta",
+            "price": 32.88,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Zingy Wood-Fired Peking Duck with Plum Sauce",
+            "price": 27.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Restaurant's Namesake Signature Entrée",
-            "description": "Our complex specialty, roasted with microgreens and attractively arranged.",
-            "price": 33.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Appetizers",
-        "items": [
-          {
-            "name": "Local Grilled Pesto Pasta",
-            "description": "Beautifully presented and poached to perfection using wild-caught fish.",
-            "price": 29.59,
+            "name": "Fresh Grilled Legendary Prime Rib",
+            "price": 25.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -57,54 +57,8 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Steak",
-            "description": "Nestled in a ceramic bowl and fire-roasted to perfection using hand-picked vegetables.",
-            "price": 28.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Local Flavorful Grilled Chicken",
-            "description": "This subtle favorite is braised using seasonal ingredients, then accompanied by a tasteful garnish.",
-            "price": 29.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Shish Kebabs",
-            "description": "This floral favorite is grilled using house-made sauces, then attractively arranged.",
-            "price": 19.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Stuffed Pizza",
-            "description": "This succulent favorite is composed using locally foraged herbs, then plated with precision.",
-            "price": 22.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
-          {
-            "name": "Organic Tangy Enchiladas",
-            "description": "Nestled in a ceramic bowl and caramelized to perfection using finest quality ingredients.",
-            "price": 24.97,
+            "name": "House Special Grilled Seasonal Tasting Platter",
+            "price": 30.53,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -112,9 +66,72 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fajitas",
-            "description": "A spicy dish charred with farm-fresh eggs and presented on a wooden board.",
-            "price": 18.98,
+            "name": "Homestyle Roasted House Famous Duck Confit",
+            "price": 30.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Authentic Sautéed Heirloom Recipe from Chef's Family",
+            "price": 35.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Marinated Braised Short Ribs with Red Wine Sauce",
+            "price": 26.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Sizzling Collaborative Limited Edition Special",
+            "price": 39.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Steamed Pan-Seared Scallops with Citrus Beurre Blanc",
+            "price": 34.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Enticing Truffle-Infused Filet Mignon",
+            "price": 37.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Appetizers",
+        "items": [
+          {
+            "name": "Fresh Mouthwatering Potstickers",
+            "price": 15.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -122,19 +139,62 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Zesty Beef Burger",
-            "description": "This zesty favorite is crafted using heritage grains, then offered as a tasting portion.",
-            "price": 26.67,
+            "name": "Traditional Baked Bruschetta",
+            "price": 9.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Lentil Stew",
-            "description": "Our rich specialty, glazed with heritage grains and nestled in a ceramic bowl.",
-            "price": 27.18,
+            "name": "Deluxe Flaky Garlic Knots",
+            "price": 8.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Spicy Spring Rolls",
+            "price": 11.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Delicious Sweet Potato Fries",
+            "price": 9.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Spiced Zucchini Fries",
+            "price": 13.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Zesty Mozzarella Sticks",
+            "price": 15.97,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Creamy Mini Crab Cakes",
+            "price": 13.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -147,29 +207,49 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Classic Crunchy Mac and Cheese",
-            "description": "This fruity favorite is charred using grass-fed beef, then stacked artistically.",
-            "price": 25.86,
+            "name": "Hearty Zesty Lobster Bisque",
+            "price": 9.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Pan-seared Fish and Chips",
-            "description": "A herbaceous dish pan-seared with seasonal ingredients and artfully plated.",
-            "price": 20.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Currywurst",
-            "description": "Served family-style and marinated to perfection using chef-selected spices.",
-            "price": 27.67,
+            "name": "Traditional Savory Mushroom Soup",
+            "price": 7.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Satisfying Italian Wedding Soup",
+            "price": 9.14,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Mouthwatering Lentil Soup",
+            "price": 11.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Garden Salad",
+            "price": 13.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -177,12 +257,38 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Shish Kebabs",
-            "description": "This rich favorite is roasted using seasonal ingredients, then plated with precision.",
-            "price": 24.54,
+            "name": "Broccoli Crunch Salad",
+            "price": 12.73,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mango Avocado Salad",
+            "price": 11.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pasta Salad",
+            "price": 13.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lentil and Feta Salad",
+            "price": 14.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -192,9 +298,8 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Classic Sizzling Pizza",
-            "description": "A balanced dish assembled with heirloom tomatoes and served with flair.",
-            "price": 26.48,
+            "name": "Authentic Flaky Thai Curry",
+            "price": 20.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -202,49 +307,8 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Tangy Jambalaya",
-            "description": "Neatly composed and made to perfection using farm-fresh eggs.",
-            "price": 24.47,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Marinated Stuffed Zucchini Boats",
-            "description": "Served with flair and pan-seared to perfection using non-GMO produce.",
-            "price": 31.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seafood Platter",
-            "description": "A nutty dish hand-rolled with chef-selected spices and styled for visual appeal.",
-            "price": 24.47,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Exquisite Currywurst",
-            "description": "A complex dish assembled with non-GMO produce and served with flair.",
-            "price": 29.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lamb Chops",
-            "description": "Our peppery specialty, made with grass-fed beef and beautifully presented.",
-            "price": 21.88,
+            "name": "Authentic Golden Steak",
+            "price": 27.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -252,69 +316,58 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Thai Curry",
-            "description": "Our herbaceous specialty, prepared with grass-fed beef and garnished to perfection.",
-            "price": 23.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Biryani",
-            "description": "This earthy favorite is cooked using heirloom tomatoes, then accompanied by a tasteful garnish.",
-            "price": 20.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Shakshuka",
-            "description": "Garnished to perfection and cooked to perfection using seasonal ingredients.",
-            "price": 18.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Grilled Burrito",
-            "description": "This earthy favorite is prepared using grass-fed beef, then nestled in a ceramic bowl.",
-            "price": 18.97,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Steak",
-            "description": "Our refreshing specialty, oven-baked with microgreens and plated with precision.",
-            "price": 27.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Grilled Katsu Curry",
-            "description": "Beautifully presented and sautéed to perfection using handmade pasta.",
-            "price": 21.37,
+            "name": "Homestyle Flavorful Korma",
+            "price": 23.36,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Homestyle Creamy Chili con Carne",
+            "price": 19.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Crispy Spaghetti Bolognese",
+            "price": 23.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked Tacos",
+            "price": 23.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Sizzling Pizza",
+            "price": 22.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Golden Biryani",
+            "price": 19.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -322,9 +375,8 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Lemon-Herb Calamari Steak",
-            "description": "A tangy dish prepared with aged cheeses and styled for visual appeal.",
-            "price": 22.59,
+            "name": "Homestyle Crunchy Grilled Spanish Octopus with Smoked Paprika",
+            "price": 32.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -332,9 +384,17 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Chef's Steamed Grilled Lobster with Lemon Butter",
-            "description": "Our hearty specialty, grilled with house-made sauces and drizzled with finesse.",
-            "price": 32.24,
+            "name": "Premium Grilled Seared Tuna Steak with Sesame Crust",
+            "price": 22.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Sautéed Baked Cod with Lemon Caper Sauce",
+            "price": 33.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -342,22 +402,138 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Oysters Rockefeller with Pernod Cream",
-            "description": "This subtle favorite is hand-folded using cultured dairy, then garnished to perfection.",
-            "price": 28.27,
+            "name": "Premium Enticing Linguine with Clam Sauce",
+            "price": 33.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Luscious Tempura Soft Shell Crab",
+            "price": 31.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Premium Flaky Braised Red Cabbage with Apple",
+            "price": 5.6,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Braised Creamed Spinach with Nutmeg",
+            "price": 8.66,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Exquisite Roasted Root Vegetables",
+            "price": 7.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Marinated Sweet Corn and Cheddar Fritters",
+            "price": 8.67,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Enticing Provencal Ratatouille",
+            "price": 5.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Crispy Fragrant Basmati Rice Pilaf",
+            "price": 8.22,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Juice",
+            "price": 6.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 5.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 4.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Traditional Flavorful Seafood Risotto with Saffron",
-            "description": "A subtle dish made with wild-caught fish and served with flair.",
-            "price": 28.32,
+            "name": "Coffee",
+            "price": 6.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 7.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 7.91,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -370,32 +546,11 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Steak",
-            "description": "This complex favorite is cooked using heritage grains, then presented on a wooden board.",
-            "price": 20.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Sweet Fish and Chips",
-            "description": "This rich favorite is glazed using cold-pressed oils, then garnished to perfection.",
-            "price": 25.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Chef's Hearty Shakshuka",
-            "description": "Our subtle specialty, made with aged cheeses and neatly composed.",
-            "price": 25.63,
+            "name": "Pain au Chocolat",
+            "price": 8.43,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -403,19 +558,35 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Beef Wellington",
-            "description": "This rich favorite is crafted using grass-fed beef, then accompanied by a tasteful garnish.",
-            "price": 19.66,
+            "name": "Apple Pie",
+            "price": 10.13,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baklava",
+            "price": 8.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Lasagna",
-            "description": "A complex dish crafted with handmade pasta and accompanied by a tasteful garnish.",
-            "price": 21.99,
+            "name": "Scones",
+            "price": 10.29,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crumb Cake",
+            "price": 6.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,53 +596,48 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Beef Wellington",
-            "description": "Our aromatic specialty, grilled with locally foraged herbs and stacked artistically.",
-            "price": 18.71,
+            "name": "Ice Cream",
+            "price": 9.49,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Yogurt",
+            "price": 8.84,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Sandwich",
+            "price": 9.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Paletas",
+            "price": 10.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Luscious Korma",
-            "description": "Our subtle specialty, sautéed with heritage grains and elegantly served.",
-            "price": 20.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Local Pan-seared Chicken Parmesan",
-            "description": "This tangy favorite is poached using handmade pasta, then drizzled with finesse.",
-            "price": 26.81,
+            "name": "Popsicles",
+            "price": 8.85,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Coq au Vin",
-            "description": "A rich dish caramelized with locally sourced produce and plated with precision.",
-            "price": 19.15,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Satisfying Chili con Carne",
-            "description": "Offered as a tasting portion and whipped to perfection using seasonal ingredients.",
-            "price": 19.94,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -489,39 +655,26 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Tennessee Whiskey",
-            "description": "This herbaceous favorite is composed using seasonal ingredients, then drizzled with finesse.",
-            "price": 13.51,
+            "name": "Bloody Mary",
+            "price": 14.72,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Herbed Brandy",
-            "description": "Beautifully presented and created to perfection using artisanal elements.",
-            "price": 12.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Wine",
-            "description": "Our savory specialty, fire-roasted with locally foraged herbs and presented on a wooden board.",
-            "price": 12.08,
-            "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 14.07,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Braised Cosmopolitan",
-            "description": "Our aromatic specialty, glazed with artisanal elements and beautifully presented.",
-            "price": 10.41,
+            "name": "Cosmopolitan",
+            "price": 15.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -529,9 +682,35 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Flavorful Blanco Tequila",
-            "description": "A refreshing dish stir-fried with cultured dairy and beautifully presented.",
-            "price": 11.94,
+            "name": "Whiskey Sour",
+            "price": 15.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 13.82,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 13.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 10.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -544,9 +723,26 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Quiche",
-            "description": "A subtle dish made with grass-fed beef and elegantly served.",
-            "price": 28.21,
+            "name": "Prosecco",
+            "price": 8.56,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Moscato",
+            "price": 13.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Petit Verdot",
+            "price": 13.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -554,9 +750,8 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Pan-seared Thai Curry",
-            "description": "A rich dish slow-cooked with locally sourced produce and offered as a tasting portion.",
-            "price": 19.72,
+            "name": "Nebbiolo",
+            "price": 8.86,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -564,9 +759,8 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tagine",
-            "description": "Our rich specialty, caramelized with natural sweeteners and served with flair.",
-            "price": 28.85,
+            "name": "Chardonnay",
+            "price": 12.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -574,29 +768,8 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Flavorful Gnocchi",
-            "description": "A sweet dish prepared with cold-pressed oils and elegantly served.",
-            "price": 24.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tacos",
-            "description": "A rich dish pan-seared with heritage grains and styled for visual appeal.",
-            "price": 27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seafood Platter",
-            "description": "Our citrusy specialty, infused with organic ingredients and stacked artistically.",
-            "price": 26.02,
+            "name": "Sauvignon Blanc",
+            "price": 10.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -609,29 +782,17 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Spaghetti Bolognese",
-            "description": "Our briny specialty, stir-fried with seasonal ingredients and neatly composed.",
-            "price": 23.2,
-            "isVegetarian": false,
+            "name": "Limoncello",
+            "price": 15.27,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Savory Salmon",
-            "description": "This nutty favorite is caramelized using farm-fresh eggs, then stacked artistically.",
-            "price": 18.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Chef's Juicy Pesto Pasta",
-            "description": "This rich favorite is hand-rolled using grass-fed beef, then stacked artistically.",
-            "price": 23.82,
+            "name": "Mezcal",
+            "price": 15.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -639,12 +800,29 @@ export const yokohamagrandTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Bibimbap",
-            "description": "Presented on a wooden board and made to perfection using house-made sauces.",
-            "price": 18.41,
-            "isVegetarian": true,
+            "name": "Anisette",
+            "price": 11.32,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kahlúa",
+            "price": 10.3,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bourbon",
+            "price": 16.42,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

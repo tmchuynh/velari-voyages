@@ -12,9 +12,44 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Traditional Spiced Founder's Family Recipe Pasta",
-            "description": "A succulent dish sautéed with house-made sauces and elegantly served.",
-            "price": 25.62,
+            "name": "Homestyle Crispy Founder's Family Recipe Pasta",
+            "price": 36.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Crispy Heritage Recipe Lamb Shank",
+            "price": 33.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Stuffed Chef's Childhood Inspired Creation",
+            "price": 25.24,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Crispy Award-Winning Seafood Boil",
+            "price": 37.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Aromatic Seasonal Tasting Menu Experience",
+            "price": 31.19,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,19 +57,67 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Flavorful Sous Vide Perfected Wagyu",
-            "description": "This delicate favorite is prepared using cold-pressed oils, then stacked artistically.",
-            "price": 29.6,
-            "isVegetarian": true,
+            "name": "Homestyle Spiced Celebrity Favorite Lobster Dish",
+            "price": 25.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Crispy Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 26.63,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Hearty Creamy Heirloom Recipe from Chef's Family",
+            "price": 26.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tableside Carved Chateaubriand",
-            "description": "Our subtle specialty, seasoned with heritage grains and served on rustic ware.",
-            "price": 33.03,
+            "name": "Premium Savory Smoked and Slow-Roasted Heritage Meat",
+            "price": 37.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Spiced Pan-Seared Scallops with Citrus Beurre Blanc",
+            "price": 25.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Delectable Locally Foraged Mushroom Selection",
+            "price": 37.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Sautéed Tableside Prepared Tartare",
+            "price": 27.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -47,9 +130,8 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Chef's Grilled Pasta Primavera",
-            "description": "Our nutty specialty, fire-roasted with seasonal ingredients and elegantly served.",
-            "price": 18.31,
+            "name": "Classic Marinated Potstickers",
+            "price": 12.36,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -57,89 +139,67 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Braised Stuffed Peppers",
-            "description": "A zesty dish made with microgreens and garnished to perfection.",
-            "price": 25.47,
+            "name": "Deluxe Spiced Tuna Tartare",
+            "price": 12.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seafood Platter",
-            "description": "A refreshing dish hand-rolled with heirloom tomatoes and nestled in a ceramic bowl.",
-            "price": 27.09,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Flaky Pesto Pasta",
-            "description": "Elegantly served and prepared to perfection using aged cheeses.",
-            "price": 23.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roast Duck",
-            "description": "This briny favorite is marinated using non-GMO produce, then accompanied by a tasteful garnish.",
-            "price": 19.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
+          },
           {
-            "name": "Fresh Mouthwatering Burrito",
-            "description": "This balanced favorite is hand-folded using natural sweeteners, then elegantly served.",
-            "price": 24.06,
-            "isVegetarian": true,
+            "name": "Fresh Grilled Potato Skins",
+            "price": 12.24,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Marinated Tacos",
-            "description": "Our rich specialty, crafted with free-range meats and beautifully presented.",
-            "price": 28.78,
-            "isVegetarian": true,
+            "name": "Handcrafted Mouthwatering Samosas",
+            "price": 9.44,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Signature Delectable Chicken Parmesan",
-            "description": "Our delicate specialty, assembled with premium components and beautifully presented.",
-            "price": 26.57,
+            "name": "Gourmet Enticing Garlic Knots",
+            "price": 9.72,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Hearty Fish and Chips",
-            "description": "A buttery dish assembled with house-made sauces and offered as a tasting portion.",
-            "price": 28.46,
+            "name": "Homestyle Grilled Ceviche",
+            "price": 14.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Braised Dumplings",
+            "price": 12.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Herbed Bruschetta",
+            "price": 12.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
@@ -147,19 +207,26 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Traditional Satisfying Chicken Parmesan",
-            "description": "Our aromatic specialty, grilled with wild-caught fish and plated with precision.",
-            "price": 25.89,
+            "name": "Handcrafted Fried Borscht",
+            "price": 13.71,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Sautéed Chicken Noodle Soup",
+            "price": 12.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Stuffed Peppers",
-            "description": "Our rich specialty, braised with hand-picked vegetables and stacked artistically.",
-            "price": 28.14,
+            "name": "Traditional Stuffed Thai Coconut Soup",
+            "price": 9.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -167,21 +234,60 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Hearty Moussaka",
-            "description": "A spicy dish prepared with grass-fed beef and served family-style.",
-            "price": 24.35,
-            "isVegetarian": false,
+            "name": "Seasonal Aromatic Butternut Squash Soup",
+            "price": 8.94,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
           {
-            "name": "Ramen",
-            "description": "Drizzled with finesse and oven-baked to perfection using microgreens.",
-            "price": 24.78,
-            "isVegetarian": false,
+            "name": "Pear and Gorgonzola Salad",
+            "price": 10.5,
+            "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Potato Salad",
+            "price": 9.08,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kale Salad",
+            "price": 13.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mediterranean Chopped Salad",
+            "price": 9.98,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Beet Salad",
+            "price": 9.25,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -192,9 +298,8 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Classic Pan-seared Pizza",
-            "description": "This briny favorite is crafted using organic ingredients, then stacked artistically.",
-            "price": 20.96,
+            "name": "Organic Delicious Spaghetti Bolognese",
+            "price": 19.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -202,9 +307,8 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Katsu Curry",
-            "description": "Artfully plated and created to perfection using finest quality ingredients.",
-            "price": 26.33,
+            "name": "Traditional Crunchy Lasagna",
+            "price": 30.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -212,9 +316,8 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Grilled Pho",
-            "description": "This succulent favorite is oven-baked using heirloom tomatoes, then styled for visual appeal.",
-            "price": 29.96,
+            "name": "Organic Zesty Ramen",
+            "price": 27.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -222,19 +325,17 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Jambalaya",
-            "description": "A smoky dish hand-folded with finest quality ingredients and served with flair.",
-            "price": 28.06,
+            "name": "Authentic Golden Pizza",
+            "price": 18.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Steak",
-            "description": "Our zesty specialty, oven-baked with hand-picked vegetables and garnished to perfection.",
-            "price": 23.25,
+            "name": "Authentic Luscious Thai Curry",
+            "price": 19.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -242,77 +343,29 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Cottage Pie",
-            "description": "Offered as a tasting portion and hand-rolled to perfection using grass-fed beef.",
-            "price": 28.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Paella",
-            "description": "Styled for visual appeal and slow-cooked to perfection using seasonal ingredients.",
-            "price": 28.52,
+            "name": "Seasonal Spicy Risotto",
+            "price": 25.24,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fish and Chips",
-            "description": "Elegantly served and pan-seared to perfection using aged cheeses.",
-            "price": 22.13,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
+          },
           {
-            "name": "Local Creamy Currywurst",
-            "description": "This nutty favorite is grilled using cultured dairy, then served family-style.",
-            "price": 26.7,
+            "name": "Authentic Succulent Pesto Pasta",
+            "price": 22.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Crispy Stir-fry",
+            "price": 31.67,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Risotto",
-            "description": "Our zesty specialty, stir-fried with premium components and served on rustic ware.",
-            "price": 19.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Sizzling Pasta Primavera",
-            "description": "This bold favorite is prepared using handmade pasta, then beautifully presented.",
-            "price": 20.92,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Zesty Korma",
-            "description": "Our rich specialty, composed with hand-picked vegetables and garnished to perfection.",
-            "price": 25.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -322,9 +375,8 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Organic Hearty Oysters Rockefeller with Pernod Cream",
-            "description": "A refreshing dish charred with locally sourced produce and plated with precision.",
-            "price": 27.24,
+            "name": "Traditional Smoked Cajun Shrimp and Grits",
+            "price": 34.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -332,9 +384,17 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Sautéed Stuffed Flounder with Crab and Spinach",
-            "description": "A tangy dish oven-baked with cold-pressed oils and offered as a tasting portion.",
-            "price": 29.49,
+            "name": "Authentic Appetizing Stuffed Flounder with Crab and Spinach",
+            "price": 24.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Sweet Pan-Seared Scallops with Pea Purée",
+            "price": 22.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -342,9 +402,31 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Maryland Style Crab Cakes",
-            "description": "A creamy dish grilled with organic ingredients and presented on a wooden board.",
-            "price": 26.19,
+            "name": "Homestyle Roasted Traditional Provençal Bouillabaisse",
+            "price": 22.35,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Sizzling Steamed Littleneck Clams in Garlic Broth",
+            "price": 29.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Organic Delicious Scalloped Potatoes with Thyme",
+            "price": 7.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,14 +434,108 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Grilled Pan-Seared Scallops with Pea Purée",
-            "description": "A zesty dish cooked with seasonal ingredients and elegantly served.",
-            "price": 26.17,
+            "name": "Authentic Juicy Grilled Zucchini and Peppers",
+            "price": 7.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Handcrafted Creamy Garlic Bread with Herb Butter",
+            "price": 7.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Delectable Flaky Cheddar and Chive Biscuits",
+            "price": 7.57,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Satisfying Baked Idaho Potato with Sour Cream",
+            "price": 9.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Herbed Green Beans Almondine",
+            "price": 5.89,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Milkshake",
+            "price": 4.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 4.18,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 4.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 5.61,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 6.63,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 6.14,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
@@ -370,32 +546,11 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Fresh Pan-seared Pesto Pasta",
-            "description": "A hearty dish made with natural sweeteners and layered with care.",
-            "price": 27.83,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Flavorful Shakshuka",
-            "description": "This earthy favorite is caramelized using locally sourced produce, then plated with precision.",
-            "price": 24.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seafood Platter",
-            "description": "Our briny specialty, cooked with hand-picked vegetables and accompanied by a tasteful garnish.",
-            "price": 18.93,
+            "name": "Lemon Bars",
+            "price": 10.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -403,9 +558,26 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fajitas",
-            "description": "This spicy favorite is assembled using aged cheeses, then layered with care.",
-            "price": 19.83,
+            "name": "Scones",
+            "price": 10.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pie",
+            "price": 9.94,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Shortbread",
+            "price": 9.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -413,24 +585,31 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Steak",
-            "description": "This savory favorite is seasoned using heirloom tomatoes, then neatly composed.",
-            "price": 23.28,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Berry Tart",
+            "price": 7.69,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Tacos",
-            "description": "Our bold specialty, sautéed with seasonal ingredients and artfully plated.",
-            "price": 28.25,
+            "name": "Snow Cone",
+            "price": 9.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kulfi",
+            "price": 11.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -438,9 +617,8 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pizza",
-            "description": "This buttery favorite is assembled using seasonal ingredients, then served on rustic ware.",
-            "price": 18.06,
+            "name": "Semifreddo",
+            "price": 7.73,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -448,32 +626,20 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Mouthwatering Lentil Stew",
-            "description": "Our subtle specialty, prepared with non-GMO produce and elegantly served.",
-            "price": 25.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Marinated Vegetable Stir-Fry",
-            "description": "A spicy dish roasted with heritage grains and presented on a wooden board.",
-            "price": 28.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Zingy Shakshuka",
-            "description": "This bold favorite is infused using artisanal elements, then nestled in a ceramic bowl.",
-            "price": 18.05,
+            "name": "Ice Cream",
+            "price": 11.12,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Cheesecake",
+            "price": 8.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -489,9 +655,26 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Sake",
-            "description": "This rich favorite is seasoned using artisanal elements, then stacked artistically.",
-            "price": 9.92,
+            "name": "Margarita",
+            "price": 11.64,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 12.52,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 15.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -499,29 +682,8 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mead",
-            "description": "This smoky favorite is braised using organic ingredients, then attractively arranged.",
-            "price": 10.1,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Delectable Reposado Tequila",
-            "description": "Beautifully presented and roasted to perfection using grass-fed beef.",
-            "price": 10.85,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Liqueur",
-            "description": "Our fruity specialty, oven-baked with non-GMO produce and stacked artistically.",
-            "price": 9.65,
+            "name": "Whiskey Sour",
+            "price": 14.23,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -529,12 +691,29 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Daiquiri",
-            "description": "A rich dish fire-roasted with hand-picked vegetables and nestled in a ceramic bowl.",
-            "price": 13.09,
+            "name": "Mojito",
+            "price": 14.72,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 11.05,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 14.48,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -544,49 +723,44 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Local Succulent Beef Wellington",
-            "description": "Our citrusy specialty, composed with grass-fed beef and beautifully presented.",
-            "price": 24.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Gnocchi",
-            "description": "This smoky favorite is oven-baked using hand-picked vegetables, then elegantly served.",
-            "price": 21.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Herbed Quiche",
-            "description": "Our subtle specialty, oven-baked with finest quality ingredients and beautifully presented.",
-            "price": 26.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Braised Lasagna",
-            "description": "This succulent favorite is created using organic ingredients, then served on rustic ware.",
-            "price": 22,
+            "name": "Albariño",
+            "price": 9.69,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Champagne/Sparkling Wine",
+            "price": 10.65,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Spaghetti Bolognese",
-            "description": "Our fruity specialty, whipped with seasonal ingredients and served family-style.",
-            "price": 27.07,
+            "name": "Chenin Blanc",
+            "price": 12.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Sémillon",
+            "price": 13.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sangiovese",
+            "price": 9.54,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -594,10 +768,9 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Luscious Korma",
-            "description": "This spicy favorite is glazed using handmade pasta, then layered with care.",
-            "price": 23.19,
-            "isVegetarian": false,
+            "name": "Cabernet Sauvignon",
+            "price": 10.93,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -609,41 +782,46 @@ export const yokohamaroyalGardenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Tacos",
-            "description": "Our buttery specialty, made with artisanal elements and accompanied by a tasteful garnish.",
-            "price": 25.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Smoked Pesto Pasta",
-            "description": "Presented on a wooden board and prepared to perfection using cultured dairy.",
-            "price": 21.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Aromatic Grilled Chicken",
-            "description": "This savory favorite is hand-rolled using cold-pressed oils, then garnished to perfection.",
-            "price": 21.27,
-            "isVegetarian": false,
+            "name": "Chartreuse",
+            "price": 16.49,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef's Aromatic Stuffed Peppers",
-            "description": "Offered as a tasting portion and whipped to perfection using house-made sauces.",
-            "price": 19.27,
+            "name": "Brandy",
+            "price": 14.4,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Rum",
+            "price": 12.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pisco",
+            "price": 10.98,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey",
+            "price": 16.78,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
