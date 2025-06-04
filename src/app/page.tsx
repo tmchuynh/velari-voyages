@@ -3,7 +3,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { cruiseDepartureLocations } from "@/lib/constants/info/city";
+import { cruiseDepartureLocations } from "@/lib/constants/info/city.ts";
 import { testimonials } from "@/lib/constants/info/testimonials";
 import { groupAndSortByProperties } from "@/lib/utils/sort";
 import { useRouter } from "next/navigation";
