@@ -12,9 +12,26 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Signature Truffle Pasta with Aged Pecorino",
-            "description": "A buttery dish charred with natural sweeteners and artfully plated.",
-            "price": 34.1,
+            "name": "Gourmet Delicious Heritage Recipe Lamb Shank",
+            "price": 32.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Crunchy Flambéed Tableside Specialty",
+            "price": 31.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Pan-seared Celebrity Favorite Lobster Dish",
+            "price": 31.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,22 +39,88 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Celebrity Favorite Lobster Dish",
-            "description": "Our zesty specialty, hand-rolled with seasonal ingredients and artfully plated.",
-            "price": 26.14,
+            "name": "Premium Irresistible Executive Chef's Daily Inspiration Entrée",
+            "price": 24.74,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Crunchy Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 27.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Sizzling Legendary Prime Rib",
+            "price": 29.9,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Herbed Seasonal Tasting Platter",
+            "price": 37.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "House Special Aromatic Collaborative Limited Edition Special",
+            "price": 30.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Fresh Marinated Secret Recipe Bouillabaisse",
-            "description": "This creamy favorite is prepared using farm-fresh eggs, then nestled in a ceramic bowl.",
-            "price": 31.58,
+            "name": "Authentic Mouthwatering Chef's Childhood Favorite Reimagined",
+            "price": 36.07,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Grilled Miso-Glazed Black Cod",
+            "price": 37.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Pan-seared Modern Interpretation of Regional Classic",
+            "price": 25.23,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Zesty Roasted Quail with Truffle Jus",
+            "price": 34.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -47,9 +130,8 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Organic Herbed Vegetable Stir-Fry",
-            "description": "A savory dish glazed with chef-selected spices and elegantly served.",
-            "price": 20,
+            "name": "Fresh Juicy Garlic Bread",
+            "price": 13,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -57,9 +139,8 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Zingy Quiche",
-            "description": "Neatly composed and pan-seared to perfection using aged cheeses.",
-            "price": 27.44,
+            "name": "Fresh Grilled Potstickers",
+            "price": 12.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -67,9 +148,67 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chicken Parmesan",
-            "description": "Garnished to perfection and stir-fried to perfection using sun-ripened fruits.",
-            "price": 20.41,
+            "name": "Fresh Juicy Tuna Tartare",
+            "price": 13.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Appetizing Garlic Knots",
+            "price": 9.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spicy Prawn Toast",
+            "price": 13.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Smoked Cheese Nachos",
+            "price": 15.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Irresistible Mini Tacos",
+            "price": 8.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Delicious Spinach Puffs",
+            "price": 10.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Soups",
+        "items": [
+          {
+            "name": "Seasonal Smoked Beef Stew",
+            "price": 7.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -77,23 +216,30 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Sweet Coq au Vin",
-            "description": "Our briny specialty, smoked with seasonal ingredients and styled for visual appeal.",
-            "price": 24.94,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Homestyle Herbed Peanut Soup (West African)",
+            "price": 13.48,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Roast Duck",
-            "description": "Presented on a wooden board and cooked to perfection using house-made sauces.",
-            "price": 25.68,
-            "isVegetarian": false,
+            "name": "Homestyle Delicious Miso Soup",
+            "price": 10.81,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Aromatic Mushroom Soup",
+            "price": 8.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -102,9 +248,8 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Jambalaya",
-            "description": "Our subtle specialty, composed with finest quality ingredients and nestled in a ceramic bowl.",
-            "price": 24.01,
+            "name": "Farro Salad",
+            "price": 14.38,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -112,54 +257,26 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Spaghetti Bolognese",
-            "description": "A nutty dish cooked with finest quality ingredients and styled for visual appeal.",
-            "price": 27.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Marinated Pizza",
-            "description": "A refreshing dish prepared with premium components and attractively arranged.",
-            "price": 20.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Peppers",
-            "description": "A earthy dish prepared with organic ingredients and styled for visual appeal.",
-            "price": 23.95,
+            "name": "Orzo Salad",
+            "price": 10.03,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Soups",
-        "items": [
-          {
-            "name": "Teriyaki Chicken",
-            "description": "Our hearty specialty, pan-seared with free-range meats and elegantly served.",
-            "price": 22.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
           },
           {
-            "name": "Chef's Zingy Coq au Vin",
-            "description": "This subtle favorite is caramelized using natural sweeteners, then styled for visual appeal.",
-            "price": 19.23,
+            "name": "Beet Salad",
+            "price": 15.46,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Arugula Salad",
+            "price": 10.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -167,20 +284,9 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Jambalaya",
-            "description": "Our floral specialty, grilled with seasonal ingredients and garnished to perfection.",
-            "price": 20.11,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Stuffed Lentil Stew",
-            "description": "A tangy dish slow-cooked with premium components and elegantly served.",
-            "price": 29,
-            "isVegetarian": true,
+            "name": "Potato Salad",
+            "price": 15.82,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -192,49 +298,26 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Enchiladas",
-            "description": "Accompanied by a tasteful garnish and prepared to perfection using cold-pressed oils.",
-            "price": 18.14,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Zesty Pasta Primavera",
-            "description": "Garnished to perfection and infused to perfection using non-GMO produce.",
-            "price": 24.07,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chicken Parmesan",
-            "description": "Our nutty specialty, poached with hand-picked vegetables and accompanied by a tasteful garnish.",
-            "price": 21.78,
+            "name": "Authentic Herbed Thai Curry",
+            "price": 29.02,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Classic Roasted Fajitas",
-            "description": "Our zesty specialty, made with chef-selected spices and plated with precision.",
-            "price": 22.52,
-            "isVegetarian": true,
+            "name": "Seasonal Exquisite Grilled Tofu",
+            "price": 25.46,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Steak",
-            "description": "Plated with precision and pan-seared to perfection using grass-fed beef.",
-            "price": 27.95,
+            "name": "Organic Aromatic Seafood Platter",
+            "price": 25.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -242,19 +325,17 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Local Flavorful Chili con Carne",
-            "description": "This robust favorite is braised using heritage grains, then drizzled with finesse.",
-            "price": 27.22,
+            "name": "Authentic Marinated Roast Duck",
+            "price": 18.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "House Special Exquisite Stir-fry",
-            "description": "A complex dish stir-fried with microgreens and presented on a wooden board.",
-            "price": 18.27,
+            "name": "Seasonal Luscious Coq au Vin",
+            "price": 30.16,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -262,9 +343,76 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Eggplant Parmesan",
-            "description": "This rich favorite is charred using sustainable seafood, then nestled in a ceramic bowl.",
-            "price": 25.34,
+            "name": "Premium Grilled Shish Kebabs",
+            "price": 23.88,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Smoked Biryani",
+            "price": 30.06,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Fried Fajitas",
+            "price": 19.98,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "items": [
+          {
+            "name": "Authentic Herbed Grilled Lobster with Lemon Butter",
+            "price": 22.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Savory Linguine with Clam Sauce",
+            "price": 25.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Exquisite Stuffed Flounder with Crab and Spinach",
+            "price": 31.97,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Satisfying Baked Cod with Lemon Caper Sauce",
+            "price": 30.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Smoked Sushi-Grade Sashimi Platter",
+            "price": 23.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -277,9 +425,8 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Katsu Curry",
-            "description": "This refreshing favorite is made using cultured dairy, then artfully plated.",
-            "price": 26.54,
+            "name": "Gourmet Grilled Herbed Bulgur Wheat with Lemon",
+            "price": 6.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -287,9 +434,8 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Salmon",
-            "description": "Our herbaceous specialty, charred with artisanal elements and elegantly served.",
-            "price": 28.24,
+            "name": "Hearty Satisfying Provencal Ratatouille",
+            "price": 9.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -297,64 +443,94 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Crispy Pizza",
-            "description": "This pungent favorite is braised using finest quality ingredients, then garnished to perfection.",
-            "price": 22.89,
+            "name": "Authentic Sweet Grilled Zucchini and Peppers",
+            "price": 6.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Creamy Baked Idaho Potato with Sour Cream",
+            "price": 6.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Spiced Creamy Colcannon (Irish Potato Mash)",
+            "price": 8.53,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Fried Scalloped Potatoes with Thyme",
+            "price": 7.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Water",
+            "price": 4.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 4.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 4.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 5.07,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mac and Cheese",
-            "description": "Neatly composed and charred to perfection using free-range meats.",
-            "price": 20.78,
+            "name": "Smoothie",
+            "price": 4.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Seafood Specialties",
-        "items": [
-          {
-            "name": "Grilled Spanish Octopus with Smoked Paprika",
-            "description": "Our briny specialty, whipped with heirloom tomatoes and garnished to perfection.",
-            "price": 34.66,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           },
           {
-            "name": "Classic Aromatic Seafood Risotto with Saffron",
-            "description": "Served with flair and made to perfection using house-made sauces.",
-            "price": 35.94,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Grilled Shrimp Scampi over Linguine",
-            "description": "Beautifully presented and marinated to perfection using finest quality ingredients.",
-            "price": 32.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Miso-Marinated Chilean Sea Bass",
-            "description": "This subtle favorite is hand-folded using grass-fed beef, then drizzled with finesse.",
-            "price": 23.86,
+            "name": "Iced Tea",
+            "price": 4.86,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -370,12 +546,11 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Local Pan-seared Enchiladas",
-            "description": "Garnished to perfection and pan-seared to perfection using heritage grains.",
-            "price": 29.09,
+            "name": "Apple Pie",
+            "price": 7.01,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -383,9 +558,8 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Quiche",
-            "description": "Neatly composed and grilled to perfection using microgreens.",
-            "price": 18.04,
+            "name": "Eclairs",
+            "price": 8.39,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,85 +567,77 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Wholesome Ramen",
-            "description": "This subtle favorite is whipped using cold-pressed oils, then plated with precision.",
-            "price": 28.56,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Satisfying Pulled Pork Sandwich",
-            "description": "Our briny specialty, made with aged cheeses and neatly composed.",
-            "price": 26.08,
+            "name": "Macarons",
+            "price": 9.18,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Beef Wellington",
-            "description": "Garnished to perfection and smoked to perfection using seasonal ingredients.",
-            "price": 20.41,
+            "name": "Croissants",
+            "price": 6.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Muffins",
+            "price": 9.71,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Local Mouthwatering Chili con Carne",
-            "description": "Our hearty specialty, stir-fried with locally foraged herbs and presented on a wooden board.",
-            "price": 29.71,
+            "name": "Ice Cream",
+            "price": 11.15,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Salmon",
-            "description": "A delicate dish crafted with locally foraged herbs and beautifully presented.",
-            "price": 25.22,
+            "name": "Frozen Cheesecake",
+            "price": 7.34,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Enchiladas",
-            "description": "Drizzled with finesse and assembled to perfection using organic ingredients.",
-            "price": 26.99,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Signature Irresistible Pasta Primavera",
-            "description": "This earthy favorite is created using cultured dairy, then accompanied by a tasteful garnish.",
-            "price": 27.3,
-            "isVegetarian": true,
+            "name": "Ice Cream Sandwich",
+            "price": 8.66,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Juicy Roast Duck",
-            "description": "This zesty favorite is cooked using sun-ripened fruits, then stacked artistically.",
-            "price": 25.21,
-            "isVegetarian": false,
+            "name": "Granita",
+            "price": 8.88,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Paletas",
+            "price": 9.1,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -489,9 +655,8 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Pina Colada",
-            "description": "Layered with care and grilled to perfection using locally sourced produce.",
-            "price": 9.81,
+            "name": "Margarita",
+            "price": 14.98,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -499,9 +664,8 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Baijiu",
-            "description": "Garnished to perfection and grilled to perfection using finest quality ingredients.",
-            "price": 13.91,
+            "name": "Mojito",
+            "price": 13.86,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -509,9 +673,17 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Zingy Fortified Wine",
-            "description": "Our complex specialty, prepared with finest quality ingredients and presented on a wooden board.",
-            "price": 11.94,
+            "name": "Whiskey Sour",
+            "price": 10.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 14.65,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -519,19 +691,26 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Golden Rye Whiskey",
-            "description": "Served with flair and hand-rolled to perfection using organic ingredients.",
-            "price": 11.47,
-            "isVegetarian": false,
+            "name": "Old Fashioned",
+            "price": 10.61,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Grilled Añejo Tequila",
-            "description": "Our umami-packed specialty, made with finest quality ingredients and layered with care.",
-            "price": 10.06,
+            "name": "Cosmopolitan",
+            "price": 11.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 12.3,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -544,19 +723,8 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Teriyaki Chicken",
-            "description": "This balanced favorite is sautéed using locally sourced produce, then attractively arranged.",
-            "price": 29.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Grilled Paella",
-            "description": "This briny favorite is roasted using natural sweeteners, then beautifully presented.",
-            "price": 23.56,
+            "name": "Marsanne",
+            "price": 12.68,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -564,39 +732,44 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Spaghetti Bolognese",
-            "description": "Offered as a tasting portion and braised to perfection using microgreens.",
-            "price": 25.07,
+            "name": "Gamay",
+            "price": 10.85,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mourvèdre",
+            "price": 13.17,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Verdicchio",
+            "price": 13.59,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Barbera",
+            "price": 10.12,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef's Sizzling Mac and Cheese",
-            "description": "Our rich specialty, seasoned with heritage grains and garnished to perfection.",
-            "price": 28.62,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Juicy Grilled Tofu",
-            "description": "Beautifully presented and prepared to perfection using cold-pressed oils.",
-            "price": 26.67,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Crunchy Currywurst",
-            "description": "This sweet favorite is charred using premium components, then served with flair.",
-            "price": 28.11,
+            "name": "Syrah/Shiraz",
+            "price": 13.03,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -609,9 +782,17 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Fresh Herbed Pasta Primavera",
-            "description": "Plated with precision and caramelized to perfection using heritage grains.",
-            "price": 29.02,
+            "name": "Vodka",
+            "price": 17.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Amaretto",
+            "price": 13.87,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,33 +800,30 @@ export const bostonbostonKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Stuffed Grilled Tofu",
-            "description": "Our refreshing specialty, charred with hand-picked vegetables and neatly composed.",
-            "price": 20.97,
+            "name": "Maraschino",
+            "price": 10.2,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sambuca",
+            "price": 14.69,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Marinated Chili con Carne",
-            "description": "Styled for visual appeal and braised to perfection using aged cheeses.",
-            "price": 29.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Steak",
-            "description": "A subtle dish crafted with seasonal ingredients and stacked artistically.",
-            "price": 18.6,
+            "name": "Rum",
+            "price": 16.43,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           }
         ]
