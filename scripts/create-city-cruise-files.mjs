@@ -3,11 +3,11 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 
-// node create-city-cruise-files.mjs - Default behavior, adds 10 cruises per city
-// node create-city-cruise-files.mjs --append 5 - Adds 5 cruises to each city file
-// node create-city-cruise-files.mjs --rewrite - Rewrites all files with 10 cruises each
-// node create-city-cruise-files.mjs --rewrite --append 15 - Rewrites all files with 15 cruises each
-// node create-city-cruise-files.mjs --help - Shows help information
+// node scripts/create-city-cruise-files.mjs - Default behavior, adds 10 cruises per city
+// node scripts/create-city-cruise-files.mjs --append 5 - Adds 5 cruises to each city file
+// node scripts/create-city-cruise-files.mjs --rewrite - Rewrites all files with 10 cruises each
+// node scripts/create-city-cruise-files.mjs --rewrite --append 15 - Rewrites all files with 15 cruises each
+// node scripts/create-city-cruise-files.mjs --help - Shows help information
 
 // Get the equivalent of __dirname in ESM
 const __filename = fileURLToPath(import.meta.url);
@@ -31,7 +31,7 @@ for (let i = 0; i < args.length; i++) {
     forceRewrite = true;
   } else if (args[i] === "--help" || args[i] === "-h") {
     console.log(`
-Usage: node create-city-cruise-files.mjs [options]
+Usage: node scripts/create-city-cruise-files.mjs [options]
 
 Options:
   --append, -a NUMBER  Append NUMBER of cruises to existing files
@@ -218,6 +218,309 @@ const regionalDestinations = {
     "Cartagena",
   ],
 };
+
+const masculineNames = [
+  "James",
+  "David",
+  "Michael",
+  "John",
+  "Robert",
+  "William",
+  "Richard",
+  "Thomas",
+  "Daniel",
+  "Matthew",
+  "Christopher",
+  "Joseph",
+  "Anthony",
+  "Mark",
+  "Paul",
+  "Steven",
+  "Andrew",
+  "Kenneth",
+  "George",
+  "Joshua",
+  "Kevin",
+  "Brian",
+  "Edward",
+  "Ronald",
+  "Timothy",
+  "Jason",
+  "Jeffrey",
+  "Ryan",
+  "Jacob",
+  "Gary",
+  "Nicholas",
+  "Eric",
+  "Jonathan",
+  "Stephen",
+  "Larry",
+  "Justin",
+  "Scott",
+  "Brandon",
+  "Frank",
+  "Benjamin",
+  "Gregory",
+  "Raymond",
+  "Samuel",
+  "Patrick",
+  "Alexander",
+  "Jack",
+  "Dennis",
+  "Jerry",
+  "Tyler",
+  "Aaron",
+  "Henry",
+  "Douglas",
+  "Jose",
+  "Peter",
+  "Adam",
+  "Nathan",
+  "Zachary",
+  "Walter",
+  "Harold",
+  "Kyle",
+  "Carl",
+  "Arthur",
+  "Gerald",
+  "Roger",
+  "Keith",
+  "Jeremy",
+  "Terry",
+  "Lawrence",
+  "Sean",
+  "Christian",
+  "Albert",
+  "Joe",
+  "Ethan",
+  "Austin",
+  "Jesse",
+  "Willie",
+  "Billy",
+  "Bryan",
+  "Bruce",
+  "Jordan",
+  "Ralph",
+  "Roy",
+  "Noah",
+  "Dylan",
+  "Eugene",
+  "Wayne",
+  "Alan",
+  "Juan",
+  "Louis",
+  "Russell",
+  "Gabriel",
+  "Randy",
+  "Philip",
+  "Harry",
+  "Vincent",
+  "Bobby",
+  "Johnny",
+  "Logan",
+  "Liam",
+  "Mason",
+  "Oliver",
+  "Lucas",
+  "Aiden",
+  "Elijah",
+  "Sebastian",
+  "Diego",
+  "Marcus",
+  "Javier",
+  "Carlos",
+  "Miguel",
+  "Antonio",
+  "Luis",
+  "Victor",
+  "Joel",
+  "Blake",
+  "Darrell",
+  "Thabo",
+  "Rajesh",
+  "Chen",
+  "Wei",
+  "Mateo",
+  "Gabriel",
+];
+
+// Common feminine names
+const feminineNames = [
+  "Maria",
+  "Sarah",
+  "Emma",
+  "Olivia",
+  "Sophia",
+  "Isabella",
+  "Charlotte",
+  "Amelia",
+  "Mia",
+  "Harper",
+  "Evelyn",
+  "Abigail",
+  "Emily",
+  "Elizabeth",
+  "Sofia",
+  "Avery",
+  "Ella",
+  "Scarlett",
+  "Grace",
+  "Chloe",
+  "Victoria",
+  "Riley",
+  "Aria",
+  "Lily",
+  "Hannah",
+  "Layla",
+  "Brooklyn",
+  "Zoe",
+  "Samantha",
+  "Nora",
+  "Leah",
+  "Savannah",
+  "Audrey",
+  "Claire",
+  "Eleanor",
+  "Skylar",
+  "Ellie",
+  "Stella",
+  "Bella",
+  "Maya",
+  "Anna",
+  "Caroline",
+  "Genesis",
+  "Aaliyah",
+  "Kennedy",
+  "Kinsley",
+  "Allison",
+  "Maya",
+  "Sarah",
+  "Madelyn",
+  "Adeline",
+  "Alexa",
+  "Ariana",
+  "Elena",
+  "Gabriella",
+  "Naomi",
+  "Alice",
+  "Rebecca",
+  "Dorothy",
+  "Jane",
+  "Mary",
+  "Patricia",
+  "Jennifer",
+  "Linda",
+  "Barbara",
+  "Susan",
+  "Jessica",
+  "Nancy",
+  "Margaret",
+  "Lisa",
+  "Betty",
+  "Sandra",
+  "Ashley",
+  "Kimberly",
+  "Donna",
+  "Carol",
+  "Michelle",
+  "Amanda",
+  "Melissa",
+  "Deborah",
+  "Stephanie",
+  "Rachel",
+  "Laura",
+  "Cynthia",
+  "Amy",
+  "Angela",
+  "Helen",
+  "Brenda",
+  "Pamela",
+  "Nicole",
+  "Samantha",
+  "Katherine",
+  "Christine",
+  "Janet",
+  "Catherine",
+  "Virginia",
+  "Julie",
+  "Joan",
+  "Sophia",
+  "Valentina",
+  "Isabella",
+  "Priya",
+  "Amina",
+  "Zola",
+  "Lerato",
+  "Nomsa",
+  "Thandiwe",
+];
+
+const lastNames = [
+  "Baker",
+  "Bennett",
+  "Campbell",
+  "Carpenter",
+  "Chambers",
+  "Clark",
+  "Coleman",
+  "Collins",
+  "Cooper",
+  "Crawford",
+  "Curtis",
+  "Day",
+  "Dean",
+  "Dixon",
+  "Douglas",
+  "Dunn",
+  "Ellis",
+  "Fisher",
+  "Fletcher",
+  "Foster",
+  "Fox",
+  "Gardner",
+  "Gibson",
+  "Graham",
+  "Grant",
+  "Graves",
+  "Griffin",
+  "Hall",
+  "Hamilton",
+  "Harper",
+  "Hawkins",
+  "Hayes",
+  "Henderson",
+  "Holloway",
+  "Hudson",
+  "Hunter",
+  "Jennings",
+  "Keller",
+  "Knight",
+  "Lawson",
+  "Marshall",
+  "Mason",
+  "Maxwell",
+  "Mitchell",
+  "Montgomery",
+  "Morgan",
+  "Murray",
+  "Nash",
+  "Palmer",
+  "Parker",
+  "Payne",
+  "Porter",
+  "Price",
+  "Reed",
+  "Reeves",
+  "Russell",
+  "Spencer",
+  "Stewart",
+  "Sutton",
+  "Wallace",
+  "Warren",
+  "Watson",
+  "Wells",
+  "West",
+];
 
 // Map cities to nearby cruising regions
 const cityToRegionMap = {
@@ -915,6 +1218,24 @@ let updatedFiles = 0;
 let rewrittenFiles = 0;
 let totalCruisesCreated = 0;
 
+const decision = Math.random() > 0.5;
+function getName() {
+  const firstName = decision
+    ? feminineNames[Math.floor(Math.random() * feminineNames.length)]
+    : masculineNames[Math.floor(Math.random() * masculineNames.length)];
+
+  const lastName = lastNames[Math.floor(Math.random() * lastNames.length)];
+
+  const name = `${firstName} ${lastName}`;
+
+  // Check if name is in masculine or feminine lists
+
+  // If we can't determine, use first letter as a simple heuristic
+  // Names starting with A-M more likely to be assigned male, N-Z female
+  // This is an arbitrary rule for names not in our lists
+  return name;
+}
+
 function getTourCategoryId(totalDuration, tags) {
   const hasTag = (tag) => tags.includes(tag);
 
@@ -967,6 +1288,68 @@ function getTourCategoryId(totalDuration, tags) {
   return "general-cruise"; // fallback
 }
 
+const personnelRoles = [
+  "Cruise Director",
+  "Safety Officer",
+  "Security Director",
+  "Security Officer",
+  "Youth Program Director",
+  "Family Activities Coordinator",
+  "Activities Director",
+  "Safety Officer",
+  "Hospitality Director",
+  "Guest Relations Manager",
+  "Accommodation Manager",
+  "VIP Coordinator",
+  "Production Manager",
+  "Operations Manager",
+  "Logistics Coordinator",
+];
+
+const languages = [
+  "English",
+  "Spanish",
+  "French",
+  "German",
+  "Mandarin",
+  "Japanese",
+  "Arabic",
+  "Russian",
+  "Portuguese",
+  "Italian",
+  "Korean",
+  "Hindi",
+  "Dutch",
+  "Swedish",
+  "Norwegian",
+  "Danish",
+  "Finnish",
+  "Greek",
+  "Turkish",
+  "Polish",
+  "Czech",
+  "Hungarian",
+  "Thai",
+  "Vietnamese",
+  "Indonesian",
+  "Filipino",
+  "Malay",
+  "Bengali",
+  "Urdu",
+  "Punjabi",
+  "Gujarati",
+  "Tamil",
+  "Telugu",
+  "Marathi",
+  "Kannada",
+  "Malayalam",
+  "Burmese",
+  "Khmer",
+  "Lao",
+  "Swahili",
+  "Zulu",
+];
+
 for (const city of cityFiles) {
   const camelCaseCity = kebabToCamelCase(city);
   const cruiseFilePath = path.join(cruisesDir, `${city}-cruises.ts`);
@@ -1017,6 +1400,18 @@ for (const city of cityFiles) {
     // Generate multiple cruise objects
     const cruiseObjects = [];
 
+    const role =
+      personnelRoles[Math.floor(Math.random() * personnelRoles.length)];
+    const personnelLanuage = [];
+    const languagesCount = Math.floor(Math.random() * 3) + 1; // 1-3 languages per personnel
+    for (let j = 0; j < languagesCount; j++) {
+      const randomLanguage =
+        languages[Math.floor(Math.random() * languages.length)];
+      if (!personnelLanuage.includes(randomLanguage)) {
+        personnelLanuage.push(`"${randomLanguage}"`);
+      }
+    }
+
     for (let i = 0; i < cruisesToAdd; i++) {
       // Generate cruise data
       const cruiseData = generateCruiseData(city);
@@ -1053,6 +1448,10 @@ for (const city of cityFiles) {
       if (tags.length === 0) {
         tags.push("general");
       }
+
+      const gender = decision ? "women" : "men";
+      const randomId = Math.floor(Math.random() * 99); // Random number for the image
+      const profileImage = `https://randomuser.me/api/portraits/${gender}/${randomId}.jpg`;
 
       const tourCategoryId = getTourCategoryId(
         parseInt(cruiseData.totalDuration, 10),
@@ -1095,13 +1494,11 @@ for (const city of cityFiles) {
     tourCategoryId: "${tourCategoryId}",
     contactPersonnel: [
       {
-        name: "Cruise Director ${i + 1}",
-        role: "Cruise Director",
-        languages: ["English", ${i % 2 === 0 ? '"Spanish"' : '"French"'}, ${
-        i % 3 === 0 ? '"German"' : '"Italian"'
-      }],
+        name: "${getName()}",
+        role: "${role}",
+        languages: [${personnelLanuage}],
         experienceYears: ${5 + Math.floor(Math.random() * 15)},
-        profileImage: "/images/staff/cruise-director-${i + 1}.jpg",
+        profileImage: "${profileImage}",
         contact: {
           contactEmail: "${contactEmail}",
           contactNumber: "+1-${Math.floor(Math.random() * 900) + 100}-${
