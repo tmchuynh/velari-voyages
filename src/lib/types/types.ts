@@ -110,7 +110,7 @@ export type TimePeriod = {
   description?: string;
 };
 
-export type Resturant = {
+export type Restaurant = {
   name: string;
   description: string;
   cuisine:
@@ -125,6 +125,7 @@ export type Resturant = {
     | "Bosnian"
     | "Brazilian"
     | "British"
+    | "Burmese"
     | "Canadian"
     | "Caribbean"
     | "Cajun"
@@ -172,6 +173,7 @@ export type Resturant = {
     | "Russian"
     | "Scandinavian"
     | "Scottish"
+    | "Seafood"
     | "Serbian"
     | "Singaporean"
     | "Slovak"
@@ -182,8 +184,8 @@ export type Resturant = {
     | "Syrian"
     | "Thai"
     | "Tibetan"
-    | "Turkish"
     | "Tunisian"
+    | "Turkish"
     | "Ukrainian"
     | "Uzbek"
     | "Vietnamese";
@@ -199,7 +201,7 @@ export type Resturant = {
     sunday?: string;
   };
   contactInfo?: ContactInfo;
-  menu?: ResturantMenu;
+  menu?: RestaurantMenu;
   images?: string[];
   tags?: string[];
   isVegetarianFriendly?: boolean;
@@ -215,21 +217,21 @@ export type Resturant = {
   isPopular?: boolean;
 };
 
-export type ResturantMenu = {
+export type RestaurantMenu = {
   title: string;
   description: string;
   category: {
     name: string;
     items: {
       name: string;
-      description: string;
+      description?: string;
       price: number;
       imageUrl?: string;
-      isVegetarian?: boolean;
-      isVegan?: boolean;
-      isGlutenFree?: boolean;
-      isHalal?: boolean;
-      isKosher?: boolean;
+      isVegetarian: boolean;
+      isVegan: boolean;
+      isGlutenFree: boolean;
+      isHalal: boolean;
+      isKosher: boolean;
     }[];
-  };
+  }[];
 };
