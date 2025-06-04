@@ -15,7 +15,7 @@ import {
 } from "@/components/ui/select";
 import { cruiseDepartureLocations } from "@/lib/constants/info/city";
 import { Cruise } from "@/lib/interfaces/services/cruises";
-import { getAllCruises } from "@/lib/utils/get";
+import { getAllCruises } from "@/lib/utils/get.ts";
 import { groupAndSortByProperties } from "@/lib/utils/sort";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
