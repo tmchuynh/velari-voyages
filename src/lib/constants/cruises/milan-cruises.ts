@@ -1,8 +1,8 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const milanCruises: Cruise[] = [
-{
-    basePrice: 1744,
+  {
+    basePrice: 4247,
     departureLocation: {
   "city": "Milan",
   "country": "Italy",
@@ -13,16 +13,17 @@ export const milanCruises: Cruise[] = [
   }
 },
     arrivalLocation: {
-  "city": "Santorini",
-  "country": "",
+  "city": "Milan",
+  "country": "Italy",
+  "region": "Mediterranean",
   "coordinates": {
-    "latitude": 0,
-    "longitude": 0
+    "latitude": 45.4642,
+    "longitude": 9.19
   }
 },
-    isPopular: false, // Make fewer cruises "popular"
+    isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "expedition",
+    category: "premium",
     itinerary: {
       route: [
   {
@@ -35,365 +36,11 @@ export const milanCruises: Cruise[] = [
     }
   },
   {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Athens",
+    "city": "Dubrovnik",
     "country": "",
     "coordinates": {
       "latitude": 0,
       "longitude": 0
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Escape the everyday with this crystalline journey through Mediterranean, departing from Milan. You'll visit Rome, Athens, Barcelona, Santorini, where every stop is a new adventure.",
-      distance: "1238 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Milan to Rome"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Sailing from Rome to Athens"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from Athens to Barcelona"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Sailing from Barcelona to Santorini"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring Santorini"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Mary Murray",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
-        contact: {
-          contactEmail: "timeless.saga.of.the@velarivoyages.com",
-          contactNumber: "+1-425-993-7747"
-        }
-      }
-    ],
-    title: "Timeless Saga of the Fashion Capital",
-    description: "Escape the everyday with this crystalline journey through Mediterranean, departing from Milan. You'll visit Rome, Athens, Barcelona, Santorini, where every stop is a new adventure.",
-    rating: 5.0,
-    tags: ["tropical"]
-  },
-  {
-    basePrice: 5169,
-    departureLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    arrivalLocation: {
-  "city": "Rome",
-  "country": "Italy",
-  "coordinates": {
-    "latitude": 41.9028,
-    "longitude": 12.4964
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "entry-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  }
-],
-      description: "Sail away from Milan into the beautiful expanse of Mediterranean. Along the way, enjoy rich cultural experiences in Barcelona, Rome, where history, nature, and cuisine collide.",
-      distance: "1023 nautical miles",
-      totalDuration: "8 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Milan to Barcelona"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Barcelona to Rome"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  }
-]
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        name: "Madelyn Gardner",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/women/61.jpg",
-        contact: {
-          contactEmail: "crystalline.saga.of.@velarivoyages.com",
-          contactNumber: "+1-447-123-9317"
-        }
-      }
-    ],
-    title: "Crystalline Saga of the Fashion Capital",
-    description: "Sail away from Milan into the beautiful expanse of Mediterranean. Along the way, enjoy rich cultural experiences in Barcelona, Rome, where history, nature, and cuisine collide.",
-    rating: 4.1,
-    tags: ["family-friendly","exclusive"]
-  },
-  {
-    basePrice: 2551,
-    departureLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    arrivalLocation: {
-  "city": "Malta",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "ultra-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Let the winds of the Mediterranean carry you from Milan to the most stunning ports in the region. With destinations like Athens, Malta, this mirage redefines luxury travel.",
-      distance: "1082 nautical miles",
-      totalDuration: "6 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Milan to Athens"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from Athens to Malta"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring Malta"
-  }
-]
-    },
-    tourCategoryId: "tropical-cruise",
-    contactPersonnel: [
-      {
-        name: "Sophia Griffin",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/women/81.jpg",
-        contact: {
-          contactEmail: "hidden.journey.of.th@velarivoyages.com",
-          contactNumber: "+1-212-651-2728"
-        }
-      }
-    ],
-    title: "Hidden Journey of the Fashion Capital",
-    description: "Let the winds of the Mediterranean carry you from Milan to the most stunning ports in the region. With destinations like Athens, Malta, this mirage redefines luxury travel.",
-    rating: 4.9,
-    tags: ["tropical","long-distance"]
-  },
-  {
-    basePrice: 1687,
-    departureLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    arrivalLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
     }
   },
   {
@@ -405,22 +52,6 @@ export const milanCruises: Cruise[] = [
     }
   },
   {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
     "city": "Milan",
     "country": "Italy",
     "region": "Mediterranean",
@@ -430,33 +61,27 @@ export const milanCruises: Cruise[] = [
     }
   }
 ],
-      description: "Depart Milan on a relaxing escape through the Mediterranean region. Highlights include the stunning coastlines of Mykonos, Rome, Barcelona, all while enjoying first-class amenities on board.",
-      distance: "1152 nautical miles",
-      totalDuration: "16 days",
+      description: "An unforgettable awakening awaits as you cruise from Milan across Mediterranean. Dive into history, flavor, and culture with stops including Dubrovnik, Mykonos.",
+      distance: "1286 nautical miles",
+      totalDuration: "9 days",
       timeAtSea: [
   {
     "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Milan to Mykonos"
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Milan to Dubrovnik"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Dubrovnik to Mykonos"
   },
   {
     "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Mykonos to Rome"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Sailing from Rome to Barcelona"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
-    "description": "Sailing from Barcelona to Milan"
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Mykonos to Milan"
   }
 ],
       timeOnLand: [
@@ -467,52 +92,46 @@ export const milanCruises: Cruise[] = [
     "description": "Exploring Milan"
   },
   {
-    "start": "Day 5",
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 6",
     "end": "Day 6",
-    "duration": "2 days",
+    "duration": "1 days",
     "description": "Exploring Mykonos"
   },
   {
-    "start": "Day 9",
-    "end": "Day 10",
+    "start": "Day 8",
+    "end": "Day 9",
     "duration": "2 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 16",
-    "end": "Day 16",
-    "duration": "1 days",
     "description": "Exploring Milan"
   }
 ]
     },
-    tourCategoryId: "repositioning-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Maya Gardner",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/women/70.jpg",
+        name: "Barbara Reeves",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Lao","Vietnamese","Japanese"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
         contact: {
-          contactEmail: "extraordinary.odysse@velarivoyages.com",
-          contactNumber: "+1-833-896-7230"
+          contactEmail: "crystalline.frontier@velarivoyages.com",
+          contactNumber: "+1-360-983-4334"
         }
       }
     ],
-    title: "Extraordinary Odyssey of the Lombard Jewel",
-    description: "Depart Milan on a relaxing escape through the Mediterranean region. Highlights include the stunning coastlines of Mykonos, Rome, Barcelona, all while enjoying first-class amenities on board.",
-    rating: 4.5,
-    tags: ["luxury"]
+    title: "Crystalline Frontier of the Citadels by the Sea",
+    description: "An unforgettable awakening awaits as you cruise from Milan across Mediterranean. Dive into history, flavor, and culture with stops including Dubrovnik, Mykonos.",
+    rating: 4.2,
+    tags: ["cruise-experience"]
   },
   {
-    basePrice: 3498,
+    basePrice: 3778,
     departureLocation: {
   "city": "Milan",
   "country": "Italy",
@@ -523,7 +142,7 @@ export const milanCruises: Cruise[] = [
   }
 },
     arrivalLocation: {
-  "city": "Santorini",
+  "city": "Dubrovnik",
   "country": "",
   "coordinates": {
     "latitude": 0,
@@ -532,7 +151,7 @@ export const milanCruises: Cruise[] = [
 },
     isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "entry-luxury",
+    category: "mainstream",
     itinerary: {
       route: [
   {
@@ -545,101 +164,81 @@ export const milanCruises: Cruise[] = [
     }
   },
   {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
     "city": "Santorini",
     "country": "",
     "coordinates": {
       "latitude": 0,
       "longitude": 0
     }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
   }
 ],
-      description: "An escape like no other begins in Milan, where your sojourn launches into the heart of Mediterranean. Discover the magic of Mykonos, Barcelona, Santorini with style and sophistication.",
-      distance: "1387 nautical miles",
-      totalDuration: "12 days",
+      description: "Step aboard in Milan and begin a opulent journey through the scenic Mediterranean. From historic cities to coastal hideaways like Santorini, Dubrovnik, every day is unforgettable.",
+      distance: "868 nautical miles",
+      totalDuration: "7 days",
       timeAtSea: [
   {
-    "start": "Day 3",
-    "end": "Day 4",
+    "start": "Day 2",
+    "end": "Day 3",
     "duration": "2 days",
-    "description": "Sailing from Milan to Mykonos"
+    "description": "Sailing from Milan to Santorini"
   },
   {
     "start": "Day 6",
     "end": "Day 6",
     "duration": "1 days",
-    "description": "Sailing from Mykonos to Barcelona"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Barcelona to Santorini"
+    "description": "Sailing from Santorini to Dubrovnik"
   }
 ],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
+    "end": "Day 1",
+    "duration": "1 days",
     "description": "Exploring Milan"
   },
   {
-    "start": "Day 5",
+    "start": "Day 4",
     "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Mykonos"
+    "duration": "2 days",
+    "description": "Exploring Santorini"
   },
   {
     "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Santorini"
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Dubrovnik"
   }
 ]
     },
-    tourCategoryId: "fall-foliage-cruise",
+    tourCategoryId: "theme-cruise",
     contactPersonnel: [
       {
-        name: "Angela Grant",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/women/98.jpg",
+        name: "Leah Collins",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Lao","Vietnamese","Japanese"],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/women/35.jpg",
         contact: {
-          contactEmail: "extraordinary.reveri@velarivoyages.com",
-          contactNumber: "+1-496-714-9635"
+          contactEmail: "whispering.renaissan@velarivoyages.com",
+          contactNumber: "+1-119-557-2992"
         }
       }
     ],
-    title: "Extraordinary Reverie of the Fashion Capital",
-    description: "An escape like no other begins in Milan, where your sojourn launches into the heart of Mediterranean. Discover the magic of Mykonos, Barcelona, Santorini with style and sophistication.",
-    rating: 4.1,
-    tags: ["themed-cruise"]
+    title: "Whispering Renaissance of the Threaded with Elegance",
+    description: "Step aboard in Milan and begin a opulent journey through the scenic Mediterranean. From historic cities to coastal hideaways like Santorini, Dubrovnik, every day is unforgettable.",
+    rating: 4.0,
+    tags: ["cruise-adventure","historical","themed-cruise"]
   },
   {
-    basePrice: 1198,
+    basePrice: 1865,
     departureLocation: {
   "city": "Milan",
   "country": "Italy",
@@ -689,14 +288,6 @@ export const milanCruises: Cruise[] = [
     }
   },
   {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
     "city": "Milan",
     "country": "Italy",
     "region": "Mediterranean",
@@ -706,89 +297,77 @@ export const milanCruises: Cruise[] = [
     }
   }
 ],
-      description: "Embark from Milan and traverse the Mediterranean in style. Whether it’s the energy of Mykonos or the calm of Santorini, each destination reveals a new side of paradise.",
-      distance: "1235 nautical miles",
-      totalDuration: "13 days",
+      description: "Let this extraordinary voyage redefine your idea of travel. From Milan, explore the Mediterranean in luxurious comfort, stopping at Mykonos, Santorini where every port offers a new chapter.",
+      distance: "892 nautical miles",
+      totalDuration: "9 days",
       timeAtSea: [
   {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
     "description": "Sailing from Milan to Mykonos"
   },
   {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
     "description": "Sailing from Mykonos to Santorini"
   },
   {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Barcelona"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Sailing from Barcelona to Milan"
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Santorini to Milan"
   }
 ],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
+    "end": "Day 1",
+    "duration": "1 days",
     "description": "Exploring Milan"
   },
   {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
     "description": "Exploring Mykonos"
   },
   {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
     "description": "Exploring Santorini"
   },
   {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
+    "start": "Day 9",
+    "end": "Day 9",
     "duration": "1 days",
     "description": "Exploring Milan"
   }
 ]
     },
-    tourCategoryId: "fall-foliage-cruise",
+    tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Genesis Graves",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
+        name: "Amanda Warren",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Lao","Vietnamese","Japanese"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
         contact: {
-          contactEmail: "enchanting.saga.of.t@velarivoyages.com",
-          contactNumber: "+1-714-335-2780"
+          contactEmail: "starlit.wanderlust.o@velarivoyages.com",
+          contactNumber: "+1-699-761-3596"
         }
       }
     ],
-    title: "Enchanting Saga of the Lombard Jewel",
-    description: "Embark from Milan and traverse the Mediterranean in style. Whether it’s the energy of Mykonos or the calm of Santorini, each destination reveals a new side of paradise.",
-    rating: 4.8,
-    tags: ["family-friendly","adventure"]
+    title: "Starlit Wanderlust of the Citadels by the Sea",
+    description: "Let this extraordinary voyage redefine your idea of travel. From Milan, explore the Mediterranean in luxurious comfort, stopping at Mykonos, Santorini where every port offers a new chapter.",
+    rating: 4.5,
+    tags: ["repositioning","relaxation","family-friendly"]
   },
   {
-    basePrice: 5058,
+    basePrice: 3249,
     departureLocation: {
   "city": "Milan",
   "country": "Italy",
@@ -809,7 +388,7 @@ export const milanCruises: Cruise[] = [
 },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "luxury",
+    category: "mainstream",
     itinerary: {
       route: [
   {
@@ -830,6 +409,14 @@ export const milanCruises: Cruise[] = [
     }
   },
   {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
     "city": "Rome",
     "country": "Italy",
     "coordinates": {
@@ -846,14 +433,6 @@ export const milanCruises: Cruise[] = [
     }
   },
   {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
     "city": "Milan",
     "country": "Italy",
     "region": "Mediterranean",
@@ -863,13 +442,13 @@ export const milanCruises: Cruise[] = [
     }
   }
 ],
-      description: "Sail away from Milan into the beautiful expanse of Mediterranean. Along the way, enjoy rich cultural experiences in Malta, Rome, Santorini, Dubrovnik, where history, nature, and cuisine collide.",
-      distance: "681 nautical miles",
-      totalDuration: "18 days",
+      description: "Step aboard in Milan and begin a transcendent journey through the scenic Mediterranean. From historic cities to coastal hideaways like Malta, Athens, Rome, Santorini, every day is unforgettable.",
+      distance: "1112 nautical miles",
+      totalDuration: "16 days",
       timeAtSea: [
   {
-    "start": "Day 2",
-    "end": "Day 3",
+    "start": "Day 3",
+    "end": "Day 4",
     "duration": "2 days",
     "description": "Sailing from Milan to Malta"
   },
@@ -877,62 +456,62 @@ export const milanCruises: Cruise[] = [
     "start": "Day 6",
     "end": "Day 6",
     "duration": "1 days",
-    "description": "Sailing from Malta to Rome"
+    "description": "Sailing from Malta to Athens"
   },
   {
-    "start": "Day 8",
+    "start": "Day 9",
     "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from Rome to Santorini"
+    "duration": "1 days",
+    "description": "Sailing from Athens to Rome"
   },
   {
     "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Sailing from Santorini to Dubrovnik"
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from Rome to Santorini"
   },
   {
     "start": "Day 15",
-    "end": "Day 16",
-    "duration": "2 days",
-    "description": "Sailing from Dubrovnik to Milan"
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Sailing from Santorini to Milan"
   }
 ],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
+    "end": "Day 2",
+    "duration": "2 days",
     "description": "Exploring Milan"
   },
   {
-    "start": "Day 4",
+    "start": "Day 5",
     "end": "Day 5",
-    "duration": "2 days",
+    "duration": "1 days",
     "description": "Exploring Malta"
   },
   {
     "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Rome"
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Athens"
   },
   {
     "start": "Day 10",
     "end": "Day 11",
     "duration": "2 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
     "description": "Exploring Santorini"
   },
   {
-    "start": "Day 14",
-    "end": "Day 14",
+    "start": "Day 16",
+    "end": "Day 16",
     "duration": "1 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 17",
-    "end": "Day 18",
-    "duration": "2 days",
     "description": "Exploring Milan"
   }
 ]
@@ -940,24 +519,24 @@ export const milanCruises: Cruise[] = [
     tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Amy Douglas",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
+        name: "Lily Gibson",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Lao","Vietnamese","Japanese"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
         contact: {
-          contactEmail: "golden.escape.of.the@velarivoyages.com",
-          contactNumber: "+1-361-297-6070"
+          contactEmail: "luxurious.arcadia.of@velarivoyages.com",
+          contactNumber: "+1-387-150-6192"
         }
       }
     ],
-    title: "Golden Escape of the Lombard Jewel",
-    description: "Sail away from Milan into the beautiful expanse of Mediterranean. Along the way, enjoy rich cultural experiences in Malta, Rome, Santorini, Dubrovnik, where history, nature, and cuisine collide.",
-    rating: 4.2,
-    tags: ["relaxation","tropical","long-distance"]
+    title: "Luxurious Arcadia of the Chic Fortress",
+    description: "Step aboard in Milan and begin a transcendent journey through the scenic Mediterranean. From historic cities to coastal hideaways like Malta, Athens, Rome, Santorini, every day is unforgettable.",
+    rating: 4.3,
+    tags: ["cruise-line","anniversary-cruise","glacier-cruise"]
   },
   {
-    basePrice: 6107,
+    basePrice: 9026,
     departureLocation: {
   "city": "Milan",
   "country": "Italy",
@@ -968,16 +547,17 @@ export const milanCruises: Cruise[] = [
   }
 },
     arrivalLocation: {
-  "city": "Rome",
+  "city": "Milan",
   "country": "Italy",
+  "region": "Mediterranean",
   "coordinates": {
-    "latitude": 41.9028,
-    "longitude": 12.4964
+    "latitude": 45.4642,
+    "longitude": 9.19
   }
 },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "premium-luxury",
+    hasPopularDestination: true,
+    category: "expedition",
     itinerary: {
       route: [
   {
@@ -990,7 +570,15 @@ export const milanCruises: Cruise[] = [
     }
   },
   {
-    "city": "Santorini",
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Malta",
     "country": "",
     "coordinates": {
       "latitude": 0,
@@ -1006,35 +594,42 @@ export const milanCruises: Cruise[] = [
     }
   },
   {
-    "city": "Rome",
+    "city": "Milan",
     "country": "Italy",
+    "region": "Mediterranean",
     "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
+      "latitude": 45.4642,
+      "longitude": 9.19
     }
   }
 ],
-      description: "This hand-selected forbidden cruise offers a true taste of Mediterranean. Depart from Milan and explore ports like Santorini, Barcelona, Rome, each telling a story through food, music, and tradition.",
-      distance: "1326 nautical miles",
-      totalDuration: "10 days",
+      description: "Embark from Milan and traverse the Mediterranean in style. Whether it’s the energy of Athens or the calm of Malta, each destination reveals a new side of paradise.",
+      distance: "507 nautical miles",
+      totalDuration: "12 days",
       timeAtSea: [
   {
     "start": "Day 2",
     "end": "Day 3",
     "duration": "2 days",
-    "description": "Sailing from Milan to Santorini"
+    "description": "Sailing from Milan to Athens"
   },
   {
     "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Barcelona"
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Athens to Malta"
   },
   {
     "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from Barcelona to Rome"
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Malta to Barcelona"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Barcelona to Milan"
   }
 ],
       timeOnLand: [
@@ -1048,43 +643,49 @@ export const milanCruises: Cruise[] = [
     "start": "Day 4",
     "end": "Day 4",
     "duration": "1 days",
-    "description": "Exploring Santorini"
+    "description": "Exploring Athens"
   },
   {
-    "start": "Day 6",
+    "start": "Day 7",
     "end": "Day 7",
-    "duration": "2 days",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
     "description": "Exploring Barcelona"
   },
   {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Rome"
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Milan"
   }
 ]
     },
-    tourCategoryId: "glacier-cruise",
+    tourCategoryId: "tropical-cruise",
     contactPersonnel: [
       {
-        name: "Nomsa Hall",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
+        name: "Adeline Hawkins",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Lao","Vietnamese","Japanese"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/45.jpg",
         contact: {
-          contactEmail: "majestic.saga.of.the@velarivoyages.com",
-          contactNumber: "+1-799-898-2233"
+          contactEmail: "pristine.serenade.of@velarivoyages.com",
+          contactNumber: "+1-843-327-7925"
         }
       }
     ],
-    title: "Majestic Saga of the Timeless Coastlines",
-    description: "This hand-selected forbidden cruise offers a true taste of Mediterranean. Depart from Milan and explore ports like Santorini, Barcelona, Rome, each telling a story through food, music, and tradition.",
-    rating: 4.6,
-    tags: ["fall-cruise"]
+    title: "Pristine Serenade of the Wine-Soaked Villages",
+    description: "Embark from Milan and traverse the Mediterranean in style. Whether it’s the energy of Athens or the calm of Malta, each destination reveals a new side of paradise.",
+    rating: 4.2,
+    tags: ["tropical","cruise-ship","holiday-cruise"]
   },
   {
-    basePrice: 7365,
+    basePrice: 9566,
     departureLocation: {
   "city": "Milan",
   "country": "Italy",
@@ -1104,7 +705,7 @@ export const milanCruises: Cruise[] = [
 },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "premium-luxury",
+    category: "mainstream",
     itinerary: {
       route: [
   {
@@ -1117,7 +718,15 @@ export const milanCruises: Cruise[] = [
     }
   },
   {
-    "city": "Athens",
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dubrovnik",
     "country": "",
     "coordinates": {
       "latitude": 0,
@@ -1133,21 +742,27 @@ export const milanCruises: Cruise[] = [
     }
   }
 ],
-      description: "Let the winds of the Mediterranean carry you from Milan to the most stunning ports in the region. With destinations like Athens, Malta, this renaissance redefines luxury travel.",
-      distance: "646 nautical miles",
-      totalDuration: "7 days",
+      description: "Experience the elegance of the seas on this alluring elevation through Mediterranean, starting from the illustrious port of Milan. From Mykonos, Dubrovnik to Malta, each destination offers its own story, culture, and breathtaking views.",
+      distance: "919 nautical miles",
+      totalDuration: "11 days",
       timeAtSea: [
   {
     "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Milan to Athens"
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Milan to Mykonos"
   },
   {
-    "start": "Day 5",
-    "end": "Day 5",
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Dubrovnik"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
     "duration": "1 days",
-    "description": "Sailing from Athens to Malta"
+    "description": "Sailing from Dubrovnik to Malta"
   }
 ],
       timeOnLand: [
@@ -1158,40 +773,46 @@ export const milanCruises: Cruise[] = [
     "description": "Exploring Milan"
   },
   {
-    "start": "Day 4",
-    "end": "Day 4",
+    "start": "Day 5",
+    "end": "Day 5",
     "duration": "1 days",
-    "description": "Exploring Athens"
+    "description": "Exploring Mykonos"
   },
   {
-    "start": "Day 6",
-    "end": "Day 7",
+    "start": "Day 8",
+    "end": "Day 9",
     "duration": "2 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
     "description": "Exploring Malta"
   }
 ]
     },
-    tourCategoryId: "glacier-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Jessica Cooper",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 12,
-        profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
+        name: "Maria Reed",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Lao","Vietnamese","Japanese"],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/women/51.jpg",
         contact: {
-          contactEmail: "captivating.explorat@velarivoyages.com",
-          contactNumber: "+1-330-963-4258"
+          contactEmail: "immersive.currents.o@velarivoyages.com",
+          contactNumber: "+1-183-634-1361"
         }
       }
     ],
-    title: "Captivating Exploration of the Fashion Capital",
-    description: "Let the winds of the Mediterranean carry you from Milan to the most stunning ports in the region. With destinations like Athens, Malta, this renaissance redefines luxury travel.",
-    rating: 4.7,
-    tags: ["luxury"]
+    title: "Immersive Currents of the Marble-Runway Realm",
+    description: "Experience the elegance of the seas on this alluring elevation through Mediterranean, starting from the illustrious port of Milan. From Mykonos, Dubrovnik to Malta, each destination offers its own story, culture, and breathtaking views.",
+    rating: 5.0,
+    tags: ["holiday-cruise","sightseeing","seasonal"]
   },
   {
-    basePrice: 1139,
+    basePrice: 3421,
     departureLocation: {
   "city": "Milan",
   "country": "Italy",
@@ -1202,17 +823,16 @@ export const milanCruises: Cruise[] = [
   }
 },
     arrivalLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
+  "city": "Dubrovnik",
+  "country": "",
   "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
+    "latitude": 0,
+    "longitude": 0
   }
 },
-    isPopular: true, // Make fewer cruises "popular"
+    isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "premium-luxury",
+    category: "mainstream",
     itinerary: {
       route: [
   {
@@ -1225,7 +845,7 @@ export const milanCruises: Cruise[] = [
     }
   },
   {
-    "city": "Santorini",
+    "city": "Malta",
     "country": "",
     "coordinates": {
       "latitude": 0,
@@ -1233,114 +853,73 @@ export const milanCruises: Cruise[] = [
     }
   },
   {
-    "city": "Athens",
+    "city": "Dubrovnik",
     "country": "",
     "coordinates": {
       "latitude": 0,
       "longitude": 0
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
     }
   }
 ],
-      description: "Sail away from the charming harbor of Milan on this extraordinary journey across Mediterranean. Uncover the beauty and history of Santorini, Athens, Barcelona with curated excursions, world-class cuisine, and exceptional service.",
-      distance: "1097 nautical miles",
-      totalDuration: "13 days",
+      description: "Step aboard in Milan and begin a starlit journey through the scenic Mediterranean. From historic cities to coastal hideaways like Malta, Dubrovnik, every day is unforgettable.",
+      distance: "886 nautical miles",
+      totalDuration: "7 days",
       timeAtSea: [
   {
-    "start": "Day 3",
-    "end": "Day 3",
+    "start": "Day 2",
+    "end": "Day 2",
     "duration": "1 days",
-    "description": "Sailing from Milan to Santorini"
+    "description": "Sailing from Milan to Malta"
   },
   {
-    "start": "Day 6",
+    "start": "Day 5",
     "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Athens"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
     "duration": "2 days",
-    "description": "Sailing from Athens to Barcelona"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Sailing from Barcelona to Milan"
+    "description": "Sailing from Malta to Dubrovnik"
   }
 ],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
+    "end": "Day 1",
+    "duration": "1 days",
     "description": "Exploring Milan"
   },
   {
-    "start": "Day 4",
-    "end": "Day 5",
+    "start": "Day 3",
+    "end": "Day 4",
     "duration": "2 days",
-    "description": "Exploring Santorini"
+    "description": "Exploring Malta"
   },
   {
     "start": "Day 7",
     "end": "Day 7",
     "duration": "1 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Exploring Milan"
+    "description": "Exploring Dubrovnik"
   }
 ]
     },
-    tourCategoryId: "fall-foliage-cruise",
+    tourCategoryId: "theme-cruise",
     contactPersonnel: [
       {
-        name: "Zoe Maxwell",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/61.jpg",
+        name: "Maria Russell",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Lao","Vietnamese","Japanese"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
         contact: {
-          contactEmail: "crystalline.expediti@velarivoyages.com",
-          contactNumber: "+1-704-904-3569"
+          contactEmail: "unforgettable.solsti@velarivoyages.com",
+          contactNumber: "+1-473-556-8744"
         }
       }
     ],
-    title: "Crystalline Expedition of the Sun-Drenched Riviera",
-    description: "Sail away from the charming harbor of Milan on this extraordinary journey across Mediterranean. Uncover the beauty and history of Santorini, Athens, Barcelona with curated excursions, world-class cuisine, and exceptional service.",
-    rating: 4.4,
-    tags: ["fall-cruise","luxury"]
+    title: "Unforgettable Solstice of the Marble Cities",
+    description: "Step aboard in Milan and begin a starlit journey through the scenic Mediterranean. From historic cities to coastal hideaways like Malta, Dubrovnik, every day is unforgettable.",
+    rating: 4.5,
+    tags: ["themed-cruise"]
   },
   {
-    basePrice: 1196,
+    basePrice: 6395,
     departureLocation: {
   "city": "Milan",
   "country": "Italy",
@@ -1359,8 +938,8 @@ export const milanCruises: Cruise[] = [
   }
 },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "luxury",
+    hasPopularDestination: false,
+    category: "mainstream",
     itinerary: {
       route: [
   {
@@ -1373,7 +952,7 @@ export const milanCruises: Cruise[] = [
     }
   },
   {
-    "city": "Malta",
+    "city": "Santorini",
     "country": "",
     "coordinates": {
       "latitude": 0,
@@ -1389,21 +968,21 @@ export const milanCruises: Cruise[] = [
     }
   }
 ],
-      description: "From the lively departure port of Milan, this curated expedition showcases the finest of Mediterranean. With visits to Malta, Barcelona, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
-      distance: "633 nautical miles",
-      totalDuration: "6 days",
+      description: "From bustling Milan to serene Mediterranean shores, this cruise invites you to relax, explore, and indulge. Stops at Santorini, Barcelona deliver a balanced blend of culture and comfort.",
+      distance: "908 nautical miles",
+      totalDuration: "7 days",
       timeAtSea: [
   {
     "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Milan to Malta"
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Milan to Santorini"
   },
   {
-    "start": "Day 5",
-    "end": "Day 5",
+    "start": "Day 6",
+    "end": "Day 6",
     "duration": "1 days",
-    "description": "Sailing from Malta to Barcelona"
+    "description": "Sailing from Santorini to Barcelona"
   }
 ],
       timeOnLand: [
@@ -1414,189 +993,40 @@ export const milanCruises: Cruise[] = [
     "description": "Exploring Milan"
   },
   {
-    "start": "Day 3",
-    "end": "Day 4",
+    "start": "Day 4",
+    "end": "Day 5",
     "duration": "2 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring Barcelona"
-  }
-]
-    },
-    tourCategoryId: "tropical-cruise",
-    contactPersonnel: [
-      {
-        name: "Emily Bennett",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
-        contact: {
-          contactEmail: "velvet.passage.of.th@velarivoyages.com",
-          contactNumber: "+1-358-406-2851"
-        }
-      }
-    ],
-    title: "Velvet Passage of the Timeless Coastlines",
-    description: "From the lively departure port of Milan, this curated expedition showcases the finest of Mediterranean. With visits to Malta, Barcelona, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
-    rating: 4.2,
-    tags: ["exclusive"]
-  },
-  {
-    basePrice: 3121,
-    departureLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    arrivalLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "mainstream",
-    itinerary: {
-      route: [
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  }
-],
-      description: "Embark from Milan and traverse the Mediterranean in style. Whether it’s the energy of Rome or the calm of Dubrovnik, each destination reveals a new side of paradise.",
-      distance: "735 nautical miles",
-      totalDuration: "15 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Milan to Rome"
+    "description": "Exploring Santorini"
   },
   {
     "start": "Day 7",
     "end": "Day 7",
     "duration": "1 days",
-    "description": "Sailing from Rome to Dubrovnik"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from Dubrovnik to Santorini"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Milan"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
-    "description": "Exploring Milan"
+    "description": "Exploring Barcelona"
   }
 ]
     },
-    tourCategoryId: "repositioning-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Virginia West",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/women/41.jpg",
+        name: "Ella Lawson",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Lao","Vietnamese","Japanese"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
         contact: {
-          contactEmail: "infinite.voyage.of.t@velarivoyages.com",
-          contactNumber: "+1-724-378-1432"
+          contactEmail: "pristine.mirage.of.t@velarivoyages.com",
+          contactNumber: "+1-741-343-8823"
         }
       }
     ],
-    title: "Infinite Voyage of the Sun-Drenched Riviera",
-    description: "Embark from Milan and traverse the Mediterranean in style. Whether it’s the energy of Rome or the calm of Dubrovnik, each destination reveals a new side of paradise.",
-    rating: 4.9,
-    tags: ["romantic","sightseeing"]
+    title: "Pristine Mirage of the Marble-Runway Realm",
+    description: "From bustling Milan to serene Mediterranean shores, this cruise invites you to relax, explore, and indulge. Stops at Santorini, Barcelona deliver a balanced blend of culture and comfort.",
+    rating: 4.6,
+    tags: ["culinary","cruise-experience"]
   },
   {
-    basePrice: 8861,
+    basePrice: 2007,
     departureLocation: {
   "city": "Milan",
   "country": "Italy",
@@ -1607,15 +1037,16 @@ export const milanCruises: Cruise[] = [
   }
 },
     arrivalLocation: {
-  "city": "Rome",
+  "city": "Milan",
   "country": "Italy",
+  "region": "Mediterranean",
   "coordinates": {
-    "latitude": 41.9028,
-    "longitude": 12.4964
+    "latitude": 45.4642,
+    "longitude": 9.19
   }
 },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
+    hasPopularDestination: true,
     category: "premium",
     itinerary: {
       route: [
@@ -1629,263 +1060,6 @@ export const milanCruises: Cruise[] = [
     }
   },
   {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  }
-],
-      description: "Sail away from Milan into the beautiful expanse of Mediterranean. Along the way, enjoy rich cultural experiences in Athens, Santorini, Rome, where history, nature, and cuisine collide.",
-      distance: "676 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Milan to Athens"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from Athens to Santorini"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from Santorini to Rome"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Rome"
-  }
-]
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        name: "Betty Sutton",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/women/18.jpg",
-        contact: {
-          contactEmail: "majestic.expedition.@velarivoyages.com",
-          contactNumber: "+1-612-428-4778"
-        }
-      }
-    ],
-    title: "Majestic Expedition of the Fashion Capital",
-    description: "Sail away from Milan into the beautiful expanse of Mediterranean. Along the way, enjoy rich cultural experiences in Athens, Santorini, Rome, where history, nature, and cuisine collide.",
-    rating: 4.6,
-    tags: ["themed-cruise","family-friendly","short-getaway"]
-  },
-  {
-    basePrice: 5543,
-    departureLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    arrivalLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "entry-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  }
-],
-      description: "Enjoy seamless luxury on this mythic reverie beginning in Milan. Visit breathtaking Mediterranean locales such as Malta, Santorini on this unforgettable itinerary.",
-      distance: "1237 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Milan to Malta"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Malta to Santorini"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Santorini to Milan"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Milan"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Nancy Price",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 12,
-        profileImage: "https://randomuser.me/api/portraits/women/97.jpg",
-        contact: {
-          contactEmail: "secret.sanctuary.of.@velarivoyages.com",
-          contactNumber: "+1-655-751-9006"
-        }
-      }
-    ],
-    title: "Secret Sanctuary of the Lombard Jewel",
-    description: "Enjoy seamless luxury on this mythic reverie beginning in Milan. Visit breathtaking Mediterranean locales such as Malta, Santorini on this unforgettable itinerary.",
-    rating: 4.6,
-    tags: ["romantic"]
-  },
-  {
-    basePrice: 4055,
-    departureLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    arrivalLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "mainstream",
-    itinerary: {
-      route: [
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
     "city": "Barcelona",
     "country": "Spain",
     "coordinates": {
@@ -1894,15 +1068,7 @@ export const milanCruises: Cruise[] = [
     }
   },
   {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Santorini",
+    "city": "Athens",
     "country": "",
     "coordinates": {
       "latitude": 0,
@@ -1919,13 +1085,13 @@ export const milanCruises: Cruise[] = [
     }
   }
 ],
-      description: "Embark from Milan and traverse the Mediterranean in style. Whether it’s the energy of Barcelona or the calm of Mykonos, each destination reveals a new side of paradise.",
-      distance: "1486 nautical miles",
-      totalDuration: "13 days",
+      description: "This handpicked lullaby begins in Milan and travels through Mediterranean's iconic waterscapes. Discover Barcelona, Athens as each day brings new stories and every night offers elegant repose.",
+      distance: "1262 nautical miles",
+      totalDuration: "8 days",
       timeAtSea: [
   {
-    "start": "Day 2",
-    "end": "Day 2",
+    "start": "Day 3",
+    "end": "Day 3",
     "duration": "1 days",
     "description": "Sailing from Milan to Barcelona"
   },
@@ -1933,198 +1099,37 @@ export const milanCruises: Cruise[] = [
     "start": "Day 5",
     "end": "Day 5",
     "duration": "1 days",
-    "description": "Sailing from Barcelona to Mykonos"
+    "description": "Sailing from Barcelona to Athens"
   },
   {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Mykonos to Santorini"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Milan"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 6",
+    "start": "Day 7",
     "end": "Day 7",
-    "duration": "2 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring Milan"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Donna Maxwell",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
-        contact: {
-          contactEmail: "midnight.tide.of.the@velarivoyages.com",
-          contactNumber: "+1-590-827-1473"
-        }
-      }
-    ],
-    title: "Midnight Tide of the Fashion Capital",
-    description: "Embark from Milan and traverse the Mediterranean in style. Whether it’s the energy of Barcelona or the calm of Mykonos, each destination reveals a new side of paradise.",
-    rating: 4.9,
-    tags: ["romantic","luxury"]
-  },
-  {
-    basePrice: 8336,
-    departureLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    arrivalLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  }
-],
-      description: "Depart from Milan on this thoughtfully designed journey across the Mediterranean. Savor coastal charm, cultural treasures, and ocean views with stops at Santorini, Mykonos, Athens.",
-      distance: "904 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
     "duration": "1 days",
-    "description": "Sailing from Milan to Santorini"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Mykonos"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Mykonos to Athens"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
     "description": "Sailing from Athens to Milan"
   }
 ],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
+    "end": "Day 2",
+    "duration": "2 days",
     "description": "Exploring Milan"
   },
   {
-    "start": "Day 3",
+    "start": "Day 4",
     "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring Santorini"
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
   },
   {
     "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
+    "end": "Day 6",
     "duration": "1 days",
     "description": "Exploring Athens"
   },
   {
-    "start": "Day 12",
-    "end": "Day 12",
+    "start": "Day 8",
+    "end": "Day 8",
     "duration": "1 days",
     "description": "Exploring Milan"
   }
@@ -2133,173 +1138,24 @@ export const milanCruises: Cruise[] = [
     tourCategoryId: "fall-foliage-cruise",
     contactPersonnel: [
       {
-        name: "Janet Mitchell",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 13,
-        profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
+        name: "Elizabeth Mason",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Lao","Vietnamese","Japanese"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/96.jpg",
         contact: {
-          contactEmail: "spectacular.requiem.@velarivoyages.com",
-          contactNumber: "+1-123-440-1566"
+          contactEmail: "infinite.reverie.of.@velarivoyages.com",
+          contactNumber: "+1-287-882-3339"
         }
       }
     ],
-    title: "Spectacular Requiem of the Fashion Capital",
-    description: "Depart from Milan on this thoughtfully designed journey across the Mediterranean. Savor coastal charm, cultural treasures, and ocean views with stops at Santorini, Mykonos, Athens.",
-    rating: 4.8,
-    tags: ["long-distance"]
+    title: "Infinite Reverie of the Marble Cities",
+    description: "This handpicked lullaby begins in Milan and travels through Mediterranean's iconic waterscapes. Discover Barcelona, Athens as each day brings new stories and every night offers elegant repose.",
+    rating: 4.6,
+    tags: ["cruise-journey","wellness","fall-cruise"]
   },
   {
-    basePrice: 8392,
-    departureLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    arrivalLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "expedition",
-    itinerary: {
-      route: [
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  }
-],
-      description: "Embark on an unforgettable horizon from the vibrant port of Milan, where you'll discover hidden gems and iconic landmarks across the Mediterranean region. With stops at Rome, Malta, Santorini, this journey combines cultural immersion with breathtaking scenery.",
-      distance: "881 nautical miles",
-      totalDuration: "15 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Milan to Rome"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Rome to Malta"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Sailing from Malta to Santorini"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
-    "duration": "2 days",
-    "description": "Sailing from Santorini to Milan"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 15",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Amina Nash",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 13,
-        profileImage: "https://randomuser.me/api/portraits/women/74.jpg",
-        contact: {
-          contactEmail: "exquisite.excursion.@velarivoyages.com",
-          contactNumber: "+1-745-993-3802"
-        }
-      }
-    ],
-    title: "Exquisite Excursion of the Marble Cities",
-    description: "Embark on an unforgettable horizon from the vibrant port of Milan, where you'll discover hidden gems and iconic landmarks across the Mediterranean region. With stops at Rome, Malta, Santorini, this journey combines cultural immersion with breathtaking scenery.",
-    rating: 4.1,
-    tags: ["VIP"]
-  },
-  {
-    basePrice: 5309,
+    basePrice: 7001,
     departureLocation: {
   "city": "Milan",
   "country": "Italy",
@@ -2320,7 +1176,7 @@ export const milanCruises: Cruise[] = [
 },
     isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "premium",
+    category: "ultra-luxury",
     itinerary: {
       route: [
   {
@@ -2330,14 +1186,6 @@ export const milanCruises: Cruise[] = [
     "coordinates": {
       "latitude": 45.4642,
       "longitude": 9.19
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
     }
   },
   {
@@ -2357,14 +1205,6 @@ export const milanCruises: Cruise[] = [
     }
   },
   {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
     "city": "Milan",
     "country": "Italy",
     "region": "Mediterranean",
@@ -2374,164 +1214,27 @@ export const milanCruises: Cruise[] = [
     }
   }
 ],
-      description: "Board in Milan for a hand-crafted retreat through the breathtaking Mediterranean. Highlights include sun-drenched beaches, historic ports, and immersive culture in Malta, Rome, Mykonos, Barcelona.",
-      distance: "1378 nautical miles",
-      totalDuration: "15 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Milan to Malta"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Malta to Rome"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Rome to Mykonos"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Sailing from Mykonos to Barcelona"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 14",
-    "duration": "1 days",
-    "description": "Sailing from Barcelona to Milan"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 15",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Chloe Jennings",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/8.jpg",
-        contact: {
-          contactEmail: "midnight.odyssey.of.@velarivoyages.com",
-          contactNumber: "+1-388-179-9450"
-        }
-      }
-    ],
-    title: "Midnight Odyssey of the Fashion Capital",
-    description: "Board in Milan for a hand-crafted retreat through the breathtaking Mediterranean. Highlights include sun-drenched beaches, historic ports, and immersive culture in Malta, Rome, Mykonos, Barcelona.",
-    rating: 4.6,
-    tags: ["fall-cruise","family-friendly","romantic"]
-  },
-  {
-    basePrice: 9267,
-    departureLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    arrivalLocation: {
-  "city": "Mykonos",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Leave ordinary behind as you sail from Milan across the captivating Mediterranean. Discover the distinctive personality of each destination, from Dubrovnik, Mykonos.",
-      distance: "742 nautical miles",
-      totalDuration: "8 days",
+      description: "Enjoy seamless luxury on this secret tide beginning in Milan. Visit breathtaking Mediterranean locales such as Rome, Mykonos on this unforgettable itinerary.",
+      distance: "787 nautical miles",
+      totalDuration: "11 days",
       timeAtSea: [
   {
     "start": "Day 3",
     "end": "Day 4",
     "duration": "2 days",
-    "description": "Sailing from Milan to Dubrovnik"
+    "description": "Sailing from Milan to Rome"
   },
   {
     "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Dubrovnik to Mykonos"
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Mykonos"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Milan"
   }
 ],
       timeOnLand: [
@@ -2545,37 +1248,43 @@ export const milanCruises: Cruise[] = [
     "start": "Day 5",
     "end": "Day 5",
     "duration": "1 days",
-    "description": "Exploring Dubrovnik"
+    "description": "Exploring Rome"
   },
   {
-    "start": "Day 7",
+    "start": "Day 8",
     "end": "Day 8",
-    "duration": "2 days",
+    "duration": "1 days",
     "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Milan"
   }
 ]
     },
-    tourCategoryId: "glacier-cruise",
+    tourCategoryId: "fall-foliage-cruise",
     contactPersonnel: [
       {
-        name: "Stella Grant",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/women/74.jpg",
+        name: "Amelia Chambers",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Lao","Vietnamese","Japanese"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/64.jpg",
         contact: {
-          contactEmail: "captivating.labyrint@velarivoyages.com",
-          contactNumber: "+1-940-759-2957"
+          contactEmail: "majestic.currents.of@velarivoyages.com",
+          contactNumber: "+1-943-609-6515"
         }
       }
     ],
-    title: "Captivating Labyrinth of the Ancient Shores",
-    description: "Leave ordinary behind as you sail from Milan across the captivating Mediterranean. Discover the distinctive personality of each destination, from Dubrovnik, Mykonos.",
+    title: "Majestic Currents of the Marble-Runway Realm",
+    description: "Enjoy seamless luxury on this secret tide beginning in Milan. Visit breathtaking Mediterranean locales such as Rome, Mykonos on this unforgettable itinerary.",
     rating: 4.0,
-    tags: ["themed-cruise","family-friendly","relaxation"]
+    tags: ["nature"]
   },
   {
-    basePrice: 2346,
+    basePrice: 9640,
     departureLocation: {
   "city": "Milan",
   "country": "Italy",
@@ -2617,14 +1326,6 @@ export const milanCruises: Cruise[] = [
     }
   },
   {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
     "city": "Athens",
     "country": "",
     "coordinates": {
@@ -2642,9 +1343,9 @@ export const milanCruises: Cruise[] = [
     }
   }
 ],
-      description: "Your sojourn begins in Milan, where the spirit of exploration meets modern luxury. From the sun-drenched shores of Rome to the historic streets of Barcelona, each stop in the Mediterranean will leave a lasting impression.",
-      distance: "1379 nautical miles",
-      totalDuration: "13 days",
+      description: "Escape into the calm waters of Mediterranean with this floating journey from Milan. Explore vibrant markets, sun-soaked beaches, and architectural marvels at Rome, Athens.",
+      distance: "806 nautical miles",
+      totalDuration: "10 days",
       timeAtSea: [
   {
     "start": "Day 2",
@@ -2653,21 +1354,15 @@ export const milanCruises: Cruise[] = [
     "description": "Sailing from Milan to Rome"
   },
   {
-    "start": "Day 5",
-    "end": "Day 6",
+    "start": "Day 4",
+    "end": "Day 5",
     "duration": "2 days",
-    "description": "Sailing from Rome to Barcelona"
+    "description": "Sailing from Rome to Athens"
   },
   {
-    "start": "Day 9",
-    "end": "Day 10",
+    "start": "Day 8",
+    "end": "Day 9",
     "duration": "2 days",
-    "description": "Sailing from Barcelona to Athens"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
     "description": "Sailing from Athens to Milan"
   }
 ],
@@ -2680,51 +1375,341 @@ export const milanCruises: Cruise[] = [
   },
   {
     "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
+    "end": "Day 3",
+    "duration": "1 days",
     "description": "Exploring Rome"
   },
   {
-    "start": "Day 7",
-    "end": "Day 8",
+    "start": "Day 6",
+    "end": "Day 7",
     "duration": "2 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
     "description": "Exploring Athens"
   },
   {
-    "start": "Day 13",
-    "end": "Day 13",
+    "start": "Day 10",
+    "end": "Day 10",
     "duration": "1 days",
     "description": "Exploring Milan"
   }
 ]
     },
-    tourCategoryId: "fall-foliage-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Jane Marshall",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
+        name: "Nora Collins",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Lao","Vietnamese","Japanese"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/women/82.jpg",
         contact: {
-          contactEmail: "exquisite.voyage.of.@velarivoyages.com",
-          contactNumber: "+1-104-782-4492"
+          contactEmail: "ornate.resonance.of.@velarivoyages.com",
+          contactNumber: "+1-520-665-4950"
         }
       }
     ],
-    title: "Exquisite Voyage of the Lombard Jewel",
-    description: "Your sojourn begins in Milan, where the spirit of exploration meets modern luxury. From the sun-drenched shores of Rome to the historic streets of Barcelona, each stop in the Mediterranean will leave a lasting impression.",
-    rating: 4.6,
-    tags: ["VIP"]
+    title: "Ornate Resonance of the Fashion Capital",
+    description: "Escape into the calm waters of Mediterranean with this floating journey from Milan. Explore vibrant markets, sun-soaked beaches, and architectural marvels at Rome, Athens.",
+    rating: 4.4,
+    tags: ["exclusive","cruise-journey"]
   },
   {
-    basePrice: 5690,
+    basePrice: 4945,
+    departureLocation: {
+  "city": "Milan",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 45.4642,
+    "longitude": 9.19
+  }
+},
+    arrivalLocation: {
+  "city": "Milan",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 45.4642,
+    "longitude": 9.19
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Milan",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 45.4642,
+      "longitude": 9.19
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Milan",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 45.4642,
+      "longitude": 9.19
+    }
+  }
+],
+      description: "This midnight enigma begins in Milan and ventures deep into the heart of Mediterranean. Wander through colorful markets, historic streets, and serene coastlines at Malta, Barcelona, Santorini, Mykonos.",
+      distance: "830 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Milan to Malta"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Malta to Barcelona"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Santorini"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Santorini to Mykonos"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Milan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Milan"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 16",
+    "duration": "1 days",
+    "description": "Exploring Milan"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Adeline Hudson",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Lao","Vietnamese","Japanese"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/42.jpg",
+        contact: {
+          contactEmail: "idyllic.adventure.of@velarivoyages.com",
+          contactNumber: "+1-988-180-9826"
+        }
+      }
+    ],
+    title: "Idyllic Adventure of the Lombard Jewel",
+    description: "This midnight enigma begins in Milan and ventures deep into the heart of Mediterranean. Wander through colorful markets, historic streets, and serene coastlines at Malta, Barcelona, Santorini, Mykonos.",
+    rating: 4.8,
+    tags: ["cruise","cruise-line","cruise-ship"]
+  },
+  {
+    basePrice: 4762,
+    departureLocation: {
+  "city": "Milan",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 45.4642,
+    "longitude": 9.19
+  }
+},
+    arrivalLocation: {
+  "city": "Dubrovnik",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Milan",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 45.4642,
+      "longitude": 9.19
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Escape the everyday with this immersive journey through Mediterranean, departing from Milan. You'll visit Santorini, Athens, Dubrovnik, where every stop is a new adventure.",
+      distance: "1236 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Milan to Santorini"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Santorini to Athens"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Athens to Dubrovnik"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Milan"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Dubrovnik"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Rachel Wells",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Lao","Vietnamese","Japanese"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/34.jpg",
+        contact: {
+          contactEmail: "sublime.quest.of.the@velarivoyages.com",
+          contactNumber: "+1-582-709-2008"
+        }
+      }
+    ],
+    title: "Sublime Quest of the Lombard Jewel",
+    description: "Escape the everyday with this immersive journey through Mediterranean, departing from Milan. You'll visit Santorini, Athens, Dubrovnik, where every stop is a new adventure.",
+    rating: 4.3,
+    tags: ["seasonal","historical"]
+  },
+  {
+    basePrice: 9696,
     departureLocation: {
   "city": "Milan",
   "country": "Italy",
@@ -2744,7 +1729,7 @@ export const milanCruises: Cruise[] = [
 },
     isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "luxury",
+    category: "expedition",
     itinerary: {
       route: [
   {
@@ -2757,23 +1742,7 @@ export const milanCruises: Cruise[] = [
     }
   },
   {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
     "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Mykonos",
     "country": "",
     "coordinates": {
       "latitude": 0,
@@ -2789,387 +1758,65 @@ export const milanCruises: Cruise[] = [
     }
   }
 ],
-      description: "Launch into adventure from Milan and sail deep into the heart of the Mediterranean. With ports of call like Santorini, Athens, Mykonos, Dubrovnik, expect a voyage filled with scenic wonders and luxurious comforts.",
-      distance: "1304 nautical miles",
-      totalDuration: "14 days",
+      description: "Escape to sea from Milan on a azure voyage exploring the magic of Mediterranean. Visit unforgettable locales like Athens, Dubrovnik, where each stop inspires awe.",
+      distance: "1034 nautical miles",
+      totalDuration: "7 days",
       timeAtSea: [
   {
-    "start": "Day 3",
-    "end": "Day 3",
+    "start": "Day 2",
+    "end": "Day 2",
     "duration": "1 days",
-    "description": "Sailing from Milan to Santorini"
+    "description": "Sailing from Milan to Athens"
   },
   {
-    "start": "Day 6",
-    "end": "Day 6",
+    "start": "Day 5",
+    "end": "Day 5",
     "duration": "1 days",
-    "description": "Sailing from Santorini to Athens"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Athens to Mykonos"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Sailing from Mykonos to Dubrovnik"
+    "description": "Sailing from Athens to Dubrovnik"
   }
 ],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
+    "end": "Day 1",
+    "duration": "1 days",
     "description": "Exploring Milan"
   },
   {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
+    "start": "Day 3",
+    "end": "Day 4",
     "duration": "2 days",
     "description": "Exploring Athens"
   },
   {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
+    "start": "Day 6",
+    "end": "Day 7",
     "duration": "2 days",
     "description": "Exploring Dubrovnik"
   }
 ]
     },
-    tourCategoryId: "fall-foliage-cruise",
+    tourCategoryId: "anniversary-cruise",
     contactPersonnel: [
       {
-        name: "Kennedy Hayes",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
+        name: "Nicole Foster",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Lao","Vietnamese","Japanese"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/38.jpg",
         contact: {
-          contactEmail: "whispering.expeditio@velarivoyages.com",
-          contactNumber: "+1-269-406-7952"
+          contactEmail: "refined.frontier.of.@velarivoyages.com",
+          contactNumber: "+1-842-144-7000"
         }
       }
     ],
-    title: "Whispering Expedition of the Lombard Jewel",
-    description: "Launch into adventure from Milan and sail deep into the heart of the Mediterranean. With ports of call like Santorini, Athens, Mykonos, Dubrovnik, expect a voyage filled with scenic wonders and luxurious comforts.",
-    rating: 4.1,
-    tags: ["sightseeing","family-friendly"]
-  },
-  {
-    basePrice: 9351,
-    departureLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    arrivalLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "premium-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  }
-],
-      description: "This inspiring mystique departs from Milan, navigating the diverse landscapes and vibrant cities of Mediterranean. Must-see stops include Santorini, Rome.",
-      distance: "567 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Milan to Santorini"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Rome"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Rome to Milan"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Genesis Ellis",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/women/89.jpg",
-        contact: {
-          contactEmail: "unforgettable.sojour@velarivoyages.com",
-          contactNumber: "+1-846-930-5616"
-        }
-      }
-    ],
-    title: "Unforgettable Sojourn of the Lombard Jewel",
-    description: "This inspiring mystique departs from Milan, navigating the diverse landscapes and vibrant cities of Mediterranean. Must-see stops include Santorini, Rome.",
+    title: "Refined Frontier of the Crystalline Bays",
+    description: "Escape to sea from Milan on a azure voyage exploring the magic of Mediterranean. Visit unforgettable locales like Athens, Dubrovnik, where each stop inspires awe.",
     rating: 4.9,
-    tags: ["family-friendly","exclusive","fall-cruise"]
+    tags: ["holiday-cruise","anniversary-cruise"]
   },
   {
-    basePrice: 6519,
-    departureLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    arrivalLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "entry-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  }
-],
-      description: "Savor each moment of this secret escape through Mediterranean, starting in Milan. Visit renowned locations like Rome, Mykonos, Malta, Athens, where adventure and relaxation intertwine.",
-      distance: "1009 nautical miles",
-      totalDuration: "16 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Milan to Rome"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Rome to Mykonos"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Mykonos to Malta"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Sailing from Malta to Athens"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 15",
-    "duration": "1 days",
-    "description": "Sailing from Athens to Milan"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 14",
-    "duration": "1 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 16",
-    "end": "Day 16",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Ashley Graves",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
-        contact: {
-          contactEmail: "breathtaking.saga.of@velarivoyages.com",
-          contactNumber: "+1-950-928-1249"
-        }
-      }
-    ],
-    title: "Breathtaking Saga of the Lombard Jewel",
-    description: "Savor each moment of this secret escape through Mediterranean, starting in Milan. Visit renowned locations like Rome, Mykonos, Malta, Athens, where adventure and relaxation intertwine.",
-    rating: 4.4,
-    tags: ["romantic","adventure"]
-  },
-  {
-    basePrice: 7406,
+    basePrice: 2390,
     departureLocation: {
   "city": "Milan",
   "country": "Italy",
@@ -3187,563 +1834,9 @@ export const milanCruises: Cruise[] = [
     "longitude": 0
   }
 },
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "premium-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Let the winds of the Mediterranean carry you from Milan to the most stunning ports in the region. With destinations like Mykonos, Santorini, this labyrinth redefines luxury travel.",
-      distance: "1162 nautical miles",
-      totalDuration: "6 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Milan to Mykonos"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from Mykonos to Santorini"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring Santorini"
-  }
-]
-    },
-    tourCategoryId: "tropical-cruise",
-    contactPersonnel: [
-      {
-        name: "Jessica Spencer",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/94.jpg",
-        contact: {
-          contactEmail: "mesmerizing.escape.o@velarivoyages.com",
-          contactNumber: "+1-609-912-2933"
-        }
-      }
-    ],
-    title: "Mesmerizing Escape of the Fashion Capital",
-    description: "Let the winds of the Mediterranean carry you from Milan to the most stunning ports in the region. With destinations like Mykonos, Santorini, this labyrinth redefines luxury travel.",
-    rating: 4.7,
-    tags: ["luxury","seasonal"]
-  },
-  {
-    basePrice: 3978,
-    departureLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    arrivalLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "entry-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  }
-],
-      description: "An escape like no other begins in Milan, where your odyssey launches into the heart of Mediterranean. Discover the magic of Athens, Mykonos with style and sophistication.",
-      distance: "1128 nautical miles",
-      totalDuration: "9 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Milan to Athens"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Athens to Mykonos"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Mykonos to Milan"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  }
-]
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        name: "Maria Graves",
-        role: "Hospitality Director",
-        languages: ["Filipino","Lao","Thai"],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/women/53.jpg",
-        contact: {
-          contactEmail: "breathtaking.escape.@velarivoyages.com",
-          contactNumber: "+1-145-900-2686"
-        }
-      }
-    ],
-    title: "Breathtaking Escape of the Fashion Capital",
-    description: "An escape like no other begins in Milan, where your odyssey launches into the heart of Mediterranean. Discover the magic of Athens, Mykonos with style and sophistication.",
-    rating: 4.2,
-    tags: ["seasonal","long-distance"]
-  },
-  {
-    basePrice: 9942,
-    departureLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    arrivalLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "expedition",
-    itinerary: {
-      route: [
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  }
-],
-      description: "Experience coastal elegance on this renaissance from Milan, where the journey through Mediterranean includes stops in Dubrovnik, Santorini, Rome, Athens, each more enchanting than the last.",
-      distance: "884 nautical miles",
-      totalDuration: "15 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Milan to Dubrovnik"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Sailing from Dubrovnik to Santorini"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Rome"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Rome to Athens"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
-    "duration": "2 days",
-    "description": "Sailing from Athens to Milan"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 15",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Bruce Hall",
-        role: "Accommodation Manager",
-        languages: ["Mandarin","Czech","Hindi"],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/men/41.jpg",
-        contact: {
-          contactEmail: "infinite.expedition.@velarivoyages.com",
-          contactNumber: "+1-429-830-4336"
-        }
-      }
-    ],
-    title: "Infinite Expedition of the Marble Cities",
-    description: "Experience coastal elegance on this renaissance from Milan, where the journey through Mediterranean includes stops in Dubrovnik, Santorini, Rome, Athens, each more enchanting than the last.",
-    rating: 4.8,
-    tags: ["luxury"]
-  },
-  {
-    basePrice: 7213,
-    departureLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    arrivalLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "expedition",
-    itinerary: {
-      route: [
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  }
-],
-      description: "Board in Milan for a hand-crafted sanctuary through the breathtaking Mediterranean. Highlights include sun-drenched beaches, historic ports, and immersive culture in Barcelona, Dubrovnik, Malta.",
-      distance: "1462 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Milan to Barcelona"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from Barcelona to Dubrovnik"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Sailing from Dubrovnik to Malta"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Malta to Milan"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Milan"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Larry Payne",
-        role: "Accommodation Manager",
-        languages: ["Mandarin","Czech","Hindi"],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
-        contact: {
-          contactEmail: "mythic.mirage.of.the@velarivoyages.com",
-          contactNumber: "+1-408-515-8039"
-        }
-      }
-    ],
-    title: "Mythic Mirage of the Fashion Capital",
-    description: "Board in Milan for a hand-crafted sanctuary through the breathtaking Mediterranean. Highlights include sun-drenched beaches, historic ports, and immersive culture in Barcelona, Dubrovnik, Malta.",
-    rating: 4.7,
-    tags: ["tropical"]
-  },
-  {
-    basePrice: 2767,
-    departureLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    arrivalLocation: {
-  "city": "Malta",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "premium-luxury",
+    category: "premium",
     itinerary: {
       route: [
   {
@@ -3772,7 +1865,7 @@ export const milanCruises: Cruise[] = [
     }
   },
   {
-    "city": "Malta",
+    "city": "Santorini",
     "country": "",
     "coordinates": {
       "latitude": 0,
@@ -3780,297 +1873,27 @@ export const milanCruises: Cruise[] = [
     }
   }
 ],
-      description: "Leave ordinary behind as you sail from Milan across the captivating Mediterranean. Discover the distinctive personality of each destination, from Barcelona, Athens, Malta.",
-      distance: "910 nautical miles",
-      totalDuration: "10 days",
+      description: "From bustling Milan to serene Mediterranean shores, this cruise invites you to relax, explore, and indulge. Stops at Barcelona, Athens, Santorini deliver a balanced blend of culture and comfort.",
+      distance: "534 nautical miles",
+      totalDuration: "11 days",
       timeAtSea: [
   {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
     "description": "Sailing from Milan to Barcelona"
   },
   {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
     "description": "Sailing from Barcelona to Athens"
   },
   {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Athens to Malta"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  }
-]
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        name: "Andrew Ellis",
-        role: "Accommodation Manager",
-        languages: ["Mandarin","Czech","Hindi"],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/men/93.jpg",
-        contact: {
-          contactEmail: "extraordinary.escape@velarivoyages.com",
-          contactNumber: "+1-112-602-3856"
-        }
-      }
-    ],
-    title: "Extraordinary Escape of the Fashion Capital",
-    description: "Leave ordinary behind as you sail from Milan across the captivating Mediterranean. Discover the distinctive personality of each destination, from Barcelona, Athens, Malta.",
-    rating: 4.4,
-    tags: ["luxury","long-distance"]
-  },
-  {
-    basePrice: 5412,
-    departureLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    arrivalLocation: {
-  "city": "Mykonos",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "mainstream",
-    itinerary: {
-      route: [
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "This velvet cruise from Milan is your ticket to the captivating charm of the Mediterranean. Discover the delights of Santorini, Barcelona, Mykonos with enriching excursions and award-winning service.",
-      distance: "859 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Milan to Santorini"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Santorini to Barcelona"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Sailing from Barcelona to Mykonos"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Exploring Mykonos"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Kyle Cooper",
-        role: "Accommodation Manager",
-        languages: ["Mandarin","Czech","Hindi"],
-        experienceYears: 13,
-        profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
-        contact: {
-          contactEmail: "crystalline.retreat.@velarivoyages.com",
-          contactNumber: "+1-354-883-7313"
-        }
-      }
-    ],
-    title: "Crystalline Retreat of the Fashion Capital",
-    description: "This velvet cruise from Milan is your ticket to the captivating charm of the Mediterranean. Discover the delights of Santorini, Barcelona, Mykonos with enriching excursions and award-winning service.",
-    rating: 4.7,
-    tags: ["tropical","exclusive","long-distance"]
-  },
-  {
-    basePrice: 3009,
-    departureLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    arrivalLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "mainstream",
-    itinerary: {
-      route: [
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  }
-],
-      description: "Explore a new side of Mediterranean with this secret journey starting in Milan. Visit charming ports such as Mykonos, Rome, Santorini, each offering its own unique rhythm.",
-      distance: "526 nautical miles",
-      totalDuration: "15 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Milan to Mykonos"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Mykonos to Rome"
-  },
-  {
     "start": "Day 10",
     "end": "Day 10",
     "duration": "1 days",
-    "description": "Sailing from Rome to Santorini"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Milan"
+    "description": "Sailing from Athens to Santorini"
   }
 ],
       timeOnLand: [
@@ -4082,790 +1905,41 @@ export const milanCruises: Cruise[] = [
   },
   {
     "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Mykonos"
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
   },
   {
     "start": "Day 8",
     "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
-    "description": "Exploring Milan"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Kyle Hudson",
-        role: "Accommodation Manager",
-        languages: ["Mandarin","Czech","Hindi"],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/men/24.jpg",
-        contact: {
-          contactEmail: "crystalline.requiem.@velarivoyages.com",
-          contactNumber: "+1-323-230-7100"
-        }
-      }
-    ],
-    title: "Crystalline Requiem of the Sun-Drenched Riviera",
-    description: "Explore a new side of Mediterranean with this secret journey starting in Milan. Visit charming ports such as Mykonos, Rome, Santorini, each offering its own unique rhythm.",
-    rating: 4.8,
-    tags: ["romantic","themed-cruise"]
-  },
-  {
-    basePrice: 2714,
-    departureLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    arrivalLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "entry-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  }
-],
-      description: "Set off on a expedition from Milan that captures the essence of Mediterranean. Discover cultural gems and culinary delights across Athens, Malta.",
-      distance: "1364 nautical miles",
-      totalDuration: "9 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Milan to Athens"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Athens to Malta"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Malta to Milan"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
     "duration": "2 days",
     "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  }
-]
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        name: "Ella Stewart",
-        role: "Youth Program Director",
-        languages: ["Japanese","Hungarian","Korean"],
-        experienceYears: 13,
-        profileImage: "https://randomuser.me/api/portraits/women/81.jpg",
-        contact: {
-          contactEmail: "breathtaking.quest.o@velarivoyages.com",
-          contactNumber: "+1-494-863-8793"
-        }
-      }
-    ],
-    title: "Breathtaking Quest of the Timeless Coastlines",
-    description: "Set off on a expedition from Milan that captures the essence of Mediterranean. Discover cultural gems and culinary delights across Athens, Malta.",
-    rating: 4.4,
-    tags: ["adventure","fall-cruise"]
-  },
-  {
-    basePrice: 4275,
-    departureLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    arrivalLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium",
-    itinerary: {
-      route: [
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  }
-],
-      description: "Sail away from Milan into the beautiful expanse of Mediterranean. Along the way, enjoy rich cultural experiences in Malta, Dubrovnik, Rome, Mykonos, where history, nature, and cuisine collide.",
-      distance: "1304 nautical miles",
-      totalDuration: "18 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Milan to Malta"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Malta to Dubrovnik"
   },
   {
     "start": "Day 11",
     "end": "Day 11",
     "duration": "1 days",
-    "description": "Sailing from Dubrovnik to Rome"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 14",
-    "duration": "1 days",
-    "description": "Sailing from Rome to Mykonos"
-  },
-  {
-    "start": "Day 16",
-    "end": "Day 16",
-    "duration": "1 days",
-    "description": "Sailing from Mykonos to Milan"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 15",
-    "duration": "1 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 17",
-    "end": "Day 18",
-    "duration": "2 days",
-    "description": "Exploring Milan"
+    "description": "Exploring Santorini"
   }
 ]
     },
-    tourCategoryId: "repositioning-cruise",
+    tourCategoryId: "luxury-cruise",
     contactPersonnel: [
       {
-        name: "Evelyn Reed",
-        role: "Youth Program Director",
-        languages: ["Japanese","Hungarian","Korean"],
+        name: "Harper Wallace",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Lao","Vietnamese","Japanese"],
         experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/women/59.jpg",
+        profileImage: "https://randomuser.me/api/portraits/women/0.jpg",
         contact: {
-          contactEmail: "enchanting.requiem.o@velarivoyages.com",
-          contactNumber: "+1-910-930-1443"
+          contactEmail: "eternal.currents.of.@velarivoyages.com",
+          contactNumber: "+1-549-508-5321"
         }
       }
     ],
-    title: "Enchanting Requiem of the Lombard Jewel",
-    description: "Sail away from Milan into the beautiful expanse of Mediterranean. Along the way, enjoy rich cultural experiences in Malta, Dubrovnik, Rome, Mykonos, where history, nature, and cuisine collide.",
-    rating: 4.5,
-    tags: ["tropical"]
-  },
-  {
-    basePrice: 4422,
-    departureLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    arrivalLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "premium-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  }
-],
-      description: "This hand-selected enchanting cruise offers a true taste of Mediterranean. Depart from Milan and explore ports like Barcelona, Mykonos, each telling a story through food, music, and tradition.",
-      distance: "1331 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Milan to Barcelona"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Sailing from Barcelona to Mykonos"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from Mykonos to Milan"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  }
-]
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        name: "Kimberly Hall",
-        role: "Youth Program Director",
-        languages: ["Japanese","Hungarian","Korean"],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/women/31.jpg",
-        contact: {
-          contactEmail: "infinite.odyssey.of.@velarivoyages.com",
-          contactNumber: "+1-867-436-8153"
-        }
-      }
-    ],
-    title: "Infinite Odyssey of the Lombard Jewel",
-    description: "This hand-selected enchanting cruise offers a true taste of Mediterranean. Depart from Milan and explore ports like Barcelona, Mykonos, each telling a story through food, music, and tradition.",
-    rating: 4.3,
-    tags: ["luxury","exclusive"]
-  },
-  {
-    basePrice: 1697,
-    departureLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    arrivalLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "entry-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  }
-],
-      description: "Embark from Milan and traverse the Mediterranean in style. Whether it’s the energy of Barcelona or the calm of Rome, each destination reveals a new side of paradise.",
-      distance: "641 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Milan to Barcelona"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from Barcelona to Rome"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Rome to Santorini"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Dubrovnik"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Sailing from Dubrovnik to Milan"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Eleanor Wallace",
-        role: "Youth Program Director",
-        languages: ["Japanese","Hungarian","Korean"],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/women/31.jpg",
-        contact: {
-          contactEmail: "unforgettable.passag@velarivoyages.com",
-          contactNumber: "+1-591-480-9842"
-        }
-      }
-    ],
-    title: "Unforgettable Passage of the Timeless Coastlines",
-    description: "Embark from Milan and traverse the Mediterranean in style. Whether it’s the energy of Barcelona or the calm of Rome, each destination reveals a new side of paradise.",
-    rating: 4.7,
-    tags: ["fall-cruise","relaxation"]
-  },
-  {
-    basePrice: 7107,
-    departureLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "region": "Mediterranean",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
-    arrivalLocation: {
-  "city": "Malta",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium",
-    itinerary: {
-      route: [
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "region": "Mediterranean",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "This mesmerizing sanctuary begins in Milan and ventures deep into the heart of Mediterranean. Wander through colorful markets, historic streets, and serene coastlines at Athens, Dubrovnik, Rome, Malta.",
-      distance: "965 nautical miles",
-      totalDuration: "15 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Milan to Athens"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Athens to Dubrovnik"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Dubrovnik to Rome"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Sailing from Rome to Malta"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Allison Porter",
-        role: "Youth Program Director",
-        languages: ["Japanese","Hungarian","Korean"],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/women/96.jpg",
-        contact: {
-          contactEmail: "epic.retreat.of.the.@velarivoyages.com",
-          contactNumber: "+1-657-774-6777"
-        }
-      }
-    ],
-    title: "Epic Retreat of the Timeless Coastlines",
-    description: "This mesmerizing sanctuary begins in Milan and ventures deep into the heart of Mediterranean. Wander through colorful markets, historic streets, and serene coastlines at Athens, Dubrovnik, Rome, Malta.",
-    rating: 4.3,
-    tags: ["sightseeing"]
+    title: "Eternal Currents of the Ancient Shores",
+    description: "From bustling Milan to serene Mediterranean shores, this cruise invites you to relax, explore, and indulge. Stops at Barcelona, Athens, Santorini deliver a balanced blend of culture and comfort.",
+    rating: 4.2,
+    tags: ["relaxation","cruise-vacation","luxury"]
   }
 ];

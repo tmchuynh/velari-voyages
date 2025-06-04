@@ -2,7 +2,156 @@ import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const amsterdamCruises: Cruise[] = [
   {
-    basePrice: 5551,
+    basePrice: 2333,
+    departureLocation: {
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.377956,
+    "longitude": 4.89707
+  }
+},
+    arrivalLocation: {
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.377956,
+    "longitude": 4.89707
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  }
+],
+      description: "Begin an epic zenith from Amsterdam, where the seas meet culture. Visit the remarkable ports of Stockholm, Oslo, Copenhagen while indulging in fine dining, entertainment, and unmatched hospitality.",
+      distance: "1207 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Amsterdam to Stockholm"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Stockholm to Oslo"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Oslo to Copenhagen"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Copenhagen to Amsterdam"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Amsterdam"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Amsterdam"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Bella Cooper",
+        role: "Cruise Specialist",
+        languages: ["Norwegian","French"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
+        contact: {
+          contactEmail: "velvet.drift.of.the.@velarivoyages.com",
+          contactNumber: "+1-882-346-4790"
+        }
+      }
+    ],
+    title: "Velvet Drift of the Iron Age Isles",
+    description: "Begin an epic zenith from Amsterdam, where the seas meet culture. Visit the remarkable ports of Stockholm, Oslo, Copenhagen while indulging in fine dining, entertainment, and unmatched hospitality.",
+    rating: 4.1,
+    tags: ["general"]
+  },
+  {
+    basePrice: 9133,
     departureLocation: {
   "city": "Amsterdam",
   "country": "Netherlands",
@@ -14,6 +163,856 @@ export const amsterdamCruises: Cruise[] = [
 },
     arrivalLocation: {
   "city": "Oslo",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Set sail from Amsterdam on this tranquil enigma through the heart of Northern Europe. Experience the perfect blend of relaxation and adventure as you explore Stockholm and Oslo, with personalized service and unforgettable experiences awaiting at every port.",
+      distance: "1106 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Amsterdam to Stockholm"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Stockholm to Oslo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Amsterdam"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Oslo"
+  }
+]
+    },
+    tourCategoryId: "tropical-cruise",
+    contactPersonnel: [
+      {
+        name: "Emma Chambers",
+        role: "Cruise Specialist",
+        languages: ["Norwegian","French"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/21.jpg",
+        contact: {
+          contactEmail: "sublime.currents.of.@velarivoyages.com",
+          contactNumber: "+1-801-917-9527"
+        }
+      }
+    ],
+    title: "Sublime Currents of the Reflections of the Past",
+    description: "Set sail from Amsterdam on this tranquil enigma through the heart of Northern Europe. Experience the perfect blend of relaxation and adventure as you explore Stockholm and Oslo, with personalized service and unforgettable experiences awaiting at every port.",
+    rating: 4.8,
+    tags: ["tropical"]
+  },
+  {
+    basePrice: 7154,
+    departureLocation: {
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.377956,
+    "longitude": 4.89707
+  }
+},
+    arrivalLocation: {
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.377956,
+    "longitude": 4.89707
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  }
+],
+      description: "Set sail from Amsterdam for a voyage like no other. From the picturesque landscapes of Helsinki to the lively ambiance of Oslo, this breathtaking cruise will redefine your view of Northern Europe.",
+      distance: "858 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Amsterdam to Helsinki"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Helsinki to Oslo"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Oslo to Tallinn"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Tallinn to Amsterdam"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Amsterdam"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Tallinn"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Amsterdam"
+  }
+]
+    },
+    tourCategoryId: "luxury-cruise",
+    contactPersonnel: [
+      {
+        name: "Allison Gardner",
+        role: "Cruise Specialist",
+        languages: ["Norwegian","French"],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/women/51.jpg",
+        contact: {
+          contactEmail: "midnight.reunion.of.@velarivoyages.com",
+          contactNumber: "+1-298-177-9247"
+        }
+      }
+    ],
+    title: "Midnight Reunion of the Reflections of the Past",
+    description: "Set sail from Amsterdam for a voyage like no other. From the picturesque landscapes of Helsinki to the lively ambiance of Oslo, this breathtaking cruise will redefine your view of Northern Europe.",
+    rating: 5.0,
+    tags: ["seasonal","luxury","holiday-cruise"]
+  },
+  {
+    basePrice: 9594,
+    departureLocation: {
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.377956,
+    "longitude": 4.89707
+  }
+},
+    arrivalLocation: {
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.377956,
+    "longitude": 4.89707
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  }
+],
+      description: "A voyage of contrasts awaits from Amsterdam. Discover the historical and natural richness of Northern Europe as you cruise to spectacular destinations like Tallinn, Oslo, Helsinki, Copenhagen.",
+      distance: "696 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Amsterdam to Tallinn"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Tallinn to Oslo"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Oslo to Helsinki"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from Helsinki to Copenhagen"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Sailing from Copenhagen to Amsterdam"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Amsterdam"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Tallinn"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Exploring Amsterdam"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Grace Carpenter",
+        role: "Cruise Specialist",
+        languages: ["Norwegian","French"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
+        contact: {
+          contactEmail: "unforgettable.mythos@velarivoyages.com",
+          contactNumber: "+1-251-774-8706"
+        }
+      }
+    ],
+    title: "Unforgettable Mythos of the Mist-Wrapped Lattices",
+    description: "A voyage of contrasts awaits from Amsterdam. Discover the historical and natural richness of Northern Europe as you cruise to spectacular destinations like Tallinn, Oslo, Helsinki, Copenhagen.",
+    rating: 4.4,
+    tags: ["exclusive","tropical"]
+  },
+  {
+    basePrice: 1529,
+    departureLocation: {
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.377956,
+    "longitude": 4.89707
+  }
+},
+    arrivalLocation: {
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.377956,
+    "longitude": 4.89707
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  }
+],
+      description: "Let this ornate voyage redefine your idea of travel. From Amsterdam, explore the Northern Europe in luxurious comfort, stopping at Helsinki, Stockholm, Copenhagen, Oslo where every port offers a new chapter.",
+      distance: "509 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Amsterdam to Helsinki"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Sailing from Helsinki to Stockholm"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Stockholm to Copenhagen"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Copenhagen to Oslo"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Sailing from Oslo to Amsterdam"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Amsterdam"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Exploring Amsterdam"
+  }
+]
+    },
+    tourCategoryId: "luxury-cruise",
+    contactPersonnel: [
+      {
+        name: "Ellie Grant",
+        role: "Cruise Specialist",
+        languages: ["Norwegian","French"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/60.jpg",
+        contact: {
+          contactEmail: "dreamlike.arcadia.of@velarivoyages.com",
+          contactNumber: "+1-556-781-4815"
+        }
+      }
+    ],
+    title: "Dreamlike Arcadia of the Golden Age Haven",
+    description: "Let this ornate voyage redefine your idea of travel. From Amsterdam, explore the Northern Europe in luxurious comfort, stopping at Helsinki, Stockholm, Copenhagen, Oslo where every port offers a new chapter.",
+    rating: 4.6,
+    tags: ["cruise-journey","tropical","luxury"]
+  },
+  {
+    basePrice: 7239,
+    departureLocation: {
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.377956,
+    "longitude": 4.89707
+  }
+},
+    arrivalLocation: {
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.377956,
+    "longitude": 4.89707
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  }
+],
+      description: "Experience coastal elegance on this quest from Amsterdam, where the journey through Northern Europe includes stops in Tallinn, Oslo, each more enchanting than the last.",
+      distance: "1355 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Amsterdam to Tallinn"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Tallinn to Oslo"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Oslo to Amsterdam"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Amsterdam"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Tallinn"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Amsterdam"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Elizabeth Montgomery",
+        role: "Cruise Specialist",
+        languages: ["Norwegian","French"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/21.jpg",
+        contact: {
+          contactEmail: "verdant.horizon.of.t@velarivoyages.com",
+          contactNumber: "+1-519-950-9433"
+        }
+      }
+    ],
+    title: "Verdant Horizon of the Fairy Tale Villages",
+    description: "Experience coastal elegance on this quest from Amsterdam, where the journey through Northern Europe includes stops in Tallinn, Oslo, each more enchanting than the last.",
+    rating: 4.4,
+    tags: ["general"]
+  },
+  {
+    basePrice: 8445,
+    departureLocation: {
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.377956,
+    "longitude": 4.89707
+  }
+},
+    arrivalLocation: {
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "coordinates": {
+    "latitude": 55.6761,
+    "longitude": 12.5683
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  }
+],
+      description: "Start in the vibrant city of Amsterdam and venture into the iconic Northern Europe. Discover authentic local cultures, cuisine, and coastal wonders in Stockholm, Oslo, Copenhagen.",
+      distance: "952 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Amsterdam to Stockholm"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Stockholm to Oslo"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Oslo to Copenhagen"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Amsterdam"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Copenhagen"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Nancy Collins",
+        role: "Cruise Specialist",
+        languages: ["Norwegian","French"],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/women/39.jpg",
+        contact: {
+          contactEmail: "majestic.zenith.of.t@velarivoyages.com",
+          contactNumber: "+1-912-542-2836"
+        }
+      }
+    ],
+    title: "Majestic Zenith of the Reflections of the Past",
+    description: "Start in the vibrant city of Amsterdam and venture into the iconic Northern Europe. Discover authentic local cultures, cuisine, and coastal wonders in Stockholm, Oslo, Copenhagen.",
+    rating: 4.4,
+    tags: ["exclusive"]
+  },
+  {
+    basePrice: 4748,
+    departureLocation: {
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.377956,
+    "longitude": 4.89707
+  }
+},
+    arrivalLocation: {
+  "city": "Helsinki",
   "country": "",
   "coordinates": {
     "latitude": 0,
@@ -43,516 +1042,29 @@ export const amsterdamCruises: Cruise[] = [
     }
   },
   {
-    "city": "Tallinn",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  },
-  {
-    "city": "Oslo",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "This forbidden renaissance begins in Amsterdam and ventures deep into the heart of Northern Europe. Wander through colorful markets, historic streets, and serene coastlines at St. Petersburg, Tallinn, Copenhagen, Oslo.",
-      distance: "1107 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Amsterdam to St. Petersburg"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from St. Petersburg to Tallinn"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from Tallinn to Copenhagen"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Sailing from Copenhagen to Oslo"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Amsterdam"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring St. Petersburg"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Exploring Tallinn"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Copenhagen"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring Oslo"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Virginia Chambers",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/women/82.jpg",
-        contact: {
-          contactEmail: "breathtaking.expedit@velarivoyages.com",
-          contactNumber: "+1-496-310-2652"
-        }
-      }
-    ],
-    title: "Breathtaking Expedition of the Dutch Jewel",
-    description: "This forbidden renaissance begins in Amsterdam and ventures deep into the heart of Northern Europe. Wander through colorful markets, historic streets, and serene coastlines at St. Petersburg, Tallinn, Copenhagen, Oslo.",
-    rating: 4.4,
-    tags: ["VIP","family-friendly"]
-  },
-  {
-    basePrice: 9126,
-    departureLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    arrivalLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  },
-  {
-    "city": "Stockholm",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
     "city": "Helsinki",
     "country": "",
     "coordinates": {
       "latitude": 0,
       "longitude": 0
     }
-  },
-  {
-    "city": "St. Petersburg",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  },
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
   }
 ],
-      description: "Let the winds of the Northern Europe carry you from Amsterdam to the most stunning ports in the region. With destinations like Stockholm, Helsinki, St. Petersburg, Copenhagen, this discovery redefines luxury travel.",
-      distance: "667 nautical miles",
-      totalDuration: "17 days",
+      description: "Explore a new side of Northern Europe with this extraordinary requiem starting in Amsterdam. Visit charming ports such as St. Petersburg, Helsinki, each offering its own unique rhythm.",
+      distance: "1465 nautical miles",
+      totalDuration: "8 days",
       timeAtSea: [
   {
     "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Amsterdam to Stockholm"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from Stockholm to Helsinki"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from Helsinki to St. Petersburg"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Sailing from St. Petersburg to Copenhagen"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 15",
-    "duration": "1 days",
-    "description": "Sailing from Copenhagen to Amsterdam"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Amsterdam"
-  },
-  {
-    "start": "Day 4",
     "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Stockholm"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Exploring Helsinki"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring St. Petersburg"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
-    "duration": "2 days",
-    "description": "Exploring Copenhagen"
-  },
-  {
-    "start": "Day 16",
-    "end": "Day 17",
-    "duration": "2 days",
-    "description": "Exploring Amsterdam"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Anna Hunter",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/women/0.jpg",
-        contact: {
-          contactEmail: "captivating.odyssey.@velarivoyages.com",
-          contactNumber: "+1-677-668-4356"
-        }
-      }
-    ],
-    title: "Captivating Odyssey of the Dutch Jewel",
-    description: "Let the winds of the Northern Europe carry you from Amsterdam to the most stunning ports in the region. With destinations like Stockholm, Helsinki, St. Petersburg, Copenhagen, this discovery redefines luxury travel.",
-    rating: 4.7,
-    tags: ["romantic","themed-cruise"]
-  },
-  {
-    basePrice: 7603,
-    departureLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    arrivalLocation: {
-  "city": "Copenhagen",
-  "country": "Denmark",
-  "coordinates": {
-    "latitude": 55.6761,
-    "longitude": 12.5683
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "mainstream",
-    itinerary: {
-      route: [
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  },
-  {
-    "city": "St. Petersburg",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Helsinki",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  }
-],
-      description: "Launch into adventure from Amsterdam and sail deep into the heart of the Northern Europe. With ports of call like St. Petersburg, Helsinki, Copenhagen, expect a voyage filled with scenic wonders and luxurious comforts.",
-      distance: "730 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
     "duration": "2 days",
     "description": "Sailing from Amsterdam to St. Petersburg"
   },
   {
-    "start": "Day 5",
-    "end": "Day 5",
+    "start": "Day 7",
+    "end": "Day 7",
     "duration": "1 days",
     "description": "Sailing from St. Petersburg to Helsinki"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Helsinki to Copenhagen"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Amsterdam"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring St. Petersburg"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring Helsinki"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Copenhagen"
-  }
-]
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        name: "Jane Marshall",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/women/42.jpg",
-        contact: {
-          contactEmail: "majestic.voyage.of.t@velarivoyages.com",
-          contactNumber: "+1-916-639-8940"
-        }
-      }
-    ],
-    title: "Majestic Voyage of the Dutch Jewel",
-    description: "Launch into adventure from Amsterdam and sail deep into the heart of the Northern Europe. With ports of call like St. Petersburg, Helsinki, Copenhagen, expect a voyage filled with scenic wonders and luxurious comforts.",
-    rating: 4.6,
-    tags: ["VIP","tropical"]
-  },
-  {
-    basePrice: 3093,
-    departureLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    arrivalLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  },
-  {
-    "city": "Tallinn",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Stockholm",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Oslo",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "St. Petersburg",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  }
-],
-      description: "Join us in Amsterdam for a saga of a lifetime. Sail across the serene waters of Northern Europe, stopping at ports like Tallinn, Stockholm, Oslo, St. Petersburg where timeless traditions meet modern luxuries.",
-      distance: "957 nautical miles",
-      totalDuration: "15 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Amsterdam to Tallinn"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from Tallinn to Stockholm"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Sailing from Stockholm to Oslo"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from Oslo to St. Petersburg"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
-    "duration": "2 days",
-    "description": "Sailing from St. Petersburg to Amsterdam"
   }
 ],
       timeOnLand: [
@@ -563,828 +1075,40 @@ export const amsterdamCruises: Cruise[] = [
     "description": "Exploring Amsterdam"
   },
   {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Tallinn"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring Stockholm"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Oslo"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring St. Petersburg"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 15",
-    "duration": "1 days",
-    "description": "Exploring Amsterdam"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Nancy Palmer",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
-        contact: {
-          contactEmail: "hidden.saga.of.the.c@velarivoyages.com",
-          contactNumber: "+1-662-891-2220"
-        }
-      }
-    ],
-    title: "Hidden Saga of the Canal Crown",
-    description: "Join us in Amsterdam for a saga of a lifetime. Sail across the serene waters of Northern Europe, stopping at ports like Tallinn, Stockholm, Oslo, St. Petersburg where timeless traditions meet modern luxuries.",
-    rating: 4.4,
-    tags: ["short-getaway","romantic","luxury"]
-  },
-  {
-    basePrice: 3084,
-    departureLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    arrivalLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  },
-  {
-    "city": "Helsinki",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  }
-],
-      description: "Your mirage begins in Amsterdam, where the spirit of exploration meets modern luxury. From the sun-drenched shores of Copenhagen to the historic streets of Helsinki, each stop in the Northern Europe will leave a lasting impression.",
-      distance: "1304 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Amsterdam to Copenhagen"
-  },
-  {
     "start": "Day 5",
     "end": "Day 6",
     "duration": "2 days",
-    "description": "Sailing from Copenhagen to Helsinki"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Helsinki to Amsterdam"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Amsterdam"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring Copenhagen"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Helsinki"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring Amsterdam"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Samantha Spencer",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/67.jpg",
-        contact: {
-          contactEmail: "crystalline.tide.of.@velarivoyages.com",
-          contactNumber: "+1-372-826-8996"
-        }
-      }
-    ],
-    title: "Crystalline Tide of the Nordic Waters",
-    description: "Your mirage begins in Amsterdam, where the spirit of exploration meets modern luxury. From the sun-drenched shores of Copenhagen to the historic streets of Helsinki, each stop in the Northern Europe will leave a lasting impression.",
-    rating: 4.4,
-    tags: ["family-friendly","short-getaway"]
-  },
-  {
-    basePrice: 9058,
-    departureLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    arrivalLocation: {
-  "city": "St. Petersburg",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "entry-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  },
-  {
-    "city": "Tallinn",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Stockholm",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "St. Petersburg",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Board in Amsterdam for a hand-crafted requiem through the breathtaking Northern Europe. Highlights include sun-drenched beaches, historic ports, and immersive culture in Tallinn, Stockholm, St. Petersburg.",
-      distance: "1216 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Amsterdam to Tallinn"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Tallinn to Stockholm"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Stockholm to St. Petersburg"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Amsterdam"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Tallinn"
+    "description": "Exploring St. Petersburg"
   },
   {
     "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Stockholm"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
+    "end": "Day 8",
     "duration": "1 days",
-    "description": "Exploring St. Petersburg"
+    "description": "Exploring Helsinki"
   }
 ]
     },
-    tourCategoryId: "fall-foliage-cruise",
+    tourCategoryId: "holiday-cruise",
     contactPersonnel: [
       {
-        name: "Victoria Bennett",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/women/55.jpg",
+        name: "Olivia Graham",
+        role: "Cruise Specialist",
+        languages: ["Norwegian","French"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/18.jpg",
         contact: {
-          contactEmail: "exquisite.retreat.of@velarivoyages.com",
-          contactNumber: "+1-910-643-2436"
+          contactEmail: "radiancedrenched.jou@velarivoyages.com",
+          contactNumber: "+1-380-147-7429"
         }
       }
     ],
-    title: "Exquisite Retreat of the Nordic Waters",
-    description: "Board in Amsterdam for a hand-crafted requiem through the breathtaking Northern Europe. Highlights include sun-drenched beaches, historic ports, and immersive culture in Tallinn, Stockholm, St. Petersburg.",
+    title: "Radiance-Drenched Journey of the Reflections of the Past",
+    description: "Explore a new side of Northern Europe with this extraordinary requiem starting in Amsterdam. Visit charming ports such as St. Petersburg, Helsinki, each offering its own unique rhythm.",
     rating: 4.9,
-    tags: ["themed-cruise","luxury","romantic"]
+    tags: ["nature","cruise-holiday","glacier-cruise"]
   },
   {
-    basePrice: 5005,
-    departureLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    arrivalLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "ultra-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  },
-  {
-    "city": "Stockholm",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "St. Petersburg",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  }
-],
-      description: "Begin an epic voyage from Amsterdam, where the seas meet culture. Visit the remarkable ports of Stockholm, St. Petersburg while indulging in fine dining, entertainment, and unmatched hospitality.",
-      distance: "1159 nautical miles",
-      totalDuration: "9 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Amsterdam to Stockholm"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Sailing from Stockholm to St. Petersburg"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from St. Petersburg to Amsterdam"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Amsterdam"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring Stockholm"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Exploring St. Petersburg"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Amsterdam"
-  }
-]
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        name: "Abigail Coleman",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
-        contact: {
-          contactEmail: "unforgettable.journe@velarivoyages.com",
-          contactNumber: "+1-225-784-5655"
-        }
-      }
-    ],
-    title: "Unforgettable Journey of the Dutch Jewel",
-    description: "Begin an epic voyage from Amsterdam, where the seas meet culture. Visit the remarkable ports of Stockholm, St. Petersburg while indulging in fine dining, entertainment, and unmatched hospitality.",
-    rating: 4.6,
-    tags: ["seasonal","luxury"]
-  },
-  {
-    basePrice: 8944,
-    departureLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    arrivalLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium",
-    itinerary: {
-      route: [
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  },
-  {
-    "city": "Stockholm",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  },
-  {
-    "city": "St. Petersburg",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  }
-],
-      description: "Experience the elegance of the seas on this extraordinary mirage through Northern Europe, starting from the illustrious port of Amsterdam. From Stockholm, Copenhagen to St. Petersburg, each destination offers its own story, culture, and breathtaking views.",
-      distance: "1111 nautical miles",
-      totalDuration: "15 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Amsterdam to Stockholm"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Stockholm to Copenhagen"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Copenhagen to St. Petersburg"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Sailing from St. Petersburg to Amsterdam"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Amsterdam"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Stockholm"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Copenhagen"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring St. Petersburg"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
-    "description": "Exploring Amsterdam"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Samantha Grant",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/women/45.jpg",
-        contact: {
-          contactEmail: "midnight.tide.of.the@velarivoyages.com",
-          contactNumber: "+1-595-182-9698"
-        }
-      }
-    ],
-    title: "Midnight Tide of the Canal Crown",
-    description: "Experience the elegance of the seas on this extraordinary mirage through Northern Europe, starting from the illustrious port of Amsterdam. From Stockholm, Copenhagen to St. Petersburg, each destination offers its own story, culture, and breathtaking views.",
-    rating: 4.1,
-    tags: ["sightseeing","family-friendly"]
-  },
-  {
-    basePrice: 5785,
-    departureLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    arrivalLocation: {
-  "city": "Stockholm",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "entry-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  },
-  {
-    "city": "Stockholm",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Escape the everyday with this epic journey through Northern Europe, departing from Amsterdam. You'll visit Copenhagen, Stockholm, where every stop is a new adventure.",
-      distance: "568 nautical miles",
-      totalDuration: "7 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Amsterdam to Copenhagen"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Copenhagen to Stockholm"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Amsterdam"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Copenhagen"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Stockholm"
-  }
-]
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        name: "Michelle Jennings",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/women/59.jpg",
-        contact: {
-          contactEmail: "mythic.realm.of.the.@velarivoyages.com",
-          contactNumber: "+1-517-295-1929"
-        }
-      }
-    ],
-    title: "Mythic Realm of the Dutch Jewel",
-    description: "Escape the everyday with this epic journey through Northern Europe, departing from Amsterdam. You'll visit Copenhagen, Stockholm, where every stop is a new adventure.",
-    rating: 4.7,
-    tags: ["long-distance","exclusive"]
-  },
-  {
-    basePrice: 2173,
-    departureLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    arrivalLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  },
-  {
-    "city": "Tallinn",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Oslo",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  }
-],
-      description: "Set sail from Amsterdam for a voyage like no other. From the picturesque landscapes of Tallinn to the lively ambiance of Oslo, this legendary cruise will redefine your view of Northern Europe.",
-      distance: "1376 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Amsterdam to Tallinn"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Tallinn to Oslo"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from Oslo to Amsterdam"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Amsterdam"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Tallinn"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Oslo"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring Amsterdam"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Ellie Bennett",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/women/35.jpg",
-        contact: {
-          contactEmail: "spectacular.escape.o@velarivoyages.com",
-          contactNumber: "+1-972-946-4715"
-        }
-      }
-    ],
-    title: "Spectacular Escape of the Baltic Echoes",
-    description: "Set sail from Amsterdam for a voyage like no other. From the picturesque landscapes of Tallinn to the lively ambiance of Oslo, this legendary cruise will redefine your view of Northern Europe.",
-    rating: 4.3,
-    tags: ["family-friendly","VIP"]
-  },
-  {
-    basePrice: 7360,
+    basePrice: 8878,
     departureLocation: {
   "city": "Amsterdam",
   "country": "Netherlands",
@@ -1404,115 +1128,7 @@ export const amsterdamCruises: Cruise[] = [
 },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "premium",
-    itinerary: {
-      route: [
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  },
-  {
-    "city": "Tallinn",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  }
-],
-      description: "Set off on a renaissance from Amsterdam that captures the essence of Northern Europe. Discover cultural gems and culinary delights across Tallinn, Copenhagen.",
-      distance: "1424 nautical miles",
-      totalDuration: "6 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Amsterdam to Tallinn"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Sailing from Tallinn to Copenhagen"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Amsterdam"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring Tallinn"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring Copenhagen"
-  }
-]
-    },
-    tourCategoryId: "tropical-cruise",
-    contactPersonnel: [
-      {
-        name: "Naomi Jennings",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 5,
-        profileImage: "https://randomuser.me/api/portraits/women/45.jpg",
-        contact: {
-          contactEmail: "enchanting.requiem.o@velarivoyages.com",
-          contactNumber: "+1-199-978-5170"
-        }
-      }
-    ],
-    title: "Enchanting Requiem of the Twilight Fjords",
-    description: "Set off on a renaissance from Amsterdam that captures the essence of Northern Europe. Discover cultural gems and culinary delights across Tallinn, Copenhagen.",
-    rating: 4.7,
-    tags: ["relaxation"]
-  },
-  {
-    basePrice: 4588,
-    departureLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    arrivalLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "entry-luxury",
+    category: "premium-luxury",
     itinerary: {
       route: [
   {
@@ -1539,809 +1155,67 @@ export const amsterdamCruises: Cruise[] = [
       "latitude": 55.6761,
       "longitude": 12.5683
     }
-  },
-  {
-    "city": "Helsinki",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
   }
 ],
-      description: "Depart from Amsterdam on this thoughtfully designed mystique across the Northern Europe. Savor coastal charm, cultural treasures, and ocean views with stops at St. Petersburg, Copenhagen, Helsinki.",
-      distance: "989 nautical miles",
-      totalDuration: "14 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Amsterdam to St. Petersburg"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from St. Petersburg to Copenhagen"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Copenhagen to Helsinki"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Sailing from Helsinki to Amsterdam"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Amsterdam"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring St. Petersburg"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Copenhagen"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring Helsinki"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 14",
-    "duration": "1 days",
-    "description": "Exploring Amsterdam"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Aria Reed",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/92.jpg",
-        contact: {
-          contactEmail: "majestic.quest.of.th@velarivoyages.com",
-          contactNumber: "+1-255-600-6054"
-        }
-      }
-    ],
-    title: "Majestic Quest of the Dutch Jewel",
-    description: "Depart from Amsterdam on this thoughtfully designed mystique across the Northern Europe. Savor coastal charm, cultural treasures, and ocean views with stops at St. Petersburg, Copenhagen, Helsinki.",
-    rating: 4.2,
-    tags: ["family-friendly","romantic"]
-  },
-  {
-    basePrice: 3885,
-    departureLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    arrivalLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "entry-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  },
-  {
-    "city": "Tallinn",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Oslo",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Helsinki",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  }
-],
-      description: "Embark on an unforgettable discovery from the vibrant port of Amsterdam, where you'll discover hidden gems and iconic landmarks across the Northern Europe region. With stops at Tallinn, Oslo, Helsinki, this journey combines cultural immersion with breathtaking scenery.",
-      distance: "1464 nautical miles",
-      totalDuration: "15 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Amsterdam to Tallinn"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Sailing from Tallinn to Oslo"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from Oslo to Helsinki"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 14",
-    "duration": "1 days",
-    "description": "Sailing from Helsinki to Amsterdam"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Amsterdam"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Tallinn"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Oslo"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring Helsinki"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 15",
-    "duration": "1 days",
-    "description": "Exploring Amsterdam"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Virginia Holloway",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
-        contact: {
-          contactEmail: "unforgettable.discov@velarivoyages.com",
-          contactNumber: "+1-436-995-5978"
-        }
-      }
-    ],
-    title: "Unforgettable Discovery of the Runestone Realms",
-    description: "Embark on an unforgettable discovery from the vibrant port of Amsterdam, where you'll discover hidden gems and iconic landmarks across the Northern Europe region. With stops at Tallinn, Oslo, Helsinki, this journey combines cultural immersion with breathtaking scenery.",
-    rating: 4.7,
-    tags: ["seasonal","tropical"]
-  },
-  {
-    basePrice: 6121,
-    departureLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    arrivalLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "mainstream",
-    itinerary: {
-      route: [
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  },
-  {
-    "city": "Helsinki",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Stockholm",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  },
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  }
-],
-      description: "From the lively departure port of Amsterdam, this curated escape showcases the finest of Northern Europe. With visits to Helsinki, Stockholm, Copenhagen, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
-      distance: "1246 nautical miles",
-      totalDuration: "15 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Amsterdam to Helsinki"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Helsinki to Stockholm"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from Stockholm to Copenhagen"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Sailing from Copenhagen to Amsterdam"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Amsterdam"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Helsinki"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Stockholm"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring Copenhagen"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
-    "description": "Exploring Amsterdam"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Amina Montgomery",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/women/18.jpg",
-        contact: {
-          contactEmail: "celestial.journey.of@velarivoyages.com",
-          contactNumber: "+1-128-156-3961"
-        }
-      }
-    ],
-    title: "Celestial Journey of the Dutch Jewel",
-    description: "From the lively departure port of Amsterdam, this curated escape showcases the finest of Northern Europe. With visits to Helsinki, Stockholm, Copenhagen, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
-    rating: 4.2,
-    tags: ["sightseeing","romantic"]
-  },
-  {
-    basePrice: 8353,
-    departureLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    arrivalLocation: {
-  "city": "St. Petersburg",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "mainstream",
-    itinerary: {
-      route: [
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  },
-  {
-    "city": "Tallinn",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "St. Petersburg",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Join us in Amsterdam for a voyage of a lifetime. Sail across the serene waters of Northern Europe, stopping at ports like Tallinn, St. Petersburg where timeless traditions meet modern luxuries.",
-      distance: "1092 nautical miles",
+      description: "Launch into adventure from Amsterdam and sail deep into the heart of the Northern Europe. With ports of call like St. Petersburg, Copenhagen, expect a voyage filled with scenic wonders and luxurious comforts.",
+      distance: "664 nautical miles",
       totalDuration: "7 days",
       timeAtSea: [
   {
-    "start": "Day 2",
+    "start": "Day 3",
     "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Amsterdam to Tallinn"
+    "duration": "1 days",
+    "description": "Sailing from Amsterdam to St. Petersburg"
   },
   {
-    "start": "Day 6",
+    "start": "Day 5",
     "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Tallinn to St. Petersburg"
+    "duration": "2 days",
+    "description": "Sailing from St. Petersburg to Copenhagen"
   }
 ],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
+    "end": "Day 2",
+    "duration": "2 days",
     "description": "Exploring Amsterdam"
   },
   {
     "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Tallinn"
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring St. Petersburg"
   },
   {
     "start": "Day 7",
     "end": "Day 7",
     "duration": "1 days",
-    "description": "Exploring St. Petersburg"
+    "description": "Exploring Copenhagen"
   }
 ]
     },
     tourCategoryId: "glacier-cruise",
     contactPersonnel: [
       {
-        name: "Bella Porter",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/women/52.jpg",
+        name: "Sarah Reeves",
+        role: "Cruise Specialist",
+        languages: ["Norwegian","French"],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
         contact: {
-          contactEmail: "unforgettable.saga.o@velarivoyages.com",
-          contactNumber: "+1-729-316-1361"
+          contactEmail: "pristine.odyssey.of.@velarivoyages.com",
+          contactNumber: "+1-294-280-6049"
         }
       }
     ],
-    title: "Unforgettable Saga of the Dutch Jewel",
-    description: "Join us in Amsterdam for a voyage of a lifetime. Sail across the serene waters of Northern Europe, stopping at ports like Tallinn, St. Petersburg where timeless traditions meet modern luxuries.",
-    rating: 4.4,
-    tags: ["tropical"]
+    title: "Pristine Odyssey of the Frosted Kingdoms",
+    description: "Launch into adventure from Amsterdam and sail deep into the heart of the Northern Europe. With ports of call like St. Petersburg, Copenhagen, expect a voyage filled with scenic wonders and luxurious comforts.",
+    rating: 5.0,
+    tags: ["nature"]
   },
   {
-    basePrice: 4150,
-    departureLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    arrivalLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "ultra-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  },
-  {
-    "city": "Oslo",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  },
-  {
-    "city": "Tallinn",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  }
-],
-      description: "This handpicked expedition begins in Amsterdam and travels through Northern Europe's iconic waterscapes. Discover Oslo, Copenhagen, Tallinn as each day brings new stories and every night offers elegant repose.",
-      distance: "1249 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Amsterdam to Oslo"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Oslo to Copenhagen"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Copenhagen to Tallinn"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Sailing from Tallinn to Amsterdam"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Amsterdam"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Oslo"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Copenhagen"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Tallinn"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Exploring Amsterdam"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Lerato Clark",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
-        contact: {
-          contactEmail: "majestic.mirage.of.t@velarivoyages.com",
-          contactNumber: "+1-424-873-7457"
-        }
-      }
-    ],
-    title: "Majestic Mirage of the Dutch Jewel",
-    description: "This handpicked expedition begins in Amsterdam and travels through Northern Europe's iconic waterscapes. Discover Oslo, Copenhagen, Tallinn as each day brings new stories and every night offers elegant repose.",
-    rating: 4.2,
-    tags: ["exclusive","romantic"]
-  },
-  {
-    basePrice: 8121,
-    departureLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    arrivalLocation: {
-  "city": "Tallinn",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  },
-  {
-    "city": "Helsinki",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Oslo",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Tallinn",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "This handpicked retreat begins in Amsterdam and travels through Northern Europe's iconic waterscapes. Discover Copenhagen, Helsinki, Oslo, Tallinn as each day brings new stories and every night offers elegant repose.",
-      distance: "856 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Amsterdam to Copenhagen"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Copenhagen to Helsinki"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Helsinki to Oslo"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Sailing from Oslo to Tallinn"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Amsterdam"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring Copenhagen"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Helsinki"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring Oslo"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Exploring Tallinn"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Maya Warren",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/women/18.jpg",
-        contact: {
-          contactEmail: "unforgettable.excurs@velarivoyages.com",
-          contactNumber: "+1-550-496-2186"
-        }
-      }
-    ],
-    title: "Unforgettable Excursion of the Twilight Fjords",
-    description: "This handpicked retreat begins in Amsterdam and travels through Northern Europe's iconic waterscapes. Discover Copenhagen, Helsinki, Oslo, Tallinn as each day brings new stories and every night offers elegant repose.",
-    rating: 4.3,
-    tags: ["family-friendly","adventure","relaxation"]
-  },
-  {
-    basePrice: 1402,
+    basePrice: 1214,
     departureLocation: {
   "city": "Amsterdam",
   "country": "Netherlands",
@@ -2360,8 +1234,8 @@ export const amsterdamCruises: Cruise[] = [
   }
 },
     isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "luxury",
+    hasPopularDestination: true,
+    category: "premium-luxury",
     itinerary: {
       route: [
   {
@@ -2374,11 +1248,27 @@ export const amsterdamCruises: Cruise[] = [
     }
   },
   {
-    "city": "Copenhagen",
-    "country": "Denmark",
+    "city": "St. Petersburg",
+    "country": "",
     "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
@@ -2390,21 +1280,33 @@ export const amsterdamCruises: Cruise[] = [
     }
   }
 ],
-      description: "Depart from iconic Amsterdam and traverse the Northern Europe with visits to Copenhagen, Helsinki. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
-      distance: "625 nautical miles",
-      totalDuration: "7 days",
+      description: "Sail away from Amsterdam into the beautiful expanse of Northern Europe. Along the way, enjoy rich cultural experiences in St. Petersburg, Oslo, Stockholm, Helsinki, where history, nature, and cuisine collide.",
+      distance: "709 nautical miles",
+      totalDuration: "12 days",
       timeAtSea: [
   {
     "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Amsterdam to Copenhagen"
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Amsterdam to St. Petersburg"
   },
   {
-    "start": "Day 6",
-    "end": "Day 6",
+    "start": "Day 4",
+    "end": "Day 4",
     "duration": "1 days",
-    "description": "Sailing from Copenhagen to Helsinki"
+    "description": "Sailing from St. Petersburg to Oslo"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Oslo to Stockholm"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Stockholm to Helsinki"
   }
 ],
       timeOnLand: [
@@ -2415,40 +1317,52 @@ export const amsterdamCruises: Cruise[] = [
     "description": "Exploring Amsterdam"
   },
   {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Copenhagen"
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring St. Petersburg"
   },
   {
-    "start": "Day 7",
-    "end": "Day 7",
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
     "duration": "1 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
     "description": "Exploring Helsinki"
   }
 ]
     },
-    tourCategoryId: "glacier-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Stephanie Warren",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/21.jpg",
+        name: "Emily Montgomery",
+        role: "Cruise Specialist",
+        languages: ["Norwegian","French"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/66.jpg",
         contact: {
-          contactEmail: "enchanting.mirage.of@velarivoyages.com",
-          contactNumber: "+1-568-837-1938"
+          contactEmail: "radiancedrenched.oas@velarivoyages.com",
+          contactNumber: "+1-902-542-8265"
         }
       }
     ],
-    title: "Enchanting Mirage of the Runestone Realms",
-    description: "Depart from iconic Amsterdam and traverse the Northern Europe with visits to Copenhagen, Helsinki. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
-    rating: 4.6,
-    tags: ["family-friendly","luxury"]
+    title: "Radiance-Drenched Oasis of the Golden Age Haven",
+    description: "Sail away from Amsterdam into the beautiful expanse of Northern Europe. Along the way, enjoy rich cultural experiences in St. Petersburg, Oslo, Stockholm, Helsinki, where history, nature, and cuisine collide.",
+    rating: 4.3,
+    tags: ["cruise-vacation","cruise-adventure","sightseeing"]
   },
   {
-    basePrice: 1575,
+    basePrice: 4843,
     departureLocation: {
   "city": "Amsterdam",
   "country": "Netherlands",
@@ -2459,15 +1373,14 @@ export const amsterdamCruises: Cruise[] = [
   }
 },
     arrivalLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
+  "city": "Oslo",
+  "country": "",
   "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
+    "latitude": 0,
+    "longitude": 0
   }
 },
-    isPopular: false, // Make fewer cruises "popular"
+    isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: true,
     category: "entry-luxury",
     itinerary: {
@@ -2482,7 +1395,15 @@ export const amsterdamCruises: Cruise[] = [
     }
   },
   {
-    "city": "Stockholm",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "St. Petersburg",
     "country": "",
     "coordinates": {
       "latitude": 0,
@@ -2490,114 +1411,85 @@ export const amsterdamCruises: Cruise[] = [
     }
   },
   {
-    "city": "Tallinn",
+    "city": "Oslo",
     "country": "",
     "coordinates": {
       "latitude": 0,
       "longitude": 0
-    }
-  },
-  {
-    "city": "Helsinki",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
     }
   }
 ],
-      description: "Depart from iconic Amsterdam and traverse the Northern Europe with visits to Stockholm, Tallinn, Helsinki. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
-      distance: "1483 nautical miles",
-      totalDuration: "12 days",
+      description: "Embark on an unforgettable sanctuary from the vibrant port of Amsterdam, where you'll discover hidden gems and iconic landmarks across the Northern Europe region. With stops at Copenhagen, St. Petersburg, Oslo, this journey combines cultural immersion with breathtaking scenery.",
+      distance: "1342 nautical miles",
+      totalDuration: "11 days",
       timeAtSea: [
   {
-    "start": "Day 2",
+    "start": "Day 3",
     "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Amsterdam to Stockholm"
+    "duration": "1 days",
+    "description": "Sailing from Amsterdam to Copenhagen"
   },
   {
     "start": "Day 6",
     "end": "Day 6",
     "duration": "1 days",
-    "description": "Sailing from Stockholm to Tallinn"
+    "description": "Sailing from Copenhagen to St. Petersburg"
   },
   {
-    "start": "Day 8",
-    "end": "Day 8",
+    "start": "Day 9",
+    "end": "Day 9",
     "duration": "1 days",
-    "description": "Sailing from Tallinn to Helsinki"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from Helsinki to Amsterdam"
+    "description": "Sailing from St. Petersburg to Oslo"
   }
 ],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
+    "end": "Day 2",
+    "duration": "2 days",
     "description": "Exploring Amsterdam"
   },
   {
     "start": "Day 4",
     "end": "Day 5",
     "duration": "2 days",
-    "description": "Exploring Stockholm"
+    "description": "Exploring Copenhagen"
   },
   {
     "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Tallinn"
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring St. Petersburg"
   },
   {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Helsinki"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring Amsterdam"
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Oslo"
   }
 ]
     },
-    tourCategoryId: "fall-foliage-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Priya Fletcher",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 13,
-        profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
+        name: "Hannah Fox",
+        role: "Cruise Specialist",
+        languages: ["Norwegian","French"],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/women/92.jpg",
         contact: {
-          contactEmail: "golden.requiem.of.th@velarivoyages.com",
-          contactNumber: "+1-390-680-7609"
+          contactEmail: "exquisite.exploratio@velarivoyages.com",
+          contactNumber: "+1-824-595-8566"
         }
       }
     ],
-    title: "Golden Requiem of the Dutch Jewel",
-    description: "Depart from iconic Amsterdam and traverse the Northern Europe with visits to Stockholm, Tallinn, Helsinki. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
-    rating: 4.7,
-    tags: ["relaxation","VIP","sightseeing"]
+    title: "Exquisite Exploration of the Snow-Kissed Harbors",
+    description: "Embark on an unforgettable sanctuary from the vibrant port of Amsterdam, where you'll discover hidden gems and iconic landmarks across the Northern Europe region. With stops at Copenhagen, St. Petersburg, Oslo, this journey combines cultural immersion with breathtaking scenery.",
+    rating: 4.8,
+    tags: ["cruise-adventure"]
   },
   {
-    basePrice: 3736,
+    basePrice: 2250,
     departureLocation: {
   "city": "Amsterdam",
   "country": "Netherlands",
@@ -2608,17 +1500,16 @@ export const amsterdamCruises: Cruise[] = [
   }
 },
     arrivalLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
+  "city": "Copenhagen",
+  "country": "Denmark",
   "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
+    "latitude": 55.6761,
+    "longitude": 12.5683
   }
 },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "mainstream",
+    hasPopularDestination: false,
+    category: "premium-luxury",
     itinerary: {
       route: [
   {
@@ -2639,11 +1530,139 @@ export const amsterdamCruises: Cruise[] = [
     }
   },
   {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
     "city": "Copenhagen",
     "country": "Denmark",
     "coordinates": {
       "latitude": 55.6761,
       "longitude": 12.5683
+    }
+  }
+],
+      description: "Explore a new side of Northern Europe with this moonlit infinite starting in Amsterdam. Visit charming ports such as Stockholm, Helsinki, Copenhagen, each offering its own unique rhythm.",
+      distance: "925 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Amsterdam to Stockholm"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Stockholm to Helsinki"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Helsinki to Copenhagen"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Amsterdam"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Copenhagen"
+  }
+]
+    },
+    tourCategoryId: "vip-cruise",
+    contactPersonnel: [
+      {
+        name: "Catherine Reeves",
+        role: "Cruise Specialist",
+        languages: ["Norwegian","French"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/83.jpg",
+        contact: {
+          contactEmail: "moonlit.reflection.o@velarivoyages.com",
+          contactNumber: "+1-336-990-3647"
+        }
+      }
+    ],
+    title: "Moonlit Reflection of the Runestone Realms",
+    description: "Explore a new side of Northern Europe with this moonlit infinite starting in Amsterdam. Visit charming ports such as Stockholm, Helsinki, Copenhagen, each offering its own unique rhythm.",
+    rating: 4.2,
+    tags: ["themed-cruise","cruise-line","VIP"]
+  },
+  {
+    basePrice: 4597,
+    departureLocation: {
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.377956,
+    "longitude": 4.89707
+  }
+},
+    arrivalLocation: {
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.377956,
+    "longitude": 4.89707
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
@@ -2656,27 +1675,27 @@ export const amsterdamCruises: Cruise[] = [
     }
   }
 ],
-      description: "Escape into the calm waters of Northern Europe with this captivating journey from Amsterdam. Explore vibrant markets, sun-soaked beaches, and architectural marvels at Stockholm, Copenhagen.",
-      distance: "582 nautical miles",
-      totalDuration: "11 days",
+      description: "Experience the elegance of the seas on this riveting quest through Northern Europe, starting from the illustrious port of Amsterdam. From Helsinki to Stockholm, each destination offers its own story, culture, and breathtaking views.",
+      distance: "1022 nautical miles",
+      totalDuration: "8 days",
       timeAtSea: [
   {
     "start": "Day 2",
     "end": "Day 2",
     "duration": "1 days",
-    "description": "Sailing from Amsterdam to Stockholm"
+    "description": "Sailing from Amsterdam to Helsinki"
   },
   {
     "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Sailing from Stockholm to Copenhagen"
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Helsinki to Stockholm"
   },
   {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from Copenhagen to Amsterdam"
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Stockholm to Amsterdam"
   }
 ],
       timeOnLand: [
@@ -2690,43 +1709,43 @@ export const amsterdamCruises: Cruise[] = [
     "start": "Day 3",
     "end": "Day 3",
     "duration": "1 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
     "description": "Exploring Stockholm"
   },
   {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Exploring Copenhagen"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
+    "start": "Day 7",
+    "end": "Day 8",
     "duration": "2 days",
     "description": "Exploring Amsterdam"
   }
 ]
     },
-    tourCategoryId: "fall-foliage-cruise",
+    tourCategoryId: "theme-cruise",
     contactPersonnel: [
       {
-        name: "Deborah Payne",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
+        name: "Chloe Dunn",
+        role: "Cruise Specialist",
+        languages: ["Norwegian","French"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
         contact: {
-          contactEmail: "unforgettable.horizo@velarivoyages.com",
-          contactNumber: "+1-599-896-8396"
+          contactEmail: "infinite.haven.of.th@velarivoyages.com",
+          contactNumber: "+1-524-726-5090"
         }
       }
     ],
-    title: "Unforgettable Horizon of the Runestone Realms",
-    description: "Escape into the calm waters of Northern Europe with this captivating journey from Amsterdam. Explore vibrant markets, sun-soaked beaches, and architectural marvels at Stockholm, Copenhagen.",
-    rating: 4.8,
-    tags: ["relaxation","short-getaway"]
+    title: "Infinite Haven of the Waterborne Enigma",
+    description: "Experience the elegance of the seas on this riveting quest through Northern Europe, starting from the illustrious port of Amsterdam. From Helsinki to Stockholm, each destination offers its own story, culture, and breathtaking views.",
+    rating: 4.5,
+    tags: ["themed-cruise"]
   },
   {
-    basePrice: 5040,
+    basePrice: 1715,
     departureLocation: {
   "city": "Amsterdam",
   "country": "Netherlands",
@@ -2776,7 +1795,7 @@ export const amsterdamCruises: Cruise[] = [
     }
   },
   {
-    "city": "Helsinki",
+    "city": "Stockholm",
     "country": "",
     "coordinates": {
       "latitude": 0,
@@ -2793,89 +1812,89 @@ export const amsterdamCruises: Cruise[] = [
     }
   }
 ],
-      description: "This inspiring exploration departs from Amsterdam, navigating the diverse landscapes and vibrant cities of Northern Europe. Must-see stops include Copenhagen, Oslo, Helsinki.",
-      distance: "964 nautical miles",
+      description: "Discover the wonders of Northern Europe aboard this golden cruise departing from Amsterdam. Journey through crystal waters to explore the treasures of Copenhagen, Oslo, Stockholm, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
+      distance: "701 nautical miles",
       totalDuration: "13 days",
       timeAtSea: [
   {
-    "start": "Day 2",
+    "start": "Day 3",
     "end": "Day 3",
-    "duration": "2 days",
+    "duration": "1 days",
     "description": "Sailing from Amsterdam to Copenhagen"
   },
   {
-    "start": "Day 6",
-    "end": "Day 7",
+    "start": "Day 5",
+    "end": "Day 6",
     "duration": "2 days",
     "description": "Sailing from Copenhagen to Oslo"
   },
   {
-    "start": "Day 9",
+    "start": "Day 8",
     "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Oslo to Helsinki"
+    "duration": "2 days",
+    "description": "Sailing from Oslo to Stockholm"
   },
   {
-    "start": "Day 12",
-    "end": "Day 12",
+    "start": "Day 11",
+    "end": "Day 11",
     "duration": "1 days",
-    "description": "Sailing from Helsinki to Amsterdam"
+    "description": "Sailing from Stockholm to Amsterdam"
   }
 ],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
+    "end": "Day 2",
+    "duration": "2 days",
     "description": "Exploring Amsterdam"
   },
   {
     "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
+    "end": "Day 4",
+    "duration": "1 days",
     "description": "Exploring Copenhagen"
   },
   {
-    "start": "Day 8",
-    "end": "Day 8",
+    "start": "Day 7",
+    "end": "Day 7",
     "duration": "1 days",
     "description": "Exploring Oslo"
   },
   {
     "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring Helsinki"
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Stockholm"
   },
   {
-    "start": "Day 13",
+    "start": "Day 12",
     "end": "Day 13",
-    "duration": "1 days",
+    "duration": "2 days",
     "description": "Exploring Amsterdam"
   }
 ]
     },
-    tourCategoryId: "fall-foliage-cruise",
+    tourCategoryId: "glacier-cruise",
     contactPersonnel: [
       {
-        name: "Savannah Harper",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
+        name: "Ella Wells",
+        role: "Cruise Specialist",
+        languages: ["Norwegian","French"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
         contact: {
-          contactEmail: "opulent.discovery.of@velarivoyages.com",
-          contactNumber: "+1-473-171-4417"
+          contactEmail: "pearlescent.resonanc@velarivoyages.com",
+          contactNumber: "+1-616-187-3321"
         }
       }
     ],
-    title: "Opulent Discovery of the Twilight Fjords",
-    description: "This inspiring exploration departs from Amsterdam, navigating the diverse landscapes and vibrant cities of Northern Europe. Must-see stops include Copenhagen, Oslo, Helsinki.",
-    rating: 4.1,
-    tags: ["luxury","VIP","exclusive"]
+    title: "Pearlescent Resonance of the Aurora Veil",
+    description: "Discover the wonders of Northern Europe aboard this golden cruise departing from Amsterdam. Journey through crystal waters to explore the treasures of Copenhagen, Oslo, Stockholm, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
+    rating: 4.5,
+    tags: ["cruise-excursion","cruise-holiday","glacier-cruise"]
   },
   {
-    basePrice: 6217,
+    basePrice: 8664,
     departureLocation: {
   "city": "Amsterdam",
   "country": "Netherlands",
@@ -2893,8 +1912,8 @@ export const amsterdamCruises: Cruise[] = [
     "longitude": 0
   }
 },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
     category: "mainstream",
     itinerary: {
       route: [
@@ -2908,14 +1927,6 @@ export const amsterdamCruises: Cruise[] = [
     }
   },
   {
-    "city": "Helsinki",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
     "city": "Tallinn",
     "country": "",
     "coordinates": {
@@ -2924,14 +1935,6 @@ export const amsterdamCruises: Cruise[] = [
     }
   },
   {
-    "city": "Oslo",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
     "city": "Stockholm",
     "country": "",
     "coordinates": {
@@ -2940,572 +1943,61 @@ export const amsterdamCruises: Cruise[] = [
     }
   }
 ],
-      description: "Depart from the iconic port of Amsterdam and sail through the enchanting Northern Europe. Explore vibrant destinations like Helsinki, Tallinn, Oslo, Stockholm, each offering its own unique charm and local flair.",
-      distance: "574 nautical miles",
-      totalDuration: "13 days",
+      description: "Leave ordinary behind as you sail from Amsterdam across the captivating Northern Europe. Discover the distinctive personality of each destination, from Tallinn, Stockholm.",
+      distance: "1056 nautical miles",
+      totalDuration: "9 days",
       timeAtSea: [
   {
     "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Amsterdam to Helsinki"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Helsinki to Tallinn"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Tallinn to Oslo"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Sailing from Oslo to Stockholm"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Amsterdam"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Helsinki"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Tallinn"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring Oslo"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Exploring Stockholm"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Rachel Hudson",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
-        contact: {
-          contactEmail: "legendary.mystique.o@velarivoyages.com",
-          contactNumber: "+1-338-327-4506"
-        }
-      }
-    ],
-    title: "Legendary Mystique of the Dutch Jewel",
-    description: "Depart from the iconic port of Amsterdam and sail through the enchanting Northern Europe. Explore vibrant destinations like Helsinki, Tallinn, Oslo, Stockholm, each offering its own unique charm and local flair.",
-    rating: 4.5,
-    tags: ["romantic","adventure"]
-  },
-  {
-    basePrice: 2537,
-    departureLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    arrivalLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "ultra-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  },
-  {
-    "city": "Stockholm",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Oslo",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "St. Petersburg",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  }
-],
-      description: "This inspiring escape departs from Amsterdam, navigating the diverse landscapes and vibrant cities of Northern Europe. Must-see stops include Stockholm, Oslo, St. Petersburg.",
-      distance: "876 nautical miles",
-      totalDuration: "15 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
     "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Amsterdam to Stockholm"
+    "duration": "1 days",
+    "description": "Sailing from Amsterdam to Tallinn"
   },
   {
     "start": "Day 6",
     "end": "Day 7",
     "duration": "2 days",
-    "description": "Sailing from Stockholm to Oslo"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from Oslo to St. Petersburg"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Sailing from St. Petersburg to Amsterdam"
+    "description": "Sailing from Tallinn to Stockholm"
   }
 ],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
+    "end": "Day 2",
+    "duration": "2 days",
     "description": "Exploring Amsterdam"
   },
   {
     "start": "Day 4",
     "end": "Day 5",
     "duration": "2 days",
-    "description": "Exploring Stockholm"
+    "description": "Exploring Tallinn"
   },
   {
     "start": "Day 8",
     "end": "Day 9",
     "duration": "2 days",
-    "description": "Exploring Oslo"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring St. Petersburg"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
-    "description": "Exploring Amsterdam"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Isabella Graves",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
-        contact: {
-          contactEmail: "crystalline.sojourn.@velarivoyages.com",
-          contactNumber: "+1-723-473-9387"
-        }
-      }
-    ],
-    title: "Crystalline Sojourn of the Dutch Jewel",
-    description: "This inspiring escape departs from Amsterdam, navigating the diverse landscapes and vibrant cities of Northern Europe. Must-see stops include Stockholm, Oslo, St. Petersburg.",
-    rating: 4.7,
-    tags: ["adventure","luxury","tropical"]
-  },
-  {
-    basePrice: 5935,
-    departureLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    arrivalLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "expedition",
-    itinerary: {
-      route: [
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  },
-  {
-    "city": "Helsinki",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "St. Petersburg",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Oslo",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Stockholm",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  }
-],
-      description: "Depart from the iconic port of Amsterdam and sail through the enchanting Northern Europe. Explore vibrant destinations like Helsinki, St. Petersburg, Oslo, Stockholm, each offering its own unique charm and local flair.",
-      distance: "1269 nautical miles",
-      totalDuration: "18 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Amsterdam to Helsinki"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Helsinki to St. Petersburg"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from St. Petersburg to Oslo"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Sailing from Oslo to Stockholm"
-  },
-  {
-    "start": "Day 16",
-    "end": "Day 17",
-    "duration": "2 days",
-    "description": "Sailing from Stockholm to Amsterdam"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Amsterdam"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Helsinki"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring St. Petersburg"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Oslo"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
     "description": "Exploring Stockholm"
-  },
-  {
-    "start": "Day 18",
-    "end": "Day 18",
-    "duration": "1 days",
-    "description": "Exploring Amsterdam"
   }
 ]
     },
-    tourCategoryId: "repositioning-cruise",
+    tourCategoryId: "holiday-cruise",
     contactPersonnel: [
       {
-        name: "Patricia Harper",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/women/42.jpg",
+        name: "Brenda Campbell",
+        role: "Cruise Specialist",
+        languages: ["Norwegian","French"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/96.jpg",
         contact: {
-          contactEmail: "breathtaking.odyssey@velarivoyages.com",
-          contactNumber: "+1-486-469-8111"
+          contactEmail: "infinite.quest.of.th@velarivoyages.com",
+          contactNumber: "+1-123-788-7032"
         }
       }
     ],
-    title: "Breathtaking Odyssey of the Canal Crown",
-    description: "Depart from the iconic port of Amsterdam and sail through the enchanting Northern Europe. Explore vibrant destinations like Helsinki, St. Petersburg, Oslo, Stockholm, each offering its own unique charm and local flair.",
+    title: "Infinite Quest of the Crown Jewel Capitals",
+    description: "Leave ordinary behind as you sail from Amsterdam across the captivating Northern Europe. Discover the distinctive personality of each destination, from Tallinn, Stockholm.",
     rating: 4.8,
-    tags: ["VIP","tropical"]
-  },
-  {
-    basePrice: 3899,
-    departureLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    arrivalLocation: {
-  "city": "Amsterdam",
-  "country": "Netherlands",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 52.377956,
-    "longitude": 4.89707
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  },
-  {
-    "city": "Helsinki",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Tallinn",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  },
-  {
-    "city": "St. Petersburg",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 52.377956,
-      "longitude": 4.89707
-    }
-  }
-],
-      description: "Depart from the iconic port of Amsterdam and sail through the enchanting Northern Europe. Explore vibrant destinations like Helsinki, Tallinn, Copenhagen, St. Petersburg, each offering its own unique charm and local flair.",
-      distance: "718 nautical miles",
-      totalDuration: "17 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Amsterdam to Helsinki"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Helsinki to Tallinn"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Tallinn to Copenhagen"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Sailing from Copenhagen to St. Petersburg"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
-    "description": "Sailing from St. Petersburg to Amsterdam"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Amsterdam"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Helsinki"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Tallinn"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Copenhagen"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Exploring St. Petersburg"
-  },
-  {
-    "start": "Day 16",
-    "end": "Day 17",
-    "duration": "2 days",
-    "description": "Exploring Amsterdam"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Kennedy Stewart",
-        role: "Family Activities Coordinator",
-        languages: ["Zulu","Danish","Urdu"],
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
-        contact: {
-          contactEmail: "whispering.escape.of@velarivoyages.com",
-          contactNumber: "+1-142-791-9918"
-        }
-      }
-    ],
-    title: "Whispering Escape of the Canal Crown",
-    description: "Depart from the iconic port of Amsterdam and sail through the enchanting Northern Europe. Explore vibrant destinations like Helsinki, Tallinn, Copenhagen, St. Petersburg, each offering its own unique charm and local flair.",
-    rating: 4.1,
-    tags: ["themed-cruise"]
+    tags: ["exclusive","culinary","holiday-cruise"]
   }
 ];

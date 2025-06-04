@@ -2,452 +2,7 @@ import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const vancouverCruises: Cruise[] = [
   {
-    basePrice: 9458,
-    departureLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    arrivalLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  },
-  {
-    "city": "Glacier Bay",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Sitka",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Juneau",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  }
-],
-      description: "Set off on a tide from Vancouver that captures the essence of Alaska. Discover cultural gems and culinary delights across Glacier Bay, Sitka, Juneau.",
-      distance: "533 nautical miles",
-      totalDuration: "14 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Vancouver to Glacier Bay"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Glacier Bay to Sitka"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Sitka to Juneau"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Sailing from Juneau to Vancouver"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Vancouver"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Glacier Bay"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Sitka"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring Juneau"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
-    "duration": "2 days",
-    "description": "Exploring Vancouver"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Christine Spencer",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
-        contact: {
-          contactEmail: "epic.retreat.of.the.@velarivoyages.com",
-          contactNumber: "+1-115-816-1462"
-        }
-      }
-    ],
-    title: "Epic Retreat of the Northern Lights",
-    description: "Set off on a tide from Vancouver that captures the essence of Alaska. Discover cultural gems and culinary delights across Glacier Bay, Sitka, Juneau.",
-    rating: 4.6,
-    tags: ["adventure","VIP","fall-cruise"]
-  },
-  {
-    basePrice: 4650,
-    departureLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    arrivalLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  },
-  {
-    "city": "Sitka",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Juneau",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Skagway",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Glacier Bay",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  }
-],
-      description: "Begin your escape in Vancouver, a gateway to the soul of Alaska. Enjoy days spent exploring Sitka, Juneau, Skagway, Glacier Bay and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
-      distance: "546 nautical miles",
-      totalDuration: "17 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Vancouver to Sitka"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Sitka to Juneau"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Juneau to Skagway"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
-    "duration": "2 days",
-    "description": "Sailing from Skagway to Glacier Bay"
-  },
-  {
-    "start": "Day 16",
-    "end": "Day 16",
-    "duration": "1 days",
-    "description": "Sailing from Glacier Bay to Vancouver"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Vancouver"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Sitka"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Juneau"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Skagway"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 15",
-    "duration": "1 days",
-    "description": "Exploring Glacier Bay"
-  },
-  {
-    "start": "Day 17",
-    "end": "Day 17",
-    "duration": "1 days",
-    "description": "Exploring Vancouver"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Chloe Hall",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
-        contact: {
-          contactEmail: "epic.retreat.of.the.@velarivoyages.com",
-          contactNumber: "+1-898-390-2086"
-        }
-      }
-    ],
-    title: "Epic Retreat of the Pacific Jewel",
-    description: "Begin your escape in Vancouver, a gateway to the soul of Alaska. Enjoy days spent exploring Sitka, Juneau, Skagway, Glacier Bay and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
-    rating: 4.6,
-    tags: ["relaxation","tropical","seasonal"]
-  },
-  {
-    basePrice: 1473,
-    departureLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    arrivalLocation: {
-  "city": "Skagway",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "entry-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  },
-  {
-    "city": "Sitka",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Juneau",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Skagway",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "This extraordinary passage from Vancouver offers the ultimate Alaska exploration. Immerse yourself in the rich cultures and stunning landscapes of Sitka, Juneau and Skagway, creating memories that will last a lifetime.",
-      distance: "776 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Vancouver to Sitka"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Sitka to Juneau"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Juneau to Skagway"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Vancouver"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Sitka"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Juneau"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Skagway"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Riley Day",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
-        experienceYears: 5,
-        profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
-        contact: {
-          contactEmail: "starlit.odyssey.of.t@velarivoyages.com",
-          contactNumber: "+1-928-221-8115"
-        }
-      }
-    ],
-    title: "Starlit Odyssey of the Pacific Jewel",
-    description: "This extraordinary passage from Vancouver offers the ultimate Alaska exploration. Immerse yourself in the rich cultures and stunning landscapes of Sitka, Juneau and Skagway, creating memories that will last a lifetime.",
-    rating: 4.9,
-    tags: ["fall-cruise"]
-  },
-  {
-    basePrice: 5242,
+    basePrice: 8187,
     departureLocation: {
   "city": "Vancouver",
   "country": "Canada",
@@ -467,8 +22,8 @@ export const vancouverCruises: Cruise[] = [
   }
 },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium-luxury",
+    hasPopularDestination: false,
+    category: "premium",
     itinerary: {
       route: [
   {
@@ -481,23 +36,164 @@ export const vancouverCruises: Cruise[] = [
     }
   },
   {
-    "city": "Skagway",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Juneau",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
     "city": "Sitka",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Glacier Bay",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Ketchikan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  }
+],
+      description: "Begin a captivating escape through the Alaska, departing Vancouver. With visits to Sitka, Glacier Bay, Ketchikan, each day brings a new adventure and deeper connection to the region.",
+      distance: "880 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Vancouver to Sitka"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Sitka to Glacier Bay"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Glacier Bay to Ketchikan"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Ketchikan to Vancouver"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Sitka"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Glacier Bay"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Ketchikan"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring Vancouver"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Maya Morgan",
+        role: "Travel Advisor",
+        languages: ["Italian","Filipino"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/93.jpg",
+        contact: {
+          contactEmail: "pristine.odyssey.of.@velarivoyages.com",
+          contactNumber: "+1-919-307-9789"
+        }
+      }
+    ],
+    title: "Pristine Odyssey of the Forest-Kissed Skyline",
+    description: "Begin a captivating escape through the Alaska, departing Vancouver. With visits to Sitka, Glacier Bay, Ketchikan, each day brings a new adventure and deeper connection to the region.",
+    rating: 4.4,
+    tags: ["cruise-ship","historical"]
+  },
+  {
+    basePrice: 2112,
+    departureLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    arrivalLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "Glacier Bay",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Ketchikan",
     "country": "",
     "coordinates": {
       "latitude": 0,
@@ -522,101 +218,89 @@ export const vancouverCruises: Cruise[] = [
     }
   }
 ],
-      description: "Set sail from historic Vancouver for a modern escape into the Alaska. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Skagway, Juneau, Sitka, Victoria.",
-      distance: "1145 nautical miles",
-      totalDuration: "17 days",
+      description: "Escape the everyday with this pristine journey through Alaska, departing from Vancouver. You'll visit Glacier Bay, Ketchikan, Victoria, where every stop is a new adventure.",
+      distance: "1192 nautical miles",
+      totalDuration: "13 days",
       timeAtSea: [
   {
-    "start": "Day 3",
+    "start": "Day 2",
     "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Vancouver to Skagway"
+    "duration": "2 days",
+    "description": "Sailing from Vancouver to Glacier Bay"
   },
   {
     "start": "Day 6",
     "end": "Day 6",
     "duration": "1 days",
-    "description": "Sailing from Skagway to Juneau"
+    "description": "Sailing from Glacier Bay to Ketchikan"
   },
   {
     "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Juneau to Sitka"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Sailing from Sitka to Victoria"
-  },
-  {
-    "start": "Day 16",
-    "end": "Day 16",
+    "end": "Day 9",
     "duration": "1 days",
+    "description": "Sailing from Ketchikan to Victoria"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
     "description": "Sailing from Victoria to Vancouver"
   }
 ],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
+    "end": "Day 1",
+    "duration": "1 days",
     "description": "Exploring Vancouver"
   },
   {
     "start": "Day 4",
     "end": "Day 5",
     "duration": "2 days",
-    "description": "Exploring Skagway"
+    "description": "Exploring Glacier Bay"
   },
   {
     "start": "Day 7",
     "end": "Day 8",
     "duration": "2 days",
-    "description": "Exploring Juneau"
+    "description": "Exploring Ketchikan"
   },
   {
-    "start": "Day 11",
-    "end": "Day 11",
+    "start": "Day 10",
+    "end": "Day 10",
     "duration": "1 days",
-    "description": "Exploring Sitka"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
     "description": "Exploring Victoria"
   },
   {
-    "start": "Day 17",
-    "end": "Day 17",
+    "start": "Day 13",
+    "end": "Day 13",
     "duration": "1 days",
     "description": "Exploring Vancouver"
   }
 ]
     },
-    tourCategoryId: "repositioning-cruise",
+    tourCategoryId: "glacier-cruise",
     contactPersonnel: [
       {
-        name: "Audrey Ellis",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
+        name: "Julie Morgan",
+        role: "Travel Advisor",
+        languages: ["Italian","Filipino"],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
         contact: {
-          contactEmail: "crystalline.escape.o@velarivoyages.com",
-          contactNumber: "+1-188-410-2353"
+          contactEmail: "heavenly.frontier.of@velarivoyages.com",
+          contactNumber: "+1-991-412-1544"
         }
       }
     ],
-    title: "Crystalline Escape of the Icy Passageways",
-    description: "Set sail from historic Vancouver for a modern escape into the Alaska. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Skagway, Juneau, Sitka, Victoria.",
-    rating: 4.6,
-    tags: ["seasonal"]
+    title: "Heavenly Frontier of the Pacific Jewel",
+    description: "Escape the everyday with this pristine journey through Alaska, departing from Vancouver. You'll visit Glacier Bay, Ketchikan, Victoria, where every stop is a new adventure.",
+    rating: 4.7,
+    tags: ["historical","glacier-cruise"]
   },
   {
-    basePrice: 1695,
+    basePrice: 2107,
     departureLocation: {
   "city": "Vancouver",
   "country": "Canada",
@@ -627,7 +311,114 @@ export const vancouverCruises: Cruise[] = [
   }
 },
     arrivalLocation: {
-  "city": "Victoria",
+  "city": "Glacier Bay",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "Skagway",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Glacier Bay",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Begin your journey in Vancouver, where tradition meets travel. This immersive mirage reveals the finest of Alaska, from the beaches of Skagway to the streets of Glacier Bay.",
+      distance: "1111 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Vancouver to Skagway"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Skagway to Glacier Bay"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Skagway"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Glacier Bay"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        name: "Jessica Palmer",
+        role: "Travel Advisor",
+        languages: ["Italian","Filipino"],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
+        contact: {
+          contactEmail: "opulent.reverie.of.t@velarivoyages.com",
+          contactNumber: "+1-594-798-6394"
+        }
+      }
+    ],
+    title: "Opulent Reverie of the Icy Passageways",
+    description: "Begin your journey in Vancouver, where tradition meets travel. This immersive mirage reveals the finest of Alaska, from the beaches of Skagway to the streets of Glacier Bay.",
+    rating: 4.9,
+    tags: ["weekend-cruise","holiday-cruise","cruise-vacation"]
+  },
+  {
+    basePrice: 6865,
+    departureLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    arrivalLocation: {
+  "city": "Sitka",
   "country": "",
   "coordinates": {
     "latitude": 0,
@@ -635,833 +426,6 @@ export const vancouverCruises: Cruise[] = [
   }
 },
     isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  },
-  {
-    "city": "Sitka",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Ketchikan",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Victoria",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Start in the vibrant city of Vancouver and venture into the iconic Alaska. Discover authentic local cultures, cuisine, and coastal wonders in Sitka, Ketchikan, Victoria.",
-      distance: "793 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Vancouver to Sitka"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Sitka to Ketchikan"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from Ketchikan to Victoria"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Vancouver"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Sitka"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Ketchikan"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring Victoria"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Samantha West",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
-        contact: {
-          contactEmail: "starlit.odyssey.of.t@velarivoyages.com",
-          contactNumber: "+1-970-316-7019"
-        }
-      }
-    ],
-    title: "Starlit Odyssey of the Pacific Jewel",
-    description: "Start in the vibrant city of Vancouver and venture into the iconic Alaska. Discover authentic local cultures, cuisine, and coastal wonders in Sitka, Ketchikan, Victoria.",
-    rating: 4.3,
-    tags: ["short-getaway","family-friendly","VIP"]
-  },
-  {
-    basePrice: 8571,
-    departureLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    arrivalLocation: {
-  "city": "Victoria",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  },
-  {
-    "city": "Skagway",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Ketchikan",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Glacier Bay",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Victoria",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Leave stress behind with this curated escape from Vancouver. Sail across the best of Alaska and explore treasures like Skagway, Ketchikan, Glacier Bay, Victoria with comfort and style.",
-      distance: "629 nautical miles",
-      totalDuration: "14 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Vancouver to Skagway"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Skagway to Ketchikan"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from Ketchikan to Glacier Bay"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Sailing from Glacier Bay to Victoria"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Vancouver"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Skagway"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Ketchikan"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring Glacier Bay"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 14",
-    "duration": "1 days",
-    "description": "Exploring Victoria"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Caroline Keller",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/women/16.jpg",
-        contact: {
-          contactEmail: "forbidden.adventure.@velarivoyages.com",
-          contactNumber: "+1-123-188-6387"
-        }
-      }
-    ],
-    title: "Forbidden Adventure of the Glacial Kingdom",
-    description: "Leave stress behind with this curated escape from Vancouver. Sail across the best of Alaska and explore treasures like Skagway, Ketchikan, Glacier Bay, Victoria with comfort and style.",
-    rating: 4.5,
-    tags: ["adventure"]
-  },
-  {
-    basePrice: 3183,
-    departureLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    arrivalLocation: {
-  "city": "Skagway",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  },
-  {
-    "city": "Ketchikan",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Skagway",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Your expedition begins in Vancouver, where every sunset on the Alaska horizon promises another day of discovery—from Ketchikan, Skagway to hidden ports of charm.",
-      distance: "1117 nautical miles",
-      totalDuration: "8 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Vancouver to Ketchikan"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Ketchikan to Skagway"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Vancouver"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring Ketchikan"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Skagway"
-  }
-]
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        name: "Melissa Hawkins",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
-        contact: {
-          contactEmail: "timeless.mystique.of@velarivoyages.com",
-          contactNumber: "+1-492-858-8337"
-        }
-      }
-    ],
-    title: "Timeless Mystique of the Mountain-Edge Metropolis",
-    description: "Your expedition begins in Vancouver, where every sunset on the Alaska horizon promises another day of discovery—from Ketchikan, Skagway to hidden ports of charm.",
-    rating: 4.5,
-    tags: ["themed-cruise","romantic"]
-  },
-  {
-    basePrice: 5513,
-    departureLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    arrivalLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "entry-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  },
-  {
-    "city": "Skagway",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Juneau",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Glacier Bay",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Sitka",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  }
-],
-      description: "Embark from Vancouver and traverse the Alaska in style. Whether it’s the energy of Skagway or the calm of Juneau, each destination reveals a new side of paradise.",
-      distance: "1375 nautical miles",
-      totalDuration: "17 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Vancouver to Skagway"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Sailing from Skagway to Juneau"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Juneau to Glacier Bay"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Sailing from Glacier Bay to Sitka"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
-    "description": "Sailing from Sitka to Vancouver"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Vancouver"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring Skagway"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring Juneau"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Glacier Bay"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring Sitka"
-  },
-  {
-    "start": "Day 16",
-    "end": "Day 17",
-    "duration": "2 days",
-    "description": "Exploring Vancouver"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Sofia Fox",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/women/79.jpg",
-        contact: {
-          contactEmail: "celestial.sanctuary.@velarivoyages.com",
-          contactNumber: "+1-144-424-6271"
-        }
-      }
-    ],
-    title: "Celestial Sanctuary of the Frozen Frontiers",
-    description: "Embark from Vancouver and traverse the Alaska in style. Whether it’s the energy of Skagway or the calm of Juneau, each destination reveals a new side of paradise.",
-    rating: 4.5,
-    tags: ["adventure","tropical"]
-  },
-  {
-    basePrice: 7752,
-    departureLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    arrivalLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  },
-  {
-    "city": "Victoria",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Juneau",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  }
-],
-      description: "Set sail from Vancouver on this starlit tide through the heart of Alaska. Experience the perfect blend of relaxation and adventure as you explore Victoria and Juneau, with personalized service and unforgettable experiences awaiting at every port.",
-      distance: "1224 nautical miles",
-      totalDuration: "9 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Vancouver to Victoria"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Victoria to Juneau"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Juneau to Vancouver"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Vancouver"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Victoria"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Juneau"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Vancouver"
-  }
-]
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        name: "Susan Day",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
-        contact: {
-          contactEmail: "extraordinary.sojour@velarivoyages.com",
-          contactNumber: "+1-382-907-7547"
-        }
-      }
-    ],
-    title: "Extraordinary Sojourn of the Mountain-Edge Metropolis",
-    description: "Set sail from Vancouver on this starlit tide through the heart of Alaska. Experience the perfect blend of relaxation and adventure as you explore Victoria and Juneau, with personalized service and unforgettable experiences awaiting at every port.",
-    rating: 4.8,
-    tags: ["exclusive","themed-cruise","sightseeing"]
-  },
-  {
-    basePrice: 8526,
-    departureLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    arrivalLocation: {
-  "city": "Skagway",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "expedition",
-    itinerary: {
-      route: [
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  },
-  {
-    "city": "Ketchikan",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Glacier Bay",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Juneau",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Skagway",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Depart from Vancouver on this thoughtfully designed realm across the Alaska. Savor coastal charm, cultural treasures, and ocean views with stops at Ketchikan, Glacier Bay, Juneau, Skagway.",
-      distance: "1427 nautical miles",
-      totalDuration: "14 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Vancouver to Ketchikan"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Ketchikan to Glacier Bay"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Glacier Bay to Juneau"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Sailing from Juneau to Skagway"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Vancouver"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Ketchikan"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Glacier Bay"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Juneau"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 14",
-    "duration": "1 days",
-    "description": "Exploring Skagway"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Melissa Reed",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
-        contact: {
-          contactEmail: "spectacular.realm.of@velarivoyages.com",
-          contactNumber: "+1-481-604-7827"
-        }
-      }
-    ],
-    title: "Spectacular Realm of the Mountain-Edge Metropolis",
-    description: "Depart from Vancouver on this thoughtfully designed realm across the Alaska. Savor coastal charm, cultural treasures, and ocean views with stops at Ketchikan, Glacier Bay, Juneau, Skagway.",
-    rating: 4.7,
-    tags: ["exclusive","relaxation","fall-cruise"]
-  },
-  {
-    basePrice: 7952,
-    departureLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    arrivalLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "mainstream",
     itinerary: {
@@ -1484,241 +448,73 @@ export const vancouverCruises: Cruise[] = [
     }
   },
   {
-    "city": "Ketchikan",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  }
-],
-      description: "Savor each moment of this midnight escape through Alaska, starting in Vancouver. Visit renowned locations like Skagway, Ketchikan, where adventure and relaxation intertwine.",
-      distance: "1293 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Vancouver to Skagway"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Skagway to Ketchikan"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Ketchikan to Vancouver"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Vancouver"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Skagway"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Ketchikan"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Vancouver"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Brenda Nash",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/women/30.jpg",
-        contact: {
-          contactEmail: "captivating.journey.@velarivoyages.com",
-          contactNumber: "+1-138-359-2585"
-        }
-      }
-    ],
-    title: "Captivating Journey of the Frozen Frontiers",
-    description: "Savor each moment of this midnight escape through Alaska, starting in Vancouver. Visit renowned locations like Skagway, Ketchikan, where adventure and relaxation intertwine.",
-    rating: 4.5,
-    tags: ["family-friendly","adventure"]
-  },
-  {
-    basePrice: 7157,
-    departureLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    arrivalLocation: {
-  "city": "Skagway",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  },
-  {
-    "city": "Ketchikan",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Victoria",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
     "city": "Sitka",
     "country": "",
     "coordinates": {
       "latitude": 0,
       "longitude": 0
     }
-  },
-  {
-    "city": "Skagway",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
   }
 ],
-      description: "Discover the wonders of Alaska aboard this golden cruise departing from Vancouver. Journey through crystal waters to explore the treasures of Ketchikan, Victoria, Sitka, Skagway, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
-      distance: "1121 nautical miles",
-      totalDuration: "12 days",
+      description: "Sail into splendor from Vancouver on a idyllic voyage through Alaska. Let each stop—from Skagway to Sitka—reveal the unique flavors and colors of the region.",
+      distance: "1018 nautical miles",
+      totalDuration: "7 days",
       timeAtSea: [
   {
-    "start": "Day 3",
-    "end": "Day 3",
+    "start": "Day 2",
+    "end": "Day 2",
     "duration": "1 days",
-    "description": "Sailing from Vancouver to Ketchikan"
+    "description": "Sailing from Vancouver to Skagway"
   },
   {
-    "start": "Day 6",
-    "end": "Day 6",
+    "start": "Day 5",
+    "end": "Day 5",
     "duration": "1 days",
-    "description": "Sailing from Ketchikan to Victoria"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Victoria to Sitka"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Sailing from Sitka to Skagway"
+    "description": "Sailing from Skagway to Sitka"
   }
 ],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
+    "end": "Day 1",
+    "duration": "1 days",
     "description": "Exploring Vancouver"
   },
   {
-    "start": "Day 4",
-    "end": "Day 5",
+    "start": "Day 3",
+    "end": "Day 4",
     "duration": "2 days",
-    "description": "Exploring Ketchikan"
+    "description": "Exploring Skagway"
   },
   {
-    "start": "Day 7",
+    "start": "Day 6",
     "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Victoria"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
     "duration": "2 days",
     "description": "Exploring Sitka"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring Skagway"
   }
 ]
     },
-    tourCategoryId: "fall-foliage-cruise",
+    tourCategoryId: "glacier-cruise",
     contactPersonnel: [
       {
-        name: "Grace Hawkins",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
+        name: "Savannah Fox",
+        role: "Travel Advisor",
+        languages: ["Italian","Filipino"],
         experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/women/38.jpg",
+        profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
         contact: {
-          contactEmail: "luxurious.escape.of.@velarivoyages.com",
-          contactNumber: "+1-607-224-4717"
+          contactEmail: "extraordinary.sanctu@velarivoyages.com",
+          contactNumber: "+1-218-609-8809"
         }
       }
     ],
-    title: "Luxurious Escape of the Pacific Jewel",
-    description: "Discover the wonders of Alaska aboard this golden cruise departing from Vancouver. Journey through crystal waters to explore the treasures of Ketchikan, Victoria, Sitka, Skagway, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
-    rating: 4.7,
-    tags: ["romantic","sightseeing"]
+    title: "Extraordinary Sanctuary of the Snow-Crowned Peaks",
+    description: "Sail into splendor from Vancouver on a idyllic voyage through Alaska. Let each stop—from Skagway to Sitka—reveal the unique flavors and colors of the region.",
+    rating: 4.6,
+    tags: ["glacier-cruise"]
   },
   {
-    basePrice: 9029,
+    basePrice: 5499,
     departureLocation: {
   "city": "Vancouver",
   "country": "Canada",
@@ -1739,262 +535,6 @@ export const vancouverCruises: Cruise[] = [
 },
     isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  },
-  {
-    "city": "Sitka",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Glacier Bay",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Victoria",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  }
-],
-      description: "This handpicked exploration begins in Vancouver and travels through Alaska's iconic waterscapes. Discover Sitka, Glacier Bay, Victoria as each day brings new stories and every night offers elegant repose.",
-      distance: "525 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Vancouver to Sitka"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Sailing from Sitka to Glacier Bay"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Sailing from Glacier Bay to Victoria"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Victoria to Vancouver"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Vancouver"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring Sitka"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring Glacier Bay"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Victoria"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring Vancouver"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Naomi Parker",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
-        contact: {
-          contactEmail: "mesmerizing.adventur@velarivoyages.com",
-          contactNumber: "+1-576-930-9362"
-        }
-      }
-    ],
-    title: "Mesmerizing Adventure of the Pacific Jewel",
-    description: "This handpicked exploration begins in Vancouver and travels through Alaska's iconic waterscapes. Discover Sitka, Glacier Bay, Victoria as each day brings new stories and every night offers elegant repose.",
-    rating: 4.1,
-    tags: ["exclusive"]
-  },
-  {
-    basePrice: 2712,
-    departureLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    arrivalLocation: {
-  "city": "Ketchikan",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "ultra-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  },
-  {
-    "city": "Victoria",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Ketchikan",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Let this mesmerizing voyage redefine your idea of travel. From Vancouver, explore the Alaska in luxurious comfort, stopping at Victoria, Ketchikan where every port offers a new chapter.",
-      distance: "1131 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Vancouver to Victoria"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Victoria to Ketchikan"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Vancouver"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Victoria"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Ketchikan"
-  }
-]
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        name: "Zola Hunter",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/women/94.jpg",
-        contact: {
-          contactEmail: "luxurious.mystique.o@velarivoyages.com",
-          contactNumber: "+1-490-529-3658"
-        }
-      }
-    ],
-    title: "Luxurious Mystique of the Mountain-Edge Metropolis",
-    description: "Let this mesmerizing voyage redefine your idea of travel. From Vancouver, explore the Alaska in luxurious comfort, stopping at Victoria, Ketchikan where every port offers a new chapter.",
-    rating: 4.7,
-    tags: ["adventure","fall-cruise"]
-  },
-  {
-    basePrice: 1875,
-    departureLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    arrivalLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
     category: "premium",
     itinerary: {
       route: [
@@ -2005,14 +545,6 @@ export const vancouverCruises: Cruise[] = [
     "coordinates": {
       "latitude": 49.2827,
       "longitude": -123.1207
-    }
-  },
-  {
-    "city": "Sitka",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
     }
   },
   {
@@ -2024,6 +556,14 @@ export const vancouverCruises: Cruise[] = [
     }
   },
   {
+    "city": "Skagway",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
     "city": "Vancouver",
     "country": "Canada",
     "region": "Alaska",
@@ -2033,27 +573,27 @@ export const vancouverCruises: Cruise[] = [
     }
   }
 ],
-      description: "Start in the vibrant city of Vancouver and venture into the iconic Alaska. Discover authentic local cultures, cuisine, and coastal wonders in Sitka, Juneau.",
-      distance: "1003 nautical miles",
-      totalDuration: "9 days",
+      description: "Step into a world of elegance and exploration from Vancouver. This eclipse through the Alaska unveils stunning stops including Juneau, Skagway, all with first-class service.",
+      distance: "868 nautical miles",
+      totalDuration: "11 days",
       timeAtSea: [
   {
     "start": "Day 2",
     "end": "Day 3",
     "duration": "2 days",
-    "description": "Sailing from Vancouver to Sitka"
+    "description": "Sailing from Vancouver to Juneau"
   },
   {
     "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from Sitka to Juneau"
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Juneau to Skagway"
   },
   {
     "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Juneau to Vancouver"
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Skagway to Vancouver"
   }
 ],
       timeOnLand: [
@@ -2067,426 +607,43 @@ export const vancouverCruises: Cruise[] = [
     "start": "Day 4",
     "end": "Day 4",
     "duration": "1 days",
-    "description": "Exploring Sitka"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
     "description": "Exploring Juneau"
   },
   {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Vancouver"
-  }
-]
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        name: "Susan Watson",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/women/85.jpg",
-        contact: {
-          contactEmail: "midnight.sojourn.of.@velarivoyages.com",
-          contactNumber: "+1-656-466-8160"
-        }
-      }
-    ],
-    title: "Midnight Sojourn of the Frozen Frontiers",
-    description: "Start in the vibrant city of Vancouver and venture into the iconic Alaska. Discover authentic local cultures, cuisine, and coastal wonders in Sitka, Juneau.",
-    rating: 4.3,
-    tags: ["fall-cruise","sightseeing"]
-  },
-  {
-    basePrice: 4605,
-    departureLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    arrivalLocation: {
-  "city": "Skagway",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "premium",
-    itinerary: {
-      route: [
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  },
-  {
-    "city": "Glacier Bay",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Skagway",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Cruise into cultural richness aboard this golden quest departing Vancouver. Savor local cuisine and uncover regional beauty from Glacier Bay to Skagway.",
-      distance: "1022 nautical miles",
-      totalDuration: "7 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Vancouver to Glacier Bay"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Glacier Bay to Skagway"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Vancouver"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Glacier Bay"
-  },
-  {
     "start": "Day 7",
     "end": "Day 7",
     "duration": "1 days",
     "description": "Exploring Skagway"
-  }
-]
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        name: "Naomi Wallace",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/women/69.jpg",
-        contact: {
-          contactEmail: "starlit.escape.of.th@velarivoyages.com",
-          contactNumber: "+1-396-560-7421"
-        }
-      }
-    ],
-    title: "Starlit Escape of the Icy Passageways",
-    description: "Cruise into cultural richness aboard this golden quest departing Vancouver. Savor local cuisine and uncover regional beauty from Glacier Bay to Skagway.",
-    rating: 4.4,
-    tags: ["seasonal"]
   },
   {
-    basePrice: 1193,
-    departureLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    arrivalLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  },
-  {
-    "city": "Skagway",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Ketchikan",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Sitka",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Glacier Bay",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  }
-],
-      description: "A voyage of contrasts awaits from Vancouver. Discover the historical and natural richness of Alaska as you cruise to spectacular destinations like Skagway, Ketchikan, Sitka, Glacier Bay.",
-      distance: "738 nautical miles",
-      totalDuration: "18 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
+    "start": "Day 10",
+    "end": "Day 11",
     "duration": "2 days",
-    "description": "Sailing from Vancouver to Skagway"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Skagway to Ketchikan"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Ketchikan to Sitka"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Sailing from Sitka to Glacier Bay"
-  },
-  {
-    "start": "Day 16",
-    "end": "Day 17",
-    "duration": "2 days",
-    "description": "Sailing from Glacier Bay to Vancouver"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Vancouver"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Skagway"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Ketchikan"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Sitka"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
-    "description": "Exploring Glacier Bay"
-  },
-  {
-    "start": "Day 18",
-    "end": "Day 18",
-    "duration": "1 days",
     "description": "Exploring Vancouver"
   }
 ]
     },
-    tourCategoryId: "repositioning-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Layla Parker",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
-        contact: {
-          contactEmail: "crystalline.mirage.o@velarivoyages.com",
-          contactNumber: "+1-890-792-2087"
-        }
-      }
-    ],
-    title: "Crystalline Mirage of the Icy Passageways",
-    description: "A voyage of contrasts awaits from Vancouver. Discover the historical and natural richness of Alaska as you cruise to spectacular destinations like Skagway, Ketchikan, Sitka, Glacier Bay.",
-    rating: 4.2,
-    tags: ["romantic","family-friendly"]
-  },
-  {
-    basePrice: 8112,
-    departureLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    arrivalLocation: {
-  "city": "Sitka",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium",
-    itinerary: {
-      route: [
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  },
-  {
-    "city": "Skagway",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Sitka",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Let the winds of the Alaska carry you from Vancouver to the most stunning ports in the region. With destinations like Skagway, Sitka, this horizon redefines luxury travel.",
-      distance: "1482 nautical miles",
-      totalDuration: "9 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Vancouver to Skagway"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Skagway to Sitka"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Vancouver"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Skagway"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Sitka"
-  }
-]
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        name: "Barbara Hayes",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
+        name: "Sarah West",
+        role: "Travel Advisor",
+        languages: ["Italian","Filipino"],
         experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/women/86.jpg",
+        profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
         contact: {
-          contactEmail: "crystalline.horizon.@velarivoyages.com",
-          contactNumber: "+1-743-811-1112"
+          contactEmail: "forbidden.haven.of.t@velarivoyages.com",
+          contactNumber: "+1-837-364-8747"
         }
       }
     ],
-    title: "Crystalline Horizon of the Pacific Jewel",
-    description: "Let the winds of the Alaska carry you from Vancouver to the most stunning ports in the region. With destinations like Skagway, Sitka, this horizon redefines luxury travel.",
-    rating: 4.7,
-    tags: ["exclusive","relaxation","luxury"]
+    title: "Forbidden Haven of the Frozen Frontiers",
+    description: "Step into a world of elegance and exploration from Vancouver. This eclipse through the Alaska unveils stunning stops including Juneau, Skagway, all with first-class service.",
+    rating: 4.3,
+    tags: ["culinary"]
   },
   {
-    basePrice: 3824,
+    basePrice: 7171,
     departureLocation: {
   "city": "Vancouver",
   "country": "Canada",
@@ -2506,7 +663,7 @@ export const vancouverCruises: Cruise[] = [
 },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "premium-luxury",
+    category: "premium",
     itinerary: {
       route: [
   {
@@ -2516,14 +673,6 @@ export const vancouverCruises: Cruise[] = [
     "coordinates": {
       "latitude": 49.2827,
       "longitude": -123.1207
-    }
-  },
-  {
-    "city": "Skagway",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
     }
   },
   {
@@ -2543,136 +692,9 @@ export const vancouverCruises: Cruise[] = [
     }
   }
 ],
-      description: "Escape to sea from Vancouver on a hidden voyage exploring the magic of Alaska. Visit unforgettable locales like Skagway, Ketchikan, Glacier Bay, where each stop inspires awe.",
-      distance: "767 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Vancouver to Skagway"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Skagway to Ketchikan"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from Ketchikan to Glacier Bay"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Vancouver"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Skagway"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Ketchikan"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring Glacier Bay"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Jessica Watson",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/women/21.jpg",
-        contact: {
-          contactEmail: "celestial.renaissanc@velarivoyages.com",
-          contactNumber: "+1-805-845-6451"
-        }
-      }
-    ],
-    title: "Celestial Renaissance of the Pacific Jewel",
-    description: "Escape to sea from Vancouver on a hidden voyage exploring the magic of Alaska. Visit unforgettable locales like Skagway, Ketchikan, Glacier Bay, where each stop inspires awe.",
-    rating: 4.6,
-    tags: ["adventure"]
-  },
-  {
-    basePrice: 9922,
-    departureLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    arrivalLocation: {
-  "city": "Juneau",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "ultra-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  },
-  {
-    "city": "Ketchikan",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Victoria",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Juneau",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Your renaissance begins in Vancouver, where the spirit of exploration meets modern luxury. From the sun-drenched shores of Ketchikan to the historic streets of Victoria, each stop in the Alaska will leave a lasting impression.",
-      distance: "1378 nautical miles",
-      totalDuration: "10 days",
+      description: "This forbidden eclipse begins in Vancouver and ventures deep into the heart of Alaska. Wander through colorful markets, historic streets, and serene coastlines at Ketchikan, Glacier Bay.",
+      distance: "559 nautical miles",
+      totalDuration: "7 days",
       timeAtSea: [
   {
     "start": "Day 2",
@@ -2681,16 +703,10 @@ export const vancouverCruises: Cruise[] = [
     "description": "Sailing from Vancouver to Ketchikan"
   },
   {
-    "start": "Day 6",
-    "end": "Day 7",
+    "start": "Day 5",
+    "end": "Day 6",
     "duration": "2 days",
-    "description": "Sailing from Ketchikan to Victoria"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Victoria to Juneau"
+    "description": "Sailing from Ketchikan to Glacier Bay"
   }
 ],
       timeOnLand: [
@@ -2702,45 +718,39 @@ export const vancouverCruises: Cruise[] = [
   },
   {
     "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
+    "end": "Day 4",
+    "duration": "1 days",
     "description": "Exploring Ketchikan"
   },
   {
-    "start": "Day 8",
-    "end": "Day 8",
+    "start": "Day 7",
+    "end": "Day 7",
     "duration": "1 days",
-    "description": "Exploring Victoria"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Juneau"
+    "description": "Exploring Glacier Bay"
   }
 ]
     },
-    tourCategoryId: "glacier-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Brenda Sutton",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
-        experienceYears: 12,
-        profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
+        name: "Maya Gardner",
+        role: "Travel Advisor",
+        languages: ["Italian","Filipino"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/97.jpg",
         contact: {
-          contactEmail: "forbidden.discovery.@velarivoyages.com",
-          contactNumber: "+1-334-540-2815"
+          contactEmail: "extraordinary.voyage@velarivoyages.com",
+          contactNumber: "+1-682-570-2376"
         }
       }
     ],
-    title: "Forbidden Discovery of the Pacific Jewel",
-    description: "Your renaissance begins in Vancouver, where the spirit of exploration meets modern luxury. From the sun-drenched shores of Ketchikan to the historic streets of Victoria, each stop in the Alaska will leave a lasting impression.",
+    title: "Extraordinary Voyage of the Glass and Fir",
+    description: "This forbidden eclipse begins in Vancouver and ventures deep into the heart of Alaska. Wander through colorful markets, historic streets, and serene coastlines at Ketchikan, Glacier Bay.",
     rating: 4.7,
-    tags: ["adventure","sightseeing"]
+    tags: ["short-getaway"]
   },
   {
-    basePrice: 9534,
+    basePrice: 6625,
     departureLocation: {
   "city": "Vancouver",
   "country": "Canada",
@@ -2760,154 +770,6 @@ export const vancouverCruises: Cruise[] = [
   }
 },
     isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "ultra-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  },
-  {
-    "city": "Victoria",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Juneau",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Ketchikan",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  }
-],
-      description: "Step into a world of elegance and exploration from Vancouver. This adventure through the Alaska unveils stunning stops including Victoria, Juneau, Ketchikan, all with first-class service.",
-      distance: "697 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Vancouver to Victoria"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from Victoria to Juneau"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Juneau to Ketchikan"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Ketchikan to Vancouver"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Vancouver"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring Victoria"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring Juneau"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Ketchikan"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring Vancouver"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Thandiwe Holloway",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/women/37.jpg",
-        contact: {
-          contactEmail: "majestic.excursion.o@velarivoyages.com",
-          contactNumber: "+1-325-735-6142"
-        }
-      }
-    ],
-    title: "Majestic Excursion of the Pacific Jewel",
-    description: "Step into a world of elegance and exploration from Vancouver. This adventure through the Alaska unveils stunning stops including Victoria, Juneau, Ketchikan, all with first-class service.",
-    rating: 4.1,
-    tags: ["fall-cruise","tropical"]
-  },
-  {
-    basePrice: 5130,
-    departureLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    arrivalLocation: {
-  "city": "Sitka",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
     category: "luxury",
     itinerary: {
@@ -2930,7 +792,7 @@ export const vancouverCruises: Cruise[] = [
     }
   },
   {
-    "city": "Ketchikan",
+    "city": "Glacier Bay",
     "country": "",
     "coordinates": {
       "latitude": 0,
@@ -2938,7 +800,254 @@ export const vancouverCruises: Cruise[] = [
     }
   },
   {
-    "city": "Victoria",
+    "city": "Sitka",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  }
+],
+      description: "Set course from Vancouver for an inspiring lavish journey across Alaska. Whether exploring ancient ruins in Skagway or soaking up coastal views in Glacier Bay, every day offers a perfect mix of discovery and relaxation.",
+      distance: "1430 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Vancouver to Skagway"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Skagway to Glacier Bay"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Glacier Bay to Sitka"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Sitka to Vancouver"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Skagway"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Glacier Bay"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Sitka"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Vancouver"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Linda Porter",
+        role: "Travel Advisor",
+        languages: ["Italian","Filipino"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
+        contact: {
+          contactEmail: "unforgettable.mythos@velarivoyages.com",
+          contactNumber: "+1-619-307-9270"
+        }
+      }
+    ],
+    title: "Unforgettable Mythos of the Glass and Fir",
+    description: "Set course from Vancouver for an inspiring lavish journey across Alaska. Whether exploring ancient ruins in Skagway or soaking up coastal views in Glacier Bay, every day offers a perfect mix of discovery and relaxation.",
+    rating: 4.5,
+    tags: ["short-getaway","wildlife","cruise-line"]
+  },
+  {
+    basePrice: 3278,
+    departureLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    arrivalLocation: {
+  "city": "Juneau",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "Sitka",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Let this azure voyage redefine your idea of travel. From Vancouver, explore the Alaska in luxurious comfort, stopping at Sitka, Juneau where every port offers a new chapter.",
+      distance: "1400 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Vancouver to Sitka"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Sitka to Juneau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Sitka"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Nicole Hall",
+        role: "Travel Advisor",
+        languages: ["Italian","Filipino"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/37.jpg",
+        contact: {
+          contactEmail: "luminous.resonance.o@velarivoyages.com",
+          contactNumber: "+1-965-783-5341"
+        }
+      }
+    ],
+    title: "Luminous Resonance of the Harbor of Mist",
+    description: "Let this azure voyage redefine your idea of travel. From Vancouver, explore the Alaska in luxurious comfort, stopping at Sitka, Juneau where every port offers a new chapter.",
+    rating: 4.5,
+    tags: ["short-getaway"]
+  },
+  {
+    basePrice: 3347,
+    departureLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    arrivalLocation: {
+  "city": "Sitka",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Skagway",
     "country": "",
     "coordinates": {
       "latitude": 0,
@@ -2954,33 +1063,170 @@ export const vancouverCruises: Cruise[] = [
     }
   }
 ],
-      description: "Set sail from Vancouver on this secret sojourn through the heart of Alaska. Experience the perfect blend of relaxation and adventure as you explore Skagway and Ketchikan and Victoria and Sitka, with personalized service and unforgettable experiences awaiting at every port.",
-      distance: "1441 nautical miles",
-      totalDuration: "14 days",
+      description: "Depart from Vancouver on this thoughtfully designed haven across the Alaska. Savor coastal charm, cultural treasures, and ocean views with stops at Juneau, Skagway, Sitka.",
+      distance: "1429 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Vancouver to Juneau"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Juneau to Skagway"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Skagway to Sitka"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Skagway"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Sitka"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Maya Henderson",
+        role: "Travel Advisor",
+        languages: ["Italian","Filipino"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
+        contact: {
+          contactEmail: "epic.mystique.of.the@velarivoyages.com",
+          contactNumber: "+1-428-315-4694"
+        }
+      }
+    ],
+    title: "Epic Mystique of the Glass and Fir",
+    description: "Depart from Vancouver on this thoughtfully designed haven across the Alaska. Savor coastal charm, cultural treasures, and ocean views with stops at Juneau, Skagway, Sitka.",
+    rating: 4.3,
+    tags: ["adventure"]
+  },
+  {
+    basePrice: 8284,
+    departureLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    arrivalLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "Victoria",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Ketchikan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  }
+],
+      description: "This panoramic cruise from Vancouver is your ticket to the captivating charm of the Alaska. Discover the delights of Victoria, Ketchikan, Juneau with enriching excursions and award-winning service.",
+      distance: "946 nautical miles",
+      totalDuration: "10 days",
       timeAtSea: [
   {
     "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Vancouver to Skagway"
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Vancouver to Victoria"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Victoria to Ketchikan"
   },
   {
     "start": "Day 6",
     "end": "Day 6",
     "duration": "1 days",
-    "description": "Sailing from Skagway to Ketchikan"
+    "description": "Sailing from Ketchikan to Juneau"
   },
   {
     "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Ketchikan to Victoria"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Sailing from Victoria to Sitka"
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Juneau to Vancouver"
   }
 ],
       timeOnLand: [
@@ -2991,52 +1237,199 @@ export const vancouverCruises: Cruise[] = [
     "description": "Exploring Vancouver"
   },
   {
-    "start": "Day 4",
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Victoria"
+  },
+  {
+    "start": "Day 5",
     "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Skagway"
+    "duration": "1 days",
+    "description": "Exploring Ketchikan"
   },
   {
     "start": "Day 7",
     "end": "Day 8",
     "duration": "2 days",
-    "description": "Exploring Ketchikan"
+    "description": "Exploring Juneau"
   },
   {
-    "start": "Day 11",
-    "end": "Day 11",
+    "start": "Day 10",
+    "end": "Day 10",
     "duration": "1 days",
-    "description": "Exploring Victoria"
+    "description": "Exploring Vancouver"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Riley Watson",
+        role: "Travel Advisor",
+        languages: ["Italian","Filipino"],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
+        contact: {
+          contactEmail: "luxurious.mythos.of.@velarivoyages.com",
+          contactNumber: "+1-872-494-7363"
+        }
+      }
+    ],
+    title: "Luxurious Mythos of the Tundra Tides",
+    description: "This panoramic cruise from Vancouver is your ticket to the captivating charm of the Alaska. Discover the delights of Victoria, Ketchikan, Juneau with enriching excursions and award-winning service.",
+    rating: 4.6,
+    tags: ["cruise-journey","cultural"]
+  },
+  {
+    basePrice: 7852,
+    departureLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    arrivalLocation: {
+  "city": "Glacier Bay",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "Sitka",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Skagway",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Glacier Bay",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Savor each moment of this majestic escape through Alaska, starting in Vancouver. Visit renowned locations like Sitka, Juneau, Skagway, Glacier Bay, where adventure and relaxation intertwine.",
+      distance: "953 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Vancouver to Sitka"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Sitka to Juneau"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Juneau to Skagway"
   },
   {
     "start": "Day 14",
     "end": "Day 14",
     "duration": "1 days",
+    "description": "Sailing from Skagway to Glacier Bay"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
     "description": "Exploring Sitka"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Skagway"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Exploring Glacier Bay"
   }
 ]
     },
-    tourCategoryId: "fall-foliage-cruise",
+    tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Rebecca Hall",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
-        experienceYears: 5,
-        profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
+        name: "Claire Griffin",
+        role: "Travel Advisor",
+        languages: ["Italian","Filipino"],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
         contact: {
-          contactEmail: "crystalline.mystique@velarivoyages.com",
-          contactNumber: "+1-630-530-1356"
+          contactEmail: "midnight.infinite.of@velarivoyages.com",
+          contactNumber: "+1-414-464-9613"
         }
       }
     ],
-    title: "Crystalline Mystique of the Northern Lights",
-    description: "Set sail from Vancouver on this secret sojourn through the heart of Alaska. Experience the perfect blend of relaxation and adventure as you explore Skagway and Ketchikan and Victoria and Sitka, with personalized service and unforgettable experiences awaiting at every port.",
-    rating: 4.7,
-    tags: ["VIP","adventure"]
+    title: "Midnight Infinite of the Forest-Kissed Skyline",
+    description: "Savor each moment of this majestic escape through Alaska, starting in Vancouver. Visit renowned locations like Sitka, Juneau, Skagway, Glacier Bay, where adventure and relaxation intertwine.",
+    rating: 4.8,
+    tags: ["tropical","culinary"]
   },
   {
-    basePrice: 2979,
+    basePrice: 1948,
     departureLocation: {
   "city": "Vancouver",
   "country": "Canada",
@@ -3070,175 +1463,7 @@ export const vancouverCruises: Cruise[] = [
     }
   },
   {
-    "city": "Ketchikan",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Sitka",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
     "city": "Skagway",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Glacier Bay",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  }
-],
-      description: "Depart from iconic Vancouver and traverse the Alaska with visits to Ketchikan, Sitka, Skagway, Glacier Bay. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
-      distance: "576 nautical miles",
-      totalDuration: "16 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Vancouver to Ketchikan"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Ketchikan to Sitka"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Sitka to Skagway"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Sailing from Skagway to Glacier Bay"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
-    "description": "Sailing from Glacier Bay to Vancouver"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Vancouver"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Ketchikan"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Sitka"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Skagway"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Exploring Glacier Bay"
-  },
-  {
-    "start": "Day 16",
-    "end": "Day 16",
-    "duration": "1 days",
-    "description": "Exploring Vancouver"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Helen Watson",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/women/16.jpg",
-        contact: {
-          contactEmail: "golden.retreat.of.th@velarivoyages.com",
-          contactNumber: "+1-174-591-5257"
-        }
-      }
-    ],
-    title: "Golden Retreat of the Mountain-Edge Metropolis",
-    description: "Depart from iconic Vancouver and traverse the Alaska with visits to Ketchikan, Sitka, Skagway, Glacier Bay. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
-    rating: 4.8,
-    tags: ["adventure","sightseeing","short-getaway"]
-  },
-  {
-    basePrice: 4953,
-    departureLocation: {
-  "city": "Vancouver",
-  "country": "Canada",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 49.2827,
-    "longitude": -123.1207
-  }
-},
-    arrivalLocation: {
-  "city": "Ketchikan",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "mainstream",
-    itinerary: {
-      route: [
-  {
-    "city": "Vancouver",
-    "country": "Canada",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 49.2827,
-      "longitude": -123.1207
-    }
-  },
-  {
-    "city": "Sitka",
     "country": "",
     "coordinates": {
       "latitude": 0,
@@ -3262,41 +1487,56 @@ export const vancouverCruises: Cruise[] = [
     }
   },
   {
-    "city": "Ketchikan",
+    "city": "Juneau",
     "country": "",
     "coordinates": {
       "latitude": 0,
       "longitude": 0
     }
+  },
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
   }
 ],
-      description: "Step into a world of elegance and exploration from Vancouver. This requiem through the Alaska unveils stunning stops including Sitka, Glacier Bay, Victoria, Ketchikan, all with first-class service.",
-      distance: "935 nautical miles",
-      totalDuration: "14 days",
+      description: "Set off on a quest from Vancouver that captures the essence of Alaska. Discover cultural gems and culinary delights across Skagway, Glacier Bay, Victoria, Juneau.",
+      distance: "1361 nautical miles",
+      totalDuration: "17 days",
       timeAtSea: [
   {
     "start": "Day 3",
     "end": "Day 4",
     "duration": "2 days",
-    "description": "Sailing from Vancouver to Sitka"
+    "description": "Sailing from Vancouver to Skagway"
   },
   {
     "start": "Day 7",
     "end": "Day 7",
     "duration": "1 days",
-    "description": "Sailing from Sitka to Glacier Bay"
+    "description": "Sailing from Skagway to Glacier Bay"
   },
   {
     "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
+    "end": "Day 10",
+    "duration": "2 days",
     "description": "Sailing from Glacier Bay to Victoria"
   },
   {
-    "start": "Day 11",
-    "end": "Day 12",
+    "start": "Day 12",
+    "end": "Day 13",
     "duration": "2 days",
-    "description": "Sailing from Victoria to Ketchikan"
+    "description": "Sailing from Victoria to Juneau"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Sailing from Juneau to Vancouver"
   }
 ],
       timeOnLand: [
@@ -3310,7 +1550,7 @@ export const vancouverCruises: Cruise[] = [
     "start": "Day 5",
     "end": "Day 6",
     "duration": "2 days",
-    "description": "Exploring Sitka"
+    "description": "Exploring Skagway"
   },
   {
     "start": "Day 8",
@@ -3319,40 +1559,215 @@ export const vancouverCruises: Cruise[] = [
     "description": "Exploring Glacier Bay"
   },
   {
-    "start": "Day 10",
-    "end": "Day 10",
+    "start": "Day 11",
+    "end": "Day 11",
     "duration": "1 days",
     "description": "Exploring Victoria"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Exploring Vancouver"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Amy Bennett",
+        role: "Travel Advisor",
+        languages: ["Italian","Filipino"],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/women/90.jpg",
+        contact: {
+          contactEmail: "serene.mystique.of.t@velarivoyages.com",
+          contactNumber: "+1-936-944-9091"
+        }
+      }
+    ],
+    title: "Serene Mystique of the Glacial Kingdom",
+    description: "Set off on a quest from Vancouver that captures the essence of Alaska. Discover cultural gems and culinary delights across Skagway, Glacier Bay, Victoria, Juneau.",
+    rating: 4.0,
+    tags: ["cruise-line"]
+  },
+  {
+    basePrice: 8208,
+    departureLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    arrivalLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "Skagway",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Sitka",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Ketchikan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  }
+],
+      description: "Your sanctum begins in Vancouver, where the spirit of exploration meets modern luxury. From the sun-drenched shores of Skagway to the historic streets of Sitka, each stop in the Alaska will leave a lasting impression.",
+      distance: "1310 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Vancouver to Skagway"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Skagway to Sitka"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Sitka to Ketchikan"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from Ketchikan to Juneau"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Sailing from Juneau to Vancouver"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Skagway"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Sitka"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Ketchikan"
   },
   {
     "start": "Day 13",
     "end": "Day 14",
     "duration": "2 days",
-    "description": "Exploring Ketchikan"
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 16",
+    "duration": "1 days",
+    "description": "Exploring Vancouver"
   }
 ]
     },
-    tourCategoryId: "fall-foliage-cruise",
+    tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Emily Jennings",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/women/35.jpg",
+        name: "Carol Warren",
+        role: "Travel Advisor",
+        languages: ["Italian","Filipino"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/women/34.jpg",
         contact: {
-          contactEmail: "breathtaking.odyssey@velarivoyages.com",
-          contactNumber: "+1-947-932-9736"
+          contactEmail: "timeless.embrace.of.@velarivoyages.com",
+          contactNumber: "+1-723-438-5806"
         }
       }
     ],
-    title: "Breathtaking Odyssey of the Pacific Jewel",
-    description: "Step into a world of elegance and exploration from Vancouver. This requiem through the Alaska unveils stunning stops including Sitka, Glacier Bay, Victoria, Ketchikan, all with first-class service.",
-    rating: 4.7,
-    tags: ["long-distance"]
+    title: "Timeless Embrace of the Harbor of Mist",
+    description: "Your sanctum begins in Vancouver, where the spirit of exploration meets modern luxury. From the sun-drenched shores of Skagway to the historic streets of Sitka, each stop in the Alaska will leave a lasting impression.",
+    rating: 4.2,
+    tags: ["wildlife","holiday-cruise"]
   },
   {
-    basePrice: 5266,
+    basePrice: 6680,
     departureLocation: {
   "city": "Vancouver",
   "country": "Canada",
@@ -3372,8 +1787,8 @@ export const vancouverCruises: Cruise[] = [
   }
 },
     isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "premium",
+    hasPopularDestination: true,
+    category: "entry-luxury",
     itinerary: {
       route: [
   {
@@ -3383,14 +1798,6 @@ export const vancouverCruises: Cruise[] = [
     "coordinates": {
       "latitude": 49.2827,
       "longitude": -123.1207
-    }
-  },
-  {
-    "city": "Glacier Bay",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
     }
   },
   {
@@ -3418,6 +1825,14 @@ export const vancouverCruises: Cruise[] = [
     }
   },
   {
+    "city": "Ketchikan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
     "city": "Vancouver",
     "country": "Canada",
     "region": "Alaska",
@@ -3427,9 +1842,162 @@ export const vancouverCruises: Cruise[] = [
     }
   }
 ],
-      description: "This inspiring escape departs from Vancouver, navigating the diverse landscapes and vibrant cities of Alaska. Must-see stops include Glacier Bay, Victoria, Sitka, Juneau.",
-      distance: "1398 nautical miles",
-      totalDuration: "18 days",
+      description: "Your odyssey begins in Vancouver, where every sunset on the Alaska horizon promises another day of discovery—from Victoria, Sitka, Juneau, Ketchikan to hidden ports of charm.",
+      distance: "1211 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Vancouver to Victoria"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Victoria to Sitka"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Sitka to Juneau"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Juneau to Ketchikan"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Sailing from Ketchikan to Vancouver"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Victoria"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Sitka"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Ketchikan"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Exploring Vancouver"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Naomi Curtis",
+        role: "Travel Advisor",
+        languages: ["Italian","Filipino"],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/women/97.jpg",
+        contact: {
+          contactEmail: "charming.pulse.of.th@velarivoyages.com",
+          contactNumber: "+1-417-406-6688"
+        }
+      }
+    ],
+    title: "Charming Pulse of the Forest-Kissed Skyline",
+    description: "Your odyssey begins in Vancouver, where every sunset on the Alaska horizon promises another day of discovery—from Victoria, Sitka, Juneau, Ketchikan to hidden ports of charm.",
+    rating: 4.9,
+    tags: ["wildlife","cultural"]
+  },
+  {
+    basePrice: 7468,
+    departureLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    arrivalLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "Glacier Bay",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  }
+],
+      description: "This heavenly cruise from Vancouver is your ticket to the captivating charm of the Alaska. Discover the delights of Glacier Bay, Juneau with enriching excursions and award-winning service.",
+      distance: "846 nautical miles",
+      totalDuration: "11 days",
       timeAtSea: [
   {
     "start": "Day 3",
@@ -3438,27 +2006,15 @@ export const vancouverCruises: Cruise[] = [
     "description": "Sailing from Vancouver to Glacier Bay"
   },
   {
-    "start": "Day 7",
-    "end": "Day 8",
+    "start": "Day 6",
+    "end": "Day 7",
     "duration": "2 days",
-    "description": "Sailing from Glacier Bay to Victoria"
+    "description": "Sailing from Glacier Bay to Juneau"
   },
   {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Sailing from Victoria to Sitka"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 14",
-    "duration": "1 days",
-    "description": "Sailing from Sitka to Juneau"
-  },
-  {
-    "start": "Day 17",
-    "end": "Day 17",
-    "duration": "1 days",
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
     "description": "Sailing from Juneau to Vancouver"
   }
 ],
@@ -3471,53 +2027,41 @@ export const vancouverCruises: Cruise[] = [
   },
   {
     "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
+    "end": "Day 5",
+    "duration": "1 days",
     "description": "Exploring Glacier Bay"
   },
   {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Victoria"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring Sitka"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 16",
-    "duration": "2 days",
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
     "description": "Exploring Juneau"
   },
   {
-    "start": "Day 18",
-    "end": "Day 18",
+    "start": "Day 11",
+    "end": "Day 11",
     "duration": "1 days",
     "description": "Exploring Vancouver"
   }
 ]
     },
-    tourCategoryId: "repositioning-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Sandra Douglas",
-        role: "Family Activities Coordinator",
-        languages: ["Indonesian"],
+        name: "Nora Wells",
+        role: "Travel Advisor",
+        languages: ["Italian","Filipino"],
         experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/67.jpg",
+        profileImage: "https://randomuser.me/api/portraits/women/52.jpg",
         contact: {
-          contactEmail: "infinite.journey.of.@velarivoyages.com",
-          contactNumber: "+1-629-132-1283"
+          contactEmail: "tranquil.reflection.@velarivoyages.com",
+          contactNumber: "+1-302-279-3191"
         }
       }
     ],
-    title: "Infinite Journey of the Glacial Kingdom",
-    description: "This inspiring escape departs from Vancouver, navigating the diverse landscapes and vibrant cities of Alaska. Must-see stops include Glacier Bay, Victoria, Sitka, Juneau.",
-    rating: 4.6,
-    tags: ["relaxation"]
+    title: "Tranquil Reflection of the Harbor of Mist",
+    description: "This heavenly cruise from Vancouver is your ticket to the captivating charm of the Alaska. Discover the delights of Glacier Bay, Juneau with enriching excursions and award-winning service.",
+    rating: 4.4,
+    tags: ["general","cruise","wildlife"]
   }
 ];
