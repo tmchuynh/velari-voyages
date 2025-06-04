@@ -18,7 +18,7 @@ import {
 import {
   getRestaurantByName,
   getRestaurantMenuByName,
-} from "@/lib/utils/get.ts";
+} from "@/lib/utils/get/restaurants";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { FaStarOfDavid } from "react-icons/fa";
@@ -126,32 +126,27 @@ export default function RestaurantMenuPage() {
             )}
           </header>
 
-          <div className="gap-4 grid lg:grid-cols-9 my-8">
-            {" "}
+          <div className="gap-4 grid lg:grid-cols-2 my-8">
             {isSmallScreen ? (
               <RestaurantIconKey compact className="my-4" />
             ) : (
-              <RestaurantIconKey className="lg:col-span-5 mb-15" />
+              <RestaurantIconKey className="mb-15" />
             )}
-            <RestaurantHours
-              openingHours={restaurantInfo?.openingHours}
-              variant="page"
-              className="lg:col-span-4"
-            />
+            {isSmallScreen ? (
+              <RestaurantHours
+                openingHours={restaurantInfo?.openingHours}
+                variant="compact"
+              />
+            ) : (
+              <RestaurantHours
+                openingHours={restaurantInfo?.openingHours}
+                variant="page"
+              />
+            )}
           </div>
 
           <section className="divide-y-2 divide-secondary">
             {restaurantData.map((menu, index) => {
-              let split = 4; // Default split value
-
-              if (menu.category.length > 5) {
-                split = 5;
-              } else if (menu.category.length === 2) {
-                split = 1;
-              } else {
-                split = 2;
-              }
-
               return (
                 <div key={index} className="mb-8">
                   <h2>{menu.title}</h2>

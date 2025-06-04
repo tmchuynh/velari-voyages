@@ -48,26 +48,26 @@ export default function TourPackages() {
         <div className="flex md:flex-row flex-col gap-5 mt-4">
           <Button
             onClick={() =>
-              router.push("/luxurious-destinations/popular-destinations")
+              router.push("/cruises/cruise-categories/popular-cruises")
             }
           >
-            Explore Popular Destinations
+            Explore Popular Explorations
           </Button>
           <Button
             variant="outline"
             onClick={() =>
               router.push(
-                "/about-paragon-trails/core-team-and-partnerships/tour-guides"
+                "/cruises/cruise-categories/velari-voyages-cruises/crew-members"
               )
             }
           >
-            Meet Our Wonderful Tour Guides
+            Meet Our Dedicated Crew Teams
           </Button>
         </div>
       </section>
 
       <section>
-        <ContactDepartmentCard department="Custom Tour Arrangements" />
+        <ContactDepartmentCard department="Ports & Itinerary Planning" />
       </section>
 
       <section className="gap-5 grid xl:grid-cols-2 divide-y">

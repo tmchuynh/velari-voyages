@@ -36,7 +36,7 @@ import {
   getAllCruises,
   getCruises,
   getCruisesByCategory,
-} from "@/lib/utils/get.ts";
+} from "@/lib/utils/get/cruises";
 import { groupAndSortByProperties, sortByProperty } from "@/lib/utils/sort";
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";

@@ -19,8 +19,6 @@ import {
   capitalize,
   formatKebebToTitleCase,
   formatNumberToCurrency,
-  formatTitleToCamelCase,
-  removeAccents,
 } from "@/lib/utils/format.ts";
 // import { Cruise } from "@/lib/interfaces/services/cruises"; // Cruise type becomes unused if filters/cruises logic is commented
 import {
@@ -38,26 +36,19 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from "@/components/ui/pagination";
-import { getCruises, getCruisesByLocation } from "@/lib/utils/get.ts";
+import { getCruises, getCruisesByLocation } from "@/lib/utils/get/cruises";
 import { /*useRouter,*/ useSearchParams } from "next/navigation"; // useRouter becomes unused
 import { useEffect, useMemo, /*useMemo,*/ useState } from "react"; // useMemo becomes unused if filterOptions/filteredCruises are commented
 import { FaFilter } from "react-icons/fa";
 
 export default function CityCruisesPage() {
   const searchParams = useSearchParams();
-  // const router = useRouter(); // Unused
-  const country = searchParams.get("country"); // Unused
+  const country = searchParams.get("country");
   const city = searchParams.get("city");
-  const [cruises, setCruises] = useState<any[]>([]); // Using any[] if Cruise type is unused, or keep Cruise[] if preferred
-  const [searchQuery, setSearchQuery] = useState(""); // Unused
-  const [sortBy, setSortBy] = useState("city"); // Unused
-  const [popularSort, setPopularSort] = useState("first"); // Unused
-  //   const [filteredCruises, setFilteredCruises] = useState([]); // Removed as it's replaced by the memoized version
+  const [cruises, setCruises] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
-
-  const [showFilters, setShowFilters] = useState(false); // Unused
+  const [showFilters, setShowFilters] = useState(false);
   const [filters, setFilters] = useState({
-    // Unused if filteredCruises and resetFilters are commented
     minPrice: 0,
     maxPrice: 1500,
     rating: 0,
@@ -65,37 +56,11 @@ export default function CityCruisesPage() {
     tourCategoryId: "all",
   });
 
-  const cityWithoutAccents = removeAccents(city || "");
-  const cityFormatted =
-    cityWithoutAccents.replaceAll(" ", "-").charAt(0).toLowerCase() +
-    formatTitleToCamelCase(formatKebebToTitleCase(cityWithoutAccents.slice(1)))
-      .replace("'", "")
-      .replace("-", "");
-
-  const cruiseID = `${cityFormatted}Cruises`;
-
-  console.log("City:", city);
-  console.log("Country:", country);
-  console.log("Search Params:", searchParams.toString());
-
-  console.log(
-    `Loading cruises for city: export const ${cruiseID}: Cruise[] = []`
-  );
-  console.log(
-    `Importing from: @/lib/constants/cruises/${formatKebebToTitleCase(
-      city || ""
-    )}`
-  );
-  console.log("Constant name:", `export const ${city}Cruises: Cruise[] = [];`);
-
   const cityInfo = cruiseDepartureLocations.find(
     (attraction) =>
       attraction.city.toLowerCase() ===
       formatKebebToTitleCase(city || "")?.toLowerCase()
   );
-
-  console.log("City Info:", cityInfo);
-  console.log("Cruises:", cruises);
 
   useEffect(() => {
     async function loadTours() {
@@ -148,10 +113,6 @@ export default function CityCruisesPage() {
       return { ...prev, tags: updatedTags };
     });
   };
-
-  // The following filter-related logic is commented out because
-  // filterOptions, filteredCruises, and resetFilters are not currently used in the JSX output,
-  // leading to "unused variable" errors.
 
   const filterOptions = useMemo(() => {
     if (!cruises.length)

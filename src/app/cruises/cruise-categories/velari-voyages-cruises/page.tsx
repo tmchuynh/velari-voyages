@@ -7,6 +7,15 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import {
+  Pagination,
+  PaginationContent,
+  PaginationEllipsis,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "@/components/ui/pagination";
+import {
   Select,
   SelectContent,
   SelectItem,
@@ -15,7 +24,7 @@ import {
 } from "@/components/ui/select";
 import { cruiseDepartureLocations } from "@/lib/constants/info/city";
 import { Cruise } from "@/lib/interfaces/services/cruises";
-import { getAllCruises } from "@/lib/utils/get.ts";
+import { getAllCruises } from "@/lib/utils/get/cruises";
 import { groupAndSortByProperties } from "@/lib/utils/sort";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -28,14 +37,22 @@ export default function Cruises() {
   const [popularSort, setPopularSort] = useState("first"); // "first", "last", "none"
   const [loading, setLoading] = useState(true);
 
+  // Pagination state
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(12);
+
+  useEffect(() => {
+    // Reset to first page when search query or sort options change
+    setCurrentPage(1);
+  }, [searchQuery, sortBy, popularSort, itemsPerPage]);
+
   useEffect(() => {
     const fetchCruises = async () => {
       try {
         const data = await getAllCruises();
-        // Process cruises to set hasPopularDestination flag
         setAllCruises(data);
       } catch (error) {
-        console.error("Failed to load affirmation cards:", error);
+        console.error("Failed to load cruises:", error);
       } finally {
         setLoading(false);
       }
@@ -44,7 +61,7 @@ export default function Cruises() {
     fetchCruises();
   }, []);
 
-  // Filter destinations based on search  const filteredDestinations = cityattractions.filter((item) => {
+  // Filter destinations based on search
   const filteredDestinations = cruiseDepartureLocations.filter((item) => {
     if (!searchQuery.trim()) return true;
 
@@ -87,6 +104,45 @@ export default function Cruises() {
       return 0;
     });
   }
+
+  // Pagination calculations
+  const totalItems = sortedDestinations.length;
+  const totalPages = Math.ceil(totalItems / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = Math.min(startIndex + itemsPerPage, totalItems);
+  const currentPageItems = sortedDestinations.slice(startIndex, endIndex);
+
+  // Generate page numbers for pagination display
+  const getPageNumbers = () => {
+    // For fewer pages, show all numbers
+    if (totalPages <= 7) {
+      return Array.from({ length: totalPages }, (_, i) => i + 1);
+    }
+
+    // For many pages, use ellipsis for better UX
+    if (currentPage <= 3) {
+      return [1, 2, 3, 4, "ellipsis", totalPages];
+    } else if (currentPage >= totalPages - 2) {
+      return [
+        1,
+        "ellipsis",
+        totalPages - 3,
+        totalPages - 2,
+        totalPages - 1,
+        totalPages,
+      ];
+    } else {
+      return [
+        1,
+        "ellipsis",
+        currentPage - 1,
+        currentPage,
+        currentPage + 1,
+        "ellipsis",
+        totalPages,
+      ];
+    }
+  };
 
   if (loading) {
     return <Loading />;
@@ -176,12 +232,33 @@ export default function Cruises() {
                 </SelectContent>
               </Select>
             </div>
+
+            <div className="space-y-2">
+              <Label>
+                <strong>Display:</strong>
+              </Label>
+              <Select
+                value={itemsPerPage.toString()}
+                onValueChange={(value) => setItemsPerPage(Number(value))}
+              >
+                <SelectTrigger>
+                  <SelectValue placeholder="Items per page" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="8">8 per page</SelectItem>
+                  <SelectItem value="12">12 per page</SelectItem>
+                  <SelectItem value="16">16 per page</SelectItem>
+                  <SelectItem value="24">24 per page</SelectItem>
+                  <SelectItem value="48">48 per page</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
           </div>
         </div>
       </div>
 
       <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {sortedDestinations.map((item, index) => (
+        {currentPageItems.map((item, index) => (
           <div
             key={index}
             className="group relative shadow-md hover:shadow-lg p-6 border border-border rounded-lg transition-shadow duration-300 overflow-hidden"
@@ -229,6 +306,69 @@ export default function Cruises() {
           </div>
         ))}
       </div>
+
+      {/* Pagination Controls */}
+      {totalPages > 1 && (
+        <div className="mt-8">
+          <div className="flex justify-between items-center">
+            <p className="text-muted-foreground text-sm">
+              Showing {startIndex + 1}-{endIndex} of {totalItems} destinations
+            </p>
+
+            <Pagination>
+              <PaginationContent>
+                <PaginationItem>
+                  <PaginationPrevious
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      if (currentPage > 1) setCurrentPage(currentPage - 1);
+                    }}
+                    className={
+                      currentPage === 1 ? "pointer-events-none opacity-50" : ""
+                    }
+                  />
+                </PaginationItem>
+
+                {getPageNumbers().map((page, i) => (
+                  <PaginationItem key={i}>
+                    {page === "ellipsis" ? (
+                      <PaginationEllipsis />
+                    ) : (
+                      <PaginationLink
+                        href="#"
+                        isActive={page === currentPage}
+                        onClick={(e) => {
+                          e.preventDefault();
+                          setCurrentPage(page as number);
+                        }}
+                      >
+                        {page}
+                      </PaginationLink>
+                    )}
+                  </PaginationItem>
+                ))}
+
+                <PaginationItem>
+                  <PaginationNext
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      if (currentPage < totalPages)
+                        setCurrentPage(currentPage + 1);
+                    }}
+                    className={
+                      currentPage === totalPages
+                        ? "pointer-events-none opacity-50"
+                        : ""
+                    }
+                  />
+                </PaginationItem>
+              </PaginationContent>
+            </Pagination>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
