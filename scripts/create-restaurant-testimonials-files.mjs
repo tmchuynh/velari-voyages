@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Base directory where restaurant files are located
-const baseDir = path.join(
+const restaurantsBaseDir = path.join(
   __dirname,
   "..",
   "src",
@@ -15,6 +15,17 @@ const baseDir = path.join(
   "constants",
   "cruises",
   "restaurants"
+);
+
+// Output directory for testimonial files
+const testimonialsBaseDir = path.join(
+  __dirname,
+  "..",
+  "src",
+  "lib",
+  "constants",
+  "cruises",
+  "testimonials"
 );
 
 // Function to convert a string to kebab-case for file naming
@@ -65,8 +76,8 @@ function extractRestaurantNames(filePath) {
   }
 }
 
-// Function to generate menu file content
-function generateMenuFileContent(cityName, restaurantName) {
+// Function to generate testimonial file content
+function generateTestimonialFileContent(cityName, restaurantName) {
   const cityVar = toCamelCase(cityName);
   const restaurantVar = toCamelCase(restaurantName);
 
@@ -76,44 +87,71 @@ export const ${cityVar}${restaurantVar}Testimonials: Testimonial[] = [];
 `;
 }
 
-// Get all city directories
+// Ensure directory exists
+function ensureDirectoryExists(dirPath) {
+  if (!fs.existsSync(dirPath)) {
+    fs.mkdirSync(dirPath, { recursive: true });
+    console.log(`Created directory: ${dirPath}`);
+  }
+}
+
+// Get all city directories from the restaurants folder
 let cityDirs = [];
 try {
   cityDirs = fs
-    .readdirSync(baseDir, { withFileTypes: true })
+    .readdirSync(restaurantsBaseDir, { withFileTypes: true })
     .filter((dirent) => dirent.isDirectory())
     .map((dirent) => dirent.name);
+
+  console.log(
+    `Found ${cityDirs.length} city directories in restaurants folder`
+  );
 } catch (error) {
-  console.error(`Error reading base directory ${baseDir}:`, error);
+  console.error(
+    `Error reading restaurants base directory ${restaurantsBaseDir}:`,
+    error
+  );
   process.exit(1);
 }
 
 // Process each city directory
+let totalCreated = 0;
+let totalSkipped = 0;
+
 cityDirs.forEach((cityDir) => {
-  const cityPath = path.join(baseDir, cityDir);
-  const restaurantsFilePath = path.join(cityPath, "restaurants.ts");
+  const restaurantCityPath = path.join(restaurantsBaseDir, cityDir);
+  const restaurantsFilePath = path.join(restaurantCityPath, "restaurants.ts");
 
   // Check if the restaurants.ts file exists
   if (fs.existsSync(restaurantsFilePath)) {
     console.log(`Processing ${cityDir}/restaurants.ts...`);
 
+    // Create testimonial directory for this city if it doesn't exist
+    const testimonialCityPath = path.join(testimonialsBaseDir, cityDir);
+    ensureDirectoryExists(testimonialCityPath);
+
     // Extract restaurant names from the file
     const restaurantNames = extractRestaurantNames(restaurantsFilePath);
 
-    // Create a file for each restaurant
+    // Create a testimonial file for each restaurant
     restaurantNames.forEach((restaurantName) => {
       const kebabName = toKebabCase(restaurantName) + "-testimonials";
-      const menuFilePath = path.join(cityPath, `${kebabName}.ts`);
+      const testimonialFilePath = path.join(
+        testimonialCityPath,
+        `${kebabName}.ts`
+      );
 
-      // Create the menu file if it doesn't exist
-      if (!fs.existsSync(menuFilePath)) {
+      // Create the testimonial file if it doesn't exist
+      if (!fs.existsSync(testimonialFilePath)) {
         fs.writeFileSync(
-          menuFilePath,
-          generateMenuFileContent(cityDir, restaurantName)
+          testimonialFilePath,
+          generateTestimonialFileContent(cityDir, restaurantName)
         );
-        console.log(`Created testimonial file: ${menuFilePath}`);
+        console.log(`Created testimonial file: ${testimonialFilePath}`);
+        totalCreated++;
       } else {
-        console.log(`File already exists: ${menuFilePath}`);
+        console.log(`File already exists: ${testimonialFilePath}`);
+        totalSkipped++;
       }
     });
   } else {
@@ -121,4 +159,7 @@ cityDirs.forEach((cityDir) => {
   }
 });
 
-console.log("All testimonial files created successfully!");
+console.log("\n=== Summary ===");
+console.log(`Created ${totalCreated} testimonial files`);
+console.log(`Skipped ${totalSkipped} existing files`);
+console.log("All testimonial files processed successfully!");
