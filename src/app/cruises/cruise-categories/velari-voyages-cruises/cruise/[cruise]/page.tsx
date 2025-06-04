@@ -208,14 +208,13 @@ export default function CruiseInformationPage() {
                   <TableHead>Location</TableHead>
                   <TableHead>Date</TableHead>
                   <TableHead>Duration</TableHead>
-                  <TableHead>Type</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
                 {cruiseData.itinerary.route.map((location, index) => (
                   <TableRow key={index}>
                     <TableCell className="font-medium">
-                      {location.city}, {location.country}
+                      {location.city}
                     </TableCell>
                     <TableCell>
                       {index < cruiseData.itinerary.timeAtSea.length && (
@@ -228,7 +227,8 @@ export default function CruiseInformationPage() {
                             cruiseData.itinerary.timeAtSea[index].end
                           ).toLocaleDateString()}
                         </>
-                      )}
+                      )}{" "}
+                      to{" "}
                       {index < cruiseData.itinerary.timeOnLand.length && (
                         <>
                           {new Date(
@@ -246,12 +246,6 @@ export default function CruiseInformationPage() {
                         cruiseData.itinerary.timeAtSea[index].duration}
                       {index < cruiseData.itinerary.timeOnLand.length &&
                         cruiseData.itinerary.timeOnLand[index].duration}
-                    </TableCell>
-                    <TableCell>
-                      {index < cruiseData.itinerary.timeAtSea.length &&
-                        "At Sea"}
-                      {index < cruiseData.itinerary.timeOnLand.length &&
-                        "On Land"}
                     </TableCell>
                   </TableRow>
                 ))}
@@ -374,54 +368,6 @@ export default function CruiseInformationPage() {
             </div>
           </section>
 
-          {/* Cruise Category Features */}
-          <section>
-            <h3>Cruise Type</h3>
-            <div className="flex flex-wrap gap-2 my-2">
-              {[
-                { key: "isWeekendCruise", label: "Weekend Cruise" },
-                { key: "isFjordsTour", label: "Fjords Tour" },
-                { key: "isRepositioningCruise", label: "Repositioning Cruise" },
-                { key: "isAnniversaryCruise", label: "Anniversary Cruise" },
-                { key: "isGlacierCruise", label: "Glacier Cruise" },
-                { key: "isTropicalCruise", label: "Tropical Cruise" },
-                { key: "isLuxuryCruise", label: "Luxury Cruise" },
-                { key: "isVIPCruise", label: "VIP Cruise" },
-                { key: "isThemeCruise", label: "Theme Cruise" },
-                { key: "isHolidayCruise", label: "Holiday Cruise" },
-                { key: "isFallFoliageCruise", label: "Fall Foliage Cruise" },
-              ]
-                .filter(
-                  (type) => cruiseData[type.key as keyof typeof cruiseData]
-                )
-                .map((type, index) => (
-                  <Badge key={index} variant="outline">
-                    {type.label}
-                  </Badge>
-                ))}
-            </div>
-
-            <h3>Cruise Key Features</h3>
-            <div className="flex flex-wrap gap-2 mt-2">
-              {[
-                { key: "isPopular", label: "Popular" },
-                { key: "hasPopularDestination", label: "Popular Destination" },
-                { key: "isFamilyFriendly", label: "Family Friendly" },
-                { key: "isPetFriendly", label: "Pet Friendly" },
-                { key: "isCulturalExperience", label: "Cultural Experience" },
-              ]
-                .filter(
-                  (feature) =>
-                    cruiseData[feature.key as keyof typeof cruiseData]
-                )
-                .map((feature, index) => (
-                  <Badge key={index} variant="outline">
-                    {feature.label}
-                  </Badge>
-                ))}
-            </div>
-          </section>
-
           <section>
             <h3>Contact Information</h3>
             <div>
@@ -463,8 +409,8 @@ export default function CruiseInformationPage() {
 
           <section className="flex flex-wrap gap-2 mt-2">
             {cruiseData.tags?.map((tag, index) => (
-              <Badge key={index} variant="secondary">
-                {capitalize(tag)}
+              <Badge key={index} variant="secondary" className="uppercase">
+                {tag}
               </Badge>
             ))}
           </section>
