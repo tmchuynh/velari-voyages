@@ -12,11 +12,11 @@ export const navbarItems = [
       },
       {
         label: "Our History & Mission",
-        href: "/about-velari-voyages/company-history-and-mission",
+        href: "/about-velari-voyages/company-history-and-missions",
       },
       {
-        label: "Our Values & Commitment",
-        href: "/about-velari-voyages/values-and-commitment",
+        label: "Awards & Recognition",
+        href: "/about-velari-voyages/awards-and-recognition",
       },
       {
         label: "Our Fleet & Vessels",
@@ -25,10 +25,6 @@ export const navbarItems = [
       {
         label: "Our Amazing Team",
         href: "/cruises/crew-members",
-      },
-      {
-        label: "Our Team & Partnerships",
-        href: "/about-velari-voyages/core-team-and-partnerships",
       },
     ],
   },
