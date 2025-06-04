@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const lisbonCruises: Cruise[] = [
-  {
+{
     basePrice: 1368,
     departureLocation: {
   "city": "Lisbon",
@@ -2019,5 +2019,283 @@ export const lisbonCruises: Cruise[] = [
     description: "From bustling Lisbon to serene Mediterranean shores, this cruise invites you to relax, explore, and indulge. Stops at Rome, Barcelona, Mykonos deliver a balanced blend of culture and comfort.",
     rating: 4.8,
     tags: ["anniversary-cruise","cruise","nature"]
+  },
+  {
+    basePrice: 6045,
+    departureLocation: {
+  "city": "Lisbon",
+  "country": "Portugal",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 38.7169,
+    "longitude": -9.1399
+  }
+},
+    arrivalLocation: {
+  "city": "Lisbon",
+  "country": "Portugal",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 38.7169,
+    "longitude": -9.1399
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  }
+],
+      description: "This radiance-drenched excursion begins in Lisbon and ventures deep into the heart of Mediterranean. Wander through colorful markets, historic streets, and serene coastlines at Athens, Mykonos, Rome.",
+      distance: "1356 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Lisbon to Athens"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Athens to Mykonos"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Rome"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Lisbon"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Lisbon"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Exploring Lisbon"
+  }
+]
+    },
+    tourCategoryId: "luxury-cruise",
+    contactPersonnel: [
+      {
+        name: "Kennedy Spencer",
+        role: "Reservations Agent",
+        languages: ["Hungarian","Swahili","Russian"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
+        contact: {
+          contactEmail: "aweinspiring.mythos.@velarivoyages.com",
+          contactNumber: "+1-959-224-9378"
+        }
+      }
+    ],
+    title: "Awe-Inspiring Mythos of the Portuguese Pearl",
+    description: "This radiance-drenched excursion begins in Lisbon and ventures deep into the heart of Mediterranean. Wander through colorful markets, historic streets, and serene coastlines at Athens, Mykonos, Rome.",
+    rating: 4.4,
+    tags: ["wildlife","luxury"]
+  },
+  {
+    basePrice: 4017,
+    departureLocation: {
+  "city": "Lisbon",
+  "country": "Portugal",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 38.7169,
+    "longitude": -9.1399
+  }
+},
+    arrivalLocation: {
+  "city": "Lisbon",
+  "country": "Portugal",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 38.7169,
+    "longitude": -9.1399
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  }
+],
+      description: "Leave stress behind with this curated mystique from Lisbon. Sail across the best of Mediterranean and explore treasures like Barcelona, Santorini with comfort and style.",
+      distance: "1389 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Lisbon to Barcelona"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Santorini"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Santorini to Lisbon"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Lisbon"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Lisbon"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Evelyn Henderson",
+        role: "Reservations Agent",
+        languages: ["Hungarian","Swahili","Russian"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/70.jpg",
+        contact: {
+          contactEmail: "heavenly.serenade.of@velarivoyages.com",
+          contactNumber: "+1-664-874-5807"
+        }
+      }
+    ],
+    title: "Heavenly Serenade of the Portuguese Pearl",
+    description: "Leave stress behind with this curated mystique from Lisbon. Sail across the best of Mediterranean and explore treasures like Barcelona, Santorini with comfort and style.",
+    rating: 4.5,
+    tags: ["cruise-ship","fall-cruise","weekend-cruise"]
   }
 ];

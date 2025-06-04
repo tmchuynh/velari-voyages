@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const hongKongCruises: Cruise[] = [
-  {
+{
     basePrice: 1974,
     departureLocation: {
   "city": "Hong Kong",
@@ -2125,5 +2125,301 @@ export const hongKongCruises: Cruise[] = [
     description: "This sanctuary takes you beyond the ordinary, starting in Hong Kong. With breathtaking stops in Sydney, Bangkok, Bali, your cruise delivers immersive moments and unforgettable vistas.",
     rating: 4.2,
     tags: ["wellness"]
+  },
+  {
+    basePrice: 4958,
+    departureLocation: {
+  "city": "Hong Kong",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 22.3193,
+    "longitude": 114.1694
+  }
+},
+    arrivalLocation: {
+  "city": "Bali",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Hong Kong",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 22.3193,
+      "longitude": 114.1694
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Sail away from Hong Kong into the beautiful expanse of Asia Pacific. Along the way, enjoy rich cultural experiences in Shanghai, Tokyo, Sydney, Bali, where history, nature, and cuisine collide.",
+      distance: "1008 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Hong Kong to Shanghai"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Tokyo"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to Sydney"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Sailing from Sydney to Bali"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Hong Kong"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Exploring Bali"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Sarah Sutton",
+        role: "Loyalty Program Representative",
+        languages: ["Danish"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/41.jpg",
+        contact: {
+          contactEmail: "immersive.whisper.of@velarivoyages.com",
+          contactNumber: "+1-914-598-5606"
+        }
+      }
+    ],
+    title: "Immersive Whisper of the City of Rising Mist",
+    description: "Sail away from Hong Kong into the beautiful expanse of Asia Pacific. Along the way, enjoy rich cultural experiences in Shanghai, Tokyo, Sydney, Bali, where history, nature, and cuisine collide.",
+    rating: 4.5,
+    tags: ["cruise-ship"]
+  },
+  {
+    basePrice: 9935,
+    departureLocation: {
+  "city": "Hong Kong",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 22.3193,
+    "longitude": 114.1694
+  }
+},
+    arrivalLocation: {
+  "city": "Hong Kong",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 22.3193,
+    "longitude": 114.1694
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Hong Kong",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 22.3193,
+      "longitude": 114.1694
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Hong Kong",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 22.3193,
+      "longitude": 114.1694
+    }
+  }
+],
+      description: "Let the spirit of exploration guide your verdant journey from Hong Kong. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Sydney, Shanghai, Tokyo.",
+      distance: "1374 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Hong Kong to Sydney"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Sydney to Shanghai"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Tokyo"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to Hong Kong"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Hong Kong"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Hong Kong"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Harper Cooper",
+        role: "Loyalty Program Representative",
+        languages: ["Danish"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/93.jpg",
+        contact: {
+          contactEmail: "panoramic.journey.of@velarivoyages.com",
+          contactNumber: "+1-948-843-7300"
+        }
+      }
+    ],
+    title: "Panoramic Journey of the Lantern-Lit Labyrinth",
+    description: "Let the spirit of exploration guide your verdant journey from Hong Kong. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Sydney, Shanghai, Tokyo.",
+    rating: 4.9,
+    tags: ["family-friendly","wellness"]
   }
 ];

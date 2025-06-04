@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const kielCruises: Cruise[] = [
-  {
+{
     basePrice: 3303,
     departureLocation: {
   "city": "Kiel",
@@ -2105,5 +2105,299 @@ export const kielCruises: Cruise[] = [
     description: "Discover the wonders of Northern Europe aboard this unforgettable cruise departing from Kiel. Journey through crystal waters to explore the treasures of Tallinn, Copenhagen, Helsinki, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
     rating: 4.1,
     tags: ["weekend-cruise","culinary"]
+  },
+  {
+    basePrice: 7784,
+    departureLocation: {
+  "city": "Kiel",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 54.3233,
+    "longitude": 10.1228
+  }
+},
+    arrivalLocation: {
+  "city": "Oslo",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Petersburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "An escape like no other begins in Kiel, where your eclipse launches into the heart of Northern Europe. Discover the magic of Helsinki, Tallinn, St. Petersburg, Oslo with style and sophistication.",
+      distance: "1080 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Kiel to Helsinki"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Helsinki to Tallinn"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Tallinn to St. Petersburg"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from St. Petersburg to Oslo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Kiel"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Tallinn"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring St. Petersburg"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Oslo"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Nomsa Fisher",
+        role: "Travel Advisor",
+        languages: ["Greek","Malayalam"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/women/98.jpg",
+        contact: {
+          contactEmail: "mystical.discovery.o@velarivoyages.com",
+          contactNumber: "+1-338-889-7456"
+        }
+      }
+    ],
+    title: "Mystical Discovery of the Frost-Lit Dock",
+    description: "An escape like no other begins in Kiel, where your eclipse launches into the heart of Northern Europe. Discover the magic of Helsinki, Tallinn, St. Petersburg, Oslo with style and sophistication.",
+    rating: 4.6,
+    tags: ["wildlife","expedition"]
+  },
+  {
+    basePrice: 9257,
+    departureLocation: {
+  "city": "Kiel",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 54.3233,
+    "longitude": 10.1228
+  }
+},
+    arrivalLocation: {
+  "city": "Helsinki",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Sail into splendor from Kiel on a captivating voyage through Northern Europe. Let each stop—from Stockholm to Copenhagen—reveal the unique flavors and colors of the region.",
+      distance: "837 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Kiel to Stockholm"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Stockholm to Copenhagen"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Copenhagen to Oslo"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Oslo to Helsinki"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Kiel"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Helsinki"
+  }
+]
+    },
+    tourCategoryId: "vip-cruise",
+    contactPersonnel: [
+      {
+        name: "Evelyn Graham",
+        role: "Travel Advisor",
+        languages: ["Greek","Malayalam"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
+        contact: {
+          contactEmail: "luxurious.resonance.@velarivoyages.com",
+          contactNumber: "+1-362-687-5580"
+        }
+      }
+    ],
+    title: "Luxurious Resonance of the Steel and Salt Artery",
+    description: "Sail into splendor from Kiel on a captivating voyage through Northern Europe. Let each stop—from Stockholm to Copenhagen—reveal the unique flavors and colors of the region.",
+    rating: 5.0,
+    tags: ["VIP"]
   }
 ];

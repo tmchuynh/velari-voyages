@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const londonCruises: Cruise[] = [
-  {
+{
     basePrice: 7835,
     departureLocation: {
   "city": "London",
@@ -2103,5 +2103,259 @@ export const londonCruises: Cruise[] = [
     description: "Begin your retreat in London, a gateway to the soul of Northern Europe. Enjoy days spent exploring Copenhagen, Oslo, Stockholm and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
     rating: 5.0,
     tags: ["long-distance"]
+  },
+  {
+    basePrice: 1979,
+    departureLocation: {
+  "city": "London",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 51.5074,
+    "longitude": -0.1278
+  }
+},
+    arrivalLocation: {
+  "city": "Stockholm",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    }
+  },
+  {
+    "city": "St. Petersburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "This handpicked tranquility begins in London and travels through Northern Europe's iconic waterscapes. Discover St. Petersburg, Stockholm as each day brings new stories and every night offers elegant repose.",
+      distance: "1094 nautical miles",
+      totalDuration: "6 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from London to St. Petersburg"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Sailing from St. Petersburg to Stockholm"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring London"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring St. Petersburg"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Stockholm"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Barbara Chambers",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Swahili","Khmer"],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/women/69.jpg",
+        contact: {
+          contactEmail: "timeless.pilgrimage.@velarivoyages.com",
+          contactNumber: "+1-682-537-8592"
+        }
+      }
+    ],
+    title: "Timeless Pilgrimage of the Empire’s Veil",
+    description: "This handpicked tranquility begins in London and travels through Northern Europe's iconic waterscapes. Discover St. Petersburg, Stockholm as each day brings new stories and every night offers elegant repose.",
+    rating: 4.4,
+    tags: ["expedition","wellness"]
+  },
+  {
+    basePrice: 8381,
+    departureLocation: {
+  "city": "London",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 51.5074,
+    "longitude": -0.1278
+  }
+},
+    arrivalLocation: {
+  "city": "Tallinn",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Petersburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Experience the elegance of the seas on this timeless solstice through Northern Europe, starting from the illustrious port of London. From Stockholm, St. Petersburg, Copenhagen to Tallinn, each destination offers its own story, culture, and breathtaking views.",
+      distance: "1320 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from London to Stockholm"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Stockholm to St. Petersburg"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from St. Petersburg to Copenhagen"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Copenhagen to Tallinn"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring London"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring St. Petersburg"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring Tallinn"
+  }
+]
+    },
+    tourCategoryId: "vip-cruise",
+    contactPersonnel: [
+      {
+        name: "Scarlett Price",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Swahili","Khmer"],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/women/61.jpg",
+        contact: {
+          contactEmail: "verdant.mystique.of.@velarivoyages.com",
+          contactNumber: "+1-879-605-9906"
+        }
+      }
+    ],
+    title: "Verdant Mystique of the Midnight Monarchy",
+    description: "Experience the elegance of the seas on this timeless solstice through Northern Europe, starting from the illustrious port of London. From Stockholm, St. Petersburg, Copenhagen to Tallinn, each destination offers its own story, culture, and breathtaking views.",
+    rating: 4.7,
+    tags: ["VIP","short-getaway"]
   }
 ];
