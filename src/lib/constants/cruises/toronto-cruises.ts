@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const torontoCruises: Cruise[] = [
-  {
+{
     basePrice: 3942,
     departureLocation: {
   "city": "Toronto",
@@ -2099,5 +2099,601 @@ export const torontoCruises: Cruise[] = [
     description: "Savor each moment of this horizon-kissed escape through East Coast Canada, starting in Toronto. Visit renowned locations like Mykonos, Barcelona, Rome, where adventure and relaxation intertwine.",
     rating: 4.9,
     tags: ["glacier-cruise"]
+  },
+  {
+    basePrice: 2088,
+    departureLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    arrivalLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "Sail away from the charming harbor of Toronto on this azure journey across East Coast Canada. Uncover the beauty and history of Barcelona, Mykonos with curated excursions, world-class cuisine, and exceptional service.",
+      distance: "806 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Toronto to Barcelona"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Mykonos"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Mykonos to Toronto"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Toronto"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Toronto"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Evelyn Hamilton",
+        role: "Sales Consultant",
+        languages: ["Malay"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
+        contact: {
+          contactEmail: "hidden.resonance.of.@velarivoyages.com",
+          contactNumber: "+1-140-792-9053"
+        }
+      }
+    ],
+    title: "Hidden Resonance of the Great Lakes Metropolis",
+    description: "Sail away from the charming harbor of Toronto on this azure journey across East Coast Canada. Uncover the beauty and history of Barcelona, Mykonos with curated excursions, world-class cuisine, and exceptional service.",
+    rating: 4.3,
+    tags: ["cruise-journey"]
+  },
+  {
+    basePrice: 7077,
+    departureLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    arrivalLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "Unwind and explore on this resonance through East Coast Canada, departing from Toronto. With every stop—from Barcelona to Athens—you’ll collect memories that last a lifetime.",
+      distance: "581 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Toronto to Barcelona"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Mykonos"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Athens"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from Athens to Toronto"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Toronto"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Toronto"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Jessica Maxwell",
+        role: "Sales Consultant",
+        languages: ["Malay"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/women/67.jpg",
+        contact: {
+          contactEmail: "extraordinary.quest.@velarivoyages.com",
+          contactNumber: "+1-663-777-9412"
+        }
+      }
+    ],
+    title: "Extraordinary Quest of the Towered Threshold",
+    description: "Unwind and explore on this resonance through East Coast Canada, departing from Toronto. With every stop—from Barcelona to Athens—you’ll collect memories that last a lifetime.",
+    rating: 4.7,
+    tags: ["cultural","short-getaway","cruise-getaway"]
+  },
+  {
+    basePrice: 2762,
+    departureLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    arrivalLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "Depart from iconic Toronto and traverse the East Coast Canada with visits to Athens, Malta, Rome, Dubrovnik. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
+      distance: "506 nautical miles",
+      totalDuration: "18 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Toronto to Athens"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Athens to Malta"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Malta to Rome"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Dubrovnik"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Sailing from Dubrovnik to Toronto"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Toronto"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 17",
+    "end": "Day 18",
+    "duration": "2 days",
+    "description": "Exploring Toronto"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Nicole Sutton",
+        role: "Sales Consultant",
+        languages: ["Malay"],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
+        contact: {
+          contactEmail: "heavenly.escape.of.t@velarivoyages.com",
+          contactNumber: "+1-366-768-5795"
+        }
+      }
+    ],
+    title: "Heavenly Escape of the Lobster Isles",
+    description: "Depart from iconic Toronto and traverse the East Coast Canada with visits to Athens, Malta, Rome, Dubrovnik. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
+    rating: 4.9,
+    tags: ["expedition"]
+  },
+  {
+    basePrice: 4160,
+    departureLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    arrivalLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "Sail from Toronto into a world of wonder. The East Coast Canada beckons with unforgettable ports like Mykonos, Athens, Malta, where every view is picture-perfect and every moment is priceless.",
+      distance: "1114 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Toronto to Mykonos"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Mykonos to Athens"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Athens to Malta"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Malta to Toronto"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Toronto"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Toronto"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Naomi Keller",
+        role: "Sales Consultant",
+        languages: ["Malay"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/women/89.jpg",
+        contact: {
+          contactEmail: "floating.elevation.o@velarivoyages.com",
+          contactNumber: "+1-338-294-2584"
+        }
+      }
+    ],
+    title: "Floating Elevation of the Great Lakes Metropolis",
+    description: "Sail from Toronto into a world of wonder. The East Coast Canada beckons with unforgettable ports like Mykonos, Athens, Malta, where every view is picture-perfect and every moment is priceless.",
+    rating: 4.8,
+    tags: ["short-getaway","wellness"]
   }
 ];

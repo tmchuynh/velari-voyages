@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const tampaCruises: Cruise[] = [
-  {
+{
     basePrice: 3025,
     departureLocation: {
   "city": "Tampa",
@@ -2001,5 +2001,557 @@ export const tampaCruises: Cruise[] = [
     description: "Sail from Tampa into a world of wonder. The Caribbean beckons with unforgettable ports like Nassau, St. Thomas, Philipsburg, where every view is picture-perfect and every moment is priceless.",
     rating: 4.9,
     tags: ["luxury"]
+  },
+  {
+    basePrice: 3407,
+    departureLocation: {
+  "city": "Tampa",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 27.9506,
+    "longitude": -82.4572
+  }
+},
+    arrivalLocation: {
+  "city": "Tampa",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 27.9506,
+    "longitude": -82.4572
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 27.9506,
+      "longitude": -82.4572
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Roatán",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 27.9506,
+      "longitude": -82.4572
+    }
+  }
+],
+      description: "Escape to sea from Tampa on a tide-washed voyage exploring the magic of Caribbean. Visit unforgettable locales like St. Thomas, Roatán, where each stop inspires awe.",
+      distance: "1356 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Tampa to St. Thomas"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from St. Thomas to Roatán"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Roatán to Tampa"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Tampa"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Roatán"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Tampa"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Lisa Reeves",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Punjabi","Marathi","Urdu"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
+        contact: {
+          contactEmail: "infinite.discovery.o@velarivoyages.com",
+          contactNumber: "+1-551-124-4338"
+        }
+      }
+    ],
+    title: "Infinite Discovery of the Sun-Kissed Archipelago",
+    description: "Escape to sea from Tampa on a tide-washed voyage exploring the magic of Caribbean. Visit unforgettable locales like St. Thomas, Roatán, where each stop inspires awe.",
+    rating: 4.8,
+    tags: ["adventure","cruise-holiday","fall-cruise"]
+  },
+  {
+    basePrice: 5862,
+    departureLocation: {
+  "city": "Tampa",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 27.9506,
+    "longitude": -82.4572
+  }
+},
+    arrivalLocation: {
+  "city": "San Juan",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 27.9506,
+      "longitude": -82.4572
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Depart Tampa on a relaxing reunion through the Caribbean region. Highlights include the stunning coastlines of Nassau, St. Thomas, Cozumel, San Juan, all while enjoying first-class amenities on board.",
+      distance: "1161 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Tampa to Nassau"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Nassau to St. Thomas"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from St. Thomas to Cozumel"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Cozumel to San Juan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Tampa"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring San Juan"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Mia Murray",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Punjabi","Marathi","Urdu"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/90.jpg",
+        contact: {
+          contactEmail: "captivating.wanderlu@velarivoyages.com",
+          contactNumber: "+1-917-788-3372"
+        }
+      }
+    ],
+    title: "Captivating Wanderlust of the Warm Currents Hub",
+    description: "Depart Tampa on a relaxing reunion through the Caribbean region. Highlights include the stunning coastlines of Nassau, St. Thomas, Cozumel, San Juan, all while enjoying first-class amenities on board.",
+    rating: 4.2,
+    tags: ["short-getaway"]
+  },
+  {
+    basePrice: 3351,
+    departureLocation: {
+  "city": "Tampa",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 27.9506,
+    "longitude": -82.4572
+  }
+},
+    arrivalLocation: {
+  "city": "Tampa",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 27.9506,
+    "longitude": -82.4572
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 27.9506,
+      "longitude": -82.4572
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 27.9506,
+      "longitude": -82.4572
+    }
+  }
+],
+      description: "Sail from Tampa into a world of wonder. The Caribbean beckons with unforgettable ports like Cozumel, San Juan, Nassau, where every view is picture-perfect and every moment is priceless.",
+      distance: "1045 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Tampa to Cozumel"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Cozumel to San Juan"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from San Juan to Nassau"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Nassau to Tampa"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Tampa"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Tampa"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Audrey Gibson",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Punjabi","Marathi","Urdu"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
+        contact: {
+          contactEmail: "moonlit.retreat.of.t@velarivoyages.com",
+          contactNumber: "+1-335-533-5378"
+        }
+      }
+    ],
+    title: "Moonlit Retreat of the Rum-Laced Breezes",
+    description: "Sail from Tampa into a world of wonder. The Caribbean beckons with unforgettable ports like Cozumel, San Juan, Nassau, where every view is picture-perfect and every moment is priceless.",
+    rating: 4.4,
+    tags: ["adventure"]
+  },
+  {
+    basePrice: 2180,
+    departureLocation: {
+  "city": "Tampa",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 27.9506,
+    "longitude": -82.4572
+  }
+},
+    arrivalLocation: {
+  "city": "Roatán",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 27.9506,
+      "longitude": -82.4572
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Roatán",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Set off on a reflection from Tampa that captures the essence of Caribbean. Discover cultural gems and culinary delights across George Town, San Juan, Roatán.",
+      distance: "664 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Tampa to George Town"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from George Town to San Juan"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from San Juan to Roatán"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Tampa"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring George Town"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Roatán"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Emily Porter",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Punjabi","Marathi","Urdu"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/52.jpg",
+        contact: {
+          contactEmail: "infinite.embrace.of.@velarivoyages.com",
+          contactNumber: "+1-393-985-7841"
+        }
+      }
+    ],
+    title: "Infinite Embrace of the Palmetto Breeze",
+    description: "Set off on a reflection from Tampa that captures the essence of Caribbean. Discover cultural gems and culinary delights across George Town, San Juan, Roatán.",
+    rating: 4.3,
+    tags: ["relaxation","cruise-journey","culinary"]
   }
 ];

@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const yokohamaCruises: Cruise[] = [
-  {
+{
     basePrice: 4228,
     departureLocation: {
   "city": "Yokohama",
@@ -2101,5 +2101,577 @@ export const yokohamaCruises: Cruise[] = [
     description: "Set sail from historic Yokohama for a modern escape into the Asia Pacific. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Shanghai, Ho Chi Minh City.",
     rating: 4.7,
     tags: ["adventure"]
+  },
+  {
+    basePrice: 5970,
+    departureLocation: {
+  "city": "Yokohama",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 35.4437,
+    "longitude": 139.638
+  }
+},
+    arrivalLocation: {
+  "city": "Yokohama",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 35.4437,
+    "longitude": 139.638
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 35.4437,
+      "longitude": 139.638
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 35.4437,
+      "longitude": 139.638
+    }
+  }
+],
+      description: "This inspiring discovery departs from Yokohama, navigating the diverse landscapes and vibrant cities of Asia Pacific. Must-see stops include Ho Chi Minh City, Singapore, Tokyo.",
+      distance: "1290 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Yokohama to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Sailing from Ho Chi Minh City to Singapore"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Singapore to Tokyo"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to Yokohama"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Yokohama"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Yokohama"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Leah Stewart",
+        role: "Travel Advisor",
+        languages: ["Telugu","Vietnamese"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/39.jpg",
+        contact: {
+          contactEmail: "mystical.tide.of.the@velarivoyages.com",
+          contactNumber: "+1-220-181-8676"
+        }
+      }
+    ],
+    title: "Mystical Tide of the Oceanic Wonders",
+    description: "This inspiring discovery departs from Yokohama, navigating the diverse landscapes and vibrant cities of Asia Pacific. Must-see stops include Ho Chi Minh City, Singapore, Tokyo.",
+    rating: 4.5,
+    tags: ["cruise-journey","culinary"]
+  },
+  {
+    basePrice: 1491,
+    departureLocation: {
+  "city": "Yokohama",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 35.4437,
+    "longitude": 139.638
+  }
+},
+    arrivalLocation: {
+  "city": "Yokohama",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 35.4437,
+    "longitude": 139.638
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 35.4437,
+      "longitude": 139.638
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 35.4437,
+      "longitude": 139.638
+    }
+  }
+],
+      description: "A voyage of contrasts awaits from Yokohama. Discover the historical and natural richness of Asia Pacific as you cruise to spectacular destinations like Tokyo, Sydney.",
+      distance: "768 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Yokohama to Tokyo"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Tokyo to Sydney"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Sydney to Yokohama"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Yokohama"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Yokohama"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Gabriella Price",
+        role: "Travel Advisor",
+        languages: ["Telugu","Vietnamese"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
+        contact: {
+          contactEmail: "pearlescent.arcadia.@velarivoyages.com",
+          contactNumber: "+1-556-248-5631"
+        }
+      }
+    ],
+    title: "Pearlescent Arcadia of the Gateway to Japan",
+    description: "A voyage of contrasts awaits from Yokohama. Discover the historical and natural richness of Asia Pacific as you cruise to spectacular destinations like Tokyo, Sydney.",
+    rating: 4.4,
+    tags: ["cruise-ship","long-distance"]
+  },
+  {
+    basePrice: 7375,
+    departureLocation: {
+  "city": "Yokohama",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 35.4437,
+    "longitude": 139.638
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 35.4437,
+      "longitude": 139.638
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Launch into adventure from Yokohama and sail deep into the heart of the Asia Pacific. With ports of call like Sydney, Bangkok, Tokyo, Shanghai, expect a voyage filled with scenic wonders and luxurious comforts.",
+      distance: "1345 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Yokohama to Sydney"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Sydney to Bangkok"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Bangkok to Tokyo"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from Tokyo to Shanghai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Yokohama"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Bangkok"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Avery Foster",
+        role: "Travel Advisor",
+        languages: ["Telugu","Vietnamese"],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/women/8.jpg",
+        contact: {
+          contactEmail: "legendary.discovery.@velarivoyages.com",
+          contactNumber: "+1-579-446-9035"
+        }
+      }
+    ],
+    title: "Legendary Discovery of the Pearl Wake City",
+    description: "Launch into adventure from Yokohama and sail deep into the heart of the Asia Pacific. With ports of call like Sydney, Bangkok, Tokyo, Shanghai, expect a voyage filled with scenic wonders and luxurious comforts.",
+    rating: 4.9,
+    tags: ["culinary","fall-cruise"]
+  },
+  {
+    basePrice: 6516,
+    departureLocation: {
+  "city": "Yokohama",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 35.4437,
+    "longitude": 139.638
+  }
+},
+    arrivalLocation: {
+  "city": "Sydney",
+  "country": "Australia",
+  "coordinates": {
+    "latitude": -33.8688,
+    "longitude": 151.2093
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 35.4437,
+      "longitude": 139.638
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  }
+],
+      description: "Embark from Yokohama and traverse the Asia Pacific in style. Whether it’s the energy of Shanghai or the calm of Tokyo, each destination reveals a new side of paradise.",
+      distance: "677 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Yokohama to Shanghai"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Tokyo"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Tokyo to Singapore"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from Singapore to Sydney"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Yokohama"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Sydney"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Laura Day",
+        role: "Travel Advisor",
+        languages: ["Telugu","Vietnamese"],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/women/87.jpg",
+        contact: {
+          contactEmail: "radiancedrenched.tra@velarivoyages.com",
+          contactNumber: "+1-506-819-8141"
+        }
+      }
+    ],
+    title: "Radiance-Drenched Tranquility of the Pearl Wake City",
+    description: "Embark from Yokohama and traverse the Asia Pacific in style. Whether it’s the energy of Shanghai or the calm of Tokyo, each destination reveals a new side of paradise.",
+    rating: 4.1,
+    tags: ["cruise-experience","short-getaway"]
   }
 ];
