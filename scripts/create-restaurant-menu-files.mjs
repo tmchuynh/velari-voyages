@@ -659,8 +659,6 @@ function generateMenuItemsForType(category, cuisine, count = args["items"]) {
   const drinkCategories = [
     "alcoholic beverages",
     "drinks",
-    "cocktails",
-    "signature cocktails",
     "wine",
     "wine selection",
     "spirits",
@@ -668,10 +666,14 @@ function generateMenuItemsForType(category, cuisine, count = args["items"]) {
     "non-alcoholic beverages",
   ];
 
+  // Special flag for cocktails
+  const isCocktail = category.toLowerCase().includes("cocktail");
+
   // If category is a dessert or drink type, don't use fancy names
   if (
     dessertCategories.includes(category.toLowerCase()) ||
-    drinkCategories.includes(category.toLowerCase())
+    drinkCategories.includes(category.toLowerCase()) ||
+    isCocktail
   ) {
     useFancyName = false;
   }
@@ -762,6 +764,12 @@ function generateMenuItemsForType(category, cuisine, count = args["items"]) {
       itemSource = menuItems.spiritsAndLiqueurs;
       priceRange = { min: 10, max: 18 };
       break;
+    case "cocktails":
+    case "signature cocktails":
+      // This will be handled by generateCocktailItems
+      itemSource = null;
+      priceRange = { min: 10, max: 16 };
+      return generateCocktailItems(count, priceRange);
     default:
       // Default to main courses if category doesn't match
       itemSource = menuItems.mainCourses;
@@ -787,6 +795,98 @@ function generateMenuItemsForType(category, cuisine, count = args["items"]) {
       ...dietaryFlags,
     };
   });
+}
+
+// New function to generate cocktail items using specialized cocktail data
+function generateCocktailItems(count, priceRange) {
+  const items = [];
+
+  for (let i = 0; i < count; i++) {
+    // Randomly select cocktail components
+    const liqueur =
+      getRandomItems(menuItems.cocktailLiqueurs, 1)[0] ||
+      getRandomItems(menuItems.spiritsAndLiqueurs, 1)[0];
+    const mixer = getRandomItems(menuItems.cocktailMixers, 1)[0];
+    const garnish =
+      Math.random() > 0.3
+        ? getRandomItems(menuItems.cocktailGarnishes, 1)[0]
+        : null;
+    const technique = getRandomItems(menuItems.cocktailTechniques, 1)[0];
+    const glassType = getRandomItems(
+      menuItems.cocktailGlassware || ["glass"],
+      1
+    )[0];
+
+    // Format name patterns
+    let name;
+    const namePattern = Math.floor(Math.random() * 4);
+
+    switch (namePattern) {
+      case 0:
+        // "[Liqueur] [Mixer]" (e.g., "Vodka Cranberry")
+        name = `${liqueur} ${mixer}`;
+        break;
+      case 1:
+        // "[Technique] [Liqueur]" (e.g., "Shaken Martini")
+        name = `${technique} ${liqueur}`;
+        break;
+      case 2:
+        // "[Liqueur] with [Garnish]" (e.g., "Gin with Lime Twist")
+        name = garnish ? `${liqueur} with ${garnish}` : `${liqueur} ${mixer}`;
+        break;
+      case 3:
+        // Classic cocktail name (left as-is)
+        const classicCocktail = getRandomItems(
+          [
+            "Martini",
+            "Margarita",
+            "Old Fashioned",
+            "Mojito",
+            "Negroni",
+            "Manhattan",
+            "Bloody Mary",
+            "Cosmopolitan",
+            "Mai Tai",
+            "Whiskey Sour",
+            "Daiquiri",
+            "Tom Collins",
+          ],
+          1
+        )[0];
+        name = classicCocktail;
+        break;
+    }
+
+    // Generate description for the cocktail
+    const descriptionTemplates = [
+      `A signature ${technique.toLowerCase()} cocktail featuring premium ${liqueur.toLowerCase()}${
+        garnish ? ` with a ${garnish.toLowerCase()} garnish` : ""
+      }.`,
+      `Our bartender's favorite blend of ${liqueur.toLowerCase()} and ${mixer.toLowerCase()}, served in a chilled ${glassType}.`,
+      `${
+        garnish ? `Garnished with ${garnish.toLowerCase()}, this` : "This"
+      } ${technique.toLowerCase()} masterpiece combines ${liqueur.toLowerCase()} with ${mixer.toLowerCase()}.`,
+      `A refreshing mix of ${liqueur.toLowerCase()} and hand-picked ingredients, ${technique.toLowerCase()} to perfection.`,
+      `This classic ${name} is carefully crafted using our house-selected spirits and ${
+        garnish ? `finished with ${garnish.toLowerCase()}` : "premium mixers"
+      }.`,
+    ];
+
+    const description = getRandomItems(descriptionTemplates, 1)[0];
+
+    items.push({
+      name: name,
+      description: description,
+      price: parseFloat(generateRandomPrice(priceRange.min, priceRange.max)),
+      isVegetarian: true,
+      isVegan: true,
+      isGlutenFree: Math.random() > 0.2, // Most cocktails are gluten-free
+      isHalal: false, // Alcoholic drinks are not halal
+      isKosher: Math.random() > 0.5, // Some may be kosher
+    });
+  }
+
+  return items;
 }
 
 // Function to generate menu file content with populated items
