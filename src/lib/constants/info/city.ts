@@ -606,4 +606,253 @@ export const cruiseDepartureLocations: Location[] = [
     additionalInfo:
       "Scenic departure point for Canada/New England cruises. The Alexandra Pier terminal operates primarily from May through October with popular fall foliage cruises along the eastern seaboard in September and October. Located in the heart of Old Montreal with its cobblestone streets and historic architecture, the terminal offers immediate access to the city's European-influenced charm. The facility is approximately 30 minutes from Montreal-Trudeau International Airport and adjacent to public transit options.",
   },
+  {
+    city: "Amsterdam",
+    country: "Netherlands",
+    region: "North Holland",
+    isPopular: true,
+    subtitle: "Venice of the North",
+    quote:
+      "Where historic canals cradle golden age treasures, Amsterdam invites explorers to wander through centuries of artistic innovation and tolerant thinking.",
+    coordinates: {
+      latitude: 52.3676,
+      longitude: 4.9041,
+    },
+    address: "Passenger Terminal Amsterdam, Piet Heinkade 27",
+    postalCode: "1019 BR",
+    timezone: "Europe/Amsterdam",
+    timezoneAbbreviation: "CET/CEST",
+    additionalInfo:
+      "Centrally located European cruise port. The Passenger Terminal Amsterdam is a modern facility situated just minutes from the historic city center and Central Station. Main cruise season runs from April through October with routes to the Baltic Sea, Norwegian Fjords, and British Isles. The terminal provides excellent access to Amsterdam's famous canal ring, museums, and vibrant culture, with Amsterdam Schiphol Airport only 20 minutes away by train.",
+  },
+  {
+    city: "Berlin",
+    country: "Germany",
+    region: "Brandenburg",
+    isPopular: false,
+    subtitle: "City of Reinvention",
+    quote:
+      "Between layers of complex history, Berlin continually reinvents itself as a canvas where past and future engage in perpetual dialogue.",
+    coordinates: {
+      latitude: 52.52,
+      longitude: 13.405,
+    },
+    address: "Accessed via Warnemünde Cruise Port, Rostock",
+    postalCode: "18119",
+    timezone: "Europe/Berlin",
+    timezoneAbbreviation: "CET/CEST",
+    additionalInfo:
+      "Capital accessed via Warnemünde cruise port. Berlin itself is landlocked, but cruise passengers access it via the port of Warnemünde (Rostock), approximately 2.5-3 hours away. This port serves Baltic Sea cruises with visits to Scandinavia and Eastern Europe from May through September. The journey to Berlin offers a glimpse of the German countryside, with most cruise lines offering organized excursions that maximize time in the capital with its world-class museums, historic landmarks, and vibrant cultural scene.",
+  },
+  {
+    city: "Boston",
+    state: "Massachusetts",
+    country: "United States",
+    region: "Northeast",
+    isPopular: false,
+    subtitle: "Cradle of American Liberty",
+    quote:
+      "Walking Boston's Freedom Trail is to trace the footsteps of revolution, where colonial cobblestones still echo with the birth cries of a nation.",
+    coordinates: {
+      latitude: 42.3601,
+      longitude: -71.0589,
+    },
+    address: "Flynn Cruiseport Boston, 1 Black Falcon Ave",
+    postalCode: "02210",
+    timezone: "America/New_York",
+    timezoneAbbreviation: "EST/EDT",
+    additionalInfo:
+      "Historic port for New England and Canadian itineraries. Flynn Cruiseport Boston operates primarily from April through November, with peak season during New England's spectacular fall foliage period. Routes include coastal New England, Canadian Maritime provinces, Bermuda, and occasionally transatlantic crossings. The terminal is located in the trendy Seaport District, just 3 miles from Boston Logan International Airport and walking distance to downtown Boston's historic attractions.",
+  },
+  {
+    city: "Dublin",
+    country: "Ireland",
+    region: "Leinster",
+    isPopular: false,
+    subtitle: "City of Literary Legends",
+    quote:
+      "Where river meets sea, Dublin weaves tales of rebellion and revelation, inviting visitors to join its narrative of warmth and wit.",
+    coordinates: {
+      latitude: 53.3498,
+      longitude: -6.2603,
+    },
+    address: "Dublin Port, Alexandra Road",
+    postalCode: "D01 H4C6",
+    timezone: "Europe/Dublin",
+    timezoneAbbreviation: "GMT/IST",
+    additionalInfo:
+      "Gateway to the Emerald Isle's treasures. Dublin Port welcomes cruise ships from April through October, with routes around the British Isles, Northern Europe, and transatlantic voyages. The cruise berths are approximately 3km from Dublin city center with shuttle services available. The port provides easy access to Dublin's literary landmarks, Georgian architecture, historic pubs, and serves as a starting point for explorations of Ireland's lush countryside and ancient sites.",
+  },
+  {
+    city: "Florence",
+    country: "Italy",
+    region: "Tuscany",
+    isPopular: true,
+    subtitle: "Cradle of Renaissance",
+    quote:
+      "In Florence, every stone tells a story of artistic rebirth, where beauty was not created but rather, remembered into existence.",
+    coordinates: {
+      latitude: 43.7696,
+      longitude: 11.2558,
+    },
+    address: "Accessed via Livorno Cruise Port, Piazzale dei Marmi",
+    postalCode: "57123",
+    timezone: "Europe/Rome",
+    timezoneAbbreviation: "CET/CEST",
+    additionalInfo:
+      "Tuscan jewel accessed via Livorno port. While Florence is inland, cruise passengers visit via the Port of Livorno, approximately 90 minutes away. The Mediterranean cruise season runs from April through October. From Livorno, visitors can explore Florence's unparalleled Renaissance treasures including the Uffizi Gallery, Duomo, and Ponte Vecchio, as well as nearby Pisa with its famous Leaning Tower. The port area offers excellent transportation connections with cruise lines providing organized excursions to Tuscany's highlights.",
+  },
+  {
+    city: "Kyoto",
+    country: "Japan",
+    region: "Kansai",
+    isPopular: false,
+    subtitle: "Soul of Traditional Japan",
+    quote:
+      "Time moves differently in Kyoto, where ancient traditions breathe quietly between modern moments, preserving Japan's cultural heartbeat.",
+    coordinates: {
+      latitude: 35.0116,
+      longitude: 135.7681,
+    },
+    address: "Accessed via Osaka or Kobe Cruise Ports",
+    postalCode: "650-0042",
+    timezone: "Asia/Tokyo",
+    timezoneAbbreviation: "JST",
+    additionalInfo:
+      "Cultural treasure accessed via Osaka or Kobe ports. Though inland, Kyoto is a popular excursion destination for cruise ships docking at Osaka or Kobe ports (approximately 1-1.5 hours away). The cruise season aligns with Japan's spring cherry blossom season (March-April) and autumn foliage (October-November). From these ports, visitors can explore Kyoto's 17 UNESCO World Heritage sites, including its famous temples, shrines, and traditional gardens that epitomize classical Japanese aesthetics and culture.",
+  },
+  {
+    city: "London",
+    country: "United Kingdom",
+    region: "England",
+    isPopular: true,
+    subtitle: "Where History Meets Tomorrow",
+    quote:
+      "London stands as a living museum where ancient stones whisper beside modern glass, creating a metropolis that bridges centuries with unwavering dignity.",
+    coordinates: {
+      latitude: 51.5074,
+      longitude: -0.1278,
+    },
+    address: "London International Cruise Terminal, Tilbury",
+    postalCode: "RM18 7NG",
+    timezone: "Europe/London",
+    timezoneAbbreviation: "GMT/BST",
+    additionalInfo:
+      "Global metropolis served by various terminals. Most cruise ships dock at either Tilbury (about 25 miles from central London) or occasionally at Tower Bridge for smaller vessels. The cruise season runs from April through October with routes to Northern Europe, the Baltic, and transatlantic crossings. From Tilbury, London's iconic attractions are accessible via a 45-minute train journey. The historic terminal has undergone recent renovations to enhance the passenger experience while maintaining its Grade II listed heritage status.",
+  },
+  {
+    city: "Milan",
+    country: "Italy",
+    region: "Lombardy",
+    isPopular: false,
+    subtitle: "Fashion and Design Capital",
+    quote:
+      "Milan doesn't display its beauty immediately, preferring to reveal its sophisticated treasures to those who seek beyond the surface.",
+    coordinates: {
+      latitude: 45.4642,
+      longitude: 9.19,
+    },
+    address: "Accessed via Genoa Cruise Port, Stazione Marittima",
+    postalCode: "16126",
+    timezone: "Europe/Rome",
+    timezoneAbbreviation: "CET/CEST",
+    additionalInfo:
+      "Design capital accessed via Genoa port. While inland, Milan is reached via the Port of Genoa, approximately 1.5 hours away by train or organized excursions. The Mediterranean cruise season runs from April through November. From Genoa, visitors can explore Milan's world-class attractions including the Gothic Duomo, Leonardo da Vinci's 'The Last Supper,' and the city's renowned fashion district. The Genoa port itself is historic, located close to the city's revitalized waterfront and medieval center.",
+  },
+  {
+    city: "Paris",
+    country: "France",
+    region: "Île-de-France",
+    isPopular: true,
+    subtitle: "City of Light and Love",
+    quote:
+      "Paris exists in two realms: the physical city of stone and river, and the dream city built from millions of artistic imaginings.",
+    coordinates: {
+      latitude: 48.8566,
+      longitude: 2.3522,
+    },
+    address: "Accessed via Le Havre Cruise Terminal",
+    postalCode: "76600",
+    timezone: "Europe/Paris",
+    timezoneAbbreviation: "CET/CEST",
+    additionalInfo:
+      "Iconic destination accessed via Le Havre port. Though inland, Paris is accessible from the Port of Le Havre, approximately 2-2.5 hours away. The northern European cruise season runs from April through October. Most cruise lines offer organized excursions to maximize time in Paris exploring landmarks like the Eiffel Tower, Louvre, and Notre-Dame. Le Havre itself was rebuilt after WWII and features distinct modernist architecture that has earned UNESCO World Heritage status.",
+  },
+  {
+    city: "Quebec City",
+    country: "Canada",
+    region: "Quebec",
+    isPopular: false,
+    subtitle: "North America's European Enclave",
+    quote:
+      "Perched above the mighty St. Lawrence, Quebec City preserves a fragment of Old World Europe within the embrace of North American shores.",
+    coordinates: {
+      latitude: 46.8139,
+      longitude: -71.208,
+    },
+    address: "Port of Québec, 84 Dalhousie St",
+    postalCode: "G1K 8M5",
+    timezone: "America/Montreal",
+    timezoneAbbreviation: "EST/EDT",
+    additionalInfo:
+      "Picturesque port for Canada/New England cruises. The Port of Québec offers one of North America's most spectacular arrival experiences with views of the iconic Château Frontenac and historic Old Québec. The cruise season runs from May through October, peaking during the spectacular fall foliage period of September-October. Ships dock at the Ross Gaudreault Cruise Terminal, which is walking distance from Old Québec's UNESCO World Heritage streets, allowing passengers to immediately immerse in the city's French colonial charm.",
+  },
+  {
+    city: "Rio de Janeiro",
+    country: "Brazil",
+    region: "Southeast",
+    isPopular: true,
+    subtitle: "Marvelous City Between Mountains and Sea",
+    quote:
+      "Cradled by impossible geography, Rio embodies the joyful defiance of a city that celebrates life between jungle-clad mountains and golden shores.",
+    coordinates: {
+      latitude: -22.9068,
+      longitude: -43.1729,
+    },
+    address: "Pier Mauá, Avenida Rodrigues Alves",
+    postalCode: "20081-250",
+    timezone: "America/Sao_Paulo",
+    timezoneAbbreviation: "BRT/BRST",
+    additionalInfo:
+      "Spectacular harbor for South American cruises. Pier Mauá offers one of the world's most dramatic port arrivals with views of Sugarloaf Mountain and Christ the Redeemer statue. The South American cruise season runs from November through March during the Southern Hemisphere summer. The recently revitalized pier complex is located near Rio's historic center and provides easy access to famous beaches like Copacabana and Ipanema. The terminal is approximately 30 minutes from Rio's international airport.",
+  },
+  {
+    city: "San Francisco",
+    state: "California",
+    country: "United States",
+    region: "West Coast",
+    isPopular: true,
+    subtitle: "City by the Bay",
+    quote:
+      "Wrapped in fog and possibility, San Francisco balances on its hills like a treasured memory that reinvents itself with each telling.",
+    coordinates: {
+      latitude: 37.7749,
+      longitude: -122.4194,
+    },
+    address: "Pier 27 Cruise Terminal, The Embarcadero",
+    postalCode: "94111",
+    timezone: "America/Los_Angeles",
+    timezoneAbbreviation: "PST/PDT",
+    additionalInfo:
+      "Iconic gateway to the Pacific and Alaska. The James R. Herman Cruise Terminal at Pier 27 offers stunning views of the Bay, Alcatraz, and the Golden Gate Bridge. Year-round cruising includes routes to Alaska (May-September), Hawaii, Mexico, and transpacific voyages. The terminal is centrally located along the Embarcadero, within walking distance of Fisherman's Wharf, Ferry Building, and downtown attractions. San Francisco International Airport is approximately 30 minutes away, making pre and post-cruise stays convenient.",
+  },
+  {
+    city: "Toronto",
+    country: "Canada",
+    region: "Ontario",
+    isPopular: false,
+    subtitle: "Cosmopolitan Heart of Canada",
+    quote:
+      "On Lake Ontario's shores, Toronto weaves global influences into a vibrant tapestry that celebrates diversity as its greatest strength.",
+    coordinates: {
+      latitude: 43.6532,
+      longitude: -79.3832,
+    },
+    address: "Cruise Ship Terminal, 8 Unwin Avenue",
+    postalCode: "M5A 1A1",
+    timezone: "America/Toronto",
+    timezoneAbbreviation: "EST/EDT",
+    additionalInfo:
+      "Great Lakes cruise destination. Toronto's cruise terminal primarily serves smaller vessels navigating the Great Lakes during the summer and early fall season (June-October). The facility welcomes ships exploring routes between major cities on the Great Lakes including Chicago, Detroit, Milwaukee, and Cleveland. Located at the eastern edge of the harbor, the terminal provides convenient access to Toronto's diverse neighborhoods, CN Tower, Ripley's Aquarium, and vibrant waterfront developments.",
+  },
 ];
