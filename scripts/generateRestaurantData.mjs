@@ -306,7 +306,7 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
 
   // Restaurant names by region/city
   const namePrefix = {
-    auckland: removeDuplicates([
+    auckland: [
       "Harbour",
       "Kiwi",
       "Maori",
@@ -326,8 +326,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Hauraki",
       "Seabreeze",
       "Island Hopping",
-    ]),
-    amsterdam: removeDuplicates([
+    ],
+    amsterdam: [
       "Canal",
       "Dutch",
       "Amsterdam",
@@ -346,8 +346,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Gouda",
       "Netherlands",
       "Rijksmuseum",
-    ]),
-    barcelona: removeDuplicates([
+    ],
+    barcelona: [
       "Barcelona",
       "Catalonia",
       "Gaudi",
@@ -365,8 +365,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Costa Brava",
       "Eixample",
       "Tibidabo",
-    ]),
-    berlin: removeDuplicates([
+    ],
+    berlin: [
       "Berlin",
       "Brandenburg",
       "Rhine",
@@ -383,8 +383,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Kreuzberg",
       "Charlottenburg",
       "Alexanderplatz",
-    ]),
-    boston: removeDuplicates([
+    ],
+    boston: [
       "Boston",
       "Harbor",
       "Colonial",
@@ -401,8 +401,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Revolution",
       "Charles River",
       "New England",
-    ]),
-    "buenos-aires": removeDuplicates([
+    ],
+    "buenos-aires": [
       "Buenos Aires",
       "Tango",
       "Gaucho",
@@ -420,8 +420,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Mate",
       "Carnaval",
       "Paraná",
-    ]),
-    "cape-town": removeDuplicates([
+    ],
+    "cape-town": [
       "Cape",
       "Safari",
       "Table Mountain",
@@ -439,8 +439,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Twelve Apostles",
       "Bo-Kaap",
       "Victoria Wharf",
-    ]),
-    charleston: removeDuplicates([
+    ],
+    charleston: [
       "Charleston",
       "Palmetto",
       "Southern",
@@ -457,8 +457,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Fort Sumter",
       "Ashley River",
       "Gullah",
-    ]),
-    copenhagen: removeDuplicates([
+    ],
+    copenhagen: [
       "Copenhagen",
       "Viking",
       "Scandi",
@@ -476,8 +476,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Amalienborg",
       "Cinnamon Roll",
       "Christiania",
-    ]),
-    dubai: removeDuplicates([
+    ],
+    dubai: [
       "Dubai",
       "Gold",
       "Desert",
@@ -494,8 +494,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Dhow",
       "Sheikh Zayed",
       "Sands",
-    ]),
-    dublin: removeDuplicates([
+    ],
+    dublin: [
       "Dublin",
       "Emerald",
       "Celtic",
@@ -515,8 +515,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Blarney",
       "Green Isle",
       "Fáilte",
-    ]),
-    florence: removeDuplicates([
+    ],
+    florence: [
       "Florence",
       "Tuscany",
       "Renaissance",
@@ -534,8 +534,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Firenze",
       "Artisan",
       "Oltrarno",
-    ]),
-    "fort-lauderdale": removeDuplicates([
+    ],
+    "fort-lauderdale": [
       "Fort Lauderdale",
       "Sunshine",
       "Everglades",
@@ -553,8 +553,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Tropical",
       "Marina Mile",
       "A1A",
-    ]),
-    galveston: removeDuplicates([
+    ],
+    galveston: [
       "Galveston",
       "Texas",
       "Gulf",
@@ -572,8 +572,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Bay",
       "Moody",
       "Bolivar",
-    ]),
-    "hong-kong": removeDuplicates([
+    ],
+    "hong-kong": [
       "Hong Kong",
       "Victoria",
       "Pearl",
@@ -592,8 +592,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Canton",
       "Neon",
       "Star Ferry",
-    ]),
-    kiel: removeDuplicates([
+    ],
+    kiel: [
       "Kiel",
       "Baltic",
       "Hanseatic",
@@ -611,8 +611,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Warft",
       "Laboe",
       "Navy",
-    ]),
-    kyoto: removeDuplicates([
+    ],
+    kyoto: [
       "Kyoto",
       "Zen",
       "Geisha",
@@ -633,8 +633,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Blossom",
       "Higashiyama",
       "Nishiki",
-    ]),
-    lisbon: removeDuplicates([
+    ],
+    lisbon: [
       "Lisbon",
       "Tagus",
       "Explorer",
@@ -652,8 +652,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Castelo",
       "Miradouro",
       "Baixa",
-    ]),
-    london: removeDuplicates([
+    ],
+    london: [
       "London",
       "Thames",
       "Royal",
@@ -671,8 +671,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Foggy",
       "Tea Time",
       "Kensington",
-    ]),
-    "los-angeles": removeDuplicates([
+    ],
+    "los-angeles": [
       "Los Angeles",
       "Hollywood",
       "Pacific",
@@ -689,8 +689,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Griffith",
       "Metro Goldwyn",
       "Baywatch",
-    ]),
-    melbourne: removeDuplicates([
+    ],
+    melbourne: [
       "Melbourne",
       "Victoria",
       "Yarra",
@@ -708,8 +708,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Skydeck",
       "Eureka",
       "Tram",
-    ]),
-    miami: removeDuplicates([
+    ],
+    miami: [
       "Miami",
       "Magic City",
       "Biscayne",
@@ -728,8 +728,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Coral Gables",
       "Tropical",
       "Bayfront",
-    ]),
-    milan: removeDuplicates([
+    ],
+    milan: [
       "Milan",
       "Fashion",
       "Duomo",
@@ -750,8 +750,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Armani",
       "Mosaic",
       "Piazza",
-    ]),
-    montreal: removeDuplicates([
+    ],
+    montreal: [
       "Montreal",
       "Quebec",
       "Saint Lawrence",
@@ -772,8 +772,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Vieux-Montréal",
       "Winter City",
       "Bonsecours",
-    ]),
-    "new-orleans": removeDuplicates([
+    ],
+    "new-orleans": [
       "New Orleans",
       "Jazz",
       "Bourbon",
@@ -792,8 +792,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Garden District",
       "Treme",
       "Mississippi",
-    ]),
-    "new-york-city": removeDuplicates([
+    ],
+    "new-york-city": [
       "New York",
       "Empire",
       "Hudson",
@@ -814,8 +814,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Big Apple",
       "Statue",
       "Skyline",
-    ]),
-    paris: removeDuplicates([
+    ],
+    paris: [
       "Paris",
       "Seine",
       "Eiffel",
@@ -837,8 +837,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Notre-Dame",
       "French",
       "Bohemian",
-    ]),
-    "quebec-city": removeDuplicates([
+    ],
+    "quebec-city": [
       "Quebec",
       "Château",
       "French",
@@ -856,8 +856,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Plains of Abraham",
       "Upper Town",
       "Cobblestone",
-    ]),
-    "rio-de-janeiro": removeDuplicates([
+    ],
+    "rio-de-janeiro": [
       "Rio",
       "Carnaval",
       "Copacabana",
@@ -877,8 +877,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Botafogo",
       "Corcovado",
       "Lapa",
-    ]),
-    rome: removeDuplicates([
+    ],
+    rome: [
       "Rome",
       "Eternal City",
       "Colosseum",
@@ -897,8 +897,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Trastevere",
       "Gelato",
       "Renaissance",
-    ]),
-    "san-francisco": removeDuplicates([
+    ],
+    "san-francisco": [
       "San Francisco",
       "Golden Gate",
       "Bay",
@@ -917,8 +917,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Twin Peaks",
       "Pacific",
       "Painted Ladies",
-    ]),
-    "san-juan": removeDuplicates([
+    ],
+    "san-juan": [
       "San Juan",
       "Old Town",
       "Castillo",
@@ -939,8 +939,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Plaza",
       "Isla Verde",
       "Viejo San Juan",
-    ]),
-    seattle: removeDuplicates([
+    ],
+    seattle: [
       "Seattle",
       "Emerald",
       "Puget",
@@ -961,8 +961,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Tech",
       "Chihuly",
       "Northwest",
-    ]),
-    singapore: removeDuplicates([
+    ],
+    singapore: [
       "Singapore",
       "Lion City",
       "Marina Bay",
@@ -983,8 +983,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Bayfront",
       "Futuristic",
       "Hawker",
-    ]),
-    southampton: removeDuplicates([
+    ],
+    southampton: [
       "Southampton",
       "Titanic",
       "Solent",
@@ -1007,8 +1007,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Quayside",
       "SeaCity",
       "South Coast",
-    ]),
-    sydney: removeDuplicates([
+    ],
+    sydney: [
       "Sydney",
       "Harbour",
       "Opera",
@@ -1028,8 +1028,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Southern Cross",
       "Surf",
       "Botanic",
-    ]),
-    tampa: removeDuplicates([
+    ],
+    tampa: [
       "Tampa",
       "Bay",
       "Ybor",
@@ -1050,8 +1050,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Seabreeze",
       "Palms",
       "Florida",
-    ]),
-    tokyo: removeDuplicates([
+    ],
+    tokyo: [
       "Tokyo",
       "Sakura",
       "Fuji",
@@ -1072,8 +1072,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Skytree",
       "Asakusa",
       "Cherry Blossom",
-    ]),
-    toronto: removeDuplicates([
+    ],
+    toronto: [
       "Toronto",
       "CN Tower",
       "Ontario",
@@ -1095,8 +1095,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Royal",
       "Canadian",
       "The Six",
-    ]),
-    vancouver: removeDuplicates([
+    ],
+    vancouver: [
       "Vancouver",
       "Pacific",
       "Granville",
@@ -1117,8 +1117,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Capilano",
       "Burrard",
       "Rainforest",
-    ]),
-    venice: removeDuplicates([
+    ],
+    venice: [
       "Venice",
       "Lagoon",
       "Canal",
@@ -1144,8 +1144,8 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Adriatic",
       "Palazzo",
       "Glassworks",
-    ]),
-    yokohama: removeDuplicates([
+    ],
+    yokohama: [
       "Yokohama",
       "Bay",
       "Minato Mirai",
@@ -1169,7 +1169,7 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
       "Landmark",
       "Nippon Maru",
       "Kanagawa",
-    ]),
+    ],
   };
 
   const defaultPrefix = ["The", "Royal", "Blue", "Golden", "Grand"];
@@ -1281,6 +1281,10 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "Sky Tower",
         "Waitemata Harbour",
         "Rangitoto Island",
+        "Auckland Domain",
+        "Mount Eden",
+        "Viaduct Harbour",
+        "Waiheke Island",
       ],
       features: [
         "harbor views",
@@ -1288,6 +1292,9 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "Kiwi hospitality",
         "locally-sourced seafood",
         "Maori cultural influences",
+        "outdoor dining",
+        "lush native greenery",
+        "laid-back coastal vibe",
       ],
       specialties: [
         "green-lipped mussels",
@@ -1295,15 +1302,31 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "pavlova",
         "hangi",
         "manuka honey",
+        "whitebait fritters",
+        "Kina (sea urchin)",
+        "seafood chowder",
       ],
     },
     amsterdam: {
-      landmarks: ["the canals", "Vondelpark", "Jordaan district", "Dam Square"],
+      landmarks: [
+        "the canals",
+        "Vondelpark",
+        "Jordaan district",
+        "Dam Square",
+        "Anne Frank House",
+        "Rijksmuseum",
+        "Royal Palace",
+        "Amsterdam Central Station",
+      ],
       features: [
         "canal-side dining",
         "17th century building",
         "cozy brown café atmosphere",
         "Dutch design elements",
+        "bike-friendly streets",
+        "artisanal markets",
+        "historic courtyards",
+        "colorful tulip displays",
       ],
       specialties: [
         "stroopwafels",
@@ -1311,6 +1334,9 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "Dutch pancakes",
         "herring",
         "Gouda cheese",
+        "poffertjes",
+        "licorice",
+        "kibbeling (fried fish)",
       ],
     },
     barcelona: {
@@ -1319,12 +1345,20 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "Sagrada Familia",
         "Gothic Quarter",
         "Barceloneta Beach",
+        "Park Güell",
+        "Casa Batlló",
+        "Montjuïc",
+        "Magic Fountain",
       ],
       features: [
         "Gaudi-inspired decor",
         "Catalonian charm",
         "mosaic details",
         "Mediterranean terrace",
+        "vibrant street art",
+        "seaside promenades",
+        "historic plazas",
+        "open-air markets",
       ],
       specialties: [
         "paella",
@@ -1332,6 +1366,9 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "jamón ibérico",
         "pan con tomate",
         "crema catalana",
+        "escalivada",
+        "bombas",
+        "cava",
       ],
     },
     berlin: {
@@ -1340,12 +1377,20 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "Museum Island",
         "Tiergarten",
         "East Side Gallery",
+        "Berlin Wall Memorial",
+        "Checkpoint Charlie",
+        "Reichstag Building",
+        "Alexanderplatz",
       ],
       features: [
         "industrial chic decor",
         "beer garden",
         "historic building",
         "avant-garde atmosphere",
+        "street art culture",
+        "modernist architecture",
+        "techno club scene",
+        "green parks",
       ],
       specialties: [
         "currywurst",
@@ -1353,6 +1398,9 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "schnitzel",
         "pretzels",
         "German beer",
+        "Kartoffelsalat",
+        "Berliner Pfannkuchen",
+        "Eisbein",
       ],
     },
     boston: {
@@ -1361,12 +1409,20 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "Boston Harbor",
         "Beacon Hill",
         "Fenway Park",
+        "Boston Common",
+        "Freedom Trail",
+        "New England Aquarium",
+        "Harvard University",
       ],
       features: [
         "historic setting",
         "New England charm",
         "waterfront views",
         "colonial architecture",
+        "brick-lined streets",
+        "seafood shacks",
+        "old-world pubs",
+        "academic ambiance",
       ],
       specialties: [
         "clam chowder",
@@ -1374,15 +1430,31 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "Boston cream pie",
         "oysters",
         "baked beans",
+        "scrod",
+        "stuffed quahogs",
+        "cranberry desserts",
       ],
     },
     "buenos-aires": {
-      landmarks: ["La Boca", "Recoleta", "Plaza de Mayo", "Puerto Madero"],
+      landmarks: [
+        "La Boca",
+        "Recoleta",
+        "Plaza de Mayo",
+        "Puerto Madero",
+        "Teatro Colón",
+        "Palermo Soho",
+        "San Telmo Market",
+        "Caminito Street",
+      ],
       features: [
         "tango shows",
         "parilla-style grill",
         "European elegance",
         "vibrant atmosphere",
+        "historic cafés",
+        "art nouveau architecture",
+        "street murals",
+        "nightlife hotspots",
       ],
       specialties: [
         "asado",
@@ -1390,6 +1462,9 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "dulce de leche",
         "Malbec wine",
         "mate",
+        "choripán",
+        "medialunas",
+        "provoleta",
       ],
     },
     "cape-town": {
@@ -1398,12 +1473,20 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "V&A Waterfront",
         "Robben Island",
         "Cape Peninsula",
+        "Kirstenbosch Botanical Gardens",
+        "Bo-Kaap",
+        "Signal Hill",
+        "Cape Winelands",
       ],
       features: [
         "panoramic mountain views",
         "African-inspired decor",
         "vineyard setting",
         "ocean views",
+        "multicultural influences",
+        "beachfront cafes",
+        "artisan markets",
+        "historic slave lodge",
       ],
       specialties: [
         "bobotie",
@@ -1411,6 +1494,9 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "Cape Malay curry",
         "Pinotage wine",
         "fresh seafood",
+        "snoek fish",
+        "malva pudding",
+        "roosterkoek",
       ],
     },
     charleston: {
@@ -1419,12 +1505,20 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "Charleston Harbor",
         "The Battery",
         "French Quarter",
+        "Fort Sumter",
+        "Magnolia Plantation",
+        "King Street",
+        "Angel Oak Tree",
       ],
       features: [
         "Southern hospitality",
         "antebellum architecture",
         "courtyard dining",
         "plantation charm",
+        "historic cobblestone streets",
+        "oak-lined avenues",
+        "waterfront promenades",
+        "garden tours",
       ],
       specialties: [
         "shrimp and grits",
@@ -1432,6 +1526,9 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "oysters",
         "biscuits",
         "sweet tea",
+        "frogmore stew",
+        "pecan pie",
+        "Lowcountry boil",
       ],
     },
     copenhagen: {
@@ -1440,12 +1537,20 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "Tivoli Gardens",
         "The Little Mermaid",
         "Christiansborg Palace",
+        "Rosenborg Castle",
+        "Frederiksborg Castle",
+        "Amalienborg Palace",
+        "Strøget",
       ],
       features: [
         "hygge atmosphere",
         "Nordic design",
         "waterfront dining",
         "minimalist elegance",
+        "eco-friendly spaces",
+        "bicycle culture",
+        "artisan bakeries",
+        "seasonal menus",
       ],
       specialties: [
         "smørrebrød",
@@ -1453,6 +1558,9 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "herring",
         "frikadeller",
         "new Nordic cuisine",
+        "rødgrød med fløde",
+        "Æbleskiver",
+        "flæskesteg",
       ],
     },
     dubai: {
@@ -1461,12 +1569,20 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "Palm Jumeirah",
         "Dubai Marina",
         "Dubai Mall",
+        "Burj Al Arab",
+        "Dubai Creek",
+        "Dubai Frame",
+        "Al Fahidi Historic District",
       ],
       features: [
         "luxurious setting",
         "skyline views",
         "opulent decor",
         "air-conditioned terraces",
+        "desert backdrop",
+        "high-end shopping",
+        "fusion cuisines",
+        "modern architecture",
       ],
       specialties: [
         "mezze",
@@ -1474,6 +1590,9 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "lamb ouzi",
         "date desserts",
         "camel milk specialties",
+        "falafel",
+        "kebabs",
+        "saffron rice",
       ],
     },
     dublin: {
@@ -1482,12 +1601,20 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "Trinity College",
         "Dublin Castle",
         "St. Stephen's Green",
+        "Guinness Storehouse",
+        "Phoenix Park",
+        "Christ Church Cathedral",
+        "Ha'penny Bridge",
       ],
       features: [
         "traditional Irish pub atmosphere",
         "live music",
         "historic stone walls",
         "cozy fireplaces",
+        "literary heritage",
+        "cobblestone alleys",
+        "pub quizzes",
+        "green parks",
       ],
       specialties: [
         "Irish stew",
@@ -1495,15 +1622,31 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "colcannon",
         "soda bread",
         "Guinness",
+        "black pudding",
+        "seafood chowder",
+        "coddle",
       ],
     },
     "hong-kong": {
-      landmarks: ["Victoria Harbour", "The Peak", "Lan Kwai Fong", "Kowloon"],
+      landmarks: [
+        "Victoria Harbour",
+        "The Peak",
+        "Lan Kwai Fong",
+        "Kowloon",
+        "Tian Tan Buddha",
+        "Ngong Ping 360",
+        "Star Ferry",
+        "Temple Street Night Market",
+      ],
       features: [
         "harbor views",
         "rooftop dining",
         "dim sum carts",
         "fusion of East and West",
+        "neon-lit streets",
+        "bustling markets",
+        "skyscraper skyline",
+        "urban parks",
       ],
       specialties: [
         "dim sum",
@@ -1511,6 +1654,9 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "wonton noodles",
         "pineapple buns",
         "milk tea",
+        "egg tarts",
+        "congee",
+        "snake soup",
       ],
     },
     florence: {
@@ -1519,12 +1665,20 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "Ponte Vecchio",
         "Uffizi Gallery",
         "Piazza della Signoria",
+        "Boboli Gardens",
+        "Santa Croce",
+        "Palazzo Pitti",
+        "Michelangelo's David",
       ],
       features: [
         "Renaissance architecture",
         "terrace dining",
         "Tuscan countryside views",
         "historic palazzo setting",
+        "artisan workshops",
+        "cobblestone streets",
+        "river views",
+        "open-air markets",
       ],
       specialties: [
         "bistecca alla fiorentina",
@@ -1532,6 +1686,9 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "pappardelle with wild boar",
         "Chianti wine",
         "cantucci",
+        "truffle dishes",
+        "lampredotto",
+        "crostini",
       ],
     },
     "fort-lauderdale": {
@@ -1540,12 +1697,20 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "Fort Lauderdale Beach",
         "Intracoastal Waterway",
         "Riverwalk",
+        "Bonnet House Museum",
+        "NSU Art Museum",
+        "Hollywood Beach",
+        "Everglades National Park",
       ],
       features: [
         "waterfront dining",
         "yacht views",
         "tropical ambiance",
         "outdoor patios",
+        "boating culture",
+        "vibrant nightlife",
+        "palm-lined streets",
+        "art deco elements",
       ],
       specialties: [
         "fresh seafood",
@@ -1553,542 +1718,73 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
         "key lime pie",
         "tropical cocktails",
         "fusion cuisine",
+        "conch fritters",
+        "grouper sandwiches",
+        "caribbean jerk",
       ],
     },
     galveston: {
       landmarks: [
         "Historic Pleasure Pier",
         "Galveston Seawall",
-        "The Strand",
         "Moody Gardens",
+        "Bishop's Palace",
+        "The Strand Historic District",
+        "Galveston Island State Park",
+        "Schlitterbahn Waterpark",
+        "Ocean Star Offshore Drilling Rig Museum",
       ],
       features: [
-        "Gulf views",
+        "beach town vibe",
         "Victorian architecture",
-        "beachfront dining",
-        "historic charm",
+        "boardwalk dining",
+        "sea breeze",
+        "family-friendly",
+        "fishing piers",
+        "maritime heritage",
+        "colorful cottages",
       ],
       specialties: [
         "Gulf shrimp",
-        "oysters",
-        "gumbo",
+        "blackened fish",
+        "shrimp gumbo",
         "pecan pie",
-        "fresh-caught fish",
+        "fried oysters",
+        "red snapper",
+        "cajun spices",
+        "peach cobbler",
       ],
     },
-    kiel: {
+    honolulu: {
       landmarks: [
-        "Kiel Fjord",
-        "Baltic Sea shore",
-        "Kiel Canal",
-        "Holstenstraße",
+        "Waikiki Beach",
+        "Diamond Head",
+        "Pearl Harbor",
+        "Iolani Palace",
+        "Hanauma Bay",
+        "Punchbowl Crater",
+        "Kahala",
+        "Ala Moana Center",
       ],
       features: [
-        "maritime atmosphere",
-        "harbor views",
-        "nautical decor",
-        "traditional German beer hall",
-      ],
-      specialties: [
-        "Kieler Sprotte (smoked fish)",
-        "Labskaus",
-        "Baltic seafood",
-        "Schleswig-Holstein beer",
-        "marzipan",
-      ],
-    },
-    kyoto: {
-      landmarks: [
-        "Fushimi Inari Shrine",
-        "Arashiyama Bamboo Grove",
-        "Kinkaku-ji",
-        "Gion District",
-      ],
-      features: [
-        "traditional tatami rooms",
-        "zen garden views",
-        "ryokan-style dining",
-        "historic tea house setting",
-      ],
-      specialties: [
-        "Kaiseki cuisine",
-        "yudofu (tofu dishes)",
-        "Kyo-wagashi (Kyoto sweets)",
-        "matcha",
-        "Kyo-tsukemono (pickles)",
-      ],
-    },
-    lisbon: {
-      landmarks: [
-        "Belém Tower",
-        "Alfama District",
-        "Jerónimos Monastery",
-        "São Jorge Castle",
-      ],
-      features: [
-        "Fado music",
-        "azulejo-tiled walls",
-        "riverside terraces",
-        "traditional taverna atmosphere",
-      ],
-      specialties: [
-        "bacalhau (salt cod)",
-        "pastéis de nata",
-        "amêijoas à Bulhão Pato (clams)",
-        "Port wine",
-        "ginjinha",
-      ],
-    },
-    "los-angeles": {
-      landmarks: [
-        "Hollywood Sign",
-        "Venice Beach",
-        "Griffith Observatory",
-        "Santa Monica Pier",
-      ],
-      features: [
-        "celebrity sightings",
-        "palm-lined patios",
-        "sunset views",
-        "indoor-outdoor spaces",
-      ],
-      specialties: [
-        "California fusion",
-        "fish tacos",
-        "avocado toast",
-        "gourmet burgers",
-        "craft cocktails",
-      ],
-    },
-    melbourne: {
-      landmarks: [
-        "Federation Square",
-        "Royal Botanic Gardens",
-        "Queen Victoria Market",
-        "Yarra River",
-      ],
-      features: [
-        "laneway dining",
-        "street art backdrops",
-        "hidden speakeasy atmosphere",
-        "multicultural influences",
-      ],
-      specialties: [
-        "coffee culture",
-        "Melbourne brunch",
-        "lamb dishes",
-        "artisanal pastries",
-        "Victoria wine",
-      ],
-    },
-    miami: {
-      landmarks: [
-        "South Beach",
-        "Art Deco District",
-        "Wynwood Walls",
-        "Biscayne Bay",
-      ],
-      features: [
-        "oceanfront dining",
-        "neon lighting",
-        "Latin influence",
-        "tropical outdoor spaces",
-      ],
-      specialties: [
-        "stone crabs",
-        "Cuban sandwiches",
-        "ceviche",
-        "key lime pie",
-        "mojitos",
-      ],
-    },
-    milan: {
-      landmarks: [
-        "Duomo di Milano",
-        "Galleria Vittorio Emanuele II",
-        "La Scala",
-        "Navigli canals",
-      ],
-      features: [
-        "fashion-forward design",
-        "elegant interiors",
-        "courtyard dining",
-        "aperitivo culture",
-      ],
-      specialties: [
-        "risotto alla Milanese",
-        "osso buco",
-        "panettone",
-        "cotoletta alla Milanese",
-        "Negroni cocktails",
-      ],
-    },
-    montreal: {
-      landmarks: [
-        "Old Montreal",
-        "Mont Royal",
-        "Notre-Dame Basilica",
-        "St. Lawrence River",
-      ],
-      features: [
-        "European charm",
-        "stone architecture",
-        "bilingual ambiance",
-        "seasonal terrasses",
-      ],
-      specialties: [
-        "poutine",
-        "Montreal bagels",
-        "smoked meat",
-        "maple desserts",
-        "tourtière",
-      ],
-    },
-    "new-orleans": {
-      landmarks: [
-        "French Quarter",
-        "Bourbon Street",
-        "Garden District",
-        "Jackson Square",
-      ],
-      features: [
-        "jazz music",
-        "courtyard dining",
-        "wrought-iron balconies",
-        "Creole architecture",
-      ],
-      specialties: [
-        "gumbo",
-        "jambalaya",
-        "beignets",
-        "po' boys",
-        "crawfish étouffée",
-      ],
-    },
-    "new-york-city": {
-      landmarks: [
-        "Empire State Building",
-        "Statue of Liberty",
-        "Central Park",
-        "Times Square",
-      ],
-      features: [
-        "skyline views",
-        "24/7 dining",
-        "rooftop bars",
-        "Broadway proximity",
-      ],
-      specialties: [
-        "New York-style pizza",
-        "bagels",
-        "cheesecake",
-        "hot dogs",
-        "pasta primavera",
-      ],
-    },
-    paris: {
-      landmarks: [
-        "Eiffel Tower",
-        "Louvre Museum",
-        "Notre-Dame Cathedral",
-        "Champs-Élysées",
-      ],
-      features: [
-        "romantic ambiance",
-        "sidewalk cafes",
-        "artistic heritage",
-        "historic architecture",
-      ],
-      specialties: [
-        "croissants",
-        "coq au vin",
-        "ratatouille",
-        "tarte tatin",
-        "escargot",
-      ],
-    },
-    "quebec-city": {
-      landmarks: [
-        "Old Quebec",
-        "Château Frontenac",
-        "Montmorency Falls",
-        "Plains of Abraham",
-      ],
-      features: [
-        "cobblestone streets",
-        "European flair",
-        "historic fortifications",
-        "river views",
-      ],
-      specialties: [
-        "poutine",
-        "tourtière",
-        "maple syrup",
-        "cretons",
-        "tire d'érable",
-      ],
-    },
-    "rio-de-janeiro": {
-      landmarks: [
-        "Christ the Redeemer",
-        "Copacabana Beach",
-        "Sugarloaf Mountain",
-        "Ipanema",
-      ],
-      features: [
-        "beachfront dining",
-        "samba music",
-        "tropical atmosphere",
-        "panoramic mountain-ocean views",
-      ],
-      specialties: [
-        "feijoada",
-        "churrasco",
-        "pão de queijo",
-        "caipirinha",
-        "açaí bowls",
-      ],
-    },
-    rome: {
-      landmarks: ["Colosseum", "Roman Forum", "Vatican", "Trevi Fountain"],
-      features: [
-        "al fresco dining",
-        "historic ambiance",
-        "cobblestone streets",
-        "traditional trattoria setting",
-      ],
-      specialties: [
-        "pasta carbonara",
-        "cacio e pepe",
-        "supplì",
-        "Roman-style pizza",
-        "artichokes",
-      ],
-    },
-    "san-francisco": {
-      landmarks: [
-        "Golden Gate Bridge",
-        "Fisherman's Wharf",
-        "Alcatraz",
-        "Painted Ladies",
-      ],
-      features: [
-        "bay views",
-        "fog-wrapped patios",
-        "historic Victorian setting",
-        "farm-to-table approach",
-      ],
-      specialties: [
-        "sourdough bread",
-        "cioppino",
-        "Dungeness crab",
-        "Mission-style burritos",
-        "California wine",
-      ],
-    },
-    "san-juan": {
-      landmarks: ["El Morro", "Old San Juan", "Condado Beach", "La Fortaleza"],
-      features: [
-        "colonial Spanish architecture",
-        "cobblestone streets",
-        "ocean breezes",
-        "colorful buildings",
-      ],
-      specialties: [
-        "mofongo",
-        "lechón",
-        "arroz con gandules",
-        "piña coladas",
-        "tostones",
-      ],
-    },
-    seattle: {
-      landmarks: [
-        "Space Needle",
-        "Pike Place Market",
-        "Puget Sound",
-        "Mount Rainier views",
-      ],
-      features: [
-        "waterfront dining",
-        "coffee house culture",
-        "Pacific Northwest design",
-        "rainy day coziness",
-      ],
-      specialties: [
-        "Pacific salmon",
-        "Dungeness crab",
-        "artisanal coffee",
-        "Washington apples",
-        "craft beer",
-      ],
-    },
-    singapore: {
-      landmarks: [
-        "Marina Bay Sands",
-        "Gardens by the Bay",
-        "Merlion Park",
-        "Orchard Road",
-      ],
-      features: [
-        "hawker center style",
-        "colonial architecture",
-        "cutting-edge design",
-        "multicultural atmosphere",
-      ],
-      specialties: [
-        "chili crab",
-        "Hainanese chicken rice",
-        "laksa",
-        "satay",
-        "kaya toast",
-      ],
-    },
-    southampton: {
-      landmarks: [
-        "Southampton Water",
-        "Bargate",
-        "SeaCity Museum",
-        "Mayflower Park",
-      ],
-      features: [
-        "maritime history",
-        "harbor views",
-        "British pub atmosphere",
-        "historic dockyards",
-      ],
-      specialties: [
-        "fish and chips",
-        "Sunday roast",
-        "Hampshire cheeses",
-        "cream tea",
-        "local ales",
-      ],
-    },
-    sydney: {
-      landmarks: [
-        "Sydney Opera House",
-        "Harbour Bridge",
-        "Bondi Beach",
-        "Darling Harbour",
-      ],
-      features: [
-        "harbor views",
-        "alfresco dining",
-        "beachside terraces",
-        "cosmopolitan atmosphere",
-      ],
-      specialties: [
-        "Sydney rock oysters",
-        "barramundi",
-        "meat pies",
-        "Tim Tams",
-        "flat white coffee",
-      ],
-    },
-    tampa: {
-      landmarks: [
-        "Tampa Riverwalk",
-        "Ybor City",
-        "Bayshore Boulevard",
-        "Busch Gardens",
-      ],
-      features: [
-        "Cuban influence",
-        "waterfront views",
-        "historic cigar factory settings",
         "tropical gardens",
+        "oceanfront views",
+        "Polynesian decor",
+        "surf culture",
+        "luau events",
+        "volcanic landscapes",
+        "beachside cafes",
+        "rainforest backdrop",
       ],
       specialties: [
-        "Cuban sandwiches",
-        "deviled crab",
-        "grouper",
-        "key lime pie",
-        "craft beer",
-      ],
-    },
-    toronto: {
-      landmarks: [
-        "CN Tower",
-        "Lake Ontario",
-        "Distillery District",
-        "Royal Ontario Museum",
-      ],
-      features: [
-        "multicultural ambiance",
-        "lake views",
-        "modern design",
-        "historic victorian buildings",
-      ],
-      specialties: [
-        "Toronto peameal bacon sandwich",
-        "butter tarts",
-        "multiculturally diverse cuisine",
-        "Ontario wines",
-        "craft beer",
-      ],
-    },
-    vancouver: {
-      landmarks: [
-        "Stanley Park",
-        "English Bay",
-        "Granville Island",
-        "Grouse Mountain",
-      ],
-      features: [
-        "Pacific Ocean views",
-        "mountain backdrop",
-        "West Coast design",
-        "nature-inspired elements",
-      ],
-      specialties: [
-        "Pacific salmon",
-        "spot prawns",
-        "BC wine",
-        "Nanaimo bars",
-        "JapaDog fusion cuisine",
-      ],
-    },
-    venice: {
-      landmarks: [
-        "Grand Canal",
-        "St. Mark's Square",
-        "Rialto Bridge",
-        "Venetian lagoon",
-      ],
-      features: [
-        "canal-side tables",
-        "gondola views",
-        "historic palazzo setting",
-        "Venetian glass accents",
-      ],
-      specialties: [
-        "seafood risotto",
-        "cicchetti",
-        "squid ink pasta",
-        "tiramisu",
-        "Bellini cocktails",
-      ],
-    },
-    yokohama: {
-      landmarks: [
-        "Yokohama Bay",
-        "Minato Mirai",
-        "Chinatown",
-        "Yamashita Park",
-      ],
-      features: [
-        "harbor views",
-        "historic port elements",
-        "fusion of Japanese and Western aesthetics",
-        "modern design",
-      ],
-      specialties: [
-        "Yokohama ramen",
-        "Japanese-Chinese fusion dishes",
-        "seafood",
-        "craft beer",
-        "Yokohama curry",
+        "poke",
+        "kalua pork",
+        "haupia",
+        "shave ice",
+        "spam musubi",
+        "loco moco",
+        "malasadas",
+        "fresh coconut",
       ],
     },
   };
@@ -2173,11 +1869,6 @@ const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
   }
 
   return restaurants;
-};
-
-// Function to remove duplicates from arrays
-const removeDuplicates = (array) => {
-  return [...new Set(array)];
 };
 
 // Main execution
