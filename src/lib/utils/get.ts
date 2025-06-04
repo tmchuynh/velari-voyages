@@ -476,6 +476,7 @@ export async function getAllCruises(): Promise<Cruise[]> {
   return allCruises;
 }
 
+
 /**
  * Retrieves all team members from various city-specific modules and combines them into a single array.
  *
