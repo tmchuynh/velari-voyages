@@ -2,9 +2,32 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
+// Basic usage (replaces all restaurant data, generates 5 restaurants per city):
+// node scripts/generateRestaurantData.mjs
+
+// Append mode (adds new restaurants to existing files):
+// node scripts/generateRestaurantData.mjs --append
+// node scripts/generateRestaurantData.mjs -a
+
+// Specify number of restaurants to generate:
+// node scripts/generateRestaurantData.mjs --count=10
+
+// Combine options:
+// node scripts/generateRestaurantData.mjs --append --count=3
+
+
 // Get the equivalent of __dirname in ESM
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+// Parse command line arguments
+const args = process.argv.slice(2);
+const APPEND_MODE = args.includes('--append') || args.includes('-a');
+const RESTAURANT_COUNT = parseInt(args.find(arg => arg.startsWith('--count='))?.split('=')[1] || '5', 10);
+const DEBUG_MODE = args.includes('--debug') || args.includes('-d');
+
+console.log(`Mode: ${APPEND_MODE ? 'Append' : 'Replace'} restaurants`);
+console.log(`Generating ${RESTAURANT_COUNT} restaurants per city`);
 
 // Get the list of all cities
 const getCityFiles = () => {
@@ -71,8 +94,105 @@ const generateRestaurantsForCity = (cityName) => {
     fs.mkdirSync(dirPath, { recursive: true });
   }
 
-  // Generate restaurants data for the city
-  const restaurants = generateRandomRestaurants(cityName);
+  // Check if file already exists and we're in append mode
+  let existingRestaurants = [];
+  if (APPEND_MODE && fs.existsSync(filePath)) {
+    try {
+      const content = fs.readFileSync(filePath, "utf8");
+
+      if (DEBUG_MODE) {
+        console.log(`DEBUG: File content for ${cityName} (first 200 chars):`);
+        console.log(content.substring(0, 200) + "...");
+      }
+
+      // Extract array from existing file using an improved regex
+      // This pattern is more flexible with whitespace and formatting
+      const match = content.match(
+        /export\s+const\s+\w+Restaurants\s*:\s*Restaurant\[\]\s*=\s*(\[[\s\S]*?\]);/
+      );
+
+      if (match && match[1]) {
+        const arrayContent = match[1];
+
+        if (DEBUG_MODE) {
+          console.log(`DEBUG: Extracted array content (first 100 chars):`);
+          console.log(arrayContent.substring(0, 100) + "...");
+        }
+
+        try {
+          // Preprocess the content to handle potential issues
+          // This helps with trailing commas and TypeScript-specific syntax
+          const processedContent = arrayContent
+            .replace(/,\s*]/g, "]") // Remove trailing commas
+            .replace(/\/\/.*$/gm, "") // Remove single-line comments
+            .replace(/\/\*[\s\S]*?\*\//g, ""); // Remove multi-line comments
+
+          // Parse the extracted array
+          existingRestaurants = JSON.parse(processedContent);
+          console.log(
+            `Found ${existingRestaurants.length} existing restaurants for ${cityName}`
+          );
+        } catch (e) {
+          console.error(
+            `Error parsing existing restaurants for ${cityName}:`,
+            e
+          );
+          console.error(
+            `Failed JSON content (first 200 chars): ${match[1].substring(
+              0,
+              200
+            )}...`
+          );
+
+          // Fall back to an alternative approach using eval in a controlled way
+          // This is safer than raw eval since we're in a Node.js script context
+          try {
+            console.log("Attempting alternative parsing method...");
+            // Use Function constructor instead of eval for slightly better safety
+            const safeEval = new Function(`return ${arrayContent}`);
+            existingRestaurants = safeEval();
+            console.log(
+              `Successfully recovered ${existingRestaurants.length} restaurants using alternative method`
+            );
+          } catch (evalError) {
+            console.error("Alternative parsing also failed:", evalError);
+            // If all parsing attempts fail, default to empty array for safety
+            existingRestaurants = [];
+          }
+        }
+      } else {
+        console.warn(`No restaurant array found in ${filePath}`);
+      }
+    } catch (e) {
+      console.error(
+        `Error reading existing restaurant file for ${cityName}:`,
+        e
+      );
+    }
+  }
+
+  // Generate new restaurants data for the city
+  const newRestaurants = generateRandomRestaurants(cityName, RESTAURANT_COUNT);
+
+  // Combine existing and new restaurants in append mode
+  const restaurants = APPEND_MODE
+    ? [...existingRestaurants, ...newRestaurants]
+    : newRestaurants;
+
+  // Validate we're actually appending if in append mode
+  if (APPEND_MODE && existingRestaurants.length > 0) {
+    console.log(
+      `Append validation: ${existingRestaurants.length} existing + ${newRestaurants.length} new = ${restaurants.length} total`
+    );
+    if (
+      restaurants.length !==
+      existingRestaurants.length + newRestaurants.length
+    ) {
+      console.error(
+        "WARNING: Final restaurant count doesn't match expected total. Append may not be working correctly!"
+      );
+    }
+  }
 
   // Generate the file content
   const fileContent = `import { Restaurant } from "@/lib/types/types";
@@ -86,11 +206,19 @@ export const ${camelCaseCityName}Restaurants: Restaurant[] = ${JSON.stringify(
 
   // Write the file
   fs.writeFileSync(filePath, fileContent);
-  console.log(`Generated restaurant data for ${cityName}`);
+  if (APPEND_MODE && existingRestaurants.length > 0) {
+    console.log(
+      `Updated restaurant data for ${cityName}: ${existingRestaurants.length} existing + ${newRestaurants.length} new = ${restaurants.length} total`
+    );
+  } else {
+    console.log(
+      `Generated restaurant data for ${cityName}: ${restaurants.length} restaurants`
+    );
+  }
 };
 
 // Function to generate random restaurant data for a city
-const generateRandomRestaurants = (cityName) => {
+const generateRandomRestaurants = (cityName, count = RESTAURANT_COUNT) => {
   // Define cuisine types appropriate for each city/region
   const cuisinesByRegion = {
     auckland: ["New Zealand", "Pacific", "Seafood", "Maori", "Australian"],
@@ -178,17 +306,870 @@ const generateRandomRestaurants = (cityName) => {
 
   // Restaurant names by region/city
   const namePrefix = {
-    auckland: ["Harbour", "Kiwi", "Pacific", "Auckland", "Wellington"],
-    amsterdam: ["Canal", "Dutch", "Amsterdam", "Tulip", "Windmill"],
-    barcelona: ["Barcelona", "Catalonia", "Gaudi", "Rambla", "Picasso"],
-    berlin: ["Berlin", "Brandenburg", "Rhine", "Bavarian", "Deutsche"],
-    boston: ["Boston", "Harbor", "Colonial", "Atlantic", "Freedom"],
-    buenosAires: ["Buenos Aires", "Tango", "Gaucho", "Pampas", "Evita"],
-    "cape-town": ["Cape", "Safari", "Table Mountain", "Vineyard", "Atlantic"],
-    charleston: ["Charleston", "Palmetto", "Southern", "Magnolia", "Coastal"],
-    dubai: ["Dubai", "Gold", "Desert", "Emirates", "Palm"],
-    "hong-kong": ["Hong Kong", "Victoria", "Pearl", "Dynasty", "Harbor"],
-    tokyo: ["Tokyo", "Sakura", "Fuji", "Imperial", "Ginza"],
+    auckland: removeDuplicates([
+      "Harbour",
+      "Kiwi",
+      "Maori",
+      "Coromandel",
+      "Pacific",
+      "Auckland",
+      "North Island",
+      "Wellington",
+      "Skyline",
+      "Rotorua",
+      "Tasman",
+      "Waitemata",
+      "Bay of Islands",
+      "Northland",
+      "Southern Cross",
+      "Sky Tower",
+      "Hauraki",
+      "Seabreeze",
+      "Island Hopping",
+    ]),
+    amsterdam: removeDuplicates([
+      "Canal",
+      "Dutch",
+      "Amsterdam",
+      "Tulip",
+      "Rembrandt",
+      "Grachten",
+      "Windmill",
+      "Van Gogh",
+      "Anne Frank",
+      "Holland",
+      "Damrak",
+      "Keizersgracht",
+      "Bicycle",
+      "Zaanse",
+      "Red Light",
+      "Gouda",
+      "Netherlands",
+      "Rijksmuseum",
+    ]),
+    barcelona: removeDuplicates([
+      "Barcelona",
+      "Catalonia",
+      "Gaudi",
+      "Modernista",
+      "Mosaic",
+      "Rambla",
+      "Picasso",
+      "Sagrada",
+      "Mediterranean",
+      "Tapas",
+      "Barri Gòtic",
+      "Montserrat",
+      "Sunlit",
+      "Cava",
+      "Costa Brava",
+      "Eixample",
+      "Tibidabo",
+    ]),
+    berlin: removeDuplicates([
+      "Berlin",
+      "Brandenburg",
+      "Rhine",
+      "Bavarian",
+      "Deutsche",
+      "Reichstag",
+      "Spree",
+      "Unter den Linden",
+      "Checkpoint",
+      "Wall",
+      "Tiergarten",
+      "Prussian",
+      "Museum Island",
+      "Kreuzberg",
+      "Charlottenburg",
+      "Alexanderplatz",
+    ]),
+    boston: removeDuplicates([
+      "Boston",
+      "Harbor",
+      "Colonial",
+      "Atlantic",
+      "Freedom",
+      "Quincy",
+      "Fenway",
+      "Beacon",
+      "Tea Party",
+      "Cambridge",
+      "Seaport",
+      "Paul Revere",
+      "Maritime",
+      "Revolution",
+      "Charles River",
+      "New England",
+    ]),
+    "buenos-aires": removeDuplicates([
+      "Buenos Aires",
+      "Tango",
+      "Gaucho",
+      "San Telmo",
+      "Pampas",
+      "Evita",
+      "Recoleta",
+      "Río de la Plata",
+      "La Boca",
+      "Obelisco",
+      "Argentina",
+      "Plaza",
+      "Estancia",
+      "Andes",
+      "Mate",
+      "Carnaval",
+      "Paraná",
+    ]),
+    "cape-town": removeDuplicates([
+      "Cape",
+      "Safari",
+      "Table Mountain",
+      "Vineyard",
+      "Atlantic",
+      "Winelands",
+      "Seabreeze",
+      "South Seas",
+      "Penguin",
+      "Robben Island",
+      "Boulders",
+      "Cape Point",
+      "Western Cape",
+      "Signal Hill",
+      "Twelve Apostles",
+      "Bo-Kaap",
+      "Victoria Wharf",
+    ]),
+    charleston: removeDuplicates([
+      "Charleston",
+      "Palmetto",
+      "Southern",
+      "Magnolia",
+      "Harbor",
+      "Sea Island",
+      "Spanish Moss",
+      "Coastal",
+      "Lowcountry",
+      "Historic",
+      "Battery",
+      "Rainbow Row",
+      "Sweet Tea",
+      "Fort Sumter",
+      "Ashley River",
+      "Gullah",
+    ]),
+    copenhagen: removeDuplicates([
+      "Copenhagen",
+      "Viking",
+      "Scandi",
+      "Nyhavn",
+      "Little Mermaid",
+      "Tivoli",
+      "Rosenborg",
+      "Oresund",
+      "Hygge",
+      "Nordic",
+      "Canal",
+      "Baltic",
+      "Frederik",
+      "Carlsberg",
+      "Amalienborg",
+      "Cinnamon Roll",
+      "Christiania",
+    ]),
+    dubai: removeDuplicates([
+      "Dubai",
+      "Gold",
+      "Desert",
+      "Emirates",
+      "Palm",
+      "Burj",
+      "Arabian",
+      "Marina",
+      "Souk",
+      "Spice",
+      "Skyline",
+      "Miracle",
+      "Creek",
+      "Dhow",
+      "Sheikh Zayed",
+      "Sands",
+    ]),
+    dublin: removeDuplicates([
+      "Dublin",
+      "Emerald",
+      "Celtic",
+      "Lone Star",
+      "Liffey",
+      "Shamrock",
+      "Temple Bar",
+      "Irish",
+      "Cliffs",
+      "Saint Patrick",
+      "Guinness",
+      "Trinity",
+      "Wicklow",
+      "Jameson",
+      "Ha'penny",
+      "Grafton",
+      "Blarney",
+      "Green Isle",
+      "Fáilte",
+    ]),
+    florence: removeDuplicates([
+      "Florence",
+      "Tuscany",
+      "Renaissance",
+      "Piazza",
+      "Michelangelo",
+      "Villa",
+      "Luxury",
+      "Arno",
+      "Medici",
+      "Duomo",
+      "Uffizi",
+      "Chianti",
+      "Ponte Vecchio",
+      "David",
+      "Firenze",
+      "Artisan",
+      "Oltrarno",
+    ]),
+    "fort-lauderdale": removeDuplicates([
+      "Fort Lauderdale",
+      "Sunshine",
+      "Everglades",
+      "Yacht",
+      "Palm",
+      "Intracoastal",
+      "Beachfront",
+      "Luxury",
+      "Atlantic",
+      "Cruise Port",
+      "Gulfstream",
+      "Broward",
+      "Coral Ridge",
+      "Oceanfront",
+      "Tropical",
+      "Marina Mile",
+      "A1A",
+    ]),
+    galveston: removeDuplicates([
+      "Galveston",
+      "Texas",
+      "Gulf",
+      "Lone Star",
+      "West Bay",
+      "Cruiseport",
+      "Seaside",
+      "Island",
+      "Port",
+      "Historic Strand",
+      "Pier",
+      "Kemah",
+      "Shrimp",
+      "Surfside",
+      "Bay",
+      "Moody",
+      "Bolivar",
+    ]),
+    "hong-kong": removeDuplicates([
+      "Hong Kong",
+      "Victoria",
+      "Pearl",
+      "Dynasty",
+      "Harbor",
+      "Junk Boat",
+      "Dragon",
+      "Kowloon",
+      "Lantern",
+      "Causeway",
+      "Neon",
+      "Lan Kwai",
+      "Mid-Levels",
+      "Lantau",
+      "Dim Sum",
+      "Canton",
+      "Neon",
+      "Star Ferry",
+    ]),
+    kiel: removeDuplicates([
+      "Kiel",
+      "Baltic",
+      "Hanseatic",
+      "Schleswig",
+      "Fjord",
+      "Harbor",
+      "Marine",
+      "Lighthouse",
+      "Yachting",
+      "Germany",
+      "North Sea",
+      "Cruise Gate",
+      "Ostseekai",
+      "Sailing",
+      "Warft",
+      "Laboe",
+      "Navy",
+    ]),
+    kyoto: removeDuplicates([
+      "Kyoto",
+      "Zen",
+      "Geisha",
+      "Bamboo",
+      "Temple",
+      "Shrine",
+      "Gion",
+      "Pagoda",
+      "Imperial",
+      "Matcha",
+      "Gion",
+      "Torii",
+      "Fushimi",
+      "Kaiseki",
+      "Kinkakuji",
+      "Arashiyama",
+      "Shrine",
+      "Blossom",
+      "Higashiyama",
+      "Nishiki",
+    ]),
+    lisbon: removeDuplicates([
+      "Lisbon",
+      "Tagus",
+      "Explorer",
+      "Fado",
+      "Port",
+      "Tram",
+      "Alfama",
+      "Belém",
+      "Atlantic",
+      "Azulejo",
+      "Belém",
+      "Saudade",
+      "Pastel",
+      "Atlantic",
+      "Castelo",
+      "Miradouro",
+      "Baixa",
+    ]),
+    london: removeDuplicates([
+      "London",
+      "Thames",
+      "Royal",
+      "Crown",
+      "Piccadilly",
+      "Britannia",
+      "Big Ben",
+      "Underground",
+      "Westminster",
+      "Tower Bridge",
+      "Soho",
+      "London Eye",
+      "Camden",
+      "Piccadilly",
+      "Foggy",
+      "Tea Time",
+      "Kensington",
+    ]),
+    "los-angeles": removeDuplicates([
+      "Los Angeles",
+      "Hollywood",
+      "Pacific",
+      "Sunset",
+      "Coastal",
+      "Boardwalk",
+      "Venice",
+      "Santa Monica",
+      "Beverly",
+      "Malibu",
+      "Palm Tree",
+      "Rodeo",
+      "LA Live",
+      "Griffith",
+      "Metro Goldwyn",
+      "Baywatch",
+    ]),
+    melbourne: removeDuplicates([
+      "Melbourne",
+      "Victoria",
+      "Yarra",
+      "Laneway",
+      "Down Under",
+      "St Kilda",
+      "Garden City",
+      "Federation",
+      "Art Scene",
+      "Flinders",
+      "Collins",
+      "Botanic",
+      "Coffee",
+      "Sporting",
+      "Skydeck",
+      "Eureka",
+      "Tram",
+    ]),
+    miami: removeDuplicates([
+      "Miami",
+      "Magic City",
+      "Biscayne",
+      "Art Deco",
+      "Sunshine",
+      "South Beach",
+      "Sunshine",
+      "Tropic",
+      "Little Havana",
+      "Cuban",
+      "Ocean Drive",
+      "Everglades",
+      "Salsa",
+      "Bayside",
+      "Little Havana",
+      "Coral Gables",
+      "Tropical",
+      "Bayfront",
+    ]),
+    milan: removeDuplicates([
+      "Milan",
+      "Fashion",
+      "Duomo",
+      "Lombardy",
+      "Renaissance",
+      "Galleria",
+      "Scala",
+      "Navigli",
+      "Design",
+      "Armani",
+      "Galleria",
+      "Navigli",
+      "Italian",
+      "Italian",
+      "Brera",
+      "Design",
+      "Haute Couture",
+      "Armani",
+      "Mosaic",
+      "Piazza",
+    ]),
+    montreal: removeDuplicates([
+      "Montreal",
+      "Quebec",
+      "Saint Lawrence",
+      "Maple",
+      "Old Port",
+      "Mount Royal",
+      "French",
+      "Poutine",
+      "Winter",
+      "Basilique",
+      "Cultural",
+      "Crescent",
+      "French",
+      "Poutine",
+      "Notre-Dame",
+      "Jazz",
+      "Plateau",
+      "Vieux-Montréal",
+      "Winter City",
+      "Bonsecours",
+    ]),
+    "new-orleans": removeDuplicates([
+      "New Orleans",
+      "Jazz",
+      "Bourbon",
+      "Crescent",
+      "Creole",
+      "French Quarter",
+      "Voodoo",
+      "Beignet",
+      "French Quarter",
+      "Mississippi",
+      "Mardi Gras",
+      "Riverboat",
+      "Bayou",
+      "Beignet",
+      "Saints",
+      "Garden District",
+      "Treme",
+      "Mississippi",
+    ]),
+    "new-york-city": removeDuplicates([
+      "New York",
+      "Empire",
+      "Hudson",
+      "Liberty",
+      "Hudson",
+      "Central Park",
+      "Statue",
+      "Liberty",
+      "Wall Street",
+      "Manhattan",
+      "Times Square",
+      "Broadway",
+      "Central Park",
+      "Brooklyn",
+      "Wall Street",
+      "Metropolitan",
+      "SoHo",
+      "Big Apple",
+      "Statue",
+      "Skyline",
+    ]),
+    paris: removeDuplicates([
+      "Paris",
+      "Seine",
+      "Eiffel",
+      "Louvre",
+      "Champs-Élysées",
+      "Montmartre",
+      "Versailles",
+      "Louvre",
+      "Montmartre",
+      "Cafe",
+      "Amour",
+      "Baguette",
+      "Chic",
+      "Left Bank",
+      "Belle Époque",
+      "Rive Gauche",
+      "Baguette",
+      "Amour",
+      "Notre-Dame",
+      "French",
+      "Bohemian",
+    ]),
+    "quebec-city": removeDuplicates([
+      "Quebec",
+      "Château",
+      "French",
+      "Old Port",
+      "Citadel",
+      "St. Lawrence",
+      "Fleur-de-lis",
+      "Winter Carnival",
+      "Ramparts",
+      "Terrasse",
+      "Petit Champlain",
+      "Old Town",
+      "Winter",
+      "Maple",
+      "Plains of Abraham",
+      "Upper Town",
+      "Cobblestone",
+    ]),
+    "rio-de-janeiro": removeDuplicates([
+      "Rio",
+      "Carnaval",
+      "Copacabana",
+      "Sugarloaf",
+      "Ipanema",
+      "Samba",
+      "Christ the Redeemer",
+      "Maracanã",
+      "Favela",
+      "Carioca",
+      "Ipanema",
+      "Brazilian",
+      "Favela",
+      "Corcovado",
+      "Brazilian",
+      "Atlantic",
+      "Botafogo",
+      "Corcovado",
+      "Lapa",
+    ]),
+    rome: removeDuplicates([
+      "Rome",
+      "Eternal City",
+      "Colosseum",
+      "Vatican",
+      "Tiber",
+      "Pantheon",
+      "Forum",
+      "Trevi",
+      "Forum",
+      "Tiber",
+      "Pantheon",
+      "Seven Hills",
+      "Piazza Navona",
+      "Baroque",
+      "Roman",
+      "Trastevere",
+      "Gelato",
+      "Renaissance",
+    ]),
+    "san-francisco": removeDuplicates([
+      "San Francisco",
+      "Golden Gate",
+      "Bay",
+      "Alcatraz",
+      "Cable Car",
+      "Fisherman's Wharf",
+      "Lombard",
+      "Mission",
+      "Coastal",
+      "Mission",
+      "Lombard",
+      "Fog",
+      "Chinatown",
+      "Fog City",
+      "Pier 39",
+      "Twin Peaks",
+      "Pacific",
+      "Painted Ladies",
+    ]),
+    "san-juan": removeDuplicates([
+      "San Juan",
+      "Old Town",
+      "Castillo",
+      "Boricua",
+      "El Morro",
+      "Caribbean",
+      "Taino",
+      "Fortaleza",
+      "Salsa",
+      "Island",
+      "Old Town",
+      "Caribbean",
+      "Isla Verde",
+      "Reggaetón",
+      "Coconut",
+      "Puerto Rican",
+      "Condado",
+      "Plaza",
+      "Isla Verde",
+      "Viejo San Juan",
+    ]),
+    seattle: removeDuplicates([
+      "Seattle",
+      "Emerald",
+      "Puget",
+      "Rain City",
+      "Space Needle",
+      "Coffee",
+      "Sound",
+      "Pike Place",
+      "Mount Rainier",
+      "Bainbridge",
+      "Olympic",
+      "Space Needle",
+      "Emerald",
+      "Puget",
+      "Brew",
+      "Cascade",
+      "Ferry",
+      "Tech",
+      "Chihuly",
+      "Northwest",
+    ]),
+    singapore: removeDuplicates([
+      "Singapore",
+      "Lion City",
+      "Marina Bay",
+      "Merlion",
+      "Orchard",
+      "Sentosa",
+      "SkyPark",
+      "Botanic",
+      "Sentosa",
+      "Merlion",
+      "Hawker",
+      "Changi",
+      "Bayfront",
+      "Gardens",
+      "Chinatown",
+      "Multicultural",
+      "Little India",
+      "Bayfront",
+      "Futuristic",
+      "Hawker",
+    ]),
+    southampton: removeDuplicates([
+      "Southampton",
+      "Titanic",
+      "Solent",
+      "Port City",
+      "Harbor",
+      "Maritime",
+      "Old Town",
+      "Maritime",
+      "Tudor",
+      "Titanic",
+      "Isle of Wight",
+      "Royal",
+      "Hampshire",
+      "Port",
+      "Ocean Village",
+      "Docklands",
+      "Hampshire",
+      "Spinnaker",
+      "Royal Pier",
+      "Quayside",
+      "SeaCity",
+      "South Coast",
+    ]),
+    sydney: removeDuplicates([
+      "Sydney",
+      "Harbour",
+      "Opera",
+      "Darling",
+      "Bondi",
+      "Koala",
+      "Blue Mountains",
+      "Koala",
+      "Surfer",
+      "Manly",
+      "Cove",
+      "The Rocks",
+      "Down Under",
+      "Outback",
+      "Circular Quay",
+      "New South Wales",
+      "Southern Cross",
+      "Surf",
+      "Botanic",
+    ]),
+    tampa: removeDuplicates([
+      "Tampa",
+      "Bay",
+      "Ybor",
+      "Gasparilla",
+      "Sunshine",
+      "Cigar",
+      "Ybor",
+      "Buccaneer",
+      "Seaside",
+      "Clearwater",
+      "Riverwalk",
+      "Harbor",
+      "Pirate",
+      "Historic",
+      "Coastal",
+      "Gulf",
+      "Hillsborough",
+      "Seabreeze",
+      "Palms",
+      "Florida",
+    ]),
+    tokyo: removeDuplicates([
+      "Tokyo",
+      "Sakura",
+      "Fuji",
+      "Imperial",
+      "Ginza",
+      "Harajuku",
+      "Shibuya",
+      "Akihabara",
+      "Anime",
+      "Shibuya",
+      "Harajuku",
+      "Ramen",
+      "Sky Tree",
+      "Sumo",
+      "Robot",
+      "Zen",
+      "Neon",
+      "Skytree",
+      "Asakusa",
+      "Cherry Blossom",
+    ]),
+    toronto: removeDuplicates([
+      "Toronto",
+      "CN Tower",
+      "Ontario",
+      "Maple",
+      "Harbourfront",
+      "Yonge",
+      "Ontario",
+      "Hockey",
+      "Yonge",
+      "SkyDome",
+      "Distillery",
+      "6ix",
+      "Hockey",
+      "Skyline",
+      "Distillery",
+      "Island",
+      "Bloor",
+      "Danforth",
+      "Royal",
+      "Canadian",
+      "The Six",
+    ]),
+    vancouver: removeDuplicates([
+      "Vancouver",
+      "Pacific",
+      "Granville",
+      "Seawall",
+      "Granville",
+      "Seawall",
+      "Whistler",
+      "Gastown",
+      "Burrard",
+      "Gastown",
+      "Stanley Park",
+      "Mountains",
+      "Yaletown",
+      "Harbour",
+      "SkyTrain",
+      "West Coast",
+      "Coal Harbour",
+      "Capilano",
+      "Burrard",
+      "Rainforest",
+    ]),
+    venice: removeDuplicates([
+      "Venice",
+      "Lagoon",
+      "Canal",
+      "Gondola",
+      "Rialto",
+      "San Marco",
+      "Carnival",
+      "Lagoon",
+      "Murano",
+      "Carnevale",
+      "Doge",
+      "San Marco",
+      "Bridge",
+      "Rialto",
+      "Island",
+      "Mosaic",
+      "Waterway",
+      "Bridge of Sighs",
+      "Murano",
+      "Lido",
+      "Venetian",
+      "Vaporetto",
+      "Adriatic",
+      "Palazzo",
+      "Glassworks",
+    ]),
+    yokohama: removeDuplicates([
+      "Yokohama",
+      "Bay",
+      "Minato Mirai",
+      "Chinatown",
+      "Cosmo World",
+      "Pacifico",
+      "Seaside",
+      "Sakuragicho",
+      "Marine",
+      "Nippon",
+      "Cosmo",
+      "Hamakko",
+      "Sky Garden",
+      "Chinatown",
+      "Seaside",
+      "Silk",
+      "Sky Garden",
+      "Red Brick",
+      "Harbor",
+      "Ramen",
+      "Landmark",
+      "Nippon Maru",
+      "Kanagawa",
+    ]),
   };
 
   const defaultPrefix = ["The", "Royal", "Blue", "Golden", "Grand"];
@@ -210,10 +1191,35 @@ const generateRandomRestaurants = (cityName) => {
     "Dining Room",
     "Tavern",
     "Bar & Kitchen",
+    "Lounge",
+    "Room",
+    "Deli",
+    "Cantina",
+    "Saloon",
+    "Trattoria",
+    "Inn",
+    "Cellar",
+    "Bakery",
+    "Gastropub",
+    "Steakhouse",
+    "Barbecue",
+    "Ristorante",
+    "Pizzeria",
+    "Chophouse",
+    "Buffet",
+    "Canteen",
+    "Snack Bar",
+    "Taproom",
+    "Coffee House",
+    "Osteria",
+    "Fish House",
+    "Supper Club",
+    "Nook",
+    "Snack Shack",
+    "Dining Hall",
   ];
 
-  // Generate 5-8 restaurants for each city
-  const numRestaurants = Math.floor(Math.random() * 4) + 5;
+  // Generate 'count' restaurants for this city instead of a random number
   const restaurants = [];
 
   // Helper functions
@@ -759,25 +1765,67 @@ const generateRandomRestaurants = (cityName) => {
         "crawfish étouffée",
       ],
     },
-    "quebec-city": {
+    "new-york-city": {
       landmarks: [
-        "Château Frontenac",
-        "Old Quebec",
-        "Plains of Abraham",
-        "Montmorency Falls",
+        "Empire State Building",
+        "Statue of Liberty",
+        "Central Park",
+        "Times Square",
       ],
       features: [
-        "stone-walled interiors",
-        "French colonial architecture",
+        "skyline views",
+        "24/7 dining",
+        "rooftop bars",
+        "Broadway proximity",
+      ],
+      specialties: [
+        "New York-style pizza",
+        "bagels",
+        "cheesecake",
+        "hot dogs",
+        "pasta primavera",
+      ],
+    },
+    paris: {
+      landmarks: [
+        "Eiffel Tower",
+        "Louvre Museum",
+        "Notre-Dame Cathedral",
+        "Champs-Élysées",
+      ],
+      features: [
+        "romantic ambiance",
+        "sidewalk cafes",
+        "artistic heritage",
+        "historic architecture",
+      ],
+      specialties: [
+        "croissants",
+        "coq au vin",
+        "ratatouille",
+        "tarte tatin",
+        "escargot",
+      ],
+    },
+    "quebec-city": {
+      landmarks: [
+        "Old Quebec",
+        "Château Frontenac",
+        "Montmorency Falls",
+        "Plains of Abraham",
+      ],
+      features: [
+        "cobblestone streets",
+        "European flair",
+        "historic fortifications",
         "river views",
-        "historic ambiance",
       ],
       specialties: [
         "poutine",
         "tourtière",
-        "maple syrup treats",
-        "Quebec cheeses",
-        "caribou (mulled wine)",
+        "maple syrup",
+        "cretons",
+        "tire d'érable",
       ],
     },
     "rio-de-janeiro": {
@@ -1045,7 +2093,6 @@ const generateRandomRestaurants = (cityName) => {
     },
   };
 
-  // Default description elements for cities not specifically defined
   const defaultCityDesc = {
     landmarks: [
       "downtown",
@@ -1093,7 +2140,7 @@ const generateRandomRestaurants = (cityName) => {
   };
 
   // Generate restaurants for this city
-  for (let i = 0; i < numRestaurants; i++) {
+  for (let i = 0; i < count; i++) {
     const cuisine = getRandomCuisine();
 
     restaurants.push({
@@ -1128,6 +2175,11 @@ const generateRandomRestaurants = (cityName) => {
   return restaurants;
 };
 
+// Function to remove duplicates from arrays
+const removeDuplicates = (array) => {
+  return [...new Set(array)];
+};
+
 // Main execution
 const cityFiles = getCityFiles();
 console.log(`Found ${cityFiles.length} cities to process`);
@@ -1137,4 +2189,10 @@ for (const city of cityFiles) {
   generateRestaurantsForCity(city);
 }
 
+// Add summary at the end
+console.log("\n=== Script Complete ===");
+console.log(`Processed ${cityFiles.length} cities`);
+console.log(`Mode: ${APPEND_MODE ? "Append" : "Replace"}`);
+console.log(`Restaurants per city: ${RESTAURANT_COUNT}`);
 console.log("Restaurant data generation completed for all cities");
+console.log(`Debug mode: ${DEBUG_MODE ? "On" : "Off"}`);
