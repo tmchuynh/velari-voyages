@@ -12,19 +12,17 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Local Aromatic Award-Winning Seafood Boil",
-            "description": "This spicy favorite is oven-baked using seasonal ingredients, then styled for visual appeal.",
-            "price": 30.52,
+            "name": "Traditional Smoked Celebrity Favorite Lobster Dish",
+            "price": 27.35,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Japanese A5 Wagyu with Ponzu Butter",
-            "description": "Nestled in a ceramic bowl and pan-seared to perfection using heirloom tomatoes.",
-            "price": 33.82,
+            "name": "Homestyle Flaky Seasonal Tasting Menu Experience",
+            "price": 26.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -32,9 +30,44 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Family Paella",
-            "description": "This robust favorite is crafted using microgreens, then beautifully presented.",
-            "price": 25.32,
+            "name": "Fresh Zingy Black Garlic Glazed Beef Tenderloin",
+            "price": 24.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Hearty Legendary Prime Rib",
+            "price": 29.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Creamy Dry-Aged Tomahawk Steak",
+            "price": 27.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Hearty Founder's Family Recipe Pasta",
+            "price": 37.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Tangy Chef's Childhood Inspired Creation",
+            "price": 30.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -44,12 +77,20 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Appetizers",
+        "name": "Chef's Specials",
         "items": [
           {
-            "name": "Steak",
-            "description": "A earthy dish caramelized with sustainable seafood and styled for visual appeal.",
-            "price": 18.76,
+            "name": "Handcrafted Irresistible Cast Iron Seafood Presentation",
+            "price": 25.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Roasted Dry-Aged Prime Beef Selection",
+            "price": 26.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -57,9 +98,58 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Local Roasted Pizza",
-            "description": "Artfully plated and whipped to perfection using organic ingredients.",
-            "price": 25.28,
+            "name": "Authentic Luscious Freshly Harvested Seasonal Creation",
+            "price": 32.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Smoked Tableside Flambé Preparation",
+            "price": 38.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Smoked Locally Foraged Mushroom Selection",
+            "price": 32.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Appetizers",
+        "items": [
+          {
+            "name": "Hearty Zingy Mezze Platter",
+            "price": 11.66,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sautéed Potstickers",
+            "price": 12.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Delicious Baked Brie",
+            "price": 12.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -67,29 +157,85 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Katsu Curry",
-            "description": "A balanced dish crafted with heritage grains and beautifully presented.",
-            "price": 29.44,
+            "name": "House Special Sweet Cheese Platter",
+            "price": 10.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Aromatic Caprese Salad",
+            "price": 15.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Herbed Sweet Potato Fries",
+            "price": 9.8,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Crispy Prawn Toast",
+            "price": 13.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Succulent Tzatziki with Pita",
+            "price": 13.64,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Soups",
+        "items": [
+          {
+            "name": "Authentic Grilled Miso Soup",
+            "price": 8.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Exquisite Pho",
+            "price": 12.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Spicy Cabbage Soup",
+            "price": 9.08,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cottage Pie",
-            "description": "A spicy dish cooked with free-range meats and accompanied by a tasteful garnish.",
-            "price": 27.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Roasted Paella",
-            "description": "This nutty favorite is hand-folded using handmade pasta, then beautifully presented.",
-            "price": 23.12,
+            "name": "Traditional Savory Avgolemono (Greek Lemon Soup)",
+            "price": 10.15,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -102,29 +248,8 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Moussaka",
-            "description": "Plated with precision and pan-seared to perfection using seasonal ingredients.",
-            "price": 23.67,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Crunchy Eggplant Parmesan",
-            "description": "Our refreshing specialty, stir-fried with aged cheeses and stacked artistically.",
-            "price": 28.24,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Grilled Stuffed Peppers",
-            "description": "This earthy favorite is hand-rolled using free-range meats, then neatly composed.",
-            "price": 26.36,
+            "name": "Arugula Salad",
+            "price": 12.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -132,24 +257,8 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Comforting Risotto",
-            "description": "Our rich specialty, poached with non-GMO produce and plated with precision.",
-            "price": 18.55,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Soups",
-        "items": [
-          {
-            "name": "Local Golden Eggplant Parmesan",
-            "description": "Styled for visual appeal and made to perfection using free-range meats.",
-            "price": 25.59,
+            "name": "Caesar Salad",
+            "price": 15.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,32 +266,29 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Jambalaya",
-            "description": "Our robust specialty, poached with seasonal ingredients and served with flair.",
-            "price": 28.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Juicy Tagine",
-            "description": "A buttery dish prepared with finest quality ingredients and artfully plated.",
-            "price": 27.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Paella",
-            "description": "This aromatic favorite is grilled using microgreens, then stacked artistically.",
-            "price": 26.03,
+            "name": "Orzo Salad",
+            "price": 9.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Quinoa Salad",
+            "price": 15.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Watermelon Feta Salad",
+            "price": 10.82,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -192,19 +298,8 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Roast Duck",
-            "description": "Layered with care and prepared to perfection using cultured dairy.",
-            "price": 18.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Grilled Stuffed Peppers",
-            "description": "This hearty favorite is hand-folded using seasonal ingredients, then elegantly served.",
-            "price": 30.54,
+            "name": "Gourmet Zesty Pesto Pasta",
+            "price": 26.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -212,74 +307,17 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Beef Burger",
-            "description": "Stacked artistically and roasted to perfection using seasonal ingredients.",
-            "price": 20.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Stuffed Fish and Chips",
-            "description": "A smoky dish braised with cultured dairy and neatly composed.",
-            "price": 29.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Zesty Pho",
-            "description": "This bold favorite is fire-roasted using farm-fresh eggs, then attractively arranged.",
-            "price": 30.69,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Stuffed Currywurst",
-            "description": "This hearty favorite is grilled using locally foraged herbs, then garnished to perfection.",
-            "price": 23.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tacos",
-            "description": "Served on rustic ware and prepared to perfection using locally sourced produce.",
-            "price": 18.25,
+            "name": "Handcrafted Juicy Thai Curry",
+            "price": 27.79,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Steak",
-            "description": "This bold favorite is crafted using house-made sauces, then offered as a tasting portion.",
-            "price": 18.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Roast Duck",
-            "description": "Neatly composed and pan-seared to perfection using seasonal ingredients.",
-            "price": 24.88,
+            "name": "Hearty Juicy Fish and Chips",
+            "price": 21.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -287,9 +325,26 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Korma",
-            "description": "Our zesty specialty, made with seasonal ingredients and styled for visual appeal.",
-            "price": 29.02,
+            "name": "Authentic Sizzling Bibimbap",
+            "price": 27.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Spiced Pizza",
+            "price": 18.73,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Aromatic Lasagna",
+            "price": 26.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -297,9 +352,8 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Sautéed Grilled Chicken",
-            "description": "A sweet dish roasted with house-made sauces and drizzled with finesse.",
-            "price": 21.17,
+            "name": "Authentic Succulent Stir-fry",
+            "price": 24.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,12 +361,11 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Thai Curry",
-            "description": "A balanced dish created with locally sourced produce and garnished to perfection.",
-            "price": 20.22,
+            "name": "Classic Delectable Quiche",
+            "price": 30.11,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -322,19 +375,8 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Crab-Stuffed Mushrooms",
-            "description": "A herbaceous dish stir-fried with non-GMO produce and plated with precision.",
-            "price": 31.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Sautéed Grilled Lobster with Lemon Butter",
-            "description": "Nestled in a ceramic bowl and marinated to perfection using cultured dairy.",
-            "price": 27.55,
+            "name": "Hearty Juicy Valencian Seafood Paella",
+            "price": 34.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -342,9 +384,108 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Tempura Soft Shell Crab",
-            "description": "Our succulent specialty, crafted with organic ingredients and beautifully presented.",
-            "price": 25.42,
+            "name": "House Special Smoked Cedar Plank Roasted Salmon",
+            "price": 34.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Stuffed Lobster Thermidor with Gruyère Crust",
+            "price": 25.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Braised Smoked Salmon Platter with Dill Crème",
+            "price": 22.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Marinated Hearty Italian Cioppino",
+            "price": 24.38,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Fresh Luscious Sweet Potato Wedges with Smoked Paprika",
+            "price": 8.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Tender Herbed Bulgur Wheat with Lemon",
+            "price": 9.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Enticing Creamed Spinach with Nutmeg",
+            "price": 9.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Exquisite Cauliflower Gratin with Gruyère",
+            "price": 9.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Sizzling Quinoa Pilaf with Herbs",
+            "price": 8.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Marinated Wild Mushroom Risotto",
+            "price": 7.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Juice",
+            "price": 7.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -352,9 +493,44 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Valencian Seafood Paella",
-            "description": "This peppery favorite is pan-seared using sustainable seafood, then layered with care.",
-            "price": 23.68,
+            "name": "Smoothie",
+            "price": 7.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 5.9,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 4.33,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 6.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 5.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -370,22 +546,11 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Beef Burger",
-            "description": "A complex dish smoked with natural sweeteners and stacked artistically.",
-            "price": 28.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Local Herbed Pesto Pasta",
-            "description": "This floral favorite is grilled using artisanal elements, then served with flair.",
-            "price": 24.27,
+            "name": "Macarons",
+            "price": 7.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,19 +558,17 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Katsu Curry",
-            "description": "Neatly composed and created to perfection using artisanal elements.",
-            "price": 28.2,
+            "name": "Biscotti",
+            "price": 6.39,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gnocchi",
-            "description": "This nutty favorite is seasoned using artisanal elements, then beautifully presented.",
-            "price": 25.25,
+            "name": "Shortbread",
+            "price": 6.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -413,10 +576,18 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Stuffed Zucchini Boats",
-            "description": "A sweet dish braised with seasonal ingredients and neatly composed.",
-            "price": 23.5,
-            "isVegetarian": true,
+            "name": "Brownies",
+            "price": 7.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Muffins",
+            "price": 9.01,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -425,55 +596,50 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Steak",
-            "description": "A zesty dish grilled with natural sweeteners and garnished to perfection.",
-            "price": 19.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gnocchi",
-            "description": "Served with flair and charred to perfection using cold-pressed oils.",
-            "price": 20.12,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shakshuka",
-            "description": "Our delicate specialty, charred with artisanal elements and served family-style.",
-            "price": 19.2,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Crispy Beef Burger",
-            "description": "Our savory specialty, infused with handmade pasta and garnished to perfection.",
-            "price": 25.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Local Crunchy Eggplant Parmesan",
-            "description": "Our balanced specialty, roasted with microgreens and attractively arranged.",
-            "price": 28.37,
+            "name": "Granita",
+            "price": 8.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sherbet",
+            "price": 9.1,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Popsicles",
+            "price": 10.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gelato",
+            "price": 7.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Pie",
+            "price": 8.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -489,9 +655,8 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Blanco Tequila",
-            "description": "This refreshing favorite is created using heritage grains, then artfully plated.",
-            "price": 12.75,
+            "name": "Old Fashioned",
+            "price": 12.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -499,9 +664,17 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Tangy Beer",
-            "description": "Our subtle specialty, smoked with organic ingredients and presented on a wooden board.",
-            "price": 11.83,
+            "name": "Mojito",
+            "price": 14.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 13.43,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -509,18 +682,16 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Tender Vermouth",
-            "description": "Garnished to perfection and hand-rolled to perfection using sustainable seafood.",
-            "price": 9.38,
+            "name": "Negroni",
+            "price": 10.21,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Wine",
-            "description": "This herbaceous favorite is sautéed using non-GMO produce, then nestled in a ceramic bowl.",
+            "name": "Whiskey Sour",
             "price": 12.2,
             "isVegetarian": false,
             "isVegan": false,
@@ -529,9 +700,17 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Scotch",
-            "description": "A complex dish smoked with grass-fed beef and served with flair.",
-            "price": 9.94,
+            "name": "Mai Tai",
+            "price": 12.67,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 14.23,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -544,9 +723,8 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Paella",
-            "description": "A bold dish stir-fried with locally sourced produce and attractively arranged.",
-            "price": 27.55,
+            "name": "Cabernet Franc",
+            "price": 9.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -554,52 +732,47 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Luscious Beef Wellington",
-            "description": "A rich dish crafted with locally foraged herbs and drizzled with finesse.",
-            "price": 23.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fajitas",
-            "description": "A delicate dish made with free-range meats and stacked artistically.",
-            "price": 21.64,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Quiche",
-            "description": "Our delicate specialty, sautéed with artisanal elements and artfully plated.",
-            "price": 28.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Biryani",
-            "description": "Our succulent specialty, made with house-made sauces and garnished to perfection.",
-            "price": 18.65,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shakshuka",
-            "description": "A succulent dish pan-seared with locally foraged herbs and garnished to perfection.",
-            "price": 29.98,
+            "name": "Sangiovese",
+            "price": 10.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nebbiolo",
+            "price": 13.83,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Barbera",
+            "price": 10.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Syrah/Shiraz",
+            "price": 10.66,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Riesling",
+            "price": 12.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -609,40 +782,45 @@ export const charlestonpalmettoKitchenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Organic Spicy Moussaka",
-            "description": "Served on rustic ware and hand-rolled to perfection using aged cheeses.",
-            "price": 25.82,
+            "name": "Tequila",
+            "price": 17.08,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kahlúa",
+            "price": 12.14,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Currywurst",
-            "description": "Our briny specialty, oven-baked with sustainable seafood and beautifully presented.",
-            "price": 25.8,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Golden Pizza",
-            "description": "This spicy favorite is roasted using organic ingredients, then served on rustic ware.",
-            "price": 29.6,
-            "isVegetarian": false,
+            "name": "Calvados",
+            "price": 13.15,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Irresistible Cottage Pie",
-            "description": "This herbaceous favorite is whipped using cold-pressed oils, then drizzled with finesse.",
-            "price": 24.93,
+            "name": "St-Germain",
+            "price": 15.24,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Maraschino",
+            "price": 17.7,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
