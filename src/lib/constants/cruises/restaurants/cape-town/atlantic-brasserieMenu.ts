@@ -12,31 +12,114 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Flambéed Tableside Specialty",
-            "description": "Neatly composed and braised to perfection using grass-fed beef.",
-            "price": 33.95,
+            "name": "Authentic Spiced Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 25.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Appetizing Chef's Special Surf and Turf",
+            "price": 32.58,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Stuffed Seasonal Tasting Platter",
+            "price": 30.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Flavorful Award-Winning Seafood Boil",
+            "price": 37.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Satisfying Executive Chef's Daily Inspiration Entrée",
+            "price": 34.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Fried Flambéed Tableside Specialty",
+            "price": 37.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Spiced Charcoal Grilled Iberico Pork",
+            "price": 24.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
-          },
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
           {
-            "name": "Signature Satisfying Seasonal Tasting Platter",
-            "description": "A zesty dish pan-seared with wild-caught fish and neatly composed.",
-            "price": 32.68,
-            "isVegetarian": true,
+            "name": "Deluxe Spicy Heirloom Recipe from Chef's Family",
+            "price": 37.62,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef’s Wild Game Selection",
-            "description": "A bold dish hand-folded with non-GMO produce and attractively arranged.",
-            "price": 29.14,
+            "name": "Homestyle Savory Slow-Roasted Prime Rib",
+            "price": 32.79,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Aromatic Herb-Crusted Rack of Lamb",
+            "price": 33.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Grilled Tomahawk Ribeye for Two",
+            "price": 39.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Grilled Seared Foie Gras with Fig Compote",
+            "price": 36.91,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -47,9 +130,8 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Spaghetti Bolognese",
-            "description": "Our subtle specialty, hand-rolled with finest quality ingredients and elegantly served.",
-            "price": 22.72,
+            "name": "Hearty Grilled Stuffed Peppers",
+            "price": 8.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -57,19 +139,44 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Roasted Mac and Cheese",
-            "description": "Our robust specialty, oven-baked with cold-pressed oils and garnished to perfection.",
-            "price": 22.84,
-            "isVegetarian": true,
+            "name": "Handcrafted Aromatic Samosas",
+            "price": 13.65,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Tender Coq au Vin",
-            "description": "A robust dish infused with hand-picked vegetables and garnished to perfection.",
-            "price": 20.12,
+            "name": "Fresh Hearty Zucchini Fries",
+            "price": 11.55,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Marinated Bruschetta",
+            "price": 8.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Delicious Mini Sliders",
+            "price": 11.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Golden Mini Quesadillas",
+            "price": 10.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -77,9 +184,40 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Korma",
-            "description": "Artfully plated and composed to perfection using house-made sauces.",
-            "price": 20.87,
+            "name": "Deluxe Sweet Potstickers",
+            "price": 14.93,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Exquisite Calamari",
+            "price": 13.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Soups",
+        "items": [
+          {
+            "name": "Gourmet Stuffed Pumpkin Soup",
+            "price": 10.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Steamed Vegetable Barley Soup",
+            "price": 7.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -87,9 +225,17 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Roasted Fajitas",
-            "description": "This balanced favorite is cooked using sun-ripened fruits, then beautifully presented.",
-            "price": 24.2,
+            "name": "Gourmet Hearty Mushroom Soup",
+            "price": 11.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Luscious Cabbage Soup",
+            "price": 8.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -102,87 +248,47 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Moussaka",
-            "description": "This delicate favorite is seasoned using wild-caught fish, then garnished to perfection.",
-            "price": 21,
+            "name": "Cucumber Salad",
+            "price": 12.95,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Vegetable Salad",
+            "price": 14.71,
+            "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Waldorf Salad",
+            "price": 9.67,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caprese Salad",
+            "price": 13.89,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Quinoa Salad",
+            "price": 15.26,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Tangy Teriyaki Chicken",
-            "description": "This rich favorite is composed using heritage grains, then elegantly served.",
-            "price": 27.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Zesty Ramen",
-            "description": "Styled for visual appeal and made to perfection using house-made sauces.",
-            "price": 25.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spaghetti Bolognese",
-            "description": "Served on rustic ware and slow-cooked to perfection using sustainable seafood.",
-            "price": 26.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Soups",
-        "items": [
-          {
-            "name": "Lamb Chops",
-            "description": "This delicate favorite is cooked using heritage grains, then neatly composed.",
-            "price": 24.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Delectable Stir-fry",
-            "description": "This savory favorite is hand-folded using locally foraged herbs, then served with flair.",
-            "price": 28.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tacos",
-            "description": "Our tangy specialty, charred with locally foraged herbs and accompanied by a tasteful garnish.",
-            "price": 24.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lasagna",
-            "description": "Our pungent specialty, pan-seared with artisanal elements and presented on a wooden board.",
-            "price": 29.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -192,9 +298,17 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Signature Herbed Steak",
-            "description": "Beautifully presented and pan-seared to perfection using premium components.",
-            "price": 22.43,
+            "name": "Handcrafted Succulent Steak",
+            "price": 20.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Wholesome Spaghetti Bolognese",
+            "price": 29.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -202,9 +316,8 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Jambalaya",
-            "description": "This earthy favorite is pan-seared using cold-pressed oils, then attractively arranged.",
-            "price": 31.79,
+            "name": "Fresh Enticing Mac and Cheese",
+            "price": 20.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -212,19 +325,17 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lentil Stew",
-            "description": "A hearty dish crafted with sustainable seafood and beautifully presented.",
-            "price": 30.81,
+            "name": "Premium Exquisite Fish and Chips",
+            "price": 31.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Classic Steamed Pizza",
-            "description": "Our zesty specialty, prepared with locally sourced produce and served family-style.",
-            "price": 23.25,
+            "name": "Fresh Enticing Shish Kebabs",
+            "price": 29.73,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -232,54 +343,17 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Spaghetti Bolognese",
-            "description": "This pungent favorite is composed using premium components, then garnished to perfection.",
-            "price": 26.69,
-            "isVegetarian": true,
+            "name": "Fresh Sizzling Grilled Chicken",
+            "price": 21.91,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Classic Irresistible Shish Kebabs",
-            "description": "This smoky favorite is prepared using wild-caught fish, then served family-style.",
-            "price": 20.13,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Tofu",
-            "description": "Accompanied by a tasteful garnish and prepared to perfection using cold-pressed oils.",
-            "price": 22.37,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Biryani",
-            "description": "Our aromatic specialty, roasted with seasonal ingredients and beautifully presented.",
-            "price": 24.64,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Stuffed Zucchini Boats",
-            "description": "Garnished to perfection and cooked to perfection using chef-selected spices.",
-            "price": 18.73,
+            "name": "Authentic Succulent Lentil Stew",
+            "price": 19.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -287,30 +361,9 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Satisfying Thai Curry",
-            "description": "A aromatic dish composed with locally sourced produce and elegantly served.",
-            "price": 27.83,
+            "name": "Authentic Marinated Seafood Platter",
+            "price": 31.49,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Creamy Enchiladas",
-            "description": "Served family-style and composed to perfection using locally foraged herbs.",
-            "price": 18.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Creamy Pesto Pasta",
-            "description": "Styled for visual appeal and prepared to perfection using free-range meats.",
-            "price": 20.15,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -322,19 +375,8 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Crab-Stuffed Mushrooms",
-            "description": "Accompanied by a tasteful garnish and prepared to perfection using heritage grains.",
-            "price": 33.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "New England Lobster Roll",
-            "description": "Beautifully presented and made to perfection using farm-fresh eggs.",
-            "price": 32.13,
+            "name": "Organic Golden Smoked Salmon Platter with Dill Crème",
+            "price": 31.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -342,9 +384,26 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Stuffed Flounder with Crab and Spinach",
-            "description": "Beautifully presented and assembled to perfection using sustainable seafood.",
-            "price": 32.63,
+            "name": "House Special Smoked Shrimp Scampi over Linguine",
+            "price": 34.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Baked Grilled Lobster with Lemon Butter",
+            "price": 32.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Satisfying Basa Fillet with Dill Cream Sauce",
+            "price": 29.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,9 +411,126 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Herbed Blackened Mahi-Mahi with Pineapple Salsa",
-            "description": "Drizzled with finesse and composed to perfection using artisanal elements.",
-            "price": 33.26,
+            "name": "Gourmet Flaky New England Lobster Roll",
+            "price": 31.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Classic Zingy Grilled Zucchini and Peppers",
+            "price": 8.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Zesty Roasted Root Vegetables",
+            "price": 7.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Delectable Creamed Spinach with Nutmeg",
+            "price": 8.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Comforting Truffle Parmesan Fries",
+            "price": 5.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Savory Steamed Jasmine Rice",
+            "price": 5.78,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spiced Sautéed Garlic Mushrooms",
+            "price": 8.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Milkshake",
+            "price": 7.97,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 6.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 6.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 4.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 7.79,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 5.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -370,52 +546,47 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Classic Golden Burrito",
-            "description": "Served with flair and poached to perfection using seasonal ingredients.",
-            "price": 20.24,
+            "name": "Muffins",
+            "price": 10.28,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Grilled Chicken",
-            "description": "This citrusy favorite is hand-folded using organic ingredients, then served family-style.",
-            "price": 27.76,
+            "name": "Banana Bread",
+            "price": 6.42,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Stir-fry",
-            "description": "This refreshing favorite is assembled using organic ingredients, then accompanied by a tasteful garnish.",
-            "price": 26.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Herbed Roast Duck",
-            "description": "A hearty dish cooked with seasonal ingredients and artfully plated.",
-            "price": 19.25,
+            "name": "Croissants",
+            "price": 9.07,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tacos",
-            "description": "This herbaceous favorite is grilled using house-made sauces, then served on rustic ware.",
-            "price": 19.92,
+            "name": "Biscotti",
+            "price": 6.12,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Macarons",
+            "price": 9.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,42 +596,29 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Stuffed Zucchini Boats",
-            "description": "Styled for visual appeal and seasoned to perfection using premium components.",
-            "price": 27.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lentil Stew",
-            "description": "A hearty dish marinated with artisanal elements and attractively arranged.",
-            "price": 22.77,
+            "name": "Frozen Yogurt",
+            "price": 10.39,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Flaky Gnocchi",
-            "description": "Artfully plated and composed to perfection using grass-fed beef.",
-            "price": 27.6,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Burrito",
-            "description": "Our creamy specialty, poached with house-made sauces and beautifully presented.",
-            "price": 26.46,
+            "name": "Semifreddo",
+            "price": 9.2,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sherbet",
+            "price": 9.48,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -468,9 +626,17 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Hearty Quiche",
-            "description": "Our briny specialty, whipped with seasonal ingredients and beautifully presented.",
-            "price": 25.82,
+            "name": "Frozen Pie",
+            "price": 9.72,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Popsicles",
+            "price": 11.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -489,9 +655,8 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Tennessee Whiskey",
-            "description": "A succulent dish glazed with seasonal ingredients and beautifully presented.",
-            "price": 9.5,
+            "name": "Bloody Mary",
+            "price": 12.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -499,9 +664,8 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Satisfying Aquavit",
-            "description": "A buttery dish slow-cooked with grass-fed beef and beautifully presented.",
-            "price": 9,
+            "name": "Manhattan",
+            "price": 15.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -509,32 +673,47 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sherry",
-            "description": "This fruity favorite is sautéed using sustainable seafood, then beautifully presented.",
-            "price": 9.23,
+            "name": "Old Fashioned",
+            "price": 10.2,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Beer",
-            "description": "This fruity favorite is cooked using sustainable seafood, then beautifully presented.",
-            "price": 9.44,
+            "name": "Whiskey Sour",
+            "price": 13.79,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "London Dry Gin",
-            "description": "Styled for visual appeal and whipped to perfection using cold-pressed oils.",
-            "price": 11.54,
+            "name": "Margarita",
+            "price": 12.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 12.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 13.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -544,60 +723,54 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Fresh Marinated Tagine",
-            "description": "A sweet dish pan-seared with farm-fresh eggs and elegantly served.",
-            "price": 19.34,
+            "name": "Dolcetto",
+            "price": 10.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Petit Verdot",
+            "price": 11.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Grigio",
+            "price": 11.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gewürztraminer",
+            "price": 12.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tempranillo",
+            "price": 12.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mourvèdre",
+            "price": 11.4,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lentil Stew",
-            "description": "Our succulent specialty, made with grass-fed beef and presented on a wooden board.",
-            "price": 24.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Sweet Currywurst",
-            "description": "This robust favorite is fire-roasted using aged cheeses, then elegantly served.",
-            "price": 25.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Delectable Roast Duck",
-            "description": "This aromatic favorite is prepared using hand-picked vegetables, then accompanied by a tasteful garnish.",
-            "price": 27.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Teriyaki Chicken",
-            "description": "This floral favorite is oven-baked using artisanal elements, then served with flair.",
-            "price": 26.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Enchiladas",
-            "description": "Served with flair and prepared to perfection using farm-fresh eggs.",
-            "price": 22.8,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -609,29 +782,35 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Local Flaky Cottage Pie",
-            "description": "This savory favorite is made using finest quality ingredients, then attractively arranged.",
-            "price": 21.12,
+            "name": "Tequila",
+            "price": 11.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Aquavit",
+            "price": 11.15,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chartreuse",
+            "price": 12.79,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seafood Platter",
-            "description": "A succulent dish whipped with farm-fresh eggs and served on rustic ware.",
-            "price": 18.56,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vegetable Stir-Fry",
-            "description": "Our umami-packed specialty, slow-cooked with cultured dairy and offered as a tasting portion.",
-            "price": 27.33,
+            "name": "Whiskey",
+            "price": 16.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -639,14 +818,13 @@ export const capeTownatlanticBrasserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Irresistible Lamb Chops",
-            "description": "A rich dish prepared with heirloom tomatoes and artfully plated.",
-            "price": 26.63,
+            "name": "Midori",
+            "price": 14.68,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
