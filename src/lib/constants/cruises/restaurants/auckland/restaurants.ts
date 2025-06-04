@@ -100,38 +100,6 @@ export const aucklandRestaurants: Restaurant[] = [
   {
     name: "Kiwi Bistro",
     description:
-      "Experience authentic Pacific cuisine with a local twist, featuring manuka honey served in an atmosphere of locally-sourced seafood overlooking Auckland Harbour Bridge.",
-    cuisine: "Pacific",
-    priceRange: "$$$",
-    rating: 4.6,
-    openingHours: {
-      monday: "10:00-21:00",
-      tuesday: "11:00-21:00",
-      wednesday: "10:00-22:00",
-      thursday: "11:00-19:00",
-      friday: "11:00-20:00",
-      saturday: "10:00-21:00",
-      sunday: "11:00-21:00",
-    },
-    contactInfo: {
-      contactNumber: "+1-555-451-9611",
-      contactEmail: "info@pacificauckland.com",
-    },
-    isVegetarianFriendly: false,
-    isVeganFriendly: false,
-    isGlutenFreeFriendly: false,
-    isHalalFriendly: false,
-    isKosherFriendly: false,
-    isFineDining: false,
-    isAdultOnly: false,
-    isIndoorSeating: true,
-    isReservationsAccepted: true,
-    isRomantic: false,
-    isPopular: true,
-  },
-  {
-    name: "Kiwi Bistro",
-    description:
       "A culinary gem serving Pacific specialties including green-lipped mussels, where guests enjoy harbor views in the heart of the city.",
     cuisine: "Pacific",
     priceRange: "$$$",
