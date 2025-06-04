@@ -12,9 +12,17 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "House Special Crunchy Dry-Aged Tomahawk Steak",
-            "description": "This robust favorite is hand-rolled using handmade pasta, then beautifully presented.",
-            "price": 37.84,
+            "name": "Fresh Tender Age-Old Recipe Osso Buco with Gremolata",
+            "price": 35.52,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Sweet Chef's Special Surf and Turf",
+            "price": 28.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,9 +30,26 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Korean BBQ Short Ribs with Kimchi Rice",
-            "description": "This nutty favorite is marinated using handmade pasta, then beautifully presented.",
-            "price": 31.23,
+            "name": "Deluxe Smoked Wood-Fired Peking Duck with Plum Sauce",
+            "price": 29.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Zingy Chef's Childhood Inspired Creation",
+            "price": 36.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Spicy Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 24.5,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -32,14 +57,72 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Crusted Rack of Lamb with Dijon Herb Crust",
-            "description": "Styled for visual appeal and roasted to perfection using seasonal ingredients.",
-            "price": 34.78,
+            "name": "Gourmet Baked Seasonal Tasting Platter",
+            "price": 36.55,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Tangy 24-Hour Braised Short Ribs",
+            "price": 34.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Authentic Baked Whole Animal Butchery Showcase",
+            "price": 24.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Grilled Miso-Glazed Black Cod",
+            "price": 36.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "House Special Satisfying Cedar Plank Salmon",
+            "price": 28.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Appetizing Daily Fresh Catch with Seasonal Accompaniments",
+            "price": 24.78,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Roasted Chef's Childhood Favorite Reimagined",
+            "price": 38.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -47,51 +130,114 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Gnocchi",
-            "description": "Our balanced specialty, cooked with organic ingredients and elegantly served.",
-            "price": 22.9,
+            "name": "Deluxe Zingy Mini Sliders",
+            "price": 14.33,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Delicious Stuffed Peppers",
+            "price": 14.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Zesty Bruschetta",
+            "price": 13.28,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Herbed Tempura",
+            "price": 11.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Grilled Nachos",
+            "price": 14.04,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Burrito",
-            "description": "A creamy dish braised with grass-fed beef and attractively arranged.",
-            "price": 26,
+            "name": "Traditional Zingy Dumplings",
+            "price": 8.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Exquisite Stuffed Avocado",
+            "price": 14.56,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Hearty Cheese Platter",
+            "price": 11.07,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Soups",
+        "items": [
+          {
+            "name": "Authentic Irresistible Peanut Soup (West African)",
+            "price": 12.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Tangy Butternut Squash Soup",
+            "price": 10.71,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Luscious Gazpacho",
+            "price": 7.34,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Zesty Black Bean Soup",
+            "price": 7.6,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Sweet Pizza",
-            "description": "Our fruity specialty, smoked with grass-fed beef and plated with precision.",
-            "price": 28.74,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Korma",
-            "description": "A zesty dish charred with free-range meats and artfully plated.",
-            "price": 27.71,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chili con Carne",
-            "description": "Served with flair and hand-rolled to perfection using sustainable seafood.",
-            "price": 25.18,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -102,54 +248,26 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Pulled Pork Sandwich",
-            "description": "This umami-packed favorite is cooked using artisanal elements, then styled for visual appeal.",
-            "price": 18.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Fried Currywurst",
-            "description": "A bold dish roasted with free-range meats and nestled in a ceramic bowl.",
-            "price": 29.64,
+            "name": "Roasted Vegetable Salad",
+            "price": 12.71,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Creamy Paella",
-            "description": "Attractively arranged and smoked to perfection using locally sourced produce.",
-            "price": 19.98,
+            "name": "Apple Pecan Salad",
+            "price": 13.94,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Fried Teriyaki Chicken",
-            "description": "A balanced dish braised with seasonal ingredients and garnished to perfection.",
-            "price": 24.33,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Soups",
-        "items": [
+            "isHalal": true,
+            "isKosher": true
+          },
           {
-            "name": "Mac and Cheese",
-            "description": "Our pungent specialty, stir-fried with finest quality ingredients and layered with care.",
-            "price": 26,
+            "name": "Watermelon Feta Salad",
+            "price": 10.48,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,34 +275,22 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lamb Chops",
-            "description": "A buttery dish fire-roasted with finest quality ingredients and plated with precision.",
-            "price": 21.88,
-            "isVegetarian": false,
+            "name": "Garden Salad",
+            "price": 14.44,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Pulled Pork Sandwich",
-            "description": "Styled for visual appeal and assembled to perfection using heirloom tomatoes.",
-            "price": 18.24,
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 11.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
-          },
-          {
-            "name": "Chili con Carne",
-            "description": "A fruity dish sautéed with heirloom tomatoes and presented on a wooden board.",
-            "price": 25.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
@@ -192,29 +298,94 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Stuffed Peppers",
-            "description": "Our citrusy specialty, stir-fried with natural sweeteners and attractively arranged.",
-            "price": 26.34,
+            "name": "Organic Spicy Stir-fry",
+            "price": 30.24,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Spiced Tacos",
+            "price": 20.85,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Sizzling Roast Duck",
+            "price": 26.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Hearty Coq au Vin",
+            "price": 28.64,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Crispy Teriyaki Chicken",
+            "price": 28.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Stuffed Fajitas",
+            "price": 19.96,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Comforting Thai Curry",
+            "price": 24.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Marinated Stuffed Zucchini Boats",
+            "price": 19.84,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "items": [
+          {
+            "name": "Handcrafted Herbed Valencian Seafood Paella",
+            "price": 33.35,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Steak",
-            "description": "This smoky favorite is made using artisanal elements, then stacked artistically.",
-            "price": 27.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Classic Spiced Grilled Tofu",
-            "description": "A rich dish prepared with grass-fed beef and layered with care.",
-            "price": 25.75,
+            "name": "Seasonal Exquisite Hearty Italian Cioppino",
+            "price": 31.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -222,49 +393,26 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Moussaka",
-            "description": "Offered as a tasting portion and crafted to perfection using artisanal elements.",
-            "price": 25.19,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Succulent Shakshuka",
-            "description": "A rich dish oven-baked with premium components and served with flair.",
-            "price": 19.08,
+            "name": "Classic Smoked Cajun Shrimp and Grits",
+            "price": 29.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Sizzling Paella",
-            "description": "This bold favorite is cooked using organic ingredients, then nestled in a ceramic bowl.",
-            "price": 27.4,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Sweet Grilled Chicken",
-            "description": "Neatly composed and made to perfection using artisanal elements.",
-            "price": 24.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Classic Grilled Stir-fry",
-            "description": "A rich dish crafted with locally sourced produce and plated with precision.",
-            "price": 19.18,
+            "name": "Hearty Grilled Lobster Thermidor with Gruyère Crust",
+            "price": 30.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Golden Basa Fillet with Dill Cream Sauce",
+            "price": 25.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -277,19 +425,26 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Ramen",
-            "description": "Served family-style and poached to perfection using wild-caught fish.",
-            "price": 29.32,
+            "name": "Handcrafted Hearty Yukon Gold Potato Gratin",
+            "price": 7.41,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Spiced Warm Buttermilk Dinner Rolls",
+            "price": 9.1,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Marinated Salmon",
-            "description": "Our delicate specialty, composed with seasonal ingredients and beautifully presented.",
-            "price": 22.89,
+            "name": "Authentic Golden Homestyle Baked Beans",
+            "price": 8.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -297,67 +452,88 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Signature Appetizing Grilled Chicken",
-            "description": "This spicy favorite is pan-seared using locally sourced produce, then plated with precision.",
-            "price": 23.74,
+            "name": "Seasonal Spiced Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 7.33,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Zesty Grilled Zucchini and Peppers",
+            "price": 9.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Stuffed Peppers",
-            "description": "Styled for visual appeal and fire-roasted to perfection using free-range meats.",
-            "price": 20.47,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Classic Roasted Wild Mushroom Risotto",
+            "price": 7.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
-        "name": "Seafood Specialties",
+        "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Classic British Fish and Chips",
-            "description": "Styled for visual appeal and charred to perfection using organic ingredients.",
-            "price": 27.62,
+            "name": "Smoothie",
+            "price": 5,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 4.86,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 5.19,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 7.49,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 7.34,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 7.99,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Stuffed Grilled Swordfish with Mango Chutney",
-            "description": "A floral dish stir-fried with locally sourced produce and styled for visual appeal.",
-            "price": 30.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Prawn Curry in Coconut Masala",
-            "description": "This peppery favorite is made using natural sweeteners, then elegantly served.",
-            "price": 27.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Hearty Seafood Alfredo with Spinach Fettuccine",
-            "description": "Nestled in a ceramic bowl and grilled to perfection using hand-picked vegetables.",
-            "price": 22.37,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -370,12 +546,11 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Chili con Carne",
-            "description": "Served on rustic ware and whipped to perfection using hand-picked vegetables.",
-            "price": 24.38,
+            "name": "Cinnamon Rolls",
+            "price": 7,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -383,19 +558,8 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lamb Chops",
-            "description": "Stacked artistically and made to perfection using non-GMO produce.",
-            "price": 26.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Smoked Pesto Pasta",
-            "description": "This umami-packed favorite is composed using farm-fresh eggs, then elegantly served.",
-            "price": 21.09,
+            "name": "Soufflé",
+            "price": 7.46,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -403,19 +567,26 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Steak",
-            "description": "Garnished to perfection and marinated to perfection using sustainable seafood.",
-            "price": 27.67,
-            "isVegetarian": false,
+            "name": "Sticky Toffee Pudding",
+            "price": 6.48,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Organic Aromatic Tacos",
-            "description": "A rich dish pan-seared with sustainable seafood and served on rustic ware.",
-            "price": 26.02,
+            "name": "Shortbread",
+            "price": 7.72,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Madeleines",
+            "price": 8.75,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,22 +596,11 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Local Hearty Tacos",
-            "description": "Our briny specialty, grilled with finest quality ingredients and beautifully presented.",
-            "price": 25.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lasagna",
-            "description": "Elegantly served and composed to perfection using handmade pasta.",
-            "price": 23.55,
+            "name": "Frozen Yogurt",
+            "price": 9.1,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -448,30 +608,36 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cottage Pie",
-            "description": "This rich favorite is hand-folded using sustainable seafood, then accompanied by a tasteful garnish.",
-            "price": 23.22,
+            "name": "Frosty",
+            "price": 7.12,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Risotto",
-            "description": "Presented on a wooden board and oven-baked to perfection using cold-pressed oils.",
-            "price": 27.6,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Signature Grilled Grilled Tofu",
-            "description": "This citrusy favorite is sautéed using heritage grains, then beautifully presented.",
-            "price": 18.19,
+            "name": "Popsicles",
+            "price": 8.11,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Pie",
+            "price": 9.02,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Granita",
+            "price": 8.87,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -489,10 +655,45 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Espresso Martini",
-            "description": "Stacked artistically and charred to perfection using seasonal ingredients.",
+            "name": "Negroni",
             "price": 14.31,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 10.84,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 10.87,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 12.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 13.66,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -500,8 +701,7 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
           },
           {
             "name": "Margarita",
-            "description": "A tangy dish roasted with sustainable seafood and neatly composed.",
-            "price": 10.59,
+            "price": 14.74,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -509,30 +709,9 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Smoked Tequila",
-            "description": "Our peppery specialty, cooked with grass-fed beef and drizzled with finesse.",
-            "price": 10.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sherry",
-            "description": "This briny favorite is poached using organic ingredients, then layered with care.",
-            "price": 13.83,
+            "name": "Old Fashioned",
+            "price": 10.96,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sake",
-            "description": "A rich dish pan-seared with free-range meats and attractively arranged.",
-            "price": 13.17,
-            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
@@ -544,29 +723,8 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Roast Duck",
-            "description": "Garnished to perfection and cooked to perfection using seasonal ingredients.",
-            "price": 28.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Pasta Primavera",
-            "description": "This succulent favorite is braised using grass-fed beef, then beautifully presented.",
-            "price": 26.27,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Peppers",
-            "description": "Our aromatic specialty, grilled with seasonal ingredients and beautifully presented.",
-            "price": 29.88,
+            "name": "Dolcetto",
+            "price": 11.74,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -574,9 +732,8 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mac and Cheese",
-            "description": "Our briny specialty, poached with heirloom tomatoes and beautifully presented.",
-            "price": 22.01,
+            "name": "Fiano",
+            "price": 13.42,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -584,19 +741,35 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Spiced Beef Wellington",
-            "description": "Our subtle specialty, charred with seasonal ingredients and served with flair.",
-            "price": 24.29,
-            "isVegetarian": false,
+            "name": "Tempranillo",
+            "price": 10.31,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef's Grilled Katsu Curry",
-            "description": "Elegantly served and seasoned to perfection using organic ingredients.",
-            "price": 26.3,
+            "name": "Roussanne",
+            "price": 10.39,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Blanc",
+            "price": 11.04,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chardonnay",
+            "price": 10.47,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -609,9 +782,8 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Thai Curry",
-            "description": "Drizzled with finesse and pan-seared to perfection using microgreens.",
-            "price": 20.25,
+            "name": "Anisette",
+            "price": 14.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,9 +791,8 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pizza",
-            "description": "Nestled in a ceramic bowl and whipped to perfection using seasonal ingredients.",
-            "price": 29.41,
+            "name": "Vodka",
+            "price": 11.36,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -629,20 +800,27 @@ export const lisbongoldenCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Herbed Chicken Parmesan",
-            "description": "A creamy dish prepared with house-made sauces and presented on a wooden board.",
-            "price": 25.83,
-            "isVegetarian": false,
+            "name": "Calvados",
+            "price": 15.04,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Spaghetti Bolognese",
-            "description": "Our savory specialty, oven-baked with cold-pressed oils and served on rustic ware.",
-            "price": 18.64,
+            "name": "Gin",
+            "price": 10.7,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Brandy",
+            "price": 10.09,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

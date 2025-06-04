@@ -12,19 +12,44 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Dry-Aged Tomahawk Steak",
-            "description": "Elegantly served and hand-folded to perfection using seasonal ingredients.",
-            "price": 35.63,
-            "isVegetarian": false,
+            "name": "Classic Savory Founder's Family Recipe Pasta",
+            "price": 28.45,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Spiced Signature Truffle Pasta with Aged Pecorino",
+            "price": 36.02,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Marinated Dry-Aged Tomahawk Steak",
+            "price": 32.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Organic Savory 24-Hour Braised Short Ribs",
-            "description": "Beautifully presented and made to perfection using locally foraged herbs.",
-            "price": 26.25,
+            "name": "Gourmet Tangy Secret Recipe Bouillabaisse",
+            "price": 37.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Smoked Tableside Carved Chateaubriand",
+            "price": 29.2,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -32,12 +57,70 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Sizzling Executive Chef's Daily Inspiration Entrée",
-            "description": "Elegantly served and fire-roasted to perfection using sustainable seafood.",
-            "price": 36.74,
-            "isVegetarian": true,
+            "name": "Traditional Grilled Chef's Childhood Inspired Creation",
+            "price": 34.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Tangy Charcoal Grilled Iberico Pork",
+            "price": 34.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Organic Zingy Collaborative Limited Edition Special",
+            "price": 26.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Mouthwatering Fusion of Traditional and Modern Techniques",
+            "price": 24.21,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Fried Truffle-Infused Filet Mignon",
+            "price": 28.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Aromatic Cedar Plank Salmon",
+            "price": 37.82,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Grilled Fire-Roasted Seasonal Centerpiece",
+            "price": 34.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -47,95 +130,72 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Lamb Chops",
-            "description": "Nestled in a ceramic bowl and prepared to perfection using locally sourced produce.",
-            "price": 26.02,
+            "name": "Deluxe Crispy Spinach Puffs",
+            "price": 8.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Stuffed Tzatziki with Pita",
+            "price": 13.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Grilled Samosas",
+            "price": 8.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Delicious Spinach Artichoke Dip",
+            "price": 9.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Golden Stuffed Mushrooms",
+            "price": 12.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Hearty Crostini",
+            "price": 11.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Stuffed Baked Brie",
+            "price": 11.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Jambalaya",
-            "description": "A fruity dish crafted with locally sourced produce and layered with care.",
-            "price": 21.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bibimbap",
-            "description": "Stacked artistically and charred to perfection using seasonal ingredients.",
-            "price": 25.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lentil Stew",
-            "description": "Our aromatic specialty, prepared with cold-pressed oils and served with flair.",
-            "price": 18.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seafood Platter",
-            "description": "This rich favorite is cooked using seasonal ingredients, then garnished to perfection.",
-            "price": 29.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
-          {
-            "name": "Tacos",
-            "description": "Our rich specialty, poached with sun-ripened fruits and beautifully presented.",
-            "price": 19.9,
+            "name": "Seasonal Satisfying Mini Sliders",
+            "price": 9.22,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bibimbap",
-            "description": "This peppery favorite is crafted using handmade pasta, then elegantly served.",
-            "price": 23.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Golden Pizza",
-            "description": "This refreshing favorite is infused using finest quality ingredients, then elegantly served.",
-            "price": 29.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Pan-seared Quiche",
-            "description": "Our complex specialty, charred with grass-fed beef and stacked artistically.",
-            "price": 22.24,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -147,19 +207,8 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Tacos",
-            "description": "This subtle favorite is created using free-range meats, then garnished to perfection.",
-            "price": 28.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Spiced Currywurst",
-            "description": "Artfully plated and oven-baked to perfection using locally foraged herbs.",
-            "price": 21.63,
+            "name": "Classic Grilled Cabbage Soup",
+            "price": 7.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -167,9 +216,17 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Shakshuka",
-            "description": "Our balanced specialty, prepared with locally foraged herbs and accompanied by a tasteful garnish.",
-            "price": 29.55,
+            "name": "Handcrafted Sizzling Miso Soup",
+            "price": 7.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Delectable Tortilla Soup",
+            "price": 10.16,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -177,10 +234,59 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Stuffed Bibimbap",
-            "description": "Our peppery specialty, composed with seasonal ingredients and served with flair.",
-            "price": 22.14,
+            "name": "Authentic Flaky Thai Coconut Soup",
+            "price": 10.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Waldorf Salad",
+            "price": 11.17,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nicoise Salad",
+            "price": 12.44,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Beet Salad",
+            "price": 13.6,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tabbouleh",
+            "price": 10.1,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caprese Salad",
+            "price": 14.14,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -192,9 +298,35 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Local Enticing Fajitas",
-            "description": "This complex favorite is made using seasonal ingredients, then styled for visual appeal.",
-            "price": 19.22,
+            "name": "Hearty Wholesome Thai Curry",
+            "price": 22.54,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Grilled Biryani",
+            "price": 22.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Crunchy Salmon",
+            "price": 31.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Pan-seared Cottage Pie",
+            "price": 23.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -202,71 +334,87 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Steak",
-            "description": "Our spicy specialty, smoked with finest quality ingredients and served family-style.",
-            "price": 28.02,
+            "name": "Homestyle Herbed Vegetable Stir-Fry",
+            "price": 29.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Baked Pho",
+            "price": 19.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Golden Lasagna",
+            "price": 23.37,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Enticing Shish Kebabs",
+            "price": 26.2,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "items": [
+          {
+            "name": "Traditional Mouthwatering Lemon-Herb Calamari Steak",
+            "price": 28.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Traditional Spicy Shish Kebabs",
-            "description": "This tangy favorite is created using heritage grains, then attractively arranged.",
-            "price": 26.97,
+            "name": "Deluxe Herbed Grilled Swordfish with Mango Chutney",
+            "price": 34.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Eggplant Parmesan",
-            "description": "Our delicate specialty, cooked with seasonal ingredients and presented on a wooden board.",
-            "price": 27.76,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roast Duck",
-            "description": "A spicy dish fire-roasted with cultured dairy and plated with precision.",
-            "price": 31.9,
+            "name": "Hearty Satisfying Pan-Seared Scallops with Pea Purée",
+            "price": 22.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
+            "isHalal": true,
+            "isKosher": false
           },
           {
-            "name": "Lentil Stew",
-            "description": "Our balanced specialty, whipped with seasonal ingredients and garnished to perfection.",
-            "price": 23.76,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Handcrafted Steamed Miso-Marinated Chilean Sea Bass",
+            "price": 26.87,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "House Special Braised Burrito",
-            "description": "Our aromatic specialty, caramelized with house-made sauces and garnished to perfection.",
-            "price": 28.01,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chili con Carne",
-            "description": "Elegantly served and whipped to perfection using farm-fresh eggs.",
-            "price": 23.17,
+            "name": "Classic Zingy Blackened Mahi-Mahi with Pineapple Salsa",
+            "price": 29.74,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -277,19 +425,35 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Quiche",
-            "description": "Attractively arranged and made to perfection using finest quality ingredients.",
-            "price": 25.02,
+            "name": "Deluxe Delicious Wild Rice Pilaf",
+            "price": 8.12,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Zingy Steamed Jasmine Rice",
+            "price": 6.03,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Stuffed Zucchini Boats",
-            "description": "A rich dish cooked with aged cheeses and styled for visual appeal.",
-            "price": 24.81,
+            "name": "House Special Luscious Homestyle Baked Beans",
+            "price": 7.77,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Flavorful Yukon Gold Potato Gratin",
+            "price": 6.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -297,64 +461,76 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Zingy Moussaka",
-            "description": "Our creamy specialty, composed with non-GMO produce and layered with care.",
-            "price": 29.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lamb Chops",
-            "description": "Beautifully presented and prepared to perfection using sustainable seafood.",
-            "price": 21.49,
+            "name": "Authentic Zingy Corn on the Cob with Chili Lime Butter",
+            "price": 7.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Classic Herbed Crispy Zucchini Fritters",
+            "price": 9.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
-        "name": "Seafood Specialties",
+        "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Fresh Pan-seared Pan-Seared Scallops with Pea Purée",
-            "description": "A peppery dish whipped with locally foraged herbs and plated with precision.",
-            "price": 29.98,
+            "name": "Coffee",
+            "price": 6.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Fresh Smoked New England Lobster Roll",
-            "description": "Artfully plated and infused to perfection using artisanal elements.",
-            "price": 27.45,
+            "name": "Juice",
+            "price": 5.03,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 4.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Classic Mouthwatering Shrimp Scampi over Linguine",
-            "description": "Drizzled with finesse and crafted to perfection using non-GMO produce.",
-            "price": 28.45,
+            "name": "Tea",
+            "price": 4.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Classic Smoked Tempura Soft Shell Crab",
-            "description": "This bold favorite is slow-cooked using organic ingredients, then styled for visual appeal.",
-            "price": 33.5,
+            "name": "Milkshake",
+            "price": 7.25,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 5.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -370,53 +546,48 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Traditional Smoked Salmon",
-            "description": "Plated with precision and whipped to perfection using hand-picked vegetables.",
-            "price": 24.41,
+            "name": "Red Velvet Cake",
+            "price": 9.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Beef Burger",
-            "description": "Elegantly served and assembled to perfection using free-range meats.",
-            "price": 23.66,
+            "name": "Eclairs",
+            "price": 9.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Classic Smoked Bibimbap",
-            "description": "Our nutty specialty, braised with free-range meats and garnished to perfection.",
-            "price": 24.89,
-            "isVegetarian": true,
+            "name": "Pecan Pie",
+            "price": 7.21,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Sizzling Stir-fry",
-            "description": "This nutty favorite is braised using artisanal elements, then layered with care.",
-            "price": 29.13,
+            "name": "Danish Pastries",
+            "price": 7.03,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Jambalaya",
-            "description": "Our subtle specialty, glazed with seasonal ingredients and artfully plated.",
-            "price": 19.83,
-            "isVegetarian": false,
+            "name": "Pain au Chocolat",
+            "price": 8.97,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -425,53 +596,48 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Cottage Pie",
-            "description": "This umami-packed favorite is oven-baked using cold-pressed oils, then beautifully presented.",
-            "price": 20.25,
+            "name": "Sorbet",
+            "price": 10.88,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Granita",
+            "price": 9.72,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Pudding",
+            "price": 9.89,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Lamb Chops",
-            "description": "This briny favorite is hand-folded using organic ingredients, then garnished to perfection.",
-            "price": 18.86,
-            "isVegetarian": false,
+            "name": "Baked Alaska",
+            "price": 8.74,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Wholesome Teriyaki Chicken",
-            "description": "Our citrusy specialty, cooked with free-range meats and layered with care.",
-            "price": 27.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Roast Duck",
-            "description": "Our refreshing specialty, made with farm-fresh eggs and served with flair.",
-            "price": 25.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Pan-seared Lentil Stew",
-            "description": "This subtle favorite is smoked using seasonal ingredients, then accompanied by a tasteful garnish.",
-            "price": 24.11,
-            "isVegetarian": false,
+            "name": "Frozen Cheesecake",
+            "price": 10.9,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -489,19 +655,8 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Bourbon",
-            "description": "A savory dish composed with seasonal ingredients and accompanied by a tasteful garnish.",
-            "price": 13.96,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Juicy Absinthe",
-            "description": "A buttery dish prepared with organic ingredients and elegantly served.",
-            "price": 13.97,
+            "name": "Old Fashioned",
+            "price": 13.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -509,9 +664,8 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Grilled Mead",
-            "description": "Presented on a wooden board and marinated to perfection using free-range meats.",
-            "price": 13,
+            "name": "Margarita",
+            "price": 11.58,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -519,9 +673,35 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Aromatic Long Island Iced Tea",
-            "description": "A savory dish made with sustainable seafood and presented on a wooden board.",
-            "price": 14.77,
+            "name": "Mai Tai",
+            "price": 13.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 12.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 13.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 10.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -529,10 +709,9 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cider",
-            "description": "This rich favorite is prepared using wild-caught fish, then stacked artistically.",
-            "price": 11.2,
-            "isVegetarian": false,
+            "name": "Mojito",
+            "price": 15.64,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -544,9 +723,17 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Local Delicious Ramen",
-            "description": "A spicy dish braised with organic ingredients and beautifully presented.",
-            "price": 18.55,
+            "name": "Moscato",
+            "price": 13.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nebbiolo",
+            "price": 9.34,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -554,9 +741,26 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Savory Jambalaya",
-            "description": "This citrusy favorite is hand-rolled using hand-picked vegetables, then beautifully presented.",
-            "price": 29.45,
+            "name": "Riesling",
+            "price": 10.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vouvray",
+            "price": 11.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chardonnay",
+            "price": 13.98,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -564,42 +768,11 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Steamed Chili con Carne",
-            "description": "This rich favorite is hand-rolled using grass-fed beef, then stacked artistically.",
-            "price": 29.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Steak",
-            "description": "This buttery favorite is cooked using artisanal elements, then garnished to perfection.",
-            "price": 25.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Beef Wellington",
-            "description": "This pungent favorite is smoked using aged cheeses, then presented on a wooden board.",
-            "price": 19.37,
+            "name": "Roussanne",
+            "price": 12.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Enchiladas",
-            "description": "Layered with care and oven-baked to perfection using artisanal elements.",
-            "price": 18.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -609,19 +782,8 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Chicken Parmesan",
-            "description": "This nutty favorite is cooked using free-range meats, then garnished to perfection.",
-            "price": 26.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Burrito",
-            "description": "A rich dish seasoned with cold-pressed oils and beautifully presented.",
-            "price": 18.65,
+            "name": "Sambuca",
+            "price": 12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -629,22 +791,38 @@ export const kyotoroyalDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Eggplant Parmesan",
-            "description": "This hearty favorite is prepared using finest quality ingredients, then beautifully presented.",
-            "price": 27.81,
+            "name": "Kahlúa",
+            "price": 14.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cognac",
+            "price": 10.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vodka",
+            "price": 15.14,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Galliano",
+            "price": 14.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Zingy Quiche",
-            "description": "Garnished to perfection and cooked to perfection using grass-fed beef.",
-            "price": 18.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
