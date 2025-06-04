@@ -12,32 +12,115 @@ export const tamparoyalHouseMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "24-Hour Braised Short Ribs",
-            "description": "Styled for visual appeal and fire-roasted to perfection using locally sourced produce.",
-            "price": 29.67,
-            "isVegetarian": true,
+            "name": "Homestyle Steamed Flambéed Tableside Specialty",
+            "price": 27.63,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Fresh Spicy Traditional Family Paella",
-            "description": "Our fruity specialty, seasoned with farm-fresh eggs and styled for visual appeal.",
-            "price": 34.12,
+            "name": "Deluxe Enticing Traditional Family Paella",
+            "price": 32.93,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Herbed Award-Winning Seafood Boil",
-            "description": "Our rich specialty, glazed with house-made sauces and artfully plated.",
-            "price": 35.14,
+            "name": "Hearty Spiced Restaurant's Namesake Signature Entrée",
+            "price": 28.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Crunchy Signature Truffle Pasta with Aged Pecorino",
+            "price": 31.66,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Founder's Family Recipe Pasta",
+            "price": 25.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Smoked Secret Recipe Bouillabaisse",
+            "price": 26.39,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Comforting Heritage Recipe Lamb Shank",
+            "price": 28.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Homestyle Spicy Locally Foraged Mushroom Selection",
+            "price": 39.45,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Flaky Gourmet Vegetarian Wellington",
+            "price": 35.99,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Flaky Aged and House-Cured Charcuterie Selection",
+            "price": 32.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Pan-seared Lobster and Crab Stuffed Ravioli",
+            "price": 38.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Smoked Black Garlic Marinated Octopus",
+            "price": 34.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -47,9 +130,8 @@ export const tamparoyalHouseMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Classic Golden Mac and Cheese",
-            "description": "Our fruity specialty, pan-seared with farm-fresh eggs and accompanied by a tasteful garnish.",
-            "price": 18.06,
+            "name": "Handcrafted Flaky Nachos",
+            "price": 8.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -57,64 +139,8 @@ export const tamparoyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Creamy Stir-fry",
-            "description": "Our complex specialty, cooked with hand-picked vegetables and attractively arranged.",
-            "price": 25.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Baked Stuffed Peppers",
-            "description": "This nutty favorite is smoked using premium components, then neatly composed.",
-            "price": 27.1,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spaghetti Bolognese",
-            "description": "A herbaceous dish fire-roasted with cultured dairy and garnished to perfection.",
-            "price": 19.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Grilled Pulled Pork Sandwich",
-            "description": "Beautifully presented and pan-seared to perfection using free-range meats.",
-            "price": 27.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
-          {
-            "name": "Pulled Pork Sandwich",
-            "description": "Accompanied by a tasteful garnish and grilled to perfection using natural sweeteners.",
-            "price": 21.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Local Creamy Tacos",
-            "description": "This aromatic favorite is assembled using locally foraged herbs, then styled for visual appeal.",
-            "price": 24.65,
+            "name": "Handcrafted Spiced Cheese Nachos",
+            "price": 15.08,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -122,19 +148,53 @@ export const tamparoyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Grilled Quiche",
-            "description": "A delicate dish hand-folded with handmade pasta and styled for visual appeal.",
-            "price": 18.89,
-            "isVegetarian": true,
+            "name": "Traditional Roasted Garlic Knots",
+            "price": 9.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Spiced Baked Brie",
+            "price": 15.11,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Mouthwatering Shakshuka",
-            "description": "This hearty favorite is fire-roasted using cultured dairy, then nestled in a ceramic bowl.",
-            "price": 27.84,
+            "name": "Fresh Crispy Mini Crab Cakes",
+            "price": 13.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Mouthwatering Edamame",
+            "price": 10.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Herbed Hummus Platter",
+            "price": 10.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Grilled Garlic Bread",
+            "price": 15.87,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -147,19 +207,8 @@ export const tamparoyalHouseMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Vegetable Stir-Fry",
-            "description": "Our earthy specialty, charred with aged cheeses and accompanied by a tasteful garnish.",
-            "price": 29.91,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Braised Steak",
-            "description": "This creamy favorite is pan-seared using heritage grains, then attractively arranged.",
-            "price": 29.75,
+            "name": "Authentic Flaky Chicken Noodle Soup",
+            "price": 9.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -167,20 +216,77 @@ export const tamparoyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Smoked Pulled Pork Sandwich",
-            "description": "Attractively arranged and crafted to perfection using hand-picked vegetables.",
-            "price": 28.07,
+            "name": "Fresh Creamy Lobster Bisque",
+            "price": 13.53,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Fresh Succulent Gnocchi",
-            "description": "Accompanied by a tasteful garnish and made to perfection using cold-pressed oils.",
-            "price": 28.19,
+            "name": "Fresh Appetizing Corn Chowder",
+            "price": 7.1,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sizzling Pho",
+            "price": 8.55,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Watermelon Feta Salad",
+            "price": 10.2,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Potato Salad",
+            "price": 13.52,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pecan Salad",
+            "price": 11.21,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Salad",
+            "price": 14.26,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Arugula Salad",
+            "price": 13.31,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -192,39 +298,26 @@ export const tamparoyalHouseMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Lamb Chops",
-            "description": "Presented on a wooden board and pan-seared to perfection using aged cheeses.",
-            "price": 26.26,
+            "name": "Organic Grilled Pho",
+            "price": 19.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Stuffed Lamb Chops",
+            "price": 20.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Local Comforting Thai Curry",
-            "description": "Our rich specialty, glazed with seasonal ingredients and served with flair.",
-            "price": 21.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Smoked Risotto",
-            "description": "Presented on a wooden board and created to perfection using non-GMO produce.",
-            "price": 22.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pesto Pasta",
-            "description": "This creamy favorite is stir-fried using seasonal ingredients, then plated with precision.",
-            "price": 26.8,
+            "name": "Deluxe Smoked Shish Kebabs",
+            "price": 21.68,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -232,64 +325,8 @@ export const tamparoyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Mouthwatering Tacos",
-            "description": "A rich dish oven-baked with non-GMO produce and beautifully presented.",
-            "price": 27.48,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Salmon",
-            "description": "Served with flair and grilled to perfection using cold-pressed oils.",
-            "price": 26.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roast Duck",
-            "description": "This earthy favorite is glazed using house-made sauces, then elegantly served.",
-            "price": 29.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Marinated Steak",
-            "description": "Attractively arranged and caramelized to perfection using free-range meats.",
-            "price": 20.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Organic Pan-seared Quiche",
-            "description": "Layered with care and hand-folded to perfection using house-made sauces.",
-            "price": 28.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pho",
-            "description": "Our peppery specialty, slow-cooked with aged cheeses and artfully plated.",
-            "price": 29.55,
+            "name": "House Special Zesty Tagine",
+            "price": 31.11,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -297,22 +334,38 @@ export const tamparoyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Golden Korma",
-            "description": "This succulent favorite is braised using cold-pressed oils, then served on rustic ware.",
-            "price": 21.97,
+            "name": "Fresh Flavorful Pesto Pasta",
+            "price": 22.07,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bibimbap",
-            "description": "This refreshing favorite is made using cultured dairy, then plated with precision.",
-            "price": 24.49,
-            "isVegetarian": false,
+            "name": "Seasonal Herbed Coq au Vin",
+            "price": 24.85,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Spiced Tacos",
+            "price": 25.3,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Irresistible Jambalaya",
+            "price": 30.5,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -322,9 +375,8 @@ export const tamparoyalHouseMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Oysters Rockefeller with Pernod Cream",
-            "description": "Layered with care and pan-seared to perfection using house-made sauces.",
-            "price": 31.21,
+            "name": "Authentic Herbed Grilled Lobster with Lemon Butter",
+            "price": 32.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -332,19 +384,8 @@ export const tamparoyalHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Sizzling Traditional Provençal Bouillabaisse",
-            "description": "Presented on a wooden board and slow-cooked to perfection using premium components.",
-            "price": 28.11,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Stuffed Grilled Spanish Octopus with Smoked Paprika",
-            "description": "Stacked artistically and crafted to perfection using non-GMO produce.",
-            "price": 29.09,
+            "name": "Homestyle Baked Prawn Curry in Coconut Masala",
+            "price": 23.52,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,9 +393,144 @@ export const tamparoyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Stuffed Seafood Risotto with Saffron",
-            "description": "Elegantly served and roasted to perfection using premium components.",
-            "price": 35.09,
+            "name": "Deluxe Marinated Shrimp Scampi over Linguine",
+            "price": 25.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Creamy Miso-Marinated Chilean Sea Bass",
+            "price": 33.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Pan-seared Steamed Littleneck Clams in Garlic Broth",
+            "price": 28.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Organic Fried Mashed Potatoes",
+            "price": 7.49,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Tangy Truffle Parmesan Fries",
+            "price": 9.28,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Delicious Flaky Cheddar and Chive Biscuits",
+            "price": 8.23,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Pan-seared Warm Buttermilk Dinner Rolls",
+            "price": 5.2,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Juicy Yukon Gold Potato Gratin",
+            "price": 9.28,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Sizzling Homestyle Baked Beans",
+            "price": 5.67,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Water",
+            "price": 7.69,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 6.75,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 4.24,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 5.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 7.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 6.02,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -370,22 +546,38 @@ export const tamparoyalHouseMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Signature Smoked Lamb Chops",
-            "description": "Our rich specialty, made with locally foraged herbs and plated with precision.",
-            "price": 27.94,
+            "name": "Apple Pie",
+            "price": 6.82,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemon Bars",
+            "price": 6.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Enchiladas",
-            "description": "This balanced favorite is seasoned using locally foraged herbs, then plated with precision.",
-            "price": 29.82,
+            "name": "Shortbread",
+            "price": 6.11,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Portuguese Custard Tarts",
+            "price": 8.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,30 +585,9 @@ export const tamparoyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Biryani",
-            "description": "A robust dish slow-cooked with seasonal ingredients and beautifully presented.",
-            "price": 20.69,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Roasted Coq au Vin",
-            "description": "A aromatic dish made with finest quality ingredients and served family-style.",
-            "price": 26.49,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Satisfying Grilled Tofu",
-            "description": "A rich dish charred with handmade pasta and garnished to perfection.",
-            "price": 26.67,
-            "isVegetarian": true,
+            "name": "Cobbler",
+            "price": 6.28,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -425,57 +596,52 @@ export const tamparoyalHouseMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Fresh Herbed Salmon",
-            "description": "Our creamy specialty, created with grass-fed beef and styled for visual appeal.",
-            "price": 29.24,
-            "isVegetarian": false,
+            "name": "Paletas",
+            "price": 11.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream",
+            "price": 8.99,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Stuffed Peppers",
-            "description": "Our rich specialty, prepared with handmade pasta and beautifully presented.",
-            "price": 25.53,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Marinated Katsu Curry",
-            "description": "This aromatic favorite is made using farm-fresh eggs, then served with flair.",
-            "price": 26.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spaghetti Bolognese",
-            "description": "Artfully plated and stir-fried to perfection using hand-picked vegetables.",
-            "price": 26.28,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pulled Pork Sandwich",
-            "description": "This delicate favorite is grilled using seasonal ingredients, then drizzled with finesse.",
-            "price": 22.06,
+            "name": "Frozen Custard",
+            "price": 8.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Gelato",
+            "price": 8.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Popsicles",
+            "price": 7.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
@@ -489,19 +655,44 @@ export const tamparoyalHouseMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Sake",
-            "description": "This creamy favorite is crafted using sustainable seafood, then elegantly served.",
-            "price": 10.68,
+            "name": "Mojito",
+            "price": 10.16,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tequila",
-            "description": "A sweet dish infused with locally foraged herbs and drizzled with finesse.",
-            "price": 12.4,
+            "name": "Margarita",
+            "price": 13.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 15.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 13.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 11.63,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -509,31 +700,19 @@ export const tamparoyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pina Colada",
-            "description": "This zesty favorite is cooked using seasonal ingredients, then plated with precision.",
-            "price": 13.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Exquisite Madeira",
-            "description": "Our savory specialty, poached with locally foraged herbs and beautifully presented.",
-            "price": 10.17,
+            "name": "Mai Tai",
+            "price": 11.09,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Flavorful Liqueur",
-            "description": "A umami-packed dish braised with artisanal elements and attractively arranged.",
-            "price": 9.66,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Martini",
+            "price": 10.15,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -544,19 +723,26 @@ export const tamparoyalHouseMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Eggplant Parmesan",
-            "description": "Our refreshing specialty, prepared with artisanal elements and beautifully presented.",
-            "price": 26.71,
-            "isVegetarian": false,
+            "name": "Grenache",
+            "price": 9.98,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Stuffed Peppers",
-            "description": "Our herbaceous specialty, whipped with non-GMO produce and served on rustic ware.",
-            "price": 24.15,
+            "name": "Roussanne",
+            "price": 8.68,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chardonnay",
+            "price": 10.45,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -564,19 +750,17 @@ export const tamparoyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Stuffed Roast Duck",
-            "description": "A zesty dish hand-folded with sun-ripened fruits and garnished to perfection.",
-            "price": 24.81,
-            "isVegetarian": false,
+            "name": "Fiano",
+            "price": 8.19,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Fresh Delicious Grilled Chicken",
-            "description": "This balanced favorite is glazed using organic ingredients, then beautifully presented.",
-            "price": 25.26,
+            "name": "Gewürztraminer",
+            "price": 8.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -584,19 +768,8 @@ export const tamparoyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Braised Steak",
-            "description": "Our bold specialty, stir-fried with cultured dairy and garnished to perfection.",
-            "price": 23.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Risotto",
-            "description": "Styled for visual appeal and prepared to perfection using house-made sauces.",
-            "price": 20.25,
+            "name": "Pinot Noir",
+            "price": 12.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -609,29 +782,17 @@ export const tamparoyalHouseMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Bibimbap",
-            "description": "A zesty dish slow-cooked with grass-fed beef and attractively arranged.",
-            "price": 29.89,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Risotto",
-            "description": "Stacked artistically and sautéed to perfection using organic ingredients.",
-            "price": 23.91,
-            "isVegetarian": false,
+            "name": "Bénédictine",
+            "price": 14.83,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Enchiladas",
-            "description": "This refreshing favorite is oven-baked using locally foraged herbs, then styled for visual appeal.",
-            "price": 22.79,
+            "name": "Gin",
+            "price": 12.55,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -639,12 +800,29 @@ export const tamparoyalHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Marinated Coq au Vin",
-            "description": "This pungent favorite is prepared using wild-caught fish, then garnished to perfection.",
-            "price": 23.67,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Campari",
+            "price": 17.82,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Armagnac",
+            "price": 11.58,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vodka",
+            "price": 12.91,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

@@ -12,9 +12,17 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Traditional Juicy Caribbean-Style Jerk Duck with Mango Slaw",
-            "description": "Beautifully presented and prepared to perfection using cultured dairy.",
-            "price": 36.85,
+            "name": "Gourmet Grilled Tableside Carved Chateaubriand",
+            "price": 26.06,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Savory Whole Roasted Heritage Chicken",
+            "price": 34.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,19 +30,94 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "24-Hour Braised Short Ribs",
-            "description": "A zesty dish stir-fried with premium components and served on rustic ware.",
-            "price": 32.7,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Authentic Sizzling Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 32.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Marinated Restaurant's Namesake Signature Entrée",
+            "price": 36.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Aromatic Flambéed Tableside Specialty",
+            "price": 24.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Marinated Seasonal Tasting Platter",
+            "price": 28.06,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef's Marinated Chef's Special Surf and Turf",
-            "description": "This subtle favorite is pan-seared using sustainable seafood, then accompanied by a tasteful garnish.",
-            "price": 28.23,
+            "name": "Authentic Creamy Award-Winning Seafood Boil",
+            "price": 31.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Hearty Creamy Chef's Tasting Menu Experience",
+            "price": 26.55,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Appetizing Daily Fresh Catch with Seasonal Accompaniments",
+            "price": 34.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Fried Seasonal Farm-to-Table Vegetable Plate",
+            "price": 30.59,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Irresistible Herb-Crusted Rack of Lamb",
+            "price": 35.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Creamy Aged and House-Cured Charcuterie Selection",
+            "price": 25.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -47,19 +130,8 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Korma",
-            "description": "Elegantly served and sautéed to perfection using finest quality ingredients.",
-            "price": 24.83,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lasagna",
-            "description": "Beautifully presented and prepared to perfection using locally foraged herbs.",
-            "price": 23.9,
+            "name": "Classic Marinated Prawn Toast",
+            "price": 12.44,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -67,77 +139,65 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Aromatic Katsu Curry",
-            "description": "This balanced favorite is smoked using locally sourced produce, then served on rustic ware.",
-            "price": 18.1,
+            "name": "Handcrafted Tangy Stuffed Jalapeños",
+            "price": 14.65,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Salmon",
-            "description": "A robust dish composed with cold-pressed oils and served on rustic ware.",
-            "price": 28.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Local Delectable Enchiladas",
-            "description": "This zesty favorite is assembled using sustainable seafood, then beautifully presented.",
-            "price": 23.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
-          {
-            "name": "Classic Golden Katsu Curry",
-            "description": "A peppery dish whipped with finest quality ingredients and drizzled with finesse.",
-            "price": 27.27,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Zingy Pesto Pasta",
-            "description": "Our smoky specialty, crafted with free-range meats and served on rustic ware.",
-            "price": 18.97,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Herbed Paella",
-            "description": "This umami-packed favorite is braised using cultured dairy, then accompanied by a tasteful garnish.",
-            "price": 24.09,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Roasted Vegetable Stir-Fry",
-            "description": "This aromatic favorite is glazed using premium components, then elegantly served.",
-            "price": 24.51,
-            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Mouthwatering Nachos",
+            "price": 12.5,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Sautéed Potstickers",
+            "price": 10.01,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Zesty Garlic Bread",
+            "price": 9.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Zingy Zucchini Fries",
+            "price": 12.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Flavorful Garlic Knots",
+            "price": 13.98,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Stuffed Bruschetta",
+            "price": 14.58,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -147,19 +207,8 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Chef's Flaky Fajitas",
-            "description": "Our delicate specialty, oven-baked with aged cheeses and elegantly served.",
-            "price": 19.05,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Exquisite Paella",
-            "description": "This pungent favorite is created using non-GMO produce, then served on rustic ware.",
-            "price": 25.32,
+            "name": "Homestyle Grilled Seafood Chowder",
+            "price": 12.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -167,20 +216,77 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Pan-seared Katsu Curry",
-            "description": "Our buttery specialty, composed with grass-fed beef and offered as a tasting portion.",
-            "price": 26.64,
+            "name": "Homestyle Spiced Egg Drop Soup",
+            "price": 12.56,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Sautéed Butternut Squash Soup",
+            "price": 12.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Spiced Lentil Soup",
+            "price": 9.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Lentil and Feta Salad",
+            "price": 15.94,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Tangy Coq au Vin",
-            "description": "A zesty dish seasoned with handmade pasta and elegantly served.",
-            "price": 21.99,
+            "name": "Cobb Salad",
+            "price": 13.58,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caesar Salad",
+            "price": 12.37,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caprese Salad",
+            "price": 9.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pecan Salad",
+            "price": 9.22,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -192,49 +298,8 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Local Marinated Coq au Vin",
-            "description": "Our aromatic specialty, made with seasonal ingredients and served on rustic ware.",
-            "price": 20.85,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Grilled Grilled Chicken",
-            "description": "Accompanied by a tasteful garnish and caramelized to perfection using handmade pasta.",
-            "price": 30.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Juicy Stir-fry",
-            "description": "This rich favorite is created using natural sweeteners, then styled for visual appeal.",
-            "price": 29.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Roasted Grilled Tofu",
-            "description": "A sweet dish pan-seared with farm-fresh eggs and garnished to perfection.",
-            "price": 22.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shish Kebabs",
-            "description": "A smoky dish roasted with organic ingredients and presented on a wooden board.",
-            "price": 23.23,
+            "name": "Seasonal Smoked Stir-fry",
+            "price": 22.27,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -242,19 +307,26 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ramen",
-            "description": "Our robust specialty, marinated with handmade pasta and served with flair.",
-            "price": 27.32,
-            "isVegetarian": true,
+            "name": "Deluxe Golden Fish and Chips",
+            "price": 30.74,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Eggplant Parmesan",
-            "description": "This savory favorite is hand-folded using handmade pasta, then beautifully presented.",
-            "price": 29.29,
+            "name": "Authentic Steamed Roast Duck",
+            "price": 29.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Braised Tacos",
+            "price": 22.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -262,9 +334,85 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Thai Curry",
-            "description": "A delicate dish hand-folded with locally foraged herbs and attractively arranged.",
-            "price": 18.53,
+            "name": "Classic Sizzling Teriyaki Chicken",
+            "price": 22.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Steamed Chicken Parmesan",
+            "price": 27.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Tangy Lamb Chops",
+            "price": 23.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Steamed Mac and Cheese",
+            "price": 18.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "items": [
+          {
+            "name": "Organic Braised Lemon-Herb Calamari Steak",
+            "price": 26.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Spiced Shrimp Scampi over Linguine",
+            "price": 34.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Stuffed Lobster Thermidor with Gruyère Crust",
+            "price": 26.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Savory Grilled Lobster with Lemon Butter",
+            "price": 23.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Smoked Basa Fillet with Dill Cream Sauce",
+            "price": 23.48,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -277,9 +425,8 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Risotto",
-            "description": "A rich dish pan-seared with finest quality ingredients and layered with care.",
-            "price": 27.05,
+            "name": "Gourmet Spicy Israeli Couscous with Roasted Tomatoes",
+            "price": 9.4,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -287,9 +434,8 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pizza",
-            "description": "This savory favorite is fire-roasted using chef-selected spices, then accompanied by a tasteful garnish.",
-            "price": 21.83,
+            "name": "Homestyle Marinated Creamed Spinach with Nutmeg",
+            "price": 5.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -297,9 +443,17 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Mouthwatering Roast Duck",
-            "description": "Served on rustic ware and oven-baked to perfection using seasonal ingredients.",
-            "price": 18.44,
+            "name": "Gourmet Marinated Chili Lime Roasted Chickpeas",
+            "price": 8.74,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Delectable Scalloped Potatoes with Thyme",
+            "price": 5.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,24 +461,49 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Steak",
-            "description": "This buttery favorite is pan-seared using handmade pasta, then served on rustic ware.",
-            "price": 20.53,
-            "isVegetarian": false,
+            "name": "Fresh Zesty Flaky Cheddar and Chive Biscuits",
+            "price": 8.58,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Exquisite Quinoa Pilaf with Herbs",
+            "price": 6.98,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
-        "name": "Seafood Specialties",
+        "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Grilled Lobster with Lemon Butter",
-            "description": "A floral dish whipped with sustainable seafood and served on rustic ware.",
-            "price": 26.13,
+            "name": "Smoothie",
+            "price": 7.24,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 4.41,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 6.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -332,19 +511,17 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Stuffed Cajun Shrimp and Grits",
-            "description": "This complex favorite is charred using free-range meats, then drizzled with finesse.",
-            "price": 29.89,
-            "isVegetarian": false,
+            "name": "Iced Tea",
+            "price": 7.31,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Oysters Rockefeller with Pernod Cream",
-            "description": "A rich dish marinated with premium components and served family-style.",
-            "price": 32.16,
+            "name": "Water",
+            "price": 4.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,9 +529,8 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Provençal Bouillabaisse",
-            "description": "A hearty dish made with finest quality ingredients and layered with care.",
-            "price": 23.95,
+            "name": "Milkshake",
+            "price": 4.62,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -370,32 +546,11 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Classic Appetizing Paella",
-            "description": "Our savory specialty, assembled with wild-caught fish and artfully plated.",
-            "price": 23.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Satisfying Pasta Primavera",
-            "description": "A savory dish composed with locally foraged herbs and plated with precision.",
-            "price": 18.83,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Tofu",
-            "description": "This citrusy favorite is prepared using artisanal elements, then garnished to perfection.",
-            "price": 21,
+            "name": "Pain au Chocolat",
+            "price": 7.54,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -403,20 +558,36 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Grilled Lamb Chops",
-            "description": "Our zesty specialty, prepared with organic ingredients and beautifully presented.",
-            "price": 29.75,
-            "isVegetarian": false,
+            "name": "Shortbread",
+            "price": 9.78,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Cottage Pie",
-            "description": "Our aromatic specialty, charred with wild-caught fish and styled for visual appeal.",
-            "price": 23.1,
-            "isVegetarian": false,
+            "name": "Muffins",
+            "price": 10.2,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Croissants",
+            "price": 7.69,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Donuts",
+            "price": 8.27,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -425,42 +596,11 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Chef's Sweet Fajitas",
-            "description": "A succulent dish fire-roasted with chef-selected spices and layered with care.",
-            "price": 29.7,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roast Duck",
-            "description": "A rich dish crafted with farm-fresh eggs and garnished to perfection.",
-            "price": 21.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Exquisite Teriyaki Chicken",
-            "description": "Stacked artistically and slow-cooked to perfection using cultured dairy.",
-            "price": 27.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Korma",
-            "description": "Our subtle specialty, seasoned with sustainable seafood and beautifully presented.",
-            "price": 20.24,
+            "name": "Paletas",
+            "price": 10.78,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -468,10 +608,36 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Jambalaya",
-            "description": "Our delicate specialty, charred with chef-selected spices and presented on a wooden board.",
-            "price": 27.98,
+            "name": "Frozen Banana",
+            "price": 9.19,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Custard",
+            "price": 7.48,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Snow Cone",
+            "price": 8.3,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream",
+            "price": 9.27,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -489,51 +655,64 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Scotch",
-            "description": "Artfully plated and infused to perfection using finest quality ingredients.",
-            "price": 14.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Flaky Armagnac",
-            "description": "Our rich specialty, roasted with chef-selected spices and styled for visual appeal.",
-            "price": 10.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Comforting White Rum",
-            "description": "Our zesty specialty, pan-seared with natural sweeteners and beautifully presented.",
-            "price": 9.3,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Creamy Spiced Rum",
-            "description": "A rich dish slow-cooked with hand-picked vegetables and neatly composed.",
-            "price": 10.4,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Cosmopolitan",
-            "description": "A floral dish whipped with sun-ripened fruits and artfully plated.",
-            "price": 10.27,
+            "price": 15.23,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 13.61,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 11.9,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 11.86,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 13.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 12.52,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 10.52,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -544,9 +723,8 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Organic Crunchy Mac and Cheese",
-            "description": "A complex dish oven-baked with house-made sauces and elegantly served.",
-            "price": 28,
+            "name": "Pinot Grigio",
+            "price": 11.51,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -554,9 +732,17 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Currywurst",
-            "description": "A balanced dish smoked with premium components and layered with care.",
-            "price": 28.42,
+            "name": "Merlot",
+            "price": 10.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fiano",
+            "price": 13.47,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -564,9 +750,8 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Marinated Katsu Curry",
-            "description": "Nestled in a ceramic bowl and grilled to perfection using artisanal elements.",
-            "price": 21.39,
+            "name": "Vermentino",
+            "price": 13.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -574,34 +759,22 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Steak",
-            "description": "Accompanied by a tasteful garnish and poached to perfection using locally foraged herbs.",
-            "price": 25.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Tacos",
-            "description": "A complex dish whipped with grass-fed beef and nestled in a ceramic bowl.",
-            "price": 26.91,
+            "name": "Chenin Blanc",
+            "price": 13.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Roast Duck",
-            "description": "This refreshing favorite is crafted using artisanal elements, then accompanied by a tasteful garnish.",
-            "price": 21.92,
-            "isVegetarian": false,
+            "name": "Riesling",
+            "price": 8.28,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -609,42 +782,47 @@ export const southamptonroyalTavernMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Organic Aromatic Risotto",
-            "description": "A floral dish seasoned with sustainable seafood and layered with care.",
-            "price": 20.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Sizzling Pasta Primavera",
-            "description": "Our herbaceous specialty, grilled with sustainable seafood and neatly composed.",
-            "price": 29.62,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Moussaka",
-            "description": "This sweet favorite is glazed using organic ingredients, then beautifully presented.",
-            "price": 29.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shakshuka",
-            "description": "This nutty favorite is whipped using natural sweeteners, then drizzled with finesse.",
-            "price": 22.56,
+            "name": "Kahlúa",
+            "price": 14.02,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Absinthe",
+            "price": 11.94,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vodka",
+            "price": 11.37,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cointreau",
+            "price": 12.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Anisette",
+            "price": 14.59,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
