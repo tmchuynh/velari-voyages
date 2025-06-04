@@ -1,7 +1,7 @@
 "use client";
+import RestaurantCard from "@/components/cards/RestaruantCard";
 import Loading from "@/components/Loading";
 import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -11,14 +11,14 @@ import {
 import { Label } from "@/components/ui/label";
 import { cityFiles } from "@/lib/constants/info/city.ts";
 import { Restaurant } from "@/lib/types/types";
-import { capitalize, formatTitleToKebabCase } from "@/lib/utils/format.ts";
+import { capitalize } from "@/lib/utils/format.ts";
 import { getAllRestaurantsFromCity } from "@/lib/utils/get.ts";
 import { ChevronDown } from "lucide-react";
-import Image from "next/image";
-import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
 export default function RestaurantPage() {
+  const router = useRouter();
   const [cityRestaurants, setCityRestaurants] = useState<
     { city: string; restaurants: Restaurant[] }[]
   >([]);
@@ -246,59 +246,25 @@ export default function RestaurantPage() {
         ) : (
           filteredCityRestaurants.map(({ city, restaurants }) => (
             <div key={city} className="mb-12">
-              <h2 className="mb-4 pb-2 border-b font-semibold text-2xl">
-                {city}
-              </h2>
+              <div className="flex justify-between items-center">
+                <h2 className="mb-0 uppercase">{city} Restaurants</h2>
+                <Button
+                  size="sm"
+                  onClick={() =>
+                    router.push(`/cruises/restaurants/${city}?city=${city}`)
+                  }
+                >
+                  View All
+                </Button>
+              </div>
               <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-                {restaurants.map((restaurant, index) => {
-                  const fileName =
-                    formatTitleToKebabCase(restaurant.name) + "Menu";
-
-                  return (
-                    <Card key={index} className="overflow-hidden">
-                      <div className="relative h-48">
-                        {restaurant.images && restaurant.images.length > 0 ? (
-                          <Image
-                            src={restaurant.images[0]}
-                            alt={restaurant.name}
-                            className="w-full h-full object-cover object-center"
-                            fill
-                          />
-                        ) : (
-                          <div className="flex justify-center items-center bg-gray-200 w-full h-full">
-                            No image available
-                          </div>
-                        )}
-                      </div>
-                      <div className="p-4">
-                        <h2 className="mb-2 font-bold text-xl">
-                          {restaurant.name}
-                        </h2>
-                        <p className="mb-1 text-gray-500 text-sm">
-                          Cuisine: {restaurant.cuisine}
-                        </p>
-                        <p className="mb-3 text-gray-500 text-sm">
-                          Price Range: {restaurant.priceRange}
-                        </p>
-                        <p className="mb-4 text-sm line-clamp-2">
-                          {restaurant.description}
-                        </p>
-
-                        <Link
-                          href={`/cruises/restaurants/${restaurant.name
-                            .toLowerCase()
-                            .replace(
-                              /\s+/g,
-                              "-"
-                            )}?restaurant=${fileName}&city=${city}`}
-                          className="text-primary text-sm hover:underline"
-                        >
-                          View Menu & Details
-                        </Link>
-                      </div>
-                    </Card>
-                  );
-                })}
+                {restaurants.map((restaurant, index) => (
+                  <RestaurantCard
+                    restaurant={restaurant}
+                    city={city}
+                    key={index}
+                  />
+                ))}
               </div>
             </div>
           ))
