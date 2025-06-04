@@ -202,7 +202,7 @@
     @apply font-[Gloock] uppercase font-medium text-gray-600 dark:text-gray-400 text-xs;
   }
   p {
-    @apply text-pretty leading-relaxed;
+    @apply text-pretty leading-relaxed my-2;
   }
   blockquote {
     @apply pl-4 italic mb-5 text-lg max-w-4xl mx-auto;
