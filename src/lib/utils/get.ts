@@ -363,7 +363,8 @@ export async function getCruises(city: string): Promise<Cruise[]> {
       .replace("-", "");
 
   const cruiseID = `${cityFormatted}Cruises`;
-  const sluggedCity = formatToSlug(cityWithoutAccents.replace("'", "-"));
+  const sluggedCity =
+    formatToSlug(cityWithoutAccents.replace("'", "-")) + "-cruises";
 
   console.log(`Looking for cruises in: @/lib/constants/cruises/${sluggedCity}`);
   console.log(`Export expected: export const ${cruiseID}: Cruise[] = [];`);
@@ -452,18 +453,19 @@ export async function getAllCruises(): Promise<Cruise[]> {
     try {
       // Dynamic import of the cruises file
       const cruisesModule = await import(
-        `@/lib/constants/cruises/${removeAccents(city)}`
+        `@/lib/constants/cruises/${removeAccents(city)}-cruises`
       );
 
-      // Get the cruises array using the city name + TourGuides naming convention
-      const cityTourGuides = cruisesModule[`${city}TourGuides`];
+      // Get the cruises array using the city name + Cruises naming convention
+      const cityCruises =
+        cruisesModule[`${formatKebabToCamelCase(removeAccents(city))}Cruises`];
 
-      if (cityTourGuides && Array.isArray(cityTourGuides)) {
+      if (cityCruises && Array.isArray(cityCruises)) {
         // Add all cruises from this city to the combined array
-        allCruises.push(...cityTourGuides);
+        allCruises.push(...cityCruises);
       } else {
         console.warn(
-          `No valid cruises found for ${city} within @/lib/constants/cruises/${city}.ts`
+          `No valid cruises found for ${city} within @/lib/constants/cruises/${city}-cruises.ts`
         );
       }
     } catch (error) {
@@ -715,7 +717,7 @@ export async function getAllRestaurantMenusFromCity(
       .replace("'", "")
       .replace("-", "");
 
-  const menuID = `${cityFormatted}RestaurantMenus`;
+  const menuID = `${cityFormatted}Menu`;
   const sluggedCity = formatToSlug(cityWithoutAccents.replace("'", "-"));
 
   try {
@@ -858,17 +860,13 @@ export async function getRestaurantMenuByName(
   );
   // Format for variable name: cityInCamelCase + restaurantInCamelCase + Menu
   const cityPrefix = formatKebabToCamelCase(citySlug).replace(/-/g, ""); // Remove hyphens for camelCase
-  const restaurantNameFormatted = restaurantName
-    .replace(/'/g, "")
-    .replace(/-/g, " ");
-  const restaurantCamel = formatTitleToCamelCase(restaurantNameFormatted);
 
-  const menuID = `${cityPrefix}${restaurantCamel}Menu`;
+  const menuID = `${cityPrefix}${formatKebabToCamelCase(restaurantName)}`;
 
   try {
     // Import the module using kebab-case for the file path
     const menuModule = await import(
-      `@/lib/constants/cruises/restaurants/${citySlug}/${restaurantslug}`
+      `@/lib/constants/cruises/restaurants/${citySlug}/${restaurantName}`
     );
 
     // Return the specific named export that matches menuID
