@@ -4737,5 +4737,766 @@ export const seattleCruises: Cruise[] = [
     description: "Sail away from Seattle into the beautiful expanse of Alaska. Along the way, enjoy rich cultural experiences in Victoria, Juneau, Sitka, Glacier Bay, where history, nature, and cuisine collide.",
     rating: 4.5,
     tags: ["themed-cruise","adventure"]
+  },
+  {
+    basePrice: 2410,
+    departureLocation: {
+  "city": "Seattle",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 47.6062,
+    "longitude": -122.3321
+  }
+},
+    arrivalLocation: {
+  "city": "Seattle",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 47.6062,
+    "longitude": -122.3321
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    }
+  },
+  {
+    "city": "Victoria",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    }
+  }
+],
+      description: "Begin an epic escape from Seattle, where the seas meet culture. Visit the remarkable ports of Victoria, Juneau while indulging in fine dining, entertainment, and unmatched hospitality.",
+      distance: "1054 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Seattle to Victoria"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Victoria to Juneau"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Juneau to Seattle"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Seattle"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Victoria"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Seattle"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Larry Graham",
+        role: "Hospitality Director",
+        languages: ["French","Malayalam","Burmese"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/68.jpg",
+        contact: {
+          contactEmail: "midnight.journey.of.@velarivoyages.com",
+          contactNumber: "+1-559-384-9647"
+        }
+      }
+    ],
+    title: "Midnight Journey of the Frozen Frontiers",
+    description: "Begin an epic escape from Seattle, where the seas meet culture. Visit the remarkable ports of Victoria, Juneau while indulging in fine dining, entertainment, and unmatched hospitality.",
+    rating: 4.6,
+    tags: ["luxury","short-getaway","fall-cruise"]
+  },
+  {
+    basePrice: 7676,
+    departureLocation: {
+  "city": "Seattle",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 47.6062,
+    "longitude": -122.3321
+  }
+},
+    arrivalLocation: {
+  "city": "Skagway",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Glacier Bay",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Victoria",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Skagway",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Experience coastal elegance on this expedition from Seattle, where the journey through Alaska includes stops in Juneau, Glacier Bay, Victoria, Skagway, each more enchanting than the last.",
+      distance: "803 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Seattle to Juneau"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Juneau to Glacier Bay"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Glacier Bay to Victoria"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Victoria to Skagway"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Seattle"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Glacier Bay"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Victoria"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Skagway"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Edward Knight",
+        role: "Hospitality Director",
+        languages: ["French","Malayalam","Burmese"],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
+        contact: {
+          contactEmail: "celestial.renaissanc@velarivoyages.com",
+          contactNumber: "+1-850-940-8328"
+        }
+      }
+    ],
+    title: "Celestial Renaissance of the Emerald City",
+    description: "Experience coastal elegance on this expedition from Seattle, where the journey through Alaska includes stops in Juneau, Glacier Bay, Victoria, Skagway, each more enchanting than the last.",
+    rating: 4.3,
+    tags: ["fall-cruise"]
+  },
+  {
+    basePrice: 7839,
+    departureLocation: {
+  "city": "Seattle",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 47.6062,
+    "longitude": -122.3321
+  }
+},
+    arrivalLocation: {
+  "city": "Seattle",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 47.6062,
+    "longitude": -122.3321
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    }
+  },
+  {
+    "city": "Skagway",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Ketchikan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Glacier Bay",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    }
+  }
+],
+      description: "Set course from Seattle for an inspiring crystalline journey across Alaska. Whether exploring ancient ruins in Skagway or soaking up coastal views in Ketchikan, every day offers a perfect mix of discovery and relaxation.",
+      distance: "895 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Seattle to Skagway"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Skagway to Ketchikan"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Ketchikan to Juneau"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Juneau to Glacier Bay"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Sailing from Glacier Bay to Seattle"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Seattle"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Skagway"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Ketchikan"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Glacier Bay"
+  },
+  {
+    "start": "Day 17",
+    "end": "Day 17",
+    "duration": "1 days",
+    "description": "Exploring Seattle"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Douglas Reed",
+        role: "Hospitality Director",
+        languages: ["French","Malayalam","Burmese"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/18.jpg",
+        contact: {
+          contactEmail: "exquisite.journey.of@velarivoyages.com",
+          contactNumber: "+1-463-562-6882"
+        }
+      }
+    ],
+    title: "Exquisite Journey of the Rain-Crowned Harbor",
+    description: "Set course from Seattle for an inspiring crystalline journey across Alaska. Whether exploring ancient ruins in Skagway or soaking up coastal views in Ketchikan, every day offers a perfect mix of discovery and relaxation.",
+    rating: 4.3,
+    tags: ["sightseeing"]
+  },
+  {
+    basePrice: 5566,
+    departureLocation: {
+  "city": "Seattle",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 47.6062,
+    "longitude": -122.3321
+  }
+},
+    arrivalLocation: {
+  "city": "Seattle",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 47.6062,
+    "longitude": -122.3321
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Sitka",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Skagway",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Victoria",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    }
+  }
+],
+      description: "From the lively departure port of Seattle, this curated odyssey showcases the finest of Alaska. With visits to Juneau, Sitka, Skagway, Victoria, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+      distance: "735 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Seattle to Juneau"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Sailing from Juneau to Sitka"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Sitka to Skagway"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Skagway to Victoria"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Victoria to Seattle"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Seattle"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Sitka"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Skagway"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Victoria"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Seattle"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Thabo Day",
+        role: "Hospitality Director",
+        languages: ["French","Malayalam","Burmese"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/29.jpg",
+        contact: {
+          contactEmail: "captivating.sojourn.@velarivoyages.com",
+          contactNumber: "+1-488-757-8961"
+        }
+      }
+    ],
+    title: "Captivating Sojourn of the Emerald City",
+    description: "From the lively departure port of Seattle, this curated odyssey showcases the finest of Alaska. With visits to Juneau, Sitka, Skagway, Victoria, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+    rating: 5.0,
+    tags: ["short-getaway"]
+  },
+  {
+    basePrice: 4475,
+    departureLocation: {
+  "city": "Seattle",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 47.6062,
+    "longitude": -122.3321
+  }
+},
+    arrivalLocation: {
+  "city": "Victoria",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    }
+  },
+  {
+    "city": "Glacier Bay",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Skagway",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Sitka",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Victoria",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "This extraordinary sanctuary from Seattle offers the ultimate Alaska exploration. Immerse yourself in the rich cultures and stunning landscapes of Glacier Bay, Skagway, Sitka and Victoria, creating memories that will last a lifetime.",
+      distance: "1095 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Seattle to Glacier Bay"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Glacier Bay to Skagway"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Skagway to Sitka"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Sitka to Victoria"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Seattle"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Glacier Bay"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Skagway"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Sitka"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Victoria"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Timothy Watson",
+        role: "Hospitality Director",
+        languages: ["French","Malayalam","Burmese"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/11.jpg",
+        contact: {
+          contactEmail: "breathtaking.escape.@velarivoyages.com",
+          contactNumber: "+1-100-728-3882"
+        }
+      }
+    ],
+    title: "Breathtaking Escape of the Emerald City",
+    description: "This extraordinary sanctuary from Seattle offers the ultimate Alaska exploration. Immerse yourself in the rich cultures and stunning landscapes of Glacier Bay, Skagway, Sitka and Victoria, creating memories that will last a lifetime.",
+    rating: 4.5,
+    tags: ["sightseeing","exclusive","adventure"]
   }
 ];
