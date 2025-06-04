@@ -4451,5 +4451,704 @@ export const singaporeCruises: Cruise[] = [
     description: "Your journey through the Asia Pacific begins in Singapore, where elegance meets adventure. Explore the shores of Bangkok, Tokyo, Sydney, with curated excursions and luxurious onboard amenities.",
     rating: 4.4,
     tags: ["tropical"]
+  },
+  {
+    basePrice: 1066,
+    departureLocation: {
+  "city": "Singapore",
+  "country": "Singapore",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 1.3521,
+    "longitude": 103.8198
+  }
+},
+    arrivalLocation: {
+  "city": "Sydney",
+  "country": "Australia",
+  "coordinates": {
+    "latitude": -33.8688,
+    "longitude": 151.2093
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  }
+],
+      description: "Set course from Singapore for an inspiring timeless journey across Asia Pacific. Whether exploring ancient ruins in Tokyo or soaking up coastal views in Sydney, every day offers a perfect mix of discovery and relaxation.",
+      distance: "797 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Singapore to Tokyo"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Tokyo to Sydney"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Sydney"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Albert Payne",
+        role: "Accommodation Manager",
+        languages: ["Hindi"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/54.jpg",
+        contact: {
+          contactEmail: "forbidden.requiem.of@velarivoyages.com",
+          contactNumber: "+1-640-616-3352"
+        }
+      }
+    ],
+    title: "Forbidden Requiem of the Futuristic Haven",
+    description: "Set course from Singapore for an inspiring timeless journey across Asia Pacific. Whether exploring ancient ruins in Tokyo or soaking up coastal views in Sydney, every day offers a perfect mix of discovery and relaxation.",
+    rating: 4.3,
+    tags: ["themed-cruise","luxury","VIP"]
+  },
+  {
+    basePrice: 5857,
+    departureLocation: {
+  "city": "Singapore",
+  "country": "Singapore",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 1.3521,
+    "longitude": 103.8198
+  }
+},
+    arrivalLocation: {
+  "city": "Bangkok",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Set off on a voyage from Singapore that captures the essence of Asia Pacific. Discover cultural gems and culinary delights across Tokyo, Sydney, Bangkok.",
+      distance: "555 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Singapore to Tokyo"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Tokyo to Sydney"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Sydney to Bangkok"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Bangkok"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Marcus Sutton",
+        role: "Accommodation Manager",
+        languages: ["Hindi"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/men/40.jpg",
+        contact: {
+          contactEmail: "breathtaking.tide.of@velarivoyages.com",
+          contactNumber: "+1-728-120-9662"
+        }
+      }
+    ],
+    title: "Breathtaking Tide of the Pacific Dreams",
+    description: "Set off on a voyage from Singapore that captures the essence of Asia Pacific. Discover cultural gems and culinary delights across Tokyo, Sydney, Bangkok.",
+    rating: 4.0,
+    tags: ["family-friendly","fall-cruise","relaxation"]
+  },
+  {
+    basePrice: 1819,
+    departureLocation: {
+  "city": "Singapore",
+  "country": "Singapore",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 1.3521,
+    "longitude": 103.8198
+  }
+},
+    arrivalLocation: {
+  "city": "Singapore",
+  "country": "Singapore",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 1.3521,
+    "longitude": 103.8198
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  }
+],
+      description: "This eternal cruise from Singapore is your ticket to the captivating charm of the Asia Pacific. Discover the delights of Bangkok, Tokyo, Shanghai, Bali with enriching excursions and award-winning service.",
+      distance: "1178 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Singapore to Bangkok"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Bangkok to Tokyo"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to Shanghai"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Bali"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Sailing from Bali to Singapore"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Bangkok"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Exploring Singapore"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Lucas Campbell",
+        role: "Accommodation Manager",
+        languages: ["Hindi"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
+        contact: {
+          contactEmail: "legendary.expedition@velarivoyages.com",
+          contactNumber: "+1-287-750-6831"
+        }
+      }
+    ],
+    title: "Legendary Expedition of the Futuristic Haven",
+    description: "This eternal cruise from Singapore is your ticket to the captivating charm of the Asia Pacific. Discover the delights of Bangkok, Tokyo, Shanghai, Bali with enriching excursions and award-winning service.",
+    rating: 4.1,
+    tags: ["fall-cruise"]
+  },
+  {
+    basePrice: 3641,
+    departureLocation: {
+  "city": "Singapore",
+  "country": "Singapore",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 1.3521,
+    "longitude": 103.8198
+  }
+},
+    arrivalLocation: {
+  "city": "Singapore",
+  "country": "Singapore",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 1.3521,
+    "longitude": 103.8198
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  }
+],
+      description: "Discover the wonders of Asia Pacific aboard this enchanting cruise departing from Singapore. Journey through crystal waters to explore the treasures of Bangkok, Ho Chi Minh City, Bali, Shanghai, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
+      distance: "738 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Singapore to Bangkok"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Bangkok to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Ho Chi Minh City to Bali"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from Bali to Shanghai"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Sailing from Shanghai to Singapore"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Bangkok"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Exploring Singapore"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Alexander Dunn",
+        role: "Accommodation Manager",
+        languages: ["Hindi"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/men/12.jpg",
+        contact: {
+          contactEmail: "luxurious.odyssey.of@velarivoyages.com",
+          contactNumber: "+1-409-820-8903"
+        }
+      }
+    ],
+    title: "Luxurious Odyssey of the Mystic East",
+    description: "Discover the wonders of Asia Pacific aboard this enchanting cruise departing from Singapore. Journey through crystal waters to explore the treasures of Bangkok, Ho Chi Minh City, Bali, Shanghai, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
+    rating: 4.6,
+    tags: ["fall-cruise","relaxation"]
+  },
+  {
+    basePrice: 7635,
+    departureLocation: {
+  "city": "Singapore",
+  "country": "Singapore",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 1.3521,
+    "longitude": 103.8198
+  }
+},
+    arrivalLocation: {
+  "city": "Bangkok",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "This hand-selected starlit cruise offers a true taste of Asia Pacific. Depart from Singapore and explore ports like Shanghai, Sydney, Bangkok, each telling a story through food, music, and tradition.",
+      distance: "1473 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Singapore to Shanghai"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Shanghai to Sydney"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Sydney to Bangkok"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Bangkok"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Alexander Hayes",
+        role: "Accommodation Manager",
+        languages: ["Hindi"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/15.jpg",
+        contact: {
+          contactEmail: "crystalline.mirage.o@velarivoyages.com",
+          contactNumber: "+1-636-563-7068"
+        }
+      }
+    ],
+    title: "Crystalline Mirage of the Futuristic Haven",
+    description: "This hand-selected starlit cruise offers a true taste of Asia Pacific. Depart from Singapore and explore ports like Shanghai, Sydney, Bangkok, each telling a story through food, music, and tradition.",
+    rating: 4.2,
+    tags: ["relaxation","fall-cruise"]
   }
 ];
