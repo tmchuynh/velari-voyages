@@ -33,12 +33,12 @@ import {
 import { Cruise } from "@/lib/interfaces/services/cruises";
 import { Package } from "@/lib/types/types";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
-import { capitalize, formatNumberToCurrency } from "@/lib/utils/format";
+import { capitalize, formatNumberToCurrency } from "@/lib/utils/format.ts";
 import {
   getAllCruises,
   getCruises,
   getCruisesByCategory,
-} from "@/lib/utils/get";
+} from "@/lib/utils/get.ts";
 import { groupAndSortByProperties } from "@/lib/utils/sort";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -301,7 +301,7 @@ export default function CruiseInformationPage() {
                 <DialogContent className="min-w-11/12 max-h-[80vh] overflow-y-auto">
                   <DialogHeader>
                     <DialogTitle>
-                      <h1>Available Packages for {cruiseData.title}</h1>
+                      Available Packages for {cruiseData.title}
                     </DialogTitle>
                     <DialogDescription>
                       Select a package to enhance your cruise experienceSel
