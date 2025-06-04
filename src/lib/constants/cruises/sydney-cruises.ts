@@ -4841,5 +4841,1109 @@ export const sydneyCruises: Cruise[] = [
     description: "Your retreat begins in Sydney, where every sunset on the Asia Pacific horizon promises another day of discovery—from Singapore, Tokyo, Bangkok, Bali to hidden ports of charm.",
     rating: 4.5,
     tags: ["sightseeing","short-getaway"]
+  },
+  {
+    basePrice: 3650,
+    departureLocation: {
+  "city": "Sydney",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -33.8688,
+    "longitude": 151.2093
+  }
+},
+    arrivalLocation: {
+  "city": "Bangkok",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Set sail from historic Sydney for a modern escape into the Asia Pacific. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Ho Chi Minh City, Singapore, Tokyo, Bangkok.",
+      distance: "1311 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Sydney to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Ho Chi Minh City to Singapore"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Singapore to Tokyo"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to Bangkok"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Bangkok"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Victor Fox",
+        role: "Production Manager",
+        languages: ["Swedish"],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/men/60.jpg",
+        contact: {
+          contactEmail: "celestial.escape.of.@velarivoyages.com",
+          contactNumber: "+1-741-829-8138"
+        }
+      }
+    ],
+    title: "Celestial Escape of the Harbor Icon",
+    description: "Set sail from historic Sydney for a modern escape into the Asia Pacific. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Ho Chi Minh City, Singapore, Tokyo, Bangkok.",
+    rating: 4.8,
+    tags: ["adventure","short-getaway","fall-cruise"]
+  },
+  {
+    basePrice: 2874,
+    departureLocation: {
+  "city": "Sydney",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -33.8688,
+    "longitude": 151.2093
+  }
+},
+    arrivalLocation: {
+  "city": "Ho Chi Minh City",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "This extraordinary exploration from Sydney offers the ultimate Asia Pacific exploration. Immerse yourself in the rich cultures and stunning landscapes of Shanghai and Ho Chi Minh City, creating memories that will last a lifetime.",
+      distance: "1343 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Sydney to Shanghai"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Ho Chi Minh City"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Ho Chi Minh City"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Kevin Crawford",
+        role: "Production Manager",
+        languages: ["Swedish"],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/75.jpg",
+        contact: {
+          contactEmail: "infinite.sanctuary.o@velarivoyages.com",
+          contactNumber: "+1-593-180-1437"
+        }
+      }
+    ],
+    title: "Infinite Sanctuary of the Sun-Kissed Capital",
+    description: "This extraordinary exploration from Sydney offers the ultimate Asia Pacific exploration. Immerse yourself in the rich cultures and stunning landscapes of Shanghai and Ho Chi Minh City, creating memories that will last a lifetime.",
+    rating: 4.9,
+    tags: ["short-getaway","luxury","long-distance"]
+  },
+  {
+    basePrice: 7075,
+    departureLocation: {
+  "city": "Sydney",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -33.8688,
+    "longitude": 151.2093
+  }
+},
+    arrivalLocation: {
+  "city": "Sydney",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -33.8688,
+    "longitude": 151.2093
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  }
+],
+      description: "Your journey through the Asia Pacific begins in Sydney, where elegance meets adventure. Explore the shores of Ho Chi Minh City, Singapore, Bali, Tokyo, with curated excursions and luxurious onboard amenities.",
+      distance: "1200 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Sydney to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Ho Chi Minh City to Singapore"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Singapore to Bali"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from Bali to Tokyo"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to Sydney"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 16",
+    "duration": "1 days",
+    "description": "Exploring Sydney"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Brian Mitchell",
+        role: "Production Manager",
+        languages: ["Swedish"],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/86.jpg",
+        contact: {
+          contactEmail: "breathtaking.discove@velarivoyages.com",
+          contactNumber: "+1-261-200-7612"
+        }
+      }
+    ],
+    title: "Breathtaking Discovery of the Harbor Icon",
+    description: "Your journey through the Asia Pacific begins in Sydney, where elegance meets adventure. Explore the shores of Ho Chi Minh City, Singapore, Bali, Tokyo, with curated excursions and luxurious onboard amenities.",
+    rating: 4.6,
+    tags: ["long-distance","relaxation"]
+  },
+  {
+    basePrice: 1533,
+    departureLocation: {
+  "city": "Sydney",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -33.8688,
+    "longitude": 151.2093
+  }
+},
+    arrivalLocation: {
+  "city": "Sydney",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -33.8688,
+    "longitude": 151.2093
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  }
+],
+      description: "This breathtaking saga begins in Sydney and ventures deep into the heart of Asia Pacific. Wander through colorful markets, historic streets, and serene coastlines at Shanghai, Singapore, Bali, Bangkok.",
+      distance: "1427 nautical miles",
+      totalDuration: "19 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Sydney to Shanghai"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Singapore"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Singapore to Bali"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Sailing from Bali to Bangkok"
+  },
+  {
+    "start": "Day 17",
+    "end": "Day 17",
+    "duration": "1 days",
+    "description": "Sailing from Bangkok to Sydney"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Exploring Bangkok"
+  },
+  {
+    "start": "Day 18",
+    "end": "Day 19",
+    "duration": "2 days",
+    "description": "Exploring Sydney"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Mateo Fisher",
+        role: "Production Manager",
+        languages: ["Swedish"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/31.jpg",
+        contact: {
+          contactEmail: "exquisite.quest.of.t@velarivoyages.com",
+          contactNumber: "+1-542-282-3665"
+        }
+      }
+    ],
+    title: "Exquisite Quest of the Harbor Icon",
+    description: "This breathtaking saga begins in Sydney and ventures deep into the heart of Asia Pacific. Wander through colorful markets, historic streets, and serene coastlines at Shanghai, Singapore, Bali, Bangkok.",
+    rating: 4.5,
+    tags: ["adventure","relaxation","family-friendly"]
+  },
+  {
+    basePrice: 2392,
+    departureLocation: {
+  "city": "Sydney",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -33.8688,
+    "longitude": 151.2093
+  }
+},
+    arrivalLocation: {
+  "city": "Ho Chi Minh City",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Savor each moment of this forbidden escape through Asia Pacific, starting in Sydney. Visit renowned locations like Bali, Ho Chi Minh City, where adventure and relaxation intertwine.",
+      distance: "1364 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Sydney to Bali"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Bali to Ho Chi Minh City"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Ho Chi Minh City"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Albert Foster",
+        role: "Production Manager",
+        languages: ["Swedish"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/men/66.jpg",
+        contact: {
+          contactEmail: "majestic.expedition.@velarivoyages.com",
+          contactNumber: "+1-110-948-7434"
+        }
+      }
+    ],
+    title: "Majestic Expedition of the Harbor Icon",
+    description: "Savor each moment of this forbidden escape through Asia Pacific, starting in Sydney. Visit renowned locations like Bali, Ho Chi Minh City, where adventure and relaxation intertwine.",
+    rating: 5.0,
+    tags: ["luxury"]
+  },
+  {
+    basePrice: 5536,
+    departureLocation: {
+  "city": "Sydney",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -33.8688,
+    "longitude": 151.2093
+  }
+},
+    arrivalLocation: {
+  "city": "Sydney",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -33.8688,
+    "longitude": 151.2093
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  }
+],
+      description: "Depart from Sydney on this thoughtfully designed mystique across the Asia Pacific. Savor coastal charm, cultural treasures, and ocean views with stops at Bangkok, Bali.",
+      distance: "1431 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Sydney to Bangkok"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Bangkok to Bali"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Bali to Sydney"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Bangkok"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Sydney"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Keith Hall",
+        role: "Production Manager",
+        languages: ["Swedish"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/87.jpg",
+        contact: {
+          contactEmail: "whispering.excursion@velarivoyages.com",
+          contactNumber: "+1-488-416-6007"
+        }
+      }
+    ],
+    title: "Whispering Excursion of the Sun-Kissed Capital",
+    description: "Depart from Sydney on this thoughtfully designed mystique across the Asia Pacific. Savor coastal charm, cultural treasures, and ocean views with stops at Bangkok, Bali.",
+    rating: 4.8,
+    tags: ["long-distance","exclusive"]
+  },
+  {
+    basePrice: 8899,
+    departureLocation: {
+  "city": "Sydney",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -33.8688,
+    "longitude": 151.2093
+  }
+},
+    arrivalLocation: {
+  "city": "Ho Chi Minh City",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Sail from Sydney into a world of wonder. The Asia Pacific beckons with unforgettable ports like Bali, Singapore, Ho Chi Minh City, where every view is picture-perfect and every moment is priceless.",
+      distance: "1344 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Sydney to Bali"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Bali to Singapore"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Singapore to Ho Chi Minh City"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Ho Chi Minh City"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Darrell Payne",
+        role: "Production Manager",
+        languages: ["Swedish"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/1.jpg",
+        contact: {
+          contactEmail: "epic.tide.of.the.har@velarivoyages.com",
+          contactNumber: "+1-606-183-2137"
+        }
+      }
+    ],
+    title: "Epic Tide of the Harbor Icon",
+    description: "Sail from Sydney into a world of wonder. The Asia Pacific beckons with unforgettable ports like Bali, Singapore, Ho Chi Minh City, where every view is picture-perfect and every moment is priceless.",
+    rating: 4.9,
+    tags: ["tropical"]
+  },
+  {
+    basePrice: 4466,
+    departureLocation: {
+  "city": "Sydney",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -33.8688,
+    "longitude": 151.2093
+  }
+},
+    arrivalLocation: {
+  "city": "Sydney",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -33.8688,
+    "longitude": 151.2093
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  }
+],
+      description: "Sail from Sydney into a world of wonder. The Asia Pacific beckons with unforgettable ports like Bangkok, Shanghai, Singapore, where every view is picture-perfect and every moment is priceless.",
+      distance: "1340 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Sydney to Bangkok"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Bangkok to Shanghai"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Shanghai to Singapore"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Singapore to Sydney"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Bangkok"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Sydney"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Eric Hayes",
+        role: "Production Manager",
+        languages: ["Swedish"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/81.jpg",
+        contact: {
+          contactEmail: "exquisite.excursion.@velarivoyages.com",
+          contactNumber: "+1-123-477-2997"
+        }
+      }
+    ],
+    title: "Exquisite Excursion of the Harbor Icon",
+    description: "Sail from Sydney into a world of wonder. The Asia Pacific beckons with unforgettable ports like Bangkok, Shanghai, Singapore, where every view is picture-perfect and every moment is priceless.",
+    rating: 4.7,
+    tags: ["long-distance","adventure"]
   }
 ];

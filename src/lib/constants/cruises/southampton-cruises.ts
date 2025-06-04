@@ -5514,5 +5514,1171 @@ export const southamptonCruises: Cruise[] = [
     description: "Experience coastal elegance on this adventure from Southampton, where the journey through Northern Europe includes stops in Stockholm, Tallinn, Copenhagen, each more enchanting than the last.",
     rating: 4.4,
     tags: ["sightseeing"]
+  },
+  {
+    basePrice: 3079,
+    departureLocation: {
+  "city": "Southampton",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 50.9097,
+    "longitude": -1.4044
+  }
+},
+    arrivalLocation: {
+  "city": "Oslo",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  },
+  {
+    "city": "St. Petersburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Begin an epic mystique from Southampton, where the seas meet culture. Visit the remarkable ports of St. Petersburg, Copenhagen, Oslo while indulging in fine dining, entertainment, and unmatched hospitality.",
+      distance: "629 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Southampton to St. Petersburg"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from St. Petersburg to Copenhagen"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Copenhagen to Oslo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Southampton"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring St. Petersburg"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Oslo"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Nicholas Grant",
+        role: "Activities Director",
+        languages: ["Finnish","Swahili"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/83.jpg",
+        contact: {
+          contactEmail: "extraordinary.journe@velarivoyages.com",
+          contactNumber: "+1-144-289-7883"
+        }
+      }
+    ],
+    title: "Extraordinary Journey of the Baltic Echoes",
+    description: "Begin an epic mystique from Southampton, where the seas meet culture. Visit the remarkable ports of St. Petersburg, Copenhagen, Oslo while indulging in fine dining, entertainment, and unmatched hospitality.",
+    rating: 4.8,
+    tags: ["VIP"]
+  },
+  {
+    basePrice: 1985,
+    departureLocation: {
+  "city": "Southampton",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 50.9097,
+    "longitude": -1.4044
+  }
+},
+    arrivalLocation: {
+  "city": "Southampton",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 50.9097,
+    "longitude": -1.4044
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  }
+],
+      description: "Join us in Southampton for a journey of a lifetime. Sail across the serene waters of Northern Europe, stopping at ports like Stockholm, Copenhagen, Tallinn, Oslo where timeless traditions meet modern luxuries.",
+      distance: "633 nautical miles",
+      totalDuration: "18 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Southampton to Stockholm"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Stockholm to Copenhagen"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Copenhagen to Tallinn"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from Tallinn to Oslo"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 16",
+    "duration": "1 days",
+    "description": "Sailing from Oslo to Southampton"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Southampton"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Tallinn"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 17",
+    "end": "Day 18",
+    "duration": "2 days",
+    "description": "Exploring Southampton"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Gabriel Sutton",
+        role: "Activities Director",
+        languages: ["Finnish","Swahili"],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/men/90.jpg",
+        contact: {
+          contactEmail: "mesmerizing.reverie.@velarivoyages.com",
+          contactNumber: "+1-370-122-5809"
+        }
+      }
+    ],
+    title: "Mesmerizing Reverie of the Titanic Port",
+    description: "Join us in Southampton for a journey of a lifetime. Sail across the serene waters of Northern Europe, stopping at ports like Stockholm, Copenhagen, Tallinn, Oslo where timeless traditions meet modern luxuries.",
+    rating: 4.0,
+    tags: ["relaxation","adventure"]
+  },
+  {
+    basePrice: 6627,
+    departureLocation: {
+  "city": "Southampton",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 50.9097,
+    "longitude": -1.4044
+  }
+},
+    arrivalLocation: {
+  "city": "Southampton",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 50.9097,
+    "longitude": -1.4044
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  }
+],
+      description: "Depart Southampton on a relaxing journey through the Northern Europe region. Highlights include the stunning coastlines of Stockholm, Copenhagen, all while enjoying first-class amenities on board.",
+      distance: "832 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Southampton to Stockholm"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Stockholm to Copenhagen"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Copenhagen to Southampton"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Southampton"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Southampton"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Benjamin Graham",
+        role: "Activities Director",
+        languages: ["Finnish","Swahili"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/men/7.jpg",
+        contact: {
+          contactEmail: "breathtaking.saga.of@velarivoyages.com",
+          contactNumber: "+1-241-775-3473"
+        }
+      }
+    ],
+    title: "Breathtaking Saga of the Titanic Port",
+    description: "Depart Southampton on a relaxing journey through the Northern Europe region. Highlights include the stunning coastlines of Stockholm, Copenhagen, all while enjoying first-class amenities on board.",
+    rating: 4.2,
+    tags: ["relaxation"]
+  },
+  {
+    basePrice: 3443,
+    departureLocation: {
+  "city": "Southampton",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 50.9097,
+    "longitude": -1.4044
+  }
+},
+    arrivalLocation: {
+  "city": "Southampton",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 50.9097,
+    "longitude": -1.4044
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  }
+],
+      description: "From bustling Southampton to serene Northern Europe shores, this cruise invites you to relax, explore, and indulge. Stops at Tallinn, Helsinki, Oslo, Stockholm deliver a balanced blend of culture and comfort.",
+      distance: "1219 nautical miles",
+      totalDuration: "19 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Southampton to Tallinn"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Tallinn to Helsinki"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Helsinki to Oslo"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from Oslo to Stockholm"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Sailing from Stockholm to Southampton"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Southampton"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Tallinn"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 18",
+    "end": "Day 19",
+    "duration": "2 days",
+    "description": "Exploring Southampton"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Roy Ellis",
+        role: "Activities Director",
+        languages: ["Finnish","Swahili"],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/49.jpg",
+        contact: {
+          contactEmail: "exquisite.retreat.of@velarivoyages.com",
+          contactNumber: "+1-714-914-5814"
+        }
+      }
+    ],
+    title: "Exquisite Retreat of the Titanic Port",
+    description: "From bustling Southampton to serene Northern Europe shores, this cruise invites you to relax, explore, and indulge. Stops at Tallinn, Helsinki, Oslo, Stockholm deliver a balanced blend of culture and comfort.",
+    rating: 4.1,
+    tags: ["VIP","family-friendly","romantic"]
+  },
+  {
+    basePrice: 8922,
+    departureLocation: {
+  "city": "Southampton",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 50.9097,
+    "longitude": -1.4044
+  }
+},
+    arrivalLocation: {
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "coordinates": {
+    "latitude": 55.6761,
+    "longitude": 12.5683
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  }
+],
+      description: "Set course from Southampton for an inspiring midnight journey across Northern Europe. Whether exploring ancient ruins in Oslo or soaking up coastal views in Stockholm, every day offers a perfect mix of discovery and relaxation.",
+      distance: "1369 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Southampton to Oslo"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Oslo to Stockholm"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Stockholm to Copenhagen"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Southampton"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Copenhagen"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Bryan Hall",
+        role: "Activities Director",
+        languages: ["Finnish","Swahili"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/20.jpg",
+        contact: {
+          contactEmail: "secret.exploration.o@velarivoyages.com",
+          contactNumber: "+1-721-376-7158"
+        }
+      }
+    ],
+    title: "Secret Exploration of the Maritime Crossroads",
+    description: "Set course from Southampton for an inspiring midnight journey across Northern Europe. Whether exploring ancient ruins in Oslo or soaking up coastal views in Stockholm, every day offers a perfect mix of discovery and relaxation.",
+    rating: 4.7,
+    tags: ["sightseeing","long-distance"]
+  },
+  {
+    basePrice: 6008,
+    departureLocation: {
+  "city": "Southampton",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 50.9097,
+    "longitude": -1.4044
+  }
+},
+    arrivalLocation: {
+  "city": "Southampton",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 50.9097,
+    "longitude": -1.4044
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  },
+  {
+    "city": "St. Petersburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  }
+],
+      description: "This saga takes you beyond the ordinary, starting in Southampton. With breathtaking stops in St. Petersburg, Helsinki, your cruise delivers immersive moments and unforgettable vistas.",
+      distance: "1226 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Southampton to St. Petersburg"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from St. Petersburg to Helsinki"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Helsinki to Southampton"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Southampton"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring St. Petersburg"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Southampton"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Jason Knight",
+        role: "Activities Director",
+        languages: ["Finnish","Swahili"],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/45.jpg",
+        contact: {
+          contactEmail: "captivating.tide.of.@velarivoyages.com",
+          contactNumber: "+1-359-843-3418"
+        }
+      }
+    ],
+    title: "Captivating Tide of the Titanic Port",
+    description: "This saga takes you beyond the ordinary, starting in Southampton. With breathtaking stops in St. Petersburg, Helsinki, your cruise delivers immersive moments and unforgettable vistas.",
+    rating: 4.9,
+    tags: ["tropical","adventure"]
+  },
+  {
+    basePrice: 8688,
+    departureLocation: {
+  "city": "Southampton",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 50.9097,
+    "longitude": -1.4044
+  }
+},
+    arrivalLocation: {
+  "city": "Southampton",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 50.9097,
+    "longitude": -1.4044
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  }
+],
+      description: "Let the spirit of exploration guide your mesmerizing journey from Southampton. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Helsinki, Oslo, Copenhagen, Stockholm.",
+      distance: "1122 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Southampton to Helsinki"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Helsinki to Oslo"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Oslo to Copenhagen"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from Copenhagen to Stockholm"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 16",
+    "duration": "1 days",
+    "description": "Sailing from Stockholm to Southampton"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Southampton"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 17",
+    "end": "Day 17",
+    "duration": "1 days",
+    "description": "Exploring Southampton"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Henry Keller",
+        role: "Activities Director",
+        languages: ["Finnish","Swahili"],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
+        contact: {
+          contactEmail: "forbidden.sanctuary.@velarivoyages.com",
+          contactNumber: "+1-563-664-6907"
+        }
+      }
+    ],
+    title: "Forbidden Sanctuary of the Titanic Port",
+    description: "Let the spirit of exploration guide your mesmerizing journey from Southampton. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Helsinki, Oslo, Copenhagen, Stockholm.",
+    rating: 4.8,
+    tags: ["sightseeing","short-getaway"]
+  },
+  {
+    basePrice: 8262,
+    departureLocation: {
+  "city": "Southampton",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 50.9097,
+    "longitude": -1.4044
+  }
+},
+    arrivalLocation: {
+  "city": "St. Petersburg",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Petersburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Set off on a sojourn from Southampton that captures the essence of Northern Europe. Discover cultural gems and culinary delights across Stockholm, Tallinn, Helsinki, St. Petersburg.",
+      distance: "583 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Southampton to Stockholm"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Sailing from Stockholm to Tallinn"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Tallinn to Helsinki"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Helsinki to St. Petersburg"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Southampton"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Tallinn"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring St. Petersburg"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Wei Foster",
+        role: "Activities Director",
+        languages: ["Finnish","Swahili"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/12.jpg",
+        contact: {
+          contactEmail: "golden.expedition.of@velarivoyages.com",
+          contactNumber: "+1-544-599-9140"
+        }
+      }
+    ],
+    title: "Golden Expedition of the Nordic Waters",
+    description: "Set off on a sojourn from Southampton that captures the essence of Northern Europe. Discover cultural gems and culinary delights across Stockholm, Tallinn, Helsinki, St. Petersburg.",
+    rating: 4.3,
+    tags: ["seasonal"]
   }
 ];
