@@ -15,16 +15,16 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
-import { cruiseDepartureLocations } from "@/lib/constants/info/city";
+import { cruiseDepartureLocations } from "@/lib/constants/info/city.ts";
 import {
   capitalize,
   formatKebebToTitleCase,
   formatNumberToCurrency,
   formatTitleToCamelCase,
   removeAccents,
-} from "@/lib/utils/format";
+} from "@/lib/utils/format.ts";
 // import { Cruise } from "@/lib/interfaces/services/cruises"; // Cruise type becomes unused if filters/cruises logic is commented
-import { getCruises, getCruisesByLocation } from "@/lib/utils/get";
+import { getCruises, getCruisesByLocation } from "@/lib/utils/get.ts";
 import { /*useRouter,*/ useSearchParams } from "next/navigation"; // useRouter becomes unused
 import { useEffect, useMemo, /*useMemo,*/ useState } from "react"; // useMemo becomes unused if filterOptions/filteredCruises are commented
 import { FaFilter } from "react-icons/fa";
