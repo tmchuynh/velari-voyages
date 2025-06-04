@@ -887,35 +887,61 @@ export async function getRestaurantMenuByName(
   }
 }
 
-export async function getRestaurantArrayByName(
+export async function getRestaurantByName(
   cityName: string,
-  cityAndRestaurant: string,
   restaurantName: string
-): Promise<Restaurant[]> {
-  if (!cityAndRestaurant || typeof cityAndRestaurant !== "string") {
-    console.error("Invalid restaurant name provided");
-    return [];
+): Promise<Restaurant> {
+  if (!cityName || typeof cityName !== "string") {
+    console.error("Invalid city name provided");
+    return {} as Restaurant;
   }
 
-  const restaurantFormatted = cityAndRestaurant.toLowerCase();
+  const cityWithoutAccents = formatToSlug(
+    removeAccents(cityName.replace("'", "-"))
+  );
 
-  const restaurantID = `${restaurantFormatted}Menu`;
+  if (!restaurantName || typeof restaurantName !== "string") {
+    console.error("Invalid restaurant name provided");
+    return {} as Restaurant;
+  }
+
+  // Format city name for the file path and variable name
+  const citySlug = formatToSlug(cityWithoutAccents.replace("'", "-"));
+
+  // Format for variable name: cityInCamelCase + restaurantInCamelCase
+  const cityPrefix = formatKebabToCamelCase(citySlug).replace(/-/g, ""); // Remove hyphens for camelCase
+
+  const restaurantVariable = `${cityPrefix}Restaurants`;
+
+  const restaurantNameFormatted = formatKebebToTitleCase(
+    removeAccents(restaurantName || "")
+  ).replace("menu", "");
 
   try {
+    // Import the module using kebab-case for the file path
     const restaurantModule = await import(
-      `@/lib/constants/cruises/restaurants/${cityName}/${restaurantName}`
+      `@/lib/constants/cruises/restaurants/${citySlug}/restaurants`
     );
-    // Return the specific named export that matches restaurantID
-    if (restaurantModule[restaurantID]) {
-      return restaurantModule[restaurantID];
+
+    // Return the specific named export that matches restaurantName
+    if (restaurantModule[restaurantVariable]) {
+      const data = restaurantModule[restaurantVariable].find(
+        (restaurant: Restaurant) =>
+          restaurant.name.toLowerCase() ===
+          restaurantNameFormatted.toLowerCase()
+      );
+      // If the restaurant is found, return it
+      return data as Restaurant;
     } else {
-      console.error(`Export not found in module. Looking for: ${restaurantID}`);
-      return [];
+      console.error(
+        `Export named '${restaurantVariable}' not found in module. Expected: export const ${restaurantVariable}: Restaurant = {};`
+      );
+      return {} as Restaurant;
     }
   } catch (error) {
     console.error(
-      `Error loading restaurant data: ${error}. Tried: @/lib/constants/cruises/restaurants/${restaurantFormatted}/restaurants with export ${restaurantID}`
+      `Error loading restaurant data from @/lib/constants/cruises/restaurants/${citySlug}/restaurants: ${error}`
     );
-    return [];
+    return {} as Restaurant;
   }
 }
