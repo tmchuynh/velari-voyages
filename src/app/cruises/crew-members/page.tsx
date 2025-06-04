@@ -1,10 +1,19 @@
 "use client";
 
 import Loading from "@/components/Loading";
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import {
+  Pagination,
+  PaginationContent,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "@/components/ui/pagination";
 import {
   Select,
   SelectContent,
@@ -13,7 +22,10 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { CrewMember } from "@/lib/interfaces/people/staff";
-import { getAllTeamMembers } from "@/lib/utils/get/crew-members";
+import {
+  getAllTeamMembers,
+  getRoleDescription,
+} from "@/lib/utils/get/crew-members";
 import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 import { FaFilter } from "react-icons/fa";
@@ -23,14 +35,26 @@ export default function CrewMembers() {
   const [crewMembers, setAllCrewMembers] = useState<CrewMember[]>([]);
   const [loading, setLoading] = useState(true);
 
+  // Pagination state for each role
+  const [currentPages, setCurrentPages] = useState<Record<string, number>>({});
+  const itemsPerPage = 6; // Number of crew members per page
+
   useEffect(() => {
     const fetchData = async () => {
       try {
         // Await the Promise from getToolResource
         const data = await getAllTeamMembers();
         setAllCrewMembers(data);
+
+        // Initialize pagination for each role
+        const roles = [...new Set(data.map((member) => member.role))];
+        const initialPages = roles.reduce((acc, role) => {
+          acc[role] = 1;
+          return acc;
+        }, {} as Record<string, number>);
+        setCurrentPages(initialPages);
       } catch (error) {
-        console.error("Failed to load affirmation cards:", error);
+        console.error("Failed to load crew members:", error);
       } finally {
         setLoading(false);
       }
@@ -193,6 +217,14 @@ export default function CrewMembers() {
     setSelectedState("all");
     setSelectedDepartment("all");
     scrollToSection("filter-section");
+  };
+
+  // Handle page change for a specific role
+  const handlePageChange = (role: string, page: number) => {
+    setCurrentPages((prev) => ({
+      ...prev,
+      [role]: page,
+    }));
   };
 
   return (
@@ -435,42 +467,140 @@ export default function CrewMembers() {
 
       {filteredCrewMembers.length > 0 ? (
         <div className="space-y-12">
-          {sortedRoles.map((role) => (
-            <div key={role} className="mb-8">
-              <h2 className="mb-6 pb-2 border-b border-border">{role}s</h2>
-              <div className="gap-8 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
-                {crewMembersByRole[role].map((member, index) => (
-                  <div
-                    key={index}
-                    className="flex flex-col justify-between shadow-md hover:shadow-lg border border-border rounded-lg h-full transition-shadow duration-300"
-                  >
-                    <div className="p-5 border-tertiary border-b-2">
-                      <h3 className="mb-1 font-bold text-xl">{member.name}</h3>
-                    </div>
-                    <div className="flex flex-col gap-3 mt-3 px-6">
-                      {member.bio && <p>{member.bio}</p>}
-                      {member.experienceYears && (
-                        <strong className="mb-3 text-fancy text-sm">
-                          {member.experienceYears} Years Experience
-                        </strong>
-                      )}
-                      <div className="mb-4">
-                        <strong>Languages:</strong>
-                        <p className="text-sm">{member.languages.join(", ")}</p>
-                      </div>
-                    </div>
-                    <Image
-                      src={member.profileImage || "/images/default-avatar.png"}
-                      alt={member.name}
-                      width={150}
-                      height={150}
-                      className="w-full h-48 object-cover"
-                    />
+          {sortedRoles.map((role) => {
+            const members = crewMembersByRole[role];
+            const totalMembers = members.length;
+            const totalPages = Math.ceil(totalMembers / itemsPerPage);
+            const currentPage = currentPages[role] || 1;
+            const startIdx = (currentPage - 1) * itemsPerPage;
+            const endIdx = Math.min(startIdx + itemsPerPage, totalMembers);
+            const currentMembers = members.slice(startIdx, endIdx);
+
+            return (
+              <div
+                key={role}
+                id={role.toLowerCase().replace(/\s+/g, "-")}
+                className="mb-12"
+              >
+                <h2 className="mb-3 pb-2 border-b border-border">{role}s</h2>
+                <div className="flex justify-between items-baseline mb-6">
+                  <p>{getRoleDescription(role)}</p>
+                  <Badge>
+                    {totalMembers} {totalMembers === 1 ? "member" : "members"}
+                  </Badge>
+                </div>
+
+                <div className="gap-8 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mb-6">
+                  {currentMembers.map((member, index) => (
+                    <Card
+                      key={`${member.name}-${index}`}
+                      className="flex flex-col justify-between p-0 h-full overflow-hidden"
+                    >
+                      <CardContent className="p-6">
+                        <div className="flex gap-3">
+                          <Image
+                            src={member.profileImage}
+                            alt={member.name}
+                            width={150}
+                            height={150}
+                            className="rounded-full w-24 h-24 object-cover"
+                          />
+                          <div className="flex flex-col justify-center">
+                            <h3 className="mb-2 font-semibold text-xl">
+                              {member.name}
+                            </h3>
+                            <div className="flex items-center gap-2 mb-3">
+                              <Badge variant={"defaultFaded"}>
+                                {member.department}
+                              </Badge>
+                              {member.experienceYears &&
+                                member.experienceYears >= 10 && (
+                                  <Badge variant={"secondary"}>Senior</Badge>
+                                )}
+                            </div>
+                          </div>
+                        </div>
+
+                        {member.bio && <p>{member.bio}</p>}
+
+                        <div className="gap-4 grid grid-cols-1 md:grid-cols-2 mt-4">
+                          {member.languages && member.languages.length > 0 && (
+                            <div>
+                              <h5 className="font-medium">Languages:</h5>{" "}
+                              {member.languages.join(", ")}
+                            </div>
+                          )}
+                          <div>
+                            <h5 className="font-medium">Location:</h5>{" "}
+                            {member.city},
+                            {member.state ? ` ${member.state},` : " "}
+                            {member.country}
+                          </div>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
+
+                {/* Pagination for this role */}
+                {totalPages > 1 && (
+                  <div className="flex justify-center mt-4">
+                    <Pagination>
+                      <PaginationContent>
+                        <PaginationItem>
+                          <PaginationPrevious
+                            onClick={() =>
+                              handlePageChange(
+                                role,
+                                Math.max(1, currentPage - 1)
+                              )
+                            }
+                            className={
+                              currentPage === 1
+                                ? "pointer-events-none opacity-50"
+                                : "cursor-pointer"
+                            }
+                          />
+                        </PaginationItem>
+
+                        {Array.from({ length: totalPages }).map((_, i) => (
+                          <PaginationItem key={i}>
+                            <PaginationLink
+                              isActive={currentPage === i + 1}
+                              onClick={() => handlePageChange(role, i + 1)}
+                              className="cursor-pointer"
+                            >
+                              {i + 1}
+                            </PaginationLink>
+                          </PaginationItem>
+                        ))}
+
+                        <PaginationItem>
+                          <PaginationNext
+                            onClick={() =>
+                              handlePageChange(
+                                role,
+                                Math.min(totalPages, currentPage + 1)
+                              )
+                            }
+                            className={
+                              currentPage === totalPages
+                                ? "pointer-events-none opacity-50"
+                                : "cursor-pointer"
+                            }
+                          />
+                        </PaginationItem>
+                      </PaginationContent>
+                    </Pagination>
                   </div>
-                ))}
+                )}
+
+                <div className="text-right mt-2 text-gray-500 text-sm">
+                  Showing {startIdx + 1}-{endIdx} of {totalMembers} members
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       ) : (
         <div className="py-12 text-center">
@@ -482,6 +612,27 @@ export default function CrewMembers() {
           </Button>
         </div>
       )}
+
+      {/* Quick navigation to roles */}
+      {/* {filteredCrewMembers.length > 0 && (
+        <div className="bottom-6 sticky flex justify-center mt-12">
+          <div className="flex gap-2 bg-white shadow-lg px-4 py-2 border rounded-full max-w-full overflow-x-auto">
+            {sortedRoles.map((role) => (
+              <Button
+                key={role}
+                variant="ghost"
+                size="sm"
+                className="whitespace-nowrap"
+                onClick={() =>
+                  scrollToSection(role.toLowerCase().replace(/\s+/g, "-"))
+                }
+              >
+                {role}s
+              </Button>
+            ))}
+          </div>
+        </div>
+      )} */}
     </div>
   );
 }
