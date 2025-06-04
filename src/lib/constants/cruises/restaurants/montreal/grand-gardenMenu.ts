@@ -12,54 +12,94 @@ export const montrealgrandGardenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Traditional Sautéed 24-Hour Braised Short Ribs",
-            "description": "This bold favorite is grilled using seasonal ingredients, then attractively arranged.",
-            "price": 37.63,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Bounty Harvest Plate (Vegetarian)",
-            "description": "Our aromatic specialty, composed with sustainable seafood and drizzled with finesse.",
-            "price": 30.78,
+            "name": "Traditional Sautéed Award-Winning Seafood Boil",
+            "price": 32.84,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Delicious Seasonal Tasting Menu Experience",
-            "description": "Our earthy specialty, seasoned with organic ingredients and neatly composed.",
-            "price": 34.65,
-            "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Celebrity Favorite Lobster Dish",
+            "price": 32.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Pan-seared Dry-Aged Tomahawk Steak",
+            "price": 26.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Succulent Seasonal Tasting Platter",
+            "price": 25.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Baked Restaurant's Namesake Signature Entrée",
+            "price": 35.45,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Mouthwatering Traditional Family Paella",
+            "price": 24.13,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Flavorful 24-Hour Braised Short Ribs",
+            "price": 37.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
       {
-        "name": "Appetizers",
+        "name": "Chef's Specials",
         "items": [
           {
-            "name": "Classic Zesty Pesto Pasta",
-            "description": "Offered as a tasting portion and poached to perfection using artisanal elements.",
-            "price": 25.44,
+            "name": "Fresh Stuffed Charcoal-Grilled Wagyu Beef",
+            "price": 25.18,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Baked Seasonal Truffle Risotto",
+            "price": 32.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Lamb Chops",
-            "description": "This refreshing favorite is prepared using premium components, then neatly composed.",
-            "price": 23.38,
+            "name": "Gourmet Satisfying Herb-Crusted Rack of Lamb",
+            "price": 35.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -67,31 +107,137 @@ export const montrealgrandGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Tangy Bibimbap",
-            "description": "Presented on a wooden board and pan-seared to perfection using finest quality ingredients.",
-            "price": 22.26,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Smoked Pizza",
-            "description": "Our herbaceous specialty, smoked with hand-picked vegetables and plated with precision.",
-            "price": 20.5,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Delectable Cottage Pie",
-            "description": "Our savory specialty, stir-fried with organic ingredients and artfully plated.",
-            "price": 28.31,
+            "name": "Organic Flavorful High-End Ingredient Showcase",
+            "price": 38.09,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Creamy Chef's Market Inspiration of the Day",
+            "price": 27.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Appetizers",
+        "items": [
+          {
+            "name": "Handcrafted Spiced Mini Tacos",
+            "price": 15.04,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Fried Bruschetta",
+            "price": 12.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked Baked Brie",
+            "price": 8.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Grilled Lettuce Wraps",
+            "price": 14.78,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Satisfying Calamari",
+            "price": 11.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Marinated Garlic Knots",
+            "price": 8.08,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Sizzling Cheese Platter",
+            "price": 13.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Savory Mini Crab Cakes",
+            "price": 15.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Soups",
+        "items": [
+          {
+            "name": "Handcrafted Roasted Thai Coconut Soup",
+            "price": 7.12,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Wholesome French Onion Soup",
+            "price": 7.8,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Roasted Gazpacho",
+            "price": 11.36,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Stuffed Minestrone",
+            "price": 7.15,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -102,87 +248,47 @@ export const montrealgrandGardenMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Jambalaya",
-            "description": "This pungent favorite is slow-cooked using wild-caught fish, then nestled in a ceramic bowl.",
-            "price": 22.25,
+            "name": "Apple Pecan Salad",
+            "price": 12.67,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Herbed Gnocchi",
-            "description": "A floral dish assembled with cold-pressed oils and layered with care.",
-            "price": 20.55,
+            "name": "Farro Salad",
+            "price": 12.51,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Delectable Chili con Carne",
-            "description": "Our succulent specialty, pan-seared with non-GMO produce and stacked artistically.",
-            "price": 24.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tagine",
-            "description": "Nestled in a ceramic bowl and whipped to perfection using sustainable seafood.",
-            "price": 28.95,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Soups",
-        "items": [
-          {
-            "name": "Organic Hearty Lasagna",
-            "description": "Accompanied by a tasteful garnish and created to perfection using heritage grains.",
-            "price": 27.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beef Wellington",
-            "description": "Garnished to perfection and whipped to perfection using grass-fed beef.",
-            "price": 18.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Chef's Hearty Vegetable Stir-Fry",
-            "description": "Beautifully presented and made to perfection using grass-fed beef.",
-            "price": 27.86,
-            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tacos",
-            "description": "This fruity favorite is prepared using natural sweeteners, then served on rustic ware.",
-            "price": 29.68,
-            "isVegetarian": true,
+            "name": "Avocado Corn Salad",
+            "price": 14.75,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caprese Salad",
+            "price": 14.44,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Quinoa Salad",
+            "price": 15.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -192,69 +298,8 @@ export const montrealgrandGardenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Chef's Fried Pulled Pork Sandwich",
-            "description": "Plated with precision and pan-seared to perfection using chef-selected spices.",
-            "price": 18.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Chili con Carne",
-            "description": "A complex dish pan-seared with heirloom tomatoes and plated with precision.",
-            "price": 20.88,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lentil Stew",
-            "description": "This zesty favorite is sautéed using free-range meats, then served with flair.",
-            "price": 20.38,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Crunchy Teriyaki Chicken",
-            "description": "Our hearty specialty, pan-seared with hand-picked vegetables and served on rustic ware.",
-            "price": 22.64,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Zucchini Boats",
-            "description": "Our subtle specialty, made with finest quality ingredients and beautifully presented.",
-            "price": 30.87,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Chicken",
-            "description": "A buttery dish prepared with free-range meats and served on rustic ware.",
-            "price": 27.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Jambalaya",
-            "description": "A aromatic dish pan-seared with chef-selected spices and served family-style.",
-            "price": 20.37,
+            "name": "Deluxe Creamy Pho",
+            "price": 31.5,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -262,11 +307,114 @@ export const montrealgrandGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Crunchy Katsu Curry",
-            "description": "This sweet favorite is prepared using artisanal elements, then neatly composed.",
-            "price": 21.84,
+            "name": "Classic Steamed Gnocchi",
+            "price": 25.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Savory Steak",
+            "price": 28.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Steamed Spaghetti Bolognese",
+            "price": 22.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Smoked Currywurst",
+            "price": 30.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Herbed Jambalaya",
+            "price": 19.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Spiced Moussaka",
+            "price": 18.14,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Marinated Cottage Pie",
+            "price": 19.75,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "items": [
+          {
+            "name": "Authentic Stuffed Pan-Seared Scallops with Pea Purée",
+            "price": 34.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Flaky Valencian Seafood Paella",
+            "price": 30.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Zingy Shrimp Scampi over Linguine",
+            "price": 24.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Pan-seared Maryland Style Crab Cakes",
+            "price": 32.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Tangy Sushi-Grade Sashimi Platter",
+            "price": 35.57,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -277,87 +425,115 @@ export const montrealgrandGardenMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Grilled Tofu",
-            "description": "A rich dish created with premium components and layered with care.",
-            "price": 18.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spaghetti Bolognese",
-            "description": "Our briny specialty, composed with locally foraged herbs and styled for visual appeal.",
-            "price": 27.89,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Satisfying Beef Wellington",
-            "description": "Artfully plated and caramelized to perfection using seasonal ingredients.",
-            "price": 22.47,
+            "name": "Authentic Irresistible Mashed Potatoes",
+            "price": 6.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Sizzling Soft Polenta with Parmesan",
+            "price": 8.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Creamy Grilled Chicken",
-            "description": "This zesty favorite is cooked using farm-fresh eggs, then offered as a tasting portion.",
-            "price": 26.76,
+            "name": "Gourmet Spiced Scalloped Potatoes with Thyme",
+            "price": 8.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Roasted Charred Broccolini with Garlic Oil",
+            "price": 9.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Zesty Corn on the Cob with Chili Lime Butter",
+            "price": 8.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Golden Wild Mushroom Risotto",
+            "price": 5.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
           }
         ]
       },
       {
-        "name": "Seafood Specialties",
+        "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Chef's Spicy Mussels Mariniere in White Wine",
-            "description": "This citrusy favorite is roasted using cultured dairy, then accompanied by a tasteful garnish.",
-            "price": 25.88,
+            "name": "Juice",
+            "price": 6.03,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 4.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Cajun Shrimp and Grits",
-            "description": "This savory favorite is pan-seared using heritage grains, then beautifully presented.",
-            "price": 27.69,
-            "isVegetarian": false,
+            "name": "Water",
+            "price": 5.53,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 6.9,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 4.67,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Local Smoked Lobster Thermidor with Gruyère Crust",
-            "description": "Beautifully presented and smoked to perfection using handmade pasta.",
-            "price": 29.2,
-            "isVegetarian": false,
+            "name": "Milkshake",
+            "price": 6.72,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Grilled Swordfish with Mango Chutney",
-            "description": "Garnished to perfection and cooked to perfection using sustainable seafood.",
-            "price": 31.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -370,12 +546,11 @@ export const montrealgrandGardenMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Vegetable Stir-Fry",
-            "description": "Garnished to perfection and made to perfection using sustainable seafood.",
-            "price": 24.18,
+            "name": "Portuguese Custard Tarts",
+            "price": 8.41,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -383,39 +558,35 @@ export const montrealgrandGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grilled Tofu",
-            "description": "Our citrusy specialty, made with grass-fed beef and plated with precision.",
-            "price": 27.66,
+            "name": "Custard Tart",
+            "price": 7.9,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Luscious Pulled Pork Sandwich",
-            "description": "Our zesty specialty, cooked with house-made sauces and accompanied by a tasteful garnish.",
-            "price": 19.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Local Herbed Tacos",
-            "description": "Our umami-packed specialty, oven-baked with handmade pasta and plated with precision.",
-            "price": 22.06,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Local Roasted Biryani",
-            "description": "Our delicate specialty, whipped with hand-picked vegetables and served on rustic ware.",
-            "price": 18.29,
+            "name": "Pumpkin Pie",
+            "price": 7.65,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Berry Tart",
+            "price": 8.21,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Eclairs",
+            "price": 8.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,12 +596,11 @@ export const montrealgrandGardenMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Pasta Primavera",
-            "description": "This briny favorite is assembled using organic ingredients, then nestled in a ceramic bowl.",
-            "price": 20.95,
+            "name": "Ice Cream Cake",
+            "price": 8.36,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -438,43 +608,39 @@ export const montrealgrandGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coq au Vin",
-            "description": "This rich favorite is caramelized using aged cheeses, then layered with care.",
-            "price": 25.99,
+            "name": "Ice Cream Sandwich",
+            "price": 7.32,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef's Grilled Lamb Chops",
-            "description": "Accompanied by a tasteful garnish and created to perfection using sustainable seafood.",
-            "price": 28.12,
-            "isVegetarian": false,
+            "name": "Frozen Pudding",
+            "price": 8.65,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Lasagna",
-            "description": "Served on rustic ware and marinated to perfection using sun-ripened fruits.",
-            "price": 26.06,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pulled Pork Sandwich",
-            "description": "Garnished to perfection and oven-baked to perfection using finest quality ingredients.",
-            "price": 25.82,
+            "name": "Paletas",
+            "price": 9.44,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Popsicles",
+            "price": 9.36,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -489,19 +655,53 @@ export const montrealgrandGardenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Traditional Baked Whiskey",
-            "description": "This floral favorite is pan-seared using non-GMO produce, then served on rustic ware.",
-            "price": 12.09,
+            "name": "Mojito",
+            "price": 15.62,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Soju",
-            "description": "Elegantly served and marinated to perfection using locally foraged herbs.",
-            "price": 10.6,
+            "name": "Bloody Mary",
+            "price": 14.79,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 11.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 15.57,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 12.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 10.91,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -509,30 +709,9 @@ export const montrealgrandGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Enticing Cava",
-            "description": "This refreshing favorite is charred using house-made sauces, then neatly composed.",
-            "price": 10.86,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Rye Whiskey",
-            "description": "This herbaceous favorite is charred using grass-fed beef, then accompanied by a tasteful garnish.",
-            "price": 12.54,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Delicious Old Tom Gin",
-            "description": "Garnished to perfection and charred to perfection using sustainable seafood.",
-            "price": 9.19,
-            "isVegetarian": true,
+            "name": "Negroni",
+            "price": 12.25,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -544,63 +723,57 @@ export const montrealgrandGardenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Chef's Crispy Chili con Carne",
-            "description": "Nestled in a ceramic bowl and assembled to perfection using finest quality ingredients.",
-            "price": 18.83,
+            "name": "Fiano",
+            "price": 10.81,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Syrah/Shiraz",
+            "price": 11.99,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lentil Stew",
-            "description": "A briny dish hand-rolled with seasonal ingredients and attractively arranged.",
-            "price": 27.22,
-            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pesto Pasta",
-            "description": "Our savory specialty, prepared with non-GMO produce and presented on a wooden board.",
-            "price": 23.58,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Luscious Moussaka",
-            "description": "This umami-packed favorite is marinated using wild-caught fish, then neatly composed.",
-            "price": 23.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Salmon",
-            "description": "A savory dish hand-folded with farm-fresh eggs and beautifully presented.",
-            "price": 23.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pulled Pork Sandwich",
-            "description": "Served family-style and roasted to perfection using seasonal ingredients.",
-            "price": 28.45,
+            "name": "Chardonnay",
+            "price": 10.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Dolcetto",
+            "price": 12.82,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sémillon",
+            "price": 11.47,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cabernet Franc",
+            "price": 11.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -609,42 +782,47 @@ export const montrealgrandGardenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Chef's Luscious Stuffed Peppers",
-            "description": "A rich dish composed with heritage grains and stacked artistically.",
-            "price": 26.35,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Grand Marnier",
+            "price": 12.99,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pesto Pasta",
-            "description": "This umami-packed favorite is crafted using sun-ripened fruits, then plated with precision.",
-            "price": 24.37,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "name": "Bourbon",
+            "price": 14.6,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef's Fried Chicken Parmesan",
-            "description": "Served with flair and cooked to perfection using chef-selected spices.",
-            "price": 28.34,
-            "isVegetarian": false,
+            "name": "Frangelico",
+            "price": 17.73,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pisco",
+            "price": 10.66,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Local Crispy Thai Curry",
-            "description": "Served with flair and charred to perfection using seasonal ingredients.",
-            "price": 18.23,
+            "name": "Coffee Liqueur",
+            "price": 16.03,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

@@ -12,9 +12,76 @@ export const sanFranciscoroyalKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "House Famous Duck Confit",
-            "description": "Served with flair and marinated to perfection using free-range meats.",
-            "price": 24.01,
+            "name": "Hearty Delicious Wood-Fired Peking Duck with Plum Sauce",
+            "price": 27.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Smoked Heritage Recipe Lamb Shank",
+            "price": 32.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Sizzling Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 30.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Grilled Signature Truffle Pasta with Aged Pecorino",
+            "price": 26.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Satisfying Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 36.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Crispy Founder's Family Recipe Pasta",
+            "price": 27.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Crunchy Executive Chef's Daily Inspiration Entrée",
+            "price": 31.73,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Premium Delectable Black Garlic Marinated Octopus",
+            "price": 25.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -22,9 +89,8 @@ export const sanFranciscoroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Organic Luscious Korean BBQ Short Ribs with Kimchi Rice",
-            "description": "Artfully plated and seasoned to perfection using non-GMO produce.",
-            "price": 30.43,
+            "name": "Fresh Crispy Slow-Roasted Prime Rib",
+            "price": 37.21,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -32,12 +98,29 @@ export const sanFranciscoroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Enticing Seasonal Tasting Menu Experience",
-            "description": "A peppery dish pan-seared with organic ingredients and layered with care.",
-            "price": 26.84,
-            "isVegetarian": true,
+            "name": "Gourmet Smoked Truffle-Infused Filet Mignon",
+            "price": 28.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Spiced Duck Confit with Roasted Root Vegetables",
+            "price": 30.44,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Grilled Deconstructed Classic with Modern Technique",
+            "price": 32.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -47,84 +130,8 @@ export const sanFranciscoroyalKitchenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Risotto",
-            "description": "A sweet dish slow-cooked with heirloom tomatoes and styled for visual appeal.",
-            "price": 29.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Steak",
-            "description": "Drizzled with finesse and whipped to perfection using cold-pressed oils.",
-            "price": 19.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Beef Wellington",
-            "description": "Our fruity specialty, oven-baked with hand-picked vegetables and styled for visual appeal.",
-            "price": 28.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Cottage Pie",
-            "description": "A sweet dish roasted with handmade pasta and garnished to perfection.",
-            "price": 18.71,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Korma",
-            "description": "Beautifully presented and grilled to perfection using organic ingredients.",
-            "price": 19.19,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
-          {
-            "name": "Lentil Stew",
-            "description": "This buttery favorite is assembled using locally sourced produce, then beautifully presented.",
-            "price": 20.8,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Steak",
-            "description": "Our aromatic specialty, hand-rolled with heritage grains and layered with care.",
-            "price": 28.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Bibimbap",
-            "description": "This tangy favorite is prepared using organic ingredients, then served on rustic ware.",
-            "price": 26.26,
+            "name": "Hearty Grilled Falafel",
+            "price": 11.81,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -132,9 +139,62 @@ export const sanFranciscoroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Crispy Fajitas",
-            "description": "Our delicate specialty, stir-fried with heirloom tomatoes and served family-style.",
-            "price": 26.21,
+            "name": "Organic Spicy Mini Empanadas",
+            "price": 10.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Appetizing Garlic Bread",
+            "price": 12.59,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Creamy Mini Quesadillas",
+            "price": 15.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Marinated Mozzarella Sticks",
+            "price": 8.11,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Roasted Bruschetta",
+            "price": 10.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Crunchy Mezze Platter",
+            "price": 14.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spiced Crostini",
+            "price": 14.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -147,41 +207,87 @@ export const sanFranciscoroyalKitchenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Pesto Pasta",
-            "description": "A savory dish sautéed with handmade pasta and served with flair.",
-            "price": 20,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Organic Zingy French Onion Soup",
+            "price": 8.27,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Smoked Beef Wellington",
-            "description": "A smoky dish infused with cold-pressed oils and offered as a tasting portion.",
-            "price": 25.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Braised Stuffed Zucchini Boats",
-            "description": "A aromatic dish charred with heirloom tomatoes and elegantly served.",
-            "price": 29.83,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Baked Cottage Pie",
-            "description": "Stacked artistically and cooked to perfection using seasonal ingredients.",
-            "price": 25.06,
+            "name": "Premium Spiced Italian Wedding Soup",
+            "price": 7.01,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Juicy Zuppa Toscana",
+            "price": 11.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Stuffed Broccoli Cheddar Soup",
+            "price": 8.54,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Kale Salad",
+            "price": 13.84,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cobb Salad",
+            "price": 12.77,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cucumber Salad",
+            "price": 15.34,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coleslaw",
+            "price": 10.72,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mediterranean Chopped Salad",
+            "price": 15.69,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -192,19 +298,44 @@ export const sanFranciscoroyalKitchenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Local Creamy Pulled Pork Sandwich",
-            "description": "Plated with precision and prepared to perfection using sun-ripened fruits.",
-            "price": 21.16,
+            "name": "Handcrafted Fried Stir-fry",
+            "price": 30.43,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Flavorful Chili con Carne",
+            "price": 31.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Satisfying Roast Duck",
+            "price": 30.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Flaky Beef Burger",
+            "price": 28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Signature Grilled Tacos",
-            "description": "Nestled in a ceramic bowl and made to perfection using seasonal ingredients.",
-            "price": 25.79,
+            "name": "Handcrafted Golden Stuffed Peppers",
+            "price": 29.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -212,105 +343,27 @@ export const sanFranciscoroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lasagna",
-            "description": "A umami-packed dish seasoned with heritage grains and beautifully presented.",
-            "price": 23.63,
-            "isVegetarian": false,
+            "name": "Homestyle Pan-seared Quiche",
+            "price": 23.27,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Korma",
-            "description": "A citrusy dish fire-roasted with organic ingredients and plated with precision.",
-            "price": 18.85,
+            "name": "Authentic Spicy Bibimbap",
+            "price": 21.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spaghetti Bolognese",
-            "description": "Attractively arranged and braised to perfection using microgreens.",
-            "price": 21.7,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Luscious Katsu Curry",
-            "description": "Our rich specialty, grilled with aged cheeses and nestled in a ceramic bowl.",
-            "price": 23.63,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shish Kebabs",
-            "description": "Our briny specialty, made with grass-fed beef and accompanied by a tasteful garnish.",
-            "price": 21.47,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Teriyaki Chicken",
-            "description": "Our robust specialty, prepared with farm-fresh eggs and artfully plated.",
-            "price": 21.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Lasagna",
-            "description": "Our spicy specialty, sautéed with organic ingredients and styled for visual appeal.",
-            "price": 19.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
           },
           {
-            "name": "Chef's Pan-seared Paella",
-            "description": "Layered with care and oven-baked to perfection using seasonal ingredients.",
-            "price": 21.12,
+            "name": "Homestyle Savory Teriyaki Chicken",
+            "price": 23.22,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Satisfying Beef Wellington",
-            "description": "Our savory specialty, seasoned with sustainable seafood and nestled in a ceramic bowl.",
-            "price": 19.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Quiche",
-            "description": "Served on rustic ware and slow-cooked to perfection using natural sweeteners.",
-            "price": 18.7,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -322,19 +375,153 @@ export const sanFranciscoroyalKitchenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Signature Herbed Seafood Alfredo with Spinach Fettuccine",
-            "description": "A zesty dish glazed with sun-ripened fruits and elegantly served.",
-            "price": 27.58,
+            "name": "Authentic Grilled Seared Tuna Steak with Sesame Crust",
+            "price": 30.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Hearty Grilled Lobster with Lemon Butter",
+            "price": 35.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Zesty Shrimp Scampi over Linguine",
+            "price": 23.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Flavorful Linguine with Clam Sauce",
+            "price": 28.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Braised Sushi-Grade Sashimi Platter",
+            "price": 27.01,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Traditional Grilled Truffle Parmesan Fries",
+            "price": 9.23,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Grilled Wild Mushroom Risotto",
+            "price": 6.42,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Tangy Buttered Egg Noodles",
+            "price": 9.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Zesty Steamed Jasmine Rice",
+            "price": 8.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Spicy Braised Red Cabbage with Apple",
+            "price": 6.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Smoked Creamed Spinach with Nutmeg",
+            "price": 7.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Soda",
+            "price": 6.66,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Maryland Style Crab Cakes",
-            "description": "This balanced favorite is seasoned using seasonal ingredients, then served on rustic ware.",
-            "price": 31.15,
+            "name": "Juice",
+            "price": 6.76,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 7.9,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 6.06,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 7.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -342,24 +529,13 @@ export const sanFranciscoroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Shrimp Scampi over Linguine",
-            "description": "Stacked artistically and cooked to perfection using premium components.",
-            "price": 31.45,
-            "isVegetarian": false,
+            "name": "Water",
+            "price": 7.16,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Lobster Thermidor with Gruyère Crust",
-            "description": "A refreshing dish assembled with locally foraged herbs and plated with precision.",
-            "price": 35.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       }
@@ -370,52 +546,47 @@ export const sanFranciscoroyalKitchenMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Currywurst",
-            "description": "Presented on a wooden board and made to perfection using finest quality ingredients.",
-            "price": 24.84,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pesto Pasta",
-            "description": "Served with flair and oven-baked to perfection using finest quality ingredients.",
-            "price": 25.69,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mac and Cheese",
-            "description": "A citrusy dish crafted with locally sourced produce and nestled in a ceramic bowl.",
-            "price": 28.35,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Crunchy Paella",
-            "description": "A complex dish roasted with seasonal ingredients and nestled in a ceramic bowl.",
-            "price": 18.41,
+            "name": "Carrot Cake",
+            "price": 7.38,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pecan Pie",
+            "price": 10.52,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Biscotti",
+            "price": 8.14,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Danish Pastries",
+            "price": 10.45,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bibimbap",
-            "description": "Our smoky specialty, created with seasonal ingredients and served on rustic ware.",
-            "price": 24.76,
+            "name": "Eclairs",
+            "price": 8.05,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,12 +596,11 @@ export const sanFranciscoroyalKitchenMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Signature Herbed Korma",
-            "description": "A tangy dish grilled with heirloom tomatoes and served on rustic ware.",
-            "price": 28.78,
+            "name": "Gelato",
+            "price": 8.39,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -438,39 +608,35 @@ export const sanFranciscoroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lamb Chops",
-            "description": "Plated with precision and made to perfection using free-range meats.",
-            "price": 28.67,
+            "name": "Kulfi",
+            "price": 10.24,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sherbet",
+            "price": 10.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Pesto Pasta",
-            "description": "Served with flair and slow-cooked to perfection using aged cheeses.",
-            "price": 22.89,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Braised Vegetable Stir-Fry",
-            "description": "This floral favorite is poached using cultured dairy, then beautifully presented.",
-            "price": 28.52,
+            "name": "Frozen Yogurt",
+            "price": 9.56,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Succulent Grilled Tofu",
-            "description": "This delicate favorite is created using hand-picked vegetables, then stacked artistically.",
-            "price": 20.62,
+            "name": "Semifreddo",
+            "price": 9.2,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -489,9 +655,8 @@ export const sanFranciscoroyalKitchenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Margarita",
-            "description": "Our briny specialty, charred with natural sweeteners and beautifully presented.",
-            "price": 11.59,
+            "name": "Cosmopolitan",
+            "price": 12.91,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -499,19 +664,8 @@ export const sanFranciscoroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Satisfying Champagne",
-            "description": "Our peppery specialty, made with cold-pressed oils and presented on a wooden board.",
-            "price": 14.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Irish Whiskey",
-            "description": "Elegantly served and cooked to perfection using free-range meats.",
-            "price": 10.8,
+            "name": "Negroni",
+            "price": 10.42,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -519,8 +673,16 @@ export const sanFranciscoroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "description": "Our earthy specialty, marinated with seasonal ingredients and nestled in a ceramic bowl.",
+            "name": "Manhattan",
+            "price": 10.43,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
             "price": 14.05,
             "isVegetarian": true,
             "isVegan": false,
@@ -529,10 +691,27 @@ export const sanFranciscoroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Flavorful Soju",
-            "description": "Attractively arranged and grilled to perfection using cultured dairy.",
-            "price": 13.88,
+            "name": "Mojito",
+            "price": 10.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 15.27,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 15.2,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -544,9 +723,8 @@ export const sanFranciscoroyalKitchenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Organic Exquisite Lasagna",
-            "description": "Our briny specialty, composed with artisanal elements and layered with care.",
-            "price": 28.69,
+            "name": "Syrah/Shiraz",
+            "price": 13.39,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -554,51 +732,46 @@ export const sanFranciscoroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Roast Duck",
-            "description": "This tangy favorite is grilled using locally foraged herbs, then beautifully presented.",
-            "price": 23.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Crunchy Pesto Pasta",
-            "description": "Our tangy specialty, prepared with handmade pasta and nestled in a ceramic bowl.",
-            "price": 27.19,
+            "name": "Sauvignon Blanc",
+            "price": 12.88,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Wholesome Stir-fry",
-            "description": "Attractively arranged and fire-roasted to perfection using non-GMO produce.",
-            "price": 22.6,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Burrito",
-            "description": "Beautifully presented and hand-rolled to perfection using natural sweeteners.",
-            "price": 24.23,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Signature Grilled Katsu Curry",
-            "description": "Beautifully presented and cooked to perfection using artisanal elements.",
-            "price": 23.68,
+            "name": "Moscato",
+            "price": 10.16,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nebbiolo",
+            "price": 8.64,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chardonnay",
+            "price": 13.11,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gewürztraminer",
+            "price": 9.97,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -609,29 +782,35 @@ export const sanFranciscoroyalKitchenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Lamb Chops",
-            "description": "Attractively arranged and cooked to perfection using hand-picked vegetables.",
-            "price": 23.11,
-            "isVegetarian": false,
+            "name": "Drambuie",
+            "price": 12.68,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Steak",
-            "description": "Our buttery specialty, prepared with locally foraged herbs and stacked artistically.",
-            "price": 26.58,
-            "isVegetarian": false,
+            "name": "Chartreuse",
+            "price": 16.19,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Classic Mouthwatering Mac and Cheese",
-            "description": "Our earthy specialty, seasoned with chef-selected spices and nestled in a ceramic bowl.",
-            "price": 25.32,
+            "name": "Scotch",
+            "price": 17.6,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Calvados",
+            "price": 17.04,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -639,11 +818,10 @@ export const sanFranciscoroyalKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Spicy Stir-fry",
-            "description": "Our rich specialty, assembled with microgreens and plated with precision.",
-            "price": 25.36,
+            "name": "Anisette",
+            "price": 17.26,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
