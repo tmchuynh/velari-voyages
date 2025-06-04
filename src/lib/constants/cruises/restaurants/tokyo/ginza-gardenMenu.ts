@@ -12,19 +12,103 @@ export const tokyoginzaGardenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Organic Tender Traditional Family Paella",
-            "description": "Our complex specialty, infused with artisanal elements and neatly composed.",
-            "price": 27.38,
+            "name": "Deluxe Irresistible Dry-Aged Tomahawk Steak",
+            "price": 37.34,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Herbed Chef's Special Surf and Turf",
+            "price": 25.53,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Grilled Local Bounty Harvest Plate (Vegetarian)",
-            "description": "This rich favorite is prepared using wild-caught fish, then attractively arranged.",
-            "price": 29.09,
+            "name": "Hearty Irresistible House Famous Duck Confit",
+            "price": 24.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Savory Captain's Favorite Seafood Tower",
+            "price": 30.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Zingy Wood-Fired Peking Duck with Plum Sauce",
+            "price": 26.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Tangy Secret Recipe Bouillabaisse",
+            "price": 35.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Sautéed Signature Truffle Pasta with Aged Pecorino",
+            "price": 25.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Handcrafted Marinated Seared Foie Gras with Fig Compote",
+            "price": 28.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Exquisite Crispy Skin Sea Bass",
+            "price": 37.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Herbed Volcanic Stone-Cooked Specialty",
+            "price": 34.38,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Grilled Lobster and Crab Stuffed Ravioli",
+            "price": 27.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -32,9 +116,8 @@ export const tokyoginzaGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Executive Chef's Daily Inspiration Entrée",
-            "description": "Our creamy specialty, whipped with locally sourced produce and served family-style.",
-            "price": 35.63,
+            "name": "Fresh Grilled Chef's Tasting Menu Experience",
+            "price": 32.83,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -47,9 +130,17 @@ export const tokyoginzaGardenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Seafood Platter",
-            "description": "A tangy dish composed with heritage grains and plated with precision.",
-            "price": 28.85,
+            "name": "Deluxe Smoked Arancini",
+            "price": 12.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Zingy Bruschetta",
+            "price": 14.22,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -57,19 +148,26 @@ export const tokyoginzaGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tacos",
-            "description": "This hearty favorite is braised using wild-caught fish, then beautifully presented.",
-            "price": 24.39,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Classic Grilled Deviled Eggs",
+            "price": 12.75,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pho",
-            "description": "Accompanied by a tasteful garnish and made to perfection using hand-picked vegetables.",
-            "price": 19.28,
+            "name": "Fresh Herbed Garlic Knots",
+            "price": 11.99,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Herbed Shrimp Cocktail",
+            "price": 8.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -77,66 +175,28 @@ export const tokyoginzaGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Tender Eggplant Parmesan",
-            "description": "This savory favorite is prepared using wild-caught fish, then neatly composed.",
-            "price": 22.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Juicy Shakshuka",
-            "description": "This spicy favorite is prepared using seasonal ingredients, then presented on a wooden board.",
-            "price": 26.04,
+            "name": "Fresh Succulent Garlic Bread",
+            "price": 13.67,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
-          {
-            "name": "Traditional Zingy Shakshuka",
-            "description": "Our savory specialty, marinated with wild-caught fish and served family-style.",
-            "price": 24.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           },
           {
-            "name": "Fresh Succulent Grilled Tofu",
-            "description": "Our aromatic specialty, poached with microgreens and attractively arranged.",
-            "price": 20.04,
-            "isVegetarian": true,
+            "name": "Authentic Stuffed Baked Brie",
+            "price": 8.84,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Traditional Creamy Tacos",
-            "description": "Accompanied by a tasteful garnish and prepared to perfection using free-range meats.",
-            "price": 22.25,
+            "name": "Fresh Herbed Prawn Toast",
+            "price": 15.29,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Quiche",
-            "description": "This briny favorite is grilled using house-made sauces, then attractively arranged.",
-            "price": 26.23,
-            "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -147,29 +207,8 @@ export const tokyoginzaGardenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Pizza",
-            "description": "Our robust specialty, crafted with microgreens and served with flair.",
-            "price": 18.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fajitas",
-            "description": "This citrusy favorite is assembled using heritage grains, then styled for visual appeal.",
-            "price": 18.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Juicy Lasagna",
-            "description": "Our robust specialty, glazed with premium components and served on rustic ware.",
-            "price": 29.43,
+            "name": "Gourmet Succulent Tortilla Soup",
+            "price": 7.2,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -177,10 +216,77 @@ export const tokyoginzaGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Stir-fry",
-            "description": "Our subtle specialty, created with locally sourced produce and artfully plated.",
-            "price": 29.63,
+            "name": "Authentic Sizzling Egg Drop Soup",
+            "price": 11.37,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Comforting Split Pea Soup",
+            "price": 12.43,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Smoked Gumbo",
+            "price": 7.36,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Waldorf Salad",
+            "price": 15.38,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mango Avocado Salad",
+            "price": 10.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caprese Salad",
+            "price": 12.89,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spinach Salad",
+            "price": 12.55,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Avocado Corn Salad",
+            "price": 10.94,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
@@ -192,29 +298,17 @@ export const tokyoginzaGardenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Currywurst",
-            "description": "Our bold specialty, hand-rolled with chef-selected spices and served on rustic ware.",
-            "price": 24.74,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shakshuka",
-            "description": "This rich favorite is glazed using hand-picked vegetables, then garnished to perfection.",
-            "price": 20.12,
+            "name": "Fresh Irresistible Lamb Chops",
+            "price": 25.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Tagine",
-            "description": "Accompanied by a tasteful garnish and fire-roasted to perfection using wild-caught fish.",
-            "price": 18.53,
+            "name": "Fresh Appetizing Spaghetti Bolognese",
+            "price": 19.55,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -222,98 +316,57 @@ export const tokyoginzaGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mac and Cheese",
-            "description": "This subtle favorite is made using seasonal ingredients, then elegantly served.",
-            "price": 20.11,
+            "name": "Premium Delicious Pasta Primavera",
+            "price": 18.37,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Spiced Pizza",
-            "description": "A tangy dish assembled with sustainable seafood and garnished to perfection.",
-            "price": 22.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bibimbap",
-            "description": "A fruity dish prepared with organic ingredients and garnished to perfection.",
-            "price": 20.87,
-            "isVegetarian": false,
+            "name": "Organic Flavorful Shish Kebabs",
+            "price": 18.62,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Local Roasted Steak",
-            "description": "Our citrusy specialty, smoked with microgreens and garnished to perfection.",
-            "price": 29.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Signature Herbed Enchiladas",
-            "description": "This briny favorite is cooked using grass-fed beef, then elegantly served.",
-            "price": 21.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Traditional Satisfying Moussaka",
-            "description": "A creamy dish assembled with seasonal ingredients and artfully plated.",
-            "price": 19.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chicken Parmesan",
-            "description": "A nutty dish fire-roasted with artisanal elements and beautifully presented.",
-            "price": 22.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Delicious Enchiladas",
-            "description": "This creamy favorite is caramelized using cultured dairy, then accompanied by a tasteful garnish.",
-            "price": 22.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stir-fry",
-            "description": "A aromatic dish grilled with seasonal ingredients and offered as a tasting portion.",
-            "price": 21.45,
+            "name": "Hearty Herbed Burrito",
+            "price": 29.26,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Pan-seared Thai Curry",
+            "price": 25.77,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Sautéed Chili con Carne",
+            "price": 25.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Juicy Cottage Pie",
+            "price": 25.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -322,9 +375,17 @@ export const tokyoginzaGardenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Garlic Butter Shrimp Skillet",
-            "description": "Layered with care and made to perfection using sun-ripened fruits.",
-            "price": 25.39,
+            "name": "Premium Spiced Traditional Provençal Bouillabaisse",
+            "price": 24.64,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Baked Seafood Alfredo with Spinach Fettuccine",
+            "price": 30.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -332,34 +393,149 @@ export const tokyoginzaGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "House Special Roasted Grilled Lobster with Lemon Butter",
-            "description": "Styled for visual appeal and sautéed to perfection using seasonal ingredients.",
-            "price": 35.14,
+            "name": "Fresh Spiced Lemon-Herb Calamari Steak",
+            "price": 27.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Spicy Steamed Littleneck Clams in Garlic Broth",
+            "price": 34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Creamy Alaskan King Crab Legs with Drawn Butter",
+            "price": 35.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Fresh Sautéed Roasted Root Vegetables",
+            "price": 9.41,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Fresh Spicy Seafood Alfredo with Spinach Fettuccine",
-            "description": "This aromatic favorite is cooked using finest quality ingredients, then elegantly served.",
-            "price": 28.66,
+            "name": "Fresh Tangy Cauliflower Gratin with Gruyère",
+            "price": 9.51,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Satisfying Grilled Asparagus with Lemon Zest",
+            "price": 5.13,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Comforting Chili Lime Roasted Chickpeas",
+            "price": 6.67,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Smoked Soft Polenta with Parmesan",
+            "price": 9.64,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Oysters Rockefeller with Pernod Cream",
-            "description": "This bold favorite is assembled using heritage grains, then beautifully presented.",
-            "price": 22.68,
+            "name": "Seasonal Roasted Homestyle Baked Beans",
+            "price": 5.06,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Water",
+            "price": 6.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 7.6,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 6.71,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 4.4,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 6.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 6.55,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
@@ -370,52 +546,47 @@ export const tokyoginzaGardenMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Fresh Golden Lamb Chops",
-            "description": "Our savory specialty, grilled with seasonal ingredients and presented on a wooden board.",
-            "price": 22.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Grilled Cottage Pie",
-            "description": "Our hearty specialty, hand-folded with wild-caught fish and drizzled with finesse.",
-            "price": 23.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coq au Vin",
-            "description": "This tangy favorite is grilled using seasonal ingredients, then served family-style.",
-            "price": 21.6,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Peppers",
-            "description": "Our hearty specialty, assembled with finest quality ingredients and accompanied by a tasteful garnish.",
-            "price": 18.48,
-            "isVegetarian": false,
+            "name": "Baklava",
+            "price": 7.72,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fajitas",
-            "description": "A refreshing dish charred with sun-ripened fruits and beautifully presented.",
-            "price": 21.86,
+            "name": "Apple Pie",
+            "price": 9.75,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Croissants",
+            "price": 8.08,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Shortbread",
+            "price": 7.93,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Red Velvet Cake",
+            "price": 10.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,12 +596,11 @@ export const tokyoginzaGardenMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Organic Hearty Lentil Stew",
-            "description": "Elegantly served and grilled to perfection using heirloom tomatoes.",
-            "price": 22.4,
+            "name": "Ice Cream Sandwich",
+            "price": 8.17,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -438,44 +608,40 @@ export const tokyoginzaGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Braised Grilled Chicken",
-            "description": "Plated with precision and glazed to perfection using chef-selected spices.",
-            "price": 20.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Irresistible Fajitas",
-            "description": "This savory favorite is glazed using farm-fresh eggs, then elegantly served.",
-            "price": 24.01,
-            "isVegetarian": false,
+            "name": "Ice Cream",
+            "price": 11.3,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Shish Kebabs",
-            "description": "This bold favorite is prepared using handmade pasta, then layered with care.",
-            "price": 29.69,
-            "isVegetarian": false,
+            "name": "Kulfi",
+            "price": 11.89,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Beef Burger",
-            "description": "Attractively arranged and seasoned to perfection using chef-selected spices.",
-            "price": 28.81,
-            "isVegetarian": false,
+            "name": "Sherbet",
+            "price": 11.19,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gelato",
+            "price": 10.47,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
@@ -489,52 +655,65 @@ export const tokyoginzaGardenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Liqueur",
-            "description": "This subtle favorite is made using farm-fresh eggs, then plated with precision.",
-            "price": 11.32,
-            "isVegetarian": false,
+            "name": "Old Fashioned",
+            "price": 12.16,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Port",
-            "description": "Beautifully presented and grilled to perfection using cultured dairy.",
-            "price": 9.6,
-            "isVegetarian": false,
+            "name": "Martini",
+            "price": 12.13,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Sweet Sake",
-            "description": "A citrusy dish oven-baked with hand-picked vegetables and beautifully presented.",
-            "price": 13.75,
-            "isVegetarian": false,
+            "name": "Mojito",
+            "price": 12.55,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Smoked Baijiu",
-            "description": "Our hearty specialty, caramelized with farm-fresh eggs and elegantly served.",
-            "price": 14.34,
-            "isVegetarian": false,
+            "name": "Cosmopolitan",
+            "price": 11.82,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 12.43,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 15.19,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Local Tender Grappa",
-            "description": "Our pungent specialty, smoked with locally foraged herbs and neatly composed.",
-            "price": 9.92,
-            "isVegetarian": false,
+            "name": "Margarita",
+            "price": 13.66,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -544,29 +723,35 @@ export const tokyoginzaGardenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Pizza",
-            "description": "Our citrusy specialty, cooked with seasonal ingredients and presented on a wooden board.",
-            "price": 26.56,
+            "name": "Pinot Blanc",
+            "price": 9.04,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Steak",
-            "description": "This creamy favorite is hand-rolled using organic ingredients, then served with flair.",
-            "price": 22.35,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Organic Grilled Mac and Cheese",
-            "description": "This umami-packed favorite is created using artisanal elements, then presented on a wooden board.",
-            "price": 29.55,
+            "name": "Petit Verdot",
+            "price": 11.79,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Viognier",
+            "price": 10.72,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Malbec",
+            "price": 10.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -574,31 +759,19 @@ export const tokyoginzaGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Flaky Pesto Pasta",
-            "description": "Accompanied by a tasteful garnish and pan-seared to perfection using locally foraged herbs.",
-            "price": 18.21,
+            "name": "Pinot Grigio",
+            "price": 8.29,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tagine",
-            "description": "Artfully plated and grilled to perfection using seasonal ingredients.",
-            "price": 20.22,
+            "name": "Fiano",
+            "price": 9.4,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Tangy Paella",
-            "description": "This refreshing favorite is cooked using wild-caught fish, then served on rustic ware.",
-            "price": 18.99,
-            "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -609,42 +782,47 @@ export const tokyoginzaGardenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Organic Sweet Lamb Chops",
-            "description": "Garnished to perfection and prepared to perfection using locally sourced produce.",
-            "price": 26.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Baked Spaghetti Bolognese",
-            "description": "A floral dish sautéed with heritage grains and served on rustic ware.",
-            "price": 22.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shakshuka",
-            "description": "Beautifully presented and pan-seared to perfection using non-GMO produce.",
-            "price": 21.08,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Jambalaya",
-            "description": "Attractively arranged and charred to perfection using cold-pressed oils.",
-            "price": 19.92,
+            "name": "Pisco",
+            "price": 16.02,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vodka",
+            "price": 12.06,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cointreau",
+            "price": 15.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gin",
+            "price": 16.24,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Armagnac",
+            "price": 10.33,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

@@ -12,19 +12,8 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "House Special Tender Charcoal Grilled Iberico Pork",
-            "description": "Our buttery specialty, seasoned with finest quality ingredients and offered as a tasting portion.",
-            "price": 37.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Hearty Traditional Family Paella",
-            "description": "Nestled in a ceramic bowl and assembled to perfection using cold-pressed oils.",
-            "price": 36.2,
+            "name": "Deluxe Flaky 24-Hour Braised Short Ribs",
+            "price": 27.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -32,12 +21,106 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Grilled Tableside Carved Chateaubriand",
-            "description": "Our refreshing specialty, fire-roasted with seasonal ingredients and served on rustic ware.",
-            "price": 28.72,
+            "name": "Homestyle Sautéed Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 35.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Pan-seared Award-Winning Seafood Boil",
+            "price": 31.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Herbed Whole Roasted Heritage Chicken",
+            "price": 36.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Tangy Sous Vide Perfected Wagyu",
+            "price": 24.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Steamed Seasonal Tasting Menu Experience",
+            "price": 37.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Sweet Legendary Prime Rib",
+            "price": 31.68,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Fresh Creamy Grilled Venison with Juniper Berry Sauce",
+            "price": 39.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Juicy House Specialty Pasta Creation",
+            "price": 24.98,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Golden Signature Spice-Rubbed Protein",
+            "price": 31.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Grilled Live-Fire Grilled Feature",
+            "price": 34.78,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Tender Sous Vide Perfection with Molecular Gastronomy Elements",
+            "price": 27.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -47,29 +130,8 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Stuffed Peppers",
-            "description": "Accompanied by a tasteful garnish and stir-fried to perfection using sun-ripened fruits.",
-            "price": 22.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Braised Jambalaya",
-            "description": "Our subtle specialty, charred with organic ingredients and plated with precision.",
-            "price": 21.87,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Chicken",
-            "description": "Neatly composed and assembled to perfection using cold-pressed oils.",
-            "price": 20.08,
+            "name": "Authentic Spiced Bruschetta",
+            "price": 10.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -77,68 +139,66 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Mouthwatering Lentil Stew",
-            "description": "A pungent dish charred with organic ingredients and accompanied by a tasteful garnish.",
-            "price": 21.51,
+            "name": "Authentic Succulent Caprese Salad",
+            "price": 15.29,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Creamy Garlic Knots",
+            "price": 13.9,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Savory Baba Ganoush",
+            "price": 15.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Smoked Cheese Nachos",
+            "price": 11.7,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Steak",
-            "description": "Served with flair and prepared to perfection using chef-selected spices.",
-            "price": 25.79,
+            "name": "Homestyle Flavorful Shrimp Cocktail",
+            "price": 15.93,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "items": [
-          {
-            "name": "Classic Stuffed Pasta Primavera",
-            "description": "This complex favorite is whipped using organic ingredients, then attractively arranged.",
-            "price": 19.62,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           },
           {
-            "name": "Moussaka",
-            "description": "Our savory specialty, hand-folded with non-GMO produce and beautifully presented.",
-            "price": 25.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Flaky Grilled Chicken",
-            "description": "This robust favorite is charred using hand-picked vegetables, then accompanied by a tasteful garnish.",
-            "price": 24.91,
+            "name": "Hearty Golden Charcuterie Board",
+            "price": 8.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Salmon",
-            "description": "This pungent favorite is oven-baked using finest quality ingredients, then artfully plated.",
-            "price": 25.7,
+            "name": "Authentic Grilled Stuffed Jalapeños",
+            "price": 12.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -147,9 +207,17 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Traditional Baked Pasta Primavera",
-            "description": "Our umami-packed specialty, seasoned with organic ingredients and accompanied by a tasteful garnish.",
-            "price": 24.83,
+            "name": "Seasonal Smoked Pho",
+            "price": 8.53,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Sizzling Corn Chowder",
+            "price": 10.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -157,19 +225,40 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Sautéed Beef Wellington",
-            "description": "Our bold specialty, smoked with microgreens and accompanied by a tasteful garnish.",
-            "price": 28.88,
+            "name": "Traditional Tender Borscht",
+            "price": 12.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coq au Vin",
-            "description": "This fruity favorite is prepared using seasonal ingredients, then elegantly served.",
-            "price": 23.07,
+            "name": "Authentic Delicious Minestrone",
+            "price": 8.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "items": [
+          {
+            "name": "Quinoa Salad",
+            "price": 14.28,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cobb Salad",
+            "price": 9.91,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -177,12 +266,29 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Crunchy Vegetable Stir-Fry",
-            "description": "Our subtle specialty, charred with locally foraged herbs and neatly composed.",
-            "price": 29.78,
+            "name": "Mediterranean Chopped Salad",
+            "price": 12.94,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Potato Salad",
+            "price": 12.61,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Beet Salad",
+            "price": 13.94,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -192,9 +298,53 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Quiche",
-            "description": "Plated with precision and pan-seared to perfection using organic ingredients.",
-            "price": 26.42,
+            "name": "Homestyle Tangy Pizza",
+            "price": 18.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Stuffed Moussaka",
+            "price": 24.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Luscious Roast Duck",
+            "price": 26.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Zesty Risotto",
+            "price": 30.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Roasted Enchiladas",
+            "price": 29.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Irresistible Fajitas",
+            "price": 23.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -202,9 +352,8 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Teriyaki Chicken",
-            "description": "Our zesty specialty, hand-rolled with wild-caught fish and served on rustic ware.",
-            "price": 31.75,
+            "name": "Authentic Sizzling Seafood Platter",
+            "price": 23.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -212,107 +361,11 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Organic Herbed Katsu Curry",
-            "description": "This rich favorite is glazed using microgreens, then plated with precision.",
-            "price": 25.99,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Herbed Tacos",
-            "description": "A savory dish fire-roasted with seasonal ingredients and layered with care.",
-            "price": 31.42,
+            "name": "Traditional Aromatic Stir-fry",
+            "price": 25.77,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pulled Pork Sandwich",
-            "description": "A rich dish composed with grass-fed beef and beautifully presented.",
-            "price": 20.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Eggplant Parmesan",
-            "description": "This subtle favorite is charred using heirloom tomatoes, then accompanied by a tasteful garnish.",
-            "price": 18.64,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Zingy Currywurst",
-            "description": "Our briny specialty, cooked with seasonal ingredients and plated with precision.",
-            "price": 27.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Paella",
-            "description": "A savory dish charred with grass-fed beef and beautifully presented.",
-            "price": 23.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "items": [
-          {
-            "name": "Gnocchi",
-            "description": "This hearty favorite is charred using free-range meats, then drizzled with finesse.",
-            "price": 20.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Steak",
-            "description": "Served with flair and made to perfection using finest quality ingredients.",
-            "price": 21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Sizzling Chicken Parmesan",
-            "description": "A smoky dish braised with grass-fed beef and garnished to perfection.",
-            "price": 23.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Local Luscious Risotto",
-            "description": "Presented on a wooden board and prepared to perfection using hand-picked vegetables.",
-            "price": 26.88,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -322,9 +375,26 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Organic Smoked Garlic Butter Shrimp Skillet",
-            "description": "Artfully plated and slow-cooked to perfection using locally foraged herbs.",
-            "price": 29.91,
+            "name": "Authentic Satisfying New England Lobster Roll",
+            "price": 26.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Flavorful Alaskan King Crab Legs with Drawn Butter",
+            "price": 28.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Golden Stuffed Flounder with Crab and Spinach",
+            "price": 26.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -332,9 +402,58 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Tender Seafood Gumbo with Okra",
-            "description": "A complex dish made with farm-fresh eggs and attractively arranged.",
-            "price": 33.26,
+            "name": "Deluxe Delectable Miso-Marinated Chilean Sea Bass",
+            "price": 31.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Zingy Seafood Gumbo with Okra",
+            "price": 32.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "items": [
+          {
+            "name": "Gourmet Tender Corn on the Cob with Chili Lime Butter",
+            "price": 5.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Juicy Cauliflower Gratin with Gruyère",
+            "price": 8.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Hearty Baked Idaho Potato with Sour Cream",
+            "price": 5.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Sautéed Sweet Corn and Cheddar Fritters",
+            "price": 6.4,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -342,20 +461,77 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Smoked Maryland Style Crab Cakes",
-            "description": "A subtle dish prepared with organic ingredients and served with flair.",
-            "price": 31.57,
+            "name": "Fresh Pan-seared Warm Buttermilk Dinner Rolls",
+            "price": 6.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Organic Stuffed Blackened Mahi-Mahi with Pineapple Salsa",
-            "description": "This pungent favorite is pan-seared using hand-picked vegetables, then drizzled with finesse.",
-            "price": 35.62,
+            "name": "Homestyle Savory Green Beans Almondine",
+            "price": 8.04,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "items": [
+          {
+            "name": "Water",
+            "price": 5.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 4.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 6.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 7.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 5.33,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 4.46,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -370,32 +546,11 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Fresh Pan-seared Grilled Tofu",
-            "description": "Served on rustic ware and smoked to perfection using sustainable seafood.",
-            "price": 20.69,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Chicken",
-            "description": "A savory dish hand-rolled with sustainable seafood and elegantly served.",
-            "price": 28.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Mouthwatering Seafood Platter",
-            "description": "A hearty dish grilled with aged cheeses and beautifully presented.",
-            "price": 20.27,
+            "name": "Berry Tart",
+            "price": 6.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -403,9 +558,17 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Spicy Korma",
-            "description": "Nestled in a ceramic bowl and prepared to perfection using locally sourced produce.",
-            "price": 29.11,
+            "name": "Biscotti",
+            "price": 10.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Madeleines",
+            "price": 7.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -413,9 +576,17 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Smoked Fajitas",
-            "description": "Our buttery specialty, caramelized with cold-pressed oils and served with flair.",
-            "price": 27.95,
+            "name": "Red Velvet Cake",
+            "price": 10.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pecan Pie",
+            "price": 7.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,42 +596,11 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Local Juicy Steak",
-            "description": "Our balanced specialty, cooked with locally foraged herbs and neatly composed.",
-            "price": 22.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Bibimbap",
-            "description": "Our hearty specialty, prepared with grass-fed beef and served with flair.",
-            "price": 20.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pulled Pork Sandwich",
-            "description": "Artfully plated and braised to perfection using organic ingredients.",
-            "price": 27.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seafood Platter",
-            "description": "This buttery favorite is poached using wild-caught fish, then served family-style.",
-            "price": 22.38,
+            "name": "Paletas",
+            "price": 9.52,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -468,9 +608,35 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Stir-fry",
-            "description": "A nutty dish stir-fried with premium components and beautifully presented.",
-            "price": 20.58,
+            "name": "Frozen Custard",
+            "price": 7.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Banana",
+            "price": 7.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Cake",
+            "price": 9.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Popsicles",
+            "price": 8.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -489,29 +655,26 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Margarita",
-            "description": "Plated with precision and created to perfection using non-GMO produce.",
-            "price": 14.13,
-            "isVegetarian": true,
+            "name": "Martini",
+            "price": 15.82,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Spicy Madeira",
-            "description": "A rich dish prepared with chef-selected spices and beautifully presented.",
-            "price": 11.64,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Whiskey Sour",
+            "price": 15.48,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Prosecco",
-            "description": "A hearty dish created with microgreens and presented on a wooden board.",
-            "price": 13.29,
+            "name": "Margarita",
+            "price": 10.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -519,9 +682,8 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Herbed Daiquiri",
-            "description": "This refreshing favorite is braised using aged cheeses, then presented on a wooden board.",
-            "price": 11.48,
+            "name": "Old Fashioned",
+            "price": 14.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,10 +691,27 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Sautéed Absinthe",
-            "description": "Our buttery specialty, prepared with locally sourced produce and presented on a wooden board.",
-            "price": 11.16,
+            "name": "Mai Tai",
+            "price": 12.92,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 10.5,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 11.24,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -544,19 +723,26 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Classic Savory Teriyaki Chicken",
-            "description": "This aromatic favorite is cooked using locally foraged herbs, then served family-style.",
-            "price": 28.2,
+            "name": "Syrah/Shiraz",
+            "price": 10.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Organic Zesty Mac and Cheese",
-            "description": "Plated with precision and smoked to perfection using farm-fresh eggs.",
-            "price": 19.72,
+            "name": "Verdicchio",
+            "price": 13.04,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chardonnay",
+            "price": 10.91,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -564,44 +750,31 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Vegetable Stir-Fry",
-            "description": "Our zesty specialty, oven-baked with microgreens and neatly composed.",
-            "price": 18.85,
+            "name": "Gewürztraminer",
+            "price": 13.5,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Wholesome Pho",
-            "description": "Our citrusy specialty, whipped with organic ingredients and elegantly served.",
-            "price": 28.57,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Creamy Steak",
-            "description": "A complex dish composed with grass-fed beef and served with flair.",
-            "price": 21.45,
+            "name": "Torrontés",
+            "price": 9.86,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tempranillo",
+            "price": 8.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Creamy Salmon",
-            "description": "A complex dish created with wild-caught fish and artfully plated.",
-            "price": 26.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
@@ -609,9 +782,8 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Grilled Tofu",
-            "description": "Drizzled with finesse and smoked to perfection using sustainable seafood.",
-            "price": 24.47,
+            "name": "Whiskey",
+            "price": 10.6,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,34 +791,40 @@ export const torontoblueGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Irresistible Steak",
-            "description": "Plated with precision and oven-baked to perfection using locally foraged herbs.",
-            "price": 26.16,
-            "isVegetarian": false,
+            "name": "Bourbon",
+            "price": 16.78,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Chef's Luscious Grilled Chicken",
-            "description": "This savory favorite is stir-fried using wild-caught fish, then beautifully presented.",
-            "price": 29.44,
+            "name": "Triple Sec",
+            "price": 15.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Calvados",
+            "price": 10.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Pulled Pork Sandwich",
-            "description": "Presented on a wooden board and stir-fried to perfection using sustainable seafood.",
-            "price": 29.86,
+            "name": "Mezcal",
+            "price": 10.36,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       }

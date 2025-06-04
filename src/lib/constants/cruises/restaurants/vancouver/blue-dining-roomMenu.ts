@@ -12,54 +12,17 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Age-Old Recipe Osso Buco with Gremolata",
-            "description": "A tangy dish braised with organic ingredients and accompanied by a tasteful garnish.",
-            "price": 26.58,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Spicy Chef’s Wild Game Selection",
-            "description": "Our zesty specialty, prepared with sustainable seafood and artfully plated.",
-            "price": 33.99,
+            "name": "Traditional Irresistible Tableside Carved Chateaubriand",
+            "price": 24.13,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Smoked 24-Hour Braised Short Ribs",
-            "description": "A hearty dish glazed with sustainable seafood and drizzled with finesse.",
-            "price": 34.74,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Appetizers",
-        "items": [
-          {
-            "name": "Katsu Curry",
-            "description": "A rich dish whipped with finest quality ingredients and served on rustic ware.",
-            "price": 21.05,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Golden Pulled Pork Sandwich",
-            "description": "Our rich specialty, made with cultured dairy and garnished to perfection.",
-            "price": 29.94,
+            "name": "Authentic Steamed Chef’s Wild Game Selection",
+            "price": 29.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -67,33 +30,216 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Zesty Tacos",
-            "description": "This balanced favorite is caramelized using heirloom tomatoes, then elegantly served.",
-            "price": 24.82,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vegetable Stir-Fry",
-            "description": "Our sweet specialty, seasoned with farm-fresh eggs and beautifully presented.",
-            "price": 28.76,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Peppers",
-            "description": "Our rich specialty, cooked with locally sourced produce and garnished to perfection.",
-            "price": 28.75,
+            "name": "Seasonal Crunchy Japanese A5 Wagyu with Ponzu Butter",
+            "price": 27.09,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Hearty 24-Hour Braised Short Ribs",
+            "price": 28.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Satisfying Seasonal Tasting Menu Experience",
+            "price": 36.02,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Juicy Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 37.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Marinated Charcoal Grilled Iberico Pork",
+            "price": 34.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "items": [
+          {
+            "name": "Seasonal Zesty Heritage Breed Porchetta",
+            "price": 39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Sweet Cast Iron Seafood Presentation",
+            "price": 33.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Sizzling Lobster Thermidor",
+            "price": 34.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Aromatic Wild Mushroom Risotto",
+            "price": 34.6,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Hearty Charcoal-Grilled Wagyu Beef",
+            "price": 36.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Appetizers",
+        "items": [
+          {
+            "name": "Gourmet Wholesome Garlic Knots",
+            "price": 13.96,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Smoked Arancini",
+            "price": 14.21,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Zesty Garlic Bread",
+            "price": 15.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Zingy Mozzarella Sticks",
+            "price": 13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Grilled Charcuterie Board",
+            "price": 10.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Tender Dumplings",
+            "price": 11.28,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Satisfying Zucchini Fries",
+            "price": 8.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Creamy Tuna Tartare",
+            "price": 10.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Soups",
+        "items": [
+          {
+            "name": "Homestyle Delicious French Onion Soup",
+            "price": 10.57,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Satisfying Chicken Noodle Soup",
+            "price": 7.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Creamy Mushroom Soup",
+            "price": 12.22,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Pan-seared Black Bean Soup",
+            "price": 13.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -102,87 +248,47 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Classic Creamy Roast Duck",
-            "description": "Our umami-packed specialty, glazed with finest quality ingredients and accompanied by a tasteful garnish.",
-            "price": 20.14,
+            "name": "Southwest Black Bean Salad",
+            "price": 14.26,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Enticing Pizza",
-            "description": "Our pungent specialty, prepared with organic ingredients and served family-style.",
-            "price": 25.59,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Grilled Mac and Cheese",
-            "description": "A rich dish created with wild-caught fish and served family-style.",
-            "price": 24.04,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Katsu Curry",
-            "description": "This aromatic favorite is hand-folded using aged cheeses, then garnished to perfection.",
-            "price": 22.66,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Soups",
-        "items": [
-          {
-            "name": "Jambalaya",
-            "description": "A floral dish stir-fried with locally sourced produce and artfully plated.",
-            "price": 28.9,
+            "name": "Thai Green Papaya Salad",
+            "price": 13.24,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Thai Curry",
-            "description": "This savory favorite is composed using artisanal elements, then stacked artistically.",
-            "price": 24.1,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tacos",
-            "description": "Nestled in a ceramic bowl and assembled to perfection using locally foraged herbs.",
-            "price": 23.92,
+            "name": "Broccoli Crunch Salad",
+            "price": 10.08,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fajitas",
-            "description": "A rich dish hand-rolled with cold-pressed oils and garnished to perfection.",
-            "price": 24.41,
+            "name": "Tabbouleh",
+            "price": 15.48,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spinach Salad",
+            "price": 9.1,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -192,49 +298,26 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Fish and Chips",
-            "description": "A fruity dish glazed with sustainable seafood and accompanied by a tasteful garnish.",
-            "price": 24.53,
+            "name": "Authentic Roasted Shakshuka",
+            "price": 23.94,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Eggplant Parmesan",
-            "description": "A savory dish braised with sustainable seafood and elegantly served.",
-            "price": 30.12,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Biryani",
-            "description": "Our hearty specialty, composed with sun-ripened fruits and nestled in a ceramic bowl.",
-            "price": 20.86,
+            "name": "Hearty Crunchy Steak",
+            "price": 19.54,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Herbed Lamb Chops",
-            "description": "This savory favorite is pan-seared using hand-picked vegetables, then served with flair.",
-            "price": 18.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Chef's Sautéed Pizza",
-            "description": "This pungent favorite is pan-seared using heritage grains, then beautifully presented.",
-            "price": 27.05,
+            "name": "Seasonal Savory Jambalaya",
+            "price": 23.55,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -242,33 +325,98 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Grilled Beef Wellington",
-            "description": "This earthy favorite is made using free-range meats, then served on rustic ware.",
-            "price": 25.57,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Premium Comforting Pesto Pasta",
+            "price": 30.48,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "House Special Smoked Steak",
-            "description": "Plated with precision and made to perfection using wild-caught fish.",
-            "price": 28.01,
+            "name": "Authentic Grilled Pho",
+            "price": 25.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Crunchy Chicken Parmesan",
+            "price": 29.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Stir-fry",
-            "description": "This earthy favorite is roasted using premium components, then stacked artistically.",
-            "price": 23.53,
-            "isVegetarian": true,
+            "name": "Authentic Exquisite Cottage Pie",
+            "price": 24.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Braised Grilled Chicken",
+            "price": 23.7,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "items": [
+          {
+            "name": "Fresh Crunchy Cedar Plank Roasted Salmon",
+            "price": 35.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Herbed Smoked Salmon Platter with Dill Crème",
+            "price": 31.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Grilled Oysters Rockefeller with Pernod Cream",
+            "price": 31.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Baked Pan-Seared Scallops with Pea Purée",
+            "price": 34.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Irresistible Seared Tuna Steak with Sesame Crust",
+            "price": 22.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -277,29 +425,35 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Biryani",
-            "description": "This robust favorite is slow-cooked using organic ingredients, then garnished to perfection.",
-            "price": 18.09,
+            "name": "Organic Herbed Truffle Parmesan Fries",
+            "price": 5.11,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Thai Curry",
-            "description": "Our earthy specialty, marinated with free-range meats and served on rustic ware.",
-            "price": 26.51,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Homestyle Sweet Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 8.14,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Herbed Chicken Parmesan",
-            "description": "This umami-packed favorite is marinated using locally sourced produce, then drizzled with finesse.",
-            "price": 29.77,
+            "name": "Homestyle Spiced Fragrant Basmati Rice Pilaf",
+            "price": 9.62,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Zingy Creamy Colcannon (Irish Potato Mash)",
+            "price": 6.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -307,34 +461,67 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Salmon",
-            "description": "Our subtle specialty, seasoned with microgreens and artfully plated.",
-            "price": 23.85,
-            "isVegetarian": false,
+            "name": "Homestyle Creamy Cauliflower Gratin with Gruyère",
+            "price": 7.15,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Zingy Green Beans Almondine",
+            "price": 5.88,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
-        "name": "Seafood Specialties",
+        "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Classic British Fish and Chips",
-            "description": "This savory favorite is crafted using seasonal ingredients, then nestled in a ceramic bowl.",
-            "price": 30.48,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Iced Tea",
+            "price": 5.15,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 7.74,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 5.27,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Classic Zingy Lobster Thermidor with Gruyère Crust",
-            "description": "Our herbaceous specialty, marinated with free-range meats and neatly composed.",
-            "price": 25.13,
+            "name": "Hot Chocolate",
+            "price": 5.78,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 7.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -342,22 +529,11 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Savory Baked Cod with Lemon Caper Sauce",
-            "description": "A floral dish assembled with locally foraged herbs and beautifully presented.",
-            "price": 26.82,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Spiced Maryland Style Crab Cakes",
-            "description": "Served with flair and crafted to perfection using seasonal ingredients.",
-            "price": 34.23,
+            "name": "Soda",
+            "price": 6.13,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -370,42 +546,20 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
     "description": "Indulge in our delicious sweet creations",
     "category": [
       {
-        "name": "Frozen Desserts",
+        "name": "Baked Goods",
         "items": [
           {
-            "name": "Local Hearty Katsu Curry",
-            "description": "Elegantly served and poached to perfection using microgreens.",
-            "price": 24.46,
+            "name": "Croissants",
+            "price": 8.6,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Lamb Chops",
-            "description": "Served family-style and hand-folded to perfection using sun-ripened fruits.",
-            "price": 23.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Chili con Carne",
-            "description": "A fruity dish oven-baked with premium components and plated with precision.",
-            "price": 28.39,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spaghetti Bolognese",
-            "description": "A zesty dish braised with seasonal ingredients and served family-style.",
-            "price": 21.72,
+            "name": "Soufflé",
+            "price": 6.68,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -413,9 +567,26 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Crispy Grilled Chicken",
-            "description": "This hearty favorite is grilled using cultured dairy, then elegantly served.",
-            "price": 27.98,
+            "name": "Fruit Galette",
+            "price": 6.08,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vanilla Cake",
+            "price": 9.06,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Biscotti",
+            "price": 7.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,55 +596,50 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Baked Goods",
+        "name": "Frozen Desserts",
         "items": [
           {
-            "name": "House Special Herbed Grilled Chicken",
-            "description": "This spicy favorite is created using free-range meats, then plated with precision.",
-            "price": 22.92,
+            "name": "Frosty",
+            "price": 9.46,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Zesty Fajitas",
-            "description": "Neatly composed and crafted to perfection using seasonal ingredients.",
-            "price": 29.26,
-            "isVegetarian": true,
+            "name": "Frozen Banana",
+            "price": 8.13,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Cake",
+            "price": 11.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sorbet",
+            "price": 7.44,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pho",
-            "description": "Accompanied by a tasteful garnish and cooked to perfection using artisanal elements.",
-            "price": 20.5,
+            "name": "Frozen Pudding",
+            "price": 8.6,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Sweet Lasagna",
-            "description": "Artfully plated and grilled to perfection using premium components.",
-            "price": 25.9,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Risotto",
-            "description": "A refreshing dish composed with house-made sauces and nestled in a ceramic bowl.",
-            "price": 27.12,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -489,52 +655,65 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Organic Sweet Vermouth",
-            "description": "This creamy favorite is assembled using cultured dairy, then nestled in a ceramic bowl.",
-            "price": 13.8,
+            "name": "Margarita",
+            "price": 11.63,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 10.94,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 10.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 15.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 15.28,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Golden Beer",
-            "description": "Offered as a tasting portion and composed to perfection using heritage grains.",
-            "price": 13.37,
+            "name": "Negroni",
+            "price": 14.44,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Sweet Old Tom Gin",
-            "description": "Accompanied by a tasteful garnish and stir-fried to perfection using heirloom tomatoes.",
-            "price": 14.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Stuffed Shochu",
-            "description": "Our smoky specialty, charred with finest quality ingredients and plated with precision.",
-            "price": 12.19,
+            "name": "Whiskey Sour",
+            "price": 14.59,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Madeira",
-            "description": "Garnished to perfection and poached to perfection using cultured dairy.",
-            "price": 14.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -544,19 +723,8 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Chicken Parmesan",
-            "description": "A subtle dish grilled with free-range meats and layered with care.",
-            "price": 20.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Steak",
-            "description": "Served with flair and charred to perfection using locally sourced produce.",
-            "price": 20.9,
+            "name": "Gamay",
+            "price": 12.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -564,9 +732,17 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Stuffed Gnocchi",
-            "description": "This zesty favorite is oven-baked using sustainable seafood, then elegantly served.",
-            "price": 25.71,
+            "name": "Marsanne",
+            "price": 11.44,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sangiovese",
+            "price": 9.68,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -574,32 +750,29 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Roasted Salmon",
-            "description": "A savory dish pan-seared with seasonal ingredients and beautifully presented.",
-            "price": 26.01,
+            "name": "Nebbiolo",
+            "price": 11.1,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Spicy Bibimbap",
-            "description": "Our bold specialty, charred with hand-picked vegetables and served with flair.",
-            "price": 21.87,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Spaghetti Bolognese",
-            "description": "This fruity favorite is caramelized using locally sourced produce, then served on rustic ware.",
-            "price": 29.27,
+            "name": "Grenache",
+            "price": 9.5,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chardonnay",
+            "price": 11.9,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -609,39 +782,44 @@ export const vancouverblueDiningRoomMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Organic Spiced Lamb Chops",
-            "description": "A robust dish composed with non-GMO produce and nestled in a ceramic bowl.",
-            "price": 24.82,
+            "name": "Drambuie",
+            "price": 11.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Delicious Seafood Platter",
-            "description": "A rich dish prepared with locally foraged herbs and garnished to perfection.",
-            "price": 26.55,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Crispy Burrito",
-            "description": "Our umami-packed specialty, prepared with organic ingredients and beautifully presented.",
-            "price": 29.96,
-            "isVegetarian": false,
+            "name": "Rum",
+            "price": 13.06,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Biryani",
-            "description": "Our rich specialty, made with seasonal ingredients and beautifully presented.",
-            "price": 27.01,
+            "name": "Tequila",
+            "price": 16.84,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frangelico",
+            "price": 16.62,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "St-Germain",
+            "price": 11.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
