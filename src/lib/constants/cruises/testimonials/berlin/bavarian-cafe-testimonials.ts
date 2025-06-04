@@ -5,63 +5,107 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const berlinbavarianCafeTestimonials: Testimonial[] = [
   {
-    "quote": "I can't say enough about the amazing cuisine at Bavarian Cafe. The helpful service and intimate ambiance made for a perfect night out.",
-    "author": "Ava Smith",
-    "title": "Travel Writer"
+    "quote": "Bavarian Cafe has the most excellent flavors I've ever tasted. The inviting atmosphere made our evening special, and the service was excellent.",
+    "author": "William Jackson",
+    "title": "Culinary Expert",
+    "image": "/images/testimonials/person-7.jpg"
   },
   {
-    "quote": "Our visit to Bavarian Cafe was outstanding. The meal were exceptional, the staff knowledgeable, and the atmosphere intimate. A must-visit!",
-    "author": "Elizabeth Wilson",
-    "title": "Cruise Traveler"
+    "quote": "The meal at Bavarian Cafe were absolutely marvelous! The service was exceptional and the atmosphere was elegant. Highly recommend!",
+    "author": "William Perez",
+    "title": "Dining Columnist"
   },
   {
-    "quote": "Bavarian Cafe has the most exceptional cuisine I've ever tasted. The relaxing atmosphere made our evening special, and the service was outstanding.",
-    "author": "Thomas White",
-    "title": "Cruise Traveler"
-  },
-  {
-    "quote": "Bavarian Cafe has the most delectable cuisine I've ever tasted. The elegant atmosphere made our evening special, and the service was superb.",
-    "author": "William Smith",
-    "title": "Food Critic"
-  },
-  {
-    "quote": "The cuisine at Bavarian Cafe were absolutely exceptional! The service was impeccable and the atmosphere was pleasant. Highly recommend!",
-    "author": "Emily Garcia",
+    "quote": "Bavarian Cafe has the most outstanding flavors I've ever tasted. The comfortable atmosphere made our evening special, and the service was exceptional.",
+    "author": "David Perez",
     "title": "Gastronomy Enthusiast"
   },
   {
-    "quote": "Bavarian Cafe has the most delectable meal I've ever tasted. The comfortable atmosphere made our evening special, and the service was prompt.",
-    "author": "Lisa Martinez",
-    "title": "Gourmet Explorer"
-  },
-  {
-    "quote": "Our visit to Bavarian Cafe was outstanding. The cuisine were superb, the staff attentive, and the atmosphere welcoming. A must-visit!",
-    "author": "Sarah Davis",
-    "title": "Restaurant Enthusiast"
-  },
-  {
-    "quote": "Bavarian Cafe has the most amazing appetizers I've ever tasted. The relaxing atmosphere made our evening special, and the service was friendly.",
-    "author": "James Garcia",
-    "title": "Travel Blogger"
-  },
-  {
-    "quote": "I can't say enough about the incredible food at Bavarian Cafe. The wonderful service and stylish ambiance made for a perfect night out.",
-    "author": "Lisa Rodriguez",
+    "quote": "Our visit to Bavarian Cafe was outstanding. The entrees were delectable, the staff fantastic, and the atmosphere stylish. A must-visit!",
+    "author": "Emma Anderson",
     "title": "Cruise Traveler"
   },
   {
-    "quote": "Our visit to Bavarian Cafe was outstanding. The food were outstanding, the staff helpful, and the atmosphere charming. A must-visit!",
-    "author": "Michael Miller",
+    "quote": "The flavors at Bavarian Cafe were absolutely impressive! The service was courteous and the atmosphere was pleasant. Highly recommend!",
+    "author": "Robert Jackson",
     "title": "Food & Wine Connoisseur"
   },
   {
-    "quote": "What a wonderful dining experience at Bavarian Cafe! The dishes exceeded our expectations, and the staff was helpful. Will definitely return!",
-    "author": "Matthew Moore",
+    "quote": "Bavarian Cafe has the most exceptional appetizers I've ever tasted. The comfortable atmosphere made our evening special, and the service was impeccable.",
+    "author": "William Taylor",
     "title": "Lifestyle Influencer"
   },
   {
-    "quote": "The flavors at Bavarian Cafe were absolutely outstanding! The service was impeccable and the atmosphere was pleasant. Highly recommend!",
-    "author": "Lisa Martin",
-    "title": "Food Journalist"
+    "quote": "What a delightful dining experience at Bavarian Cafe! The entrees exceeded our expectations, and the staff was outstanding. Will definitely return!",
+    "author": "Sophia Taylor",
+    "title": "Cruise Traveler"
+  },
+  {
+    "quote": "Bavarian Cafe has the most superb food I've ever tasted. The welcoming atmosphere made our evening special, and the service was superb.",
+    "author": "Olivia Taylor",
+    "title": "Cooking Aficionado"
+  },
+  {
+    "quote": "Bavarian Cafe has the most exceptional menu items I've ever tasted. The vibrant atmosphere made our evening special, and the service was friendly.",
+    "author": "Thomas Martin",
+    "title": "Cruise Traveler"
+  },
+  {
+    "quote": "I can't say enough about the excellent food at Bavarian Cafe. The exceptional service and pleasant ambiance made for a perfect night out.",
+    "author": "Robert Miller",
+    "title": "Travel Writer"
+  },
+  {
+    "quote": "Our visit to Bavarian Cafe was outstanding. The specialties were exceptional, the staff excellent, and the atmosphere relaxing. A must-visit!",
+    "author": "Robert Johnson",
+    "title": "Travel Blogger",
+    "image": "/images/testimonials/person-11.jpg"
+  },
+  {
+    "quote": "What a great dining experience at Bavarian Cafe! The entrees exceeded our expectations, and the staff was knowledgeable. Will definitely return!",
+    "author": "James Martin",
+    "title": "Travel Blogger"
+  },
+  {
+    "quote": "What a great dining experience at Bavarian Cafe! The food exceeded our expectations, and the staff was courteous. Will definitely return!",
+    "author": "Olivia Wilson",
+    "title": "Lifestyle Influencer",
+    "image": "/images/testimonials/person-9.jpg"
+  },
+  {
+    "quote": "What a perfect dining experience at Bavarian Cafe! The food exceeded our expectations, and the staff was professional. Will definitely return!",
+    "author": "Thomas Perez",
+    "title": "Food Critic",
+    "image": "/images/testimonials/person-12.jpg"
+  },
+  {
+    "quote": "Bavarian Cafe has the most delectable flavors I've ever tasted. The welcoming atmosphere made our evening special, and the service was helpful.",
+    "author": "Maria Martin",
+    "title": "Gourmet Explorer"
+  },
+  {
+    "quote": "What a exceptional dining experience at Bavarian Cafe! The desserts exceeded our expectations, and the staff was knowledgeable. Will definitely return!",
+    "author": "Elizabeth Martinez",
+    "title": "Dining Columnist"
+  },
+  {
+    "quote": "Bavarian Cafe has the most great cuisine I've ever tasted. The relaxing atmosphere made our evening special, and the service was prompt.",
+    "author": "William Taylor",
+    "title": "Culinary Expert"
+  },
+  {
+    "quote": "I can't say enough about the superb dishes at Bavarian Cafe. The superb service and inviting ambiance made for a perfect night out.",
+    "author": "Sarah Garcia",
+    "title": "Travel Writer"
+  },
+  {
+    "quote": "I can't say enough about the delicious cuisine at Bavarian Cafe. The superb service and pleasant ambiance made for a perfect night out.",
+    "author": "William Rodriguez",
+    "title": "Food Critic"
+  },
+  {
+    "quote": "I can't say enough about the exceptional specialties at Bavarian Cafe. The professional service and comfortable ambiance made for a perfect night out.",
+    "author": "Daniel Jones",
+    "title": "Dining Columnist"
   }
 ];
