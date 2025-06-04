@@ -2,11 +2,43 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
+
+
+// Import minimist for command-line argument parsing
+import minimist from "minimist";
+
 // Import the menu data from restaurants.js
-import {
-    descriptionElements,
-    menuItems
-} from "../src/lib/constants/info/restaurants.js";
+import { menuItems } from "../src/lib/constants/info/restaurants.js";
+
+// Parse command line arguments
+const args = minimist(process.argv.slice(2), {
+  string: ["menu-type", "category", "restaurant"],
+  number: ["items"],
+  default: {
+    "menu-type": "all",
+    category: "all",
+    items: 5,
+    restaurant: "all",
+  },
+});
+
+// Validate menu-type argument
+const validMenuTypes = ["all", "main", "dessert", "drinks"];
+if (!validMenuTypes.includes(args["menu-type"])) {
+  console.warn(`Invalid menu type: ${args["menu-type"]}. Using 'all' instead.`);
+  args["menu-type"] = "all";
+}
+
+// Display chosen options
+console.log(`Generating with options:`);
+console.log(`- Menu Type: ${args["menu-type"]}`);
+console.log(`- Category: ${args["category"]}`);
+console.log(`- Items per category: ${args["items"]}`);
+console.log(
+  `- Restaurant: ${
+    args["restaurant"] === "all" ? "All restaurants" : args["restaurant"]
+  }`
+);
 
 // Get the equivalent of __dirname in ESM
 const __filename = fileURLToPath(import.meta.url);
@@ -92,103 +124,370 @@ function getRandomItems(array, count = 1) {
   return shuffled.slice(0, count);
 }
 
-// Function to create a menu item description
-function generateItemDescription() {
-  const cookingTerm = getRandomItems(descriptionElements.cookingTerms, 1)[0];
-  const flavorProfile = getRandomItems(
-    descriptionElements.flavorProfiles,
-    1
-  )[0];
-  const servingStyle = getRandomItems(descriptionElements.servingStyles, 1)[0];
-  const ingredient = getRandomItems(descriptionElements.ingredients, 1)[0];
-
-  const templates = [
-    `A ${flavorProfile} dish ${cookingTerm} with ${ingredient} and ${servingStyle}.`,
-    `${
-      servingStyle.charAt(0).toUpperCase() + servingStyle.slice(1)
-    } and ${cookingTerm} to perfection using ${ingredient}.`,
-    `Our ${flavorProfile} specialty, ${cookingTerm} with ${ingredient} and ${servingStyle}.`,
-    `This ${flavorProfile} favorite is ${cookingTerm} using ${ingredient}, then ${servingStyle}.`,
-  ];
-
-  return templates[Math.floor(Math.random() * templates.length)];
-}
-
 // Function to determine if a menu item should have a dietary restriction based on cuisine and randomness
 function getDietaryFlags(cuisine, itemName) {
   // These cuisines have more vegetarian options
   const vegetarianFriendlyCuisines = [
-    "Indian",
-    "Mediterranean",
-    "Italian",
+    "Burmese",
+    "Chinese",
+    "Ethiopian",
     "Greek",
+    "Indian",
+    "Indonesian",
+    "Italian",
+    "Japanese",
     "Lebanese",
+    "Mediterranean",
+    "Mexican",
+    "Middle Eastern",
+    "Peruvian",
     "Thai",
     "Vietnamese",
   ];
+
   // These cuisines have more vegan options
   const veganFriendlyCuisines = [
+    "Chinese",
+    "Ethiopian",
     "Indian",
-    "Mediterranean",
+    "Japanese",
     "Lebanese",
+    "Mediterranean",
+    "Mexican",
     "Thai",
     "Vietnamese",
   ];
+
   // These cuisines have more gluten-free options
   const glutenFreeFriendlyCuisines = [
+    "Greek",
+    "Indian",
+    "Japanese",
+    "Mediterranean",
+    "Mexican",
+    "Middle Eastern",
     "Thai",
     "Vietnamese",
-    "Mexican",
-    "Japanese",
-    "Indian",
   ];
 
   // Keywords that suggest meat
   const meatKeywords = [
+    // General meat terms
+    "meat",
+    "red meat",
+    "white meat",
+    "game meat",
+    "charcuterie",
+    "cured meat",
+
+    // Beef
     "beef",
     "steak",
+    "ribeye",
+    "sirloin",
+    "brisket",
+    "short ribs",
+    "filet mignon",
+    "tenderloin",
+    "roast beef",
+    "corned beef",
+    "ground beef",
+    "ox",
+    "oxtail",
+
+    // Pork
     "pork",
-    "lamb",
-    "chicken",
-    "duck",
-    "turkey",
-    "veal",
     "bacon",
     "ham",
+    "prosciutto",
+    "pancetta",
+    "chorizo",
+    "salami",
+    "loin",
+    "pork belly",
+    "ribs",
+    "pork chop",
+    "hog",
+    "pig",
+
+    // Lamb / Goat
+    "lamb",
+    "mutton",
+    "goat",
+    "rack of lamb",
+    "lamb chop",
+    "shank",
+    "chevon",
+
+    // Poultry
+    "chicken",
+    "turkey",
+    "duck",
+    "goose",
+    "hen",
+    "cornish hen",
+    "quail",
+    "pheasant",
+    "fowl",
+    "drumstick",
+    "wing",
+    "breast",
+    "thigh",
+
+    // Veal
+    "veal",
+    "veal chop",
+
+    // Sausages & Processed
+    "sausage",
+    "bratwurst",
+    "andouille",
+    "hot dog",
+    "kielbasa",
+    "bologna",
+
+    // Other game / exotic meats (optional)
+    "venison",
+    "elk",
+    "boar",
+    "rabbit",
+    "kangaroo",
+    "bison",
+    "buffalo",
   ];
+
   // Keywords that suggest seafood
   const seafoodKeywords = [
+    // General categories
     "fish",
+    "shellfish",
+    "crustacean",
+    "seafood",
+    "ocean catch",
+    "whitefish",
+
+    // Finfish
     "salmon",
     "tuna",
+    "trout",
+    "cod",
+    "halibut",
+    "snapper",
+    "tilapia",
+    "bass",
+    "sea bass",
+    "grouper",
+    "catfish",
+    "barramundi",
+    "mackerel",
+    "sardine",
+    "anchovy",
+    "herring",
+    "mahi mahi",
+    "sablefish",
+    "flounder",
+    "sole",
+
+    // Shellfish – Crustaceans
     "shrimp",
-    "prawn",
+    "prawns",
     "lobster",
     "crab",
+    "langoustine",
+    "crayfish",
+
+    // Shellfish – Mollusks
+    "clam",
     "mussel",
     "oyster",
     "scallop",
+    "cockle",
+    "whelk",
+
+    // Cephalopods
+    "squid",
+    "calamari",
+    "octopus",
+    "cuttlefish",
+
+    // Roe & Misc
+    "caviar",
+    "fish roe",
+    "smelt",
+    "eel",
+    "uni",
+    "ikan",
+    "kani",
+
+    // Prepared terms / dishes
+    "seafood stew",
+    "seafood pasta",
+    "seafood risotto",
+    "grilled fish",
+    "fish and chips",
+    "crab cake",
+    "lobster roll",
+    "shrimp cocktail",
+    "tuna tartare",
+    "poke",
   ];
+
   // Keywords that suggest dairy
   const dairyKeywords = [
-    "cheese",
-    "cream",
+    // Core Dairy Products
     "milk",
+    "cream",
     "butter",
+    "cheese",
     "yogurt",
     "custard",
+
+    // Milk Derivatives
+    "buttermilk",
+    "evaporated milk",
+    "condensed milk",
+    "whole milk",
+    "skim milk",
+    "2% milk",
+    "heavy cream",
+    "whipping cream",
+    "half and half",
+    "sour cream",
+    "clotted cream",
+    "creme fraiche",
+
+    // Cheese Varieties
+    "parmesan",
+    "mozzarella",
+    "cheddar",
+    "feta",
+    "brie",
+    "gouda",
+    "swiss",
+    "blue cheese",
+    "goat cheese",
+    "ricotta",
+    "cottage cheese",
+    "cream cheese",
+    "asiago",
+    "pecorino",
+    "monterey jack",
+    "provolone",
+
+    // Dairy-Based Sauces & Dishes
+    "alfredo",
+    "béchamel",
+    "cheese sauce",
+    "mac and cheese",
+    "cheesecake",
+    "ice cream",
+    "gelato",
+    "milkshake",
+    "pudding",
+
+    // Misc
+    "lactose",
+    "whey",
+    "casein",
+    "dairy",
+    "dairy-based",
   ];
+
   // Keywords that suggest gluten
   const glutenKeywords = [
-    "bread",
-    "pasta",
+    // Grains & Flours
     "wheat",
-    "pizza",
-    "dough",
-    "flour",
+    "barley",
+    "rye",
+    "triticale",
+    "semolina",
+    "spelt",
+    "farro",
+    "durum",
+    "graham",
+    "kamut",
+    "einkorn",
+    "malt",
+    "matzo",
+    "bran",
+    "bulgur",
+    "couscous",
+    "gluten flour",
+    "bleached flour",
+    "self-rising flour",
+    "enriched flour",
+    "whole wheat flour",
+    "all-purpose flour",
+    "cake flour",
+    "pastry flour",
+
+    // Baked Goods & Doughs
+    "bread",
+    "bagel",
+    "bun",
+    "brioche",
+    "roll",
+    "biscuit",
+    "croissant",
     "pastry",
+    "crust",
     "cake",
+    "cupcake",
+    "brownie",
     "pie",
+    "tart",
+    "donut",
+    "muffin",
+    "cookie",
+    "crackers",
+    "croutons",
+    "scone",
+    "shortbread",
+    "waffle cone",
+
+    // Pasta & Noodles
+    "pasta",
+    "spaghetti",
+    "fettuccine",
+    "linguine",
+    "macaroni",
+    "penne",
+    "lasagna",
+    "noodles",
+    "ravioli",
+    "tortellini",
+    "gnocchi",
+    "ramen",
+    "udon",
+    "lo mein",
+    "chow mein",
+
+    // Dishes
+    "pizza",
+    "calzone",
+    "stromboli",
+    "dumpling",
+    "empanada",
+    "pierogi",
+    "potsticker",
+    "pita",
+    "flatbread",
+    "stuffing",
+    "gravy (thickened with flour)",
+
+    // Snacks & Misc
+    "pretzel",
+    "granola bar",
+    "trail mix (with granola)",
+    "breadsticks",
+    "beer batter",
+    "seitan",
+    "soy sauce (traditional)",
+    "tempura",
+    "breadcrumbs",
+    "breading",
+    "dough",
+    "batter",
   ];
 
   const lowerName = itemName.toLowerCase();
@@ -325,18 +624,27 @@ function generateMenuItems(category, cuisine, count = 5) {
 
     return {
       name: itemName,
-      description: generateItemDescription(),
       price: parseFloat(generateRandomPrice(priceRange.min, priceRange.max)),
       ...dietaryFlags,
     };
   });
 }
 
-// Function to generate menu items specific to a menu type
-function generateMenuItemsForType(category, cuisine, count = 5) {
+// Function to generate menu items specific to a menu type with custom item count
+function generateMenuItemsForType(category, cuisine, count = args["items"]) {
+  // If a specific category is specified and doesn't match this one, use default count
+  if (
+    args["category"] !== "all" &&
+    args["category"].toLowerCase() !== category.toLowerCase()
+  ) {
+    // Use a smaller default count for non-selected categories
+    count = 5;
+  }
+
   // Get the appropriate item source based on menu type
   let itemSource;
   let priceRange = { min: 8, max: 16 };
+  let useFancyName = true;
 
   switch (category.toLowerCase()) {
     case "main courses":
@@ -352,16 +660,81 @@ function generateMenuItemsForType(category, cuisine, count = 5) {
       itemSource = menuItems.seafoodSpecialties;
       priceRange = { min: 22, max: 36 };
       break;
+    case "chef's specials":
+      itemSource = menuItems.chefsSpecials;
+      priceRange = { min: 24, max: 40 };
+      break;
+    case "appetizers":
+    case "starters":
+      itemSource = menuItems.starters;
+      priceRange = { min: 8, max: 16 };
+      break;
+    case "soups":
+      itemSource = menuItems.soups;
+      priceRange = { min: 7, max: 14 };
+      break;
+    case "salads":
+      itemSource = menuItems.salads;
+      priceRange = { min: 9, max: 16 };
+      useFancyName = false;
+      break;
+    case "side dishes":
+      itemSource = menuItems.sideDishes;
+      priceRange = { min: 5, max: 10 };
+      break;
     case "desserts":
-    case "sweets":
+      useFancyName = false;
+    case "sweet treats":
       itemSource = menuItems.desserts;
       priceRange = { min: 7, max: 12 };
       break;
+    case "frozen desserts":
+      itemSource = menuItems.frozenDesserts;
+      priceRange = { min: 7, max: 12 };
+      break;
+    case "baked goods":
+      itemSource = menuItems.bakedGoods;
+      priceRange = { min: 6, max: 11 };
+      break;
+    case "non-alcoholic beverages":
+      itemSource = menuItems.nonAlcoholicBeverages;
+      priceRange = { min: 4, max: 8 };
+      break;
     case "alcoholic beverages":
+      useFancyName = false;
     case "drinks":
     case "cocktails":
       itemSource = menuItems.alcoholicBeverages;
       priceRange = { min: 9, max: 15 };
+      break;
+    case "signature cocktails":
+      itemSource = menuItems.alcoholicBeverages.filter((item) =>
+        [
+          "Martini",
+          "Margarita",
+          "Old Fashioned",
+          "Mojito",
+          "Negroni",
+          "Manhattan",
+          "Bloody Mary",
+          "Cosmopolitan",
+          "Mai Tai",
+          "Whiskey Sour",
+        ].includes(item)
+      );
+      priceRange = { min: 10, max: 16 };
+      break;
+    case "wine":
+      useFancyName = false;
+    case "wine selection":
+      itemSource = menuItems.wines;
+      priceRange = { min: 8, max: 14 };
+      break;
+    case "spirits":
+      useFancyName = false;
+    case "spirits and liqueurs":
+      itemSource = menuItems.spiritsAndLiqueurs;
+      priceRange = { min: 10, max: 18 };
       break;
     default:
       // Default to main courses if category doesn't match
@@ -378,14 +751,13 @@ function generateMenuItemsForType(category, cuisine, count = 5) {
     const descriptor = getRandomItems(menuItems.descriptors, 1)[0];
 
     // Decide if we'll use a fancy name with prefix and descriptor (50% chance)
-    const useFancyName = Math.random() > 0.5;
+
     const itemName = useFancyName ? `${prefix} ${descriptor} ${item}` : item;
 
     const dietaryFlags = getDietaryFlags(cuisine, itemName);
 
     return {
       name: itemName,
-      description: generateItemDescription(),
       price: parseFloat(generateRandomPrice(priceRange.min, priceRange.max)),
       ...dietaryFlags,
     };
@@ -412,7 +784,7 @@ function generateMenuFileContent(cityName, restaurantName, restaurantCuisine) {
 /**
  * Menu data for ${restaurantName} in ${cityName}
  */
-export const ${cityVar}${restaurantVar}Menu: RestaurantMenu = {
+export const ${cityVar}${restaurantVar}menu: RestaurantMenu = {
   title: "Main Menu",
   description: "Our carefully curated selection of dishes",
   category: [
@@ -503,76 +875,179 @@ let totalExisting = 0;
 let totalFailed = 0;
 
 // Function to generate combined menu file content with all three menu types
-function generateCombinedMenuContent(cityName, restaurantName, restaurantCuisine) {
+function generateCombinedMenuContent(
+  cityName,
+  restaurantName,
+  restaurantCuisine
+) {
   const cityVar = toCamelCase(cityName);
   const restaurantVar = toCamelCase(restaurantName);
-  
-  // Generate menu items for each category
-  const signatureDishes = generateMenuItemsForType('signature dishes', restaurantCuisine, 3);
-  const mainCourses = generateMenuItemsForType('main courses', restaurantCuisine, 8);
-  const seafoodSpecialties = generateMenuItemsForType('seafood specialties', restaurantCuisine, 4);
-  
-  // Generate dessert items
-  const sweetTreats = generateMenuItemsForType('desserts', restaurantCuisine, 6);
-  
+
+  // Generate menu items for each category of Main Course Menu
+  const signatureDishes = generateMenuItemsForType(
+    "signature dishes",
+    restaurantCuisine,
+    7
+  );
+  const chefsSpecials = generateMenuItemsForType(
+    "chef's specials",
+    restaurantCuisine,
+    5
+  );
+  const appetizers = generateMenuItemsForType(
+    "appetizers",
+    restaurantCuisine,
+    8
+  );
+  const salads = generateMenuItemsForType("salads", restaurantCuisine, 5);
+  const soups = generateMenuItemsForType("soups", restaurantCuisine, 4);
+  const mainCourses = generateMenuItemsForType(
+    "main courses",
+    restaurantCuisine,
+    8
+  );
+  const sideDishes = generateMenuItemsForType(
+    "side dishes",
+    restaurantCuisine,
+    6
+  );
+  const seafoodSpecialties = generateMenuItemsForType(
+    "seafood specialties",
+    restaurantCuisine,
+    5
+  );
+  const nonAlcoholicBeverages = generateMenuItemsForType(
+    "non-alcoholic beverages",
+    restaurantCuisine,
+    6
+  );
+
+  // Generate dessert menu categories
+  const frozenDesserts = generateMenuItemsForType(
+    "frozen desserts",
+    restaurantCuisine,
+    5
+  );
+  const bakedGoods = generateMenuItemsForType(
+    "baked goods",
+    restaurantCuisine,
+    5
+  );
+
   // Generate alcohol categories
-  const cocktails = generateMenuItemsForType('cocktails', restaurantCuisine, 5);
-  const wines = generateMenuItemsForType('drinks', restaurantCuisine, 6);
-  const spirits = generateMenuItemsForType('alcoholic beverages', restaurantCuisine, 4);
-  
+  const cocktails = generateMenuItemsForType(
+    "signature cocktails",
+    restaurantCuisine,
+    7
+  );
+  const wines = generateMenuItemsForType(
+    "wine selection",
+    restaurantCuisine,
+    6
+  );
+  const spirits = generateMenuItemsForType(
+    "spirits and liqueurs",
+    restaurantCuisine,
+    5
+  );
+
+  // Build menus array based on menu-type flag
+  let menus = [];
+
+  if (args["menu-type"] === "all" || args["menu-type"] === "main") {
+    menus.push({
+      title: "Main Course Menu",
+      description: "Our carefully crafted selection of hearty dishes",
+      category: [
+        {
+          name: "Signature Dishes",
+          items: signatureDishes,
+        },
+        {
+          name: "Chef's Specials",
+          items: chefsSpecials,
+        },
+        {
+          name: "Appetizers",
+          items: appetizers,
+        },
+        {
+          name: "Soups",
+          items: soups,
+        },
+        {
+          name: "Salads",
+          items: salads,
+        },
+        {
+          name: "Main Courses",
+          items: mainCourses,
+        },
+        {
+          name: "Seafood Specialties",
+          items: seafoodSpecialties,
+        },
+        {
+          name: "Side Dishes",
+          items: sideDishes,
+        },
+        {
+          name: "Non-Alcoholic Beverages",
+          items: nonAlcoholicBeverages,
+        },
+      ],
+    });
+  }
+
+  if (args["menu-type"] === "all" || args["menu-type"] === "dessert") {
+    menus.push({
+      title: "Dessert Menu",
+      description: "Indulge in our delicious sweet creations",
+      category: [
+        {
+          name: "Baked Goods",
+          items: bakedGoods,
+        },
+        {
+          name: "Frozen Desserts",
+          items: frozenDesserts,
+        },
+      ],
+    });
+  }
+
+  if (args["menu-type"] === "all" || args["menu-type"] === "drinks") {
+    menus.push({
+      title: "Drinks Menu",
+      description:
+        "A selection of fine alcoholic beverages to complement your meal",
+      category: [
+        {
+          name: "Signature Cocktails",
+          items: cocktails,
+        },
+        {
+          name: "Wine Selection",
+          items: wines,
+        },
+        {
+          name: "Spirits and Liqueurs",
+          items: spirits,
+        },
+      ],
+    });
+  }
+
   return `import { RestaurantMenu } from "@/lib/types/types";
 
 /**
  * Menu data for ${restaurantName} in ${cityName}
  */
-export const ${cityVar}${restaurantVar}Menu: RestaurantMenu[] = [
-  {
-    title: "Main Course Menu",
-    description: "Our carefully crafted selection of hearty dishes",
-    category: [
-      {
-        name: "Signature Dishes",
-        items: ${JSON.stringify(signatureDishes, null, 2)}
-      },
-      {
-        name: "Main Courses",
-        items: ${JSON.stringify(mainCourses, null, 2)}
-      },
-      {
-        name: "Seafood Specialties",
-        items: ${JSON.stringify(seafoodSpecialties, null, 2)}
-      }
-    ]
-  },
-  {
-    title: "Dessert Menu",
-    description: "Indulge in our delicious sweet creations",
-    category: [
-      {
-        name: "Sweet Treats",
-        items: ${JSON.stringify(sweetTreats, null, 2)}
-      }
-    ]
-  },
-  {
-    title: "Drinks Menu",
-    description: "A selection of fine alcoholic beverages to complement your meal",
-    category: [
-      {
-        name: "Signature Cocktails",
-        items: ${JSON.stringify(cocktails, null, 2)}
-      },
-      {
-        name: "Wine Selection",
-        items: ${JSON.stringify(wines, null, 2)}
-      },
-      {
-        name: "Spirits and Liqueurs",
-        items: ${JSON.stringify(spirits, null, 2)}
-      }
-    ]
-  }
-];
+export const ${cityVar}${restaurantVar}Menu: RestaurantMenu[] = ${JSON.stringify(
+    menus,
+    null,
+    2
+  )};
 `;
 }
 
@@ -580,21 +1055,26 @@ export const ${cityVar}${restaurantVar}Menu: RestaurantMenu[] = [
 function createMenuFileForRestaurant(cityDir, restaurant) {
   const cityPath = path.join(baseDir, cityDir);
   const kebabName = toKebabCase(restaurant.name);
-  
+
   if (!kebabName) {
     console.error(`Failed to generate valid filename for "${restaurant.name}"`);
     return false;
   }
-  
-  // Create a single menu file path
-  const menuFilePath = path.join(cityPath, `${kebabName}-menu.ts`);
-  
+
+  // Create menu file path with menu type indicator if not generating all
+  let menuFileName = `${kebabName}Menu.ts`;
+  if (args["menu-type"] !== "all") {
+    menuFileName = `${kebabName}-${args["menu-type"]}Menu.ts`;
+  }
+
+  const menuFilePath = path.join(cityPath, menuFileName);
+
   try {
     fs.writeFileSync(
       menuFilePath,
       generateCombinedMenuContent(cityDir, restaurant.name, restaurant.cuisine)
     );
-    console.log(`Created combined menu file: ${menuFilePath}`);
+    console.log(`Created menu file: ${menuFilePath}`);
     return true;
   } catch (err) {
     console.error(`Error creating menu file for ${restaurant.name}:`, err);
@@ -614,8 +1094,23 @@ cityDirs.forEach((cityDir) => {
     // Extract restaurant info from the file
     const restaurants = extractRestaurantInfo(restaurantsFilePath);
 
+    // Filter restaurants if a specific one was requested
+    const filteredRestaurants =
+      args["restaurant"] === "all"
+        ? restaurants
+        : restaurants.filter((r) =>
+            r.name.toLowerCase().includes(args["restaurant"].toLowerCase())
+          );
+
+    if (args["restaurant"] !== "all" && filteredRestaurants.length === 0) {
+      console.warn(
+        `No restaurants found matching "${args["restaurant"]}" in ${cityDir}`
+      );
+      return;
+    }
+
     // Create menu file for each restaurant
-    restaurants.forEach((restaurant) => {
+    filteredRestaurants.forEach((restaurant) => {
       const result = createMenuFileForRestaurant(cityDir, restaurant);
 
       if (result) {
