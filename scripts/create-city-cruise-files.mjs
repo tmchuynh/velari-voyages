@@ -1,3 +1,54 @@
+/**
+ * City Cruise Generator Script
+ * ============================
+ *
+ * This script generates cruise data for cities in the Velari Voyages project.
+ * It creates or modifies files with the naming convention: "{city-name}-cruises.ts"
+ * Each file exports an array variable named "{cityName}Cruises" with cruise data.
+ *
+ * Features:
+ * - Creates realistic cruise itineraries with sequential days
+ * - Generates routes with appropriate destinations based on city's region
+ * - Creates compelling cruise titles and descriptions
+ * - Assigns contact personnel with appropriate languages based on region
+ * - Supports appending to existing files or rewriting them completely
+ *
+ * Usage Examples:
+ * --------------
+ * # Default: adds 10 cruises per city only for new files
+ * node scripts/create-city-cruise-files.mjs
+ *
+ * # Adds 5 cruises to existing files
+ * node scripts/create-city-cruise-files.mjs --append 5
+ *
+ * # Rewrites all files with 10 cruises each (discards existing data)
+ * node scripts/create-city-cruise-files.mjs --rewrite
+ *
+ * # Creates files even if they already exist
+ * node scripts/create-city-cruise-files.mjs --force-create
+ *
+ * # Rewrites all files with 15 cruises each
+ * node scripts/create-city-cruise-files.mjs --rewrite --append 15
+ *
+ * # Shows help information
+ * node scripts/create-city-cruise-files.mjs --help
+ *
+ * Command-line Options:
+ * ------------------
+ * --append, -a NUMBER  Append NUMBER of cruises to existing files
+ * --rewrite, -r        Rewrite all files, discarding existing cruises
+ * --force-create, -f   Create files even if they already exist (default: only create if missing)
+ * --help, -h           Display help message
+ *
+ * Output Files:
+ * ------------
+ * The script generates TypeScript files in:
+ * src/lib/constants/cruises/cruises/{city-name}-cruises.ts
+ *
+ * Each file exports a typed array of cruise objects compatible with the
+ * Cruise interface defined in src/lib/interfaces/services/cruises.ts
+ */
+
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -14,13 +65,6 @@ import {
   lastNames,
   masculineNames,
 } from "./utils/name-utils.mjs";
-
-// node scripts/create-city-cruise-files.mjs - Default behavior, adds 10 cruises per city only for new files
-// node scripts/create-city-cruise-files.mjs --append 5 - Adds 5 cruises to existing files
-// node scripts/create-city-cruise-files.mjs --rewrite - Rewrites all files with 10 cruises each
-// node scripts/create-city-cruise-files.mjs --force-create - Creates files even if they already exist
-// node scripts/create-city-cruise-files.mjs --rewrite --append 15 - Rewrites all files with 15 cruises each
-// node scripts/create-city-cruise-files.mjs --help - Shows help information
 
 // Get the equivalent of __dirname in ESM
 const __filename = fileURLToPath(import.meta.url);
