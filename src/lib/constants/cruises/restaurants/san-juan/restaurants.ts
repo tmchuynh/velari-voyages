@@ -248,5 +248,160 @@ export const sanJuanRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Seafood Atelier",
+    "description": "Located close to the historic district, this Spanish restaurant delights with its heritage recipes and local ambiance.",
+    "cuisine": "Spanish",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "9:00-22:00",
+      "friday": "11:00-22:00",
+      "saturday": "10:00-21:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-141-8308",
+      "contactEmail": "services@spanishwinebarsan-juan.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "American Cookhouse",
+    "description": "Experience authentic Puerto Rican cuisine with a local twist, featuring regional wines served in an atmosphere of seasonal floral displays overlooking the iconic clock tower.",
+    "cuisine": "Puerto Rican",
+    "priceRange": "$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-22:00",
+      "saturday": "11:00-21:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-742-4489",
+      "contactEmail": "reachus@caribbean&sonssan-juan.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Caribbean Tiki Lounge",
+    "description": "Located close to the city museum, this Seafood restaurant delights with its artisanal creations and beautiful decor.",
+    "cuisine": "Seafood",
+    "priceRange": "$$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "9:00-20:00",
+      "friday": "9:00-22:00",
+      "saturday": "11:00-19:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-114-3235",
+      "contactEmail": "hello@americantradingco.san-juan.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Spanish Revival",
+    "description": "Located close to the waterfront, this Caribbean restaurant delights with its farm-to-table meals and beautiful decor.",
+    "cuisine": "Caribbean",
+    "priceRange": "$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "Closed",
+      "thursday": "11:00-19:00",
+      "friday": "10:00-22:00",
+      "saturday": "10:00-20:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-495-4957",
+      "contactEmail": "services@caribbeanmaisonsan-juan.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Caribbean Atelier",
+    "description": "A charming Puerto Rican restaurant near the historic district, offering seasonal specialties and other local favorites in a setting with artisan markets.",
+    "cuisine": "Puerto Rican",
+    "priceRange": "$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-19:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "9:00-20:00",
+      "friday": "10:00-19:00",
+      "saturday": "9:00-20:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-508-8443",
+      "contactEmail": "services@seafoodnoodlebarsan-juan.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
   }
 ];

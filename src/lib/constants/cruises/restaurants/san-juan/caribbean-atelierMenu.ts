@@ -1,56 +1,38 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for Puerto Rican Patisserie in san-juan
+ * Menu data for Caribbean Atelier in san-juan
  */
-export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
+export const sanJuancaribbeanAtelierMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our kitchen presents an array of comforting offerings from across the Caribbean spectrum",
+    "description": "A tasty assortment of specialties showcasing the best of Puerto Rican cuisine",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "A curated collection of our most iconic and requested plates, each a testament to our culinary excellence.",
+        "description": "Unforgettable signatures that define who we are and what we serve.",
         "items": [
           {
-            "name": "House Famous Duck Confit",
-            "price": 26.83,
+            "name": "Authentic Tangy Wood-Fired Peking Duck with Plum Sauce",
+            "price": 37.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Steamed Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 36.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Molecular Gastronomy Showcase Tasting",
-            "price": 29.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whole Roasted Heritage Chicken",
-            "price": 33.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Dry-Aged Tomahawk Steak",
-            "price": 27.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Restaurant's Namesake Signature Entrée",
-            "price": 33.41,
+            "name": "Hearty Tangy Chef’s Wild Game Selection",
+            "price": 31.61,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -58,32 +40,59 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Black Garlic Glazed Beef Tenderloin",
-            "price": 28.71,
+            "name": "Gourmet Zingy House Famous Duck Confit",
+            "price": 24.73,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Mouthwatering Award-Winning Seafood Boil",
+            "price": 37.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Executive Chef's Daily Inspiration Entrée",
-            "price": 30.03,
-            "isVegetarian": true,
+            "name": "Organic Roasted Local Bounty Harvest Plate (Vegetarian)",
+            "price": 29.65,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Gourmet Marinated Captain's Favorite Seafood Tower",
+            "price": 24.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
+        "description": "Inventive dishes that explore rare ingredients, bold flavors, and progressive cooking techniques.",
         "items": [
           {
-            "name": "Seasonal Truffle Risotto",
-            "price": 26.63,
+            "name": "Premium Spicy Volcanic Stone-Cooked Specialty",
+            "price": 29.14,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Appetizing Cedar Plank Salmon",
+            "price": 28.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -91,50 +100,59 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Crispy Skin Sea Bass",
-            "price": 32.2,
+            "name": "Authentic Zesty Modern Interpretation of Regional Classic",
+            "price": 33.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Irresistible Tomahawk Ribeye for Two",
+            "price": 26.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Smoked Special Occasion Celebratory Dish",
+            "price": 33.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
-          },
-          {
-            "name": "Chef's Childhood Favorite Reimagined",
-            "price": 39.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Miso-Glazed Black Cod",
-            "price": 25.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Whole Animal Butchery Showcase",
-            "price": 25.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "Traditional and reimagined Caribbean appetizers made for sharing or solo indulgence.",
+        "description": "Traditional and reimagined Puerto Rican appetizers made for sharing or solo indulgence.",
         "items": [
           {
-            "name": "Stuffed Mushrooms",
-            "price": 15.94,
+            "name": "Authentic Fried Spring Rolls",
+            "price": 10.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Crunchy Bruschetta",
+            "price": 14.86,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Stuffed Cheese Nachos",
+            "price": 15.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -142,35 +160,17 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Bruschetta",
-            "price": 13.79,
-            "isVegetarian": true,
+            "name": "Fresh Crunchy Arancini",
+            "price": 13.51,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cheese Nachos",
-            "price": 13.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Dumplings",
-            "price": 10.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mini Quesadillas",
-            "price": 15.32,
+            "name": "Homestyle Grilled Samosas",
+            "price": 8.9,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -178,29 +178,29 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Stuffed Peppers",
-            "price": 10.37,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Calamari",
-            "price": 10.72,
+            "name": "Authentic Luscious Edamame",
+            "price": 11.42,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Cheese Platter",
-            "price": 12.75,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Golden Ceviche",
+            "price": 11.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Exquisite Tzatziki with Pita",
+            "price": 9.23,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -208,71 +208,53 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Each spoonful offers depth, comfort, and craftsmanship.",
+        "description": "Crafted with care, our soups are a celebration of Puerto Rican flavors and traditions.",
         "items": [
           {
-            "name": "Seasonal Golden Turkey and Wild Rice Soup",
-            "price": 13.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Smoked Butternut Squash Soup",
-            "price": 7.43,
-            "isVegetarian": false,
+            "name": "Hearty Mouthwatering Corn Chowder",
+            "price": 10.38,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Herbed Avgolemono (Greek Lemon Soup)",
-            "price": 9.4,
+            "name": "Fresh Pan-seared Tomato Soup",
+            "price": 9.08,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Flaky Thai Coconut Soup",
-            "price": 8.99,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Handcrafted Comforting Pho",
+            "price": 10.75,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Wholesome Clam Chowder",
+            "price": 8.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Salads",
-        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
+        "description": "Lively salads combining texture, temperature, and taste for a refreshing start or light meal.",
         "items": [
           {
-            "name": "Kale Salad",
-            "price": 12.6,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roasted Vegetable Salad",
-            "price": 11.84,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lentil and Feta Salad",
-            "price": 14.99,
+            "name": "Arugula Salad",
+            "price": 13.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -280,8 +262,8 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Spinach Salad",
-            "price": 10.54,
+            "name": "Broccoli Crunch Salad",
+            "price": 13.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -290,9 +272,27 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Farro Salad",
-            "price": 15.76,
-            "isVegetarian": true,
-            "isVegan": true,
+            "price": 13.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Waldorf Salad",
+            "price": 10.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Garden Salad",
+            "price": 13.48,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -301,11 +301,56 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Signature entrées crafted with precision, embodying the core of our Caribbean vision.",
+        "description": "Each dish is a culinary journey, showcasing the richness of Puerto Rican traditions.",
         "items": [
           {
-            "name": "Lamb Chops",
-            "price": 18.59,
+            "name": "Deluxe Smoked Katsu Curry",
+            "price": 22.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Aromatic Pasta Primavera",
+            "price": 18.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Satisfying Enchiladas",
+            "price": 18.6,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked Tacos",
+            "price": 20.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Braised Paella",
+            "price": 24.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Juicy Steak",
+            "price": 30.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -313,26 +358,8 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Lentil Stew",
-            "price": 28.78,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lasagna",
-            "price": 18.4,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Salmon",
-            "price": 23.17,
+            "name": "Traditional Tangy Lentil Stew",
+            "price": 30.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -340,35 +367,8 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grilled Tofu",
-            "price": 26.76,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pizza",
-            "price": 18.27,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pasta Primavera",
-            "price": 31.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Korma",
-            "price": 28.93,
+            "name": "Fresh Crunchy Pho",
+            "price": 23.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -379,20 +379,29 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Sourced from local fisheries, our seafood dishes are as fresh as they come.",
+        "description": "Expertly prepared seafood that highlights the natural flavors of the ocean.",
         "items": [
           {
-            "name": "Grilled Lobster with Lemon Butter",
-            "price": 24.73,
+            "name": "House Special Smoked Pan-Seared Scallops with Pea Purée",
+            "price": 32.62,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Zingy Smoked Salmon Platter with Dill Crème",
+            "price": 25.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Seafood Alfredo with Spinach Fettuccine",
-            "price": 25.36,
+            "name": "Homestyle Tangy Seared Tuna Steak with Sesame Crust",
+            "price": 32.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,26 +409,17 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lemon-Herb Calamari Steak",
-            "price": 27.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Shrimp Scampi over Linguine",
-            "price": 29.9,
+            "name": "Seasonal Exquisite Grilled Spanish Octopus with Smoked Paprika",
+            "price": 31.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Grilled Spanish Octopus with Smoked Paprika",
-            "price": 30.82,
+            "name": "Deluxe Roasted Crab-Stuffed Mushrooms",
+            "price": 27.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -430,20 +430,11 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Versatile and craveable, designed to mix and match your perfect pairing.",
+        "description": "Crafted to enhance your meal, these sides are a celebration of Puerto Rican flavors.",
         "items": [
           {
-            "name": "Authentic Marinated Sweet Corn and Cheddar Fritters",
-            "price": 9.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Tangy Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 7.87,
+            "name": "Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 6.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -451,8 +442,8 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Sautéed Creamed Spinach with Nutmeg",
-            "price": 6.13,
+            "name": "Scalloped Potatoes with Thyme",
+            "price": 5.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -460,8 +451,8 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Aromatic Garlic Bread with Herb Butter",
-            "price": 8.08,
+            "name": "Creamed Spinach with Nutmeg",
+            "price": 5.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -469,8 +460,8 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Sizzling Baked Idaho Potato with Sour Cream",
-            "price": 7.81,
+            "name": "Herbed Bulgur Wheat with Lemon",
+            "price": 8.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -478,11 +469,20 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Herbed Steamed Jasmine Rice",
-            "price": 7.36,
+            "name": "Green Beans Almondine",
+            "price": 7.53,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crispy Zucchini Fritters",
+            "price": 9.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,38 +490,20 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Flavorful, alcohol-free options that never compromise on taste or presentation.",
+        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
         "items": [
           {
-            "name": "Fresh Sweet Hot Chocolate",
-            "price": 5.08,
+            "name": "Tea",
+            "price": 7.92,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Spiced Coffee",
-            "price": 5.58,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Smoked Smoothie",
-            "price": 5.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Comforting Juice",
-            "price": 4.75,
+            "name": "Juice",
+            "price": 4.25,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,8 +511,26 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Herbed Soda",
-            "price": 4.39,
+            "name": "Coffee",
+            "price": 7.56,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 6.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 6.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -538,12 +538,12 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Herbed Milkshake",
-            "price": 7.85,
+            "name": "Iced Tea",
+            "price": 6.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -552,15 +552,15 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Delight in our comforting desserts prepared fresh daily",
+    "description": "A freshly prepared journey through the world of desserts, inspired by Puerto Rican",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Perfectly baked pastries and breads that bring warmth to your table.",
+        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
         "items": [
           {
-            "name": "Portuguese Custard Tarts",
-            "price": 10.29,
+            "name": "Pecan Pie",
+            "price": 10.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,8 +568,17 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cinnamon Rolls",
-            "price": 6.33,
+            "name": "Tiramisu",
+            "price": 8.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cheesecake",
+            "price": 10.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -577,8 +586,8 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Muffins",
-            "price": 10.54,
+            "name": "Strawberry Shortcake",
+            "price": 7.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -587,18 +596,9 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Donuts",
-            "price": 9.72,
-            "isVegetarian": false,
+            "price": 9.6,
+            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soufflé",
-            "price": 8.13,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -610,17 +610,8 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
         "description": "Handmade with care, our frozen desserts are a celebration of texture and taste.",
         "items": [
           {
-            "name": "Paletas",
-            "price": 10.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Pudding",
-            "price": 9.24,
+            "name": "Seasonal Grilled Ice Cream Cake",
+            "price": 7.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -628,8 +619,17 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Mousse",
-            "price": 7.37,
+            "name": "House Special Smoked Paletas",
+            "price": 9.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Crispy Frozen Custard",
+            "price": 10.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -637,20 +637,20 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Pie",
-            "price": 8.93,
-            "isVegetarian": false,
+            "name": "House Special Aromatic Granita",
+            "price": 7.66,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frosty",
-            "price": 11.39,
+            "name": "Gourmet Fried Sherbet",
+            "price": 9.69,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,24 +660,33 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Unwind with our fine beverages crafted for connoisseurs and casual sippers alike",
+    "description": "Puerto Rican-inspired drinks and classic favorites in our carefully chosen selection",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Elevate your evening with our signature cocktails, each a unique expression of flavor.",
+        "description": "A cocktail experience that transcends the ordinary—crafted for the discerning palate.",
         "items": [
           {
-            "name": "Authentic Wholesome Manhattan",
-            "price": 15.29,
+            "name": "Mojito",
+            "price": 15.31,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 14.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Organic Comforting Mojito",
-            "price": 13.92,
+            "name": "Manhattan",
+            "price": 12.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -685,17 +694,8 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Pan-seared Old Fashioned",
-            "price": 13.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Spiced Mai Tai",
-            "price": 14.21,
+            "name": "Whiskey Sour",
+            "price": 14.79,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -703,29 +703,29 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Roasted Whiskey Sour",
-            "price": 13.21,
-            "isVegetarian": false,
+            "name": "Margarita",
+            "price": 13.57,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Stuffed Margarita",
-            "price": 10.11,
-            "isVegetarian": false,
+            "name": "Cosmopolitan",
+            "price": 13.08,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Zesty Bloody Mary",
-            "price": 10.76,
-            "isVegetarian": false,
+            "name": "Negroni",
+            "price": 15.06,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,11 +733,20 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "From crisp whites to structured reds, our wine list offers something for every palate.",
+        "description": "Explore our wine list, where each bottle is a testament to craftsmanship and tradition.",
         "items": [
           {
-            "name": "Sangiovese",
-            "price": 13.39,
+            "name": "Deluxe Herbed Barbera",
+            "price": 8.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Satisfying Chardonnay",
+            "price": 12.25,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -745,17 +754,26 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Prosecco",
+            "name": "Handcrafted Zingy Sauvignon Blanc",
+            "price": 10.29,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Smoked Pinot Blanc",
             "price": 11.25,
-            "isVegetarian": false,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Vouvray",
-            "price": 10.8,
+            "name": "Gourmet Delicious Albariño",
+            "price": 8.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -763,28 +781,10 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Roussanne",
-            "price": 11.93,
+            "name": "Homestyle Braised Gewürztraminer",
+            "price": 13.17,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Albariño",
-            "price": 9.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Blanc",
-            "price": 9.05,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -793,11 +793,11 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Explore our selection of small-batch and artisanal spirits, each with a unique story.",
+        "description": "A thoughtful balance of classic favorites and rare, small-batch discoveries.",
         "items": [
           {
-            "name": "Armagnac",
-            "price": 14.36,
+            "name": "Homestyle Sweet Whiskey",
+            "price": 11.35,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -805,36 +805,36 @@ export const sanJuanpuertoRicanPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cognac",
-            "price": 17.08,
+            "name": "Hearty Fried Anisette",
+            "price": 14.26,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vodka",
-            "price": 11.62,
-            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chambord",
-            "price": 10.72,
+            "name": "Homestyle Sautéed Mezcal",
+            "price": 10.08,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Tangy Grand Marnier",
+            "price": 10.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Absinthe",
-            "price": 14.91,
-            "isVegetarian": false,
+            "name": "Classic Sweet Brandy",
+            "price": 13.65,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
