@@ -248,5 +248,160 @@ export const bostonRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Charles River Chateau",
+    "description": "A culinary gem serving Seafood specialties including cranberry desserts, where guests enjoy seafood shacks in the heart of the city.",
+    "cuisine": "Seafood",
+    "priceRange": "$$$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "10:00-22:00",
+      "friday": "Closed",
+      "saturday": "9:00-19:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-746-7314",
+      "contactEmail": "customerservice@beaconhouseboston.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": true,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Seaport Marketplace",
+    "description": "Located close to Fenway Park, this American restaurant delights with its scrod and historic setting.",
+    "cuisine": "American",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-20:00",
+      "friday": "9:00-22:00",
+      "saturday": "11:00-21:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-527-8653",
+      "contactEmail": "reception@cambridgesupperclubboston.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Cambridge Curry House",
+    "description": "Experience authentic Irish cuisine with a local twist, featuring cranberry desserts served in an atmosphere of New England charm overlooking Freedom Trail.",
+    "cuisine": "Irish",
+    "priceRange": "$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "10:00-22:00",
+      "friday": "10:00-20:00",
+      "saturday": "Closed",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-410-7397",
+      "contactEmail": "hi@paulrevereatelierboston.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Quincy Provisions",
+    "description": "Located close to Faneuil Hall, this American restaurant delights with its scrod and seafood shacks.",
+    "cuisine": "American",
+    "priceRange": "$$$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "Closed",
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-20:00",
+      "friday": "9:00-21:00",
+      "saturday": "10:00-19:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-797-4285",
+      "contactEmail": "reachus@charlesrivernookboston.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Boston Chophouse",
+    "description": "A charming Italian restaurant near Freedom Trail, offering baked beans and other local favorites in a setting with old-world pubs.",
+    "cuisine": "Italian",
+    "priceRange": "$$$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "10:00-22:00",
+      "friday": "9:00-22:00",
+      "saturday": "11:00-21:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-706-6086",
+      "contactEmail": "reachus@newenglandterraceboston.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
   }
 ];
