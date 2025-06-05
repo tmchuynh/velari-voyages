@@ -6,84 +6,111 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const bermudatheGalleryMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "An immersive dining experience defined by satisfying Mediterranean cuisine",
+    "description": "A simple assortment of specialties showcasing the best of Mediterranean cuisine",
     "category": [
       {
         "name": "Signature Dishes",
         "description": "Celebrated dishes crafted with premium ingredients and exceptional care, designed to leave a lasting impression.",
         "items": [
           {
-            "name": "Classic Roasted Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 24.78,
+            "name": "Gourmet Sweet Black Garlic Glazed Beef Tenderloin",
+            "price": 27.81,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Delectable Wood-Fired Peking Duck with Plum Sauce",
+            "price": 36.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Enticing Seasonal Tasting Platter",
+            "price": 29.56,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Steamed Heritage Recipe Lamb Shank",
+            "price": 36.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Herbed Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 36.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Steamed Local Bounty Harvest Plate (Vegetarian)",
+            "price": 25.27,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Exquisite House Famous Duck Confit",
-            "price": 26.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Herbed Dry-Aged Tomahawk Steak",
-            "price": 31.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Creamy Award-Winning Seafood Boil",
-            "price": 28.56,
+            "name": "Handcrafted Zingy Celebrity Favorite Lobster Dish",
+            "price": 24.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
-          },
-          {
-            "name": "Premium Tender Tableside Carved Chateaubriand",
-            "price": 29.04,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Flaky Restaurant's Namesake Signature Entrée",
-            "price": 28.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Grilled Celebrity Favorite Lobster Dish",
-            "price": 24.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "Expressions of creativity from our chef’s table—ever-changing and inspired by market finds.",
+        "description": "Inventive dishes that explore rare ingredients, bold flavors, and progressive cooking techniques.",
         "items": [
           {
-            "name": "Deluxe Herbed Off-Menu Secret Preparation",
-            "price": 33.28,
+            "name": "Locally Foraged Mushroom Selection",
+            "price": 26.32,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Dry-Aged Prime Beef Selection",
+            "price": 36.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Custom Tasting Menu Based on Guest Preferences",
+            "price": 32.68,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hand-Selected Wine Pairing Experience",
+            "price": 27.03,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -91,115 +118,88 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Smoked Locally Foraged Mushroom Selection",
-            "price": 30.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Herbed Tomahawk Ribeye for Two",
-            "price": 38.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Grilled Braised Short Ribs with Red Wine Sauce",
-            "price": 27.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Zesty Cast Iron Seafood Presentation",
-            "price": 36.72,
-            "isVegetarian": false,
+            "name": "Heirloom Recipe from Chef's Family",
+            "price": 26.91,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "A selection of small plates that showcase the essence of Mediterranean—perfect for sharing or savoring solo.",
+        "description": "Small bites designed to awaken your senses and set the tone for your dining journey.",
         "items": [
           {
-            "name": "Mezze Platter",
-            "price": 10.38,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Peppers",
-            "price": 15.48,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Jalapeños",
-            "price": 9.43,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baked Brie",
-            "price": 15.39,
+            "name": "Handcrafted Marinated Shrimp Cocktail",
+            "price": 9.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cheese Platter",
-            "price": 14.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baba Ganoush",
-            "price": 15.63,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chicken Wings",
-            "price": 15.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Nachos",
-            "price": 10.31,
+            "name": "Seasonal Smoked Meatballs",
+            "price": 8.83,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Crunchy Charcuterie Board",
+            "price": 11.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Zesty Mezze Platter",
+            "price": 11.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Juicy Bruschetta",
+            "price": 9.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Savory Stuffed Mushrooms",
+            "price": 9.56,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Juicy Chicken Satay",
+            "price": 9.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Golden Nachos",
+            "price": 14.68,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -208,29 +208,20 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
+        "description": "Each spoonful offers depth, comfort, and craftsmanship.",
         "items": [
           {
-            "name": "Chicken Noodle Soup",
-            "price": 10.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Miso Soup",
-            "price": 11.82,
-            "isVegetarian": false,
+            "name": "Organic Hearty Pumpkin Soup",
+            "price": 7.15,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Black Bean Soup",
-            "price": 12.74,
+            "name": "Homestyle Marinated Black Bean Soup",
+            "price": 10.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -238,9 +229,18 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cabbage Soup",
-            "price": 9.07,
+            "name": "Classic Flavorful Egg Drop Soup",
+            "price": 10.08,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Wholesome Clam Chowder",
+            "price": 12.56,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -250,20 +250,11 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Crafted with care, our salads are a celebration of freshness and flavor.",
+        "description": "Lively salads combining texture, temperature, and taste for a refreshing start or light meal.",
         "items": [
           {
-            "name": "Caesar Salad",
-            "price": 9.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caprese Salad",
-            "price": 15.97,
+            "name": "Chef Salad",
+            "price": 9.06,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -271,8 +262,17 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Apple Pecan Salad",
-            "price": 10.05,
+            "name": "Cobb Salad",
+            "price": 11.35,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coleslaw",
+            "price": 11.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -280,19 +280,19 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Roasted Beet and Goat Cheese Salad",
-            "price": 13.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Broccoli Crunch Salad",
-            "price": 14.69,
+            "name": "Lentil and Feta Salad",
+            "price": 9.42,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Orzo Salad",
+            "price": 13.67,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -301,20 +301,38 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Culinary centerpieces that define the essence of our dining experience.",
+        "description": "Signature entrées crafted with precision, embodying the core of our Mediterranean vision.",
         "items": [
           {
-            "name": "House Special Flaky Steak",
-            "price": 28.27,
+            "name": "Steak",
+            "price": 28.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Exquisite Stuffed Peppers",
-            "price": 24.69,
+            "name": "Lentil Stew",
+            "price": 31.64,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Risotto",
+            "price": 24.49,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tacos",
+            "price": 26.83,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -322,53 +340,35 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Aromatic Spaghetti Bolognese",
-            "price": 25.49,
+            "name": "Burrito",
+            "price": 19.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Shakshuka",
+            "price": 23.01,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Marinated Ramen",
-            "price": 31.91,
+            "name": "Vegetable Stir-Fry",
+            "price": 18.87,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Mouthwatering Burrito",
-            "price": 24.95,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Golden Cottage Pie",
-            "price": 19.19,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Delicious Teriyaki Chicken",
-            "price": 30.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Herbed Enchiladas",
-            "price": 18.2,
+            "name": "Fish and Chips",
+            "price": 20.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -379,11 +379,11 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
+        "description": "Prepared with simplicity to let the freshness of the sea speak for itself.",
         "items": [
           {
-            "name": "Cedar Plank Roasted Salmon",
-            "price": 23.48,
+            "name": "Authentic Hearty Linguine with Clam Sauce",
+            "price": 24.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,8 +391,8 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Pan-Seared Scallops with Pea Purée",
-            "price": 22.01,
+            "name": "Handcrafted Tangy Classic British Fish and Chips",
+            "price": 27.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -400,28 +400,28 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Steamed Littleneck Clams in Garlic Broth",
-            "price": 24.26,
+            "name": "Traditional Flavorful Miso-Marinated Chilean Sea Bass",
+            "price": 28.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Tempura Soft Shell Crab",
-            "price": 28.26,
+            "name": "Homestyle Grilled Seafood Risotto with Saffron",
+            "price": 30.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Sushi-Grade Sashimi Platter",
-            "price": 35.24,
+            "name": "Deluxe Stuffed Smoked Salmon Platter with Dill Crème",
+            "price": 26.04,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -430,11 +430,20 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Perfectly balanced additions that elevate your dining experience.",
+        "description": "Supportive elements that enhance and elevate the star of your plate.",
         "items": [
           {
-            "name": "Handcrafted Herbed Green Beans Almondine",
-            "price": 8.39,
+            "name": "Organic Stuffed Charred Broccolini with Garlic Oil",
+            "price": 5.34,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Tangy Cauliflower Gratin with Gruyère",
+            "price": 8.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -442,45 +451,36 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Fried Grilled Asparagus with Lemon Zest",
-            "price": 9.47,
+            "name": "Fresh Irresistible Creamed Spinach with Nutmeg",
+            "price": 8.22,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Tender Grilled Asparagus with Lemon Zest",
+            "price": 7.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Delicious Israeli Couscous with Roasted Tomatoes",
-            "price": 5.31,
+            "name": "Hearty Fried Crispy Beer-Battered Onion Rings",
+            "price": 9.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Enticing Creamy Colcannon (Irish Potato Mash)",
-            "price": 8.31,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Sautéed Crispy Zucchini Fritters",
-            "price": 5.73,
+            "name": "Homestyle Succulent Garlic Bread with Herb Butter",
+            "price": 9.73,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Satisfying Roasted Root Vegetables",
-            "price": 8.73,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -490,20 +490,11 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Handcrafted drinks designed to hydrate and delight—no spirits necessary.",
+        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
         "items": [
           {
-            "name": "Organic Roasted Tea",
-            "price": 6.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Smoked Lemonade",
-            "price": 5.97,
+            "name": "Handcrafted Steamed Iced Tea",
+            "price": 5.59,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -511,8 +502,26 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Flaky Milkshake",
-            "price": 4.61,
+            "name": "Fresh Sweet Juice",
+            "price": 5.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Golden Coffee",
+            "price": 4.54,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Creamy Tea",
+            "price": 5.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -520,31 +529,22 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Delectable Hot Chocolate",
-            "price": 5.45,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Irresistible Coffee",
-            "price": 4.42,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Herbed Juice",
-            "price": 5.3,
+            "name": "Fresh Steamed Milkshake",
+            "price": 5.18,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Authentic Hearty Water",
+            "price": 7.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       }
@@ -552,84 +552,66 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "A delicious selection of desserts that will leave you wanting more",
+    "description": "A curated selection of warm desserts, inspired by Mediterranean heritage",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Handcrafted with the finest ingredients, our baked goods are a treat for the senses.",
+        "description": "A rotating selection of baked indulgences from sweet to savory.",
         "items": [
           {
-            "name": "Premium Herbed Cannoli",
-            "price": 8.02,
+            "name": "Hearty Crispy Lemon Bars",
+            "price": 7.66,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Zesty Donuts",
+            "price": 9.68,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Hearty Portuguese Custard Tarts",
+            "price": 7.19,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Juicy Biscotti",
+            "price": 6.35,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Grilled Sticky Toffee Pudding",
+            "price": 10.74,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Deluxe Luscious Strawberry Shortcake",
-            "price": 8.96,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Grilled Cupcakes",
-            "price": 9.52,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Savory Muffins",
-            "price": 6.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Stuffed Treacle Tart",
-            "price": 6.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
           }
         ]
       },
       {
         "name": "Frozen Desserts",
-        "description": "Classic and contemporary frozen delights that cool and satisfy.",
+        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
         "items": [
           {
-            "name": "Frozen Banana",
-            "price": 9.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Pudding",
-            "price": 11.58,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Frozen Pie",
-            "price": 10.76,
+            "price": 11.94,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -637,8 +619,8 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Custard",
-            "price": 10.76,
+            "name": "Sorbet",
+            "price": 11.29,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -647,7 +629,25 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Sherbet",
-            "price": 10.33,
+            "price": 7.33,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Fruit Bars",
+            "price": 11.82,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Paletas",
+            "price": 7.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -660,51 +660,15 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "From wines to spirits: smooth-drinking choices for every palate",
+    "description": "Our enticing wine list features carefully chosen bottles from renowned vineyards",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Refined blends of premium spirits, house syrups, and fresh produce.",
+        "description": "A selection of signature drinks that reflect our culinary philosophy and creativity.",
         "items": [
           {
-            "name": "Gourmet Creamy Cosmopolitan",
-            "price": 13.74,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Sautéed Negroni",
-            "price": 14.04,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Aromatic Mojito",
-            "price": 11.74,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Creamy Martini",
-            "price": 11.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Baked Bloody Mary",
-            "price": 12.7,
+            "name": "Organic Marinated Mojito",
+            "price": 15.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -712,8 +676,17 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Tangy Margarita",
-            "price": 10.58,
+            "name": "Traditional Grilled Martini",
+            "price": 13.1,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Savory Manhattan",
+            "price": 14.84,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -721,11 +694,38 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Irresistible Whiskey Sour",
-            "price": 14.64,
-            "isVegetarian": true,
+            "name": "Traditional Creamy Mai Tai",
+            "price": 13.61,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Marinated Cosmopolitan",
+            "price": 11.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Spicy Negroni",
+            "price": 12.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Pan-seared Margarita",
+            "price": 13.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,11 +733,11 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Explore our wine list, where each bottle is a testament to craftsmanship and tradition.",
+        "description": "Handpicked selections that reflect our commitment to quality and terroir.",
         "items": [
           {
-            "name": "Fresh Juicy Nebbiolo",
-            "price": 10.44,
+            "name": "Handcrafted Creamy Chardonnay",
+            "price": 8.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -745,47 +745,47 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Spicy Mourvèdre",
-            "price": 9.24,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Comforting Pinot Blanc",
-            "price": 10.36,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Marinated Tempranillo",
-            "price": 10.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Stuffed Viognier",
-            "price": 10.05,
+            "name": "Homestyle Hearty Albariño",
+            "price": 8.84,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Grilled Torrontés",
+            "price": 12.08,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Luscious Vouvray",
+            "price": 11.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Flaky Pinot Grigio",
+            "price": 11.96,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Golden Grenache",
-            "price": 9.3,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "name": "Deluxe Spiced Gamay",
+            "price": 9.39,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,50 +793,50 @@ export const bermudatheGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Ideal for slow sipping or celebratory toasts—each bottle has a story.",
+        "description": "Start or finish your night with a pour that lingers in memory.",
         "items": [
           {
-            "name": "Authentic Roasted Tequila",
-            "price": 13.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Luscious Rum",
-            "price": 16.49,
-            "isVegetarian": false,
+            "name": "St-Germain",
+            "price": 13.38,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Luscious Gin",
-            "price": 16.66,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Baked Frangelico",
-            "price": 16.55,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Satisfying Aquavit",
-            "price": 14.87,
+            "name": "Mezcal",
+            "price": 17.95,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cognac",
+            "price": 15.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pisco",
+            "price": 11.56,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Scotch",
+            "price": 14.59,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
