@@ -10,40 +10,67 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from "@/components/ui/pagination";
-import { cruiseVessels } from "@/lib/constants/info/fleetsAndVessels";
+import { Vessels } from "@/lib/interfaces/services/cruises";
+import { getAllVessels } from "@/lib/utils/get/cruises";
 import { getVesselTypeDescription } from "@/lib/utils/get/cruises";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function FleetAndVessels() {
-  // Group vessels by type
-  const vesselsByType = cruiseVessels.reduce(
-    (acc, vessel) => {
-      const type = vessel.type;
-      if (!acc[type]) {
-        acc[type] = [];
-      }
-      acc[type].push(vessel);
-      return acc;
-    },
-    {} as Record<string, typeof cruiseVessels>,
-  );
-
-  // Get all vessel types
-  const vesselTypes = Object.keys(vesselsByType);
+  // State for vessels data
+  const [vessels, setVessels] = useState<Vessels[]>([]);
+  // State for vessels grouped by type
+  const [vesselsByType, setVesselsByType] = useState<Record<string, any>>({});
+  // State for vessel types
+  const [vesselTypes, setVesselTypes] = useState<string[]>([]);
 
   // Pagination state for each vessel type
-  const [currentPages, setCurrentPages] = useState<Record<string, number>>(
-    vesselTypes.reduce(
-      (acc, type) => {
-        acc[type] = 1;
-        return acc;
-      },
-      {} as Record<string, number>,
-    ),
-  );
+  const [currentPages, setCurrentPages] = useState<Record<string, number>>({});
 
   // Items per page
   const itemsPerPage = 3;
+
+  // Fetch vessels data using useEffect with async function
+  useEffect(() => {
+    const fetchVessels = async () => {
+      try {
+        const fetchedVessels = await getAllVessels();
+        setVessels(fetchedVessels);
+
+        // Group vessels by type
+        const groupedVessels = fetchedVessels.reduce(
+          (acc, vessel) => {
+            const type = vessel.type.toLowerCase();
+            if (!acc[type]) {
+              acc[type] = [];
+            }
+            acc[type].push(vessel);
+            return acc;
+          },
+          {} as Record<string, typeof fetchedVessels>
+        );
+        setVesselsByType(groupedVessels);
+
+        // Get all vessel types
+        const types = Object.keys(groupedVessels);
+        setVesselTypes(types);
+
+        // Initialize pagination state
+        setCurrentPages(
+          types.reduce(
+            (acc, type) => {
+              acc[type] = 1;
+              return acc;
+            },
+            {} as Record<string, number>
+          )
+        );
+      } catch (error) {
+        console.error("Error fetching vessels:", error);
+      }
+    };
+
+    fetchVessels();
+  }, []);
 
   // Handle page change
   const handlePageChange = (type: string, page: number) => {
@@ -59,7 +86,7 @@ export default function FleetAndVessels() {
         <h1>The Velari Fleet: Crafted for the Journey</h1>
         <h5>Where Design, Discovery, and Discretion Set Sail</h5>
         <h5>
-          {cruiseVessels.length} vessels across {vesselTypes.length} categories
+          {vessels.length} vessels across {vesselTypes.length} categories
         </h5>
         <blockquote>
           "A vessel is not just a means of travel — it's where the journey
@@ -106,7 +133,7 @@ export default function FleetAndVessels() {
             <p>{getVesselTypeDescription(type)}</p>
 
             <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-5">
-              {currentVessels.map((vessel) => (
+              {currentVessels.map((vessel: Vessels) => (
                 <Card
                   key={vessel.name}
                   className="flex flex-col justify-between p-0 h-full overflow-hidden"
@@ -194,7 +221,7 @@ export default function FleetAndVessels() {
                       onClick={() =>
                         handlePageChange(
                           type,
-                          Math.min(totalPages, currentPage + 1),
+                          Math.min(totalPages, currentPage + 1)
                         )
                       }
                       className={
