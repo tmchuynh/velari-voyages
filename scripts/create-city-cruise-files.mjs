@@ -50,9 +50,15 @@ Options:
 
 console.log(`Running with options:
 - ${forceRewrite ? "Rewriting all files" : "Preserving existing files"}
-- ${forceCreate ? "Creating files even if they exist" : "Only creating files that don't exist"}
-- ${forceRewrite ? "Creating" : "Appending"} ${cruisesToAppend} cruises ${forceRewrite ? "per city" : "to each file"}
-`;
+- ${
+  forceCreate
+    ? "Creating files even if they exist"
+    : "Only creating files that don't exist"
+}
+- ${forceRewrite ? "Creating" : "Appending"} ${cruisesToAppend} cruises ${
+  forceRewrite ? "per city" : "to each file"
+}
+`);
 
 // Function to convert kebab case to camelCase
 function kebabToCamelCase(str) {
