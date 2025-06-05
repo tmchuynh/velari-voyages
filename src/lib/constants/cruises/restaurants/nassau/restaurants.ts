@@ -155,5 +155,160 @@ export const nassauRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "The Steakhouse",
+    "description": "Experience authentic Japanese cuisine with a local twist, featuring local ingredients served in an atmosphere of beautiful decor overlooking the city museum.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "10:00-21:00",
+      "saturday": "11:00-19:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-944-8532",
+      "contactEmail": "general@royaldininghallnassau.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Royal Room",
+    "description": "Located close to the iconic clock tower, this French restaurant delights with its local ingredients and local ambiance.",
+    "cuisine": "French",
+    "priceRange": "$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "11:00-21:00",
+      "friday": "10:00-22:00",
+      "saturday": "10:00-22:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-125-5019",
+      "contactEmail": "mail@bluebrasserienassau.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Blue Canteen",
+    "description": "This popular American establishment combines traditional recipes and seasonal specialties, all served in a unique setting with beautiful decor.",
+    "cuisine": "American",
+    "priceRange": "$$$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "9:00-22:00",
+      "friday": "11:00-21:00",
+      "saturday": "11:00-21:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-618-3257",
+      "contactEmail": "contact@goldencreamerynassau.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "The Parlor",
+    "description": "Experience authentic Japanese cuisine with a local twist, featuring fresh produce served in an atmosphere of live street performances overlooking the old town walls.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "10:00-21:00",
+      "friday": "9:00-19:00",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-509-5094",
+      "contactEmail": "connect@grandinnnassau.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Royal Sushi Bar",
+    "description": "Experience authentic Japanese cuisine with a local twist, featuring gourmet street food served in an atmosphere of local ambiance overlooking the historic district.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-21:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-20:00",
+      "friday": "9:00-21:00",
+      "saturday": "11:00-20:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-423-7360",
+      "contactEmail": "connect@grandtapasbarnassau.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];
