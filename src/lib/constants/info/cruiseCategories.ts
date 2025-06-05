@@ -88,6 +88,13 @@ export const cruiseCategories: CruisCategory[] = [
       "Set sail during peak autumn to witness nature’s vibrant transformation. Cruise through New England or Canada surrounded by golden and crimson hues.",
     icon: FaLeaf,
   },
+  {
+    id: "expedition-cruise",
+    title: "Expedition Cruise",
+    description:
+      "Adventure awaits with these cruises that explore remote destinations, wildlife encounters, and unique cultural experiences, often led by expert guides.",
+    icon: FaMountain,
+  },
 ];
 
 // Map for quick lookup
