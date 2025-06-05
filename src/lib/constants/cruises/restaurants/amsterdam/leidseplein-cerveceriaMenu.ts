@@ -6,24 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our classic kitchen reimagines Belgian for today’s palate",
+    "description": "A fresh dining experience featuring the essence of Belgian gastronomy",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Unforgettable signatures that define who we are and what we serve, crafted to perfection.",
+        "description": "Our chef's pride—carefully selected Belgian specialties that define our culinary identity, honed through years of experience and passion.",
         "items": [
           {
-            "name": "Award-Winning Seafood Boil",
-            "price": 25.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Founder's Family Recipe Pasta",
-            "price": 34.78,
+            "name": "Homestyle Flaky Chef's Special Surf and Turf",
+            "price": 29.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -31,17 +22,35 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Special Surf and Turf",
-            "price": 26.91,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Organic Grilled Seasonal Tasting Platter",
+            "price": 29.01,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Black Garlic Glazed Beef Tenderloin",
-            "price": 31.95,
+            "name": "Homestyle Comforting Chef's Childhood Inspired Creation",
+            "price": 24.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Flavorful Seasonal Tasting Menu Experience",
+            "price": 33.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Delectable Founder's Family Recipe Pasta",
+            "price": 31.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -49,29 +58,20 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seasonal Tasting Menu Experience",
-            "price": 37.14,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Restaurant's Namesake Signature Entrée",
-            "price": 36.13,
-            "isVegetarian": true,
+            "name": "Authentic Delectable Whole Roasted Heritage Chicken",
+            "price": 37.73,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Chef’s Wild Game Selection",
-            "price": 28.2,
-            "isVegetarian": false,
+            "name": "Classic Braised Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 31.02,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -79,38 +79,20 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "Crafted daily based on what’s freshest and most inspiring at the market.",
+        "description": "Expressions of creativity from our chef’s table—ever-changing and inspired by market finds.",
         "items": [
           {
-            "name": "House Special Zingy Sustainable Seafood Tower",
-            "price": 38.38,
+            "name": "Handcrafted Marinated Hand-Selected Wine Pairing Experience",
+            "price": 35.81,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Marinated Dry-Aged Prime Beef Selection",
-            "price": 33.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Tangy Miso-Glazed Black Cod",
-            "price": 32.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Juicy Volcanic Stone-Cooked Specialty",
-            "price": 32.42,
+            "name": "Seasonal Crunchy Chef's Tasting Menu Experience",
+            "price": 38.53,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -118,41 +100,59 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Satisfying Duck Confit with Roasted Root Vegetables",
-            "price": 35.29,
+            "name": "House Special Marinated House Specialty Pasta Creation",
+            "price": 38.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Stuffed Tableside Flambé Preparation",
+            "price": 27.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Hearty Delectable High-End Ingredient Showcase",
+            "price": 26.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "Thoughtfully prepared small plates to begin your culinary experience with elegance and taste.",
+        "description": "Small bites designed to awaken your senses and set the tone for your dining journey.",
         "items": [
           {
-            "name": "Chicken Satay",
-            "price": 8.7,
+            "name": "Shrimp Cocktail",
+            "price": 13.48,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
+            "name": "Bruschetta",
+            "price": 13.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Mozzarella Sticks",
-            "price": 10.41,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spring Rolls",
-            "price": 11.76,
+            "price": 13.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -160,47 +160,47 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garlic Bread",
-            "price": 13.76,
-            "isVegetarian": true,
+            "name": "Calamari",
+            "price": 15.33,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Falafel",
-            "price": 14.24,
-            "isVegetarian": false,
+            "name": "Cheese Platter",
+            "price": 13.36,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Mini Quesadillas",
-            "price": 11.14,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Avocado",
-            "price": 12.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ceviche",
-            "price": 11.63,
+            "price": 10.2,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tempura",
+            "price": 15.98,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lettuce Wraps",
+            "price": 14.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -211,8 +211,8 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
         "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
         "items": [
           {
-            "name": "Black Bean Soup",
-            "price": 9.55,
+            "name": "Cabbage Soup",
+            "price": 11.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -221,7 +221,7 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
           },
           {
             "name": "Clam Chowder",
-            "price": 8.86,
+            "price": 7.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -229,20 +229,20 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Split Pea Soup",
-            "price": 13.24,
-            "isVegetarian": true,
+            "name": "Hot and Sour Soup",
+            "price": 12.69,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Borscht",
-            "price": 8.38,
+            "name": "French Onion Soup",
+            "price": 12.27,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -250,47 +250,47 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Crisp and colorful salads that balance flavor, nutrition, and beautiful presentation.",
+        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
         "items": [
           {
-            "name": "Kale Salad",
-            "price": 10.92,
+            "name": "Nicoise Salad",
+            "price": 9.62,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Potato Salad",
-            "price": 11.76,
-            "isVegetarian": false,
+            "name": "Asian Slaw",
+            "price": 9.92,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Orzo Salad",
-            "price": 14.57,
-            "isVegetarian": false,
+            "name": "Mango Avocado Salad",
+            "price": 15.15,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fruit Salad",
-            "price": 15.78,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Arugula Salad",
+            "price": 15.45,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Beet Salad",
-            "price": 10.57,
+            "name": "Cobb Salad",
+            "price": 15.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -301,11 +301,11 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From farm to table, our mains are a reflection of our commitment to quality and flavor.",
+        "description": "Crafted with the finest ingredients, our mains are a testament to our culinary philosophy.",
         "items": [
           {
-            "name": "Authentic Appetizing Stuffed Peppers",
-            "price": 24.15,
+            "name": "Traditional Aromatic Pizza",
+            "price": 18.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -313,8 +313,8 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Golden Biryani",
-            "price": 30.92,
+            "name": "Hearty Aromatic Stir-fry",
+            "price": 25.6,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -322,8 +322,17 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Steamed Katsu Curry",
-            "price": 29.78,
+            "name": "Deluxe Crispy Lamb Chops",
+            "price": 30.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Spicy Thai Curry",
+            "price": 25.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -331,8 +340,8 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Grilled Cottage Pie",
-            "price": 29.05,
+            "name": "Seasonal Creamy Steak",
+            "price": 20.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -340,8 +349,8 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Crispy Currywurst",
-            "price": 19.94,
+            "name": "Fresh Crunchy Coq au Vin",
+            "price": 30.45,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -349,17 +358,8 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Satisfying Risotto",
-            "price": 19.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Satisfying Spaghetti Bolognese",
-            "price": 21.12,
+            "name": "Seasonal Herbed Shakshuka",
+            "price": 24.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -367,13 +367,13 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Zesty Salmon",
-            "price": 30.2,
+            "name": "Gourmet Roasted Gnocchi",
+            "price": 28.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
@@ -382,17 +382,8 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
         "description": "From raw bar selections to grilled specialties, our seafood dishes are a must-try.",
         "items": [
           {
-            "name": "Seasonal Grilled Prawn Curry in Coconut Masala",
-            "price": 33.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Juicy Seafood Alfredo with Spinach Fettuccine",
-            "price": 22.23,
+            "name": "Fresh Grilled Maryland Style Crab Cakes",
+            "price": 34.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,8 +391,17 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Grilled Grilled Lobster with Lemon Butter",
-            "price": 33.46,
+            "name": "Fresh Appetizing Oysters Rockefeller with Pernod Cream",
+            "price": 33.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Sautéed Tempura Soft Shell Crab",
+            "price": 32.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -409,17 +409,17 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Hearty Cajun Shrimp and Grits",
-            "price": 33.95,
+            "name": "Handcrafted Pan-seared Grilled Lobster with Lemon Butter",
+            "price": 29.16,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Deluxe Zesty Sushi-Grade Sashimi Platter",
-            "price": 25.01,
+            "name": "Gourmet Spiced Sushi-Grade Sashimi Platter",
+            "price": 26.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -430,29 +430,38 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Crafted to enhance your main course, these sides are anything but ordinary.",
+        "description": "Flavor-packed sides made to share—or keep all to yourself.",
         "items": [
           {
-            "name": "Authentic Smoked Sweet Potato Wedges with Smoked Paprika",
-            "price": 5.05,
+            "name": "Premium Delectable Buttered Egg Noodles",
+            "price": 7.95,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Satisfying Soft Polenta with Parmesan",
+            "price": 8.95,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sautéed Grilled Asparagus with Lemon Zest",
+            "price": 6.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Handcrafted Roasted Mashed Potatoes",
-            "price": 6.72,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Baked Roasted Root Vegetables",
-            "price": 7,
+            "name": "Classic Satisfying Roasted Root Vegetables",
+            "price": 7.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -460,29 +469,20 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Pan-seared French Fries",
-            "price": 9.41,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Organic Juicy Sweet Corn and Cheddar Fritters",
+            "price": 7.99,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Spicy Sweet Corn and Cheddar Fritters",
-            "price": 7.94,
+            "name": "Authentic Crunchy Cauliflower Gratin with Gruyère",
+            "price": 7.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Luscious Crispy Beer-Battered Onion Rings",
-            "price": 8.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,11 +490,11 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Handcrafted drinks designed to hydrate and delight—no spirits necessary.",
+        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
         "items": [
           {
-            "name": "Handcrafted Succulent Coffee",
-            "price": 4.74,
+            "name": "Traditional Flavorful Juice",
+            "price": 5.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,35 +502,8 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Spicy Tea",
-            "price": 4.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Mouthwatering Smoothie",
-            "price": 7.83,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Spiced Juice",
-            "price": 6.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Spiced Water",
-            "price": 6.8,
+            "name": "Fresh Hearty Iced Tea",
+            "price": 6.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -538,8 +511,35 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Spiced Soda",
-            "price": 4.14,
+            "name": "Homestyle Luscious Water",
+            "price": 5.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Irresistible Hot Chocolate",
+            "price": 4.84,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Zesty Tea",
+            "price": 4.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Spiced Lemonade",
+            "price": 6.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -552,24 +552,42 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Discover our collection of crowd-pleasing sweet masterpieces",
+    "description": "Experience the art of satisfying desserts with a Belgian twist",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Perfectly baked pastries and breads that bring warmth to your table.",
+        "description": "A selection of sweet and savory baked delights, crafted with love and care.",
         "items": [
           {
-            "name": "Cupcakes",
-            "price": 10.37,
+            "name": "Seasonal Zingy Shortbread",
+            "price": 10,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Biscotti",
-            "price": 6.18,
+            "name": "Hearty Crunchy Carrot Cake",
+            "price": 6.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Herbed Cannoli",
+            "price": 10.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Golden Chocolate Chip Cookies",
+            "price": 7.9,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -577,27 +595,9 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Brownies",
-            "price": 8.48,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Donuts",
-            "price": 8.43,
+            "name": "Fresh Spiced Donuts",
+            "price": 6.49,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Croissants",
-            "price": 9.8,
-            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
@@ -607,50 +607,50 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Icy, sweet finishes with flavor that lingers beyond the chill.",
+        "description": "The ultimate way to cool off and indulge—delicate, creamy, and unforgettable.",
         "items": [
           {
-            "name": "Frozen Cheesecake",
-            "price": 7.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Mousse",
-            "price": 9.38,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Pie",
-            "price": 8.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Popsicles",
-            "price": 9.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Custard",
-            "price": 10.93,
+            "name": "Gourmet Smoked Ice Cream Cake",
+            "price": 8.86,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Smoked Paletas",
+            "price": 9.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Savory Granita",
+            "price": 11.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Satisfying Semifreddo",
+            "price": 9.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Marinated Gelato",
+            "price": 7.98,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,24 +660,15 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A fine selection of alcoholic beverages to complement your meal",
+    "description": "Elevate your dining experience with our fine beverage options",
     "category": [
       {
         "name": "Signature Cocktails",
         "description": "From timeless classics to modern masterpieces, our cocktails are crafted to impress.",
         "items": [
           {
-            "name": "Negroni",
-            "price": 15.16,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 14.96,
+            "name": "Organic Luscious Martini",
+            "price": 10.22,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -685,44 +676,53 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 13.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 11.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 10.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
+            "name": "Deluxe Sautéed Mojito",
             "price": 12.54,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Flaky Margarita",
+            "price": 11.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Flavorful Whiskey Sour",
+            "price": 14.81,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 11.91,
+            "name": "Seasonal Enticing Negroni",
+            "price": 11.56,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Crunchy Old Fashioned",
+            "price": 15.82,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Crunchy Bloody Mary",
+            "price": 14.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -733,20 +733,11 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
+        "description": "A wine list as thoughtful and layered as our cuisine.",
         "items": [
           {
-            "name": "Merlot",
-            "price": 9.86,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cabernet Sauvignon",
-            "price": 11.53,
+            "name": "Traditional Hearty Vermentino",
+            "price": 10.29,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -754,8 +745,8 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Vermentino",
-            "price": 9.56,
+            "name": "Premium Grilled Syrah/Shiraz",
+            "price": 11.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -763,17 +754,8 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Malbec",
-            "price": 8.26,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Grigio",
-            "price": 12.68,
+            "name": "Deluxe Spicy Gamay",
+            "price": 10.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -781,8 +763,26 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pinot Noir",
-            "price": 12.02,
+            "name": "Gourmet Grilled Barbera",
+            "price": 12.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Pan-seared Sangiovese",
+            "price": 13.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Roasted Albariño",
+            "price": 11.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -793,11 +793,11 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Ideal for slow sipping or celebratory toasts—each bottle has a story.",
+        "description": "Start or finish your night with a pour that lingers in memory.",
         "items": [
           {
-            "name": "Deluxe Roasted Amaretto",
-            "price": 11.29,
+            "name": "Premium Sautéed Limoncello",
+            "price": 12.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -805,37 +805,37 @@ export const amsterdamleidsepleinCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Pan-seared Coffee Liqueur",
-            "price": 13.85,
-            "isVegetarian": false,
+            "name": "Classic Luscious Frangelico",
+            "price": 17.98,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Crispy Rum",
-            "price": 13.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Homestyle Roasted Grappa",
-            "price": 16.53,
+            "name": "Handcrafted Luscious Rum",
+            "price": 13.91,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Creamy Chartreuse",
+            "price": 16.14,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Appetizing Maraschino",
-            "price": 10.21,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Traditional Hearty Maraschino",
+            "price": 15.68,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true

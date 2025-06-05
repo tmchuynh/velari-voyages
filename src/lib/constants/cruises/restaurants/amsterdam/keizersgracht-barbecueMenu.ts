@@ -6,24 +6,51 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Taste the depth of Mediterranean culture through our tasty preparations",
+    "description": "Bold, delicious, and unmistakably Mediterranean—each dish tells a story",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "A curated collection of our most iconic and requested plates, each a testament to our culinary excellence.",
+        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
         "items": [
           {
-            "name": "Chef's Childhood Inspired Creation",
-            "price": 30.03,
+            "name": "Deluxe Exquisite Celebrity Favorite Lobster Dish",
+            "price": 25.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Delectable Chef's Special Surf and Turf",
+            "price": 26.96,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Flavorful Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 30.2,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Heritage Recipe Lamb Shank",
-            "price": 26.42,
+            "name": "Organic Steamed Heritage Recipe Lamb Shank",
+            "price": 26.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Herbed Wood-Fired Peking Duck with Plum Sauce",
+            "price": 26.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -31,45 +58,18 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 24.43,
+            "name": "Authentic Wholesome Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 36.45,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Wood-Fired Peking Duck with Plum Sauce",
-            "price": 24.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Special Surf and Turf",
-            "price": 30.72,
+            "name": "Homestyle Appetizing Seasonal Tasting Platter",
+            "price": 26.3,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 32.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Award-Winning Seafood Boil",
-            "price": 33.66,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -79,29 +79,38 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "Inventive dishes that explore rare ingredients, bold flavors, and progressive cooking techniques.",
+        "description": "Unique culinary compositions that rotate frequently to keep each visit fresh and surprising.",
         "items": [
           {
-            "name": "Fresh Satisfying Braised Short Ribs with Red Wine Sauce",
-            "price": 28.15,
-            "isVegetarian": false,
+            "name": "Fusion of Traditional and Modern Techniques",
+            "price": 34.24,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Dry-Aged Prime Beef Selection",
+            "price": 34.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Hearty Grilled Chef's Tasting Menu Experience",
-            "price": 33.25,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Daily Fresh Catch with Seasonal Accompaniments",
+            "price": 38.58,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Herbed Black Garlic Marinated Octopus",
-            "price": 29.19,
+            "name": "Collaborative Limited Edition Special",
+            "price": 37.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -109,32 +118,23 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Spiced Daily Fresh Catch with Seasonal Accompaniments",
-            "price": 38.16,
+            "name": "Fire-Roasted Seasonal Centerpiece",
+            "price": 31.58,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Authentic Savory Crispy Skin Sea Bass",
-            "price": 34.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "Mouthwatering previews of what's to come—crafted to tease and please.",
+        "description": "An inviting mix of light fare and bold starters crafted to excite the palate.",
         "items": [
           {
-            "name": "Handcrafted Crunchy Stuffed Jalapeños",
-            "price": 12.95,
+            "name": "Samosas",
+            "price": 13.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -142,17 +142,26 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Smoked Mini Empanadas",
-            "price": 11.54,
+            "name": "Mezze Platter",
+            "price": 15.09,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Classic Crispy Stuffed Mushrooms",
-            "price": 14.22,
+            "name": "Falafel",
+            "price": 14.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Shrimp Cocktail",
+            "price": 9.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -160,8 +169,8 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Juicy Prawn Toast",
-            "price": 11.53,
+            "name": "Onion Rings",
+            "price": 9.21,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -169,37 +178,28 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Irresistible Spring Rolls",
-            "price": 12.36,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Comforting Prawn Cocktail",
-            "price": 8.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Tender Stuffed Avocado",
-            "price": 15.63,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Zingy Antipasto Platter",
-            "price": 14.33,
+            "name": "Zucchini Fries",
+            "price": 10.45,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mini Quesadillas",
+            "price": 12.34,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Potato Skins",
+            "price": 10.1,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -208,29 +208,11 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Warm, nourishing soups that reflect the heart of Mediterranean cooking—perfect for any season.",
+        "description": "Daily-prepared soups made from seasonal ingredients and traditional Mediterranean methods.",
         "items": [
           {
-            "name": "Homestyle Wholesome Lobster Bisque",
-            "price": 12.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Sweet Beef Stew",
-            "price": 10.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Crispy Seafood Chowder",
-            "price": 13.64,
+            "name": "Black Bean Soup",
+            "price": 12.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -238,10 +220,28 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Mouthwatering Egg Drop Soup",
-            "price": 7.12,
-            "isVegetarian": true,
+            "name": "French Onion Soup",
+            "price": 11.27,
+            "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chicken Corn Soup",
+            "price": 10.52,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gumbo",
+            "price": 8.13,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -250,11 +250,20 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Lively salads combining texture, temperature, and taste for a refreshing start or light meal.",
+        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
         "items": [
           {
-            "name": "Apple Pecan Salad",
-            "price": 11.59,
+            "name": "Tabbouleh",
+            "price": 10.49,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pear and Gorgonzola Salad",
+            "price": 9.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -263,37 +272,28 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
           },
           {
             "name": "Broccoli Crunch Salad",
-            "price": 14.49,
+            "price": 15.72,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Quinoa Salad",
-            "price": 13.28,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 13.64,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Garden Salad",
-            "price": 9.8,
-            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caprese Salad",
+            "price": 10.53,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cucumber Salad",
+            "price": 15.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,77 +301,77 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Signature entrées crafted with precision, embodying the core of our Mediterranean vision.",
+        "description": "Crafted with passion and precision, our mains are designed to impress.",
         "items": [
           {
-            "name": "Hearty Herbed Grilled Chicken",
-            "price": 22.13,
+            "name": "Tagine",
+            "price": 20.36,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Beef Wellington",
+            "price": 23.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Premium Smoked Teriyaki Chicken",
-            "price": 25.94,
+            "name": "Enchiladas",
+            "price": 18.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Deluxe Roasted Stuffed Peppers",
-            "price": 26.54,
+            "name": "Pizza",
+            "price": 30.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Stuffed Peppers",
+            "price": 30.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Risotto",
+            "price": 23.52,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bibimbap",
+            "price": 23.5,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Flavorful Vegetable Stir-Fry",
-            "price": 28.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Exquisite Coq au Vin",
-            "price": 18.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Luscious Seafood Platter",
-            "price": 24.26,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Sweet Pizza",
-            "price": 19.51,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Grilled Shish Kebabs",
-            "price": 20.39,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "name": "Katsu Curry",
+            "price": 20.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -379,38 +379,11 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
+        "description": "From raw bar selections to grilled specialties, our seafood dishes are a must-try.",
         "items": [
           {
-            "name": "Homestyle Fried Baked Cod with Lemon Caper Sauce",
-            "price": 27.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Tender Mussels Mariniere in White Wine",
-            "price": 25.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Creamy Cajun Shrimp and Grits",
-            "price": 25.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Herbed Seafood Gumbo with Okra",
-            "price": 25,
+            "name": "Seafood Alfredo with Spinach Fettuccine",
+            "price": 23.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -418,32 +391,50 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Pan-seared Lemon-Herb Calamari Steak",
-            "price": 34.57,
+            "name": "Hearty Italian Cioppino",
+            "price": 35.94,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Valencian Seafood Paella",
+            "price": 24.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mussels Mariniere in White Wine",
+            "price": 34.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Tempura Soft Shell Crab",
+            "price": 26.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Classic Mediterranean side dishes with our own unique interpretation.",
+        "description": "Flavorful companions that round out your meal with harmony and flair.",
         "items": [
           {
-            "name": "Traditional Golden Scalloped Potatoes with Thyme",
-            "price": 9.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Spiced Creamed Spinach with Nutmeg",
-            "price": 6.68,
+            "name": "Wild Rice Pilaf",
+            "price": 9.82,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -451,26 +442,35 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Tender Herbed Bulgur Wheat with Lemon",
-            "price": 9.3,
+            "name": "Sweet Potato Wedges with Smoked Paprika",
+            "price": 5.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chili Lime Roasted Chickpeas",
+            "price": 8.05,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Garlic Bread with Herb Butter",
+            "price": 5.8,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Braised Israeli Couscous with Roasted Tomatoes",
-            "price": 9.78,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Spicy Sweet Corn and Cheddar Fritters",
-            "price": 8.18,
+            "name": "Crispy Zucchini Fritters",
+            "price": 5.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -478,11 +478,11 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Crunchy Steamed Jasmine Rice",
-            "price": 8.41,
-            "isVegetarian": true,
+            "name": "Soft Polenta with Parmesan",
+            "price": 5.41,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,20 +490,20 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Mocktails and specialty drinks made with the same care as our cocktails.",
+        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
         "items": [
           {
-            "name": "Soda",
-            "price": 6.48,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "name": "Premium Sweet Tea",
+            "price": 7.34,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Milkshake",
-            "price": 7.26,
+            "name": "Traditional Delicious Juice",
+            "price": 6.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -511,17 +511,8 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Juice",
-            "price": 6.65,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coffee",
-            "price": 5.17,
+            "name": "Classic Spicy Water",
+            "price": 6.63,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -529,17 +520,26 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hot Chocolate",
-            "price": 6.03,
+            "name": "Traditional Crunchy Milkshake",
+            "price": 7.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Steamed Smoothie",
+            "price": 6.41,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Lemonade",
-            "price": 5.53,
+            "name": "Premium Savory Hot Chocolate",
+            "price": 4.21,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -552,52 +552,52 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "From oven to plate – classic desserts made with care",
+    "description": "Delight in our delicious desserts prepared fresh daily",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Perfectly baked pastries and breads that bring warmth to your table.",
+        "description": "Perfectly baked goods that pair beautifully with our beverages or stand alone.",
         "items": [
           {
-            "name": "Custard Tart",
-            "price": 7.47,
-            "isVegetarian": true,
+            "name": "Cheesecake",
+            "price": 10.45,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cheesecake",
-            "price": 9.41,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Berry Tart",
+            "price": 8.56,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Macarons",
-            "price": 6.76,
+            "price": 10.68,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Baklava",
-            "price": 10.77,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Scones",
-            "price": 7.7,
+            "name": "Chocolate Chip Cookies",
+            "price": 9.31,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vanilla Cake",
+            "price": 6.54,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -607,29 +607,11 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Made in-house with premium dairy and plant-based alternatives.",
+        "description": "Icy, sweet finishes with flavor that lingers beyond the chill.",
         "items": [
           {
-            "name": "Deluxe Hearty Ice Cream Sandwich",
-            "price": 11.68,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Creamy Granita",
-            "price": 7.01,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Satisfying Frozen Pudding",
-            "price": 8.35,
+            "name": "Gourmet Crunchy Frozen Pudding",
+            "price": 9.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -637,19 +619,37 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Irresistible Ice Cream Cake",
-            "price": 8.19,
+            "name": "Organic Marinated Frozen Cheesecake",
+            "price": 9.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Satisfying Paletas",
-            "price": 10.47,
+            "name": "Classic Zingy Frosty",
+            "price": 8.02,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Roasted Gelato",
+            "price": 10.46,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Zingy Ice Cream Sandwich",
+            "price": 8.51,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -660,51 +660,15 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A fine array of beverages specially selected by our sommeliers",
+    "description": "Elevate your dining experience with our inviting beverage options",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
+        "description": "From classic twists to innovative new blends, our cocktails are a celebration of flavor.",
         "items": [
           {
-            "name": "Fresh Baked Old Fashioned",
-            "price": 14.76,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Tangy Margarita",
-            "price": 14.88,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Stuffed Mojito",
-            "price": 15.33,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Baked Bloody Mary",
-            "price": 11.17,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Spiced Whiskey Sour",
-            "price": 11.46,
+            "name": "Traditional Aromatic Whiskey Sour",
+            "price": 14.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -712,20 +676,56 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Baked Mai Tai",
-            "price": 10.27,
+            "name": "Gourmet Delectable Margarita",
+            "price": 12.87,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Delectable Bloody Mary",
+            "price": 14.37,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Enticing Old Fashioned",
+            "price": 12.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Steamed Martini",
+            "price": 10.98,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Golden Negroni",
-            "price": 15.88,
+            "name": "Hearty Baked Manhattan",
+            "price": 13.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Spiced Mai Tai",
+            "price": 13.45,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,38 +733,11 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Explore our wine list, where each bottle is a testament to craftsmanship and tradition.",
+        "description": "A journey through the world of wine, with options to suit every taste and occasion.",
         "items": [
           {
-            "name": "House Special Tangy Prosecco",
-            "price": 9.41,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Grilled Champagne/Sparkling Wine",
-            "price": 11.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Mouthwatering Marsanne",
-            "price": 9.51,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Herbed Verdicchio",
-            "price": 11.59,
+            "name": "House Special Tangy Cabernet Franc",
+            "price": 11.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -772,17 +745,44 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Riesling",
-            "price": 11.14,
+            "name": "House Special Baked Albariño",
+            "price": 13.21,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Hearty Marsanne",
+            "price": 12.8,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Spicy Chardonnay",
+            "price": 12.42,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Delectable Mourvèdre",
-            "price": 13.71,
+            "name": "Deluxe Grilled Gamay",
+            "price": 10.35,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Roasted Pinot Noir",
+            "price": 11.05,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -796,35 +796,26 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
         "description": "A curated collection of fine spirits and artisan liqueurs from around the world.",
         "items": [
           {
-            "name": "Authentic Spiced Chartreuse",
-            "price": 11.67,
+            "name": "Gourmet Spicy Anisette",
+            "price": 15.1,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Smoked Vodka",
-            "price": 15.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Grilled Pisco",
-            "price": 16.64,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Handcrafted Pan-seared Vodka",
+            "price": 13.92,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Hearty Campari",
-            "price": 10.14,
+            "name": "Handcrafted Appetizing Brandy",
+            "price": 14.76,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -832,11 +823,20 @@ export const amsterdamkeizersgrachtBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Flavorful Mezcal",
-            "price": 16.04,
-            "isVegetarian": false,
+            "name": "Seasonal Smoked Calvados",
+            "price": 11.25,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Delectable Coffee Liqueur",
+            "price": 12.14,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

@@ -6,15 +6,24 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Delight in our chef's most homestyle takes on traditional Indonesian flavors",
+    "description": "Our tasty kitchen reimagines Indonesian for today’s palate",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Our chef's pride—carefully selected Indonesian specialties that define our culinary identity, honed through years of experience and passion.",
+        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
         "items": [
           {
-            "name": "Molecular Gastronomy Showcase Tasting",
-            "price": 34.38,
+            "name": "Traditional Sizzling Seasonal Tasting Menu Experience",
+            "price": 29.75,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Sautéed Tableside Carved Chateaubriand",
+            "price": 30.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -22,56 +31,47 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sous Vide Perfected Wagyu",
-            "price": 33.02,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Truffle Pasta with Aged Pecorino",
-            "price": 24.92,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Japanese A5 Wagyu with Ponzu Butter",
-            "price": 31.11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Flambéed Tableside Specialty",
-            "price": 26.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Charcoal Grilled Iberico Pork",
-            "price": 27.83,
+            "name": "Deluxe Tangy Flambéed Tableside Specialty",
+            "price": 24.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Creamy Charcoal Grilled Iberico Pork",
+            "price": 33.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Tangy Seasonal Tasting Platter",
+            "price": 34.19,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Local Bounty Harvest Plate (Vegetarian)",
-            "price": 25.95,
+            "name": "Fresh Pan-seared Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 25.39,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Stuffed Japanese A5 Wagyu with Ponzu Butter",
+            "price": 27.5,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -79,20 +79,11 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
+        "description": "A rotating selection of dishes that highlight the chef's creativity and passion for Indonesian.",
         "items": [
           {
-            "name": "House Special Creamy Freshly Harvested Seasonal Creation",
-            "price": 38.65,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Juicy Crispy Skin Sea Bass",
-            "price": 30.09,
+            "name": "Handcrafted Irresistible Black Garlic Marinated Octopus",
+            "price": 37.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -100,26 +91,35 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seasonal Fried Cold-Smoked Delicacy",
-            "price": 31,
+            "name": "Classic Herbed Heritage Breed Porchetta",
+            "price": 39.97,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Sizzling Fire-Roasted Seasonal Centerpiece",
-            "price": 32,
+            "name": "Authentic Roasted Heirloom Recipe from Chef's Family",
+            "price": 28.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Classic Crunchy House Specialty Pasta Creation",
-            "price": 33.64,
+            "name": "Authentic Exquisite Aged and House-Cured Charcuterie Selection",
+            "price": 26.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Hearty Cold-Smoked Delicacy",
+            "price": 39.21,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -130,20 +130,11 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Crafted to excite the palate, our starters are a perfect introduction to the world of Indonesian.",
+        "description": "An inviting mix of light fare and bold starters crafted to excite the palate.",
         "items": [
           {
-            "name": "Organic Delectable Baked Brie",
-            "price": 14.23,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Golden Nachos",
-            "price": 12.66,
+            "name": "Meatballs",
+            "price": 13.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -151,35 +142,35 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Aromatic Calamari",
-            "price": 13.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Grilled Cheese Nachos",
-            "price": 12.42,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Tangy Chicken Wings",
-            "price": 13.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Satisfying Falafel",
+            "name": "Antipasto Platter",
             "price": 10.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Shrimp Cocktail",
+            "price": 13.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Stuffed Mushrooms",
+            "price": 9.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lettuce Wraps",
+            "price": 13.63,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -187,17 +178,26 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Golden Garlic Knots",
-            "price": 14.75,
-            "isVegetarian": true,
+            "name": "Prawn Cocktail",
+            "price": 8.38,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Pan-seared Mozzarella Sticks",
-            "price": 15.88,
+            "name": "Tuna Tartare",
+            "price": 14.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Cheese Nachos",
+            "price": 13.88,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -208,20 +208,11 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Each bowl is a journey through the heart of Indonesian, crafted with care and expertise.",
+        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
         "items": [
           {
-            "name": "Egg Drop Soup",
-            "price": 8.63,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Broccoli Cheddar Soup",
-            "price": 12.56,
+            "name": "Organic Golden Minestrone",
+            "price": 7.89,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -229,20 +220,29 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tortilla Soup",
-            "price": 12.98,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tomato Soup",
-            "price": 8.79,
+            "name": "Gourmet Steamed Beef Stew",
+            "price": 11.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Golden Chicken Corn Soup",
+            "price": 11.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Fried Tomato Soup",
+            "price": 12.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -250,48 +250,48 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
+        "description": "Wholesome creations that blend crunch, freshness, and house-crafted dressings.",
         "items": [
           {
-            "name": "Broccoli Crunch Salad",
-            "price": 15.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mediterranean Chopped Salad",
-            "price": 14.16,
+            "name": "Watermelon Feta Salad",
+            "price": 11.14,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Arugula Salad",
-            "price": 11.88,
-            "isVegetarian": false,
+            "name": "Asian Slaw",
+            "price": 10.53,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Nicoise Salad",
-            "price": 12.68,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Caesar Salad",
+            "price": 9.72,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Watermelon Feta Salad",
-            "price": 9.49,
+            "name": "Spinach Salad",
+            "price": 12.13,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pecan Salad",
+            "price": 10.16,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -301,20 +301,65 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From classic to contemporary, our mains are a celebration of Indonesian culture.",
+        "description": "From hearty classics to modern interpretations, our mains are a feast for the senses.",
         "items": [
           {
-            "name": "Beef Burger",
-            "price": 30.01,
+            "name": "Fresh Sizzling Salmon",
+            "price": 25.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Mouthwatering Fish and Chips",
+            "price": 24.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Grilled Pizza",
+            "price": 20.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Steak",
-            "price": 18.67,
+            "name": "Handcrafted Enticing Lasagna",
+            "price": 18.69,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Mouthwatering Fajitas",
+            "price": 30.81,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Delectable Coq au Vin",
+            "price": 21.67,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Marinated Teriyaki Chicken",
+            "price": 27.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -322,56 +367,11 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Vegetable Stir-Fry",
-            "price": 23.13,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Premium Spiced Tacos",
+            "price": 21.86,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Currywurst",
-            "price": 19.27,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fish and Chips",
-            "price": 28.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shakshuka",
-            "price": 20.07,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Enchiladas",
-            "price": 30.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tacos",
-            "price": 28.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -379,71 +379,71 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Expertly prepared seafood that highlights the natural flavors of the ocean.",
+        "description": "Coastal cuisine brought inland with clarity, freshness, and elegance.",
         "items": [
           {
-            "name": "Deluxe Zingy Prawn Curry in Coconut Masala",
-            "price": 32.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Enticing Shrimp Scampi over Linguine",
-            "price": 23.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Golden Alaskan King Crab Legs with Drawn Butter",
-            "price": 31.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Roasted Smoked Salmon Platter with Dill Crème",
-            "price": 33.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Wholesome New England Lobster Roll",
-            "price": 25.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "description": "Crafted to enhance your meal, these sides are a celebration of Indonesian flavors.",
-        "items": [
-          {
-            "name": "Stuffed Bell Peppers with Brown Rice",
-            "price": 9.67,
-            "isVegetarian": false,
+            "name": "Deluxe Spiced Traditional Provençal Bouillabaisse",
+            "price": 34.71,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "French Fries",
-            "price": 5.21,
+            "name": "Seasonal Delectable Prawn Curry in Coconut Masala",
+            "price": 27.65,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Appetizing Cajun Shrimp and Grits",
+            "price": 24.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Golden New England Lobster Roll",
+            "price": 30.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Herbed Basa Fillet with Dill Cream Sauce",
+            "price": 31.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "description": "From classic to contemporary, our sides are designed to complement and surprise.",
+        "items": [
+          {
+            "name": "Authentic Herbed Roasted Root Vegetables",
+            "price": 7.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Steamed Baked Idaho Potato with Sour Cream",
+            "price": 7.53,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -451,8 +451,8 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Flaky Cheddar and Chive Biscuits",
-            "price": 6.66,
+            "name": "Organic Baked Flaky Cheddar and Chive Biscuits",
+            "price": 7.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -460,26 +460,26 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chili Lime Roasted Chickpeas",
-            "price": 9.23,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Homestyle Delectable Chili Lime Roasted Chickpeas",
+            "price": 6.99,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Wild Mushroom Risotto",
-            "price": 9.64,
+            "name": "Authentic Crunchy Creamy Colcannon (Irish Potato Mash)",
+            "price": 9.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Crispy Beer-Battered Onion Rings",
-            "price": 9.06,
+            "name": "Gourmet Sweet Cauliflower Gratin with Gruyère",
+            "price": 5.1,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -490,38 +490,11 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Flavorful, alcohol-free options that never compromise on taste or presentation.",
+        "description": "Crafted beverages that offer a sophisticated alternative to traditional drinks.",
         "items": [
           {
-            "name": "Soda",
-            "price": 6.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 6.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 4.73,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 4.58,
+            "name": "Gourmet Hearty Coffee",
+            "price": 6.32,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -529,17 +502,44 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Milkshake",
-            "price": 5.29,
+            "name": "Deluxe Herbed Tea",
+            "price": 6.14,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Pan-seared Milkshake",
+            "price": 4.83,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 5.25,
+            "name": "Organic Sweet Iced Tea",
+            "price": 5.33,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Appetizing Smoothie",
+            "price": 6.47,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Pan-seared Juice",
+            "price": 5.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -552,15 +552,42 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Our dessert menu features comforting selections to satisfy every craving",
+    "description": "Our comforting dessert offerings crafted with the finest ingredients",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "From flaky pastries to hearty breads, our baked goods are a must-try.",
+        "description": "A rotating selection of baked indulgences from sweet to savory.",
         "items": [
           {
-            "name": "Premium Comforting Portuguese Custard Tarts",
-            "price": 11,
+            "name": "Portuguese Custard Tarts",
+            "price": 8.2,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cannoli",
+            "price": 8.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pain au Chocolat",
+            "price": 10.29,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pie",
+            "price": 6.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,35 +595,8 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Flavorful Baklava",
-            "price": 10.23,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Tender Cannoli",
-            "price": 7.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Flaky Croissants",
-            "price": 8.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Smoked Apple Pie",
-            "price": 6.68,
+            "name": "Macarons",
+            "price": 7.58,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -607,29 +607,29 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Smooth, rich frozen creations featuring local fruits and seasonal flavors.",
+        "description": "Icy, sweet finishes with flavor that lingers beyond the chill.",
         "items": [
           {
-            "name": "Authentic Smoked Ice Cream Sandwich",
-            "price": 7.1,
+            "name": "Premium Delectable Semifreddo",
+            "price": 9.25,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Savory Frozen Custard",
+            "price": 10.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Satisfying Frozen Mousse",
-            "price": 7.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Seasonal Zesty Frozen Fruit Bars",
-            "price": 9.37,
+            "name": "Gourmet Roasted Ice Cream",
+            "price": 7.41,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -637,8 +637,8 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Crispy Gelato",
-            "price": 10.12,
+            "name": "Fresh Creamy Frozen Pie",
+            "price": 11.43,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -646,11 +646,11 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Creamy Ice Cream",
-            "price": 9.39,
+            "name": "Hearty Exquisite Ice Cream Cake",
+            "price": 10.89,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,24 +660,15 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A balanced selection of alcoholic beverages to complement your meal",
+    "description": "Discover our enticing drinks, perfectly paired with our Indonesian cuisine",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Crafted for the curious, the connoisseur, and everyone in between.",
+        "description": "A selection of signature drinks that reflect our culinary philosophy and creativity.",
         "items": [
           {
-            "name": "Classic Crunchy Mojito",
-            "price": 11.73,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Sizzling Manhattan",
-            "price": 11.49,
+            "name": "Margarita",
+            "price": 11.27,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -685,45 +676,54 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Baked Margarita",
-            "price": 11.09,
+            "name": "Whiskey Sour",
+            "price": 11.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 11.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 14.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 12.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 15.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 11.32,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Golden Negroni",
-            "price": 12.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Smoked Cosmopolitan",
-            "price": 14.11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Sweet Martini",
-            "price": 10.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Satisfying Whiskey Sour",
-            "price": 15.51,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -733,20 +733,29 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "From crisp whites to structured reds, our wine list offers something for every palate.",
+        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
         "items": [
           {
-            "name": "Vouvray",
-            "price": 13.8,
+            "name": "Pinot Noir",
+            "price": 9.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Merlot",
+            "price": 11.79,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mourvèdre",
-            "price": 9.63,
+            "name": "Champagne/Sparkling Wine",
+            "price": 8.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -754,9 +763,9 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Syrah/Shiraz",
-            "price": 13.83,
-            "isVegetarian": true,
+            "name": "Sauvignon Blanc",
+            "price": 9.92,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -764,28 +773,19 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Roussanne",
-            "price": 13.78,
-            "isVegetarian": true,
+            "price": 12.91,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Petit Verdot",
-            "price": 13.67,
+            "name": "Grenache",
+            "price": 10.81,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sauvignon Blanc",
-            "price": 13.37,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,11 +793,20 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Ideal for slow sipping or celebratory toasts—each bottle has a story.",
+        "description": "Explore our selection of small-batch and artisanal spirits, each with a unique story.",
         "items": [
           {
-            "name": "Midori",
-            "price": 14.57,
+            "name": "Seasonal Delectable Vodka",
+            "price": 14.63,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Exquisite Calvados",
+            "price": 16.96,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -805,35 +814,26 @@ export const amsterdamamsterdamBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "St-Germain",
-            "price": 10.12,
-            "isVegetarian": true,
+            "name": "Hearty Succulent Cointreau",
+            "price": 16.95,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tequila",
-            "price": 16.52,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Scotch",
-            "price": 17.2,
-            "isVegetarian": true,
+            "name": "Authentic Flavorful Mezcal",
+            "price": 17.46,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Gin",
-            "price": 12.02,
+            "name": "Homestyle Hearty Midori",
+            "price": 12.69,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,

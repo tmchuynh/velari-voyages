@@ -6,15 +6,24 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our delicious menu celebrating the flavors of Belgian cooking",
+    "description": "From appetizers to main courses: tasty dishes prepared with passion",
     "category": [
       {
         "name": "Signature Dishes",
         "description": "A curated collection of our most iconic and requested plates, each a testament to our culinary excellence.",
         "items": [
           {
-            "name": "Captain's Favorite Seafood Tower",
-            "price": 28.44,
+            "name": "Black Garlic Glazed Beef Tenderloin",
+            "price": 33.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "24-Hour Braised Short Ribs",
+            "price": 28.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,26 +31,17 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Dry-Aged Tomahawk Steak",
-            "price": 25.17,
+            "name": "Secret Recipe Bouillabaisse",
+            "price": 36.81,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Special Surf and Turf",
-            "price": 27.27,
-            "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sous Vide Perfected Wagyu",
-            "price": 26.94,
+            "name": "Age-Old Recipe Osso Buco with Gremolata",
+            "price": 24.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -49,50 +49,41 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 34.9,
+            "name": "Molecular Gastronomy Showcase Tasting",
+            "price": 27.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "House Famous Duck Confit",
-            "price": 24.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Whole Roasted Heritage Chicken",
-            "price": 33.83,
+            "name": "Flambéed Tableside Specialty",
+            "price": 31.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chef’s Wild Game Selection",
+            "price": 33.24,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
+        "description": "Inventive dishes that explore rare ingredients, bold flavors, and progressive cooking techniques.",
         "items": [
           {
-            "name": "Authentic Pan-seared Seared Foie Gras with Fig Compote",
-            "price": 35.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Luscious Herb-Crusted Rack of Lamb",
-            "price": 31.39,
+            "name": "Traditional Grilled Grilled Venison with Juniper Berry Sauce",
+            "price": 24.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -100,17 +91,26 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Savory Tasting of Local Artisanal Cheeses",
-            "price": 29.77,
+            "name": "Homestyle Appetizing Fusion of Traditional and Modern Techniques",
+            "price": 34.75,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "House Special Exquisite Chef's Childhood Favorite Reimagined",
-            "price": 26.95,
+            "name": "Authentic Delicious Seasonal Truffle Risotto",
+            "price": 38.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Crispy Wild Mushroom Risotto",
+            "price": 34.73,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -118,50 +118,23 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Zingy Crispy Skin Sea Bass",
-            "price": 34.77,
+            "name": "Traditional Hearty Modern Interpretation of Regional Classic",
+            "price": 24.69,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "Crafted to excite the palate, our starters are a perfect introduction to the world of Belgian.",
+        "description": "A selection of small plates that showcase the essence of Belgian—perfect for sharing or savoring solo.",
         "items": [
           {
-            "name": "Onion Rings",
-            "price": 9.67,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caprese Salad",
-            "price": 12.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spinach Artichoke Dip",
-            "price": 10.09,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Chicken Wings",
-            "price": 9.99,
+            "price": 13.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -169,8 +142,17 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Potato Skins",
-            "price": 14.31,
+            "name": "Caprese Salad",
+            "price": 8.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Prawn Toast",
+            "price": 11.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -178,17 +160,17 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Stuffed Peppers",
-            "price": 10.93,
+            "name": "Mezze Platter",
+            "price": 13.3,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bruschetta",
-            "price": 11.78,
+            "name": "Spring Rolls",
+            "price": 15.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -196,23 +178,59 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Charcuterie Board",
-            "price": 14.99,
+            "name": "Chicken Satay",
+            "price": 8.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Calamari",
+            "price": 12.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Mini Empanadas",
+            "price": 11.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Soups",
-        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
+        "description": "Each bowl is a journey through the heart of Belgian, crafted with care and expertise.",
         "items": [
           {
-            "name": "Clam Chowder",
-            "price": 10.09,
+            "name": "Gourmet Grilled Avgolemono (Greek Lemon Soup)",
+            "price": 10,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked Gumbo",
+            "price": 11.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Zesty Clam Chowder",
+            "price": 8.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -220,27 +238,9 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "French Onion Soup",
-            "price": 12.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Split Pea Soup",
-            "price": 10.19,
+            "name": "Gourmet Fried Corn Chowder",
+            "price": 11.92,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Corn Chowder",
-            "price": 9.22,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -250,38 +250,11 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "A blend of local and organic ingredients, thoughtfully combined for maximum flavor.",
+        "description": "Light, clean, and energizing—each salad is a visual and flavorful delight.",
         "items": [
           {
-            "name": "Southwest Black Bean Salad",
-            "price": 12.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Quinoa Salad",
-            "price": 9.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef Salad",
-            "price": 14.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caprese Salad",
-            "price": 15.97,
+            "name": "Orzo Salad",
+            "price": 14.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -290,7 +263,34 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
           },
           {
             "name": "Caesar Salad",
-            "price": 14.55,
+            "price": 9.07,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mediterranean Chopped Salad",
+            "price": 13.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Greek Salad",
+            "price": 12.02,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Arugula Salad",
+            "price": 11.86,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -301,29 +301,11 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "A journey through Belgian flavors, expertly prepared and beautifully presented.",
+        "description": "From classic to contemporary, our mains are a celebration of Belgian culture.",
         "items": [
           {
-            "name": "Shish Kebabs",
-            "price": 25.27,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fish and Chips",
-            "price": 21.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Stuffed Zucchini Boats",
-            "price": 24.38,
+            "name": "Thai Curry",
+            "price": 29.42,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -332,44 +314,62 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
           },
           {
             "name": "Steak",
-            "price": 20.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Chicken",
-            "price": 27.22,
+            "price": 22.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Katsu Curry",
-            "price": 21.61,
+            "name": "Ramen",
+            "price": 21.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vegetable Stir-Fry",
+            "price": 31.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Enchiladas",
+            "price": 31.12,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chicken Parmesan",
+            "price": 27.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Tacos",
+            "price": 29.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Paella",
+            "price": 25.33,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Burrito",
-            "price": 18.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Biryani",
-            "price": 20.88,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -379,20 +379,20 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Crafted with care, our seafood offerings are a testament to our commitment to quality.",
+        "description": "From raw bar selections to grilled specialties, our seafood dishes are a must-try.",
         "items": [
           {
-            "name": "Crab-Stuffed Mushrooms",
-            "price": 35.15,
+            "name": "Lobster Thermidor with Gruyère Crust",
+            "price": 35.35,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Grilled Swordfish with Mango Chutney",
-            "price": 25.15,
+            "name": "Grilled Lobster with Lemon Butter",
+            "price": 35.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,8 +400,8 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Maryland Style Crab Cakes",
-            "price": 22.43,
+            "name": "Garlic Butter Shrimp Skillet",
+            "price": 24.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -409,17 +409,17 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seafood Alfredo with Spinach Fettuccine",
-            "price": 29.61,
+            "name": "Shrimp Scampi over Linguine",
+            "price": 35.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Cajun Shrimp and Grits",
-            "price": 35.86,
+            "name": "Miso-Marinated Chilean Sea Bass",
+            "price": 34.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -430,47 +430,11 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "A selection of thoughtfully prepared sides that bring out the best in our mains.",
+        "description": "Classic Belgian side dishes with our own unique interpretation.",
         "items": [
           {
-            "name": "Authentic Crunchy Sweet Potato Wedges with Smoked Paprika",
-            "price": 5.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Sizzling Chili Lime Roasted Chickpeas",
-            "price": 6.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Golden Provencal Ratatouille",
-            "price": 9.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Marinated Mashed Potatoes",
-            "price": 7.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Herbed Sautéed Garlic Mushrooms",
-            "price": 7.61,
+            "name": "Traditional Zesty Crispy Beer-Battered Onion Rings",
+            "price": 6.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -478,8 +442,44 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Flaky Macaroni and Aged Cheddar",
-            "price": 9.31,
+            "name": "Classic Spiced Soft Polenta with Parmesan",
+            "price": 5.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Crunchy Creamy Colcannon (Irish Potato Mash)",
+            "price": 8.3,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Pan-seared Sautéed Garlic Mushrooms",
+            "price": 9.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Satisfying Wild Mushroom Risotto",
+            "price": 5.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Zingy Yukon Gold Potato Gratin",
+            "price": 7.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -490,29 +490,20 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
+        "description": "Handcrafted drinks designed to hydrate and delight—no spirits necessary.",
         "items": [
           {
-            "name": "Authentic Spiced Smoothie",
-            "price": 7.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Spicy Tea",
-            "price": 6.31,
-            "isVegetarian": false,
+            "name": "Handcrafted Tender Smoothie",
+            "price": 7.34,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Iced Tea",
-            "price": 6.79,
+            "name": "Homestyle Creamy Tea",
+            "price": 5.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -520,29 +511,38 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Luscious Coffee",
-            "price": 5.09,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Grilled Hot Chocolate",
-            "price": 4.53,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Juicy Soda",
-            "price": 6.61,
+            "name": "Hearty Creamy Lemonade",
+            "price": 6.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Exquisite Water",
+            "price": 6.11,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Grilled Milkshake",
+            "price": 5.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Spicy Hot Chocolate",
+            "price": 4.91,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,33 +552,15 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Experience the art of mouthwatering desserts with a Belgian twist",
+    "description": "Discover our collection of mouthwatering sweet masterpieces",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "From flaky pastries to hearty breads, our baked goods are a must-try.",
+        "description": "Freshly baked delights that bring warmth and comfort to your table.",
         "items": [
           {
-            "name": "Gourmet Herbed Cheesecake",
-            "price": 7.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Braised Soufflé",
-            "price": 7.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Zesty Treacle Tart",
-            "price": 8.78,
+            "name": "Traditional Aromatic Tiramisu",
+            "price": 8.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -586,8 +568,8 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Spicy Berry Tart",
-            "price": 7.72,
+            "name": "Hearty Sweet Croissants",
+            "price": 7.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -595,9 +577,27 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Appetizing Banana Bread",
-            "price": 9.72,
-            "isVegetarian": true,
+            "name": "Seasonal Appetizing Pumpkin Pie",
+            "price": 10.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Tender Macarons",
+            "price": 10.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Smoked Treacle Tart",
+            "price": 9.96,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -610,35 +610,17 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
         "description": "Classic and contemporary frozen delights that cool and satisfy.",
         "items": [
           {
-            "name": "Ice Cream",
-            "price": 10.89,
+            "name": "Frozen Mousse",
+            "price": 10.95,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Paletas",
-            "price": 11.88,
-            "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Gelato",
-            "price": 10.64,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ice Cream Sandwich",
-            "price": 8.72,
+            "price": 9.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -647,10 +629,28 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
           },
           {
             "name": "Frozen Custard",
-            "price": 7.59,
-            "isVegetarian": true,
+            "price": 8.4,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sorbet",
+            "price": 9.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kulfi",
+            "price": 7.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,15 +660,24 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Our bartenders' quality creations to complete your meal",
+    "description": "Indulge in our easygoing drinks menu crafted to accentuate flavors",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "From classic twists to innovative new blends, our cocktails are a celebration of flavor.",
+        "description": "Unique, house-crafted cocktails that offer a memorable sip every time.",
         "items": [
           {
-            "name": "Manhattan",
-            "price": 15.8,
+            "name": "Authentic Spiced Old Fashioned",
+            "price": 10.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Spiced Martini",
+            "price": 14.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -676,35 +685,8 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 15.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 15.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 10.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 12.91,
+            "name": "Homestyle Zingy Mai Tai",
+            "price": 10.72,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -712,8 +694,17 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "price": 11.06,
+            "name": "Handcrafted Mouthwatering Whiskey Sour",
+            "price": 10.16,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Comforting Cosmopolitan",
+            "price": 13.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -721,9 +712,18 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 15.76,
-            "isVegetarian": true,
+            "name": "Deluxe Fried Bloody Mary",
+            "price": 14.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Flaky Negroni",
+            "price": 10.36,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -733,11 +733,11 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "A diverse collection of varietals and vintages, chosen for quality and character.",
+        "description": "Handpicked selections that reflect our commitment to quality and terroir.",
         "items": [
           {
-            "name": "Riesling",
-            "price": 8.51,
+            "name": "Malbec",
+            "price": 9.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -745,17 +745,8 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Dolcetto",
-            "price": 9.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tempranillo",
-            "price": 11.28,
+            "name": "Syrah/Shiraz",
+            "price": 11.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -763,8 +754,17 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Barbera",
-            "price": 9.57,
+            "name": "Pinot Noir",
+            "price": 8.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gamay",
+            "price": 12.23,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -772,17 +772,17 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pinot Grigio",
-            "price": 10.58,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Vermentino",
+            "price": 8.09,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Marsanne",
-            "price": 9.56,
+            "name": "Roussanne",
+            "price": 8.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -793,38 +793,29 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Ideal for slow sipping or celebratory toasts—each bottle has a story.",
+        "description": "From classic cocktails to sipping spirits, our bar is stocked with quality and character.",
         "items": [
           {
-            "name": "Brandy",
-            "price": 17.13,
-            "isVegetarian": true,
+            "name": "Rum",
+            "price": 15.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vodka",
+            "price": 10.57,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Scotch",
-            "price": 13.72,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Campari",
-            "price": 12.76,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Triple Sec",
-            "price": 15,
+            "name": "Chartreuse",
+            "price": 14.36,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -832,8 +823,17 @@ export const amsterdamgoudaSushiBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Kahlúa",
-            "price": 16.82,
+            "name": "Aquavit",
+            "price": 10.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Calvados",
+            "price": 12.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,

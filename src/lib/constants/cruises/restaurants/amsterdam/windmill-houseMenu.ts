@@ -6,24 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Explore bold and tasty twists on beloved Belgian staples",
+    "description": "Where comforting technique meets timeless Belgian tradition",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "A curated collection of our most iconic and requested plates.",
+        "description": "Our chef's pride—carefully selected Belgian specialties that define our culinary identity, honed through years of experience and passion.",
         "items": [
           {
-            "name": "Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 32.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Special Surf and Turf",
-            "price": 36.55,
+            "name": "Homestyle Creamy Traditional Family Paella",
+            "price": 32.68,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -31,26 +22,8 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef’s Wild Game Selection",
-            "price": 34.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Captain's Favorite Seafood Tower",
-            "price": 26.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 34.49,
+            "name": "Fresh Grilled Flambéed Tableside Specialty",
+            "price": 36.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -58,8 +31,17 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Age-Old Recipe Osso Buco with Gremolata",
-            "price": 33.14,
+            "name": "Authentic Creamy Age-Old Recipe Osso Buco with Gremolata",
+            "price": 25.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Stuffed Japanese A5 Wagyu with Ponzu Butter",
+            "price": 25.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -67,8 +49,26 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Molecular Gastronomy Showcase Tasting",
-            "price": 31.94,
+            "name": "Hearty Steamed Signature Truffle Pasta with Aged Pecorino",
+            "price": 28.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Steamed Molecular Gastronomy Showcase Tasting",
+            "price": 35.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Marinated Chef’s Wild Game Selection",
+            "price": 24.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -79,20 +79,11 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "Inventive dishes that explore rare ingredients, bold flavors, and progressive cooking techniques.",
+        "description": "A rotating selection of dishes that highlight the chef's creativity and passion for Belgian.",
         "items": [
           {
-            "name": "House Specialty Pasta Creation",
-            "price": 34.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Childhood Favorite Reimagined",
-            "price": 36.02,
+            "name": "Gourmet Vegetarian Wellington",
+            "price": 38.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -100,26 +91,35 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Signature Spice-Rubbed Protein",
-            "price": 37.81,
+            "name": "High-End Ingredient Showcase",
+            "price": 29.29,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Off-Menu Secret Preparation",
-            "price": 28.21,
+            "name": "Tableside Flambé Preparation",
+            "price": 39.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
             "name": "Chef's Tasting Menu Experience",
-            "price": 29.83,
+            "price": 32.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Slow-Roasted Prime Rib",
+            "price": 24.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -130,65 +130,38 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Thoughtfully prepared small plates to begin your culinary experience with elegance and taste.",
+        "description": "Small bites designed to awaken your senses and set the tone for your dining journey.",
         "items": [
           {
-            "name": "Homestyle Roasted Cheese Nachos",
-            "price": 12.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Crunchy Shrimp Cocktail",
-            "price": 15.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Tender Mini Sliders",
-            "price": 9.6,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Golden Bruschetta",
-            "price": 13.82,
+            "name": "Spinach Artichoke Dip",
+            "price": 15.8,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Marinated Baked Brie",
-            "price": 13.67,
+            "name": "Caprese Salad",
+            "price": 8.53,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nachos",
+            "price": 14.71,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Herbed Edamame",
-            "price": 15.39,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Tangy Cheese Platter",
-            "price": 9.89,
+            "name": "Mozzarella Sticks",
+            "price": 14.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -196,8 +169,35 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Savory Spring Rolls",
-            "price": 10.02,
+            "name": "Antipasto Platter",
+            "price": 8.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Stuffed Mushrooms",
+            "price": 15.15,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Prawn Cocktail",
+            "price": 15.29,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tempura",
+            "price": 13.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -208,29 +208,20 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Steaming selections ideal for starting your meal or simply savoring the warmth.",
+        "description": "Each bowl is a journey through the heart of Belgian, crafted with care and expertise.",
         "items": [
           {
-            "name": "Hot and Sour Soup",
-            "price": 11.05,
+            "name": "Deluxe Spiced Carrot Ginger Soup",
+            "price": 8.74,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Corn Chowder",
-            "price": 7.33,
-            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Lentil Soup",
-            "price": 7.6,
+            "name": "House Special Smoked Gazpacho",
+            "price": 11.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -238,50 +229,32 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tortilla Soup",
-            "price": 11.8,
+            "name": "Organic Enticing Cabbage Soup",
+            "price": 10.68,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "description": "Crisp and colorful salads that balance flavor, nutrition, and beautiful presentation.",
-        "items": [
+          },
           {
-            "name": "Roasted Beet and Goat Cheese Salad",
-            "price": 9.17,
+            "name": "Homestyle Hearty Clam Chowder",
+            "price": 10.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
-          },
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
+        "items": [
           {
-            "name": "Caprese Salad",
-            "price": 13.41,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Broccoli Crunch Salad",
-            "price": 11.9,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fruit Salad",
-            "price": 13.96,
+            "name": "Tabbouleh",
+            "price": 11.08,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -289,10 +262,37 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Orzo Salad",
-            "price": 15.9,
+            "name": "Caprese Salad",
+            "price": 9.34,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 12.32,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Nicoise Salad",
+            "price": 9.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Broccoli Crunch Salad",
+            "price": 11.21,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -301,20 +301,65 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Signature entrées crafted with precision, embodying the core of our Belgian vision.",
+        "description": "From the kitchen to your table, our mains are crafted to delight and satisfy.",
         "items": [
           {
-            "name": "Hearty Savory Chicken Parmesan",
-            "price": 25.46,
+            "name": "Pasta Primavera",
+            "price": 18.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lamb Chops",
+            "price": 18.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Grilled Tofu",
+            "price": 23.12,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Irresistible Lamb Chops",
-            "price": 26.24,
+            "name": "Chicken Parmesan",
+            "price": 25.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Enchiladas",
+            "price": 31.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pulled Pork Sandwich",
+            "price": 19.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Korma",
+            "price": 20.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -322,55 +367,10 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Smoked Jambalaya",
-            "price": 29.02,
+            "name": "Moussaka",
+            "price": 23.56,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Enticing Steak",
-            "price": 27.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Grilled Tacos",
-            "price": 20.28,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Mouthwatering Seafood Platter",
-            "price": 29.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Golden Fish and Chips",
-            "price": 30.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Mouthwatering Pho",
-            "price": 28.42,
-            "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -379,11 +379,11 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Coastal cuisine brought inland with clarity, freshness, and elegance.",
+        "description": "Sourced from local fisheries, our seafood dishes are as fresh as they come.",
         "items": [
           {
-            "name": "Miso-Marinated Chilean Sea Bass",
-            "price": 28.05,
+            "name": "Traditional Smoked Cajun Shrimp and Grits",
+            "price": 23.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,39 +391,39 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "New England Lobster Roll",
-            "price": 25.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Lemon-Herb Calamari Steak",
-            "price": 22.69,
+            "name": "Seasonal Irresistible Stuffed Flounder with Crab and Spinach",
+            "price": 32.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Grilled Spanish Octopus with Smoked Paprika",
-            "price": 35.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Seared Tuna Steak with Sesame Crust",
-            "price": 28.24,
+            "name": "Seasonal Pan-seared Seared Tuna Steak with Sesame Crust",
+            "price": 27.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Sweet Miso-Marinated Chilean Sea Bass",
+            "price": 32.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Sizzling Grilled Lobster with Lemon Butter",
+            "price": 26.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
           }
         ]
@@ -433,35 +433,8 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
         "description": "Perfectly balanced additions that elevate your dining experience.",
         "items": [
           {
-            "name": "House Special Sautéed Green Beans Almondine",
-            "price": 9.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Zesty French Fries",
-            "price": 7.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Hearty Cauliflower Gratin with Gruyère",
-            "price": 9.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Marinated Yukon Gold Potato Gratin",
-            "price": 6.35,
+            "name": "Creamed Spinach with Nutmeg",
+            "price": 8.7,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -469,8 +442,8 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Grilled Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 9.5,
+            "name": "Garlic Bread with Herb Butter",
+            "price": 5.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -478,9 +451,36 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Luscious Provencal Ratatouille",
-            "price": 6.53,
+            "name": "Green Beans Almondine",
+            "price": 8.07,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Warm Buttermilk Dinner Rolls",
+            "price": 5.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 7.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Truffle Parmesan Fries",
+            "price": 9.79,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -490,29 +490,38 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Crafted beverages that offer a sophisticated alternative to traditional drinks.",
+        "description": "Flavorful, alcohol-free options that never compromise on taste or presentation.",
         "items": [
           {
-            "name": "Hearty Grilled Water",
-            "price": 4.97,
-            "isVegetarian": false,
+            "name": "Water",
+            "price": 5.13,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Luscious Lemonade",
-            "price": 5.88,
+            "name": "Tea",
+            "price": 4.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 5.12,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Zingy Coffee",
-            "price": 5.4,
+            "name": "Coffee",
+            "price": 7.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -520,17 +529,8 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Spiced Iced Tea",
-            "price": 6.33,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Satisfying Soda",
-            "price": 4.69,
+            "name": "Smoothie",
+            "price": 6.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -538,11 +538,11 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Tender Tea",
-            "price": 5.11,
+            "name": "Iced Tea",
+            "price": 7.9,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,15 +552,24 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Delight in our gooey desserts prepared fresh daily",
+    "description": "From oven to plate – satisfying desserts made with care",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Pastries, breads, and treats prepared in-house using classic and modern methods.",
+        "description": "Artisanal baked items showcasing skill, tradition, and a touch of creativity.",
         "items": [
           {
-            "name": "Baklava",
-            "price": 9.49,
+            "name": "Gourmet Tender Pumpkin Pie",
+            "price": 9.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Steamed Cobbler",
+            "price": 9.61,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -568,17 +577,8 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Scones",
-            "price": 6.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pumpkin Pie",
-            "price": 10.04,
+            "name": "Handcrafted Grilled Berry Tart",
+            "price": 9.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -586,18 +586,18 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cupcakes",
-            "price": 10.58,
-            "isVegetarian": true,
+            "name": "Premium Grilled Pain au Chocolat",
+            "price": 10.46,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fruit Galette",
-            "price": 6.99,
-            "isVegetarian": false,
+            "name": "Handcrafted Wholesome Strawberry Shortcake",
+            "price": 8.12,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -610,8 +610,8 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
         "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
         "items": [
           {
-            "name": "Hearty Spiced Popsicles",
-            "price": 11.38,
+            "name": "Hearty Baked Frozen Mousse",
+            "price": 11.53,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -619,8 +619,17 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Sweet Paletas",
-            "price": 9.6,
+            "name": "House Special Savory Sorbet",
+            "price": 9.69,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Sizzling Baked Alaska",
+            "price": 11.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -628,8 +637,8 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Flavorful Frozen Cheesecake",
-            "price": 9.7,
+            "name": "Handcrafted Herbed Ice Cream Sandwich",
+            "price": 7.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -637,20 +646,11 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Crunchy Frozen Yogurt",
-            "price": 10.65,
+            "name": "Fresh Grilled Gelato",
+            "price": 8.89,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Herbed Frozen Custard",
-            "price": 9.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,15 +660,15 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A refreshing drinks program blending innovation with tradition",
+    "description": "Toast to the moment with our crisp selection of wines, beers, and signature drinks",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Unique, house-crafted cocktails that offer a memorable sip every time.",
+        "description": "Sophisticated beverages with depth, character, and a dash of creativity.",
         "items": [
           {
-            "name": "Classic Grilled Martini",
-            "price": 13.83,
+            "name": "Premium Mouthwatering Cosmopolitan",
+            "price": 14.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -676,8 +676,26 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Crunchy Mojito",
-            "price": 15.37,
+            "name": "Handcrafted Marinated Mai Tai",
+            "price": 13.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Delectable Old Fashioned",
+            "price": 12.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Spiced Negroni",
+            "price": 12.32,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -685,8 +703,17 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Sweet Manhattan",
-            "price": 13.17,
+            "name": "Deluxe Crispy Mojito",
+            "price": 10.59,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Herbed Bloody Mary",
+            "price": 10.6,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -694,86 +721,32 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Steamed Whiskey Sour",
-            "price": 12.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Savory Margarita",
-            "price": 10.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Aromatic Old Fashioned",
-            "price": 10.28,
+            "name": "Gourmet Pan-seared Margarita",
+            "price": 12.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Authentic Spicy Mai Tai",
-            "price": 12.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
           }
         ]
       },
       {
         "name": "Wine Selection",
-        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
+        "description": "Our sommelier's picks, chosen for balance, terroir expression, and quality.",
         "items": [
           {
-            "name": "Seasonal Sweet Grenache",
-            "price": 8.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Hearty Pinot Grigio",
-            "price": 9.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Stuffed Nebbiolo",
-            "price": 13.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Aromatic Mourvèdre",
-            "price": 12.12,
+            "name": "Gamay",
+            "price": 12.01,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Delicious Albariño",
-            "price": 13.97,
+            "name": "Viognier",
+            "price": 8.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -781,11 +754,38 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Roasted Riesling",
-            "price": 12.85,
-            "isVegetarian": true,
+            "name": "Torrontés",
+            "price": 10.64,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Grigio",
+            "price": 9.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gewürztraminer",
+            "price": 9.54,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Riesling",
+            "price": 10.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,29 +793,38 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "A thoughtful balance of classic favorites and rare, small-batch discoveries.",
+        "description": "Start or finish your night with a pour that lingers in memory.",
         "items": [
           {
-            "name": "Authentic Spiced Chambord",
-            "price": 11.31,
+            "name": "Drambuie",
+            "price": 12.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Deluxe Tangy Aquavit",
-            "price": 12.27,
+            "name": "Galliano",
+            "price": 14.77,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Pan-seared Amaretto",
-            "price": 11.39,
+            "name": "Kahlúa",
+            "price": 11.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grand Marnier",
+            "price": 10.09,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -823,18 +832,9 @@ export const amsterdamwindmillHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Sizzling Grappa",
-            "price": 17.48,
+            "name": "Absinthe",
+            "price": 15.32,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Sweet Sambuca",
-            "price": 11.73,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

@@ -527,5 +527,67 @@ export const amsterdamRestaurants: Restaurant[] = [
     "isReservationsAccepted": false,
     "isRomantic": false,
     "isPopular": false
+  },
+  {
+    "name": "Damrak Collective",
+    "description": "This popular French establishment combines traditional recipes and stroopwafels, all served in a unique setting with artisanal markets.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "9:00-20:00",
+      "friday": "11:00-20:00",
+      "saturday": "9:00-20:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-339-3996",
+      "contactEmail": "help@prinsengrachtcevicheriaamsterdam.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Gouda Pavilion",
+    "description": "Experience authentic Belgian cuisine with a local twist, featuring herring served in an atmosphere of canal-side dining overlooking Royal Palace.",
+    "cuisine": "Belgian",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-21:00",
+      "friday": "10:00-22:00",
+      "saturday": "10:00-20:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-873-2631",
+      "contactEmail": "help@leidsepleinprojectamsterdam.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
   }
 ];
