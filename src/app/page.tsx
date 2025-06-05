@@ -18,7 +18,7 @@ export default function HomePage() {
   const sortedDestinations = groupAndSortByProperties(
     cruiseDepartureLocations,
     "isPopular",
-    "city"
+    "city",
   );
 
   const featuresList = [
@@ -199,7 +199,7 @@ export default function HomePage() {
                       className="mt-4"
                       onClick={() =>
                         router.push(
-                          `/cruises/cruise-categories/velari-voyages-cruises/${trail.country}/${trail.city}?city=${trail.city}&country=${trail.country}`
+                          `/cruises/cruise-categories/velari-voyages-cruises/${trail.country}/${trail.city}?city=${trail.city}&country=${trail.country}`,
                         )
                       }
                     >
