@@ -6,6 +6,8 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { cruiseDepartureLocations } from "@/lib/constants/info/city";
+import { Card, CardContent } from "@/components/ui/card";
 import {
   Select,
   SelectContent,
@@ -51,7 +53,7 @@ export default function Cruises() {
   }, []);
 
   // Filter destinations based on search
-  const filteredDestinations = allCruises.filter((item) => {
+  const filteredDestinations = cruiseDepartureLocations.filter((item) => {
     if (!searchQuery.trim()) return true;
 
     const query = searchQuery.toLowerCase();
@@ -85,7 +87,7 @@ export default function Cruises() {
     true,
     false,
     false,
-    true,
+    true
   );
 
   // Then apply popularity sorting if selected
@@ -202,31 +204,29 @@ export default function Cruises() {
 
       <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {sortedDestinations.map((item, index) => (
-          <div
+          <Card
             key={index}
             className="group relative shadow-md hover:shadow-lg p-6 border border-border rounded-lg transition-shadow duration-300 overflow-hidden"
           >
+           <CardContent> 
             <h2
-              className="w-2/3 font-semibold text-2xl underline-offset-2 hover:underline"
+              className="w-7/8 underline-offset-2 hover:underline"
               onClick={() => {
                 // Use query parameters instead of path parameters
                 const queryParams = new URLSearchParams({
-                  departureLocationCity: item.departureLocation.city,
-                  departureLocationCountry: item.departureLocation.country,
-                  arrivalLocationCity: item.arrivalLocation.city,
-                  arrivalLocationCountry: item.arrivalLocation.country,
-                  cruise: item.title,
-                  category: item.category,
+                  country: item.country,
+                  city: item.city,
                 });
 
                 router.push(
-                  `/cruises/cruise-categories/velari-voyages-cruises/cruise/${
-                    item.title
-                  }?${queryParams.toString()}`,
+                  `/cruises/cruise-categories/velari-voyages-cruises/${
+                    item.country
+                  }/${item.city
+                  }?${queryParams.toString()}`
                 );
               }}
             >
-              {item.title}
+              {item.city} - {item.country}
             </h2>
 
             {item.isPopular && (
@@ -244,13 +244,13 @@ export default function Cruises() {
               className="mt-7"
               onClick={() =>
                 router.push(
-                  `/cruises/cruise-categories/velari-voyages-cruises/${item.departureLocation.country}/${item.departureLocation.city}?city=${item.departureLocation.city}&country=${item.departureLocation.country}`,
+                  `/cruises/cruise-categories/velari-voyages-cruises/${item.departureLocation.country}/${item.departureLocation.city}?city=${item.departureLocation.city}&country=${item.departureLocation.country}`
                 )
               }
             >
               View Tours
-            </Button>
-          </div>
+            </Button></CardContent>
+          </Card>
         ))}
       </div>
     </div>
