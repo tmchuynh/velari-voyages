@@ -5,7 +5,7 @@ import Loading from "@/components/Loading";
 import RestaurantIconKey from "@/components/RestaurantIconKey";
 import { Restaurant } from "@/lib/types/types";
 import { capitalize } from "@/lib/utils/format";
-import { getAllRestaurantsFromCity } from "@/lib/utils/get";
+import { getAllRestaurantsFromCity } from "@/lib/utils/get/restaurants";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
