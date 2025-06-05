@@ -248,5 +248,160 @@ export const buenosAiresRestaurants: Restaurant[] = [
     "isReservationsAccepted": false,
     "isRomantic": true,
     "isPopular": true
+  },
+  {
+    "name": "San Telmo Tiki Lounge",
+    "description": "Experience authentic French cuisine with a local twist, featuring provoleta served in an atmosphere of art nouveau architecture overlooking San Telmo Market.",
+    "cuisine": "French",
+    "priceRange": "$$$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "11:00-22:00",
+      "friday": "9:00-20:00",
+      "saturday": "10:00-22:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-845-9000",
+      "contactEmail": "communications@paraná&co.buenos-aires.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Carnaval Cellar",
+    "description": "A charming French restaurant near Recoleta, offering provoleta and other local favorites in a setting with historic cafés.",
+    "cuisine": "French",
+    "priceRange": "$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "Closed",
+      "thursday": "10:00-21:00",
+      "friday": "10:00-19:00",
+      "saturday": "10:00-20:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-385-1681",
+      "contactEmail": "team@labocapavilionbuenos-aires.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Río de la Plata Dim Sum Palace",
+    "description": "A charming American restaurant near San Telmo Market, offering asado and other local favorites in a setting with nightlife hotspots.",
+    "cuisine": "American",
+    "priceRange": "$$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "9:00-20:00",
+      "friday": "11:00-20:00",
+      "saturday": "10:00-21:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-487-5166",
+      "contactEmail": "customerservice@plazaosteriabuenos-aires.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "La Boca Steakhouse",
+    "description": "A charming American restaurant near Teatro Colón, offering mate and other local favorites in a setting with parilla-style grill.",
+    "cuisine": "American",
+    "priceRange": "$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "Closed",
+      "wednesday": "9:00-20:00",
+      "thursday": "9:00-22:00",
+      "friday": "10:00-19:00",
+      "saturday": "9:00-19:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-606-3427",
+      "contactEmail": "hello@pampaseatery+barbuenos-aires.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Río de la Plata Creamery",
+    "description": "Located close to San Telmo Market, this Mediterranean restaurant delights with its Malbec wine and nightlife hotspots.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "11:00-22:00",
+      "friday": "9:00-22:00",
+      "saturday": "9:00-19:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-848-5989",
+      "contactEmail": "hello@plazadelibuenos-aires.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
   }
 ];
