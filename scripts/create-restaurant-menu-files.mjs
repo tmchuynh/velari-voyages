@@ -771,7 +771,12 @@ function generateMenuItems(category, cuisine, count = 5) {
 }
 
 // Function to generate menu items specific to a menu type with custom item count
-function generateMenuItemsForType(category, cuisine, count = args["items"]) {
+function generateMenuItemsForType(
+  category,
+  cuisine,
+  count = args["items"],
+  restaurant
+) {
   // If a specific category is specified and doesn't match this one, use default count
   if (
     args["category"] !== "all" &&
@@ -794,48 +799,69 @@ function generateMenuItemsForType(category, cuisine, count = args["items"]) {
   // Get the appropriate item source based on menu type
   let itemSource;
 
-  // Adjust price ranges based on the price-range flag
+  // Adjust price ranges based on the price-range flag and restaurant properties
   let priceRange = { min: 8, max: 16 }; // Default
 
-  // Price range modifiers
-  const priceModifiers = {
-    budget: { factor: 0.6, fixed: -2 },
-    standard: { factor: 1.0, fixed: 0 },
-    premium: { factor: 1.5, fixed: 4 },
-    luxury: { factor: 2.5, fixed: 10 },
-  };
+  // Set base price ranges according to restaurant's priceRange indicator
+  switch (restaurant.priceRange) {
+    case "$": // Budget pricing
+      priceModifiers = {
+        budget: { factor: 0.6, fixed: -2 },
+        standard: { factor: 0.7, fixed: -1 },
+        premium: { factor: 0.8, fixed: 0 },
+        luxury: { factor: 0.9, fixed: 1 },
+      };
+      break;
+    case "$$": // Moderate pricing
+      priceModifiers = {
+        budget: { factor: 0.8, fixed: -1 },
+        standard: { factor: 1.0, fixed: 0 },
+        premium: { factor: 1.1, fixed: 1 },
+        luxury: { factor: 1.2, fixed: 2 },
+      };
+      break;
+    case "$$$": // Expensive pricing
+      priceModifiers = {
+        budget: { factor: 1.2, fixed: 0 },
+        standard: { factor: 1.3, fixed: 2 },
+        premium: { factor: 1.4, fixed: 3 },
+        luxury: { factor: 1.5, fixed: 5 },
+      };
+      break;
+    case "$$$$": // Luxury pricing
+      priceModifiers = {
+        budget: { factor: 1.5, fixed: 5 },
+        standard: { factor: 1.8, fixed: 8 },
+        premium: { factor: 2.0, fixed: 10 },
+        luxury: { factor: 2.5, fixed: 15 },
+      };
+      break;
+    default:
+      // Use standard pricing if not specified
+      priceModifiers = {
+        budget: { factor: 0.6, fixed: -2 },
+        standard: { factor: 1.0, fixed: 0 },
+        premium: { factor: 1.5, fixed: 4 },
+        luxury: { factor: 2.5, fixed: 10 },
+      };
+  }
 
-  // By default, use fancy names for most items
-  let useFancyName = true;
-
-  // Determine dessert and drink categories for simple naming
-  const dessertCategories = [
-    "desserts",
-    "sweet treats",
-    "frozen desserts",
-    "baked goods",
-  ];
-
-  const drinkCategories = [
-    "alcoholic beverages",
-    "drinks",
-    "wine",
-    "wine selection",
-    "spirits",
-    "spirits and liqueurs",
-    "non-alcoholic beverages",
-  ];
-
-  // Special flag for cocktails
-  const isCocktail = category.toLowerCase().includes("cocktail");
-
-  // If category is a dessert or drink type, don't use fancy names
+  // If category is being enhanced due to isAdultOnly, increase the count
   if (
-    dessertCategories.includes(category.toLowerCase()) ||
-    drinkCategories.includes(category.toLowerCase()) ||
-    isCocktail
+    restaurant.isAdultOnly &&
+    [
+      "signature cocktails",
+      "wine selection",
+      "spirits and liqueurs",
+      "alcoholic beverages",
+      "drinks",
+      "cocktails",
+    ].includes(category.toLowerCase())
   ) {
-    useFancyName = false;
+    count = Math.max(count * 2, 10); // Double the count or minimum 10 items
+    console.log(
+      `Enhanced drinks menu for adult-only restaurant: ${restaurant.name}`
+    );
   }
 
   switch (category.toLowerCase()) {
@@ -935,6 +961,49 @@ function generateMenuItemsForType(category, cuisine, count = args["items"]) {
       itemSource = menuItems.mainCourses;
       priceRange = { min: 18, max: 30 };
   }
+
+  // Apply price range adjustments based on selected pricing tier
+  const modifier = priceModifiers[args["price-range"]];
+  priceRange.min = Math.max(
+    Math.round(priceRange.min * modifier.factor) + modifier.fixed,
+    3
+  );
+  priceRange.max = Math.max(
+    Math.round(priceRange.max * modifier.factor) + modifier.fixed,
+    priceRange.min + 2
+  );
+
+  // Apply restaurant-specific price modifiers
+
+  // 1. Fine dining expensive restaurants get 5% price increase
+  if (restaurant.isFineDining && restaurant.priceRange === "$$$") {
+    priceRange.min *= 1.05;
+    priceRange.max *= 1.05;
+  }
+
+  // 2. Popular restaurants get 10% price increase
+  if (restaurant.isPopular) {
+    priceRange.min *= 1.1;
+    priceRange.max *= 1.1;
+  }
+
+  // 3. Adult-only restaurants get 2% price increase
+  if (restaurant.isAdultOnly) {
+    priceRange.min *= 1.02;
+    priceRange.max *= 1.02;
+  }
+
+  // Round prices after all adjustments
+  priceRange.min = Math.round(priceRange.min * 100) / 100;
+  priceRange.max = Math.round(priceRange.max * 100) / 100;
+
+  // For fine dining, always use fancy names
+  if (restaurant.isFineDining) {
+    useFancyName = true;
+  }
+
+  // Get the appropriate item source based on menu type
+  // ...existing code...
 
   // Filter items for specialized dietary restaurants
   if (args["dietary-focus"] !== "mixed") {
@@ -1524,77 +1593,100 @@ let totalFailed = 0;
 function generateCombinedMenuContent(
   cityName,
   restaurantName,
-  restaurantCuisine
+  restaurantCuisine,
+  restaurant // Add the full restaurant object as a parameter
 ) {
   const cityVar = toCamelCase(cityName);
   const restaurantVar = toCamelCase(restaurantName);
 
-  // Generate menu items for each category of Main Course Menu
+  // Generate menu items for each category with the restaurant properties
   const signatureDishes = generateMenuItemsForType(
     "signature dishes",
     restaurantCuisine,
-    7
+    7,
+    restaurant
   );
   const chefsSpecials = generateMenuItemsForType(
     "chef's specials",
     restaurantCuisine,
-    5
+    5,
+    restaurant
   );
   const appetizers = generateMenuItemsForType(
     "appetizers",
     restaurantCuisine,
-    8
+    8,
+    restaurant
   );
-  const salads = generateMenuItemsForType("salads", restaurantCuisine, 5);
-  const soups = generateMenuItemsForType("soups", restaurantCuisine, 4);
+  const salads = generateMenuItemsForType(
+    "salads",
+    restaurantCuisine,
+    5,
+    restaurant
+  );
+  const soups = generateMenuItemsForType(
+    "soups",
+    restaurantCuisine,
+    4,
+    restaurant
+  );
   const mainCourses = generateMenuItemsForType(
     "main courses",
     restaurantCuisine,
-    8
+    8,
+    restaurant
   );
   const sideDishes = generateMenuItemsForType(
     "side dishes",
     restaurantCuisine,
-    6
+    6,
+    restaurant
   );
   const seafoodSpecialties = generateMenuItemsForType(
     "seafood specialties",
     restaurantCuisine,
-    5
+    5,
+    restaurant
   );
   const nonAlcoholicBeverages = generateMenuItemsForType(
     "non-alcoholic beverages",
     restaurantCuisine,
-    6
+    6,
+    restaurant
   );
 
   // Generate dessert menu categories
   const frozenDesserts = generateMenuItemsForType(
     "frozen desserts",
     restaurantCuisine,
-    5
+    5,
+    restaurant
   );
   const bakedGoods = generateMenuItemsForType(
     "baked goods",
     restaurantCuisine,
-    5
+    5,
+    restaurant
   );
 
   // Generate alcohol categories
   const cocktails = generateMenuItemsForType(
     "signature cocktails",
     restaurantCuisine,
-    7
+    7,
+    restaurant
   );
   const wines = generateMenuItemsForType(
     "wine selection",
     restaurantCuisine,
-    6
+    6,
+    restaurant
   );
   const spirits = generateMenuItemsForType(
     "spirits and liqueurs",
     restaurantCuisine,
-    5
+    5,
+    restaurant
   );
 
   // Build menus array based on menu-type flag and excluded menu types
@@ -1959,7 +2051,8 @@ export const ${cityVar}${restaurantVar}Menu: RestaurantMenu[] = ${JSON.stringify
         generateCombinedMenuContent(
           cityDir,
           restaurant.name,
-          restaurant.cuisine
+          restaurant.cuisine,
+          restaurant // Pass the full restaurant object
         )
       );
       console.log(`Created menu file: ${menuFilePath}`);
