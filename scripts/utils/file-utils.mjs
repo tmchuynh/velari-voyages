@@ -21,14 +21,14 @@ export const getCityFiles = () => {
       "lib",
       "constants",
       "info",
-      "city.ts",
+      "city.ts"
     );
 
     const fileContent = fs.readFileSync(cityFilePath, "utf8");
 
     // Extract city names using regex
     const cityArrayMatch = fileContent.match(
-      /export const cityFiles = \[([\s\S]*?)\];/,
+      /export const cityFiles = \[([\s\S]*?)\];/
     );
     if (!cityArrayMatch || !cityArrayMatch[1]) {
       console.error("Could not parse city files from city.ts");
@@ -64,7 +64,7 @@ export const kebabToCamelCase = (str) => {
   return str
     .split("-")
     .map((part, index) =>
-      index === 0 ? part : part.charAt(0).toUpperCase() + part.slice(1),
+      index === 0 ? part : part.charAt(0).toUpperCase() + part.slice(1)
     )
     .join("");
 };
@@ -87,7 +87,7 @@ export const toKebabCase = (str) => {
 export const toCamelCase = (str) => {
   return str
     .replace(/(?:^\w|[A-Z]|\b\w)/g, (word, index) =>
-      index === 0 ? word.toLowerCase() : word.toUpperCase(),
+      index === 0 ? word.toLowerCase() : word.toUpperCase()
     )
     .replace(/\s+/g, "") // Remove spaces
     .replace(/[^\w\s]/g, ""); // Remove special characters
@@ -105,7 +105,7 @@ export const extractExportedArray = (filePath, arrayName = null) => {
     const content = fs.readFileSync(filePath, "utf8");
     let pattern = arrayName
       ? new RegExp(
-          `export\\s+const\\s+${arrayName}\\s*:\\s*\\w+\\[\\]\\s*=\\s*(\\[\\s\\S]*?\\]);`,
+          `export\\s+const\\s+${arrayName}\\s*:\\s*\\w+\\[\\]\\s*=\\s*(\\[\\s\\S]*?\\]);`
         )
       : /export\s+const\s+\w+\s*:\s*\w+\[\]\s*=\s*(\[[\s\S]*?\]);/;
 
@@ -233,3 +233,20 @@ export const parseArgs = (args, options = {}) => {
 
   return result;
 };
+
+export function formatKebebToTitleCase(str) {
+  return str
+    .split("-")
+    .map((word) => {
+      return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+    })
+    .join(" ");
+}
+
+export function formatTitleToKebabCase(title) {
+  return title
+    .split(" ")
+    .map((word) => word.toLowerCase())
+    .join("-")
+    .replace(/[^a-z0-9-]/g, ""); // Remove any non-alphanumeric characters except hyphens
+}
