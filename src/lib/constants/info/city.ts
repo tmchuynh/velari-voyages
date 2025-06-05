@@ -18,7 +18,7 @@ export const cityFiles = [
   "dublin",
   "florence",
   "fort-lauderdale",
-  "Nassau",
+  "nassau",
   "st-thomas",
   "cozumel",
   "george-town",
@@ -902,5 +902,537 @@ export const cruiseDepartureLocations: Location[] = [
     timezoneAbbreviation: "CET/CEST",
     additionalInfo:
       "Main cruise port for Norway, especially for fjord cruises. The terminal is located in the city center, within walking distance to major attractions like the Oslo Opera House, Akershus Fortress, and the Nobel Peace Center. The cruise season typically runs from April to September, coinciding with the best weather for exploring Norway's stunning fjords and coastal scenery. Well-connected by public transport, the port offers easy access to Oslo Gardermoen Airport (about 50 minutes by train).",
+  },
+  {
+    city: "Bali",
+    country: "Indonesia",
+    region: "Southeast Asia",
+    isPopular: true,
+    subtitle: "Island of the Gods",
+    quote:
+      "Where spirituality and paradise merge under volcanic shadows and infinite azure waters.",
+    coordinates: {
+      latitude: -8.3405,
+      longitude: 115.092,
+    },
+    address: "Benoa Cruise Terminal, Bali",
+    postalCode: "80361",
+    timezone: "Asia/Makassar",
+    timezoneAbbreviation: "WITA",
+    additionalInfo:
+      "Popular destination for cruises in the Indonesian archipelago. The port at Benoa serves as the gateway to Bali's renowned beaches, terraced rice fields, and ancient temples. Most cruises visit during the dry season from April to October. The terminal provides access to famous areas like Kuta, Ubud, and Seminyak, with Denpasar International Airport approximately 30 minutes away.",
+  },
+  {
+    city: "Bermuda",
+    country: "British Overseas Territory",
+    region: "North Atlantic",
+    isPopular: true,
+    subtitle: "The Jewel of the Atlantic",
+    quote:
+      "Pink sands embrace turquoise waters in this refined island paradise where British charm meets tropical splendor.",
+    coordinates: {
+      latitude: 32.3078,
+      longitude: -64.7505,
+    },
+    address: "Royal Naval Dockyard, Bermuda",
+    postalCode: "MA 01",
+    timezone: "Atlantic/Bermuda",
+    timezoneAbbreviation: "AST/ADT",
+    additionalInfo:
+      "Popular destination for East Coast cruises. Most ships dock at the Royal Naval Dockyard on the western tip of the island, with a smaller number using Hamilton or St. George's for smaller vessels. The Bermuda cruise season runs from April through November, with peak months being June through August. The historic Dockyard area offers shopping, dining, and transportation links to Bermuda's famous pink sand beaches and golf courses.",
+  },
+  {
+    city: "Helsinki",
+    country: "Finland",
+    region: "Northern Europe",
+    isPopular: false,
+    subtitle: "Daughter of the Baltic",
+    quote:
+      "Between forest and sea, Helsinki's elegant design and midnight sun create a northern symphony of light and innovation.",
+    coordinates: {
+      latitude: 60.1699,
+      longitude: 24.9384,
+    },
+    address: "West Harbour (Länsisatama), Helsinki",
+    postalCode: "00220",
+    timezone: "Europe/Helsinki",
+    timezoneAbbreviation: "EET/EEST",
+    additionalInfo:
+      "Key port for Baltic Sea cruises. Helsinki's main cruise terminals at West Harbour (Länsisatama) and South Harbour (Eteläsatama) welcome ships primarily from May through September. The terminals are located close to the city center with convenient tram connections to major attractions including Senate Square, Helsinki Cathedral, and the famous Temppeliaukio Church (Rock Church). Most Baltic cruises include Helsinki alongside Stockholm, Tallinn, and St. Petersburg.",
+  },
+  {
+    city: "St. Petersburg",
+    country: "Russia",
+    region: "Northwestern",
+    isPopular: true,
+    subtitle: "Venice of the North",
+    quote:
+      "Imperial grandeur and artistic splendor unfold along canals and palaces where Russian history breathes through gilded façades.",
+    coordinates: {
+      latitude: 59.9343,
+      longitude: 30.3351,
+    },
+    address: "Marine Façade Passenger Port, Saint Petersburg",
+    postalCode: "199406",
+    timezone: "Europe/Moscow",
+    timezoneAbbreviation: "MSK",
+    additionalInfo:
+      "Highlight destination for Baltic cruises. The modern Marine Façade terminal handles most cruise ships, operating during the Baltic cruise season from May through September. Many itineraries feature extended stays or overnight visits to allow exploration of the Hermitage Museum, Catherine Palace, and Peterhof. The port is approximately 30 minutes from the historic center with shuttle services and visa-free entry available for cruise passengers on organized excursions.",
+  },
+  {
+    city: "Nassau",
+    country: "Bahamas",
+    region: "Caribbean",
+    isPopular: true,
+    subtitle: "Paradise Island Gateway",
+    quote:
+      "Crystal waters lap against colonial history where pirate legends blend with tropical pleasures in endless Bahamian blue.",
+    coordinates: {
+      latitude: 25.0777,
+      longitude: -77.34,
+    },
+    address: "Prince George Wharf, Nassau",
+    postalCode: "00000",
+    timezone: "America/Nassau",
+    timezoneAbbreviation: "EST/EDT",
+    additionalInfo:
+      "Major Caribbean cruise destination. Nassau's Prince George Wharf can accommodate multiple large cruise ships simultaneously in the heart of downtown. Year-round sailings with peak season from November through April. The port offers immediate access to Bay Street shopping, the Straw Market, and historic sites, with Paradise Island and Atlantis resort just a short water taxi ride away. Nassau serves as a popular first port of call for cruises from Florida.",
+  },
+  {
+    city: "St. Thomas",
+    country: "US Virgin Islands",
+    region: "Caribbean",
+    isPopular: true,
+    subtitle: "Gateway to Caribbean Splendor",
+    quote:
+      "From harbor heights, a tapestry of turquoise bays and emerald hills reveals the treasure that pirates once sought.",
+    coordinates: {
+      latitude: 18.3419,
+      longitude: -64.9307,
+    },
+    address: "West Indian Company Dock, Havensight, St. Thomas",
+    postalCode: "00802",
+    timezone: "America/St_Thomas",
+    timezoneAbbreviation: "AST",
+    additionalInfo:
+      "Popular port for Eastern Caribbean itineraries. St. Thomas features two main cruise facilities: Havensight/WICO dock and Crown Bay, both handling multiple large vessels simultaneously. Year-round cruising with peak season from November through April. The island offers duty-free shopping, spectacular beaches like Magens Bay, and panoramic views from mountain lookouts. As a US territory, Americans can visit without passports or currency exchange.",
+  },
+  {
+    city: "Cozumel",
+    country: "Mexico",
+    region: "Quintana Roo",
+    isPopular: true,
+    subtitle: "Island Gem of the Yucatán",
+    quote:
+      "Beyond crystalline reefs and Mayan whispers, Cozumel's gentle currents carry travelers to underwater wonderlands.",
+    coordinates: {
+      latitude: 20.5118,
+      longitude: -86.9455,
+    },
+    address: "Punta Langosta Cruise Terminal, Cozumel",
+    postalCode: "77600",
+    timezone: "America/Cancun",
+    timezoneAbbreviation: "EST/EDT",
+    additionalInfo:
+      "Top Western Caribbean cruise destination. Cozumel hosts three main cruise piers: Punta Langosta (downtown), International Pier, and Puerta Maya, collectively welcoming millions of passengers annually. Year-round cruising with reliable tropical weather. The island is renowned for its spectacular diving and snorkeling opportunities, Mayan ruins, and vibrant waterfront shopping district. Many visitors take ferries to the mainland for excursions to Tulum and other Yucatán attractions.",
+  },
+  {
+    city: "George Town",
+    country: "Cayman Islands",
+    region: "Caribbean",
+    isPopular: true,
+    subtitle: "Cayman's Cosmopolitan Harbor",
+    quote:
+      "Where turquoise meets banking towers, Grand Cayman balances pristine underwater realms with refined island sophistication.",
+    coordinates: {
+      latitude: 19.2969,
+      longitude: -81.3921,
+    },
+    address: "North & South Cruise Terminals, George Town",
+    postalCode: "00000",
+    timezone: "America/Cayman",
+    timezoneAbbreviation: "EST",
+    additionalInfo:
+      "Tender port for Western Caribbean cruises. Unlike most Caribbean destinations, George Town is primarily a tender port where passengers are ferried from ships to shore. The busy season runs November through April with 4-6 ships often visiting simultaneously. Famous for Seven Mile Beach, Stingray City, and duty-free shopping along the waterfront. Grand Cayman is known for excellent infrastructure, safety, and cleanliness compared to other Caribbean destinations.",
+  },
+  {
+    city: "Roatán",
+    country: "Honduras",
+    region: "Caribbean",
+    isPopular: false,
+    subtitle: "Reef Paradise of Honduras",
+    quote:
+      "Suspended between sky and coral gardens, Roatán's verdant spine rises from waters where marine life dances in liquid prisms.",
+    coordinates: {
+      latitude: 16.3209,
+      longitude: -86.5298,
+    },
+    address: "Coxen Hole Cruise Terminal, Roatán",
+    postalCode: "00000",
+    timezone: "America/Tegucigalpa",
+    timezoneAbbreviation: "CST",
+    additionalInfo:
+      "Growing destination for Western Caribbean cruises. Roatán features two modern cruise terminals: Coxen Hole (Town Center) and Mahogany Bay (Carnival's private facility). Peak season runs November through April. The island is renowned for world-class snorkeling and diving along the Mesoamerican Barrier Reef, with activities including canopy tours, wildlife encounters, and pristine beaches. Cruise facilities have driven significant development on this once-sleepy island.",
+  },
+  {
+    city: "Philipsburg",
+    country: "Sint Maarten",
+    region: "Caribbean",
+    isPopular: true,
+    subtitle: "Dual-Nation Caribbean Gem",
+    quote:
+      "On an island of two flags, azure bays and duty-free treasures welcome travelers to Caribbean cosmopolitanism.",
+    coordinates: {
+      latitude: 18.0237,
+      longitude: -63.0458,
+    },
+    address: "Dr. A.C. Wathey Cruise & Cargo Facility, Philipsburg",
+    postalCode: "00000",
+    timezone: "America/Lower_Princes",
+    timezoneAbbreviation: "AST",
+    additionalInfo:
+      "Major Eastern Caribbean cruise destination. The A.C. Wathey terminal can accommodate multiple large vessels simultaneously, serving as a hub for Eastern Caribbean itineraries. Year-round cruising with peak season from November through April. The Dutch side of this shared island is known for excellent duty-free shopping along Front Street, vibrant casinos, and Maho Beach where planes land dramatically over sunbathers. The French side (Saint Martin) offers a more European atmosphere with excellent cuisine.",
+  },
+  {
+    city: "Athens",
+    country: "Greece",
+    region: "Attica",
+    isPopular: true,
+    subtitle: "Cradle of Western Civilization",
+    quote:
+      "Beneath the watchful gaze of the Acropolis, Athens breathes the essence of democracy and philosophy into modern Mediterranean life.",
+    coordinates: {
+      latitude: 37.9413,
+      longitude: 23.6471,
+    },
+    address: "Piraeus Cruise Terminal, Athens",
+    postalCode: "18538",
+    timezone: "Europe/Athens",
+    timezoneAbbreviation: "EET/EEST",
+    additionalInfo:
+      "Gateway port for Greek Isles cruises. The Port of Piraeus serves as Athens' cruise harbor, functioning as both a departure point and port of call. The Mediterranean cruise season runs from April through October. Located approximately 10km from central Athens, the port provides access to the Acropolis, Parthenon, and other iconic historical sites. Many Eastern Mediterranean and Greek Isles cruises begin or end here, with excellent connections to Athens International Airport.",
+  },
+  {
+    city: "Santorini",
+    country: "Greece",
+    region: "South Aegean",
+    isPopular: true,
+    subtitle: "Aegean's Volcanic Crown",
+    quote:
+      "White-washed dreams cascade down volcanic cliffs toward waters so blue they challenge the dome of heaven itself.",
+    coordinates: {
+      latitude: 36.3932,
+      longitude: 25.4615,
+    },
+    address: "Skala Pier, Fira, Santorini",
+    postalCode: "84700",
+    timezone: "Europe/Athens",
+    timezoneAbbreviation: "EET/EEST",
+    additionalInfo:
+      "Iconic tender port for Greek Isles cruises. As a tender port, cruise ships anchor in the caldera and passengers are transported to shore via small boats. The cruise season runs primarily from April through October. Most visitors arrive at Skala port and take the cable car, ride donkeys, or climb the switchback steps to reach Fira town perched dramatically on the caldera rim. The island is famous for its sunset views from Oia, black sand beaches, and distinctive white-and-blue architecture.",
+  },
+  {
+    city: "Mykonos",
+    country: "Greece",
+    region: "South Aegean",
+    isPopular: true,
+    subtitle: "Island of Winds and Dreams",
+    quote:
+      "Windmills stand sentinel over crystalline waters where glamour and tradition dance together beneath the Aegean sun.",
+    coordinates: {
+      latitude: 37.4467,
+      longitude: 25.3289,
+    },
+    address: "New Port (Tourlos), Mykonos",
+    postalCode: "84600",
+    timezone: "Europe/Athens",
+    timezoneAbbreviation: "EET/EEST",
+    additionalInfo:
+      "Popular Greek Isles cruise destination. Mykonos features two ports: the New Port at Tourlos for larger vessels and the Old Port near town where tender operations occur. The Mediterranean cruise season runs from April through October. The island is known for its iconic windmills, Little Venice waterfront district, pristine beaches, and vibrant nightlife. Regular shuttle buses connect the New Port to Mykonos Town, where narrow marble streets house upscale shops and seaside restaurants.",
+  },
+  {
+    city: "Malta",
+    country: "Malta",
+    region: "Mediterranean",
+    isPopular: false,
+    subtitle: "Fortress Island of Knights",
+    quote:
+      "Honey-colored walls tell stories of crusaders and conquerors, where Mediterranean history is written in limestone and light.",
+    coordinates: {
+      latitude: 35.8989,
+      longitude: 14.5146,
+    },
+    address: "Valletta Cruise Port, Valletta",
+    postalCode: "VLT 1921",
+    timezone: "Europe/Malta",
+    timezoneAbbreviation: "CET/CEST",
+    additionalInfo:
+      "Historic port for Mediterranean cruise itineraries. The Valletta Cruise Port features both modern facilities and historic waterfront buildings within the Grand Harbour. The cruise season stretches from March through November with peak months in summer. The terminal is located beneath the impressive fortifications of Valletta, a UNESCO World Heritage city, with easy walking access to the capital's Baroque landmarks, cathedrals, and charming streets. Malta offers visitors a unique blend of cultures reflecting its strategic Mediterranean position.",
+  },
+  {
+    city: "Dubrovnik",
+    country: "Croatia",
+    region: "Dalmatia",
+    isPopular: true,
+    subtitle: "Pearl of the Adriatic",
+    quote:
+      "Encircled by ancient walls, Dubrovnik rises from azure waters as a perfectly preserved vision of medieval maritime glory.",
+    coordinates: {
+      latitude: 42.6507,
+      longitude: 18.0944,
+    },
+    address: "Port Gruž, Dubrovnik",
+    postalCode: "20000",
+    timezone: "Europe/Zagreb",
+    timezoneAbbreviation: "CET/CEST",
+    additionalInfo:
+      "Highlight port for Adriatic and Eastern Mediterranean cruises. Most ships dock at Port Gruž, approximately 3km from the iconic walled Old City. The Adriatic cruise season runs from April through October, peaking in summer months. The city gained additional fame as a filming location for Game of Thrones, with tours highlighting these sites alongside historic attractions like the Stradun, city walls, and Fort Lovrijenac. Shuttle buses and taxis connect the port with the Old Town entrance.",
+  },
+  {
+    city: "Juneau",
+    country: "United States",
+    region: "Alaska",
+    isPopular: true,
+    subtitle: "Alaska's Mountain Capital",
+    quote:
+      "Where rainforest meets glacier and mountains embrace the sea, Juneau stands as wilderness disguised as a city.",
+    coordinates: {
+      latitude: 58.3019,
+      longitude: -134.4197,
+    },
+    address: "AJ Dock & South Franklin Street Docks, Juneau, AK",
+    postalCode: "99801",
+    timezone: "America/Juneau",
+    timezoneAbbreviation: "AKST/AKDT",
+    additionalInfo:
+      "Essential port for Alaska Inside Passage cruises. Juneau's multiple dock facilities accommodate several large ships simultaneously during the Alaska cruise season from May through September. As Alaska's capital city accessed only by air or sea, Juneau offers visitors a unique blend of wilderness experiences including Mendenhall Glacier, whale watching tours, and the Mount Roberts Tramway. The compact downtown area is easily walkable from cruise berths with museums and shopping opportunities.",
+  },
+  {
+    city: "Ketchikan",
+    country: "United States",
+    region: "Alaska",
+    isPopular: false,
+    subtitle: "Alaska's First City",
+    quote:
+      "Mist-shrouded totem poles and salmon-filled waters tell ancient stories in this rainforest gateway to Alaska's soul.",
+    coordinates: {
+      latitude: 55.3422,
+      longitude: -131.6461,
+    },
+    address: "Ketchikan Cruise Ship Berths, Ketchikan, AK",
+    postalCode: "99901",
+    timezone: "America/Sitka",
+    timezoneAbbreviation: "AKST/AKDT",
+    additionalInfo:
+      "First port of call for northbound Alaska cruises. Ketchikan features four main berths along its downtown waterfront, welcoming cruise ships during the Alaska season from May through September. Known as the 'Salmon Capital of the World', the port provides easy access to attractions including Creek Street's historic district, Misty Fjords National Monument excursions, Totem Heritage Center, and Great Alaskan Lumberjack Show. The compact downtown is immediately accessible from the cruise docks.",
+  },
+  {
+    city: "Skagway",
+    country: "United States",
+    region: "Alaska",
+    isPopular: false,
+    subtitle: "Gateway to the Klondike",
+    quote:
+      "Time stands still in gold rush streets where fortune seekers once began their treacherous journey into Yukon wilderness.",
+    coordinates: {
+      latitude: 59.4583,
+      longitude: -135.3139,
+    },
+    address: "Port of Skagway, Alaska",
+    postalCode: "99840",
+    timezone: "America/Juneau",
+    timezoneAbbreviation: "AKST/AKDT",
+    additionalInfo:
+      "Historic gold rush port for Alaska cruises. Skagway's deep-water port accommodates multiple cruise ships during the Alaska season from May through September. The town is famous for its well-preserved gold rush history, with buildings dating to the 1898 Klondike Gold Rush. Most visitors experience the spectacular White Pass & Yukon Route Railway journey into Canada, which follows the original gold seekers' trail. The compact historic district begins just steps from the cruise docks.",
+  },
+  {
+    city: "Sitka",
+    country: "United States",
+    region: "Alaska",
+    isPopular: false,
+    subtitle: "Alaska's Russian Jewel",
+    quote:
+      "Between volcanic peaks and island-studded waters, Sitka weaves Russian heritage into the vibrant tapestry of Tlingit traditions.",
+    coordinates: {
+      latitude: 57.0531,
+      longitude: -135.33,
+    },
+    address: "Sitka Sound Cruise Terminal, Sitka, AK",
+    postalCode: "99835",
+    timezone: "America/Sitka",
+    timezoneAbbreviation: "AKST/AKDT",
+    additionalInfo:
+      "Cultural highlight on Alaska cruise itineraries. The newer Sitka Sound Cruise Terminal accommodates larger vessels, while some smaller ships dock at the Old Sitka Dock. The Alaska cruise season runs from May through September. Unique among Alaskan ports for its Russian heritage, Sitka offers visitors attractions including St. Michael's Russian Orthodox Cathedral, Sitka National Historical Park with its totem poles, and exceptional wildlife viewing opportunities both on land and by sea.",
+  },
+  {
+    city: "Victoria",
+    country: "Canada",
+    region: "British Columbia",
+    isPopular: false,
+    subtitle: "Garden City of the Pacific",
+    quote:
+      "English traditions bloom in Pacific splendor, where manicured gardens meet wild coastline under gentle island skies.",
+    coordinates: {
+      latitude: 48.4284,
+      longitude: -123.3656,
+    },
+    address: "Ogden Point Cruise Terminal, Victoria, BC",
+    postalCode: "V8V 1X2",
+    timezone: "America/Vancouver",
+    timezoneAbbreviation: "PST/PDT",
+    additionalInfo:
+      "Popular final port on Alaska cruises. The Ogden Point terminal handles cruise ships primarily from April through October, with many Alaska itineraries stopping here on their return journey to satisfy U.S. cabotage laws. Victoria offers visitors a distinctly British atmosphere with attractions including Butchart Gardens, the Parliament Buildings, Empress Hotel, and a charming downtown harbor area. The terminal is approximately 30 minutes walking distance from downtown, with shuttle services available.",
+  },
+  {
+    city: "Glacier Bay",
+    country: "United States",
+    region: "Alaska",
+    isPopular: true,
+    subtitle: "Nature's Ice Sanctuary",
+    quote:
+      "In silent majesty, colossal ice cathedrals calve into waters where time itself seems suspended in pristine wilderness.",
+    coordinates: {
+      latitude: 58.6658,
+      longitude: -136.9002,
+    },
+    address: "Glacier Bay National Park (scenic cruising only)",
+    postalCode: "99826",
+    timezone: "America/Juneau",
+    timezoneAbbreviation: "AKST/AKDT",
+    additionalInfo:
+      "Premier scenic cruising destination in Alaska. Unlike regular ports, Glacier Bay is a controlled-access national park where ships cruise through spectacular fjords without docking. The Alaska cruise season runs from May through September. Park rangers board vessels to provide expert commentary as ships navigate past tidewater glaciers, snow-capped mountains, and abundant wildlife including whales, bears, and eagles. Access is strictly limited with cruise lines securing permits years in advance.",
+  },
+  {
+    city: "Montevideo",
+    country: "Uruguay",
+    region: "South America",
+    isPopular: false,
+    subtitle: "Riverside Capital of Uruguay",
+    quote:
+      "Gentle plazas and historic mercados reveal the unhurried rhythm of a city where European heritage meets South American warmth.",
+    coordinates: {
+      latitude: -34.9011,
+      longitude: -56.1645,
+    },
+    address: "Montevideo Cruise Terminal, Port of Montevideo",
+    postalCode: "11000",
+    timezone: "America/Montevideo",
+    timezoneAbbreviation: "UYT/UYST",
+    additionalInfo:
+      "Gateway for South American cruise itineraries. The Port of Montevideo serves as both a port of call and embarkation point for regional cruises including Argentina and Brazil. The South American cruise season runs from October through March during the Southern Hemisphere summer. The terminal is conveniently located near Montevideo's Ciudad Vieja (Old Town), allowing visitors easy access to historic plazas, the Mercado del Puerto, and the city's distinctive blend of colonial and Art Deco architecture.",
+  },
+  {
+    city: "Lima",
+    country: "Peru",
+    region: "South America",
+    isPopular: false,
+    subtitle: "City of Kings",
+    quote:
+      "Where desert meets ocean, Lima's colonial grandeur and culinary genius create a Pacific treasure of unexpected contrasts.",
+    coordinates: {
+      latitude: -12.0464,
+      longitude: -77.0428,
+    },
+    address: "Accessed via Port of Callao, Peru",
+    postalCode: "07021",
+    timezone: "America/Lima",
+    timezoneAbbreviation: "PET",
+    additionalInfo:
+      "Cultural capital accessed via Port of Callao. While Lima is slightly inland, cruise ships dock at the Port of Callao, approximately 30 minutes from the historic center. The South American cruise season runs from October through March, with many ships visiting during repositioning between the Caribbean and Alaska. The port serves as gateway to Lima's UNESCO-listed colonial center, world-renowned culinary scene, and as a starting point for excursions to Machu Picchu via flight to Cusco.",
+  },
+  {
+    city: "Cartagena",
+    country: "Colombia",
+    region: "Caribbean Coast",
+    isPopular: false,
+    subtitle: "Walled Jewel of the Caribbean",
+    quote:
+      "Behind rainbow colonial walls, Cartagena's cobblestone streets whisper tales of pirates, treasures, and tropical romance.",
+    coordinates: {
+      latitude: 10.391,
+      longitude: -75.4794,
+    },
+    address: "Cruise Terminal Cartagena de Indias",
+    postalCode: "130001",
+    timezone: "America/Bogota",
+    timezoneAbbreviation: "COT",
+    additionalInfo:
+      "Historic port for Caribbean and Panama Canal cruises. The modern cruise terminal welcomes ships year-round with peak season from November through April. Located approximately 10 minutes by taxi from the iconic walled city, the terminal provides access to Cartagena's UNESCO-listed colonial center with its colorful buildings, vibrant plazas, and historic fortifications. The port serves as a popular stop on Panama Canal itineraries and southern Caribbean routes.",
+  },
+  {
+    city: "Santiago",
+    country: "Chile",
+    region: "Central Chile",
+    isPopular: false,
+    subtitle: "Andean Gateway to South America",
+    quote:
+      "Between snow-capped sentinels and Pacific shores, Santiago balances South American vitality with sophisticated charm.",
+    coordinates: {
+      latitude: -33.4489,
+      longitude: -70.6693,
+    },
+    address: "Accessed via Port of Valparaíso or San Antonio",
+    postalCode: "8320000",
+    timezone: "America/Santiago",
+    timezoneAbbreviation: "CLT/CLST",
+    additionalInfo:
+      "Capital accessed via Valparaíso or San Antonio ports. Santiago itself is inland, approximately 1.5-2 hours from the cruise ports of Valparaíso or San Antonio. The South American cruise season runs from October through March. These ports serve as gateways to Santiago's cultural attractions, as well as starting points for Chilean wine country tours. Many South American circumnavigation cruises and repositioning voyages between the Pacific and Atlantic Oceans call here.",
+  },
+  {
+    city: "Bangkok",
+    country: "Thailand",
+    region: "Southeast Asia",
+    isPopular: true,
+    subtitle: "City of Angels and Canals",
+    quote:
+      "Sacred temples and modern skyscrapers mirror each other in the Chao Phraya's waters, where ancient spirits embrace the future.",
+    coordinates: {
+      latitude: 13.7563,
+      longitude: 100.5018,
+    },
+    address: "Accessed via Laem Chabang Port",
+    postalCode: "10110",
+    timezone: "Asia/Bangkok",
+    timezoneAbbreviation: "ICT",
+    additionalInfo:
+      "Cultural capital accessed via Laem Chabang port. Though Bangkok itself is inland, cruise ships dock at Laem Chabang, approximately 2 hours away. The Southeast Asia cruise season peaks from November through March during the dry season. Most cruise lines offer organized excursions to Bangkok's highlights including the Grand Palace, Wat Pho, floating markets, and vibrant urban districts. Some smaller vessels navigate the Chao Phraya River directly into Bangkok, offering a more convenient approach.",
+  },
+  {
+    city: "Ho Chi Minh City",
+    country: "Vietnam",
+    region: "Southeast Asia",
+    isPopular: false,
+    subtitle: "Saigon's Dynamic Spirit",
+    quote:
+      "Where ancient temples stand beside French boulevards and modern skyscrapers, creating a symphony of resilience and reinvention.",
+    coordinates: {
+      latitude: 10.8231,
+      longitude: 106.6297,
+    },
+    address: "Accessed via Phu My Port",
+    postalCode: "700000",
+    timezone: "Asia/Ho_Chi_Minh",
+    timezoneAbbreviation: "ICT",
+    additionalInfo:
+      "Vibrant metropolis accessed via Phu My port. Cruise ships dock at Phu My port, approximately 1.5-2 hours from Ho Chi Minh City center. The Southeast Asia cruise season peaks from November through March during the dry season. The port serves as gateway to the city's French colonial architecture, Vietnam War historical sites, bustling markets, and nearby Mekong Delta excursions. Some smaller vessels travel up the Saigon River, docking closer to the city center for more convenient access.",
+  },
+  {
+    city: "Shanghai",
+    country: "China",
+    region: "Eastern China",
+    isPopular: true,
+    subtitle: "Pearl of the Orient",
+    quote:
+      "Across the river from yesterday, Shanghai's futuristic skyline represents China's soaring ambition reaching toward tomorrow.",
+    coordinates: {
+      latitude: 31.2304,
+      longitude: 121.4737,
+    },
+    address: "Shanghai Wusongkou International Cruise Terminal",
+    postalCode: "200083",
+    timezone: "Asia/Shanghai",
+    timezoneAbbreviation: "CST",
+    additionalInfo:
+      "Major cruise hub for East Asian itineraries. Shanghai features two main cruise facilities: Wusongkou International Cruise Terminal in Baoshan district for larger ships and Shanghai Port International Cruise Terminal near the city center for smaller vessels. Peak cruise seasons are spring (March-May) and fall (September-November), avoiding the summer heat and humidity. The terminals provide access to Shanghai's iconic skyline, historic Bund waterfront, ancient gardens, and modern shopping districts.",
   },
 ];

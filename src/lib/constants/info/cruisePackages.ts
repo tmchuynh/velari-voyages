@@ -333,7 +333,7 @@ export const cruisePackages: Package[] = [
   },
 ];
 export const cruiseCategoryMap: Record<string, Package> = Object.fromEntries(
-  cruisePackages.map((pkg) => [pkg.id, pkg])
+  cruisePackages.map((pkg) => [pkg.id, pkg]),
 );
 
 // Map cruise categories to arrays of package IDs that are suitable for each category
