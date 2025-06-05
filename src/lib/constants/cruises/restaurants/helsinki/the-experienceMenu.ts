@@ -6,24 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const helsinkitheExperienceMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Explore bold and comforting twists on beloved Japanese staples",
+    "description": "A journey through Japanese flavors, led by our chef's homestyle creations",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Celebrated dishes crafted with premium ingredients and exceptional care, designed to leave a lasting impression.",
+        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
         "items": [
           {
-            "name": "Homestyle Braised Japanese A5 Wagyu with Ponzu Butter",
-            "price": 33.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Roasted Celebrity Favorite Lobster Dish",
-            "price": 34.59,
+            "name": "Gourmet Tender House Famous Duck Confit",
+            "price": 29.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -31,26 +22,8 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Smoked Heritage Recipe Lamb Shank",
-            "price": 29.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Flaky Molecular Gastronomy Showcase Tasting",
-            "price": 26.36,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Flavorful Chef's Childhood Inspired Creation",
-            "price": 35.94,
+            "name": "Homestyle Marinated Chef's Special Surf and Turf",
+            "price": 35.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -58,50 +31,119 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Smoked Chef's Special Surf and Turf",
-            "price": 29.46,
+            "name": "Seasonal Luscious Local Bounty Harvest Plate (Vegetarian)",
+            "price": 28.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Stuffed Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 28.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Marinated Captain's Favorite Seafood Tower",
+            "price": 36.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Satisfying Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 35.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Succulent Black Garlic Glazed Beef Tenderloin",
+            "price": 28.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
-          },
-          {
-            "name": "Fresh Enticing Signature Truffle Pasta with Aged Pecorino",
-            "price": 32.98,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
+        "description": "Unique culinary compositions that rotate frequently to keep each visit fresh and surprising.",
         "items": [
           {
-            "name": "Homestyle Satisfying Dry-Aged Prime Beef Selection",
-            "price": 37.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Smoked Seasonal Truffle Risotto",
-            "price": 28.16,
+            "name": "Homestyle Marinated Slow-Roasted Prime Rib",
+            "price": 28.36,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Stuffed Tableside Prepared Tartare",
-            "price": 39.11,
+            "name": "Deluxe Savory Cast Iron Seafood Presentation",
+            "price": 25.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Smoked Sous Vide Pork Tenderloin",
+            "price": 37.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Smoked Freshly Harvested Seasonal Creation",
+            "price": 33.93,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Golden Fire-Roasted Seasonal Centerpiece",
+            "price": 28.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Appetizers",
+        "description": "Crafted to excite the palate, our starters are a perfect introduction to the world of Japanese.",
+        "items": [
+          {
+            "name": "Mezze Platter",
+            "price": 12.64,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bruschetta",
+            "price": 12.7,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -109,95 +151,53 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Sautéed Off-Menu Secret Preparation",
-            "price": 36.71,
-            "isVegetarian": true,
+            "name": "Prawn Cocktail",
+            "price": 10.37,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Flaky Gourmet Vegetarian Wellington",
-            "price": 35.74,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Appetizers",
-        "description": "Thoughtfully prepared small plates to begin your culinary experience with elegance and taste.",
-        "items": [
-          {
-            "name": "Bruschetta",
-            "price": 8.01,
+            "name": "Deviled Eggs",
+            "price": 15.26,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Calamari",
-            "price": 12.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lettuce Wraps",
-            "price": 15.04,
+            "price": 10.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Mini Quesadillas",
-            "price": 8.7,
+            "name": "Mini Empanadas",
+            "price": 10.81,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Dumplings",
-            "price": 14.41,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Spinach Puffs",
+            "price": 15.93,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sweet Potato Fries",
-            "price": 13.73,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Potato Skins",
-            "price": 9.5,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mozzarella Sticks",
-            "price": 15.8,
+            "name": "Ceviche",
+            "price": 15.25,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -211,38 +211,38 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
         "description": "Warm, nourishing soups that reflect the heart of Japanese cooking—perfect for any season.",
         "items": [
           {
-            "name": "French Onion Soup",
-            "price": 10.67,
+            "name": "Homestyle Marinated Thai Coconut Soup",
+            "price": 9.18,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Spicy Tomato Soup",
+            "price": 9.43,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Thai Coconut Soup",
-            "price": 8.68,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Turkey and Wild Rice Soup",
-            "price": 13.6,
+            "name": "Classic Mouthwatering Tortilla Soup",
+            "price": 11.68,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Broccoli Cheddar Soup",
-            "price": 9.26,
+            "name": "Seasonal Comforting Zuppa Toscana",
+            "price": 7.93,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -250,29 +250,20 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "A blend of local and organic ingredients, thoughtfully combined for maximum flavor.",
+        "description": "Balanced, clean, and flavorful options featuring local and organic ingredients where possible.",
         "items": [
           {
-            "name": "Fruit Salad",
-            "price": 9.35,
+            "name": "Pasta Salad",
+            "price": 13.85,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Nicoise Salad",
-            "price": 15.84,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Thai Green Papaya Salad",
-            "price": 15.78,
+            "name": "Garden Salad",
+            "price": 15.91,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -280,20 +271,29 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Southwest Black Bean Salad",
-            "price": 9.56,
-            "isVegetarian": true,
+            "name": "Chickpea Salad",
+            "price": 13.1,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Caesar Salad",
-            "price": 13.72,
+            "name": "Pear and Gorgonzola Salad",
+            "price": 12.2,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Beet Salad",
+            "price": 14.55,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,11 +301,20 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From classic to contemporary, our mains are a celebration of Japanese culture.",
+        "description": "Each dish is a masterpiece, showcasing the best of our culinary traditions.",
         "items": [
           {
-            "name": "Seasonal Grilled Pizza",
-            "price": 27.07,
+            "name": "Hearty Smoked Pesto Pasta",
+            "price": 29.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spiced Grilled Tofu",
+            "price": 23.39,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -313,35 +322,8 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Flaky Steak",
-            "price": 20.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Herbed Quiche",
-            "price": 25.15,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Sweet Beef Wellington",
-            "price": 19.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Smoked Lasagna",
-            "price": 28.12,
+            "name": "Authentic Zingy Stuffed Zucchini Boats",
+            "price": 24.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -349,17 +331,17 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Organic Crispy Grilled Chicken",
-            "price": 25.77,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Gourmet Flaky Coq au Vin",
+            "price": 25.27,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Fresh Crunchy Stuffed Zucchini Boats",
-            "price": 25.75,
+            "name": "Seasonal Golden Spaghetti Bolognese",
+            "price": 30.55,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -367,9 +349,27 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Satisfying Fish and Chips",
-            "price": 24.62,
+            "name": "Authentic Sizzling Fish and Chips",
+            "price": 28.27,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Grilled Chicken Parmesan",
+            "price": 24.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Grilled Eggplant Parmesan",
+            "price": 19.43,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -379,47 +379,47 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Celebrations of the sea—light, flavorful, and handled with the utmost care.",
+        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
         "items": [
           {
-            "name": "Seared Tuna Steak with Sesame Crust",
-            "price": 27.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Crab-Stuffed Mushrooms",
-            "price": 23.72,
+            "name": "Alaskan King Crab Legs with Drawn Butter",
+            "price": 31.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seafood Gumbo with Okra",
-            "price": 27.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Grilled Lobster with Lemon Butter",
-            "price": 33.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
             "name": "Miso-Marinated Chilean Sea Bass",
-            "price": 34.53,
+            "price": 27.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemon-Herb Calamari Steak",
+            "price": 26.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Garlic Butter Shrimp Skillet",
+            "price": 23.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cedar Plank Roasted Salmon",
+            "price": 32.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -430,20 +430,29 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Essential accompaniments, from traditional staples to inventive bites.",
+        "description": "Flavorful companions that round out your meal with harmony and flair.",
         "items": [
           {
-            "name": "Creamed Spinach with Nutmeg",
-            "price": 7.41,
-            "isVegetarian": true,
+            "name": "Authentic Sweet Sweet Potato Wedges with Smoked Paprika",
+            "price": 9.17,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Grilled Zucchini and Peppers",
-            "price": 5.55,
+            "name": "Authentic Fried Israeli Couscous with Roasted Tomatoes",
+            "price": 8.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Fried Maple-Glazed Baby Carrots",
+            "price": 9.77,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -451,17 +460,8 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Wild Mushroom Risotto",
-            "price": 8.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Green Beans Almondine",
-            "price": 7.58,
+            "name": "Homestyle Braised Roasted Root Vegetables",
+            "price": 6.18,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -469,20 +469,20 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Roasted Root Vegetables",
-            "price": 7.52,
+            "name": "Premium Exquisite Warm Buttermilk Dinner Rolls",
+            "price": 8.64,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Warm Buttermilk Dinner Rolls",
-            "price": 7.78,
+            "name": "Gourmet Herbed Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 7.54,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,20 +490,20 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Cold-pressed, house-infused, and always refreshing.",
+        "description": "Flavorful, alcohol-free options that never compromise on taste or presentation.",
         "items": [
           {
-            "name": "Hearty Creamy Juice",
-            "price": 7.65,
+            "name": "Seasonal Hearty Coffee",
+            "price": 5.93,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Steamed Smoothie",
-            "price": 6.37,
+            "name": "Authentic Grilled Hot Chocolate",
+            "price": 4.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -511,40 +511,40 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Spiced Lemonade",
-            "price": 4.3,
+            "name": "House Special Pan-seared Milkshake",
+            "price": 7.62,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Comforting Juice",
+            "price": 4.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Braised Tea",
+            "price": 6.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Handcrafted Sautéed Tea",
-            "price": 4.44,
+            "name": "Authentic Stuffed Water",
+            "price": 4.74,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Zesty Iced Tea",
-            "price": 5.71,
-            "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Sizzling Milkshake",
-            "price": 5.83,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       }
@@ -552,15 +552,33 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Crafted with passion, our delicious desserts are a must-try",
+    "description": "Handcrafted baked to perfection desserts that celebrate Japanese traditions",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
+        "description": "Artisanal baked items showcasing skill, tradition, and a touch of creativity.",
         "items": [
           {
-            "name": "Homestyle Grilled Soufflé",
-            "price": 9.04,
+            "name": "Authentic Pan-seared Brownies",
+            "price": 7.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Tender Shortbread",
+            "price": 10.32,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Crunchy Sticky Toffee Pudding",
+            "price": 10.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,8 +586,8 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Smoked Eclairs",
-            "price": 10.11,
+            "name": "Deluxe Mouthwatering Berry Tart",
+            "price": 10.46,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -577,29 +595,11 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Pan-seared Crumb Cake",
-            "price": 7.98,
+            "name": "Traditional Marinated Red Velvet Cake",
+            "price": 10.18,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Spicy Macarons",
-            "price": 10.48,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Crispy Baklava",
-            "price": 7.18,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -607,38 +607,29 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "The ultimate way to cool off and indulge—delicate, creamy, and unforgettable.",
+        "description": "Icy, sweet finishes with flavor that lingers beyond the chill.",
         "items": [
           {
-            "name": "Frozen Custard",
-            "price": 10.25,
-            "isVegetarian": true,
+            "name": "Seasonal Wholesome Frozen Yogurt",
+            "price": 7.1,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Popsicles",
-            "price": 9.56,
-            "isVegetarian": true,
+            "name": "Traditional Herbed Snow Cone",
+            "price": 7.01,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sherbet",
-            "price": 7.62,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Semifreddo",
-            "price": 7.2,
+            "name": "Classic Succulent Frozen Pudding",
+            "price": 9.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -646,13 +637,22 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Yogurt",
-            "price": 9.29,
+            "name": "Fresh Grilled Frozen Pie",
+            "price": 7.95,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Authentic Sweet Ice Cream",
+            "price": 11.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       }
@@ -660,33 +660,33 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A refreshing blend of heritage and modern mixology in every glass",
+    "description": "Our bar showcases carefully chosen spirits from around the globe",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "A selection of signature drinks that reflect our culinary philosophy and creativity.",
+        "description": "Sophisticated beverages with depth, character, and a dash of creativity.",
         "items": [
           {
-            "name": "Old Fashioned",
-            "price": 11.78,
-            "isVegetarian": true,
+            "name": "Gourmet Golden Cosmopolitan",
+            "price": 14.04,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 14.97,
-            "isVegetarian": false,
+            "name": "Gourmet Roasted Margarita",
+            "price": 12.39,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 12.14,
+            "name": "Hearty Flaky Negroni",
+            "price": 10.33,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -694,17 +694,8 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 10.56,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 12.86,
+            "name": "Seasonal Creamy Martini",
+            "price": 15.65,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -712,8 +703,8 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Whiskey Sour",
-            "price": 10.52,
+            "name": "Hearty Roasted Whiskey Sour",
+            "price": 15.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -721,10 +712,19 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "price": 11.17,
+            "name": "Authentic Appetizing Bloody Mary",
+            "price": 14.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Sweet Old Fashioned",
+            "price": 15.72,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -733,11 +733,11 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Perfect pairings for any palate, with guidance available from our trained staff.",
+        "description": "Wines selected to enhance each dish and elevate your dining experience.",
         "items": [
           {
-            "name": "Petit Verdot",
-            "price": 8.23,
+            "name": "Roussanne",
+            "price": 9.04,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -745,26 +745,35 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Syrah/Shiraz",
-            "price": 9.2,
+            "name": "Cabernet Sauvignon",
+            "price": 13.69,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chenin Blanc",
+            "price": 12.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Dolcetto",
+            "price": 11.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Pinot Grigio",
-            "price": 9.62,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gamay",
-            "price": 13.6,
+            "price": 13.4,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -772,20 +781,11 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gewürztraminer",
-            "price": 10.05,
-            "isVegetarian": true,
+            "name": "Fiano",
+            "price": 9.71,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Riesling",
-            "price": 12.74,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,47 +793,47 @@ export const helsinkitheExperienceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Crafted for those who appreciate the finer things in life—our spirits selection.",
+        "description": "Start or finish your night with a pour that lingers in memory.",
         "items": [
           {
-            "name": "Baileys Irish Cream",
-            "price": 13,
-            "isVegetarian": false,
+            "name": "Calvados",
+            "price": 12.11,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Vodka",
-            "price": 13.39,
+            "name": "Baileys Irish Cream",
+            "price": 15.83,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Campari",
+            "price": 12.09,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kahlúa",
+            "price": 15.73,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gin",
-            "price": 14.32,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Amaretto",
-            "price": 16.05,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Scotch",
-            "price": 12.85,
+            "name": "Armagnac",
+            "price": 10.73,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,

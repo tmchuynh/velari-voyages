@@ -248,5 +248,160 @@ export const helsinkiRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": false
+  },
+  {
+    "name": "Grand Dining Room",
+    "description": "Experience authentic Japanese cuisine with a local twist, featuring signature dishes served in an atmosphere of beautiful decor overlooking the city museum.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "9:00-22:00",
+      "saturday": "11:00-21:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-951-1283",
+      "contactEmail": "care@bluecoffeehousehelsinki.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Royal Tavern",
+    "description": "Located close to downtown, this Japanese restaurant delights with its fresh produce and seasonal floral displays.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "Closed",
+      "thursday": "11:00-20:00",
+      "friday": "11:00-20:00",
+      "saturday": "11:00-19:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-100-5988",
+      "contactEmail": "info@theworkshophelsinki.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "The & Co.",
+    "description": "A culinary gem serving Mediterranean specialties including artisanal creations, where guests enjoy ambient lighting in the heart of the city.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-20:00",
+      "friday": "11:00-21:00",
+      "saturday": "9:00-20:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-267-3799",
+      "contactEmail": "feedback@grandpublichousehelsinki.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Grand Gathering",
+    "description": "Experience authentic Japanese cuisine with a local twist, featuring artisanal creations served in an atmosphere of live street performances overlooking the city museum.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "9:00-21:00",
+      "friday": "10:00-22:00",
+      "saturday": "11:00-21:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-575-9655",
+      "contactEmail": "info@goldentradingco.helsinki.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Royal Wok",
+    "description": "This popular Mediterranean establishment combines traditional recipes and artisanal creations, all served in a unique setting with ambient lighting.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "Closed",
+      "wednesday": "10:00-22:00",
+      "thursday": "9:00-22:00",
+      "friday": "11:00-20:00",
+      "saturday": "10:00-20:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-364-5248",
+      "contactEmail": "info@bluemansionhelsinki.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
   }
 ];
