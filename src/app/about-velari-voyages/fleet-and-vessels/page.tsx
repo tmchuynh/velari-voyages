@@ -25,7 +25,7 @@ export default function FleetAndVessels() {
       acc[type].push(vessel);
       return acc;
     },
-    {} as Record<string, typeof cruiseVessels>
+    {} as Record<string, typeof cruiseVessels>,
   );
 
   // Get all vessel types
@@ -38,8 +38,8 @@ export default function FleetAndVessels() {
         acc[type] = 1;
         return acc;
       },
-      {} as Record<string, number>
-    )
+      {} as Record<string, number>,
+    ),
   );
 
   // Items per page
@@ -194,7 +194,7 @@ export default function FleetAndVessels() {
                       onClick={() =>
                         handlePageChange(
                           type,
-                          Math.min(totalPages, currentPage + 1)
+                          Math.min(totalPages, currentPage + 1),
                         )
                       }
                       className={
