@@ -6,24 +6,42 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const santoriniblueTableMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "A thoughtfully balanced mix of tasty and authentic Japanese flavors",
+    "description": "A showcase of fresh culinary artistry rooted in Japanese heritage",
     "category": [
       {
         "name": "Signature Dishes",
         "description": "Our chef's pride—carefully selected Japanese specialties that define our culinary identity, honed through years of experience and passion.",
         "items": [
           {
-            "name": "Local Bounty Harvest Plate (Vegetarian)",
-            "price": 29.12,
-            "isVegetarian": true,
+            "name": "House Special Spiced Flambéed Tableside Specialty",
+            "price": 28.61,
+            "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Golden Secret Recipe Bouillabaisse",
+            "price": 31.43,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Founder's Family Recipe Pasta",
-            "price": 24.4,
+            "name": "Traditional Smoked Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 29.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Sautéed Founder's Family Recipe Pasta",
+            "price": 30.98,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -31,47 +49,29 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Special Surf and Turf",
-            "price": 31.4,
+            "name": "House Special Fried Celebrity Favorite Lobster Dish",
+            "price": 27.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Tangy Local Bounty Harvest Plate (Vegetarian)",
+            "price": 29.15,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Zesty Seasonal Tasting Platter",
+            "price": 25.32,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Wood-Fired Peking Duck with Plum Sauce",
-            "price": 33.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Childhood Inspired Creation",
-            "price": 33.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Tasting Menu Experience",
-            "price": 36.53,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Captain's Favorite Seafood Tower",
-            "price": 26.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -82,8 +82,26 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
         "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
         "items": [
           {
-            "name": "Signature Spice-Rubbed Protein",
-            "price": 30.54,
+            "name": "Tasting of Local Artisanal Cheeses",
+            "price": 39.56,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chef's Tasting Menu Experience",
+            "price": 37.34,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Daily Fresh Catch with Seasonal Accompaniments",
+            "price": 30.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -91,104 +109,59 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tableside Flambé Preparation",
-            "price": 34.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Childhood Favorite Reimagined",
-            "price": 33.36,
+            "name": "Tableside Prepared Tartare",
+            "price": 30.66,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Crispy Skin Sea Bass",
-            "price": 25.42,
+            "name": "Whole Animal Butchery Showcase",
+            "price": 37.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Tomahawk Ribeye for Two",
-            "price": 30.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "Small bites designed to awaken your senses and set the tone for your dining journey.",
+        "description": "Flavor-forward starters that introduce our approach to Japanese with balance and creativity.",
         "items": [
           {
-            "name": "Bruschetta",
-            "price": 8.1,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nachos",
-            "price": 11.23,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Potstickers",
-            "price": 12.65,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shrimp Cocktail",
-            "price": 8.24,
+            "name": "Authentic Spiced Cheese Nachos",
+            "price": 10.53,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Deviled Eggs",
-            "price": 15.46,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Antipasto Platter",
-            "price": 15.7,
-            "isVegetarian": true,
+            "name": "Premium Delectable Chicken Wings",
+            "price": 13.6,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cheese Platter",
-            "price": 8.94,
+            "name": "Fresh Pan-seared Garlic Knots",
+            "price": 14.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Sizzling Mozzarella Sticks",
+            "price": 11.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -196,8 +169,35 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lettuce Wraps",
-            "price": 10.55,
+            "name": "Fresh Golden Potstickers",
+            "price": 14.83,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Golden Samosas",
+            "price": 9.72,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Mouthwatering Stuffed Peppers",
+            "price": 13.57,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Golden Tempura",
+            "price": 14.99,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -208,80 +208,53 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Each bowl is a journey through the heart of Japanese, crafted with care and expertise.",
+        "description": "Rich flavors and slow-simmered ingredients that speak of home and tradition.",
         "items": [
           {
-            "name": "Tomato Soup",
-            "price": 13.37,
+            "name": "Authentic Succulent Borscht",
+            "price": 8.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Satisfying Butternut Squash Soup",
+            "price": 10.79,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Miso Soup",
-            "price": 9.96,
-            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pho",
-            "price": 11.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chicken Noodle Soup",
-            "price": 9.29,
+            "name": "Homestyle Mouthwatering Seafood Chowder",
+            "price": 11.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Stuffed Lobster Bisque",
+            "price": 11.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
           }
         ]
       },
       {
         "name": "Salads",
-        "description": "Each salad is a celebration of freshness and flavor, designed to nourish and delight.",
+        "description": "Lively salads combining texture, temperature, and taste for a refreshing start or light meal.",
         "items": [
           {
-            "name": "Asian Slaw",
-            "price": 11,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coleslaw",
-            "price": 9.65,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Greek Salad",
-            "price": 14.49,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Broccoli Crunch Salad",
-            "price": 11.7,
+            "name": "Pear and Gorgonzola Salad",
+            "price": 14.48,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -290,10 +263,37 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
           },
           {
             "name": "Spinach Salad",
-            "price": 9.75,
+            "price": 13.35,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Garden Salad",
+            "price": 13.85,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Thai Green Papaya Salad",
+            "price": 14.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Waldorf Salad",
+            "price": 10.27,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,77 +301,77 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Each dish is a celebration of flavor, tradition, and culinary excellence.",
+        "description": "Each plate tells a story—of heritage, ingredients, and expert execution.",
         "items": [
           {
-            "name": "Organic Aromatic Spaghetti Bolognese",
-            "price": 18.35,
+            "name": "Lasagna",
+            "price": 30.35,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Moussaka",
+            "price": 30.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Katsu Curry",
+            "price": 21.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Stuffed Zucchini Boats",
+            "price": 18.75,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lamb Chops",
+            "price": 24.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Pho",
+            "price": 28.24,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mac and Cheese",
+            "price": 19.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ramen",
+            "price": 20.77,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Hearty Pho",
-            "price": 22.35,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Grilled Grilled Chicken",
-            "price": 22.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Spiced Shish Kebabs",
-            "price": 24.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Appetizing Fajitas",
-            "price": 27.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Sweet Lamb Chops",
-            "price": 26.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Zingy Beef Burger",
-            "price": 29.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Juicy Chili con Carne",
-            "price": 21.99,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -379,11 +379,11 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Fresh, sustainable seafood prepared using timeless Japanese traditions.",
+        "description": "From raw bar selections to grilled specialties, our seafood dishes are a must-try.",
         "items": [
           {
-            "name": "Premium Creamy Lobster Thermidor with Gruyère Crust",
-            "price": 29.18,
+            "name": "Hearty Spiced New England Lobster Roll",
+            "price": 25.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,26 +391,17 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Organic Wholesome Oysters Rockefeller with Pernod Cream",
-            "price": 26.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Creamy Stuffed Flounder with Crab and Spinach",
-            "price": 33.23,
+            "name": "Authentic Hearty Classic British Fish and Chips",
+            "price": 31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "House Special Grilled Alaskan King Crab Legs with Drawn Butter",
-            "price": 23.66,
+            "name": "Fresh Flaky Seafood Risotto with Saffron",
+            "price": 24.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -418,9 +409,18 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Grilled Traditional Provençal Bouillabaisse",
-            "price": 30.98,
-            "isVegetarian": true,
+            "name": "Classic Aromatic Seafood Alfredo with Spinach Fettuccine",
+            "price": 30.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Savory Grilled Lobster with Lemon Butter",
+            "price": 29.55,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -430,11 +430,20 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Crafted to enhance your meal, these sides are a celebration of Japanese flavors.",
+        "description": "Flavorful companions that round out your meal with harmony and flair.",
         "items": [
           {
-            "name": "Crispy Beer-Battered Onion Rings",
-            "price": 6.67,
+            "name": "Truffle Parmesan Fries",
+            "price": 7.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mashed Potatoes",
+            "price": 5.35,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -442,26 +451,17 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Scalloped Potatoes with Thyme",
-            "price": 9.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Cauliflower Gratin with Gruyère",
-            "price": 6.07,
-            "isVegetarian": false,
+            "name": "Homestyle Baked Beans",
+            "price": 9.71,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Flaky Cheddar and Chive Biscuits",
-            "price": 8.51,
+            "name": "Warm Buttermilk Dinner Rolls",
+            "price": 8.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -469,20 +469,20 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 6.35,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Braised Red Cabbage with Apple",
+            "price": 6.67,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sweet Corn and Cheddar Fritters",
-            "price": 6.57,
-            "isVegetarian": false,
+            "name": "Macaroni and Aged Cheddar",
+            "price": 5.76,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,20 +490,11 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Cold-pressed, house-infused, and always refreshing.",
+        "description": "Bright, invigorating options that cleanse the palate and refresh the spirit.",
         "items": [
           {
-            "name": "Milkshake",
-            "price": 4.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soda",
-            "price": 6.73,
+            "name": "House Special Smoked Coffee",
+            "price": 5.9,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -511,35 +502,44 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lemonade",
-            "price": 7.43,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 6.39,
-            "isVegetarian": false,
+            "name": "Organic Wholesome Lemonade",
+            "price": 7.41,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Smoothie",
-            "price": 5.29,
-            "isVegetarian": true,
+            "name": "Homestyle Luscious Tea",
+            "price": 4.86,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Delicious Water",
+            "price": 5.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Satisfying Milkshake",
+            "price": 4.65,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 7.33,
+            "name": "Classic Spicy Juice",
+            "price": 4.59,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -552,24 +552,42 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "From rich chocolates to fruity delights – our delicious desserts await",
+    "description": "Handcrafted mouthwatering desserts that celebrate Japanese traditions",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Pastries, breads, and treats prepared in-house using classic and modern methods.",
+        "description": "Handcrafted with the finest ingredients, our baked goods are a treat for the senses.",
         "items": [
           {
-            "name": "Crumb Cake",
-            "price": 7.62,
+            "name": "Premium Marinated Red Velvet Cake",
+            "price": 6.15,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Madeleines",
-            "price": 6.34,
+            "name": "Homestyle Tangy Banana Bread",
+            "price": 10.35,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Sautéed Chocolate Chip Cookies",
+            "price": 9.17,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Pan-seared Cannoli",
+            "price": 8.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -577,27 +595,9 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Custard Tart",
-            "price": 6.12,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemon Bars",
-            "price": 6.92,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shortbread",
-            "price": 10.07,
-            "isVegetarian": true,
+            "name": "Premium Juicy Vanilla Cake",
+            "price": 7.68,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
@@ -607,11 +607,20 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Smooth, rich frozen creations featuring local fruits and seasonal flavors.",
+        "description": "The ultimate way to cool off and indulge—delicate, creamy, and unforgettable.",
         "items": [
           {
-            "name": "Frozen Cheesecake",
-            "price": 8.61,
+            "name": "Granita",
+            "price": 9.09,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream",
+            "price": 10.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -620,7 +629,16 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
           },
           {
             "name": "Frozen Pudding",
-            "price": 8.21,
+            "price": 10.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baked Alaska",
+            "price": 7.89,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -628,29 +646,11 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sorbet",
-            "price": 11.96,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Yogurt",
-            "price": 7.98,
+            "name": "Frozen Mousse",
+            "price": 10.27,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Snow Cone",
-            "price": 7.96,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,42 +660,15 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A thoughtfully selected cocktail lineup featuring house infusions and classic techniques",
+    "description": "Japanese-inspired drinks and classic favorites in our select selection",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Crafted with care, our cocktails are a perfect pairing for any dish on our menu.",
+        "description": "Each cocktail is a work of art—balanced, bold, and beautifully presented.",
         "items": [
           {
-            "name": "Deluxe Sizzling Martini",
-            "price": 13.81,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Spicy Bloody Mary",
-            "price": 14.11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Satisfying Cosmopolitan",
-            "price": 14.55,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Luscious Mai Tai",
-            "price": 14.46,
+            "name": "Organic Comforting Mojito",
+            "price": 14.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -703,28 +676,55 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Grilled Whiskey Sour",
-            "price": 15.22,
+            "name": "Authentic Aromatic Negroni",
+            "price": 12.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Mouthwatering Old Fashioned",
+            "price": 10.36,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Sautéed Mai Tai",
+            "price": 10.67,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Juicy Margarita",
+            "price": 14.74,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Exquisite Bloody Mary",
+            "price": 13.66,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Golden Margarita",
-            "price": 12.23,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Sautéed Negroni",
-            "price": 15.09,
+            "name": "Fresh Crunchy Manhattan",
+            "price": 14.48,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -733,47 +733,20 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "From crisp whites to structured reds, our wine list offers something for every palate.",
+        "description": "A journey through the world of wine, with options to suit every taste and occasion.",
         "items": [
           {
-            "name": "Sémillon",
-            "price": 8.24,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gamay",
-            "price": 8.71,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Blanc",
-            "price": 11.33,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chenin Blanc",
-            "price": 10.97,
+            "name": "Fresh Delicious Prosecco",
+            "price": 8.2,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Verdicchio",
-            "price": 9.5,
+            "name": "Gourmet Savory Pinot Grigio",
+            "price": 13.25,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -781,11 +754,38 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Nebbiolo",
-            "price": 8.42,
+            "name": "House Special Sweet Albariño",
+            "price": 13.06,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Grilled Fiano",
+            "price": 12.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Aromatic Champagne/Sparkling Wine",
+            "price": 9.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Zingy Sémillon",
+            "price": 9.72,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -796,8 +796,35 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
         "description": "From classic cocktails to sipping spirits, our bar is stocked with quality and character.",
         "items": [
           {
-            "name": "Premium Baked Scotch",
-            "price": 16.32,
+            "name": "Homestyle Grilled Sambuca",
+            "price": 17.26,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sautéed Whiskey",
+            "price": 17.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Comforting Bénédictine",
+            "price": 17.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Pan-seared Campari",
+            "price": 14.85,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -805,37 +832,10 @@ export const santoriniblueTableMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Luscious Midori",
-            "price": 15.96,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Delectable Armagnac",
-            "price": 14.65,
+            "name": "Organic Exquisite Limoncello",
+            "price": 12,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Luscious Bénédictine",
-            "price": 16.24,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Tangy Galliano",
-            "price": 17.02,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true

@@ -1,29 +1,20 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for The Wok in santorini
+ * Menu data for The Barbecue in santorini
  */
-export const santorinitheWokMenu: RestaurantMenu[] = [
+export const santorinitheBarbecueMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Savor our classic dishes made with locally sourced ingredients",
+    "description": "A showcase of simple culinary artistry rooted in Italian heritage",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "A curated collection of our most iconic and requested plates.",
+        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
         "items": [
           {
-            "name": "24-Hour Braised Short Ribs",
-            "price": 37.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Tableside Carved Chateaubriand",
-            "price": 25.64,
+            "name": "Classic Delectable Executive Chef's Daily Inspiration Entrée",
+            "price": 37.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -31,26 +22,35 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Famous Duck Confit",
-            "price": 37.96,
+            "name": "House Special Irresistible Whole Roasted Heritage Chicken",
+            "price": 36.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Spiced Charcoal Grilled Iberico Pork",
+            "price": 37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Legendary Prime Rib",
-            "price": 33.85,
+            "name": "Gourmet Satisfying Award-Winning Seafood Boil",
+            "price": 32.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 26.24,
+            "name": "Premium Fried Japanese A5 Wagyu with Ponzu Butter",
+            "price": 29.97,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -58,20 +58,20 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Special Surf and Turf",
-            "price": 32.52,
+            "name": "Authentic Enticing 24-Hour Braised Short Ribs",
+            "price": 36.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Chef's Childhood Inspired Creation",
-            "price": 26.65,
+            "name": "Fresh Herbed Celebrity Favorite Lobster Dish",
+            "price": 24.42,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -79,29 +79,38 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "Expressions of creativity from our chef’s table—ever-changing and inspired by market finds.",
+        "description": "Unique culinary compositions that rotate frequently to keep each visit fresh and surprising.",
         "items": [
           {
-            "name": "Heirloom Recipe from Chef's Family",
-            "price": 39.51,
+            "name": "Organic Crunchy Seasonal Farm-to-Table Vegetable Plate",
+            "price": 33.42,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef's Market Inspiration of the Day",
-            "price": 38.14,
-            "isVegetarian": false,
+            "name": "Classic Succulent Modern Interpretation of Regional Classic",
+            "price": 24.43,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Aged and House-Cured Charcuterie Selection",
-            "price": 32.87,
+            "name": "Authentic Grilled Seared Duck Breast with Cherry Reduction",
+            "price": 32.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Mouthwatering Cast Iron Seafood Presentation",
+            "price": 34.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -109,20 +118,11 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Chef's Tasting Menu Experience",
-            "price": 27.24,
+            "name": "Hearty Savory Tasting of Local Artisanal Cheeses",
+            "price": 30.63,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Locally Foraged Mushroom Selection",
-            "price": 32.48,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,11 +130,20 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Small bites designed to awaken your senses and set the tone for your dining journey.",
+        "description": "A harmonious blend of textures and flavors, our appetizers are a celebration of Italian culinary artistry.",
         "items": [
           {
-            "name": "Deluxe Pan-seared Bruschetta",
-            "price": 10.47,
+            "name": "Fresh Crunchy Cheese Nachos",
+            "price": 10.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Crispy Mini Tacos",
+            "price": 9.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -142,26 +151,44 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Flaky Calamari",
-            "price": 9.97,
+            "name": "Seasonal Crunchy Stuffed Peppers",
+            "price": 15.93,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Sweet Bruschetta",
+            "price": 15.59,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Braised Falafel",
+            "price": 9.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Herbed Calamari",
+            "price": 10.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Seasonal Grilled Cheese Platter",
-            "price": 10.86,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Sizzling Mini Empanadas",
-            "price": 13.39,
+            "name": "Premium Zesty Mini Empanadas",
+            "price": 15.15,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -169,38 +196,11 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Sizzling Prawn Cocktail",
-            "price": 9.67,
+            "name": "Homestyle Pan-seared Edamame",
+            "price": 11.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Herbed Onion Rings",
-            "price": 9.85,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Zesty Potstickers",
-            "price": 11.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Satisfying Edamame",
-            "price": 12.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -208,20 +208,11 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Crafted with care, our soups are a celebration of French flavors and traditions.",
+        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
         "items": [
           {
-            "name": "Tortilla Soup",
-            "price": 13.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Turkey and Wild Rice Soup",
-            "price": 8.65,
+            "name": "Seafood Chowder",
+            "price": 7.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -229,70 +220,79 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hot and Sour Soup",
-            "price": 8.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chicken Corn Soup",
-            "price": 7.98,
+            "name": "Tomato Soup",
+            "price": 9.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gazpacho",
+            "price": 8.21,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot and Sour Soup",
+            "price": 11.08,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Salads",
-        "description": "A blend of local and organic ingredients, thoughtfully combined for maximum flavor.",
+        "description": "Each salad is a work of art, designed to nourish and delight.",
         "items": [
           {
-            "name": "Pasta Salad",
-            "price": 14.41,
+            "name": "Caesar Salad",
+            "price": 10.24,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Watermelon Feta Salad",
+            "price": 12,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spinach Salad",
+            "price": 15.87,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Quinoa Salad",
+            "price": 13.78,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Garden Salad",
-            "price": 13.34,
+            "price": 15.03,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 14.85,
-            "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cucumber Salad",
-            "price": 13.08,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Apple Pecan Salad",
-            "price": 10.33,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -301,11 +301,47 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Each dish is a culinary journey, showcasing the richness of French traditions.",
+        "description": "From the kitchen to your table, our mains are crafted to delight and satisfy.",
         "items": [
           {
-            "name": "House Special Appetizing Biryani",
-            "price": 22.36,
+            "name": "Fish and Chips",
+            "price": 26.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Eggplant Parmesan",
+            "price": 20.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gnocchi",
+            "price": 29.93,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lasagna",
+            "price": 21.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pho",
+            "price": 30.19,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -313,53 +349,41 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Golden Lamb Chops",
-            "price": 21.66,
+            "name": "Beef Wellington",
+            "price": 25.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Gourmet Exquisite Stuffed Peppers",
-            "price": 29.05,
-            "isVegetarian": false,
+            "name": "Quiche",
+            "price": 18.61,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Spicy Pho",
-            "price": 22.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Satisfying Beef Burger",
-            "price": 23.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Tender Chili con Carne",
-            "price": 30.28,
-            "isVegetarian": false,
+            "name": "Moussaka",
+            "price": 29.44,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "description": "Daily catches transformed into exquisite plates by our skilled kitchen team.",
+        "items": [
           {
-            "name": "Fresh Pan-seared Bibimbap",
-            "price": 19.77,
+            "name": "Smoked Salmon Platter with Dill Crème",
+            "price": 31.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -367,8 +391,35 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Smoked Katsu Curry",
-            "price": 24.32,
+            "name": "Alaskan King Crab Legs with Drawn Butter",
+            "price": 35.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Steamed Littleneck Clams in Garlic Broth",
+            "price": 29.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Garlic Butter Shrimp Skillet",
+            "price": 25.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seafood Gumbo with Okra",
+            "price": 31.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -378,48 +429,57 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Seafood Specialties",
-        "description": "Coastal cuisine brought inland with clarity, freshness, and elegance.",
+        "name": "Side Dishes",
+        "description": "A selection of thoughtfully prepared sides that bring out the best in our mains.",
         "items": [
           {
-            "name": "Homestyle Creamy Oysters Rockefeller with Pernod Cream",
-            "price": 22.2,
+            "name": "Authentic Juicy Charred Broccolini with Garlic Oil",
+            "price": 5.56,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
           },
           {
-            "name": "Authentic Comforting Crab-Stuffed Mushrooms",
-            "price": 24.86,
-            "isVegetarian": false,
+            "name": "Gourmet Marinated Grilled Asparagus with Lemon Zest",
+            "price": 6.89,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Creamy Hearty Italian Cioppino",
-            "price": 33.78,
-            "isVegetarian": false,
+            "name": "Handcrafted Tender Chili Lime Roasted Chickpeas",
+            "price": 5.34,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Grilled Wild Mushroom Risotto",
+            "price": 8.47,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Delicious Miso-Marinated Chilean Sea Bass",
-            "price": 24.94,
-            "isVegetarian": false,
+            "name": "Handcrafted Irresistible Sautéed Garlic Mushrooms",
+            "price": 7.67,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Savory Mussels Mariniere in White Wine",
-            "price": 31.38,
+            "name": "Authentic Creamy Fragrant Basmati Rice Pilaf",
+            "price": 7.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -429,81 +489,12 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Side Dishes",
-        "description": "Flavorful companions that round out your meal with harmony and flair.",
-        "items": [
-          {
-            "name": "French Fries",
-            "price": 5.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Wild Mushroom Risotto",
-            "price": 6.25,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Quinoa Pilaf with Herbs",
-            "price": 6.48,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Scalloped Potatoes with Thyme",
-            "price": 7.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sweet Potato Wedges with Smoked Paprika",
-            "price": 5.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Truffle Parmesan Fries",
-            "price": 6.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
         "name": "Non-Alcoholic Beverages",
-        "description": "Handcrafted drinks designed to hydrate and delight—no spirits necessary.",
+        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
         "items": [
-          {
-            "name": "Coffee",
-            "price": 4.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
           {
             "name": "Iced Tea",
-            "price": 4.48,
+            "price": 7.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -511,9 +502,27 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lemonade",
-            "price": 5.01,
-            "isVegetarian": false,
+            "name": "Smoothie",
+            "price": 6.4,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 4.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 4.02,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -521,7 +530,7 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
           },
           {
             "name": "Tea",
-            "price": 4.13,
+            "price": 7.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -529,18 +538,9 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 6.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 7.74,
-            "isVegetarian": false,
+            "name": "Juice",
+            "price": 5.73,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -552,15 +552,15 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "A freshly prepared selection of desserts that celebrate the art of pastry",
+    "description": "Discover our collection of comforting sweet masterpieces",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "From buttery croissants to hearty loaves, our baked goods are a celebration of flavor.",
+        "description": "Perfectly baked pastries and breads that bring warmth to your table.",
         "items": [
           {
-            "name": "Fresh Grilled Madeleines",
-            "price": 7.53,
+            "name": "Custard Tart",
+            "price": 9.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,17 +568,17 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Herbed Apple Pie",
-            "price": 10.95,
-            "isVegetarian": false,
+            "name": "Croissants",
+            "price": 7.39,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Sautéed Muffins",
-            "price": 8.81,
+            "name": "Berry Tart",
+            "price": 8.83,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -586,20 +586,20 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Flaky Fruit Galette",
-            "price": 9.47,
-            "isVegetarian": false,
+            "name": "Crumb Cake",
+            "price": 7.06,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Aromatic Macarons",
-            "price": 8.57,
-            "isVegetarian": true,
+            "name": "Fruit Galette",
+            "price": 9.43,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -610,8 +610,17 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
         "description": "A symphony of flavors and textures, our frozen desserts are a refreshing finale.",
         "items": [
           {
-            "name": "Ice Cream",
-            "price": 11.4,
+            "name": "Authentic Wholesome Ice Cream Sandwich",
+            "price": 11.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Tangy Sorbet",
+            "price": 8.03,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -619,8 +628,8 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ice Cream Cake",
-            "price": 7.06,
+            "name": "Deluxe Roasted Ice Cream Cake",
+            "price": 9.48,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -628,27 +637,18 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Cheesecake",
-            "price": 7.51,
+            "name": "Authentic Spicy Snow Cone",
+            "price": 9.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Frozen Banana",
-            "price": 10.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Mousse",
-            "price": 10.84,
-            "isVegetarian": false,
+            "name": "Gourmet Tender Frozen Yogurt",
+            "price": 7.06,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -660,24 +660,15 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A crisp selection of alcoholic beverages to complement your meal",
+    "description": "Italian-inspired drinks and classic favorites in our inviting selection",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
+        "description": "A cocktail experience that transcends the ordinary—crafted for the discerning palate.",
         "items": [
           {
-            "name": "Traditional Comforting Old Fashioned",
-            "price": 11.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Hearty Manhattan",
-            "price": 11.25,
+            "name": "Classic Spiced Whiskey Sour",
+            "price": 15.04,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -685,8 +676,17 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Herbed Mai Tai",
-            "price": 12.21,
+            "name": "Handcrafted Creamy Martini",
+            "price": 14.75,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Spiced Bloody Mary",
+            "price": 11.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -694,8 +694,17 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Grilled Margarita",
-            "price": 14.28,
+            "name": "Authentic Crunchy Old Fashioned",
+            "price": 14.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Sautéed Manhattan",
+            "price": 10.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -703,29 +712,20 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Creamy Mojito",
-            "price": 15.51,
-            "isVegetarian": false,
+            "name": "Gourmet Luscious Mojito",
+            "price": 11.24,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Irresistible Whiskey Sour",
-            "price": 10.14,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Stuffed Bloody Mary",
-            "price": 10.01,
-            "isVegetarian": false,
+            "name": "Hearty Flavorful Cosmopolitan",
+            "price": 12.05,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,29 +733,11 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "A diverse collection of varietals and vintages, chosen for quality and character.",
+        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
         "items": [
           {
-            "name": "Traditional Delicious Cabernet Sauvignon",
-            "price": 8.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Aromatic Sauvignon Blanc",
-            "price": 13.51,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Tangy Torrontés",
-            "price": 9.08,
+            "name": "Prosecco",
+            "price": 13.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -763,27 +745,45 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Succulent Riesling",
-            "price": 9.48,
+            "name": "Dolcetto",
+            "price": 13.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Riesling",
+            "price": 12,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grenache",
+            "price": 12.43,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Fried Syrah/Shiraz",
-            "price": 8.75,
+            "name": "Moscato",
+            "price": 10.87,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Appetizing Vermentino",
-            "price": 9.72,
-            "isVegetarian": false,
+            "name": "Vouvray",
+            "price": 13.24,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -793,48 +793,48 @@ export const santorinitheWokMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "From classic cocktails to sipping spirits, our bar is stocked with quality and character.",
+        "description": "From timeless classics to innovative new blends, our spirits menu is a celebration of flavor.",
         "items": [
           {
-            "name": "Cognac",
-            "price": 14.78,
-            "isVegetarian": false,
+            "name": "Hearty Exquisite Pisco",
+            "price": 13.16,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spiced Cointreau",
+            "price": 11.64,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Triple Sec",
-            "price": 10.93,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Maraschino",
-            "price": 17.69,
-            "isVegetarian": false,
+            "name": "House Special Crunchy Whiskey",
+            "price": 12.49,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Brandy",
-            "price": 16.38,
+            "name": "Handcrafted Crunchy Chartreuse",
+            "price": 17.34,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Campari",
-            "price": 12.04,
-            "isVegetarian": false,
+            "name": "Hearty Aromatic Scotch",
+            "price": 13.5,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

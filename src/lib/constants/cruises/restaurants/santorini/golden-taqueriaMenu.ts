@@ -6,60 +6,51 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Every plate tells a story of homestyle Mediterranean craftsmanship",
+    "description": "A hearty assortment of specialties showcasing the best of Mediterranean cuisine",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
+        "description": "Crafted daily based on what’s freshest and most inspiring at the market.",
         "items": [
           {
-            "name": "Legendary Prime Rib",
-            "price": 35.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Charcoal Grilled Iberico Pork",
-            "price": 35.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 25.78,
+            "name": "Homestyle Luscious Legendary Prime Rib",
+            "price": 24.19,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Stuffed Restaurant's Namesake Signature Entrée",
+            "price": 29.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Smoked Whole Roasted Heritage Chicken",
+            "price": 27.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Smoked Chef's Special Surf and Turf",
+            "price": 36.59,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Dry-Aged Tomahawk Steak",
-            "price": 26.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Black Garlic Glazed Beef Tenderloin",
-            "price": 26.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Heritage Recipe Lamb Shank",
-            "price": 34.14,
+            "name": "House Special Creamy Seasonal Tasting Platter",
+            "price": 28.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -67,11 +58,20 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Age-Old Recipe Osso Buco with Gremolata",
-            "price": 33.42,
+            "name": "Traditional Herbed Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 34.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Irresistible Signature Truffle Pasta with Aged Pecorino",
+            "price": 37.97,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -79,11 +79,29 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "Expressions of creativity from our chef’s table—ever-changing and inspired by market finds.",
+        "description": "Crafted daily based on what’s freshest and most inspiring at the market.",
         "items": [
           {
-            "name": "Slow-Roasted Prime Rib",
-            "price": 26.49,
+            "name": "Fresh Appetizing Volcanic Stone-Cooked Specialty",
+            "price": 35.15,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Savory Chef's Childhood Favorite Reimagined",
+            "price": 31.56,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Hearty Collaborative Limited Edition Special",
+            "price": 38.09,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -91,77 +109,50 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seared Foie Gras with Fig Compote",
-            "price": 29.89,
+            "name": "Homestyle Golden Special Occasion Celebratory Dish",
+            "price": 38.76,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Locally Foraged Mushroom Selection",
-            "price": 35.79,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Tasting Menu Experience",
-            "price": 26.85,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sous Vide Pork Tenderloin",
-            "price": 30.1,
+            "name": "Homestyle Zesty House Specialty Pasta Creation",
+            "price": 39.17,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "Small bites designed to awaken your senses and set the tone for your dining journey.",
+        "description": "Mouthwatering previews of what's to come—crafted to tease and please.",
         "items": [
           {
-            "name": "Deluxe Sizzling Caprese Salad",
-            "price": 14.88,
+            "name": "House Special Fried Chicken Wings",
+            "price": 14.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Spicy Cheese Nachos",
-            "price": 14.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Gourmet Savory Lettuce Wraps",
-            "price": 10.63,
-            "isVegetarian": true,
+            "name": "Authentic Marinated Arancini",
+            "price": 8.08,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Gourmet Satisfying Tuna Tartare",
-            "price": 12.2,
+            "name": "Seasonal Creamy Caprese Salad",
+            "price": 13.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -169,37 +160,46 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Irresistible Stuffed Mushrooms",
-            "price": 14.58,
-            "isVegetarian": true,
+            "name": "Seasonal Stuffed Falafel",
+            "price": 13.19,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Delectable Spinach Puffs",
+            "price": 8.91,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Marinated Edamame",
-            "price": 11.21,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Sizzling Stuffed Peppers",
+            "name": "Seasonal Herbed Zucchini Fries",
             "price": 14.07,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Sizzling Baked Brie",
-            "price": 9.57,
-            "isVegetarian": false,
+            "name": "Premium Satisfying Prawn Toast",
+            "price": 15.18,
+            "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Marinated Dumplings",
+            "price": 11.51,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -208,39 +208,39 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Crafted with care, our soups are a celebration of Mediterranean flavors and traditions.",
+        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
         "items": [
           {
+            "name": "Tomato Soup",
+            "price": 11.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Split Pea Soup",
+            "price": 12.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Lobster Bisque",
-            "price": 13,
+            "price": 7.35,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Mushroom Soup",
-            "price": 11.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pumpkin Soup",
-            "price": 7.15,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chicken Corn Soup",
-            "price": 9.7,
-            "isVegetarian": false,
+            "name": "Lentil Soup",
+            "price": 10.06,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -250,47 +250,47 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Balanced, clean, and flavorful options featuring local and organic ingredients where possible.",
+        "description": "Each salad is a work of art, designed to nourish and delight.",
         "items": [
           {
-            "name": "Apple Pecan Salad",
-            "price": 14.13,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fruit Salad",
-            "price": 9.55,
+            "name": "Orzo Salad",
+            "price": 11.69,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Kale Salad",
-            "price": 13.93,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Caesar Salad",
+            "price": 12.55,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mediterranean Chopped Salad",
+            "price": 15.08,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Nicoise Salad",
-            "price": 12.59,
+            "price": 9.65,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Spinach Salad",
-            "price": 14.83,
+            "name": "Roasted Vegetable Salad",
+            "price": 13.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -301,29 +301,20 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "A journey through Mediterranean flavors, expertly prepared and beautifully presented.",
+        "description": "Hearty and refined mains rooted in traditional Mediterranean, elevated by modern techniques.",
         "items": [
           {
-            "name": "Classic Aromatic Vegetable Stir-Fry",
-            "price": 23.49,
+            "name": "Traditional Spicy Pesto Pasta",
+            "price": 24.19,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Mouthwatering Steak",
-            "price": 21.88,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Crunchy Grilled Chicken",
-            "price": 31.34,
+            "name": "Authentic Comforting Spaghetti Bolognese",
+            "price": 26.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -331,26 +322,35 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Gourmet Delectable Salmon",
-            "price": 19.64,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Deluxe Luscious Currywurst",
+            "price": 30.94,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Marinated Tagine",
-            "price": 28.61,
-            "isVegetarian": false,
+            "name": "Gourmet Delectable Jambalaya",
+            "price": 25.3,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Delectable Teriyaki Chicken",
-            "price": 23.02,
+            "name": "House Special Flaky Roast Duck",
+            "price": 25.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Stuffed Bibimbap",
+            "price": 31.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -358,19 +358,19 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Flavorful Quiche",
-            "price": 26.46,
+            "name": "Homestyle Aromatic Pasta Primavera",
+            "price": 28.5,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Tangy Stuffed Zucchini Boats",
-            "price": 23.45,
+            "name": "Authentic Crispy Ramen",
+            "price": 22.95,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -379,20 +379,11 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "From raw bar selections to grilled specialties, our seafood dishes are a must-try.",
+        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
         "items": [
           {
-            "name": "Alaskan King Crab Legs with Drawn Butter",
-            "price": 33.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seafood Alfredo with Spinach Fettuccine",
-            "price": 31.23,
+            "name": "Homestyle Herbed Grilled Spanish Octopus with Smoked Paprika",
+            "price": 26.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,8 +391,17 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grilled Spanish Octopus with Smoked Paprika",
-            "price": 27.21,
+            "name": "Authentic Spiced Shrimp Scampi over Linguine",
+            "price": 31.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Savory Seafood Gumbo with Okra",
+            "price": 27.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -409,17 +409,17 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Lemon-Herb Calamari Steak",
-            "price": 29.12,
+            "name": "Handcrafted Sautéed Linguine with Clam Sauce",
+            "price": 35.53,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Seafood Gumbo with Okra",
-            "price": 31.95,
+            "name": "Handcrafted Mouthwatering Mussels Mariniere in White Wine",
+            "price": 22.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -430,20 +430,11 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Flavorful companions that round out your meal with harmony and flair.",
+        "description": "Crafted to enhance your meal, these sides are a celebration of Mediterranean flavors.",
         "items": [
           {
-            "name": "Fresh Sizzling Truffle Parmesan Fries",
-            "price": 9.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Sautéed Sweet Corn and Cheddar Fritters",
-            "price": 5.16,
+            "name": "Creamed Spinach with Nutmeg",
+            "price": 6.41,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -451,8 +442,8 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Hearty Wild Rice Pilaf",
-            "price": 8.13,
+            "name": "Sweet Potato Wedges with Smoked Paprika",
+            "price": 7.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -460,8 +451,26 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Grilled Garlic Bread with Herb Butter",
-            "price": 7.99,
+            "name": "Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 7.16,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Maple-Glazed Baby Carrots",
+            "price": 6.96,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grilled Asparagus with Lemon Zest",
+            "price": 8.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -469,17 +478,8 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Savory Creamed Spinach with Nutmeg",
-            "price": 5.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Herbed Steamed Jasmine Rice",
-            "price": 7.27,
+            "name": "Corn on the Cob with Chili Lime Butter",
+            "price": 5.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -490,20 +490,11 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
+        "description": "Flavorful, alcohol-free options that never compromise on taste or presentation.",
         "items": [
           {
             "name": "Juice",
-            "price": 6.34,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soda",
-            "price": 7.82,
+            "price": 5.7,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -511,8 +502,17 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Smoothie",
-            "price": 4.33,
+            "name": "Coffee",
+            "price": 7.49,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 5.93,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -520,27 +520,27 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hot Chocolate",
-            "price": 7.79,
+            "name": "Tea",
+            "price": 6.06,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 6.88,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Iced Tea",
-            "price": 4.31,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 6.76,
-            "isVegetarian": true,
+            "price": 7.13,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -552,53 +552,53 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Elevate your evening with our satisfying dessert course",
+    "description": "From oven to plate – mouthwatering desserts made with care",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "From flaky croissants to rich breads—our oven's finest, ready to enjoy.",
+        "description": "Each bite tells a story—layered, textured, and baked to perfection.",
         "items": [
           {
-            "name": "Cupcakes",
-            "price": 6.81,
+            "name": "Organic Creamy Strawberry Shortcake",
+            "price": 10.31,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chocolate Chip Cookies",
-            "price": 10.68,
+            "name": "Premium Crispy Soufflé",
+            "price": 6.33,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Tangy Scones",
+            "price": 7.37,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Delectable Cobbler",
+            "price": 8.95,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Apple Pie",
-            "price": 6.63,
-            "isVegetarian": true,
+            "name": "Hearty Delectable Red Velvet Cake",
+            "price": 7.96,
+            "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pumpkin Pie",
-            "price": 10.08,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Custard Tart",
-            "price": 8.36,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -607,11 +607,20 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Classic and contemporary frozen delights that cool and satisfy.",
+        "description": "Handmade with care, our frozen desserts are a celebration of texture and taste.",
         "items": [
           {
-            "name": "Homestyle Grilled Ice Cream Sandwich",
-            "price": 7.59,
+            "name": "Frozen Mousse",
+            "price": 8.33,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Paletas",
+            "price": 7.34,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -619,17 +628,8 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Enticing Frozen Yogurt",
-            "price": 11.19,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Savory Frozen Pudding",
-            "price": 10.95,
+            "name": "Semifreddo",
+            "price": 10.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -637,20 +637,20 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Sweet Baked Alaska",
-            "price": 7.24,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Frozen Fruit Bars",
+            "price": 10.18,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Sautéed Paletas",
-            "price": 10.06,
+            "name": "Frozen Yogurt",
+            "price": 8.74,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,72 +660,72 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Indulge in our quality drinks menu crafted to accentuate flavors",
+    "description": "A carefully chosen selection of alcoholic beverages to complement your meal",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Sophisticated beverages with depth, character, and a dash of creativity.",
+        "description": "A cocktail experience that transcends the ordinary—crafted for the discerning palate.",
         "items": [
           {
-            "name": "Premium Aromatic Mojito",
-            "price": 15.88,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Delectable Old Fashioned",
-            "price": 15.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Fried Margarita",
-            "price": 14.26,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Crunchy Negroni",
-            "price": 14.82,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Wholesome Cosmopolitan",
-            "price": 12.52,
+            "name": "Martini",
+            "price": 13.76,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Mouthwatering Martini",
-            "price": 14.41,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "name": "Margarita",
+            "price": 11.99,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Sweet Mai Tai",
-            "price": 11.08,
+            "name": "Old Fashioned",
+            "price": 12.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 12.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 11.77,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 15.12,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 10.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -736,17 +736,26 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
         "description": "Wines selected to enhance each dish and elevate your dining experience.",
         "items": [
           {
-            "name": "Fresh Flavorful Tempranillo",
-            "price": 12.95,
+            "name": "Deluxe Grilled Sauvignon Blanc",
+            "price": 11.33,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked Cabernet Sauvignon",
+            "price": 13.16,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Herbed Fiano",
-            "price": 9.61,
+            "name": "Organic Marinated Pinot Grigio",
+            "price": 13.6,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -754,8 +763,8 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Luscious Sémillon",
-            "price": 9.97,
+            "name": "Traditional Spiced Merlot",
+            "price": 8.04,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -763,17 +772,8 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Herbed Chardonnay",
-            "price": 8.46,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Exquisite Sauvignon Blanc",
-            "price": 8.83,
+            "name": "Homestyle Satisfying Petit Verdot",
+            "price": 8.12,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -781,10 +781,10 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Grilled Barbera",
-            "price": 8.53,
+            "name": "Fresh Roasted Nebbiolo",
+            "price": 9.29,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -793,21 +793,12 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Whether neat, on the rocks, or mixed—our premium selection is built to impress.",
+        "description": "A curated collection of fine spirits and artisan liqueurs from around the world.",
         "items": [
           {
-            "name": "Armagnac",
-            "price": 15.3,
+            "name": "Maraschino",
+            "price": 17.12,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Amaretto",
-            "price": 11.55,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -815,26 +806,35 @@ export const santorinigoldenTaqueriaMenu: RestaurantMenu[] = [
           },
           {
             "name": "Bourbon",
-            "price": 14.51,
+            "price": 14.06,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey",
+            "price": 11.81,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Drambuie",
+            "price": 17.68,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chartreuse",
+            "price": 13.71,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grappa",
-            "price": 11.03,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Kahlúa",
-            "price": 11.18,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
