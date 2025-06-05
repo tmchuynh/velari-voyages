@@ -6,24 +6,51 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Where tasty creativity meets timeless Japanese inspiration",
+    "description": "A simple assortment of specialties showcasing the best of Japanese cuisine",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Unforgettable signatures that define who we are and what we serve, crafted to perfection.",
+        "description": "Unforgettable signatures that define who we are and what we serve.",
         "items": [
           {
-            "name": "House Special Satisfying Flambéed Tableside Specialty",
-            "price": 31.66,
+            "name": "Gourmet Marinated Heritage Recipe Lamb Shank",
+            "price": 35.89,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Organic Flavorful Heritage Recipe Lamb Shank",
-            "price": 29.23,
+            "name": "Homestyle Spicy Black Garlic Glazed Beef Tenderloin",
+            "price": 30.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Flavorful Flambéed Tableside Specialty",
+            "price": 29.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Flaky Japanese A5 Wagyu with Ponzu Butter",
+            "price": 30.24,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Pan-seared Dry-Aged Tomahawk Steak",
+            "price": 37.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -31,47 +58,20 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Fried Award-Winning Seafood Boil",
-            "price": 24.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Smoked Captain's Favorite Seafood Tower",
-            "price": 29.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Mouthwatering Celebrity Favorite Lobster Dish",
-            "price": 24.45,
+            "name": "Premium Tender Age-Old Recipe Osso Buco with Gremolata",
+            "price": 36.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Stuffed Sous Vide Perfected Wagyu",
-            "price": 28.19,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Braised Seasonal Tasting Platter",
-            "price": 27.56,
-            "isVegetarian": true,
+            "name": "Handcrafted Comforting Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 24.82,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -79,71 +79,71 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
+        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
         "items": [
           {
-            "name": "Heritage Breed Porchetta",
-            "price": 25.28,
-            "isVegetarian": false,
+            "name": "Fusion of Traditional and Modern Techniques",
+            "price": 25.96,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pan-Seared Scallops with Citrus Beurre Blanc",
-            "price": 36.56,
+            "name": "Smoked and Slow-Roasted Heritage Meat",
+            "price": 26.12,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Tasting of Local Artisanal Cheeses",
-            "price": 28.64,
-            "isVegetarian": true,
+            "name": "Tableside Flambé Preparation",
+            "price": 25.38,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Special Occasion Celebratory Dish",
+            "price": 26.13,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cold-Smoked Delicacy",
-            "price": 32.06,
+            "name": "Hand-Selected Wine Pairing Experience",
+            "price": 26.92,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roasted Quail with Truffle Jus",
-            "price": 35.1,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "A selection of small plates that showcase the essence of Japanese—perfect for sharing or savoring solo.",
+        "description": "Thoughtfully prepared small plates to begin your culinary experience with elegance and taste.",
         "items": [
           {
-            "name": "Mini Empanadas",
-            "price": 9.56,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Spring Rolls",
+            "price": 15.4,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Prawn Cocktail",
-            "price": 15.54,
+            "price": 11.64,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -151,26 +151,35 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Stuffed Mushrooms",
-            "price": 8,
+            "name": "Tempura",
+            "price": 14.24,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baba Ganoush",
+            "price": 11.08,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caprese Salad",
+            "price": 11.37,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mini Crab Cakes",
-            "price": 12.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Spinach Artichoke Dip",
-            "price": 8.08,
+            "name": "Spinach Puffs",
+            "price": 10.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -178,8 +187,8 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Spring Rolls",
-            "price": 11.86,
+            "name": "Prawn Toast",
+            "price": 14.29,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -187,32 +196,41 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Samosas",
-            "price": 11.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Calamari",
-            "price": 15.58,
+            "name": "Chicken Wings",
+            "price": 15.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           }
         ]
       },
       {
         "name": "Soups",
-        "description": "From light broths to hearty stews, our soups are a comforting embrace in every spoonful.",
+        "description": "Crafted with care, our soups are a celebration of Japanese flavors and traditions.",
         "items": [
           {
-            "name": "Deluxe Sweet Broccoli Cheddar Soup",
+            "name": "Peanut Soup (West African)",
             "price": 10.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Carrot Ginger Soup",
+            "price": 11.32,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gazpacho",
+            "price": 9.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -220,41 +238,41 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Roasted Beef Stew",
-            "price": 8.84,
+            "name": "Turkey and Wild Rice Soup",
+            "price": 12.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Zesty Split Pea Soup",
-            "price": 8.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Hearty Carrot Ginger Soup",
-            "price": 11.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Salads",
-        "description": "A seasonal showcase of the garden’s bounty—thoughtfully composed and artfully arranged.",
+        "description": "Each salad is a celebration of freshness and flavor, designed to nourish and delight.",
         "items": [
           {
-            "name": "Thai Green Papaya Salad",
-            "price": 11.88,
+            "name": "Caprese Salad",
+            "price": 10.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Farro Salad",
+            "price": 13.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Watermelon Feta Salad",
+            "price": 11.05,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -263,7 +281,7 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Caesar Salad",
-            "price": 12.93,
+            "price": 9.19,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -271,29 +289,11 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garden Salad",
-            "price": 12.2,
-            "isVegetarian": false,
+            "name": "Coleslaw",
+            "price": 11.46,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tabbouleh",
-            "price": 15.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beet Salad",
-            "price": 13.31,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,11 +301,11 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From farm to table, our mains are a reflection of our commitment to quality and flavor.",
+        "description": "Each plate tells a story—of heritage, ingredients, and expert execution.",
         "items": [
           {
-            "name": "Beef Burger",
-            "price": 22.46,
+            "name": "Deluxe Stuffed Steak",
+            "price": 26.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -313,17 +313,17 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Eggplant Parmesan",
-            "price": 26.07,
-            "isVegetarian": true,
+            "name": "Homestyle Enticing Grilled Chicken",
+            "price": 24.22,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Bibimbap",
-            "price": 23.55,
+            "name": "Fresh Zesty Gnocchi",
+            "price": 31.89,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -331,46 +331,46 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pho",
-            "price": 22.24,
+            "name": "Seasonal Grilled Cottage Pie",
+            "price": 27.41,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Herbed Roast Duck",
+            "price": 20.98,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Korma",
-            "price": 30.85,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Paella",
-            "price": 18.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Steak",
-            "price": 19.83,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Smoked Burrito",
+            "price": 20.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Stir-fry",
-            "price": 29.36,
-            "isVegetarian": false,
+            "name": "Gourmet Aromatic Ramen",
+            "price": 25.41,
+            "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Spiced Stuffed Zucchini Boats",
+            "price": 22.5,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -382,8 +382,8 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
         "description": "From the sea to your plate—each dish is a tribute to the ocean’s bounty.",
         "items": [
           {
-            "name": "Garlic Butter Shrimp Skillet",
-            "price": 27.7,
+            "name": "Oysters Rockefeller with Pernod Cream",
+            "price": 25.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -391,8 +391,8 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Oysters Rockefeller with Pernod Cream",
-            "price": 23.06,
+            "name": "Steamed Littleneck Clams in Garlic Broth",
+            "price": 23.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,68 +400,41 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seafood Alfredo with Spinach Fettuccine",
-            "price": 22.19,
+            "name": "Shrimp Scampi over Linguine",
+            "price": 29.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Grilled Lobster with Lemon Butter",
+            "price": 33.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Blackened Mahi-Mahi with Pineapple Salsa",
+            "price": 30.33,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Crab-Stuffed Mushrooms",
-            "price": 25.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Mussels Mariniere in White Wine",
-            "price": 35.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Small dishes with big impact—each one crafted to complement without overpowering.",
+        "description": "Classic Japanese side dishes with our own unique interpretation.",
         "items": [
           {
-            "name": "Grilled Asparagus with Lemon Zest",
-            "price": 8.77,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Zucchini and Peppers",
-            "price": 9.57,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Wild Mushroom Risotto",
-            "price": 9.13,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sautéed Garlic Mushrooms",
-            "price": 8.39,
+            "name": "Homestyle Succulent Corn on the Cob with Chili Lime Butter",
+            "price": 7.61,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -469,20 +442,47 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Maple-Glazed Baby Carrots",
-            "price": 6.88,
-            "isVegetarian": true,
+            "name": "Handcrafted Aromatic Warm Buttermilk Dinner Rolls",
+            "price": 8.35,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mashed Potatoes",
-            "price": 5.49,
-            "isVegetarian": true,
+            "name": "Seasonal Flavorful Macaroni and Aged Cheddar",
+            "price": 6.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Satisfying Stuffed Bell Peppers with Brown Rice",
+            "price": 8.01,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Luscious Garlic Bread with Herb Butter",
+            "price": 5.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Golden Mashed Potatoes",
+            "price": 8.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,59 +490,59 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Flavorful, alcohol-free options that never compromise on taste or presentation.",
+        "description": "Bright and revitalizing beverages for all ages and preferences.",
         "items": [
           {
-            "name": "Tea",
-            "price": 7.1,
+            "name": "Hearty Tangy Iced Tea",
+            "price": 6.1,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 4.04,
-            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coffee",
+            "name": "Gourmet Pan-seared Tea",
+            "price": 5.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Smoked Coffee",
             "price": 6.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Satisfying Water",
+            "price": 4.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Delectable Lemonade",
+            "price": 4.27,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soda",
-            "price": 5.61,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hot Chocolate",
-            "price": 5.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 5.54,
+            "name": "Classic Creamy Smoothie",
+            "price": 5.05,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,33 +552,33 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Our freshly prepared desserts are a celebration of flavor and creativity",
+    "description": "A delicious finale to your dining experience",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
+        "description": "From buttery croissants to hearty loaves, our baked goods are a celebration of flavor.",
         "items": [
           {
-            "name": "Cannoli",
-            "price": 8.99,
+            "name": "Chocolate Chip Cookies",
+            "price": 6.05,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Banana Bread",
-            "price": 6.53,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Baklava",
-            "price": 9,
+            "name": "Apple Pie",
+            "price": 10.29,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tiramisu",
+            "price": 9.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -586,19 +586,19 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Eclairs",
-            "price": 10.81,
+            "name": "Muffins",
+            "price": 9.4,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fruit Galette",
-            "price": 7.3,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Scones",
+            "price": 7.01,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -607,20 +607,20 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Classic and contemporary frozen delights that cool and satisfy.",
+        "description": "Handmade with care, our frozen desserts are a celebration of texture and taste.",
         "items": [
           {
-            "name": "Premium Satisfying Frozen Fruit Bars",
-            "price": 11.15,
+            "name": "Gelato",
+            "price": 8.56,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Braised Frosty",
-            "price": 7.98,
+            "name": "Frosty",
+            "price": 8.07,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -628,29 +628,29 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Succulent Frozen Pie",
-            "price": 9.95,
-            "isVegetarian": true,
+            "name": "Sorbet",
+            "price": 10.03,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Roasted Frozen Yogurt",
-            "price": 10.3,
-            "isVegetarian": true,
+            "name": "Frozen Pie",
+            "price": 9.77,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Ice Cream",
-            "price": 10.34,
-            "isVegetarian": true,
+            "name": "Frozen Custard",
+            "price": 8.95,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,24 +660,24 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Enjoy smooth-drinking cocktails designed to pair effortlessly with our seasonal menu",
+    "description": "A enticing cocktail lineup featuring house infusions and classic techniques",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "A selection of signature drinks that reflect our culinary philosophy and creativity.",
+        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
         "items": [
           {
-            "name": "Organic Spicy Mojito",
-            "price": 12.17,
+            "name": "Deluxe Enticing Mojito",
+            "price": 13.18,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Baked Mai Tai",
-            "price": 10.66,
+            "name": "Hearty Wholesome Negroni",
+            "price": 12.77,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -685,77 +685,68 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Grilled Margarita",
-            "price": 11.68,
+            "name": "Hearty Stuffed Old Fashioned",
+            "price": 11.27,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Irresistible Negroni",
-            "price": 12.64,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Herbed Martini",
-            "price": 12.86,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Stuffed Whiskey Sour",
-            "price": 11.84,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "name": "Premium Stuffed Martini",
+            "price": 11.52,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Golden Cosmopolitan",
-            "price": 11.38,
+            "name": "Authentic Grilled Whiskey Sour",
+            "price": 11.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Authentic Hearty Margarita",
+            "price": 13.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Satisfying Bloody Mary",
+            "price": 14.65,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Wine Selection",
-        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
+        "description": "Perfect pairings for any palate, with guidance available from our trained staff.",
         "items": [
           {
-            "name": "Roussanne",
-            "price": 8.29,
+            "name": "Authentic Herbed Moscato",
+            "price": 11.37,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Verdicchio",
-            "price": 9.14,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nebbiolo",
-            "price": 12.03,
+            "name": "Deluxe Tender Albariño",
+            "price": 9.55,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -763,28 +754,37 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pinot Grigio",
-            "price": 9.66,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vouvray",
-            "price": 9.57,
-            "isVegetarian": false,
+            "name": "Fresh Satisfying Mourvèdre",
+            "price": 11.24,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Albariño",
-            "price": 10.34,
+            "name": "Classic Smoked Viognier",
+            "price": 13.45,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Spiced Tempranillo",
+            "price": 8.99,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Appetizing Nebbiolo",
+            "price": 13.65,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -793,38 +793,11 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Crafted for those who appreciate the finer things in life—our spirits selection.",
+        "description": "Whether neat, on the rocks, or mixed—our premium selection is built to impress.",
         "items": [
           {
-            "name": "Maraschino",
-            "price": 11.98,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cognac",
-            "price": 11.77,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chartreuse",
-            "price": 17.73,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sambuca",
-            "price": 11.56,
+            "name": "Hearty Irresistible Gin",
+            "price": 11.42,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -832,11 +805,38 @@ export const hoChiMinhCitygrandCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "St-Germain",
-            "price": 12.51,
+            "name": "House Special Grilled Grand Marnier",
+            "price": 16.27,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Flavorful Scotch",
+            "price": 12.64,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Luscious Pisco",
+            "price": 17.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spicy Triple Sec",
+            "price": 16.18,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
