@@ -1153,9 +1153,35 @@ function generateMenuItemsForType(
             "Mushroom Risotto",
             "Eggplant Parmesan",
             "Roasted Vegetable Medley",
+            "Stuffed Zucchini",
+            "Vegetable Paella",
+            "Vegetable Stir Fry",
+            "Vegetable Lasagna",
+            "Vegetable Tacos",
+            "Vegetable Fajitas",
+            "Vegetable Skewers",
+            "Vegetable Samosas",
+            "Vegetable Biryani",
+            "Vegetable Pad Thai",
+            "Vegetable Tempura",
+            "Vegetable Gyoza",
+            "Vegetable Spring Rolls",
             "Quinoa Bowl",
             "Falafel",
             "Vegetable Curry",
+            "Vegetable Korma",
+            "Vegetable Tagine",
+            "Vegetable Stir-Fried Noodles",
+            "Vegetable Fried Rice",
+            "Vegetable Soup",
+            "Vegetable Chili",
+            "Vegetable Bolognese",
+            "Vegetable Risotto",
+            "Vegetable Pizza",
+            "Vegetable Quesadilla",
+            "Vegetable Burrito",
+            "Vegetable Sushi Rolls",
+            "Vegetable Pad See Ew",
             "Spinach Pie",
             "Veggie Burger",
             "Lentil Stew",
@@ -1167,6 +1193,7 @@ function generateMenuItemsForType(
             "Seitan Kebabs",
             "Chickpea Curry",
             "Tempeh Bacon",
+
             "Cashew Cheese Plate",
             "Coconut Milk Soup",
             "Maple Glazed Carrots",
@@ -1602,112 +1629,287 @@ function generateCombinedMenuContent(
   restaurantCuisine,
   restaurant // Add the full restaurant object as a parameter
 ) {
-  const cityVar = toCamelCase(cityName);
-  const restaurantVar = toCamelCase(restaurantName);
-
-  // If restaurant is halal or kosher friendly, potentially filter out pork items (30% chance)
-  const shouldFilterPork =
-    (restaurant.isHalalFriendly || restaurant.isKosherFriendly) &&
-    Math.random() < 0.3;
-
-  if (shouldFilterPork) {
-    console.log(
-      `${restaurantName} will have pork items removed from its menu (halal/kosher friendly)`
-    );
-  }
-
-  // Generate menu items for each category with the restaurant properties
-  const signatureDishes = generateMenuItemsForType(
-    "signature dishes",
-    restaurantCuisine,
-    7,
-    restaurant
-  );
-  const chefsSpecials = generateMenuItemsForType(
-    "chef's specials",
-    restaurantCuisine,
-    5,
-    restaurant
-  );
-  const appetizers = generateMenuItemsForType(
-    "appetizers",
-    restaurantCuisine,
-    8,
-    restaurant
-  );
-  const salads = generateMenuItemsForType(
-    "salads",
-    restaurantCuisine,
-    5,
-    restaurant
-  );
-  const soups = generateMenuItemsForType(
-    "soups",
-    restaurantCuisine,
-    4,
-    restaurant
-  );
-  const mainCourses = generateMenuItemsForType(
-    "main courses",
-    restaurantCuisine,
-    8,
-    restaurant
-  );
-  const sideDishes = generateMenuItemsForType(
-    "side dishes",
-    restaurantCuisine,
-    6,
-    restaurant
-  );
-  const seafoodSpecialties = generateMenuItemsForType(
-    "seafood specialties",
-    restaurantCuisine,
-    5,
-    restaurant
-  );
-  const nonAlcoholicBeverages = generateMenuItemsForType(
-    "non-alcoholic beverages",
-    restaurantCuisine,
-    6,
-    restaurant
-  );
-
-  // Generate dessert menu categories
-  const frozenDesserts = generateMenuItemsForType(
-    "frozen desserts",
-    restaurantCuisine,
-    5,
-    restaurant
-  );
-  const bakedGoods = generateMenuItemsForType(
-    "baked goods",
-    restaurantCuisine,
-    5,
-    restaurant
-  );
-
-  // Generate alcohol categories
-  const cocktails = generateMenuItemsForType(
-    "signature cocktails",
-    restaurantCuisine,
-    7,
-    restaurant
-  );
-  const wines = generateMenuItemsForType(
-    "wine selection",
-    restaurantCuisine,
-    6,
-    restaurant
-  );
-  const spirits = generateMenuItemsForType(
-    "spirits and liqueurs",
-    restaurantCuisine,
-    5,
-    restaurant
-  );
-
   // Build menus array based on menu-type flag and excluded menu types
   let menus = [];
+
+  // Function to generate category descriptions based on category type
+  function getCategoryDescription(categoryName, cuisine, _restaurant) {
+    // Set up templates for different category types
+    const templates = {
+      "Signature Dishes": [
+        `Our chef's pride—carefully selected ${cuisine} specialties that define our culinary identity, honed through years of experience and passion.`,
+        `Exclusive, time-tested recipes that highlight the heart and soul of authentic ${cuisine} cooking.`,
+        `House favorites that have stood the test of time and showcase our refined approach to ${cuisine} cuisine.`,
+        `Distinctive creations that have become synonymous with our name—prepared with precision and purpose.`,
+        `Celebrated dishes crafted with premium ingredients and exceptional care, designed to leave a lasting impression.`,
+        `A curated collection of our most iconic and requested plates, each a testament to our culinary excellence.`,
+        `Unforgettable signatures that define who we are and what we serve, crafted to perfection.`,
+        `A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.`,
+        `Inspired by nature, mood, and season—our chef’s ever-evolving vision on a plate.`,
+        `Crafted daily based on what’s freshest and most inspiring at the market.`,
+        `A curated collection of our most iconic and requested plates.`,
+        `Unforgettable signatures that define who we are and what we serve.`,
+      ],
+      "Chef's Specials": [
+        `Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.`,
+        `Inventive dishes that explore rare ingredients, bold flavors, and progressive cooking techniques.`,
+        `Expressions of creativity from our chef’s table—ever-changing and inspired by market finds.`,
+        `Unique culinary compositions that rotate frequently to keep each visit fresh and surprising.`,
+        `A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.`,
+        `A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.`,
+        `A rotating selection of dishes that highlight the chef's creativity and passion for ${cuisine}.`,
+        `A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.`,
+        `Inspired by nature, mood, and season—our chef’s ever-evolving vision on a plate.`,
+        `Crafted daily based on what’s freshest and most inspiring at the market.`,
+      ],
+      Appetizers: [
+        `Small bites designed to awaken your senses and set the tone for your dining journey.`,
+        `A selection of ${cuisine} starters that blend tradition with modern flair, perfect for sharing or savoring solo.`,
+        `A delightful array of appetizers that highlight the best of ${cuisine} flavors—perfect for sharing or enjoying solo.`,
+        `Crafted to excite the palate, our starters are a perfect introduction to the world of ${cuisine}.`,
+        `A harmonious blend of textures and flavors, our appetizers are a celebration of ${cuisine} culinary artistry.`,
+        `A selection of small plates that showcase the essence of ${cuisine}—perfect for sharing or savoring solo.`,
+        `Flavor-forward starters that introduce our approach to ${cuisine} with balance and creativity.`,
+        `Thoughtfully prepared small plates to begin your culinary experience with elegance and taste.`,
+        `Traditional and reimagined ${cuisine} appetizers made for sharing or solo indulgence.`,
+        `An inviting mix of light fare and bold starters crafted to excite the palate.`,
+        `A selection of small plates that showcase the essence of ${cuisine}—perfect for sharing or savoring solo.`,
+        `Mouthwatering previews of what's to come—crafted to tease and please.`,
+        `A tempting assortment of beginning bites to pair with your first drink.`,
+      ],
+      Soups: [
+        `A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.`,
+        `Daily-prepared soups made from seasonal ingredients and traditional ${cuisine} methods.`,
+        `Warm, nourishing soups that reflect the heart of ${cuisine} cooking—perfect for any season.`,
+        `Crafted with care, our soups are a celebration of ${cuisine} flavors and traditions.`,
+        `Each bowl is a journey through the heart of ${cuisine}, crafted with care and expertise.`,
+        `From light broths to hearty stews, our soups are a comforting embrace in every spoonful.`,
+        `A warm, flavorful embrace in every bowl—crafted for nourishment and satisfaction.`,
+        `Classic and modern takes on soup that reflect our culinary roots and creative spirit.`,
+        `Steaming selections ideal for starting your meal or simply savoring the warmth.`,
+        `Crafted with care, our soups are a celebration of ${cuisine} flavors and traditions.`,
+        `Rich flavors and slow-simmered ingredients that speak of home and tradition.`,
+        `Each bowl is a journey through the heart of ${cuisine}, crafted with care and expertise.`,
+        `Each spoonful offers depth, comfort, and craftsmanship.`,
+      ],
+      Salads: [
+        `Fresh-picked greens, vibrant produce, and house dressings made in-house daily.`,
+        `Crisp and colorful salads that balance flavor, nutrition, and beautiful presentation.`,
+        `A seasonal showcase of the garden’s bounty—thoughtfully composed and artfully arranged.`,
+        `Lively salads combining texture, temperature, and taste for a refreshing start or light meal.`,
+        `Crafted with care, our salads are a celebration of freshness and flavor.`,
+        `Each salad is a work of art, designed to nourish and delight.`,
+        `Each salad is a celebration of freshness and flavor, designed to nourish and delight.`,
+        `A blend of local and organic ingredients, thoughtfully combined for maximum flavor.`,
+        `From classic combinations to innovative creations, our salads are a feast for the senses.`,
+        `Balanced, clean, and flavorful options featuring local and organic ingredients where possible.`,
+        `Wholesome creations that blend crunch, freshness, and house-crafted dressings.`,
+        `Light, clean, and energizing—each salad is a visual and flavorful delight.`,
+      ],
+      "Main Courses": [
+        `Signature entrées crafted with precision, embodying the core of our ${cuisine} vision.`,
+        `Robust and satisfying center-of-plate dishes that deliver flavor and artistry.`,
+        `Hearty and refined mains rooted in traditional ${cuisine}, elevated by modern techniques.`,
+        `Each plate tells a story—of heritage, ingredients, and expert execution.`,
+        `Culinary centerpieces that define the essence of our dining experience.`,
+        `From classic to contemporary, our mains are a celebration of ${cuisine} culture.`,
+        `Crafted with the finest ingredients, our mains are a testament to our culinary philosophy.`,
+        `A journey through ${cuisine} flavors, expertly prepared and beautifully presented.`,
+        `Each dish is a masterpiece, showcasing the best of our culinary traditions.`,
+        `From farm to table, our mains are a reflection of our commitment to quality and flavor.`,
+        `Timeless classics and innovative creations that highlight the best of ${cuisine}.`,
+        `Each dish is a celebration of flavor, tradition, and culinary excellence.`,
+        `Crafted with passion and precision, our mains are designed to impress.`,
+        `From hearty classics to modern interpretations, our mains are a feast for the senses.`,
+        `A selection of mains that reflect the heart and soul of ${cuisine}, prepared with care.`,
+        `Each dish is a culinary journey, showcasing the richness of ${cuisine} traditions.`,
+        `From the kitchen to your table, our mains are crafted to delight and satisfy.`,
+        `A selection of mains that reflect the heart and soul of ${cuisine}, prepared with care.`,
+        `From the kitchen to your table, our mains are crafted to delight and satisfy.`,
+        `A selection of mains that reflect the heart and soul of ${cuisine}, prepared with care.`,
+        `From the kitchen to your table, our mains are crafted to delight and satisfy.`,
+        `Timeless main courses crafted for bold palates and lasting impressions.`,
+        `Thoughtfully prepared mains that offer comfort, complexity, and satisfaction.`,
+      ],
+      "Seafood Specialties": [
+        `Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.`,
+        `Fresh, sustainable seafood prepared using timeless ${cuisine} traditions.`,
+        `From the sea to your plate—each dish is a tribute to the ocean’s bounty.`,
+        `Expertly prepared seafood that highlights the natural flavors of the ocean.`,
+        `A celebration of the sea, featuring seasonal catches and artisanal techniques.`,
+        `From raw bar selections to grilled specialties, our seafood dishes are a must-try.`,
+        `Crafted with care, our seafood offerings are a testament to our commitment to quality.`,
+        `Sourced from local fisheries, our seafood dishes are as fresh as they come.`,
+        `Celebrations of the sea—light, flavorful, and handled with the utmost care.`,
+        `Daily catches transformed into exquisite plates by our skilled kitchen team.`,
+        `Coastal cuisine brought inland with clarity, freshness, and elegance.`,
+        `Prepared with simplicity to let the freshness of the sea speak for itself.`,
+        `From raw bar delicacies to grilled perfection—our tribute to the ocean.`,
+      ],
+      "Side Dishes": [
+        `Flavorful companions that round out your meal with harmony and flair.`,
+        `Essential accompaniments, from traditional staples to inventive bites.`,
+        `Crafted to enhance your main course, these sides are anything but ordinary.`,
+        `Perfectly balanced additions that elevate your dining experience.`,
+        `From classic to contemporary, our sides are designed to complement and surprise.`,
+        `A selection of thoughtfully prepared sides that bring out the best in our mains.`,
+        `Crafted to enhance your meal, these sides are a celebration of ${cuisine} flavors.`,
+        `From roasted vegetables to artisanal grains, our sides are a perfect match for any dish.`,
+        `Each side is a testament to our commitment to quality and flavor.`,
+        `Supportive elements that enhance and elevate the star of your plate.`,
+        `Classic ${cuisine} side dishes with our own unique interpretation.`,
+        `Small dishes with big impact—each one crafted to complement without overpowering.`,
+        `Versatile and craveable, designed to mix and match your perfect pairing.`,
+        `Flavor-packed sides made to share—or keep all to yourself.`,
+      ],
+      "Non-Alcoholic Beverages": [
+        `Refreshing selections ranging from house-made sodas to premium juices.`,
+        `Mocktails and specialty drinks made with the same care as our cocktails.`,
+        `Crafted beverages that offer a sophisticated alternative to traditional drinks.`,
+        `Bright, invigorating options that cleanse the palate and refresh the spirit.`,
+        `Handcrafted drinks designed to hydrate and delight—no spirits necessary.`,
+        `Cold-pressed, house-infused, and always refreshing.`,
+        `Sophisticated non-alcoholic choices made to complement any dish.`,
+        `Bright and revitalizing beverages for all ages and preferences.`,
+        `Flavorful, alcohol-free options that never compromise on taste or presentation.`,
+        `Bright and revitalizing beverages for all ages and preferences.`,
+        `Handcrafted drinks designed to hydrate and delight—no spirits necessary.`,
+        `Cold-pressed, house-infused, and always refreshing.`,
+        `Sophisticated non-alcoholic choices made to complement any dish.`,
+      ],
+      "Baked Goods": [
+        `Warm, fragrant creations baked fresh daily with premium ingredients.`,
+        `Pastries, breads, and treats prepared in-house using classic and modern methods.`,
+        `From flaky croissants to rich breads—our oven's finest, ready to enjoy.`,
+        `Artisanal baked items showcasing skill, tradition, and a touch of creativity.`,
+        `Perfectly baked goods that pair beautifully with our beverages or stand alone.`,
+        `A selection of sweet and savory baked delights, crafted with love and care.`,
+        `From flaky pastries to hearty breads, our baked goods are a must-try.`,
+        `Handcrafted with the finest ingredients, our baked goods are a treat for the senses.`,
+        `Freshly baked delights that bring warmth and comfort to your table.`,
+        `Indulge in our selection of baked treats, each one a labor of love.`,
+        `From buttery croissants to hearty loaves, our baked goods are a celebration of flavor.`,
+        `Perfectly baked pastries and breads that bring warmth to your table.`,
+        `A selection of artisanal breads and pastries, baked fresh daily.`,
+        `Comforting, handmade goods perfect for breakfast, dessert, or anytime in between.`,
+        `Each bite tells a story—layered, textured, and baked to perfection.`,
+        `A rotating selection of baked indulgences from sweet to savory.`,
+      ],
+      "Frozen Desserts": [
+        `Chilled, house-crafted desserts offering a perfect ending to your meal.`,
+        `Refreshing treats from velvety gelatos to sharp, citrusy sorbets.`,
+        `Smooth, rich frozen creations featuring local fruits and seasonal flavors.`,
+        `Classic and contemporary frozen delights that cool and satisfy.`,
+        `Handmade with care, our frozen desserts are a celebration of texture and taste.`,
+        `From creamy gelato to fruity sorbet, our frozen desserts are a must-try.`,
+        `A delightful way to end your meal—cool, creamy, and bursting with flavor.`,
+        `Crafted with the finest ingredients, our frozen desserts are a treat for the senses.`,
+        `Indulge in our selection of frozen delights, perfect for any time of year.`,
+        `A symphony of flavors and textures, our frozen desserts are a refreshing finale.`,
+        `From rich gelatos to refreshing sorbets, our frozen desserts are a must-try.`,
+        `Classic frozen favorites reimagined with gourmet flair and fresh ingredients.`,
+        `The ultimate way to cool off and indulge—delicate, creamy, and unforgettable.`,
+        `Made in-house with premium dairy and plant-based alternatives.`,
+        `Icy, sweet finishes with flavor that lingers beyond the chill.`,
+      ],
+      "Signature Cocktails": [
+        `Custom-designed drinks created exclusively by our mixologists to complement our menu.`,
+        `Refined blends of premium spirits, house syrups, and fresh produce.`,
+        `Unique, house-crafted cocktails that offer a memorable sip every time.`,
+        `Sophisticated beverages with depth, character, and a dash of creativity.`,
+        `Each cocktail is a work of art—balanced, bold, and beautifully presented.`,
+        `Crafted with precision, our cocktails are designed to elevate your dining experience.`,
+        `A selection of signature drinks that reflect our culinary philosophy and creativity.`,
+        `From classic twists to innovative new blends, our cocktails are a celebration of flavor.`,
+        `Each sip tells a story—of ingredients, technique, and passion for mixology.`,
+        `Crafted with care, our cocktails are a perfect pairing for any dish on our menu.`,
+        `A blend of tradition and innovation, our cocktails are designed to surprise and delight.`,
+        `Elevate your evening with our signature cocktails, each a unique expression of flavor.`,
+        `From timeless classics to modern masterpieces, our cocktails are crafted to impress.`,
+        `A cocktail experience that transcends the ordinary—crafted for the discerning palate.`,
+        `Each cocktail tells a story—bold, balanced, and unmistakably ours.`,
+        `From reinvented classics to bold new creations, every glass is an experience.`,
+        `Crafted for the curious, the connoisseur, and everyone in between.`,
+      ],
+      "Wine Selection": [
+        `An expertly curated wine list featuring standout bottles from around the globe.`,
+        `Wines selected to enhance each dish and elevate your dining experience.`,
+        `A diverse collection of varietals and vintages, chosen for quality and character.`,
+        `From crisp whites to structured reds, our wine list offers something for every palate.`,
+        `Handpicked selections that reflect our commitment to quality and terroir.`,
+        `A journey through the world of wine, with options to suit every taste and occasion.`,
+        `Our sommelier's recommendations, designed to pair perfectly with our menu.`,
+        `Explore our wine list, where each bottle is a testament to craftsmanship and tradition.`,
+        `A spectrum of vintages and varietals—from structured reds to bright, crisp whites.`,
+        `Our sommelier's picks, chosen for balance, terroir expression, and quality.`,
+        `Perfect pairings for any palate, with guidance available from our trained staff.`,
+        `New World energy meets Old World elegance in our diverse selection.`,
+        `A wine list as thoughtful and layered as our cuisine.`,
+      ],
+      "Spirits and Liqueurs": [
+        `A curated collection of fine spirits and artisan liqueurs from around the world.`,
+        `Whether neat, on the rocks, or mixed—our premium selection is built to impress.`,
+        `A refined range of aged whiskeys, fine brandies, and international specialties.`,
+        `From classic cocktails to sipping spirits, our bar is stocked with quality and character.`,
+        `Explore our selection of small-batch and artisanal spirits, each with a unique story.`,
+        `Crafted for those who appreciate the art of distillation—each pour is a journey.`,
+        `From timeless classics to innovative new blends, our spirits menu is a celebration of flavor.`,
+        `Ideal for slow sipping or celebratory toasts—each bottle has a story.`,
+        `From classic spirits to rare finds, our collection is a journey through flavor.`,
+        `Explore the depth of our spirits menu, where each pour is a discovery.`,
+        `Crafted for those who appreciate the finer things in life—our spirits selection.`,
+        `A thoughtful balance of classic favorites and rare, small-batch discoveries.`,
+        `For aficionados and explorers alike—top-shelf selections with depth and pedigree.`,
+        `Start or finish your night with a pour that lingers in memory.`,
+      ],
+    };
+
+    // Default template for any category not specifically defined
+    const defaultTemplates = [
+      `Our selection of ${categoryName.toLowerCase()} prepared with care and attention`,
+      `Delightful ${categoryName.toLowerCase()} crafted in our kitchen`,
+      `${cuisine} inspired ${categoryName.toLowerCase()} for your enjoyment`,
+      `House specialties from our ${categoryName.toLowerCase()} selection`,
+      `Traditional and contemporary ${categoryName.toLowerCase()} options`,
+      `A variety of ${categoryName.toLowerCase()} to satisfy every palate`,
+      `Explore our ${categoryName.toLowerCase()} offerings featuring seasonal ingredients`,
+      `Handcrafted ${categoryName.toLowerCase()} that reflect our culinary philosophy`,
+      `Discover our unique take on ${categoryName.toLowerCase()} dishes`,
+      `An array of ${categoryName.toLowerCase()} that highlight our kitchen's creativity`,
+      `Savor the flavors of our ${categoryName.toLowerCase()} menu, designed to please`,
+      `Indulge in our ${categoryName.toLowerCase()} selections, perfect for sharing`,
+      `Experience the essence of ${cuisine} cuisine with our ${categoryName.toLowerCase()}`,
+      `A celebration of ${categoryName.toLowerCase()} that showcases our culinary expertise`,
+      `Taste the passion in our ${categoryName.toLowerCase()} offerings, crafted with love`,
+      `Our ${categoryName.toLowerCase()} menu features dishes that are both comforting and exciting`,
+      `Enjoy our ${categoryName.toLowerCase()} selections, each with its own unique flair`,
+      `A delightful assortment of ${categoryName.toLowerCase()} that will leave you wanting more`,
+      `Our ${categoryName.toLowerCase()} menu is a testament to our commitment to quality and flavor`,
+      `Explore the diverse flavors of our ${categoryName.toLowerCase()} menu, inspired by tradition and innovation`,
+      `An exquisite collection of ${categoryName.toLowerCase()} that reflects our culinary journey`,
+      `Our ${categoryName.toLowerCase()} offerings are designed to elevate your dining experience`,
+      `A thoughtfully curated selection of ${categoryName.toLowerCase()} that celebrates our culinary heritage`,
+      `Discover the artistry in our ${categoryName.toLowerCase()} dishes, each a masterpiece of flavor`,
+      `Savor the richness of our ${categoryName.toLowerCase()} menu, where every dish tells a story`,
+      `Indulge in our ${categoryName.toLowerCase()} creations, crafted to delight your senses`,
+      `A harmonious blend of flavors in our ${categoryName.toLowerCase()} offerings, perfect for any occasion`,
+      `Our ${categoryName.toLowerCase()} menu is a journey through the best of ${cuisine} cuisine`,
+      `Experience the culinary magic in our ${categoryName.toLowerCase()} dishes, where tradition meets innovation`,
+      `A selection of ${categoryName.toLowerCase()} that showcases the best of our kitchen's creativity`,
+      `Our ${categoryName.toLowerCase()} menu is a celebration of flavor, texture, and presentation`,
+      `Taste the difference in our ${categoryName.toLowerCase()} offerings, made with the finest ingredients`,
+      `An unforgettable selection of ${categoryName.toLowerCase()} that will leave a lasting impression`,
+      `Our ${categoryName.toLowerCase()} dishes are crafted to bring joy and satisfaction to every bite`,
+      `A delightful fusion of flavors in our ${categoryName.toLowerCase()} menu, designed to please every palate`,
+      `Explore the culinary delights of our ${categoryName.toLowerCase()} offerings, each a unique experience`,
+    ];
+
+    // Get appropriate template array based on category name or use default
+    const categoryTemplates = templates[categoryName] || defaultTemplates;
+
+    // Select a random template
+    return getRandomItems(categoryTemplates, 1)[0];
+  }
 
   // Check if main course menu should be included
   if (
@@ -1720,6 +1922,11 @@ function generateCombinedMenuContent(
     if (!excludedCategories.includes("Signature Dishes")) {
       mainMenuCategories.push({
         name: "Signature Dishes",
+        description: getCategoryDescription(
+          "Signature Dishes",
+          restaurantCuisine,
+          restaurant
+        ),
         items: signatureDishes,
       });
     }
@@ -1727,6 +1934,11 @@ function generateCombinedMenuContent(
     if (!excludedCategories.includes("Chef's Specials")) {
       mainMenuCategories.push({
         name: "Chef's Specials",
+        description: getCategoryDescription(
+          "Chef's Specials",
+          restaurantCuisine,
+          restaurant
+        ),
         items: chefsSpecials,
       });
     }
@@ -1734,14 +1946,23 @@ function generateCombinedMenuContent(
     if (!excludedCategories.includes("Appetizers")) {
       mainMenuCategories.push({
         name: "Appetizers",
+        description: getCategoryDescription(
+          "Appetizers",
+          restaurantCuisine,
+          restaurant
+        ),
         items: appetizers,
       });
     }
 
-    // Similar checks for other categories
     if (!excludedCategories.includes("Soups")) {
       mainMenuCategories.push({
         name: "Soups",
+        description: getCategoryDescription(
+          "Soups",
+          restaurantCuisine,
+          restaurant
+        ),
         items: soups,
       });
     }
@@ -1749,6 +1970,11 @@ function generateCombinedMenuContent(
     if (!excludedCategories.includes("Salads")) {
       mainMenuCategories.push({
         name: "Salads",
+        description: getCategoryDescription(
+          "Salads",
+          restaurantCuisine,
+          restaurant
+        ),
         items: salads,
       });
     }
@@ -1756,6 +1982,11 @@ function generateCombinedMenuContent(
     if (!excludedCategories.includes("Main Courses")) {
       mainMenuCategories.push({
         name: "Main Courses",
+        description: getCategoryDescription(
+          "Main Courses",
+          restaurantCuisine,
+          restaurant
+        ),
         items: mainCourses,
       });
     }
@@ -1763,6 +1994,11 @@ function generateCombinedMenuContent(
     if (!excludedCategories.includes("Seafood Specialties")) {
       mainMenuCategories.push({
         name: "Seafood Specialties",
+        description: getCategoryDescription(
+          "Seafood Specialties",
+          restaurantCuisine,
+          restaurant
+        ),
         items: seafoodSpecialties,
       });
     }
@@ -1770,6 +2006,11 @@ function generateCombinedMenuContent(
     if (!excludedCategories.includes("Side Dishes")) {
       mainMenuCategories.push({
         name: "Side Dishes",
+        description: getCategoryDescription(
+          "Side Dishes",
+          restaurantCuisine,
+          restaurant
+        ),
         items: sideDishes,
       });
     }
@@ -1777,6 +2018,11 @@ function generateCombinedMenuContent(
     if (!excludedCategories.includes("Non-Alcoholic Beverages")) {
       mainMenuCategories.push({
         name: "Non-Alcoholic Beverages",
+        description: getCategoryDescription(
+          "Non-Alcoholic Beverages",
+          restaurantCuisine,
+          restaurant
+        ),
         items: nonAlcoholicBeverages,
       });
     }
@@ -1791,15 +2037,42 @@ function generateCombinedMenuContent(
           "sophisticated",
           "artfully prepared",
           "gourmet",
+          "luxurious",
+          "refined",
+          "sumptuous",
+          "elegant",
+          "masterfully crafted",
+          "culinary masterpiece",
+          "delectable",
+          "sublime",
+          "artisanal",
+          "innovative",
+          "creative",
           "meticulously crafted",
           "refined",
           "elegant",
         ];
+
         const adultOnlyAdjectives = [
           "premium",
           "bold",
           "signature",
           "distinctive",
+          "luxurious",
+          "sophisticated",
+          "indulgent",
+          "rich",
+          "decadent",
+          "tempting",
+          "irresistible",
+          "sumptuous",
+          "elegant",
+          "refined",
+          "exclusive",
+          "special",
+          "unique",
+          "specialty",
+          "artisan",
           "exceptional",
           "hearty",
           "classic",
@@ -1808,18 +2081,29 @@ function generateCombinedMenuContent(
           "delightful",
           "wholesome",
           "comforting",
+          "kid-approved",
+          "nourishing",
+          "heartwarming",
+          "home-cooked",
+          "traditional",
+          "filling",
           "satisfying",
           "crowd-pleasing",
           "flavorful",
         ];
+
         const casualAdjectives = [
           "tasty",
           "hearty",
           "fresh",
           "delicious",
+          "satisfying",
+          "simple",
+          "comforting",
           "homestyle",
           "flavorful",
           "authentic",
+          "classic",
         ];
 
         // Description templates with varied formats
@@ -1834,6 +2118,41 @@ function generateCombinedMenuContent(
           "Chef-selected {adjective} offerings highlighting {cuisine} culinary heritage",
           "A {adjective} dining experience featuring the essence of {cuisine} gastronomy",
           "Discover our {adjective} interpretation of classic {cuisine} recipes",
+          "Enjoy a variety of {adjective} {cuisine} plates made with seasonal inspiration",
+          "Delight in our chef's most {adjective} takes on traditional {cuisine} flavors",
+          "A thoughtfully curated lineup of {adjective} {cuisine} dishes to suit every palate",
+          "Our kitchen presents an array of {adjective} offerings from across the {cuisine} spectrum",
+          "Taste the depth of {cuisine} culture through our {adjective} preparations",
+          "A journey through {cuisine} flavors, led by our chef's {adjective} creations",
+          "Bold, {adjective}, and unmistakably {cuisine}—each dish tells a story",
+          "Where {adjective} technique meets timeless {cuisine} tradition",
+          "Elevated {cuisine} dishes showcasing our most {adjective} culinary ideas",
+          "Flavors that feel familiar, presented in fresh, {adjective} ways",
+          "Explore the richness of {cuisine} cuisine through our {adjective} perspective",
+          "From street food classics to refined plates—our {adjective} take on {cuisine}",
+          "Rooted in tradition, driven by {adjective} culinary vision",
+          "Our {adjective} kitchen reimagines {cuisine} for today’s palate",
+          "Immerse yourself in {adjective} {cuisine} that balances innovation with authenticity",
+          "A flavorful fusion of {adjective} and authentic {cuisine} dishes",
+          "Explore bold and {adjective} twists on beloved {cuisine} staples",
+          "Crafted with care, our {adjective} {cuisine} plates elevate every meal",
+          "A showcase of {adjective} culinary artistry rooted in {cuisine} heritage",
+          "Satisfy your cravings with our vibrant, {adjective} take on {cuisine}",
+          "An immersive dining experience defined by {adjective} {cuisine} cuisine",
+          "Where {adjective} creativity meets timeless {cuisine} inspiration",
+          "Tastefully prepared {cuisine} dishes with a {adjective} signature touch",
+          "Celebrate tradition and taste with our {adjective} {cuisine} offerings",
+          "Your introduction to a world of {adjective}, flavor-rich {cuisine} meals",
+          "Handcrafted with intention—our most {adjective} {cuisine} menu yet",
+          "A thoughtfully balanced mix of {adjective} and authentic {cuisine} flavors",
+          "From bold spices to subtle notes—our {adjective} {cuisine} journey awaits",
+          "A celebration of flavor-forward, {adjective} {cuisine} recipes",
+          "Every plate tells a story of {adjective} {cuisine} craftsmanship",
+          "Our {adjective} kitchen honors the soul of {cuisine} cooking",
+          "Timeless tastes, elevated by our {adjective} approach to {cuisine}",
+          "A menu designed to highlight the {adjective} essence of {cuisine}",
+          "Inspired by tradition, driven by {adjective} execution",
+          "Modern dining rooted in {adjective} {cuisine} techniques",
         ];
 
         // Select appropriate adjective based on restaurant style
@@ -1882,6 +2201,11 @@ function generateCombinedMenuContent(
     if (!excludedCategories.includes("Baked Goods")) {
       dessertCategories.push({
         name: "Baked Goods",
+        description: getCategoryDescription(
+          "Baked Goods",
+          restaurantCuisine,
+          restaurant
+        ),
         items: bakedGoods,
       });
     }
@@ -1889,6 +2213,11 @@ function generateCombinedMenuContent(
     if (!excludedCategories.includes("Frozen Desserts")) {
       dessertCategories.push({
         name: "Frozen Desserts",
+        description: getCategoryDescription(
+          "Frozen Desserts",
+          restaurantCuisine,
+          restaurant
+        ),
         items: frozenDesserts,
       });
     }
@@ -1905,15 +2234,38 @@ function generateCombinedMenuContent(
           "gourmet",
           "sophisticated",
           "divine",
+          "refined",
+          "luxurious",
+          "masterful",
+          "sumptuous",
+          "delicate",
+          "irresistible",
+          "indulgent",
+          "elegant",
+          "luxuriant",
+          "handcrafted",
+          "ethereal",
         ];
+
         const adultOnlyAdjectives = [
           "indulgent",
           "luxurious",
           "tempting",
+          "decadent",
+          "sophisticated",
+          "decadent",
+          "opulent",
           "rich",
           "tantalizing",
           "heavenly",
+          "sensual",
+          "intense",
+          "bold",
+          "lush",
+          "sinful",
+          "velvety",
         ];
+
         const familyFriendlyAdjectives = [
           "delightful",
           "sweet",
@@ -1921,7 +2273,18 @@ function generateCombinedMenuContent(
           "playful",
           "scrumptious",
           "cheerful",
+          "yummy",
+          "tasty",
+          "wholesome",
+          "delicious",
+          "festive",
+          "whimsical",
+          "colorful",
+          "joyful",
+          "treat-filled",
+          "happy",
         ];
+
         const casualAdjectives = [
           "delicious",
           "homemade",
@@ -1929,6 +2292,12 @@ function generateCombinedMenuContent(
           "comforting",
           "tasty",
           "freshly prepared",
+          "classic",
+          "mouthwatering",
+          "gooey",
+          "warm",
+          "baked to perfection",
+          "crowd-pleasing",
         ];
 
         // Description templates with varied formats
@@ -1939,10 +2308,29 @@ function generateCombinedMenuContent(
           "Our pastry chef's {adjective} creations to end your meal on a sweet note",
           "From classics to signatures: {adjective} desserts for every taste",
           "{cuisine}-inspired {adjective} confections to delight your senses",
+          "A {adjective} selection of desserts that celebrate the art of pastry",
+          "Crafted with passion, our {adjective} desserts are a must-try",
+          "A {adjective} selection of desserts to complement your dining experience",
           "A {adjective} finale to your dining experience",
           "Our {adjective} dessert offerings crafted with the finest ingredients",
           "Handcrafted {adjective} desserts that celebrate {cuisine} traditions",
           "Discover our collection of {adjective} sweet masterpieces",
+          "Delight in our {adjective} desserts prepared fresh daily",
+          "Our dessert menu features {adjective} selections to satisfy every craving",
+          "Experience the art of {adjective} desserts with a {cuisine} twist",
+          "Every dessert tells a {adjective} story of flavor and craftsmanship",
+          "Sweets reimagined – our {adjective} creations are the perfect ending",
+          "A {adjective} selection of desserts that will leave you wanting more",
+          "From rich chocolates to fruity delights – our {adjective} desserts await",
+          "A {adjective} journey through the world of desserts, inspired by {cuisine}",
+          "Our {adjective} desserts are a celebration of flavor and creativity",
+          "Crafted with love, our {adjective} desserts are the perfect treat",
+          "A {adjective} selection of desserts that will satisfy your cravings",
+          "From oven to plate – {adjective} desserts made with care",
+          "Elevate your evening with our {adjective} dessert course",
+          "Finish on a high note with our {adjective} and memorable sweets",
+          "A curated selection of {adjective} desserts, inspired by {cuisine} heritage",
+          "Decadent or delicate – our {adjective} desserts cater to every preference",
         ];
 
         // Select appropriate adjective based on restaurant style
@@ -1980,11 +2368,11 @@ function generateCombinedMenuContent(
     }
   }
 
-  // Check if drinks menu should be included - skip for halal-friendly restaurants
+  // Check if drinks menu should be included
   if (
     (args["menu-type"] === "all" || args["menu-type"] === "drinks") &&
     !excludedMenuTypes.includes("drinks") &&
-    !restaurant.isHalalFriendly // Skip drinks menu for halal-friendly restaurants
+    !restaurant.isHalalFriendly
   ) {
     // Similar structure for drinks menu
     const drinkCategories = [];
@@ -1992,6 +2380,11 @@ function generateCombinedMenuContent(
     if (!excludedCategories.includes("Signature Cocktails")) {
       drinkCategories.push({
         name: "Signature Cocktails",
+        description: getCategoryDescription(
+          "Signature Cocktails",
+          restaurantCuisine,
+          restaurant
+        ),
         items: cocktails,
       });
     }
@@ -1999,6 +2392,11 @@ function generateCombinedMenuContent(
     if (!excludedCategories.includes("Wine Selection")) {
       drinkCategories.push({
         name: "Wine Selection",
+        description: getCategoryDescription(
+          "Wine Selection",
+          restaurantCuisine,
+          restaurant
+        ),
         items: wines,
       });
     }
@@ -2006,6 +2404,11 @@ function generateCombinedMenuContent(
     if (!excludedCategories.includes("Spirits and Liqueurs")) {
       drinkCategories.push({
         name: "Spirits and Liqueurs",
+        description: getCategoryDescription(
+          "Spirits and Liqueurs",
+          restaurantCuisine,
+          restaurant
+        ),
         items: spirits,
       });
     }
@@ -2022,7 +2425,16 @@ function generateCombinedMenuContent(
           "handcrafted",
           "artisanal",
           "premier",
+          "vintage",
+          "elegant",
+          "prestigious",
+          "barrel-aged",
+          "complex",
+          "nuanced",
+          "small-batch",
+          "cellar-worthy",
         ];
+
         const adultOnlyAdjectives = [
           "premium",
           "indulgent",
@@ -2031,7 +2443,16 @@ function generateCombinedMenuContent(
           "exceptional",
           "bold",
           "luxurious",
+          "potent",
+          "smooth",
+          "elevated",
+          "intense",
+          "deep",
+          "rich",
+          "top-shelf",
+          "crafted-to-order",
         ];
+
         const casualAdjectives = [
           "fine",
           "quality",
@@ -2040,6 +2461,14 @@ function generateCombinedMenuContent(
           "thoughtfully selected",
           "delightful",
           "enticing",
+          "balanced",
+          "crisp",
+          "refreshing",
+          "smooth-drinking",
+          "easygoing",
+          "crowd-pleasing",
+          "flavorful",
+          "inviting",
         ];
 
         // Description templates with varied formats
@@ -2053,7 +2482,20 @@ function generateCombinedMenuContent(
           "From wines to spirits: {adjective} choices for every palate",
           "Our bartenders' {adjective} creations to complete your meal",
           "Indulge in our {adjective} drinks menu crafted to accentuate flavors",
+          "A {adjective} array of beverages specially curated for our guests",
+          "Sip on our {adjective} cocktails, designed to enhance your dining experience",
+          "A {adjective} selection of wines, beers, and spirits to suit every taste",
           "A {adjective} array of beverages specially selected by our sommeliers",
+          "Our {adjective} wine list features carefully chosen bottles from renowned vineyards",
+          "Enjoy {adjective} cocktails designed to pair effortlessly with our seasonal menu",
+          "A {adjective} drinks program blending innovation with tradition",
+          "Our bar showcases {adjective} spirits from around the globe",
+          "Treat yourself to a {adjective} nightcap from our curated selection",
+          "Each drink is a {adjective} complement to the flavors of our cuisine",
+          "A {adjective} cocktail lineup featuring house infusions and classic techniques",
+          "Unwind with our {adjective} beverages crafted for connoisseurs and casual sippers alike",
+          "A {adjective} blend of heritage and modern mixology in every glass",
+          "Toast to the moment with our {adjective} selection of wines, beers, and signature drinks",
         ];
 
         // Select appropriate adjective based on restaurant style
@@ -2250,15 +2692,15 @@ function createMenuFileForRestaurant(cityDir, restaurant) {
 
         const newFileContent = `import { RestaurantMenu } from "@/lib/types/types";
 
-/**
- * Menu data for ${restaurant.name} in ${cityDir}
- */
-export const ${cityVar}${restaurantVar}Menu: RestaurantMenu[] = ${JSON.stringify(
+        /**
+         * Menu data for ${restaurant.name} in ${cityDir}
+         */
+        export const ${cityVar}${restaurantVar}Menu: RestaurantMenu[] = ${JSON.stringify(
           menuData,
           null,
           2
         )};
-`;
+        `;
 
         fs.writeFileSync(menuFilePath, newFileContent);
         console.log(
