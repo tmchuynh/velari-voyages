@@ -76,13 +76,6 @@ export default function TourPackages() {
               <h2>{category.title}</h2>
               <p>{category.description}</p>
             </div>
-            <ul className="mt-2 pl-5 list-disc">
-              {category.tags?.map((tag) => (
-                <li key={tag} className="capitalize">
-                  {tag}
-                </li>
-              ))}
-            </ul>
           </section>
         ))}
       </section>
