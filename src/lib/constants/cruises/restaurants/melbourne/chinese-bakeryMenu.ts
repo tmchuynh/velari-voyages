@@ -6,24 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const melbournechineseBakeryMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our kitchen presents an array of homestyle offerings from across the Greek spectrum",
+    "description": "Every plate tells a story of homestyle Greek craftsmanship",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "House favorites that have stood the test of time and showcase our refined approach to Greek cuisine.",
+        "description": "Our chef's pride—carefully selected Greek specialties that define our culinary identity, honed through years of experience and passion.",
         "items": [
           {
-            "name": "Age-Old Recipe Osso Buco with Gremolata",
-            "price": 27.99,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sous Vide Perfected Wagyu",
-            "price": 32.41,
+            "name": "Japanese A5 Wagyu with Ponzu Butter",
+            "price": 25.01,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -31,26 +22,17 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tableside Carved Chateaubriand",
-            "price": 27.47,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Childhood Inspired Creation",
-            "price": 27.95,
+            "name": "Captain's Favorite Seafood Tower",
+            "price": 26.53,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Japanese A5 Wagyu with Ponzu Butter",
-            "price": 31.64,
+            "name": "Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 28.43,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -58,19 +40,37 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef’s Wild Game Selection",
-            "price": 32.62,
-            "isVegetarian": true,
+            "name": "Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 32.45,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Tasting Menu Experience",
+            "price": 29.56,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef's Special Surf and Turf",
-            "price": 26.1,
+            "name": "Flambéed Tableside Specialty",
+            "price": 35.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Family Paella",
+            "price": 31.59,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -79,20 +79,11 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "Inspired by nature, mood, and season—our chef’s ever-evolving vision on a plate.",
+        "description": "A rotating selection of dishes that highlight the chef's creativity and passion for Greek.",
         "items": [
           {
-            "name": "Authentic Zesty House Specialty Pasta Creation",
-            "price": 24.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Crunchy Chef's Tasting Menu Experience",
-            "price": 35.09,
+            "name": "Collaborative Limited Edition Special",
+            "price": 36.01,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -100,17 +91,8 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Tangy Tableside Prepared Tartare",
-            "price": 33.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Satisfying Cedar Plank Salmon",
-            "price": 34.44,
+            "name": "Braised Short Ribs with Red Wine Sauce",
+            "price": 25.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -118,87 +100,105 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Exquisite Seared Duck Breast with Cherry Reduction",
-            "price": 27.63,
+            "name": "Lobster Thermidor",
+            "price": 25.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Chef's Market Inspiration of the Day",
+            "price": 29.52,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fire-Roasted Seasonal Centerpiece",
+            "price": 39.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "A selection of small plates that showcase the essence of Greek—perfect for sharing or savoring solo.",
+        "description": "Thoughtfully prepared small plates to begin your culinary experience with elegance and taste.",
         "items": [
           {
-            "name": "Dumplings",
-            "price": 8.57,
+            "name": "Mezze Platter",
+            "price": 11.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chicken Wings",
+            "price": 9.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Tzatziki with Pita",
+            "price": 9.73,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mini Sliders",
+            "price": 9.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baked Brie",
+            "price": 15.49,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Edamame",
-            "price": 15.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mini Quesadillas",
-            "price": 10.77,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spinach Artichoke Dip",
-            "price": 14.91,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Zucchini Fries",
-            "price": 8.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mini Crab Cakes",
-            "price": 8.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mini Empanadas",
-            "price": 12.84,
+            "price": 8.29,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Caprese Salad",
-            "price": 13.17,
+            "name": "Onion Rings",
+            "price": 8.87,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cheese Nachos",
+            "price": 14.57,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -208,20 +208,20 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
+        "description": "Each spoonful offers depth, comfort, and craftsmanship.",
         "items": [
           {
-            "name": "Beef Stew",
-            "price": 13.97,
-            "isVegetarian": false,
+            "name": "Tortilla Soup",
+            "price": 10.99,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Italian Wedding Soup",
-            "price": 9.63,
+            "name": "Split Pea Soup",
+            "price": 7.19,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -229,20 +229,20 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gazpacho",
-            "price": 10.09,
+            "name": "Tomato Soup",
+            "price": 13.99,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Black Bean Soup",
-            "price": 10.36,
+            "name": "Gumbo",
+            "price": 13.22,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -250,12 +250,12 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "From classic combinations to innovative creations, our salads are a feast for the senses.",
+        "description": "Crisp and colorful salads that balance flavor, nutrition, and beautiful presentation.",
         "items": [
           {
-            "name": "Roasted Beet and Goat Cheese Salad",
-            "price": 9.35,
-            "isVegetarian": false,
+            "name": "Coleslaw",
+            "price": 13.78,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -263,16 +263,16 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Quinoa Salad",
-            "price": 11.95,
+            "price": 10.25,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cucumber Salad",
-            "price": 12.74,
+            "name": "Fruit Salad",
+            "price": 10.11,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -281,7 +281,7 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Caprese Salad",
-            "price": 12.57,
+            "price": 9.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -289,11 +289,11 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mango Avocado Salad",
-            "price": 10.49,
-            "isVegetarian": false,
+            "name": "Avocado Corn Salad",
+            "price": 10.72,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -304,8 +304,8 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
         "description": "Each plate tells a story—of heritage, ingredients, and expert execution.",
         "items": [
           {
-            "name": "Thai Curry",
-            "price": 26.1,
+            "name": "Stuffed Zucchini Boats",
+            "price": 29.8,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -313,8 +313,8 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lentil Stew",
-            "price": 18.05,
+            "name": "Shish Kebabs",
+            "price": 23.38,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -322,35 +322,44 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Risotto",
-            "price": 23.75,
-            "isVegetarian": true,
+            "name": "Mac and Cheese",
+            "price": 20.86,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pizza",
-            "price": 19.42,
-            "isVegetarian": true,
+            "name": "Tagine",
+            "price": 18.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pho",
+            "price": 28.72,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chili con Carne",
-            "price": 21.96,
-            "isVegetarian": true,
+            "name": "Katsu Curry",
+            "price": 27.05,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Salmon",
-            "price": 26.07,
+            "name": "Seafood Platter",
+            "price": 23.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -358,22 +367,13 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Pasta Primavera",
-            "price": 22.04,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Tofu",
-            "price": 29.47,
+            "name": "Teriyaki Chicken",
+            "price": 26.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -382,35 +382,17 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
         "description": "Sourced from local fisheries, our seafood dishes are as fresh as they come.",
         "items": [
           {
-            "name": "Fresh Savory Grilled Lobster with Lemon Butter",
-            "price": 26.11,
+            "name": "Gourmet Creamy Seafood Gumbo with Okra",
+            "price": 29.31,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "House Special Zingy Shrimp Scampi over Linguine",
-            "price": 25.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Roasted Mussels Mariniere in White Wine",
-            "price": 23.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Crunchy Lobster Thermidor with Gruyère Crust",
-            "price": 25.4,
+            "name": "Authentic Pan-seared Smoked Salmon Platter with Dill Crème",
+            "price": 28.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -418,41 +400,50 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Marinated Crab-Stuffed Mushrooms",
-            "price": 29.9,
+            "name": "Authentic Tender Pan-Seared Scallops with Pea Purée",
+            "price": 30.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Sweet Garlic Butter Shrimp Skillet",
+            "price": 31.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Traditional Marinated Shrimp Scampi over Linguine",
+            "price": 35.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Versatile and craveable, designed to mix and match your perfect pairing.",
+        "description": "Supportive elements that enhance and elevate the star of your plate.",
         "items": [
           {
-            "name": "French Fries",
-            "price": 6.42,
+            "name": "Homestyle Stuffed Scalloped Potatoes with Thyme",
+            "price": 5.05,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Corn on the Cob with Chili Lime Butter",
-            "price": 8.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sautéed Garlic Mushrooms",
-            "price": 8.99,
+            "name": "Fresh Delectable Wild Rice Pilaf",
+            "price": 9.28,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -460,28 +451,37 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 7.45,
+            "name": "House Special Irresistible Homestyle Baked Beans",
+            "price": 5.07,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Wild Rice Pilaf",
-            "price": 7.44,
-            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Green Beans Almondine",
-            "price": 6.81,
+            "name": "Authentic Delectable Grilled Asparagus with Lemon Zest",
+            "price": 7.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Exquisite Provencal Ratatouille",
+            "price": 6.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Roasted Creamy Colcannon (Irish Potato Mash)",
+            "price": 5.51,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -490,59 +490,59 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
+        "description": "Crafted beverages that offer a sophisticated alternative to traditional drinks.",
         "items": [
           {
-            "name": "Authentic Golden Juice",
-            "price": 4.32,
+            "name": "Handcrafted Sweet Lemonade",
+            "price": 6.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Fresh Marinated Lemonade",
-            "price": 6.54,
+            "name": "House Special Hearty Iced Tea",
+            "price": 4.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Luscious Milkshake",
+            "price": 5.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Luscious Water",
+            "price": 5.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Zesty Juice",
+            "price": 4.53,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Grilled Water",
-            "price": 4.72,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Crunchy Coffee",
-            "price": 7.74,
+            "name": "Seasonal Luscious Tea",
+            "price": 7.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Roasted Tea",
-            "price": 4.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Aromatic Smoothie",
-            "price": 4.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,53 +552,53 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Complete your meal with our tasty dessert selection",
+    "description": "Crafted with passion, our delicious desserts are a must-try",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
+        "description": "A selection of sweet and savory baked delights, crafted with love and care.",
         "items": [
           {
-            "name": "Brownies",
-            "price": 6.41,
+            "name": "Authentic Spicy Pumpkin Pie",
+            "price": 7.28,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Grilled Danish Pastries",
+            "price": 6.59,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chocolate Chip Cookies",
-            "price": 9.61,
-            "isVegetarian": false,
+            "name": "Premium Tangy Chocolate Chip Cookies",
+            "price": 7.78,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Crumb Cake",
-            "price": 6.81,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Portuguese Custard Tarts",
+            "name": "Classic Sizzling Baklava",
             "price": 9.29,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Strawberry Shortcake",
-            "price": 10.34,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Gourmet Delicious Apple Pie",
+            "price": 6.44,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -607,11 +607,38 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "From creamy gelato to fruity sorbet, our frozen desserts are a must-try.",
+        "description": "Classic and contemporary frozen delights that cool and satisfy.",
         "items": [
           {
-            "name": "Sherbet",
-            "price": 9.34,
+            "name": "Authentic Spicy Gelato",
+            "price": 10.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Zingy Frozen Mousse",
+            "price": 8.63,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Smoked Sorbet",
+            "price": 11.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Zingy Snow Cone",
+            "price": 9.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -619,38 +646,11 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frosty",
-            "price": 10.22,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Popsicles",
-            "price": 9.3,
+            "name": "Hearty Luscious Ice Cream",
+            "price": 8.16,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Custard",
-            "price": 7.45,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Pudding",
-            "price": 8.89,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,15 +660,15 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Sip on our fine cocktails, designed to enhance your dining experience",
+    "description": "From wines to spirits: fine choices for every palate",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "From reinvented classics to bold new creations, every glass is an experience.",
+        "description": "Crafted with precision, our cocktails are designed to elevate your dining experience.",
         "items": [
           {
-            "name": "Mai Tai",
-            "price": 14.2,
+            "name": "Traditional Enticing Old Fashioned",
+            "price": 15.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -676,44 +676,17 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 15.59,
-            "isVegetarian": false,
+            "name": "Gourmet Grilled Margarita",
+            "price": 11.4,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 11.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 10.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 14.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 10.93,
+            "name": "Traditional Stuffed Manhattan",
+            "price": 14.86,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -721,8 +694,35 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Old Fashioned",
-            "price": 12.92,
+            "name": "Fresh Braised Whiskey Sour",
+            "price": 12.83,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Golden Cosmopolitan",
+            "price": 12.71,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Roasted Negroni",
+            "price": 12.02,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Stuffed Mojito",
+            "price": 10.99,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -736,8 +736,8 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
         "description": "From crisp whites to structured reds, our wine list offers something for every palate.",
         "items": [
           {
-            "name": "Fresh Roasted Torrontés",
-            "price": 10.15,
+            "name": "Roussanne",
+            "price": 8.34,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -745,17 +745,17 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Stuffed Chardonnay",
-            "price": 9.94,
+            "name": "Nebbiolo",
+            "price": 12.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Fresh Spicy Petit Verdot",
-            "price": 8.84,
+            "name": "Cabernet Franc",
+            "price": 10.73,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -763,8 +763,8 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Satisfying Vouvray",
-            "price": 13.94,
+            "name": "Riesling",
+            "price": 13.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -772,19 +772,19 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Stuffed Verdicchio",
-            "price": 11.17,
+            "name": "Sangiovese",
+            "price": 10.73,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Steamed Roussanne",
-            "price": 8.21,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Fiano",
+            "price": 8.71,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -793,11 +793,11 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Explore our selection of small-batch and artisanal spirits, each with a unique story.",
+        "description": "A curated collection of fine spirits and artisan liqueurs from around the world.",
         "items": [
           {
-            "name": "Triple Sec",
-            "price": 15.34,
+            "name": "Armagnac",
+            "price": 12.94,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -805,17 +805,26 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chambord",
-            "price": 16.92,
+            "name": "Cognac",
+            "price": 11.26,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Galliano",
+            "price": 14.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Limoncello",
-            "price": 16.25,
+            "name": "Drambuie",
+            "price": 17.73,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -824,16 +833,7 @@ export const melbournechineseBakeryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Aquavit",
-            "price": 16.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Rum",
-            "price": 16.65,
+            "price": 11.69,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
