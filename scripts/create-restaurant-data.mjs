@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { getCityFiles } from "./utils/file-utils.mjs";
 
 // Basic usage (only creates new restaurant data files, skips existing):
 // node scripts/create-restaurant-data.mjs
@@ -33,25 +34,25 @@ const APPEND_MODE = args.includes("--append") || args.includes("-a");
 const REWRITE_MODE = args.includes("--rewrite") || args.includes("-r");
 const RESTAURANT_COUNT = parseInt(
   args.find((arg) => arg.startsWith("--count="))?.split("=")[1] || "5",
-  10,
+  10
 );
 const APPEND_COUNT = parseInt(
   args.find((arg) => arg.startsWith("--append-count="))?.split("=")[1] ||
     args.find((arg) => arg.startsWith("-ac="))?.split("=")[1] ||
     RESTAURANT_COUNT.toString(),
-  10,
+  10
 );
 const DEBUG_MODE = args.includes("--debug") || args.includes("-d");
 
 console.log(
   `Mode: ${
     APPEND_MODE ? "Append" : REWRITE_MODE ? "Rewrite" : "Create new only"
-  }`,
+  }`
 );
 console.log(
   `${APPEND_MODE ? "Appending" : "Generating"} ${
     APPEND_MODE ? APPEND_COUNT : RESTAURANT_COUNT
-  } restaurants per city`,
+  } restaurants per city`
 );
 console.log(
   `Will ${
@@ -60,44 +61,8 @@ console.log(
       : APPEND_MODE
         ? "append to"
         : "only create missing"
-  } restaurant files`,
+  } restaurant files`
 );
-
-// Get the list of all cities
-const getCityFiles = () => {
-  try {
-    // Read the city.ts file as text
-    const cityFilePath = path.join(
-      __dirname,
-      "..",
-      "src",
-      "lib",
-      "constants",
-      "info",
-      "city.ts",
-    );
-
-    const fileContent = fs.readFileSync(cityFilePath, "utf8");
-
-    // Extract city names using regex
-    const cityArrayMatch = fileContent.match(
-      /export const cityFiles = \[([\s\S]*?)\];/,
-    );
-    if (!cityArrayMatch || !cityArrayMatch[1]) {
-      console.error("Could not parse city files from city.ts");
-      return [];
-    }
-
-    // Extract city names from the array string
-    return cityArrayMatch[1]
-      .split(",")
-      .map((city) => city.trim().replace(/"/g, "").replace(/'/g, ""))
-      .filter((city) => city.length > 0);
-  } catch (error) {
-    console.error("Error reading city files:", error);
-    return [];
-  }
-};
 
 // Generate restaurant data for a given city
 const generateRestaurantsForCity = (cityName) => {
@@ -105,7 +70,7 @@ const generateRestaurantsForCity = (cityName) => {
   const camelCaseCityName = cityName
     .split("-")
     .map((part, index) =>
-      index === 0 ? part : part.charAt(0).toUpperCase() + part.slice(1),
+      index === 0 ? part : part.charAt(0).toUpperCase() + part.slice(1)
     )
     .join("");
 
@@ -119,7 +84,7 @@ const generateRestaurantsForCity = (cityName) => {
     "cruises",
     "restaurants",
     cityName,
-    "restaurants.ts",
+    "restaurants.ts"
   );
 
   // Create directory if it doesn't exist
@@ -132,7 +97,7 @@ const generateRestaurantsForCity = (cityName) => {
   if (fs.existsSync(filePath)) {
     if (!APPEND_MODE && !REWRITE_MODE) {
       console.log(
-        `Skipping ${cityName} - restaurant file already exists. Use --append or --rewrite to modify.`,
+        `Skipping ${cityName} - restaurant file already exists. Use --append or --rewrite to modify.`
       );
       return;
     }
@@ -152,7 +117,7 @@ const generateRestaurantsForCity = (cityName) => {
       // Extract array from existing file using an improved regex
       // This pattern is more flexible with whitespace and formatting
       const match = content.match(
-        /export\s+const\s+\w+Restaurants\s*:\s*Restaurant\[\]\s*=\s*(\[[\s\S]*?\]);/,
+        /export\s+const\s+\w+Restaurants\s*:\s*Restaurant\[\]\s*=\s*(\[[\s\S]*?\]);/
       );
 
       if (match && match[1]) {
@@ -174,18 +139,18 @@ const generateRestaurantsForCity = (cityName) => {
           // Parse the extracted array
           existingRestaurants = JSON.parse(processedContent);
           console.log(
-            `Found ${existingRestaurants.length} existing restaurants for ${cityName}`,
+            `Found ${existingRestaurants.length} existing restaurants for ${cityName}`
           );
         } catch (e) {
           console.error(
             `Error parsing existing restaurants for ${cityName}:`,
-            e,
+            e
           );
           console.error(
             `Failed JSON content (first 200 chars): ${match[1].substring(
               0,
-              200,
-            )}...`,
+              200
+            )}...`
           );
 
           // Fall back to an alternative approach using eval in a controlled way
@@ -196,7 +161,7 @@ const generateRestaurantsForCity = (cityName) => {
             const safeEval = new Function(`return ${arrayContent}`);
             existingRestaurants = safeEval();
             console.log(
-              `Successfully recovered ${existingRestaurants.length} restaurants using alternative method`,
+              `Successfully recovered ${existingRestaurants.length} restaurants using alternative method`
             );
           } catch (evalError) {
             console.error("Alternative parsing also failed:", evalError);
@@ -210,7 +175,7 @@ const generateRestaurantsForCity = (cityName) => {
     } catch (e) {
       console.error(
         `Error reading existing restaurant file for ${cityName}:`,
-        e,
+        e
       );
     }
   }
@@ -224,14 +189,14 @@ const generateRestaurantsForCity = (cityName) => {
   // Validate we're actually appending if in append mode
   if (APPEND_MODE && existingRestaurants.length > 0) {
     console.log(
-      `Append validation: ${existingRestaurants.length} existing + ${newRestaurants.length} new = ${restaurants.length} total`,
+      `Append validation: ${existingRestaurants.length} existing + ${newRestaurants.length} new = ${restaurants.length} total`
     );
     if (
       restaurants.length !==
       existingRestaurants.length + newRestaurants.length
     ) {
       console.error(
-        "WARNING: Final restaurant count doesn't match expected total. Append may not be working correctly!",
+        "WARNING: Final restaurant count doesn't match expected total. Append may not be working correctly!"
       );
     }
   }
@@ -242,7 +207,7 @@ const generateRestaurantsForCity = (cityName) => {
     camelCaseCityName,
     restaurants,
     existingCount,
-    newCount,
+    newCount
   ) => {
     // Generate the file content
     const fileContent = `import { Restaurant } from "@/lib/types/types";
@@ -250,7 +215,7 @@ const generateRestaurantsForCity = (cityName) => {
 export const ${camelCaseCityName}Restaurants: Restaurant[] = ${JSON.stringify(
       restaurants,
       null,
-      2,
+      2
     )};
 `;
 
@@ -259,15 +224,15 @@ export const ${camelCaseCityName}Restaurants: Restaurant[] = ${JSON.stringify(
 
     if (existingCount > 0) {
       console.log(
-        `Updated restaurant data for ${camelCaseCityName}: ${existingCount} existing + ${newCount} new = ${restaurants.length} total`,
+        `Updated restaurant data for ${camelCaseCityName}: ${existingCount} existing + ${newCount} new = ${restaurants.length} total`
       );
     } else if (REWRITE_MODE) {
       console.log(
-        `Rewrote restaurant data for ${camelCaseCityName}: ${restaurants.length} restaurants`,
+        `Rewrote restaurant data for ${camelCaseCityName}: ${restaurants.length} restaurants`
       );
     } else {
       console.log(
-        `Created new restaurant data for ${camelCaseCityName}: ${restaurants.length} restaurants`,
+        `Created new restaurant data for ${camelCaseCityName}: ${restaurants.length} restaurants`
       );
     }
   };
@@ -279,7 +244,7 @@ export const ${camelCaseCityName}Restaurants: Restaurant[] = ${JSON.stringify(
       camelCaseCityName,
       restaurants,
       existingRestaurants.length,
-      newRestaurants.length,
+      newRestaurants.length
     );
   } else {
     // Generate new restaurants with default count (either new file or rewrite mode)
@@ -289,7 +254,7 @@ export const ${camelCaseCityName}Restaurants: Restaurant[] = ${JSON.stringify(
       camelCaseCityName,
       restaurants,
       0,
-      restaurants.length,
+      restaurants.length
     );
   }
 };
@@ -628,205 +593,26 @@ const generateRandomRestaurants = (cityName, count) => {
       "Green Isle",
       "Fáilte",
     ],
-    florence: [
-      "Florence",
-      "Tuscany",
-      "Renaissance",
-      "Piazza",
-      "Michelangelo",
-      "Villa",
-      "Luxury",
-      "Arno",
-      "Medici",
-      "Duomo",
-      "Uffizi",
-      "Chianti",
-      "Ponte Vecchio",
-      "David",
-      "Firenze",
-      "Artisan",
-      "Oltrarno",
-    ],
+    florence: ["Italian", "Tuscan", "Mediterranean", "French", "Japanese"],
     "fort-lauderdale": [
-      "Fort Lauderdale",
-      "Sunshine",
-      "Everglades",
-      "Yacht",
-      "Palm",
-      "Intracoastal",
-      "Beachfront",
-      "Luxury",
-      "Atlantic",
-      "Cruise Port",
-      "Gulfstream",
-      "Broward",
-      "Coral Ridge",
-      "Oceanfront",
-      "Tropical",
-      "Marina Mile",
-      "A1A",
+      "American",
+      "Seafood",
+      "Caribbean",
+      "Italian",
+      "Mexican",
     ],
-    galveston: [
-      "Galveston",
-      "Texas",
-      "Gulf",
-      "Lone Star",
-      "West Bay",
-      "Cruiseport",
-      "Seaside",
-      "Island",
-      "Port",
-      "Historic Strand",
-      "Pier",
-      "Kemah",
-      "Shrimp",
-      "Surfside",
-      "Bay",
-      "Moody",
-      "Bolivar",
-    ],
-    "hong-kong": [
-      "Hong Kong",
-      "Victoria",
-      "Pearl",
-      "Dynasty",
-      "Harbor",
-      "Junk Boat",
-      "Dragon",
-      "Kowloon",
-      "Lantern",
-      "Causeway",
-      "Neon",
-      "Lan Kwai",
-      "Mid-Levels",
-      "Lantau",
-      "Dim Sum",
-      "Canton",
-      "Neon",
-      "Star Ferry",
-    ],
-    kiel: [
-      "Kiel",
-      "Baltic",
-      "Hanseatic",
-      "Schleswig",
-      "Fjord",
-      "Harbor",
-      "Marine",
-      "Lighthouse",
-      "Yachting",
-      "Germany",
-      "North Sea",
-      "Cruise Gate",
-      "Ostseekai",
-      "Sailing",
-      "Warft",
-      "Laboe",
-      "Navy",
-    ],
-    kyoto: [
-      "Kyoto",
-      "Zen",
-      "Geisha",
-      "Bamboo",
-      "Temple",
-      "Shrine",
-      "Gion",
-      "Pagoda",
-      "Imperial",
-      "Matcha",
-      "Gion",
-      "Torii",
-      "Fushimi",
-      "Kaiseki",
-      "Kinkakuji",
-      "Arashiyama",
-      "Shrine",
-      "Blossom",
-      "Higashiyama",
-      "Nishiki",
-    ],
-    lisbon: [
-      "Lisbon",
-      "Tagus",
-      "Explorer",
-      "Fado",
-      "Port",
-      "Tram",
-      "Alfama",
-      "Belém",
-      "Atlantic",
-      "Azulejo",
-      "Belém",
-      "Saudade",
-      "Pastel",
-      "Atlantic",
-      "Castelo",
-      "Miradouro",
-      "Baixa",
-    ],
-    london: [
-      "London",
-      "Thames",
-      "Royal",
-      "Crown",
-      "Piccadilly",
-      "Britannia",
-      "Big Ben",
-      "Underground",
-      "Westminster",
-      "Tower Bridge",
-      "Soho",
-      "London Eye",
-      "Camden",
-      "Piccadilly",
-      "Foggy",
-      "Tea Time",
-      "Kensington",
-      "Notting Hill",
-      "Covent Garden",
-      "Savoy",
-      "Shoreditch",
-      "Greenwich",
-      "Hackney",
-      "Mayfair",
-      "Chelsea",
-      "Marylebone",
-      "Buckingham",
-      "British Museum",
-      "Abbey Road",
-      "Hyde Park",
-    ],
+    galveston: ["American", "Seafood", "Mexican", "Cajun", "Italian"],
+    "hong-kong": ["Chinese", "Cantonese", "Japanese", "Thai", "French"],
+    kiel: ["German", "Scandinavian", "Italian", "French", "Mediterranean"],
+    kyoto: ["Japanese", "Asian", "Italian", "French", "Chinese"],
+    lisbon: ["Portuguese", "Mediterranean", "Seafood", "Italian", "Brazilian"],
+    london: ["British", "Indian", "Italian", "French", "Chinese"],
     "los-angeles": [
-      "Los Angeles",
-      "Hollywood",
-      "Pacific",
-      "Sunset",
-      "Coastal",
-      "Boardwalk",
-      "Venice",
-      "Santa Monica",
-      "Beverly",
-      "Malibu",
-      "Palm Tree",
-      "Rodeo",
-      "LA Live",
-      "Griffith",
-      "Metro Goldwyn",
-      "Baywatch",
-      "Silver Lake",
-      "Echo Park",
-      "Downtown",
-      "Pasadena",
-      "Brentwood",
-      "Studio",
-      "Angels",
-      "Dodgers",
-      "Westside",
-      "Melrose",
-      "Wilshire",
-      "Mulholland",
-      "Arts District",
+      "American",
+      "Mexican",
+      "Japanese",
+      "Korean",
+      "Mediterranean",
     ],
     melbourne: ["Australian", "Italian", "Greek", "Chinese", "Vietnamese"],
     miami: ["Cuban", "American", "Caribbean", "Peruvian", "Italian"],
@@ -1719,7 +1505,7 @@ const generateRandomRestaurants = (cityName, count) => {
 };
 
 // Main execution
-const cityFiles = getCityFiles();
+const cityFiles = getCityFiles(path.join(__dirname, ".."));
 console.log(`Found ${cityFiles.length} cities to process`);
 
 // Process each city
