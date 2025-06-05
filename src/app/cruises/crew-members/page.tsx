@@ -22,10 +22,8 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { CrewMember } from "@/lib/interfaces/people/staff";
-import {
-  getAllTeamMembers,
-  getRoleDescription,
-} from "@/lib/utils/get/crew-members";
+import { getAllTeamMembers } from "@/lib/utils/get/crew-members";
+import { getRoleDescription } from "@/lib/utils/get/role-description";
 import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 import { FaFilter } from "react-icons/fa";
