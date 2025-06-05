@@ -6,7 +6,7 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Base directory where restaurant files are located
+// Base directory where testimonial files are located (not restaurants)
 const baseDir = path.join(
   __dirname,
   "..",
@@ -14,44 +14,10 @@ const baseDir = path.join(
   "lib",
   "constants",
   "cruises",
-  "restaurants"
+  "testimonials"
 );
 
-// Function to convert a string to kebab-case for file naming
-function toKebabCase(str) {
-  return str
-    .toLowerCase()
-    .replace(/[^\w\s-]/g, "") // Remove special characters except spaces and hyphens
-    .replace(/\s+/g, "-") // Replace spaces with hyphens
-    .replace(/--+/g, "-"); // Replace multiple hyphens with single hyphen
-}
-
-// Function to extract restaurant names from a restaurants.ts file
-function extractRestaurantNames(filePath) {
-  try {
-    const content = fs.readFileSync(filePath, "utf8");
-
-    // Updated pattern to match name properties in JSON
-    const namePattern = /name["']?\s*:\s*["']([^"']+)["']/g;
-    const matches = [];
-    let match;
-
-    while ((match = namePattern.exec(content)) !== null) {
-      matches.push(match[1]);
-    }
-
-    if (matches.length === 0) {
-      console.warn(`No restaurant names found in ${filePath}`);
-    } else {
-      console.log(`Found ${matches.length} restaurants in ${filePath}`);
-    }
-
-    return matches;
-  } catch (error) {
-    console.error(`Error reading file ${filePath}:`, error);
-    return [];
-  }
-}
+console.log(`Looking for testimonial files in: ${baseDir}`);
 
 // Get all city directories
 let cityDirs = [];
@@ -60,38 +26,45 @@ try {
     .readdirSync(baseDir, { withFileTypes: true })
     .filter((dirent) => dirent.isDirectory())
     .map((dirent) => dirent.name);
+
+  console.log(`Found ${cityDirs.length} city directories`);
 } catch (error) {
   console.error(`Error reading base directory ${baseDir}:`, error);
   process.exit(1);
 }
 
+let totalDeleted = 0;
+let totalNotFound = 0;
+
 // Process each city directory
 cityDirs.forEach((cityDir) => {
   const cityPath = path.join(baseDir, cityDir);
-  const restaurantsFilePath = path.join(cityPath, "restaurants.ts");
 
-  // Check if the restaurants.ts file exists
-  if (fs.existsSync(restaurantsFilePath)) {
-    console.log(`Processing ${cityDir}/restaurants.ts...`);
+  try {
+    // Get all testimonial files in the city directory
+    const files = fs.readdirSync(cityPath).filter((file) => file.endsWith("-testimonials.ts"));
 
-    // Extract restaurant names from the file
-    const restaurantNames = extractRestaurantNames(restaurantsFilePath);
+    console.log(`Found ${files.length} testimonial files in ${cityDir}`);
 
-    // Attempt to delete the testimonial file for each restaurant
-    restaurantNames.forEach((restaurantName) => {
-      const kebabName = toKebabCase(restaurantName) + "-testimonials";
-      const filePath = path.join(cityPath, `${kebabName}.ts`);
+    // Delete each testimonial file
+    files.forEach((file) => {
+      const filePath = path.join(cityPath, file);
 
-      if (fs.existsSync(filePath)) {
+      try {
         fs.unlinkSync(filePath);
         console.log(`Deleted: ${filePath}`);
-      } else {
-        console.log(`File not found, skipping: ${filePath}`);
+        totalDeleted++;
+      } catch (err) {
+        console.error(`Failed to delete ${filePath}:`, err);
+        totalNotFound++;
       }
     });
-  } else {
-    console.warn(`Restaurant file not found: ${restaurantsFilePath}`);
+  } catch (err) {
+    console.error(`Error processing directory ${cityPath}:`, err);
   }
 });
 
-console.log("All testimonial files deleted successfully.");
+console.log("\n=== Summary ===");
+console.log(`Total files deleted: ${totalDeleted}`);
+console.log(`Total files not found or failed: ${totalNotFound}`);
+console.log("Testimonial file deletion process completed!");
