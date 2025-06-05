@@ -1,20 +1,29 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for Japanese Curry House in paris
+ * Menu data for Japanese Chophouse in paris
  */
-export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
+export const parisjapaneseChophouseMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Where simple creativity meets timeless Italian inspiration",
+    "description": "Our kitchen presents an array of tasty offerings from across the Mediterranean spectrum",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
+        "description": "Celebrated dishes crafted with premium ingredients and exceptional care, designed to leave a lasting impression.",
         "items": [
           {
-            "name": "Handcrafted Flaky Seasonal Tasting Menu Experience",
-            "price": 31.51,
+            "name": "Molecular Gastronomy Showcase Tasting",
+            "price": 26.57,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Age-Old Recipe Osso Buco with Gremolata",
+            "price": 36.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,8 +31,68 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Creamy 24-Hour Braised Short Ribs",
-            "price": 31.2,
+            "name": "Chef's Childhood Inspired Creation",
+            "price": 29.08,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chef's Special Surf and Turf",
+            "price": 35.48,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Local Bounty Harvest Plate (Vegetarian)",
+            "price": 29.44,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Wood-Fired Peking Duck with Plum Sauce",
+            "price": 27.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Dry-Aged Tomahawk Steak",
+            "price": 27.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "description": "A rotating selection of dishes that highlight the chef's creativity and passion for Mediterranean.",
+        "items": [
+          {
+            "name": "Seared Duck Breast with Cherry Reduction",
+            "price": 28.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Smoked and Slow-Roasted Heritage Meat",
+            "price": 28.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -31,17 +100,17 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seasonal Stuffed Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 35.33,
+            "name": "Duck Confit with Roasted Root Vegetables",
+            "price": 37.1,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Handcrafted Delicious Secret Recipe Bouillabaisse",
-            "price": 34.58,
+            "name": "Chef's Childhood Favorite Reimagined",
+            "price": 35.87,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -49,77 +118,8 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Juicy Executive Chef's Daily Inspiration Entrée",
-            "price": 34.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Spicy Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 30.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Flaky Charcoal Grilled Iberico Pork",
-            "price": 31.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Chef's Specials",
-        "description": "Expressions of creativity from our chef’s table—ever-changing and inspired by market finds.",
-        "items": [
-          {
-            "name": "Classic Mouthwatering Black Garlic Marinated Octopus",
-            "price": 38.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Zesty Fusion of Traditional and Modern Techniques",
-            "price": 32.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Delectable Tableside Flambé Preparation",
-            "price": 26.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Smoked Chef's Childhood Favorite Reimagined",
-            "price": 39.56,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Sizzling Heirloom Recipe from Chef's Family",
-            "price": 35,
+            "name": "Volcanic Stone-Cooked Specialty",
+            "price": 37.26,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -130,29 +130,65 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Crafted to excite the palate, our starters are a perfect introduction to the world of Italian.",
+        "description": "Mouthwatering previews of what's to come—crafted to tease and please.",
         "items": [
           {
-            "name": "Stuffed Jalapeños",
-            "price": 9.78,
-            "isVegetarian": true,
+            "name": "Fresh Flavorful Bruschetta",
+            "price": 15.99,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Luscious Baked Brie",
+            "price": 14.17,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bruschetta",
-            "price": 11.8,
-            "isVegetarian": true,
+            "name": "Organic Grilled Chicken Satay",
+            "price": 12.36,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deviled Eggs",
-            "price": 14.7,
+            "name": "Authentic Luscious Edamame",
+            "price": 9.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Golden Zucchini Fries",
+            "price": 14.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Pan-seared Crostini",
+            "price": 8.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Satisfying Mini Tacos",
+            "price": 8.5,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -160,45 +196,9 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mezze Platter",
-            "price": 9.9,
+            "name": "Homestyle Crunchy Meatballs",
+            "price": 13.18,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Calamari",
-            "price": 15.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Cheese Nachos",
-            "price": 10.75,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spring Rolls",
-            "price": 14.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Peppers",
-            "price": 8.33,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -208,20 +208,11 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Crafted with care, our soups are a celebration of Italian flavors and traditions.",
+        "description": "Daily-prepared soups made from seasonal ingredients and traditional Mediterranean methods.",
         "items": [
           {
-            "name": "Peanut Soup (West African)",
-            "price": 10.97,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Egg Drop Soup",
-            "price": 11.29,
+            "name": "Miso Soup",
+            "price": 13.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -229,8 +220,17 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chicken Noodle Soup",
-            "price": 7.71,
+            "name": "Gazpacho",
+            "price": 11,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lobster Bisque",
+            "price": 11.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -238,10 +238,10 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Zuppa Toscana",
-            "price": 11.58,
+            "name": "Vegetable Barley Soup",
+            "price": 9.05,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -250,11 +250,11 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
+        "description": "A blend of local and organic ingredients, thoughtfully combined for maximum flavor.",
         "items": [
           {
-            "name": "Nicoise Salad",
-            "price": 13.79,
+            "name": "Kale Salad",
+            "price": 11.97,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -262,37 +262,37 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Roasted Beet and Goat Cheese Salad",
-            "price": 13.14,
+            "name": "Nicoise Salad",
+            "price": 15.2,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Broccoli Crunch Salad",
+            "price": 14.84,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pear and Gorgonzola Salad",
+            "price": 10.52,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Arugula Salad",
+            "price": 9.1,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Cobb Salad",
-            "price": 13.53,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Garden Salad",
-            "price": 15.31,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Orzo Salad",
-            "price": 14.26,
-            "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -301,11 +301,20 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Robust and satisfying center-of-plate dishes that deliver flavor and artistry.",
+        "description": "Signature entrées crafted with precision, embodying the core of our Mediterranean vision.",
         "items": [
           {
-            "name": "Organic Luscious Eggplant Parmesan",
-            "price": 26.32,
+            "name": "Steak",
+            "price": 18.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Enchiladas",
+            "price": 20.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -313,64 +322,55 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Grilled Salmon",
-            "price": 27.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Savory Lamb Chops",
-            "price": 21.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Creamy Beef Wellington",
-            "price": 22.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Smoked Thai Curry",
-            "price": 27.57,
+            "name": "Stuffed Zucchini Boats",
+            "price": 22.01,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Luscious Pho",
-            "price": 31.87,
+            "name": "Moussaka",
+            "price": 18.11,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grilled Chicken",
+            "price": 21.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Grilled Tofu",
+            "price": 20.66,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Enticing Lasagna",
-            "price": 18.22,
-            "isVegetarian": false,
+            "name": "Currywurst",
+            "price": 27.61,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Tangy Mac and Cheese",
-            "price": 31.77,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Pesto Pasta",
+            "price": 19.64,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -379,107 +379,107 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Daily catches transformed into exquisite plates by our skilled kitchen team.",
+        "description": "Crafted with care, our seafood offerings are a testament to our commitment to quality.",
         "items": [
           {
-            "name": "Homestyle Grilled Maryland Style Crab Cakes",
-            "price": 35.8,
+            "name": "Valencian Seafood Paella",
+            "price": 32.65,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "House Special Exquisite Alaskan King Crab Legs with Drawn Butter",
-            "price": 34.73,
+            "name": "Grilled Lobster with Lemon Butter",
+            "price": 23.35,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Hearty Mussels Mariniere in White Wine",
-            "price": 31.21,
+            "name": "Stuffed Flounder with Crab and Spinach",
+            "price": 34.7,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Handcrafted Tangy Grilled Lobster with Lemon Butter",
-            "price": 30.21,
+            "name": "Classic British Fish and Chips",
+            "price": 34.01,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Satisfying Seared Tuna Steak with Sesame Crust",
-            "price": 27.82,
+            "name": "Seafood Risotto with Saffron",
+            "price": 32.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "From roasted vegetables to artisanal grains, our sides are a perfect match for any dish.",
+        "description": "Perfectly balanced additions that elevate your dining experience.",
         "items": [
           {
-            "name": "Authentic Golden Mashed Potatoes",
-            "price": 7.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Savory French Fries",
-            "price": 6.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Marinated Warm Buttermilk Dinner Rolls",
-            "price": 9.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Satisfying Sautéed Garlic Mushrooms",
-            "price": 7.59,
+            "name": "Premium Herbed Wild Rice Pilaf",
+            "price": 5.29,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Exquisite Charred Broccolini with Garlic Oil",
-            "price": 9.05,
+            "name": "Classic Creamy Sweet Corn and Cheddar Fritters",
+            "price": 6.6,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Golden Mashed Potatoes",
+            "price": 5.97,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Grilled Steamed Jasmine Rice",
+            "price": 8.04,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Zesty Crispy Beer-Battered Onion Rings",
-            "price": 7.54,
+            "name": "Authentic Zesty Soft Polenta with Parmesan",
+            "price": 7.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Irresistible Macaroni and Aged Cheddar",
+            "price": 5.12,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -490,29 +490,29 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
+        "description": "Handcrafted drinks designed to hydrate and delight—no spirits necessary.",
         "items": [
           {
-            "name": "Deluxe Flavorful Milkshake",
-            "price": 7.07,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Homestyle Enticing Iced Tea",
+            "price": 4.84,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Irresistible Tea",
-            "price": 5.48,
+            "name": "Homestyle Braised Water",
+            "price": 4.39,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Grilled Coffee",
-            "price": 7,
+            "name": "Homestyle Roasted Coffee",
+            "price": 6.25,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -520,29 +520,29 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Delectable Soda",
-            "price": 5.61,
+            "name": "Classic Tender Smoothie",
+            "price": 5.09,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Spiced Water",
-            "price": 6.89,
+            "name": "Authentic Luscious Juice",
+            "price": 4.44,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Handcrafted Exquisite Smoothie",
-            "price": 5.43,
+            "name": "Handcrafted Herbed Tea",
+            "price": 4.38,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,51 +552,51 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Our dessert menu features classic selections to satisfy every craving",
+    "description": "Our delicious desserts are a celebration of flavor and creativity",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Comforting, handmade goods perfect for breakfast, dessert, or anytime in between.",
+        "description": "Artisanal baked items showcasing skill, tradition, and a touch of creativity.",
         "items": [
           {
-            "name": "Apple Pie",
-            "price": 7.45,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pumpkin Pie",
-            "price": 7.02,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cobbler",
-            "price": 6.93,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Eclairs",
-            "price": 6.92,
+            "name": "Fresh Smoked Red Velvet Cake",
+            "price": 7.21,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Shortbread",
-            "price": 10.8,
+            "name": "Authentic Sautéed Custard Tart",
+            "price": 7.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Marinated Cannoli",
+            "price": 6.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Hearty Vanilla Cake",
+            "price": 10.46,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Crispy Banana Bread",
+            "price": 10.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -607,20 +607,29 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Handmade with care, our frozen desserts are a celebration of texture and taste.",
+        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
         "items": [
           {
-            "name": "Ice Cream Sandwich",
-            "price": 11.88,
+            "name": "Frozen Banana",
+            "price": 11.38,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Ice Cream",
-            "price": 11.13,
+            "name": "Frozen Pie",
+            "price": 8.52,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gelato",
+            "price": 10.86,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -629,26 +638,17 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
           },
           {
             "name": "Ice Cream Cake",
-            "price": 7.89,
-            "isVegetarian": false,
+            "price": 10.07,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Fruit Bars",
-            "price": 7.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Mousse",
-            "price": 9.2,
-            "isVegetarian": false,
+            "name": "Ice Cream Sandwich",
+            "price": 11.76,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -660,24 +660,33 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A inviting selection of alcoholic beverages to complement your meal",
+    "description": "Our bartenders' carefully chosen creations to complete your meal",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
+        "description": "Each cocktail is a work of art—balanced, bold, and beautifully presented.",
         "items": [
           {
             "name": "Mojito",
-            "price": 15.71,
+            "price": 10.86,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
+            "name": "Whiskey Sour",
+            "price": 10.61,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Martini",
-            "price": 10.89,
+            "price": 11.94,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -686,7 +695,7 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
           },
           {
             "name": "Manhattan",
-            "price": 10.54,
+            "price": 12.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -694,17 +703,8 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Whiskey Sour",
-            "price": 15.55,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 11.57,
+            "name": "Bloody Mary",
+            "price": 14.51,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -712,17 +712,17 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 10.61,
+            "name": "Cosmopolitan",
+            "price": 11.9,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 12.81,
+            "name": "Negroni",
+            "price": 10.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -733,11 +733,11 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "A spectrum of vintages and varietals—from structured reds to bright, crisp whites.",
+        "description": "A diverse collection of varietals and vintages, chosen for quality and character.",
         "items": [
           {
-            "name": "Homestyle Marinated Petit Verdot",
-            "price": 12.65,
+            "name": "Sémillon",
+            "price": 10.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -745,68 +745,26 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Tender Chenin Blanc",
-            "price": 11.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Creamy Riesling",
-            "price": 9.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Sizzling Torrontés",
-            "price": 13.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Marinated Fiano",
-            "price": 8.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Stuffed Merlot",
-            "price": 11.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Spirits and Liqueurs",
-        "description": "Ideal for slow sipping or celebratory toasts—each bottle has a story.",
-        "items": [
-          {
-            "name": "Seasonal Grilled Rum",
-            "price": 16.65,
+            "name": "Gewürztraminer",
+            "price": 10.46,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Grilled Brandy",
-            "price": 10.47,
+            "name": "Cabernet Franc",
+            "price": 12.32,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Blanc",
+            "price": 8.32,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -814,26 +772,68 @@ export const parisjapaneseCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Smoked Coffee Liqueur",
-            "price": 12.84,
+            "name": "Dolcetto",
+            "price": 11.31,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Crunchy Gin",
-            "price": 12.6,
+            "name": "Chenin Blanc",
+            "price": 11.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Spirits and Liqueurs",
+        "description": "A thoughtful balance of classic favorites and rare, small-batch discoveries.",
+        "items": [
+          {
+            "name": "Handcrafted Exquisite Baileys Irish Cream",
+            "price": 10.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Premium Sizzling Galliano",
-            "price": 10.13,
+            "name": "Classic Baked Grappa",
+            "price": 16.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Smoked Galliano",
+            "price": 12.6,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Zingy Calvados",
+            "price": 17.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Sautéed Campari",
+            "price": 16.18,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,

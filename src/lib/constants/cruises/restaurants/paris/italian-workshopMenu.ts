@@ -6,24 +6,33 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const parisitalianWorkshopMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "A comforting dining experience featuring the essence of Middle Eastern gastronomy",
+    "description": "Our carefully crafted selection of satisfying Middle Eastern dishes",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Our chef's pride—carefully selected Middle Eastern specialties that define our culinary identity, honed through years of experience and passion.",
+        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
         "items": [
           {
-            "name": "Traditional Mouthwatering Seasonal Tasting Platter",
-            "price": 31.82,
+            "name": "Gourmet Baked Legendary Prime Rib",
+            "price": 29.12,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Grilled Japanese A5 Wagyu with Ponzu Butter",
-            "price": 24.69,
+            "name": "Authentic Stuffed Secret Recipe Bouillabaisse",
+            "price": 30.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Irresistible Executive Chef's Daily Inspiration Entrée",
+            "price": 26.4,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -31,26 +40,26 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Crunchy Chef’s Wild Game Selection",
-            "price": 35.11,
-            "isVegetarian": true,
+            "name": "Handcrafted Stuffed Heritage Recipe Lamb Shank",
+            "price": 32.73,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Crunchy 24-Hour Braised Short Ribs",
-            "price": 34.8,
+            "name": "Deluxe Braised Japanese A5 Wagyu with Ponzu Butter",
+            "price": 37.73,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Handcrafted Aromatic Dry-Aged Tomahawk Steak",
-            "price": 25.97,
+            "name": "Authentic Savory Charcoal Grilled Iberico Pork",
+            "price": 24.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -58,17 +67,8 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Fried Captain's Favorite Seafood Tower",
-            "price": 25.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Marinated Flambéed Tableside Specialty",
-            "price": 29.41,
+            "name": "Classic Flavorful Whole Roasted Heritage Chicken",
+            "price": 30.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -79,11 +79,11 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
+        "description": "Unique culinary compositions that rotate frequently to keep each visit fresh and surprising.",
         "items": [
           {
-            "name": "Authentic Creamy Collaborative Limited Edition Special",
-            "price": 34.11,
+            "name": "House Special Herbed Seared Duck Breast with Cherry Reduction",
+            "price": 36.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -91,36 +91,36 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Zingy Tasting of Local Artisanal Cheeses",
-            "price": 38.1,
+            "name": "Fresh Flavorful Collaborative Limited Edition Special",
+            "price": 31.05,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Hearty Daily Fresh Catch with Seasonal Accompaniments",
-            "price": 37.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Marinated Tableside Flambé Preparation",
-            "price": 35.39,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Sizzling Lobster Thermidor",
+            "price": 28.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Hearty Braised Short Ribs with Red Wine Sauce",
+            "price": 37.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Deluxe Flavorful Chef's Childhood Favorite Reimagined",
-            "price": 24.8,
-            "isVegetarian": true,
+            "name": "Hearty Smoked Crispy Skin Sea Bass",
+            "price": 26.09,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -130,20 +130,29 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "A harmonious blend of textures and flavors, our appetizers are a celebration of Middle Eastern culinary artistry.",
+        "description": "A selection of small plates that showcase the essence of Middle Eastern—perfect for sharing or savoring solo.",
         "items": [
           {
-            "name": "Fresh Grilled Prawn Cocktail",
-            "price": 11.25,
+            "name": "Seasonal Grilled Potato Skins",
+            "price": 15.08,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Golden Samosas",
+            "price": 11.94,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Irresistible Crostini",
-            "price": 9.92,
+            "name": "Deluxe Savory Hummus Platter",
+            "price": 12.22,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -151,26 +160,17 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Smoked Cheese Platter",
-            "price": 8.68,
+            "name": "Authentic Herbed Shrimp Cocktail",
+            "price": 14.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Steamed Tuna Tartare",
-            "price": 15.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Gourmet Roasted Cheese Nachos",
-            "price": 14.22,
+            "name": "Traditional Stuffed Potstickers",
+            "price": 9.2,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -178,8 +178,8 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Braised Garlic Bread",
-            "price": 11.7,
+            "name": "Handcrafted Savory Baked Brie",
+            "price": 10.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -187,61 +187,61 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Zingy Edamame",
-            "price": 9.36,
-            "isVegetarian": true,
+            "name": "Deluxe Smoked Antipasto Platter",
+            "price": 11.11,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Exquisite Chicken Satay",
-            "price": 11.67,
+            "name": "Authentic Spiced Mini Quesadillas",
+            "price": 11.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Soups",
-        "description": "Each bowl is a journey through the heart of Middle Eastern, crafted with care and expertise.",
+        "description": "Daily-prepared soups made from seasonal ingredients and traditional Middle Eastern methods.",
         "items": [
           {
-            "name": "Authentic Delicious Tomato Soup",
-            "price": 10.97,
+            "name": "Seasonal Marinated Thai Coconut Soup",
+            "price": 8.99,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Flaky Lobster Bisque",
+            "price": 13.94,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Gourmet Stuffed Tortilla Soup",
-            "price": 9.28,
+            "name": "Seasonal Marinated Egg Drop Soup",
+            "price": 12.57,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Hearty Vegetable Barley Soup",
+            "price": 8.89,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Tender Mushroom Soup",
-            "price": 11.16,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Herbed Egg Drop Soup",
-            "price": 11.31,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -250,48 +250,48 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Light, clean, and energizing—each salad is a visual and flavorful delight.",
+        "description": "Lively salads combining texture, temperature, and taste for a refreshing start or light meal.",
         "items": [
           {
-            "name": "Garden Salad",
-            "price": 13.82,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cobb Salad",
-            "price": 14.83,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lentil and Feta Salad",
-            "price": 15.94,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spinach Salad",
-            "price": 11.98,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cucumber Salad",
-            "price": 14.94,
+            "name": "Watermelon Feta Salad",
+            "price": 10.58,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Potato Salad",
+            "price": 13.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Thai Green Papaya Salad",
+            "price": 9.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Avocado Corn Salad",
+            "price": 10.2,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Vegetable Salad",
+            "price": 14.17,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -301,29 +301,11 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Each dish is a celebration of flavor, tradition, and culinary excellence.",
+        "description": "Timeless main courses crafted for bold palates and lasting impressions.",
         "items": [
           {
-            "name": "Traditional Marinated Moussaka",
-            "price": 18.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Tender Lasagna",
-            "price": 22.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Delectable Spaghetti Bolognese",
-            "price": 23.21,
+            "name": "Classic Sweet Lasagna",
+            "price": 21.09,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -331,46 +313,64 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Flaky Tagine",
-            "price": 29.59,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Tender Steak",
-            "price": 25.11,
+            "name": "Classic Sizzling Grilled Chicken",
+            "price": 31.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Fresh Flaky Thai Curry",
-            "price": 22.43,
+            "name": "Gourmet Roasted Coq au Vin",
+            "price": 18.57,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Braised Risotto",
-            "price": 31.44,
+            "name": "Handcrafted Smoked Fish and Chips",
+            "price": 26.85,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Marinated Chili con Carne",
+            "price": 27.15,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Marinated Seafood Platter",
-            "price": 23.82,
+            "name": "House Special Flavorful Cottage Pie",
+            "price": 27.35,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Appetizing Lamb Chops",
+            "price": 23.26,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Grilled Quiche",
+            "price": 31.05,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -382,8 +382,8 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
         "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
         "items": [
           {
-            "name": "Fresh Mouthwatering Seared Tuna Steak with Sesame Crust",
-            "price": 31.51,
+            "name": "Fresh Sizzling Alaskan King Crab Legs with Drawn Butter",
+            "price": 31.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,17 +391,26 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Juicy Pan-Seared Scallops with Pea Purée",
-            "price": 28.33,
+            "name": "Authentic Tender New England Lobster Roll",
+            "price": 22.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Exquisite Steamed Littleneck Clams in Garlic Broth",
+            "price": 31.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Crunchy Grilled Swordfish with Mango Chutney",
-            "price": 35.09,
+            "name": "Premium Flaky Grilled Spanish Octopus with Smoked Paprika",
+            "price": 31.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -409,20 +418,11 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "House Special Wholesome Grilled Spanish Octopus with Smoked Paprika",
-            "price": 29.57,
+            "name": "Classic Sizzling Classic British Fish and Chips",
+            "price": 32.43,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Delicious Mussels Mariniere in White Wine",
-            "price": 24.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           }
@@ -430,11 +430,11 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "From classic to contemporary, our sides are designed to complement and surprise.",
+        "description": "A selection of thoughtfully prepared sides that bring out the best in our mains.",
         "items": [
           {
-            "name": "Premium Satisfying Yukon Gold Potato Gratin",
-            "price": 5.29,
+            "name": "Premium Roasted Truffle Parmesan Fries",
+            "price": 8.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -442,17 +442,8 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Smoked Wild Mushroom Risotto",
-            "price": 6.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Enticing Macaroni and Aged Cheddar",
-            "price": 6.19,
+            "name": "Classic Smoked Fragrant Basmati Rice Pilaf",
+            "price": 9.15,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -460,8 +451,17 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Flavorful Chili Lime Roasted Chickpeas",
-            "price": 8.95,
+            "name": "Deluxe Grilled Charred Broccolini with Garlic Oil",
+            "price": 6.35,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Succulent Yukon Gold Potato Gratin",
+            "price": 5.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -469,17 +469,17 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Roasted Creamy Colcannon (Irish Potato Mash)",
-            "price": 5.16,
-            "isVegetarian": false,
+            "name": "Gourmet Satisfying Sweet Potato Wedges with Smoked Paprika",
+            "price": 7.61,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Tangy Grilled Zucchini and Peppers",
-            "price": 6.37,
+            "name": "Premium Roasted Soft Polenta with Parmesan",
+            "price": 9.79,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -490,11 +490,20 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Crafted beverages that offer a sophisticated alternative to traditional drinks.",
+        "description": "Cold-pressed, house-infused, and always refreshing.",
         "items": [
           {
-            "name": "Lemonade",
-            "price": 6.76,
+            "name": "Milkshake",
+            "price": 6.62,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 5.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -502,8 +511,26 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
+            "name": "Water",
+            "price": 7.14,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 4.46,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Coffee",
-            "price": 7.8,
+            "price": 6.86,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -512,37 +539,10 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
           },
           {
             "name": "Tea",
-            "price": 5.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 5.78,
+            "price": 4.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hot Chocolate",
-            "price": 4.65,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 5.15,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,33 +552,15 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "A freshly prepared selection of desserts that celebrate the art of pastry",
+    "description": "From oven to plate – delicious desserts made with care",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Perfectly baked goods that pair beautifully with our beverages or stand alone.",
+        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
         "items": [
           {
-            "name": "Organic Spiced Chocolate Chip Cookies",
-            "price": 10.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Zesty Treacle Tart",
-            "price": 7.35,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Crunchy Vanilla Cake",
-            "price": 9.6,
+            "name": "Strawberry Shortcake",
+            "price": 8.53,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -586,19 +568,37 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Flavorful Eclairs",
-            "price": 8.44,
-            "isVegetarian": false,
+            "name": "Cupcakes",
+            "price": 10.36,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Sautéed Berry Tart",
-            "price": 11,
+            "name": "Treacle Tart",
+            "price": 6.84,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cheesecake",
+            "price": 9,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Portuguese Custard Tarts",
+            "price": 9.04,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -607,20 +607,20 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Smooth, rich frozen creations featuring local fruits and seasonal flavors.",
+        "description": "From rich gelatos to refreshing sorbets, our frozen desserts are a must-try.",
         "items": [
           {
-            "name": "Premium Exquisite Frozen Yogurt",
-            "price": 11.17,
-            "isVegetarian": true,
+            "name": "Gourmet Enticing Gelato",
+            "price": 9.07,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Flavorful Sorbet",
-            "price": 7.38,
+            "name": "Deluxe Hearty Frozen Custard",
+            "price": 7.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -628,8 +628,8 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Zesty Frozen Fruit Bars",
-            "price": 11.28,
+            "name": "Gourmet Smoked Frozen Pie",
+            "price": 10.52,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -637,22 +637,22 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Baked Frozen Pie",
-            "price": 10.53,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Crunchy Ice Cream Cake",
-            "price": 11.42,
+            "name": "Classic Roasted Ice Cream Cake",
+            "price": 9.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Authentic Tender Sherbet",
+            "price": 11.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       }
@@ -660,42 +660,15 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A enticing array of beverages specially selected by our sommeliers",
+    "description": "A fine selection of wines, beers, and spirits to suit every taste",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Crafted with precision, our cocktails are designed to elevate your dining experience.",
+        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
         "items": [
           {
-            "name": "Old Fashioned",
-            "price": 10.73,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 14.55,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 10.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 11.83,
+            "name": "Fresh Stuffed Martini",
+            "price": 13.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -703,17 +676,8 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 14.1,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 15.04,
+            "name": "Fresh Satisfying Mojito",
+            "price": 11.08,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -721,11 +685,47 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 10.2,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Authentic Roasted Cosmopolitan",
+            "price": 14.15,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Pan-seared Negroni",
+            "price": 13.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Tender Whiskey Sour",
+            "price": 15.75,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Spiced Margarita",
+            "price": 13.26,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Delectable Manhattan",
+            "price": 14.78,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -736,8 +736,17 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
         "description": "A spectrum of vintages and varietals—from structured reds to bright, crisp whites.",
         "items": [
           {
-            "name": "Fresh Delectable Barbera",
-            "price": 13.58,
+            "name": "Sémillon",
+            "price": 9.39,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Grigio",
+            "price": 9.59,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -745,17 +754,26 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Braised Roussanne",
-            "price": 9.89,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Moscato",
+            "price": 13.53,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nebbiolo",
+            "price": 8.85,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Marinated Sauvignon Blanc",
-            "price": 8.06,
+            "name": "Viognier",
+            "price": 11.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -763,26 +781,8 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Grilled Chenin Blanc",
-            "price": 8.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Tender Sangiovese",
-            "price": 9.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Smoked Nebbiolo",
-            "price": 12.23,
+            "name": "Gamay",
+            "price": 9.79,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -793,20 +793,29 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Explore our selection of small-batch and artisanal spirits, each with a unique story.",
+        "description": "A thoughtful balance of classic favorites and rare, small-batch discoveries.",
         "items": [
           {
-            "name": "Aquavit",
-            "price": 10.13,
+            "name": "Coffee Liqueur",
+            "price": 15.33,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Vodka",
-            "price": 12.04,
+            "price": 16.93,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Aquavit",
+            "price": 13.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -814,17 +823,8 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Kahlúa",
-            "price": 16.13,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Brandy",
-            "price": 15.51,
+            "name": "Triple Sec",
+            "price": 13.83,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -832,11 +832,11 @@ export const parisitalianWorkshopMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grappa",
-            "price": 11.34,
+            "name": "Bourbon",
+            "price": 12.48,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

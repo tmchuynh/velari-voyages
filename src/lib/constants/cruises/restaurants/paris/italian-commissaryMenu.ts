@@ -6,15 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const parisitalianCommissaryMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Immerse yourself in delicious Italian that balances innovation with authenticity",
+    "description": "Satisfy your cravings with our vibrant, tasty take on Italian",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
+        "description": "Unforgettable signatures that define who we are and what we serve, crafted to perfection.",
         "items": [
           {
-            "name": "Charcoal Grilled Iberico Pork",
-            "price": 30.85,
+            "name": "Wood-Fired Peking Duck with Plum Sauce",
+            "price": 24.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,56 +22,56 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Captain's Favorite Seafood Tower",
-            "price": 29,
+            "name": "Chef's Special Surf and Turf",
+            "price": 29.85,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 28.04,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Tasting Platter",
+            "price": 31.88,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Secret Recipe Bouillabaisse",
+            "price": 36.63,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Heritage Recipe Lamb Shank",
-            "price": 24.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Celebrity Favorite Lobster Dish",
-            "price": 35.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
             "name": "Sous Vide Perfected Wagyu",
-            "price": 29.03,
-            "isVegetarian": false,
+            "price": 26.52,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Award-Winning Seafood Boil",
-            "price": 37.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Chef’s Wild Game Selection",
-            "price": 37.12,
+            "name": "Japanese A5 Wagyu with Ponzu Butter",
+            "price": 36.32,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -82,17 +82,35 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
         "description": "Unique culinary compositions that rotate frequently to keep each visit fresh and surprising.",
         "items": [
           {
-            "name": "Cast Iron Seafood Presentation",
-            "price": 30.63,
-            "isVegetarian": false,
+            "name": "Chef's Tasting Menu Experience",
+            "price": 37.36,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Truffle Risotto",
-            "price": 29.24,
+            "name": "Daily Fresh Catch with Seasonal Accompaniments",
+            "price": 30.64,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cast Iron Seafood Presentation",
+            "price": 31.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Farm-to-Table Vegetable Plate",
+            "price": 33.28,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -100,26 +118,8 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tableside Prepared Tartare",
-            "price": 37.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deconstructed Classic with Modern Technique",
-            "price": 35.28,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Special Occasion Celebratory Dish",
-            "price": 26,
+            "name": "House Specialty Pasta Creation",
+            "price": 33.82,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -130,11 +130,65 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "A tempting assortment of beginning bites to pair with your first drink.",
+        "description": "A delightful array of appetizers that highlight the best of Italian flavors—perfect for sharing or enjoying solo.",
         "items": [
           {
-            "name": "Baba Ganoush",
-            "price": 15.81,
+            "name": "Mini Tacos",
+            "price": 10.74,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Meatballs",
+            "price": 13.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Mozzarella Sticks",
+            "price": 8.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Stuffed Avocado",
+            "price": 11.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mini Sliders",
+            "price": 13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chicken Wings",
+            "price": 14.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Edamame",
+            "price": 14.48,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -143,64 +197,10 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Shrimp Cocktail",
-            "price": 12.48,
+            "price": 10.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Prawn Cocktail",
-            "price": 15.15,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Potstickers",
-            "price": 8.25,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deviled Eggs",
-            "price": 8.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spinach Puffs",
-            "price": 12.92,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nachos",
-            "price": 8.45,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hummus Platter",
-            "price": 8.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -208,11 +208,29 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Warm, nourishing soups that reflect the heart of Italian cooking—perfect for any season.",
+        "description": "Rich flavors and slow-simmered ingredients that speak of home and tradition.",
         "items": [
           {
-            "name": "Thai Coconut Soup",
-            "price": 7.64,
+            "name": "Mushroom Soup",
+            "price": 8.08,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Black Bean Soup",
+            "price": 8.39,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vegetable Barley Soup",
+            "price": 11.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -220,29 +238,11 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seafood Chowder",
-            "price": 8.64,
+            "name": "Beef Stew",
+            "price": 12.21,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Borscht",
-            "price": 9.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chicken Noodle Soup",
-            "price": 11.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           }
@@ -253,46 +253,46 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
         "description": "Lively salads combining texture, temperature, and taste for a refreshing start or light meal.",
         "items": [
           {
-            "name": "Pasta Salad",
-            "price": 15.58,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Orzo Salad",
-            "price": 12.73,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coleslaw",
-            "price": 12.14,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Garden Salad",
-            "price": 9.97,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Tabbouleh",
+            "price": 10.2,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Apple Pecan Salad",
-            "price": 10.07,
+            "price": 13.44,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cobb Salad",
+            "price": 9.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mango Avocado Salad",
+            "price": 10.41,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pear and Gorgonzola Salad",
+            "price": 10.39,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -301,38 +301,47 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From classic to contemporary, our mains are a celebration of Italian culture.",
+        "description": "Signature entrées crafted with precision, embodying the core of our Italian vision.",
         "items": [
           {
-            "name": "Organic Spiced Lamb Chops",
-            "price": 25.99,
+            "name": "Korma",
+            "price": 19.88,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Biryani",
+            "price": 27.34,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Stuffed Zucchini Boats",
+            "price": 30.77,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Risotto",
+            "price": 30.32,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Spicy Pulled Pork Sandwich",
-            "price": 18.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Steamed Pasta Primavera",
-            "price": 31.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Satisfying Mac and Cheese",
-            "price": 26.49,
+            "name": "Stir-fry",
+            "price": 24.26,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -340,8 +349,8 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Tangy Lentil Stew",
-            "price": 31.87,
+            "name": "Chili con Carne",
+            "price": 31.5,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -349,8 +358,8 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Succulent Moussaka",
-            "price": 31.47,
+            "name": "Shakshuka",
+            "price": 29.73,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -358,17 +367,8 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Juicy Chili con Carne",
-            "price": 27.02,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Herbed Stuffed Peppers",
-            "price": 29.7,
+            "name": "Grilled Tofu",
+            "price": 27.44,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -379,11 +379,11 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Expertly prepared seafood that highlights the natural flavors of the ocean.",
+        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
         "items": [
           {
-            "name": "Tempura Soft Shell Crab",
-            "price": 28.55,
+            "name": "House Special Braised Seafood Risotto with Saffron",
+            "price": 29.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,8 +391,8 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Miso-Marinated Chilean Sea Bass",
-            "price": 29.55,
+            "name": "Authentic Delectable Grilled Lobster with Lemon Butter",
+            "price": 33.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,29 +400,29 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic British Fish and Chips",
-            "price": 27.58,
+            "name": "Seasonal Grilled Basa Fillet with Dill Cream Sauce",
+            "price": 29.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Garlic Butter Shrimp Skillet",
-            "price": 26.69,
+            "name": "Authentic Smoked Seafood Alfredo with Spinach Fettuccine",
+            "price": 25.79,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Succulent Prawn Curry in Coconut Masala",
+            "price": 31.02,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seafood Gumbo with Okra",
-            "price": 28.88,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -430,38 +430,20 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Perfectly balanced additions that elevate your dining experience.",
+        "description": "Flavorful companions that round out your meal with harmony and flair.",
         "items": [
           {
-            "name": "Fresh Satisfying Flaky Cheddar and Chive Biscuits",
-            "price": 7.08,
-            "isVegetarian": true,
+            "name": "Deluxe Sweet Baked Idaho Potato with Sour Cream",
+            "price": 7.56,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Roasted Charred Broccolini with Garlic Oil",
-            "price": 8.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Smoked Mashed Potatoes",
-            "price": 8.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Baked Roasted Root Vegetables",
-            "price": 5.56,
+            "name": "Deluxe Sautéed Green Beans Almondine",
+            "price": 8.12,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -469,8 +451,8 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Grilled Sautéed Garlic Mushrooms",
-            "price": 9.09,
+            "name": "House Special Savory Sweet Corn and Cheddar Fritters",
+            "price": 8.57,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -478,23 +460,41 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Aromatic Green Beans Almondine",
-            "price": 6.98,
+            "name": "Authentic Delectable Flaky Cheddar and Chive Biscuits",
+            "price": 5.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Homestyle Tender Crispy Zucchini Fritters",
+            "price": 7.14,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Flaky Mashed Potatoes",
+            "price": 8.16,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Mocktails and specialty drinks made with the same care as our cocktails.",
+        "description": "Bright, invigorating options that cleanse the palate and refresh the spirit.",
         "items": [
           {
             "name": "Coffee",
-            "price": 7.37,
+            "price": 4.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,8 +502,8 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Juice",
-            "price": 7.64,
+            "name": "Lemonade",
+            "price": 6.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -511,8 +511,26 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Smoothie",
-            "price": 7.59,
+            "name": "Tea",
+            "price": 5.24,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 5.44,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 4.85,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -521,26 +539,8 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Iced Tea",
-            "price": 6.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 4.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 5.47,
-            "isVegetarian": false,
+            "price": 6.95,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -552,15 +552,15 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Experience the art of warm desserts with a Italian twist",
+    "description": "Our gooey dessert offerings crafted with the finest ingredients",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
+        "description": "Handcrafted with the finest ingredients, our baked goods are a treat for the senses.",
         "items": [
           {
-            "name": "Shortbread",
-            "price": 11,
+            "name": "Authentic Sizzling Shortbread",
+            "price": 10.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,59 +568,68 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Eclairs",
-            "price": 7.97,
-            "isVegetarian": true,
+            "name": "Authentic Juicy Cannoli",
+            "price": 7.54,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Berry Tart",
-            "price": 8.72,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pecan Pie",
+            "name": "Classic Golden Banana Bread",
             "price": 10.68,
-            "isVegetarian": true,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Muffins",
-            "price": 10.87,
-            "isVegetarian": true,
+            "name": "Authentic Flaky Cupcakes",
+            "price": 6.89,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked Berry Tart",
+            "price": 10.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Frozen Desserts",
-        "description": "From creamy gelato to fruity sorbet, our frozen desserts are a must-try.",
+        "description": "Refreshing treats from velvety gelatos to sharp, citrusy sorbets.",
         "items": [
           {
-            "name": "Popsicles",
-            "price": 9.89,
-            "isVegetarian": true,
+            "name": "Homestyle Tender Baked Alaska",
+            "price": 9.73,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Paletas",
-            "price": 10,
+            "name": "Traditional Stuffed Ice Cream Sandwich",
+            "price": 7.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Herbed Frosty",
+            "price": 11.6,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -628,8 +637,8 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Kulfi",
-            "price": 11.29,
+            "name": "Deluxe Crispy Frozen Banana",
+            "price": 10.03,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -637,17 +646,8 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Fruit Bars",
-            "price": 10.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ice Cream Sandwich",
-            "price": 8.35,
+            "name": "Handcrafted Zingy Kulfi",
+            "price": 8.96,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -660,60 +660,15 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Treat yourself to a flavorful nightcap from our curated selection",
+    "description": "Indulge in our crowd-pleasing drinks menu crafted to accentuate flavors",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Refined blends of premium spirits, house syrups, and fresh produce.",
+        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
         "items": [
           {
-            "name": "Martini",
-            "price": 14.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 14.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 11.33,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 14.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 14.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 13.77,
+            "name": "Gourmet Braised Manhattan",
+            "price": 14.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -721,9 +676,54 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 12.89,
+            "name": "Seasonal Flaky Bloody Mary",
+            "price": 14.07,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Grilled Mojito",
+            "price": 10.57,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Exquisite Old Fashioned",
+            "price": 11.8,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Flavorful Whiskey Sour",
+            "price": 15.82,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Satisfying Cosmopolitan",
+            "price": 13.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Smoked Negroni",
+            "price": 13.5,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -736,8 +736,8 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
         "description": "New World energy meets Old World elegance in our diverse selection.",
         "items": [
           {
-            "name": "Grenache",
-            "price": 8.62,
+            "name": "Riesling",
+            "price": 12.42,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -745,35 +745,26 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Merlot",
-            "price": 9.84,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Prosecco",
-            "price": 12.75,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Barbera",
-            "price": 8.18,
+            "name": "Champagne/Sparkling Wine",
+            "price": 10.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Chenin Blanc",
+            "price": 8.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Pinot Noir",
-            "price": 11.71,
+            "name": "Sémillon",
+            "price": 8.12,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -781,9 +772,18 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Zinfandel",
-            "price": 12.6,
-            "isVegetarian": false,
+            "name": "Cabernet Sauvignon",
+            "price": 9.75,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Blanc",
+            "price": 13.7,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -793,47 +793,47 @@ export const parisitalianCommissaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Explore our selection of small-batch and artisanal spirits, each with a unique story.",
+        "description": "From classic cocktails to sipping spirits, our bar is stocked with quality and character.",
         "items": [
           {
-            "name": "Tequila",
-            "price": 15.81,
-            "isVegetarian": true,
+            "name": "Chambord",
+            "price": 16.19,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Galliano",
-            "price": 12.53,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bourbon",
-            "price": 13.4,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "St-Germain",
-            "price": 15.02,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
             "name": "Anisette",
-            "price": 10.42,
+            "price": 16.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Calvados",
+            "price": 16.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vodka",
+            "price": 14.8,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gin",
+            "price": 12.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,

@@ -6,24 +6,24 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Taste the depth of Italian culture through our hearty preparations",
+    "description": "A menu designed to highlight the classic essence of Italian",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
+        "description": "Our chef's pride—carefully selected Italian specialties that define our culinary identity, honed through years of experience and passion.",
         "items": [
           {
-            "name": "Gourmet Flaky Secret Recipe Bouillabaisse",
-            "price": 33.35,
-            "isVegetarian": true,
+            "name": "Classic Sizzling Signature Truffle Pasta with Aged Pecorino",
+            "price": 30.02,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Marinated Heritage Recipe Lamb Shank",
-            "price": 27.32,
+            "name": "Fresh Tender Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 33.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -31,8 +31,8 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Tangy Chef’s Wild Game Selection",
-            "price": 32.18,
+            "name": "Homestyle Stuffed Japanese A5 Wagyu with Ponzu Butter",
+            "price": 36.46,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -40,17 +40,17 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Pan-seared Flambéed Tableside Specialty",
-            "price": 27.2,
+            "name": "Fresh Wholesome Captain's Favorite Seafood Tower",
+            "price": 31.6,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Traditional Delectable Age-Old Recipe Osso Buco with Gremolata",
-            "price": 37.63,
+            "name": "Homestyle Creamy Traditional Family Paella",
+            "price": 37.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -58,101 +58,101 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Crispy Award-Winning Seafood Boil",
-            "price": 24.97,
+            "name": "Homestyle Marinated Tableside Carved Chateaubriand",
+            "price": 28.12,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Golden Chef's Childhood Inspired Creation",
+            "price": 32.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Herbed Tableside Carved Chateaubriand",
-            "price": 33.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "Expressions of creativity from our chef’s table—ever-changing and inspired by market finds.",
+        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
         "items": [
           {
-            "name": "Signature Spice-Rubbed Protein",
-            "price": 34.58,
-            "isVegetarian": false,
+            "name": "House Special Savory Wild Mushroom Risotto",
+            "price": 35.68,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Dry-Aged Prime Beef Selection",
-            "price": 27.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Truffle-Infused Filet Mignon",
-            "price": 39.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Seared Duck Breast with Cherry Reduction",
-            "price": 38.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Aged and House-Cured Charcuterie Selection",
-            "price": 33.93,
+            "name": "Traditional Wholesome Tableside Prepared Tartare",
+            "price": 30.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Spicy Tasting of Local Artisanal Cheeses",
+            "price": 35.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Spiced Seared Duck Breast with Cherry Reduction",
+            "price": 31.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Premium Herbed Sous Vide Perfection with Molecular Gastronomy Elements",
+            "price": 24.94,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "A delightful array of appetizers that highlight the best of Italian flavors—perfect for sharing or enjoying solo.",
+        "description": "Traditional and reimagined Italian appetizers made for sharing or solo indulgence.",
         "items": [
           {
-            "name": "Handcrafted Marinated Cheese Platter",
-            "price": 12.88,
-            "isVegetarian": true,
+            "name": "Seasonal Hearty Tuna Tartare",
+            "price": 10.43,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Authentic Marinated Mezze Platter",
-            "price": 15.43,
-            "isVegetarian": false,
+            "name": "Deluxe Spiced Cheese Nachos",
+            "price": 11.46,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Pan-seared Hummus Platter",
-            "price": 14.85,
+            "name": "Gourmet Grilled Deviled Eggs",
+            "price": 9.08,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -160,17 +160,8 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Steamed Spring Rolls",
-            "price": 14.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Crunchy Meatballs",
-            "price": 8.76,
+            "name": "Fresh Spicy Calamari",
+            "price": 14.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -178,41 +169,59 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Roasted Sweet Potato Fries",
-            "price": 9.73,
+            "name": "Authentic Tender Chicken Wings",
+            "price": 14.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sautéed Cheese Platter",
+            "price": 9.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Spiced Spring Rolls",
+            "price": 9.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Steamed Mezze Platter",
+            "price": 9.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
-          },
-          {
-            "name": "Homestyle Marinated Lettuce Wraps",
-            "price": 14.45,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Spiced Stuffed Avocado",
-            "price": 13.86,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
       {
         "name": "Soups",
-        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
+        "description": "Steaming selections ideal for starting your meal or simply savoring the warmth.",
         "items": [
           {
-            "name": "Tomato Soup",
-            "price": 10.95,
+            "name": "Premium Creamy Egg Drop Soup",
+            "price": 8.07,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Exquisite Mushroom Soup",
+            "price": 7.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -220,27 +229,18 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chicken Noodle Soup",
-            "price": 7.66,
+            "name": "Seasonal Creamy Cabbage Soup",
+            "price": 12.76,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Italian Wedding Soup",
-            "price": 12.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Corn Chowder",
-            "price": 12.22,
-            "isVegetarian": false,
+            "name": "House Special Crispy Vegetable Barley Soup",
+            "price": 11.05,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -250,11 +250,29 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Crisp and colorful salads that balance flavor, nutrition, and beautiful presentation.",
+        "description": "A blend of local and organic ingredients, thoughtfully combined for maximum flavor.",
         "items": [
           {
-            "name": "Caesar Salad",
-            "price": 12.34,
+            "name": "Waldorf Salad",
+            "price": 15.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Potato Salad",
+            "price": 11.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Southwest Black Bean Salad",
+            "price": 15.94,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -262,8 +280,8 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garden Salad",
-            "price": 12.45,
+            "name": "Watermelon Feta Salad",
+            "price": 15.09,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -272,25 +290,7 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Chickpea Salad",
-            "price": 11.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Greek Salad",
-            "price": 13.23,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lentil and Feta Salad",
-            "price": 14.7,
+            "price": 14.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -301,29 +301,11 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Crafted with the finest ingredients, our mains are a testament to our culinary philosophy.",
+        "description": "A journey through Italian flavors, expertly prepared and beautifully presented.",
         "items": [
           {
-            "name": "Fresh Sizzling Burrito",
-            "price": 27.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Spicy Tagine",
-            "price": 21.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Juicy Jambalaya",
-            "price": 25.32,
+            "name": "Fresh Pan-seared Korma",
+            "price": 25.13,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -331,35 +313,17 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Succulent Steak",
-            "price": 22.91,
+            "name": "House Special Grilled Enchiladas",
+            "price": 28.09,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Herbed Shish Kebabs",
-            "price": 20.08,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Marinated Vegetable Stir-Fry",
-            "price": 20.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Stuffed Grilled Chicken",
-            "price": 31.65,
+            "name": "Gourmet Smoked Lamb Chops",
+            "price": 20.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -367,10 +331,46 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "House Special Delectable Thai Curry",
-            "price": 25.2,
+            "name": "Fresh Satisfying Teriyaki Chicken",
+            "price": 22.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Smoked Roast Duck",
+            "price": 20.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Delectable Lentil Stew",
+            "price": 27.77,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Wholesome Biryani",
+            "price": 23.51,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Tangy Pesto Pasta",
+            "price": 31.54,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -379,11 +379,11 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
+        "description": "Coastal cuisine brought inland with clarity, freshness, and elegance.",
         "items": [
           {
-            "name": "Baked Cod with Lemon Caper Sauce",
-            "price": 22.42,
+            "name": "Handcrafted Spicy Grilled Lobster with Lemon Butter",
+            "price": 22.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,8 +391,8 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Cedar Plank Roasted Salmon",
-            "price": 32.3,
+            "name": "House Special Mouthwatering Oysters Rockefeller with Pernod Cream",
+            "price": 33.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,50 +400,59 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Grilled Spanish Octopus with Smoked Paprika",
-            "price": 27.18,
+            "name": "House Special Fried Prawn Curry in Coconut Masala",
+            "price": 25.67,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mussels Mariniere in White Wine",
-            "price": 22.41,
+            "name": "Traditional Flavorful Seafood Risotto with Saffron",
+            "price": 26.66,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Lobster Thermidor with Gruyère Crust",
-            "price": 31.49,
-            "isVegetarian": false,
+            "name": "Traditional Spiced Basa Fillet with Dill Cream Sauce",
+            "price": 29.6,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Flavorful companions that round out your meal with harmony and flair.",
+        "description": "Supportive elements that enhance and elevate the star of your plate.",
         "items": [
           {
-            "name": "Premium Tender Grilled Asparagus with Lemon Zest",
-            "price": 6.15,
+            "name": "Herbed Bulgur Wheat with Lemon",
+            "price": 8.93,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Mouthwatering Mashed Potatoes",
-            "price": 5.8,
+            "name": "Quinoa Pilaf with Herbs",
+            "price": 9.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crispy Zucchini Fritters",
+            "price": 9.84,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -451,8 +460,8 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Smoked Warm Buttermilk Dinner Rolls",
-            "price": 8.17,
+            "name": "Provencal Ratatouille",
+            "price": 7.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -460,59 +469,68 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Marinated French Fries",
-            "price": 9.16,
+            "name": "Charred Broccolini with Garlic Oil",
+            "price": 5.14,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Exquisite Baked Idaho Potato with Sour Cream",
-            "price": 7.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Creamy Sweet Corn and Cheddar Fritters",
-            "price": 9.96,
-            "isVegetarian": false,
+            "name": "Warm Buttermilk Dinner Rolls",
+            "price": 9.4,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Bright, invigorating options that cleanse the palate and refresh the spirit.",
+        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
         "items": [
           {
-            "name": "Coffee",
-            "price": 4.46,
+            "name": "Juice",
+            "price": 5.34,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 4.32,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 4.17,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 4.28,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 7.15,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 6.67,
+            "name": "Smoothie",
+            "price": 6.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -521,28 +539,10 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Tea",
-            "price": 4.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hot Chocolate",
-            "price": 6.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 6.82,
+            "price": 6.21,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,52 +552,52 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Indulge in our baked to perfection sweet creations",
+    "description": "Every dessert tells a classic story of flavor and craftsmanship",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Artisanal baked items showcasing skill, tradition, and a touch of creativity.",
+        "description": "From buttery croissants to hearty loaves, our baked goods are a celebration of flavor.",
         "items": [
           {
-            "name": "Apple Pie",
-            "price": 8.41,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Eclairs",
-            "price": 9.99,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baklava",
-            "price": 8.21,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Custard Tart",
-            "price": 9.55,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cupcakes",
-            "price": 8.44,
+            "name": "Muffins",
+            "price": 7.12,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cheesecake",
+            "price": 9.68,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pie",
+            "price": 9.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Galette",
+            "price": 9.7,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chocolate Chip Cookies",
+            "price": 9.72,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -607,38 +607,20 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "From rich gelatos to refreshing sorbets, our frozen desserts are a must-try.",
+        "description": "Smooth, rich frozen creations featuring local fruits and seasonal flavors.",
         "items": [
           {
-            "name": "Frozen Yogurt",
-            "price": 8.62,
+            "name": "Ice Cream",
+            "price": 8.71,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Snow Cone",
-            "price": 8.64,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sorbet",
-            "price": 10.38,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Cheesecake",
-            "price": 8.03,
+            "name": "Frozen Pudding",
+            "price": 11.05,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -646,8 +628,26 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Mousse",
-            "price": 9.14,
+            "name": "Baked Alaska",
+            "price": 9.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Sandwich",
+            "price": 7.86,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Cheesecake",
+            "price": 10.12,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -660,15 +660,15 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "From wines to spirits: refreshing choices for every palate",
+    "description": "Our bartenders' quality creations to complete your meal",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Crafted with care, our cocktails are a perfect pairing for any dish on our menu.",
+        "description": "Elevate your evening with our signature cocktails, each a unique expression of flavor.",
         "items": [
           {
-            "name": "Hearty Sizzling Manhattan",
-            "price": 15.34,
+            "name": "Mojito",
+            "price": 10.49,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -676,55 +676,55 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Luscious Bloody Mary",
-            "price": 12.24,
+            "name": "Mai Tai",
+            "price": 15.38,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Golden Cosmopolitan",
-            "price": 11.27,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Savory Negroni",
-            "price": 11.5,
+            "name": "Bloody Mary",
+            "price": 12.45,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 10.25,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Gourmet Grilled Mojito",
-            "price": 13.26,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Old Fashioned",
+            "price": 13.34,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Flaky Old Fashioned",
-            "price": 14.97,
+            "name": "Margarita",
+            "price": 11.48,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Wholesome Margarita",
-            "price": 10.34,
+            "name": "Manhattan",
+            "price": 13.39,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -733,11 +733,29 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "A spectrum of vintages and varietals—from structured reds to bright, crisp whites.",
+        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
         "items": [
           {
-            "name": "Organic Aromatic Syrah/Shiraz",
-            "price": 11.78,
+            "name": "Authentic Tender Cabernet Franc",
+            "price": 8.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Delicious Verdicchio",
+            "price": 11.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Crispy Chardonnay",
+            "price": 10.77,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -745,47 +763,29 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Sizzling Verdicchio",
-            "price": 9.71,
+            "name": "Homestyle Tangy Champagne/Sparkling Wine",
+            "price": 8.45,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Baked Roussanne",
+            "price": 13.62,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Fried Tempranillo",
-            "price": 8.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Crunchy Roussanne",
-            "price": 10.14,
+            "name": "Fresh Stuffed Syrah/Shiraz",
+            "price": 8.9,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Herbed Moscato",
-            "price": 12.49,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Zingy Pinot Noir",
-            "price": 9,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,29 +793,11 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Explore the depth of our spirits menu, where each pour is a discovery.",
+        "description": "Ideal for slow sipping or celebratory toasts—each bottle has a story.",
         "items": [
           {
-            "name": "Baileys Irish Cream",
-            "price": 13.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tequila",
-            "price": 10.21,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Drambuie",
-            "price": 11.41,
+            "name": "Fresh Delicious Frangelico",
+            "price": 14.02,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -823,8 +805,8 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pisco",
-            "price": 13.04,
+            "name": "Handcrafted Spiced Aquavit",
+            "price": 13.95,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -832,11 +814,29 @@ export const parisjapaneseBakeryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Rum",
-            "price": 11.76,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Gourmet Spiced Maraschino",
+            "price": 12.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Smoked Whiskey",
+            "price": 15.26,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Baked Grand Marnier",
+            "price": 15.33,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
