@@ -6,42 +6,24 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const kielkielWineBarMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Every plate tells a story of delicious Italian craftsmanship",
+    "description": "Discover our homestyle interpretation of classic Italian recipes",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Inspired by nature, mood, and season—our chef’s ever-evolving vision on a plate.",
+        "description": "A curated collection of our most iconic and requested plates, each a testament to our culinary excellence.",
         "items": [
           {
-            "name": "Handcrafted Grilled Seasonal Tasting Platter",
-            "price": 32.67,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Grilled Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 26.92,
+            "name": "Authentic Satisfying Signature Truffle Pasta with Aged Pecorino",
+            "price": 25.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Smoked Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 26.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Savory Executive Chef's Daily Inspiration Entrée",
-            "price": 37.9,
+            "name": "Fresh Sweet Chef's Special Surf and Turf",
+            "price": 30.19,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -49,8 +31,17 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Crunchy Wood-Fired Peking Duck with Plum Sauce",
-            "price": 25.78,
+            "name": "Fresh Crunchy Dry-Aged Tomahawk Steak",
+            "price": 28.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Satisfying Charcoal Grilled Iberico Pork",
+            "price": 36.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -58,17 +49,26 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Flaky Chef's Special Surf and Turf",
-            "price": 28.86,
-            "isVegetarian": true,
+            "name": "Seasonal Creamy Whole Roasted Heritage Chicken",
+            "price": 31.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Tangy Heritage Recipe Lamb Shank",
+            "price": 33.88,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Fried Heritage Recipe Lamb Shank",
-            "price": 29.63,
+            "name": "Fresh Luscious 24-Hour Braised Short Ribs",
+            "price": 29.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -79,38 +79,20 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "Crafted daily based on what’s freshest and most inspiring at the market.",
+        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
         "items": [
           {
-            "name": "Organic Creamy Crispy Skin Sea Bass",
-            "price": 31.07,
+            "name": "Sustainable Seafood Tower",
+            "price": 38.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Fresh Exquisite Chef's Tasting Menu Experience",
-            "price": 39.28,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Sweet Sous Vide Perfection with Molecular Gastronomy Elements",
-            "price": 29.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Marinated Volcanic Stone-Cooked Specialty",
-            "price": 38.03,
+            "name": "Daily Fresh Catch with Seasonal Accompaniments",
+            "price": 24.11,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -118,11 +100,29 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Aromatic High-End Ingredient Showcase",
-            "price": 36.68,
+            "name": "House Specialty Pasta Creation",
+            "price": 30.54,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Heritage Breed Porchetta",
+            "price": 30.19,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Custom Tasting Menu Based on Guest Preferences",
+            "price": 25.95,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,65 +130,29 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Flavor-forward starters that introduce our approach to Italian with balance and creativity.",
+        "description": "A delightful array of appetizers that highlight the best of Italian flavors—perfect for sharing or enjoying solo.",
         "items": [
           {
-            "name": "Fresh Luscious Sweet Potato Fries",
-            "price": 13.03,
+            "name": "Fresh Creamy Stuffed Avocado",
+            "price": 8.79,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Roasted Arancini",
-            "price": 10.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Smoked Garlic Bread",
-            "price": 12.06,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Steamed Bruschetta",
-            "price": 10.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Tender Chicken Satay",
-            "price": 9.35,
+            "name": "Authentic Golden Stuffed Jalapeños",
+            "price": 10.2,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Classic Crunchy Calamari",
-            "price": 8.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Luscious Stuffed Peppers",
-            "price": 14.39,
+            "name": "Gourmet Enticing Dumplings",
+            "price": 15.04,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -196,9 +160,45 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Zesty Tzatziki with Pita",
-            "price": 15.6,
+            "name": "Authentic Grilled Mini Crab Cakes",
+            "price": 10.52,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Creamy Cheese Platter",
+            "price": 13.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Smoked Tuna Tartare",
+            "price": 13.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Flavorful Nachos",
+            "price": 10.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Delectable Tempura",
+            "price": 9.92,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -208,11 +208,20 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "A warm, flavorful embrace in every bowl—crafted for nourishment and satisfaction.",
+        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
         "items": [
           {
-            "name": "Seasonal Savory Corn Chowder",
-            "price": 9.85,
+            "name": "Borscht",
+            "price": 12.31,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Split Pea Soup",
+            "price": 9.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -220,8 +229,8 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Mouthwatering Italian Wedding Soup",
-            "price": 12.16,
+            "name": "Peanut Soup (West African)",
+            "price": 11.29,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -229,59 +238,32 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Zingy Avgolemono (Greek Lemon Soup)",
-            "price": 11.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Grilled Miso Soup",
-            "price": 13.02,
+            "name": "Chicken Corn Soup",
+            "price": 12.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Salads",
-        "description": "Wholesome creations that blend crunch, freshness, and house-crafted dressings.",
+        "description": "Lively salads combining texture, temperature, and taste for a refreshing start or light meal.",
         "items": [
           {
-            "name": "Fruit Salad",
-            "price": 11.83,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Garden Salad",
+            "price": 10.55,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Kale Salad",
-            "price": 14.56,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Broccoli Crunch Salad",
-            "price": 14.34,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beet Salad",
-            "price": 11.3,
+            "price": 12.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -289,9 +271,27 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Asian Slaw",
-            "price": 13.31,
+            "name": "Orzo Salad",
+            "price": 11.07,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Farro Salad",
+            "price": 15.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tabbouleh",
+            "price": 9.54,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -301,29 +301,56 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Thoughtfully prepared mains that offer comfort, complexity, and satisfaction.",
+        "description": "Culinary centerpieces that define the essence of our dining experience.",
         "items": [
           {
-            "name": "Traditional Creamy Jambalaya",
-            "price": 26.62,
-            "isVegetarian": false,
+            "name": "Gnocchi",
+            "price": 27.2,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Herbed Lamb Chops",
-            "price": 29.58,
+            "name": "Steak",
+            "price": 23.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Lamb Chops",
+            "price": 24.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Vegetable Stir-Fry",
+            "price": 19.34,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Tangy Paella",
-            "price": 19.01,
+            "name": "Mac and Cheese",
+            "price": 18.76,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fish and Chips",
+            "price": 30.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -331,8 +358,8 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Deluxe Roasted Cottage Pie",
-            "price": 29.56,
+            "name": "Burrito",
+            "price": 26.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -340,39 +367,12 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Crunchy Thai Curry",
-            "price": 21.62,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Creamy Tacos",
-            "price": 31.62,
+            "name": "Chili con Carne",
+            "price": 30.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Luscious Spaghetti Bolognese",
-            "price": 20.47,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Pan-seared Beef Wellington",
-            "price": 25.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -382,17 +382,8 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
         "description": "From the sea to your plate—each dish is a tribute to the ocean’s bounty.",
         "items": [
           {
-            "name": "Oysters Rockefeller with Pernod Cream",
-            "price": 22.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seafood Alfredo with Spinach Fettuccine",
-            "price": 22.79,
+            "name": "Stuffed Flounder with Crab and Spinach",
+            "price": 35.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,59 +391,50 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seafood Risotto with Saffron",
-            "price": 24.75,
+            "name": "Alaskan King Crab Legs with Drawn Butter",
+            "price": 27.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Grilled Swordfish with Mango Chutney",
+            "price": 32.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Garlic Butter Shrimp Skillet",
-            "price": 33.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Pan-Seared Scallops with Pea Purée",
-            "price": 30.19,
-            "isVegetarian": false,
+            "name": "Traditional Provençal Bouillabaisse",
+            "price": 32.58,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Classic British Fish and Chips",
+            "price": 32.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Flavorful companions that round out your meal with harmony and flair.",
+        "description": "Supportive elements that enhance and elevate the star of your plate.",
         "items": [
           {
-            "name": "Fresh Marinated Baked Idaho Potato with Sour Cream",
-            "price": 8.69,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Juicy Mashed Potatoes",
-            "price": 6.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Wholesome Macaroni and Aged Cheddar",
-            "price": 9.32,
+            "name": "Macaroni and Aged Cheddar",
+            "price": 8.95,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -460,29 +442,47 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Zingy French Fries",
-            "price": 7.57,
-            "isVegetarian": false,
+            "name": "Sweet Potato Wedges with Smoked Paprika",
+            "price": 6.5,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Roasted Green Beans Almondine",
-            "price": 7.72,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "name": "French Fries",
+            "price": 6.02,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Aromatic Sweet Potato Wedges with Smoked Paprika",
-            "price": 6.09,
-            "isVegetarian": false,
+            "name": "Roasted Root Vegetables",
+            "price": 8.06,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Israeli Couscous with Roasted Tomatoes",
+            "price": 7.47,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crispy Zucchini Fritters",
+            "price": 6.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -493,17 +493,44 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
         "description": "Refreshing selections ranging from house-made sodas to premium juices.",
         "items": [
           {
-            "name": "Soda",
-            "price": 6.57,
+            "name": "Fresh Juicy Lemonade",
+            "price": 4.18,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Satisfying Coffee",
+            "price": 6.58,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Spiced Hot Chocolate",
+            "price": 6.4,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Tangy Juice",
+            "price": 5.26,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coffee",
-            "price": 6.45,
+            "name": "Classic Roasted Milkshake",
+            "price": 5.44,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -511,36 +538,9 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Iced Tea",
-            "price": 6.01,
+            "name": "Homestyle Zingy Soda",
+            "price": 4.11,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 7.3,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 5.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 6.89,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -552,15 +552,24 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Indulge in our freshly prepared sweet creations",
+    "description": "Our mouthwatering dessert offerings crafted with the finest ingredients",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
+        "description": "From buttery croissants to hearty loaves, our baked goods are a celebration of flavor.",
         "items": [
           {
-            "name": "Berry Tart",
-            "price": 10.62,
+            "name": "Fresh Crunchy Danish Pastries",
+            "price": 8.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Tender Berry Tart",
+            "price": 8.23,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -568,8 +577,17 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Red Velvet Cake",
-            "price": 10.53,
+            "name": "Authentic Smoked Croissants",
+            "price": 9.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Smoked Scones",
+            "price": 6.39,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -577,50 +595,23 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Scones",
-            "price": 7.98,
+            "name": "Authentic Marinated Fruit Galette",
+            "price": 6.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sticky Toffee Pudding",
-            "price": 6.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Donuts",
-            "price": 6.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Frozen Desserts",
-        "description": "From rich gelatos to refreshing sorbets, our frozen desserts are a must-try.",
+        "description": "Handmade with care, our frozen desserts are a celebration of texture and taste.",
         "items": [
           {
-            "name": "Fresh Pan-seared Frozen Cheesecake",
-            "price": 9.88,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Crispy Sherbet",
-            "price": 7.25,
+            "name": "Frosty",
+            "price": 11.48,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -628,17 +619,17 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Fried Frosty",
-            "price": 10.05,
-            "isVegetarian": true,
+            "name": "Paletas",
+            "price": 9.62,
+            "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Spiced Frozen Pie",
-            "price": 10.17,
+            "name": "Ice Cream Cake",
+            "price": 9.14,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -646,9 +637,18 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Spicy Ice Cream Cake",
-            "price": 10.54,
-            "isVegetarian": false,
+            "name": "Frozen Pie",
+            "price": 9.57,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gelato",
+            "price": 11.57,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -660,51 +660,42 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Indulge in our fine drinks menu crafted to accentuate flavors",
+    "description": "Our bar showcases inviting spirits from around the globe",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
+        "description": "Sophisticated beverages with depth, character, and a dash of creativity.",
         "items": [
           {
-            "name": "Negroni",
-            "price": 11.58,
-            "isVegetarian": true,
+            "name": "Manhattan",
+            "price": 11.28,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 11.56,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 13.38,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Mai Tai",
-            "price": 12.47,
-            "isVegetarian": true,
-            "isVegan": true,
+            "price": 11.4,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 15.11,
+            "name": "Martini",
+            "price": 10.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 15.28,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -713,19 +704,28 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
           },
           {
             "name": "Margarita",
-            "price": 14.22,
-            "isVegetarian": true,
+            "price": 14.99,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 14.67,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Old Fashioned",
+            "price": 13.54,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 10.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,89 +733,71 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "New World energy meets Old World elegance in our diverse selection.",
+        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
         "items": [
           {
-            "name": "Traditional Sautéed Riesling",
-            "price": 9.19,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Aromatic Sauvignon Blanc",
-            "price": 11.75,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Hearty Fiano",
-            "price": 13.46,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Appetizing Chenin Blanc",
-            "price": 12.19,
+            "name": "Gourmet Grilled Chardonnay",
+            "price": 10.21,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Baked Merlot",
+            "price": 13.11,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Wholesome Petit Verdot",
+            "price": 9.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Authentic Flaky Gamay",
-            "price": 8.94,
+            "name": "Organic Crunchy Cabernet Franc",
+            "price": 8.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Herbed Tempranillo",
+            "price": 13.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Fried Sémillon",
+            "price": 9.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Pan-seared Petit Verdot",
-            "price": 9.08,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "A thoughtful balance of classic favorites and rare, small-batch discoveries.",
+        "description": "Crafted for those who appreciate the art of distillation—each pour is a journey.",
         "items": [
           {
-            "name": "Deluxe Sweet Kahlúa",
-            "price": 10.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Zingy Frangelico",
-            "price": 14.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Aromatic Gin",
-            "price": 16.65,
+            "name": "Hearty Grilled Grand Marnier",
+            "price": 15.72,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -823,19 +805,37 @@ export const kielkielWineBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Savory Chambord",
-            "price": 11.56,
-            "isVegetarian": false,
+            "name": "Traditional Succulent Midori",
+            "price": 14.4,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Seasonal Grilled Cognac",
-            "price": 16.91,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Hearty Aromatic Coffee Liqueur",
+            "price": 11.16,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Zingy Campari",
+            "price": 10.77,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Succulent Drambuie",
+            "price": 10.37,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true

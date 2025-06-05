@@ -6,33 +6,42 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const kielmarineFishHouseMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Handcrafted with intention—our most hearty Mediterranean menu yet",
+    "description": "Explore bold and delicious twists on beloved Mediterranean staples",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "A curated collection of our most iconic and requested plates.",
+        "description": "Our chef's pride—carefully selected Mediterranean specialties that define our culinary identity, honed through years of experience and passion.",
         "items": [
           {
-            "name": "Flambéed Tableside Specialty",
-            "price": 26.63,
+            "name": "Captain's Favorite Seafood Tower",
+            "price": 25.98,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Chef's Special Surf and Turf",
-            "price": 25.34,
-            "isVegetarian": false,
+            "price": 36.3,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Secret Recipe Bouillabaisse",
-            "price": 32.93,
+            "name": "Chef's Childhood Inspired Creation",
+            "price": 26.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Tasting Platter",
+            "price": 24.06,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -40,68 +49,50 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Award-Winning Seafood Boil",
-            "price": 32.44,
+            "name": "Flambéed Tableside Specialty",
+            "price": 25.93,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 24.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 35.35,
+            "name": "24-Hour Braised Short Ribs",
+            "price": 29.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Black Garlic Glazed Beef Tenderloin",
+            "price": 25.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Whole Roasted Heritage Chicken",
-            "price": 25.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "Unique culinary compositions that rotate frequently to keep each visit fresh and surprising.",
+        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
         "items": [
           {
-            "name": "Fresh Juicy Live-Fire Grilled Feature",
-            "price": 30.66,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Herbed Heirloom Recipe from Chef's Family",
-            "price": 28.95,
-            "isVegetarian": true,
+            "name": "Dry-Aged Prime Beef Selection",
+            "price": 34.19,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Seasonal Mouthwatering Hand-Selected Wine Pairing Experience",
-            "price": 24.69,
+            "name": "Tableside Prepared Tartare",
+            "price": 31.29,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -109,18 +100,27 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Luscious Tasting of Local Artisanal Cheeses",
-            "price": 28.48,
+            "name": "Pan-Seared Scallops with Citrus Beurre Blanc",
+            "price": 38.21,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Enticing Wild Mushroom Risotto",
-            "price": 37.15,
+            "name": "Tomahawk Ribeye for Two",
+            "price": 39.01,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Live-Fire Grilled Feature",
+            "price": 38.66,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -130,77 +130,77 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Crafted to excite the palate, our starters are a perfect introduction to the world of Mediterranean.",
+        "description": "A selection of Mediterranean starters that blend tradition with modern flair, perfect for sharing or savoring solo.",
         "items": [
           {
-            "name": "Meatballs",
-            "price": 9.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Sweet Potato Fries",
-            "price": 12.1,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cheese Nachos",
-            "price": 10.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Prawn Toast",
-            "price": 8.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Chicken Satay",
-            "price": 12.83,
+            "price": 12.79,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Mini Sliders",
-            "price": 13.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baba Ganoush",
-            "price": 13.06,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Baked Brie",
-            "price": 15.88,
+            "price": 9.72,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Dumplings",
+            "price": 8.7,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Stuffed Avocado",
+            "price": 15.57,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mozzarella Sticks",
+            "price": 15.07,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caprese Salad",
+            "price": 11.33,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tempura",
+            "price": 14.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cheese Nachos",
+            "price": 11.56,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -208,20 +208,11 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Classic and modern takes on soup that reflect our culinary roots and creative spirit.",
+        "description": "Each bowl is a journey through the heart of Mediterranean, crafted with care and expertise.",
         "items": [
           {
-            "name": "Homestyle Flaky Butternut Squash Soup",
-            "price": 9.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Sautéed Corn Chowder",
-            "price": 9.24,
+            "name": "House Special Exquisite French Onion Soup",
+            "price": 7.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -229,17 +220,26 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Grilled Avgolemono (Greek Lemon Soup)",
-            "price": 11.98,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Authentic Tangy Pho",
+            "price": 7.24,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Irresistible Miso Soup",
-            "price": 7.13,
+            "name": "Deluxe Tangy Chicken Noodle Soup",
+            "price": 12.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Zingy Mushroom Soup",
+            "price": 7.77,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -250,11 +250,29 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Light, clean, and energizing—each salad is a visual and flavorful delight.",
+        "description": "From classic combinations to innovative creations, our salads are a feast for the senses.",
         "items": [
           {
-            "name": "Nicoise Salad",
-            "price": 11.22,
+            "name": "Watermelon Feta Salad",
+            "price": 13.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Greek Salad",
+            "price": 15.96,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Orzo Salad",
+            "price": 15.97,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -262,9 +280,9 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Caprese Salad",
-            "price": 14.3,
-            "isVegetarian": true,
+            "name": "Cucumber Salad",
+            "price": 10.13,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -272,28 +290,10 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
           },
           {
             "name": "Cobb Salad",
-            "price": 10.2,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Waldorf Salad",
-            "price": 15.28,
+            "price": 11.28,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Watermelon Feta Salad",
-            "price": 11.88,
-            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,47 +301,20 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From farm to table, our mains are a reflection of our commitment to quality and flavor.",
+        "description": "Timeless classics and innovative creations that highlight the best of Mediterranean.",
         "items": [
           {
-            "name": "Pho",
-            "price": 26.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Eggplant Parmesan",
-            "price": 19.9,
+            "name": "Deluxe Steamed Tacos",
+            "price": 18.4,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Risotto",
-            "price": 23.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Quiche",
-            "price": 30.71,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spaghetti Bolognese",
-            "price": 21.53,
+            "name": "Seasonal Irresistible Korma",
+            "price": 27.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -349,17 +322,44 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Shish Kebabs",
-            "price": 21.6,
-            "isVegetarian": false,
+            "name": "Gourmet Baked Fajitas",
+            "price": 23.85,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Teriyaki Chicken",
-            "price": 21.82,
+            "name": "Deluxe Flavorful Jambalaya",
+            "price": 31.97,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Sizzling Katsu Curry",
+            "price": 31.68,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Marinated Beef Wellington",
+            "price": 21.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Delectable Grilled Chicken",
+            "price": 21.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -367,11 +367,11 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Salmon",
-            "price": 28.37,
+            "name": "Deluxe Mouthwatering Fish and Chips",
+            "price": 29.08,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           }
@@ -379,11 +379,38 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "A celebration of the sea, featuring seasonal catches and artisanal techniques.",
+        "description": "Coastal cuisine brought inland with clarity, freshness, and elegance.",
         "items": [
           {
-            "name": "Gourmet Sautéed Grilled Swordfish with Mango Chutney",
-            "price": 29.04,
+            "name": "Oysters Rockefeller with Pernod Cream",
+            "price": 29.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Blackened Mahi-Mahi with Pineapple Salsa",
+            "price": 24.3,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Italian Cioppino",
+            "price": 24.48,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Maryland Style Crab Cakes",
+            "price": 22.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,97 +418,70 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "House Special Zingy Pan-Seared Scallops with Pea Purée",
-            "price": 30.74,
+            "name": "Grilled Swordfish with Mango Chutney",
+            "price": 28.56,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Savory New England Lobster Roll",
-            "price": 32.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Mouthwatering Shrimp Scampi over Linguine",
-            "price": 31.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Sweet Basa Fillet with Dill Cream Sauce",
-            "price": 34.16,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Flavor-packed sides made to share—or keep all to yourself.",
+        "description": "Supportive elements that enhance and elevate the star of your plate.",
         "items": [
           {
             "name": "Sweet Potato Wedges with Smoked Paprika",
-            "price": 6.31,
+            "price": 7.57,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Stuffed Bell Peppers with Brown Rice",
+            "price": 7.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Israeli Couscous with Roasted Tomatoes",
+            "price": 8.48,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Wild Rice Pilaf",
+            "price": 7.9,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Roasted Root Vegetables",
-            "price": 8.27,
-            "isVegetarian": false,
+            "name": "Creamy Colcannon (Irish Potato Mash)",
+            "price": 7.73,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Crispy Beer-Battered Onion Rings",
-            "price": 5.33,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Scalloped Potatoes with Thyme",
-            "price": 5.28,
+            "name": "Sweet Corn and Cheddar Fritters",
+            "price": 9.04,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "French Fries",
-            "price": 5.21,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Green Beans Almondine",
-            "price": 8.66,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -490,47 +490,47 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Handcrafted drinks designed to hydrate and delight—no spirits necessary.",
+        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
         "items": [
           {
-            "name": "Coffee",
-            "price": 6.89,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soda",
-            "price": 6.89,
+            "name": "Handcrafted Flaky Water",
+            "price": 4.17,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Smoothie",
-            "price": 6.61,
+            "name": "Hearty Creamy Tea",
+            "price": 4.18,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hot Chocolate",
-            "price": 6.97,
-            "isVegetarian": true,
+            "name": "Handcrafted Creamy Iced Tea",
+            "price": 4.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Herbed Coffee",
+            "price": 4.34,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 7.84,
+            "name": "Fresh Zingy Juice",
+            "price": 6.95,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -538,11 +538,11 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lemonade",
-            "price": 4.48,
+            "name": "Organic Savory Lemonade",
+            "price": 6.48,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,15 +552,15 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "From classics to signatures: baked to perfection desserts for every taste",
+    "description": "Handcrafted warm desserts that celebrate Mediterranean traditions",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Pastries, breads, and treats prepared in-house using classic and modern methods.",
+        "description": "From flaky pastries to hearty breads, our baked goods are a must-try.",
         "items": [
           {
-            "name": "Berry Tart",
-            "price": 7.14,
+            "name": "Homestyle Marinated Pecan Pie",
+            "price": 6.35,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -568,38 +568,38 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cobbler",
-            "price": 8.85,
+            "name": "Gourmet Grilled Soufflé",
+            "price": 6.69,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Delicious Strawberry Shortcake",
+            "price": 7.02,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Satisfying Biscotti",
+            "price": 9.56,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tiramisu",
-            "price": 7.01,
+            "name": "Organic Sizzling Macarons",
+            "price": 9.92,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Portuguese Custard Tarts",
-            "price": 9.26,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Custard Tart",
-            "price": 10.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -607,38 +607,29 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Icy, sweet finishes with flavor that lingers beyond the chill.",
+        "description": "From creamy gelato to fruity sorbet, our frozen desserts are a must-try.",
         "items": [
           {
-            "name": "House Special Herbed Frozen Yogurt",
-            "price": 11.74,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Flavorful Sorbet",
-            "price": 9.18,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Irresistible Paletas",
+            "name": "House Special Golden Frosty",
             "price": 8.8,
-            "isVegetarian": false,
-            "isVegan": true,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Flaky Frozen Mousse",
-            "price": 7.56,
+            "name": "Traditional Crispy Granita",
+            "price": 7.41,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Delectable Frozen Pie",
+            "price": 8.3,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -646,11 +637,20 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Stuffed Frozen Custard",
-            "price": 10.44,
+            "name": "Deluxe Stuffed Frozen Banana",
+            "price": 7.53,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Satisfying Sherbet",
+            "price": 8.09,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,51 +660,24 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Mediterranean-inspired drinks and classic favorites in our inviting selection",
+    "description": "From wines to spirits: fine choices for every palate",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Crafted with precision, our cocktails are designed to elevate your dining experience.",
+        "description": "Sophisticated beverages with depth, character, and a dash of creativity.",
         "items": [
           {
-            "name": "Old Fashioned",
-            "price": 12.87,
+            "name": "Homestyle Golden Manhattan",
+            "price": 10.67,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 12.5,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 14.93,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 13.48,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 14.18,
+            "name": "Homestyle Spicy Bloody Mary",
+            "price": 12.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -712,8 +685,26 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 12.82,
+            "name": "Fresh Sizzling Margarita",
+            "price": 12.83,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Crunchy Mai Tai",
+            "price": 14.87,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Appetizing Whiskey Sour",
+            "price": 12.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -721,13 +712,22 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 13.25,
+            "name": "Seasonal Herbed Martini",
+            "price": 15.77,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Authentic Zingy Negroni",
+            "price": 14.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -736,17 +736,8 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
         "description": "An expertly curated wine list featuring standout bottles from around the globe.",
         "items": [
           {
-            "name": "Verdicchio",
-            "price": 13.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Prosecco",
-            "price": 13.98,
+            "name": "Nebbiolo",
+            "price": 12.93,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -754,17 +745,8 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grenache",
-            "price": 11.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Moscato",
-            "price": 13.62,
+            "name": "Gamay",
+            "price": 10.23,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -772,19 +754,37 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Vouvray",
-            "price": 9.53,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Sémillon",
+            "price": 11.38,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vermentino",
+            "price": 13.69,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chardonnay",
-            "price": 11.8,
+            "name": "Prosecco",
+            "price": 11.85,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sangiovese",
+            "price": 10.97,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -793,20 +793,29 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "A thoughtful balance of classic favorites and rare, small-batch discoveries.",
+        "description": "From classic spirits to rare finds, our collection is a journey through flavor.",
         "items": [
           {
-            "name": "Vodka",
-            "price": 13.53,
+            "name": "Amaretto",
+            "price": 10.31,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Galliano",
+            "price": 11.98,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Kahlúa",
-            "price": 10.7,
+            "name": "Tequila",
+            "price": 16.14,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -814,28 +823,19 @@ export const kielmarineFishHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Rum",
-            "price": 16.21,
-            "isVegetarian": true,
+            "name": "Bénédictine",
+            "price": 15.82,
+            "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Absinthe",
-            "price": 12.11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Triple Sec",
-            "price": 15.76,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Cognac",
+            "price": 14.55,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true

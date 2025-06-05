@@ -1,29 +1,20 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for Cruise Gate Tea House in kiel
+ * Menu data for Lighthouse Taproom in kiel
  */
-export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
+export const kiellighthouseTaproomMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Chef-selected delicious offerings highlighting Scandinavian culinary heritage",
+    "description": "Timeless tastes, elevated by our comforting approach to Italian",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
+        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
         "items": [
           {
-            "name": "Seasonal Tasting Menu Experience",
-            "price": 34.22,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Molecular Gastronomy Showcase Tasting",
-            "price": 24.88,
+            "name": "Chef's Special Surf and Turf",
+            "price": 25.12,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -31,8 +22,26 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Flambéed Tableside Specialty",
-            "price": 28.61,
+            "name": "House Famous Duck Confit",
+            "price": 33.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Signature Truffle Pasta with Aged Pecorino",
+            "price": 25.41,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Award-Winning Seafood Boil",
+            "price": 32.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -40,8 +49,8 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "House Famous Duck Confit",
-            "price": 37.49,
+            "name": "Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 35.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -49,17 +58,8 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Award-Winning Seafood Boil",
-            "price": 35.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 25.89,
+            "name": "Traditional Family Paella",
+            "price": 30.98,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -67,11 +67,11 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef’s Wild Game Selection",
-            "price": 30.6,
-            "isVegetarian": true,
+            "name": "Local Bounty Harvest Plate (Vegetarian)",
+            "price": 27.78,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -79,49 +79,49 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
+        "description": "Unique culinary compositions that rotate frequently to keep each visit fresh and surprising.",
         "items": [
           {
-            "name": "Sous Vide Pork Tenderloin",
-            "price": 30.68,
+            "name": "Authentic Succulent Locally Foraged Mushroom Selection",
+            "price": 37.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Mouthwatering Smoked and Slow-Roasted Heritage Meat",
+            "price": 34.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Zingy Truffle-Infused Filet Mignon",
+            "price": 39.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Deconstructed Classic with Modern Technique",
-            "price": 30.37,
-            "isVegetarian": false,
+            "name": "Hearty Flavorful Freshly Harvested Seasonal Creation",
+            "price": 33.47,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Aged and House-Cured Charcuterie Selection",
-            "price": 24.45,
-            "isVegetarian": false,
+            "name": "Gourmet Pan-seared Chef's Tasting Menu Experience",
+            "price": 39.95,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Lobster Thermidor",
-            "price": 29.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Chef's Tasting Menu Experience",
-            "price": 33.58,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -130,47 +130,29 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "A selection of Scandinavian starters that blend tradition with modern flair, perfect for sharing or savoring solo.",
+        "description": "Small bites designed to awaken your senses and set the tone for your dining journey.",
         "items": [
           {
-            "name": "Organic Steamed Dumplings",
-            "price": 11.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Exquisite Mini Empanadas",
-            "price": 12.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Irresistible Bruschetta",
-            "price": 10.22,
+            "name": "Bruschetta",
+            "price": 8.53,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Marinated Mozzarella Sticks",
-            "price": 15.68,
-            "isVegetarian": false,
+            "name": "Spinach Artichoke Dip",
+            "price": 8.09,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Stuffed Shrimp Cocktail",
-            "price": 13.55,
+            "name": "Calamari",
+            "price": 11.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -178,17 +160,8 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Organic Flaky Prawn Toast",
-            "price": 10.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Wholesome Potato Skins",
-            "price": 12.33,
+            "name": "Tempura",
+            "price": 12.46,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -196,41 +169,8 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Crispy Garlic Knots",
-            "price": 14.23,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Soups",
-        "description": "A warm, flavorful embrace in every bowl—crafted for nourishment and satisfaction.",
-        "items": [
-          {
-            "name": "Homestyle Delectable Miso Soup",
-            "price": 10.43,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Sautéed Minestrone",
-            "price": 7.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Spiced Pumpkin Soup",
-            "price": 11.93,
+            "name": "Arancini",
+            "price": 9.06,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -238,11 +178,71 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Exquisite Black Bean Soup",
-            "price": 11.01,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Samosas",
+            "price": 11.51,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mini Empanadas",
+            "price": 10.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Meatballs",
+            "price": 15.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Soups",
+        "description": "From light broths to hearty stews, our soups are a comforting embrace in every spoonful.",
+        "items": [
+          {
+            "name": "Premium Comforting Peanut Soup (West African)",
+            "price": 9.25,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Mushroom Soup",
+            "price": 8.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Spiced Broccoli Cheddar Soup",
+            "price": 11.29,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Stuffed Thai Coconut Soup",
+            "price": 7.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -250,11 +250,29 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Crafted with care, our salads are a celebration of freshness and flavor.",
+        "description": "Wholesome creations that blend crunch, freshness, and house-crafted dressings.",
         "items": [
           {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 12.29,
+            "name": "Fruit Salad",
+            "price": 14.96,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mediterranean Chopped Salad",
+            "price": 14.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Arugula Salad",
+            "price": 9.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -263,37 +281,19 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
           },
           {
             "name": "Nicoise Salad",
-            "price": 14.25,
-            "isVegetarian": false,
+            "price": 10.55,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Waldorf Salad",
-            "price": 14.69,
+            "name": "Watermelon Feta Salad",
+            "price": 9.71,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fruit Salad",
-            "price": 10.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Asian Slaw",
-            "price": 10.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,158 +301,29 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From classic to contemporary, our mains are a celebration of Scandinavian culture.",
+        "description": "Signature entrées crafted with precision, embodying the core of our Italian vision.",
         "items": [
           {
-            "name": "Lamb Chops",
-            "price": 18.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Pho",
-            "price": 24.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Steak",
-            "price": 22.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Tagine",
-            "price": 24.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Katsu Curry",
-            "price": 20.14,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tacos",
-            "price": 20.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Paella",
-            "price": 25.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Chicken",
-            "price": 19.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Seafood Specialties",
-        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
-        "items": [
-          {
-            "name": "Premium Smoked Traditional Provençal Bouillabaisse",
-            "price": 35.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Grilled Lemon-Herb Calamari Steak",
-            "price": 25.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Delectable Tempura Soft Shell Crab",
-            "price": 28.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Spiced Grilled Lobster with Lemon Butter",
-            "price": 24.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Fried Cedar Plank Roasted Salmon",
-            "price": 22.57,
+            "name": "Homestyle Grilled Steak",
+            "price": 29.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "description": "Classic Scandinavian side dishes with our own unique interpretation.",
-        "items": [
-          {
-            "name": "Sweet Potato Wedges with Smoked Paprika",
-            "price": 9.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
           },
           {
-            "name": "Cauliflower Gratin with Gruyère",
-            "price": 5.29,
+            "name": "Authentic Delicious Pesto Pasta",
+            "price": 19.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Yukon Gold Potato Gratin",
-            "price": 8.46,
+            "name": "Traditional Exquisite Shish Kebabs",
+            "price": 18.61,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -460,28 +331,157 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Charred Broccolini with Garlic Oil",
-            "price": 6.28,
+            "name": "Handcrafted Smoked Moussaka",
+            "price": 29.22,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Flavorful Pizza",
+            "price": 28.44,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Roasted Coq au Vin",
+            "price": 21.58,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Golden Seafood Platter",
+            "price": 23.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Grilled Cottage Pie",
+            "price": 26.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "description": "From raw bar delicacies to grilled perfection—our tribute to the ocean.",
+        "items": [
+          {
+            "name": "Hearty Juicy Grilled Lobster with Lemon Butter",
+            "price": 27.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Spicy Steamed Littleneck Clams in Garlic Broth",
+            "price": 26.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Pan-seared Valencian Seafood Paella",
+            "price": 25.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Delectable Stuffed Flounder with Crab and Spinach",
+            "price": 26.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Baked Grilled Spanish Octopus with Smoked Paprika",
+            "price": 34.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "description": "Flavorful companions that round out your meal with harmony and flair.",
+        "items": [
+          {
+            "name": "Roasted Root Vegetables",
+            "price": 6.39,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Maple-Glazed Baby Carrots",
-            "price": 7.84,
+            "name": "Buttered Egg Noodles",
+            "price": 6.97,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Grilled Asparagus with Lemon Zest",
-            "price": 7.16,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Warm Buttermilk Dinner Rolls",
+            "price": 6.43,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Creamed Spinach with Nutmeg",
+            "price": 9.19,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Corn on the Cob with Chili Lime Butter",
+            "price": 7.12,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soft Polenta with Parmesan",
+            "price": 7.1,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -490,56 +490,56 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Handcrafted drinks designed to hydrate and delight—no spirits necessary.",
+        "description": "Bright and revitalizing beverages for all ages and preferences.",
         "items": [
           {
-            "name": "Juice",
-            "price": 4.32,
-            "isVegetarian": false,
+            "name": "Fresh Tangy Water",
+            "price": 4.54,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 5.48,
+            "name": "Homestyle Roasted Juice",
+            "price": 7.11,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Smoothie",
-            "price": 6.58,
+            "name": "Authentic Zesty Lemonade",
+            "price": 7.61,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Delicious Coffee",
+            "price": 4.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Succulent Iced Tea",
+            "price": 6.96,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Iced Tea",
-            "price": 4.64,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 6.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 4.57,
+            "name": "Classic Braised Hot Chocolate",
+            "price": 6.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -552,15 +552,15 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Decadent or delicate – our homemade desserts cater to every preference",
+    "description": "Handcrafted baked to perfection desserts that celebrate Italian traditions",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Perfectly baked goods that pair beautifully with our beverages or stand alone.",
+        "description": "Comforting, handmade goods perfect for breakfast, dessert, or anytime in between.",
         "items": [
           {
-            "name": "Premium Hearty Apple Pie",
-            "price": 9.68,
+            "name": "Pecan Pie",
+            "price": 10.65,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,17 +568,8 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Aromatic Cannoli",
-            "price": 7.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Mouthwatering Soufflé",
-            "price": 10.74,
+            "name": "Eclairs",
+            "price": 8.48,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -586,18 +577,27 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Creamy Cinnamon Rolls",
-            "price": 9.6,
+            "name": "Tiramisu",
+            "price": 6.83,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sticky Toffee Pudding",
+            "price": 10.86,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Golden Strawberry Shortcake",
-            "price": 10.99,
-            "isVegetarian": false,
+            "name": "Shortbread",
+            "price": 10.47,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -607,11 +607,38 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "The ultimate way to cool off and indulge—delicate, creamy, and unforgettable.",
+        "description": "A delightful way to end your meal—cool, creamy, and bursting with flavor.",
         "items": [
           {
-            "name": "Ice Cream",
-            "price": 7.02,
+            "name": "Premium Baked Ice Cream Cake",
+            "price": 7.77,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Golden Frosty",
+            "price": 10.59,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Satisfying Frozen Cheesecake",
+            "price": 10.16,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Golden Semifreddo",
+            "price": 11.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,39 +646,12 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gelato",
-            "price": 10.04,
+            "name": "Authentic Flaky Frozen Fruit Bars",
+            "price": 9.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Snow Cone",
-            "price": 9.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Pie",
-            "price": 8.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ice Cream Cake",
-            "price": 8.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -660,15 +660,24 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A flavorful cocktail lineup featuring house infusions and classic techniques",
+    "description": "Enjoy easygoing cocktails designed to pair effortlessly with our seasonal menu",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "From reinvented classics to bold new creations, every glass is an experience.",
+        "description": "Crafted with care, our cocktails are a perfect pairing for any dish on our menu.",
         "items": [
           {
-            "name": "Negroni",
-            "price": 10.94,
+            "name": "Mai Tai",
+            "price": 12.68,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 10.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -677,7 +686,7 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
           },
           {
             "name": "Bloody Mary",
-            "price": 13.95,
+            "price": 13.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -685,8 +694,17 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 14.46,
+            "name": "Manhattan",
+            "price": 13.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 12.68,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -695,35 +713,17 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
           },
           {
             "name": "Cosmopolitan",
-            "price": 12.3,
+            "price": 14.49,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Old Fashioned",
-            "price": 12.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 11.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 11.3,
-            "isVegetarian": false,
+            "price": 14.31,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -733,29 +733,20 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Explore our wine list, where each bottle is a testament to craftsmanship and tradition.",
+        "description": "Our sommelier's recommendations, designed to pair perfectly with our menu.",
         "items": [
           {
-            "name": "Chardonnay",
-            "price": 12.57,
+            "name": "Authentic Spiced Barbera",
+            "price": 10.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Sauvignon Blanc",
-            "price": 9.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Blanc",
-            "price": 12.31,
+            "name": "Organic Spiced Viognier",
+            "price": 8.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -763,29 +754,38 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Zinfandel",
-            "price": 9.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Verdicchio",
-            "price": 9.36,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sémillon",
-            "price": 8.28,
+            "name": "Fresh Aromatic Syrah/Shiraz",
+            "price": 9.66,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Enticing Fiano",
+            "price": 8.51,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Zesty Pinot Grigio",
+            "price": 10.51,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Grilled Vermentino",
+            "price": 13.53,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,29 +793,11 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "For aficionados and explorers alike—top-shelf selections with depth and pedigree.",
+        "description": "Explore our selection of small-batch and artisanal spirits, each with a unique story.",
         "items": [
           {
-            "name": "Deluxe Spiced Scotch",
-            "price": 17.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Delectable Tequila",
-            "price": 10.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Pan-seared Kahlúa",
-            "price": 11.97,
+            "name": "Seasonal Grilled Campari",
+            "price": 12.64,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -823,8 +805,8 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Maraschino",
-            "price": 17.8,
+            "name": "Classic Tender Galliano",
+            "price": 15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -832,13 +814,31 @@ export const kielcruiseGateTeaHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Luscious Gin",
-            "price": 15.6,
+            "name": "Deluxe Marinated Grappa",
+            "price": 10.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Irresistible Pisco",
+            "price": 11.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Golden Chambord",
+            "price": 17.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       }
