@@ -5,34 +5,116 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const bostonfreedomEateryBarTestimonials: Testimonial[] = [
   {
-    "quote": "From the moment we arrived, Freedom Eatery + Bar impressed with sumptuous selections, attentive service, and a artistic ambiance.",
-    "author": "William Baker",
-    "title": "Food & Wine Connoisseur"
+    quote:
+      "From appetizers to desserts, Freedom Eatery + Bar offers enjoyable gastronomic delights in a luxurious space with helpful service.",
+    author: "Laura Rogers",
+    title: "Food Blogger",
   },
   {
-    "quote": "Our visit to Freedom Eatery + Bar was outstanding. The treats were wonderful, the staff remarkable, and the atmosphere classic. A must-visit!",
-    "author": "Matthew Thompson",
-    "title": "Culinary Instructor"
+    quote:
+      "The delicacies selection at Freedom Eatery + Bar is tasty, complemented by wonderful service and a traditional ambiance that impresses.",
+    author: "Laura Murphy",
+    title: "Travel Blogger",
   },
   {
-    "quote": "The combination of wonderful culinary creations, respectful attention, and a upscale vibe makes Freedom Eatery + Bar exceptional.",
-    "author": "Isabella King",
-    "title": "Food Stylist"
+    quote:
+      "Every dish we tried at Freedom Eatery + Bar was irresistible, paired perfectly with punctual service and a rustic atmosphere that invites relaxation.",
+    author: "Charlotte Nelson",
+    title: "Food Scientist",
   },
   {
-    "quote": "Enjoy brilliant dishes and reliable attention in a whimsical atmosphere at Freedom Eatery + Bar.",
-    "author": "Christopher Lee",
-    "title": "Gastronomic Critic",
-    "image": "/images/testimonials/person-3.jpg"
+    quote:
+      "Dining at Freedom Eatery + Bar was a great experience from start to finish. The gastronomic wonders delighted our palates, the service was impressive, and the relaxing setting completed the evening.",
+    author: "Elizabeth Rivera",
+    title: "Food & Wine Connoisseur",
+    image: "/images/testimonials/person-4.jpg",
   },
   {
-    "quote": "From the first bite to the last, the snacks at Freedom Eatery + Bar impressed with fantastic flavors, matched by welcoming service and a luxurious ambiance.",
-    "author": "William Rivera",
-    "title": "Culinary Reviewer"
+    quote:
+      "The courses at Freedom Eatery + Bar were absolutely awesome! The service was gracious and the atmosphere was luxurious. Highly recommend!",
+    author: "Grace Mitchell",
+    title: "Food Enthusiast",
   },
   {
-    "quote": "We were impressed by the mouthwatering quality of the food and the attentive attention from staff at Freedom Eatery + Bar. The ambient environment was the cherry on top.",
-    "author": "Emma Lewis",
-    "title": "Culinary Blogger"
-  }
+    quote:
+      "Every visit to Freedom Eatery + Bar offers awesome savors, respectful hospitality, and a welcoming inviting atmosphere.",
+    author: "Aiden Jones",
+    title: "Gastronomic Critic",
+  },
+  {
+    quote:
+      "Freedom Eatery + Bar consistently delivers sublime bites, attentive staff, and a peaceful ambiance to enjoy.",
+    author: "Olivia Martinez",
+    title: "Culinary Specialist",
+  },
+  {
+    quote:
+      "The delicacies at Freedom Eatery + Bar are thoughtfully prepared, charming, and complemented by exceptional staff and a chic space.",
+    author: "Isabella Baker",
+    title: "Gastronomic Writer",
+  },
+  {
+    quote:
+      "From appetizers to desserts, Freedom Eatery + Bar offers savory culinary wonders in a delightful space with fantastic service.",
+    author: "Ava Martin",
+    title: "Culinary Historian",
+  },
+  {
+    quote:
+      "The gastronomic delights here are exquisite, prepared with care and served by thorough staff in a relaxed setting.",
+    author: "Madison Wright",
+    title: "Lifestyle Influencer",
+  },
+  {
+    quote:
+      "The treats at Freedom Eatery + Bar are marvelous, and the exceptional service creates an inviting stylish experience.",
+    author: "Sarah Scott",
+    title: "Food Enthusiast",
+    image: "/images/testimonials/person-11.jpg",
+  },
+  {
+    quote:
+      "Our experience at Freedom Eatery + Bar was elevated by charming creations, outstanding hospitality, and a charming dining room.",
+    author: "Ryan Lewis",
+    title: "Restaurant Reviewer",
+  },
+  {
+    quote:
+      "Experience delicious gastronomic sensations and knowledgeable staff in a romantic setting when you visit Freedom Eatery + Bar.",
+    author: "Emma Mitchell",
+    title: "Culinary Reviewer",
+    image: "/images/testimonials/person-5.jpg",
+  },
+  {
+    quote:
+      "The savory flavors of the menu items at Freedom Eatery + Bar are matched by gracious service and a rustic dining room.",
+    author: "Hannah Wright",
+    title: "Wine Sommelier",
+  },
+  {
+    quote:
+      "The menu items at Freedom Eatery + Bar are thoughtfully prepared, incredible, and complemented by attentive staff and a lively space.",
+    author: "Liam Lewis",
+    title: "Food Enthusiast",
+  },
+  {
+    quote:
+      "What a flavorful dining experience at Freedom Eatery + Bar! The treats exceeded our expectations, and the staff was fantastic. Will definitely return!",
+    author: "Michael Walker",
+    title: "Cooking Aficionado",
+    image: "/images/testimonials/person-10.jpg",
+  },
+  {
+    quote:
+      "The exceptional flavors of the menu items at Freedom Eatery + Bar are matched by trustworthy service and a luxurious dining room.",
+    author: "Jessica Morris",
+    title: "Culinary Educator",
+    image: "/images/testimonials/person-11.jpg",
+  },
+  {
+    quote:
+      "You’ll find a delightful selection of succulent treats, paired with excellent service and a comfortable environment at Freedom Eatery + Bar.",
+    author: "Jennifer Lewis",
+    title: "Lifestyle Influencer",
+  },
 ];

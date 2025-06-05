@@ -5,37 +5,114 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const seattleseafoodArtisanTestimonials: Testimonial[] = [
   {
-    "quote": "From the first bite to the last, the gastronomic sensations at Seafood Artisan impressed with exquisite flavors, matched by courteous service and a inviting ambiance.",
-    "author": "Mia Campbell",
-    "title": "Wine Sommelier",
-    "image": "/images/testimonials/person-5.jpg"
+    quote:
+      "At Seafood Artisan, tantalizing delicacies combine seamlessly with helpful professionalism and a refined space designed for comfort.",
+    author: "William Rivera",
+    title: "Food Scientist",
   },
   {
-    "quote": "You’ll find a delightful selection of delicious cuisine, paired with responsive service and a inviting environment at Seafood Artisan.",
-    "author": "Madison Johnson",
-    "title": "Food Scientist"
+    quote:
+      "From appetizers to desserts, Seafood Artisan offers mouthwatering delicacies in a whimsical space with knowledgeable service.",
+    author: "Daniel Nelson",
+    title: "Food Blogger",
   },
   {
-    "quote": "At Seafood Artisan, expect enticing recipes served by gracious professionals in a rustic setting.",
-    "author": "Robert Jackson",
-    "title": "Gastronomic Writer",
-    "image": "/images/testimonials/person-4.jpg"
+    quote:
+      "Dining at Seafood Artisan was a delicious experience from start to finish. The selections delighted our palates, the service was diligent, and the whimsical setting completed the evening.",
+    author: "Ryan Jones",
+    title: "Cooking Aficionado",
   },
   {
-    "quote": "Every dish we tried at Seafood Artisan was satisfying, paired perfectly with enthusiastic service and a inviting atmosphere that invites relaxation.",
-    "author": "Abigail Rivera",
-    "title": "Food Writer",
-    "image": "/images/testimonials/person-7.jpg"
+    quote:
+      "Every dish at Seafood Artisan was superb, complemented by thoughtful staff and a spacious atmosphere.",
+    author: "Alexander Baker",
+    title: "Luxury Travel Consultant",
   },
   {
-    "quote": "The combination of seductive menu items, welcoming attention, and a bohemian vibe makes Seafood Artisan exceptional.",
-    "author": "Amelia King",
-    "title": "Culinary Expert",
-    "image": "/images/testimonials/person-6.jpg"
+    quote:
+      "Our visit to Seafood Artisan was outstanding. The offerings were delicious, the staff charming, and the atmosphere bohemian. A must-visit!",
+    author: "Christopher White",
+    title: "Food Journalist",
   },
   {
-    "quote": "If you value exquisite food with impeccable staff and a charming ambiance, Seafood Artisan delivers.",
-    "author": "Joshua Jackson",
-    "title": "Food Critic"
-  }
+    quote:
+      "At Seafood Artisan, every detail from enjoyable treats to charming service and bohemian atmosphere is thoughtfully crafted.",
+    author: "Hannah Perez",
+    title: "Culinary Enthusiast",
+  },
+  {
+    quote:
+      "The meal selection at Seafood Artisan is simply sumptuous. Combined with welcoming staff and a casual setting, it’s a top choice for discerning diners.",
+    author: "Laura Collins",
+    title: "Culinary Explorer",
+  },
+  {
+    quote:
+      "Whether it's the beverages or the punctual staff, everything at Seafood Artisan is delightful and enhanced by a lively environment.",
+    author: "Daniel Nelson",
+    title: "Gastronomic Critic",
+    image: "/images/testimonials/person-5.jpg",
+  },
+  {
+    quote:
+      "Dining at Seafood Artisan was a sumptuous experience from start to finish. The culinary wonders delighted our palates, the service was supportive, and the charming setting completed the evening.",
+    author: "Christopher Murphy",
+    title: "Luxury Travel Consultant",
+  },
+  {
+    quote:
+      "The refreshing creations at Seafood Artisan kept us coming back for more, complemented perfectly by respectful staff and a cozy setting.",
+    author: "Ava Phillips",
+    title: "Culinary Reviewer",
+  },
+  {
+    quote:
+      "At Seafood Artisan, the gastronomic delights are awesome and the thorough team ensures your visit is complemented by a ambient atmosphere.",
+    author: "Laura King",
+    title: "Gourmet Explorer",
+  },
+  {
+    quote:
+      "If you value perfect culinary delights with efficient staff and a airy ambiance, Seafood Artisan delivers.",
+    author: "Ethan Robinson",
+    title: "Wine Sommelier",
+  },
+  {
+    quote:
+      "Seafood Artisan has the most marvelous delicacies I've ever tasted. The elegant atmosphere made our evening special, and the service was friendly.",
+    author: "Ashley Sanchez",
+    title: "Culinary Specialist",
+  },
+  {
+    quote:
+      "The enjoyable appetizers paired perfectly with the respectful service and classic ambiance at Seafood Artisan.",
+    author: "Sophia Stewart",
+    title: "Luxury Travel Consultant",
+    image: "/images/testimonials/person-3.jpg",
+  },
+  {
+    quote:
+      "For a memorable dining experience, Seafood Artisan offers alluring snacks, trustworthy service, and a classic environment.",
+    author: "Sophia Rivera",
+    title: "Travel Blogger",
+  },
+  {
+    quote:
+      "Every dish we tried at Seafood Artisan was charming, paired perfectly with efficient service and a chic atmosphere that invites relaxation.",
+    author: "Ava Morgan",
+    title: "Food Blogger",
+    image: "/images/testimonials/person-4.jpg",
+  },
+  {
+    quote:
+      "The menu items at Seafood Artisan are consistently delectable, matched by reliable service and a intimate ambiance.",
+    author: "David Stewart",
+    title: "Cruise Traveler",
+  },
+  {
+    quote:
+      "Enjoy delectable dishes and prompt attention in a refined atmosphere at Seafood Artisan.",
+    author: "Ethan Baker",
+    title: "Lifestyle Influencer",
+  },
 ];

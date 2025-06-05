@@ -5,36 +5,115 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const rioDeJaneiroportugueseCraftTestimonials: Testimonial[] = [
   {
-    "quote": "Our visit to Portuguese Craft was outstanding. The entrees were inviting, the staff thoughtful, and the atmosphere lively. A must-visit!",
-    "author": "Sophia Taylor",
-    "title": "Menu Analyst"
+    quote:
+      "Exceptional savors paired with inviting service and a rustic atmosphere make Portuguese Craft a standout choice.",
+    author: "Olivia Roberts",
+    title: "Culinary Expert",
+    image: "/images/testimonials/person-11.jpg",
   },
   {
-    "quote": "The inviting recipes paired perfectly with the dedicated service and rustic ambiance at Portuguese Craft.",
-    "author": "Alexander Jones",
-    "title": "Food Scientist"
+    quote:
+      "What a incredible dining experience at Portuguese Craft! The savors exceeded our expectations, and the staff was superb. Will definitely return!",
+    author: "Liam Turner",
+    title: "Food Journalist",
   },
   {
-    "quote": "The culinary wonders at Portuguese Craft were absolutely savory! The service was meticulous and the atmosphere was charming. Highly recommend!",
-    "author": "Christopher Garcia",
-    "title": "Beverage Expert",
-    "image": "/images/testimonials/person-4.jpg"
+    quote:
+      "You’ll find delicious treats at Portuguese Craft, supported by knowledgeable staff and a relaxing atmosphere that invites relaxation.",
+    author: "Nathan Walker",
+    title: "Culinary Adventurer",
   },
   {
-    "quote": "Every dish we tried at Portuguese Craft was superb, paired perfectly with impressive service and a romantic atmosphere that invites relaxation.",
-    "author": "James Robinson",
-    "title": "Culinary Blogger",
-    "image": "/images/testimonials/person-4.jpg"
+    quote:
+      "If you're looking for excellent offerings, Portuguese Craft delivers with impeccable gracious service and a serene environment.",
+    author: "Grace Perez",
+    title: "Gastronomy Enthusiast",
   },
   {
-    "quote": "At Portuguese Craft, the platters impressed with appetizing quality, alongside efficient hospitality and a elegant setting.",
-    "author": "Robert Edwards",
-    "title": "Culinary Expert",
-    "image": "/images/testimonials/person-3.jpg"
+    quote:
+      "The delicacies selection at Portuguese Craft is fantastic, complemented by inviting service and a lively ambiance that impresses.",
+    author: "Isabella Wright",
+    title: "Culinary Consultant",
   },
   {
-    "quote": "Portuguese Craft combines exceptional dishes with outstanding hospitality in a romantic setting, perfect for any occasion.",
-    "author": "Daniel Moore",
-    "title": "Food & Wine Connoisseur"
-  }
+    quote:
+      "For enchanting delicacies served with attentive care in a ambient space, Portuguese Craft is unmatched.",
+    author: "Olivia Edwards",
+    title: "Culinary Blogger",
+    image: "/images/testimonials/person-5.jpg",
+  },
+  {
+    quote:
+      "Portuguese Craft has the most spectacular culinary creations I've ever tasted. The elegant atmosphere made our evening special, and the service was efficient.",
+    author: "Daniel Roberts",
+    title: "Culinary Journalist",
+  },
+  {
+    quote:
+      "If you value great appetizers with warm staff and a cozy ambiance, Portuguese Craft delivers.",
+    author: "Madison Adams",
+    title: "Food Historian",
+  },
+  {
+    quote:
+      "You’ll find irresistible platters at Portuguese Craft, supported by thorough staff and a elegant atmosphere that invites relaxation.",
+    author: "Ashley Collins",
+    title: "Food Photographer",
+  },
+  {
+    quote:
+      "From the moment we arrived, Portuguese Craft impressed with awesome offerings, attentive service, and a peaceful ambiance.",
+    author: "Ella Moore",
+    title: "Culinary Journalist",
+  },
+  {
+    quote:
+      "Portuguese Craft offers a enjoyable menu and an equally warm staff. The elegant vibe makes it perfect for any occasion.",
+    author: "Maria Garcia",
+    title: "Menu Analyst",
+  },
+  {
+    quote:
+      "The succulent flavors of the treats at Portuguese Craft are matched by reliable service and a luxurious dining room.",
+    author: "Matthew Wright",
+    title: "Culinary Explorer",
+    image: "/images/testimonials/person-12.jpg",
+  },
+  {
+    quote:
+      "The menu items at Portuguese Craft are consistently marvelous, matched by timely service and a welcoming ambiance.",
+    author: "Ella Anderson",
+    title: "Food & Wine Connoisseur",
+  },
+  {
+    quote:
+      "Exceptional entrees paired with courteous service and a modern atmosphere make Portuguese Craft a standout choice.",
+    author: "Ava Young",
+    title: "Food & Wine Connoisseur",
+  },
+  {
+    quote:
+      "If you value enchanting snacks with skilled staff and a refined ambiance, Portuguese Craft delivers.",
+    author: "Sophia Morris",
+    title: "Dining Columnist",
+  },
+  {
+    quote:
+      "Enjoy fabulous dishes and helpful attention in a classic atmosphere at Portuguese Craft.",
+    author: "William Evans",
+    title: "Recipe Developer",
+  },
+  {
+    quote:
+      "For a delectable meal with wonderful service in a inviting setting, Portuguese Craft is the place to be.",
+    author: "Isabella Lee",
+    title: "Food Critic",
+    image: "/images/testimonials/person-3.jpg",
+  },
+  {
+    quote:
+      "At Portuguese Craft, the gastronomic delights impressed with irresistible quality, alongside exemplary hospitality and a inviting setting.",
+    author: "Maria Thompson",
+    title: "Gourmet Explorer",
+  },
 ];

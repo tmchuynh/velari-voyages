@@ -5,33 +5,114 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const bostonfenwaySonsTestimonials: Testimonial[] = [
   {
-    "quote": "The desserts at Fenway & Sons are consistently flavorful, matched by respectful service and a traditional ambiance.",
-    "author": "Christopher Rivera",
-    "title": "Culinary Historian"
+    quote:
+      "Our dining experience at Fenway & Sons was marked by engaging cuisine, trustworthy service, and a intimate atmosphere.",
+    author: "Nathan Walker",
+    title: "Culinary Specialist",
   },
   {
-    "quote": "Our meal at Fenway & Sons featured divine gastronomic sensations, attentive dedicated staff, and a warm, delightful environment.",
-    "author": "Mia Parker",
-    "title": "Food Journalist"
+    quote:
+      "From the first bite to the last, the beverages at Fenway & Sons impressed with enjoyable flavors, matched by exceptional service and a casual ambiance.",
+    author: "Nathan Bell",
+    title: "Wine Sommelier",
+    image: "/images/testimonials/person-12.jpg",
   },
   {
-    "quote": "Fenway & Sons delivers succulent beverages, supported by gracious staff and a tranquil atmosphere perfect for any occasion.",
-    "author": "Sophia Miller",
-    "title": "Lifestyle Influencer"
+    quote:
+      "Every visit to Fenway & Sons delivers succulent gastronomic sensations, attentive courteous staff, and a inviting environment that welcomes you.",
+    author: "Emily Turner",
+    title: "Beverage Expert",
   },
   {
-    "quote": "From the first bite to the last, the gastronomic treats at Fenway & Sons impressed with refreshing flavors, matched by trustworthy service and a energetic ambiance.",
-    "author": "Joshua Martin",
-    "title": "Culinary Expert"
+    quote:
+      "For a enchanting meal with respectful service in a relaxed setting, Fenway & Sons is the place to be.",
+    author: "Robert Campbell",
+    title: "Gastronomic Critic",
   },
   {
-    "quote": "Our meal at Fenway & Sons featured delightful fare, attentive gracious staff, and a warm, refined environment.",
-    "author": "Samuel Carter",
-    "title": "Food Writer"
+    quote:
+      "Our dining experience at Fenway & Sons was marked by marvelous cuisine, welcoming service, and a elegant atmosphere.",
+    author: "Matthew Martinez",
+    title: "Lifestyle Influencer",
   },
   {
-    "quote": "The bites selection at Fenway & Sons is simply remarkable. Combined with first-rate staff and a delightful setting, it’s a top choice for discerning diners.",
-    "author": "Ava Scott",
-    "title": "Culinary Enthusiast"
-  }
+    quote:
+      "The creations selection at Fenway & Sons is enticing, complemented by helpful service and a vibrant ambiance that impresses.",
+    author: "Hannah Allen",
+    title: "Culinary Critic",
+  },
+  {
+    quote:
+      "At Fenway & Sons, the treats impressed with delectable quality, alongside thorough hospitality and a elegant setting.",
+    author: "Mia Lee",
+    title: "Gourmet Explorer",
+  },
+  {
+    quote:
+      "At Fenway & Sons, the culinary creations are perfect and the helpful team ensures your visit is complemented by a elegant atmosphere.",
+    author: "James Hall",
+    title: "Culinary Explorer",
+  },
+  {
+    quote:
+      "The meal selection at Fenway & Sons is simply heavenly. Combined with respectful staff and a relaxed setting, it’s a top choice for discerning diners.",
+    author: "Chloe Rogers",
+    title: "Food Stylist",
+  },
+  {
+    quote:
+      "Experience mouthwatering culinary delights and timely staff in a cozy setting when you visit Fenway & Sons.",
+    author: "Christopher Carter",
+    title: "Culinary Expert",
+    image: "/images/testimonials/person-3.jpg",
+  },
+  {
+    quote:
+      "You’ll find a delightful selection of engaging bites, paired with meticulous service and a relaxed environment at Fenway & Sons.",
+    author: "Alexander Morris",
+    title: "Culinary Expert",
+  },
+  {
+    quote:
+      "Our meal at Fenway & Sons featured delectable cuisine, attentive engaging staff, and a warm, luxurious environment.",
+    author: "Emma Lewis",
+    title: "Epicurean Specialist",
+    image: "/images/testimonials/person-11.jpg",
+  },
+  {
+    quote:
+      "At Fenway & Sons, satisfying treats combine seamlessly with wonderful professionalism and a modern space designed for comfort.",
+    author: "Emma Davis",
+    title: "Culinary Historian",
+  },
+  {
+    quote:
+      "The refreshing flavors of the bites at Fenway & Sons are matched by excellent service and a modern dining room.",
+    author: "Daniel Hall",
+    title: "Food Enthusiast",
+  },
+  {
+    quote:
+      "At Fenway & Sons, marvelous appetizers combine seamlessly with stellar professionalism and a intimate space designed for comfort.",
+    author: "Samantha Wilson",
+    title: "Culinary Enthusiast",
+  },
+  {
+    quote:
+      "From start to finish, Fenway & Sons offers mouthwatering appetizers, attentive kind service, and a sophisticated environment.",
+    author: "Matthew Morris",
+    title: "Food Blogger",
+  },
+  {
+    quote:
+      "The flavors at Fenway & Sons are consistently sublime, accompanied by first-rate staff and a upscale setting.",
+    author: "Matthew Rogers",
+    title: "Restaurant Enthusiast",
+  },
+  {
+    quote:
+      "The fare selection at Fenway & Sons is tempting, served with approachable care in a comfortable ambiance.",
+    author: "Joseph Clark",
+    title: "Gastronomic Writer",
+  },
 ];

@@ -5,36 +5,116 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const roatantheSupperClubTestimonials: Testimonial[] = [
   {
-    "quote": "We were impressed by the tempting quality of the gastronomic pleasures and the thoughtful attention from staff at The Supper Club. The artistic environment was the cherry on top.",
-    "author": "Charlotte Moore",
-    "title": "Culinary Artist",
-    "image": "/images/testimonials/person-6.jpg"
+    quote:
+      "The beverages selection at The Supper Club is simply perfect. Combined with accommodating staff and a charming setting, it’s a top choice for discerning diners.",
+    author: "Ethan Young",
+    title: "Culinary Explorer",
   },
   {
-    "quote": "You’ll enjoy awesome gastronomic pleasures and charming service, all within a rustic space at The Supper Club.",
-    "author": "Isabella Anderson",
-    "title": "Epicurean Specialist"
+    quote:
+      "Enjoy outstanding dishes and first-rate attention in a warm atmosphere at The Supper Club.",
+    author: "Michael Reed",
+    title: "Restaurant Reviewer",
   },
   {
-    "quote": "The menu items selection at The Supper Club is enjoyable, served with friendly care in a sophisticated ambiance.",
-    "author": "Christopher King",
-    "title": "Epicurean Specialist"
+    quote:
+      "Our experience at The Supper Club was elevated by pleasurable gastronomic treats, superb hospitality, and a bustling dining room.",
+    author: "Lisa Collins",
+    title: "Recipe Developer",
   },
   {
-    "quote": "The sumptuous recipes at The Supper Club kept us coming back for more, complemented perfectly by friendly staff and a delightful setting.",
-    "author": "Olivia Lewis",
-    "title": "Restaurant Reviewer",
-    "image": "/images/testimonials/person-7.jpg"
+    quote:
+      "From the first bite to the last, the meal at The Supper Club impressed with refreshing flavors, matched by exceptional service and a stylish ambiance.",
+    author: "Olivia Adams",
+    title: "Epicurean Specialist",
+    image: "/images/testimonials/person-5.jpg",
   },
   {
-    "quote": "The combination of sumptuous dishes, approachable attention, and a stylish vibe makes The Supper Club exceptional.",
-    "author": "Daniel Young",
-    "title": "Beverage Expert",
-    "image": "/images/testimonials/person-7.jpg"
+    quote:
+      "Every dish at The Supper Club was tasty, complemented by engaging staff and a tranquil atmosphere.",
+    author: "Charlotte Roberts",
+    title: "Food Historian",
   },
   {
-    "quote": "For a pleasurable meal with reliable service in a inviting setting, The Supper Club is the place to be.",
-    "author": "Andrew Cooper",
-    "title": "Restaurant Reviewer"
-  }
+    quote:
+      "I can't say enough about the appealing treats at The Supper Club. The superb service and chic ambiance made for a perfect night out.",
+    author: "Benjamin Collins",
+    title: "Restaurant Reviewer",
+  },
+  {
+    quote:
+      "Every visit to The Supper Club offers heavenly platters, efficient hospitality, and a welcoming bohemian atmosphere.",
+    author: "Benjamin Young",
+    title: "Recipe Developer",
+    image: "/images/testimonials/person-7.jpg",
+  },
+  {
+    quote:
+      "You’ll find a delightful selection of exquisite fare, paired with knowledgeable service and a spacious environment at The Supper Club.",
+    author: "Chloe Young",
+    title: "Gastronomy Enthusiast",
+    image: "/images/testimonials/person-7.jpg",
+  },
+  {
+    quote:
+      "At The Supper Club, the bites are engaging and the attentive team ensures your visit is complemented by a stylish atmosphere.",
+    author: "Grace Richardson",
+    title: "Food & Wine Connoisseur",
+  },
+  {
+    quote:
+      "The combination of remarkable gastronomic sensations, impressive attention, and a warm vibe makes The Supper Club exceptional.",
+    author: "Samantha Bailey",
+    title: "Restaurant Enthusiast",
+  },
+  {
+    quote:
+      "For outstanding platters served with punctual care in a serene space, The Supper Club is unmatched.",
+    author: "Daniel Scott",
+    title: "Travel Writer",
+  },
+  {
+    quote:
+      "The meal at The Supper Club were absolutely scrumptious! The service was knowledgeable and the atmosphere was traditional. Highly recommend!",
+    author: "David Stewart",
+    title: "Culinary Explorer",
+  },
+  {
+    quote:
+      "Every dish we tried at The Supper Club was enjoyable, paired perfectly with outstanding service and a comfortable atmosphere that invites relaxation.",
+    author: "Isabella White",
+    title: "Food Critic",
+  },
+  {
+    quote:
+      "At The Supper Club, the gastronomic sensations are enjoyable and the outstanding team ensures your visit is complemented by a rustic atmosphere.",
+    author: "Christopher Allen",
+    title: "Food Critic",
+    image: "/images/testimonials/person-4.jpg",
+  },
+  {
+    quote:
+      "For a memorable dining experience, The Supper Club offers impressive gastronomic experiences, approachable service, and a cozy environment.",
+    author: "Andrew Scott",
+    title: "Food Enthusiast",
+  },
+  {
+    quote:
+      "The combination of superb gastronomic delights, efficient attention, and a energetic vibe makes The Supper Club exceptional.",
+    author: "Emma Davis",
+    title: "Culinary Specialist",
+    image: "/images/testimonials/person-3.jpg",
+  },
+  {
+    quote:
+      "From start to finish, The Supper Club offers mouthwatering delicacies, attentive thoughtful service, and a peaceful environment.",
+    author: "Emma Thompson",
+    title: "Food Blogger",
+  },
+  {
+    quote:
+      "Our dining experience at The Supper Club was marked by delightful cuisine, superb service, and a comfortable atmosphere.",
+    author: "Matthew Mitchell",
+    title: "Travel Writer",
+  },
 ];

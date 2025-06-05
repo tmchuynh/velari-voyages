@@ -1,2984 +1,1422 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const kyotoCruises: Cruise[] = [
-{
-    basePrice: 9890,
+  {
+    basePrice: 9228,
     departureLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
+      city: "Kyoto",
+      country: "Japan",
+      region: "Asia Pacific",
+      coordinates: {
+        latitude: 35.0116,
+        longitude: 135.7681,
+      },
+    },
     arrivalLocation: {
-  "city": "Tokyo",
-  "country": "Japan",
-  "coordinates": {
-    "latitude": 35.6895,
-    "longitude": 139.6917
-  }
-},
+      city: "Kyoto",
+      country: "Japan",
+      region: "Asia Pacific",
+      coordinates: {
+        latitude: 35.0116,
+        longitude: 135.7681,
+      },
+    },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "mainstream",
+    category: "expedition",
     itinerary: {
       route: [
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Bali",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Tokyo",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
-    }
-  }
-],
-      description: "Begin your mirage in Kyoto, a gateway to the soul of Asia Pacific. Enjoy days spent exploring Bali, Tokyo and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
-      distance: "988 nautical miles",
-      totalDuration: "9 days",
+        {
+          city: "Kyoto",
+          country: "Japan",
+          region: "Asia Pacific",
+          coordinates: {
+            latitude: 35.0116,
+            longitude: 135.7681,
+          },
+        },
+        {
+          city: "Hong Kong",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Auckland",
+          country: "New Zealand",
+          coordinates: {
+            latitude: -36.848461,
+            longitude: 174.763336,
+          },
+        },
+        {
+          city: "Sydney",
+          country: "Australia",
+          coordinates: {
+            latitude: -33.8688,
+            longitude: 151.2093,
+          },
+        },
+        {
+          city: "Bangkok",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Kyoto",
+          country: "Japan",
+          region: "Asia Pacific",
+          coordinates: {
+            latitude: 35.0116,
+            longitude: 135.7681,
+          },
+        },
+      ],
+      description:
+        "Experience the elegance of the seas on this alluring elevation through Asia Pacific, starting from the illustrious port of Kyoto. From Hong Kong, Auckland, Sydney to Bangkok, each destination offers its own story, culture, and breathtaking views.",
+      distance: "1083 nautical miles",
+      totalDuration: "18 days",
       timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Kyoto to Bali"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Sailing from Bali to Tokyo"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 4",
+          duration: "2 days",
+          description: "Sailing from Kyoto to Hong Kong",
+        },
+        {
+          start: "Day 7",
+          end: "Day 7",
+          duration: "1 days",
+          description: "Sailing from Hong Kong to Auckland",
+        },
+        {
+          start: "Day 10",
+          end: "Day 11",
+          duration: "2 days",
+          description: "Sailing from Auckland to Sydney",
+        },
+        {
+          start: "Day 13",
+          end: "Day 14",
+          duration: "2 days",
+          description: "Sailing from Sydney to Bangkok",
+        },
+        {
+          start: "Day 16",
+          end: "Day 17",
+          duration: "2 days",
+          description: "Sailing from Bangkok to Kyoto",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Kyoto"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Bali"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Tokyo"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Lily Baker",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["Mandarin","Lao"],
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
-        contact: {
-          contactEmail: "timeless.frontier.of@velarivoyages.com",
-          contactNumber: "+1-663-761-8364"
-        }
-      }
-    ],
-    title: "Timeless Frontier of the Temple Haven",
-    description: "Begin your mirage in Kyoto, a gateway to the soul of Asia Pacific. Enjoy days spent exploring Bali, Tokyo and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
-    rating: 4.6,
-    tags: ["historical","cruise-journey","exclusive"]
-  },
-  {
-    basePrice: 9287,
-    departureLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    arrivalLocation: {
-  "city": "Bali",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "mainstream",
-    itinerary: {
-      route: [
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Singapore",
-    "country": "Singapore",
-    "coordinates": {
-      "latitude": 1.3521,
-      "longitude": 103.8198
-    }
-  },
-  {
-    "city": "Bali",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "This handpicked infinite begins in Kyoto and travels through Asia Pacific's iconic waterscapes. Discover Singapore, Bali as each day brings new stories and every night offers elegant repose.",
-      distance: "1164 nautical miles",
-      totalDuration: "8 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Kyoto to Singapore"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Singapore to Bali"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Kyoto"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Singapore"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Bali"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Rebecca Coleman",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["Mandarin","Lao"],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
-        contact: {
-          contactEmail: "majestic.odyssey.of.@velarivoyages.com",
-          contactNumber: "+1-135-599-1611"
-        }
-      }
-    ],
-    title: "Majestic Odyssey of the Whispers of Bamboo",
-    description: "This handpicked infinite begins in Kyoto and travels through Asia Pacific's iconic waterscapes. Discover Singapore, Bali as each day brings new stories and every night offers elegant repose.",
-    rating: 4.9,
-    tags: ["cruise-experience","adventure","cruise-line"]
-  },
-  {
-    basePrice: 3253,
-    departureLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    arrivalLocation: {
-  "city": "Ho Chi Minh City",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "mainstream",
-    itinerary: {
-      route: [
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Tokyo",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
-    }
-  },
-  {
-    "city": "Singapore",
-    "country": "Singapore",
-    "coordinates": {
-      "latitude": 1.3521,
-      "longitude": 103.8198
-    }
-  },
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Experience the elegance of the seas on this exquisite voyage through Asia Pacific, starting from the illustrious port of Kyoto. From Tokyo, Singapore to Ho Chi Minh City, each destination offers its own story, culture, and breathtaking views.",
-      distance: "544 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Kyoto to Tokyo"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Tokyo to Singapore"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Singapore to Ho Chi Minh City"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Kyoto"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Tokyo"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Singapore"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Ho Chi Minh City"
-  }
-]
-    },
-    tourCategoryId: "theme-cruise",
-    contactPersonnel: [
-      {
-        name: "Audrey Henderson",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["Mandarin","Lao"],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/0.jpg",
-        contact: {
-          contactEmail: "hidden.quest.of.the.@velarivoyages.com",
-          contactNumber: "+1-349-599-7919"
-        }
-      }
-    ],
-    title: "Hidden Quest of the Bamboo Shores",
-    description: "Experience the elegance of the seas on this exquisite voyage through Asia Pacific, starting from the illustrious port of Kyoto. From Tokyo, Singapore to Ho Chi Minh City, each destination offers its own story, culture, and breathtaking views.",
-    rating: 4.2,
-    tags: ["themed-cruise"]
-  },
-  {
-    basePrice: 9151,
-    departureLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    arrivalLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Shanghai",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  }
-],
-      description: "Your journey through the Asia Pacific begins in Kyoto, where elegance meets adventure. Explore the shores of Ho Chi Minh City, Shanghai, with curated excursions and luxurious onboard amenities.",
-      distance: "777 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Kyoto to Ho Chi Minh City"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Sailing from Ho Chi Minh City to Shanghai"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Shanghai to Kyoto"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Kyoto"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Ho Chi Minh City"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Shanghai"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring Kyoto"
-  }
-]
-    },
-    tourCategoryId: "luxury-cruise",
-    contactPersonnel: [
-      {
-        name: "Elena Keller",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["Mandarin","Lao"],
-        experienceYears: 5,
-        profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
-        contact: {
-          contactEmail: "tranquil.realm.of.th@velarivoyages.com",
-          contactNumber: "+1-276-532-2544"
-        }
-      }
-    ],
-    title: "Tranquil Realm of the Temple Haven",
-    description: "Your journey through the Asia Pacific begins in Kyoto, where elegance meets adventure. Explore the shores of Ho Chi Minh City, Shanghai, with curated excursions and luxurious onboard amenities.",
-    rating: 4.5,
-    tags: ["luxury","cruise-vacation","cruise-experience"]
-  },
-  {
-    basePrice: 1144,
-    departureLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    arrivalLocation: {
-  "city": "Ho Chi Minh City",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Singapore",
-    "country": "Singapore",
-    "coordinates": {
-      "latitude": 1.3521,
-      "longitude": 103.8198
-    }
-  },
-  {
-    "city": "Shanghai",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Set sail from Kyoto for a voyage like no other. From the picturesque landscapes of Singapore to the lively ambiance of Shanghai, this velvet cruise will redefine your view of Asia Pacific.",
-      distance: "1101 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Kyoto to Singapore"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Singapore to Shanghai"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Shanghai to Ho Chi Minh City"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Kyoto"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Singapore"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Shanghai"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Ho Chi Minh City"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Gabriella Fisher",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["Mandarin","Lao"],
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/women/61.jpg",
-        contact: {
-          contactEmail: "breathtaking.legacy.@velarivoyages.com",
-          contactNumber: "+1-608-887-6270"
-        }
-      }
-    ],
-    title: "Breathtaking Legacy of the Dynastic Dreams",
-    description: "Set sail from Kyoto for a voyage like no other. From the picturesque landscapes of Singapore to the lively ambiance of Shanghai, this velvet cruise will redefine your view of Asia Pacific.",
-    rating: 4.3,
-    tags: ["fall-cruise"]
-  },
-  {
-    basePrice: 8164,
-    departureLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    arrivalLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "mainstream",
-    itinerary: {
-      route: [
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Tokyo",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
-    }
-  },
-  {
-    "city": "Sydney",
-    "country": "Australia",
-    "coordinates": {
-      "latitude": -33.8688,
-      "longitude": 151.2093
-    }
-  },
-  {
-    "city": "Bali",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Singapore",
-    "country": "Singapore",
-    "coordinates": {
-      "latitude": 1.3521,
-      "longitude": 103.8198
-    }
-  },
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  }
-],
-      description: "Cruise into cultural richness aboard this tranquil arcadia departing Kyoto. Savor local cuisine and uncover regional beauty from Tokyo to Sydney.",
-      distance: "1265 nautical miles",
-      totalDuration: "14 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Kyoto to Tokyo"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Tokyo to Sydney"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Sydney to Bali"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Bali to Singapore"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Sailing from Singapore to Kyoto"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Kyoto"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Tokyo"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Sydney"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Bali"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Singapore"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 14",
-    "duration": "1 days",
-    "description": "Exploring Kyoto"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Laura Marshall",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["Mandarin","Lao"],
-        experienceYears: 12,
-        profileImage: "https://randomuser.me/api/portraits/women/0.jpg",
-        contact: {
-          contactEmail: "unforgettable.tide.o@velarivoyages.com",
-          contactNumber: "+1-150-507-6635"
-        }
-      }
-    ],
-    title: "Unforgettable Tide of the Whispers of Bamboo",
-    description: "Cruise into cultural richness aboard this tranquil arcadia departing Kyoto. Savor local cuisine and uncover regional beauty from Tokyo to Sydney.",
-    rating: 5.0,
-    tags: ["culinary"]
-  },
-  {
-    basePrice: 4552,
-    departureLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    arrivalLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "mainstream",
-    itinerary: {
-      route: [
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Bangkok",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Singapore",
-    "country": "Singapore",
-    "coordinates": {
-      "latitude": 1.3521,
-      "longitude": 103.8198
-    }
-  },
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  }
-],
-      description: "Depart Kyoto on a relaxing pilgrimage through the Asia Pacific region. Highlights include the stunning coastlines of Bangkok, Singapore, all while enjoying first-class amenities on board.",
-      distance: "693 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Kyoto to Bangkok"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Bangkok to Singapore"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Singapore to Kyoto"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Kyoto"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring Bangkok"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Singapore"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Kyoto"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Nomsa Price",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["Mandarin","Lao"],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/women/96.jpg",
-        contact: {
-          contactEmail: "immersive.sanctum.of@velarivoyages.com",
-          contactNumber: "+1-539-273-5699"
-        }
-      }
-    ],
-    title: "Immersive Sanctum of the Timeless Echo",
-    description: "Depart Kyoto on a relaxing pilgrimage through the Asia Pacific region. Highlights include the stunning coastlines of Bangkok, Singapore, all while enjoying first-class amenities on board.",
-    rating: 4.9,
-    tags: ["cruise-ship","cruise-getaway","cruise-vacation"]
-  },
-  {
-    basePrice: 7716,
-    departureLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    arrivalLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "premium",
-    itinerary: {
-      route: [
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Bangkok",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Bali",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  }
-],
-      description: "Your requiem begins in Kyoto, where every sunset on the Asia Pacific horizon promises another day of discovery—from Bangkok, Ho Chi Minh City, Bali to hidden ports of charm.",
-      distance: "1468 nautical miles",
-      totalDuration: "16 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Kyoto to Bangkok"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Bangkok to Ho Chi Minh City"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Sailing from Ho Chi Minh City to Bali"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
-    "description": "Sailing from Bali to Kyoto"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Kyoto"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Bangkok"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Ho Chi Minh City"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring Bali"
-  },
-  {
-    "start": "Day 16",
-    "end": "Day 16",
-    "duration": "1 days",
-    "description": "Exploring Kyoto"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring Kyoto",
+        },
+        {
+          start: "Day 5",
+          end: "Day 6",
+          duration: "2 days",
+          description: "Exploring Hong Kong",
+        },
+        {
+          start: "Day 8",
+          end: "Day 9",
+          duration: "2 days",
+          description: "Exploring Auckland",
+        },
+        {
+          start: "Day 12",
+          end: "Day 12",
+          duration: "1 days",
+          description: "Exploring Sydney",
+        },
+        {
+          start: "Day 15",
+          end: "Day 15",
+          duration: "1 days",
+          description: "Exploring Bangkok",
+        },
+        {
+          start: "Day 18",
+          end: "Day 18",
+          duration: "1 days",
+          description: "Exploring Kyoto",
+        },
+      ],
     },
     tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Aria Ellis",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["Mandarin","Lao"],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/women/15.jpg",
+        name: "Jacob Spencer",
+        role: "Reservations Agent",
+        languages: ["Hindi", "Tagalog", "Japanese", "Urdu"], // Use the properly generated languages list
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/men/87.jpg",
         contact: {
-          contactEmail: "unforgettable.expedi@velarivoyages.com",
-          contactNumber: "+1-150-456-4476"
-        }
-      }
+          contactEmail: "charming.solstice.of@velarivoyages.com",
+          contactNumber: "+1-990-895-2180",
+        },
+      },
     ],
-    title: "Unforgettable Expedition of the Zen Shores",
-    description: "Your requiem begins in Kyoto, where every sunset on the Asia Pacific horizon promises another day of discovery—from Bangkok, Ho Chi Minh City, Bali to hidden ports of charm.",
-    rating: 4.3,
-    tags: ["themed-cruise"]
-  },
-  {
-    basePrice: 1708,
-    departureLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    arrivalLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "entry-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Singapore",
-    "country": "Singapore",
-    "coordinates": {
-      "latitude": 1.3521,
-      "longitude": 103.8198
-    }
-  },
-  {
-    "city": "Shanghai",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Sydney",
-    "country": "Australia",
-    "coordinates": {
-      "latitude": -33.8688,
-      "longitude": 151.2093
-    }
-  },
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  }
-],
-      description: "Sail away from the charming harbor of Kyoto on this infinite journey across Asia Pacific. Uncover the beauty and history of Singapore, Shanghai, Sydney with curated excursions, world-class cuisine, and exceptional service.",
-      distance: "831 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Kyoto to Singapore"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Sailing from Singapore to Shanghai"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Shanghai to Sydney"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Sailing from Sydney to Kyoto"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Kyoto"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Singapore"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Shanghai"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Sydney"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring Kyoto"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Emily Henderson",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["Mandarin","Lao"],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/women/80.jpg",
-        contact: {
-          contactEmail: "radiant.renaissance.@velarivoyages.com",
-          contactNumber: "+1-421-540-9586"
-        }
-      }
-    ],
-    title: "Radiant Renaissance of the Bamboo Shores",
-    description: "Sail away from the charming harbor of Kyoto on this infinite journey across Asia Pacific. Uncover the beauty and history of Singapore, Shanghai, Sydney with curated excursions, world-class cuisine, and exceptional service.",
-    rating: 4.4,
-    tags: ["sightseeing","historical","long-distance"]
-  },
-  {
-    basePrice: 1017,
-    departureLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    arrivalLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "entry-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Bali",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Shanghai",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  }
-],
-      description: "Experience the elegance of the seas on this velvet eclipse through Asia Pacific, starting from the illustrious port of Kyoto. From Bali to Shanghai, each destination offers its own story, culture, and breathtaking views.",
-      distance: "1013 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Kyoto to Bali"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Bali to Shanghai"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from Shanghai to Kyoto"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Kyoto"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Bali"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Shanghai"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring Kyoto"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Aria Russell",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["Mandarin","Lao"],
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
-        contact: {
-          contactEmail: "transcendent.passage@velarivoyages.com",
-          contactNumber: "+1-309-436-2490"
-        }
-      }
-    ],
-    title: "Transcendent Passage of the Tea-Laced Traditions",
-    description: "Experience the elegance of the seas on this velvet eclipse through Asia Pacific, starting from the illustrious port of Kyoto. From Bali to Shanghai, each destination offers its own story, culture, and breathtaking views.",
+    title: "Charming Solstice of the Timeless Echo",
+    description:
+      "Experience the elegance of the seas on this alluring elevation through Asia Pacific, starting from the illustrious port of Kyoto. From Hong Kong, Auckland, Sydney to Bangkok, each destination offers its own story, culture, and breathtaking views.",
     rating: 4.9,
-    tags: ["cultural","cruise-adventure"]
+    tags: ["general"],
   },
   {
-    basePrice: 1994,
+    basePrice: 7054,
     departureLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
+      city: "Kyoto",
+      country: "Japan",
+      region: "Asia Pacific",
+      coordinates: {
+        latitude: 35.0116,
+        longitude: 135.7681,
+      },
+    },
     arrivalLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
+      city: "Bali",
+      country: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
+    isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "entry-luxury",
+    category: "premium-luxury",
     itinerary: {
       route: [
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Shanghai",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  }
-],
-      description: "Set off on a enigma from Kyoto that captures the essence of Asia Pacific. Discover cultural gems and culinary delights across Shanghai, Ho Chi Minh City.",
-      distance: "1497 nautical miles",
-      totalDuration: "11 days",
+        {
+          city: "Kyoto",
+          country: "Japan",
+          region: "Asia Pacific",
+          coordinates: {
+            latitude: 35.0116,
+            longitude: 135.7681,
+          },
+        },
+        {
+          city: "Hong Kong",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Ho Chi Minh City",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Shanghai",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Bali",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+      ],
+      description:
+        "Sail into splendor from Kyoto on a breathtaking voyage through Asia Pacific. Let each stop—from Hong Kong to Ho Chi Minh City—reveal the unique flavors and colors of the region.",
+      distance: "853 nautical miles",
+      totalDuration: "14 days",
       timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Kyoto to Shanghai"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Shanghai to Ho Chi Minh City"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Ho Chi Minh City to Kyoto"
-  }
-],
+        {
+          start: "Day 2",
+          end: "Day 3",
+          duration: "2 days",
+          description: "Sailing from Kyoto to Hong Kong",
+        },
+        {
+          start: "Day 6",
+          end: "Day 6",
+          duration: "1 days",
+          description: "Sailing from Hong Kong to Ho Chi Minh City",
+        },
+        {
+          start: "Day 8",
+          end: "Day 9",
+          duration: "2 days",
+          description: "Sailing from Ho Chi Minh City to Shanghai",
+        },
+        {
+          start: "Day 12",
+          end: "Day 12",
+          duration: "1 days",
+          description: "Sailing from Shanghai to Bali",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Kyoto"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Shanghai"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Ho Chi Minh City"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring Kyoto"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring Kyoto",
+        },
+        {
+          start: "Day 4",
+          end: "Day 5",
+          duration: "2 days",
+          description: "Exploring Hong Kong",
+        },
+        {
+          start: "Day 7",
+          end: "Day 7",
+          duration: "1 days",
+          description: "Exploring Ho Chi Minh City",
+        },
+        {
+          start: "Day 10",
+          end: "Day 11",
+          duration: "2 days",
+          description: "Exploring Shanghai",
+        },
+        {
+          start: "Day 13",
+          end: "Day 14",
+          duration: "2 days",
+          description: "Exploring Bali",
+        },
+      ],
     },
-    tourCategoryId: "general-cruise",
+    tourCategoryId: "glacier-cruise",
     contactPersonnel: [
       {
-        name: "Abigail Watson",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["Mandarin","Lao"],
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/9.jpg",
+        name: "Gabriel Cooper",
+        role: "Reservations Agent",
+        languages: ["Hindi", "Tagalog", "Japanese", "Urdu"], // Use the properly generated languages list
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/men/36.jpg",
         contact: {
-          contactEmail: "sublime.symphony.of.@velarivoyages.com",
-          contactNumber: "+1-207-581-7616"
-        }
-      }
+          contactEmail: "tranquil.exploration@velarivoyages.com",
+          contactNumber: "+1-969-560-2669",
+        },
+      },
     ],
-    title: "Sublime Symphony of the Cultural Heart of Japan",
-    description: "Set off on a enigma from Kyoto that captures the essence of Asia Pacific. Discover cultural gems and culinary delights across Shanghai, Ho Chi Minh City.",
+    title: "Tranquil Exploration of the Zen-Stilled Veil",
+    description:
+      "Sail into splendor from Kyoto on a breathtaking voyage through Asia Pacific. Let each stop—from Hong Kong to Ho Chi Minh City—reveal the unique flavors and colors of the region.",
     rating: 4.3,
-    tags: ["cruise-excursion","cruise-experience"]
+    tags: ["nature", "expedition", "holiday-cruise"],
   },
   {
-    basePrice: 8283,
+    basePrice: 4891,
     departureLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
+      city: "Kyoto",
+      country: "Japan",
+      region: "Asia Pacific",
+      coordinates: {
+        latitude: 35.0116,
+        longitude: 135.7681,
+      },
+    },
     arrivalLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
+      city: "Kyoto",
+      country: "Japan",
+      region: "Asia Pacific",
+      coordinates: {
+        latitude: 35.0116,
+        longitude: 135.7681,
+      },
+    },
     isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+        {
+          city: "Kyoto",
+          country: "Japan",
+          region: "Asia Pacific",
+          coordinates: {
+            latitude: 35.0116,
+            longitude: 135.7681,
+          },
+        },
+        {
+          city: "Shanghai",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Bangkok",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Yokohama",
+          country: "Japan",
+          coordinates: {
+            latitude: 35.4437,
+            longitude: 139.638,
+          },
+        },
+        {
+          city: "Tokyo",
+          country: "Japan",
+          coordinates: {
+            latitude: 35.6895,
+            longitude: 139.6917,
+          },
+        },
+        {
+          city: "Kyoto",
+          country: "Japan",
+          region: "Asia Pacific",
+          coordinates: {
+            latitude: 35.0116,
+            longitude: 135.7681,
+          },
+        },
+      ],
+      description:
+        "Experience the elegance of the seas on this verdant oasis through Asia Pacific, starting from the illustrious port of Kyoto. From Shanghai, Bangkok, Yokohama to Tokyo, each destination offers its own story, culture, and breathtaking views.",
+      distance: "524 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+        {
+          start: "Day 2",
+          end: "Day 3",
+          duration: "2 days",
+          description: "Sailing from Kyoto to Shanghai",
+        },
+        {
+          start: "Day 6",
+          end: "Day 7",
+          duration: "2 days",
+          description: "Sailing from Shanghai to Bangkok",
+        },
+        {
+          start: "Day 9",
+          end: "Day 9",
+          duration: "1 days",
+          description: "Sailing from Bangkok to Yokohama",
+        },
+        {
+          start: "Day 11",
+          end: "Day 12",
+          duration: "2 days",
+          description: "Sailing from Yokohama to Tokyo",
+        },
+        {
+          start: "Day 15",
+          end: "Day 16",
+          duration: "2 days",
+          description: "Sailing from Tokyo to Kyoto",
+        },
+      ],
+      timeOnLand: [
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring Kyoto",
+        },
+        {
+          start: "Day 4",
+          end: "Day 5",
+          duration: "2 days",
+          description: "Exploring Shanghai",
+        },
+        {
+          start: "Day 8",
+          end: "Day 8",
+          duration: "1 days",
+          description: "Exploring Bangkok",
+        },
+        {
+          start: "Day 10",
+          end: "Day 10",
+          duration: "1 days",
+          description: "Exploring Yokohama",
+        },
+        {
+          start: "Day 13",
+          end: "Day 14",
+          duration: "2 days",
+          description: "Exploring Tokyo",
+        },
+        {
+          start: "Day 17",
+          end: "Day 17",
+          duration: "1 days",
+          description: "Exploring Kyoto",
+        },
+      ],
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Harry Dixon",
+        role: "Reservations Agent",
+        languages: ["Hindi", "Tagalog", "Japanese", "Urdu"], // Use the properly generated languages list
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/47.jpg",
+        contact: {
+          contactEmail: "sublime.eclipse.of.t@velarivoyages.com",
+          contactNumber: "+1-357-281-5872",
+        },
+      },
+    ],
+    title: "Sublime Eclipse of the Lotus-Lined Waters",
+    description:
+      "Experience the elegance of the seas on this verdant oasis through Asia Pacific, starting from the illustrious port of Kyoto. From Shanghai, Bangkok, Yokohama to Tokyo, each destination offers its own story, culture, and breathtaking views.",
+    rating: 4.7,
+    tags: ["cruise", "fall-cruise", "cruise-excursion"],
+  },
+  {
+    basePrice: 3441,
+    departureLocation: {
+      city: "Kyoto",
+      country: "Japan",
+      region: "Asia Pacific",
+      coordinates: {
+        latitude: 35.0116,
+        longitude: 135.7681,
+      },
+    },
+    arrivalLocation: {
+      city: "Singapore",
+      country: "Singapore",
+      coordinates: {
+        latitude: 1.3521,
+        longitude: 103.8198,
+      },
+    },
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+        {
+          city: "Kyoto",
+          country: "Japan",
+          region: "Asia Pacific",
+          coordinates: {
+            latitude: 35.0116,
+            longitude: 135.7681,
+          },
+        },
+        {
+          city: "Bangkok",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Auckland",
+          country: "New Zealand",
+          coordinates: {
+            latitude: -36.848461,
+            longitude: 174.763336,
+          },
+        },
+        {
+          city: "Melbourne",
+          country: "Australia",
+          coordinates: {
+            latitude: -37.8136,
+            longitude: 144.9631,
+          },
+        },
+        {
+          city: "Singapore",
+          country: "Singapore",
+          coordinates: {
+            latitude: 1.3521,
+            longitude: 103.8198,
+          },
+        },
+      ],
+      description:
+        "This handpicked requiem begins in Kyoto and travels through Asia Pacific's iconic waterscapes. Discover Bangkok, Auckland, Melbourne, Singapore as each day brings new stories and every night offers elegant repose.",
+      distance: "1218 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+        {
+          start: "Day 2",
+          end: "Day 3",
+          duration: "2 days",
+          description: "Sailing from Kyoto to Bangkok",
+        },
+        {
+          start: "Day 6",
+          end: "Day 6",
+          duration: "1 days",
+          description: "Sailing from Bangkok to Auckland",
+        },
+        {
+          start: "Day 9",
+          end: "Day 10",
+          duration: "2 days",
+          description: "Sailing from Auckland to Melbourne",
+        },
+        {
+          start: "Day 13",
+          end: "Day 14",
+          duration: "2 days",
+          description: "Sailing from Melbourne to Singapore",
+        },
+      ],
+      timeOnLand: [
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring Kyoto",
+        },
+        {
+          start: "Day 4",
+          end: "Day 5",
+          duration: "2 days",
+          description: "Exploring Bangkok",
+        },
+        {
+          start: "Day 7",
+          end: "Day 8",
+          duration: "2 days",
+          description: "Exploring Auckland",
+        },
+        {
+          start: "Day 11",
+          end: "Day 12",
+          duration: "2 days",
+          description: "Exploring Melbourne",
+        },
+        {
+          start: "Day 15",
+          end: "Day 16",
+          duration: "2 days",
+          description: "Exploring Singapore",
+        },
+      ],
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Carl Graham",
+        role: "Reservations Agent",
+        languages: ["Hindi", "Tagalog", "Japanese", "Urdu"], // Use the properly generated languages list
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/men/71.jpg",
+        contact: {
+          contactEmail: "captivating.requiem.@velarivoyages.com",
+          contactNumber: "+1-697-606-3448",
+        },
+      },
+    ],
+    title: "Captivating Requiem of the Oceanic Wonders",
+    description:
+      "This handpicked requiem begins in Kyoto and travels through Asia Pacific's iconic waterscapes. Discover Bangkok, Auckland, Melbourne, Singapore as each day brings new stories and every night offers elegant repose.",
+    rating: 4.4,
+    tags: ["glacier-cruise", "culinary"],
+  },
+  {
+    basePrice: 8093,
+    departureLocation: {
+      city: "Kyoto",
+      country: "Japan",
+      region: "Asia Pacific",
+      coordinates: {
+        latitude: 35.0116,
+        longitude: 135.7681,
+      },
+    },
+    arrivalLocation: {
+      city: "Sydney",
+      country: "Australia",
+      coordinates: {
+        latitude: -33.8688,
+        longitude: 151.2093,
+      },
+    },
+    isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "ultra-luxury",
     itinerary: {
       route: [
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Bangkok",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Singapore",
-    "country": "Singapore",
-    "coordinates": {
-      "latitude": 1.3521,
-      "longitude": 103.8198
-    }
-  },
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  }
-],
-      description: "Your horizon begins in Kyoto, where every sunset on the Asia Pacific horizon promises another day of discovery—from Bangkok, Singapore to hidden ports of charm.",
-      distance: "766 nautical miles",
-      totalDuration: "9 days",
+        {
+          city: "Kyoto",
+          country: "Japan",
+          region: "Asia Pacific",
+          coordinates: {
+            latitude: 35.0116,
+            longitude: 135.7681,
+          },
+        },
+        {
+          city: "Auckland",
+          country: "New Zealand",
+          coordinates: {
+            latitude: -36.848461,
+            longitude: 174.763336,
+          },
+        },
+        {
+          city: "Sydney",
+          country: "Australia",
+          coordinates: {
+            latitude: -33.8688,
+            longitude: 151.2093,
+          },
+        },
+      ],
+      description:
+        "An unforgettable odyssey awaits as you cruise from Kyoto across Asia Pacific. Dive into history, flavor, and culture with stops including Auckland, Sydney.",
+      distance: "957 nautical miles",
+      totalDuration: "7 days",
       timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Kyoto to Bangkok"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from Bangkok to Singapore"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Singapore to Kyoto"
-  }
-],
+        {
+          start: "Day 2",
+          end: "Day 2",
+          duration: "1 days",
+          description: "Sailing from Kyoto to Auckland",
+        },
+        {
+          start: "Day 5",
+          end: "Day 5",
+          duration: "1 days",
+          description: "Sailing from Auckland to Sydney",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Kyoto"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Bangkok"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring Singapore"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Kyoto"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring Kyoto",
+        },
+        {
+          start: "Day 3",
+          end: "Day 4",
+          duration: "2 days",
+          description: "Exploring Auckland",
+        },
+        {
+          start: "Day 6",
+          end: "Day 7",
+          duration: "2 days",
+          description: "Exploring Sydney",
+        },
+      ],
     },
-    tourCategoryId: "theme-cruise",
+    tourCategoryId: "vip-cruise",
     contactPersonnel: [
       {
-        name: "Grace Watson",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["Mandarin","Lao"],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
+        name: "Miguel Henderson",
+        role: "Reservations Agent",
+        languages: ["Hindi", "Tagalog", "Japanese", "Urdu"], // Use the properly generated languages list
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/67.jpg",
         contact: {
-          contactEmail: "immersive.realm.of.t@velarivoyages.com",
-          contactNumber: "+1-201-222-5331"
-        }
-      }
+          contactEmail: "enchanting.mirage.of@velarivoyages.com",
+          contactNumber: "+1-337-303-4135",
+        },
+      },
     ],
-    title: "Immersive Realm of the Shrine of Seasons",
-    description: "Your horizon begins in Kyoto, where every sunset on the Asia Pacific horizon promises another day of discovery—from Bangkok, Singapore to hidden ports of charm.",
-    rating: 4.8,
-    tags: ["family-friendly","themed-cruise"]
-  },
-  {
-    basePrice: 6374,
-    departureLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    arrivalLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Bangkok",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Shanghai",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Singapore",
-    "country": "Singapore",
-    "coordinates": {
-      "latitude": 1.3521,
-      "longitude": 103.8198
-    }
-  },
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  }
-],
-      description: "An unforgettable haven awaits as you cruise from Kyoto across Asia Pacific. Dive into history, flavor, and culture with stops including Bangkok, Shanghai, Singapore.",
-      distance: "1260 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Kyoto to Bangkok"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Bangkok to Shanghai"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Shanghai to Singapore"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Sailing from Singapore to Kyoto"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Kyoto"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Bangkok"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Shanghai"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Singapore"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Exploring Kyoto"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Zola Hudson",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["Mandarin","Lao"],
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/73.jpg",
-        contact: {
-          contactEmail: "unforgettable.mirage@velarivoyages.com",
-          contactNumber: "+1-918-242-5595"
-        }
-      }
-    ],
-    title: "Unforgettable Mirage of the Oceanic Wonders",
-    description: "An unforgettable haven awaits as you cruise from Kyoto across Asia Pacific. Dive into history, flavor, and culture with stops including Bangkok, Shanghai, Singapore.",
-    rating: 4.9,
-    tags: ["short-getaway","sightseeing"]
-  },
-  {
-    basePrice: 2275,
-    departureLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    arrivalLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "premium-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Shanghai",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Bangkok",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Bali",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  }
-],
-      description: "Embark on an unforgettable infinite from the vibrant port of Kyoto, where you'll discover hidden gems and iconic landmarks across the Asia Pacific region. With stops at Shanghai, Bangkok, Bali, this journey combines cultural immersion with breathtaking scenery.",
-      distance: "974 nautical miles",
-      totalDuration: "14 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Kyoto to Shanghai"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Shanghai to Bangkok"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Bangkok to Bali"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Sailing from Bali to Kyoto"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Kyoto"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Shanghai"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Bangkok"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring Bali"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
-    "duration": "2 days",
-    "description": "Exploring Kyoto"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Amina Dunn",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["Mandarin","Lao"],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/women/74.jpg",
-        contact: {
-          contactEmail: "mythic.mystique.of.t@velarivoyages.com",
-          contactNumber: "+1-209-368-4505"
-        }
-      }
-    ],
-    title: "Mythic Mystique of the Cultural Heart of Japan",
-    description: "Embark on an unforgettable infinite from the vibrant port of Kyoto, where you'll discover hidden gems and iconic landmarks across the Asia Pacific region. With stops at Shanghai, Bangkok, Bali, this journey combines cultural immersion with breathtaking scenery.",
+    title: "Enchanting Mirage of the Temple Haven",
+    description:
+      "An unforgettable odyssey awaits as you cruise from Kyoto across Asia Pacific. Dive into history, flavor, and culture with stops including Auckland, Sydney.",
     rating: 4.4,
-    tags: ["wildlife"]
+    tags: ["VIP", "cruise-experience", "wellness"],
   },
   {
-    basePrice: 6458,
+    basePrice: 1574,
     departureLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
+      city: "Kyoto",
+      country: "Japan",
+      region: "Asia Pacific",
+      coordinates: {
+        latitude: 35.0116,
+        longitude: 135.7681,
+      },
+    },
     arrivalLocation: {
-  "city": "Ho Chi Minh City",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
+      city: "Tokyo",
+      country: "Japan",
+      coordinates: {
+        latitude: 35.6895,
+        longitude: 139.6917,
+      },
+    },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Bangkok",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Tokyo",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
-    }
-  },
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Set sail from Kyoto for a voyage like no other. From the picturesque landscapes of Bangkok to the lively ambiance of Tokyo, this ornate cruise will redefine your view of Asia Pacific.",
-      distance: "1467 nautical miles",
-      totalDuration: "9 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Kyoto to Bangkok"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Sailing from Bangkok to Tokyo"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Tokyo to Ho Chi Minh City"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Kyoto"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring Bangkok"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Tokyo"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Ho Chi Minh City"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Kennedy Hall",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["Mandarin","Lao"],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/women/89.jpg",
-        contact: {
-          contactEmail: "oceanic.embrace.of.t@velarivoyages.com",
-          contactNumber: "+1-297-739-1996"
-        }
-      }
-    ],
-    title: "Oceanic Embrace of the Bamboo Shores",
-    description: "Set sail from Kyoto for a voyage like no other. From the picturesque landscapes of Bangkok to the lively ambiance of Tokyo, this ornate cruise will redefine your view of Asia Pacific.",
-    rating: 4.8,
-    tags: ["cruise"]
-  },
-  {
-    basePrice: 7675,
-    departureLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    arrivalLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "expedition",
-    itinerary: {
-      route: [
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Sydney",
-    "country": "Australia",
-    "coordinates": {
-      "latitude": -33.8688,
-      "longitude": 151.2093
-    }
-  },
-  {
-    "city": "Shanghai",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Tokyo",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
-    }
-  },
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  }
-],
-      description: "Leave stress behind with this curated awakening from Kyoto. Sail across the best of Asia Pacific and explore treasures like Sydney, Shanghai, Tokyo with comfort and style.",
-      distance: "1040 nautical miles",
-      totalDuration: "15 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Kyoto to Sydney"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Sydney to Shanghai"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Shanghai to Tokyo"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Sailing from Tokyo to Kyoto"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Kyoto"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Sydney"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Shanghai"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Tokyo"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
-    "description": "Exploring Kyoto"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Sarah Hall",
-        role: "Corporate Concierge",
-        languages: ["Polish","Hindi"],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/women/86.jpg",
-        contact: {
-          contactEmail: "mesmerizing.odyssey.@velarivoyages.com",
-          contactNumber: "+1-174-356-7996"
-        }
-      }
-    ],
-    title: "Mesmerizing Odyssey of the Temple Haven",
-    description: "Leave stress behind with this curated awakening from Kyoto. Sail across the best of Asia Pacific and explore treasures like Sydney, Shanghai, Tokyo with comfort and style.",
-    rating: 4.5,
-    tags: ["culinary","cruise-getaway","cruise-experience"]
-  },
-  {
-    basePrice: 7407,
-    departureLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    arrivalLocation: {
-  "city": "Shanghai",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "entry-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Sydney",
-    "country": "Australia",
-    "coordinates": {
-      "latitude": -33.8688,
-      "longitude": 151.2093
-    }
-  },
-  {
-    "city": "Bali",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Shanghai",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Depart from Kyoto on this thoughtfully designed oasis across the Asia Pacific. Savor coastal charm, cultural treasures, and ocean views with stops at Sydney, Bali, Shanghai.",
-      distance: "1473 nautical miles",
-      totalDuration: "9 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Kyoto to Sydney"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from Sydney to Bali"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Bali to Shanghai"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Kyoto"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Sydney"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Exploring Bali"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Shanghai"
-  }
-]
-    },
-    tourCategoryId: "holiday-cruise",
-    contactPersonnel: [
-      {
-        name: "Amy Reeves",
-        role: "Corporate Concierge",
-        languages: ["Polish","Hindi"],
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/women/43.jpg",
-        contact: {
-          contactEmail: "extraordinary.lullab@velarivoyages.com",
-          contactNumber: "+1-893-464-4725"
-        }
-      }
-    ],
-    title: "Extraordinary Lullaby of the Sacred Shores",
-    description: "Depart from Kyoto on this thoughtfully designed oasis across the Asia Pacific. Savor coastal charm, cultural treasures, and ocean views with stops at Sydney, Bali, Shanghai.",
-    rating: 4.8,
-    tags: ["cruise-adventure","seasonal","short-getaway"]
-  },
-  {
-    basePrice: 6162,
-    departureLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    arrivalLocation: {
-  "city": "Shanghai",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "expedition",
-    itinerary: {
-      route: [
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Bali",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Melbourne",
-    "country": "Australia",
-    "coordinates": {
-      "latitude": -37.8136,
-      "longitude": 144.9631
-    }
-  },
-  {
-    "city": "Sydney",
-    "country": "Australia",
-    "coordinates": {
-      "latitude": -33.8688,
-      "longitude": 151.2093
-    }
-  },
-  {
-    "city": "Shanghai",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "This inspiring saga departs from Kyoto, navigating the diverse landscapes and vibrant cities of Asia Pacific. Must-see stops include Bali, Melbourne, Sydney, Shanghai.",
-      distance: "1061 nautical miles",
-      totalDuration: "14 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Kyoto to Bali"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Bali to Melbourne"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Melbourne to Sydney"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Sailing from Sydney to Shanghai"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Kyoto"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring Bali"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Melbourne"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring Sydney"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 14",
-    "duration": "1 days",
-    "description": "Exploring Shanghai"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Ava Hawkins",
-        role: "Loyalty Program Representative",
-        languages: ["Portuguese","Hungarian","Polish"],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/women/51.jpg",
-        contact: {
-          contactEmail: "whispering.drift.of.@velarivoyages.com",
-          contactNumber: "+1-157-245-8811"
-        }
-      }
-    ],
-    title: "Whispering Drift of the Lotus-Lined Waters",
-    description: "This inspiring saga departs from Kyoto, navigating the diverse landscapes and vibrant cities of Asia Pacific. Must-see stops include Bali, Melbourne, Sydney, Shanghai.",
-    rating: 4.1,
-    tags: ["fall-cruise"]
-  },
-  {
-    basePrice: 8903,
-    departureLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    arrivalLocation: {
-  "city": "Melbourne",
-  "country": "Australia",
-  "coordinates": {
-    "latitude": -37.8136,
-    "longitude": 144.9631
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "entry-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Yokohama",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.4437,
-      "longitude": 139.638
-    }
-  },
-  {
-    "city": "Bali",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Tokyo",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
-    }
-  },
-  {
-    "city": "Melbourne",
-    "country": "Australia",
-    "coordinates": {
-      "latitude": -37.8136,
-      "longitude": 144.9631
-    }
-  }
-],
-      description: "Discover the wonders of Asia Pacific aboard this infinite cruise departing from Kyoto. Journey through crystal waters to explore the treasures of Yokohama, Bali, Tokyo, Melbourne, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
-      distance: "1022 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Kyoto to Yokohama"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Yokohama to Bali"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Bali to Tokyo"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Sailing from Tokyo to Melbourne"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Kyoto"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Yokohama"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Bali"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Tokyo"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring Melbourne"
-  }
-]
-    },
-    tourCategoryId: "anniversary-cruise",
-    contactPersonnel: [
-      {
-        name: "Emma Bennett",
-        role: "Loyalty Program Representative",
-        languages: ["Portuguese","Hungarian","Polish"],
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/women/59.jpg",
-        contact: {
-          contactEmail: "captivating.labyrint@velarivoyages.com",
-          contactNumber: "+1-987-595-7517"
-        }
-      }
-    ],
-    title: "Captivating Labyrinth of the Pagoda-Silhouetted Skylines",
-    description: "Discover the wonders of Asia Pacific aboard this infinite cruise departing from Kyoto. Journey through crystal waters to explore the treasures of Yokohama, Bali, Tokyo, Melbourne, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
-    rating: 4.4,
-    tags: ["general","anniversary-cruise"]
-  },
-  {
-    basePrice: 3603,
-    departureLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    arrivalLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: true,
     category: "premium",
     itinerary: {
       route: [
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Bali",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Tokyo",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
-    }
-  },
-  {
-    "city": "Auckland",
-    "country": "New Zealand",
-    "coordinates": {
-      "latitude": -36.848461,
-      "longitude": 174.763336
-    }
-  },
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  }
-],
-      description: "Your frontier begins in Kyoto, where every sunset on the Asia Pacific horizon promises another day of discovery—from Bali, Tokyo, Auckland to hidden ports of charm.",
-      distance: "997 nautical miles",
-      totalDuration: "14 days",
+        {
+          city: "Kyoto",
+          country: "Japan",
+          region: "Asia Pacific",
+          coordinates: {
+            latitude: 35.0116,
+            longitude: 135.7681,
+          },
+        },
+        {
+          city: "Sydney",
+          country: "Australia",
+          coordinates: {
+            latitude: -33.8688,
+            longitude: 151.2093,
+          },
+        },
+        {
+          city: "Melbourne",
+          country: "Australia",
+          coordinates: {
+            latitude: -37.8136,
+            longitude: 144.9631,
+          },
+        },
+        {
+          city: "Tokyo",
+          country: "Japan",
+          coordinates: {
+            latitude: 35.6895,
+            longitude: 139.6917,
+          },
+        },
+      ],
+      description:
+        "An unforgettable excursion awaits as you cruise from Kyoto across Asia Pacific. Dive into history, flavor, and culture with stops including Sydney, Melbourne, Tokyo.",
+      distance: "654 nautical miles",
+      totalDuration: "12 days",
       timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Kyoto to Bali"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Bali to Tokyo"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from Tokyo to Auckland"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Sailing from Auckland to Kyoto"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 4",
+          duration: "2 days",
+          description: "Sailing from Kyoto to Sydney",
+        },
+        {
+          start: "Day 6",
+          end: "Day 7",
+          duration: "2 days",
+          description: "Sailing from Sydney to Melbourne",
+        },
+        {
+          start: "Day 10",
+          end: "Day 10",
+          duration: "1 days",
+          description: "Sailing from Melbourne to Tokyo",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Kyoto"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Bali"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Tokyo"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring Auckland"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 14",
-    "duration": "1 days",
-    "description": "Exploring Kyoto"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring Kyoto",
+        },
+        {
+          start: "Day 5",
+          end: "Day 5",
+          duration: "1 days",
+          description: "Exploring Sydney",
+        },
+        {
+          start: "Day 8",
+          end: "Day 9",
+          duration: "2 days",
+          description: "Exploring Melbourne",
+        },
+        {
+          start: "Day 11",
+          end: "Day 12",
+          duration: "2 days",
+          description: "Exploring Tokyo",
+        },
+      ],
     },
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Sofia Dean",
-        role: "Loyalty Program Representative",
-        languages: ["Portuguese","Hungarian","Polish"],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/women/74.jpg",
+        name: "Jack Collins",
+        role: "Reservations Agent",
+        languages: ["Hindi", "Tagalog", "Japanese", "Urdu"], // Use the properly generated languages list
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/men/44.jpg",
         contact: {
-          contactEmail: "exquisite.sanctum.of@velarivoyages.com",
-          contactNumber: "+1-704-947-6626"
-        }
-      }
+          contactEmail: "lavish.whisper.of.th@velarivoyages.com",
+          contactNumber: "+1-299-502-8738",
+        },
+      },
     ],
-    title: "Exquisite Sanctum of the Zen-Stilled Veil",
-    description: "Your frontier begins in Kyoto, where every sunset on the Asia Pacific horizon promises another day of discovery—from Bali, Tokyo, Auckland to hidden ports of charm.",
-    rating: 4.1,
-    tags: ["cruise-ship"]
+    title: "Lavish Whisper of the Oceanic Wonders",
+    description:
+      "An unforgettable excursion awaits as you cruise from Kyoto across Asia Pacific. Dive into history, flavor, and culture with stops including Sydney, Melbourne, Tokyo.",
+    rating: 4.7,
+    tags: ["cruise"],
   },
   {
-    basePrice: 8353,
+    basePrice: 1751,
     departureLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
+      city: "Kyoto",
+      country: "Japan",
+      region: "Asia Pacific",
+      coordinates: {
+        latitude: 35.0116,
+        longitude: 135.7681,
+      },
+    },
     arrivalLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
+      city: "Sydney",
+      country: "Australia",
+      coordinates: {
+        latitude: -33.8688,
+        longitude: 151.2093,
+      },
+    },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
+    hasPopularDestination: false,
     category: "entry-luxury",
     itinerary: {
       route: [
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Bali",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Bangkok",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Hong Kong",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  }
-],
-      description: "Depart from iconic Kyoto and traverse the Asia Pacific with visits to Bali, Bangkok, Hong Kong. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
-      distance: "836 nautical miles",
-      totalDuration: "12 days",
+        {
+          city: "Kyoto",
+          country: "Japan",
+          region: "Asia Pacific",
+          coordinates: {
+            latitude: 35.0116,
+            longitude: 135.7681,
+          },
+        },
+        {
+          city: "Hong Kong",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Ho Chi Minh City",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Sydney",
+          country: "Australia",
+          coordinates: {
+            latitude: -33.8688,
+            longitude: 151.2093,
+          },
+        },
+      ],
+      description:
+        "Begin a captivating zenith through the Asia Pacific, departing Kyoto. With visits to Hong Kong, Ho Chi Minh City, Sydney, each day brings a new adventure and deeper connection to the region.",
+      distance: "899 nautical miles",
+      totalDuration: "13 days",
       timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Kyoto to Bali"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Bali to Bangkok"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Bangkok to Hong Kong"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Hong Kong to Kyoto"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 4",
+          duration: "2 days",
+          description: "Sailing from Kyoto to Hong Kong",
+        },
+        {
+          start: "Day 6",
+          end: "Day 7",
+          duration: "2 days",
+          description: "Sailing from Hong Kong to Ho Chi Minh City",
+        },
+        {
+          start: "Day 10",
+          end: "Day 11",
+          duration: "2 days",
+          description: "Sailing from Ho Chi Minh City to Sydney",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Kyoto"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Bali"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Bangkok"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Hong Kong"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Kyoto"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring Kyoto",
+        },
+        {
+          start: "Day 5",
+          end: "Day 5",
+          duration: "1 days",
+          description: "Exploring Hong Kong",
+        },
+        {
+          start: "Day 8",
+          end: "Day 9",
+          duration: "2 days",
+          description: "Exploring Ho Chi Minh City",
+        },
+        {
+          start: "Day 12",
+          end: "Day 13",
+          duration: "2 days",
+          description: "Exploring Sydney",
+        },
+      ],
     },
-    tourCategoryId: "general-cruise",
+    tourCategoryId: "vip-cruise",
     contactPersonnel: [
       {
-        name: "Kimberly Fox",
-        role: "Loyalty Program Representative",
-        languages: ["Portuguese","Hungarian","Polish"],
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
+        name: "Bruce Porter",
+        role: "Reservations Agent",
+        languages: ["Hindi", "Tagalog", "Japanese", "Urdu"], // Use the properly generated languages list
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/56.jpg",
         contact: {
-          contactEmail: "aweinspiring.drift.o@velarivoyages.com",
-          contactNumber: "+1-987-549-9613"
-        }
-      }
+          contactEmail: "forbidden.requiem.of@velarivoyages.com",
+          contactNumber: "+1-150-875-9763",
+        },
+      },
     ],
-    title: "Awe-Inspiring Drift of the Temple Haven",
-    description: "Depart from iconic Kyoto and traverse the Asia Pacific with visits to Bali, Bangkok, Hong Kong. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
-    rating: 4.9,
-    tags: ["cultural","cruise-experience"]
+    title: "Forbidden Requiem of the Jade Horizons",
+    description:
+      "Begin a captivating zenith through the Asia Pacific, departing Kyoto. With visits to Hong Kong, Ho Chi Minh City, Sydney, each day brings a new adventure and deeper connection to the region.",
+    rating: 5.0,
+    tags: ["VIP", "exclusive"],
   },
   {
-    basePrice: 8505,
+    basePrice: 4704,
     departureLocation: {
-  "city": "Kyoto",
-  "country": "Japan",
-  "region": "Asia Pacific",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
+      city: "Kyoto",
+      country: "Japan",
+      region: "Asia Pacific",
+      coordinates: {
+        latitude: 35.0116,
+        longitude: 135.7681,
+      },
+    },
     arrivalLocation: {
-  "city": "Bangkok",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
+      city: "Kyoto",
+      country: "Japan",
+      region: "Asia Pacific",
+      coordinates: {
+        latitude: 35.0116,
+        longitude: 135.7681,
+      },
+    },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "expedition",
+    category: "premium",
     itinerary: {
       route: [
-  {
-    "city": "Kyoto",
-    "country": "Japan",
-    "region": "Asia Pacific",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Melbourne",
-    "country": "Australia",
-    "coordinates": {
-      "latitude": -37.8136,
-      "longitude": 144.9631
-    }
-  },
-  {
-    "city": "Bangkok",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Let the spirit of exploration guide your forbidden journey from Kyoto. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Melbourne, Bangkok.",
-      distance: "1189 nautical miles",
-      totalDuration: "6 days",
+        {
+          city: "Kyoto",
+          country: "Japan",
+          region: "Asia Pacific",
+          coordinates: {
+            latitude: 35.0116,
+            longitude: 135.7681,
+          },
+        },
+        {
+          city: "Melbourne",
+          country: "Australia",
+          coordinates: {
+            latitude: -37.8136,
+            longitude: 144.9631,
+          },
+        },
+        {
+          city: "Bali",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Kyoto",
+          country: "Japan",
+          region: "Asia Pacific",
+          coordinates: {
+            latitude: 35.0116,
+            longitude: 135.7681,
+          },
+        },
+      ],
+      description:
+        "This hand-selected unforgettable cruise offers a true taste of Asia Pacific. Depart from Kyoto and explore ports like Melbourne, Bali, each telling a story through food, music, and tradition.",
+      distance: "559 nautical miles",
+      totalDuration: "13 days",
       timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Kyoto to Melbourne"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from Melbourne to Bangkok"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 4",
+          duration: "2 days",
+          description: "Sailing from Kyoto to Melbourne",
+        },
+        {
+          start: "Day 6",
+          end: "Day 7",
+          duration: "2 days",
+          description: "Sailing from Melbourne to Bali",
+        },
+        {
+          start: "Day 10",
+          end: "Day 11",
+          duration: "2 days",
+          description: "Sailing from Bali to Kyoto",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Kyoto"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Melbourne"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring Bangkok"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring Kyoto",
+        },
+        {
+          start: "Day 5",
+          end: "Day 5",
+          duration: "1 days",
+          description: "Exploring Melbourne",
+        },
+        {
+          start: "Day 8",
+          end: "Day 9",
+          duration: "2 days",
+          description: "Exploring Bali",
+        },
+        {
+          start: "Day 12",
+          end: "Day 13",
+          duration: "2 days",
+          description: "Exploring Kyoto",
+        },
+      ],
     },
     tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Amanda Day",
-        role: "Loyalty Program Representative",
-        languages: ["Portuguese","Hungarian","Polish"],
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/61.jpg",
+        name: "Juan Lawson",
+        role: "Reservations Agent",
+        languages: ["Hindi", "Tagalog", "Japanese", "Urdu"], // Use the properly generated languages list
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/53.jpg",
         contact: {
-          contactEmail: "verdant.pulse.of.the@velarivoyages.com",
-          contactNumber: "+1-230-840-4952"
-        }
-      }
+          contactEmail: "infinite.excursion.o@velarivoyages.com",
+          contactNumber: "+1-823-540-9815",
+        },
+      },
     ],
-    title: "Verdant Pulse of the Whispers of Bamboo",
-    description: "Let the spirit of exploration guide your forbidden journey from Kyoto. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Melbourne, Bangkok.",
+    title: "Infinite Excursion of the Oriental Realms",
+    description:
+      "This hand-selected unforgettable cruise offers a true taste of Asia Pacific. Depart from Kyoto and explore ports like Melbourne, Bali, each telling a story through food, music, and tradition.",
+    rating: 4.8,
+    tags: ["relaxation", "repositioning"],
+  },
+  {
+    basePrice: 5321,
+    departureLocation: {
+      city: "Kyoto",
+      country: "Japan",
+      region: "Asia Pacific",
+      coordinates: {
+        latitude: 35.0116,
+        longitude: 135.7681,
+      },
+    },
+    arrivalLocation: {
+      city: "Kyoto",
+      country: "Japan",
+      region: "Asia Pacific",
+      coordinates: {
+        latitude: 35.0116,
+        longitude: 135.7681,
+      },
+    },
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+        {
+          city: "Kyoto",
+          country: "Japan",
+          region: "Asia Pacific",
+          coordinates: {
+            latitude: 35.0116,
+            longitude: 135.7681,
+          },
+        },
+        {
+          city: "Tokyo",
+          country: "Japan",
+          coordinates: {
+            latitude: 35.6895,
+            longitude: 139.6917,
+          },
+        },
+        {
+          city: "Bali",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Kyoto",
+          country: "Japan",
+          region: "Asia Pacific",
+          coordinates: {
+            latitude: 35.0116,
+            longitude: 135.7681,
+          },
+        },
+      ],
+      description:
+        "Depart Kyoto on a relaxing excursion through the Asia Pacific region. Highlights include the stunning coastlines of Tokyo, Bali, all while enjoying first-class amenities on board.",
+      distance: "1461 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+        {
+          start: "Day 2",
+          end: "Day 2",
+          duration: "1 days",
+          description: "Sailing from Kyoto to Tokyo",
+        },
+        {
+          start: "Day 4",
+          end: "Day 4",
+          duration: "1 days",
+          description: "Sailing from Tokyo to Bali",
+        },
+        {
+          start: "Day 6",
+          end: "Day 7",
+          duration: "2 days",
+          description: "Sailing from Bali to Kyoto",
+        },
+      ],
+      timeOnLand: [
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring Kyoto",
+        },
+        {
+          start: "Day 3",
+          end: "Day 3",
+          duration: "1 days",
+          description: "Exploring Tokyo",
+        },
+        {
+          start: "Day 5",
+          end: "Day 5",
+          duration: "1 days",
+          description: "Exploring Bali",
+        },
+        {
+          start: "Day 8",
+          end: "Day 9",
+          duration: "2 days",
+          description: "Exploring Kyoto",
+        },
+      ],
+    },
+    tourCategoryId: "tropical-cruise",
+    contactPersonnel: [
+      {
+        name: "Jordan Day",
+        role: "Reservations Agent",
+        languages: ["Hindi", "Tagalog", "Japanese", "Urdu"], // Use the properly generated languages list
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/69.jpg",
+        contact: {
+          contactEmail: "pristine.zenith.of.t@velarivoyages.com",
+          contactNumber: "+1-939-191-8128",
+        },
+      },
+    ],
+    title: "Pristine Zenith of the Cultural Heart of Japan",
+    description:
+      "Depart Kyoto on a relaxing excursion through the Asia Pacific region. Highlights include the stunning coastlines of Tokyo, Bali, all while enjoying first-class amenities on board.",
+    rating: 4.9,
+    tags: ["sightseeing", "tropical"],
+  },
+  {
+    basePrice: 5758,
+    departureLocation: {
+      city: "Kyoto",
+      country: "Japan",
+      region: "Asia Pacific",
+      coordinates: {
+        latitude: 35.0116,
+        longitude: 135.7681,
+      },
+    },
+    arrivalLocation: {
+      city: "Ho Chi Minh City",
+      country: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury",
+    itinerary: {
+      route: [
+        {
+          city: "Kyoto",
+          country: "Japan",
+          region: "Asia Pacific",
+          coordinates: {
+            latitude: 35.0116,
+            longitude: 135.7681,
+          },
+        },
+        {
+          city: "Tokyo",
+          country: "Japan",
+          coordinates: {
+            latitude: 35.6895,
+            longitude: 139.6917,
+          },
+        },
+        {
+          city: "Singapore",
+          country: "Singapore",
+          coordinates: {
+            latitude: 1.3521,
+            longitude: 103.8198,
+          },
+        },
+        {
+          city: "Hong Kong",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Ho Chi Minh City",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+      ],
+      description:
+        "Sail away from the charming harbor of Kyoto on this luminous journey across Asia Pacific. Uncover the beauty and history of Tokyo, Singapore, Hong Kong, Ho Chi Minh City with curated excursions, world-class cuisine, and exceptional service.",
+      distance: "1346 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+        {
+          start: "Day 2",
+          end: "Day 2",
+          duration: "1 days",
+          description: "Sailing from Kyoto to Tokyo",
+        },
+        {
+          start: "Day 4",
+          end: "Day 4",
+          duration: "1 days",
+          description: "Sailing from Tokyo to Singapore",
+        },
+        {
+          start: "Day 6",
+          end: "Day 6",
+          duration: "1 days",
+          description: "Sailing from Singapore to Hong Kong",
+        },
+        {
+          start: "Day 9",
+          end: "Day 9",
+          duration: "1 days",
+          description: "Sailing from Hong Kong to Ho Chi Minh City",
+        },
+      ],
+      timeOnLand: [
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring Kyoto",
+        },
+        {
+          start: "Day 3",
+          end: "Day 3",
+          duration: "1 days",
+          description: "Exploring Tokyo",
+        },
+        {
+          start: "Day 5",
+          end: "Day 5",
+          duration: "1 days",
+          description: "Exploring Singapore",
+        },
+        {
+          start: "Day 7",
+          end: "Day 8",
+          duration: "2 days",
+          description: "Exploring Hong Kong",
+        },
+        {
+          start: "Day 10",
+          end: "Day 10",
+          duration: "1 days",
+          description: "Exploring Ho Chi Minh City",
+        },
+      ],
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Chen Coleman",
+        role: "Reservations Agent",
+        languages: ["Hindi", "Tagalog", "Japanese", "Urdu"], // Use the properly generated languages list
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/7.jpg",
+        contact: {
+          contactEmail: "verdant.legacy.of.th@velarivoyages.com",
+          contactNumber: "+1-608-752-8498",
+        },
+      },
+    ],
+    title: "Verdant Legacy of the Cultural Heart of Japan",
+    description:
+      "Sail away from the charming harbor of Kyoto on this luminous journey across Asia Pacific. Uncover the beauty and history of Tokyo, Singapore, Hong Kong, Ho Chi Minh City with curated excursions, world-class cuisine, and exceptional service.",
     rating: 5.0,
-    tags: ["repositioning","nature"]
-  }
+    tags: ["cruise-line", "cruise"],
+  },
 ];

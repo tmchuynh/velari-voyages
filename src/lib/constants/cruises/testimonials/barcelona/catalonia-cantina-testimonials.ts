@@ -5,34 +5,117 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const barcelonacataloniaCantinaTestimonials: Testimonial[] = [
   {
-    "quote": "The alluring snacks paired perfectly with the superb service and serene ambiance at Catalonia Cantina.",
-    "author": "Jessica Murphy",
-    "title": "Beverage Expert"
+    quote:
+      "The pleasing flavors of the food at Catalonia Cantina are matched by first-rate service and a delightful dining room.",
+    author: "Michael Sanchez",
+    title: "Culinary Educator",
   },
   {
-    "quote": "Dining at Catalonia Cantina was a pleasurable experience from start to finish. The gastronomic experiences delighted our palates, the service was respectful, and the charming setting completed the evening.",
-    "author": "Lucas Walker",
-    "title": "Recipe Developer"
+    quote:
+      "The selections at Catalonia Cantina are consistently fantastic, accompanied by kind staff and a bohemian setting.",
+    author: "David Garcia",
+    title: "Food & Wine Connoisseur",
   },
   {
-    "quote": "For those who appreciate sublime cuisine, Catalonia Cantina offers nibbles that satisfy, alongside diligent service and a lively vibe.",
-    "author": "Jessica Turner",
-    "title": "Culinary Critic"
+    quote:
+      "Catalonia Cantina offers a scrumptious menu and an equally dependable staff. The casual vibe makes it perfect for any occasion.",
+    author: "James Garcia",
+    title: "Luxury Travel Consultant",
   },
   {
-    "quote": "For a memorable dining experience, Catalonia Cantina offers excellent desserts, enthusiastic service, and a modern environment.",
-    "author": "Matthew Phillips",
-    "title": "Culinary Artist"
+    quote:
+      "The fare at Catalonia Cantina are consistently flavorful, matched by courteous service and a airy ambiance.",
+    author: "Ashley Hernandez",
+    title: "Food Scientist",
   },
   {
-    "quote": "The gastronomic delights at Catalonia Cantina are thoughtfully prepared, great, and complemented by knowledgeable staff and a vibrant space.",
-    "author": "Ryan Morgan",
-    "title": "Culinary Explorer"
+    quote:
+      "If you're looking for fantastic appetizers, Catalonia Cantina delivers with impeccable outstanding service and a lively environment.",
+    author: "James Mitchell",
+    title: "Culinary Instructor",
+    image: "/images/testimonials/person-5.jpg",
   },
   {
-    "quote": "Every dish at Catalonia Cantina was mouthwatering, complemented by dedicated staff and a upscale atmosphere.",
-    "author": "Samantha Davis",
-    "title": "Food Enthusiast",
-    "image": "/images/testimonials/person-2.jpg"
-  }
+    quote:
+      "At Catalonia Cantina, the gastronomic sensations impressed with engaging quality, alongside first-rate hospitality and a stylish setting.",
+    author: "Sophia Hall",
+    title: "Culinary Instructor",
+    image: "/images/testimonials/person-6.jpg",
+  },
+  {
+    quote:
+      "Every dish at Catalonia Cantina was enchanting, complemented by welcoming staff and a bustling atmosphere.",
+    author: "Grace Evans",
+    title: "Food Writer",
+  },
+  {
+    quote:
+      "The incredible flavors of the flavors at Catalonia Cantina are matched by helpful service and a energetic dining room.",
+    author: "Hannah Rogers",
+    title: "Gastronomic Critic",
+    image: "/images/testimonials/person-2.jpg",
+  },
+  {
+    quote:
+      "The yummy fare at Catalonia Cantina kept us coming back for more, complemented perfectly by dependable staff and a lively setting.",
+    author: "David Edwards",
+    title: "Travel Blogger",
+    image: "/images/testimonials/person-8.jpg",
+  },
+  {
+    quote:
+      "Our experience at Catalonia Cantina was elevated by perfect desserts, thoughtful hospitality, and a relaxed dining room.",
+    author: "Aiden Bailey",
+    title: "Cruise Traveler",
+    image: "/images/testimonials/person-12.jpg",
+  },
+  {
+    quote:
+      "You’ll enjoy excellent gastronomic wonders and excellent service, all within a inviting space at Catalonia Cantina.",
+    author: "Anthony Lewis",
+    title: "Recipe Developer",
+  },
+  {
+    quote:
+      "Enjoy tantalizing dishes and responsive attention in a lively atmosphere at Catalonia Cantina.",
+    author: "Maria Nelson",
+    title: "Luxury Travel Consultant",
+    image: "/images/testimonials/person-8.jpg",
+  },
+  {
+    quote:
+      "The combination of scrumptious offerings, welcoming attention, and a elegant vibe makes Catalonia Cantina exceptional.",
+    author: "Olivia Thompson",
+    title: "Food Stylist",
+  },
+  {
+    quote:
+      "Catalonia Cantina delivers irresistible appetizers, supported by remarkable staff and a sophisticated atmosphere perfect for any occasion.",
+    author: "Joshua Garcia",
+    title: "Food Writer",
+  },
+  {
+    quote:
+      "You’ll find a delightful selection of savory gastronomic delights, paired with exceptional service and a elegant environment at Catalonia Cantina.",
+    author: "Olivia Brown",
+    title: "Restaurant Reviewer",
+  },
+  {
+    quote:
+      "The dishes at Catalonia Cantina are divine, and the efficient service creates an inviting luxurious experience.",
+    author: "Benjamin Adams",
+    title: "Culinary Artist",
+  },
+  {
+    quote:
+      "The treats at Catalonia Cantina are tasty, and the dedicated service creates an inviting intimate experience.",
+    author: "Samantha Edwards",
+    title: "Food & Wine Connoisseur",
+  },
+  {
+    quote:
+      "At Catalonia Cantina, the culinary wonders are excellent and the dedicated team ensures your visit is complemented by a rustic atmosphere.",
+    author: "William Stewart",
+    title: "Culinary Historian",
+  },
 ];

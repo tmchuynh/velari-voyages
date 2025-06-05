@@ -5,38 +5,119 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const florencemichelangeloHarvestTestimonials: Testimonial[] = [
   {
-    "quote": "From start to finish, Michelangelo Harvest offers seductive entrees, attentive warm service, and a pleasant environment.",
-    "author": "Jacob Murphy",
-    "title": "Restaurant Enthusiast",
-    "image": "/images/testimonials/person-3.jpg"
+    quote:
+      "The combination of alluring gastronomic sensations, welcoming attention, and a relaxed vibe makes Michelangelo Harvest exceptional.",
+    author: "Benjamin Garcia",
+    title: "Culinary Artist",
+    image: "/images/testimonials/person-8.jpg",
   },
   {
-    "quote": "If you value delectable gastronomic sensations with helpful staff and a artistic ambiance, Michelangelo Harvest delivers.",
-    "author": "Lucas Rogers",
-    "title": "Food & Wine Connoisseur",
-    "image": "/images/testimonials/person-9.jpg"
+    quote:
+      "If you value delectable gastronomic delights with professional staff and a vibrant ambiance, Michelangelo Harvest delivers.",
+    author: "Ryan Mitchell",
+    title: "Culinary Journalist",
   },
   {
-    "quote": "The platters at Michelangelo Harvest are consistently flavorful, accompanied by knowledgeable staff and a sophisticated setting.",
-    "author": "Madison Lee",
-    "title": "Wine Sommelier",
-    "image": "/images/testimonials/person-11.jpg"
+    quote:
+      "You’ll find a delightful selection of tantalizing snacks, paired with wonderful service and a cozy environment at Michelangelo Harvest.",
+    author: "Elizabeth Thompson",
+    title: "Food Writer",
   },
   {
-    "quote": "Our visit to Michelangelo Harvest was outstanding. The flavors were captivating, the staff meticulous, and the atmosphere romantic. A must-visit!",
-    "author": "Christopher Campbell",
-    "title": "Culinary Expert",
-    "image": "/images/testimonials/person-11.jpg"
+    quote:
+      "The specialties selection at Michelangelo Harvest is fabulous, complemented by exceptional service and a elegant ambiance that impresses.",
+    author: "David Roberts",
+    title: "Food Enthusiast",
+    image: "/images/testimonials/person-4.jpg",
   },
   {
-    "quote": "The meal here are flavorful, prepared with care and served by thoughtful staff in a intimate setting.",
-    "author": "David Jackson",
-    "title": "Culinary Advisor"
+    quote:
+      "The tasty platters paired perfectly with the helpful service and romantic ambiance at Michelangelo Harvest.",
+    author: "Michael Smith",
+    title: "Food Scientist",
+    image: "/images/testimonials/person-10.jpg",
   },
   {
-    "quote": "The courses selection at Michelangelo Harvest is simply seductive. Combined with thoughtful staff and a artistic setting, it’s a top choice for discerning diners.",
-    "author": "Isabella Richardson",
-    "title": "Gastronomy Enthusiast",
-    "image": "/images/testimonials/person-8.jpg"
-  }
+    quote:
+      "At Michelangelo Harvest, the gastronomic wonders are heavenly and the respectful team ensures your visit is complemented by a spacious atmosphere.",
+    author: "Robert Allen",
+    title: "Culinary Specialist",
+  },
+  {
+    quote:
+      "Experience yummy culinary wonders and friendly staff in a upscale setting when you visit Michelangelo Harvest.",
+    author: "Sarah Morris",
+    title: "Culinary Expert",
+  },
+  {
+    quote:
+      "The cuisine selection at Michelangelo Harvest is marvelous, served with first-rate care in a rustic ambiance.",
+    author: "Mia Garcia",
+    title: "Lifestyle Influencer",
+    image: "/images/testimonials/person-4.jpg",
+  },
+  {
+    quote:
+      "You’ll enjoy satisfying treats and dedicated service, all within a traditional space at Michelangelo Harvest.",
+    author: "Anthony King",
+    title: "Food Journalist",
+  },
+  {
+    quote:
+      "I can't say enough about the mouthwatering courses at Michelangelo Harvest. The superior service and casual ambiance made for a perfect night out.",
+    author: "Ella Richardson",
+    title: "Epicurean Specialist",
+    image: "/images/testimonials/person-7.jpg",
+  },
+  {
+    quote:
+      "Our dining experience at Michelangelo Harvest was marked by engaging cuisine, thoughtful service, and a chic atmosphere.",
+    author: "Jessica Walker",
+    title: "Food Critic",
+  },
+  {
+    quote:
+      "For a sumptuous meal with excellent service in a vibrant setting, Michelangelo Harvest is the place to be.",
+    author: "David Stewart",
+    title: "Wine Sommelier",
+  },
+  {
+    quote:
+      "The tapas here are heavenly, prepared with care and served by approachable staff in a serene setting.",
+    author: "Amelia Roberts",
+    title: "Culinary Blogger",
+  },
+  {
+    quote:
+      "At Michelangelo Harvest, exceptional menu items combine seamlessly with first-rate professionalism and a appealing space designed for comfort.",
+    author: "Grace Campbell",
+    title: "Food Journalist",
+  },
+  {
+    quote:
+      "The gastronomic pleasures selection at Michelangelo Harvest is delightful, served with kind care in a artistic ambiance.",
+    author: "Christopher Murphy",
+    title: "Culinary Consultant",
+    image: "/images/testimonials/person-6.jpg",
+  },
+  {
+    quote:
+      "For those who appreciate refreshing cuisine, Michelangelo Harvest offers beverages that satisfy, alongside superb service and a modern vibe.",
+    author: "Olivia Allen",
+    title: "Culinary Explorer",
+    image: "/images/testimonials/person-11.jpg",
+  },
+  {
+    quote:
+      "You’ll find luscious fare at Michelangelo Harvest, supported by impressive staff and a delightful atmosphere that invites relaxation.",
+    author: "Robert Parker",
+    title: "Culinary Explorer",
+    image: "/images/testimonials/person-1.jpg",
+  },
+  {
+    quote:
+      "At Michelangelo Harvest, exquisite entrees combine seamlessly with respectful professionalism and a ambient space designed for comfort.",
+    author: "William Garcia",
+    title: "Gourmet Explorer",
+  },
 ];

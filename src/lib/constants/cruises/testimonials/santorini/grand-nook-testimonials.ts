@@ -5,34 +5,115 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const santorinigrandNookTestimonials: Testimonial[] = [
   {
-    "quote": "Whether it's the culinary masterpieces or the superb staff, everything at Grand Nook is divine and enhanced by a stylish environment.",
-    "author": "Laura Cook",
-    "title": "Food Writer"
+    quote:
+      "At Grand Nook, succulent drinks combine seamlessly with meticulous professionalism and a peaceful space designed for comfort.",
+    author: "Andrew Hall",
+    title: "Culinary Advisor",
   },
   {
-    "quote": "The gastronomic sensations selection at Grand Nook is simply spectacular. Combined with impressive staff and a vibrant setting, it’s a top choice for discerning diners.",
-    "author": "Chloe Perez",
-    "title": "Epicurean Specialist"
+    quote:
+      "Our experience at Grand Nook was elevated by perfect gastronomic delights, dependable hospitality, and a cozy dining room.",
+    author: "Jacob Anderson",
+    title: "Food Historian",
+    image: "/images/testimonials/person-1.jpg",
   },
   {
-    "quote": "Grand Nook combines mouthwatering dishes with thoughtful hospitality in a intimate setting, perfect for any occasion.",
-    "author": "Daniel Phillips",
-    "title": "Food Critic"
+    quote:
+      "The savors at Grand Nook are awesome, and the warm service creates an inviting vibrant experience.",
+    author: "Matthew Johnson",
+    title: "Culinary Expert",
   },
   {
-    "quote": "From the first bite to the last, the desserts at Grand Nook impressed with engaging flavors, matched by top-notch service and a chic ambiance.",
-    "author": "Alexander Lopez",
-    "title": "Menu Analyst"
+    quote:
+      "Dining at Grand Nook was a satisfying experience from start to finish. The desserts delighted our palates, the service was stellar, and the modern setting completed the evening.",
+    author: "Aiden Turner",
+    title: "Dining Columnist",
   },
   {
-    "quote": "For a memorable dining experience, Grand Nook offers mouthwatering tastes, charming service, and a upscale environment.",
-    "author": "Thomas Bell",
-    "title": "Gourmet Explorer",
-    "image": "/images/testimonials/person-1.jpg"
+    quote:
+      "Grand Nook combines sumptuous dishes with accommodating hospitality in a spacious setting, perfect for any occasion.",
+    author: "Amelia King",
+    title: "Culinary Educator",
   },
   {
-    "quote": "I can't say enough about the exceptional desserts at Grand Nook. The diligent service and elegant ambiance made for a perfect night out.",
-    "author": "Madison Robinson",
-    "title": "Food Stylist"
-  }
+    quote:
+      "For those who appreciate satisfying cuisine, Grand Nook offers delights that satisfy, alongside excellent service and a lively vibe.",
+    author: "Ethan Reed",
+    title: "Gastronomic Writer",
+  },
+  {
+    quote:
+      "Grand Nook consistently delivers excellent treats, attentive staff, and a intimate ambiance to enjoy.",
+    author: "Hannah King",
+    title: "Dining Columnist",
+    image: "/images/testimonials/person-11.jpg",
+  },
+  {
+    quote:
+      "Our meal at Grand Nook featured mouthwatering menu items, attentive stellar staff, and a warm, relaxed environment.",
+    author: "Andrew Moore",
+    title: "Culinary Specialist",
+  },
+  {
+    quote:
+      "From the moment we arrived, Grand Nook impressed with remarkable dishes, attentive service, and a vibrant ambiance.",
+    author: "Daniel Wilson",
+    title: "Culinary Expert",
+  },
+  {
+    quote:
+      "From the first bite to the last, the culinary creations at Grand Nook impressed with captivating flavors, matched by courteous service and a lively ambiance.",
+    author: "Emily Turner",
+    title: "Food Blogger",
+  },
+  {
+    quote:
+      "From the first bite to the last, the cuisine at Grand Nook impressed with sublime flavors, matched by superb service and a luxurious ambiance.",
+    author: "Ava Campbell",
+    title: "Food Enthusiast",
+  },
+  {
+    quote:
+      "From appetizers to desserts, Grand Nook offers outstanding meal in a appealing space with skilled service.",
+    author: "Samantha Baker",
+    title: "Food Writer",
+  },
+  {
+    quote:
+      "Grand Nook offers a pleasing menu and an equally dedicated staff. The sophisticated vibe makes it perfect for any occasion.",
+    author: "Mia Nelson",
+    title: "Gourmet Explorer",
+    image: "/images/testimonials/person-1.jpg",
+  },
+  {
+    quote:
+      "Our visit to Grand Nook was outstanding. The culinary creations were brilliant, the staff gracious, and the atmosphere intimate. A must-visit!",
+    author: "Robert King",
+    title: "Food Enthusiast",
+  },
+  {
+    quote:
+      "From the first bite to the last, the culinary masterpieces at Grand Nook impressed with engaging flavors, matched by exceptional service and a warm ambiance.",
+    author: "Nathan Lopez",
+    title: "Food Writer",
+  },
+  {
+    quote:
+      "I can't say enough about the enticing desserts at Grand Nook. The first-rate service and ambient ambiance made for a perfect night out.",
+    author: "Olivia Lopez",
+    title: "Cruise Traveler",
+  },
+  {
+    quote:
+      "From appetizers to desserts, Grand Nook offers enjoyable delights in a ambient space with friendly service.",
+    author: "Emily Hall",
+    title: "Culinary Specialist",
+  },
+  {
+    quote:
+      "Every visit to Grand Nook delivers delicious recipes, attentive reliable staff, and a vibrant environment that welcomes you.",
+    author: "Daniel Jones",
+    title: "Epicurean Specialist",
+    image: "/images/testimonials/person-1.jpg",
+  },
 ];

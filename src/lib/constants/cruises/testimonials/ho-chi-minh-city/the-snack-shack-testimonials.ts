@@ -5,34 +5,118 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const hoChiMinhCitytheSnackShackTestimonials: Testimonial[] = [
   {
-    "quote": "The luscious flavors of the savors at The Snack Shack are matched by prompt service and a classic dining room.",
-    "author": "Daniel Lee",
-    "title": "Restaurant Enthusiast"
+    quote:
+      "Our experience at The Snack Shack was elevated by marvelous treats, superior hospitality, and a relaxing dining room.",
+    author: "Matthew Smith",
+    title: "Luxury Travel Consultant",
   },
   {
-    "quote": "The savors at The Snack Shack are thoughtfully prepared, delectable, and complemented by helpful staff and a casual space.",
-    "author": "David Walker",
-    "title": "Lifestyle Influencer"
+    quote:
+      "Exceptional creations paired with supportive service and a modern atmosphere make The Snack Shack a standout choice.",
+    author: "James Smith",
+    title: "Beverage Expert",
+    image: "/images/testimonials/person-11.jpg",
   },
   {
-    "quote": "From the first bite to the last, the platters at The Snack Shack impressed with engaging flavors, matched by reliable service and a spacious ambiance.",
-    "author": "Emily Morris",
-    "title": "Culinary Explorer"
+    quote:
+      "The gastronomic pleasures selection at The Snack Shack is superb, served with efficient care in a delightful ambiance.",
+    author: "Benjamin Allen",
+    title: "Gastronomy Enthusiast",
   },
   {
-    "quote": "The fare selection at The Snack Shack is simply delightful. Combined with first-rate staff and a inviting setting, it’s a top choice for discerning diners.",
-    "author": "Ava Sanchez",
-    "title": "Restaurant Reviewer"
+    quote:
+      "We were impressed by the delectable quality of the culinary creations and the respectful attention from staff at The Snack Shack. The sophisticated environment was the cherry on top.",
+    author: "Joshua Green",
+    title: "Culinary Adventurer",
   },
   {
-    "quote": "Dining at The Snack Shack was a exquisite experience from start to finish. The treats delighted our palates, the service was welcoming, and the sophisticated setting completed the evening.",
-    "author": "Michael Baker",
-    "title": "Culinary Adventurer"
+    quote:
+      "I can't say enough about the heavenly drinks at The Snack Shack. The charming service and modern ambiance made for a perfect night out.",
+    author: "Emily White",
+    title: "Culinary Consultant",
+    image: "/images/testimonials/person-2.jpg",
   },
   {
-    "quote": "Every dish at The Snack Shack was appealing, complemented by responsive staff and a cozy atmosphere.",
-    "author": "William Wright",
-    "title": "Food Photographer",
-    "image": "/images/testimonials/person-5.jpg"
-  }
+    quote:
+      "The Snack Shack offers a tasty menu and an equally superior staff. The lively vibe makes it perfect for any occasion.",
+    author: "Jacob Rivera",
+    title: "Culinary Consultant",
+    image: "/images/testimonials/person-9.jpg",
+  },
+  {
+    quote:
+      "For heavenly culinary wonders served with efficient care in a tranquil space, The Snack Shack is unmatched.",
+    author: "Ethan Lewis",
+    title: "Food Journalist",
+    image: "/images/testimonials/person-1.jpg",
+  },
+  {
+    quote:
+      "Our experience at The Snack Shack was elevated by seductive beverages, friendly hospitality, and a inviting dining room.",
+    author: "Mia Wright",
+    title: "Cruise Traveler",
+  },
+  {
+    quote:
+      "You’ll find a delightful selection of heavenly menu items, paired with timely service and a stylish environment at The Snack Shack.",
+    author: "Nicholas Walker",
+    title: "Culinary Educator",
+    image: "/images/testimonials/person-6.jpg",
+  },
+  {
+    quote:
+      "You’ll enjoy sumptuous culinary masterpieces and skilled service, all within a vibrant space at The Snack Shack.",
+    author: "James Thompson",
+    title: "Epicurean Specialist",
+  },
+  {
+    quote:
+      "At The Snack Shack, enticing savors combine seamlessly with friendly professionalism and a vibrant space designed for comfort.",
+    author: "Daniel Cook",
+    title: "Menu Analyst",
+    image: "/images/testimonials/person-11.jpg",
+  },
+  {
+    quote:
+      "You’ll find outstanding dishes at The Snack Shack, supported by thoughtful staff and a stylish atmosphere that invites relaxation.",
+    author: "Sophia Perez",
+    title: "Food Critic",
+  },
+  {
+    quote:
+      "You’ll find delectable gastronomic delights at The Snack Shack, supported by accommodating staff and a sophisticated atmosphere that invites relaxation.",
+    author: "Abigail Sanchez",
+    title: "Culinary Artist",
+  },
+  {
+    quote:
+      "You’ll enjoy yummy selections and remarkable service, all within a relaxed space at The Snack Shack.",
+    author: "Nicholas Jones",
+    title: "Food Photographer",
+  },
+  {
+    quote:
+      "At The Snack Shack, every detail from amazing flavors to diligent service and classic atmosphere is thoughtfully crafted.",
+    author: "Joshua Morris",
+    title: "Food Historian",
+  },
+  {
+    quote:
+      "Dining at The Snack Shack means enjoying engaging meal, first-rate attention, and a vibrant environment tailored for a memorable meal.",
+    author: "Joshua Morgan",
+    title: "Dining Columnist",
+  },
+  {
+    quote:
+      "For a seductive meal with kind service in a lively setting, The Snack Shack is the place to be.",
+    author: "Nathan Richardson",
+    title: "Travel Blogger",
+  },
+  {
+    quote:
+      "We were impressed by the spectacular quality of the culinary delights and the stellar attention from staff at The Snack Shack. The vibrant environment was the cherry on top.",
+    author: "Grace Thompson",
+    title: "Food & Wine Connoisseur",
+    image: "/images/testimonials/person-4.jpg",
+  },
 ];

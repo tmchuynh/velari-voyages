@@ -5,33 +5,117 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const copenhagennyhavnTerraceTestimonials: Testimonial[] = [
   {
-    "quote": "Our dining experience at Nyhavn Terrace was marked by tempting cuisine, exemplary service, and a airy atmosphere.",
-    "author": "Michael Rivera",
-    "title": "Culinary Expert"
+    quote:
+      "Nyhavn Terrace combines tantalizing dishes with trustworthy hospitality in a inviting setting, perfect for any occasion.",
+    author: "Joshua Walker",
+    title: "Culinary Advisor",
   },
   {
-    "quote": "The gastronomic sensations at Nyhavn Terrace were absolutely delightful! The service was thorough and the atmosphere was intimate. Highly recommend!",
-    "author": "Mia White",
-    "title": "Culinary Artist"
+    quote:
+      "Every dish we tried at Nyhavn Terrace was charming, paired perfectly with thoughtful service and a elegant atmosphere that invites relaxation.",
+    author: "Liam Evans",
+    title: "Culinary Critic",
   },
   {
-    "quote": "We were impressed by the awesome quality of the recipes and the charming attention from staff at Nyhavn Terrace. The peaceful environment was the cherry on top.",
-    "author": "Lucas Rogers",
-    "title": "Beverage Expert"
+    quote:
+      "Nyhavn Terrace combines spectacular dishes with efficient hospitality in a warm setting, perfect for any occasion.",
+    author: "Emma Wright",
+    title: "Food Enthusiast",
+    image: "/images/testimonials/person-6.jpg",
   },
   {
-    "quote": "The enticing snacks at Nyhavn Terrace kept us coming back for more, complemented perfectly by top-notch staff and a casual setting.",
-    "author": "John Taylor",
-    "title": "Culinary Enthusiast"
+    quote:
+      "The tapas at Nyhavn Terrace are sublime, and the outstanding service creates an inviting relaxing experience.",
+    author: "Sophia Cook",
+    title: "Culinary Critic",
+    image: "/images/testimonials/person-2.jpg",
   },
   {
-    "quote": "I can't say enough about the delectable flavors at Nyhavn Terrace. The outstanding service and chic ambiance made for a perfect night out.",
-    "author": "Olivia Allen",
-    "title": "Culinary Consultant"
+    quote:
+      "The gastronomic wonders at Nyhavn Terrace are consistently charming, matched by fantastic service and a inviting ambiance.",
+    author: "Benjamin Garcia",
+    title: "Recipe Developer",
   },
   {
-    "quote": "The gastronomic delights at Nyhavn Terrace were absolutely seductive! The service was trustworthy and the atmosphere was comfortable. Highly recommend!",
-    "author": "Ashley Young",
-    "title": "Culinary Consultant"
-  }
+    quote:
+      "The combination of irresistible snacks, excellent attention, and a appealing vibe makes Nyhavn Terrace exceptional.",
+    author: "Abigail Scott",
+    title: "Gastronomic Critic",
+  },
+  {
+    quote:
+      "If you value delectable food with helpful staff and a stylish ambiance, Nyhavn Terrace delivers.",
+    author: "Michael Bell",
+    title: "Culinary Critic",
+    image: "/images/testimonials/person-6.jpg",
+  },
+  {
+    quote:
+      "Our experience at Nyhavn Terrace was elevated by perfect delicacies, skilled hospitality, and a airy dining room.",
+    author: "Lisa Edwards",
+    title: "Culinary Specialist",
+  },
+  {
+    quote:
+      "Our experience at Nyhavn Terrace was elevated by flavorful creations, charming hospitality, and a charming dining room.",
+    author: "Jessica Young",
+    title: "Food Blogger",
+  },
+  {
+    quote:
+      "Exceptional creations paired with superior service and a delightful atmosphere make Nyhavn Terrace a standout choice.",
+    author: "David Lopez",
+    title: "Cruise Traveler",
+  },
+  {
+    quote:
+      "Nyhavn Terrace offers a captivating menu and an equally inviting staff. The refined vibe makes it perfect for any occasion.",
+    author: "Joseph Lewis",
+    title: "Culinary Blogger",
+    image: "/images/testimonials/person-12.jpg",
+  },
+  {
+    quote:
+      "Dining at Nyhavn Terrace means enjoying wonderful culinary wonders, inviting attention, and a lively environment tailored for a memorable meal.",
+    author: "Charlotte White",
+    title: "Culinary Historian",
+  },
+  {
+    quote:
+      "Every visit to Nyhavn Terrace delivers marvelous gastronomic sensations, attentive charming staff, and a bohemian environment that welcomes you.",
+    author: "Ashley Taylor",
+    title: "Culinary Expert",
+    image: "/images/testimonials/person-5.jpg",
+  },
+  {
+    quote:
+      "Nyhavn Terrace offers a mouthwatering menu and an equally superb staff. The modern vibe makes it perfect for any occasion.",
+    author: "Emily Morgan",
+    title: "Culinary Historian",
+  },
+  {
+    quote:
+      "For a flavorful meal with punctual service in a warm setting, Nyhavn Terrace is the place to be.",
+    author: "William Rogers",
+    title: "Restaurant Reviewer",
+  },
+  {
+    quote:
+      "Our experience at Nyhavn Terrace was elevated by scrumptious entrees, dedicated hospitality, and a airy dining room.",
+    author: "Ava Wright",
+    title: "Culinary Artist",
+  },
+  {
+    quote:
+      "If you're looking for tasty specialties, Nyhavn Terrace delivers with impeccable gracious service and a upscale environment.",
+    author: "Amelia Clark",
+    title: "Food Scientist",
+    image: "/images/testimonials/person-12.jpg",
+  },
+  {
+    quote:
+      "For sumptuous cuisine served with accommodating care in a cozy space, Nyhavn Terrace is unmatched.",
+    author: "Jennifer Allen",
+    title: "Food Enthusiast",
+  },
 ];

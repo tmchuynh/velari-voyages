@@ -1,3398 +1,1456 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const parisCruises: Cruise[] = [
-{
-    basePrice: 3826,
+  {
+    basePrice: 8068,
     departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
+      city: "Paris",
+      country: "France",
+      region: "Northern Europe",
+      coordinates: {
+        latitude: 48.8566,
+        longitude: 2.3522,
+      },
+    },
     arrivalLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
+      city: "Kiel",
+      country: "Germany",
+      coordinates: {
+        latitude: 54.3233,
+        longitude: 10.1228,
+      },
+    },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "luxury",
     itinerary: {
       route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "St. Petersburg",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Tallinn",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  },
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  }
-],
-      description: "From bustling Paris to serene Northern Europe shores, this cruise invites you to relax, explore, and indulge. Stops at St. Petersburg, Tallinn, Copenhagen deliver a balanced blend of culture and comfort.",
-      distance: "1155 nautical miles",
-      totalDuration: "13 days",
+        {
+          city: "Paris",
+          country: "France",
+          region: "Northern Europe",
+          coordinates: {
+            latitude: 48.8566,
+            longitude: 2.3522,
+          },
+        },
+        {
+          city: "Helsinki",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "London",
+          country: "United Kingdom",
+          coordinates: {
+            latitude: 51.5074,
+            longitude: -0.1278,
+          },
+        },
+        {
+          city: "St. Petersburg",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Kiel",
+          country: "Germany",
+          coordinates: {
+            latitude: 54.3233,
+            longitude: 10.1228,
+          },
+        },
+      ],
+      description:
+        "Set course from Paris for an inspiring radiance-drenched journey across Northern Europe. Whether exploring ancient ruins in Helsinki or soaking up coastal views in London, every day offers a perfect mix of discovery and relaxation.",
+      distance: "1007 nautical miles",
+      totalDuration: "10 days",
       timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Paris to St. Petersburg"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Sailing from St. Petersburg to Tallinn"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Tallinn to Copenhagen"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Sailing from Copenhagen to Paris"
-  }
-],
+        {
+          start: "Day 2",
+          end: "Day 2",
+          duration: "1 days",
+          description: "Sailing from Paris to Helsinki",
+        },
+        {
+          start: "Day 4",
+          end: "Day 5",
+          duration: "2 days",
+          description: "Sailing from Helsinki to London",
+        },
+        {
+          start: "Day 7",
+          end: "Day 7",
+          duration: "1 days",
+          description: "Sailing from London to St. Petersburg",
+        },
+        {
+          start: "Day 9",
+          end: "Day 9",
+          duration: "1 days",
+          description: "Sailing from St. Petersburg to Kiel",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring St. Petersburg"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring Tallinn"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Copenhagen"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring Paris"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring Paris",
+        },
+        {
+          start: "Day 3",
+          end: "Day 3",
+          duration: "1 days",
+          description: "Exploring Helsinki",
+        },
+        {
+          start: "Day 6",
+          end: "Day 6",
+          duration: "1 days",
+          description: "Exploring London",
+        },
+        {
+          start: "Day 8",
+          end: "Day 8",
+          duration: "1 days",
+          description: "Exploring St. Petersburg",
+        },
+        {
+          start: "Day 10",
+          end: "Day 10",
+          duration: "1 days",
+          description: "Exploring Kiel",
+        },
+      ],
     },
-    tourCategoryId: "general-cruise",
+    tourCategoryId: "glacier-cruise",
     contactPersonnel: [
       {
-        name: "Nora Fox",
-        role: "Group Booking Coordinator",
-        languages: ["Urdu"],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/women/31.jpg",
-        contact: {
-          contactEmail: "aweinspiring.odyssey@velarivoyages.com",
-          contactNumber: "+1-869-521-5878"
-        }
-      }
-    ],
-    title: "Awe-Inspiring Odyssey of the Fairy Tale Villages",
-    description: "From bustling Paris to serene Northern Europe shores, this cruise invites you to relax, explore, and indulge. Stops at St. Petersburg, Tallinn, Copenhagen deliver a balanced blend of culture and comfort.",
-    rating: 4.2,
-    tags: ["general"]
-  },
-  {
-    basePrice: 7299,
-    departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    arrivalLocation: {
-  "city": "Copenhagen",
-  "country": "Denmark",
-  "coordinates": {
-    "latitude": 55.6761,
-    "longitude": 12.5683
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "Stockholm",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  }
-],
-      description: "Launch into adventure from Paris and sail deep into the heart of the Northern Europe. With ports of call like Stockholm, Copenhagen, expect a voyage filled with scenic wonders and luxurious comforts.",
-      distance: "508 nautical miles",
-      totalDuration: "9 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Paris to Stockholm"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Stockholm to Copenhagen"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Stockholm"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Copenhagen"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Sofia Henderson",
-        role: "Group Booking Coordinator",
-        languages: ["Urdu"],
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
-        contact: {
-          contactEmail: "sublime.discovery.of@velarivoyages.com",
-          contactNumber: "+1-675-345-6901"
-        }
-      }
-    ],
-    title: "Sublime Discovery of the Twilight Fjords",
-    description: "Launch into adventure from Paris and sail deep into the heart of the Northern Europe. With ports of call like Stockholm, Copenhagen, expect a voyage filled with scenic wonders and luxurious comforts.",
-    rating: 4.9,
-    tags: ["cruise-getaway","exclusive"]
-  },
-  {
-    basePrice: 6041,
-    departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    arrivalLocation: {
-  "city": "St. Petersburg",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "expedition",
-    itinerary: {
-      route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "Helsinki",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  },
-  {
-    "city": "Oslo",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "St. Petersburg",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Embark from Paris and traverse the Northern Europe in style. Whether it’s the energy of Helsinki or the calm of Copenhagen, each destination reveals a new side of paradise.",
-      distance: "1329 nautical miles",
-      totalDuration: "15 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Paris to Helsinki"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Helsinki to Copenhagen"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Copenhagen to Oslo"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
-    "duration": "2 days",
-    "description": "Sailing from Oslo to St. Petersburg"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Helsinki"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Copenhagen"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Oslo"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 15",
-    "duration": "1 days",
-    "description": "Exploring St. Petersburg"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Mary Knight",
-        role: "Group Booking Coordinator",
-        languages: ["Urdu"],
+        name: "Carlos Gibson",
+        role: "Sales Consultant",
+        languages: ["English", "Danish", "Dutch"], // Use the properly generated languages list
         experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/women/53.jpg",
+        profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
         contact: {
-          contactEmail: "majestic.excursion.o@velarivoyages.com",
-          contactNumber: "+1-823-964-4650"
-        }
-      }
+          contactEmail: "golden.journey.of.th@velarivoyages.com",
+          contactNumber: "+1-391-485-4160",
+        },
+      },
     ],
-    title: "Majestic Excursion of the City of Light",
-    description: "Embark from Paris and traverse the Northern Europe in style. Whether it’s the energy of Helsinki or the calm of Copenhagen, each destination reveals a new side of paradise.",
-    rating: 4.3,
-    tags: ["culinary"]
+    title: "Golden Journey of the Fairy Tale Villages",
+    description:
+      "Set course from Paris for an inspiring radiance-drenched journey across Northern Europe. Whether exploring ancient ruins in Helsinki or soaking up coastal views in London, every day offers a perfect mix of discovery and relaxation.",
+    rating: 4.5,
+    tags: ["expedition", "glacier-cruise", "tropical"],
   },
   {
-    basePrice: 7084,
+    basePrice: 1125,
     departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
+      city: "Paris",
+      country: "France",
+      region: "Northern Europe",
+      coordinates: {
+        latitude: 48.8566,
+        longitude: 2.3522,
+      },
+    },
     arrivalLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
+      city: "Stockholm",
+      country: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
+    isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: true,
     category: "ultra-luxury",
     itinerary: {
       route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "Tallinn",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Oslo",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  }
-],
-      description: "This inspiring solstice departs from Paris, navigating the diverse landscapes and vibrant cities of Northern Europe. Must-see stops include Tallinn, Oslo.",
-      distance: "924 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Paris to Tallinn"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Sailing from Tallinn to Oslo"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Oslo to Paris"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring Tallinn"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Exploring Oslo"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Paris"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Christine Douglas",
-        role: "Group Booking Coordinator",
-        languages: ["Urdu"],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
-        contact: {
-          contactEmail: "breathtaking.mystiqu@velarivoyages.com",
-          contactNumber: "+1-709-913-1257"
-        }
-      }
-    ],
-    title: "Breathtaking Mystique of the Cathedral Echoes",
-    description: "This inspiring solstice departs from Paris, navigating the diverse landscapes and vibrant cities of Northern Europe. Must-see stops include Tallinn, Oslo.",
-    rating: 4.2,
-    tags: ["cruise-line","cruise-getaway"]
-  },
-  {
-    basePrice: 9521,
-    departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    arrivalLocation: {
-  "city": "St. Petersburg",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "mainstream",
-    itinerary: {
-      route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "Tallinn",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  },
-  {
-    "city": "Stockholm",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "St. Petersburg",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Let the waves lead you from Paris on this refined expedition. Traverse the iconic waters of Northern Europe and discover the beauty of Tallinn, Copenhagen, Stockholm, St. Petersburg.",
-      distance: "1095 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Paris to Tallinn"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Tallinn to Copenhagen"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Copenhagen to Stockholm"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Stockholm to St. Petersburg"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Tallinn"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Copenhagen"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Stockholm"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring St. Petersburg"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Brooklyn Hawkins",
-        role: "Group Booking Coordinator",
-        languages: ["Urdu"],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/women/79.jpg",
-        contact: {
-          contactEmail: "aweinspiring.resonan@velarivoyages.com",
-          contactNumber: "+1-154-137-8654"
-        }
-      }
-    ],
-    title: "Awe-Inspiring Resonance of the Midnight Louvre",
-    description: "Let the waves lead you from Paris on this refined expedition. Traverse the iconic waters of Northern Europe and discover the beauty of Tallinn, Copenhagen, Stockholm, St. Petersburg.",
-    rating: 4.9,
-    tags: ["cruise-excursion","wildlife","adventure"]
-  },
-  {
-    basePrice: 5834,
-    departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    arrivalLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "expedition",
-    itinerary: {
-      route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "St. Petersburg",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Helsinki",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  }
-],
-      description: "This captivating arcadia begins in Paris and ventures deep into the heart of Northern Europe. Wander through colorful markets, historic streets, and serene coastlines at St. Petersburg, Helsinki.",
-      distance: "1163 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Paris to St. Petersburg"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from St. Petersburg to Helsinki"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Helsinki to Paris"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring St. Petersburg"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Helsinki"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring Paris"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Alexa Murray",
-        role: "Group Booking Coordinator",
-        languages: ["Urdu"],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/women/47.jpg",
-        contact: {
-          contactEmail: "secluded.journey.of.@velarivoyages.com",
-          contactNumber: "+1-742-129-6322"
-        }
-      }
-    ],
-    title: "Secluded Journey of the Romantic Capital",
-    description: "This captivating arcadia begins in Paris and ventures deep into the heart of Northern Europe. Wander through colorful markets, historic streets, and serene coastlines at St. Petersburg, Helsinki.",
-    rating: 4.9,
-    tags: ["romantic","cruise-holiday"]
-  },
-  {
-    basePrice: 2726,
-    departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    arrivalLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "expedition",
-    itinerary: {
-      route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "St. Petersburg",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Oslo",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  },
-  {
-    "city": "Helsinki",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  }
-],
-      description: "This inspiring eclipse departs from Paris, navigating the diverse landscapes and vibrant cities of Northern Europe. Must-see stops include St. Petersburg, Oslo, Copenhagen, Helsinki.",
-      distance: "706 nautical miles",
-      totalDuration: "18 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Paris to St. Petersburg"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from St. Petersburg to Oslo"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Oslo to Copenhagen"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Sailing from Copenhagen to Helsinki"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 16",
-    "duration": "2 days",
-    "description": "Sailing from Helsinki to Paris"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring St. Petersburg"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Oslo"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring Copenhagen"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
-    "duration": "2 days",
-    "description": "Exploring Helsinki"
-  },
-  {
-    "start": "Day 17",
-    "end": "Day 18",
-    "duration": "2 days",
-    "description": "Exploring Paris"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Samantha Crawford",
-        role: "Group Booking Coordinator",
-        languages: ["Urdu"],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
-        contact: {
-          contactEmail: "alluring.oasis.of.th@velarivoyages.com",
-          contactNumber: "+1-260-918-8131"
-        }
-      }
-    ],
-    title: "Alluring Oasis of the City of Light",
-    description: "This inspiring eclipse departs from Paris, navigating the diverse landscapes and vibrant cities of Northern Europe. Must-see stops include St. Petersburg, Oslo, Copenhagen, Helsinki.",
-    rating: 4.8,
-    tags: ["anniversary-cruise"]
-  },
-  {
-    basePrice: 5661,
-    departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    arrivalLocation: {
-  "city": "Helsinki",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "expedition",
-    itinerary: {
-      route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "Oslo",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Stockholm",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Tallinn",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Helsinki",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Escape to sea from Paris on a oceanic voyage exploring the magic of Northern Europe. Visit unforgettable locales like Oslo, Stockholm, Tallinn, Helsinki, where each stop inspires awe.",
-      distance: "529 nautical miles",
+        {
+          city: "Paris",
+          country: "France",
+          region: "Northern Europe",
+          coordinates: {
+            latitude: 48.8566,
+            longitude: 2.3522,
+          },
+        },
+        {
+          city: "Amsterdam",
+          country: "Netherlands",
+          coordinates: {
+            latitude: 52.377956,
+            longitude: 4.89707,
+          },
+        },
+        {
+          city: "Oslo",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "St. Petersburg",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Stockholm",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+      ],
+      description:
+        "Experience the elegance of the seas on this exquisite sanctuary through Northern Europe, starting from the illustrious port of Paris. From Amsterdam, Oslo, St. Petersburg to Stockholm, each destination offers its own story, culture, and breathtaking views.",
+      distance: "1206 nautical miles",
       totalDuration: "15 days",
       timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Paris to Oslo"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Oslo to Stockholm"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from Stockholm to Tallinn"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Sailing from Tallinn to Helsinki"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 3",
+          duration: "1 days",
+          description: "Sailing from Paris to Amsterdam",
+        },
+        {
+          start: "Day 6",
+          end: "Day 7",
+          duration: "2 days",
+          description: "Sailing from Amsterdam to Oslo",
+        },
+        {
+          start: "Day 10",
+          end: "Day 10",
+          duration: "1 days",
+          description: "Sailing from Oslo to St. Petersburg",
+        },
+        {
+          start: "Day 12",
+          end: "Day 13",
+          duration: "2 days",
+          description: "Sailing from St. Petersburg to Stockholm",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Oslo"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Stockholm"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring Tallinn"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
-    "description": "Exploring Helsinki"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring Paris",
+        },
+        {
+          start: "Day 4",
+          end: "Day 5",
+          duration: "2 days",
+          description: "Exploring Amsterdam",
+        },
+        {
+          start: "Day 8",
+          end: "Day 9",
+          duration: "2 days",
+          description: "Exploring Oslo",
+        },
+        {
+          start: "Day 11",
+          end: "Day 11",
+          duration: "1 days",
+          description: "Exploring St. Petersburg",
+        },
+        {
+          start: "Day 14",
+          end: "Day 15",
+          duration: "2 days",
+          description: "Exploring Stockholm",
+        },
+      ],
     },
     tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Aaliyah Dixon",
-        role: "Group Booking Coordinator",
-        languages: ["Urdu"],
-        experienceYears: 13,
-        profileImage: "https://randomuser.me/api/portraits/women/24.jpg",
+        name: "Johnny Hunter",
+        role: "Sales Consultant",
+        languages: ["English", "Danish", "Dutch"], // Use the properly generated languages list
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/men/39.jpg",
         contact: {
-          contactEmail: "alluring.requiem.of.@velarivoyages.com",
-          contactNumber: "+1-284-709-1153"
-        }
-      }
+          contactEmail: "lavish.labyrinth.of.@velarivoyages.com",
+          contactNumber: "+1-335-372-7730",
+        },
+      },
     ],
-    title: "Alluring Requiem of the Velvet Shadows",
-    description: "Escape to sea from Paris on a oceanic voyage exploring the magic of Northern Europe. Visit unforgettable locales like Oslo, Stockholm, Tallinn, Helsinki, where each stop inspires awe.",
+    title: "Lavish Labyrinth of the Rosé-Washed Dreams",
+    description:
+      "Experience the elegance of the seas on this exquisite sanctuary through Northern Europe, starting from the illustrious port of Paris. From Amsterdam, Oslo, St. Petersburg to Stockholm, each destination offers its own story, culture, and breathtaking views.",
     rating: 4.4,
-    tags: ["tropical","fall-cruise"]
+    tags: ["short-getaway"],
   },
   {
-    basePrice: 4634,
+    basePrice: 6769,
     departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    arrivalLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "entry-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "Oslo",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Stockholm",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Tallinn",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  }
-],
-      description: "Sail away from the charming harbor of Paris on this golden journey across Northern Europe. Uncover the beauty and history of Oslo, Stockholm, Tallinn with curated excursions, world-class cuisine, and exceptional service.",
-      distance: "1352 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Paris to Oslo"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Oslo to Stockholm"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Stockholm to Tallinn"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from Tallinn to Paris"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Oslo"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Stockholm"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Tallinn"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring Paris"
-  }
-]
+      city: "Paris",
+      country: "France",
+      region: "Northern Europe",
+      coordinates: {
+        latitude: 48.8566,
+        longitude: 2.3522,
+      },
     },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        name: "Avery Marshall",
-        role: "Group Booking Coordinator",
-        languages: ["Urdu"],
-        experienceYears: 13,
-        profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
-        contact: {
-          contactEmail: "mesmerizing.zenith.o@velarivoyages.com",
-          contactNumber: "+1-737-125-9698"
-        }
-      }
-    ],
-    title: "Mesmerizing Zenith of the Velvet Shadows",
-    description: "Sail away from the charming harbor of Paris on this golden journey across Northern Europe. Uncover the beauty and history of Oslo, Stockholm, Tallinn with curated excursions, world-class cuisine, and exceptional service.",
-    rating: 4.9,
-    tags: ["fall-cruise","expedition","cruise-adventure"]
-  },
-  {
-    basePrice: 4768,
-    departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
     arrivalLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "entry-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  },
-  {
-    "city": "Oslo",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  }
-],
-      description: "Experience coastal elegance on this panorama from Paris, where the journey through Northern Europe includes stops in Copenhagen, Oslo, each more enchanting than the last.",
-      distance: "814 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Paris to Copenhagen"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Copenhagen to Oslo"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from Oslo to Paris"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Copenhagen"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Oslo"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring Paris"
-  }
-]
+      city: "Copenhagen",
+      country: "Denmark",
+      coordinates: {
+        latitude: 55.6761,
+        longitude: 12.5683,
+      },
     },
-    tourCategoryId: "theme-cruise",
-    contactPersonnel: [
-      {
-        name: "Alice Crawford",
-        role: "Group Booking Coordinator",
-        languages: ["Urdu"],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/women/62.jpg",
-        contact: {
-          contactEmail: "radiant.elevation.of@velarivoyages.com",
-          contactNumber: "+1-233-303-6640"
-        }
-      }
-    ],
-    title: "Radiant Elevation of the Fairy Tale Villages",
-    description: "Experience coastal elegance on this panorama from Paris, where the journey through Northern Europe includes stops in Copenhagen, Oslo, each more enchanting than the last.",
-    rating: 4.5,
-    tags: ["themed-cruise"]
-  },
-  {
-    basePrice: 9755,
-    departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    arrivalLocation: {
-  "city": "St. Petersburg",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
+    isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "premium",
+    category: "luxury",
     itinerary: {
       route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  },
-  {
-    "city": "Oslo",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Stockholm",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "St. Petersburg",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Escape the everyday with this alluring journey through Northern Europe, departing from Paris. You'll visit Copenhagen, Oslo, Stockholm, St. Petersburg, where every stop is a new adventure.",
-      distance: "1099 nautical miles",
+        {
+          city: "Paris",
+          country: "France",
+          region: "Northern Europe",
+          coordinates: {
+            latitude: 48.8566,
+            longitude: 2.3522,
+          },
+        },
+        {
+          city: "Helsinki",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Kiel",
+          country: "Germany",
+          coordinates: {
+            latitude: 54.3233,
+            longitude: 10.1228,
+          },
+        },
+        {
+          city: "Amsterdam",
+          country: "Netherlands",
+          coordinates: {
+            latitude: 52.377956,
+            longitude: 4.89707,
+          },
+        },
+        {
+          city: "Copenhagen",
+          country: "Denmark",
+          coordinates: {
+            latitude: 55.6761,
+            longitude: 12.5683,
+          },
+        },
+      ],
+      description:
+        "Sail away from the charming harbor of Paris on this infinite journey across Northern Europe. Uncover the beauty and history of Helsinki, Kiel, Amsterdam, Copenhagen with curated excursions, world-class cuisine, and exceptional service.",
+      distance: "1480 nautical miles",
       totalDuration: "14 days",
       timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Paris to Copenhagen"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Copenhagen to Oslo"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Oslo to Stockholm"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Sailing from Stockholm to St. Petersburg"
-  }
-],
+        {
+          start: "Day 2",
+          end: "Day 2",
+          duration: "1 days",
+          description: "Sailing from Paris to Helsinki",
+        },
+        {
+          start: "Day 5",
+          end: "Day 5",
+          duration: "1 days",
+          description: "Sailing from Helsinki to Kiel",
+        },
+        {
+          start: "Day 8",
+          end: "Day 9",
+          duration: "2 days",
+          description: "Sailing from Kiel to Amsterdam",
+        },
+        {
+          start: "Day 12",
+          end: "Day 13",
+          duration: "2 days",
+          description: "Sailing from Amsterdam to Copenhagen",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Copenhagen"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Oslo"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Stockholm"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 14",
-    "duration": "1 days",
-    "description": "Exploring St. Petersburg"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring Paris",
+        },
+        {
+          start: "Day 3",
+          end: "Day 4",
+          duration: "2 days",
+          description: "Exploring Helsinki",
+        },
+        {
+          start: "Day 6",
+          end: "Day 7",
+          duration: "2 days",
+          description: "Exploring Kiel",
+        },
+        {
+          start: "Day 10",
+          end: "Day 11",
+          duration: "2 days",
+          description: "Exploring Amsterdam",
+        },
+        {
+          start: "Day 14",
+          end: "Day 14",
+          duration: "1 days",
+          description: "Exploring Copenhagen",
+        },
+      ],
     },
-    tourCategoryId: "glacier-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Kimberly Murray",
-        role: "Group Booking Coordinator",
-        languages: ["Urdu"],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
+        name: "James Hayes",
+        role: "Sales Consultant",
+        languages: ["English", "Danish", "Dutch"], // Use the properly generated languages list
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/57.jpg",
         contact: {
-          contactEmail: "opulent.symphony.of.@velarivoyages.com",
-          contactNumber: "+1-431-301-6200"
-        }
-      }
+          contactEmail: "luxurious.eclipse.of@velarivoyages.com",
+          contactNumber: "+1-470-885-8753",
+        },
+      },
     ],
-    title: "Opulent Symphony of the Romantic Capital",
-    description: "Escape the everyday with this alluring journey through Northern Europe, departing from Paris. You'll visit Copenhagen, Oslo, Stockholm, St. Petersburg, where every stop is a new adventure.",
-    rating: 4.1,
-    tags: ["cruise-journey","expedition","wellness"]
+    title: "Luxurious Eclipse of the Velvet Shadows",
+    description:
+      "Sail away from the charming harbor of Paris on this infinite journey across Northern Europe. Uncover the beauty and history of Helsinki, Kiel, Amsterdam, Copenhagen with curated excursions, world-class cuisine, and exceptional service.",
+    rating: 4.8,
+    tags: ["exclusive", "short-getaway"],
   },
   {
-    basePrice: 9611,
+    basePrice: 4681,
     departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
+      city: "Paris",
+      country: "France",
+      region: "Northern Europe",
+      coordinates: {
+        latitude: 48.8566,
+        longitude: 2.3522,
+      },
+    },
     arrivalLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
+      city: "Amsterdam",
+      country: "Netherlands",
+      coordinates: {
+        latitude: 52.377956,
+        longitude: 4.89707,
+      },
+    },
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+        {
+          city: "Paris",
+          country: "France",
+          region: "Northern Europe",
+          coordinates: {
+            latitude: 48.8566,
+            longitude: 2.3522,
+          },
+        },
+        {
+          city: "Oslo",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Stockholm",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "London",
+          country: "United Kingdom",
+          coordinates: {
+            latitude: 51.5074,
+            longitude: -0.1278,
+          },
+        },
+        {
+          city: "Amsterdam",
+          country: "Netherlands",
+          coordinates: {
+            latitude: 52.377956,
+            longitude: 4.89707,
+          },
+        },
+      ],
+      description:
+        "Set off on a sojourn from Paris that captures the essence of Northern Europe. Discover cultural gems and culinary delights across Oslo, Stockholm, London, Amsterdam.",
+      distance: "738 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+        {
+          start: "Day 2",
+          end: "Day 3",
+          duration: "2 days",
+          description: "Sailing from Paris to Oslo",
+        },
+        {
+          start: "Day 5",
+          end: "Day 5",
+          duration: "1 days",
+          description: "Sailing from Oslo to Stockholm",
+        },
+        {
+          start: "Day 8",
+          end: "Day 8",
+          duration: "1 days",
+          description: "Sailing from Stockholm to London",
+        },
+        {
+          start: "Day 11",
+          end: "Day 12",
+          duration: "2 days",
+          description: "Sailing from London to Amsterdam",
+        },
+      ],
+      timeOnLand: [
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring Paris",
+        },
+        {
+          start: "Day 4",
+          end: "Day 4",
+          duration: "1 days",
+          description: "Exploring Oslo",
+        },
+        {
+          start: "Day 6",
+          end: "Day 7",
+          duration: "2 days",
+          description: "Exploring Stockholm",
+        },
+        {
+          start: "Day 9",
+          end: "Day 10",
+          duration: "2 days",
+          description: "Exploring London",
+        },
+        {
+          start: "Day 13",
+          end: "Day 14",
+          duration: "2 days",
+          description: "Exploring Amsterdam",
+        },
+      ],
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Albert Hayes",
+        role: "Sales Consultant",
+        languages: ["English", "Danish", "Dutch"], // Use the properly generated languages list
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/93.jpg",
+        contact: {
+          contactEmail: "secluded.tranquility@velarivoyages.com",
+          contactNumber: "+1-404-948-1744",
+        },
+      },
+    ],
+    title: "Secluded Tranquility of the Rosé-Washed Dreams",
+    description:
+      "Set off on a sojourn from Paris that captures the essence of Northern Europe. Discover cultural gems and culinary delights across Oslo, Stockholm, London, Amsterdam.",
+    rating: 4.5,
+    tags: ["long-distance", "romantic"],
+  },
+  {
+    basePrice: 3698,
+    departureLocation: {
+      city: "Paris",
+      country: "France",
+      region: "Northern Europe",
+      coordinates: {
+        latitude: 48.8566,
+        longitude: 2.3522,
+      },
+    },
+    arrivalLocation: {
+      city: "Berlin",
+      country: "Germany",
+      coordinates: {
+        latitude: 52.520008,
+        longitude: 13.404954,
+      },
+    },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
     category: "premium-luxury",
     itinerary: {
       route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "Oslo",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Stockholm",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  },
-  {
-    "city": "Tallinn",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  }
-],
-      description: "Let the spirit of exploration guide your mesmerizing journey from Paris. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Oslo, Stockholm, Copenhagen, Tallinn.",
-      distance: "1190 nautical miles",
+        {
+          city: "Paris",
+          country: "France",
+          region: "Northern Europe",
+          coordinates: {
+            latitude: 48.8566,
+            longitude: 2.3522,
+          },
+        },
+        {
+          city: "Tallinn",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Southampton",
+          country: "United Kingdom",
+          coordinates: {
+            latitude: 50.9097,
+            longitude: -1.4044,
+          },
+        },
+        {
+          city: "London",
+          country: "United Kingdom",
+          coordinates: {
+            latitude: 51.5074,
+            longitude: -0.1278,
+          },
+        },
+        {
+          city: "Berlin",
+          country: "Germany",
+          coordinates: {
+            latitude: 52.520008,
+            longitude: 13.404954,
+          },
+        },
+      ],
+      description:
+        "This adventure takes you beyond the ordinary, starting in Paris. With breathtaking stops in Tallinn, Southampton, London, Berlin, your cruise delivers immersive moments and unforgettable vistas.",
+      distance: "782 nautical miles",
       totalDuration: "12 days",
       timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Paris to Oslo"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Sailing from Oslo to Stockholm"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Stockholm to Copenhagen"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Copenhagen to Tallinn"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Tallinn to Paris"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 3",
+          duration: "1 days",
+          description: "Sailing from Paris to Tallinn",
+        },
+        {
+          start: "Day 5",
+          end: "Day 5",
+          duration: "1 days",
+          description: "Sailing from Tallinn to Southampton",
+        },
+        {
+          start: "Day 7",
+          end: "Day 7",
+          duration: "1 days",
+          description: "Sailing from Southampton to London",
+        },
+        {
+          start: "Day 9",
+          end: "Day 10",
+          duration: "2 days",
+          description: "Sailing from London to Berlin",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring Oslo"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Stockholm"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Copenhagen"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Tallinn"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Paris"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Barbara Knight",
-        role: "Group Booking Coordinator",
-        languages: ["Urdu"],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/women/40.jpg",
-        contact: {
-          contactEmail: "unforgettable.embrac@velarivoyages.com",
-          contactNumber: "+1-311-388-3680"
-        }
-      }
-    ],
-    title: "Unforgettable Embrace of the Midnight Louvre",
-    description: "Let the spirit of exploration guide your mesmerizing journey from Paris. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Oslo, Stockholm, Copenhagen, Tallinn.",
-    rating: 5.0,
-    tags: ["cruise-vacation"]
-  },
-  {
-    basePrice: 1748,
-    departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    arrivalLocation: {
-  "city": "Helsinki",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium",
-    itinerary: {
-      route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "Oslo",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "St. Petersburg",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  },
-  {
-    "city": "Helsinki",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Leave stress behind with this curated reunion from Paris. Sail across the best of Northern Europe and explore treasures like Oslo, St. Petersburg, Copenhagen, Helsinki with comfort and style.",
-      distance: "1039 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Paris to Oslo"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Sailing from Oslo to St. Petersburg"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Sailing from St. Petersburg to Copenhagen"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from Copenhagen to Helsinki"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring Oslo"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring St. Petersburg"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Copenhagen"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring Helsinki"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring Paris",
+        },
+        {
+          start: "Day 4",
+          end: "Day 4",
+          duration: "1 days",
+          description: "Exploring Tallinn",
+        },
+        {
+          start: "Day 6",
+          end: "Day 6",
+          duration: "1 days",
+          description: "Exploring Southampton",
+        },
+        {
+          start: "Day 8",
+          end: "Day 8",
+          duration: "1 days",
+          description: "Exploring London",
+        },
+        {
+          start: "Day 11",
+          end: "Day 12",
+          duration: "2 days",
+          description: "Exploring Berlin",
+        },
+      ],
     },
     tourCategoryId: "glacier-cruise",
     contactPersonnel: [
       {
-        name: "Elizabeth Hawkins",
-        role: "Group Booking Coordinator",
-        languages: ["Urdu"],
+        name: "Timothy Foster",
+        role: "Sales Consultant",
+        languages: ["English", "Danish", "Dutch"], // Use the properly generated languages list
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/76.jpg",
+        contact: {
+          contactEmail: "radiancedrenched.oas@velarivoyages.com",
+          contactNumber: "+1-230-973-2625",
+        },
+      },
+    ],
+    title: "Radiance-Drenched Oasis of the Velvet Shadows",
+    description:
+      "This adventure takes you beyond the ordinary, starting in Paris. With breathtaking stops in Tallinn, Southampton, London, Berlin, your cruise delivers immersive moments and unforgettable vistas.",
+    rating: 4.6,
+    tags: ["historical", "expedition"],
+  },
+  {
+    basePrice: 8722,
+    departureLocation: {
+      city: "Paris",
+      country: "France",
+      region: "Northern Europe",
+      coordinates: {
+        latitude: 48.8566,
+        longitude: 2.3522,
+      },
+    },
+    arrivalLocation: {
+      city: "Copenhagen",
+      country: "Denmark",
+      coordinates: {
+        latitude: 55.6761,
+        longitude: 12.5683,
+      },
+    },
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+        {
+          city: "Paris",
+          country: "France",
+          region: "Northern Europe",
+          coordinates: {
+            latitude: 48.8566,
+            longitude: 2.3522,
+          },
+        },
+        {
+          city: "Tallinn",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "St. Petersburg",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Kiel",
+          country: "Germany",
+          coordinates: {
+            latitude: 54.3233,
+            longitude: 10.1228,
+          },
+        },
+        {
+          city: "Copenhagen",
+          country: "Denmark",
+          coordinates: {
+            latitude: 55.6761,
+            longitude: 12.5683,
+          },
+        },
+      ],
+      description:
+        "Step into a world of elegance and exploration from Paris. This requiem through the Northern Europe unveils stunning stops including Tallinn, St. Petersburg, Kiel, Copenhagen, all with first-class service.",
+      distance: "1121 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+        {
+          start: "Day 2",
+          end: "Day 3",
+          duration: "2 days",
+          description: "Sailing from Paris to Tallinn",
+        },
+        {
+          start: "Day 6",
+          end: "Day 7",
+          duration: "2 days",
+          description: "Sailing from Tallinn to St. Petersburg",
+        },
+        {
+          start: "Day 10",
+          end: "Day 10",
+          duration: "1 days",
+          description: "Sailing from St. Petersburg to Kiel",
+        },
+        {
+          start: "Day 12",
+          end: "Day 12",
+          duration: "1 days",
+          description: "Sailing from Kiel to Copenhagen",
+        },
+      ],
+      timeOnLand: [
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring Paris",
+        },
+        {
+          start: "Day 4",
+          end: "Day 5",
+          duration: "2 days",
+          description: "Exploring Tallinn",
+        },
+        {
+          start: "Day 8",
+          end: "Day 9",
+          duration: "2 days",
+          description: "Exploring St. Petersburg",
+        },
+        {
+          start: "Day 11",
+          end: "Day 11",
+          duration: "1 days",
+          description: "Exploring Kiel",
+        },
+        {
+          start: "Day 13",
+          end: "Day 14",
+          duration: "2 days",
+          description: "Exploring Copenhagen",
+        },
+      ],
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Blake Dixon",
+        role: "Sales Consultant",
+        languages: ["English", "Danish", "Dutch"], // Use the properly generated languages list
         experienceYears: 12,
-        profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
+        profileImage: "https://randomuser.me/api/portraits/men/16.jpg",
         contact: {
-          contactEmail: "forbidden.retreat.of@velarivoyages.com",
-          contactNumber: "+1-131-651-1324"
-        }
-      }
+          contactEmail: "eternal.excursion.of@velarivoyages.com",
+          contactNumber: "+1-567-822-2162",
+        },
+      },
     ],
-    title: "Forbidden Retreat of the Aurora Veil",
-    description: "Leave stress behind with this curated reunion from Paris. Sail across the best of Northern Europe and explore treasures like Oslo, St. Petersburg, Copenhagen, Helsinki with comfort and style.",
-    rating: 4.5,
-    tags: ["historical","expedition","cruise-adventure"]
+    title: "Eternal Excursion of the Windswept Elegance",
+    description:
+      "Step into a world of elegance and exploration from Paris. This requiem through the Northern Europe unveils stunning stops including Tallinn, St. Petersburg, Kiel, Copenhagen, all with first-class service.",
+    rating: 4.8,
+    tags: ["glacier-cruise"],
   },
   {
-    basePrice: 8710,
+    basePrice: 5854,
     departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
+      city: "Paris",
+      country: "France",
+      region: "Northern Europe",
+      coordinates: {
+        latitude: 48.8566,
+        longitude: 2.3522,
+      },
+    },
     arrivalLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
+      city: "Paris",
+      country: "France",
+      region: "Northern Europe",
+      coordinates: {
+        latitude: 48.8566,
+        longitude: 2.3522,
+      },
+    },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "mainstream",
+    category: "expedition",
     itinerary: {
       route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "Stockholm",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "St. Petersburg",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  },
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  }
-],
-      description: "Depart from iconic Paris and traverse the Northern Europe with visits to Stockholm, St. Petersburg, Copenhagen. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
-      distance: "1435 nautical miles",
+        {
+          city: "Paris",
+          country: "France",
+          region: "Northern Europe",
+          coordinates: {
+            latitude: 48.8566,
+            longitude: 2.3522,
+          },
+        },
+        {
+          city: "Oslo",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Stockholm",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Amsterdam",
+          country: "Netherlands",
+          coordinates: {
+            latitude: 52.377956,
+            longitude: 4.89707,
+          },
+        },
+        {
+          city: "Paris",
+          country: "France",
+          region: "Northern Europe",
+          coordinates: {
+            latitude: 48.8566,
+            longitude: 2.3522,
+          },
+        },
+      ],
+      description:
+        "Enjoy seamless luxury on this celestial haven beginning in Paris. Visit breathtaking Northern Europe locales such as Oslo, Stockholm, Amsterdam on this unforgettable itinerary.",
+      distance: "876 nautical miles",
       totalDuration: "14 days",
       timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Paris to Stockholm"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Stockholm to St. Petersburg"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from St. Petersburg to Copenhagen"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Sailing from Copenhagen to Paris"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 3",
+          duration: "1 days",
+          description: "Sailing from Paris to Oslo",
+        },
+        {
+          start: "Day 5",
+          end: "Day 5",
+          duration: "1 days",
+          description: "Sailing from Oslo to Stockholm",
+        },
+        {
+          start: "Day 8",
+          end: "Day 9",
+          duration: "2 days",
+          description: "Sailing from Stockholm to Amsterdam",
+        },
+        {
+          start: "Day 12",
+          end: "Day 12",
+          duration: "1 days",
+          description: "Sailing from Amsterdam to Paris",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Stockholm"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring St. Petersburg"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Copenhagen"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
-    "duration": "2 days",
-    "description": "Exploring Paris"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Bella Bennett",
-        role: "Group Booking Coordinator",
-        languages: ["Urdu"],
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
-        contact: {
-          contactEmail: "idyllic.whisper.of.t@velarivoyages.com",
-          contactNumber: "+1-712-507-8021"
-        }
-      }
-    ],
-    title: "Idyllic Whisper of the Romantic Capital",
-    description: "Depart from iconic Paris and traverse the Northern Europe with visits to Stockholm, St. Petersburg, Copenhagen. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
-    rating: 4.9,
-    tags: ["relaxation"]
-  },
-  {
-    basePrice: 8193,
-    departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    arrivalLocation: {
-  "city": "Stockholm",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "ultra-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "Oslo",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Stockholm",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Embark on an unforgettable lullaby from the vibrant port of Paris, where you'll discover hidden gems and iconic landmarks across the Northern Europe region. With stops at Oslo, Stockholm, this journey combines cultural immersion with breathtaking scenery.",
-      distance: "1229 nautical miles",
-      totalDuration: "7 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Paris to Oslo"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Oslo to Stockholm"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Oslo"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Stockholm"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring Paris",
+        },
+        {
+          start: "Day 4",
+          end: "Day 4",
+          duration: "1 days",
+          description: "Exploring Oslo",
+        },
+        {
+          start: "Day 6",
+          end: "Day 7",
+          duration: "2 days",
+          description: "Exploring Stockholm",
+        },
+        {
+          start: "Day 10",
+          end: "Day 11",
+          duration: "2 days",
+          description: "Exploring Amsterdam",
+        },
+        {
+          start: "Day 13",
+          end: "Day 14",
+          duration: "2 days",
+          description: "Exploring Paris",
+        },
+      ],
     },
     tourCategoryId: "glacier-cruise",
     contactPersonnel: [
       {
-        name: "Aria Sutton",
-        role: "Group Booking Coordinator",
-        languages: ["Urdu"],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
+        name: "Wei Collins",
+        role: "Sales Consultant",
+        languages: ["English", "Danish", "Dutch"], // Use the properly generated languages list
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/men/14.jpg",
         contact: {
-          contactEmail: "verdant.pilgrimage.o@velarivoyages.com",
-          contactNumber: "+1-753-786-8985"
-        }
-      }
+          contactEmail: "starlit.adventure.of@velarivoyages.com",
+          contactNumber: "+1-849-994-7504",
+        },
+      },
     ],
-    title: "Verdant Pilgrimage of the Midnight Louvre",
-    description: "Embark on an unforgettable lullaby from the vibrant port of Paris, where you'll discover hidden gems and iconic landmarks across the Northern Europe region. With stops at Oslo, Stockholm, this journey combines cultural immersion with breathtaking scenery.",
+    title: "Starlit Adventure of the City of Light",
+    description:
+      "Enjoy seamless luxury on this celestial haven beginning in Paris. Visit breathtaking Northern Europe locales such as Oslo, Stockholm, Amsterdam on this unforgettable itinerary.",
     rating: 4.3,
-    tags: ["nature"]
+    tags: ["wellness", "glacier-cruise"],
   },
   {
-    basePrice: 8018,
+    basePrice: 2000,
     departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    arrivalLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "premium",
-    itinerary: {
-      route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "Tallinn",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "St. Petersburg",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  },
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  }
-],
-      description: "Set course from Paris for an inspiring sublime journey across Northern Europe. Whether exploring ancient ruins in Tallinn or soaking up coastal views in St. Petersburg, every day offers a perfect mix of discovery and relaxation.",
-      distance: "1059 nautical miles",
-      totalDuration: "14 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Paris to Tallinn"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Tallinn to St. Petersburg"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from St. Petersburg to Copenhagen"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Sailing from Copenhagen to Paris"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Tallinn"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring St. Petersburg"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring Copenhagen"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
-    "duration": "2 days",
-    "description": "Exploring Paris"
-  }
-]
+      city: "Paris",
+      country: "France",
+      region: "Northern Europe",
+      coordinates: {
+        latitude: 48.8566,
+        longitude: 2.3522,
+      },
     },
-    tourCategoryId: "weekend-cruise",
-    contactPersonnel: [
-      {
-        name: "Gabriella Fisher",
-        role: "Travel Advisor",
-        languages: ["Marathi","Polish"],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/women/47.jpg",
-        contact: {
-          contactEmail: "crystalline.realm.of@velarivoyages.com",
-          contactNumber: "+1-243-974-1604"
-        }
-      }
-    ],
-    title: "Crystalline Realm of the Crown Jewel Capitals",
-    description: "Set course from Paris for an inspiring sublime journey across Northern Europe. Whether exploring ancient ruins in Tallinn or soaking up coastal views in St. Petersburg, every day offers a perfect mix of discovery and relaxation.",
-    rating: 5.0,
-    tags: ["seasonal","weekend-cruise","exclusive"]
-  },
-  {
-    basePrice: 1933,
-    departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
     arrivalLocation: {
-  "city": "Copenhagen",
-  "country": "Denmark",
-  "coordinates": {
-    "latitude": 55.6761,
-    "longitude": 12.5683
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
+      city: "London",
+      country: "United Kingdom",
+      coordinates: {
+        latitude: 51.5074,
+        longitude: -0.1278,
+      },
+    },
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
     category: "luxury",
     itinerary: {
       route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "Tallinn",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Stockholm",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Helsinki",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "coordinates": {
-      "latitude": 55.6761,
-      "longitude": 12.5683
-    }
-  }
-],
-      description: "Step into a world of elegance and exploration from Paris. This voyage through the Northern Europe unveils stunning stops including Tallinn, Stockholm, Helsinki, Copenhagen, all with first-class service.",
-      distance: "1413 nautical miles",
-      totalDuration: "16 days",
+        {
+          city: "Paris",
+          country: "France",
+          region: "Northern Europe",
+          coordinates: {
+            latitude: 48.8566,
+            longitude: 2.3522,
+          },
+        },
+        {
+          city: "Dublin",
+          country: "Ireland",
+          coordinates: {
+            latitude: 53.349805,
+            longitude: -6.26031,
+          },
+        },
+        {
+          city: "Berlin",
+          country: "Germany",
+          coordinates: {
+            latitude: 52.520008,
+            longitude: 13.404954,
+          },
+        },
+        {
+          city: "Copenhagen",
+          country: "Denmark",
+          coordinates: {
+            latitude: 55.6761,
+            longitude: 12.5683,
+          },
+        },
+        {
+          city: "London",
+          country: "United Kingdom",
+          coordinates: {
+            latitude: 51.5074,
+            longitude: -0.1278,
+          },
+        },
+      ],
+      description:
+        "Escape to sea from Paris on a legendary voyage exploring the magic of Northern Europe. Visit unforgettable locales like Dublin, Berlin, Copenhagen, London, where each stop inspires awe.",
+      distance: "708 nautical miles",
+      totalDuration: "15 days",
       timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Paris to Tallinn"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Tallinn to Stockholm"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Stockholm to Helsinki"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
-    "duration": "2 days",
-    "description": "Sailing from Helsinki to Copenhagen"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 4",
+          duration: "2 days",
+          description: "Sailing from Paris to Dublin",
+        },
+        {
+          start: "Day 7",
+          end: "Day 8",
+          duration: "2 days",
+          description: "Sailing from Dublin to Berlin",
+        },
+        {
+          start: "Day 10",
+          end: "Day 11",
+          duration: "2 days",
+          description: "Sailing from Berlin to Copenhagen",
+        },
+        {
+          start: "Day 13",
+          end: "Day 13",
+          duration: "1 days",
+          description: "Sailing from Copenhagen to London",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Tallinn"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Stockholm"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Helsinki"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 16",
-    "duration": "2 days",
-    "description": "Exploring Copenhagen"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring Paris",
+        },
+        {
+          start: "Day 5",
+          end: "Day 6",
+          duration: "2 days",
+          description: "Exploring Dublin",
+        },
+        {
+          start: "Day 9",
+          end: "Day 9",
+          duration: "1 days",
+          description: "Exploring Berlin",
+        },
+        {
+          start: "Day 12",
+          end: "Day 12",
+          duration: "1 days",
+          description: "Exploring Copenhagen",
+        },
+        {
+          start: "Day 14",
+          end: "Day 15",
+          duration: "2 days",
+          description: "Exploring London",
+        },
+      ],
     },
     tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Ella Clark",
-        role: "Travel Advisor",
-        languages: ["Marathi","Polish"],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/17.jpg",
+        name: "Scott Curtis",
+        role: "Sales Consultant",
+        languages: ["English", "Danish", "Dutch"], // Use the properly generated languages list
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/79.jpg",
         contact: {
-          contactEmail: "floating.resonance.o@velarivoyages.com",
-          contactNumber: "+1-455-403-2974"
-        }
-      }
+          contactEmail: "pristine.serenade.of@velarivoyages.com",
+          contactNumber: "+1-421-816-4446",
+        },
+      },
     ],
-    title: "Floating Resonance of the City of Light",
-    description: "Step into a world of elegance and exploration from Paris. This voyage through the Northern Europe unveils stunning stops including Tallinn, Stockholm, Helsinki, Copenhagen, all with first-class service.",
-    rating: 4.3,
-    tags: ["nature","relaxation","cultural"]
+    title: "Pristine Serenade of the City of Light",
+    description:
+      "Escape to sea from Paris on a legendary voyage exploring the magic of Northern Europe. Visit unforgettable locales like Dublin, Berlin, Copenhagen, London, where each stop inspires awe.",
+    rating: 5.0,
+    tags: ["family-friendly", "nature"],
   },
   {
-    basePrice: 9025,
+    basePrice: 1993,
     departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
+      city: "Paris",
+      country: "France",
+      region: "Northern Europe",
+      coordinates: {
+        latitude: 48.8566,
+        longitude: 2.3522,
+      },
+    },
     arrivalLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
+      city: "Berlin",
+      country: "Germany",
+      coordinates: {
+        latitude: 52.520008,
+        longitude: 13.404954,
+      },
+    },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
     category: "entry-luxury",
     itinerary: {
       route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "Stockholm",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Oslo",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Helsinki",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  }
-],
-      description: "Leave ordinary behind as you sail from Paris across the captivating Northern Europe. Discover the distinctive personality of each destination, from Stockholm, Oslo, Helsinki.",
-      distance: "1447 nautical miles",
-      totalDuration: "13 days",
+        {
+          city: "Paris",
+          country: "France",
+          region: "Northern Europe",
+          coordinates: {
+            latitude: 48.8566,
+            longitude: 2.3522,
+          },
+        },
+        {
+          city: "Copenhagen",
+          country: "Denmark",
+          coordinates: {
+            latitude: 55.6761,
+            longitude: 12.5683,
+          },
+        },
+        {
+          city: "Amsterdam",
+          country: "Netherlands",
+          coordinates: {
+            latitude: 52.377956,
+            longitude: 4.89707,
+          },
+        },
+        {
+          city: "Berlin",
+          country: "Germany",
+          coordinates: {
+            latitude: 52.520008,
+            longitude: 13.404954,
+          },
+        },
+      ],
+      description:
+        "Let the winds of the Northern Europe carry you from Paris to the most stunning ports in the region. With destinations like Copenhagen, Amsterdam, Berlin, this journey redefines luxury travel.",
+      distance: "513 nautical miles",
+      totalDuration: "11 days",
       timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Paris to Stockholm"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Stockholm to Oslo"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Oslo to Helsinki"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from Helsinki to Paris"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 3",
+          duration: "1 days",
+          description: "Sailing from Paris to Copenhagen",
+        },
+        {
+          start: "Day 5",
+          end: "Day 6",
+          duration: "2 days",
+          description: "Sailing from Copenhagen to Amsterdam",
+        },
+        {
+          start: "Day 9",
+          end: "Day 9",
+          duration: "1 days",
+          description: "Sailing from Amsterdam to Berlin",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Stockholm"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Oslo"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Helsinki"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring Paris"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring Paris",
+        },
+        {
+          start: "Day 4",
+          end: "Day 4",
+          duration: "1 days",
+          description: "Exploring Copenhagen",
+        },
+        {
+          start: "Day 7",
+          end: "Day 8",
+          duration: "2 days",
+          description: "Exploring Amsterdam",
+        },
+        {
+          start: "Day 10",
+          end: "Day 11",
+          duration: "2 days",
+          description: "Exploring Berlin",
+        },
+      ],
     },
-    tourCategoryId: "theme-cruise",
+    tourCategoryId: "anniversary-cruise",
     contactPersonnel: [
       {
-        name: "Emma Spencer",
-        role: "Travel Advisor",
-        languages: ["Marathi","Polish"],
+        name: "Joel Hall",
+        role: "Sales Consultant",
+        languages: ["English", "Danish", "Dutch"], // Use the properly generated languages list
         experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
+        profileImage: "https://randomuser.me/api/portraits/men/56.jpg",
         contact: {
-          contactEmail: "midnight.quest.of.th@velarivoyages.com",
-          contactNumber: "+1-686-818-6246"
-        }
-      }
+          contactEmail: "floating.haven.of.th@velarivoyages.com",
+          contactNumber: "+1-994-881-3491",
+        },
+      },
     ],
-    title: "Midnight Quest of the Timbered Waterfronts",
-    description: "Leave ordinary behind as you sail from Paris across the captivating Northern Europe. Discover the distinctive personality of each destination, from Stockholm, Oslo, Helsinki.",
-    rating: 4.3,
-    tags: ["themed-cruise"]
+    title: "Floating Haven of the Snow-Kissed Harbors",
+    description:
+      "Let the winds of the Northern Europe carry you from Paris to the most stunning ports in the region. With destinations like Copenhagen, Amsterdam, Berlin, this journey redefines luxury travel.",
+    rating: 4.4,
+    tags: ["anniversary-cruise"],
   },
   {
-    basePrice: 3811,
+    basePrice: 2711,
     departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
+      city: "Paris",
+      country: "France",
+      region: "Northern Europe",
+      coordinates: {
+        latitude: 48.8566,
+        longitude: 2.3522,
+      },
+    },
     arrivalLocation: {
-  "city": "Helsinki",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
+      city: "Amsterdam",
+      country: "Netherlands",
+      coordinates: {
+        latitude: 52.377956,
+        longitude: 4.89707,
+      },
+    },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "premium",
+    category: "mainstream",
     itinerary: {
       route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "Tallinn",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Stockholm",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Helsinki",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Leave ordinary behind as you sail from Paris across the captivating Northern Europe. Discover the distinctive personality of each destination, from Tallinn, Stockholm, Helsinki.",
-      distance: "550 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Paris to Tallinn"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Tallinn to Stockholm"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from Stockholm to Helsinki"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Tallinn"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Stockholm"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring Helsinki"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Helen Jennings",
-        role: "Travel Advisor",
-        languages: ["Marathi","Polish"],
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/women/81.jpg",
-        contact: {
-          contactEmail: "radiancedrenched.esc@velarivoyages.com",
-          contactNumber: "+1-767-632-1891"
-        }
-      }
-    ],
-    title: "Radiance-Drenched Escape of the Velvet Shadows",
-    description: "Leave ordinary behind as you sail from Paris across the captivating Northern Europe. Discover the distinctive personality of each destination, from Tallinn, Stockholm, Helsinki.",
-    rating: 4.8,
-    tags: ["family-friendly","repositioning"]
-  },
-  {
-    basePrice: 9316,
-    departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    arrivalLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "ultra-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "Berlin",
-    "country": "Germany",
-    "coordinates": {
-      "latitude": 52.520008,
-      "longitude": 13.404954
-    }
-  },
-  {
-    "city": "Stockholm",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Kiel",
-    "country": "Germany",
-    "coordinates": {
-      "latitude": 54.3233,
-      "longitude": 10.1228
-    }
-  },
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  }
-],
-      description: "Escape the everyday with this riveting journey through Northern Europe, departing from Paris. You'll visit Berlin, Stockholm, Kiel, where every stop is a new adventure.",
-      distance: "1034 nautical miles",
+        {
+          city: "Paris",
+          country: "France",
+          region: "Northern Europe",
+          coordinates: {
+            latitude: 48.8566,
+            longitude: 2.3522,
+          },
+        },
+        {
+          city: "Dublin",
+          country: "Ireland",
+          coordinates: {
+            latitude: 53.349805,
+            longitude: -6.26031,
+          },
+        },
+        {
+          city: "Copenhagen",
+          country: "Denmark",
+          coordinates: {
+            latitude: 55.6761,
+            longitude: 12.5683,
+          },
+        },
+        {
+          city: "Amsterdam",
+          country: "Netherlands",
+          coordinates: {
+            latitude: 52.377956,
+            longitude: 4.89707,
+          },
+        },
+      ],
+      description:
+        "This hand-selected starlit cruise offers a true taste of Northern Europe. Depart from Paris and explore ports like Dublin, Copenhagen, Amsterdam, each telling a story through food, music, and tradition.",
+      distance: "1321 nautical miles",
       totalDuration: "13 days",
       timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Paris to Berlin"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Berlin to Stockholm"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Stockholm to Kiel"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Sailing from Kiel to Paris"
-  }
-],
+        {
+          start: "Day 2",
+          end: "Day 3",
+          duration: "2 days",
+          description: "Sailing from Paris to Dublin",
+        },
+        {
+          start: "Day 6",
+          end: "Day 7",
+          duration: "2 days",
+          description: "Sailing from Dublin to Copenhagen",
+        },
+        {
+          start: "Day 10",
+          end: "Day 11",
+          duration: "2 days",
+          description: "Sailing from Copenhagen to Amsterdam",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Berlin"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Stockholm"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Kiel"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Exploring Paris"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring Paris",
+        },
+        {
+          start: "Day 4",
+          end: "Day 5",
+          duration: "2 days",
+          description: "Exploring Dublin",
+        },
+        {
+          start: "Day 8",
+          end: "Day 9",
+          duration: "2 days",
+          description: "Exploring Copenhagen",
+        },
+        {
+          start: "Day 12",
+          end: "Day 13",
+          duration: "2 days",
+          description: "Exploring Amsterdam",
+        },
+      ],
     },
-    tourCategoryId: "glacier-cruise",
+    tourCategoryId: "anniversary-cruise",
     contactPersonnel: [
       {
-        name: "Lily Marshall",
-        role: "Loyalty Program Representative",
-        languages: ["Lao","Dutch"],
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
+        name: "Larry Reed",
+        role: "Sales Consultant",
+        languages: ["English", "Danish", "Dutch"], // Use the properly generated languages list
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
         contact: {
-          contactEmail: "unforgettable.mythos@velarivoyages.com",
-          contactNumber: "+1-904-730-8260"
-        }
-      }
+          contactEmail: "enchanting.wanderlus@velarivoyages.com",
+          contactNumber: "+1-571-581-9161",
+        },
+      },
     ],
-    title: "Unforgettable Mythos of the City of Light",
-    description: "Escape the everyday with this riveting journey through Northern Europe, departing from Paris. You'll visit Berlin, Stockholm, Kiel, where every stop is a new adventure.",
-    rating: 4.6,
-    tags: ["nature","family-friendly","glacier-cruise"]
+    title: "Enchanting Wanderlust of the Cathedral Echoes",
+    description:
+      "This hand-selected starlit cruise offers a true taste of Northern Europe. Depart from Paris and explore ports like Dublin, Copenhagen, Amsterdam, each telling a story through food, music, and tradition.",
+    rating: 5.0,
+    tags: ["cruise", "anniversary-cruise"],
   },
-  {
-    basePrice: 7757,
-    departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    arrivalLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "premium",
-    itinerary: {
-      route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "London",
-    "country": "United Kingdom",
-    "coordinates": {
-      "latitude": 51.5074,
-      "longitude": -0.1278
-    }
-  },
-  {
-    "city": "St. Petersburg",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  }
-],
-      description: "From the lively departure port of Paris, this curated resonance showcases the finest of Northern Europe. With visits to London, St. Petersburg, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
-      distance: "1458 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Paris to London"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from London to St. Petersburg"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from St. Petersburg to Paris"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring London"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring St. Petersburg"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Paris"
-  }
-]
-    },
-    tourCategoryId: "theme-cruise",
-    contactPersonnel: [
-      {
-        name: "Catherine Bennett",
-        role: "Loyalty Program Representative",
-        languages: ["Lao","Dutch"],
-        experienceYears: 12,
-        profileImage: "https://randomuser.me/api/portraits/women/82.jpg",
-        contact: {
-          contactEmail: "crystalline.journey.@velarivoyages.com",
-          contactNumber: "+1-857-122-3708"
-        }
-      }
-    ],
-    title: "Crystalline Journey of the Fairy Tale Villages",
-    description: "From the lively departure port of Paris, this curated resonance showcases the finest of Northern Europe. With visits to London, St. Petersburg, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
-    rating: 4.5,
-    tags: ["themed-cruise","cruise-ship","cruise-line"]
-  },
-  {
-    basePrice: 7976,
-    departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    arrivalLocation: {
-  "city": "Tallinn",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "Southampton",
-    "country": "United Kingdom",
-    "coordinates": {
-      "latitude": 50.9097,
-      "longitude": -1.4044
-    }
-  },
-  {
-    "city": "Helsinki",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Berlin",
-    "country": "Germany",
-    "coordinates": {
-      "latitude": 52.520008,
-      "longitude": 13.404954
-    }
-  },
-  {
-    "city": "Tallinn",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Discover the wonders of Northern Europe aboard this horizon-kissed cruise departing from Paris. Journey through crystal waters to explore the treasures of Southampton, Helsinki, Berlin, Tallinn, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
-      distance: "1337 nautical miles",
-      totalDuration: "16 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Paris to Southampton"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Southampton to Helsinki"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Helsinki to Berlin"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
-    "duration": "2 days",
-    "description": "Sailing from Berlin to Tallinn"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Southampton"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Helsinki"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Berlin"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 16",
-    "duration": "2 days",
-    "description": "Exploring Tallinn"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Charlotte Stewart",
-        role: "Loyalty Program Representative",
-        languages: ["Lao","Dutch"],
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
-        contact: {
-          contactEmail: "golden.panorama.of.t@velarivoyages.com",
-          contactNumber: "+1-775-726-1384"
-        }
-      }
-    ],
-    title: "Golden Panorama of the Saga-Strewn Coastlines",
-    description: "Discover the wonders of Northern Europe aboard this horizon-kissed cruise departing from Paris. Journey through crystal waters to explore the treasures of Southampton, Helsinki, Berlin, Tallinn, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
-    rating: 4.9,
-    tags: ["fall-cruise"]
-  },
-  {
-    basePrice: 6480,
-    departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    arrivalLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "Southampton",
-    "country": "United Kingdom",
-    "coordinates": {
-      "latitude": 50.9097,
-      "longitude": -1.4044
-    }
-  },
-  {
-    "city": "London",
-    "country": "United Kingdom",
-    "coordinates": {
-      "latitude": 51.5074,
-      "longitude": -0.1278
-    }
-  },
-  {
-    "city": "Helsinki",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  }
-],
-      description: "Set sail from Paris for a voyage like no other. From the picturesque landscapes of Southampton to the lively ambiance of London, this crystalline cruise will redefine your view of Northern Europe.",
-      distance: "1499 nautical miles",
-      totalDuration: "16 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Paris to Southampton"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Sailing from Southampton to London"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from London to Helsinki"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
-    "description": "Sailing from Helsinki to Paris"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Southampton"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring London"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring Helsinki"
-  },
-  {
-    "start": "Day 16",
-    "end": "Day 16",
-    "duration": "1 days",
-    "description": "Exploring Paris"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Emma Coleman",
-        role: "Loyalty Program Representative",
-        languages: ["Lao","Dutch"],
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/women/94.jpg",
-        contact: {
-          contactEmail: "moonlit.mythos.of.th@velarivoyages.com",
-          contactNumber: "+1-763-240-1142"
-        }
-      }
-    ],
-    title: "Moonlit Mythos of the City of Light",
-    description: "Set sail from Paris for a voyage like no other. From the picturesque landscapes of Southampton to the lively ambiance of London, this crystalline cruise will redefine your view of Northern Europe.",
-    rating: 4.7,
-    tags: ["cruise-vacation","cruise"]
-  },
-  {
-    basePrice: 5504,
-    departureLocation: {
-  "city": "Paris",
-  "country": "France",
-  "region": "Northern Europe",
-  "coordinates": {
-    "latitude": 48.8566,
-    "longitude": 2.3522
-  }
-},
-    arrivalLocation: {
-  "city": "Tallinn",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "expedition",
-    itinerary: {
-      route: [
-  {
-    "city": "Paris",
-    "country": "France",
-    "region": "Northern Europe",
-    "coordinates": {
-      "latitude": 48.8566,
-      "longitude": 2.3522
-    }
-  },
-  {
-    "city": "Dublin",
-    "country": "Ireland",
-    "coordinates": {
-      "latitude": 53.349805,
-      "longitude": -6.26031
-    }
-  },
-  {
-    "city": "Stockholm",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Tallinn",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "This reunion takes you beyond the ordinary, starting in Paris. With breathtaking stops in Dublin, Stockholm, Tallinn, your cruise delivers immersive moments and unforgettable vistas.",
-      distance: "1074 nautical miles",
-      totalDuration: "9 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Paris to Dublin"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Sailing from Dublin to Stockholm"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Stockholm to Tallinn"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Paris"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring Dublin"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Exploring Stockholm"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Tallinn"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Zola Fisher",
-        role: "Loyalty Program Representative",
-        languages: ["Lao","Dutch"],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
-        contact: {
-          contactEmail: "opulent.elevation.of@velarivoyages.com",
-          contactNumber: "+1-410-112-9640"
-        }
-      }
-    ],
-    title: "Opulent Elevation of the Velvet Shadows",
-    description: "This reunion takes you beyond the ordinary, starting in Paris. With breathtaking stops in Dublin, Stockholm, Tallinn, your cruise delivers immersive moments and unforgettable vistas.",
-    rating: 4.9,
-    tags: ["cruise-adventure","long-distance"]
-  }
 ];

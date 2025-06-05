@@ -5,34 +5,115 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const newYorkCityjapaneseHarvestTestimonials: Testimonial[] = [
   {
-    "quote": "The desserts at Japanese Harvest are consistently engaging, accompanied by helpful staff and a rustic setting.",
-    "author": "Matthew King",
-    "title": "Culinary Expert"
+    quote:
+      "At Japanese Harvest, scrumptious bites combine seamlessly with approachable professionalism and a relaxing space designed for comfort.",
+    author: "Sarah Lewis",
+    title: "Restaurant Enthusiast",
   },
   {
-    "quote": "The flavors selection at Japanese Harvest is tempting, served with friendly care in a intimate ambiance.",
-    "author": "Benjamin Lee",
-    "title": "Epicurean Specialist"
+    quote:
+      "The combination of enchanting flavors, kind attention, and a warm vibe makes Japanese Harvest exceptional.",
+    author: "Emma Bailey",
+    title: "Beverage Expert",
   },
   {
-    "quote": "You’ll enjoy enjoyable nibbles and reliable service, all within a tranquil space at Japanese Harvest.",
-    "author": "Lisa Bailey",
-    "title": "Culinary Educator"
+    quote:
+      "Japanese Harvest offers a wonderful menu and an equally courteous staff. The charming vibe makes it perfect for any occasion.",
+    author: "William Lewis",
+    title: "Food Stylist",
   },
   {
-    "quote": "You’ll find engaging entrees at Japanese Harvest, supported by top-notch staff and a welcoming atmosphere that invites relaxation.",
-    "author": "Madison Lopez",
-    "title": "Culinary Enthusiast",
-    "image": "/images/testimonials/person-8.jpg"
+    quote:
+      "Exceptional delicacies paired with efficient service and a whimsical atmosphere make Japanese Harvest a standout choice.",
+    author: "Robert Reed",
+    title: "Culinary Blogger",
   },
   {
-    "quote": "At Japanese Harvest, delectable flavors combine seamlessly with prompt professionalism and a tranquil space designed for comfort.",
-    "author": "Grace Hall",
-    "title": "Culinary Journalist"
+    quote:
+      "Japanese Harvest combines pleasurable dishes with superb hospitality in a elegant setting, perfect for any occasion.",
+    author: "Abigail Robinson",
+    title: "Food Enthusiast",
   },
   {
-    "quote": "Dining at Japanese Harvest means enjoying luscious platters, prompt attention, and a intimate environment tailored for a memorable meal.",
-    "author": "Joshua Nelson",
-    "title": "Culinary Blogger"
-  }
+    quote:
+      "For a memorable dining experience, Japanese Harvest offers delectable specialties, helpful service, and a ambient environment.",
+    author: "Isabella Bell",
+    title: "Beverage Expert",
+  },
+  {
+    quote:
+      "Experience flavorful bites and friendly staff in a charming setting when you visit Japanese Harvest.",
+    author: "Chloe Clark",
+    title: "Restaurant Enthusiast",
+  },
+  {
+    quote:
+      "The amazing flavors at Japanese Harvest kept us coming back for more, complemented perfectly by remarkable staff and a tranquil setting.",
+    author: "Christopher Lewis",
+    title: "Culinary Advisor",
+  },
+  {
+    quote:
+      "The wonderful treats paired perfectly with the exceptional service and pleasant ambiance at Japanese Harvest.",
+    author: "David Jones",
+    title: "Gastronomic Writer",
+    image: "/images/testimonials/person-6.jpg",
+  },
+  {
+    quote:
+      "Enjoy tempting dishes and responsive attention in a whimsical atmosphere at Japanese Harvest.",
+    author: "Emily Richardson",
+    title: "Culinary Artist",
+  },
+  {
+    quote:
+      "Whether it's the gastronomic delights or the skilled staff, everything at Japanese Harvest is exquisite and enhanced by a classic environment.",
+    author: "Daniel Lewis",
+    title: "Gastronomic Writer",
+  },
+  {
+    quote:
+      "I can't say enough about the enjoyable gastronomic experiences at Japanese Harvest. The superior service and energetic ambiance made for a perfect night out.",
+    author: "Andrew Garcia",
+    title: "Cruise Traveler",
+  },
+  {
+    quote:
+      "You’ll find a delightful selection of irresistible fare, paired with pleasant service and a whimsical environment at Japanese Harvest.",
+    author: "Andrew Martin",
+    title: "Luxury Travel Consultant",
+    image: "/images/testimonials/person-7.jpg",
+  },
+  {
+    quote:
+      "The appealing culinary masterpieces paired perfectly with the thorough service and lively ambiance at Japanese Harvest.",
+    author: "Nathan Smith",
+    title: "Culinary Journalist",
+    image: "/images/testimonials/person-6.jpg",
+  },
+  {
+    quote:
+      "If you value tantalizing flavors with exemplary staff and a vibrant ambiance, Japanese Harvest delivers.",
+    author: "Michael Scott",
+    title: "Epicurean Specialist",
+    image: "/images/testimonials/person-12.jpg",
+  },
+  {
+    quote:
+      "Dining at Japanese Harvest means enjoying mouthwatering treats, polite attention, and a refined environment tailored for a memorable meal.",
+    author: "Abigail Young",
+    title: "Dining Columnist",
+  },
+  {
+    quote:
+      "From the exquisite cuisine to the meticulous hospitality, Japanese Harvest provides a lively dining experience worth savoring.",
+    author: "Chloe Allen",
+    title: "Travel Writer",
+  },
+  {
+    quote:
+      "Japanese Harvest has the most enchanting entrees I've ever tasted. The elegant atmosphere made our evening special, and the service was helpful.",
+    author: "Benjamin Perez",
+    title: "Gastronomic Critic",
+  },
 ];

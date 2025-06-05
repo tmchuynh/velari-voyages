@@ -5,38 +5,119 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const rioDeJaneiroitalianBakeryTestimonials: Testimonial[] = [
   {
-    "quote": "Italian Bakery combines brilliant dishes with first-rate hospitality in a intimate setting, perfect for any occasion.",
-    "author": "Sophia Scott",
-    "title": "Restaurant Enthusiast",
-    "image": "/images/testimonials/person-2.jpg"
+    quote:
+      "From appetizers to desserts, Italian Bakery offers tasty culinary masterpieces in a elegant space with personalized service.",
+    author: "Christopher Roberts",
+    title: "Culinary Advisor",
   },
   {
-    "quote": "Every dish we tried at Italian Bakery was refreshing, paired perfectly with helpful service and a lively atmosphere that invites relaxation.",
-    "author": "Hannah Sanchez",
-    "title": "Culinary Expert",
-    "image": "/images/testimonials/person-12.jpg"
+    quote:
+      "Italian Bakery offers a succulent menu and an equally thoughtful staff. The intimate vibe makes it perfect for any occasion.",
+    author: "Charlotte Robinson",
+    title: "Food Stylist",
+    image: "/images/testimonials/person-4.jpg",
   },
   {
-    "quote": "The specialties selection at Italian Bakery is simply succulent. Combined with courteous staff and a chic setting, it’s a top choice for discerning diners.",
-    "author": "Jacob Jones",
-    "title": "Food Historian",
-    "image": "/images/testimonials/person-12.jpg"
+    quote:
+      "The exquisite savors at Italian Bakery kept us coming back for more, complemented perfectly by helpful staff and a delightful setting.",
+    author: "Chloe Bell",
+    title: "Culinary Explorer",
   },
   {
-    "quote": "The gastronomic sensations at Italian Bakery were absolutely fabulous! The service was inviting and the atmosphere was intimate. Highly recommend!",
-    "author": "Nathan Smith",
-    "title": "Culinary Expert",
-    "image": "/images/testimonials/person-5.jpg"
+    quote:
+      "For alluring tastes served with inviting care in a relaxing space, Italian Bakery is unmatched.",
+    author: "Lisa Allen",
+    title: "Food Historian",
   },
   {
-    "quote": "At Italian Bakery, the culinary masterpieces impressed with charming quality, alongside dependable hospitality and a luxurious setting.",
-    "author": "Mia Mitchell",
-    "title": "Restaurant Reviewer",
-    "image": "/images/testimonials/person-2.jpg"
+    quote:
+      "From the spectacular snacks to the superior hospitality, Italian Bakery provides a stylish dining experience worth savoring.",
+    author: "Olivia Carter",
+    title: "Beverage Expert",
+    image: "/images/testimonials/person-6.jpg",
   },
   {
-    "quote": "The platters selection at Italian Bakery is great, complemented by efficient service and a welcoming ambiance that impresses.",
-    "author": "Thomas Morris",
-    "title": "Menu Analyst"
-  }
+    quote:
+      "If you value delectable specialties with exceptional staff and a lively ambiance, Italian Bakery delivers.",
+    author: "Emily Young",
+    title: "Food Photographer",
+  },
+  {
+    quote:
+      "From appetizers to desserts, Italian Bakery offers charming bites in a inviting space with superb service.",
+    author: "Joshua Bailey",
+    title: "Food Critic",
+  },
+  {
+    quote:
+      "Our dining experience at Italian Bakery was marked by divine cuisine, accommodating service, and a casual atmosphere.",
+    author: "Ava Bell",
+    title: "Epicurean Specialist",
+    image: "/images/testimonials/person-4.jpg",
+  },
+  {
+    quote:
+      "Our meal at Italian Bakery featured captivating culinary masterpieces, attentive warm staff, and a warm, bustling environment.",
+    author: "Sophia Perez",
+    title: "Food Enthusiast",
+  },
+  {
+    quote:
+      "Italian Bakery combines enticing dishes with outstanding hospitality in a vibrant setting, perfect for any occasion.",
+    author: "Ava Carter",
+    title: "Menu Analyst",
+  },
+  {
+    quote:
+      "The fare at Italian Bakery were absolutely sumptuous! The service was professional and the atmosphere was stylish. Highly recommend!",
+    author: "Matthew Perez",
+    title: "Food Journalist",
+    image: "/images/testimonials/person-11.jpg",
+  },
+  {
+    quote:
+      "Our meal at Italian Bakery featured enjoyable gastronomic pleasures, attentive timely staff, and a warm, charming environment.",
+    author: "Christopher Perez",
+    title: "Food Critic",
+    image: "/images/testimonials/person-10.jpg",
+  },
+  {
+    quote:
+      "The courses at Italian Bakery are thoughtfully prepared, scrumptious, and complemented by reliable staff and a classic space.",
+    author: "Daniel Moore",
+    title: "Restaurant Enthusiast",
+  },
+  {
+    quote:
+      "For fabulous fare served with wonderful care in a stylish space, Italian Bakery is unmatched.",
+    author: "Ethan King",
+    title: "Beverage Expert",
+    image: "/images/testimonials/person-9.jpg",
+  },
+  {
+    quote:
+      "The platters selection at Italian Bakery is simply perfect. Combined with outstanding staff and a peaceful setting, it’s a top choice for discerning diners.",
+    author: "Chloe Rodriguez",
+    title: "Culinary Expert",
+    image: "/images/testimonials/person-3.jpg",
+  },
+  {
+    quote:
+      "From the moment we arrived, Italian Bakery impressed with tempting drinks, attentive service, and a chic ambiance.",
+    author: "Jennifer Evans",
+    title: "Culinary Specialist",
+  },
+  {
+    quote:
+      "The treats at Italian Bakery are thoughtfully prepared, divine, and complemented by friendly staff and a modern space.",
+    author: "David Taylor",
+    title: "Culinary Critic",
+  },
+  {
+    quote:
+      "What a delectable dining experience at Italian Bakery! The courses exceeded our expectations, and the staff was remarkable. Will definitely return!",
+    author: "Nathan Green",
+    title: "Food Photographer",
+    image: "/images/testimonials/person-7.jpg",
+  },
 ];

@@ -1,1917 +1,1350 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const hoChiMinhCityCruises: Cruise[] = [
-{
-    basePrice: 2391,
+  {
+    basePrice: 3396,
     departureLocation: {
-  "city": "Ho Chi Minh City",
-  "country": "",
-  "region": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
+      city: "Ho Chi Minh City",
+      country: "",
+      region: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
     arrivalLocation: {
-  "city": "Barcelona",
-  "country": "Spain",
-  "coordinates": {
-    "latitude": 41.390205,
-    "longitude": 2.154007
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "entry-luxury",
+      city: "Ho Chi Minh City",
+      country: "",
+      region: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
     itinerary: {
       route: [
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "region": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  }
-],
-      description: "Board in Ho Chi Minh City for a hand-crafted sanctuary through the breathtaking Ho Chi Minh City. Highlights include sun-drenched beaches, historic ports, and immersive culture in Rome, Milan, Barcelona.",
-      distance: "602 nautical miles",
-      totalDuration: "11 days",
+        {
+          city: "Ho Chi Minh City",
+          country: "",
+          region: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Rome",
+          country: "Italy",
+          coordinates: {
+            latitude: 41.9028,
+            longitude: 12.4964,
+          },
+        },
+        {
+          city: "Santorini",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Ho Chi Minh City",
+          country: "",
+          region: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+      ],
+      description:
+        "This handpicked odyssey begins in Ho Chi Minh City and travels through Ho Chi Minh City's iconic waterscapes. Discover Rome, Santorini as each day brings new stories and every night offers elegant repose.",
+      distance: "640 nautical miles",
+      totalDuration: "9 days",
       timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Ho Chi Minh City to Rome"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Rome to Milan"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from Milan to Barcelona"
-  }
-],
+        {
+          start: "Day 2",
+          end: "Day 2",
+          duration: "1 days",
+          description: "Sailing from Ho Chi Minh City to Rome",
+        },
+        {
+          start: "Day 4",
+          end: "Day 5",
+          duration: "2 days",
+          description: "Sailing from Rome to Santorini",
+        },
+        {
+          start: "Day 7",
+          end: "Day 8",
+          duration: "2 days",
+          description: "Sailing from Santorini to Ho Chi Minh City",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Ho Chi Minh City"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring Barcelona"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring Ho Chi Minh City",
+        },
+        {
+          start: "Day 3",
+          end: "Day 3",
+          duration: "1 days",
+          description: "Exploring Rome",
+        },
+        {
+          start: "Day 6",
+          end: "Day 6",
+          duration: "1 days",
+          description: "Exploring Santorini",
+        },
+        {
+          start: "Day 9",
+          end: "Day 9",
+          duration: "1 days",
+          description: "Exploring Ho Chi Minh City",
+        },
+      ],
     },
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Bobby Gibson",
-        role: "Travel Advisor",
-        languages: ["Russian"],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/men/49.jpg",
+        name: "Andrew Stewart",
+        role: "Reservations Agent",
+        languages: ["English", "Chinese", "Russian"], // Use the properly generated languages list
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/men/64.jpg",
         contact: {
-          contactEmail: "starlit.reflection.o@velarivoyages.com",
-          contactNumber: "+1-552-603-2187"
-        }
-      }
+          contactEmail: "infinite.arcadia.of.@velarivoyages.com",
+          contactNumber: "+1-893-429-9430",
+        },
+      },
     ],
-    title: "Starlit Reflection of the Exotic Realms",
-    description: "Board in Ho Chi Minh City for a hand-crafted sanctuary through the breathtaking Ho Chi Minh City. Highlights include sun-drenched beaches, historic ports, and immersive culture in Rome, Milan, Barcelona.",
-    rating: 4.9,
-    tags: ["cruise-ship","wildlife"]
+    title: "Infinite Arcadia of the Exotic Realms",
+    description:
+      "This handpicked odyssey begins in Ho Chi Minh City and travels through Ho Chi Minh City's iconic waterscapes. Discover Rome, Santorini as each day brings new stories and every night offers elegant repose.",
+    rating: 4.4,
+    tags: ["cruise-ship"],
   },
   {
-    basePrice: 5574,
+    basePrice: 8644,
     departureLocation: {
-  "city": "Ho Chi Minh City",
-  "country": "",
-  "region": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
+      city: "Ho Chi Minh City",
+      country: "",
+      region: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
     arrivalLocation: {
-  "city": "Dubrovnik",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "luxury",
+      city: "Ho Chi Minh City",
+      country: "",
+      region: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
     itinerary: {
       route: [
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "region": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Sail from Ho Chi Minh City into a world of wonder. The Ho Chi Minh City beckons with unforgettable ports like Athens, Malta, Rome, Dubrovnik, where every view is picture-perfect and every moment is priceless.",
-      distance: "1373 nautical miles",
-      totalDuration: "16 days",
+        {
+          city: "Ho Chi Minh City",
+          country: "",
+          region: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Barcelona",
+          country: "Spain",
+          coordinates: {
+            latitude: 41.390205,
+            longitude: 2.154007,
+          },
+        },
+        {
+          city: "Florence",
+          country: "Italy",
+          coordinates: {
+            latitude: 43.769562,
+            longitude: 11.255814,
+          },
+        },
+        {
+          city: "Ho Chi Minh City",
+          country: "",
+          region: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+      ],
+      description:
+        "Your elevation begins in Ho Chi Minh City, where every sunset on the Ho Chi Minh City horizon promises another day of discovery—from Barcelona, Florence to hidden ports of charm.",
+      distance: "1115 nautical miles",
+      totalDuration: "9 days",
       timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Ho Chi Minh City to Athens"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Athens to Malta"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Sailing from Malta to Rome"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
-    "duration": "2 days",
-    "description": "Sailing from Rome to Dubrovnik"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 3",
+          duration: "1 days",
+          description: "Sailing from Ho Chi Minh City to Barcelona",
+        },
+        {
+          start: "Day 5",
+          end: "Day 5",
+          duration: "1 days",
+          description: "Sailing from Barcelona to Florence",
+        },
+        {
+          start: "Day 8",
+          end: "Day 8",
+          duration: "1 days",
+          description: "Sailing from Florence to Ho Chi Minh City",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Ho Chi Minh City"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 16",
-    "duration": "2 days",
-    "description": "Exploring Dubrovnik"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring Ho Chi Minh City",
+        },
+        {
+          start: "Day 4",
+          end: "Day 4",
+          duration: "1 days",
+          description: "Exploring Barcelona",
+        },
+        {
+          start: "Day 6",
+          end: "Day 7",
+          duration: "2 days",
+          description: "Exploring Florence",
+        },
+        {
+          start: "Day 9",
+          end: "Day 9",
+          duration: "1 days",
+          description: "Exploring Ho Chi Minh City",
+        },
+      ],
     },
-    tourCategoryId: "repositioning-cruise",
+    tourCategoryId: "vip-cruise",
     contactPersonnel: [
       {
-        name: "Larry Price",
-        role: "Travel Advisor",
-        languages: ["Russian"],
-        experienceYears: 18,
+        name: "Dylan Porter",
+        role: "Reservations Agent",
+        languages: ["English", "Chinese", "Russian"], // Use the properly generated languages list
+        experienceYears: 17,
         profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
         contact: {
-          contactEmail: "crystalline.legacy.o@velarivoyages.com",
-          contactNumber: "+1-939-347-5458"
-        }
-      }
+          contactEmail: "majestic.haven.of.th@velarivoyages.com",
+          contactNumber: "+1-530-583-9135",
+        },
+      },
     ],
-    title: "Crystalline Legacy of the Exotic Realms",
-    description: "Sail from Ho Chi Minh City into a world of wonder. The Ho Chi Minh City beckons with unforgettable ports like Athens, Malta, Rome, Dubrovnik, where every view is picture-perfect and every moment is priceless.",
-    rating: 4.2,
-    tags: ["long-distance"]
+    title: "Majestic Haven of the Exotic Realms",
+    description:
+      "Your elevation begins in Ho Chi Minh City, where every sunset on the Ho Chi Minh City horizon promises another day of discovery—from Barcelona, Florence to hidden ports of charm.",
+    rating: 5.0,
+    tags: ["VIP", "nature", "exclusive"],
   },
   {
-    basePrice: 6740,
+    basePrice: 2188,
     departureLocation: {
-  "city": "Ho Chi Minh City",
-  "country": "",
-  "region": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
+      city: "Ho Chi Minh City",
+      country: "",
+      region: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
     arrivalLocation: {
-  "city": "Santorini",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
+      city: "Ho Chi Minh City",
+      country: "",
+      region: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "premium",
     itinerary: {
       route: [
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "region": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Begin a captivating zenith through the Ho Chi Minh City, departing Ho Chi Minh City. With visits to Malta, Santorini, each day brings a new adventure and deeper connection to the region.",
-      distance: "1204 nautical miles",
-      totalDuration: "8 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Ho Chi Minh City to Malta"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Sailing from Malta to Santorini"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Ho Chi Minh City"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Santorini"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Bryan Crawford",
-        role: "Travel Advisor",
-        languages: ["Russian"],
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/men/41.jpg",
-        contact: {
-          contactEmail: "floating.retreat.of.@velarivoyages.com",
-          contactNumber: "+1-747-682-1631"
-        }
-      }
-    ],
-    title: "Floating Retreat of the Exotic Realms",
-    description: "Begin a captivating zenith through the Ho Chi Minh City, departing Ho Chi Minh City. With visits to Malta, Santorini, each day brings a new adventure and deeper connection to the region.",
-    rating: 4.3,
-    tags: ["repositioning","holiday-cruise"]
-  },
-  {
-    basePrice: 8190,
-    departureLocation: {
-  "city": "Ho Chi Minh City",
-  "country": "",
-  "region": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    arrivalLocation: {
-  "city": "Ho Chi Minh City",
-  "country": "",
-  "region": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "ultra-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "region": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "region": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "This enchanting legacy begins in Ho Chi Minh City and ventures deep into the heart of Ho Chi Minh City. Wander through colorful markets, historic streets, and serene coastlines at Rome, Milan.",
-      distance: "823 nautical miles",
+        {
+          city: "Ho Chi Minh City",
+          country: "",
+          region: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Dubrovnik",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Malta",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Ho Chi Minh City",
+          country: "",
+          region: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+      ],
+      description:
+        "Begin your journey in Ho Chi Minh City, where tradition meets travel. This immersive frontier reveals the finest of Ho Chi Minh City, from the beaches of Dubrovnik to the streets of Malta.",
+      distance: "621 nautical miles",
       totalDuration: "12 days",
       timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Ho Chi Minh City to Rome"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Rome to Milan"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Milan to Ho Chi Minh City"
-  }
-],
+        {
+          start: "Day 2",
+          end: "Day 2",
+          duration: "1 days",
+          description: "Sailing from Ho Chi Minh City to Dubrovnik",
+        },
+        {
+          start: "Day 5",
+          end: "Day 6",
+          duration: "2 days",
+          description: "Sailing from Dubrovnik to Malta",
+        },
+        {
+          start: "Day 9",
+          end: "Day 10",
+          duration: "2 days",
+          description: "Sailing from Malta to Ho Chi Minh City",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Ho Chi Minh City"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Ho Chi Minh City"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Elijah Maxwell",
-        role: "Travel Advisor",
-        languages: ["Russian"],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/men/76.jpg",
-        contact: {
-          contactEmail: "majestic.elevation.o@velarivoyages.com",
-          contactNumber: "+1-124-951-9308"
-        }
-      }
-    ],
-    title: "Majestic Elevation of the Exotic Realms",
-    description: "This enchanting legacy begins in Ho Chi Minh City and ventures deep into the heart of Ho Chi Minh City. Wander through colorful markets, historic streets, and serene coastlines at Rome, Milan.",
-    rating: 4.1,
-    tags: ["cruise-line","sightseeing"]
-  },
-  {
-    basePrice: 4494,
-    departureLocation: {
-  "city": "Ho Chi Minh City",
-  "country": "",
-  "region": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    arrivalLocation: {
-  "city": "Ho Chi Minh City",
-  "country": "",
-  "region": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "region": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "region": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "This handpicked mirage begins in Ho Chi Minh City and travels through Ho Chi Minh City's iconic waterscapes. Discover Mykonos, Santorini, Malta as each day brings new stories and every night offers elegant repose.",
-      distance: "1499 nautical miles",
-      totalDuration: "16 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Ho Chi Minh City to Mykonos"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Mykonos to Santorini"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from Santorini to Malta"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 14",
-    "duration": "1 days",
-    "description": "Sailing from Malta to Ho Chi Minh City"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Ho Chi Minh City"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 16",
-    "duration": "2 days",
-    "description": "Exploring Ho Chi Minh City"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring Ho Chi Minh City",
+        },
+        {
+          start: "Day 3",
+          end: "Day 4",
+          duration: "2 days",
+          description: "Exploring Dubrovnik",
+        },
+        {
+          start: "Day 7",
+          end: "Day 8",
+          duration: "2 days",
+          description: "Exploring Malta",
+        },
+        {
+          start: "Day 11",
+          end: "Day 12",
+          duration: "2 days",
+          description: "Exploring Ho Chi Minh City",
+        },
+      ],
     },
     tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Douglas Ellis",
-        role: "Travel Advisor",
-        languages: ["Russian"],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/men/40.jpg",
+        name: "Gary Stewart",
+        role: "Reservations Agent",
+        languages: ["English", "Chinese", "Russian"], // Use the properly generated languages list
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/93.jpg",
         contact: {
-          contactEmail: "celestial.passage.of@velarivoyages.com",
-          contactNumber: "+1-999-612-8875"
-        }
-      }
+          contactEmail: "timeless.panorama.of@velarivoyages.com",
+          contactNumber: "+1-404-476-7638",
+        },
+      },
     ],
-    title: "Celestial Passage of the Exotic Realms",
-    description: "This handpicked mirage begins in Ho Chi Minh City and travels through Ho Chi Minh City's iconic waterscapes. Discover Mykonos, Santorini, Malta as each day brings new stories and every night offers elegant repose.",
-    rating: 5.0,
-    tags: ["cruise-experience","wildlife"]
+    title: "Timeless Panorama of the Exotic Realms",
+    description:
+      "Begin your journey in Ho Chi Minh City, where tradition meets travel. This immersive frontier reveals the finest of Ho Chi Minh City, from the beaches of Dubrovnik to the streets of Malta.",
+    rating: 4.0,
+    tags: ["general", "cruise-ship", "repositioning"],
   },
   {
-    basePrice: 6855,
+    basePrice: 5601,
     departureLocation: {
-  "city": "Ho Chi Minh City",
-  "country": "",
-  "region": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
+      city: "Ho Chi Minh City",
+      country: "",
+      region: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
     arrivalLocation: {
-  "city": "Barcelona",
-  "country": "Spain",
-  "coordinates": {
-    "latitude": 41.390205,
-    "longitude": 2.154007
-  }
-},
+      city: "Santorini",
+      country: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "premium-luxury",
+    category: "mainstream",
     itinerary: {
       route: [
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "region": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  }
-],
-      description: "Join us in Ho Chi Minh City for a arcadia of a lifetime. Sail across the serene waters of Ho Chi Minh City, stopping at ports like Rome, Barcelona where timeless traditions meet modern luxuries.",
-      distance: "652 nautical miles",
-      totalDuration: "7 days",
+        {
+          city: "Ho Chi Minh City",
+          country: "",
+          region: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Athens",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Santorini",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+      ],
+      description:
+        "Launch into adventure from Ho Chi Minh City and sail deep into the heart of the Ho Chi Minh City. With ports of call like Athens, Santorini, expect a voyage filled with scenic wonders and luxurious comforts.",
+      distance: "1464 nautical miles",
+      totalDuration: "8 days",
       timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Ho Chi Minh City to Rome"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Rome to Barcelona"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 4",
+          duration: "2 days",
+          description: "Sailing from Ho Chi Minh City to Athens",
+        },
+        {
+          start: "Day 6",
+          end: "Day 6",
+          duration: "1 days",
+          description: "Sailing from Athens to Santorini",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Ho Chi Minh City"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Barcelona"
-  }
-]
-    },
-    tourCategoryId: "tropical-cruise",
-    contactPersonnel: [
-      {
-        name: "Jeffrey Gardner",
-        role: "Travel Advisor",
-        languages: ["Russian"],
-        experienceYears: 13,
-        profileImage: "https://randomuser.me/api/portraits/men/33.jpg",
-        contact: {
-          contactEmail: "mythic.tide.of.the.e@velarivoyages.com",
-          contactNumber: "+1-749-733-9289"
-        }
-      }
-    ],
-    title: "Mythic Tide of the Exotic Realms",
-    description: "Join us in Ho Chi Minh City for a arcadia of a lifetime. Sail across the serene waters of Ho Chi Minh City, stopping at ports like Rome, Barcelona where timeless traditions meet modern luxuries.",
-    rating: 4.9,
-    tags: ["wellness","long-distance","relaxation"]
-  },
-  {
-    basePrice: 5438,
-    departureLocation: {
-  "city": "Ho Chi Minh City",
-  "country": "",
-  "region": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    arrivalLocation: {
-  "city": "Venice",
-  "country": "Italy",
-  "coordinates": {
-    "latitude": 45.4408,
-    "longitude": 12.3155
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "region": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Lisbon",
-    "country": "Portugal",
-    "coordinates": {
-      "latitude": 38.7169,
-      "longitude": -9.1399
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Venice",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 45.4408,
-      "longitude": 12.3155
-    }
-  }
-],
-      description: "Explore a new side of Ho Chi Minh City with this serene arcadia starting in Ho Chi Minh City. Visit charming ports such as Lisbon, Milan, Venice, each offering its own unique rhythm.",
-      distance: "1273 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Ho Chi Minh City to Lisbon"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Lisbon to Milan"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from Milan to Venice"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Ho Chi Minh City"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Lisbon"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Venice"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "David Murray",
-        role: "Travel Advisor",
-        languages: ["Russian"],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/men/28.jpg",
-        contact: {
-          contactEmail: "sublime.discovery.of@velarivoyages.com",
-          contactNumber: "+1-485-207-6638"
-        }
-      }
-    ],
-    title: "Sublime Discovery of the Exotic Realms",
-    description: "Explore a new side of Ho Chi Minh City with this serene arcadia starting in Ho Chi Minh City. Visit charming ports such as Lisbon, Milan, Venice, each offering its own unique rhythm.",
-    rating: 4.6,
-    tags: ["wildlife","relaxation"]
-  },
-  {
-    basePrice: 2445,
-    departureLocation: {
-  "city": "Ho Chi Minh City",
-  "country": "",
-  "region": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    arrivalLocation: {
-  "city": "Athens",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "region": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Let the waves lead you from Ho Chi Minh City on this midnight oasis. Traverse the iconic waters of Ho Chi Minh City and discover the beauty of Santorini, Athens.",
-      distance: "1024 nautical miles",
-      totalDuration: "5 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Ho Chi Minh City to Santorini"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Athens"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Ho Chi Minh City"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Athens"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Isaac Douglas",
-        role: "Travel Advisor",
-        languages: ["Russian"],
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/men/8.jpg",
-        contact: {
-          contactEmail: "harmonic.horizon.of.@velarivoyages.com",
-          contactNumber: "+1-183-587-1483"
-        }
-      }
-    ],
-    title: "Harmonic Horizon of the Exotic Realms",
-    description: "Let the waves lead you from Ho Chi Minh City on this midnight oasis. Traverse the iconic waters of Ho Chi Minh City and discover the beauty of Santorini, Athens.",
-    rating: 4.8,
-    tags: ["cruise-excursion","culinary","wildlife"]
-  },
-  {
-    basePrice: 1509,
-    departureLocation: {
-  "city": "Ho Chi Minh City",
-  "country": "",
-  "region": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    arrivalLocation: {
-  "city": "Rome",
-  "country": "Italy",
-  "coordinates": {
-    "latitude": 41.9028,
-    "longitude": 12.4964
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "region": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Florence",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 43.769562,
-      "longitude": 11.255814
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  }
-],
-      description: "Join us in Ho Chi Minh City for a saga of a lifetime. Sail across the serene waters of Ho Chi Minh City, stopping at ports like Florence, Malta, Rome where timeless traditions meet modern luxuries.",
-      distance: "874 nautical miles",
-      totalDuration: "9 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Ho Chi Minh City to Florence"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Florence to Malta"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Malta to Rome"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Ho Chi Minh City"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Florence"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Rome"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring Ho Chi Minh City",
+        },
+        {
+          start: "Day 5",
+          end: "Day 5",
+          duration: "1 days",
+          description: "Exploring Athens",
+        },
+        {
+          start: "Day 7",
+          end: "Day 8",
+          duration: "2 days",
+          description: "Exploring Santorini",
+        },
+      ],
     },
     tourCategoryId: "holiday-cruise",
     contactPersonnel: [
       {
-        name: "Liam Hudson",
-        role: "Travel Advisor",
-        languages: ["Russian"],
-        experienceYears: 5,
-        profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
+        name: "Anthony West",
+        role: "Reservations Agent",
+        languages: ["English", "Chinese", "Russian"], // Use the properly generated languages list
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/81.jpg",
         contact: {
-          contactEmail: "whispering.haven.of.@velarivoyages.com",
-          contactNumber: "+1-846-502-4432"
-        }
-      }
+          contactEmail: "pearlescent.passage.@velarivoyages.com",
+          contactNumber: "+1-122-840-5291",
+        },
+      },
     ],
-    title: "Whispering Haven of the Exotic Realms",
-    description: "Join us in Ho Chi Minh City for a saga of a lifetime. Sail across the serene waters of Ho Chi Minh City, stopping at ports like Florence, Malta, Rome where timeless traditions meet modern luxuries.",
-    rating: 4.3,
-    tags: ["cruise-ship","culinary","cruise-holiday"]
+    title: "Pearlescent Passage of the Exotic Realms",
+    description:
+      "Launch into adventure from Ho Chi Minh City and sail deep into the heart of the Ho Chi Minh City. With ports of call like Athens, Santorini, expect a voyage filled with scenic wonders and luxurious comforts.",
+    rating: 4.7,
+    tags: ["culinary", "holiday-cruise", "historical"],
   },
   {
-    basePrice: 9623,
+    basePrice: 4201,
     departureLocation: {
-  "city": "Ho Chi Minh City",
-  "country": "",
-  "region": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    arrivalLocation: {
-  "city": "Ho Chi Minh City",
-  "country": "",
-  "region": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "expedition",
-    itinerary: {
-      route: [
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "region": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Venice",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 45.4408,
-      "longitude": 12.3155
-    }
-  },
-  {
-    "city": "Florence",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 43.769562,
-      "longitude": 11.255814
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "region": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Depart from iconic Ho Chi Minh City and traverse the Ho Chi Minh City with visits to Venice, Florence, Milan. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
-      distance: "1155 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Ho Chi Minh City to Venice"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Venice to Florence"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Florence to Milan"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Sailing from Milan to Ho Chi Minh City"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Ho Chi Minh City"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Venice"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Florence"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Exploring Ho Chi Minh City"
-  }
-]
+      city: "Ho Chi Minh City",
+      country: "",
+      region: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
     },
-    tourCategoryId: "luxury-cruise",
-    contactPersonnel: [
-      {
-        name: "Jacob Gardner",
-        role: "Travel Advisor",
-        languages: ["Russian"],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/men/1.jpg",
-        contact: {
-          contactEmail: "tidewashed.arcadia.o@velarivoyages.com",
-          contactNumber: "+1-458-214-6653"
-        }
-      }
-    ],
-    title: "Tide-Washed Arcadia of the Exotic Realms",
-    description: "Depart from iconic Ho Chi Minh City and traverse the Ho Chi Minh City with visits to Venice, Florence, Milan. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
-    rating: 4.2,
-    tags: ["luxury"]
-  },
-  {
-    basePrice: 8673,
-    departureLocation: {
-  "city": "Ho Chi Minh City",
-  "country": "",
-  "region": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
     arrivalLocation: {
-  "city": "Dubrovnik",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "ultra-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "region": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "This extraordinary serenade from Ho Chi Minh City offers the ultimate Ho Chi Minh City exploration. Immerse yourself in the rich cultures and stunning landscapes of Mykonos and Dubrovnik, creating memories that will last a lifetime.",
-      distance: "1464 nautical miles",
-      totalDuration: "8 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Ho Chi Minh City to Mykonos"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Mykonos to Dubrovnik"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Ho Chi Minh City"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Dubrovnik"
-  }
-]
+      city: "Lisbon",
+      country: "Portugal",
+      coordinates: {
+        latitude: 38.7169,
+        longitude: -9.1399,
+      },
     },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Maria Collins",
-        role: "Corporate Concierge",
-        languages: ["Filipino"],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/women/66.jpg",
-        contact: {
-          contactEmail: "charming.frontier.of@velarivoyages.com",
-          contactNumber: "+1-131-914-8597"
-        }
-      }
-    ],
-    title: "Charming Frontier of the Exotic Realms",
-    description: "This extraordinary serenade from Ho Chi Minh City offers the ultimate Ho Chi Minh City exploration. Immerse yourself in the rich cultures and stunning landscapes of Mykonos and Dubrovnik, creating memories that will last a lifetime.",
-    rating: 5.0,
-    tags: ["cruise-excursion"]
-  },
-  {
-    basePrice: 7594,
-    departureLocation: {
-  "city": "Ho Chi Minh City",
-  "country": "",
-  "region": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    arrivalLocation: {
-  "city": "Malta",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
+    isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "entry-luxury",
     itinerary: {
       route: [
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "region": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Florence",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 43.769562,
-      "longitude": 11.255814
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Launch into adventure from Ho Chi Minh City and sail deep into the heart of the Ho Chi Minh City. With ports of call like Santorini, Dubrovnik, Florence, Malta, expect a voyage filled with scenic wonders and luxurious comforts.",
-      distance: "1499 nautical miles",
-      totalDuration: "12 days",
+        {
+          city: "Ho Chi Minh City",
+          country: "",
+          region: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Barcelona",
+          country: "Spain",
+          coordinates: {
+            latitude: 41.390205,
+            longitude: 2.154007,
+          },
+        },
+        {
+          city: "Rome",
+          country: "Italy",
+          coordinates: {
+            latitude: 41.9028,
+            longitude: 12.4964,
+          },
+        },
+        {
+          city: "Florence",
+          country: "Italy",
+          coordinates: {
+            latitude: 43.769562,
+            longitude: 11.255814,
+          },
+        },
+        {
+          city: "Lisbon",
+          country: "Portugal",
+          coordinates: {
+            latitude: 38.7169,
+            longitude: -9.1399,
+          },
+        },
+      ],
+      description:
+        "Depart from the iconic port of Ho Chi Minh City and sail through the enchanting Ho Chi Minh City. Explore vibrant destinations like Barcelona, Rome, Florence, Lisbon, each offering its own unique charm and local flair.",
+      distance: "575 nautical miles",
+      totalDuration: "15 days",
       timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Ho Chi Minh City to Santorini"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Dubrovnik"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Dubrovnik to Florence"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Florence to Malta"
-  }
-],
+        {
+          start: "Day 2",
+          end: "Day 3",
+          duration: "2 days",
+          description: "Sailing from Ho Chi Minh City to Barcelona",
+        },
+        {
+          start: "Day 6",
+          end: "Day 7",
+          duration: "2 days",
+          description: "Sailing from Barcelona to Rome",
+        },
+        {
+          start: "Day 10",
+          end: "Day 10",
+          duration: "1 days",
+          description: "Sailing from Rome to Florence",
+        },
+        {
+          start: "Day 12",
+          end: "Day 13",
+          duration: "2 days",
+          description: "Sailing from Florence to Lisbon",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Ho Chi Minh City"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Florence"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring Ho Chi Minh City",
+        },
+        {
+          start: "Day 4",
+          end: "Day 5",
+          duration: "2 days",
+          description: "Exploring Barcelona",
+        },
+        {
+          start: "Day 8",
+          end: "Day 9",
+          duration: "2 days",
+          description: "Exploring Rome",
+        },
+        {
+          start: "Day 11",
+          end: "Day 11",
+          duration: "1 days",
+          description: "Exploring Florence",
+        },
+        {
+          start: "Day 14",
+          end: "Day 15",
+          duration: "2 days",
+          description: "Exploring Lisbon",
+        },
+      ],
     },
-    tourCategoryId: "general-cruise",
+    tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Abigail Bennett",
-        role: "Corporate Concierge",
-        languages: ["Filipino"],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/women/29.jpg",
+        name: "Christopher Grant",
+        role: "Reservations Agent",
+        languages: ["English", "Chinese", "Russian"], // Use the properly generated languages list
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
         contact: {
-          contactEmail: "horizonkissed.drift.@velarivoyages.com",
-          contactNumber: "+1-968-727-9878"
-        }
-      }
+          contactEmail: "gilded.drift.of.the.@velarivoyages.com",
+          contactNumber: "+1-787-758-8631",
+        },
+      },
     ],
-    title: "Horizon-Kissed Drift of the Exotic Realms",
-    description: "Launch into adventure from Ho Chi Minh City and sail deep into the heart of the Ho Chi Minh City. With ports of call like Santorini, Dubrovnik, Florence, Malta, expect a voyage filled with scenic wonders and luxurious comforts.",
-    rating: 4.1,
-    tags: ["historical","sightseeing"]
+    title: "Gilded Drift of the Exotic Realms",
+    description:
+      "Depart from the iconic port of Ho Chi Minh City and sail through the enchanting Ho Chi Minh City. Explore vibrant destinations like Barcelona, Rome, Florence, Lisbon, each offering its own unique charm and local flair.",
+    rating: 4.2,
+    tags: ["cruise-adventure", "sightseeing"],
   },
   {
-    basePrice: 5319,
+    basePrice: 1068,
     departureLocation: {
-  "city": "Ho Chi Minh City",
-  "country": "",
-  "region": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    arrivalLocation: {
-  "city": "Ho Chi Minh City",
-  "country": "",
-  "region": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "region": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Venice",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 45.4408,
-      "longitude": 12.3155
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "region": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Begin an epic embrace from Ho Chi Minh City, where the seas meet culture. Visit the remarkable ports of Venice, Malta, Rome while indulging in fine dining, entertainment, and unmatched hospitality.",
-      distance: "1401 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Ho Chi Minh City to Venice"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Venice to Malta"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Malta to Rome"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Sailing from Rome to Ho Chi Minh City"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Ho Chi Minh City"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Venice"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring Ho Chi Minh City"
-  }
-]
+      city: "Ho Chi Minh City",
+      country: "",
+      region: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
     },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Charlotte Chambers",
-        role: "Corporate Concierge",
-        languages: ["Filipino"],
-        experienceYears: 13,
-        profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
-        contact: {
-          contactEmail: "luminous.whisper.of.@velarivoyages.com",
-          contactNumber: "+1-108-559-3921"
-        }
-      }
-    ],
-    title: "Luminous Whisper of the Exotic Realms",
-    description: "Begin an epic embrace from Ho Chi Minh City, where the seas meet culture. Visit the remarkable ports of Venice, Malta, Rome while indulging in fine dining, entertainment, and unmatched hospitality.",
-    rating: 4.9,
-    tags: ["cruise-ship"]
-  },
-  {
-    basePrice: 9009,
-    departureLocation: {
-  "city": "Ho Chi Minh City",
-  "country": "",
-  "region": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
     arrivalLocation: {
-  "city": "Milan",
-  "country": "Italy",
-  "coordinates": {
-    "latitude": 45.4642,
-    "longitude": 9.19
-  }
-},
+      city: "Ho Chi Minh City",
+      country: "",
+      region: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
     isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "expedition",
+    category: "entry-luxury",
     itinerary: {
       route: [
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "region": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  }
-],
-      description: "Set course from Ho Chi Minh City for an inspiring exquisite journey across Ho Chi Minh City. Whether exploring ancient ruins in Rome or soaking up coastal views in Mykonos, every day offers a perfect mix of discovery and relaxation.",
-      distance: "536 nautical miles",
-      totalDuration: "14 days",
+        {
+          city: "Ho Chi Minh City",
+          country: "",
+          region: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Santorini",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Milan",
+          country: "Italy",
+          coordinates: {
+            latitude: 45.4642,
+            longitude: 9.19,
+          },
+        },
+        {
+          city: "Ho Chi Minh City",
+          country: "",
+          region: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+      ],
+      description:
+        "Escape the everyday with this spectacular journey through Ho Chi Minh City, departing from Ho Chi Minh City. You'll visit Santorini, Milan, where every stop is a new adventure.",
+      distance: "1322 nautical miles",
+      totalDuration: "10 days",
       timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Ho Chi Minh City to Rome"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Rome to Mykonos"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Sailing from Mykonos to Milan"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 3",
+          duration: "1 days",
+          description: "Sailing from Ho Chi Minh City to Santorini",
+        },
+        {
+          start: "Day 6",
+          end: "Day 6",
+          duration: "1 days",
+          description: "Sailing from Santorini to Milan",
+        },
+        {
+          start: "Day 8",
+          end: "Day 8",
+          duration: "1 days",
+          description: "Sailing from Milan to Ho Chi Minh City",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Ho Chi Minh City"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
-    "duration": "2 days",
-    "description": "Exploring Milan"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring Ho Chi Minh City",
+        },
+        {
+          start: "Day 4",
+          end: "Day 5",
+          duration: "2 days",
+          description: "Exploring Santorini",
+        },
+        {
+          start: "Day 7",
+          end: "Day 7",
+          duration: "1 days",
+          description: "Exploring Milan",
+        },
+        {
+          start: "Day 9",
+          end: "Day 10",
+          duration: "2 days",
+          description: "Exploring Ho Chi Minh City",
+        },
+      ],
     },
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Susan Hunter",
-        role: "Corporate Concierge",
-        languages: ["Filipino"],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/women/87.jpg",
+        name: "Scott Ellis",
+        role: "Reservations Agent",
+        languages: ["English", "Chinese", "Russian"], // Use the properly generated languages list
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/11.jpg",
         contact: {
-          contactEmail: "infinite.sanctum.of.@velarivoyages.com",
-          contactNumber: "+1-700-464-3700"
-        }
-      }
+          contactEmail: "floating.haven.of.th@velarivoyages.com",
+          contactNumber: "+1-321-974-2112",
+        },
+      },
     ],
-    title: "Infinite Sanctum of the Exotic Realms",
-    description: "Set course from Ho Chi Minh City for an inspiring exquisite journey across Ho Chi Minh City. Whether exploring ancient ruins in Rome or soaking up coastal views in Mykonos, every day offers a perfect mix of discovery and relaxation.",
+    title: "Floating Haven of the Exotic Realms",
+    description:
+      "Escape the everyday with this spectacular journey through Ho Chi Minh City, departing from Ho Chi Minh City. You'll visit Santorini, Milan, where every stop is a new adventure.",
     rating: 4.0,
-    tags: ["adventure","cruise-line"]
+    tags: ["wellness"],
   },
   {
-    basePrice: 2409,
+    basePrice: 8060,
     departureLocation: {
-  "city": "Ho Chi Minh City",
-  "country": "",
-  "region": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
+      city: "Ho Chi Minh City",
+      country: "",
+      region: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
     arrivalLocation: {
-  "city": "Santorini",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
+      city: "Ho Chi Minh City",
+      country: "",
+      region: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "premium",
     itinerary: {
       route: [
-  {
-    "city": "Ho Chi Minh City",
-    "country": "",
-    "region": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Sail away from the charming harbor of Ho Chi Minh City on this floating journey across Ho Chi Minh City. Uncover the beauty and history of Rome, Santorini with curated excursions, world-class cuisine, and exceptional service.",
-      distance: "878 nautical miles",
-      totalDuration: "6 days",
+        {
+          city: "Ho Chi Minh City",
+          country: "",
+          region: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Rome",
+          country: "Italy",
+          coordinates: {
+            latitude: 41.9028,
+            longitude: 12.4964,
+          },
+        },
+        {
+          city: "Mykonos",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Santorini",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Ho Chi Minh City",
+          country: "",
+          region: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+      ],
+      description:
+        "Join us in Ho Chi Minh City for a voyage of a lifetime. Sail across the serene waters of Ho Chi Minh City, stopping at ports like Rome, Mykonos, Santorini where timeless traditions meet modern luxuries.",
+      distance: "1101 nautical miles",
+      totalDuration: "12 days",
       timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Ho Chi Minh City to Rome"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Sailing from Rome to Santorini"
-  }
-],
+        {
+          start: "Day 2",
+          end: "Day 3",
+          duration: "2 days",
+          description: "Sailing from Ho Chi Minh City to Rome",
+        },
+        {
+          start: "Day 5",
+          end: "Day 5",
+          duration: "1 days",
+          description: "Sailing from Rome to Mykonos",
+        },
+        {
+          start: "Day 7",
+          end: "Day 8",
+          duration: "2 days",
+          description: "Sailing from Mykonos to Santorini",
+        },
+        {
+          start: "Day 10",
+          end: "Day 11",
+          duration: "2 days",
+          description: "Sailing from Santorini to Ho Chi Minh City",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Ho Chi Minh City"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Santorini"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring Ho Chi Minh City",
+        },
+        {
+          start: "Day 4",
+          end: "Day 4",
+          duration: "1 days",
+          description: "Exploring Rome",
+        },
+        {
+          start: "Day 6",
+          end: "Day 6",
+          duration: "1 days",
+          description: "Exploring Mykonos",
+        },
+        {
+          start: "Day 9",
+          end: "Day 9",
+          duration: "1 days",
+          description: "Exploring Santorini",
+        },
+        {
+          start: "Day 12",
+          end: "Day 12",
+          duration: "1 days",
+          description: "Exploring Ho Chi Minh City",
+        },
+      ],
     },
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Priya Graves",
-        role: "Corporate Concierge",
-        languages: ["Filipino"],
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
+        name: "Thomas Crawford",
+        role: "Reservations Agent",
+        languages: ["English", "Chinese", "Russian"], // Use the properly generated languages list
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/49.jpg",
         contact: {
-          contactEmail: "oceanic.labyrinth.of@velarivoyages.com",
-          contactNumber: "+1-550-782-5706"
-        }
-      }
+          contactEmail: "immersive.renaissanc@velarivoyages.com",
+          contactNumber: "+1-322-461-9254",
+        },
+      },
     ],
-    title: "Oceanic Labyrinth of the Exotic Realms",
-    description: "Sail away from the charming harbor of Ho Chi Minh City on this floating journey across Ho Chi Minh City. Uncover the beauty and history of Rome, Santorini with curated excursions, world-class cuisine, and exceptional service.",
+    title: "Immersive Renaissance of the Exotic Realms",
+    description:
+      "Join us in Ho Chi Minh City for a voyage of a lifetime. Sail across the serene waters of Ho Chi Minh City, stopping at ports like Rome, Mykonos, Santorini where timeless traditions meet modern luxuries.",
     rating: 5.0,
-    tags: ["long-distance"]
-  }
+    tags: ["cruise-holiday", "historical", "cruise-getaway"],
+  },
+  {
+    basePrice: 5088,
+    departureLocation: {
+      city: "Ho Chi Minh City",
+      country: "",
+      region: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
+    arrivalLocation: {
+      city: "Ho Chi Minh City",
+      country: "",
+      region: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+        {
+          city: "Ho Chi Minh City",
+          country: "",
+          region: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Venice",
+          country: "Italy",
+          coordinates: {
+            latitude: 45.4408,
+            longitude: 12.3155,
+          },
+        },
+        {
+          city: "Malta",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Ho Chi Minh City",
+          country: "",
+          region: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+      ],
+      description:
+        "Your journey through the Ho Chi Minh City begins in Ho Chi Minh City, where elegance meets adventure. Explore the shores of Venice, Malta, with curated excursions and luxurious onboard amenities.",
+      distance: "1049 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+        {
+          start: "Day 2",
+          end: "Day 3",
+          duration: "2 days",
+          description: "Sailing from Ho Chi Minh City to Venice",
+        },
+        {
+          start: "Day 6",
+          end: "Day 7",
+          duration: "2 days",
+          description: "Sailing from Venice to Malta",
+        },
+        {
+          start: "Day 9",
+          end: "Day 10",
+          duration: "2 days",
+          description: "Sailing from Malta to Ho Chi Minh City",
+        },
+      ],
+      timeOnLand: [
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring Ho Chi Minh City",
+        },
+        {
+          start: "Day 4",
+          end: "Day 5",
+          duration: "2 days",
+          description: "Exploring Venice",
+        },
+        {
+          start: "Day 8",
+          end: "Day 8",
+          duration: "1 days",
+          description: "Exploring Malta",
+        },
+        {
+          start: "Day 11",
+          end: "Day 11",
+          duration: "1 days",
+          description: "Exploring Ho Chi Minh City",
+        },
+      ],
+    },
+    tourCategoryId: "tropical-cruise",
+    contactPersonnel: [
+      {
+        name: "Matthew Dunn",
+        role: "Reservations Agent",
+        languages: ["English", "Chinese", "Russian"], // Use the properly generated languages list
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/men/39.jpg",
+        contact: {
+          contactEmail: "breathtaking.solstic@velarivoyages.com",
+          contactNumber: "+1-336-138-4953",
+        },
+      },
+    ],
+    title: "Breathtaking Solstice of the Exotic Realms",
+    description:
+      "Your journey through the Ho Chi Minh City begins in Ho Chi Minh City, where elegance meets adventure. Explore the shores of Venice, Malta, with curated excursions and luxurious onboard amenities.",
+    rating: 4.9,
+    tags: ["cruise-experience", "tropical"],
+  },
+  {
+    basePrice: 6583,
+    departureLocation: {
+      city: "Ho Chi Minh City",
+      country: "",
+      region: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
+    arrivalLocation: {
+      city: "Ho Chi Minh City",
+      country: "",
+      region: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+        {
+          city: "Ho Chi Minh City",
+          country: "",
+          region: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Venice",
+          country: "Italy",
+          coordinates: {
+            latitude: 45.4408,
+            longitude: 12.3155,
+          },
+        },
+        {
+          city: "Florence",
+          country: "Italy",
+          coordinates: {
+            latitude: 43.769562,
+            longitude: 11.255814,
+          },
+        },
+        {
+          city: "Ho Chi Minh City",
+          country: "",
+          region: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+      ],
+      description:
+        "Set sail from Ho Chi Minh City on this radiance-drenched expedition through the heart of Ho Chi Minh City. Experience the perfect blend of relaxation and adventure as you explore Venice and Florence, with personalized service and unforgettable experiences awaiting at every port.",
+      distance: "857 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+        {
+          start: "Day 2",
+          end: "Day 2",
+          duration: "1 days",
+          description: "Sailing from Ho Chi Minh City to Venice",
+        },
+        {
+          start: "Day 4",
+          end: "Day 5",
+          duration: "2 days",
+          description: "Sailing from Venice to Florence",
+        },
+        {
+          start: "Day 8",
+          end: "Day 8",
+          duration: "1 days",
+          description: "Sailing from Florence to Ho Chi Minh City",
+        },
+      ],
+      timeOnLand: [
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring Ho Chi Minh City",
+        },
+        {
+          start: "Day 3",
+          end: "Day 3",
+          duration: "1 days",
+          description: "Exploring Venice",
+        },
+        {
+          start: "Day 6",
+          end: "Day 7",
+          duration: "2 days",
+          description: "Exploring Florence",
+        },
+        {
+          start: "Day 9",
+          end: "Day 9",
+          duration: "1 days",
+          description: "Exploring Ho Chi Minh City",
+        },
+      ],
+    },
+    tourCategoryId: "tropical-cruise",
+    contactPersonnel: [
+      {
+        name: "Mason Harper",
+        role: "Reservations Agent",
+        languages: ["English", "Chinese", "Russian"], // Use the properly generated languages list
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/men/4.jpg",
+        contact: {
+          contactEmail: "tidewashed.sojourn.o@velarivoyages.com",
+          contactNumber: "+1-293-499-1732",
+        },
+      },
+    ],
+    title: "Tide-Washed Sojourn of the Exotic Realms",
+    description:
+      "Set sail from Ho Chi Minh City on this radiance-drenched expedition through the heart of Ho Chi Minh City. Experience the perfect blend of relaxation and adventure as you explore Venice and Florence, with personalized service and unforgettable experiences awaiting at every port.",
+    rating: 4.9,
+    tags: ["tropical", "weekend-cruise"],
+  },
+  {
+    basePrice: 8537,
+    departureLocation: {
+      city: "Ho Chi Minh City",
+      country: "",
+      region: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
+    arrivalLocation: {
+      city: "Ho Chi Minh City",
+      country: "",
+      region: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+        {
+          city: "Ho Chi Minh City",
+          country: "",
+          region: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Rome",
+          country: "Italy",
+          coordinates: {
+            latitude: 41.9028,
+            longitude: 12.4964,
+          },
+        },
+        {
+          city: "Dubrovnik",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Malta",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Ho Chi Minh City",
+          country: "",
+          region: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+      ],
+      description:
+        "Launch into adventure from Ho Chi Minh City and sail deep into the heart of the Ho Chi Minh City. With ports of call like Rome, Dubrovnik, Malta, expect a voyage filled with scenic wonders and luxurious comforts.",
+      distance: "851 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+        {
+          start: "Day 2",
+          end: "Day 3",
+          duration: "2 days",
+          description: "Sailing from Ho Chi Minh City to Rome",
+        },
+        {
+          start: "Day 6",
+          end: "Day 7",
+          duration: "2 days",
+          description: "Sailing from Rome to Dubrovnik",
+        },
+        {
+          start: "Day 10",
+          end: "Day 11",
+          duration: "2 days",
+          description: "Sailing from Dubrovnik to Malta",
+        },
+        {
+          start: "Day 13",
+          end: "Day 13",
+          duration: "1 days",
+          description: "Sailing from Malta to Ho Chi Minh City",
+        },
+      ],
+      timeOnLand: [
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring Ho Chi Minh City",
+        },
+        {
+          start: "Day 4",
+          end: "Day 5",
+          duration: "2 days",
+          description: "Exploring Rome",
+        },
+        {
+          start: "Day 8",
+          end: "Day 9",
+          duration: "2 days",
+          description: "Exploring Dubrovnik",
+        },
+        {
+          start: "Day 12",
+          end: "Day 12",
+          duration: "1 days",
+          description: "Exploring Malta",
+        },
+        {
+          start: "Day 14",
+          end: "Day 15",
+          duration: "2 days",
+          description: "Exploring Ho Chi Minh City",
+        },
+      ],
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Darrell Price",
+        role: "Reservations Agent",
+        languages: ["English", "Chinese", "Russian"], // Use the properly generated languages list
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
+        contact: {
+          contactEmail: "sundrenched.awakenin@velarivoyages.com",
+          contactNumber: "+1-177-857-9085",
+        },
+      },
+    ],
+    title: "Sun-Drenched Awakening of the Exotic Realms",
+    description:
+      "Launch into adventure from Ho Chi Minh City and sail deep into the heart of the Ho Chi Minh City. With ports of call like Rome, Dubrovnik, Malta, expect a voyage filled with scenic wonders and luxurious comforts.",
+    rating: 4.8,
+    tags: ["cruise-journey", "expedition", "nature"],
+  },
 ];

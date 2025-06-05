@@ -1,3698 +1,1342 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const bostonCruises: Cruise[] = [
-{
-    basePrice: 2768,
+  {
+    basePrice: 9460,
     departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    arrivalLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "entry-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  }
-],
-      description: "From bustling Boston to serene East Coast USA shores, this cruise invites you to relax, explore, and indulge. Stops at Barcelona, Mykonos deliver a balanced blend of culture and comfort.",
-      distance: "1126 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Boston to Barcelona"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Barcelona to Mykonos"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Mykonos to Boston"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring Boston"
-  }
-]
+      city: "Boston",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 42.361145,
+        longitude: -71.057083,
+      },
     },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Amy Stewart",
-        role: "Travel Advisor",
-        languages: ["Punjabi","Russian"],
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
-        contact: {
-          contactEmail: "majestic.reverie.of.@velarivoyages.com",
-          contactNumber: "+1-579-259-4080"
-        }
-      }
-    ],
-    title: "Majestic Reverie of the Harbor of History",
-    description: "From bustling Boston to serene East Coast USA shores, this cruise invites you to relax, explore, and indulge. Stops at Barcelona, Mykonos deliver a balanced blend of culture and comfort.",
-    rating: 4.7,
-    tags: ["cruise-vacation","relaxation"]
-  },
-  {
-    basePrice: 1683,
-    departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
     arrivalLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium",
-    itinerary: {
-      route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  }
-],
-      description: "Start in the vibrant city of Boston and venture into the iconic East Coast USA. Discover authentic local cultures, cuisine, and coastal wonders in Malta, Athens, Barcelona, Rome.",
-      distance: "528 nautical miles",
-      totalDuration: "18 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Boston to Malta"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Malta to Athens"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Athens to Barcelona"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
-    "duration": "2 days",
-    "description": "Sailing from Barcelona to Rome"
-  },
-  {
-    "start": "Day 17",
-    "end": "Day 17",
-    "duration": "1 days",
-    "description": "Sailing from Rome to Boston"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 16",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 18",
-    "end": "Day 18",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  }
-]
+      city: "Boston",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 42.361145,
+        longitude: -71.057083,
+      },
     },
-    tourCategoryId: "vip-cruise",
-    contactPersonnel: [
-      {
-        name: "Maya Gibson",
-        role: "Travel Advisor",
-        languages: ["Punjabi","Russian"],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/women/16.jpg",
-        contact: {
-          contactEmail: "spectacular.whisper.@velarivoyages.com",
-          contactNumber: "+1-599-234-9940"
-        }
-      }
-    ],
-    title: "Spectacular Whisper of the Colonial Shores",
-    description: "Start in the vibrant city of Boston and venture into the iconic East Coast USA. Discover authentic local cultures, cuisine, and coastal wonders in Malta, Athens, Barcelona, Rome.",
-    rating: 4.7,
-    tags: ["VIP","sightseeing","anniversary-cruise"]
-  },
-  {
-    basePrice: 1748,
-    departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    arrivalLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
+    hasPopularDestination: false,
     category: "ultra-luxury",
     itinerary: {
       route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  }
-],
-      description: "From bustling Boston to serene East Coast USA shores, this cruise invites you to relax, explore, and indulge. Stops at Mykonos, Barcelona, Malta deliver a balanced blend of culture and comfort.",
-      distance: "1160 nautical miles",
-      totalDuration: "13 days",
+        {
+          city: "Boston",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 42.361145,
+            longitude: -71.057083,
+          },
+        },
+        {
+          city: "Mykonos",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Florence",
+          country: "Italy",
+          coordinates: {
+            latitude: 43.769562,
+            longitude: 11.255814,
+          },
+        },
+        {
+          city: "Malta",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Rome",
+          country: "Italy",
+          coordinates: {
+            latitude: 41.9028,
+            longitude: 12.4964,
+          },
+        },
+        {
+          city: "Boston",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 42.361145,
+            longitude: -71.057083,
+          },
+        },
+      ],
+      description:
+        "Set sail from Boston on this midnight zenith through the heart of East Coast USA. Experience the perfect blend of relaxation and adventure as you explore Mykonos and Florence and Malta and Rome, with personalized service and unforgettable experiences awaiting at every port.",
+      distance: "1488 nautical miles",
+      totalDuration: "16 days",
       timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Boston to Mykonos"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Mykonos to Barcelona"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Barcelona to Malta"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from Malta to Boston"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 4",
+          duration: "2 days",
+          description: "Sailing from Boston to Mykonos",
+        },
+        {
+          start: "Day 6",
+          end: "Day 6",
+          duration: "1 days",
+          description: "Sailing from Mykonos to Florence",
+        },
+        {
+          start: "Day 8",
+          end: "Day 8",
+          duration: "1 days",
+          description: "Sailing from Florence to Malta",
+        },
+        {
+          start: "Day 11",
+          end: "Day 11",
+          duration: "1 days",
+          description: "Sailing from Malta to Rome",
+        },
+        {
+          start: "Day 14",
+          end: "Day 15",
+          duration: "2 days",
+          description: "Sailing from Rome to Boston",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring Boston"
-  }
-]
-    },
-    tourCategoryId: "tropical-cruise",
-    contactPersonnel: [
-      {
-        name: "Riley Payne",
-        role: "Travel Advisor",
-        languages: ["Punjabi","Russian"],
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/women/31.jpg",
-        contact: {
-          contactEmail: "unforgettable.mythos@velarivoyages.com",
-          contactNumber: "+1-890-700-3866"
-        }
-      }
-    ],
-    title: "Unforgettable Mythos of the Colonial Gateway",
-    description: "From bustling Boston to serene East Coast USA shores, this cruise invites you to relax, explore, and indulge. Stops at Mykonos, Barcelona, Malta deliver a balanced blend of culture and comfort.",
-    rating: 4.2,
-    tags: ["tropical"]
-  },
-  {
-    basePrice: 3788,
-    departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    arrivalLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "premium-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  }
-],
-      description: "Depart from the iconic port of Boston and sail through the enchanting East Coast USA. Explore vibrant destinations like Dubrovnik, Mykonos, each offering its own unique charm and local flair.",
-      distance: "587 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Boston to Dubrovnik"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Dubrovnik to Mykonos"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Mykonos to Boston"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Boston"
-  }
-]
-    },
-    tourCategoryId: "vip-cruise",
-    contactPersonnel: [
-      {
-        name: "Linda Sutton",
-        role: "Travel Advisor",
-        languages: ["Punjabi","Russian"],
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/95.jpg",
-        contact: {
-          contactEmail: "majestic.tranquility@velarivoyages.com",
-          contactNumber: "+1-454-864-9298"
-        }
-      }
-    ],
-    title: "Majestic Tranquility of the Freedom’s Harbor",
-    description: "Depart from the iconic port of Boston and sail through the enchanting East Coast USA. Explore vibrant destinations like Dubrovnik, Mykonos, each offering its own unique charm and local flair.",
-    rating: 4.5,
-    tags: ["general","VIP"]
-  },
-  {
-    basePrice: 4328,
-    departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    arrivalLocation: {
-  "city": "Dubrovnik",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "mainstream",
-    itinerary: {
-      route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Sail away from Boston into the beautiful expanse of East Coast USA. Along the way, enjoy rich cultural experiences in Mykonos, Barcelona, Santorini, Dubrovnik, where history, nature, and cuisine collide.",
-      distance: "612 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Boston to Mykonos"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Sailing from Mykonos to Barcelona"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Barcelona to Santorini"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Dubrovnik"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring Dubrovnik"
-  }
-]
-    },
-    tourCategoryId: "luxury-cruise",
-    contactPersonnel: [
-      {
-        name: "Isabella Hamilton",
-        role: "Travel Advisor",
-        languages: ["Punjabi","Russian"],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/women/69.jpg",
-        contact: {
-          contactEmail: "immersive.mystique.o@velarivoyages.com",
-          contactNumber: "+1-634-440-2218"
-        }
-      }
-    ],
-    title: "Immersive Mystique of the Colonial Gateway",
-    description: "Sail away from Boston into the beautiful expanse of East Coast USA. Along the way, enjoy rich cultural experiences in Mykonos, Barcelona, Santorini, Dubrovnik, where history, nature, and cuisine collide.",
-    rating: 4.1,
-    tags: ["cruise-ship","luxury","anniversary-cruise"]
-  },
-  {
-    basePrice: 8482,
-    departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    arrivalLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "expedition",
-    itinerary: {
-      route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  }
-],
-      description: "Set sail from historic Boston for a modern escape into the East Coast USA. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Rome, Barcelona.",
-      distance: "916 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Boston to Rome"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from Rome to Barcelona"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Barcelona to Boston"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Boston"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Chloe Holloway",
-        role: "Travel Advisor",
-        languages: ["Punjabi","Russian"],
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/women/31.jpg",
-        contact: {
-          contactEmail: "forbidden.resonance.@velarivoyages.com",
-          contactNumber: "+1-875-217-8815"
-        }
-      }
-    ],
-    title: "Forbidden Resonance of the Freedom’s Harbor",
-    description: "Set sail from historic Boston for a modern escape into the East Coast USA. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Rome, Barcelona.",
-    rating: 4.1,
-    tags: ["wildlife"]
-  },
-  {
-    basePrice: 7976,
-    departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    arrivalLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "ultra-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  }
-],
-      description: "Begin a captivating pulse through the East Coast USA, departing Boston. With visits to Malta, Athens, Mykonos, each day brings a new adventure and deeper connection to the region.",
-      distance: "916 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Boston to Malta"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from Malta to Athens"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from Athens to Mykonos"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Sailing from Mykonos to Boston"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Elizabeth Grant",
-        role: "Travel Advisor",
-        languages: ["Punjabi","Russian"],
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/women/73.jpg",
-        contact: {
-          contactEmail: "panoramic.sanctum.of@velarivoyages.com",
-          contactNumber: "+1-632-161-7192"
-        }
-      }
-    ],
-    title: "Panoramic Sanctum of the Lantern-Lit Legacy",
-    description: "Begin a captivating pulse through the East Coast USA, departing Boston. With visits to Malta, Athens, Mykonos, each day brings a new adventure and deeper connection to the region.",
-    rating: 4.8,
-    tags: ["cruise-vacation","cruise-experience"]
-  },
-  {
-    basePrice: 7401,
-    departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    arrivalLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "mainstream",
-    itinerary: {
-      route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  }
-],
-      description: "Sail into splendor from Boston on a immersive voyage through East Coast USA. Let each stop—from Rome to Athens—reveal the unique flavors and colors of the region.",
-      distance: "1468 nautical miles",
-      totalDuration: "15 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Boston to Rome"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Rome to Athens"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from Athens to Barcelona"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Sailing from Barcelona to Mykonos"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 14",
-    "duration": "1 days",
-    "description": "Sailing from Mykonos to Boston"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 15",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring Boston",
+        },
+        {
+          start: "Day 5",
+          end: "Day 5",
+          duration: "1 days",
+          description: "Exploring Mykonos",
+        },
+        {
+          start: "Day 7",
+          end: "Day 7",
+          duration: "1 days",
+          description: "Exploring Florence",
+        },
+        {
+          start: "Day 9",
+          end: "Day 10",
+          duration: "2 days",
+          description: "Exploring Malta",
+        },
+        {
+          start: "Day 12",
+          end: "Day 13",
+          duration: "2 days",
+          description: "Exploring Rome",
+        },
+        {
+          start: "Day 16",
+          end: "Day 16",
+          duration: "1 days",
+          description: "Exploring Boston",
+        },
+      ],
     },
     tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Scarlett Mitchell",
-        role: "Travel Advisor",
-        languages: ["Punjabi","Russian"],
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/women/64.jpg",
+        name: "Matthew Wallace",
+        role: "Reservations Agent",
+        languages: ["English", "Quechua", "Aymara", "Haitian"], // Use the properly generated languages list
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/64.jpg",
         contact: {
-          contactEmail: "harmonic.escape.of.t@velarivoyages.com",
-          contactNumber: "+1-139-323-3055"
-        }
-      }
+          contactEmail: "ornate.lullaby.of.th@velarivoyages.com",
+          contactNumber: "+1-463-735-1455",
+        },
+      },
     ],
-    title: "Harmonic Escape of the Lantern-Lit Legacy",
-    description: "Sail into splendor from Boston on a immersive voyage through East Coast USA. Let each stop—from Rome to Athens—reveal the unique flavors and colors of the region.",
-    rating: 4.2,
-    tags: ["cruise-holiday","long-distance","fall-cruise"]
+    title: "Ornate Lullaby of the Patriot Ports",
+    description:
+      "Set sail from Boston on this midnight zenith through the heart of East Coast USA. Experience the perfect blend of relaxation and adventure as you explore Mykonos and Florence and Malta and Rome, with personalized service and unforgettable experiences awaiting at every port.",
+    rating: 4.9,
+    tags: ["holiday-cruise"],
   },
   {
-    basePrice: 2924,
+    basePrice: 1901,
     departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    arrivalLocation: {
-  "city": "Mykonos",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Unwind and explore on this horizon through East Coast USA, departing from Boston. With every stop—from Rome to Mykonos—you’ll collect memories that last a lifetime.",
-      distance: "836 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Boston to Rome"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Rome to Malta"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Malta to Mykonos"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Mykonos"
-  }
-]
+      city: "Boston",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 42.361145,
+        longitude: -71.057083,
+      },
     },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Joan Warren",
-        role: "Travel Advisor",
-        languages: ["Punjabi","Russian"],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/women/55.jpg",
-        contact: {
-          contactEmail: "crystalline.eclipse.@velarivoyages.com",
-          contactNumber: "+1-511-309-6764"
-        }
-      }
-    ],
-    title: "Crystalline Eclipse of the Harbor-Lit Evenings",
-    description: "Unwind and explore on this horizon through East Coast USA, departing from Boston. With every stop—from Rome to Mykonos—you’ll collect memories that last a lifetime.",
-    rating: 5.0,
-    tags: ["cruise-journey","cruise-adventure"]
-  },
-  {
-    basePrice: 2583,
-    departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
     arrivalLocation: {
-  "city": "Mykonos",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
+      city: "Dubrovnik",
+      country: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
     isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "premium",
     itinerary: {
       route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Begin your tranquility in Boston, a gateway to the soul of East Coast USA. Enjoy days spent exploring Malta, Dubrovnik, Mykonos and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
-      distance: "679 nautical miles",
-      totalDuration: "8 days",
+        {
+          city: "Boston",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 42.361145,
+            longitude: -71.057083,
+          },
+        },
+        {
+          city: "Lisbon",
+          country: "Portugal",
+          coordinates: {
+            latitude: 38.7169,
+            longitude: -9.1399,
+          },
+        },
+        {
+          city: "Santorini",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Mykonos",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Dubrovnik",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+      ],
+      description:
+        "Step into a world of elegance and exploration from Boston. This infinite through the East Coast USA unveils stunning stops including Lisbon, Santorini, Mykonos, Dubrovnik, all with first-class service.",
+      distance: "1057 nautical miles",
+      totalDuration: "16 days",
       timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Boston to Malta"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Sailing from Malta to Dubrovnik"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Dubrovnik to Mykonos"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 4",
+          duration: "2 days",
+          description: "Sailing from Boston to Lisbon",
+        },
+        {
+          start: "Day 7",
+          end: "Day 8",
+          duration: "2 days",
+          description: "Sailing from Lisbon to Santorini",
+        },
+        {
+          start: "Day 11",
+          end: "Day 12",
+          duration: "2 days",
+          description: "Sailing from Santorini to Mykonos",
+        },
+        {
+          start: "Day 14",
+          end: "Day 15",
+          duration: "2 days",
+          description: "Sailing from Mykonos to Dubrovnik",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Mykonos"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring Boston",
+        },
+        {
+          start: "Day 5",
+          end: "Day 6",
+          duration: "2 days",
+          description: "Exploring Lisbon",
+        },
+        {
+          start: "Day 9",
+          end: "Day 10",
+          duration: "2 days",
+          description: "Exploring Santorini",
+        },
+        {
+          start: "Day 13",
+          end: "Day 13",
+          duration: "1 days",
+          description: "Exploring Mykonos",
+        },
+        {
+          start: "Day 16",
+          end: "Day 16",
+          duration: "1 days",
+          description: "Exploring Dubrovnik",
+        },
+      ],
     },
-    tourCategoryId: "general-cruise",
+    tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Mary Campbell",
-        role: "Travel Advisor",
-        languages: ["Punjabi","Russian"],
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
+        name: "Thabo Reed",
+        role: "Reservations Agent",
+        languages: ["English", "Quechua", "Aymara", "Haitian"], // Use the properly generated languages list
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/80.jpg",
         contact: {
-          contactEmail: "majestic.tranquility@velarivoyages.com",
-          contactNumber: "+1-308-237-9630"
-        }
-      }
+          contactEmail: "radiancedrenched.reu@velarivoyages.com",
+          contactNumber: "+1-612-702-4184",
+        },
+      },
     ],
-    title: "Majestic Tranquility of the Lantern-Lit Legacy",
-    description: "Begin your tranquility in Boston, a gateway to the soul of East Coast USA. Enjoy days spent exploring Malta, Dubrovnik, Mykonos and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
-    rating: 4.5,
-    tags: ["cruise-vacation"]
+    title: "Radiance-Drenched Reunion of the Harbor of History",
+    description:
+      "Step into a world of elegance and exploration from Boston. This infinite through the East Coast USA unveils stunning stops including Lisbon, Santorini, Mykonos, Dubrovnik, all with first-class service.",
+    rating: 4.0,
+    tags: ["adventure"],
   },
   {
-    basePrice: 3180,
+    basePrice: 9851,
     departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
+      city: "Boston",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 42.361145,
+        longitude: -71.057083,
+      },
+    },
     arrivalLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
+      city: "Florence",
+      country: "Italy",
+      coordinates: {
+        latitude: 43.769562,
+        longitude: 11.255814,
+      },
+    },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "ultra-luxury",
+    hasPopularDestination: true,
+    category: "premium-luxury",
     itinerary: {
       route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  }
-],
-      description: "Set off on a haven from Boston that captures the essence of East Coast USA. Discover cultural gems and culinary delights across Malta, Barcelona.",
-      distance: "1078 nautical miles",
-      totalDuration: "12 days",
+        {
+          city: "Boston",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 42.361145,
+            longitude: -71.057083,
+          },
+        },
+        {
+          city: "Athens",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Florence",
+          country: "Italy",
+          coordinates: {
+            latitude: 43.769562,
+            longitude: 11.255814,
+          },
+        },
+      ],
+      description:
+        "Begin your journey in Boston, where tradition meets travel. This immersive tranquility reveals the finest of East Coast USA, from the beaches of Athens to the streets of Florence.",
+      distance: "1243 nautical miles",
+      totalDuration: "9 days",
       timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Boston to Malta"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Malta to Barcelona"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from Barcelona to Boston"
-  }
-],
+        {
+          start: "Day 2",
+          end: "Day 3",
+          duration: "2 days",
+          description: "Sailing from Boston to Athens",
+        },
+        {
+          start: "Day 6",
+          end: "Day 7",
+          duration: "2 days",
+          description: "Sailing from Athens to Florence",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring Boston",
+        },
+        {
+          start: "Day 4",
+          end: "Day 5",
+          duration: "2 days",
+          description: "Exploring Athens",
+        },
+        {
+          start: "Day 8",
+          end: "Day 9",
+          duration: "2 days",
+          description: "Exploring Florence",
+        },
+      ],
     },
-    tourCategoryId: "general-cruise",
+    tourCategoryId: "glacier-cruise",
     contactPersonnel: [
       {
-        name: "Priya Coleman",
-        role: "Travel Advisor",
-        languages: ["Punjabi","Russian"],
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
+        name: "Mark Knight",
+        role: "Reservations Agent",
+        languages: ["English", "Quechua", "Aymara", "Haitian"], // Use the properly generated languages list
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/94.jpg",
         contact: {
-          contactEmail: "charming.reunion.of.@velarivoyages.com",
-          contactNumber: "+1-112-602-4457"
-        }
-      }
+          contactEmail: "ornate.tranquility.o@velarivoyages.com",
+          contactNumber: "+1-252-758-3634",
+        },
+      },
     ],
-    title: "Charming Reunion of the Winds of Revolution",
-    description: "Set off on a haven from Boston that captures the essence of East Coast USA. Discover cultural gems and culinary delights across Malta, Barcelona.",
-    rating: 4.8,
-    tags: ["cruise-line","adventure","family-friendly"]
+    title: "Ornate Tranquility of the Lighthouse Trails",
+    description:
+      "Begin your journey in Boston, where tradition meets travel. This immersive tranquility reveals the finest of East Coast USA, from the beaches of Athens to the streets of Florence.",
+    rating: 4.0,
+    tags: ["historical", "expedition"],
   },
   {
-    basePrice: 4792,
+    basePrice: 2763,
     departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
+      city: "Boston",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 42.361145,
+        longitude: -71.057083,
+      },
+    },
     arrivalLocation: {
-  "city": "Rome",
-  "country": "Italy",
-  "coordinates": {
-    "latitude": 41.9028,
-    "longitude": 12.4964
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
+      city: "Athens",
+      country: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
+    isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "entry-luxury",
     itinerary: {
       route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  }
-],
-      description: "Enjoy seamless luxury on this lavish voyage beginning in Boston. Visit breathtaking East Coast USA locales such as Barcelona, Rome on this unforgettable itinerary.",
-      distance: "998 nautical miles",
-      totalDuration: "8 days",
+        {
+          city: "Boston",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 42.361145,
+            longitude: -71.057083,
+          },
+        },
+        {
+          city: "Rome",
+          country: "Italy",
+          coordinates: {
+            latitude: 41.9028,
+            longitude: 12.4964,
+          },
+        },
+        {
+          city: "Athens",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+      ],
+      description:
+        "Enjoy seamless luxury on this moonlit mystique beginning in Boston. Visit breathtaking East Coast USA locales such as Rome, Athens on this unforgettable itinerary.",
+      distance: "1371 nautical miles",
+      totalDuration: "9 days",
       timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Boston to Barcelona"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Barcelona to Rome"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 4",
+          duration: "2 days",
+          description: "Sailing from Boston to Rome",
+        },
+        {
+          start: "Day 7",
+          end: "Day 7",
+          duration: "1 days",
+          description: "Sailing from Rome to Athens",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  }
-]
-    },
-    tourCategoryId: "luxury-cruise",
-    contactPersonnel: [
-      {
-        name: "Madelyn Keller",
-        role: "Travel Advisor",
-        languages: ["Punjabi","Russian"],
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
-        contact: {
-          contactEmail: "starlit.enigma.of.th@velarivoyages.com",
-          contactNumber: "+1-860-364-2728"
-        }
-      }
-    ],
-    title: "Starlit Enigma of the Lantern-Lit Legacy",
-    description: "Enjoy seamless luxury on this lavish voyage beginning in Boston. Visit breathtaking East Coast USA locales such as Barcelona, Rome on this unforgettable itinerary.",
-    rating: 4.2,
-    tags: ["luxury","cultural"]
-  },
-  {
-    basePrice: 4101,
-    departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    arrivalLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "mainstream",
-    itinerary: {
-      route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  }
-],
-      description: "Your haven begins in Boston, where the spirit of exploration meets modern luxury. From the sun-drenched shores of Santorini to the historic streets of Athens, each stop in the East Coast USA will leave a lasting impression.",
-      distance: "1038 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Boston to Santorini"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Athens"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Athens to Malta"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Sailing from Malta to Boston"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring Boston",
+        },
+        {
+          start: "Day 5",
+          end: "Day 6",
+          duration: "2 days",
+          description: "Exploring Rome",
+        },
+        {
+          start: "Day 8",
+          end: "Day 9",
+          duration: "2 days",
+          description: "Exploring Athens",
+        },
+      ],
     },
     tourCategoryId: "anniversary-cruise",
     contactPersonnel: [
       {
-        name: "Sarah Douglas",
-        role: "Travel Advisor",
-        languages: ["Punjabi","Russian"],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/women/13.jpg",
-        contact: {
-          contactEmail: "aweinspiring.saga.of@velarivoyages.com",
-          contactNumber: "+1-195-976-9393"
-        }
-      }
-    ],
-    title: "Awe-Inspiring Saga of the Colonial Gateway",
-    description: "Your haven begins in Boston, where the spirit of exploration meets modern luxury. From the sun-drenched shores of Santorini to the historic streets of Athens, each stop in the East Coast USA will leave a lasting impression.",
-    rating: 4.9,
-    tags: ["relaxation","historical","anniversary-cruise"]
-  },
-  {
-    basePrice: 3574,
-    departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    arrivalLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  }
-],
-      description: "This drift takes you beyond the ordinary, starting in Boston. With breathtaking stops in Dubrovnik, Malta, Santorini, Barcelona, your cruise delivers immersive moments and unforgettable vistas.",
-      distance: "1377 nautical miles",
-      totalDuration: "16 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Boston to Dubrovnik"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Dubrovnik to Malta"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Malta to Santorini"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Barcelona"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 15",
-    "duration": "1 days",
-    "description": "Sailing from Barcelona to Boston"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
-    "duration": "2 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 16",
-    "end": "Day 16",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Elizabeth Hawkins",
-        role: "Travel Advisor",
-        languages: ["Punjabi","Russian"],
+        name: "Marcus Baker",
+        role: "Reservations Agent",
+        languages: ["English", "Quechua", "Aymara", "Haitian"], // Use the properly generated languages list
         experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
+        profileImage: "https://randomuser.me/api/portraits/men/89.jpg",
         contact: {
-          contactEmail: "exquisite.escape.of.@velarivoyages.com",
-          contactNumber: "+1-561-920-5421"
-        }
-      }
+          contactEmail: "harmonic.reflection.@velarivoyages.com",
+          contactNumber: "+1-110-525-7745",
+        },
+      },
     ],
-    title: "Exquisite Escape of the Freedom’s Harbor",
-    description: "This drift takes you beyond the ordinary, starting in Boston. With breathtaking stops in Dubrovnik, Malta, Santorini, Barcelona, your cruise delivers immersive moments and unforgettable vistas.",
-    rating: 4.9,
-    tags: ["cultural"]
-  },
-  {
-    basePrice: 7811,
-    departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    arrivalLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "expedition",
-    itinerary: {
-      route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  }
-],
-      description: "Set sail from Boston on this immersive sanctuary through the heart of East Coast USA. Experience the perfect blend of relaxation and adventure as you explore Malta and Dubrovnik and Santorini, with personalized service and unforgettable experiences awaiting at every port.",
-      distance: "587 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Boston to Malta"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Malta to Dubrovnik"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Dubrovnik to Santorini"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Sailing from Santorini to Boston"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Audrey Gibson",
-        role: "Travel Advisor",
-        languages: ["Punjabi","Russian"],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/women/66.jpg",
-        contact: {
-          contactEmail: "verdant.awakening.of@velarivoyages.com",
-          contactNumber: "+1-591-782-7288"
-        }
-      }
-    ],
-    title: "Verdant Awakening of the Revolutionary Port",
-    description: "Set sail from Boston on this immersive sanctuary through the heart of East Coast USA. Experience the perfect blend of relaxation and adventure as you explore Malta and Dubrovnik and Santorini, with personalized service and unforgettable experiences awaiting at every port.",
-    rating: 4.1,
-    tags: ["exclusive","cruise"]
-  },
-  {
-    basePrice: 6791,
-    departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    arrivalLocation: {
-  "city": "Malta",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "ultra-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Embark on an unforgettable mirage from the vibrant port of Boston, where you'll discover hidden gems and iconic landmarks across the East Coast USA region. With stops at Santorini, Athens, Malta, this journey combines cultural immersion with breathtaking scenery.",
-      distance: "524 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Boston to Santorini"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Athens"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Athens to Malta"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Thabo Harper",
-        role: "Cruise Specialist",
-        languages: ["Czech"],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/men/53.jpg",
-        contact: {
-          contactEmail: "extraordinary.oasis.@velarivoyages.com",
-          contactNumber: "+1-311-824-7673"
-        }
-      }
-    ],
-    title: "Extraordinary Oasis of the Revolutionary Port",
-    description: "Embark on an unforgettable mirage from the vibrant port of Boston, where you'll discover hidden gems and iconic landmarks across the East Coast USA region. With stops at Santorini, Athens, Malta, this journey combines cultural immersion with breathtaking scenery.",
-    rating: 4.8,
-    tags: ["wildlife","cruise-experience","cruise-getaway"]
-  },
-  {
-    basePrice: 8472,
-    departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    arrivalLocation: {
-  "city": "Malta",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "mainstream",
-    itinerary: {
-      route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "This handpicked pulse begins in Boston and travels through East Coast USA's iconic waterscapes. Discover Athens, Santorini, Dubrovnik, Malta as each day brings new stories and every night offers elegant repose.",
-      distance: "896 nautical miles",
-      totalDuration: "14 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Boston to Athens"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Sailing from Athens to Santorini"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Dubrovnik"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Sailing from Dubrovnik to Malta"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 14",
-    "duration": "1 days",
-    "description": "Exploring Malta"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Terry Collins",
-        role: "Cruise Specialist",
-        languages: ["Czech"],
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/men/46.jpg",
-        contact: {
-          contactEmail: "mystical.legacy.of.t@velarivoyages.com",
-          contactNumber: "+1-290-311-6184"
-        }
-      }
-    ],
-    title: "Mystical Legacy of the Colonial Gateway",
-    description: "This handpicked pulse begins in Boston and travels through East Coast USA's iconic waterscapes. Discover Athens, Santorini, Dubrovnik, Malta as each day brings new stories and every night offers elegant repose.",
+    title: "Harmonic Reflection of the Founding Footsteps",
+    description:
+      "Enjoy seamless luxury on this moonlit mystique beginning in Boston. Visit breathtaking East Coast USA locales such as Rome, Athens on this unforgettable itinerary.",
     rating: 4.0,
-    tags: ["sightseeing"]
+    tags: ["cruise-vacation", "anniversary-cruise", "weekend-cruise"],
   },
   {
-    basePrice: 1154,
+    basePrice: 7372,
     departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
+      city: "Boston",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 42.361145,
+        longitude: -71.057083,
+      },
+    },
     arrivalLocation: {
-  "city": "Malta",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
+      city: "Venice",
+      country: "Italy",
+      coordinates: {
+        latitude: 45.4408,
+        longitude: 12.3155,
+      },
+    },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
+    hasPopularDestination: true,
     category: "expedition",
     itinerary: {
       route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Set sail from historic Boston for a modern escape into the East Coast USA. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Barcelona, Dubrovnik, Malta.",
-      distance: "1229 nautical miles",
-      totalDuration: "11 days",
+        {
+          city: "Boston",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 42.361145,
+            longitude: -71.057083,
+          },
+        },
+        {
+          city: "Mykonos",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Athens",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Venice",
+          country: "Italy",
+          coordinates: {
+            latitude: 45.4408,
+            longitude: 12.3155,
+          },
+        },
+      ],
+      description:
+        "Set sail from historic Boston for a modern escape into the East Coast USA. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Mykonos, Athens, Venice.",
+      distance: "1097 nautical miles",
+      totalDuration: "12 days",
       timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Boston to Barcelona"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Barcelona to Dubrovnik"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Dubrovnik to Malta"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 4",
+          duration: "2 days",
+          description: "Sailing from Boston to Mykonos",
+        },
+        {
+          start: "Day 7",
+          end: "Day 8",
+          duration: "2 days",
+          description: "Sailing from Mykonos to Athens",
+        },
+        {
+          start: "Day 10",
+          end: "Day 11",
+          duration: "2 days",
+          description: "Sailing from Athens to Venice",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring Malta"
-  }
-]
-    },
-    tourCategoryId: "luxury-cruise",
-    contactPersonnel: [
-      {
-        name: "Jonathan Morgan",
-        role: "Cruise Specialist",
-        languages: ["Czech"],
-        experienceYears: 5,
-        profileImage: "https://randomuser.me/api/portraits/men/54.jpg",
-        contact: {
-          contactEmail: "extraordinary.panora@velarivoyages.com",
-          contactNumber: "+1-823-302-1997"
-        }
-      }
-    ],
-    title: "Extraordinary Panorama of the Colonial Gateway",
-    description: "Set sail from historic Boston for a modern escape into the East Coast USA. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Barcelona, Dubrovnik, Malta.",
-    rating: 4.7,
-    tags: ["luxury"]
-  },
-  {
-    basePrice: 3514,
-    departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    arrivalLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "ultra-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  }
-],
-      description: "Begin your mythos in Boston, a gateway to the soul of East Coast USA. Enjoy days spent exploring Dubrovnik, Mykonos, Santorini, Malta and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
-      distance: "1206 nautical miles",
-      totalDuration: "16 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Boston to Dubrovnik"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Dubrovnik to Mykonos"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Mykonos to Santorini"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Malta"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
-    "description": "Sailing from Malta to Boston"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 16",
-    "end": "Day 16",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring Boston",
+        },
+        {
+          start: "Day 5",
+          end: "Day 6",
+          duration: "2 days",
+          description: "Exploring Mykonos",
+        },
+        {
+          start: "Day 9",
+          end: "Day 9",
+          duration: "1 days",
+          description: "Exploring Athens",
+        },
+        {
+          start: "Day 12",
+          end: "Day 12",
+          duration: "1 days",
+          description: "Exploring Venice",
+        },
+      ],
     },
     tourCategoryId: "vip-cruise",
     contactPersonnel: [
       {
-        name: "Matthew Porter",
-        role: "Cruise Specialist",
-        languages: ["Czech"],
-        experienceYears: 13,
-        profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
+        name: "Thabo Foster",
+        role: "Reservations Agent",
+        languages: ["English", "Quechua", "Aymara", "Haitian"], // Use the properly generated languages list
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/53.jpg",
         contact: {
-          contactEmail: "refined.panorama.of.@velarivoyages.com",
-          contactNumber: "+1-714-122-9331"
-        }
-      }
+          contactEmail: "radiancedrenched.que@velarivoyages.com",
+          contactNumber: "+1-176-867-7969",
+        },
+      },
     ],
-    title: "Refined Panorama of the Lantern-Lit Legacy",
-    description: "Begin your mythos in Boston, a gateway to the soul of East Coast USA. Enjoy days spent exploring Dubrovnik, Mykonos, Santorini, Malta and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
-    rating: 4.2,
-    tags: ["VIP","seasonal"]
+    title: "Radiance-Drenched Quest of the Seaboard Heritage",
+    description:
+      "Set sail from historic Boston for a modern escape into the East Coast USA. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Mykonos, Athens, Venice.",
+    rating: 4.5,
+    tags: ["VIP", "wellness"],
   },
   {
-    basePrice: 2055,
+    basePrice: 3054,
     departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
+      city: "Boston",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 42.361145,
+        longitude: -71.057083,
+      },
+    },
     arrivalLocation: {
-  "city": "Athens",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
+      city: "Malta",
+      country: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
     isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "luxury",
+    hasPopularDestination: true,
+    category: "expedition",
     itinerary: {
       route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Set sail from historic Boston for a modern escape into the East Coast USA. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Mykonos, Malta, Santorini, Athens.",
-      distance: "520 nautical miles",
-      totalDuration: "11 days",
+        {
+          city: "Boston",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 42.361145,
+            longitude: -71.057083,
+          },
+        },
+        {
+          city: "Santorini",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Lisbon",
+          country: "Portugal",
+          coordinates: {
+            latitude: 38.7169,
+            longitude: -9.1399,
+          },
+        },
+        {
+          city: "Malta",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+      ],
+      description:
+        "Escape to sea from Boston on a idyllic voyage exploring the magic of East Coast USA. Visit unforgettable locales like Santorini, Lisbon, Malta, where each stop inspires awe.",
+      distance: "580 nautical miles",
+      totalDuration: "12 days",
       timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Boston to Mykonos"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from Mykonos to Malta"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Sailing from Malta to Santorini"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Athens"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 4",
+          duration: "2 days",
+          description: "Sailing from Boston to Santorini",
+        },
+        {
+          start: "Day 7",
+          end: "Day 8",
+          duration: "2 days",
+          description: "Sailing from Santorini to Lisbon",
+        },
+        {
+          start: "Day 11",
+          end: "Day 11",
+          duration: "1 days",
+          description: "Sailing from Lisbon to Malta",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring Athens"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring Boston",
+        },
+        {
+          start: "Day 5",
+          end: "Day 6",
+          duration: "2 days",
+          description: "Exploring Santorini",
+        },
+        {
+          start: "Day 9",
+          end: "Day 10",
+          duration: "2 days",
+          description: "Exploring Lisbon",
+        },
+        {
+          start: "Day 12",
+          end: "Day 12",
+          duration: "1 days",
+          description: "Exploring Malta",
+        },
+      ],
     },
-    tourCategoryId: "general-cruise",
+    tourCategoryId: "anniversary-cruise",
     contactPersonnel: [
       {
-        name: "Owen Payne",
-        role: "Cruise Specialist",
-        languages: ["Czech"],
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/men/49.jpg",
+        name: "Ethan Cooper",
+        role: "Reservations Agent",
+        languages: ["English", "Quechua", "Aymara", "Haitian"], // Use the properly generated languages list
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
         contact: {
-          contactEmail: "whispering.pulse.of.@velarivoyages.com",
-          contactNumber: "+1-782-776-2633"
-        }
-      }
+          contactEmail: "panoramic.odyssey.of@velarivoyages.com",
+          contactNumber: "+1-771-391-4444",
+        },
+      },
     ],
-    title: "Whispering Pulse of the Cradle of Resistance",
-    description: "Set sail from historic Boston for a modern escape into the East Coast USA. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Mykonos, Malta, Santorini, Athens.",
+    title: "Panoramic Odyssey of the Harbor of History",
+    description:
+      "Escape to sea from Boston on a idyllic voyage exploring the magic of East Coast USA. Visit unforgettable locales like Santorini, Lisbon, Malta, where each stop inspires awe.",
     rating: 4.3,
-    tags: ["adventure","cruise-getaway"]
+    tags: ["cruise-ship", "anniversary-cruise"],
   },
   {
-    basePrice: 9705,
+    basePrice: 4139,
     departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    arrivalLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  }
-],
-      description: "Sail away from Boston into the beautiful expanse of East Coast USA. Along the way, enjoy rich cultural experiences in Barcelona, Santorini, Athens, where history, nature, and cuisine collide.",
-      distance: "673 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Boston to Barcelona"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Barcelona to Santorini"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Santorini to Athens"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Sailing from Athens to Boston"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  }
-]
+      city: "Boston",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 42.361145,
+        longitude: -71.057083,
+      },
     },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Elijah Curtis",
-        role: "Cruise Specialist",
-        languages: ["Czech"],
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/men/65.jpg",
-        contact: {
-          contactEmail: "starlit.lullaby.of.t@velarivoyages.com",
-          contactNumber: "+1-139-519-1486"
-        }
-      }
-    ],
-    title: "Starlit Lullaby of the Founding Footsteps",
-    description: "Sail away from Boston into the beautiful expanse of East Coast USA. Along the way, enjoy rich cultural experiences in Barcelona, Santorini, Athens, where history, nature, and cuisine collide.",
-    rating: 4.0,
-    tags: ["cruise-getaway","culinary"]
-  },
-  {
-    basePrice: 6055,
-    departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
     arrivalLocation: {
-  "city": "Venice",
-  "country": "Italy",
-  "coordinates": {
-    "latitude": 45.4408,
-    "longitude": 12.3155
-  }
-},
+      city: "Boston",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 42.361145,
+        longitude: -71.057083,
+      },
+    },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "entry-luxury",
+    category: "expedition",
     itinerary: {
       route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Venice",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 45.4408,
-      "longitude": 12.3155
-    }
-  }
-],
-      description: "Experience coastal elegance on this odyssey from Boston, where the journey through East Coast USA includes stops in Dubrovnik, Athens, Milan, Venice, each more enchanting than the last.",
-      distance: "1128 nautical miles",
-      totalDuration: "14 days",
+        {
+          city: "Boston",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 42.361145,
+            longitude: -71.057083,
+          },
+        },
+        {
+          city: "Malta",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Mykonos",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Rome",
+          country: "Italy",
+          coordinates: {
+            latitude: 41.9028,
+            longitude: 12.4964,
+          },
+        },
+        {
+          city: "Milan",
+          country: "Italy",
+          coordinates: {
+            latitude: 45.4642,
+            longitude: 9.19,
+          },
+        },
+        {
+          city: "Boston",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 42.361145,
+            longitude: -71.057083,
+          },
+        },
+      ],
+      description:
+        "Let the winds of the East Coast USA carry you from Boston to the most stunning ports in the region. With destinations like Malta, Mykonos, Rome, Milan, this oasis redefines luxury travel.",
+      distance: "977 nautical miles",
+      totalDuration: "16 days",
       timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Boston to Dubrovnik"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Dubrovnik to Athens"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Athens to Milan"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Sailing from Milan to Venice"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 3",
+          duration: "1 days",
+          description: "Sailing from Boston to Malta",
+        },
+        {
+          start: "Day 6",
+          end: "Day 6",
+          duration: "1 days",
+          description: "Sailing from Malta to Mykonos",
+        },
+        {
+          start: "Day 8",
+          end: "Day 9",
+          duration: "2 days",
+          description: "Sailing from Mykonos to Rome",
+        },
+        {
+          start: "Day 11",
+          end: "Day 11",
+          duration: "1 days",
+          description: "Sailing from Rome to Milan",
+        },
+        {
+          start: "Day 13",
+          end: "Day 14",
+          duration: "2 days",
+          description: "Sailing from Milan to Boston",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
-    "duration": "2 days",
-    "description": "Exploring Venice"
-  }
-]
-    },
-    tourCategoryId: "tropical-cruise",
-    contactPersonnel: [
-      {
-        name: "Amanda Collins",
-        role: "Loyalty Program Representative",
-        languages: ["Dutch","Zulu"],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/women/92.jpg",
-        contact: {
-          contactEmail: "midnight.tranquility@velarivoyages.com",
-          contactNumber: "+1-489-904-1985"
-        }
-      }
-    ],
-    title: "Midnight Tranquility of the Nautical Traditions",
-    description: "Experience coastal elegance on this odyssey from Boston, where the journey through East Coast USA includes stops in Dubrovnik, Athens, Milan, Venice, each more enchanting than the last.",
-    rating: 4.6,
-    tags: ["tropical","wildlife","romantic"]
-  },
-  {
-    basePrice: 7177,
-    departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    arrivalLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  }
-],
-      description: "Launch into adventure from Boston and sail deep into the heart of the East Coast USA. With ports of call like Dubrovnik, Milan, Mykonos, Malta, expect a voyage filled with scenic wonders and luxurious comforts.",
-      distance: "1261 nautical miles",
-      totalDuration: "19 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Boston to Dubrovnik"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Dubrovnik to Milan"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from Milan to Mykonos"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Sailing from Mykonos to Malta"
-  },
-  {
-    "start": "Day 16",
-    "end": "Day 17",
-    "duration": "2 days",
-    "description": "Sailing from Malta to Boston"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 18",
-    "end": "Day 19",
-    "duration": "2 days",
-    "description": "Exploring Boston"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring Boston",
+        },
+        {
+          start: "Day 4",
+          end: "Day 5",
+          duration: "2 days",
+          description: "Exploring Malta",
+        },
+        {
+          start: "Day 7",
+          end: "Day 7",
+          duration: "1 days",
+          description: "Exploring Mykonos",
+        },
+        {
+          start: "Day 10",
+          end: "Day 10",
+          duration: "1 days",
+          description: "Exploring Rome",
+        },
+        {
+          start: "Day 12",
+          end: "Day 12",
+          duration: "1 days",
+          description: "Exploring Milan",
+        },
+        {
+          start: "Day 15",
+          end: "Day 16",
+          duration: "2 days",
+          description: "Exploring Boston",
+        },
+      ],
     },
     tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Alexa Lawson",
-        role: "Loyalty Program Representative",
-        languages: ["Dutch","Zulu"],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/women/92.jpg",
+        name: "William Bennett",
+        role: "Reservations Agent",
+        languages: ["English", "Quechua", "Aymara", "Haitian"], // Use the properly generated languages list
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
         contact: {
-          contactEmail: "tidewashed.infinite.@velarivoyages.com",
-          contactNumber: "+1-726-838-3922"
-        }
-      }
+          contactEmail: "heavenly.pulse.of.th@velarivoyages.com",
+          contactNumber: "+1-235-950-3139",
+        },
+      },
     ],
-    title: "Tide-Washed Infinite of the Revolutionary Port",
-    description: "Launch into adventure from Boston and sail deep into the heart of the East Coast USA. With ports of call like Dubrovnik, Milan, Mykonos, Malta, expect a voyage filled with scenic wonders and luxurious comforts.",
-    rating: 4.6,
-    tags: ["weekend-cruise","cruise-vacation"]
+    title: "Heavenly Pulse of the Autumnal Voyages",
+    description:
+      "Let the winds of the East Coast USA carry you from Boston to the most stunning ports in the region. With destinations like Malta, Mykonos, Rome, Milan, this oasis redefines luxury travel.",
+    rating: 4.2,
+    tags: ["cruise-experience"],
   },
   {
-    basePrice: 8283,
+    basePrice: 8319,
     departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
+      city: "Boston",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 42.361145,
+        longitude: -71.057083,
+      },
+    },
     arrivalLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
+      city: "Boston",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 42.361145,
+        longitude: -71.057083,
+      },
+    },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "expedition",
     itinerary: {
       route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Venice",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 45.4408,
-      "longitude": 12.3155
-    }
-  },
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  }
-],
-      description: "Savor each moment of this luminous escape through East Coast USA, starting in Boston. Visit renowned locations like Santorini, Venice, where adventure and relaxation intertwine.",
-      distance: "595 nautical miles",
+        {
+          city: "Boston",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 42.361145,
+            longitude: -71.057083,
+          },
+        },
+        {
+          city: "Athens",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Malta",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Boston",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 42.361145,
+            longitude: -71.057083,
+          },
+        },
+      ],
+      description:
+        "Enjoy seamless luxury on this majestic sojourn beginning in Boston. Visit breathtaking East Coast USA locales such as Athens, Malta on this unforgettable itinerary.",
+      distance: "1273 nautical miles",
       totalDuration: "13 days",
       timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Boston to Santorini"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Santorini to Venice"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from Venice to Boston"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 4",
+          duration: "2 days",
+          description: "Sailing from Boston to Athens",
+        },
+        {
+          start: "Day 7",
+          end: "Day 8",
+          duration: "2 days",
+          description: "Sailing from Athens to Malta",
+        },
+        {
+          start: "Day 11",
+          end: "Day 12",
+          duration: "2 days",
+          description: "Sailing from Malta to Boston",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Venice"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring Boston"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring Boston",
+        },
+        {
+          start: "Day 5",
+          end: "Day 6",
+          duration: "2 days",
+          description: "Exploring Athens",
+        },
+        {
+          start: "Day 9",
+          end: "Day 10",
+          duration: "2 days",
+          description: "Exploring Malta",
+        },
+        {
+          start: "Day 13",
+          end: "Day 13",
+          duration: "1 days",
+          description: "Exploring Boston",
+        },
+      ],
     },
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Maya Grant",
-        role: "Loyalty Program Representative",
-        languages: ["Dutch","Zulu"],
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
+        name: "Marcus Sutton",
+        role: "Reservations Agent",
+        languages: ["English", "Quechua", "Aymara", "Haitian"], // Use the properly generated languages list
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/39.jpg",
         contact: {
-          contactEmail: "infinite.voyage.of.t@velarivoyages.com",
-          contactNumber: "+1-698-413-2421"
-        }
-      }
+          contactEmail: "forbidden.labyrinth.@velarivoyages.com",
+          contactNumber: "+1-812-337-2362",
+        },
+      },
     ],
-    title: "Infinite Voyage of the Colonial Gateway",
-    description: "Savor each moment of this luminous escape through East Coast USA, starting in Boston. Visit renowned locations like Santorini, Venice, where adventure and relaxation intertwine.",
-    rating: 4.4,
-    tags: ["wellness"]
+    title: "Forbidden Labyrinth of the Cobbled Seaside Towns",
+    description:
+      "Enjoy seamless luxury on this majestic sojourn beginning in Boston. Visit breathtaking East Coast USA locales such as Athens, Malta on this unforgettable itinerary.",
+    rating: 4.3,
+    tags: ["cruise-journey", "cruise-vacation"],
   },
   {
-    basePrice: 8129,
+    basePrice: 9885,
     departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
+      city: "Boston",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 42.361145,
+        longitude: -71.057083,
+      },
+    },
     arrivalLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
+      city: "Santorini",
+      country: "",
+      coordinates: {
+        latitude: 0,
+        longitude: 0,
+      },
+    },
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+        {
+          city: "Boston",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 42.361145,
+            longitude: -71.057083,
+          },
+        },
+        {
+          city: "Florence",
+          country: "Italy",
+          coordinates: {
+            latitude: 43.769562,
+            longitude: 11.255814,
+          },
+        },
+        {
+          city: "Santorini",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+      ],
+      description:
+        "An unforgettable realm awaits as you cruise from Boston across East Coast USA. Dive into history, flavor, and culture with stops including Florence, Santorini.",
+      distance: "1496 nautical miles",
+      totalDuration: "6 days",
+      timeAtSea: [
+        {
+          start: "Day 3",
+          end: "Day 3",
+          duration: "1 days",
+          description: "Sailing from Boston to Florence",
+        },
+        {
+          start: "Day 5",
+          end: "Day 5",
+          duration: "1 days",
+          description: "Sailing from Florence to Santorini",
+        },
+      ],
+      timeOnLand: [
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring Boston",
+        },
+        {
+          start: "Day 4",
+          end: "Day 4",
+          duration: "1 days",
+          description: "Exploring Florence",
+        },
+        {
+          start: "Day 6",
+          end: "Day 6",
+          duration: "1 days",
+          description: "Exploring Santorini",
+        },
+      ],
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Albert Hall",
+        role: "Reservations Agent",
+        languages: ["English", "Quechua", "Aymara", "Haitian"], // Use the properly generated languages list
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/96.jpg",
+        contact: {
+          contactEmail: "luxurious.passage.of@velarivoyages.com",
+          contactNumber: "+1-178-288-2705",
+        },
+      },
+    ],
+    title: "Luxurious Passage of the Lantern-Lit Legacy",
+    description:
+      "An unforgettable realm awaits as you cruise from Boston across East Coast USA. Dive into history, flavor, and culture with stops including Florence, Santorini.",
+    rating: 4.3,
+    tags: ["wildlife", "cruise-getaway", "cruise-adventure"],
+  },
+  {
+    basePrice: 6751,
+    departureLocation: {
+      city: "Boston",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 42.361145,
+        longitude: -71.057083,
+      },
+    },
+    arrivalLocation: {
+      city: "Boston",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 42.361145,
+        longitude: -71.057083,
+      },
+    },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "expedition",
+    category: "premium-luxury",
     itinerary: {
       route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Milan",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 45.4642,
-      "longitude": 9.19
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  }
-],
-      description: "Escape the everyday with this riveting journey through East Coast USA, departing from Boston. You'll visit Milan, Mykonos, Barcelona, where every stop is a new adventure.",
-      distance: "582 nautical miles",
-      totalDuration: "13 days",
+        {
+          city: "Boston",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 42.361145,
+            longitude: -71.057083,
+          },
+        },
+        {
+          city: "Athens",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Dubrovnik",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Boston",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 42.361145,
+            longitude: -71.057083,
+          },
+        },
+      ],
+      description:
+        "Savor each moment of this horizon-kissed escape through East Coast USA, starting in Boston. Visit renowned locations like Athens, Dubrovnik, where adventure and relaxation intertwine.",
+      distance: "958 nautical miles",
+      totalDuration: "12 days",
       timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Boston to Milan"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Milan to Mykonos"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Mykonos to Barcelona"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Sailing from Barcelona to Boston"
-  }
-],
+        {
+          start: "Day 2",
+          end: "Day 2",
+          duration: "1 days",
+          description: "Sailing from Boston to Athens",
+        },
+        {
+          start: "Day 5",
+          end: "Day 6",
+          duration: "2 days",
+          description: "Sailing from Athens to Dubrovnik",
+        },
+        {
+          start: "Day 9",
+          end: "Day 10",
+          duration: "2 days",
+          description: "Sailing from Dubrovnik to Boston",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Milan"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring Boston"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Charlotte Hall",
-        role: "Loyalty Program Representative",
-        languages: ["Dutch","Zulu"],
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/women/65.jpg",
-        contact: {
-          contactEmail: "celestial.panorama.o@velarivoyages.com",
-          contactNumber: "+1-953-947-2991"
-        }
-      }
-    ],
-    title: "Celestial Panorama of the Nautical Traditions",
-    description: "Escape the everyday with this riveting journey through East Coast USA, departing from Boston. You'll visit Milan, Mykonos, Barcelona, where every stop is a new adventure.",
-    rating: 4.4,
-    tags: ["general"]
-  },
-  {
-    basePrice: 8419,
-    departureLocation: {
-  "city": "Boston",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 42.361145,
-    "longitude": -71.057083
-  }
-},
-    arrivalLocation: {
-  "city": "Venice",
-  "country": "Italy",
-  "coordinates": {
-    "latitude": 45.4408,
-    "longitude": 12.3155
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "expedition",
-    itinerary: {
-      route: [
-  {
-    "city": "Boston",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 42.361145,
-      "longitude": -71.057083
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Venice",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 45.4408,
-      "longitude": 12.3155
-    }
-  }
-],
-      description: "Join us in Boston for a exploration of a lifetime. Sail across the serene waters of East Coast USA, stopping at ports like Dubrovnik, Venice where timeless traditions meet modern luxuries.",
-      distance: "1483 nautical miles",
-      totalDuration: "9 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Boston to Dubrovnik"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Dubrovnik to Venice"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Boston"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Venice"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring Boston",
+        },
+        {
+          start: "Day 3",
+          end: "Day 4",
+          duration: "2 days",
+          description: "Exploring Athens",
+        },
+        {
+          start: "Day 7",
+          end: "Day 8",
+          duration: "2 days",
+          description: "Exploring Dubrovnik",
+        },
+        {
+          start: "Day 11",
+          end: "Day 12",
+          duration: "2 days",
+          description: "Exploring Boston",
+        },
+      ],
     },
     tourCategoryId: "luxury-cruise",
     contactPersonnel: [
       {
-        name: "Lily Mason",
-        role: "Loyalty Program Representative",
-        languages: ["Dutch","Zulu"],
-        experienceYears: 12,
-        profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
+        name: "Mark Baker",
+        role: "Reservations Agent",
+        languages: ["English", "Quechua", "Aymara", "Haitian"], // Use the properly generated languages list
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
         contact: {
-          contactEmail: "dreamlike.enigma.of.@velarivoyages.com",
-          contactNumber: "+1-630-890-2159"
-        }
-      }
+          contactEmail: "oceanic.saga.of.the.@velarivoyages.com",
+          contactNumber: "+1-647-118-9150",
+        },
+      },
     ],
-    title: "Dreamlike Enigma of the Lantern-Lit Legacy",
-    description: "Join us in Boston for a exploration of a lifetime. Sail across the serene waters of East Coast USA, stopping at ports like Dubrovnik, Venice where timeless traditions meet modern luxuries.",
-    rating: 4.5,
-    tags: ["themed-cruise","luxury","anniversary-cruise"]
-  }
+    title: "Oceanic Saga of the Revolutionary Port",
+    description:
+      "Savor each moment of this horizon-kissed escape through East Coast USA, starting in Boston. Visit renowned locations like Athens, Dubrovnik, where adventure and relaxation intertwine.",
+    rating: 4.4,
+    tags: ["cruise-line", "luxury"],
+  },
 ];

@@ -5,36 +5,116 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const juneaugrandRotisserieTestimonials: Testimonial[] = [
   {
-    "quote": "Experience exquisite dishes and thoughtful staff in a upscale setting when you visit Grand Rotisserie.",
-    "author": "Lucas Green",
-    "title": "Culinary Specialist"
+    quote:
+      "Dining at Grand Rotisserie was a brilliant experience from start to finish. The nibbles delighted our palates, the service was outstanding, and the elegant setting completed the evening.",
+    author: "John Hernandez",
+    title: "Culinary Explorer",
+    image: "/images/testimonials/person-3.jpg",
   },
   {
-    "quote": "You’ll find a delightful selection of alluring gastronomic delights, paired with thoughtful service and a whimsical environment at Grand Rotisserie.",
-    "author": "Isabella Moore",
-    "title": "Food Historian",
-    "image": "/images/testimonials/person-11.jpg"
+    quote:
+      "Our dining experience at Grand Rotisserie was marked by heavenly cuisine, reliable service, and a casual atmosphere.",
+    author: "Madison Bailey",
+    title: "Restaurant Enthusiast",
   },
   {
-    "quote": "The treats at Grand Rotisserie are thoughtfully prepared, seductive, and complemented by fantastic staff and a rustic space.",
-    "author": "Alexander Lewis",
-    "title": "Food Journalist"
+    quote:
+      "The beverages at Grand Rotisserie are brilliant, and the thoughtful service creates an inviting cozy experience.",
+    author: "Hannah Allen",
+    title: "Dining Columnist",
+    image: "/images/testimonials/person-9.jpg",
   },
   {
-    "quote": "Grand Rotisserie has the most tantalizing flavors I've ever tasted. The energetic atmosphere made our evening special, and the service was dedicated.",
-    "author": "Chloe Baker",
-    "title": "Culinary Enthusiast"
+    quote:
+      "Every dish at Grand Rotisserie was great, complemented by accommodating staff and a traditional atmosphere.",
+    author: "Nicholas Hall",
+    title: "Food Blogger",
   },
   {
-    "quote": "The bites at Grand Rotisserie were absolutely marvelous! The service was courteous and the atmosphere was artistic. Highly recommend!",
-    "author": "Ethan Young",
-    "title": "Culinary Journalist",
-    "image": "/images/testimonials/person-10.jpg"
+    quote:
+      "From the moment we arrived, Grand Rotisserie impressed with flavorful bites, attentive service, and a tranquil ambiance.",
+    author: "Andrew Richardson",
+    title: "Cooking Aficionado",
   },
   {
-    "quote": "At Grand Rotisserie, the selections impressed with appealing quality, alongside outstanding hospitality and a charming setting.",
-    "author": "Ethan Campbell",
-    "title": "Lifestyle Influencer",
-    "image": "/images/testimonials/person-6.jpg"
-  }
+    quote:
+      "Whether it's the culinary wonders or the wonderful staff, everything at Grand Rotisserie is irresistible and enhanced by a stylish environment.",
+    author: "Mia Baker",
+    title: "Cooking Aficionado",
+  },
+  {
+    quote:
+      "If you're looking for sublime desserts, Grand Rotisserie delivers with impeccable knowledgeable service and a stylish environment.",
+    author: "Matthew Edwards",
+    title: "Culinary Expert",
+  },
+  {
+    quote:
+      "At Grand Rotisserie, the gastronomic treats impressed with tempting quality, alongside considerate hospitality and a vibrant setting.",
+    author: "Hannah Martin",
+    title: "Lifestyle Influencer",
+    image: "/images/testimonials/person-1.jpg",
+  },
+  {
+    quote:
+      "From the moment we arrived, Grand Rotisserie impressed with satisfying offerings, attentive service, and a rustic ambiance.",
+    author: "Isabella Baker",
+    title: "Food Critic",
+  },
+  {
+    quote:
+      "The sumptuous flavors of the gastronomic delights at Grand Rotisserie are matched by warm service and a welcoming dining room.",
+    author: "Matthew Walker",
+    title: "Food Journalist",
+    image: "/images/testimonials/person-2.jpg",
+  },
+  {
+    quote:
+      "At Grand Rotisserie, the delicacies impressed with spectacular quality, alongside helpful hospitality and a stylish setting.",
+    author: "Daniel Moore",
+    title: "Luxury Travel Consultant",
+  },
+  {
+    quote:
+      "From the first bite to the last, the drinks at Grand Rotisserie impressed with fabulous flavors, matched by respectful service and a traditional ambiance.",
+    author: "Christopher Brown",
+    title: "Culinary Consultant",
+  },
+  {
+    quote:
+      "You’ll enjoy flavorful treats and efficient service, all within a romantic space at Grand Rotisserie.",
+    author: "Joshua Wright",
+    title: "Food Stylist",
+  },
+  {
+    quote:
+      "The entrees at Grand Rotisserie were absolutely charming! The service was welcoming and the atmosphere was casual. Highly recommend!",
+    author: "Alexander Lee",
+    title: "Food Stylist",
+  },
+  {
+    quote:
+      "The gastronomic experiences selection at Grand Rotisserie is simply satisfying. Combined with gracious staff and a relaxed setting, it’s a top choice for discerning diners.",
+    author: "Alexander Wright",
+    title: "Culinary Critic",
+    image: "/images/testimonials/person-6.jpg",
+  },
+  {
+    quote:
+      "The drinks at Grand Rotisserie were absolutely tempting! The service was charming and the atmosphere was modern. Highly recommend!",
+    author: "Samantha Lee",
+    title: "Food Scientist",
+  },
+  {
+    quote:
+      "The culinary creations at Grand Rotisserie are consistently incredible, accompanied by exceptional staff and a peaceful setting.",
+    author: "Madison Jackson",
+    title: "Culinary Expert",
+  },
+  {
+    quote:
+      "The specialties at Grand Rotisserie are consistently seductive, accompanied by considerate staff and a energetic setting.",
+    author: "Emily Morgan",
+    title: "Gastronomic Critic",
+  },
 ];

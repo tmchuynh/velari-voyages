@@ -5,36 +5,113 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const montrealmediterraneanChophouseTestimonials: Testimonial[] = [
   {
-    "quote": "The fare at Mediterranean Chophouse were absolutely tasty! The service was efficient and the atmosphere was whimsical. Highly recommend!",
-    "author": "Chloe Rogers",
-    "title": "Culinary Historian"
+    quote:
+      "Every visit to Mediterranean Chophouse offers fantastic flavors, charming hospitality, and a welcoming charming atmosphere.",
+    author: "Christopher Allen",
+    title: "Gastronomic Writer",
   },
   {
-    "quote": "The cuisine at Mediterranean Chophouse are charming, and the responsive service creates an inviting energetic experience.",
-    "author": "James Smith",
-    "title": "Food Writer",
-    "image": "/images/testimonials/person-10.jpg"
+    quote:
+      "Experience mouthwatering drinks and gracious staff in a whimsical setting when you visit Mediterranean Chophouse.",
+    author: "Sophia Scott",
+    title: "Culinary Expert",
   },
   {
-    "quote": "Our dining experience at Mediterranean Chophouse was marked by tempting cuisine, inviting service, and a stylish atmosphere.",
-    "author": "Ryan Jones",
-    "title": "Food & Wine Connoisseur"
+    quote:
+      "Our meal at Mediterranean Chophouse featured delectable gastronomic experiences, attentive superior staff, and a warm, refined environment.",
+    author: "Jacob Phillips",
+    title: "Gastronomy Enthusiast",
   },
   {
-    "quote": "At Mediterranean Chophouse, the gastronomic wonders are delicious and the excellent team ensures your visit is complemented by a delightful atmosphere.",
-    "author": "Sophia Martinez",
-    "title": "Restaurant Enthusiast",
-    "image": "/images/testimonials/person-2.jpg"
+    quote:
+      "Mediterranean Chophouse consistently delivers delightful specialties, attentive staff, and a relaxed ambiance to enjoy.",
+    author: "Ava Rogers",
+    title: "Food Writer",
   },
   {
-    "quote": "What a sumptuous dining experience at Mediterranean Chophouse! The gastronomic wonders exceeded our expectations, and the staff was outstanding. Will definitely return!",
-    "author": "Joseph Evans",
-    "title": "Cruise Traveler",
-    "image": "/images/testimonials/person-10.jpg"
+    quote:
+      "For a memorable dining experience, Mediterranean Chophouse offers fantastic treats, knowledgeable service, and a romantic environment.",
+    author: "Emma King",
+    title: "Culinary Expert",
   },
   {
-    "quote": "Dining at Mediterranean Chophouse means enjoying marvelous gastronomic delights, superb attention, and a rustic environment tailored for a memorable meal.",
-    "author": "Daniel White",
-    "title": "Culinary Specialist"
-  }
+    quote:
+      "For delectable specialties served with gracious care in a classic space, Mediterranean Chophouse is unmatched.",
+    author: "Nicholas Reed",
+    title: "Restaurant Reviewer",
+  },
+  {
+    quote:
+      "At Mediterranean Chophouse, every detail from savory fare to diligent service and bohemian atmosphere is thoughtfully crafted.",
+    author: "Andrew Murphy",
+    title: "Food Historian",
+    image: "/images/testimonials/person-11.jpg",
+  },
+  {
+    quote:
+      "Mediterranean Chophouse combines mouthwatering dishes with diligent hospitality in a inviting setting, perfect for any occasion.",
+    author: "John Miller",
+    title: "Culinary Expert",
+  },
+  {
+    quote:
+      "Our meal at Mediterranean Chophouse featured superb bites, attentive outstanding staff, and a warm, sophisticated environment.",
+    author: "Andrew Rodriguez",
+    title: "Culinary Reviewer",
+  },
+  {
+    quote:
+      "Our visit to Mediterranean Chophouse was outstanding. The specialties were heavenly, the staff outstanding, and the atmosphere cozy. A must-visit!",
+    author: "Joshua Lewis",
+    title: "Food Stylist",
+  },
+  {
+    quote:
+      "The treats at Mediterranean Chophouse were absolutely refreshing! The service was friendly and the atmosphere was peaceful. Highly recommend!",
+    author: "Joseph Lewis",
+    title: "Food Journalist",
+  },
+  {
+    quote:
+      "What a sublime dining experience at Mediterranean Chophouse! The platters exceeded our expectations, and the staff was stellar. Will definitely return!",
+    author: "Liam Walker",
+    title: "Food Enthusiast",
+  },
+  {
+    quote:
+      "For enjoyable culinary masterpieces served with friendly care in a vibrant space, Mediterranean Chophouse is unmatched.",
+    author: "Daniel Sanchez",
+    title: "Culinary Blogger",
+  },
+  {
+    quote:
+      "The nibbles here are enticing, prepared with care and served by outstanding staff in a classic setting.",
+    author: "Ava Murphy",
+    title: "Culinary Artist",
+  },
+  {
+    quote:
+      "Mediterranean Chophouse consistently delivers pleasurable gastronomic pleasures, attentive staff, and a sophisticated ambiance to enjoy.",
+    author: "Joshua Evans",
+    title: "Culinary Historian",
+  },
+  {
+    quote:
+      "At Mediterranean Chophouse, expect delectable dishes served by diligent professionals in a whimsical setting.",
+    author: "Michael Baker",
+    title: "Cruise Traveler",
+  },
+  {
+    quote:
+      "Every visit to Mediterranean Chophouse offers delectable menu items, respectful hospitality, and a welcoming ambient atmosphere.",
+    author: "Abigail Davis",
+    title: "Epicurean Specialist",
+    image: "/images/testimonials/person-1.jpg",
+  },
+  {
+    quote:
+      "At Mediterranean Chophouse, the treats are exceptional and the respectful team ensures your visit is complemented by a rustic atmosphere.",
+    author: "Olivia Bailey",
+    title: "Food Writer",
+  },
 ];

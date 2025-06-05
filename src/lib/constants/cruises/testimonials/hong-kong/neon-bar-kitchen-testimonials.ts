@@ -5,36 +5,114 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const hongKongneonBarKitchenTestimonials: Testimonial[] = [
   {
-    "quote": "What a flavorful dining experience at Neon Bar & Kitchen! The snacks exceeded our expectations, and the staff was excellent. Will definitely return!",
-    "author": "Jacob Adams",
-    "title": "Culinary Instructor"
+    quote:
+      "I can't say enough about the satisfying delights at Neon Bar & Kitchen. The dedicated service and peaceful ambiance made for a perfect night out.",
+    author: "John Allen",
+    title: "Culinary Explorer",
   },
   {
-    "quote": "Enjoy sublime dishes and punctual attention in a appealing atmosphere at Neon Bar & Kitchen.",
-    "author": "Emma Jackson",
-    "title": "Culinary Educator"
+    quote:
+      "At Neon Bar & Kitchen, the culinary wonders impressed with spectacular quality, alongside superb hospitality and a welcoming setting.",
+    author: "Matthew King",
+    title: "Culinary Critic",
   },
   {
-    "quote": "The gastronomic wonders at Neon Bar & Kitchen are thoughtfully prepared, divine, and complemented by exceptional staff and a welcoming space.",
-    "author": "Daniel Green",
-    "title": "Dining Columnist",
-    "image": "/images/testimonials/person-2.jpg"
+    quote:
+      "The gastronomic delights at Neon Bar & Kitchen were absolutely inviting! The service was prompt and the atmosphere was ambient. Highly recommend!",
+    author: "Andrew Wilson",
+    title: "Food Photographer",
   },
   {
-    "quote": "Our visit to Neon Bar & Kitchen was outstanding. The recipes were impressive, the staff helpful, and the atmosphere rustic. A must-visit!",
-    "author": "Olivia Morgan",
-    "title": "Beverage Expert",
-    "image": "/images/testimonials/person-3.jpg"
+    quote:
+      "From the enjoyable gastronomic pleasures to the approachable hospitality, Neon Bar & Kitchen provides a cozy dining experience worth savoring.",
+    author: "Laura Evans",
+    title: "Food Enthusiast",
   },
   {
-    "quote": "The entrees here are tempting, prepared with care and served by exemplary staff in a spacious setting.",
-    "author": "Thomas Rodriguez",
-    "title": "Culinary Educator",
-    "image": "/images/testimonials/person-9.jpg"
+    quote:
+      "The combination of succulent drinks, outstanding attention, and a lively vibe makes Neon Bar & Kitchen exceptional.",
+    author: "Charlotte Parker",
+    title: "Gourmet Explorer",
   },
   {
-    "quote": "Neon Bar & Kitchen has the most succulent gastronomic experiences I've ever tasted. The charming atmosphere made our evening special, and the service was efficient.",
-    "author": "Ethan Wright",
-    "title": "Gastronomic Writer"
-  }
+    quote:
+      "Exceptional snacks paired with dedicated service and a vibrant atmosphere make Neon Bar & Kitchen a standout choice.",
+    author: "Andrew Hernandez",
+    title: "Food Enthusiast",
+  },
+  {
+    quote:
+      "At Neon Bar & Kitchen, the menu items impressed with incredible quality, alongside diligent hospitality and a cozy setting.",
+    author: "Christopher Martin",
+    title: "Gourmet Explorer",
+    image: "/images/testimonials/person-1.jpg",
+  },
+  {
+    quote:
+      "We were impressed by the alluring quality of the menu items and the approachable attention from staff at Neon Bar & Kitchen. The whimsical environment was the cherry on top.",
+    author: "Ava Green",
+    title: "Culinary Explorer",
+    image: "/images/testimonials/person-4.jpg",
+  },
+  {
+    quote:
+      "The exquisite flavors of the delights at Neon Bar & Kitchen are matched by thoughtful service and a charming dining room.",
+    author: "Ava White",
+    title: "Cooking Aficionado",
+  },
+  {
+    quote:
+      "From the moment we arrived, Neon Bar & Kitchen impressed with enjoyable delicacies, attentive service, and a warm ambiance.",
+    author: "Sophia Cook",
+    title: "Gastronomy Enthusiast",
+  },
+  {
+    quote:
+      "For a memorable dining experience, Neon Bar & Kitchen offers fantastic recipes, polite service, and a inviting environment.",
+    author: "Liam Bailey",
+    title: "Food Scientist",
+    image: "/images/testimonials/person-12.jpg",
+  },
+  {
+    quote:
+      "What a luscious dining experience at Neon Bar & Kitchen! The gastronomic delights exceeded our expectations, and the staff was helpful. Will definitely return!",
+    author: "Madison Murphy",
+    title: "Cruise Traveler",
+  },
+  {
+    quote:
+      "We were impressed by the divine quality of the entrees and the respectful attention from staff at Neon Bar & Kitchen. The appealing environment was the cherry on top.",
+    author: "Jennifer Cook",
+    title: "Culinary Adventurer",
+  },
+  {
+    quote:
+      "What a spectacular dining experience at Neon Bar & Kitchen! The gastronomic experiences exceeded our expectations, and the staff was remarkable. Will definitely return!",
+    author: "Isabella Roberts",
+    title: "Gourmet Explorer",
+  },
+  {
+    quote:
+      "Neon Bar & Kitchen offers a outstanding menu and an equally impeccable staff. The refined vibe makes it perfect for any occasion.",
+    author: "Liam Mitchell",
+    title: "Food Stylist",
+  },
+  {
+    quote:
+      "For those who appreciate fantastic cuisine, Neon Bar & Kitchen offers tapas that satisfy, alongside exemplary service and a sophisticated vibe.",
+    author: "Isabella Baker",
+    title: "Travel Writer",
+  },
+  {
+    quote:
+      "What a incredible dining experience at Neon Bar & Kitchen! The courses exceeded our expectations, and the staff was exemplary. Will definitely return!",
+    author: "Anthony Rodriguez",
+    title: "Food Scientist",
+  },
+  {
+    quote:
+      "From appetizers to desserts, Neon Bar & Kitchen offers appealing courses in a ambient space with meticulous service.",
+    author: "Madison Edwards",
+    title: "Culinary Specialist",
+  },
 ];

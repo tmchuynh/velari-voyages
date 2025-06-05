@@ -5,34 +5,113 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const florencevillaTikiLoungeTestimonials: Testimonial[] = [
   {
-    "quote": "Dining at Villa Tiki Lounge was a satisfying experience from start to finish. The platters delighted our palates, the service was respectful, and the modern setting completed the evening.",
-    "author": "James Scott",
-    "title": "Food & Wine Connoisseur"
+    quote:
+      "At Villa Tiki Lounge, expect exquisite culinary masterpieces served by superior professionals in a sophisticated setting.",
+    author: "Charlotte Lee",
+    title: "Gastronomic Writer",
   },
   {
-    "quote": "Dining at Villa Tiki Lounge means enjoying delightful flavors, timely attention, and a vibrant environment tailored for a memorable meal.",
-    "author": "Emma Edwards",
-    "title": "Food Scientist"
+    quote:
+      "The food selection at Villa Tiki Lounge is amazing, complemented by outstanding service and a vibrant ambiance that impresses.",
+    author: "Joshua King",
+    title: "Cruise Traveler",
   },
   {
-    "quote": "From appetizers to desserts, Villa Tiki Lounge offers superb nibbles in a upscale space with considerate service.",
-    "author": "Andrew Reed",
-    "title": "Wine Sommelier"
+    quote:
+      "The delicacies at Villa Tiki Lounge were absolutely heavenly! The service was skilled and the atmosphere was warm. Highly recommend!",
+    author: "Ryan Perez",
+    title: "Culinary Adventurer",
   },
   {
-    "quote": "Dining at Villa Tiki Lounge was a enticing experience from start to finish. The meal delighted our palates, the service was thoughtful, and the modern setting completed the evening.",
-    "author": "Nicholas Robinson",
-    "title": "Culinary Expert",
-    "image": "/images/testimonials/person-6.jpg"
+    quote:
+      "At Villa Tiki Lounge, expect brilliant flavors served by courteous professionals in a delightful setting.",
+    author: "Samuel Hall",
+    title: "Culinary Historian",
   },
   {
-    "quote": "From the enjoyable gastronomic experiences to the helpful hospitality, Villa Tiki Lounge provides a comfortable dining experience worth savoring.",
-    "author": "Charlotte Morgan",
-    "title": "Food Journalist"
+    quote:
+      "The brilliant flavors of the gastronomic wonders at Villa Tiki Lounge are matched by professional service and a luxurious dining room.",
+    author: "Jennifer King",
+    title: "Culinary Advisor",
   },
   {
-    "quote": "Every dish we tried at Villa Tiki Lounge was delightful, paired perfectly with respectful service and a appealing atmosphere that invites relaxation.",
-    "author": "Emily Roberts",
-    "title": "Travel Blogger"
-  }
+    quote:
+      "For inviting delicacies served with exceptional care in a sophisticated space, Villa Tiki Lounge is unmatched.",
+    author: "John Wilson",
+    title: "Food Critic",
+  },
+  {
+    quote:
+      "Every dish we tried at Villa Tiki Lounge was pleasing, paired perfectly with meticulous service and a vibrant atmosphere that invites relaxation.",
+    author: "James Scott",
+    title: "Lifestyle Influencer",
+  },
+  {
+    quote:
+      "If you value exquisite entrees with excellent staff and a warm ambiance, Villa Tiki Lounge delivers.",
+    author: "Nathan Young",
+    title: "Wine Sommelier",
+  },
+  {
+    quote:
+      "For marvelous courses served with trustworthy care in a peaceful space, Villa Tiki Lounge is unmatched.",
+    author: "Christopher Reed",
+    title: "Food & Wine Connoisseur",
+    image: "/images/testimonials/person-1.jpg",
+  },
+  {
+    quote:
+      "For those who appreciate delightful cuisine, Villa Tiki Lounge offers culinary masterpieces that satisfy, alongside charming service and a refined vibe.",
+    author: "Joshua Green",
+    title: "Wine Sommelier",
+  },
+  {
+    quote:
+      "From the exceptional savors to the dedicated hospitality, Villa Tiki Lounge provides a refined dining experience worth savoring.",
+    author: "Abigail Lewis",
+    title: "Culinary Educator",
+  },
+  {
+    quote:
+      "Our experience at Villa Tiki Lounge was elevated by luscious selections, engaging hospitality, and a vibrant dining room.",
+    author: "Abigail Jones",
+    title: "Culinary Consultant",
+  },
+  {
+    quote:
+      "The bites at Villa Tiki Lounge are thoughtfully prepared, mouthwatering, and complemented by exceptional staff and a refined space.",
+    author: "Abigail White",
+    title: "Gastronomic Critic",
+    image: "/images/testimonials/person-5.jpg",
+  },
+  {
+    quote:
+      "What a satisfying dining experience at Villa Tiki Lounge! The drinks exceeded our expectations, and the staff was superior. Will definitely return!",
+    author: "Joshua Baker",
+    title: "Culinary Specialist",
+  },
+  {
+    quote:
+      "Every visit to Villa Tiki Lounge delivers delectable creations, attentive enthusiastic staff, and a rustic environment that welcomes you.",
+    author: "Michael Bell",
+    title: "Epicurean Specialist",
+  },
+  {
+    quote:
+      "At Villa Tiki Lounge, succulent gastronomic treats combine seamlessly with first-rate professionalism and a vibrant space designed for comfort.",
+    author: "Ava Hernandez",
+    title: "Culinary Expert",
+  },
+  {
+    quote:
+      "Villa Tiki Lounge offers a luscious menu and an equally skilled staff. The romantic vibe makes it perfect for any occasion.",
+    author: "Benjamin Anderson",
+    title: "Culinary Expert",
+  },
+  {
+    quote:
+      "Every dish we tried at Villa Tiki Lounge was appealing, paired perfectly with skilled service and a tranquil atmosphere that invites relaxation.",
+    author: "Hannah Garcia",
+    title: "Dining Columnist",
+  },
 ];

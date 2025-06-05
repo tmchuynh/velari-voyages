@@ -5,35 +5,118 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const torontochinesePavilionTestimonials: Testimonial[] = [
   {
-    "quote": "Every visit to Chinese Pavilion delivers scrumptious cuisine, attentive thoughtful staff, and a bustling environment that welcomes you.",
-    "author": "Madison Davis",
-    "title": "Cruise Traveler"
+    quote:
+      "From the moment we arrived, Chinese Pavilion impressed with exquisite snacks, attentive service, and a sophisticated ambiance.",
+    author: "Laura Bell",
+    title: "Culinary Enthusiast",
   },
   {
-    "quote": "The delights selection at Chinese Pavilion is seductive, served with efficient care in a chic ambiance.",
-    "author": "Ava Wright",
-    "title": "Lifestyle Influencer"
+    quote:
+      "From appetizers to desserts, Chinese Pavilion offers sumptuous gastronomic treats in a stylish space with friendly service.",
+    author: "Joshua Bailey",
+    title: "Culinary Adventurer",
   },
   {
-    "quote": "Whether it's the flavors or the stellar staff, everything at Chinese Pavilion is tempting and enhanced by a chic environment.",
-    "author": "Joshua Allen",
-    "title": "Culinary Expert",
-    "image": "/images/testimonials/person-3.jpg"
+    quote:
+      "For seductive menu items served with prompt care in a serene space, Chinese Pavilion is unmatched.",
+    author: "Chloe Miller",
+    title: "Restaurant Enthusiast",
+    image: "/images/testimonials/person-10.jpg",
   },
   {
-    "quote": "The delicious snacks at Chinese Pavilion kept us coming back for more, complemented perfectly by outstanding staff and a intimate setting.",
-    "author": "Lucas Perez",
-    "title": "Gastronomic Writer"
+    quote:
+      "At Chinese Pavilion, the desserts impressed with perfect quality, alongside outstanding hospitality and a modern setting.",
+    author: "Elizabeth Reed",
+    title: "Food Journalist",
   },
   {
-    "quote": "The savors at Chinese Pavilion are consistently fabulous, matched by approachable service and a relaxed ambiance.",
-    "author": "David Green",
-    "title": "Cruise Traveler"
+    quote:
+      "Chinese Pavilion has the most tempting menu items I've ever tasted. The lively atmosphere made our evening special, and the service was supportive.",
+    author: "Matthew Phillips",
+    title: "Food Scientist",
+    image: "/images/testimonials/person-4.jpg",
   },
   {
-    "quote": "The gastronomic delights at Chinese Pavilion are consistently flavorful, accompanied by knowledgeable staff and a inviting setting.",
-    "author": "Ryan Smith",
-    "title": "Restaurant Enthusiast",
-    "image": "/images/testimonials/person-2.jpg"
-  }
+    quote:
+      "The gastronomic treats selection at Chinese Pavilion is awesome, complemented by friendly service and a vibrant ambiance that impresses.",
+    author: "Christopher Richardson",
+    title: "Food Stylist",
+  },
+  {
+    quote:
+      "From the first bite to the last, the delights at Chinese Pavilion impressed with pleasing flavors, matched by professional service and a refined ambiance.",
+    author: "Ava White",
+    title: "Gourmet Explorer",
+  },
+  {
+    quote:
+      "The flavors at Chinese Pavilion are consistently appetizing, matched by thoughtful service and a airy ambiance.",
+    author: "Daniel Allen",
+    title: "Culinary Journalist",
+  },
+  {
+    quote:
+      "At Chinese Pavilion, the creations impressed with alluring quality, alongside reliable hospitality and a warm setting.",
+    author: "Emma Brown",
+    title: "Culinary Journalist",
+  },
+  {
+    quote:
+      "Chinese Pavilion offers a tempting menu and an equally helpful staff. The charming vibe makes it perfect for any occasion.",
+    author: "Ella Walker",
+    title: "Gastronomic Critic",
+  },
+  {
+    quote:
+      "The food at Chinese Pavilion are thoughtfully prepared, seductive, and complemented by courteous staff and a delightful space.",
+    author: "Anthony Martinez",
+    title: "Culinary Journalist",
+    image: "/images/testimonials/person-7.jpg",
+  },
+  {
+    quote:
+      "Our visit to Chinese Pavilion was outstanding. The gastronomic treats were outstanding, the staff impressive, and the atmosphere charming. A must-visit!",
+    author: "Amelia Cooper",
+    title: "Culinary Instructor",
+    image: "/images/testimonials/person-3.jpg",
+  },
+  {
+    quote:
+      "Chinese Pavilion offers a remarkable menu and an equally gracious staff. The sophisticated vibe makes it perfect for any occasion.",
+    author: "Aiden Murphy",
+    title: "Gastronomy Enthusiast",
+  },
+  {
+    quote:
+      "For a memorable dining experience, Chinese Pavilion offers sumptuous courses, impressive service, and a warm environment.",
+    author: "Hannah Martin",
+    title: "Gastronomic Critic",
+  },
+  {
+    quote:
+      "Our dining experience at Chinese Pavilion was marked by impressive cuisine, kind service, and a rustic atmosphere.",
+    author: "Emily Anderson",
+    title: "Luxury Travel Consultant",
+  },
+  {
+    quote:
+      "From the first bite to the last, the gastronomic wonders at Chinese Pavilion impressed with delectable flavors, matched by welcoming service and a intimate ambiance.",
+    author: "Laura Smith",
+    title: "Food Critic",
+    image: "/images/testimonials/person-10.jpg",
+  },
+  {
+    quote:
+      "We were impressed by the sumptuous quality of the drinks and the exceptional attention from staff at Chinese Pavilion. The lively environment was the cherry on top.",
+    author: "Sarah Reed",
+    title: "Culinary Historian",
+    image: "/images/testimonials/person-1.jpg",
+  },
+  {
+    quote:
+      "The combination of exquisite dishes, inviting attention, and a chic vibe makes Chinese Pavilion exceptional.",
+    author: "Andrew Lewis",
+    title: "Food Blogger",
+    image: "/images/testimonials/person-1.jpg",
+  },
 ];

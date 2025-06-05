@@ -1,3274 +1,1342 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const newYorkCityCruises: Cruise[] = [
-{
-    basePrice: 8287,
+  {
+    basePrice: 1679,
     departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    arrivalLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "mainstream",
-    itinerary: {
-      route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  }
-],
-      description: "Leave ordinary behind as you sail from New York City across the captivating East Coast USA. Discover the distinctive personality of each destination, from Rome, Malta.",
-      distance: "746 nautical miles",
-      totalDuration: "9 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from New York City to Rome"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Rome to Malta"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Malta to New York City"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring New York City"
-  }
-]
+      city: "New York City",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 40.7128,
+        longitude: -74.006,
+      },
     },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Evelyn Palmer",
-        role: "Marketing Coordinator",
-        languages: ["Indonesian","Gujarati","Bengali"],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
-        contact: {
-          contactEmail: "secluded.renaissance@velarivoyages.com",
-          contactNumber: "+1-883-608-6004"
-        }
-      }
-    ],
-    title: "Secluded Renaissance of the Sky-Bound Collage",
-    description: "Leave ordinary behind as you sail from New York City across the captivating East Coast USA. Discover the distinctive personality of each destination, from Rome, Malta.",
-    rating: 4.9,
-    tags: ["wellness"]
-  },
-  {
-    basePrice: 3749,
-    departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
     arrivalLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  }
-],
-      description: "Enjoy seamless luxury on this celestial odyssey beginning in New York City. Visit breathtaking East Coast USA locales such as Malta, Rome, Mykonos, Santorini on this unforgettable itinerary.",
-      distance: "1124 nautical miles",
-      totalDuration: "15 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from New York City to Malta"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from Malta to Rome"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Rome to Mykonos"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Sailing from Mykonos to Santorini"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 14",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to New York City"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 15",
-    "duration": "1 days",
-    "description": "Exploring New York City"
-  }
-]
+      city: "New York City",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 40.7128,
+        longitude: -74.006,
+      },
     },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Rachel Maxwell",
-        role: "Marketing Coordinator",
-        languages: ["Indonesian","Gujarati","Bengali"],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
-        contact: {
-          contactEmail: "majestic.requiem.of.@velarivoyages.com",
-          contactNumber: "+1-301-795-4286"
-        }
-      }
-    ],
-    title: "Majestic Requiem of the Sky-Bound Collage",
-    description: "Enjoy seamless luxury on this celestial odyssey beginning in New York City. Visit breathtaking East Coast USA locales such as Malta, Rome, Mykonos, Santorini on this unforgettable itinerary.",
-    rating: 5.0,
-    tags: ["cruise-line","cruise-vacation"]
-  },
-  {
-    basePrice: 3772,
-    departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    arrivalLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "ultra-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  }
-],
-      description: "An unforgettable reunion awaits as you cruise from New York City across East Coast USA. Dive into history, flavor, and culture with stops including Barcelona, Rome, Athens.",
-      distance: "608 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from New York City to Barcelona"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from Barcelona to Rome"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Sailing from Rome to Athens"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from Athens to New York City"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring New York City"
-  }
-]
-    },
-    tourCategoryId: "luxury-cruise",
-    contactPersonnel: [
-      {
-        name: "Helen Hudson",
-        role: "Marketing Coordinator",
-        languages: ["Indonesian","Gujarati","Bengali"],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/women/29.jpg",
-        contact: {
-          contactEmail: "floating.journey.of.@velarivoyages.com",
-          contactNumber: "+1-142-668-5871"
-        }
-      }
-    ],
-    title: "Floating Journey of the Winds of Revolution",
-    description: "An unforgettable reunion awaits as you cruise from New York City across East Coast USA. Dive into history, flavor, and culture with stops including Barcelona, Rome, Athens.",
-    rating: 4.8,
-    tags: ["luxury"]
-  },
-  {
-    basePrice: 4956,
-    departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    arrivalLocation: {
-  "city": "Mykonos",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "ultra-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Sail from New York City into a world of wonder. The East Coast USA beckons with unforgettable ports like Rome, Athens, Barcelona, Mykonos, where every view is picture-perfect and every moment is priceless.",
-      distance: "1265 nautical miles",
-      totalDuration: "14 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from New York City to Rome"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Rome to Athens"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from Athens to Barcelona"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Sailing from Barcelona to Mykonos"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 14",
-    "duration": "1 days",
-    "description": "Exploring Mykonos"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Genesis Mitchell",
-        role: "Marketing Coordinator",
-        languages: ["Indonesian","Gujarati","Bengali"],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/women/62.jpg",
-        contact: {
-          contactEmail: "luminous.realm.of.th@velarivoyages.com",
-          contactNumber: "+1-833-863-9909"
-        }
-      }
-    ],
-    title: "Luminous Realm of the Colonial Shores",
-    description: "Sail from New York City into a world of wonder. The East Coast USA beckons with unforgettable ports like Rome, Athens, Barcelona, Mykonos, where every view is picture-perfect and every moment is priceless.",
-    rating: 4.1,
-    tags: ["sightseeing","fall-cruise"]
-  },
-  {
-    basePrice: 4311,
-    departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    arrivalLocation: {
-  "city": "Malta",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "premium-luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Escape the everyday with this whispering journey through East Coast USA, departing from New York City. You'll visit Barcelona, Malta, where every stop is a new adventure.",
-      distance: "873 nautical miles",
-      totalDuration: "7 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from New York City to Barcelona"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from Barcelona to Malta"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  }
-]
-    },
-    tourCategoryId: "tropical-cruise",
-    contactPersonnel: [
-      {
-        name: "Elizabeth Dean",
-        role: "Marketing Coordinator",
-        languages: ["Indonesian","Gujarati","Bengali"],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
-        contact: {
-          contactEmail: "crystalline.reverie.@velarivoyages.com",
-          contactNumber: "+1-187-415-9361"
-        }
-      }
-    ],
-    title: "Crystalline Reverie of the Empire Gateway",
-    description: "Escape the everyday with this whispering journey through East Coast USA, departing from New York City. You'll visit Barcelona, Malta, where every stop is a new adventure.",
-    rating: 4.8,
-    tags: ["tropical","historical","family-friendly"]
-  },
-  {
-    basePrice: 1924,
-    departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    arrivalLocation: {
-  "city": "Malta",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "expedition",
     itinerary: {
       route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
+        {
+          city: "New York City",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 40.7128,
+            longitude: -74.006,
+          },
+        },
+        {
+          city: "Mykonos",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Milan",
+          country: "Italy",
+          coordinates: {
+            latitude: 45.4642,
+            longitude: 9.19,
+          },
+        },
+        {
+          city: "New York City",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 40.7128,
+            longitude: -74.006,
+          },
+        },
+      ],
+      description:
+        "Sail away from the charming harbor of New York City on this spectacular journey across East Coast USA. Uncover the beauty and history of Mykonos, Milan with curated excursions, world-class cuisine, and exceptional service.",
+      distance: "590 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+        {
+          start: "Day 2",
+          end: "Day 3",
+          duration: "2 days",
+          description: "Sailing from New York City to Mykonos",
+        },
+        {
+          start: "Day 6",
+          end: "Day 6",
+          duration: "1 days",
+          description: "Sailing from Mykonos to Milan",
+        },
+        {
+          start: "Day 9",
+          end: "Day 9",
+          duration: "1 days",
+          description: "Sailing from Milan to New York City",
+        },
+      ],
+      timeOnLand: [
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring New York City",
+        },
+        {
+          start: "Day 4",
+          end: "Day 5",
+          duration: "2 days",
+          description: "Exploring Mykonos",
+        },
+        {
+          start: "Day 7",
+          end: "Day 8",
+          duration: "2 days",
+          description: "Exploring Milan",
+        },
+        {
+          start: "Day 10",
+          end: "Day 10",
+          duration: "1 days",
+          description: "Exploring New York City",
+        },
+      ],
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Ronald Hamilton",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["English", "Haitian", "Portuguese", "Spanish", "Aymara"], // Use the properly generated languages list
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/4.jpg",
+        contact: {
+          contactEmail: "secluded.embrace.of.@velarivoyages.com",
+          contactNumber: "+1-256-527-6464",
+        },
+      },
+    ],
+    title: "Secluded Embrace of the Patriot Ports",
+    description:
+      "Sail away from the charming harbor of New York City on this spectacular journey across East Coast USA. Uncover the beauty and history of Mykonos, Milan with curated excursions, world-class cuisine, and exceptional service.",
+    rating: 4.1,
+    tags: ["adventure"],
   },
   {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
+    basePrice: 6128,
+    departureLocation: {
+      city: "New York City",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 40.7128,
+        longitude: -74.006,
+      },
+    },
+    arrivalLocation: {
+      city: "Florence",
+      country: "Italy",
+      coordinates: {
+        latitude: 43.769562,
+        longitude: 11.255814,
+      },
+    },
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+        {
+          city: "New York City",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 40.7128,
+            longitude: -74.006,
+          },
+        },
+        {
+          city: "Dubrovnik",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Florence",
+          country: "Italy",
+          coordinates: {
+            latitude: 43.769562,
+            longitude: 11.255814,
+          },
+        },
+      ],
+      description:
+        "From the lively departure port of New York City, this curated reunion showcases the finest of East Coast USA. With visits to Dubrovnik, Florence, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+      distance: "973 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+        {
+          start: "Day 3",
+          end: "Day 3",
+          duration: "1 days",
+          description: "Sailing from New York City to Dubrovnik",
+        },
+        {
+          start: "Day 6",
+          end: "Day 6",
+          duration: "1 days",
+          description: "Sailing from Dubrovnik to Florence",
+        },
+      ],
+      timeOnLand: [
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring New York City",
+        },
+        {
+          start: "Day 4",
+          end: "Day 5",
+          duration: "2 days",
+          description: "Exploring Dubrovnik",
+        },
+        {
+          start: "Day 7",
+          end: "Day 8",
+          duration: "2 days",
+          description: "Exploring Florence",
+        },
+      ],
+    },
+    tourCategoryId: "theme-cruise",
+    contactPersonnel: [
+      {
+        name: "Philip Coleman",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["English", "Haitian", "Portuguese", "Spanish", "Aymara"], // Use the properly generated languages list
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
+        contact: {
+          contactEmail: "spectacular.labyrint@velarivoyages.com",
+          contactNumber: "+1-958-251-1510",
+        },
+      },
+    ],
+    title: "Spectacular Labyrinth of the Empire Gateway",
+    description:
+      "From the lively departure port of New York City, this curated reunion showcases the finest of East Coast USA. With visits to Dubrovnik, Florence, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+    rating: 4.0,
+    tags: ["themed-cruise", "glacier-cruise", "expedition"],
   },
   {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
+    basePrice: 9080,
+    departureLocation: {
+      city: "New York City",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 40.7128,
+        longitude: -74.006,
+      },
+    },
+    arrivalLocation: {
+      city: "New York City",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 40.7128,
+        longitude: -74.006,
+      },
+    },
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+        {
+          city: "New York City",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 40.7128,
+            longitude: -74.006,
+          },
+        },
+        {
+          city: "Lisbon",
+          country: "Portugal",
+          coordinates: {
+            latitude: 38.7169,
+            longitude: -9.1399,
+          },
+        },
+        {
+          city: "Athens",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "New York City",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 40.7128,
+            longitude: -74.006,
+          },
+        },
+      ],
+      description:
+        "Let the waves lead you from New York City on this exquisite labyrinth. Traverse the iconic waters of East Coast USA and discover the beauty of Lisbon, Athens.",
+      distance: "808 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+        {
+          start: "Day 2",
+          end: "Day 2",
+          duration: "1 days",
+          description: "Sailing from New York City to Lisbon",
+        },
+        {
+          start: "Day 4",
+          end: "Day 5",
+          duration: "2 days",
+          description: "Sailing from Lisbon to Athens",
+        },
+        {
+          start: "Day 8",
+          end: "Day 8",
+          duration: "1 days",
+          description: "Sailing from Athens to New York City",
+        },
+      ],
+      timeOnLand: [
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring New York City",
+        },
+        {
+          start: "Day 3",
+          end: "Day 3",
+          duration: "1 days",
+          description: "Exploring Lisbon",
+        },
+        {
+          start: "Day 6",
+          end: "Day 7",
+          duration: "2 days",
+          description: "Exploring Athens",
+        },
+        {
+          start: "Day 9",
+          end: "Day 10",
+          duration: "2 days",
+          description: "Exploring New York City",
+        },
+      ],
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Benjamin Foster",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["English", "Haitian", "Portuguese", "Spanish", "Aymara"], // Use the properly generated languages list
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/men/44.jpg",
+        contact: {
+          contactEmail: "oceanic.mystique.of.@velarivoyages.com",
+          contactNumber: "+1-601-630-6428",
+        },
+      },
+    ],
+    title: "Oceanic Mystique of the Steel & Spirit Metropolis",
+    description:
+      "Let the waves lead you from New York City on this exquisite labyrinth. Traverse the iconic waters of East Coast USA and discover the beauty of Lisbon, Athens.",
+    rating: 4.1,
+    tags: ["cultural", "long-distance"],
   },
   {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Cruise into cultural richness aboard this epic lullaby departing New York City. Savor local cuisine and uncover regional beauty from Santorini to Athens.",
-      distance: "960 nautical miles",
+    basePrice: 3696,
+    departureLocation: {
+      city: "New York City",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 40.7128,
+        longitude: -74.006,
+      },
+    },
+    arrivalLocation: {
+      city: "Rome",
+      country: "Italy",
+      coordinates: {
+        latitude: 41.9028,
+        longitude: 12.4964,
+      },
+    },
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+        {
+          city: "New York City",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 40.7128,
+            longitude: -74.006,
+          },
+        },
+        {
+          city: "Mykonos",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Rome",
+          country: "Italy",
+          coordinates: {
+            latitude: 41.9028,
+            longitude: 12.4964,
+          },
+        },
+      ],
+      description:
+        "Begin your solstice in New York City, a gateway to the soul of East Coast USA. Enjoy days spent exploring Mykonos, Rome and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
+      distance: "949 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+        {
+          start: "Day 2",
+          end: "Day 3",
+          duration: "2 days",
+          description: "Sailing from New York City to Mykonos",
+        },
+        {
+          start: "Day 6",
+          end: "Day 7",
+          duration: "2 days",
+          description: "Sailing from Mykonos to Rome",
+        },
+      ],
+      timeOnLand: [
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring New York City",
+        },
+        {
+          start: "Day 4",
+          end: "Day 5",
+          duration: "2 days",
+          description: "Exploring Mykonos",
+        },
+        {
+          start: "Day 8",
+          end: "Day 9",
+          duration: "2 days",
+          description: "Exploring Rome",
+        },
+      ],
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Johnny Dixon",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["English", "Haitian", "Portuguese", "Spanish", "Aymara"], // Use the properly generated languages list
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/26.jpg",
+        contact: {
+          contactEmail: "secluded.mythos.of.t@velarivoyages.com",
+          contactNumber: "+1-601-859-4993",
+        },
+      },
+    ],
+    title: "Secluded Mythos of the Sunrise Coast",
+    description:
+      "Begin your solstice in New York City, a gateway to the soul of East Coast USA. Enjoy days spent exploring Mykonos, Rome and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
+    rating: 5.0,
+    tags: ["culinary", "cruise-line"],
+  },
+  {
+    basePrice: 6745,
+    departureLocation: {
+      city: "New York City",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 40.7128,
+        longitude: -74.006,
+      },
+    },
+    arrivalLocation: {
+      city: "New York City",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 40.7128,
+        longitude: -74.006,
+      },
+    },
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+        {
+          city: "New York City",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 40.7128,
+            longitude: -74.006,
+          },
+        },
+        {
+          city: "Athens",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Venice",
+          country: "Italy",
+          coordinates: {
+            latitude: 45.4408,
+            longitude: 12.3155,
+          },
+        },
+        {
+          city: "New York City",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 40.7128,
+            longitude: -74.006,
+          },
+        },
+      ],
+      description:
+        "Escape the everyday with this lavish journey through East Coast USA, departing from New York City. You'll visit Athens, Venice, where every stop is a new adventure.",
+      distance: "776 nautical miles",
       totalDuration: "11 days",
       timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from New York City to Santorini"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Santorini to Athens"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Athens to Malta"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 3",
+          duration: "1 days",
+          description: "Sailing from New York City to Athens",
+        },
+        {
+          start: "Day 6",
+          end: "Day 7",
+          duration: "2 days",
+          description: "Sailing from Athens to Venice",
+        },
+        {
+          start: "Day 10",
+          end: "Day 10",
+          duration: "1 days",
+          description: "Sailing from Venice to New York City",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring Malta"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring New York City",
+        },
+        {
+          start: "Day 4",
+          end: "Day 5",
+          duration: "2 days",
+          description: "Exploring Athens",
+        },
+        {
+          start: "Day 8",
+          end: "Day 9",
+          duration: "2 days",
+          description: "Exploring Venice",
+        },
+        {
+          start: "Day 11",
+          end: "Day 11",
+          duration: "1 days",
+          description: "Exploring New York City",
+        },
+      ],
     },
-    tourCategoryId: "weekend-cruise",
+    tourCategoryId: "theme-cruise",
     contactPersonnel: [
       {
-        name: "Stella Baker",
-        role: "Marketing Coordinator",
-        languages: ["Indonesian","Gujarati","Bengali"],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
+        name: "Roger Hudson",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["English", "Haitian", "Portuguese", "Spanish", "Aymara"], // Use the properly generated languages list
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/men/79.jpg",
         contact: {
-          contactEmail: "epic.awakening.of.th@velarivoyages.com",
-          contactNumber: "+1-397-562-2922"
-        }
-      }
+          contactEmail: "velvet.sanctum.of.th@velarivoyages.com",
+          contactNumber: "+1-928-195-3143",
+        },
+      },
     ],
-    title: "Epic Awakening of the Steel & Spirit Metropolis",
-    description: "Cruise into cultural richness aboard this epic lullaby departing New York City. Savor local cuisine and uncover regional beauty from Santorini to Athens.",
-    rating: 4.3,
-    tags: ["weekend-cruise","cruise-journey","cultural"]
+    title: "Velvet Sanctum of the Big Apple",
+    description:
+      "Escape the everyday with this lavish journey through East Coast USA, departing from New York City. You'll visit Athens, Venice, where every stop is a new adventure.",
+    rating: 4.7,
+    tags: ["themed-cruise", "cruise-excursion"],
   },
   {
-    basePrice: 2688,
+    basePrice: 5376,
     departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
+      city: "New York City",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 40.7128,
+        longitude: -74.006,
+      },
+    },
     arrivalLocation: {
-  "city": "Barcelona",
-  "country": "Spain",
-  "coordinates": {
-    "latitude": 41.390205,
-    "longitude": 2.154007
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
+      city: "Milan",
+      country: "Italy",
+      coordinates: {
+        latitude: 45.4642,
+        longitude: 9.19,
+      },
+    },
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
     category: "premium-luxury",
     itinerary: {
       route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  }
-],
-      description: "Let the waves lead you from New York City on this tranquil elevation. Traverse the iconic waters of East Coast USA and discover the beauty of Dubrovnik, Barcelona.",
-      distance: "1040 nautical miles",
-      totalDuration: "7 days",
+        {
+          city: "New York City",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 40.7128,
+            longitude: -74.006,
+          },
+        },
+        {
+          city: "Athens",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Florence",
+          country: "Italy",
+          coordinates: {
+            latitude: 43.769562,
+            longitude: 11.255814,
+          },
+        },
+        {
+          city: "Lisbon",
+          country: "Portugal",
+          coordinates: {
+            latitude: 38.7169,
+            longitude: -9.1399,
+          },
+        },
+        {
+          city: "Milan",
+          country: "Italy",
+          coordinates: {
+            latitude: 45.4642,
+            longitude: 9.19,
+          },
+        },
+      ],
+      description:
+        "This inspiring sanctuary departs from New York City, navigating the diverse landscapes and vibrant cities of East Coast USA. Must-see stops include Athens, Florence, Lisbon, Milan.",
+      distance: "995 nautical miles",
+      totalDuration: "12 days",
       timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from New York City to Dubrovnik"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Dubrovnik to Barcelona"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 4",
+          duration: "2 days",
+          description: "Sailing from New York City to Athens",
+        },
+        {
+          start: "Day 6",
+          end: "Day 6",
+          duration: "1 days",
+          description: "Sailing from Athens to Florence",
+        },
+        {
+          start: "Day 9",
+          end: "Day 9",
+          duration: "1 days",
+          description: "Sailing from Florence to Lisbon",
+        },
+        {
+          start: "Day 11",
+          end: "Day 11",
+          duration: "1 days",
+          description: "Sailing from Lisbon to Milan",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Barcelona"
-  }
-]
-    },
-    tourCategoryId: "holiday-cruise",
-    contactPersonnel: [
-      {
-        name: "Jane Graves",
-        role: "Marketing Coordinator",
-        languages: ["Indonesian","Gujarati","Bengali"],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/women/29.jpg",
-        contact: {
-          contactEmail: "dreamlike.embrace.of@velarivoyages.com",
-          contactNumber: "+1-690-617-3410"
-        }
-      }
-    ],
-    title: "Dreamlike Embrace of the Steel & Spirit Metropolis",
-    description: "Let the waves lead you from New York City on this tranquil elevation. Traverse the iconic waters of East Coast USA and discover the beauty of Dubrovnik, Barcelona.",
-    rating: 4.3,
-    tags: ["sightseeing","seasonal","cruise"]
-  },
-  {
-    basePrice: 7898,
-    departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    arrivalLocation: {
-  "city": "Dubrovnik",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "expedition",
-    itinerary: {
-      route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Unwind and explore on this panorama through East Coast USA, departing from New York City. With every stop—from Barcelona to Dubrovnik—you’ll collect memories that last a lifetime.",
-      distance: "859 nautical miles",
-      totalDuration: "9 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from New York City to Barcelona"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from Barcelona to Athens"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Athens to Dubrovnik"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Dubrovnik"
-  }
-]
-    },
-    tourCategoryId: "holiday-cruise",
-    contactPersonnel: [
-      {
-        name: "Jennifer Day",
-        role: "Marketing Coordinator",
-        languages: ["Indonesian","Gujarati","Bengali"],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
-        contact: {
-          contactEmail: "epic.symphony.of.the@velarivoyages.com",
-          contactNumber: "+1-669-204-1530"
-        }
-      }
-    ],
-    title: "Epic Symphony of the Steel & Spirit Metropolis",
-    description: "Unwind and explore on this panorama through East Coast USA, departing from New York City. With every stop—from Barcelona to Dubrovnik—you’ll collect memories that last a lifetime.",
-    rating: 4.4,
-    tags: ["seasonal","cruise"]
-  },
-  {
-    basePrice: 4724,
-    departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    arrivalLocation: {
-  "city": "Santorini",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "mainstream",
-    itinerary: {
-      route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Let the spirit of exploration guide your velvet journey from New York City. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Malta, Santorini.",
-      distance: "1320 nautical miles",
-      totalDuration: "9 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from New York City to Malta"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Malta to Santorini"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Santorini"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring New York City",
+        },
+        {
+          start: "Day 5",
+          end: "Day 5",
+          duration: "1 days",
+          description: "Exploring Athens",
+        },
+        {
+          start: "Day 7",
+          end: "Day 8",
+          duration: "2 days",
+          description: "Exploring Florence",
+        },
+        {
+          start: "Day 10",
+          end: "Day 10",
+          duration: "1 days",
+          description: "Exploring Lisbon",
+        },
+        {
+          start: "Day 12",
+          end: "Day 12",
+          duration: "1 days",
+          description: "Exploring Milan",
+        },
+      ],
     },
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Virginia Gardner",
-        role: "Marketing Coordinator",
-        languages: ["Indonesian","Gujarati","Bengali"],
-        experienceYears: 12,
-        profileImage: "https://randomuser.me/api/portraits/women/25.jpg",
+        name: "Richard Bennett",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["English", "Haitian", "Portuguese", "Spanish", "Aymara"], // Use the properly generated languages list
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/men/76.jpg",
         contact: {
-          contactEmail: "enchanting.serenade.@velarivoyages.com",
-          contactNumber: "+1-888-554-4925"
-        }
-      }
+          contactEmail: "whispering.reflectio@velarivoyages.com",
+          contactNumber: "+1-197-531-7844",
+        },
+      },
     ],
-    title: "Enchanting Serenade of the Harbor-Lit Evenings",
-    description: "Let the spirit of exploration guide your velvet journey from New York City. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Malta, Santorini.",
+    title: "Whispering Reflection of the Founding Footsteps",
+    description:
+      "This inspiring sanctuary departs from New York City, navigating the diverse landscapes and vibrant cities of East Coast USA. Must-see stops include Athens, Florence, Lisbon, Milan.",
     rating: 4.5,
-    tags: ["cruise-ship"]
+    tags: ["romantic"],
   },
   {
-    basePrice: 9540,
+    basePrice: 8558,
     departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
+      city: "New York City",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 40.7128,
+        longitude: -74.006,
+      },
+    },
     arrivalLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
+      city: "Barcelona",
+      country: "Spain",
+      coordinates: {
+        latitude: 41.390205,
+        longitude: 2.154007,
+      },
+    },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "premium",
+    category: "entry-luxury",
     itinerary: {
       route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  }
-],
-      description: "Escape into the calm waters of East Coast USA with this infinite journey from New York City. Explore vibrant markets, sun-soaked beaches, and architectural marvels at Santorini, Dubrovnik, Barcelona.",
-      distance: "796 nautical miles",
-      totalDuration: "14 days",
+        {
+          city: "New York City",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 40.7128,
+            longitude: -74.006,
+          },
+        },
+        {
+          city: "Athens",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Santorini",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Barcelona",
+          country: "Spain",
+          coordinates: {
+            latitude: 41.390205,
+            longitude: 2.154007,
+          },
+        },
+      ],
+      description:
+        "From the lively departure port of New York City, this curated elevation showcases the finest of East Coast USA. With visits to Athens, Santorini, Barcelona, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+      distance: "1212 nautical miles",
+      totalDuration: "9 days",
       timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from New York City to Santorini"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Dubrovnik"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from Dubrovnik to Barcelona"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Sailing from Barcelona to New York City"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 3",
+          duration: "1 days",
+          description: "Sailing from New York City to Athens",
+        },
+        {
+          start: "Day 5",
+          end: "Day 5",
+          duration: "1 days",
+          description: "Sailing from Athens to Santorini",
+        },
+        {
+          start: "Day 8",
+          end: "Day 8",
+          duration: "1 days",
+          description: "Sailing from Santorini to Barcelona",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 14",
-    "duration": "1 days",
-    "description": "Exploring New York City"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring New York City",
+        },
+        {
+          start: "Day 4",
+          end: "Day 4",
+          duration: "1 days",
+          description: "Exploring Athens",
+        },
+        {
+          start: "Day 6",
+          end: "Day 7",
+          duration: "2 days",
+          description: "Exploring Santorini",
+        },
+        {
+          start: "Day 9",
+          end: "Day 9",
+          duration: "1 days",
+          description: "Exploring Barcelona",
+        },
+      ],
     },
     tourCategoryId: "anniversary-cruise",
     contactPersonnel: [
       {
-        name: "Harper Knight",
-        role: "Marketing Coordinator",
-        languages: ["Indonesian","Gujarati","Bengali"],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
+        name: "Rajesh Dean",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["English", "Haitian", "Portuguese", "Spanish", "Aymara"], // Use the properly generated languages list
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/men/80.jpg",
         contact: {
-          contactEmail: "lavish.elevation.of.@velarivoyages.com",
-          contactNumber: "+1-836-290-1025"
-        }
-      }
+          contactEmail: "midnight.lullaby.of.@velarivoyages.com",
+          contactNumber: "+1-162-741-1001",
+        },
+      },
     ],
-    title: "Lavish Elevation of the Big Apple",
-    description: "Escape into the calm waters of East Coast USA with this infinite journey from New York City. Explore vibrant markets, sun-soaked beaches, and architectural marvels at Santorini, Dubrovnik, Barcelona.",
-    rating: 4.5,
-    tags: ["glacier-cruise","family-friendly","anniversary-cruise"]
+    title: "Midnight Lullaby of the Empire Gateway",
+    description:
+      "From the lively departure port of New York City, this curated elevation showcases the finest of East Coast USA. With visits to Athens, Santorini, Barcelona, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+    rating: 4.3,
+    tags: ["romantic", "long-distance"],
   },
   {
-    basePrice: 4689,
+    basePrice: 4806,
     departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    arrivalLocation: {
-  "city": "Rome",
-  "country": "Italy",
-  "coordinates": {
-    "latitude": 41.9028,
-    "longitude": 12.4964
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  }
-],
-      description: "This inspiring reflection departs from New York City, navigating the diverse landscapes and vibrant cities of East Coast USA. Must-see stops include Athens, Barcelona, Dubrovnik, Rome.",
-      distance: "1197 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from New York City to Athens"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Athens to Barcelona"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from Barcelona to Dubrovnik"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Sailing from Dubrovnik to Rome"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  }
-]
+      city: "New York City",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 40.7128,
+        longitude: -74.006,
+      },
     },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Melissa Watson",
-        role: "Marketing Coordinator",
-        languages: ["Indonesian","Gujarati","Bengali"],
-        experienceYears: 12,
-        profileImage: "https://randomuser.me/api/portraits/women/96.jpg",
-        contact: {
-          contactEmail: "majestic.legacy.of.t@velarivoyages.com",
-          contactNumber: "+1-287-605-7853"
-        }
-      }
-    ],
-    title: "Majestic Legacy of the Sky-Bound Collage",
-    description: "This inspiring reflection departs from New York City, navigating the diverse landscapes and vibrant cities of East Coast USA. Must-see stops include Athens, Barcelona, Dubrovnik, Rome.",
-    rating: 4.2,
-    tags: ["wildlife"]
-  },
-  {
-    basePrice: 8812,
-    departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
     arrivalLocation: {
-  "city": "Santorini",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium",
-    itinerary: {
-      route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "An unforgettable currents awaits as you cruise from New York City across East Coast USA. Dive into history, flavor, and culture with stops including Mykonos, Santorini.",
-      distance: "1477 nautical miles",
-      totalDuration: "7 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from New York City to Mykonos"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Sailing from Mykonos to Santorini"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Exploring Santorini"
-  }
-]
+      city: "New York City",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 40.7128,
+        longitude: -74.006,
+      },
     },
-    tourCategoryId: "holiday-cruise",
-    contactPersonnel: [
-      {
-        name: "Leah Sutton",
-        role: "Marketing Coordinator",
-        languages: ["Indonesian","Gujarati","Bengali"],
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
-        contact: {
-          contactEmail: "radiancedrenched.res@velarivoyages.com",
-          contactNumber: "+1-572-183-8564"
-        }
-      }
-    ],
-    title: "Radiance-Drenched Resonance of the Empire Gateway",
-    description: "An unforgettable currents awaits as you cruise from New York City across East Coast USA. Dive into history, flavor, and culture with stops including Mykonos, Santorini.",
-    rating: 4.0,
-    tags: ["cruise-excursion","culinary","holiday-cruise"]
-  },
-  {
-    basePrice: 4218,
-    departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    arrivalLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
     category: "ultra-luxury",
     itinerary: {
       route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  }
-],
-      description: "Step aboard in New York City and begin a velvet journey through the scenic East Coast USA. From historic cities to coastal hideaways like Malta, Santorini, Rome, every day is unforgettable.",
-      distance: "567 nautical miles",
+        {
+          city: "New York City",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 40.7128,
+            longitude: -74.006,
+          },
+        },
+        {
+          city: "Venice",
+          country: "Italy",
+          coordinates: {
+            latitude: 45.4408,
+            longitude: 12.3155,
+          },
+        },
+        {
+          city: "Dubrovnik",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Milan",
+          country: "Italy",
+          coordinates: {
+            latitude: 45.4642,
+            longitude: 9.19,
+          },
+        },
+        {
+          city: "Athens",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "New York City",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 40.7128,
+            longitude: -74.006,
+          },
+        },
+      ],
+      description:
+        "Let the waves lead you from New York City on this captivating excursion. Traverse the iconic waters of East Coast USA and discover the beauty of Venice, Dubrovnik, Milan, Athens.",
+      distance: "1230 nautical miles",
       totalDuration: "15 days",
       timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from New York City to Malta"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from Malta to Santorini"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Rome"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 14",
-    "duration": "1 days",
-    "description": "Sailing from Rome to New York City"
-  }
-],
+        {
+          start: "Day 2",
+          end: "Day 2",
+          duration: "1 days",
+          description: "Sailing from New York City to Venice",
+        },
+        {
+          start: "Day 5",
+          end: "Day 5",
+          duration: "1 days",
+          description: "Sailing from Venice to Dubrovnik",
+        },
+        {
+          start: "Day 7",
+          end: "Day 8",
+          duration: "2 days",
+          description: "Sailing from Dubrovnik to Milan",
+        },
+        {
+          start: "Day 10",
+          end: "Day 10",
+          duration: "1 days",
+          description: "Sailing from Milan to Athens",
+        },
+        {
+          start: "Day 13",
+          end: "Day 14",
+          duration: "2 days",
+          description: "Sailing from Athens to New York City",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 15",
-    "duration": "1 days",
-    "description": "Exploring New York City"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 1",
+          duration: "1 days",
+          description: "Exploring New York City",
+        },
+        {
+          start: "Day 3",
+          end: "Day 4",
+          duration: "2 days",
+          description: "Exploring Venice",
+        },
+        {
+          start: "Day 6",
+          end: "Day 6",
+          duration: "1 days",
+          description: "Exploring Dubrovnik",
+        },
+        {
+          start: "Day 9",
+          end: "Day 9",
+          duration: "1 days",
+          description: "Exploring Milan",
+        },
+        {
+          start: "Day 11",
+          end: "Day 12",
+          duration: "2 days",
+          description: "Exploring Athens",
+        },
+        {
+          start: "Day 15",
+          end: "Day 15",
+          duration: "1 days",
+          description: "Exploring New York City",
+        },
+      ],
     },
     tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Michelle Coleman",
-        role: "Marketing Coordinator",
-        languages: ["Indonesian","Gujarati","Bengali"],
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
+        name: "Jeremy Maxwell",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["English", "Haitian", "Portuguese", "Spanish", "Aymara"], // Use the properly generated languages list
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
         contact: {
-          contactEmail: "timeless.wanderlust.@velarivoyages.com",
-          contactNumber: "+1-816-507-3099"
-        }
-      }
+          contactEmail: "immersive.sojourn.of@velarivoyages.com",
+          contactNumber: "+1-380-566-5845",
+        },
+      },
     ],
-    title: "Timeless Wanderlust of the Big Apple",
-    description: "Step aboard in New York City and begin a velvet journey through the scenic East Coast USA. From historic cities to coastal hideaways like Malta, Santorini, Rome, every day is unforgettable.",
-    rating: 4.8,
-    tags: ["long-distance","repositioning"]
-  },
-  {
-    basePrice: 8106,
-    departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    arrivalLocation: {
-  "city": "Malta",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "premium",
-    itinerary: {
-      route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Set sail from historic New York City for a modern escape into the East Coast USA. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Athens, Mykonos, Rome, Malta.",
-      distance: "839 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from New York City to Athens"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Sailing from Athens to Mykonos"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Mykonos to Rome"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Sailing from Rome to Malta"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring Malta"
-  }
-]
-    },
-    tourCategoryId: "luxury-cruise",
-    contactPersonnel: [
-      {
-        name: "Kinsley Porter",
-        role: "Marketing Coordinator",
-        languages: ["Indonesian","Gujarati","Bengali"],
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/women/17.jpg",
-        contact: {
-          contactEmail: "forbidden.awakening.@velarivoyages.com",
-          contactNumber: "+1-684-455-6232"
-        }
-      }
-    ],
-    title: "Forbidden Awakening of the City of Never",
-    description: "Set sail from historic New York City for a modern escape into the East Coast USA. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Athens, Mykonos, Rome, Malta.",
-    rating: 4.8,
-    tags: ["historical","luxury","wildlife"]
-  },
-  {
-    basePrice: 8162,
-    departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    arrivalLocation: {
-  "city": "Mykonos",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "An unforgettable requiem awaits as you cruise from New York City across East Coast USA. Dive into history, flavor, and culture with stops including Rome, Barcelona, Mykonos.",
-      distance: "707 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from New York City to Rome"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Rome to Barcelona"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Barcelona to Mykonos"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring Mykonos"
-  }
-]
-    },
-    tourCategoryId: "weekend-cruise",
-    contactPersonnel: [
-      {
-        name: "Donna Clark",
-        role: "Marketing Coordinator",
-        languages: ["Indonesian","Gujarati","Bengali"],
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/women/30.jpg",
-        contact: {
-          contactEmail: "secret.currents.of.t@velarivoyages.com",
-          contactNumber: "+1-749-361-6478"
-        }
-      }
-    ],
-    title: "Secret Currents of the City of Never",
-    description: "An unforgettable requiem awaits as you cruise from New York City across East Coast USA. Dive into history, flavor, and culture with stops including Rome, Barcelona, Mykonos.",
-    rating: 4.2,
-    tags: ["weekend-cruise"]
-  },
-  {
-    basePrice: 7310,
-    departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    arrivalLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "expedition",
-    itinerary: {
-      route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  }
-],
-      description: "From the lively departure port of New York City, this curated haven showcases the finest of East Coast USA. With visits to Barcelona, Dubrovnik, Mykonos, Rome, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
-      distance: "508 nautical miles",
-      totalDuration: "18 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from New York City to Barcelona"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Barcelona to Dubrovnik"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Dubrovnik to Mykonos"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Sailing from Mykonos to Rome"
-  },
-  {
-    "start": "Day 16",
-    "end": "Day 17",
-    "duration": "2 days",
-    "description": "Sailing from Rome to New York City"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 18",
-    "end": "Day 18",
-    "duration": "1 days",
-    "description": "Exploring New York City"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Allison Knight",
-        role: "Marketing Coordinator",
-        languages: ["Tamil","Dutch","Gujarati"],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/women/9.jpg",
-        contact: {
-          contactEmail: "pearlescent.panorama@velarivoyages.com",
-          contactNumber: "+1-840-790-1668"
-        }
-      }
-    ],
-    title: "Pearlescent Panorama of the Sky-Bound Collage",
-    description: "From the lively departure port of New York City, this curated haven showcases the finest of East Coast USA. With visits to Barcelona, Dubrovnik, Mykonos, Rome, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+    title: "Immersive Sojourn of the Big Apple",
+    description:
+      "Let the waves lead you from New York City on this captivating excursion. Traverse the iconic waters of East Coast USA and discover the beauty of Venice, Dubrovnik, Milan, Athens.",
     rating: 4.9,
-    tags: ["weekend-cruise"]
+    tags: ["cruise-getaway", "historical", "seasonal"],
   },
   {
-    basePrice: 2989,
+    basePrice: 5185,
     departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
+      city: "New York City",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 40.7128,
+        longitude: -74.006,
+      },
+    },
     arrivalLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
+      city: "Rome",
+      country: "Italy",
+      coordinates: {
+        latitude: 41.9028,
+        longitude: 12.4964,
+      },
+    },
     isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "ultra-luxury",
     itinerary: {
       route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  }
-],
-      description: "Begin your journey in New York City, where tradition meets travel. This immersive embrace reveals the finest of East Coast USA, from the beaches of Athens to the streets of Santorini.",
-      distance: "597 nautical miles",
-      totalDuration: "14 days",
+        {
+          city: "New York City",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 40.7128,
+            longitude: -74.006,
+          },
+        },
+        {
+          city: "Mykonos",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Florence",
+          country: "Italy",
+          coordinates: {
+            latitude: 43.769562,
+            longitude: 11.255814,
+          },
+        },
+        {
+          city: "Rome",
+          country: "Italy",
+          coordinates: {
+            latitude: 41.9028,
+            longitude: 12.4964,
+          },
+        },
+      ],
+      description:
+        "Your oasis begins in New York City, where every sunset on the East Coast USA horizon promises another day of discovery—from Mykonos, Florence, Rome to hidden ports of charm.",
+      distance: "684 nautical miles",
+      totalDuration: "10 days",
       timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from New York City to Athens"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Athens to Santorini"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Malta"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Sailing from Malta to New York City"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 3",
+          duration: "1 days",
+          description: "Sailing from New York City to Mykonos",
+        },
+        {
+          start: "Day 5",
+          end: "Day 6",
+          duration: "2 days",
+          description: "Sailing from Mykonos to Florence",
+        },
+        {
+          start: "Day 8",
+          end: "Day 8",
+          duration: "1 days",
+          description: "Sailing from Florence to Rome",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
-    "duration": "2 days",
-    "description": "Exploring New York City"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring New York City",
+        },
+        {
+          start: "Day 4",
+          end: "Day 4",
+          duration: "1 days",
+          description: "Exploring Mykonos",
+        },
+        {
+          start: "Day 7",
+          end: "Day 7",
+          duration: "1 days",
+          description: "Exploring Florence",
+        },
+        {
+          start: "Day 9",
+          end: "Day 10",
+          duration: "2 days",
+          description: "Exploring Rome",
+        },
+      ],
     },
-    tourCategoryId: "general-cruise",
+    tourCategoryId: "vip-cruise",
     contactPersonnel: [
       {
-        name: "Amy Wells",
-        role: "Marketing Coordinator",
-        languages: ["Tamil","Dutch","Gujarati"],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/women/8.jpg",
+        name: "Gary Chambers",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["English", "Haitian", "Portuguese", "Spanish", "Aymara"], // Use the properly generated languages list
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/men/24.jpg",
         contact: {
-          contactEmail: "sublime.embrace.of.t@velarivoyages.com",
-          contactNumber: "+1-354-775-1096"
-        }
-      }
+          contactEmail: "forbidden.mystique.o@velarivoyages.com",
+          contactNumber: "+1-163-953-7694",
+        },
+      },
     ],
-    title: "Sublime Embrace of the Gotham Pulse",
-    description: "Begin your journey in New York City, where tradition meets travel. This immersive embrace reveals the finest of East Coast USA, from the beaches of Athens to the streets of Santorini.",
-    rating: 4.2,
-    tags: ["seasonal","short-getaway","cruise-line"]
+    title: "Forbidden Mystique of the Big Apple",
+    description:
+      "Your oasis begins in New York City, where every sunset on the East Coast USA horizon promises another day of discovery—from Mykonos, Florence, Rome to hidden ports of charm.",
+    rating: 4.8,
+    tags: ["VIP", "nature", "general"],
   },
   {
-    basePrice: 3471,
+    basePrice: 7097,
     departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
+      city: "New York City",
+      country: "United States",
+      region: "East Coast USA",
+      coordinates: {
+        latitude: 40.7128,
+        longitude: -74.006,
+      },
+    },
     arrivalLocation: {
-  "city": "Santorini",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
+      city: "Lisbon",
+      country: "Portugal",
+      coordinates: {
+        latitude: 38.7169,
+        longitude: -9.1399,
+      },
+    },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
+    hasPopularDestination: true,
     category: "entry-luxury",
     itinerary: {
       route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Let the winds of the East Coast USA carry you from New York City to the most stunning ports in the region. With destinations like Mykonos, Santorini, this eclipse redefines luxury travel.",
-      distance: "922 nautical miles",
-      totalDuration: "8 days",
+        {
+          city: "New York City",
+          country: "United States",
+          region: "East Coast USA",
+          coordinates: {
+            latitude: 40.7128,
+            longitude: -74.006,
+          },
+        },
+        {
+          city: "Mykonos",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Athens",
+          country: "",
+          coordinates: {
+            latitude: 0,
+            longitude: 0,
+          },
+        },
+        {
+          city: "Venice",
+          country: "Italy",
+          coordinates: {
+            latitude: 45.4408,
+            longitude: 12.3155,
+          },
+        },
+        {
+          city: "Lisbon",
+          country: "Portugal",
+          coordinates: {
+            latitude: 38.7169,
+            longitude: -9.1399,
+          },
+        },
+      ],
+      description:
+        "Set sail from New York City for a voyage like no other. From the picturesque landscapes of Mykonos to the lively ambiance of Athens, this pristine cruise will redefine your view of East Coast USA.",
+      distance: "857 nautical miles",
+      totalDuration: "15 days",
       timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from New York City to Mykonos"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Mykonos to Santorini"
-  }
-],
+        {
+          start: "Day 3",
+          end: "Day 4",
+          duration: "2 days",
+          description: "Sailing from New York City to Mykonos",
+        },
+        {
+          start: "Day 7",
+          end: "Day 7",
+          duration: "1 days",
+          description: "Sailing from Mykonos to Athens",
+        },
+        {
+          start: "Day 9",
+          end: "Day 10",
+          duration: "2 days",
+          description: "Sailing from Athens to Venice",
+        },
+        {
+          start: "Day 13",
+          end: "Day 14",
+          duration: "2 days",
+          description: "Sailing from Venice to Lisbon",
+        },
+      ],
       timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Santorini"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Stella Morgan",
-        role: "Marketing Coordinator",
-        languages: ["Tamil","Dutch","Gujarati"],
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/women/94.jpg",
-        contact: {
-          contactEmail: "gilded.panorama.of.t@velarivoyages.com",
-          contactNumber: "+1-852-916-7942"
-        }
-      }
-    ],
-    title: "Gilded Panorama of the Cobbled Seaside Towns",
-    description: "Let the winds of the East Coast USA carry you from New York City to the most stunning ports in the region. With destinations like Mykonos, Santorini, this eclipse redefines luxury travel.",
-    rating: 4.5,
-    tags: ["sightseeing"]
-  },
-  {
-    basePrice: 4347,
-    departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    arrivalLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Mykonos",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  }
-],
-      description: "Your journey through the East Coast USA begins in New York City, where elegance meets adventure. Explore the shores of Barcelona, Athens, Mykonos, with curated excursions and luxurious onboard amenities.",
-      distance: "911 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from New York City to Barcelona"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Barcelona to Athens"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from Athens to Mykonos"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from Mykonos to New York City"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring Mykonos"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring New York City"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Emily Grant",
-        role: "Marketing Coordinator",
-        languages: ["Tamil","Dutch","Gujarati"],
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
-        contact: {
-          contactEmail: "radiancedrenched.ref@velarivoyages.com",
-          contactNumber: "+1-847-561-4425"
-        }
-      }
-    ],
-    title: "Radiance-Drenched Reflection of the Steel & Spirit Metropolis",
-    description: "Your journey through the East Coast USA begins in New York City, where elegance meets adventure. Explore the shores of Barcelona, Athens, Mykonos, with curated excursions and luxurious onboard amenities.",
-    rating: 4.3,
-    tags: ["cruise-getaway","culinary","cruise-experience"]
-  },
-  {
-    basePrice: 1386,
-    departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    arrivalLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "premium",
-    itinerary: {
-      route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Lisbon",
-    "country": "Portugal",
-    "coordinates": {
-      "latitude": 38.7169,
-      "longitude": -9.1399
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  }
-],
-      description: "This opulent odyssey begins in New York City and ventures deep into the heart of East Coast USA. Wander through colorful markets, historic streets, and serene coastlines at Rome, Santorini, Lisbon, Malta.",
-      distance: "1155 nautical miles",
-      totalDuration: "20 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from New York City to Rome"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from Rome to Santorini"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from Santorini to Lisbon"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
-    "duration": "2 days",
-    "description": "Sailing from Lisbon to Malta"
-  },
-  {
-    "start": "Day 17",
-    "end": "Day 18",
-    "duration": "2 days",
-    "description": "Sailing from Malta to New York City"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Lisbon"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 16",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 19",
-    "end": "Day 20",
-    "duration": "2 days",
-    "description": "Exploring New York City"
-  }
-]
-    },
-    tourCategoryId: "luxury-cruise",
-    contactPersonnel: [
-      {
-        name: "Helen Nash",
-        role: "Cruise Specialist",
-        languages: ["Portuguese"],
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
-        contact: {
-          contactEmail: "panoramic.sojourn.of@velarivoyages.com",
-          contactNumber: "+1-912-980-2488"
-        }
-      }
-    ],
-    title: "Panoramic Sojourn of the City of Never",
-    description: "This opulent odyssey begins in New York City and ventures deep into the heart of East Coast USA. Wander through colorful markets, historic streets, and serene coastlines at Rome, Santorini, Lisbon, Malta.",
-    rating: 4.2,
-    tags: ["exclusive","cruise-getaway","family-friendly"]
-  },
-  {
-    basePrice: 3359,
-    departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    arrivalLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "luxury",
-    itinerary: {
-      route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "coordinates": {
-      "latitude": 41.390205,
-      "longitude": 2.154007
-    }
-  },
-  {
-    "city": "Venice",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 45.4408,
-      "longitude": 12.3155
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  }
-],
-      description: "Set sail from New York City on this timeless pulse through the heart of East Coast USA. Experience the perfect blend of relaxation and adventure as you explore Barcelona and Venice and Athens, with personalized service and unforgettable experiences awaiting at every port.",
-      distance: "1261 nautical miles",
-      totalDuration: "14 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from New York City to Barcelona"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Barcelona to Venice"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from Venice to Athens"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Sailing from Athens to New York City"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Barcelona"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Venice"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 14",
-    "duration": "1 days",
-    "description": "Exploring New York City"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Allison Chambers",
-        role: "Cruise Specialist",
-        languages: ["Portuguese"],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
-        contact: {
-          contactEmail: "opulent.solstice.of.@velarivoyages.com",
-          contactNumber: "+1-792-443-7797"
-        }
-      }
-    ],
-    title: "Opulent Solstice of the Patriot Ports",
-    description: "Set sail from New York City on this timeless pulse through the heart of East Coast USA. Experience the perfect blend of relaxation and adventure as you explore Barcelona and Venice and Athens, with personalized service and unforgettable experiences awaiting at every port.",
-    rating: 4.0,
-    tags: ["cruise-vacation"]
-  },
-  {
-    basePrice: 5018,
-    departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    arrivalLocation: {
-  "city": "Florence",
-  "country": "Italy",
-  "coordinates": {
-    "latitude": 43.769562,
-    "longitude": 11.255814
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "premium",
-    itinerary: {
-      route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Santorini",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Florence",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 43.769562,
-      "longitude": 11.255814
-    }
-  }
-],
-      description: "Embark on an unforgettable requiem from the vibrant port of New York City, where you'll discover hidden gems and iconic landmarks across the East Coast USA region. With stops at Santorini, Florence, this journey combines cultural immersion with breathtaking scenery.",
-      distance: "567 nautical miles",
-      totalDuration: "8 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from New York City to Santorini"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Santorini to Florence"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Santorini"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Florence"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Caroline Clark",
-        role: "Cruise Specialist",
-        languages: ["Portuguese"],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
-        contact: {
-          contactEmail: "luminous.requiem.of.@velarivoyages.com",
-          contactNumber: "+1-501-175-7832"
-        }
-      }
-    ],
-    title: "Luminous Requiem of the Founding Footsteps",
-    description: "Embark on an unforgettable requiem from the vibrant port of New York City, where you'll discover hidden gems and iconic landmarks across the East Coast USA region. With stops at Santorini, Florence, this journey combines cultural immersion with breathtaking scenery.",
-    rating: 4.4,
-    tags: ["cruise-vacation"]
-  },
-  {
-    basePrice: 4570,
-    departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    arrivalLocation: {
-  "city": "Malta",
-  "country": "",
-  "coordinates": {
-    "latitude": 0,
-    "longitude": 0
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium",
-    itinerary: {
-      route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Athens",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  }
-],
-      description: "Sail from New York City into a world of wonder. The East Coast USA beckons with unforgettable ports like Athens, Malta, where every view is picture-perfect and every moment is priceless.",
-      distance: "1493 nautical miles",
-      totalDuration: "9 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from New York City to Athens"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from Athens to Malta"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Athens"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  }
-]
-    },
-    tourCategoryId: "weekend-cruise",
-    contactPersonnel: [
-      {
-        name: "Eleanor Keller",
-        role: "Cruise Specialist",
-        languages: ["Portuguese"],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/85.jpg",
-        contact: {
-          contactEmail: "spectacular.escape.o@velarivoyages.com",
-          contactNumber: "+1-893-783-9447"
-        }
-      }
-    ],
-    title: "Spectacular Escape of the Patriot Ports",
-    description: "Sail from New York City into a world of wonder. The East Coast USA beckons with unforgettable ports like Athens, Malta, where every view is picture-perfect and every moment is priceless.",
-    rating: 4.6,
-    tags: ["weekend-cruise","cruise-getaway"]
-  },
-  {
-    basePrice: 7740,
-    departureLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    arrivalLocation: {
-  "city": "New York City",
-  "country": "United States",
-  "region": "East Coast USA",
-  "coordinates": {
-    "latitude": 40.7128,
-    "longitude": -74.006
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "expedition",
-    itinerary: {
-      route: [
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  },
-  {
-    "city": "Malta",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 41.9028,
-      "longitude": 12.4964
-    }
-  },
-  {
-    "city": "Florence",
-    "country": "Italy",
-    "coordinates": {
-      "latitude": 43.769562,
-      "longitude": 11.255814
-    }
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 0
-    }
-  },
-  {
-    "city": "New York City",
-    "country": "United States",
-    "region": "East Coast USA",
-    "coordinates": {
-      "latitude": 40.7128,
-      "longitude": -74.006
-    }
-  }
-],
-      description: "Begin a captivating currents through the East Coast USA, departing New York City. With visits to Malta, Rome, Florence, Dubrovnik, each day brings a new adventure and deeper connection to the region.",
-      distance: "1397 nautical miles",
-      totalDuration: "17 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from New York City to Malta"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from Malta to Rome"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from Rome to Florence"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Sailing from Florence to Dubrovnik"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
-    "description": "Sailing from Dubrovnik to New York City"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring New York City"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Malta"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Rome"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Florence"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Exploring Dubrovnik"
-  },
-  {
-    "start": "Day 16",
-    "end": "Day 17",
-    "duration": "2 days",
-    "description": "Exploring New York City"
-  }
-]
+        {
+          start: "Day 1",
+          end: "Day 2",
+          duration: "2 days",
+          description: "Exploring New York City",
+        },
+        {
+          start: "Day 5",
+          end: "Day 6",
+          duration: "2 days",
+          description: "Exploring Mykonos",
+        },
+        {
+          start: "Day 8",
+          end: "Day 8",
+          duration: "1 days",
+          description: "Exploring Athens",
+        },
+        {
+          start: "Day 11",
+          end: "Day 12",
+          duration: "2 days",
+          description: "Exploring Venice",
+        },
+        {
+          start: "Day 15",
+          end: "Day 15",
+          duration: "1 days",
+          description: "Exploring Lisbon",
+        },
+      ],
     },
     tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Jennifer Fisher",
-        role: "Cruise Specialist",
-        languages: ["Portuguese"],
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/women/52.jpg",
+        name: "Timothy Morgan",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["English", "Haitian", "Portuguese", "Spanish", "Aymara"], // Use the properly generated languages list
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/men/37.jpg",
         contact: {
-          contactEmail: "opulent.symphony.of.@velarivoyages.com",
-          contactNumber: "+1-565-186-7622"
-        }
-      }
+          contactEmail: "luminous.pilgrimage.@velarivoyages.com",
+          contactNumber: "+1-395-455-9167",
+        },
+      },
     ],
-    title: "Opulent Symphony of the Big Apple",
-    description: "Begin a captivating currents through the East Coast USA, departing New York City. With visits to Malta, Rome, Florence, Dubrovnik, each day brings a new adventure and deeper connection to the region.",
-    rating: 4.2,
-    tags: ["general"]
-  }
+    title: "Luminous Pilgrimage of the Gotham Pulse",
+    description:
+      "Set sail from New York City for a voyage like no other. From the picturesque landscapes of Mykonos to the lively ambiance of Athens, this pristine cruise will redefine your view of East Coast USA.",
+    rating: 4.4,
+    tags: ["repositioning", "long-distance", "cruise-holiday"],
+  },
 ];

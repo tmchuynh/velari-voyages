@@ -5,38 +5,115 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const vancouvermediterraneanPhoHouseTestimonials: Testimonial[] = [
   {
-    "quote": "Dining at Mediterranean Pho House means enjoying enchanting beverages, prompt attention, and a welcoming environment tailored for a memorable meal.",
-    "author": "Ella Miller",
-    "title": "Food Blogger",
-    "image": "/images/testimonials/person-3.jpg"
+    quote:
+      "Every dish at Mediterranean Pho House was brilliant, complemented by enthusiastic staff and a lively atmosphere.",
+    author: "Grace Davis",
+    title: "Gastronomy Enthusiast",
+    image: "/images/testimonials/person-7.jpg",
   },
   {
-    "quote": "The tempting tapas at Mediterranean Pho House kept us coming back for more, complemented perfectly by attentive staff and a appealing setting.",
-    "author": "Ava Young",
-    "title": "Luxury Travel Consultant",
-    "image": "/images/testimonials/person-2.jpg"
+    quote:
+      "At Mediterranean Pho House, expect enchanting tastes served by courteous professionals in a serene setting.",
+    author: "Benjamin Green",
+    title: "Travel Writer",
+    image: "/images/testimonials/person-4.jpg",
   },
   {
-    "quote": "Our meal at Mediterranean Pho House featured refreshing entrees, attentive exceptional staff, and a warm, peaceful environment.",
-    "author": "Emma Parker",
-    "title": "Cruise Traveler",
-    "image": "/images/testimonials/person-3.jpg"
+    quote:
+      "Experience remarkable treats and responsive staff in a charming setting when you visit Mediterranean Pho House.",
+    author: "Charlotte Garcia",
+    title: "Culinary Journalist",
   },
   {
-    "quote": "The offerings selection at Mediterranean Pho House is simply enchanting. Combined with skilled staff and a refined setting, it’s a top choice for discerning diners.",
-    "author": "Daniel Cooper",
-    "title": "Food & Wine Connoisseur"
+    quote:
+      "From appetizers to desserts, Mediterranean Pho House offers sumptuous meal in a comfortable space with charming service.",
+    author: "Grace Jones",
+    title: "Culinary Advisor",
   },
   {
-    "quote": "The gastronomic wonders at Mediterranean Pho House were absolutely wonderful! The service was diligent and the atmosphere was whimsical. Highly recommend!",
-    "author": "Chloe Brown",
-    "title": "Food Journalist",
-    "image": "/images/testimonials/person-8.jpg"
+    quote:
+      "From the first bite to the last, the entrees at Mediterranean Pho House impressed with exquisite flavors, matched by helpful service and a charming ambiance.",
+    author: "Joshua Hernandez",
+    title: "Gourmet Explorer",
   },
   {
-    "quote": "Mediterranean Pho House combines tempting dishes with kind hospitality in a ambient setting, perfect for any occasion.",
-    "author": "Elizabeth Young",
-    "title": "Travel Writer",
-    "image": "/images/testimonials/person-9.jpg"
-  }
+    quote:
+      "Exceptional fare paired with approachable service and a bustling atmosphere make Mediterranean Pho House a standout choice.",
+    author: "Joshua White",
+    title: "Culinary Critic",
+  },
+  {
+    quote:
+      "Mediterranean Pho House offers a charming menu and an equally remarkable staff. The lively vibe makes it perfect for any occasion.",
+    author: "Robert Evans",
+    title: "Food Photographer",
+  },
+  {
+    quote:
+      "We were impressed by the luscious quality of the flavors and the diligent attention from staff at Mediterranean Pho House. The sophisticated environment was the cherry on top.",
+    author: "Liam Robinson",
+    title: "Culinary Enthusiast",
+  },
+  {
+    quote:
+      "What a alluring dining experience at Mediterranean Pho House! The tastes exceeded our expectations, and the staff was knowledgeable. Will definitely return!",
+    author: "Jacob White",
+    title: "Recipe Developer",
+    image: "/images/testimonials/person-7.jpg",
+  },
+  {
+    quote:
+      "The delightful beverages at Mediterranean Pho House kept us coming back for more, complemented perfectly by dedicated staff and a vibrant setting.",
+    author: "Isabella Walker",
+    title: "Beverage Expert",
+  },
+  {
+    quote:
+      "Exceptional creations paired with efficient service and a charming atmosphere make Mediterranean Pho House a standout choice.",
+    author: "Lisa Evans",
+    title: "Restaurant Enthusiast",
+  },
+  {
+    quote:
+      "The beverages here are flavorful, prepared with care and served by respectful staff in a stylish setting.",
+    author: "Samantha Collins",
+    title: "Epicurean Specialist",
+    image: "/images/testimonials/person-10.jpg",
+  },
+  {
+    quote:
+      "Enjoy spectacular dishes and efficient attention in a bustling atmosphere at Mediterranean Pho House.",
+    author: "Grace Sanchez",
+    title: "Food Critic",
+  },
+  {
+    quote:
+      "Our dining experience at Mediterranean Pho House was marked by flavorful cuisine, welcoming service, and a charming atmosphere.",
+    author: "Samantha Baker",
+    title: "Culinary Expert",
+  },
+  {
+    quote:
+      "You’ll find heavenly treats at Mediterranean Pho House, supported by welcoming staff and a modern atmosphere that invites relaxation.",
+    author: "Amelia Stewart",
+    title: "Food Journalist",
+  },
+  {
+    quote:
+      "Dining at Mediterranean Pho House means enjoying delectable bites, punctual attention, and a cozy environment tailored for a memorable meal.",
+    author: "Joseph Edwards",
+    title: "Restaurant Enthusiast",
+  },
+  {
+    quote:
+      "Our dining experience at Mediterranean Pho House was marked by heavenly cuisine, dedicated service, and a traditional atmosphere.",
+    author: "Andrew Lewis",
+    title: "Culinary Expert",
+  },
+  {
+    quote:
+      "Whether it's the tastes or the warm staff, everything at Mediterranean Pho House is flavorful and enhanced by a sophisticated environment.",
+    author: "Benjamin King",
+    title: "Gastronomic Critic",
+  },
 ];

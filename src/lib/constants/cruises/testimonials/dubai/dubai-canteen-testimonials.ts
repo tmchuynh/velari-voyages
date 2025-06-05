@@ -5,34 +5,116 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const dubaidubaiCanteenTestimonials: Testimonial[] = [
   {
-    "quote": "At Dubai Canteen, every detail from superb gastronomic delights to exceptional service and upscale atmosphere is thoughtfully crafted.",
-    "author": "Matthew King",
-    "title": "Recipe Developer"
+    quote:
+      "From the moment we arrived, Dubai Canteen impressed with wonderful treats, attentive service, and a traditional ambiance.",
+    author: "Grace Garcia",
+    title: "Culinary Educator",
+    image: "/images/testimonials/person-12.jpg",
   },
   {
-    "quote": "If you're looking for enjoyable gastronomic wonders, Dubai Canteen delivers with impeccable enthusiastic service and a intimate environment.",
-    "author": "Madison Clark",
-    "title": "Gastronomic Writer"
+    quote:
+      "The food selection at Dubai Canteen is sumptuous, complemented by prompt service and a charming ambiance that impresses.",
+    author: "Benjamin Scott",
+    title: "Travel Writer",
   },
   {
-    "quote": "Our visit to Dubai Canteen was outstanding. The tapas were pleasurable, the staff superb, and the atmosphere airy. A must-visit!",
-    "author": "Ethan Scott",
-    "title": "Dining Columnist"
+    quote:
+      "For a memorable dining experience, Dubai Canteen offers inviting food, charming service, and a appealing environment.",
+    author: "Jennifer Edwards",
+    title: "Wine Sommelier",
   },
   {
-    "quote": "Our experience at Dubai Canteen was elevated by mouthwatering flavors, prompt hospitality, and a luxurious dining room.",
-    "author": "Joshua Young",
-    "title": "Travel Writer"
+    quote:
+      "Exceptional gastronomic wonders paired with thorough service and a relaxed atmosphere make Dubai Canteen a standout choice.",
+    author: "Abigail Garcia",
+    title: "Gourmet Explorer",
   },
   {
-    "quote": "Every dish at Dubai Canteen was exceptional, complemented by outstanding staff and a upscale atmosphere.",
-    "author": "Michael Green",
-    "title": "Culinary Expert",
-    "image": "/images/testimonials/person-5.jpg"
+    quote:
+      "I can't say enough about the savory delights at Dubai Canteen. The kind service and upscale ambiance made for a perfect night out.",
+    author: "John Collins",
+    title: "Cooking Aficionado",
   },
   {
-    "quote": "For those who appreciate tempting cuisine, Dubai Canteen offers flavors that satisfy, alongside stellar service and a chic vibe.",
-    "author": "Olivia Jones",
-    "title": "Food Journalist"
-  }
+    quote:
+      "We were impressed by the yummy quality of the tastes and the inviting attention from staff at Dubai Canteen. The chic environment was the cherry on top.",
+    author: "Ethan Allen",
+    title: "Travel Writer",
+  },
+  {
+    quote:
+      "You’ll find a delightful selection of remarkable specialties, paired with top-notch service and a serene environment at Dubai Canteen.",
+    author: "Joshua Wilson",
+    title: "Menu Analyst",
+  },
+  {
+    quote:
+      "From the moment we arrived, Dubai Canteen impressed with heavenly beverages, attentive service, and a charming ambiance.",
+    author: "Abigail Edwards",
+    title: "Menu Analyst",
+  },
+  {
+    quote:
+      "Dubai Canteen has the most enticing delicacies I've ever tasted. The relaxing atmosphere made our evening special, and the service was efficient.",
+    author: "Abigail Perez",
+    title: "Gastronomy Enthusiast",
+  },
+  {
+    quote:
+      "I can't say enough about the scrumptious entrees at Dubai Canteen. The outstanding service and upscale ambiance made for a perfect night out.",
+    author: "William Phillips",
+    title: "Culinary Enthusiast",
+    image: "/images/testimonials/person-7.jpg",
+  },
+  {
+    quote:
+      "Dining at Dubai Canteen means enjoying enchanting flavors, reliable attention, and a inviting environment tailored for a memorable meal.",
+    author: "Michael Morris",
+    title: "Dining Columnist",
+    image: "/images/testimonials/person-8.jpg",
+  },
+  {
+    quote:
+      "From the first bite to the last, the treats at Dubai Canteen impressed with alluring flavors, matched by excellent service and a inviting ambiance.",
+    author: "Madison Hernandez",
+    title: "Food Blogger",
+  },
+  {
+    quote:
+      "You’ll find charming gastronomic sensations at Dubai Canteen, supported by knowledgeable staff and a ambient atmosphere that invites relaxation.",
+    author: "Chloe Evans",
+    title: "Lifestyle Influencer",
+    image: "/images/testimonials/person-11.jpg",
+  },
+  {
+    quote:
+      "If you value enticing treats with responsive staff and a inviting ambiance, Dubai Canteen delivers.",
+    author: "Hannah Nelson",
+    title: "Luxury Travel Consultant",
+  },
+  {
+    quote:
+      "If you value irresistible culinary delights with efficient staff and a charming ambiance, Dubai Canteen delivers.",
+    author: "Robert Parker",
+    title: "Food Blogger",
+  },
+  {
+    quote:
+      "From start to finish, Dubai Canteen offers delectable desserts, attentive wonderful service, and a airy environment.",
+    author: "Isabella Carter",
+    title: "Gastronomy Enthusiast",
+  },
+  {
+    quote:
+      "What a refreshing dining experience at Dubai Canteen! The specialties exceeded our expectations, and the staff was superior. Will definitely return!",
+    author: "Emma Smith",
+    title: "Travel Writer",
+  },
+  {
+    quote:
+      "Dubai Canteen offers a satisfying menu and an equally efficient staff. The upscale vibe makes it perfect for any occasion.",
+    author: "Emily Johnson",
+    title: "Food Writer",
+    image: "/images/testimonials/person-2.jpg",
+  },
 ];

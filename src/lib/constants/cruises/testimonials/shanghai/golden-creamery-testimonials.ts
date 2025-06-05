@@ -5,36 +5,117 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const shanghaigoldenCreameryTestimonials: Testimonial[] = [
   {
-    "quote": "The courses at Golden Creamery are consistently enchanting, accompanied by dedicated staff and a refined setting.",
-    "author": "Sophia Wilson",
-    "title": "Food Photographer"
+    quote:
+      "From start to finish, Golden Creamery offers mouthwatering menu items, attentive welcoming service, and a charming environment.",
+    author: "Grace Perez",
+    title: "Culinary Expert",
   },
   {
-    "quote": "You’ll find a delightful selection of enticing delicacies, paired with efficient service and a pleasant environment at Golden Creamery.",
-    "author": "Ethan Walker",
-    "title": "Culinary Explorer"
+    quote:
+      "Enjoy satisfying dishes and responsive attention in a inviting atmosphere at Golden Creamery.",
+    author: "Lisa Phillips",
+    title: "Culinary Blogger",
   },
   {
-    "quote": "Every dish we tried at Golden Creamery was sumptuous, paired perfectly with personalized service and a pleasant atmosphere that invites relaxation.",
-    "author": "Ethan Sanchez",
-    "title": "Restaurant Enthusiast"
+    quote:
+      "The dishes at Golden Creamery are consistently tasty, matched by attentive service and a whimsical ambiance.",
+    author: "Joseph Morgan",
+    title: "Culinary Explorer",
+    image: "/images/testimonials/person-8.jpg",
   },
   {
-    "quote": "If you value refreshing menu items with engaging staff and a bohemian ambiance, Golden Creamery delivers.",
-    "author": "Nicholas Stewart",
-    "title": "Culinary Specialist",
-    "image": "/images/testimonials/person-4.jpg"
+    quote:
+      "The culinary creations selection at Golden Creamery is great, served with gracious care in a traditional ambiance.",
+    author: "Laura Martinez",
+    title: "Gastronomic Critic",
+    image: "/images/testimonials/person-8.jpg",
   },
   {
-    "quote": "You’ll enjoy seductive treats and thoughtful service, all within a relaxed space at Golden Creamery.",
-    "author": "Ashley Cooper",
-    "title": "Gastronomic Critic",
-    "image": "/images/testimonials/person-10.jpg"
+    quote:
+      "The snacks selection at Golden Creamery is delicious, complemented by top-notch service and a cozy ambiance that impresses.",
+    author: "Anthony Parker",
+    title: "Beverage Expert",
   },
   {
-    "quote": "From start to finish, Golden Creamery offers superb treats, attentive impressive service, and a upscale environment.",
-    "author": "Laura Adams",
-    "title": "Culinary Instructor",
-    "image": "/images/testimonials/person-2.jpg"
-  }
+    quote:
+      "The seductive gastronomic sensations paired perfectly with the outstanding service and sophisticated ambiance at Golden Creamery.",
+    author: "Charlotte Green",
+    title: "Culinary Specialist",
+    image: "/images/testimonials/person-8.jpg",
+  },
+  {
+    quote:
+      "The enticing fare paired perfectly with the timely service and appealing ambiance at Golden Creamery.",
+    author: "Sophia Cook",
+    title: "Culinary Expert",
+  },
+  {
+    quote:
+      "The snacks selection at Golden Creamery is alluring, served with punctual care in a airy ambiance.",
+    author: "Andrew Evans",
+    title: "Culinary Expert",
+  },
+  {
+    quote:
+      "If you're looking for seductive gastronomic sensations, Golden Creamery delivers with impeccable courteous service and a chic environment.",
+    author: "Emily Cook",
+    title: "Culinary Expert",
+  },
+  {
+    quote:
+      "Dining at Golden Creamery was a seductive experience from start to finish. The courses delighted our palates, the service was excellent, and the intimate setting completed the evening.",
+    author: "Chloe Richardson",
+    title: "Culinary Historian",
+    image: "/images/testimonials/person-9.jpg",
+  },
+  {
+    quote:
+      "The combination of seductive gastronomic pleasures, diligent attention, and a delightful vibe makes Golden Creamery exceptional.",
+    author: "Charlotte Bailey",
+    title: "Culinary Expert",
+  },
+  {
+    quote:
+      "The offerings at Golden Creamery are thoughtfully prepared, awesome, and complemented by wonderful staff and a lively space.",
+    author: "Alexander Martin",
+    title: "Culinary Consultant",
+  },
+  {
+    quote:
+      "The exquisite snacks at Golden Creamery kept us coming back for more, complemented perfectly by respectful staff and a traditional setting.",
+    author: "David Scott",
+    title: "Food Photographer",
+  },
+  {
+    quote:
+      "The combination of yummy gastronomic sensations, efficient attention, and a intimate vibe makes Golden Creamery exceptional.",
+    author: "Joshua Lee",
+    title: "Culinary Enthusiast",
+  },
+  {
+    quote:
+      "From start to finish, Golden Creamery offers brilliant tastes, attentive charming service, and a vibrant environment.",
+    author: "Madison Lopez",
+    title: "Culinary Expert",
+    image: "/images/testimonials/person-6.jpg",
+  },
+  {
+    quote:
+      "Our meal at Golden Creamery featured marvelous fare, attentive personalized staff, and a warm, intimate environment.",
+    author: "William Garcia",
+    title: "Recipe Developer",
+    image: "/images/testimonials/person-4.jpg",
+  },
+  {
+    quote:
+      "For a exceptional meal with approachable service in a chic setting, Golden Creamery is the place to be.",
+    author: "Aiden Bailey",
+    title: "Food Critic",
+  },
+  {
+    quote:
+      "The drinks at Golden Creamery were absolutely tempting! The service was inviting and the atmosphere was ambient. Highly recommend!",
+    author: "Ava Smith",
+    title: "Culinary Reviewer",
+  },
 ];

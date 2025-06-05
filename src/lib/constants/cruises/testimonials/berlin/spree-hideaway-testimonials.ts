@@ -5,37 +5,115 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const berlinspreeHideawayTestimonials: Testimonial[] = [
   {
-    "quote": "Experience flavorful meal and superb staff in a rustic setting when you visit Spree Hideaway.",
-    "author": "Alexander Wilson",
-    "title": "Lifestyle Influencer",
-    "image": "/images/testimonials/person-9.jpg"
+    quote:
+      "The combination of exceptional dishes, helpful attention, and a peaceful vibe makes Spree Hideaway exceptional.",
+    author: "Michael Young",
+    title: "Gastronomic Writer",
   },
   {
-    "quote": "Spree Hideaway consistently delivers fantastic gastronomic sensations, attentive staff, and a whimsical ambiance to enjoy.",
-    "author": "Ella Roberts",
-    "title": "Culinary Enthusiast",
-    "image": "/images/testimonials/person-8.jpg"
+    quote:
+      "Spree Hideaway combines yummy dishes with charming hospitality in a serene setting, perfect for any occasion.",
+    author: "Olivia Thompson",
+    title: "Restaurant Reviewer",
   },
   {
-    "quote": "For those who appreciate sublime cuisine, Spree Hideaway offers culinary wonders that satisfy, alongside responsive service and a comfortable vibe.",
-    "author": "Charlotte Clark",
-    "title": "Food Critic",
-    "image": "/images/testimonials/person-12.jpg"
+    quote:
+      "Our visit to Spree Hideaway was outstanding. The bites were flavorful, the staff helpful, and the atmosphere cozy. A must-visit!",
+    author: "Matthew Brown",
+    title: "Culinary Expert",
   },
   {
-    "quote": "Our visit to Spree Hideaway was outstanding. The culinary wonders were exquisite, the staff approachable, and the atmosphere inviting. A must-visit!",
-    "author": "James Miller",
-    "title": "Dining Columnist"
+    quote:
+      "For exquisite food served with efficient care in a relaxing space, Spree Hideaway is unmatched.",
+    author: "Matthew Moore",
+    title: "Food & Wine Connoisseur",
   },
   {
-    "quote": "Our experience at Spree Hideaway was elevated by tasty dishes, accommodating hospitality, and a elegant dining room.",
-    "author": "Chloe Martin",
-    "title": "Gastronomy Enthusiast"
+    quote:
+      "The culinary masterpieces selection at Spree Hideaway is simply luscious. Combined with inviting staff and a modern setting, it’s a top choice for discerning diners.",
+    author: "Jacob Stewart",
+    title: "Food Photographer",
   },
   {
-    "quote": "I can't say enough about the excellent treats at Spree Hideaway. The respectful service and lively ambiance made for a perfect night out.",
-    "author": "Christopher Wright",
-    "title": "Culinary Blogger",
-    "image": "/images/testimonials/person-9.jpg"
-  }
+    quote:
+      "You’ll enjoy flavorful courses and reliable service, all within a rustic space at Spree Hideaway.",
+    author: "Mia White",
+    title: "Culinary Journalist",
+  },
+  {
+    quote:
+      "The gastronomic delights at Spree Hideaway are inviting, and the outstanding service creates an inviting charming experience.",
+    author: "Olivia Wilson",
+    title: "Travel Writer",
+  },
+  {
+    quote:
+      "The culinary delights selection at Spree Hideaway is delectable, complemented by inviting service and a modern ambiance that impresses.",
+    author: "William Collins",
+    title: "Food Blogger",
+  },
+  {
+    quote:
+      "For those who appreciate captivating cuisine, Spree Hideaway offers recipes that satisfy, alongside courteous service and a vibrant vibe.",
+    author: "Michael Jackson",
+    title: "Culinary Reviewer",
+    image: "/images/testimonials/person-8.jpg",
+  },
+  {
+    quote:
+      "If you value enchanting flavors with thoughtful staff and a charming ambiance, Spree Hideaway delivers.",
+    author: "Aiden Davis",
+    title: "Dining Columnist",
+  },
+  {
+    quote:
+      "From start to finish, Spree Hideaway offers appetizing snacks, attentive fantastic service, and a modern environment.",
+    author: "Samuel Lopez",
+    title: "Dining Columnist",
+    image: "/images/testimonials/person-6.jpg",
+  },
+  {
+    quote:
+      "At Spree Hideaway, expect divine delights served by efficient professionals in a intimate setting.",
+    author: "Sophia Clark",
+    title: "Gourmet Explorer",
+    image: "/images/testimonials/person-12.jpg",
+  },
+  {
+    quote:
+      "The delights selection at Spree Hideaway is delightful, complemented by gracious service and a charming ambiance that impresses.",
+    author: "Anthony Smith",
+    title: "Culinary Instructor",
+  },
+  {
+    quote:
+      "At Spree Hideaway, expect appetizing flavors served by thoughtful professionals in a elegant setting.",
+    author: "Sarah King",
+    title: "Food Blogger",
+  },
+  {
+    quote:
+      "Every visit to Spree Hideaway offers pleasing savors, skilled hospitality, and a welcoming intimate atmosphere.",
+    author: "Lisa Walker",
+    title: "Dining Columnist",
+  },
+  {
+    quote:
+      "The culinary creations selection at Spree Hideaway is pleasing, complemented by courteous service and a modern ambiance that impresses.",
+    author: "Anthony Wright",
+    title: "Food Writer",
+  },
+  {
+    quote:
+      "The gastronomic wonders selection at Spree Hideaway is simply appetizing. Combined with accommodating staff and a upscale setting, it’s a top choice for discerning diners.",
+    author: "Lisa Mitchell",
+    title: "Culinary Specialist",
+  },
+  {
+    quote:
+      "Enjoy satisfying dishes and friendly attention in a vibrant atmosphere at Spree Hideaway.",
+    author: "Ava Garcia",
+    title: "Food Blogger",
+    image: "/images/testimonials/person-1.jpg",
+  },
 ];

@@ -5,35 +5,117 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const bangkokgrandSalumeriaTestimonials: Testimonial[] = [
   {
-    "quote": "Grand Salumeria delivers spectacular treats, supported by exceptional staff and a vibrant atmosphere perfect for any occasion.",
-    "author": "Thomas Edwards",
-    "title": "Culinary Instructor"
+    quote:
+      "Dining at Grand Salumeria was a yummy experience from start to finish. The beverages delighted our palates, the service was gracious, and the casual setting completed the evening.",
+    author: "Emma Young",
+    title: "Culinary Expert",
+    image: "/images/testimonials/person-8.jpg",
   },
   {
-    "quote": "From the enticing tastes to the exceptional hospitality, Grand Salumeria provides a intimate dining experience worth savoring.",
-    "author": "Emma Lewis",
-    "title": "Food Critic"
+    quote:
+      "The drinks selection at Grand Salumeria is simply wonderful. Combined with engaging staff and a energetic setting, it’s a top choice for discerning diners.",
+    author: "Maria Lopez",
+    title: "Culinary Expert",
   },
   {
-    "quote": "Our experience at Grand Salumeria was elevated by incredible savors, supportive hospitality, and a luxurious dining room.",
-    "author": "Matthew Scott",
-    "title": "Luxury Travel Consultant"
+    quote:
+      "For a memorable dining experience, Grand Salumeria offers exceptional creations, impeccable service, and a rustic environment.",
+    author: "Olivia White",
+    title: "Culinary Advisor",
+    image: "/images/testimonials/person-8.jpg",
   },
   {
-    "quote": "We were impressed by the sumptuous quality of the gastronomic wonders and the timely attention from staff at Grand Salumeria. The chic environment was the cherry on top.",
-    "author": "Charlotte Young",
-    "title": "Wine Sommelier",
-    "image": "/images/testimonials/person-6.jpg"
+    quote:
+      "Our dining experience at Grand Salumeria was marked by sublime cuisine, outstanding service, and a modern atmosphere.",
+    author: "Abigail Baker",
+    title: "Cooking Aficionado",
   },
   {
-    "quote": "Grand Salumeria delivers flavorful tapas, supported by helpful staff and a relaxing atmosphere perfect for any occasion.",
-    "author": "Sophia Morgan",
-    "title": "Gourmet Explorer",
-    "image": "/images/testimonials/person-4.jpg"
+    quote:
+      "For a marvelous meal with superior service in a chic setting, Grand Salumeria is the place to be.",
+    author: "Chloe Bell",
+    title: "Epicurean Specialist",
   },
   {
-    "quote": "For those who appreciate alluring cuisine, Grand Salumeria offers treats that satisfy, alongside wonderful service and a rustic vibe.",
-    "author": "Michael Wright",
-    "title": "Food Photographer"
-  }
+    quote:
+      "The seductive flavors paired perfectly with the inviting service and refined ambiance at Grand Salumeria.",
+    author: "Lucas Cooper",
+    title: "Beverage Expert",
+    image: "/images/testimonials/person-8.jpg",
+  },
+  {
+    quote:
+      "Every dish we tried at Grand Salumeria was mouthwatering, paired perfectly with courteous service and a elegant atmosphere that invites relaxation.",
+    author: "David Lewis",
+    title: "Culinary Educator",
+    image: "/images/testimonials/person-12.jpg",
+  },
+  {
+    quote:
+      "The mouthwatering food at Grand Salumeria kept us coming back for more, complemented perfectly by friendly staff and a intimate setting.",
+    author: "Alexander Turner",
+    title: "Travel Writer",
+  },
+  {
+    quote:
+      "The offerings at Grand Salumeria are consistently flavorful, matched by courteous service and a elegant ambiance.",
+    author: "Samantha Nelson",
+    title: "Beverage Expert",
+  },
+  {
+    quote:
+      "If you're looking for enjoyable snacks, Grand Salumeria delivers with impeccable dedicated service and a tranquil environment.",
+    author: "Sophia Rivera",
+    title: "Restaurant Reviewer",
+  },
+  {
+    quote:
+      "The delights here are impressive, prepared with care and served by courteous staff in a casual setting.",
+    author: "James Johnson",
+    title: "Food Stylist",
+  },
+  {
+    quote:
+      "Dining at Grand Salumeria means enjoying exquisite treats, exemplary attention, and a traditional environment tailored for a memorable meal.",
+    author: "Hannah Lopez",
+    title: "Culinary Historian",
+  },
+  {
+    quote:
+      "Every dish we tried at Grand Salumeria was spectacular, paired perfectly with charming service and a relaxed atmosphere that invites relaxation.",
+    author: "Isabella Campbell",
+    title: "Lifestyle Influencer",
+  },
+  {
+    quote:
+      "From the excellent flavors to the attentive hospitality, Grand Salumeria provides a inviting dining experience worth savoring.",
+    author: "Andrew Garcia",
+    title: "Culinary Instructor",
+    image: "/images/testimonials/person-2.jpg",
+  },
+  {
+    quote:
+      "Every visit to Grand Salumeria delivers engaging savors, attentive trustworthy staff, and a delightful environment that welcomes you.",
+    author: "Matthew Smith",
+    title: "Culinary Explorer",
+  },
+  {
+    quote:
+      "Enjoy savory dishes and thoughtful attention in a airy atmosphere at Grand Salumeria.",
+    author: "Grace Moore",
+    title: "Food Writer",
+    image: "/images/testimonials/person-5.jpg",
+  },
+  {
+    quote:
+      "From the moment we arrived, Grand Salumeria impressed with heavenly snacks, attentive service, and a chic ambiance.",
+    author: "Daniel Rodriguez",
+    title: "Wine Sommelier",
+  },
+  {
+    quote:
+      "The recipes selection at Grand Salumeria is yummy, served with reliable care in a inviting ambiance.",
+    author: "Maria Smith",
+    title: "Wine Sommelier",
+  },
 ];
