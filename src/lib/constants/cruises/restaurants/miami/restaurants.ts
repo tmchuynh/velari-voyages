@@ -248,5 +248,160 @@ export const miamiRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "American Marketplace",
+    "description": "Located close to the old town walls, this Caribbean restaurant delights with its regional wines and friendly service.",
+    "cuisine": "Caribbean",
+    "priceRange": "$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "9:00-21:00",
+      "friday": "11:00-21:00",
+      "saturday": "9:00-19:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-228-8028",
+      "contactEmail": "communications@peruvianfarmtablemiami.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Caribbean Local",
+    "description": "Experience authentic Cuban cuisine with a local twist, featuring farm-to-table meals served in an atmosphere of seasonal floral displays overlooking the main square.",
+    "cuisine": "Cuban",
+    "priceRange": "$$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "Closed",
+      "wednesday": "10:00-22:00",
+      "thursday": "10:00-19:00",
+      "friday": "9:00-20:00",
+      "saturday": "9:00-20:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-146-7006",
+      "contactEmail": "contact@peruvianinnmiami.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Cuban Wine Bar",
+    "description": "This popular Italian establishment combines traditional recipes and heritage recipes, all served in a unique setting with artisan markets.",
+    "cuisine": "Italian",
+    "priceRange": "$$$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "Closed",
+      "thursday": "10:00-19:00",
+      "friday": "11:00-22:00",
+      "saturday": "10:00-22:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-488-8250",
+      "contactEmail": "welcome@italian&co.miami.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Caribbean Kitchen",
+    "description": "Located close to the main square, this Italian restaurant delights with its regional wines and live street performances.",
+    "cuisine": "Italian",
+    "priceRange": "$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "Closed",
+      "wednesday": "9:00-19:00",
+      "thursday": "Closed",
+      "friday": "9:00-22:00",
+      "saturday": "10:00-19:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-652-7633",
+      "contactEmail": "hi@cubancanteenmiami.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Italian Rooftop",
+    "description": "Experience authentic Italian cuisine with a local twist, featuring gourmet street food served in an atmosphere of ambient lighting overlooking the city museum.",
+    "cuisine": "Italian",
+    "priceRange": "$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "9:00-22:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "11:00-21:00",
+      "friday": "10:00-22:00",
+      "saturday": "10:00-21:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-116-6819",
+      "contactEmail": "hi@cubanoysterbarmiami.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
   }
 ];
