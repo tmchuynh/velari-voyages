@@ -1,8 +1,8 @@
 "use client";
 
+import RestaurantHours from "@/components/RestaurantHours";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
-import RestaurantHours from "@/components/ui/RestaurantHours";
 import {
   Tooltip,
   TooltipContent,
