@@ -85,7 +85,7 @@ export default function Cruises() {
     true,
     false,
     false,
-    true
+    true,
   );
 
   // Then apply popularity sorting if selected
@@ -222,7 +222,7 @@ export default function Cruises() {
                 router.push(
                   `/cruises/cruise-categories/velari-voyages-cruises/cruise/${
                     item.title
-                  }?${queryParams.toString()}`
+                  }?${queryParams.toString()}`,
                 );
               }}
             >
@@ -244,7 +244,7 @@ export default function Cruises() {
               className="mt-7"
               onClick={() =>
                 router.push(
-                  `/cruises/cruise-categories/velari-voyages-cruises/${item.departureLocation.country}/${item.departureLocation.city}?city=${item.departureLocation.city}&country=${item.departureLocation.country}`
+                  `/cruises/cruise-categories/velari-voyages-cruises/${item.departureLocation.country}/${item.departureLocation.city}?city=${item.departureLocation.city}&country=${item.departureLocation.country}`,
                 )
               }
             >
