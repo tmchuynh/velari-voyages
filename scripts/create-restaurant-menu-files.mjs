@@ -1801,6 +1801,110 @@ function generateCombinedMenuContent(
   restaurantCuisine,
   restaurant // Add the full restaurant object as a parameter
 ) {
+  const cityVar = toCamelCase(cityName);
+  const restaurantVar = toCamelCase(restaurantName);
+
+  // If restaurant is halal or kosher friendly, potentially filter out pork items (30% chance)
+  const shouldFilterPork =
+    (restaurant.isHalalFriendly || restaurant.isKosherFriendly) &&
+    Math.random() < 0.3;
+
+  if (shouldFilterPork) {
+    console.log(
+      `${restaurantName} will have pork items removed from its menu (halal/kosher friendly)`
+    );
+  }
+
+  // Generate menu items for each category with the restaurant properties
+  const signatureDishes = generateMenuItemsForType(
+    "signature dishes",
+    restaurantCuisine,
+    7,
+    restaurant
+  );
+  const chefsSpecials = generateMenuItemsForType(
+    "chef's specials",
+    restaurantCuisine,
+    5,
+    restaurant
+  );
+  const appetizers = generateMenuItemsForType(
+    "appetizers",
+    restaurantCuisine,
+    8,
+    restaurant
+  );
+  const salads = generateMenuItemsForType(
+    "salads",
+    restaurantCuisine,
+    5,
+    restaurant
+  );
+  const soups = generateMenuItemsForType(
+    "soups",
+    restaurantCuisine,
+    4,
+    restaurant
+  );
+  const mainCourses = generateMenuItemsForType(
+    "main courses",
+    restaurantCuisine,
+    8,
+    restaurant
+  );
+  const sideDishes = generateMenuItemsForType(
+    "side dishes",
+    restaurantCuisine,
+    6,
+    restaurant
+  );
+  const seafoodSpecialties = generateMenuItemsForType(
+    "seafood specialties",
+    restaurantCuisine,
+    5,
+    restaurant
+  );
+  const nonAlcoholicBeverages = generateMenuItemsForType(
+    "non-alcoholic beverages",
+    restaurantCuisine,
+    6,
+    restaurant
+  );
+
+  // Generate dessert menu categories
+  const frozenDesserts = generateMenuItemsForType(
+    "frozen desserts",
+    restaurantCuisine,
+    5,
+    restaurant
+  );
+  const bakedGoods = generateMenuItemsForType(
+    "baked goods",
+    restaurantCuisine,
+    5,
+    restaurant
+  );
+
+  // Generate alcohol categories
+  const cocktails = generateMenuItemsForType(
+    "signature cocktails",
+    restaurantCuisine,
+    7,
+    restaurant
+  );
+  const wines = generateMenuItemsForType(
+    "wine selection",
+    restaurantCuisine,
+    6,
+    restaurant
+  );
+  const spirits = generateMenuItemsForType(
+    "spirits and liqueurs",
+    restaurantCuisine,
+    5,
+    restaurant
+  );
+
   // Build menus array based on menu-type flag and excluded menu types
   let menus = [];
 
