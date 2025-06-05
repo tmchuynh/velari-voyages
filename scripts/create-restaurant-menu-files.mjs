@@ -26,8 +26,26 @@ import { fileURLToPath } from "url";
 // // Append to a specific category without regenerating the entire file
 // node scripts/create-restaurant-menu-files.mjs --append-category "Main Courses" --append-count 5 --restaurant "Bistro"
 
+// // CUSTOMIZATION OPTIONS:
+// // Exclude certain menu types (main, dessert, drinks)
+// node scripts/create-restaurant-menu-files.mjs --exclude-menu-types drinks --restaurant "Bistro"
+
+// // Exclude specific categories within menus
+// node scripts/create-restaurant-menu-files.mjs --exclude-categories "Soups,Chef's Specials,Seafood Specialties" --restaurant "Bistro"
+
+// // Set price range for the entire restaurant
+// node scripts/create-restaurant-menu-files.mjs --price-range budget --restaurant "Bistro"  // budget, standard, premium, luxury
+
+// // Create a restaurant with only vegan or vegetarian options
+// node scripts/create-restaurant-menu-files.mjs --dietary-focus vegan-only --restaurant "Green Garden"
+// node scripts/create-restaurant-menu-files.mjs --dietary-focus vegetarian-only --restaurant "Veggie Delight"
+
+// // Set restaurant style
+// node scripts/create-restaurant-menu-files.mjs --restaurant-style fine-dining --restaurant "Elegant Eats"
+// node scripts/create-restaurant-menu-files.mjs --restaurant-style adult-only --enhance-menu drinks --restaurant "Night Cap"
+
 // // Combining multiple options
-// node scripts/create-restaurant-menu-files.mjs --menu-type main --items 12 --restaurant "Seafood"
+// node scripts/create-restaurant-menu-files.mjs --menu-type main --items 12 --restaurant "Seafood" --price-range premium
 
 // Import minimist for command-line argument parsing
 import minimist from "minimist";
@@ -37,7 +55,18 @@ import { menuItems } from "../src/lib/constants/info/restaurants.js";
 
 // Parse command line arguments
 const args = minimist(process.argv.slice(2), {
-  string: ["menu-type", "category", "restaurant", "append-category"],
+  string: [
+    "menu-type",
+    "category",
+    "restaurant",
+    "append-category",
+    "exclude-menu-types",
+    "exclude-categories",
+    "price-range",
+    "dietary-focus",
+    "restaurant-style",
+    "enhance-menu",
+  ],
   number: ["items", "append-count"],
   default: {
     "menu-type": "all",
@@ -46,8 +75,64 @@ const args = minimist(process.argv.slice(2), {
     restaurant: "all",
     "append-category": "",
     "append-count": 3,
+    "exclude-menu-types": "",
+    "exclude-categories": "",
+    "price-range": "standard",
+    "dietary-focus": "mixed",
+    "restaurant-style": "casual",
+    "enhance-menu": "",
   },
 });
+
+// Process comma-separated lists into arrays
+const excludedMenuTypes = args["exclude-menu-types"]
+  ? args["exclude-menu-types"]
+      .split(",")
+      .map((type) => type.trim().toLowerCase())
+  : [];
+
+const excludedCategories = args["exclude-categories"]
+  ? args["exclude-categories"].split(",").map((cat) => cat.trim())
+  : [];
+
+// Validate price range
+const validPriceRanges = ["budget", "standard", "premium", "luxury"];
+if (!validPriceRanges.includes(args["price-range"])) {
+  console.warn(
+    `Invalid price range: ${args["price-range"]}. Using 'standard' instead.`
+  );
+  args["price-range"] = "standard";
+}
+
+// Validate dietary focus
+const validDietaryFocuses = [
+  "mixed",
+  "vegan-only",
+  "vegetarian-only",
+  "gluten-free",
+  "halal-only",
+  "kosher-only",
+];
+if (!validDietaryFocuses.includes(args["dietary-focus"])) {
+  console.warn(
+    `Invalid dietary focus: ${args["dietary-focus"]}. Using 'mixed' instead.`
+  );
+  args["dietary-focus"] = "mixed";
+}
+
+// Validate restaurant style
+const validRestaurantStyles = [
+  "casual",
+  "fine-dining",
+  "family-friendly",
+  "adult-only",
+];
+if (!validRestaurantStyles.includes(args["restaurant-style"])) {
+  console.warn(
+    `Invalid restaurant style: ${args["restaurant-style"]}. Using 'casual' instead.`
+  );
+  args["restaurant-style"] = "casual";
+}
 
 // Validate menu-type argument
 const validMenuTypes = ["all", "main", "dessert", "drinks"];
@@ -73,6 +158,26 @@ if (APPEND_MODE) {
   console.log(
     `- Append Mode: Adding ${args["append-count"]} items to "${args["append-category"]}" category`
   );
+}
+
+// Display customization options if any are set
+if (excludedMenuTypes.length > 0) {
+  console.log(`- Excluded Menu Types: ${excludedMenuTypes.join(", ")}`);
+}
+if (excludedCategories.length > 0) {
+  console.log(`- Excluded Categories: ${excludedCategories.join(", ")}`);
+}
+if (args["price-range"] !== "standard") {
+  console.log(`- Price Range: ${args["price-range"]}`);
+}
+if (args["dietary-focus"] !== "mixed") {
+  console.log(`- Dietary Focus: ${args["dietary-focus"]}`);
+}
+if (args["restaurant-style"] !== "casual") {
+  console.log(`- Restaurant Style: ${args["restaurant-style"]}`);
+}
+if (args["enhance-menu"]) {
+  console.log(`- Enhanced Menu: ${args["enhance-menu"]}`);
 }
 
 // Get the equivalent of __dirname in ESM
@@ -676,9 +781,29 @@ function generateMenuItemsForType(category, cuisine, count = args["items"]) {
     count = 5;
   }
 
+  // If this category is being enhanced, increase the count
+  if (
+    args["enhance-menu"].toLowerCase() === "drinks" &&
+    ["signature cocktails", "wine selection", "spirits and liqueurs"].includes(
+      category.toLowerCase()
+    )
+  ) {
+    count = Math.max(count * 2, 10); // Double the count or minimum 10 items
+  }
+
   // Get the appropriate item source based on menu type
   let itemSource;
-  let priceRange = { min: 8, max: 16 };
+
+  // Adjust price ranges based on the price-range flag
+  let priceRange = { min: 8, max: 16 }; // Default
+
+  // Price range modifiers
+  const priceModifiers = {
+    budget: { factor: 0.6, fixed: -2 },
+    standard: { factor: 1.0, fixed: 0 },
+    premium: { factor: 1.5, fixed: 4 },
+    luxury: { factor: 2.5, fixed: 10 },
+  };
 
   // By default, use fancy names for most items
   let useFancyName = true;
@@ -811,18 +936,56 @@ function generateMenuItemsForType(category, cuisine, count = args["items"]) {
       priceRange = { min: 18, max: 30 };
   }
 
+  // Apply price range adjustments based on selected pricing tier
+  const modifier = priceModifiers[args["price-range"]];
+  priceRange.min = Math.max(
+    Math.round(priceRange.min * modifier.factor) + modifier.fixed,
+    3
+  );
+  priceRange.max = Math.max(
+    Math.round(priceRange.max * modifier.factor) + modifier.fixed,
+    priceRange.min + 2
+  );
+
+  // For fine dining, always use fancy names
+  if (args["restaurant-style"] === "fine-dining") {
+    useFancyName = true;
+  }
+
   // Get random items from the source
   const selectedItems = getRandomItems(itemSource, count);
 
   // Create menu items with descriptions, prices, and dietary information
-  return selectedItems.map((item) => {
+  let items = selectedItems.map((item) => {
     const prefix = getRandomItems(menuItems.prefixes, 1)[0];
     const descriptor = getRandomItems(menuItems.descriptors, 1)[0];
 
     // Use fancy name only for appropriate categories
-    const itemName = useFancyName ? `${prefix} ${descriptor} ${item}` : item;
+    const itemName =
+      useFancyName || args["restaurant-style"] === "fine-dining"
+        ? `${prefix} ${descriptor} ${item}`
+        : item;
 
-    const dietaryFlags = getDietaryFlags(cuisine, itemName);
+    // Generate basic dietary flags
+    const basicDietaryFlags = getDietaryFlags(cuisine, itemName);
+
+    // Apply dietary focus overrides
+    let dietaryFlags = { ...basicDietaryFlags };
+
+    if (args["dietary-focus"] === "vegan-only") {
+      dietaryFlags.isVegetarian = true;
+      dietaryFlags.isVegan = true;
+    } else if (args["dietary-focus"] === "vegetarian-only") {
+      dietaryFlags.isVegetarian = true;
+      // Vegan status can vary
+      dietaryFlags.isVegan = !dietaryFlags.isVegetarian || Math.random() < 0.4; // 40% chance of vegetarian items also being vegan
+    } else if (args["dietary-focus"] === "gluten-free") {
+      dietaryFlags.isGlutenFree = true;
+    } else if (args["dietary-focus"] === "halal-only") {
+      dietaryFlags.isHalal = true;
+    } else if (args["dietary-focus"] === "kosher-only") {
+      dietaryFlags.isKosher = true;
+    }
 
     return {
       name: itemName,
@@ -830,6 +993,30 @@ function generateMenuItemsForType(category, cuisine, count = args["items"]) {
       ...dietaryFlags,
     };
   });
+
+  // For adult-only restaurants, make sure alcohol items are featured
+  if (
+    args["restaurant-style"] === "adult-only" &&
+    [
+      "alcoholic beverages",
+      "drinks",
+      "cocktails",
+      "signature cocktails",
+      "wine",
+      "wine selection",
+      "spirits",
+      "spirits and liqueurs",
+    ].includes(category.toLowerCase())
+  ) {
+    // Enhance alcohol descriptions or pricing
+    items = items.map((item) => ({
+      ...item,
+      price: Math.round(item.price * 1.25 * 100) / 100, // 25% premium
+      isAdult: true, // Add adult-only flag
+    }));
+  }
+
+  return items;
 }
 
 // New function to generate cocktail items using specialized cocktail data
@@ -1111,97 +1298,191 @@ function generateCombinedMenuContent(
     5
   );
 
-  // Build menus array based on menu-type flag
+  // Build menus array based on menu-type flag and excluded menu types
   let menus = [];
 
-  if (args["menu-type"] === "all" || args["menu-type"] === "main") {
-    menus.push({
-      title: "Main Course Menu",
-      description: "Our carefully crafted selection of hearty dishes",
-      category: [
-        {
-          name: "Signature Dishes",
-          items: signatureDishes,
-        },
-        {
-          name: "Chef's Specials",
-          items: chefsSpecials,
-        },
-        {
-          name: "Appetizers",
-          items: appetizers,
-        },
-        {
-          name: "Soups",
-          items: soups,
-        },
-        {
-          name: "Salads",
-          items: salads,
-        },
-        {
-          name: "Main Courses",
-          items: mainCourses,
-        },
-        {
-          name: "Seafood Specialties",
-          items: seafoodSpecialties,
-        },
-        {
-          name: "Side Dishes",
-          items: sideDishes,
-        },
-        {
-          name: "Non-Alcoholic Beverages",
-          items: nonAlcoholicBeverages,
-        },
-      ],
-    });
+  // Check if main course menu should be included
+  if (
+    (args["menu-type"] === "all" || args["menu-type"] === "main") &&
+    !excludedMenuTypes.includes("main")
+  ) {
+    // Create the categories array with only non-excluded categories
+    const mainMenuCategories = [];
+
+    if (!excludedCategories.includes("Signature Dishes")) {
+      mainMenuCategories.push({
+        name: "Signature Dishes",
+        items: signatureDishes,
+      });
+    }
+
+    if (!excludedCategories.includes("Chef's Specials")) {
+      mainMenuCategories.push({
+        name: "Chef's Specials",
+        items: chefsSpecials,
+      });
+    }
+
+    if (!excludedCategories.includes("Appetizers")) {
+      mainMenuCategories.push({
+        name: "Appetizers",
+        items: appetizers,
+      });
+    }
+
+    // Similar checks for other categories
+    if (!excludedCategories.includes("Soups")) {
+      mainMenuCategories.push({
+        name: "Soups",
+        items: soups,
+      });
+    }
+
+    if (!excludedCategories.includes("Salads")) {
+      mainMenuCategories.push({
+        name: "Salads",
+        items: salads,
+      });
+    }
+
+    if (!excludedCategories.includes("Main Courses")) {
+      mainMenuCategories.push({
+        name: "Main Courses",
+        items: mainCourses,
+      });
+    }
+
+    if (!excludedCategories.includes("Seafood Specialties")) {
+      mainMenuCategories.push({
+        name: "Seafood Specialties",
+        items: seafoodSpecialties,
+      });
+    }
+
+    if (!excludedCategories.includes("Side Dishes")) {
+      mainMenuCategories.push({
+        name: "Side Dishes",
+        items: sideDishes,
+      });
+    }
+
+    if (!excludedCategories.includes("Non-Alcoholic Beverages")) {
+      mainMenuCategories.push({
+        name: "Non-Alcoholic Beverages",
+        items: nonAlcoholicBeverages,
+      });
+    }
+
+    // Only add the menu if there are categories
+    if (mainMenuCategories.length > 0) {
+      menus.push({
+        title: "Main Course Menu",
+        description: `Our carefully crafted selection of ${
+          args["restaurant-style"] === "fine-dining" ? "exquisite" : "hearty"
+        } dishes`,
+        category: mainMenuCategories,
+      });
+    }
   }
 
-  if (args["menu-type"] === "all" || args["menu-type"] === "dessert") {
-    menus.push({
-      title: "Dessert Menu",
-      description: "Indulge in our delicious sweet creations",
-      category: [
-        {
-          name: "Baked Goods",
-          items: bakedGoods,
-        },
-        {
-          name: "Frozen Desserts",
-          items: frozenDesserts,
-        },
-      ],
-    });
+  // Check if dessert menu should be included
+  if (
+    (args["menu-type"] === "all" || args["menu-type"] === "dessert") &&
+    !excludedMenuTypes.includes("dessert")
+  ) {
+    // Similar structure as main menu, but for desserts
+    const dessertCategories = [];
+
+    if (!excludedCategories.includes("Baked Goods")) {
+      dessertCategories.push({
+        name: "Baked Goods",
+        items: bakedGoods,
+      });
+    }
+
+    if (!excludedCategories.includes("Frozen Desserts")) {
+      dessertCategories.push({
+        name: "Frozen Desserts",
+        items: frozenDesserts,
+      });
+    }
+
+    if (dessertCategories.length > 0) {
+      menus.push({
+        title: "Dessert Menu",
+        description: `Indulge in our ${
+          args["restaurant-style"] === "fine-dining" ? "exquisite" : "delicious"
+        } sweet creations`,
+        category: dessertCategories,
+      });
+    }
   }
 
-  if (args["menu-type"] === "all" || args["menu-type"] === "drinks") {
-    menus.push({
-      title: "Drinks Menu",
-      description:
-        "A selection of fine alcoholic beverages to complement your meal",
-      category: [
-        {
-          name: "Signature Cocktails",
-          items: cocktails,
-        },
-        {
-          name: "Wine Selection",
-          items: wines,
-        },
-        {
-          name: "Spirits and Liqueurs",
-          items: spirits,
-        },
-      ],
-    });
+  // Check if drinks menu should be included
+  if (
+    (args["menu-type"] === "all" || args["menu-type"] === "drinks") &&
+    !excludedMenuTypes.includes("drinks")
+  ) {
+    // Similar structure for drinks menu
+    const drinkCategories = [];
+
+    if (!excludedCategories.includes("Signature Cocktails")) {
+      drinkCategories.push({
+        name: "Signature Cocktails",
+        items: cocktails,
+      });
+    }
+
+    if (!excludedCategories.includes("Wine Selection")) {
+      drinkCategories.push({
+        name: "Wine Selection",
+        items: wines,
+      });
+    }
+
+    if (!excludedCategories.includes("Spirits and Liqueurs")) {
+      drinkCategories.push({
+        name: "Spirits and Liqueurs",
+        items: spirits,
+      });
+    }
+
+    if (drinkCategories.length > 0) {
+      menus.push({
+        title: "Drinks Menu",
+        description: `A selection of ${
+          args["restaurant-style"] === "fine-dining"
+            ? "exquisite"
+            : args["restaurant-style"] === "adult-only"
+            ? "premium"
+            : "fine"
+        } alcoholic beverages to complement your meal`,
+        category: drinkCategories,
+      });
+    }
   }
 
+  // Add special intro text based on restaurant style and dietary focus
+  let introText = `Menu data for ${restaurantName} in ${cityName}`;
+
+  if (args["restaurant-style"] === "fine-dining") {
+    introText = `Fine dining experience at ${restaurantName} in ${cityName}`;
+  } else if (args["restaurant-style"] === "adult-only") {
+    introText = `Adult-only dining experience at ${restaurantName} in ${cityName}`;
+  }
+
+  if (args["dietary-focus"] !== "mixed") {
+    const dietaryType = args["dietary-focus"].replace("-only", "");
+    introText += `\n * ${
+      dietaryType.charAt(0).toUpperCase() + dietaryType.slice(1)
+    } focused menu`;
+  }
+
+  // Return a string template with the TypeScript code
   return `import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for ${restaurantName} in ${cityName}
+ * ${introText}
  */
 export const ${cityVar}${restaurantVar}Menu: RestaurantMenu[] = ${JSON.stringify(
     menus,
@@ -1209,6 +1490,7 @@ export const ${cityVar}${restaurantVar}Menu: RestaurantMenu[] = ${JSON.stringify
     2
   )};
 `;
+}
 
 // Process each restaurant to create a single menu file with all three menu types
 function createMenuFileForRestaurant(cityDir, restaurant) {
@@ -1216,7 +1498,9 @@ function createMenuFileForRestaurant(cityDir, restaurant) {
   const kebabName = toKebabCase(restaurant.name);
 
   if (!kebabName) {
-    console.error(`Failed to generate valid filename for "${restaurant.name}"`);
+    console.error(
+      `Failed to generate valid filename for "${restaurant.name}".`
+    );
     return false;
   }
 
@@ -1235,8 +1519,13 @@ function createMenuFileForRestaurant(cityDir, restaurant) {
       const fileContent = fs.readFileSync(menuFilePath, "utf8");
 
       // Check if it's a valid TypeScript file with the expected structure
-      if (!fileContent.includes("RestaurantMenu") || !fileContent.includes("export const")) {
-        console.error(`File exists but doesn't appear to be a valid menu file: ${menuFilePath}`);
+      if (
+        !fileContent.includes("RestaurantMenu") ||
+        !fileContent.includes("export const")
+      ) {
+        console.error(
+          `File exists but doesn't appear to be a valid menu file: ${menuFilePath}`
+        );
         return false;
       }
 
@@ -1253,6 +1542,7 @@ function createMenuFileForRestaurant(cityDir, restaurant) {
       try {
         // Extract just the menu array part using regex
         const menuMatch = fileContent.match(
+          // Ensure fileContent is correctly referenced
           /export const[\s\S]*?Menu: RestaurantMenu\[\] = (\[[\s\S]*\]);/
         );
         if (!menuMatch || !menuMatch[1]) {
@@ -1268,7 +1558,8 @@ function createMenuFileForRestaurant(cityDir, restaurant) {
           // Look in all menus
           for (const menu of menuData) {
             const categoryIndex = menu.category.findIndex(
-              (cat) => cat.name.toLowerCase() === args["append-category"].toLowerCase()
+              (cat) =>
+                cat.name.toLowerCase() === args["append-category"].toLowerCase()
             );
 
             if (categoryIndex !== -1) {
@@ -1280,11 +1571,20 @@ function createMenuFileForRestaurant(cityDir, restaurant) {
           // Look in the specific menu type
           targetMenu = menuData.find((menu) => {
             const menuTitle = menu.title.toLowerCase();
-            if (args["menu-type"] === "main" && menuTitle.includes("main course")) {
+            if (
+              args["menu-type"] === "main" &&
+              menuTitle.includes("main course")
+            ) {
               return true;
-            } else if (args["menu-type"] === "dessert" && menuTitle.includes("dessert")) {
+            } else if (
+              args["menu-type"] === "dessert" &&
+              menuTitle.includes("dessert")
+            ) {
               return true;
-            } else if (args["menu-type"] === "drinks" && menuTitle.includes("drink")) {
+            } else if (
+              args["menu-type"] === "drinks" &&
+              menuTitle.includes("drink")
+            ) {
               return true;
             }
             return false;
@@ -1292,17 +1592,22 @@ function createMenuFileForRestaurant(cityDir, restaurant) {
         }
 
         if (!targetMenu) {
-          console.error(`Could not find appropriate menu to append to in ${menuFilePath}`);
+          console.error(
+            `Could not find appropriate menu to append to in ${menuFilePath}`
+          );
           return false;
         }
 
         // Find the specific category
         const categoryIndex = targetMenu.category.findIndex(
-          (cat) => cat.name.toLowerCase() === args["append-category"].toLowerCase()
+          (cat) =>
+            cat.name.toLowerCase() === args["append-category"].toLowerCase()
         );
 
         if (categoryIndex === -1) {
-          console.error(`Category "${args["append-category"]}" not found in menu`);
+          console.error(
+            `Category "${args["append-category"]}" not found in menu`
+          );
           return false;
         }
 
@@ -1334,11 +1639,17 @@ export const ${cityVar}${restaurantVar}Menu: RestaurantMenu[] = ${JSON.stringify
         );
         return true;
       } catch (parseError) {
-        console.error(`Error parsing existing menu in ${menuFilePath}:`, parseError);
+        console.error(
+          `Error parsing existing menu in ${menuFilePath}:`,
+          parseError
+        );
         return false;
       }
     } catch (err) {
-      console.error(`Error appending to menu file for ${restaurant.name}:`, err);
+      console.error(
+        `Error appending to menu file for ${restaurant.name}:`,
+        err
+      );
       return false;
     }
   } else {
@@ -1346,7 +1657,11 @@ export const ${cityVar}${restaurantVar}Menu: RestaurantMenu[] = ${JSON.stringify
     try {
       fs.writeFileSync(
         menuFilePath,
-        generateCombinedMenuContent(cityDir, restaurant.name, restaurant.cuisine)
+        generateCombinedMenuContent(
+          cityDir,
+          restaurant.name,
+          restaurant.cuisine
+        )
       );
       console.log(`Created menu file: ${menuFilePath}`);
       return true;
