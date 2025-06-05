@@ -6,15 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const cozumeltheGardenMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "A fresh assortment of specialties showcasing the best of American cuisine",
+    "description": "Inspired by tradition, driven by fresh execution",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Our chef's pride—carefully selected American specialties that define our culinary identity, honed through years of experience and passion.",
+        "description": "A curated collection of our most iconic and requested plates, each a testament to our culinary excellence.",
         "items": [
           {
-            "name": "Age-Old Recipe Osso Buco with Gremolata",
-            "price": 34.11,
+            "name": "Deluxe Luscious Chef’s Wild Game Selection",
+            "price": 26.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,17 +22,8 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Celebrity Favorite Lobster Dish",
-            "price": 27.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Executive Chef's Daily Inspiration Entrée",
-            "price": 30.85,
+            "name": "Traditional Golden Sous Vide Perfected Wagyu",
+            "price": 29.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -40,17 +31,8 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Local Bounty Harvest Plate (Vegetarian)",
-            "price": 27.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "24-Hour Braised Short Ribs",
-            "price": 28.71,
+            "name": "Authentic Spicy Restaurant's Namesake Signature Entrée",
+            "price": 32.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -58,20 +40,38 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Black Garlic Glazed Beef Tenderloin",
-            "price": 36.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Chef's Special Surf and Turf",
-            "price": 36.44,
+            "name": "Homestyle Aromatic Japanese A5 Wagyu with Ponzu Butter",
+            "price": 25.79,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Smoked Heritage Recipe Lamb Shank",
+            "price": 34.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Wholesome Whole Roasted Heritage Chicken",
+            "price": 34.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Roasted Seasonal Tasting Menu Experience",
+            "price": 25.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -79,47 +79,47 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "Expressions of creativity from our chef’s table—ever-changing and inspired by market finds.",
+        "description": "Crafted daily based on what’s freshest and most inspiring at the market.",
         "items": [
           {
-            "name": "Tableside Prepared Tartare",
-            "price": 31.95,
-            "isVegetarian": true,
+            "name": "Organic Grilled Deconstructed Classic with Modern Technique",
+            "price": 38.76,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tomahawk Ribeye for Two",
-            "price": 30.91,
+            "name": "Hearty Marinated Modern Interpretation of Regional Classic",
+            "price": 32.36,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Exquisite Herb-Crusted Rack of Lamb",
+            "price": 37.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Tasting of Local Artisanal Cheeses",
-            "price": 37.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Fresh Grilled Off-Menu Secret Preparation",
+            "price": 39.35,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Live-Fire Grilled Feature",
-            "price": 29.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Special Occasion Celebratory Dish",
-            "price": 24.97,
+            "name": "House Special Satisfying Slow-Roasted Prime Rib",
+            "price": 29.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -130,47 +130,11 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Thoughtfully prepared small plates to begin your culinary experience with elegance and taste.",
+        "description": "Small bites designed to awaken your senses and set the tone for your dining journey.",
         "items": [
           {
-            "name": "Seasonal Flaky Cheese Platter",
-            "price": 8.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Comforting Meatballs",
-            "price": 9.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Sizzling Arancini",
-            "price": 13.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Tender Mini Quesadillas",
-            "price": 10.15,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Crunchy Calamari",
-            "price": 14.62,
+            "name": "Dumplings",
+            "price": 9.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -178,26 +142,62 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Herbed Mezze Platter",
-            "price": 9.83,
+            "name": "Baked Brie",
+            "price": 14.75,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Potato Skins",
+            "price": 12.08,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chicken Satay",
+            "price": 15.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Arancini",
+            "price": 10.06,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Golden Charcuterie Board",
-            "price": 9.04,
+            "name": "Deviled Eggs",
+            "price": 11.98,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Flavorful Mozzarella Sticks",
-            "price": 12.41,
+            "name": "Mozzarella Sticks",
+            "price": 8.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Potstickers",
+            "price": 10.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -208,11 +208,20 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Each spoonful offers depth, comfort, and craftsmanship.",
+        "description": "Crafted with care, our soups are a celebration of American flavors and traditions.",
         "items": [
           {
-            "name": "Premium Delectable Hot and Sour Soup",
-            "price": 12.95,
+            "name": "Authentic Smoked Seafood Chowder",
+            "price": 12.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Herbed Egg Drop Soup",
+            "price": 13.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -220,29 +229,20 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Grilled Zuppa Toscana",
-            "price": 10.66,
-            "isVegetarian": true,
+            "name": "Fresh Crunchy Pho",
+            "price": 13.25,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Pan-seared Pho",
-            "price": 11.69,
+            "name": "Hearty Grilled Zuppa Toscana",
+            "price": 9.29,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Delectable Cabbage Soup",
-            "price": 12.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -250,21 +250,30 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Light, clean, and energizing—each salad is a visual and flavorful delight.",
+        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
         "items": [
           {
-            "name": "Beet Salad",
-            "price": 13.32,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Cobb Salad",
+            "price": 15.05,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Caprese Salad",
-            "price": 10.14,
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 10.68,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Waldorf Salad",
+            "price": 13.53,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -272,25 +281,16 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Chickpea Salad",
-            "price": 9.71,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Quinoa Salad",
-            "price": 9.54,
-            "isVegetarian": true,
+            "price": 11.74,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Asian Slaw",
-            "price": 14.76,
+            "name": "Mediterranean Chopped Salad",
+            "price": 13.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -301,11 +301,11 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Each dish is a masterpiece, showcasing the best of our culinary traditions.",
+        "description": "Crafted with passion and precision, our mains are designed to impress.",
         "items": [
           {
-            "name": "Shakshuka",
-            "price": 23.59,
+            "name": "Stir-fry",
+            "price": 21.89,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -313,17 +313,8 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coq au Vin",
-            "price": 26.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Lamb Chops",
-            "price": 20.07,
+            "price": 19.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -331,44 +322,53 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Grilled Chicken",
-            "price": 27.72,
+            "name": "Lentil Stew",
+            "price": 30.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Korma",
+            "price": 20.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Quiche",
+            "price": 21.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fish and Chips",
+            "price": 24.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Teriyaki Chicken",
+            "price": 21.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Biryani",
-            "price": 31.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fajitas",
-            "price": 31.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Paella",
-            "price": 30.88,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Tofu",
-            "price": 23.09,
+            "name": "Cottage Pie",
+            "price": 31.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -379,20 +379,20 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Daily catches transformed into exquisite plates by our skilled kitchen team.",
+        "description": "Celebrations of the sea—light, flavorful, and handled with the utmost care.",
         "items": [
           {
-            "name": "Alaskan King Crab Legs with Drawn Butter",
-            "price": 35.01,
+            "name": "Organic Crispy Seared Tuna Steak with Sesame Crust",
+            "price": 27.03,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Basa Fillet with Dill Cream Sauce",
-            "price": 23.94,
+            "name": "Organic Golden Cajun Shrimp and Grits",
+            "price": 26.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,8 +400,8 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lobster Thermidor with Gruyère Crust",
-            "price": 34.05,
+            "name": "Organic Delectable Steamed Littleneck Clams in Garlic Broth",
+            "price": 24.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -409,41 +409,32 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Miso-Marinated Chilean Sea Bass",
-            "price": 28.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Grilled Swordfish with Mango Chutney",
-            "price": 23.98,
+            "name": "Deluxe Exquisite Classic British Fish and Chips",
+            "price": 28.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Baked Baked Cod with Lemon Caper Sauce",
+            "price": 33.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Perfectly balanced additions that elevate your dining experience.",
+        "description": "Crafted to enhance your main course, these sides are anything but ordinary.",
         "items": [
           {
-            "name": "Homestyle Luscious Green Beans Almondine",
-            "price": 6.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Sautéed Provencal Ratatouille",
-            "price": 7.58,
+            "name": "Fragrant Basmati Rice Pilaf",
+            "price": 5.62,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -451,8 +442,8 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Stuffed Israeli Couscous with Roasted Tomatoes",
-            "price": 8.21,
+            "name": "Soft Polenta with Parmesan",
+            "price": 7.94,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -460,8 +451,8 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Zesty Truffle Parmesan Fries",
-            "price": 9.74,
+            "name": "Macaroni and Aged Cheddar",
+            "price": 8.43,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -469,17 +460,26 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Comforting Scalloped Potatoes with Thyme",
-            "price": 6.57,
-            "isVegetarian": false,
+            "name": "Braised Red Cabbage with Apple",
+            "price": 8.09,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Provencal Ratatouille",
+            "price": 5.81,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Fresh Crispy Sweet Potato Wedges with Smoked Paprika",
-            "price": 7.73,
+            "name": "Israeli Couscous with Roasted Tomatoes",
+            "price": 7.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -490,20 +490,20 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Bright and revitalizing beverages for all ages and preferences.",
+        "description": "Cold-pressed, house-infused, and always refreshing.",
         "items": [
           {
-            "name": "Lemonade",
-            "price": 4.96,
+            "name": "Soda",
+            "price": 5.38,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Milkshake",
-            "price": 6.16,
+            "price": 5.09,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -511,9 +511,27 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 6.48,
+            "name": "Smoothie",
+            "price": 6.37,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 6.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 4.11,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -521,28 +539,10 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Water",
-            "price": 6.22,
+            "price": 6.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 6.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 6.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,15 +552,15 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "A warm finale to your dining experience",
+    "description": "A classic finale to your dining experience",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Perfectly baked pastries and breads that bring warmth to your table.",
+        "description": "Comforting, handmade goods perfect for breakfast, dessert, or anytime in between.",
         "items": [
           {
-            "name": "Banana Bread",
-            "price": 6.1,
+            "name": "Pumpkin Pie",
+            "price": 9.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,8 +568,8 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Apple Pie",
-            "price": 6.31,
+            "name": "Brownies",
+            "price": 9.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -577,26 +577,26 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Eclairs",
-            "price": 6.32,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Tiramisu",
+            "price": 9.93,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cannoli",
-            "price": 9.96,
+            "name": "Muffins",
+            "price": 7.97,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cheesecake",
-            "price": 8.06,
+            "name": "Red Velvet Cake",
+            "price": 10.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -607,20 +607,11 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "From creamy gelato to fruity sorbet, our frozen desserts are a must-try.",
+        "description": "Handmade with care, our frozen desserts are a celebration of texture and taste.",
         "items": [
           {
-            "name": "Premium Savory Frosty",
-            "price": 11.68,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Stuffed Granita",
-            "price": 10.75,
+            "name": "Fresh Sizzling Ice Cream Cake",
+            "price": 8.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -628,56 +619,8 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Juicy Frozen Pie",
-            "price": 7.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Steamed Sherbet",
-            "price": 7.92,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Spicy Frozen Custard",
-            "price": 9.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "title": "Drinks Menu",
-    "description": "From wines to spirits: quality choices for every palate",
-    "category": [
-      {
-        "name": "Signature Cocktails",
-        "description": "A cocktail experience that transcends the ordinary—crafted for the discerning palate.",
-        "items": [
-          {
-            "name": "Homestyle Smoked Mojito",
-            "price": 13.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Flavorful Cosmopolitan",
-            "price": 12.62,
+            "name": "House Special Spiced Baked Alaska",
+            "price": 8.57,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -685,26 +628,17 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Baked Negroni",
-            "price": 10.5,
+            "name": "Authentic Creamy Ice Cream",
+            "price": 9.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Hearty Zesty Mai Tai",
-            "price": 14.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Succulent Martini",
-            "price": 12.24,
+            "name": "Homestyle Herbed Frozen Banana",
+            "price": 8.61,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -712,8 +646,38 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Spiced Old Fashioned",
-            "price": 11.36,
+            "name": "Handcrafted Crunchy Frozen Fruit Bars",
+            "price": 8.75,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Drinks Menu",
+    "description": "A fine assortment of libations to accompany your culinary journey",
+    "category": [
+      {
+        "name": "Signature Cocktails",
+        "description": "Each cocktail is a work of art—balanced, bold, and beautifully presented.",
+        "items": [
+          {
+            "name": "Authentic Succulent Manhattan",
+            "price": 11.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Sweet Negroni",
+            "price": 13.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -721,10 +685,46 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Grilled Manhattan",
-            "price": 15.91,
+            "name": "Deluxe Sweet Mojito",
+            "price": 11.83,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Exquisite Cosmopolitan",
+            "price": 10.92,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Grilled Old Fashioned",
+            "price": 10.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Grilled Bloody Mary",
+            "price": 12.12,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Grilled Margarita",
+            "price": 10.2,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -733,56 +733,56 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Our sommelier's recommendations, designed to pair perfectly with our menu.",
+        "description": "Explore our wine list, where each bottle is a testament to craftsmanship and tradition.",
         "items": [
           {
-            "name": "Grenache",
-            "price": 13.16,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fiano",
-            "price": 11.85,
-            "isVegetarian": true,
+            "name": "Fresh Luscious Pinot Grigio",
+            "price": 12.03,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Syrah/Shiraz",
-            "price": 13.12,
-            "isVegetarian": true,
+            "name": "Classic Golden Champagne/Sparkling Wine",
+            "price": 13.23,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cabernet Franc",
-            "price": 13.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Champagne/Sparkling Wine",
-            "price": 10.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Tempranillo",
-            "price": 11.22,
+            "name": "Gourmet Braised Viognier",
+            "price": 12.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Pan-seared Albariño",
+            "price": 12.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Herbed Marsanne",
+            "price": 13.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Mouthwatering Vouvray",
+            "price": 11.34,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -793,11 +793,20 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Ideal for slow sipping or celebratory toasts—each bottle has a story.",
+        "description": "A thoughtful balance of classic favorites and rare, small-batch discoveries.",
         "items": [
           {
-            "name": "Gourmet Zingy Anisette",
-            "price": 11.37,
+            "name": "Deluxe Delectable Grand Marnier",
+            "price": 13.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Smoked Tequila",
+            "price": 14.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -805,26 +814,8 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Campari",
-            "price": 12.04,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Crunchy Rum",
-            "price": 14.75,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Grilled Tequila",
-            "price": 11.09,
+            "name": "Premium Delectable Drambuie",
+            "price": 16.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -832,8 +823,17 @@ export const cozumeltheGardenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Appetizing Cognac",
-            "price": 15.24,
+            "name": "Fresh Roasted Chartreuse",
+            "price": 16.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Spicy Galliano",
+            "price": 16.82,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
