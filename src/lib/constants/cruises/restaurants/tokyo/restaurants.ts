@@ -248,5 +248,160 @@ export const tokyoRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": false
+  },
+  {
+    "name": "Japanese Garden",
+    "description": "Located close to the city museum, this French restaurant delights with its regional wines and artisan markets.",
+    "cuisine": "French",
+    "priceRange": "$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "9:00-19:00",
+      "friday": "10:00-19:00",
+      "saturday": "11:00-20:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-385-9206",
+      "contactEmail": "clientservices@italiangelateriatokyo.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Japanese Nook",
+    "description": "A charming Chinese restaurant near the city museum, offering signature dishes and other local favorites in a setting with artisan markets.",
+    "cuisine": "Chinese",
+    "priceRange": "$$$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "9:00-22:00",
+      "friday": "11:00-22:00",
+      "saturday": "10:00-19:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-739-5512",
+      "contactEmail": "ask@italiancreamerytokyo.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Korean Pavilion",
+    "description": "A charming French restaurant near the old town walls, offering gourmet street food and other local favorites in a setting with seasonal floral displays.",
+    "cuisine": "French",
+    "priceRange": "$$$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "11:00-21:00",
+      "friday": "10:00-22:00",
+      "saturday": "11:00-19:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-337-7878",
+      "contactEmail": "hello@chinesetrattoriatokyo.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Italian Society",
+    "description": "A charming Japanese restaurant near the waterfront, offering fresh produce and other local favorites in a setting with beautiful decor.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "9:00-22:00",
+      "friday": "10:00-19:00",
+      "saturday": "11:00-22:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-637-8431",
+      "contactEmail": "ask@japanesesanctuarytokyo.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Korean Atelier",
+    "description": "Experience authentic Chinese cuisine with a local twist, featuring artisanal creations served in an atmosphere of seasonal floral displays overlooking central park.",
+    "cuisine": "Chinese",
+    "priceRange": "$$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "10:00-21:00",
+      "friday": "11:00-20:00",
+      "saturday": "11:00-20:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-741-2944",
+      "contactEmail": "ask@italianpizzeriatokyo.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
   }
 ];
