@@ -33,36 +33,36 @@ import { CruiseVessel, Vessels } from "@/lib/interfaces/services/cruises";
 
 // Map city names to their vessel arrays
 const cityVesselsMap: Record<string, Vessels[]> = {
-  "Amsterdam": amsterdamVessels,
-  "Auckland": aucklandVessels,
-  "Bermuda": bermudaVessels,
-  "Boston": bostonVessels,
+  Amsterdam: amsterdamVessels,
+  Auckland: aucklandVessels,
+  Bermuda: bermudaVessels,
+  Boston: bostonVessels,
   "Buenos Aires": buenosAiresVessels,
-  "Copenhagen": copenhagenVessels,
-  "Cozumel": cozumelVessels,
-  "Dublin": dublinVessels,
-  "Florence": florenceVessels,
+  Copenhagen: copenhagenVessels,
+  Cozumel: cozumelVessels,
+  Dublin: dublinVessels,
+  Florence: florenceVessels,
   "Fort Lauderdale": fortLauderdaleVessels,
-  "Galveston": galvestonVessels,
+  Galveston: galvestonVessels,
   "George Town": georgeTownVessels,
-  "Helsinki": helsinkiVessels,
+  Helsinki: helsinkiVessels,
   "Ho Chi Minh City": hoChiMinhCityVessels,
-  "London": londonVessels,
-  "Malta": maltaVessels,
-  "Melbourne": melbourneVessels,
-  "Montevideo": montevideoVessels,
+  London: londonVessels,
+  Malta: maltaVessels,
+  Melbourne: melbourneVessels,
+  Montevideo: montevideoVessels,
   "New Orleans": newOrleansVessels,
   "New York City": newYorkCityVessels,
-  "Paris": parisVessels,
+  Paris: parisVessels,
   "Quebec City": quebecCityVessels,
   "Rio De Janeiro": rioDeJaneiroVessels,
-  "Rome": romeVessels,
-  "Shanghai": shanghaiVessels,
+  Rome: romeVessels,
+  Shanghai: shanghaiVessels,
   "St Petersburg": stPetersburgVessels,
-  "Sydney": sydneyVessels,
-  "Tokyo": tokyoVessels,
-  "Venice": veniceVessels,
-  "Yokohama": yokohamaVessels,
+  Sydney: sydneyVessels,
+  Tokyo: tokyoVessels,
+  Venice: veniceVessels,
+  Yokohama: yokohamaVessels,
 };
 
 /**
@@ -71,7 +71,10 @@ const cityVesselsMap: Record<string, Vessels[]> = {
  * @param cruiseCategory The cruise category ID
  * @returns A cruise vessel matching the criteria, or null if none found
  */
-export function getVesselForCruise(departureCity: string, cruiseCategory: string): CruiseVessel | null {
+export function getVesselForCruise(
+  departureCity: string,
+  cruiseCategory: string,
+): CruiseVessel | null {
   // Get vessels for the departure city
   const cityVessels = cityVesselsMap[departureCity];
   if (!cityVessels) return null;
@@ -84,8 +87,8 @@ export function getVesselForCruise(departureCity: string, cruiseCategory: string
   if (compatibleVesselTypes.length === 0) return null;
 
   // Find the first vessel in this city that has a compatible type
-  const matchingVessel = cityVessels.find(vessel => 
-    compatibleVesselTypes.includes(vessel.type)
+  const matchingVessel = cityVessels.find((vessel) =>
+    compatibleVesselTypes.includes(vessel.type),
   );
 
   if (!matchingVessel) return null;
@@ -105,8 +108,8 @@ export function getVesselForCruise(departureCity: string, cruiseCategory: string
       // Extract entertainment equipment as amenities
       ...(matchingVessel.specifications.entertainmentEquipment || []),
       // Add some accessibility features as amenities too
-      ...(matchingVessel.specifications.accessibilityFeatures || [])
-    ].slice(0, 5) // Limit to 5 amenities
+      ...(matchingVessel.specifications.accessibilityFeatures || []),
+    ].slice(0, 5), // Limit to 5 amenities
   };
 
   return cruiseVessel;

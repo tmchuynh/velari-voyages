@@ -3,7 +3,7 @@ import {
   cruiseCategoryMap,
   cruiseCategoryPackages,
 } from "@/lib/constants/info/cruisePackages";
-import { Cruise } from "@/lib/interfaces/services/cruises";
+import { Cruise, Vessels } from "@/lib/interfaces/services/cruises";
 import { Location, Package } from "@/lib/types/types";
 import {
   formatKebabToCamelCase,
@@ -28,9 +28,7 @@ import {
  *          Returns an empty array if `cityInfo` or `cityInfo.city` is invalid,
  *          or if no cruises are found for the given city.
  */
-export async function getCruisesByLocation(
-  cityInfo: Location,
-): Promise<Cruise[]> {
+export async function getCruisesByLocation(cityInfo: Location): Promise<Cruise[]> {
   if (!cityInfo || !cityInfo.city) {
     console.error("Invalid city information provided");
     return [];
@@ -126,7 +124,7 @@ export async function getCruises(city: string): Promise<Cruise[]> {
       }
 
       console.error(
-        `Export not found in module. Looking for: ${cruiseID} or ${alternateCruiseID}`,
+        `Export not found in module. Looking for: ${cruiseID} or ${alternateCruiseID}`
       );
       return [];
     }
@@ -152,7 +150,7 @@ export async function getCruises(city: string): Promise<Cruise[]> {
  */
 export function getCruisesByCategory(
   cruises: Cruise[],
-  category: string,
+  category: string
 ): Cruise[] {
   if (!cruises || !Array.isArray(cruises)) {
     console.error("Invalid tours data provided");
@@ -161,7 +159,7 @@ export function getCruisesByCategory(
 
   // Filter tours by the specified category ID
   const filteredCruises = cruises.filter(
-    (tour) => tour.tourCategoryId === category,
+    (tour) => tour.tourCategoryId === category
   );
 
   if (filteredCruises.length === 0) {
@@ -209,7 +207,7 @@ export async function getAllCruises(): Promise<Cruise[]> {
         allCruises.push(...cityCruises);
       } else {
         console.warn(
-          `No valid cruises found for ${city} within @/lib/constants/cruises/${city}-cruises.ts`,
+          `No valid cruises found for ${city} within @/lib/constants/cruises/${city}-cruises.ts`
         );
       }
     } catch (error) {
@@ -241,4 +239,34 @@ export function getVesselTypeDescription(type: string): string {
     default:
       return "Our specialized fleet offers a diverse range of vessels, each uniquely tailored to provide transformative, destination-aligned experiences across the world's oceans, rivers, and remote waterways.";
   }
+}
+
+export async function getAllVessels() {
+  const allVessels: Vessels[] = [];
+
+  // Loop through each city file and import its cruises
+  for (const city of cityFiles) {
+    try {
+      // Dynamic import of the cruises file
+      const vesselsModule = await import(
+        `@/lib/constants/cruises/vessels/${removeAccents(city)}-vessels`
+      );
+
+      // Get the vessels array using the city name + Vessels naming convention
+      const cityVessels =
+        vesselsModule[`${formatKebabToCamelCase(removeAccents(city))}Vessels`];
+
+      if (cityVessels && Array.isArray(cityVessels)) {
+        allVessels.push(...cityVessels);
+      } else {
+        console.warn(
+          `No valid vessels found for ${city} within @/lib/constants/cruises/${city}-vessels.ts`
+        );
+      }
+    } catch (error) {
+      console.error(`Error importing vessels for ${city}:`, error);
+    }
+  }
+
+  return allVessels;
 }

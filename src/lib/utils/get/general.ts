@@ -18,7 +18,7 @@ import { cruiseDepartureLocations } from "@/lib/constants/info/city";
  */
 export function getRandomDatesFromNextWeek(
   count: number,
-  rangeInDays = 30
+  rangeInDays = 30,
 ): string[] {
   const dates = new Set<string>();
 
@@ -45,7 +45,7 @@ export function getRandomDatesFromNextWeek(
 export function getCityInformation(city: string): Location | undefined {
   const cityName = city.toLowerCase();
   const cityInformation = cruiseDepartureLocations.find(
-    (location) => location.city.toLowerCase() === cityName
+    (location) => location.city.toLowerCase() === cityName,
   );
   return cityInformation;
 }
