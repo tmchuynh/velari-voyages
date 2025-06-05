@@ -936,58 +936,158 @@ function generateMenuItemsForType(category, cuisine, count = args["items"]) {
       priceRange = { min: 18, max: 30 };
   }
 
-  // Filter meat items for vegetarian and vegan restaurants
-  if (
-    args["dietary-focus"] === "vegetarian-only" ||
-    args["dietary-focus"] === "vegan-only"
-  ) {
-    // Use the meat and seafood keywords to filter out non-vegetarian items
+  // Filter items for specialized dietary restaurants
+  if (args["dietary-focus"] !== "mixed") {
+    // Use the keywords to filter out incompatible items
     if (itemSource && Array.isArray(itemSource)) {
-      const lowerMeatKeywords = meatKeywords.map((k) => k.toLowerCase());
-      const lowerSeafoodKeywords = seafoodKeywords.map((k) => k.toLowerCase());
+      let filteredSource = [...itemSource];
 
-      // Filter out any item containing meat or seafood keywords
-      itemSource = itemSource.filter((item) => {
-        const lowerItem = item.toLowerCase();
-        const hasMeat = lowerMeatKeywords.some((keyword) =>
-          lowerItem.includes(keyword)
+      // Filter for vegetarian/vegan
+      if (
+        args["dietary-focus"] === "vegetarian-only" ||
+        args["dietary-focus"] === "vegan-only"
+      ) {
+        const lowerMeatKeywords = meatKeywords.map((k) => k.toLowerCase());
+        const lowerSeafoodKeywords = seafoodKeywords.map((k) =>
+          k.toLowerCase()
         );
-        const hasSeafood = lowerSeafoodKeywords.some((keyword) =>
-          lowerItem.includes(keyword)
-        );
-        return !hasMeat && !hasSeafood;
-      });
 
-      // If we filtered out too many items and don't have enough left
-      if (itemSource.length < count) {
-        // Add some explicitly vegetarian items to ensure we have enough
-        const vegetarianItems = [
-          "Mushroom Risotto",
-          "Eggplant Parmesan",
-          "Roasted Vegetable Medley",
-          "Quinoa Bowl",
-          "Falafel",
-          "Vegetable Curry",
-          "Spinach Pie",
-          "Veggie Burger",
-          "Lentil Stew",
-          "Tofu Stir Fry",
-          "Garden Salad",
-          "Caprese Salad",
-          "Tomato Soup",
-          "Bean Burrito",
-          "Vegetable Lasagna",
-          "Stuffed Peppers",
-          "Cauliflower Steak",
-          "Sweet Potato Gnocchi",
-          "Zucchini Fritters",
-          "Avocado Toast",
-          "Hummus Plate",
+        // Filter out meat and seafood
+        filteredSource = filteredSource.filter((item) => {
+          const lowerItem = item.toLowerCase();
+          const hasMeat = lowerMeatKeywords.some((keyword) =>
+            lowerItem.includes(keyword)
+          );
+          const hasSeafood = lowerSeafoodKeywords.some((keyword) =>
+            lowerItem.includes(keyword)
+          );
+          return !hasMeat && !hasSeafood;
+        });
+
+        // Additional filter for vegan (remove dairy)
+        if (args["dietary-focus"] === "vegan-only") {
+          const lowerDairyKeywords = dairyKeywords.map((k) => k.toLowerCase());
+          filteredSource = filteredSource.filter((item) => {
+            const lowerItem = item.toLowerCase();
+            const hasDairy = lowerDairyKeywords.some((keyword) =>
+              lowerItem.includes(keyword)
+            );
+            return !hasDairy;
+          });
+        }
+      }
+
+      // Filter for gluten-free
+      else if (args["dietary-focus"] === "gluten-free") {
+        const lowerGlutenKeywords = glutenKeywords.map((k) => k.toLowerCase());
+        filteredSource = filteredSource.filter((item) => {
+          const lowerItem = item.toLowerCase();
+          const hasGluten = lowerGlutenKeywords.some((keyword) =>
+            lowerItem.includes(keyword)
+          );
+          return !hasGluten;
+        });
+      }
+
+      // Filter for halal
+      else if (args["dietary-focus"] === "halal-only") {
+        // Define non-halal keywords (focusing on pork products and alcohol)
+        const nonHalalKeywords = [
+          "pork",
+          "bacon",
+          "ham",
+          "prosciutto",
+          "pancetta",
+          "pepperoni",
+          "salami",
+          "lard",
+          "gelatin",
+          "wine",
+          "beer",
+          "alcohol",
+          "rum",
+          "vodka",
+          "whiskey",
+          "liqueur",
+          "brandy",
         ];
 
-        // Add vegan-specific items if needed
-        if (args["dietary-focus"] === "vegan-only") {
-          vegetarianItems.push(
+        const lowerNonHalalKeywords = nonHalalKeywords.map((k) =>
+          k.toLowerCase()
+        );
+        filteredSource = filteredSource.filter((item) => {
+          const lowerItem = item.toLowerCase();
+          const hasNonHalal = lowerNonHalalKeywords.some((keyword) =>
+            lowerItem.includes(keyword)
+          );
+          return !hasNonHalal;
+        });
+      }
+
+      // Filter for kosher
+      else if (args["dietary-focus"] === "kosher-only") {
+        // Define non-kosher keywords
+        const nonKosherKeywords = [
+          // Shellfish and forbidden seafood
+          "shellfish",
+          "shrimp",
+          "crab",
+          "lobster",
+          "clam",
+          "mussel",
+          "oyster",
+          "scallop",
+          "squid",
+          "calamari",
+          "octopus",
+          "eel",
+
+          // Pork products
+          "pork",
+          "bacon",
+          "ham",
+          "prosciutto",
+          "pancetta",
+          "lard",
+
+          // Mixed meat and dairy
+          "cheeseburger",
+          "meat and cheese",
+          "cream sauce with meat",
+        ];
+
+        const lowerNonKosherKeywords = nonKosherKeywords.map((k) =>
+          k.toLowerCase()
+        );
+        filteredSource = filteredSource.filter((item) => {
+          const lowerItem = item.toLowerCase();
+          const hasNonKosher = lowerNonKosherKeywords.some((keyword) =>
+            lowerItem.includes(keyword)
+          );
+          return !hasNonKosher;
+        });
+      }
+
+      // Add specific items if we filtered too many
+      if (filteredSource.length < count) {
+        let additionalItems = [];
+
+        // Add dietary-specific items based on focus
+        if (args["dietary-focus"] === "vegetarian-only") {
+          additionalItems = [
+            "Mushroom Risotto",
+            "Eggplant Parmesan",
+            "Roasted Vegetable Medley",
+            "Quinoa Bowl",
+            "Falafel",
+            "Vegetable Curry",
+            "Spinach Pie",
+            "Veggie Burger",
+            "Lentil Stew",
+            "Tofu Stir Fry",
+          ];
+        } else if (args["dietary-focus"] === "vegan-only") {
+          additionalItems = [
             "Jackfruit Tacos",
             "Seitan Kebabs",
             "Chickpea Curry",
@@ -997,33 +1097,58 @@ function generateMenuItemsForType(category, cuisine, count = args["items"]) {
             "Maple Glazed Carrots",
             "Nut Roast",
             "Portobello Steaks",
-            "Lentil Shepherd's Pie",
-            "Vegan Chili"
-          );
+          ];
+        } else if (args["dietary-focus"] === "gluten-free") {
+          additionalItems = [
+            "Quinoa Bowl",
+            "Rice Noodle Stir Fry",
+            "Polenta Squares",
+            "Corn Tortilla Tacos",
+            "Stuffed Bell Peppers",
+            "Risotto",
+            "Grilled Vegetables",
+            "Rice Paper Rolls",
+            "Sweet Potato Hash",
+          ];
+        } else if (args["dietary-focus"] === "halal-only") {
+          additionalItems = [
+            "Lamb Kebab",
+            "Chicken Shawarma",
+            "Beef Kofta",
+            "Falafel Plate",
+            "Vegetable Tagine",
+            "Halal Beef Burger",
+            "Chicken Biryani",
+            "Lamb Curry",
+            "Vegetable Couscous",
+          ];
+        } else if (args["dietary-focus"] === "kosher-only") {
+          additionalItems = [
+            "Matzo Ball Soup",
+            "Brisket",
+            "Challah French Toast",
+            "Latkes",
+            "Kugel",
+            "Kosher Beef Stew",
+            "Roast Chicken",
+            "Gefilte Fish",
+            "Israeli Salad",
+            "Kosher Lamb Chops",
+          ];
         }
 
-        // Add enough vegetarian items to meet the count
-        const neededItems = Math.max(0, count - itemSource.length);
-        const additionalItems = getRandomItems(vegetarianItems, neededItems);
-        itemSource = [...itemSource, ...additionalItems];
+        // Add enough items to meet the count
+        const neededItems = Math.max(0, count - filteredSource.length);
+        const selectedAdditionalItems = getRandomItems(
+          additionalItems,
+          neededItems
+        );
+        filteredSource = [...filteredSource, ...selectedAdditionalItems];
       }
+
+      // Update the itemSource with our filtered list
+      itemSource = filteredSource;
     }
-  }
-
-  // Apply price range adjustments
-  const modifier = priceModifiers[args["price-range"]];
-  priceRange.min = Math.max(
-    Math.round(priceRange.min * modifier.factor) + modifier.fixed,
-    3
-  );
-  priceRange.max = Math.max(
-    Math.round(priceRange.max * modifier.factor) + modifier.fixed,
-    priceRange.min + 2
-  );
-
-  // For fine dining, always use fancy names
-  if (args["restaurant-style"] === "fine-dining") {
-    useFancyName = true;
   }
 
   // Get random items from the source
@@ -1040,14 +1165,14 @@ function generateMenuItemsForType(category, cuisine, count = args["items"]) {
         ? `${prefix} ${descriptor} ${item}`
         : item;
 
-    // For vegetarian/vegan items, ensure the name doesn't accidentally include meat terms
-    // (e.g., if we're using fancy names that combine random prefixes/descriptors)
+    // Check if the proposed name contains inappropriate terms for the dietary focus
+    let nameNeedsChange = false;
+    let alternativeDescriptor = "";
+
     if (
-      (args["dietary-focus"] === "vegetarian-only" ||
-        args["dietary-focus"] === "vegan-only") &&
-      useFancyName
+      args["dietary-focus"] === "vegetarian-only" ||
+      args["dietary-focus"] === "vegan-only"
     ) {
-      // Check if the proposed name contains any meat terms
       const lowerItemName = itemName.toLowerCase();
       const hasMeat = meatKeywords.some((keyword) =>
         lowerItemName.includes(keyword.toLowerCase())
@@ -1056,20 +1181,88 @@ function generateMenuItemsForType(category, cuisine, count = args["items"]) {
         lowerItemName.includes(keyword.toLowerCase())
       );
 
-      // If it does contain meat terms, use the basic name instead of the fancy one
       if (hasMeat || hasSeafood) {
-        // Just use the item with a vegetarian-friendly descriptor
-        const vegDescriptors = [
-          "Garden",
-          "Fresh",
-          "Green",
-          "Harvest",
-          "Plant-Based",
-          "Seasonal",
-        ];
-        const descriptor = getRandomItems(vegDescriptors, 1)[0];
-        itemName = `${descriptor} ${item}`;
+        nameNeedsChange = true;
+        alternativeDescriptor = getRandomItems(
+          ["Garden", "Fresh", "Green", "Harvest", "Plant-Based", "Seasonal"],
+          1
+        )[0];
       }
+
+      // For vegan, also check dairy
+      if (args["dietary-focus"] === "vegan-only" && !nameNeedsChange) {
+        const hasDairy = dairyKeywords.some((keyword) =>
+          lowerItemName.includes(keyword.toLowerCase())
+        );
+        if (hasDairy) {
+          nameNeedsChange = true;
+          alternativeDescriptor = getRandomItems(
+            ["Pure", "Plant", "Garden", "Harvest"],
+            1
+          )[0];
+        }
+      }
+    } else if (args["dietary-focus"] === "gluten-free") {
+      const lowerItemName = itemName.toLowerCase();
+      const hasGluten = glutenKeywords.some((keyword) =>
+        lowerItemName.includes(keyword.toLowerCase())
+      );
+
+      if (hasGluten) {
+        nameNeedsChange = true;
+        alternativeDescriptor = getRandomItems(
+          ["Gluten-Free", "Flourless", "Grain-Free", "Pure"],
+          1
+        )[0];
+      }
+    } else if (args["dietary-focus"] === "halal-only") {
+      const lowerItemName = itemName.toLowerCase();
+      const nonHalalTerms = [
+        "pork",
+        "bacon",
+        "ham",
+        "alcohol",
+        "wine",
+        "beer",
+        "liquor",
+      ];
+      const hasNonHalal = nonHalalTerms.some((keyword) =>
+        lowerItemName.includes(keyword.toLowerCase())
+      );
+
+      if (hasNonHalal) {
+        nameNeedsChange = true;
+        alternativeDescriptor = getRandomItems(
+          ["Halal", "Traditional", "Authentic", "House"],
+          1
+        )[0];
+      }
+    } else if (args["dietary-focus"] === "kosher-only") {
+      const lowerItemName = itemName.toLowerCase();
+      const nonKosherTerms = [
+        "pork",
+        "shellfish",
+        "squid",
+        "octopus",
+        "rabbit",
+        "catfish",
+      ];
+      const hasNonKosher = nonKosherTerms.some((keyword) =>
+        lowerItemName.includes(keyword.toLowerCase())
+      );
+
+      if (hasNonKosher) {
+        nameNeedsChange = true;
+        alternativeDescriptor = getRandomItems(
+          ["Kosher", "Traditional", "Classic", "House"],
+          1
+        )[0];
+      }
+    }
+
+    // If the name needs changing, use a safer alternative
+    if (nameNeedsChange) {
+      itemName = `${alternativeDescriptor} ${item}`;
     }
 
     // Generate basic dietary flags
