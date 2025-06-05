@@ -48,10 +48,13 @@ export default function CrewMembers() {
 
         // Initialize pagination for each role
         const roles = [...new Set(data.map((member) => member.role))];
-        const initialPages = roles.reduce((acc, role) => {
-          acc[role] = 1;
-          return acc;
-        }, {} as Record<string, number>);
+        const initialPages = roles.reduce(
+          (acc, role) => {
+            acc[role] = 1;
+            return acc;
+          },
+          {} as Record<string, number>
+        );
         setCurrentPages(initialPages);
       } catch (error) {
         console.error("Failed to load crew members:", error);
@@ -178,14 +181,17 @@ export default function CrewMembers() {
 
   // Group crew members by role
   const crewMembersByRole = useMemo(() => {
-    return filteredCrewMembers.reduce((groups, member) => {
-      const role = member.role;
-      if (!groups[role]) {
-        groups[role] = [];
-      }
-      groups[role].push(member);
-      return groups;
-    }, {} as Record<string, CrewMember[]>);
+    return filteredCrewMembers.reduce(
+      (groups, member) => {
+        const role = member.role;
+        if (!groups[role]) {
+          groups[role] = [];
+        }
+        groups[role].push(member);
+        return groups;
+      },
+      {} as Record<string, CrewMember[]>
+    );
   }, [filteredCrewMembers]);
 
   // Get sorted role names for display
@@ -482,13 +488,13 @@ export default function CrewMembers() {
                 id={role.toLowerCase().replace(/\s+/g, "-")}
                 className="mb-12"
               >
-                <h2 className="mb-3 pb-2 border-b border-border">{role}s</h2>
-                <div className="flex justify-between items-baseline mb-6">
-                  <p>{getRoleDescription(role)}</p>
+                <div className="flex justify-between items-center pb-2 border-b">
+                  <h2>{role}s</h2>
                   <Badge>
                     {totalMembers} {totalMembers === 1 ? "member" : "members"}
                   </Badge>
                 </div>
+                <p>{getRoleDescription(role)}</p>
 
                 <div className="gap-8 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mb-6">
                   {currentMembers.map((member, index) => (
