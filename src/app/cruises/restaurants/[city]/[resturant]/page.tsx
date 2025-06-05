@@ -136,14 +136,17 @@ export default function RestaurantMenuPage() {
             {restaurantData.map((menu, index) => {
               return (
                 <div key={index} className="mb-8">
-                  <h2>{menu.title}</h2>
+                  <h2 className="mb-0">{menu.title}</h2>
                   <p>{menu.description}</p>
                   <section className="gap-4 grid grid-cols-1 lg:grid-cols-2">
                     {menu.category.map((menuCategory, itemIndex) => (
                       <section key={itemIndex} className="mt-4">
-                        <h3 className="underline underline-offset-4 decoration-tertiary">
+                        <h3 className="mb-2 underline underline-offset-4 decoration-tertiary">
                           {menuCategory.name}
                         </h3>
+                        <h5 className="mb-3 w-5/6">
+                          {menuCategory.description}
+                        </h5>
                         {menuCategory.items.map((item, itemIdx) => (
                           <div key={itemIdx} className="py-1 w-full">
                             <MenuItemDisplay
