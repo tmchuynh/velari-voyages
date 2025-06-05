@@ -248,5 +248,160 @@ export const santiagoRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Grand Bar & Kitchen",
+    "description": "A charming Italian restaurant near the cultural center, offering farm-to-table meals and other local favorites in a setting with local ambiance.",
+    "cuisine": "Italian",
+    "priceRange": "$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "Closed",
+      "wednesday": "11:00-22:00",
+      "thursday": "10:00-19:00",
+      "friday": "Closed",
+      "saturday": "9:00-22:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-835-6957",
+      "contactEmail": "contact@grandateliersantiago.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Royal Farm Table",
+    "description": "Located close to the old town walls, this American restaurant delights with its heritage recipes and live street performances.",
+    "cuisine": "American",
+    "priceRange": "$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "10:00-20:00",
+      "friday": "9:00-20:00",
+      "saturday": "11:00-19:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-545-5906",
+      "contactEmail": "mail@bluesalumeriasantiago.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "The Cerveceria",
+    "description": "Located close to central park, this American restaurant delights with its signature dishes and boutique shops.",
+    "cuisine": "American",
+    "priceRange": "$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "Closed",
+      "thursday": "10:00-21:00",
+      "friday": "Closed",
+      "saturday": "9:00-20:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-672-8640",
+      "contactEmail": "care@grandbrasseriesantiago.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "The Juice Bar",
+    "description": "Located close to central park, this Japanese restaurant delights with its signature dishes and elegant atmosphere.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "9:00-21:00",
+      "friday": "Closed",
+      "saturday": "10:00-20:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-932-6404",
+      "contactEmail": "office@grandpizzeriasantiago.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Royal Eatery",
+    "description": "Located close to the main square, this Mediterranean restaurant delights with its regional wines and artisan markets.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "Closed",
+      "thursday": "10:00-22:00",
+      "friday": "10:00-22:00",
+      "saturday": "9:00-21:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-229-1339",
+      "contactEmail": "office@royalfaresantiago.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
   }
 ];

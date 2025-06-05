@@ -1,29 +1,20 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for Blue & Co. in santiago
+ * Menu data for Grand Bar & Kitchen in santiago
  */
-export const santiagoblueCoMenu: RestaurantMenu[] = [
+export const santiagograndBarKitchenMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Elevated American dishes showcasing our most tasty culinary ideas",
+    "description": "Where flavorful creativity meets timeless Italian inspiration",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
+        "description": "Our chef's pride—carefully selected Italian specialties that define our culinary identity, honed through years of experience and passion.",
         "items": [
           {
-            "name": "Fresh Hearty Chef's Special Surf and Turf",
-            "price": 35.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Grilled Whole Roasted Heritage Chicken",
-            "price": 28.71,
+            "name": "Traditional Grilled Heritage Recipe Lamb Shank",
+            "price": 29.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -31,26 +22,8 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Grilled 24-Hour Braised Short Ribs",
-            "price": 33.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Comforting Sous Vide Perfected Wagyu",
-            "price": 32.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Satisfying Seasonal Tasting Platter",
-            "price": 36.37,
+            "name": "Classic Luscious Seasonal Tasting Menu Experience",
+            "price": 25.91,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -58,22 +31,49 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Pan-seared Celebrity Favorite Lobster Dish",
-            "price": 30.95,
+            "name": "Authentic Sweet Flambéed Tableside Specialty",
+            "price": 34.88,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Deluxe Crunchy Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 30.49,
+            "name": "Authentic Marinated 24-Hour Braised Short Ribs",
+            "price": 32.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Pan-seared Traditional Family Paella",
+            "price": 28.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Traditional Marinated Chef’s Wild Game Selection",
+            "price": 24.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Roasted Wood-Fired Peking Duck with Plum Sauce",
+            "price": 35.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
           }
         ]
       },
@@ -82,45 +82,45 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
         "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
         "items": [
           {
-            "name": "Hearty Exquisite Wild Mushroom Risotto",
-            "price": 27.45,
-            "isVegetarian": false,
+            "name": "Cold-Smoked Delicacy",
+            "price": 25.57,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Zesty Hand-Selected Wine Pairing Experience",
-            "price": 28.32,
-            "isVegetarian": false,
+            "name": "Live-Fire Grilled Feature",
+            "price": 26,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Satisfying Locally Foraged Mushroom Selection",
-            "price": 39.88,
+            "name": "Seared Duck Breast with Cherry Reduction",
+            "price": 32.29,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Heirloom Recipe from Chef's Family",
+            "price": 38.13,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Crunchy Custom Tasting Menu Based on Guest Preferences",
-            "price": 26.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Creamy Signature Spice-Rubbed Protein",
-            "price": 33.55,
-            "isVegetarian": false,
+            "name": "Fusion of Traditional and Modern Techniques",
+            "price": 30.43,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -130,77 +130,77 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Crafted to excite the palate, our starters are a perfect introduction to the world of American.",
+        "description": "An inviting mix of light fare and bold starters crafted to excite the palate.",
         "items": [
           {
-            "name": "Charcuterie Board",
-            "price": 13.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Spinach Puffs",
-            "price": 9.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bruschetta",
-            "price": 14.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mini Crab Cakes",
-            "price": 10.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Calamari",
-            "price": 9.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Chicken Wings",
-            "price": 14.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Tempura",
-            "price": 13.86,
+            "name": "Deluxe Grilled Stuffed Peppers",
+            "price": 13.99,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Arancini",
-            "price": 11.46,
+            "name": "Authentic Herbed Edamame",
+            "price": 11.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Creamy Stuffed Mushrooms",
+            "price": 15.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Grilled Potato Skins",
+            "price": 10.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Zingy Charcuterie Board",
+            "price": 14.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Mouthwatering Garlic Bread",
+            "price": 14.75,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Baked Chicken Wings",
+            "price": 11.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Smoked Crostini",
+            "price": 8.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -208,80 +208,53 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Warm, nourishing soups that reflect the heart of American cooking—perfect for any season.",
+        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
         "items": [
           {
-            "name": "Carrot Ginger Soup",
-            "price": 9.87,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Butternut Squash Soup",
+            "price": 9.58,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Tomato Soup",
-            "price": 12.58,
-            "isVegetarian": false,
+            "price": 10.46,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Vegetable Barley Soup",
-            "price": 12.15,
-            "isVegetarian": false,
+            "name": "Cabbage Soup",
+            "price": 10.09,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Clam Chowder",
-            "price": 8.61,
+            "name": "Miso Soup",
+            "price": 9.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Salads",
-        "description": "Each salad is a celebration of freshness and flavor, designed to nourish and delight.",
+        "description": "Wholesome creations that blend crunch, freshness, and house-crafted dressings.",
         "items": [
           {
-            "name": "Kale Salad",
-            "price": 14.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lentil and Feta Salad",
-            "price": 14.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roasted Beet and Goat Cheese Salad",
-            "price": 10.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 13.21,
+            "name": "Nicoise Salad",
+            "price": 15.3,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -289,11 +262,38 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Beet Salad",
-            "price": 11.45,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Avocado Corn Salad",
+            "price": 13.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Garden Salad",
+            "price": 10.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Asian Slaw",
+            "price": 10.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caesar Salad",
+            "price": 11.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,20 +301,11 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Crafted with the finest ingredients, our mains are a testament to our culinary philosophy.",
+        "description": "Robust and satisfying center-of-plate dishes that deliver flavor and artistry.",
         "items": [
           {
-            "name": "Fresh Luscious Gnocchi",
-            "price": 29.59,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Roasted Grilled Chicken",
-            "price": 25.37,
+            "name": "Classic Juicy Salmon",
+            "price": 18.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -322,17 +313,26 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Delectable Roast Duck",
-            "price": 25.52,
-            "isVegetarian": false,
+            "name": "Homestyle Sizzling Biryani",
+            "price": 19.35,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Exquisite Pulled Pork Sandwich",
-            "price": 28.42,
+            "name": "Fresh Satisfying Shish Kebabs",
+            "price": 22.74,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Roasted Beef Wellington",
+            "price": 28.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -340,50 +340,50 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Stuffed Biryani",
-            "price": 30.59,
+            "name": "Homestyle Tender Fajitas",
+            "price": 26.58,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Sizzling Beef Burger",
+            "price": 23.27,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Deluxe Pan-seared Lasagna",
-            "price": 26.56,
-            "isVegetarian": true,
+            "name": "Fresh Fried Mac and Cheese",
+            "price": 30.66,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Zesty Salmon",
-            "price": 27.17,
+            "name": "Deluxe Enticing Pulled Pork Sandwich",
+            "price": 23.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
-          },
-          {
-            "name": "Fresh Hearty Eggplant Parmesan",
-            "price": 18.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
       {
         "name": "Seafood Specialties",
-        "description": "Coastal cuisine brought inland with clarity, freshness, and elegance.",
+        "description": "Prepared with simplicity to let the freshness of the sea speak for itself.",
         "items": [
           {
-            "name": "Seafood Risotto with Saffron",
-            "price": 26.53,
+            "name": "Handcrafted Enticing Seafood Alfredo with Spinach Fettuccine",
+            "price": 34.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,8 +391,8 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Mussels Mariniere in White Wine",
-            "price": 29.19,
+            "name": "Handcrafted Zesty Shrimp Scampi over Linguine",
+            "price": 23.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,59 +400,41 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Shrimp Scampi over Linguine",
-            "price": 25.98,
+            "name": "Fresh Sautéed Seared Tuna Steak with Sesame Crust",
+            "price": 26.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Delectable Oysters Rockefeller with Pernod Cream",
+            "price": 22.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Stuffed Flounder with Crab and Spinach",
-            "price": 35.42,
+            "name": "Deluxe Grilled Steamed Littleneck Clams in Garlic Broth",
+            "price": 35.25,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seafood Alfredo with Spinach Fettuccine",
-            "price": 34.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Essential accompaniments, from traditional staples to inventive bites.",
+        "description": "Perfectly balanced additions that elevate your dining experience.",
         "items": [
           {
-            "name": "Fragrant Basmati Rice Pilaf",
-            "price": 9.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roasted Root Vegetables",
-            "price": 7.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Charred Broccolini with Garlic Oil",
-            "price": 9.17,
+            "name": "Deluxe Braised Cauliflower Gratin with Gruyère",
+            "price": 5.71,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -460,26 +442,44 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Flaky Cheddar and Chive Biscuits",
-            "price": 7.17,
-            "isVegetarian": true,
+            "name": "Fresh Sautéed Macaroni and Aged Cheddar",
+            "price": 9.85,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Baked Beans",
-            "price": 8.24,
+            "name": "Authentic Zesty Creamy Colcannon (Irish Potato Mash)",
+            "price": 5.75,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Hearty Israeli Couscous with Roasted Tomatoes",
+            "price": 6.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Herbed Crispy Zucchini Fritters",
+            "price": 6.05,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 5.13,
+            "name": "Seasonal Smoked Sautéed Garlic Mushrooms",
+            "price": 8.8,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -490,11 +490,20 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Mocktails and specialty drinks made with the same care as our cocktails.",
+        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
         "items": [
           {
-            "name": "House Special Pan-seared Soda",
-            "price": 5.65,
+            "name": "Water",
+            "price": 5.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 6.67,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,17 +511,26 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Crunchy Lemonade",
-            "price": 7.93,
+            "name": "Lemonade",
+            "price": 4.03,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 5.85,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Stuffed Milkshake",
-            "price": 7.87,
+            "name": "Smoothie",
+            "price": 7.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -520,29 +538,11 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Herbed Tea",
-            "price": 5.09,
+            "name": "Hot Chocolate",
+            "price": 5.51,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Stuffed Iced Tea",
-            "price": 6.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Delicious Hot Chocolate",
-            "price": 7.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,23 +552,41 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "From oven to plate – mouthwatering desserts made with care",
+    "description": "Crafted with passion, our crowd-pleasing desserts are a must-try",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Perfectly baked pastries and breads that bring warmth to your table.",
+        "description": "From flaky croissants to rich breads—our oven's finest, ready to enjoy.",
         "items": [
           {
-            "name": "Apple Pie",
-            "price": 9.63,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Deluxe Luscious Apple Pie",
+            "price": 10.96,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Baklava",
+            "name": "Traditional Spicy Crumb Cake",
+            "price": 8.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Creamy Cobbler",
+            "price": 6.73,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Zingy Carrot Cake",
             "price": 8.03,
             "isVegetarian": true,
             "isVegan": false,
@@ -577,26 +595,8 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Donuts",
-            "price": 9.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vanilla Cake",
-            "price": 10.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cheesecake",
-            "price": 8.43,
+            "name": "Fresh Baked Pumpkin Pie",
+            "price": 7.44,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -607,20 +607,20 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "The ultimate way to cool off and indulge—delicate, creamy, and unforgettable.",
+        "description": "A symphony of flavors and textures, our frozen desserts are a refreshing finale.",
         "items": [
           {
-            "name": "Fresh Pan-seared Frozen Cheesecake",
-            "price": 7.68,
-            "isVegetarian": false,
+            "name": "Ice Cream",
+            "price": 7.05,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Creamy Ice Cream",
-            "price": 7.85,
+            "name": "Gelato",
+            "price": 10.49,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -628,27 +628,27 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Zesty Granita",
-            "price": 8.04,
-            "isVegetarian": false,
+            "name": "Frozen Custard",
+            "price": 9.7,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Crunchy Snow Cone",
-            "price": 11.59,
-            "isVegetarian": false,
+            "name": "Kulfi",
+            "price": 7.88,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Stuffed Paletas",
-            "price": 11.49,
-            "isVegetarian": false,
+            "name": "Ice Cream Cake",
+            "price": 7.42,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -660,42 +660,51 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A crowd-pleasing array of beverages specially curated for our guests",
+    "description": "Our refreshing collection of spirits and cocktails to enhance your dining experience",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Each cocktail is a work of art—balanced, bold, and beautifully presented.",
+        "description": "From reinvented classics to bold new creations, every glass is an experience.",
         "items": [
           {
-            "name": "Negroni",
-            "price": 12.65,
+            "name": "Old Fashioned",
+            "price": 11.71,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 10.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 14.75,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Whiskey Sour",
-            "price": 15.03,
+            "name": "Mai Tai",
+            "price": 15.94,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 13.65,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 15.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 14.11,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -704,16 +713,7 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
           },
           {
             "name": "Margarita",
-            "price": 14.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 11.09,
+            "price": 12.28,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -722,8 +722,8 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
           },
           {
             "name": "Manhattan",
-            "price": 15.4,
-            "isVegetarian": false,
+            "price": 11,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -733,80 +733,11 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
+        "description": "From crisp whites to structured reds, our wine list offers something for every palate.",
         "items": [
           {
-            "name": "Fresh Smoked Pinot Grigio",
-            "price": 12.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Golden Sémillon",
-            "price": 9.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Sautéed Barbera",
-            "price": 9.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Zingy Champagne/Sparkling Wine",
-            "price": 10.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Grilled Prosecco",
-            "price": 10.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Flaky Tempranillo",
-            "price": 8.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Spirits and Liqueurs",
-        "description": "A curated collection of fine spirits and artisan liqueurs from around the world.",
-        "items": [
-          {
-            "name": "Traditional Zesty Baileys Irish Cream",
-            "price": 11.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Spiced Maraschino",
-            "price": 17.06,
+            "name": "Premium Aromatic Syrah/Shiraz",
+            "price": 10.91,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -814,8 +745,68 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Savory Whiskey",
-            "price": 10.94,
+            "name": "Fresh Pan-seared Pinot Noir",
+            "price": 8.23,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Sweet Merlot",
+            "price": 13.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Grilled Roussanne",
+            "price": 13.34,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Stuffed Champagne/Sparkling Wine",
+            "price": 10.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Irresistible Sémillon",
+            "price": 11.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Spirits and Liqueurs",
+        "description": "From timeless classics to innovative new blends, our spirits menu is a celebration of flavor.",
+        "items": [
+          {
+            "name": "Organic Spiced Chambord",
+            "price": 10.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Baked Scotch",
+            "price": 15.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -823,8 +814,8 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Deluxe Grilled Cointreau",
-            "price": 12.56,
+            "name": "Fresh Tender Galliano",
+            "price": 17.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -832,13 +823,22 @@ export const santiagoblueCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Comforting Pisco",
-            "price": 13.13,
+            "name": "Gourmet Herbed Coffee Liqueur",
+            "price": 16.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Authentic Braised Anisette",
+            "price": 12.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       }

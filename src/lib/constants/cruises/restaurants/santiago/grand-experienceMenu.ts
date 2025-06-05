@@ -6,33 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const santiagograndExperienceMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Where delicious technique meets timeless Mediterranean tradition",
+    "description": "Our carefully crafted selection of homestyle Mediterranean dishes",
     "category": [
       {
         "name": "Signature Dishes",
         "description": "House favorites that have stood the test of time and showcase our refined approach to Mediterranean cuisine.",
         "items": [
           {
-            "name": "Charcoal Grilled Iberico Pork",
-            "price": 33.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Captain's Favorite Seafood Tower",
-            "price": 34.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Wood-Fired Peking Duck with Plum Sauce",
-            "price": 32.03,
+            "name": "Heritage Recipe Lamb Shank",
+            "price": 25.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -40,8 +22,35 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Award-Winning Seafood Boil",
-            "price": 25.75,
+            "name": "Flambéed Tableside Specialty",
+            "price": 37.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Secret Recipe Bouillabaisse",
+            "price": 29.29,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Dry-Aged Tomahawk Steak",
+            "price": 30.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Sous Vide Perfected Wagyu",
+            "price": 32.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -49,17 +58,8 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Tasting Menu Experience",
-            "price": 29.64,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tableside Carved Chateaubriand",
-            "price": 31.86,
+            "name": "Local Bounty Harvest Plate (Vegetarian)",
+            "price": 29.42,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -67,11 +67,11 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Age-Old Recipe Osso Buco with Gremolata",
-            "price": 25.74,
-            "isVegetarian": true,
+            "name": "Chef’s Wild Game Selection",
+            "price": 35.97,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -82,8 +82,8 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
         "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
         "items": [
           {
-            "name": "Cedar Plank Salmon",
-            "price": 39.97,
+            "name": "House Special Sizzling Pan-Seared Scallops with Citrus Beurre Blanc",
+            "price": 29.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -91,17 +91,8 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seared Foie Gras with Fig Compote",
-            "price": 32.63,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Crispy Skin Sea Bass",
-            "price": 24.39,
+            "name": "Deluxe Steamed Sustainable Seafood Tower",
+            "price": 28.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -109,50 +100,59 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deconstructed Classic with Modern Technique",
-            "price": 32.76,
-            "isVegetarian": true,
+            "name": "Traditional Herbed Smoked and Slow-Roasted Heritage Meat",
+            "price": 25.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Stuffed Tasting of Local Artisanal Cheeses",
+            "price": 35.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Flaky Off-Menu Secret Preparation",
+            "price": 29.51,
+            "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Smoked and Slow-Roasted Heritage Meat",
-            "price": 33.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "A selection of small plates that showcase the essence of Mediterranean—perfect for sharing or savoring solo.",
+        "description": "Flavor-forward starters that introduce our approach to Mediterranean with balance and creativity.",
         "items": [
           {
-            "name": "Calamari",
+            "name": "Organic Crunchy Prawn Cocktail",
+            "price": 13.35,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Zingy Deviled Eggs",
             "price": 13.04,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tempura",
-            "price": 11.8,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cheese Nachos",
-            "price": 9.19,
+            "name": "Hearty Enticing Cheese Nachos",
+            "price": 10.01,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -160,17 +160,8 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Nachos",
-            "price": 9.4,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chicken Satay",
-            "price": 8.19,
+            "name": "Deluxe Juicy Chicken Wings",
+            "price": 12.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -178,29 +169,38 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Mini Sliders",
-            "price": 11.22,
+            "name": "Fresh Sautéed Lettuce Wraps",
+            "price": 13.14,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mezze Platter",
-            "price": 8.37,
-            "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Shrimp Cocktail",
-            "price": 11.49,
-            "isVegetarian": false,
+            "name": "Deluxe Grilled Edamame",
+            "price": 13.18,
+            "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Irresistible Mini Empanadas",
+            "price": 10.16,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Delectable Falafel",
+            "price": 9.82,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -208,43 +208,43 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Classic and modern takes on soup that reflect our culinary roots and creative spirit.",
+        "description": "A warm, flavorful embrace in every bowl—crafted for nourishment and satisfaction.",
         "items": [
           {
-            "name": "Handcrafted Golden Corn Chowder",
-            "price": 8.71,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Spicy Split Pea Soup",
-            "price": 13.38,
-            "isVegetarian": true,
+            "name": "Vegetable Barley Soup",
+            "price": 7.68,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Luscious Clam Chowder",
-            "price": 8.58,
+            "name": "Minestrone",
+            "price": 10.71,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Peanut Soup (West African)",
+            "price": 9.5,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Zingy French Onion Soup",
-            "price": 13.74,
+            "name": "Lobster Bisque",
+            "price": 12.68,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -253,8 +253,17 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
         "description": "Crisp and colorful salads that balance flavor, nutrition, and beautiful presentation.",
         "items": [
           {
-            "name": "Quinoa Salad",
-            "price": 11.54,
+            "name": "Broccoli Crunch Salad",
+            "price": 15.08,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Vegetable Salad",
+            "price": 15.85,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -262,17 +271,17 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Asian Slaw",
-            "price": 13.36,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Potato Salad",
+            "price": 12.54,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Kale Salad",
-            "price": 14.19,
+            "name": "Spinach Salad",
+            "price": 9.54,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -280,17 +289,8 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pasta Salad",
-            "price": 10.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caesar Salad",
-            "price": 10.65,
+            "name": "Farro Salad",
+            "price": 13.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -301,65 +301,11 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Each dish is a culinary journey, showcasing the richness of Mediterranean traditions.",
+        "description": "Each dish is a masterpiece, showcasing the best of our culinary traditions.",
         "items": [
           {
-            "name": "Roast Duck",
-            "price": 31.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Fajitas",
-            "price": 26.79,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pho",
-            "price": 22.36,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Eggplant Parmesan",
-            "price": 19.12,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mac and Cheese",
-            "price": 25.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lamb Chops",
-            "price": 29.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Quiche",
-            "price": 25.76,
+            "price": 25.97,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -367,9 +313,63 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Thai Curry",
-            "price": 24.08,
+            "name": "Pizza",
+            "price": 20.86,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Katsu Curry",
+            "price": 23.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cottage Pie",
+            "price": 19.87,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spaghetti Bolognese",
+            "price": 20.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Biryani",
+            "price": 22.2,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Salmon",
+            "price": 25.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coq au Vin",
+            "price": 23.29,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -379,29 +379,20 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
+        "description": "Daily catches transformed into exquisite plates by our skilled kitchen team.",
         "items": [
           {
-            "name": "Authentic Grilled Grilled Lobster with Lemon Butter",
-            "price": 29.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Traditional Provençal Bouillabaisse",
+            "price": 31.22,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Zesty Seared Tuna Steak with Sesame Crust",
-            "price": 26.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Satisfying Smoked Salmon Platter with Dill Crème",
-            "price": 27.63,
+            "name": "Miso-Marinated Chilean Sea Bass",
+            "price": 29.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -409,41 +400,68 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seasonal Sweet Baked Cod with Lemon Caper Sauce",
-            "price": 26.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Juicy Shrimp Scampi over Linguine",
-            "price": 27.21,
+            "name": "Seafood Alfredo with Spinach Fettuccine",
+            "price": 28.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
+          },
+          {
+            "name": "Alaskan King Crab Legs with Drawn Butter",
+            "price": 31.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Grilled Lobster with Lemon Butter",
+            "price": 30.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Flavorful companions that round out your meal with harmony and flair.",
+        "description": "From roasted vegetables to artisanal grains, our sides are a perfect match for any dish.",
         "items": [
           {
-            "name": "Classic Crunchy Baked Idaho Potato with Sour Cream",
-            "price": 7.73,
+            "name": "Classic Tangy Cauliflower Gratin with Gruyère",
+            "price": 9.3,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Aromatic Israeli Couscous with Roasted Tomatoes",
+            "price": 8.87,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Wholesome Macaroni and Aged Cheddar",
-            "price": 9.58,
+            "name": "Homestyle Luscious Crispy Zucchini Fritters",
+            "price": 6.59,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Succulent Roasted Root Vegetables",
+            "price": 5.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -451,17 +469,8 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Irresistible Israeli Couscous with Roasted Tomatoes",
-            "price": 6.77,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Flavorful Scalloped Potatoes with Thyme",
-            "price": 7.6,
+            "name": "Classic Enticing Flaky Cheddar and Chive Biscuits",
+            "price": 7.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -469,20 +478,11 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Appetizing Mashed Potatoes",
-            "price": 5.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Stuffed Grilled Asparagus with Lemon Zest",
-            "price": 8.26,
+            "name": "Premium Aromatic Maple-Glazed Baby Carrots",
+            "price": 9.01,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,38 +490,20 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Bright, invigorating options that cleanse the palate and refresh the spirit.",
+        "description": "Mocktails and specialty drinks made with the same care as our cocktails.",
         "items": [
           {
-            "name": "Smoothie",
-            "price": 6.39,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 7.02,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Tea",
-            "price": 5.28,
+            "price": 7.97,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Milkshake",
-            "price": 6.31,
+            "name": "Smoothie",
+            "price": 5.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -530,18 +512,36 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Soda",
-            "price": 5.01,
+            "price": 6.39,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Water",
-            "price": 4.77,
-            "isVegetarian": true,
+            "name": "Juice",
+            "price": 5.35,
+            "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 5.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 7.61,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -552,15 +552,15 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "A classic selection of desserts that celebrate the art of pastry",
+    "description": "Handcrafted delicious desserts that celebrate Mediterranean traditions",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Handcrafted with the finest ingredients, our baked goods are a treat for the senses.",
+        "description": "Perfectly baked goods that pair beautifully with our beverages or stand alone.",
         "items": [
           {
-            "name": "Apple Pie",
-            "price": 10.96,
+            "name": "Deluxe Grilled Apple Pie",
+            "price": 9.01,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -568,36 +568,36 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pumpkin Pie",
-            "price": 6.6,
+            "name": "Seasonal Irresistible Red Velvet Cake",
+            "price": 7.26,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Luscious Cobbler",
+            "price": 8.58,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Sautéed Lemon Bars",
+            "price": 6.56,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Vanilla Cake",
-            "price": 10.29,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chocolate Chip Cookies",
-            "price": 6.07,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Treacle Tart",
-            "price": 8.68,
-            "isVegetarian": true,
+            "name": "Traditional Flaky Treacle Tart",
+            "price": 6.47,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -607,29 +607,11 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
+        "description": "Crafted with the finest ingredients, our frozen desserts are a treat for the senses.",
         "items": [
           {
-            "name": "Snow Cone",
-            "price": 8.92,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ice Cream",
-            "price": 11.2,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gelato",
-            "price": 9.92,
+            "name": "Kulfi",
+            "price": 11.31,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -637,20 +619,38 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ice Cream Sandwich",
-            "price": 11.65,
-            "isVegetarian": false,
+            "name": "Frozen Mousse",
+            "price": 8.47,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Cake",
+            "price": 7.76,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gelato",
+            "price": 7.85,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Custard",
-            "price": 10.25,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Sorbet",
+            "price": 7.12,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,15 +660,15 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Indulge in our flavorful drinks menu crafted to accentuate flavors",
+    "description": "A enticing selection of alcoholic beverages to complement your meal",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Each cocktail tells a story—bold, balanced, and unmistakably ours.",
+        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
         "items": [
           {
-            "name": "Authentic Appetizing Whiskey Sour",
-            "price": 10.15,
+            "name": "Authentic Mouthwatering Bloody Mary",
+            "price": 12.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -676,26 +676,8 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Flaky Negroni",
-            "price": 15.35,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Smoked Mojito",
-            "price": 11.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Golden Cosmopolitan",
-            "price": 12.68,
+            "name": "Traditional Crunchy Martini",
+            "price": 14.67,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -703,29 +685,47 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Grilled Manhattan",
-            "price": 13.2,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Zesty Bloody Mary",
-            "price": 11.89,
+            "name": "Handcrafted Delicious Cosmopolitan",
+            "price": 15.58,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Succulent Margarita",
+            "price": 14.58,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Baked Old Fashioned",
-            "price": 12.3,
+            "name": "Handcrafted Creamy Mai Tai",
+            "price": 13.44,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Herbed Manhattan",
+            "price": 11.83,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Steamed Old Fashioned",
+            "price": 10.53,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,20 +733,29 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "From crisp whites to structured reds, our wine list offers something for every palate.",
+        "description": "A wine list as thoughtful and layered as our cuisine.",
         "items": [
           {
-            "name": "Mourvèdre",
-            "price": 12.84,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Pinot Noir",
+            "price": 11.24,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Petit Verdot",
-            "price": 8.67,
+            "name": "Pinot Grigio",
+            "price": 12.49,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sémillon",
+            "price": 11.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -754,26 +763,17 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Barbera",
-            "price": 9.76,
-            "isVegetarian": false,
+            "name": "Torrontés",
+            "price": 11.29,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Moscato",
-            "price": 8.98,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cabernet Sauvignon",
-            "price": 9.23,
+            "name": "Mourvèdre",
+            "price": 10.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -781,8 +781,8 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gewürztraminer",
-            "price": 12.38,
+            "name": "Albariño",
+            "price": 11.96,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -793,11 +793,11 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Crafted for those who appreciate the art of distillation—each pour is a journey.",
+        "description": "From timeless classics to innovative new blends, our spirits menu is a celebration of flavor.",
         "items": [
           {
-            "name": "Brandy",
-            "price": 14.29,
+            "name": "Tequila",
+            "price": 13.59,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -805,36 +805,36 @@ export const santiagograndExperienceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cointreau",
-            "price": 10.04,
-            "isVegetarian": false,
+            "name": "Limoncello",
+            "price": 13.74,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Armagnac",
+            "price": 16.67,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Campari",
-            "price": 17.04,
+            "name": "Anisette",
+            "price": 17.38,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grand Marnier",
-            "price": 14.19,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Triple Sec",
-            "price": 10.28,
-            "isVegetarian": true,
+            "name": "Kahlúa",
+            "price": 11.05,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,

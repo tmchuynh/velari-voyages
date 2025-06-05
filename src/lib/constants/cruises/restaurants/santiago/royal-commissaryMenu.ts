@@ -6,42 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const santiagoroyalCommissaryMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our carefully crafted selection of tasty Japanese dishes",
+    "description": "A showcase of hearty culinary artistry rooted in Japanese heritage",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
+        "description": "Exclusive, time-tested recipes that highlight the heart and soul of authentic Japanese cooking.",
         "items": [
           {
-            "name": "Authentic Enticing Heritage Recipe Lamb Shank",
-            "price": 33.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Grilled Award-Winning Seafood Boil",
-            "price": 24.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Marinated Age-Old Recipe Osso Buco with Gremolata",
-            "price": 35.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Delectable Chef’s Wild Game Selection",
-            "price": 26.82,
+            "name": "Handcrafted Herbed Chef's Special Surf and Turf",
+            "price": 27.54,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -49,31 +22,58 @@ export const santiagoroyalCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Flaky Whole Roasted Heritage Chicken",
-            "price": 27.79,
+            "name": "Organic Grilled Local Bounty Harvest Plate (Vegetarian)",
+            "price": 30.81,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Zesty Executive Chef's Daily Inspiration Entrée",
+            "price": 37.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Deluxe Fried Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 26.77,
+            "name": "Hearty Stuffed Legendary Prime Rib",
+            "price": 37.03,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Smoked Restaurant's Namesake Signature Entrée",
+            "price": 27.3,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Handcrafted Steamed Charcoal Grilled Iberico Pork",
-            "price": 36.49,
+            "name": "House Special Grilled Flambéed Tableside Specialty",
+            "price": 34.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Traditional Delicious Chef's Childhood Inspired Creation",
+            "price": 27.86,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -82,26 +82,8 @@ export const santiagoroyalCommissaryMenu: RestaurantMenu[] = [
         "description": "A rotating selection of dishes that highlight the chef's creativity and passion for Japanese.",
         "items": [
           {
-            "name": "Deluxe Flavorful Seared Duck Breast with Cherry Reduction",
-            "price": 37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Tender Seasonal Truffle Risotto",
-            "price": 31.7,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Fried Crispy Skin Sea Bass",
-            "price": 30.83,
+            "name": "Traditional Luscious Lobster Thermidor",
+            "price": 39.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -109,8 +91,26 @@ export const santiagoroyalCommissaryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Premium Succulent Tasting of Local Artisanal Cheeses",
-            "price": 35.38,
+            "name": "Authentic Delectable Dry-Aged Prime Beef Selection",
+            "price": 39.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Juicy Freshly Harvested Seasonal Creation",
+            "price": 33.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Flaky Pan-Seared Scallops with Citrus Beurre Blanc",
+            "price": 33.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -118,9 +118,9 @@ export const santiagoroyalCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Braised Chef's Tasting Menu Experience",
-            "price": 27.73,
-            "isVegetarian": true,
+            "name": "House Special Herbed Off-Menu Secret Preparation",
+            "price": 26.49,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -130,77 +130,77 @@ export const santiagoroyalCommissaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Thoughtfully prepared small plates to begin your culinary experience with elegance and taste.",
+        "description": "An inviting mix of light fare and bold starters crafted to excite the palate.",
         "items": [
           {
-            "name": "Authentic Flaky Nachos",
-            "price": 9.22,
+            "name": "Classic Comforting Deviled Eggs",
+            "price": 12.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Luscious Mini Crab Cakes",
+            "price": 12.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Irresistible Edamame",
+            "price": 14.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Irresistible Bruschetta",
+            "price": 14.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Grilled Hummus Platter",
+            "price": 10.4,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Mouthwatering Tempura",
+            "price": 15.39,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Pan-seared Charcuterie Board",
+            "price": 9.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Spiced Bruschetta",
-            "price": 9.85,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Crunchy Mini Empanadas",
-            "price": 11.15,
+            "name": "Authentic Luscious Crostini",
+            "price": 9.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Baked Zucchini Fries",
-            "price": 11.5,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Sizzling Onion Rings",
-            "price": 8.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Creamy Samosas",
-            "price": 10.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Savory Stuffed Peppers",
-            "price": 14.15,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Luscious Prawn Toast",
-            "price": 14,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -208,122 +208,11 @@ export const santiagoroyalCommissaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
+        "description": "Crafted with care, our soups are a celebration of Japanese flavors and traditions.",
         "items": [
           {
-            "name": "Tomato Soup",
-            "price": 12.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Clam Chowder",
-            "price": 13.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Egg Drop Soup",
-            "price": 8.72,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seafood Chowder",
-            "price": 9.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "description": "Crisp and colorful salads that balance flavor, nutrition, and beautiful presentation.",
-        "items": [
-          {
-            "name": "Pasta Salad",
-            "price": 14.07,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Broccoli Crunch Salad",
-            "price": 13.78,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Waldorf Salad",
-            "price": 15.94,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Orzo Salad",
-            "price": 9.63,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef Salad",
-            "price": 10.61,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Main Courses",
-        "description": "A selection of mains that reflect the heart and soul of Japanese, prepared with care.",
-        "items": [
-          {
-            "name": "Stuffed Zucchini Boats",
-            "price": 20.77,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lentil Stew",
-            "price": 24.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chicken Parmesan",
-            "price": 26.9,
+            "name": "Authentic Pan-seared Minestrone",
+            "price": 8.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -331,8 +220,92 @@ export const santiagoroyalCommissaryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Spaghetti Bolognese",
-            "price": 28.4,
+            "name": "Authentic Succulent Mushroom Soup",
+            "price": 10.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Sweet Seafood Chowder",
+            "price": 12.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Herbed Hot and Sour Soup",
+            "price": 9.16,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "description": "A seasonal showcase of the garden’s bounty—thoughtfully composed and artfully arranged.",
+        "items": [
+          {
+            "name": "Avocado Corn Salad",
+            "price": 15.58,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spinach Salad",
+            "price": 10.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nicoise Salad",
+            "price": 14.43,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coleslaw",
+            "price": 11.26,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Southwest Black Bean Salad",
+            "price": 11.06,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Main Courses",
+        "description": "Each plate tells a story—of heritage, ingredients, and expert execution.",
+        "items": [
+          {
+            "name": "Katsu Curry",
+            "price": 25.73,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -341,7 +314,16 @@ export const santiagoroyalCommissaryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Coq au Vin",
-            "price": 26.38,
+            "price": 24.92,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Biryani",
+            "price": 31.01,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -349,28 +331,46 @@ export const santiagoroyalCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Bibimbap",
-            "price": 24.98,
-            "isVegetarian": true,
+            "name": "Pizza",
+            "price": 26.53,
+            "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Shakshuka",
-            "price": 25.76,
+            "name": "Pho",
+            "price": 21.93,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fish and Chips",
+            "price": 21.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Risotto",
+            "price": 24.23,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Korma",
-            "price": 29.67,
+            "price": 21.65,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -379,71 +379,62 @@ export const santiagoroyalCommissaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Prepared with simplicity to let the freshness of the sea speak for itself.",
+        "description": "Sourced from local fisheries, our seafood dishes are as fresh as they come.",
         "items": [
           {
-            "name": "Traditional Juicy Mussels Mariniere in White Wine",
-            "price": 25.93,
+            "name": "Handcrafted Grilled Cajun Shrimp and Grits",
+            "price": 32.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Roasted Smoked Salmon Platter with Dill Crème",
-            "price": 30.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Tangy Traditional Provençal Bouillabaisse",
-            "price": 30.67,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Stuffed Grilled Lobster with Lemon Butter",
-            "price": 24.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Handcrafted Wholesome Alaskan King Crab Legs with Drawn Butter",
-            "price": 33.94,
+            "name": "Gourmet Succulent Tempura Soft Shell Crab",
+            "price": 22.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Savory Alaskan King Crab Legs with Drawn Butter",
+            "price": 32.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Deluxe Marinated Pan-Seared Scallops with Pea Purée",
+            "price": 23.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Roasted Shrimp Scampi over Linguine",
+            "price": 34.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Essential accompaniments, from traditional staples to inventive bites.",
+        "description": "Flavor-packed sides made to share—or keep all to yourself.",
         "items": [
           {
-            "name": "Baked Idaho Potato with Sour Cream",
-            "price": 5.1,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mashed Potatoes",
-            "price": 7.87,
+            "name": "Gourmet Creamy Yukon Gold Potato Gratin",
+            "price": 8.22,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -451,50 +442,68 @@ export const santiagoroyalCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Stuffed Bell Peppers with Brown Rice",
-            "price": 7.29,
-            "isVegetarian": true,
+            "name": "Hearty Steamed Roasted Root Vegetables",
+            "price": 6.27,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cauliflower Gratin with Gruyère",
-            "price": 8.2,
+            "name": "Homestyle Tangy Maple-Glazed Baby Carrots",
+            "price": 6.16,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Wild Rice Pilaf",
-            "price": 7.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Crispy Zucchini Fritters",
-            "price": 8.05,
-            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Fresh Aromatic Scalloped Potatoes with Thyme",
+            "price": 6.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Golden Cauliflower Gratin with Gruyère",
+            "price": 5.55,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Roasted Wild Rice Pilaf",
+            "price": 6.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Crafted beverages that offer a sophisticated alternative to traditional drinks.",
+        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
         "items": [
           {
-            "name": "Coffee",
-            "price": 5.2,
+            "name": "Tea",
+            "price": 6.44,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 5.89,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,26 +511,17 @@ export const santiagoroyalCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 4.58,
+            "name": "Iced Tea",
+            "price": 7.34,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Soda",
-            "price": 7.69,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 6.58,
+            "price": 7.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -530,18 +530,18 @@ export const santiagoroyalCommissaryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Milkshake",
-            "price": 7.36,
+            "price": 4.64,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Juice",
-            "price": 6.55,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Coffee",
+            "price": 6.6,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -552,51 +552,51 @@ export const santiagoroyalCommissaryMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "A gooey selection of desserts that celebrate the art of pastry",
+    "description": "From rich chocolates to fruity delights – our comforting desserts await",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Each bite tells a story—layered, textured, and baked to perfection.",
+        "description": "From buttery croissants to hearty loaves, our baked goods are a celebration of flavor.",
         "items": [
           {
-            "name": "Gourmet Hearty Pain au Chocolat",
-            "price": 9.79,
+            "name": "Biscotti",
+            "price": 8.07,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Grilled Cannoli",
-            "price": 8.77,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Fried Soufflé",
-            "price": 10.98,
+            "name": "Custard Tart",
+            "price": 10.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Homestyle Savory Carrot Cake",
+            "name": "Cinnamon Rolls",
             "price": 8,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Pan-seared Sticky Toffee Pudding",
-            "price": 7.6,
+            "name": "Strawberry Shortcake",
+            "price": 8.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Macarons",
+            "price": 7.42,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -607,38 +607,11 @@ export const santiagoroyalCommissaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Handmade with care, our frozen desserts are a celebration of texture and taste.",
+        "description": "Icy, sweet finishes with flavor that lingers beyond the chill.",
         "items": [
           {
-            "name": "Fresh Zesty Baked Alaska",
-            "price": 7.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Enticing Gelato",
-            "price": 8.58,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Crunchy Frozen Mousse",
-            "price": 11.69,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Braised Frozen Yogurt",
-            "price": 11.07,
+            "name": "Fresh Juicy Frozen Mousse",
+            "price": 11.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -646,10 +619,37 @@ export const santiagoroyalCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Crunchy Frozen Cheesecake",
-            "price": 11.06,
+            "name": "Authentic Tangy Frozen Banana",
+            "price": 7.98,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Zesty Popsicles",
+            "price": 11.27,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Hearty Paletas",
+            "price": 8.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Luscious Frozen Pie",
+            "price": 7.74,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -660,51 +660,60 @@ export const santiagoroyalCommissaryMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A enticing blend of heritage and modern mixology in every glass",
+    "description": "Sip on our flavorful cocktails, designed to enhance your dining experience",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Sophisticated beverages with depth, character, and a dash of creativity.",
+        "description": "Refined blends of premium spirits, house syrups, and fresh produce.",
         "items": [
           {
-            "name": "Margarita",
-            "price": 14.26,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 10.5,
+            "name": "Authentic Sweet Manhattan",
+            "price": 14.6,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Mai Tai",
-            "price": 10.02,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 15.49,
-            "isVegetarian": true,
+            "name": "Authentic Sweet Martini",
+            "price": 10.34,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Creamy Margarita",
+            "price": 11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Irresistible Mojito",
+            "price": 12.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 12.96,
+            "name": "Gourmet Savory Mai Tai",
+            "price": 13.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Irresistible Negroni",
+            "price": 12.93,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -712,19 +721,10 @@ export const santiagoroyalCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 14.78,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 12.44,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Organic Smoked Old Fashioned",
+            "price": 11.86,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -733,20 +733,29 @@ export const santiagoroyalCommissaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "From crisp whites to structured reds, our wine list offers something for every palate.",
+        "description": "Explore our wine list, where each bottle is a testament to craftsmanship and tradition.",
         "items": [
           {
-            "name": "Gourmet Golden Tempranillo",
-            "price": 12.17,
-            "isVegetarian": true,
+            "name": "Authentic Wholesome Chardonnay",
+            "price": 10.92,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Grilled Syrah/Shiraz",
+            "price": 8.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Tender Cabernet Sauvignon",
-            "price": 12,
+            "name": "Hearty Savory Cabernet Sauvignon",
+            "price": 13.29,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -754,8 +763,8 @@ export const santiagoroyalCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Braised Viognier",
-            "price": 12.7,
+            "name": "Deluxe Herbed Sangiovese",
+            "price": 12.06,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -763,80 +772,71 @@ export const santiagoroyalCommissaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Spicy Fiano",
-            "price": 11.83,
+            "name": "Gourmet Delectable Vouvray",
+            "price": 9.06,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Delectable Dolcetto",
-            "price": 13.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Baked Gewürztraminer",
-            "price": 9.1,
-            "isVegetarian": false,
+            "name": "Gourmet Spicy Barbera",
+            "price": 13.6,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "A refined range of aged whiskeys, fine brandies, and international specialties.",
+        "description": "Start or finish your night with a pour that lingers in memory.",
         "items": [
           {
-            "name": "Coffee Liqueur",
-            "price": 11.76,
-            "isVegetarian": true,
+            "name": "Baileys Irish Cream",
+            "price": 10.15,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cointreau",
-            "price": 13.62,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Calvados",
+            "price": 17.52,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bénédictine",
-            "price": 16.75,
+            "name": "Frangelico",
+            "price": 15.53,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Rum",
+            "price": 14.51,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Tequila",
-            "price": 10.48,
+            "price": 12.86,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Galliano",
-            "price": 12.03,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
