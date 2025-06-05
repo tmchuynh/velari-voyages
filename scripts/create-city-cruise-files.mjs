@@ -3,9 +3,10 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 
-// node scripts/create-city-cruise-files.mjs - Default behavior, adds 10 cruises per city
-// node scripts/create-city-cruise-files.mjs --append 5 - Adds 5 cruises to each city file
+// node scripts/create-city-cruise-files.mjs - Default behavior, adds 10 cruises per city only for new files
+// node scripts/create-city-cruise-files.mjs --append 5 - Adds 5 cruises to existing files
 // node scripts/create-city-cruise-files.mjs --rewrite - Rewrites all files with 10 cruises each
+// node scripts/create-city-cruise-files.mjs --force-create - Creates files even if they already exist
 // node scripts/create-city-cruise-files.mjs --rewrite --append 15 - Rewrites all files with 15 cruises each
 // node scripts/create-city-cruise-files.mjs --help - Shows help information
 
@@ -18,6 +19,8 @@ const args = process.argv.slice(2);
 const CRUISES_PER_CITY = 10; // Default value
 let cruisesToAppend = CRUISES_PER_CITY;
 let forceRewrite = false;
+let forceCreate = false; // New flag to control creation behavior
+const APPEND_MODE = args.includes('--append') || args.includes('-a');
 
 // Process command-line arguments
 for (let i = 0; i < args.length; i++) {
@@ -29,6 +32,8 @@ for (let i = 0; i < args.length; i++) {
     }
   } else if (args[i] === "--rewrite" || args[i] === "-r") {
     forceRewrite = true;
+  } else if (args[i] === "--force-create" || args[i] === "-f") {
+    forceCreate = true;
   } else if (args[i] === "--help" || args[i] === "-h") {
     console.log(`
 Usage: node scripts/create-city-cruise-files.mjs [options]
@@ -36,6 +41,7 @@ Usage: node scripts/create-city-cruise-files.mjs [options]
 Options:
   --append, -a NUMBER  Append NUMBER of cruises to existing files
   --rewrite, -r        Rewrite all files, discarding existing cruises
+  --force-create, -f   Create files even if they already exist (default: only create if missing)
   --help, -h           Display this help message
     `);
     process.exit(0);
@@ -44,8 +50,9 @@ Options:
 
 console.log(`Running with options:
 - ${forceRewrite ? "Rewriting all files" : "Preserving existing files"}
+- ${forceCreate ? "Creating files even if they exist" : "Only creating files that don't exist"}
 - ${forceRewrite ? "Creating" : "Appending"} ${cruisesToAppend} cruises ${forceRewrite ? "per city" : "to each file"}
-`);
+`;
 
 // Function to convert kebab case to camelCase
 function kebabToCamelCase(str) {
@@ -174,6 +181,10 @@ const regionalDestinations = {
     "George Town",
     "Roatán",
     "Philipsburg",
+    "Miami",
+    "Fort Lauderdale",
+    "Tampa",
+    "Bermuda",
   ],
   Mediterranean: [
     "Barcelona",
@@ -183,6 +194,10 @@ const regionalDestinations = {
     "Mykonos",
     "Malta",
     "Dubrovnik",
+    "Florence",
+    "Venice",
+    "Milan",
+    "Lisbon",
   ],
   Alaska: [
     "Juneau",
@@ -191,6 +206,8 @@ const regionalDestinations = {
     "Sitka",
     "Victoria",
     "Glacier Bay",
+    "Seattle",
+    "Vancouver",
   ],
   "Asia Pacific": [
     "Tokyo",
@@ -200,6 +217,11 @@ const regionalDestinations = {
     "Ho Chi Minh City",
     "Bali",
     "Sydney",
+    "Auckland",
+    "Hong Kong",
+    "Melbourne",
+    "Kyoto",
+    "Yokohama",
   ],
   "Northern Europe": [
     "Copenhagen",
@@ -208,6 +230,12 @@ const regionalDestinations = {
     "Tallinn",
     "St. Petersburg",
     "Oslo",
+    "Amsterdam",
+    "Berlin",
+    "Dublin",
+    "Kiel",
+    "London",
+    "Southampton",
   ],
   "South America": [
     "Rio de Janeiro",
@@ -217,6 +245,18 @@ const regionalDestinations = {
     "Santiago",
     "Cartagena",
   ],
+  "North America East Coast": [
+    "Boston",
+    "New York City",
+    "Charleston",
+    "Montreal",
+    "Quebec City",
+    "Toronto",
+  ],
+  "Gulf Coast": ["New Orleans", "Galveston"],
+  "Middle East": ["Dubai"],
+  Africa: ["Cape Town"],
+  "Western Europe": ["Paris", "Los Angeles", "San Francisco"],
 };
 
 const masculineNames = [
@@ -1886,6 +1926,12 @@ for (const city of cityFiles) {
   let fileAction = "Created";
 
   try {
+    // Check if file exists and we should skip it
+    if (fs.existsSync(cruiseFilePath) && !forceRewrite && !forceCreate && !APPEND_MODE) {
+      console.log(`Skipping ${cruiseFilePath}: File already exists`);
+      continue; // Skip to next city
+    }
+
     // Check if file already exists and we're not forcing a rewrite
     if (fs.existsSync(cruiseFilePath) && !forceRewrite) {
       // Read existing file content
@@ -2097,11 +2143,11 @@ ${combinedCruises}
   } catch (error) {
     console.error(`Error processing cruise file for ${city}:`, error);
   }
-}
 
-console.log(`\nSummary:`);
-console.log(`Created ${createdFiles} new cruise files`);
-console.log(`Updated ${updatedFiles} existing cruise files`);
-console.log(`Rewritten ${rewrittenFiles} existing cruise files`);
-console.log(`Total cities processed: ${cityFiles.length}`);
-console.log(`Total new cruises created: ${totalCruisesCreated}`);
+
+
+
+
+
+
+console.log(`Total cities processed: ${cityFiles.length}`);console.log(`Rewritten ${rewrittenFiles} existing cruise files`);console.log(`Updated ${updatedFiles} existing cruise files`);console.log(`Created ${createdFiles} new cruise files`);console.log(`\nSummary:`);}console.log(`Total new cruises created: ${totalCruisesCreated}`);
